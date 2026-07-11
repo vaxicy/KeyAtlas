@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KeyAtlas</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="app">
+    <!-- Header -->
+    <header class="header">
+      <div class="brand">
+        <img src="icons/icon-48.png" alt="KeyAtlas" class="brand-logo" />
+        <div class="brand-text">
+          <span class="brand-name" data-i18n="appName">KeyAtlas</span>
+          <span class="brand-tag" data-i18n="tagline">Shortcut Search Engine</span>
+        </div>
+      </div>
+      <button id="settingsBtn" class="icon-btn" title="Settings" aria-label="Settings">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="3"></circle>
+          <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+        </svg>
+      </button>
+    </header>
+
+    <!-- Search bar -->
+    <div class="searchbar">
+      <svg class="search-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+      <input id="searchInput" type="text" autocomplete="off" spellcheck="false" />
+      <button id="clearSearch" class="clear-btn" aria-label="Clear" hidden>&times;</button>
+    </div>
+
+    <!-- Settings panel (collapsible) -->
+    <div id="settingsPanel" class="settings-panel" hidden>
+      <div class="setting-row">
+        <span class="setting-label" data-i18n="langLabel">Language</span>
+        <div class="segmented" id="langToggle">
+          <button data-lang="en">EN</button>
+          <button data-lang="zh">中文</button>
+        </div>
+      </div>
+      <div class="setting-row">
+        <span class="setting-label" data-i18n="themeLabel">Theme</span>
+        <div class="segmented" id="themeToggle">
+          <button data-theme="light" data-i18n="themeLight">Light</button>
+          <button data-theme="dark" data-i18n="themeDark">Dark</button>
+        </div>
+      </div>
+      <div class="setting-row">
+        <span class="setting-label" data-i18n="osLabel">Your OS</span>
+        <div class="segmented" id="osToggle">
+          <button data-os="windows" data-i18n="os_windows">Windows</button>
+          <button data-os="mac" data-i18n="os_mac">macOS</button>
+          <button data-os="linux" data-i18n="os_linux">Linux</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tabs -->
+    <nav class="tabs" id="tabs">
+      <button class="tab active" data-tab="search" data-i18n="tabSearch">Search</button>
+      <button class="tab" data-tab="categories" data-i18n="tabCategories">Categories</button>
+      <button class="tab" data-tab="favorites" data-i18n="tabFavorites">Favorites</button>
+      <button class="tab" data-tab="recent" data-i18n="tabRecent">Recent</button>
+    </nav>
+
+    <!-- Content -->
+    <main id="content" class="content">
+      <div class="loading" data-i18n="loading">Loading…</div>
+    </main>
+
+    <div id="toast" class="toast" hidden></div>
+  </div>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/search.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

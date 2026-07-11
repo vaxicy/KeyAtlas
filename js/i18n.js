@@ -1,0 +1,113 @@
+/**
+ * KeyAtlas i18n module
+ * All UI strings live here. Dynamic text MUST reference t.<key> — never hardcode.
+ * Language priority: URL ?lang= > localStorage > navigator.language.
+ */
+const I18N = {
+  en: {
+    appName: "KeyAtlas",
+    tagline: "Shortcut Search Engine",
+    searchPlaceholder: "Search action, app or key…",
+    tabSearch: "Search",
+    tabCategories: "Categories",
+    tabFavorites: "Favorites",
+    tabRecent: "Recent",
+    settings: "Settings",
+    osLabel: "Your OS",
+    langLabel: "Language",
+    themeLabel: "Theme",
+    themeLight: "Light",
+    themeDark: "Dark",
+    all: "All",
+    resultsCount: "{n} shortcuts",
+    noResults: "No shortcuts found",
+    noResultsHint: "Try another keyword or app name.",
+    startTyping: "Type to search shortcuts",
+    startTypingHint: "e.g. copy, screenshot, VS Code",
+    emptyFavorites: "No favorites yet",
+    emptyFavoritesHint: "Tap the star on any shortcut to save it.",
+    emptyRecent: "No recent shortcuts",
+    emptyRecentHint: "Shortcuts you view will appear here.",
+    clear: "Clear",
+    back: "Back",
+    copied: "Copied!",
+    addFav: "Add to favorites",
+    removeFav: "Remove from favorites",
+    os_windows: "Windows",
+    os_mac: "macOS",
+    os_linux: "Linux",
+    loading: "Loading…"
+  },
+  zh: {
+    appName: "KeyAtlas",
+    tagline: "快捷键搜索引擎",
+    searchPlaceholder: "搜索操作、软件或按键…",
+    tabSearch: "搜索",
+    tabCategories: "分类",
+    tabFavorites: "收藏",
+    tabRecent: "最近",
+    settings: "设置",
+    osLabel: "当前系统",
+    langLabel: "语言",
+    themeLabel: "主题",
+    themeLight: "浅色",
+    themeDark: "深色",
+    all: "全部",
+    resultsCount: "{n} 条快捷键",
+    noResults: "未找到快捷键",
+    noResultsHint: "换个关键词或软件名试试。",
+    startTyping: "输入以搜索快捷键",
+    startTypingHint: "例如：复制、截图、VS Code",
+    emptyFavorites: "还没有收藏",
+    emptyFavoritesHint: "点击任意快捷键上的星标即可收藏。",
+    emptyRecent: "还没有最近记录",
+    emptyRecentHint: "查看过的快捷键会显示在这里。",
+    clear: "清空",
+    back: "返回",
+    copied: "已复制！",
+    addFav: "加入收藏",
+    removeFav: "取消收藏",
+    os_windows: "Windows",
+    os_mac: "macOS",
+    os_linux: "Linux",
+    loading: "加载中…"
+  }
+};
+
+const LANG_KEY = "keyatlas_lang";
+
+function detectLang() {
+  const params = new URLSearchParams(location.search);
+  const urlLang = params.get("lang");
+  if (urlLang && I18N[urlLang]) {
+    localStorage.setItem(LANG_KEY, urlLang);
+    return urlLang;
+  }
+  const stored = localStorage.getItem(LANG_KEY);
+  if (stored && I18N[stored]) return stored;
+  const nav = (navigator.language || "en").toLowerCase();
+  return nav.startsWith("zh") ? "zh" : "en";
+}
+
+const i18n = {
+  lang: detectLang(),
+  get t() {
+    return I18N[this.lang];
+  },
+  setLang(lang) {
+    if (!I18N[lang]) return;
+    this.lang = lang;
+    localStorage.setItem(LANG_KEY, lang);
+  },
+  /** Resolve a bilingual {zh,en} field to the current language. */
+  pick(obj) {
+    if (!obj) return "";
+    return obj[this.lang] || obj.en || obj.zh || "";
+  },
+  /** Simple {n} interpolation. */
+  format(str, vars) {
+    return str.replace(/\{(\w+)\}/g, (_, k) => (vars && vars[k] != null ? vars[k] : ""));
+  }
+};
+
+window.i18n = i18n;

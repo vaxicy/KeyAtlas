@@ -1,0 +1,18 @@
+[
+  { "id": "windows",  "name": { "zh": "Windows",        "en": "Windows" },        "category": "system",       "icon": "🪟", "type": "system", "file": "windows.json" },
+  { "id": "macos",    "name": { "zh": "macOS",          "en": "macOS" },          "category": "system",       "icon": "🍎", "type": "system", "file": "macos.json" },
+  { "id": "linux",    "name": { "zh": "Linux",          "en": "Linux" },          "category": "system",       "icon": "🐧", "type": "system", "file": "linux.json" },
+  { "id": "chrome",   "name": { "zh": "Chrome",         "en": "Chrome" },         "category": "browser",      "icon": "🌐", "type": "software", "file": "chrome.json" },
+  { "id": "devtools", "name": { "zh": "Chrome DevTools","en": "Chrome DevTools" },"category": "development",   "icon": "🛠️", "type": "software", "file": "devtools.json" },
+  { "id": "figma",    "name": { "zh": "Figma",          "en": "Figma" },          "category": "design",       "icon": "🎨", "type": "software", "file": "figma.json" },
+  { "id": "photoshop","name": { "zh": "Photoshop",      "en": "Photoshop" },      "category": "design",       "icon": "🖼️", "type": "software", "file": "photoshop.json" },
+  { "id": "illustrator","name": { "zh": "Illustrator",  "en": "Illustrator" },    "category": "design",       "icon": "✒️", "type": "software", "file": "illustrator.json" },
+  { "id": "blender",  "name": { "zh": "Blender",        "en": "Blender" },        "category": "design",       "icon": "🧊", "type": "software", "file": "blender.json" },
+  { "id": "vscode",   "name": { "zh": "VS Code",        "en": "VS Code" },        "category": "development",   "icon": "💻", "type": "software", "file": "vscode.json" },
+  { "id": "git",      "name": { "zh": "Git",            "en": "Git" },            "category": "development",   "icon": "🔀", "type": "software", "file": "git.json" },
+  { "id": "github",   "name": { "zh": "GitHub",         "en": "GitHub" },         "category": "development",   "icon": "🐙", "type": "software", "file": "github.json" },
+  { "id": "excel",    "name": { "zh": "Excel",          "en": "Excel" },          "category": "productivity", "icon": "📊", "type": "software", "file": "excel.json" },
+  { "id": "word",     "name": { "zh": "Word",           "en": "Word" },           "category": "productivity", "icon": "📝", "type": "software", "file": "word.json" },
+  { "id": "powerpoint","name": { "zh": "PowerPoint",    "en": "PowerPoint" },     "category": "productivity", "icon": "📽️", "type": "software", "file": "powerpoint.json" },
+  { "id": "notion",   "name": { "zh": "Notion",         "en": "Notion" },         "category": "productivity", "icon": "📒", "type": "software", "file": "notion.json" }
+]

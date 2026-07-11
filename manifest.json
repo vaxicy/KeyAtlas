@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "KeyAtlas – Shortcut Search Engine",
+  "version": "1.0.0",
+  "description": "Instantly find keyboard shortcuts for your OS and favorite apps. Bilingual (EN/中文), fast, offline.",
+  "icons": {
+    "16": "icons/icon-16.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "KeyAtlas",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "48": "icons/icon-48.png",
+      "128": "icons/icon-128.png"
+    }
+  },
+  "permissions": ["storage"],
+  "web_accessible_resources": [
+    {
+      "resources": ["data/*"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

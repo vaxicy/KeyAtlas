@@ -26,6 +26,7 @@ const I18N = {
     startTypingHint: "e.g. copy, screenshot, VS Code",
     emptyFavorites: "No favorites yet",
     emptyFavoritesHint: "Tap the star on any shortcut to save it.",
+    emptyFavoritesAction: "Browse shortcuts",
     emptyRecent: "No recent shortcuts",
     emptyRecentHint: "Shortcuts you view will appear here.",
     clear: "Clear",
@@ -36,7 +37,19 @@ const I18N = {
     os_windows: "Windows",
     os_mac: "macOS",
     os_linux: "Linux",
-    loading: "Loading…"
+    loading: "Loading…",
+    settingsTitle: "Settings",
+    close: "Close",
+    filterLabel: "System",
+    advancedFilters: "Advanced filters",
+    syncLabel: "Sync settings",
+    syncHint: "Sync across devices (requires sign-in).",
+    syncOff: "Off",
+    syncOn: "On",
+    aboutTitle: "About KeyAtlas",
+    aboutDesc: "A fast, offline shortcut search engine for your OS and favorite apps.",
+    aboutVersion: "Version {n}",
+    browse: "Browse"
   },
   zh: {
     appName: "KeyAtlas",
@@ -60,6 +73,7 @@ const I18N = {
     startTypingHint: "例如：复制、截图、VS Code",
     emptyFavorites: "还没有收藏",
     emptyFavoritesHint: "点击任意快捷键上的星标即可收藏。",
+    emptyFavoritesAction: "去浏览快捷键",
     emptyRecent: "还没有最近记录",
     emptyRecentHint: "查看过的快捷键会显示在这里。",
     clear: "清空",
@@ -70,7 +84,19 @@ const I18N = {
     os_windows: "Windows",
     os_mac: "macOS",
     os_linux: "Linux",
-    loading: "加载中…"
+    loading: "加载中…",
+    settingsTitle: "设置",
+    close: "关闭",
+    filterLabel: "系统",
+    advancedFilters: "高级筛选",
+    syncLabel: "同步设置",
+    syncHint: "跨设备同步（需登录账号）。",
+    syncOff: "关闭",
+    syncOn: "开启",
+    aboutTitle: "关于 KeyAtlas",
+    aboutDesc: "一个快速、离线的快捷键搜索引擎，覆盖你的系统与常用软件。",
+    aboutVersion: "版本 {n}",
+    browse: "浏览"
   }
 };
 

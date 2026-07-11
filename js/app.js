@@ -16,17 +16,36 @@
     favSet: new Set()
   };
 
+  const OS_META = {
+    windows: { icon: "🪟", key: "os_windows" },
+    mac: { icon: "🍎", key: "os_mac" },
+    linux: { icon: "🐧", key: "os_linux" }
+  };
+
   // Cached DOM
   const el = {
     content: document.getElementById("content"),
     searchInput: document.getElementById("searchInput"),
     clearSearch: document.getElementById("clearSearch"),
     tabs: document.getElementById("tabs"),
+    // settings overlay
     settingsBtn: document.getElementById("settingsBtn"),
     settingsPanel: document.getElementById("settingsPanel"),
-    langToggle: document.getElementById("langToggle"),
-    themeToggle: document.getElementById("themeToggle"),
+    settingsBackdrop: document.getElementById("settingsBackdrop"),
+    closeSettings: document.getElementById("closeSettings"),
+    setLang: document.getElementById("setLang"),
+    setTheme: document.getElementById("setTheme"),
+    setOs: document.getElementById("setOs"),
+    syncToggle: document.getElementById("syncToggle"),
+    aboutVersion: document.getElementById("aboutVersion"),
+    // filter popover
+    filterChip: document.getElementById("filterChip"),
+    filterPop: document.getElementById("filterPop"),
+    filterChipIcon: document.getElementById("filterChipIcon"),
+    filterChipLabel: document.getElementById("filterChipLabel"),
     osToggle: document.getElementById("osToggle"),
+    themeToggle: document.getElementById("themeToggle"),
+    langToggle: document.getElementById("langToggle"),
     toast: document.getElementById("toast")
   };
 
@@ -47,7 +66,9 @@
     });
     el.searchInput.placeholder = t.searchPlaceholder;
     el.settingsBtn.title = t.settings;
+    el.settingsBtn.setAttribute("aria-label", t.settings);
     document.documentElement.lang = i18n.lang;
+    if (el.aboutVersion) el.aboutVersion.textContent = i18n.format(t.aboutVersion, { n: "1.0.0" });
   }
 
   /* ---------- Toast ---------- */
@@ -68,7 +89,6 @@
     return s[state.os] || s.windows || s.mac || s.linux || "—";
   }
   function renderKeys(combo) {
-    // Split on + but keep multi-word tokens; also handle " / " alternatives.
     return combo
       .split(/\s*\+\s*/)
       .map((k) => k.trim())
@@ -87,6 +107,10 @@
   function cardHTML(s) {
     const app = DataStore.getApp(s.appId);
     const appName = app ? escapeHTML(i18n.pick(app.name)) : "";
+    const cat = app ? DataStore.getCategory(app.category) : null;
+    const catTag = cat
+      ? `<span class="card-cat">${cat.icon || "🏷️"} ${escapeHTML(i18n.pick(cat.name))}</span>`
+      : "";
     const fav = state.favSet.has(s.id);
     const t = i18n.t;
     return `
@@ -96,7 +120,10 @@
             <span class="card-title">${escapeHTML(i18n.pick(s.name))}</span>
             ${appName ? `<span class="card-app">${appName}</span>` : ""}
           </div>
-          <div class="card-desc">${escapeHTML(i18n.pick(s.description))}</div>
+          <div class="card-meta">
+            ${catTag}
+            <span class="card-desc">${escapeHTML(i18n.pick(s.description))}</span>
+          </div>
         </div>
         <div class="card-keys">${renderKeys(keyForOS(s))}</div>
         <button class="star-btn ${fav ? "active" : ""}" data-star="${s.id}"
@@ -202,7 +229,13 @@
     const ids = await store.getFavorites();
     const items = DataStore.getShortcutsByIds(ids);
     if (!items.length) {
-      el.content.innerHTML = emptyHTML("⭐", t.emptyFavorites, t.emptyFavoritesHint);
+      el.content.innerHTML = `
+        <div class="empty">
+          <span class="empty-emoji">⭐</span>
+          <div class="empty-title">${t.emptyFavorites}</div>
+          <div class="empty-hint">${t.emptyFavoritesHint}</div>
+          <button class="empty-action" data-browse="categories">${t.emptyFavoritesAction}</button>
+        </div>`;
       return;
     }
     el.content.innerHTML = listHTML(items);
@@ -242,7 +275,6 @@
       if (nowFav) state.favSet.add(id);
       else state.favSet.delete(id);
       toast(nowFav ? i18n.t.addFav : i18n.t.removeFav);
-      // Re-render current view to reflect state
       if (state.tab === "favorites") renderFavorites();
       else render();
       return;
@@ -251,6 +283,12 @@
     if (e.target.closest("#clearRecent")) {
       await store.clearRecent();
       renderRecent();
+      return;
+    }
+
+    const browse = e.target.closest("[data-browse]");
+    if (browse) {
+      setTab(browse.dataset.browse);
       return;
     }
 
@@ -310,20 +348,91 @@
   }
 
   function setActiveSegment(container, attr, value) {
+    if (!container) return;
     container.querySelectorAll("button").forEach((b) =>
       b.classList.toggle("active", b.dataset[attr] === value)
     );
   }
 
+  function updateFilterChip() {
+    const m = OS_META[state.os] || OS_META.windows;
+    el.filterChipIcon.textContent = m.icon;
+    el.filterChipLabel.textContent = i18n.t[m.key];
+  }
+
   function applyTheme(theme) {
     document.documentElement.setAttribute("data-theme", theme);
     setActiveSegment(el.themeToggle, "theme", theme);
+    setActiveSegment(el.setTheme, "theme", theme);
+  }
+
+  function bindSegment(container, attr, onPick) {
+    if (!container) return;
+    container.addEventListener("click", (e) => {
+      const btn = e.target.closest(`[data-${attr}]`);
+      if (!btn) return;
+      onPick(btn.dataset[attr]);
+    });
+  }
+
+  function pickOS(os) {
+    state.os = os;
+    setActiveSegment(el.osToggle, "os", os);
+    setActiveSegment(el.setOs, "os", os);
+    updateFilterChip();
+    render();
+  }
+
+  function pickTheme(theme) {
+    applyTheme(theme);
+    store.setTheme(theme);
+  }
+
+  function pickLang(lang) {
+    i18n.setLang(lang);
+    setActiveSegment(el.langToggle, "lang", lang);
+    setActiveSegment(el.setLang, "lang", lang);
+    applyStaticI18n();
+    updateFilterChip();
+    render();
+  }
+
+  /* ---------- Settings overlay ---------- */
+  function openSettings() {
+    closeFilter();
+    el.settingsBackdrop.hidden = false;
+    el.settingsPanel.hidden = false;
+    el.settingsPanel.setAttribute("aria-hidden", "false");
+    requestAnimationFrame(() => {
+      el.settingsBackdrop.classList.add("show");
+      el.settingsPanel.classList.add("open");
+    });
+  }
+  function closeSettings() {
+    el.settingsBackdrop.classList.remove("show");
+    el.settingsPanel.classList.remove("open");
+    el.settingsPanel.setAttribute("aria-hidden", "true");
+    setTimeout(() => {
+      el.settingsBackdrop.hidden = true;
+      el.settingsPanel.hidden = true;
+    }, 220);
+  }
+
+  /* ---------- Filter popover ---------- */
+  function openFilter() {
+    el.filterPop.hidden = false;
+    el.filterChip.setAttribute("aria-expanded", "true");
+  }
+  function closeFilter() {
+    el.filterPop.hidden = true;
+    el.filterChip.setAttribute("aria-expanded", "false");
   }
 
   /* ---------- Init ---------- */
   async function init() {
-    // language buttons
+    // language
     setActiveSegment(el.langToggle, "lang", i18n.lang);
+    setActiveSegment(el.setLang, "lang", i18n.lang);
     applyStaticI18n();
 
     // theme
@@ -333,6 +442,12 @@
     // OS
     state.os = detectOS();
     setActiveSegment(el.osToggle, "os", state.os);
+    setActiveSegment(el.setOs, "os", state.os);
+    updateFilterChip();
+
+    // sync toggle
+    const sync = await store.getSync();
+    el.syncToggle.setAttribute("aria-checked", String(!!sync));
 
     // Load data
     try {
@@ -369,34 +484,34 @@
       renderSearch();
     });
 
-    el.settingsBtn.addEventListener("click", () => {
-      const willShow = el.settingsPanel.hidden;
-      el.settingsPanel.hidden = !willShow;
-      el.settingsBtn.classList.toggle("active", willShow);
+    // settings overlay
+    el.settingsBtn.addEventListener("click", openSettings);
+    el.closeSettings.addEventListener("click", closeSettings);
+    el.settingsBackdrop.addEventListener("click", closeSettings);
+
+    // filter popover
+    el.filterChip.addEventListener("click", () => {
+      if (el.filterPop.hidden) openFilter();
+      else closeFilter();
+    });
+    document.addEventListener("click", (e) => {
+      if (!el.filterPop.hidden && !e.target.closest(".filterbar")) closeFilter();
     });
 
-    el.langToggle.addEventListener("click", (e) => {
-      const btn = e.target.closest("[data-lang]");
-      if (!btn) return;
-      i18n.setLang(btn.dataset.lang);
-      setActiveSegment(el.langToggle, "lang", i18n.lang);
-      applyStaticI18n();
-      render(); // refresh dynamic region
-    });
+    // segmented bindings (filter popover + settings panel share state)
+    bindSegment(el.osToggle, "os", pickOS);
+    bindSegment(el.setOs, "os", pickOS);
+    bindSegment(el.themeToggle, "theme", pickTheme);
+    bindSegment(el.setTheme, "theme", pickTheme);
+    bindSegment(el.langToggle, "lang", pickLang);
+    bindSegment(el.setLang, "lang", pickLang);
 
-    el.themeToggle.addEventListener("click", (e) => {
-      const btn = e.target.closest("[data-theme]");
-      if (!btn) return;
-      applyTheme(btn.dataset.theme);
-      store.setTheme(btn.dataset.theme);
-    });
-
-    el.osToggle.addEventListener("click", (e) => {
-      const btn = e.target.closest("[data-os]");
-      if (!btn) return;
-      state.os = btn.dataset.os;
-      setActiveSegment(el.osToggle, "os", state.os);
-      render(); // key display depends on OS
+    // sync toggle
+    el.syncToggle.addEventListener("click", async () => {
+      const next = el.syncToggle.getAttribute("aria-checked") !== "true";
+      el.syncToggle.setAttribute("aria-checked", String(next));
+      await store.setSync(next);
+      toast(next ? i18n.t.syncOn : i18n.t.syncOff);
     });
 
     el.content.addEventListener("click", onContentClick);

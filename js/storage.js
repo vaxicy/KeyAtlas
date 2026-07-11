@@ -6,7 +6,8 @@
 const KEYS = {
   favorites: "keyatlas_favorites",
   recent: "keyatlas_recent",
-  theme: "keyatlas_theme"
+  theme: "keyatlas_theme",
+  sync: "keyatlas_sync"
 };
 
 const RECENT_LIMIT = 50;
@@ -75,6 +76,12 @@ const store = {
   },
   async setTheme(theme) {
     await set(KEYS.theme, theme);
+  },
+  async getSync() {
+    return (await get(KEYS.sync)) || false;
+  },
+  async setSync(on) {
+    await set(KEYS.sync, !!on);
   }
 };
 

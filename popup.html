@@ -8,7 +8,7 @@
 </head>
 <body>
   <div class="app">
-    <!-- Header -->
+    <!-- Header (compact) -->
     <header class="header">
       <div class="brand">
         <img src="icons/icon-48.png" alt="KeyAtlas" class="brand-logo" />
@@ -25,7 +25,7 @@
       </button>
     </header>
 
-    <!-- Search bar -->
+    <!-- Search bar (core entry) -->
     <div class="searchbar">
       <svg class="search-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <circle cx="11" cy="11" r="8"></circle>
@@ -35,33 +35,43 @@
       <button id="clearSearch" class="clear-btn" aria-label="Clear" hidden>&times;</button>
     </div>
 
-    <!-- Settings panel (collapsible) -->
-    <div id="settingsPanel" class="settings-panel" hidden>
-      <div class="setting-row">
-        <span class="setting-label" data-i18n="langLabel">Language</span>
-        <div class="segmented" id="langToggle">
-          <button data-lang="en">EN</button>
-          <button data-lang="zh">中文</button>
+    <!-- Collapsed filter bar (default shows current system only) -->
+    <div class="filterbar">
+      <button id="filterChip" class="filter-chip" aria-expanded="false">
+        <span id="filterChipIcon" class="filter-chip-icon">🪟</span>
+        <span id="filterChipLabel" class="filter-chip-label">Windows</span>
+        <svg class="filter-chip-caret" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="6 9 12 15 18 9"></polyline>
+        </svg>
+      </button>
+      <div id="filterPop" class="filter-pop" hidden>
+        <div class="filter-pop-head" data-i18n="advancedFilters">Advanced filters</div>
+        <div class="setting-row">
+          <span class="setting-label" data-i18n="filterLabel">System</span>
+          <div class="segmented" id="osToggle">
+            <button data-os="windows" data-i18n="os_windows">Windows</button>
+            <button data-os="mac" data-i18n="os_mac">macOS</button>
+            <button data-os="linux" data-i18n="os_linux">Linux</button>
+          </div>
         </div>
-      </div>
-      <div class="setting-row">
-        <span class="setting-label" data-i18n="themeLabel">Theme</span>
-        <div class="segmented" id="themeToggle">
-          <button data-theme="light" data-i18n="themeLight">Light</button>
-          <button data-theme="dark" data-i18n="themeDark">Dark</button>
+        <div class="setting-row">
+          <span class="setting-label" data-i18n="themeLabel">Theme</span>
+          <div class="segmented" id="themeToggle">
+            <button data-theme="light" data-i18n="themeLight">Light</button>
+            <button data-theme="dark" data-i18n="themeDark">Dark</button>
+          </div>
         </div>
-      </div>
-      <div class="setting-row">
-        <span class="setting-label" data-i18n="osLabel">Your OS</span>
-        <div class="segmented" id="osToggle">
-          <button data-os="windows" data-i18n="os_windows">Windows</button>
-          <button data-os="mac" data-i18n="os_mac">macOS</button>
-          <button data-os="linux" data-i18n="os_linux">Linux</button>
+        <div class="setting-row">
+          <span class="setting-label" data-i18n="langLabel">Language</span>
+          <div class="segmented" id="langToggle">
+            <button data-lang="en">EN</button>
+            <button data-lang="zh">中文</button>
+          </div>
         </div>
       </div>
     </div>
 
-    <!-- Tabs -->
+    <!-- Tabs (capsule) -->
     <nav class="tabs" id="tabs">
       <button class="tab active" data-tab="search" data-i18n="tabSearch">Search</button>
       <button class="tab" data-tab="categories" data-i18n="tabCategories">Categories</button>
@@ -73,6 +83,58 @@
     <main id="content" class="content">
       <div class="loading" data-i18n="loading">Loading…</div>
     </main>
+
+    <!-- Settings slide-in overlay -->
+    <div id="settingsBackdrop" class="settings-backdrop" hidden></div>
+    <aside id="settingsPanel" class="settings-panel" hidden aria-hidden="true">
+      <div class="settings-head">
+        <span class="settings-title" data-i18n="settingsTitle">Settings</span>
+        <button id="closeSettings" class="icon-btn" title="Close" aria-label="Close">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+      <div class="settings-body">
+        <div class="setting-block">
+          <span class="setting-block-label" data-i18n="langLabel">Language</span>
+          <div class="segmented" id="setLang">
+            <button data-lang="en">EN</button>
+            <button data-lang="zh">中文</button>
+          </div>
+        </div>
+        <div class="setting-block">
+          <span class="setting-block-label" data-i18n="themeLabel">Theme</span>
+          <div class="segmented" id="setTheme">
+            <button data-theme="light" data-i18n="themeLight">Light</button>
+            <button data-theme="dark" data-i18n="themeDark">Dark</button>
+          </div>
+        </div>
+        <div class="setting-block">
+          <span class="setting-block-label" data-i18n="osLabel">Your OS</span>
+          <div class="segmented" id="setOs">
+            <button data-os="windows" data-i18n="os_windows">Windows</button>
+            <button data-os="mac" data-i18n="os_mac">macOS</button>
+            <button data-os="linux" data-i18n="os_linux">Linux</button>
+          </div>
+        </div>
+        <div class="setting-block setting-block-row">
+          <div class="setting-block-text">
+            <span class="setting-block-label" data-i18n="syncLabel">Sync settings</span>
+            <span class="setting-block-hint" data-i18n="syncHint">Sync across devices (requires sign-in).</span>
+          </div>
+          <button id="syncToggle" class="switch" role="switch" aria-checked="false">
+            <span class="switch-knob"></span>
+          </button>
+        </div>
+        <div class="setting-block about">
+          <span class="setting-block-label" data-i18n="aboutTitle">About KeyAtlas</span>
+          <p class="about-desc" data-i18n="aboutDesc">A fast, offline shortcut search engine for your OS and favorite apps.</p>
+          <span class="about-version" id="aboutVersion">Version 1.0.0</span>
+        </div>
+      </div>
+    </aside>
 
     <div id="toast" class="toast" hidden></div>
   </div>

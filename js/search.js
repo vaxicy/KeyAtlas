@@ -31,7 +31,12 @@ const SearchEngine = {
       if (score > 0) scored.push({ s, score });
     }
 
-    scored.sort((a, b) => b.score - a.score);
+    scored.sort((a, b) => {
+      if (b.score !== a.score) return b.score - a.score;
+      const ta = this._typeRank(a.s), tb = this._typeRank(b.s);
+      if (ta !== tb) return ta - tb;
+      return this._appName(a.s).localeCompare(this._appName(b.s));
+    });
     const list = scored.map((x) => x.s);
     return opts.limit ? list.slice(0, opts.limit) : list;
   },
@@ -45,7 +50,7 @@ const SearchEngine = {
       descEn: (s.description?.en || "").toLowerCase(),
       keywords: (s.keywords || []).join(" ").toLowerCase(),
       appName: app ? `${app.name?.zh || ""} ${app.name?.en || ""}`.toLowerCase() : "",
-      keys: `${s.windows || ""} ${s.mac || ""} ${s.linux || ""}`.toLowerCase()
+      keys: `${s.windows || ""} ${s.mac || ""} ${s.linux || ""}`.toLowerCase().replace(/\s*\+\s*/g, "+")
     };
 
     let total = 0;
@@ -62,6 +67,17 @@ const SearchEngine = {
       total += best;
     }
     return total;
+  },
+
+  /** Software shortcuts rank above system shortcuts (0 = software, 1 = system). */
+  _typeRank(s) {
+    const app = DataStore.getApp(s.appId);
+    return app && app.type === "software" ? 0 : 1;
+  },
+
+  _appName(s) {
+    const app = DataStore.getApp(s.appId);
+    return app ? `${app.name?.zh || ""} ${app.name?.en || ""}`.toLowerCase() : "";
   }
 };
 

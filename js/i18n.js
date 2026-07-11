@@ -7,7 +7,7 @@ const I18N = {
   en: {
     appName: "KeyAtlas",
     tagline: "Shortcut Search Engine",
-    searchPlaceholder: "Search action, app or key…",
+    searchPlaceholder: "Search action, app or shortcut…",
     tabSearch: "Search",
     tabCategories: "Categories",
     tabFavorites: "Favorites",
@@ -42,19 +42,21 @@ const I18N = {
     close: "Close",
     filterLabel: "System",
     advancedFilters: "Advanced filters",
-    syncLabel: "Sync settings",
-    syncHint: "Sync across devices (requires sign-in).",
-    syncOff: "Off",
-    syncOn: "On",
     aboutTitle: "About KeyAtlas",
     aboutDesc: "A fast, offline shortcut search engine for your OS and favorite apps.",
     aboutVersion: "Version {n}",
-    browse: "Browse"
+    browse: "Browse",
+    quickStart: "Quick start",
+    popularApps: "Popular apps",
+    trySearch: "Try searching",
+    grpSystem: "System",
+    grpSoftware: "Software",
+    grpScenes: "Scenes"
   },
   zh: {
     appName: "KeyAtlas",
     tagline: "快捷键搜索引擎",
-    searchPlaceholder: "搜索操作、软件或按键…",
+    searchPlaceholder: "搜索操作、软件或快捷键…",
     tabSearch: "搜索",
     tabCategories: "分类",
     tabFavorites: "收藏",
@@ -89,14 +91,16 @@ const I18N = {
     close: "关闭",
     filterLabel: "系统",
     advancedFilters: "高级筛选",
-    syncLabel: "同步设置",
-    syncHint: "跨设备同步（需登录账号）。",
-    syncOff: "关闭",
-    syncOn: "开启",
     aboutTitle: "关于 KeyAtlas",
     aboutDesc: "一个快速、离线的快捷键搜索引擎，覆盖你的系统与常用软件。",
     aboutVersion: "版本 {n}",
-    browse: "浏览"
+    browse: "浏览",
+    quickStart: "快速开始",
+    popularApps: "热门软件",
+    trySearch: "试试搜索",
+    grpSystem: "系统",
+    grpSoftware: "软件",
+    grpScenes: "场景"
   }
 };
 

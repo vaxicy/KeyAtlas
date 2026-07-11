@@ -11,8 +11,10 @@
     tab: "search",
     query: "",
     os: "windows",
-    category: null, // when drilled into a category
-    app: null, // when drilled into an app
+    category: null, // legacy, kept for compatibility
+    app: null, // legacy, kept for compatibility
+    catView: null, // categories home group: 'system' | 'software' | 'scenes' | null
+    catDrill: null, // drilled target: 'os:windows' | 'app:chrome' | 'cat:design' | null
     favSet: new Set()
   };
 
@@ -36,16 +38,7 @@
     setLang: document.getElementById("setLang"),
     setTheme: document.getElementById("setTheme"),
     setOs: document.getElementById("setOs"),
-    syncToggle: document.getElementById("syncToggle"),
     aboutVersion: document.getElementById("aboutVersion"),
-    // filter popover
-    filterChip: document.getElementById("filterChip"),
-    filterPop: document.getElementById("filterPop"),
-    filterChipIcon: document.getElementById("filterChipIcon"),
-    filterChipLabel: document.getElementById("filterChipLabel"),
-    osToggle: document.getElementById("osToggle"),
-    themeToggle: document.getElementById("themeToggle"),
-    langToggle: document.getElementById("langToggle"),
     toast: document.getElementById("toast")
   };
 
@@ -107,12 +100,15 @@
   function cardHTML(s) {
     const app = DataStore.getApp(s.appId);
     const appName = app ? escapeHTML(i18n.pick(app.name)) : "";
-    const cat = app ? DataStore.getCategory(app.category) : null;
-    const catTag = cat
-      ? `<span class="card-cat">${cat.icon || "🏷️"} ${escapeHTML(i18n.pick(cat.name))}</span>`
-      : "";
+    const isSystem = app && app.type === "system";
     const fav = state.favSet.has(s.id);
     const t = i18n.t;
+    const osMeta = OS_META[state.os] || OS_META.windows;
+    // System shortcuts already carry the OS in their app label, so we skip the
+    // redundant OS tag there; software shortcuts show which OS the key is for.
+    const osTag = isSystem
+      ? ""
+      : `<span class="card-os">${osMeta.icon} ${t[osMeta.key]}</span>`;
     return `
       <div class="card" data-id="${s.id}">
         <div class="card-main">
@@ -121,7 +117,7 @@
             ${appName ? `<span class="card-app">${appName}</span>` : ""}
           </div>
           <div class="card-meta">
-            ${catTag}
+            ${osTag}
             <span class="card-desc">${escapeHTML(i18n.pick(s.description))}</span>
           </div>
         </div>
@@ -162,7 +158,7 @@
     const t = i18n.t;
     const q = state.query.trim();
     if (!q) {
-      el.content.innerHTML = emptyHTML("🔍", t.startTyping, t.startTypingHint);
+      renderHomepage();
       return;
     }
     const results = SearchEngine.search(q);
@@ -173,48 +169,162 @@
     el.content.innerHTML = listHTML(results);
   }
 
+  /* ---------- Homepage (search-first landing) ---------- */
+  function quickStartItems() {
+    const terms = i18n.lang === "zh"
+      ? ["复制", "粘贴", "撤销", "截图"]
+      : ["copy", "paste", "undo", "screenshot"];
+    const seen = new Set();
+    const out = [];
+    for (const term of terms) {
+      const list = SearchEngine.search(term);
+      if (list.length) {
+        // Prefer the OS-level shortcut so Quick Start shows the native key
+        // (e.g. Ctrl+C on Windows, ⌘+C on macOS) as in the product spec.
+        const sys =
+          list.find((s) => {
+            const a = DataStore.getApp(s.appId);
+            return a && a.type === "system";
+          }) || list[0];
+        if (!seen.has(sys.id)) {
+          seen.add(sys.id);
+          out.push(sys);
+        }
+      }
+    }
+    return out;
+  }
+
+  function exampleChips() {
+    const zh = i18n.lang === "zh";
+    return [
+      { label: zh ? "复制" : "Copy", term: zh ? "复制" : "copy" },
+      { label: zh ? "截图" : "Screenshot", term: zh ? "截图" : "screenshot" },
+      { label: zh ? "刷新页面" : "Refresh page", term: zh ? "刷新页面" : "refresh" },
+      { label: "Ctrl + C", term: "ctrl+c" },
+      { label: "Figma", term: "Figma" },
+      { label: "VS Code", term: "VS Code" }
+    ];
+  }
+
+  function renderHomepage() {
+    const t = i18n.t;
+    const qsCards = quickStartItems().map(cardHTML).join("");
+    const popApps = ["chrome", "vscode", "figma", "photoshop", "excel"];
+    const popChips = popApps
+      .map((id) => {
+        const a = DataStore.getApp(id);
+        if (!a) return "";
+        return `<button class="pill" data-app="${id}">${a.icon || ""} ${escapeHTML(i18n.pick(a.name))}</button>`;
+      })
+      .join("");
+    const exChips = exampleChips()
+      .map((e) => `<button class="pill pill-ghost" data-example="${escapeHTML(e.term)}">${escapeHTML(e.label)}</button>`)
+      .join("");
+    el.content.innerHTML = `
+      <div class="home">
+        <div class="home-section">
+          <div class="home-title">${t.quickStart}</div>
+          <div class="home-cards">${qsCards}</div>
+        </div>
+        <div class="home-section">
+          <div class="home-title">${t.popularApps}</div>
+          <div class="pills">${popChips}</div>
+        </div>
+        <div class="home-section">
+          <div class="home-title">${t.trySearch}</div>
+          <div class="pills">${exChips}</div>
+        </div>
+      </div>`;
+  }
+
   function renderCategories() {
     const t = i18n.t;
-    // Drilled into an app
-    if (state.app) {
-      const app = DataStore.getApp(state.app);
-      const items = DataStore.getShortcutsByApp(state.app);
-      el.content.innerHTML =
-        subheadHTML(`${app.icon || ""} ${escapeHTML(i18n.pick(app.name))}`) + listHTML(items);
+    const d = state.catDrill;
+
+    // Drilled into a concrete target
+    if (d) {
+      const [kind, id] = d.split(":");
+      if (kind === "os") {
+        const items = DataStore.shortcuts.filter((s) => {
+          const a = DataStore.getApp(s.appId);
+          return a && a.type === "system" && s[id];
+        });
+        const m = OS_META[id] || OS_META.windows;
+        el.content.innerHTML = subheadHTML(`${m.icon} ${t[m.key]}`) + listHTML(items);
+        return;
+      }
+      if (kind === "app") {
+        const app = DataStore.getApp(id);
+        const items = DataStore.getShortcutsByApp(id);
+        el.content.innerHTML =
+          subheadHTML(`${app.icon || ""} ${escapeHTML(i18n.pick(app.name))}`) + listHTML(items);
+        return;
+      }
+      if (kind === "cat") {
+        const cat = DataStore.getCategory(id);
+        const apps = DataStore.apps.filter((a) => a.category === id);
+        const items = DataStore.getShortcutsByCategory(id);
+        const chips = apps
+          .map(
+            (a) =>
+              `<button class="chip" data-drill="app:${a.id}">${a.icon || ""} ${escapeHTML(i18n.pick(a.name))}</button>`
+          )
+          .join("");
+        el.content.innerHTML =
+          subheadHTML(`${cat.icon || ""} ${escapeHTML(i18n.pick(cat.name))}`) +
+          (chips ? `<div class="chips">${chips}</div>` : "") +
+          listHTML(items);
+        return;
+      }
+    }
+
+    // Group views
+    if (state.catView === "system") {
+      const tiles = ["windows", "mac", "linux"]
+        .map((id) => {
+          const m = OS_META[id];
+          return `<div class="cat-tile" data-drill="os:${id}"><span class="cat-emoji">${m.icon}</span><div class="cat-info"><span class="cat-name">${t[m.key]}</span></div></div>`;
+        })
+        .join("");
+      el.content.innerHTML = subheadHTML(t.grpSystem) + `<div class="cat-grid">${tiles}</div>`;
       return;
     }
-    // Drilled into a category -> show app chips + all shortcuts
-    if (state.category) {
-      const cat = DataStore.getCategory(state.category);
-      const apps = DataStore.apps.filter((a) => a.category === state.category);
-      const items = DataStore.getShortcutsByCategory(state.category);
+    if (state.catView === "software") {
+      const apps = DataStore.apps.filter((a) => a.type === "software");
       const chips = apps
         .map(
           (a) =>
-            `<button class="chip" data-app="${a.id}">${a.icon || ""} ${escapeHTML(i18n.pick(a.name))}</button>`
+            `<button class="chip" data-drill="app:${a.id}">${a.icon || ""} ${escapeHTML(i18n.pick(a.name))}</button>`
         )
         .join("");
-      el.content.innerHTML =
-        subheadHTML(`${cat.icon || ""} ${escapeHTML(i18n.pick(cat.name))}`) +
-        (chips ? `<div class="chips">${chips}</div>` : "") +
-        listHTML(items);
+      el.content.innerHTML = subheadHTML(t.grpSoftware) + `<div class="chips">${chips}</div>`;
       return;
     }
-    // Category grid
-    const grid = DataStore.categories
-      .map((c) => {
-        const count = DataStore.getShortcutsByCategory(c.id).length;
-        return `
-          <div class="cat-tile" data-cat="${c.id}">
-            <span class="cat-emoji">${c.icon || "📁"}</span>
-            <div class="cat-info">
-              <span class="cat-name">${escapeHTML(i18n.pick(c.name))}</span>
-              <span class="cat-count">${i18n.format(t.resultsCount, { n: count })}</span>
-            </div>
-          </div>`;
-      })
+    if (state.catView === "scenes") {
+      const tiles = DataStore.categories
+        .map((c) => {
+          const count = DataStore.getShortcutsByCategory(c.id).length;
+          return `<div class="cat-tile" data-drill="cat:${c.id}"><span class="cat-emoji">${c.icon || "📁"}</span><div class="cat-info"><span class="cat-name">${escapeHTML(i18n.pick(c.name))}</span><span class="cat-count">${i18n.format(t.resultsCount, { n: count })}</span></div></div>`;
+        })
+        .join("");
+      el.content.innerHTML = subheadHTML(t.grpScenes) + `<div class="cat-grid">${tiles}</div>`;
+      return;
+    }
+
+    // Categories home: three entry groups
+    const groups = [
+      { icon: "🖥️", label: t.grpSystem, view: "system" },
+      { icon: "🧩", label: t.grpSoftware, view: "software" },
+      { icon: "🗂️", label: t.grpScenes, view: "scenes" }
+    ];
+    const tiles = groups
+      .map(
+        (g) =>
+          `<div class="cat-tile" data-catview="${g.view}"><span class="cat-emoji">${g.icon}</span><div class="cat-info"><span class="cat-name">${g.label}</span></div></div>`
+      )
       .join("");
-    el.content.innerHTML = `<div class="cat-grid">${grid}</div>`;
+    el.content.innerHTML = `<div class="cat-grid">${tiles}</div>`;
   }
 
   function subheadHTML(title) {
@@ -256,13 +366,29 @@
   }
 
   /* ---------- Events ---------- */
+  function syncTabs() {
+    document.querySelectorAll(".tab").forEach((b) =>
+      b.classList.toggle("active", b.dataset.tab === state.tab)
+    );
+  }
+
   function setTab(tab) {
     state.tab = tab;
     state.category = null;
     state.app = null;
-    document.querySelectorAll(".tab").forEach((b) =>
-      b.classList.toggle("active", b.dataset.tab === tab)
-    );
+    state.catView = null;
+    state.catDrill = null;
+    el.searchInput.value = state.query;
+    el.clearSearch.hidden = !state.query;
+    syncTabs();
+    render();
+  }
+
+  function gotoApp(id) {
+    state.tab = "categories";
+    state.catView = null;
+    state.catDrill = "app:" + id;
+    syncTabs();
     render();
   }
 
@@ -294,15 +420,45 @@
 
     const back = e.target.closest("[data-back]");
     if (back) {
+      if (state.catDrill) state.catDrill = null;
+      else if (state.catView) state.catView = null;
       state.category = null;
       state.app = null;
       render();
       return;
     }
 
-    const catTile = e.target.closest("[data-cat]");
-    if (catTile) {
-      state.category = catTile.dataset.cat;
+    // Homepage: popular app -> open its shortcuts under Categories
+    const appPill = e.target.closest("[data-app]");
+    if (appPill) {
+      gotoApp(appPill.dataset.app);
+      return;
+    }
+
+    // Homepage: example chip -> fill search and run
+    const example = e.target.closest("[data-example]");
+    if (example) {
+      const term = example.dataset.example;
+      el.searchInput.value = term;
+      state.query = term;
+      el.clearSearch.hidden = false;
+      setTab("search");
+      el.searchInput.focus();
+      return;
+    }
+
+    // Categories: open a group
+    const catView = e.target.closest("[data-catview]");
+    if (catView) {
+      state.catView = catView.dataset.catview;
+      render();
+      return;
+    }
+
+    // Categories: drill into os / app / category
+    const drill = e.target.closest("[data-drill]");
+    if (drill) {
+      state.catDrill = drill.dataset.drill;
       render();
       return;
     }
@@ -354,15 +510,8 @@
     );
   }
 
-  function updateFilterChip() {
-    const m = OS_META[state.os] || OS_META.windows;
-    el.filterChipIcon.textContent = m.icon;
-    el.filterChipLabel.textContent = i18n.t[m.key];
-  }
-
   function applyTheme(theme) {
     document.documentElement.setAttribute("data-theme", theme);
-    setActiveSegment(el.themeToggle, "theme", theme);
     setActiveSegment(el.setTheme, "theme", theme);
   }
 
@@ -377,9 +526,7 @@
 
   function pickOS(os) {
     state.os = os;
-    setActiveSegment(el.osToggle, "os", os);
     setActiveSegment(el.setOs, "os", os);
-    updateFilterChip();
     render();
   }
 
@@ -390,16 +537,13 @@
 
   function pickLang(lang) {
     i18n.setLang(lang);
-    setActiveSegment(el.langToggle, "lang", lang);
     setActiveSegment(el.setLang, "lang", lang);
     applyStaticI18n();
-    updateFilterChip();
     render();
   }
 
   /* ---------- Settings overlay ---------- */
   function openSettings() {
-    closeFilter();
     el.settingsBackdrop.hidden = false;
     el.settingsPanel.hidden = false;
     el.settingsPanel.setAttribute("aria-hidden", "false");
@@ -418,20 +562,9 @@
     }, 220);
   }
 
-  /* ---------- Filter popover ---------- */
-  function openFilter() {
-    el.filterPop.hidden = false;
-    el.filterChip.setAttribute("aria-expanded", "true");
-  }
-  function closeFilter() {
-    el.filterPop.hidden = true;
-    el.filterChip.setAttribute("aria-expanded", "false");
-  }
-
   /* ---------- Init ---------- */
   async function init() {
     // language
-    setActiveSegment(el.langToggle, "lang", i18n.lang);
     setActiveSegment(el.setLang, "lang", i18n.lang);
     applyStaticI18n();
 
@@ -441,13 +574,7 @@
 
     // OS
     state.os = detectOS();
-    setActiveSegment(el.osToggle, "os", state.os);
     setActiveSegment(el.setOs, "os", state.os);
-    updateFilterChip();
-
-    // sync toggle
-    const sync = await store.getSync();
-    el.syncToggle.setAttribute("aria-checked", String(!!sync));
 
     // Load data
     try {
@@ -489,30 +616,10 @@
     el.closeSettings.addEventListener("click", closeSettings);
     el.settingsBackdrop.addEventListener("click", closeSettings);
 
-    // filter popover
-    el.filterChip.addEventListener("click", () => {
-      if (el.filterPop.hidden) openFilter();
-      else closeFilter();
-    });
-    document.addEventListener("click", (e) => {
-      if (!el.filterPop.hidden && !e.target.closest(".filterbar")) closeFilter();
-    });
-
-    // segmented bindings (filter popover + settings panel share state)
-    bindSegment(el.osToggle, "os", pickOS);
+    // segmented bindings (settings panel)
     bindSegment(el.setOs, "os", pickOS);
-    bindSegment(el.themeToggle, "theme", pickTheme);
     bindSegment(el.setTheme, "theme", pickTheme);
-    bindSegment(el.langToggle, "lang", pickLang);
     bindSegment(el.setLang, "lang", pickLang);
-
-    // sync toggle
-    el.syncToggle.addEventListener("click", async () => {
-      const next = el.syncToggle.getAttribute("aria-checked") !== "true";
-      el.syncToggle.setAttribute("aria-checked", String(next));
-      await store.setSync(next);
-      toast(next ? i18n.t.syncOn : i18n.t.syncOff);
-    });
 
     el.content.addEventListener("click", onContentClick);
 

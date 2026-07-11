@@ -113,59 +113,7 @@ html, body {
 }
 .clear-btn:hover { color: var(--text); }
 
-/* ---- Collapsed filter bar ---- */
-.filterbar { position: relative; padding: 0 14px; margin-bottom: 8px; }
-.filter-chip {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  border: 1px solid var(--border);
-  background: var(--surface);
-  color: var(--text);
-  font-size: 12px;
-  font-weight: 600;
-  padding: 5px 10px;
-  border-radius: 20px;
-  cursor: pointer;
-  box-shadow: var(--shadow);
-  transition: border-color .15s, color .15s;
-}
-.filter-chip:hover { border-color: var(--primary); color: var(--primary); }
-.filter-chip-icon { font-size: 13px; line-height: 1; }
-.filter-chip-caret { transition: transform .2s; color: var(--sub); }
-.filter-chip[aria-expanded="true"] .filter-chip-caret { transform: rotate(180deg); }
-
-.filter-pop {
-  position: absolute;
-  top: calc(100% + 6px);
-  left: 14px;
-  right: 14px;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 12px 14px;
-  box-shadow: var(--shadow-lg);
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  z-index: 30;
-}
-.filter-pop-head {
-  font-size: 11px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: .4px;
-  color: var(--sub);
-}
-
 /* ---- Segmented control ---- */
-.setting-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 10px;
-}
-.setting-label { font-size: 13px; color: var(--sub); font-weight: 500; }
 .segmented {
   display: inline-flex;
   background: var(--surface-2);
@@ -249,6 +197,42 @@ html, body {
   cursor: pointer;
 }
 
+/* ---- Homepage (search-first landing) ---- */
+.home { display: flex; flex-direction: column; gap: 16px; padding-top: 2px; }
+.home-title {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--sub);
+  text-transform: uppercase;
+  letter-spacing: .4px;
+  margin: 0 2px 8px;
+}
+.home-cards { display: flex; flex-direction: column; gap: 8px; }
+.pills { display: flex; flex-wrap: wrap; gap: 6px; }
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  transition: all .15s;
+}
+.pill:hover { border-color: var(--primary); color: var(--primary); }
+.pill-ghost {
+  background: var(--surface-2);
+  border-color: transparent;
+  color: var(--sub);
+  box-shadow: none;
+}
+.pill-ghost:hover { background: var(--primary-soft); color: var(--primary); }
+
 /* ---- Shortcut card ---- */
 .card {
   background: var(--surface);
@@ -301,10 +285,22 @@ html, body {
 .card-desc {
   font-size: 12px;
   color: var(--sub);
-  margin-left: auto;
+  min-width: 0;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+.card-os {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--sub);
+  background: var(--surface-2);
+  border-radius: 5px;
+  padding: 2px 6px;
+  flex-shrink: 0;
 }
 
 .card-keys { display: flex; align-items: center; gap: 3px; flex-shrink: 0; }

@@ -35,42 +35,6 @@
       <button id="clearSearch" class="clear-btn" aria-label="Clear" hidden>&times;</button>
     </div>
 
-    <!-- Collapsed filter bar (default shows current system only) -->
-    <div class="filterbar">
-      <button id="filterChip" class="filter-chip" aria-expanded="false">
-        <span id="filterChipIcon" class="filter-chip-icon">🪟</span>
-        <span id="filterChipLabel" class="filter-chip-label">Windows</span>
-        <svg class="filter-chip-caret" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
-          <polyline points="6 9 12 15 18 9"></polyline>
-        </svg>
-      </button>
-      <div id="filterPop" class="filter-pop" hidden>
-        <div class="filter-pop-head" data-i18n="advancedFilters">Advanced filters</div>
-        <div class="setting-row">
-          <span class="setting-label" data-i18n="filterLabel">System</span>
-          <div class="segmented" id="osToggle">
-            <button data-os="windows" data-i18n="os_windows">Windows</button>
-            <button data-os="mac" data-i18n="os_mac">macOS</button>
-            <button data-os="linux" data-i18n="os_linux">Linux</button>
-          </div>
-        </div>
-        <div class="setting-row">
-          <span class="setting-label" data-i18n="themeLabel">Theme</span>
-          <div class="segmented" id="themeToggle">
-            <button data-theme="light" data-i18n="themeLight">Light</button>
-            <button data-theme="dark" data-i18n="themeDark">Dark</button>
-          </div>
-        </div>
-        <div class="setting-row">
-          <span class="setting-label" data-i18n="langLabel">Language</span>
-          <div class="segmented" id="langToggle">
-            <button data-lang="en">EN</button>
-            <button data-lang="zh">中文</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <!-- Tabs (capsule) -->
     <nav class="tabs" id="tabs">
       <button class="tab active" data-tab="search" data-i18n="tabSearch">Search</button>
@@ -118,15 +82,6 @@
             <button data-os="mac" data-i18n="os_mac">macOS</button>
             <button data-os="linux" data-i18n="os_linux">Linux</button>
           </div>
-        </div>
-        <div class="setting-block setting-block-row">
-          <div class="setting-block-text">
-            <span class="setting-block-label" data-i18n="syncLabel">Sync settings</span>
-            <span class="setting-block-hint" data-i18n="syncHint">Sync across devices (requires sign-in).</span>
-          </div>
-          <button id="syncToggle" class="switch" role="switch" aria-checked="false">
-            <span class="switch-knob"></span>
-          </button>
         </div>
         <div class="setting-block about">
           <span class="setting-block-label" data-i18n="aboutTitle">About KeyAtlas</span>

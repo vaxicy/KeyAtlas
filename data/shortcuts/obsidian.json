@@ -1,0 +1,493 @@
+[
+  {
+    "id": "obsidian-newnote",
+    "appId": "obsidian",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "新建笔记",
+      "en": "New Note"
+    },
+    "description": {
+      "zh": "新建 Markdown 笔记",
+      "en": "Create new note"
+    },
+    "windows": "Ctrl+N",
+    "mac": "Cmd+N",
+    "linux": "Ctrl+N",
+    "keywords": [
+      "新建笔记",
+      "new note"
+    ],
+    "pinyin": "xin jian bi ji xinjianbiji x j b j xjbj xin jian bi ji xinjianbiji x j b j xjbj"
+  },
+  {
+    "id": "obsidian-newfolder",
+    "appId": "obsidian",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "新建文件夹",
+      "en": "New Folder"
+    },
+    "description": {
+      "zh": "新建文件夹",
+      "en": "New folder"
+    },
+    "windows": "Ctrl+Shift+N",
+    "mac": "Cmd+Shift+N",
+    "linux": "Ctrl+Shift+N",
+    "keywords": [
+      "新建文件夹",
+      "folder"
+    ],
+    "pinyin": "xin jian wen jian jia xinjianwenjianjia x j w j j xjwjj xin jian wen jian jia xinjianwenjianjia x j w j j xjwjj"
+  },
+  {
+    "id": "obsidian-quick",
+    "appId": "obsidian",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "快速切换",
+      "en": "Quick Switcher"
+    },
+    "description": {
+      "zh": "快速打开笔记",
+      "en": "Quick switcher"
+    },
+    "windows": "Ctrl+O",
+    "mac": "Cmd+O",
+    "linux": "Ctrl+O",
+    "keywords": [
+      "快速切换",
+      "quick switcher",
+      "打开"
+    ],
+    "pinyin": "kuai su qie huan kuaisuqiehuan k s q h ksqh kuai su qie huan   da kai kuaisuqiehuan dakai k s q h   d k ksqh dk"
+  },
+  {
+    "id": "obsidian-search",
+    "appId": "obsidian",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "搜索",
+      "en": "Search"
+    },
+    "description": {
+      "zh": "全局搜索",
+      "en": "Search in vault"
+    },
+    "windows": "Ctrl+Shift+F",
+    "mac": "Cmd+Shift+F",
+    "linux": "Ctrl+Shift+F",
+    "keywords": [
+      "搜索",
+      "search"
+    ],
+    "pinyin": "sou suo sousuo s s ss sou suo sousuo s s ss"
+  },
+  {
+    "id": "obsidian-command",
+    "appId": "obsidian",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "命令面板",
+      "en": "Command Palette"
+    },
+    "description": {
+      "zh": "打开命令面板",
+      "en": "Command palette"
+    },
+    "windows": "Ctrl+P",
+    "mac": "Cmd+P",
+    "linux": "Ctrl+P",
+    "keywords": [
+      "命令面板",
+      "command"
+    ],
+    "pinyin": "ming ling mian ban minglingmianban m l m b mlmb ming ling mian ban minglingmianban m l m b mlmb"
+  },
+  {
+    "id": "obsidian-graph",
+    "appId": "obsidian",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "关系图谱",
+      "en": "Graph View"
+    },
+    "description": {
+      "zh": "打开图谱视图",
+      "en": "Open graph view"
+    },
+    "windows": "Ctrl+G",
+    "mac": "Cmd+G",
+    "linux": "Ctrl+G",
+    "keywords": [
+      "图谱",
+      "graph",
+      "关系"
+    ],
+    "pinyin": "guan xi tu pu guanxitupu g x t p gxtp tu pu   guan xi tupu guanxi t p   g x tp gx"
+  },
+  {
+    "id": "obsidian-switcher",
+    "appId": "obsidian",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "切换编辑器",
+      "en": "Toggle Edit/Preview"
+    },
+    "description": {
+      "zh": "编辑预览切换",
+      "en": "Toggle edit/preview"
+    },
+    "windows": "Ctrl+E",
+    "mac": "Cmd+E",
+    "linux": "Ctrl+E",
+    "keywords": [
+      "编辑",
+      "预览",
+      "edit",
+      "preview"
+    ],
+    "pinyin": "qie huan bian ji qi qiehuanbianjiqi q h b j q qhbjq bian ji   yu lan bianji yulan b j   y l bj yl"
+  },
+  {
+    "id": "obsidian-preview",
+    "appId": "obsidian",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "阅读视图",
+      "en": "Reading View"
+    },
+    "description": {
+      "zh": "切换阅读视图",
+      "en": "Reading view"
+    },
+    "windows": "Ctrl+Shift+E",
+    "mac": "Cmd+Shift+E",
+    "linux": "Ctrl+Shift+E",
+    "keywords": [
+      "阅读",
+      "reading"
+    ],
+    "pinyin": "yue du shi tu yuedushitu y d s t ydst yue du yuedu y d yd"
+  },
+  {
+    "id": "obsidian-bold",
+    "appId": "obsidian",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "加粗",
+      "en": "Bold"
+    },
+    "description": {
+      "zh": "加粗文本",
+      "en": "Bold text"
+    },
+    "windows": "Ctrl+B",
+    "mac": "Cmd+B",
+    "linux": "Ctrl+B",
+    "keywords": [
+      "加粗",
+      "bold"
+    ],
+    "pinyin": "jia cu jiacu j c jc jia cu jiacu j c jc"
+  },
+  {
+    "id": "obsidian-italic",
+    "appId": "obsidian",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "斜体",
+      "en": "Italic"
+    },
+    "description": {
+      "zh": "斜体文本",
+      "en": "Italic text"
+    },
+    "windows": "Ctrl+I",
+    "mac": "Cmd+I",
+    "linux": "Ctrl+I",
+    "keywords": [
+      "斜体",
+      "italic"
+    ],
+    "pinyin": "xie ti xieti x t xt xie ti xieti x t xt"
+  },
+  {
+    "id": "obsidian-link",
+    "appId": "obsidian",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "内部链接",
+      "en": "Internal Link"
+    },
+    "description": {
+      "zh": "插入内部链接",
+      "en": "Insert internal link"
+    },
+    "windows": "Ctrl+K",
+    "mac": "Cmd+K",
+    "linux": "Ctrl+K",
+    "keywords": [
+      "链接",
+      "link"
+    ],
+    "pinyin": "nei bu lian jie neibulianjie n b l j nblj lian jie lianjie l j lj"
+  },
+  {
+    "id": "obsidian-tag",
+    "appId": "obsidian",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "标签",
+      "en": "Tag"
+    },
+    "description": {
+      "zh": "插入标签",
+      "en": "Insert tag"
+    },
+    "windows": "Ctrl+Shift+5",
+    "mac": "Cmd+Shift+5",
+    "linux": "Ctrl+Shift+5",
+    "keywords": [
+      "标签",
+      "tag"
+    ],
+    "pinyin": "biao qian biaoqian b q bq biao qian biaoqian b q bq"
+  },
+  {
+    "id": "obsidian-code",
+    "appId": "obsidian",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "代码块",
+      "en": "Code Block"
+    },
+    "description": {
+      "zh": "插入代码块",
+      "en": "Insert code block"
+    },
+    "windows": "Ctrl+Shift+K",
+    "mac": "Cmd+Shift+K",
+    "linux": "Ctrl+Shift+K",
+    "keywords": [
+      "代码",
+      "code"
+    ],
+    "pinyin": "dai ma kuai daimakuai d m k dmk dai ma daima d m dm"
+  },
+  {
+    "id": "obsidian-bullet",
+    "appId": "obsidian",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "无序列表",
+      "en": "Bullet List"
+    },
+    "description": {
+      "zh": "插入项目符号",
+      "en": "Bullet list"
+    },
+    "windows": "Ctrl+8",
+    "mac": "Cmd+8",
+    "linux": "Ctrl+8",
+    "keywords": [
+      "列表",
+      "bullet",
+      "无序"
+    ],
+    "pinyin": "wu xu lie biao wuxuliebiao w x l b wxlb lie biao   wu xu liebiao wuxu l b   w x lb wx"
+  },
+  {
+    "id": "obsidian-number",
+    "appId": "obsidian",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "有序列表",
+      "en": "Numbered List"
+    },
+    "description": {
+      "zh": "插入编号列表",
+      "en": "Numbered list"
+    },
+    "windows": "Ctrl+7",
+    "mac": "Cmd+7",
+    "linux": "Ctrl+7",
+    "keywords": [
+      "编号",
+      "number",
+      "有序"
+    ],
+    "pinyin": "you xu lie biao youxuliebiao y x l b yxlb bian hao   you xu bianhao youxu b h   y x bh yx"
+  },
+  {
+    "id": "obsidian-todo",
+    "appId": "obsidian",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "任务列表",
+      "en": "Task List"
+    },
+    "description": {
+      "zh": "插入待办",
+      "en": "Task list"
+    },
+    "windows": "Ctrl+Enter",
+    "mac": "Cmd+Enter",
+    "linux": "Ctrl+Enter",
+    "keywords": [
+      "任务",
+      "todo",
+      "待办"
+    ],
+    "pinyin": "ren wu lie biao renwuliebiao r w l b rwlb ren wu   dai ban renwu daiban r w   d b rw db"
+  },
+  {
+    "id": "obsidian-heading",
+    "appId": "obsidian",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "标题",
+      "en": "Heading"
+    },
+    "description": {
+      "zh": "切换标题级别",
+      "en": "Cycle heading"
+    },
+    "windows": "Ctrl+H",
+    "mac": "Cmd+H",
+    "linux": "Ctrl+H",
+    "keywords": [
+      "标题",
+      "heading"
+    ],
+    "pinyin": "biao ti biaoti b t bt biao ti biaoti b t bt"
+  },
+  {
+    "id": "obsidian-sidebar",
+    "appId": "obsidian",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "切换侧边栏",
+      "en": "Toggle Sidebar"
+    },
+    "description": {
+      "zh": "显示隐藏侧边栏",
+      "en": "Toggle sidebar"
+    },
+    "windows": "Ctrl+\\",
+    "mac": "Cmd+\\",
+    "linux": "Ctrl+\\",
+    "keywords": [
+      "侧边栏",
+      "sidebar"
+    ],
+    "pinyin": "qie huan ce bian lan qiehuancebianlan q h c b l qhcbl ce bian lan cebianlan c b l cbl"
+  },
+  {
+    "id": "obsidian-settings",
+    "appId": "obsidian",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "设置",
+      "en": "Settings"
+    },
+    "description": {
+      "zh": "打开设置",
+      "en": "Open settings"
+    },
+    "windows": "Ctrl+,",
+    "mac": "Cmd+,",
+    "linux": "Ctrl+,",
+    "keywords": [
+      "设置",
+      "settings"
+    ],
+    "pinyin": "she zhi shezhi s z sz she zhi shezhi s z sz"
+  },
+  {
+    "id": "obsidian-close",
+    "appId": "obsidian",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "关闭面板",
+      "en": "Close Pane"
+    },
+    "description": {
+      "zh": "关闭当前面板",
+      "en": "Close active pane"
+    },
+    "windows": "Ctrl+W",
+    "mac": "Cmd+W",
+    "linux": "Ctrl+W",
+    "keywords": [
+      "关闭",
+      "close"
+    ],
+    "pinyin": "guan bi mian ban guanbimianban g b m b gbmb guan bi guanbi g b gb"
+  },
+  {
+    "id": "obsidian-pin",
+    "appId": "obsidian",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "固定面板",
+      "en": "Pin Pane"
+    },
+    "description": {
+      "zh": "固定当前面板",
+      "en": "Pin active pane"
+    },
+    "windows": "Ctrl+Shift+F5",
+    "mac": "Cmd+Shift+F5",
+    "linux": "Ctrl+Shift+F5",
+    "keywords": [
+      "固定",
+      "pin"
+    ],
+    "pinyin": "gu ding mian ban gudingmianban g d m b gdmb gu ding guding g d gd"
+  },
+  {
+    "id": "obsidian-zen",
+    "appId": "obsidian",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "禅模式",
+      "en": "Zen Mode"
+    },
+    "description": {
+      "zh": "进入禅模式",
+      "en": "Zen mode"
+    },
+    "windows": "Ctrl+Shift+F",
+    "mac": "Cmd+Shift+F",
+    "linux": "Ctrl+Shift+F",
+    "keywords": [
+      "禅模式",
+      "zen"
+    ],
+    "pinyin": "chan mo shi chanmoshi c m s cms chan mo shi chanmoshi c m s cms"
+  }
+]

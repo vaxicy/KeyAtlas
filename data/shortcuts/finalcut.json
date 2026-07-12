@@ -1,0 +1,555 @@
+[
+  {
+    "id": "finalcut-play",
+    "appId": "finalcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "播放/暂停",
+      "en": "Play / Pause"
+    },
+    "description": {
+      "zh": "播放或暂停",
+      "en": "Play or pause"
+    },
+    "windows": "Space",
+    "mac": "Space",
+    "linux": "Space",
+    "keywords": [
+      "播放",
+      "play"
+    ],
+    "pinyin": "bo fang / zan ting bofang/zanting b f / z t bf/zt bo fang bofang b f bf"
+  },
+  {
+    "id": "finalcut-split",
+    "appId": "finalcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "刀片分割",
+      "en": "Blade"
+    },
+    "description": {
+      "zh": "在播放头分割",
+      "en": "Blade at playhead"
+    },
+    "windows": "Command+B",
+    "mac": "Command+B",
+    "linux": "Command+B",
+    "keywords": [
+      "分割",
+      "blade"
+    ],
+    "pinyin": "dao pian fen ge daopianfenge d p f g dpfg fen ge fenge f g fg"
+  },
+  {
+    "id": "finalcut-trim",
+    "appId": "finalcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "波纹修剪",
+      "en": "Ripple Trim"
+    },
+    "description": {
+      "zh": "波纹修剪",
+      "en": "Ripple trim"
+    },
+    "windows": "E",
+    "mac": "E",
+    "linux": "E",
+    "keywords": [
+      "修剪",
+      "trim",
+      "波纹"
+    ],
+    "pinyin": "bo wen xiu jian bowenxiujian b w x j bwxj xiu jian   bo wen xiujian bowen x j   b w xj bw"
+  },
+  {
+    "id": "finalcut-roll",
+    "appId": "finalcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "滚动修剪",
+      "en": "Roll Trim"
+    },
+    "description": {
+      "zh": "滚动修剪",
+      "en": "Roll trim"
+    },
+    "windows": "R",
+    "mac": "R",
+    "linux": "R",
+    "keywords": [
+      "滚动",
+      "roll"
+    ],
+    "pinyin": "gun dong xiu jian gundongxiujian g d x j gdxj gun dong gundong g d gd"
+  },
+  {
+    "id": "finalcut-slip",
+    "appId": "finalcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "滑移",
+      "en": "Slip"
+    },
+    "description": {
+      "zh": "滑移编辑",
+      "en": "Slip edit"
+    },
+    "windows": "S",
+    "mac": "S",
+    "linux": "S",
+    "keywords": [
+      "滑移",
+      "slip"
+    ],
+    "pinyin": "hua yi huayi h y hy hua yi huayi h y hy"
+  },
+  {
+    "id": "finalcut-zoomfit",
+    "appId": "finalcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "适应窗口",
+      "en": "Fit to Window"
+    },
+    "description": {
+      "zh": "适配窗口",
+      "en": "Fit to window"
+    },
+    "windows": "Shift+Z",
+    "mac": "Shift+Z",
+    "linux": "Shift+Z",
+    "keywords": [
+      "适应",
+      "fit"
+    ],
+    "pinyin": "shi ying chuang kou shiyingchuangkou s y c k syck shi ying shiying s y sy"
+  },
+  {
+    "id": "finalcut-zoomin",
+    "appId": "finalcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "放大",
+      "en": "Zoom In"
+    },
+    "description": {
+      "zh": "放大",
+      "en": "Zoom in"
+    },
+    "windows": "Command+=",
+    "mac": "Command+=",
+    "linux": "Command+=",
+    "keywords": [
+      "放大",
+      "zoom in"
+    ],
+    "pinyin": "fang da fangda f d fd fang da fangda f d fd"
+  },
+  {
+    "id": "finalcut-zoomout",
+    "appId": "finalcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "缩小",
+      "en": "Zoom Out"
+    },
+    "description": {
+      "zh": "缩小",
+      "en": "Zoom out"
+    },
+    "windows": "Command+-",
+    "mac": "Command+-",
+    "linux": "Command+-",
+    "keywords": [
+      "缩小",
+      "zoom out"
+    ],
+    "pinyin": "suo xiao suoxiao s x sx suo xiao suoxiao s x sx"
+  },
+  {
+    "id": "finalcut-prevframe",
+    "appId": "finalcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "上一帧",
+      "en": "Previous Frame"
+    },
+    "description": {
+      "zh": "逐帧后退",
+      "en": "Previous frame"
+    },
+    "windows": "Left Arrow",
+    "mac": "Left Arrow",
+    "linux": "Left Arrow",
+    "keywords": [
+      "上一帧",
+      "frame"
+    ],
+    "pinyin": "shang yi zhen shangyizhen s y z syz shang yi zhen shangyizhen s y z syz"
+  },
+  {
+    "id": "finalcut-nextframe",
+    "appId": "finalcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "下一帧",
+      "en": "Next Frame"
+    },
+    "description": {
+      "zh": "逐帧前进",
+      "en": "Next frame"
+    },
+    "windows": "Right Arrow",
+    "mac": "Right Arrow",
+    "linux": "Right Arrow",
+    "keywords": [
+      "下一帧",
+      "frame"
+    ],
+    "pinyin": "xia yi zhen xiayizhen x y z xyz xia yi zhen xiayizhen x y z xyz"
+  },
+  {
+    "id": "finalcut-mark",
+    "appId": "finalcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "添加标记",
+      "en": "Add Marker"
+    },
+    "description": {
+      "zh": "添加标记",
+      "en": "Add marker"
+    },
+    "windows": "M",
+    "mac": "M",
+    "linux": "M",
+    "keywords": [
+      "标记",
+      "marker"
+    ],
+    "pinyin": "tian jia biao ji tianjiabiaoji t j b j tjbj biao ji biaoji b j bj"
+  },
+  {
+    "id": "finalcut-fav",
+    "appId": "finalcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "设为 favorites",
+      "en": "Mark as Favorite"
+    },
+    "description": {
+      "zh": "标为收藏",
+      "en": "Mark as favorite"
+    },
+    "windows": "F",
+    "mac": "F",
+    "linux": "F",
+    "keywords": [
+      "收藏",
+      "favorite"
+    ],
+    "pinyin": "she wei   f a v o r i t e s shewei favorites s w   f a v o r i t e s sw favorites shou cang shoucang s c sc"
+  },
+  {
+    "id": "finalcut-reject",
+    "appId": "finalcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "拒绝片段",
+      "en": "Mark as Rejected"
+    },
+    "description": {
+      "zh": "标为拒绝",
+      "en": "Mark as rejected"
+    },
+    "windows": "Delete",
+    "mac": "Delete",
+    "linux": "Delete",
+    "keywords": [
+      "拒绝",
+      "reject"
+    ],
+    "pinyin": "ju jue pian duan jujuepianduan j j p d jjpd ju jue jujue j j jj"
+  },
+  {
+    "id": "finalcut-append",
+    "appId": "finalcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "添加到故事线",
+      "en": "Append to Storyline"
+    },
+    "description": {
+      "zh": "追加到故事线末尾",
+      "en": "Append to storyline"
+    },
+    "windows": "E",
+    "mac": "E",
+    "linux": "E",
+    "keywords": [
+      "追加",
+      "append",
+      "故事线"
+    ],
+    "pinyin": "tian jia dao gu shi xian tianjiadaogushixian t j d g s x tjdgsx zhui jia   gu shi xian zhuijia gushixian z j   g s x zj gsx"
+  },
+  {
+    "id": "finalcut-connect",
+    "appId": "finalcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "连接片段",
+      "en": "Connect to Storyline"
+    },
+    "description": {
+      "zh": "连接片段",
+      "en": "Connect clip"
+    },
+    "windows": "Q",
+    "mac": "Q",
+    "linux": "Q",
+    "keywords": [
+      "连接",
+      "connect"
+    ],
+    "pinyin": "lian jie pian duan lianjiepianduan l j p d ljpd lian jie lianjie l j lj"
+  },
+  {
+    "id": "finalcut-insert",
+    "appId": "finalcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "插入片段",
+      "en": "Insert Clip"
+    },
+    "description": {
+      "zh": "插入片段",
+      "en": "Insert clip"
+    },
+    "windows": "W",
+    "mac": "W",
+    "linux": "W",
+    "keywords": [
+      "插入",
+      "insert"
+    ],
+    "pinyin": "cha ru pian duan charupianduan c r p d crpd cha ru charu c r cr"
+  },
+  {
+    "id": "finalcut-title",
+    "appId": "finalcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "添加标题",
+      "en": "Add Title"
+    },
+    "description": {
+      "zh": "添加标题",
+      "en": "Add title"
+    },
+    "windows": "Control+T",
+    "mac": "Control+T",
+    "linux": "Control+T",
+    "keywords": [
+      "标题",
+      "title"
+    ],
+    "pinyin": "tian jia biao ti tianjiabiaoti t j b t tjbt biao ti biaoti b t bt"
+  },
+  {
+    "id": "finalcut-keyword",
+    "appId": "finalcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "添加关键词",
+      "en": "Add Keyword"
+    },
+    "description": {
+      "zh": "添加关键词",
+      "en": "Add keyword"
+    },
+    "windows": "Control+K",
+    "mac": "Control+K",
+    "linux": "Control+K",
+    "keywords": [
+      "关键词",
+      "keyword"
+    ],
+    "pinyin": "tian jia guan jian ci tianjiaguanjianci t j g j c tjgjc guan jian ci guanjianci g j c gjc"
+  },
+  {
+    "id": "finalcut-color",
+    "appId": "finalcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "颜色板",
+      "en": "Color Board"
+    },
+    "description": {
+      "zh": "打开颜色板",
+      "en": "Open color board"
+    },
+    "windows": "Command+6",
+    "mac": "Command+6",
+    "linux": "Command+6",
+    "keywords": [
+      "颜色",
+      "color board"
+    ],
+    "pinyin": "yan se ban yanseban y s b ysb yan se yanse y s ys"
+  },
+  {
+    "id": "finalcut-inspector",
+    "appId": "finalcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "检查器",
+      "en": "Inspector"
+    },
+    "description": {
+      "zh": "打开检查器",
+      "en": "Open inspector"
+    },
+    "windows": "Command+4",
+    "mac": "Command+4",
+    "linux": "Command+4",
+    "keywords": [
+      "检查器",
+      "inspector"
+    ],
+    "pinyin": "jian cha qi jianchaqi j c q jcq jian cha qi jianchaqi j c q jcq"
+  },
+  {
+    "id": "finalcut-libraries",
+    "appId": "finalcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "资源库",
+      "en": "Libraries"
+    },
+    "description": {
+      "zh": "切换资源库边栏",
+      "en": "Toggle libraries"
+    },
+    "windows": "Command+1",
+    "mac": "Command+1",
+    "linux": "Command+1",
+    "keywords": [
+      "资源库",
+      "libraries"
+    ],
+    "pinyin": "zi yuan ku ziyuanku z y k zyk zi yuan ku ziyuanku z y k zyk"
+  },
+  {
+    "id": "finalcut-undo",
+    "appId": "finalcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "windows": "Command+Z",
+    "mac": "Command+Z",
+    "linux": "Command+Z",
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "finalcut-redo",
+    "appId": "finalcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "windows": "Command+Shift+Z",
+    "mac": "Command+Shift+Z",
+    "linux": "Command+Shift+Z",
+    "keywords": [
+      "重做",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "finalcut-export",
+    "appId": "finalcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "导出文件",
+      "en": "Share / Export"
+    },
+    "description": {
+      "zh": "导出媒体",
+      "en": "Share media"
+    },
+    "windows": "Command+E",
+    "mac": "Command+E",
+    "linux": "Command+E",
+    "keywords": [
+      "导出",
+      "export",
+      "分享"
+    ],
+    "pinyin": "dao chu wen jian daochuwenjian d c w j dcwj dao chu   fen xiang daochu fenxiang d c   f x dc fx"
+  },
+  {
+    "id": "finalcut-fullscreen",
+    "appId": "finalcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "全屏",
+      "en": "Full Screen"
+    },
+    "description": {
+      "zh": "全屏播放",
+      "en": "Full screen"
+    },
+    "windows": "Control+Command+F",
+    "mac": "Control+Command+F",
+    "linux": "Control+Command+F",
+    "keywords": [
+      "全屏",
+      "fullscreen"
+    ],
+    "pinyin": "quan ping quanping q p qp quan ping quanping q p qp"
+  }
+]

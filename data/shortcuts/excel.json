@@ -197,5 +197,403 @@
       "go to"
     ],
     "pinyin": "ding wei dingwei d w dw ding wei dingwei d w dw"
+  },
+  {
+    "id": "excel-excel-filter",
+    "appId": "excel",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "筛选",
+      "en": "Filter"
+    },
+    "description": {
+      "zh": "开启自动筛选",
+      "en": "Toggle filter"
+    },
+    "windows": "Ctrl+Shift+L",
+    "mac": "Cmd+Shift+L",
+    "linux": "Ctrl+Shift+L",
+    "keywords": [
+      "筛选",
+      "filter"
+    ],
+    "pinyin": "shai xuan shaixuan s x sx shai xuan shaixuan s x sx"
+  },
+  {
+    "id": "excel-excel-sum",
+    "appId": "excel",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "自动求和",
+      "en": "AutoSum"
+    },
+    "description": {
+      "zh": "插入求和公式",
+      "en": "Auto sum"
+    },
+    "windows": "Alt+=",
+    "mac": "Cmd+Shift+T",
+    "linux": "Alt+=",
+    "keywords": [
+      "求和",
+      "sum",
+      "自动求和"
+    ],
+    "pinyin": "zi dong qiu he zidongqiuhe z d q h zdqh qiu he   zi dong qiu he qiuhe zidongqiuhe q h   z d q h qh zdqh"
+  },
+  {
+    "id": "excel-excel-find",
+    "appId": "excel",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "查找",
+      "en": "Find"
+    },
+    "description": {
+      "zh": "查找内容",
+      "en": "Find"
+    },
+    "windows": "Ctrl+F",
+    "mac": "Cmd+F",
+    "linux": "Ctrl+F",
+    "keywords": [
+      "查找",
+      "find"
+    ],
+    "pinyin": "cha zhao chazhao c z cz cha zhao chazhao c z cz"
+  },
+  {
+    "id": "excel-excel-replace",
+    "appId": "excel",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "替换",
+      "en": "Replace"
+    },
+    "description": {
+      "zh": "替换内容",
+      "en": "Replace"
+    },
+    "windows": "Ctrl+H",
+    "mac": "Cmd+H",
+    "linux": "Ctrl+H",
+    "keywords": [
+      "替换",
+      "replace"
+    ],
+    "pinyin": "ti huan tihuan t h th ti huan tihuan t h th"
+  },
+  {
+    "id": "excel-excel-go",
+    "appId": "excel",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "定位",
+      "en": "Go To"
+    },
+    "description": {
+      "zh": "跳转到单元格",
+      "en": "Go to"
+    },
+    "windows": "Ctrl+G",
+    "mac": "Cmd+G",
+    "linux": "Ctrl+G",
+    "keywords": [
+      "定位",
+      "go to"
+    ],
+    "pinyin": "ding wei dingwei d w dw ding wei dingwei d w dw"
+  },
+  {
+    "id": "excel-excel-border",
+    "appId": "excel",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "边框",
+      "en": "Border"
+    },
+    "description": {
+      "zh": "添加外边框",
+      "en": "Add border"
+    },
+    "windows": "Ctrl+Shift+7",
+    "mac": "Cmd+Shift+7",
+    "linux": "Ctrl+Shift+7",
+    "keywords": [
+      "边框",
+      "border"
+    ],
+    "pinyin": "bian kuang biankuang b k bk bian kuang biankuang b k bk"
+  },
+  {
+    "id": "excel-excel-bold",
+    "appId": "excel",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "加粗",
+      "en": "Bold"
+    },
+    "description": {
+      "zh": "加粗",
+      "en": "Bold"
+    },
+    "windows": "Ctrl+B",
+    "mac": "Cmd+B",
+    "linux": "Ctrl+B",
+    "keywords": [
+      "加粗",
+      "bold"
+    ],
+    "pinyin": "jia cu jiacu j c jc jia cu jiacu j c jc"
+  },
+  {
+    "id": "excel-excel-italic",
+    "appId": "excel",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "斜体",
+      "en": "Italic"
+    },
+    "description": {
+      "zh": "斜体",
+      "en": "Italic"
+    },
+    "windows": "Ctrl+I",
+    "mac": "Cmd+I",
+    "linux": "Ctrl+I",
+    "keywords": [
+      "斜体",
+      "italic"
+    ],
+    "pinyin": "xie ti xieti x t xt xie ti xieti x t xt"
+  },
+  {
+    "id": "excel-excel-save",
+    "appId": "excel",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "保存",
+      "en": "Save"
+    },
+    "description": {
+      "zh": "保存工作簿",
+      "en": "Save"
+    },
+    "windows": "Ctrl+S",
+    "mac": "Cmd+S",
+    "linux": "Ctrl+S",
+    "keywords": [
+      "保存",
+      "save"
+    ],
+    "pinyin": "bao cun baocun b c bc bao cun baocun b c bc"
+  },
+  {
+    "id": "excel-excel-print",
+    "appId": "excel",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "打印",
+      "en": "Print"
+    },
+    "description": {
+      "zh": "打印",
+      "en": "Print"
+    },
+    "windows": "Ctrl+P",
+    "mac": "Cmd+P",
+    "linux": "Ctrl+P",
+    "keywords": [
+      "打印",
+      "print"
+    ],
+    "pinyin": "da yin dayin d y dy da yin dayin d y dy"
+  },
+  {
+    "id": "excel-excel-selectrow",
+    "appId": "excel",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "选中整行",
+      "en": "Select Row"
+    },
+    "description": {
+      "zh": "选中当前行",
+      "en": "Select row"
+    },
+    "windows": "Shift+Space",
+    "mac": "Shift+Space",
+    "linux": "Shift+Space",
+    "keywords": [
+      "整行",
+      "row"
+    ],
+    "pinyin": "xuan zhong zheng xing xuanzhongzhengxing x z z x xzzx zheng xing zhengxing z x zx"
+  },
+  {
+    "id": "excel-excel-selectcol",
+    "appId": "excel",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "选中整列",
+      "en": "Select Column"
+    },
+    "description": {
+      "zh": "选中当前列",
+      "en": "Select column"
+    },
+    "windows": "Ctrl+Space",
+    "mac": "Ctrl+Space",
+    "linux": "Ctrl+Space",
+    "keywords": [
+      "整列",
+      "column"
+    ],
+    "pinyin": "xuan zhong zheng lie xuanzhongzhenglie x z z l xzzl zheng lie zhenglie z l zl"
+  },
+  {
+    "id": "excel-excel-insertrow",
+    "appId": "excel",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "插入行",
+      "en": "Insert Row"
+    },
+    "description": {
+      "zh": "插入新行",
+      "en": "Insert row"
+    },
+    "windows": "Ctrl+Shift++",
+    "mac": "Cmd+Shift++",
+    "linux": "Ctrl+Shift++",
+    "keywords": [
+      "插入行",
+      "insert row"
+    ],
+    "pinyin": "cha ru hang charuhang c r h crh cha ru hang charuhang c r h crh"
+  },
+  {
+    "id": "excel-excel-deleterow",
+    "appId": "excel",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "删除行",
+      "en": "Delete Row"
+    },
+    "description": {
+      "zh": "删除行",
+      "en": "Delete row"
+    },
+    "windows": "Ctrl+-",
+    "mac": "Cmd+-",
+    "linux": "Ctrl+-",
+    "keywords": [
+      "删除行",
+      "delete row"
+    ],
+    "pinyin": "shan chu xing shanchuxing s c x scx shan chu xing shanchuxing s c x scx"
+  },
+  {
+    "id": "excel-excel-formula",
+    "appId": "excel",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "编辑公式",
+      "en": "Edit Formula"
+    },
+    "description": {
+      "zh": "编辑公式栏",
+      "en": "Edit formula"
+    },
+    "windows": "F2",
+    "mac": "Ctrl+U",
+    "linux": "F2",
+    "keywords": [
+      "公式",
+      "formula"
+    ],
+    "pinyin": "bian ji gong shi bianjigongshi b j g s bjgs gong shi gongshi g s gs"
+  },
+  {
+    "id": "excel-excel-absolute",
+    "appId": "excel",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "绝对引用",
+      "en": "Absolute Ref"
+    },
+    "description": {
+      "zh": "切换绝对引用",
+      "en": "Toggle absolute"
+    },
+    "windows": "F4",
+    "mac": "F4",
+    "linux": "F4",
+    "keywords": [
+      "绝对引用",
+      "absolute",
+      "美元符"
+    ],
+    "pinyin": "jue dui yin yong jueduiyinyong j d y y jdyy jue dui yin yong   mei yuan fu jueduiyinyong meiyuanfu j d y y   m y f jdyy myf"
+  },
+  {
+    "id": "excel-excel-chart",
+    "appId": "excel",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "插入图表",
+      "en": "Insert Chart"
+    },
+    "description": {
+      "zh": "插入图表",
+      "en": "Insert chart"
+    },
+    "windows": "Alt+F1",
+    "mac": "Cmd+Option+F1",
+    "linux": "Alt+F1",
+    "keywords": [
+      "图表",
+      "chart"
+    ],
+    "pinyin": "cha ru tu biao charutubiao c r t b crtb tu biao tubiao t b tb"
+  },
+  {
+    "id": "excel-excel-freeze",
+    "appId": "excel",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "冻结窗格",
+      "en": "Freeze Panes"
+    },
+    "description": {
+      "zh": "冻结首行",
+      "en": "Freeze panes"
+    },
+    "windows": "Alt+W,F",
+    "mac": "Cmd+Option+F",
+    "linux": "Alt+W,F",
+    "keywords": [
+      "冻结",
+      "freeze"
+    ],
+    "pinyin": "dong jie chuang ge dongjiechuangge d j c g djcg dong jie dongjie d j dj"
   }
 ]

@@ -1,0 +1,337 @@
+[
+  {
+    "id": "chatgpt-newchat",
+    "appId": "chatgpt",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "新建对话",
+      "en": "New Chat"
+    },
+    "description": {
+      "zh": "新建对话",
+      "en": "New chat"
+    },
+    "windows": "Ctrl+Shift+O",
+    "mac": "Cmd+Shift+O",
+    "linux": "Ctrl+Shift+O",
+    "keywords": [
+      "新建对话",
+      "new chat"
+    ],
+    "pinyin": "xin jian dui hua xinjianduihua x j d h xjdh xin jian dui hua xinjianduihua x j d h xjdh"
+  },
+  {
+    "id": "chatgpt-search",
+    "appId": "chatgpt",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "搜索对话",
+      "en": "Search Chats"
+    },
+    "description": {
+      "zh": "搜索历史对话",
+      "en": "Search chats"
+    },
+    "windows": "Ctrl+K",
+    "mac": "Cmd+K",
+    "linux": "Ctrl+K",
+    "keywords": [
+      "搜索",
+      "search"
+    ],
+    "pinyin": "sou suo dui hua sousuoduihua s s d h ssdh sou suo sousuo s s ss"
+  },
+  {
+    "id": "chatgpt-send",
+    "appId": "chatgpt",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "发送消息",
+      "en": "Send Message"
+    },
+    "description": {
+      "zh": "发送消息",
+      "en": "Send message"
+    },
+    "windows": "Enter",
+    "mac": "Enter",
+    "linux": "Enter",
+    "keywords": [
+      "发送",
+      "send",
+      "enter"
+    ],
+    "pinyin": "fa song xiao xi fasongxiaoxi f s x x fsxx fa song fasong f s fs"
+  },
+  {
+    "id": "chatgpt-newline",
+    "appId": "chatgpt",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "换行",
+      "en": "New Line"
+    },
+    "description": {
+      "zh": "消息内换行",
+      "en": "New line"
+    },
+    "windows": "Shift+Enter",
+    "mac": "Shift+Enter",
+    "linux": "Shift+Enter",
+    "keywords": [
+      "换行",
+      "newline"
+    ],
+    "pinyin": "huan hang huanhang h h hh huan hang huanhang h h hh"
+  },
+  {
+    "id": "chatgpt-copy",
+    "appId": "chatgpt",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "复制代码",
+      "en": "Copy Code"
+    },
+    "description": {
+      "zh": "复制回复代码",
+      "en": "Copy code"
+    },
+    "windows": "Ctrl+Shift+C",
+    "mac": "Cmd+Shift+C",
+    "linux": "Ctrl+Shift+C",
+    "keywords": [
+      "复制",
+      "copy",
+      "代码"
+    ],
+    "pinyin": "fu zhi dai ma fuzhidaima f z d m fzdm fu zhi   dai ma fuzhi daima f z   d m fz dm"
+  },
+  {
+    "id": "chatgpt-voice",
+    "appId": "chatgpt",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "语音输入",
+      "en": "Voice Mode"
+    },
+    "description": {
+      "zh": "开启语音",
+      "en": "Voice mode"
+    },
+    "windows": "Ctrl+Shift+Space",
+    "mac": "Cmd+Shift+Space",
+    "linux": "Ctrl+Shift+Space",
+    "keywords": [
+      "语音",
+      "voice",
+      "麦克风"
+    ],
+    "pinyin": "yu yin shu ru yuyinshuru y y s r yysr yu yin   mai ke feng yuyin maikefeng y y   m k f yy mkf"
+  },
+  {
+    "id": "chatgpt-sidebar",
+    "appId": "chatgpt",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "切换侧边栏",
+      "en": "Toggle Sidebar"
+    },
+    "description": {
+      "zh": "显示/隐藏侧栏",
+      "en": "Toggle sidebar"
+    },
+    "windows": "Ctrl+Shift+S",
+    "mac": "Cmd+Shift+S",
+    "linux": "Ctrl+Shift+S",
+    "keywords": [
+      "侧边栏",
+      "sidebar"
+    ],
+    "pinyin": "qie huan ce bian lan qiehuancebianlan q h c b l qhcbl ce bian lan cebianlan c b l cbl"
+  },
+  {
+    "id": "chatgpt-gpt4",
+    "appId": "chatgpt",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "切换模型",
+      "en": "Switch Model"
+    },
+    "description": {
+      "zh": "切换 GPT 模型",
+      "en": "Switch model"
+    },
+    "windows": "Ctrl+Shift+1",
+    "mac": "Cmd+Shift+1",
+    "linux": "Ctrl+Shift+1",
+    "keywords": [
+      "模型",
+      "model",
+      "切换"
+    ],
+    "pinyin": "qie huan mo xing qiehuanmoxing q h m x qhmx mo xing   qie huan moxing qiehuan m x   q h mx qh"
+  },
+  {
+    "id": "chatgpt-screenshot",
+    "appId": "chatgpt",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "截图提问",
+      "en": "Screenshot"
+    },
+    "description": {
+      "zh": "截取屏幕提问",
+      "en": "Screenshot"
+    },
+    "windows": "Ctrl+Shift+2",
+    "mac": "Cmd+Shift+2",
+    "linux": "Ctrl+Shift+2",
+    "keywords": [
+      "截图",
+      "screenshot"
+    ],
+    "pinyin": "jie tu ti wen jietutiwen j t t w jttw jie tu jietu j t jt"
+  },
+  {
+    "id": "chatgpt-dictation",
+    "appId": "chatgpt",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "听写",
+      "en": "Dictation"
+    },
+    "description": {
+      "zh": "听写输入",
+      "en": "Dictation"
+    },
+    "windows": "Ctrl+Shift+;",
+    "mac": "Cmd+Shift+;",
+    "linux": "Ctrl+Shift+;",
+    "keywords": [
+      "听写",
+      "dictation"
+    ],
+    "pinyin": "ting xie tingxie t x tx ting xie tingxie t x tx"
+  },
+  {
+    "id": "chatgpt-delete",
+    "appId": "chatgpt",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "删除对话",
+      "en": "Delete Chat"
+    },
+    "description": {
+      "zh": "删除当前对话",
+      "en": "Delete chat"
+    },
+    "windows": "Ctrl+Shift+Delete",
+    "mac": "Cmd+Shift+Delete",
+    "linux": "Ctrl+Shift+Delete",
+    "keywords": [
+      "删除",
+      "delete"
+    ],
+    "pinyin": "shan chu dui hua shanchuduihua s c d h scdh shan chu shanchu s c sc"
+  },
+  {
+    "id": "chatgpt-settings",
+    "appId": "chatgpt",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "设置",
+      "en": "Settings"
+    },
+    "description": {
+      "zh": "打开设置",
+      "en": "Open settings"
+    },
+    "windows": "Ctrl+Shift+,",
+    "mac": "Cmd+Shift+,",
+    "linux": "Ctrl+Shift+,",
+    "keywords": [
+      "设置",
+      "settings"
+    ],
+    "pinyin": "she zhi shezhi s z sz she zhi shezhi s z sz"
+  },
+  {
+    "id": "chatgpt-help",
+    "appId": "chatgpt",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "帮助",
+      "en": "Help"
+    },
+    "description": {
+      "zh": "打开帮助",
+      "en": "Open help"
+    },
+    "windows": "Ctrl+/",
+    "mac": "Cmd+/",
+    "linux": "Ctrl+/",
+    "keywords": [
+      "帮助",
+      "help"
+    ],
+    "pinyin": "bang zhu bangzhu b z bz bang zhu bangzhu b z bz"
+  },
+  {
+    "id": "chatgpt-close",
+    "appId": "chatgpt",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "关闭弹窗",
+      "en": "Close"
+    },
+    "description": {
+      "zh": "关闭弹窗",
+      "en": "Close overlay"
+    },
+    "windows": "Esc",
+    "mac": "Esc",
+    "linux": "Esc",
+    "keywords": [
+      "关闭",
+      "close",
+      "esc"
+    ],
+    "pinyin": "guan bi tan chuang guanbitanchuang g b t c gbtc guan bi guanbi g b gb"
+  },
+  {
+    "id": "chatgpt-export",
+    "appId": "chatgpt",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "导出对话",
+      "en": "Export Chat"
+    },
+    "description": {
+      "zh": "导出对话记录",
+      "en": "Export chat"
+    },
+    "windows": "Ctrl+E",
+    "mac": "Cmd+E",
+    "linux": "Ctrl+E",
+    "keywords": [
+      "导出",
+      "export"
+    ],
+    "pinyin": "dao chu dui hua daochuduihua d c d h dcdh dao chu daochu d c dc"
+  }
+]

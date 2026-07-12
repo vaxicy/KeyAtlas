@@ -22,5 +22,15 @@
   { "id": "xd",       "name": { "zh": "Adobe XD",        "en": "Adobe XD" },       "category": "design",       "icon": "💡", "type": "software", "file": "xd.json" },
   { "id": "acrobat",  "name": { "zh": "Acrobat",         "en": "Acrobat" },        "category": "productivity", "icon": "📕", "type": "software", "file": "acrobat.json" },
   { "id": "audition", "name": { "zh": "Audition",        "en": "Audition" },       "category": "video",        "icon": "🎧", "type": "software", "file": "audition.json" },
-  { "id": "bilibili", "name": { "zh": "哔哩哔哩",         "en": "Bilibili" },       "category": "video",        "icon": "📺", "type": "software", "sortKey": "Bilibili", "file": "bilibili.json" }
+  { "id": "bilibili", "name": { "zh": "哔哩哔哩",         "en": "Bilibili" },       "category": "video",        "icon": "📺", "type": "software", "sortKey": "Bilibili", "file": "bilibili.json" },
+  { "id": "capcut",   "name": { "zh": "剪映",             "en": "CapCut" },         "category": "video",        "icon": "🎬", "type": "software", "sortKey": "CapCut", "file": "capcut.json" },
+  { "id": "davinci",  "name": { "zh": "达芬奇",           "en": "DaVinci Resolve" },"category": "video",        "icon": "🎥", "type": "software", "sortKey": "DaVinci Resolve", "file": "davinci.json" },
+  { "id": "finalcut", "name": { "zh": "Final Cut Pro",    "en": "Final Cut Pro" },  "category": "video",        "icon": "🍏", "type": "software", "file": "finalcut.json" },
+  { "id": "obs",      "name": { "zh": "OBS Studio",       "en": "OBS Studio" },     "category": "video",        "icon": "📹", "type": "software", "file": "obs.json" },
+  { "id": "edge",     "name": { "zh": "Edge",             "en": "Edge" },           "category": "browser",      "icon": "🌊", "type": "software", "file": "edge.json" },
+  { "id": "firefox",  "name": { "zh": "Firefox",          "en": "Firefox" },        "category": "browser",      "icon": "🦊", "type": "software", "file": "firefox.json" },
+  { "id": "obsidian", "name": { "zh": "Obsidian",         "en": "Obsidian" },       "category": "productivity", "icon": "🔱", "type": "software", "file": "obsidian.json" },
+  { "id": "todoist",  "name": { "zh": "Todoist",          "en": "Todoist" },        "category": "productivity", "icon": "✅", "type": "software", "file": "todoist.json" },
+  { "id": "cursor",   "name": { "zh": "Cursor",           "en": "Cursor" },         "category": "development",  "icon": "⌨️", "type": "software", "file": "cursor.json" },
+  { "id": "chatgpt",  "name": { "zh": "ChatGPT",          "en": "ChatGPT" },        "category": "productivity", "icon": "🤖", "type": "software", "file": "chatgpt.json" }
 ]

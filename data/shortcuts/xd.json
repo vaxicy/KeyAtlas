@@ -4,181 +4,757 @@
     "appId": "xd",
     "type": "software",
     "category": "design",
-    "name": { "zh": "选择工具", "en": "Select Tool" },
-    "description": { "zh": "选择并移动元素", "en": "Select and move elements" },
+    "name": {
+      "zh": "选择工具",
+      "en": "Select Tool"
+    },
+    "description": {
+      "zh": "选择并移动元素",
+      "en": "Select and move elements"
+    },
     "windows": "V",
     "mac": "V",
     "linux": "—",
-    "keywords": ["选择", "select", "工具"],
-    "pinyin": "xuan ze gong ju xuanzegongju x z g j xzgj"
+    "keywords": [
+      "选择",
+      "select",
+      "工具"
+    ],
+    "pinyin": "xuan ze gong ju xuanzegongju x z g j xzgj xuan ze   gong ju xuanze gongju x z   g j xz gj"
   },
   {
     "id": "xd-rectangle",
     "appId": "xd",
     "type": "software",
     "category": "design",
-    "name": { "zh": "矩形", "en": "Rectangle" },
-    "description": { "zh": "绘制矩形", "en": "Draw a rectangle" },
+    "name": {
+      "zh": "矩形",
+      "en": "Rectangle"
+    },
+    "description": {
+      "zh": "绘制矩形",
+      "en": "Draw a rectangle"
+    },
     "windows": "R",
     "mac": "R",
     "linux": "—",
-    "keywords": ["矩形", "rectangle", "形状"],
-    "pinyin": "ju xing juxing j x jx"
+    "keywords": [
+      "矩形",
+      "rectangle",
+      "形状"
+    ],
+    "pinyin": "ju xing juxing j x jx ju xing   xing zhuang juxing xingzhuang j x   x z jx xz"
   },
   {
     "id": "xd-ellipse",
     "appId": "xd",
     "type": "software",
     "category": "design",
-    "name": { "zh": "椭圆", "en": "Ellipse" },
-    "description": { "zh": "绘制椭圆", "en": "Draw an ellipse" },
+    "name": {
+      "zh": "椭圆",
+      "en": "Ellipse"
+    },
+    "description": {
+      "zh": "绘制椭圆",
+      "en": "Draw an ellipse"
+    },
     "windows": "E",
     "mac": "E",
     "linux": "—",
-    "keywords": ["椭圆", "ellipse", "圆形"],
-    "pinyin": "tuo yuan tuoyuan t y ty"
+    "keywords": [
+      "椭圆",
+      "ellipse",
+      "圆形"
+    ],
+    "pinyin": "tuo yuan tuoyuan t y ty tuo yuan   yuan xing tuoyuan yuanxing t y   y x ty yx"
   },
   {
     "id": "xd-line",
     "appId": "xd",
     "type": "software",
     "category": "design",
-    "name": { "zh": "直线", "en": "Line" },
-    "description": { "zh": "绘制直线", "en": "Draw a line" },
+    "name": {
+      "zh": "直线",
+      "en": "Line"
+    },
+    "description": {
+      "zh": "绘制直线",
+      "en": "Draw a line"
+    },
     "windows": "L",
     "mac": "L",
     "linux": "—",
-    "keywords": ["直线", "line", "线"],
-    "pinyin": "zhi xian zhixian z x zx"
+    "keywords": [
+      "直线",
+      "line",
+      "线"
+    ],
+    "pinyin": "zhi xian zhixian z x zx zhi xian   xian zhixian xian z x   x zx x"
   },
   {
     "id": "xd-pen",
     "appId": "xd",
     "type": "software",
     "category": "design",
-    "name": { "zh": "钢笔工具", "en": "Pen Tool" },
-    "description": { "zh": "绘制自定义路径", "en": "Draw custom paths" },
+    "name": {
+      "zh": "钢笔工具",
+      "en": "Pen Tool"
+    },
+    "description": {
+      "zh": "绘制自定义路径",
+      "en": "Draw custom paths"
+    },
     "windows": "P",
     "mac": "P",
     "linux": "—",
-    "keywords": ["钢笔", "pen", "路径"],
-    "pinyin": "gang bi gong ju gangbigongju g b g j gbgj"
+    "keywords": [
+      "钢笔",
+      "pen",
+      "路径"
+    ],
+    "pinyin": "gang bi gong ju gangbigongju g b g j gbgj gang bi   lu jing gangbi lujing g b   l j gb lj"
   },
   {
     "id": "xd-text",
     "appId": "xd",
     "type": "software",
     "category": "design",
-    "name": { "zh": "文字工具", "en": "Text Tool" },
-    "description": { "zh": "创建文本框", "en": "Create a text box" },
+    "name": {
+      "zh": "文字工具",
+      "en": "Text Tool"
+    },
+    "description": {
+      "zh": "创建文本框",
+      "en": "Create a text box"
+    },
     "windows": "T",
     "mac": "T",
     "linux": "—",
-    "keywords": ["文字", "text", "字体"],
-    "pinyin": "wen zi gong ju wenzigongju w z g j wzgj"
+    "keywords": [
+      "文字",
+      "text",
+      "字体"
+    ],
+    "pinyin": "wen zi gong ju wenzigongju w z g j wzgj wen zi   zi ti wenzi ziti w z   z t wz zt"
   },
   {
     "id": "xd-zoom",
     "appId": "xd",
     "type": "software",
     "category": "design",
-    "name": { "zh": "缩放工具", "en": "Zoom Tool" },
-    "description": { "zh": "放大或缩小画布", "en": "Zoom in or out" },
+    "name": {
+      "zh": "缩放工具",
+      "en": "Zoom Tool"
+    },
+    "description": {
+      "zh": "放大或缩小画布",
+      "en": "Zoom in or out"
+    },
     "windows": "Z",
     "mac": "Z",
     "linux": "—",
-    "keywords": ["缩放", "zoom", "视图"],
-    "pinyin": "suo fang gong ju suofanggongju s f g j sfgj"
+    "keywords": [
+      "缩放",
+      "zoom",
+      "视图"
+    ],
+    "pinyin": "suo fang gong ju suofanggongju s f g j sfgj suo fang   shi tu suofang shitu s f   s t sf st"
   },
   {
     "id": "xd-repeatgrid",
     "appId": "xd",
     "type": "software",
     "category": "design",
-    "name": { "zh": "重复网格", "en": "Repeat Grid" },
-    "description": { "zh": "批量复制排列元素", "en": "Repeat and arrange elements" },
+    "name": {
+      "zh": "重复网格",
+      "en": "Repeat Grid"
+    },
+    "description": {
+      "zh": "批量复制排列元素",
+      "en": "Repeat and arrange elements"
+    },
     "windows": "Ctrl+R",
     "mac": "⌘+R",
     "linux": "—",
-    "keywords": ["重复", "repeat", "网格"],
-    "pinyin": "chong fu wang ge chongfuwangge c f w g cfwg"
+    "keywords": [
+      "重复",
+      "repeat",
+      "网格"
+    ],
+    "pinyin": "chong fu wang ge chongfuwangge c f w g cfwg chong fu   wang ge chongfu wangge c f   w g cf wg"
   },
   {
     "id": "xd-group",
     "appId": "xd",
     "type": "software",
     "category": "design",
-    "name": { "zh": "编组", "en": "Group" },
-    "description": { "zh": "将元素编为一组", "en": "Group selected elements" },
+    "name": {
+      "zh": "编组",
+      "en": "Group"
+    },
+    "description": {
+      "zh": "将元素编为一组",
+      "en": "Group selected elements"
+    },
     "windows": "Ctrl+G",
     "mac": "⌘+G",
     "linux": "—",
-    "keywords": ["编组", "group", "组合"],
-    "pinyin": "bian zu bianzu b z bz"
+    "keywords": [
+      "编组",
+      "group",
+      "组合"
+    ],
+    "pinyin": "bian zu bianzu b z bz bian zu   zu he bianzu zuhe b z   z h bz zh"
   },
   {
     "id": "xd-duplicate",
     "appId": "xd",
     "type": "software",
     "category": "design",
-    "name": { "zh": "原位复制", "en": "Duplicate" },
-    "description": { "zh": "复制并偏移一个副本", "en": "Duplicate with a small offset" },
+    "name": {
+      "zh": "原位复制",
+      "en": "Duplicate"
+    },
+    "description": {
+      "zh": "复制并偏移一个副本",
+      "en": "Duplicate with a small offset"
+    },
     "windows": "Ctrl+D",
     "mac": "⌘+D",
     "linux": "—",
-    "keywords": ["复制", "duplicate", "副本"],
-    "pinyin": "fu zhi fu zhi fuzhi f z fz"
+    "keywords": [
+      "复制",
+      "duplicate",
+      "副本"
+    ],
+    "pinyin": "yuan wei fu zhi yuanweifuzhi y w f z ywfz fu zhi   fu ben fuzhi fuben f z   f b fz fb"
   },
   {
     "id": "xd-save",
     "appId": "xd",
     "type": "software",
     "category": "design",
-    "name": { "zh": "保存", "en": "Save" },
-    "description": { "zh": "保存文档", "en": "Save the document" },
+    "name": {
+      "zh": "保存",
+      "en": "Save"
+    },
+    "description": {
+      "zh": "保存文档",
+      "en": "Save the document"
+    },
     "windows": "Ctrl+S",
     "mac": "⌘+S",
     "linux": "—",
-    "keywords": ["保存", "save"],
-    "pinyin": "bao cun baocun b c bc"
+    "keywords": [
+      "保存",
+      "save"
+    ],
+    "pinyin": "bao cun baocun b c bc bao cun baocun b c bc"
   },
   {
     "id": "xd-export",
     "appId": "xd",
     "type": "software",
     "category": "design",
-    "name": { "zh": "导出", "en": "Export" },
-    "description": { "zh": "导出为图片或 PDF", "en": "Export as image or PDF" },
+    "name": {
+      "zh": "导出",
+      "en": "Export"
+    },
+    "description": {
+      "zh": "导出为图片或 PDF",
+      "en": "Export as image or PDF"
+    },
     "windows": "Ctrl+E",
     "mac": "⌘+E",
     "linux": "—",
-    "keywords": ["导出", "export"],
-    "pinyin": "dao chu daochu d c dc"
+    "keywords": [
+      "导出",
+      "export"
+    ],
+    "pinyin": "dao chu daochu d c dc dao chu daochu d c dc"
   },
   {
     "id": "xd-undo",
     "appId": "xd",
     "type": "software",
     "category": "design",
-    "name": { "zh": "撤销", "en": "Undo" },
-    "description": { "zh": "撤销上一步操作", "en": "Undo the last action" },
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销上一步操作",
+      "en": "Undo the last action"
+    },
     "windows": "Ctrl+Z",
     "mac": "⌘+Z",
     "linux": "—",
-    "keywords": ["撤销", "undo"],
-    "pinyin": "che xiao chexiao c x cx"
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
   },
   {
     "id": "xd-redo",
     "appId": "xd",
     "type": "software",
     "category": "design",
-    "name": { "zh": "重做", "en": "Redo" },
-    "description": { "zh": "重做被撤销的操作", "en": "Redo the undone action" },
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "重做被撤销的操作",
+      "en": "Redo the undone action"
+    },
     "windows": "Ctrl+Shift+Z",
     "mac": "⌘+Shift+Z",
     "linux": "—",
-    "keywords": ["重做", "redo"],
-    "pinyin": "zhong zuo zhongzuo z z zz"
+    "keywords": [
+      "重做",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "xd-xd-rect",
+    "appId": "xd",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "矩形",
+      "en": "Rectangle"
+    },
+    "description": {
+      "zh": "绘制矩形",
+      "en": "Rectangle"
+    },
+    "windows": "R",
+    "mac": "R",
+    "linux": "R",
+    "keywords": [
+      "矩形",
+      "rectangle"
+    ],
+    "pinyin": "ju xing juxing j x jx ju xing juxing j x jx"
+  },
+  {
+    "id": "xd-xd-ellipse",
+    "appId": "xd",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "椭圆",
+      "en": "Ellipse"
+    },
+    "description": {
+      "zh": "绘制椭圆",
+      "en": "Ellipse"
+    },
+    "windows": "E",
+    "mac": "E",
+    "linux": "E",
+    "keywords": [
+      "椭圆",
+      "ellipse"
+    ],
+    "pinyin": "tuo yuan tuoyuan t y ty tuo yuan tuoyuan t y ty"
+  },
+  {
+    "id": "xd-xd-line",
+    "appId": "xd",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "直线",
+      "en": "Line"
+    },
+    "description": {
+      "zh": "绘制直线",
+      "en": "Line"
+    },
+    "windows": "L",
+    "mac": "L",
+    "linux": "L",
+    "keywords": [
+      "直线",
+      "line"
+    ],
+    "pinyin": "zhi xian zhixian z x zx zhi xian zhixian z x zx"
+  },
+  {
+    "id": "xd-xd-pen",
+    "appId": "xd",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "钢笔",
+      "en": "Pen"
+    },
+    "description": {
+      "zh": "钢笔工具",
+      "en": "Pen"
+    },
+    "windows": "P",
+    "mac": "P",
+    "linux": "P",
+    "keywords": [
+      "钢笔",
+      "pen"
+    ],
+    "pinyin": "gang bi gangbi g b gb gang bi gangbi g b gb"
+  },
+  {
+    "id": "xd-xd-text",
+    "appId": "xd",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "文本",
+      "en": "Text"
+    },
+    "description": {
+      "zh": "添加文本",
+      "en": "Text"
+    },
+    "windows": "T",
+    "mac": "T",
+    "linux": "T",
+    "keywords": [
+      "文本",
+      "text"
+    ],
+    "pinyin": "wen ben wenben w b wb wen ben wenben w b wb"
+  },
+  {
+    "id": "xd-xd-artboard",
+    "appId": "xd",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "画板",
+      "en": "Artboard"
+    },
+    "description": {
+      "zh": "新建画板",
+      "en": "Artboard"
+    },
+    "windows": "A",
+    "mac": "A",
+    "linux": "A",
+    "keywords": [
+      "画板",
+      "artboard"
+    ],
+    "pinyin": "hua ban huaban h b hb hua ban huaban h b hb"
+  },
+  {
+    "id": "xd-xd-move",
+    "appId": "xd",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "移动",
+      "en": "Move"
+    },
+    "description": {
+      "zh": "选择移动",
+      "en": "Move"
+    },
+    "windows": "V",
+    "mac": "V",
+    "linux": "V",
+    "keywords": [
+      "移动",
+      "move"
+    ],
+    "pinyin": "yi dong yidong y d yd yi dong yidong y d yd"
+  },
+  {
+    "id": "xd-xd-zoom",
+    "appId": "xd",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "缩放",
+      "en": "Zoom"
+    },
+    "description": {
+      "zh": "缩放工具",
+      "en": "Zoom"
+    },
+    "windows": "Z",
+    "mac": "Z",
+    "linux": "Z",
+    "keywords": [
+      "缩放",
+      "zoom"
+    ],
+    "pinyin": "suo fang suofang s f sf suo fang suofang s f sf"
+  },
+  {
+    "id": "xd-xd-hand",
+    "appId": "xd",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "抓手",
+      "en": "Hand"
+    },
+    "description": {
+      "zh": "平移",
+      "en": "Hand"
+    },
+    "windows": "H",
+    "mac": "H",
+    "linux": "H",
+    "keywords": [
+      "抓手",
+      "hand"
+    ],
+    "pinyin": "zhua shou zhuashou z s zs zhua shou zhuashou z s zs"
+  },
+  {
+    "id": "xd-xd-duplicate",
+    "appId": "xd",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "复制",
+      "en": "Duplicate"
+    },
+    "description": {
+      "zh": "原位复制",
+      "en": "Duplicate"
+    },
+    "windows": "Ctrl+D",
+    "mac": "Cmd+D",
+    "linux": "Ctrl+D",
+    "keywords": [
+      "复制",
+      "duplicate"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "xd-xd-group",
+    "appId": "xd",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "编组",
+      "en": "Group"
+    },
+    "description": {
+      "zh": "编组",
+      "en": "Group"
+    },
+    "windows": "Ctrl+G",
+    "mac": "Cmd+G",
+    "linux": "Ctrl+G",
+    "keywords": [
+      "编组",
+      "group"
+    ],
+    "pinyin": "bian zu bianzu b z bz bian zu bianzu b z bz"
+  },
+  {
+    "id": "xd-xd-ungroup",
+    "appId": "xd",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "取消编组",
+      "en": "Ungroup"
+    },
+    "description": {
+      "zh": "取消编组",
+      "en": "Ungroup"
+    },
+    "windows": "Ctrl+Shift+G",
+    "mac": "Cmd+Shift+G",
+    "linux": "Ctrl+Shift+G",
+    "keywords": [
+      "取消编组",
+      "ungroup"
+    ],
+    "pinyin": "qu xiao bian zu quxiaobianzu q x b z qxbz qu xiao bian zu quxiaobianzu q x b z qxbz"
+  },
+  {
+    "id": "xd-xd-mask",
+    "appId": "xd",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "蒙版",
+      "en": "Mask"
+    },
+    "description": {
+      "zh": "建立蒙版",
+      "en": "Mask"
+    },
+    "windows": "Ctrl+Shift+M",
+    "mac": "Cmd+Shift+M",
+    "linux": "Ctrl+Shift+M",
+    "keywords": [
+      "蒙版",
+      "mask"
+    ],
+    "pinyin": "meng ban mengban m b mb meng ban mengban m b mb"
+  },
+  {
+    "id": "xd-xd-repeat",
+    "appId": "xd",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "重复网格",
+      "en": "Repeat Grid"
+    },
+    "description": {
+      "zh": "重复网格",
+      "en": "Repeat grid"
+    },
+    "windows": "Ctrl+R",
+    "mac": "Cmd+R",
+    "linux": "Ctrl+R",
+    "keywords": [
+      "重复网格",
+      "repeat grid"
+    ],
+    "pinyin": "chong fu wang ge chongfuwangge c f w g cfwg chong fu wang ge chongfuwangge c f w g cfwg"
+  },
+  {
+    "id": "xd-xd-align",
+    "appId": "xd",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "对齐",
+      "en": "Align"
+    },
+    "description": {
+      "zh": "对齐面板",
+      "en": "Align"
+    },
+    "windows": "Ctrl+Alt+0",
+    "mac": "Cmd+Option+0",
+    "linux": "Ctrl+Alt+0",
+    "keywords": [
+      "对齐",
+      "align"
+    ],
+    "pinyin": "dui qi duiqi d q dq dui qi duiqi d q dq"
+  },
+  {
+    "id": "xd-xd-distribute",
+    "appId": "xd",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "分布",
+      "en": "Distribute"
+    },
+    "description": {
+      "zh": "分布对象",
+      "en": "Distribute"
+    },
+    "windows": "Ctrl+Alt+;",
+    "mac": "Cmd+Option+;",
+    "linux": "Ctrl+Alt+;",
+    "keywords": [
+      "分布",
+      "distribute"
+    ],
+    "pinyin": "fen bu fenbu f b fb fen bu fenbu f b fb"
+  },
+  {
+    "id": "xd-xd-preview",
+    "appId": "xd",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "预览",
+      "en": "Preview"
+    },
+    "description": {
+      "zh": "预览原型",
+      "en": "Preview"
+    },
+    "windows": "Ctrl+Enter",
+    "mac": "Cmd+Enter",
+    "linux": "Ctrl+Enter",
+    "keywords": [
+      "预览",
+      "preview"
+    ],
+    "pinyin": "yu lan yulan y l yl yu lan yulan y l yl"
+  },
+  {
+    "id": "xd-xd-export",
+    "appId": "xd",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "导出",
+      "en": "Export"
+    },
+    "description": {
+      "zh": "导出资源",
+      "en": "Export"
+    },
+    "windows": "Ctrl+E",
+    "mac": "Cmd+E",
+    "linux": "Ctrl+E",
+    "keywords": [
+      "导出",
+      "export"
+    ],
+    "pinyin": "dao chu daochu d c dc dao chu daochu d c dc"
+  },
+  {
+    "id": "xd-xd-undo",
+    "appId": "xd",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "windows": "Ctrl+Z",
+    "mac": "Cmd+Z",
+    "linux": "Ctrl+Z",
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "xd-xd-redo",
+    "appId": "xd",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "windows": "Ctrl+Shift+Z",
+    "mac": "Cmd+Shift+Z",
+    "linux": "Ctrl+Shift+Z",
+    "keywords": [
+      "重做",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
   }
 ]

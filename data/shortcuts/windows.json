@@ -465,5 +465,472 @@
       "run"
     ],
     "pinyin": "yun xing yunxing y x yx yun xing yunxing y x yx"
+  },
+  {
+    "id": "windows-win-search",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "搜索",
+      "en": "Search"
+    },
+    "description": {
+      "zh": "打开搜索",
+      "en": "Open search"
+    },
+    "windows": "Win+S",
+    "mac": "Win+S",
+    "linux": "Win+S",
+    "keywords": [
+      "搜索",
+      "search"
+    ],
+    "pinyin": "sou suo sousuo s s ss sou suo sousuo s s ss"
+  },
+  {
+    "id": "windows-win-explorer",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "文件资源管理器",
+      "en": "File Explorer"
+    },
+    "description": {
+      "zh": "打开资源管理器",
+      "en": "File explorer"
+    },
+    "windows": "Win+E",
+    "mac": "Win+E",
+    "linux": "Win+E",
+    "keywords": [
+      "资源管理器",
+      "explorer",
+      "文件"
+    ],
+    "pinyin": "wen jian zi yuan guan li qi wenjianziyuanguanliqi w j z y g l q wjzyglq zi yuan guan li qi   wen jian ziyuanguanliqi wenjian z y g l q   w j zyglq wj"
+  },
+  {
+    "id": "windows-win-settings",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "设置",
+      "en": "Settings"
+    },
+    "description": {
+      "zh": "打开设置",
+      "en": "Settings"
+    },
+    "windows": "Win+I",
+    "mac": "Win+I",
+    "linux": "Win+I",
+    "keywords": [
+      "设置",
+      "settings"
+    ],
+    "pinyin": "she zhi shezhi s z sz she zhi shezhi s z sz"
+  },
+  {
+    "id": "windows-win-lock",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "锁屏",
+      "en": "Lock"
+    },
+    "description": {
+      "zh": "锁定屏幕",
+      "en": "Lock screen"
+    },
+    "windows": "Win+L",
+    "mac": "Win+L",
+    "linux": "Win+L",
+    "keywords": [
+      "锁屏",
+      "lock"
+    ],
+    "pinyin": "suo ping suoping s p sp suo ping suoping s p sp"
+  },
+  {
+    "id": "windows-win-switch",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "切换窗口",
+      "en": "Switch Window"
+    },
+    "description": {
+      "zh": "切换应用",
+      "en": "Switch window"
+    },
+    "windows": "Alt+Tab",
+    "mac": "Alt+Tab",
+    "linux": "Alt+Tab",
+    "keywords": [
+      "切换",
+      "switch",
+      "窗口"
+    ],
+    "pinyin": "qie huan chuang kou qiehuanchuangkou q h c k qhck qie huan   chuang kou qiehuan chuangkou q h   c k qh ck"
+  },
+  {
+    "id": "windows-win-desktop",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "显示桌面",
+      "en": "Show Desktop"
+    },
+    "description": {
+      "zh": "显示桌面",
+      "en": "Show desktop"
+    },
+    "windows": "Win+D",
+    "mac": "Win+D",
+    "linux": "Win+D",
+    "keywords": [
+      "桌面",
+      "desktop"
+    ],
+    "pinyin": "xian shi zhuo mian xianshizhuomian x s z m xszm zhuo mian zhuomian z m zm"
+  },
+  {
+    "id": "windows-win-snapleft",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "左贴靠",
+      "en": "Snap Left"
+    },
+    "description": {
+      "zh": "窗口贴左",
+      "en": "Snap left"
+    },
+    "windows": "Win+Left",
+    "mac": "Win+Left",
+    "linux": "Win+Left",
+    "keywords": [
+      "贴靠",
+      "snap",
+      "左"
+    ],
+    "pinyin": "zuo tie kao zuotiekao z t k ztk tie kao   zuo tiekao zuo t k   z tk z"
+  },
+  {
+    "id": "windows-win-snapright",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "右贴靠",
+      "en": "Snap Right"
+    },
+    "description": {
+      "zh": "窗口贴右",
+      "en": "Snap right"
+    },
+    "windows": "Win+Right",
+    "mac": "Win+Right",
+    "linux": "Win+Right",
+    "keywords": [
+      "贴靠",
+      "snap",
+      "右"
+    ],
+    "pinyin": "you tie kao youtiekao y t k ytk tie kao   you tiekao you t k   y tk y"
+  },
+  {
+    "id": "windows-win-max",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "最大化",
+      "en": "Maximize"
+    },
+    "description": {
+      "zh": "最大化窗口",
+      "en": "Maximize"
+    },
+    "windows": "Win+Up",
+    "mac": "Win+Up",
+    "linux": "Win+Up",
+    "keywords": [
+      "最大化",
+      "maximize"
+    ],
+    "pinyin": "zui da hua zuidahua z d h zdh zui da hua zuidahua z d h zdh"
+  },
+  {
+    "id": "windows-win-min",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "最小化",
+      "en": "Minimize"
+    },
+    "description": {
+      "zh": "最小化窗口",
+      "en": "Minimize"
+    },
+    "windows": "Win+Down",
+    "mac": "Win+Down",
+    "linux": "Win+Down",
+    "keywords": [
+      "最小化",
+      "minimize"
+    ],
+    "pinyin": "zui xiao hua zuixiaohua z x h zxh zui xiao hua zuixiaohua z x h zxh"
+  },
+  {
+    "id": "windows-win-tab",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "任务视图",
+      "en": "Task View"
+    },
+    "description": {
+      "zh": "任务视图",
+      "en": "Task view"
+    },
+    "windows": "Win+Tab",
+    "mac": "Win+Tab",
+    "linux": "Win+Tab",
+    "keywords": [
+      "任务视图",
+      "task view"
+    ],
+    "pinyin": "ren wu shi tu renwushitu r w s t rwst ren wu shi tu renwushitu r w s t rwst"
+  },
+  {
+    "id": "windows-win-clipboard",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "剪贴板历史",
+      "en": "Clipboard"
+    },
+    "description": {
+      "zh": "剪贴板历史",
+      "en": "Clipboard history"
+    },
+    "windows": "Win+V",
+    "mac": "Win+V",
+    "linux": "Win+V",
+    "keywords": [
+      "剪贴板",
+      "clipboard"
+    ],
+    "pinyin": "jian tie ban li shi jiantiebanlishi j t b l s jtbls jian tie ban jiantieban j t b jtb"
+  },
+  {
+    "id": "windows-win-screenshot",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "截图",
+      "en": "Screenshot"
+    },
+    "description": {
+      "zh": "截图工具",
+      "en": "Screenshot"
+    },
+    "windows": "Win+Shift+S",
+    "mac": "Win+Shift+S",
+    "linux": "Win+Shift+S",
+    "keywords": [
+      "截图",
+      "screenshot"
+    ],
+    "pinyin": "jie tu jietu j t jt jie tu jietu j t jt"
+  },
+  {
+    "id": "windows-win-run",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "运行",
+      "en": "Run"
+    },
+    "description": {
+      "zh": "运行对话框",
+      "en": "Run dialog"
+    },
+    "windows": "Win+R",
+    "mac": "Win+R",
+    "linux": "Win+R",
+    "keywords": [
+      "运行",
+      "run"
+    ],
+    "pinyin": "yun xing yunxing y x yx yun xing yunxing y x yx"
+  },
+  {
+    "id": "windows-win-emoji",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "表情符号",
+      "en": "Emoji"
+    },
+    "description": {
+      "zh": "打开表情面板",
+      "en": "Emoji panel"
+    },
+    "windows": "Win+.",
+    "mac": "Win+.",
+    "linux": "Win+.",
+    "keywords": [
+      "表情",
+      "emoji"
+    ],
+    "pinyin": "biao qing fu hao biaoqingfuhao b q f h bqfh biao qing biaoqing b q bq"
+  },
+  {
+    "id": "windows-win-vc",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "语音输入",
+      "en": "Voice Typing"
+    },
+    "description": {
+      "zh": "语音输入",
+      "en": "Voice typing"
+    },
+    "windows": "Win+H",
+    "mac": "Win+H",
+    "linux": "Win+H",
+    "keywords": [
+      "语音",
+      "voice",
+      "听写"
+    ],
+    "pinyin": "yu yin shu ru yuyinshuru y y s r yysr yu yin   ting xie yuyin tingxie y y   t x yy tx"
+  },
+  {
+    "id": "windows-win-project",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "投影",
+      "en": "Project"
+    },
+    "description": {
+      "zh": "投影到屏幕",
+      "en": "Project"
+    },
+    "windows": "Win+P",
+    "mac": "Win+P",
+    "linux": "Win+P",
+    "keywords": [
+      "投影",
+      "project"
+    ],
+    "pinyin": "tou ying touying t y ty tou ying touying t y ty"
+  },
+  {
+    "id": "windows-win-a",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "操作中心",
+      "en": "Action Center"
+    },
+    "description": {
+      "zh": "打开操作中心",
+      "en": "Action center"
+    },
+    "windows": "Win+A",
+    "mac": "Win+A",
+    "linux": "Win+A",
+    "keywords": [
+      "操作中心",
+      "action center"
+    ],
+    "pinyin": "cao zuo zhong xin caozuozhongxin c z z x czzx cao zuo zhong xin caozuozhongxin c z z x czzx"
+  },
+  {
+    "id": "windows-win-x",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "快速菜单",
+      "en": "Quick Menu"
+    },
+    "description": {
+      "zh": "电源菜单",
+      "en": "Quick menu"
+    },
+    "windows": "Win+X",
+    "mac": "Win+X",
+    "linux": "Win+X",
+    "keywords": [
+      "快速菜单",
+      "quick menu"
+    ],
+    "pinyin": "kuai su cai dan kuaisucaidan k s c d kscd kuai su cai dan kuaisucaidan k s c d kscd"
+  },
+  {
+    "id": "windows-win-num",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "固定应用",
+      "en": "Pinned App"
+    },
+    "description": {
+      "zh": "打开任务栏应用",
+      "en": "Pinned app"
+    },
+    "windows": "Win+1..9",
+    "mac": "Win+1..9",
+    "linux": "Win+1..9",
+    "keywords": [
+      "固定应用",
+      "pinned"
+    ],
+    "pinyin": "gu ding ying yong gudingyingyong g d y y gdyy gu ding ying yong gudingyingyong g d y y gdyy"
+  },
+  {
+    "id": "windows-win-close",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "关闭窗口",
+      "en": "Close Window"
+    },
+    "description": {
+      "zh": "关闭窗口",
+      "en": "Close window"
+    },
+    "windows": "Alt+F4",
+    "mac": "Alt+F4",
+    "linux": "Alt+F4",
+    "keywords": [
+      "关闭",
+      "close"
+    ],
+    "pinyin": "guan bi chuang kou guanbichuangkou g b c k gbck guan bi guanbi g b gb"
   }
 ]

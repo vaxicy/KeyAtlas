@@ -1,0 +1,489 @@
+[
+  {
+    "id": "firefox-newtab",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "新建标签页",
+      "en": "New Tab"
+    },
+    "description": {
+      "zh": "打开新标签页",
+      "en": "Open new tab"
+    },
+    "windows": "Ctrl+T",
+    "mac": "Cmd+T",
+    "linux": "Ctrl+T",
+    "keywords": [
+      "新建标签",
+      "new tab"
+    ],
+    "pinyin": "xin jian biao qian ye xinjianbiaoqianye x j b q y xjbqy xin jian biao qian xinjianbiaoqian x j b q xjbq"
+  },
+  {
+    "id": "firefox-newwindow",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "新建窗口",
+      "en": "New Window"
+    },
+    "description": {
+      "zh": "打开新窗口",
+      "en": "Open new window"
+    },
+    "windows": "Ctrl+N",
+    "mac": "Cmd+N",
+    "linux": "Ctrl+N",
+    "keywords": [
+      "新建窗口",
+      "new window"
+    ],
+    "pinyin": "xin jian chuang kou xinjianchuangkou x j c k xjck xin jian chuang kou xinjianchuangkou x j c k xjck"
+  },
+  {
+    "id": "firefox-private",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "隐私窗口",
+      "en": "Private Window"
+    },
+    "description": {
+      "zh": "打开隐私浏览窗口",
+      "en": "Open private window"
+    },
+    "windows": "Ctrl+Shift+P",
+    "mac": "Cmd+Shift+P",
+    "linux": "Ctrl+Shift+P",
+    "keywords": [
+      "隐私",
+      "private",
+      "无痕"
+    ],
+    "pinyin": "yin si chuang kou yinsichuangkou y s c k ysck yin si   wu hen yinsi wuhen y s   w h ys wh"
+  },
+  {
+    "id": "firefox-close",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "关闭标签页",
+      "en": "Close Tab"
+    },
+    "description": {
+      "zh": "关闭当前标签",
+      "en": "Close tab"
+    },
+    "windows": "Ctrl+W",
+    "mac": "Cmd+W",
+    "linux": "Ctrl+W",
+    "keywords": [
+      "关闭",
+      "close"
+    ],
+    "pinyin": "guan bi biao qian ye guanbibiaoqianye g b b q y gbbqy guan bi guanbi g b gb"
+  },
+  {
+    "id": "firefox-reopen",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "恢复关闭的标签",
+      "en": "Reopen Closed Tab"
+    },
+    "description": {
+      "zh": "重新打开标签",
+      "en": "Reopen closed tab"
+    },
+    "windows": "Ctrl+Shift+T",
+    "mac": "Cmd+Shift+T",
+    "linux": "Ctrl+Shift+T",
+    "keywords": [
+      "恢复",
+      "reopen"
+    ],
+    "pinyin": "hui fu guan bi de biao qian huifuguanbidebiaoqian h f g b d b q hfgbdbq hui fu huifu h f hf"
+  },
+  {
+    "id": "firefox-nexttab",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "下一个标签",
+      "en": "Next Tab"
+    },
+    "description": {
+      "zh": "下一个标签",
+      "en": "Next tab"
+    },
+    "windows": "Ctrl+Tab",
+    "mac": "Cmd+Option+Right",
+    "linux": "Ctrl+Tab",
+    "keywords": [
+      "下一个标签",
+      "next tab"
+    ],
+    "pinyin": "xia yi ge biao qian xiayigebiaoqian x y g b q xygbq xia yi ge biao qian xiayigebiaoqian x y g b q xygbq"
+  },
+  {
+    "id": "firefox-prevtab",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "上一个标签",
+      "en": "Previous Tab"
+    },
+    "description": {
+      "zh": "上一个标签",
+      "en": "Previous tab"
+    },
+    "windows": "Ctrl+Shift+Tab",
+    "mac": "Cmd+Option+Left",
+    "linux": "Ctrl+Shift+Tab",
+    "keywords": [
+      "上一个标签",
+      "prev tab"
+    ],
+    "pinyin": "shang yi ge biao qian shangyigebiaoqian s y g b q sygbq shang yi ge biao qian shangyigebiaoqian s y g b q sygbq"
+  },
+  {
+    "id": "firefox-addrbar",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "地址栏",
+      "en": "Address Bar"
+    },
+    "description": {
+      "zh": "聚焦地址栏",
+      "en": "Focus address bar"
+    },
+    "windows": "Ctrl+L",
+    "mac": "Cmd+L",
+    "linux": "Ctrl+L",
+    "keywords": [
+      "地址栏",
+      "address"
+    ],
+    "pinyin": "di zhi lan dizhilan d z l dzl di zhi lan dizhilan d z l dzl"
+  },
+  {
+    "id": "firefox-find",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "查找",
+      "en": "Find"
+    },
+    "description": {
+      "zh": "页面内查找",
+      "en": "Find on page"
+    },
+    "windows": "Ctrl+F",
+    "mac": "Cmd+F",
+    "linux": "Ctrl+F",
+    "keywords": [
+      "查找",
+      "find"
+    ],
+    "pinyin": "cha zhao chazhao c z cz cha zhao chazhao c z cz"
+  },
+  {
+    "id": "firefox-quickfind",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "快速查找",
+      "en": "Quick Find"
+    },
+    "description": {
+      "zh": "快速查找链接",
+      "en": "Quick find link"
+    },
+    "windows": "'",
+    "mac": "'",
+    "linux": "'",
+    "keywords": [
+      "快速查找",
+      "quick find"
+    ],
+    "pinyin": "kuai su cha zhao kuaisuchazhao k s c z kscz kuai su cha zhao kuaisuchazhao k s c z kscz"
+  },
+  {
+    "id": "firefox-bookmark",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "添加书签",
+      "en": "Bookmark"
+    },
+    "description": {
+      "zh": "添加书签",
+      "en": "Add bookmark"
+    },
+    "windows": "Ctrl+D",
+    "mac": "Cmd+D",
+    "linux": "Ctrl+D",
+    "keywords": [
+      "书签",
+      "bookmark"
+    ],
+    "pinyin": "tian jia shu qian tianjiashuqian t j s q tjsq shu qian shuqian s q sq"
+  },
+  {
+    "id": "firefox-library",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "资料库",
+      "en": "Library"
+    },
+    "description": {
+      "zh": "打开资料库",
+      "en": "Open library"
+    },
+    "windows": "Ctrl+Shift+O",
+    "mac": "Cmd+Shift+O",
+    "linux": "Ctrl+Shift+O",
+    "keywords": [
+      "资料库",
+      "library",
+      "历史"
+    ],
+    "pinyin": "zi liao ku ziliaoku z l k zlk zi liao ku   li shi ziliaoku lishi z l k   l s zlk ls"
+  },
+  {
+    "id": "firefox-history",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "历史记录",
+      "en": "History"
+    },
+    "description": {
+      "zh": "打开历史",
+      "en": "Open history"
+    },
+    "windows": "Ctrl+H",
+    "mac": "Cmd+Shift+H",
+    "linux": "Ctrl+H",
+    "keywords": [
+      "历史",
+      "history"
+    ],
+    "pinyin": "li shi ji lu lishijilu l s j l lsjl li shi lishi l s ls"
+  },
+  {
+    "id": "firefox-downloads",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "下载",
+      "en": "Downloads"
+    },
+    "description": {
+      "zh": "打开下载",
+      "en": "Open downloads"
+    },
+    "windows": "Ctrl+J",
+    "mac": "Cmd+J",
+    "linux": "Ctrl+J",
+    "keywords": [
+      "下载",
+      "downloads"
+    ],
+    "pinyin": "xia zai xiazai x z xz xia zai xiazai x z xz"
+  },
+  {
+    "id": "firefox-devtools",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "开发者工具",
+      "en": "DevTools"
+    },
+    "description": {
+      "zh": "打开开发者工具",
+      "en": "Open devtools"
+    },
+    "windows": "Ctrl+Shift+I",
+    "mac": "Cmd+Option+I",
+    "linux": "Ctrl+Shift+I",
+    "keywords": [
+      "开发者",
+      "devtools"
+    ],
+    "pinyin": "kai fa zhe gong ju kaifazhegongju k f z g j kfzgj kai fa zhe kaifazhe k f z kfz"
+  },
+  {
+    "id": "firefox-refresh",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "刷新",
+      "en": "Reload"
+    },
+    "description": {
+      "zh": "刷新页面",
+      "en": "Reload page"
+    },
+    "windows": "F5",
+    "mac": "Cmd+R",
+    "linux": "F5",
+    "keywords": [
+      "刷新",
+      "reload"
+    ],
+    "pinyin": "shua xin shuaxin s x sx shua xin shuaxin s x sx"
+  },
+  {
+    "id": "firefox-hardrefresh",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "强制刷新",
+      "en": "Hard Reload"
+    },
+    "description": {
+      "zh": "忽略缓存刷新",
+      "en": "Hard reload"
+    },
+    "windows": "Ctrl+F5",
+    "mac": "Cmd+Shift+R",
+    "linux": "Ctrl+F5",
+    "keywords": [
+      "强制刷新",
+      "hard reload",
+      "缓存"
+    ],
+    "pinyin": "qiang zhi shua xin qiangzhishuaxin q z s x qzsx qiang zhi shua xin   huan cun qiangzhishuaxin huancun q z s x   h c qzsx hc"
+  },
+  {
+    "id": "firefox-zoomin",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "放大页面",
+      "en": "Zoom In"
+    },
+    "description": {
+      "zh": "放大",
+      "en": "Zoom in"
+    },
+    "windows": "Ctrl++",
+    "mac": "Cmd++",
+    "linux": "Ctrl++",
+    "keywords": [
+      "放大",
+      "zoom in"
+    ],
+    "pinyin": "fang da ye mian fangdayemian f d y m fdym fang da fangda f d fd"
+  },
+  {
+    "id": "firefox-zoomout",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "缩小页面",
+      "en": "Zoom Out"
+    },
+    "description": {
+      "zh": "缩小",
+      "en": "Zoom out"
+    },
+    "windows": "Ctrl+-",
+    "mac": "Cmd+-",
+    "linux": "Ctrl+-",
+    "keywords": [
+      "缩小",
+      "zoom out"
+    ],
+    "pinyin": "suo xiao ye mian suoxiaoyemian s x y m sxym suo xiao suoxiao s x sx"
+  },
+  {
+    "id": "firefox-fullscreen",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "全屏",
+      "en": "Full Screen"
+    },
+    "description": {
+      "zh": "全屏",
+      "en": "Full screen"
+    },
+    "windows": "F11",
+    "mac": "Cmd+Shift+F",
+    "linux": "F11",
+    "keywords": [
+      "全屏",
+      "fullscreen"
+    ],
+    "pinyin": "quan ping quanping q p qp quan ping quanping q p qp"
+  },
+  {
+    "id": "firefox-reader",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "阅读模式",
+      "en": "Reader Mode"
+    },
+    "description": {
+      "zh": "进入阅读模式",
+      "en": "Reader mode"
+    },
+    "windows": "Ctrl+Alt+R",
+    "mac": "Cmd+Alt+R",
+    "linux": "Ctrl+Alt+R",
+    "keywords": [
+      "阅读",
+      "reader"
+    ],
+    "pinyin": "yue du mo shi yuedumoshi y d m s ydms yue du yuedu y d yd"
+  },
+  {
+    "id": "firefox-screenshot",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "截图",
+      "en": "Screenshot"
+    },
+    "description": {
+      "zh": "截取网页",
+      "en": "Screenshot"
+    },
+    "windows": "Ctrl+Shift+S",
+    "mac": "Cmd+Shift+S",
+    "linux": "Ctrl+Shift+S",
+    "keywords": [
+      "截图",
+      "screenshot"
+    ],
+    "pinyin": "jie tu jietu j t jt jie tu jietu j t jt"
+  }
+]

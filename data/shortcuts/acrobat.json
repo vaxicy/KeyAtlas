@@ -4,181 +4,715 @@
     "appId": "acrobat",
     "type": "software",
     "category": "productivity",
-    "name": { "zh": "打开文件", "en": "Open" },
-    "description": { "zh": "打开 PDF 文件", "en": "Open a PDF file" },
+    "name": {
+      "zh": "打开文件",
+      "en": "Open"
+    },
+    "description": {
+      "zh": "打开 PDF 文件",
+      "en": "Open a PDF file"
+    },
     "windows": "Ctrl+O",
     "mac": "⌘+O",
     "linux": "—",
-    "keywords": ["打开", "open", "pdf"],
-    "pinyin": "da kai wen jian dakaiwenjian d k w j dkwj"
+    "keywords": [
+      "打开",
+      "open",
+      "pdf"
+    ],
+    "pinyin": "da kai wen jian dakaiwenjian d k w j dkwj da kai dakai d k dk"
   },
   {
     "id": "ac-save",
     "appId": "acrobat",
     "type": "software",
     "category": "productivity",
-    "name": { "zh": "保存", "en": "Save" },
-    "description": { "zh": "保存当前文档", "en": "Save the current document" },
+    "name": {
+      "zh": "保存",
+      "en": "Save"
+    },
+    "description": {
+      "zh": "保存当前文档",
+      "en": "Save the current document"
+    },
     "windows": "Ctrl+S",
     "mac": "⌘+S",
     "linux": "—",
-    "keywords": ["保存", "save"],
-    "pinyin": "bao cun baocun b c bc"
+    "keywords": [
+      "保存",
+      "save"
+    ],
+    "pinyin": "bao cun baocun b c bc bao cun baocun b c bc"
   },
   {
     "id": "ac-print",
     "appId": "acrobat",
     "type": "software",
     "category": "productivity",
-    "name": { "zh": "打印", "en": "Print" },
-    "description": { "zh": "打开打印对话框", "en": "Open the print dialog" },
+    "name": {
+      "zh": "打印",
+      "en": "Print"
+    },
+    "description": {
+      "zh": "打开打印对话框",
+      "en": "Open the print dialog"
+    },
     "windows": "Ctrl+P",
     "mac": "⌘+P",
     "linux": "—",
-    "keywords": ["打印", "print"],
-    "pinyin": "da yin dayin d y dy"
+    "keywords": [
+      "打印",
+      "print"
+    ],
+    "pinyin": "da yin dayin d y dy da yin dayin d y dy"
   },
   {
     "id": "ac-find",
     "appId": "acrobat",
     "type": "software",
     "category": "productivity",
-    "name": { "zh": "查找", "en": "Find" },
-    "description": { "zh": "在文档中查找文字", "en": "Find text in the document" },
+    "name": {
+      "zh": "查找",
+      "en": "Find"
+    },
+    "description": {
+      "zh": "在文档中查找文字",
+      "en": "Find text in the document"
+    },
     "windows": "Ctrl+F",
     "mac": "⌘+F",
     "linux": "—",
-    "keywords": ["查找", "find", "搜索"],
-    "pinyin": "cha zh ao chazhao c z cz"
+    "keywords": [
+      "查找",
+      "find",
+      "搜索"
+    ],
+    "pinyin": "cha zhao chazhao c z cz cha zhao   sou suo chazhao sousuo c z   s s cz ss"
   },
   {
     "id": "ac-nextpage",
     "appId": "acrobat",
     "type": "software",
     "category": "productivity",
-    "name": { "zh": "下一页", "en": "Next Page" },
-    "description": { "zh": "跳到下一页", "en": "Go to the next page" },
+    "name": {
+      "zh": "下一页",
+      "en": "Next Page"
+    },
+    "description": {
+      "zh": "跳到下一页",
+      "en": "Go to the next page"
+    },
     "windows": "Page Down",
     "mac": "Page Down",
     "linux": "—",
-    "keywords": ["下一页", "next", "翻页"],
-    "pinyin": "xia yi ye xiayiye x y y xyy"
+    "keywords": [
+      "下一页",
+      "next",
+      "翻页"
+    ],
+    "pinyin": "xia yi ye xiayiye x y y xyy xia yi ye   fan ye xiayiye fanye x y y   f y xyy fy"
   },
   {
     "id": "ac-prevpage",
     "appId": "acrobat",
     "type": "software",
     "category": "productivity",
-    "name": { "zh": "上一页", "en": "Previous Page" },
-    "description": { "zh": "跳到上一页", "en": "Go to the previous page" },
+    "name": {
+      "zh": "上一页",
+      "en": "Previous Page"
+    },
+    "description": {
+      "zh": "跳到上一页",
+      "en": "Go to the previous page"
+    },
     "windows": "Page Up",
     "mac": "Page Up",
     "linux": "—",
-    "keywords": ["上一页", "previous", "翻页"],
-    "pinyin": "shang yi ye shangyiye s y y syy"
+    "keywords": [
+      "上一页",
+      "previous",
+      "翻页"
+    ],
+    "pinyin": "shang yi ye shangyiye s y y syy shang yi ye   fan ye shangyiye fanye s y y   f y syy fy"
   },
   {
     "id": "ac-firstpage",
     "appId": "acrobat",
     "type": "software",
     "category": "productivity",
-    "name": { "zh": "第一页", "en": "First Page" },
-    "description": { "zh": "跳到文档第一页", "en": "Go to the first page" },
+    "name": {
+      "zh": "第一页",
+      "en": "First Page"
+    },
+    "description": {
+      "zh": "跳到文档第一页",
+      "en": "Go to the first page"
+    },
     "windows": "Shift+Ctrl+Page Up",
     "mac": "Shift+⌘+Page Up",
     "linux": "—",
-    "keywords": ["首页", "first", "开头"],
-    "pinyin": "di yi ye diyiye d y y dyy"
+    "keywords": [
+      "首页",
+      "first",
+      "开头"
+    ],
+    "pinyin": "di yi ye diyiye d y y dyy shou ye   kai tou shouye kaitou s y   k t sy kt"
   },
   {
     "id": "ac-lastpage",
     "appId": "acrobat",
     "type": "software",
     "category": "productivity",
-    "name": { "zh": "最后一页", "en": "Last Page" },
-    "description": { "zh": "跳到文档最后一页", "en": "Go to the last page" },
+    "name": {
+      "zh": "最后一页",
+      "en": "Last Page"
+    },
+    "description": {
+      "zh": "跳到文档最后一页",
+      "en": "Go to the last page"
+    },
     "windows": "Shift+Ctrl+Page Down",
     "mac": "Shift+⌘+Page Down",
     "linux": "—",
-    "keywords": ["末页", "last", "结尾"],
-    "pinyin": "zui hou yi ye zuihouyiye z h y y zhyy"
+    "keywords": [
+      "末页",
+      "last",
+      "结尾"
+    ],
+    "pinyin": "zui hou yi ye zuihouyiye z h y y zhyy mo ye   jie wei moye jiewei m y   j w my jw"
   },
   {
     "id": "ac-zoomin",
     "appId": "acrobat",
     "type": "software",
     "category": "productivity",
-    "name": { "zh": "放大", "en": "Zoom In" },
-    "description": { "zh": "放大页面视图", "en": "Zoom in the page view" },
+    "name": {
+      "zh": "放大",
+      "en": "Zoom In"
+    },
+    "description": {
+      "zh": "放大页面视图",
+      "en": "Zoom in the page view"
+    },
     "windows": "Ctrl++",
     "mac": "⌘++",
     "linux": "—",
-    "keywords": ["放大", "zoom in", "视图"],
-    "pinyin": "fang da fangda f d fd"
+    "keywords": [
+      "放大",
+      "zoom in",
+      "视图"
+    ],
+    "pinyin": "fang da fangda f d fd fang da   shi tu fangda shitu f d   s t fd st"
   },
   {
     "id": "ac-zoomout",
     "appId": "acrobat",
     "type": "software",
     "category": "productivity",
-    "name": { "zh": "缩小", "en": "Zoom Out" },
-    "description": { "zh": "缩小页面视图", "en": "Zoom out the page view" },
+    "name": {
+      "zh": "缩小",
+      "en": "Zoom Out"
+    },
+    "description": {
+      "zh": "缩小页面视图",
+      "en": "Zoom out the page view"
+    },
     "windows": "Ctrl+-",
     "mac": "⌘+-",
     "linux": "—",
-    "keywords": ["缩小", "zoom out", "视图"],
-    "pinyin": "suo xiao suoxiao s x sx"
+    "keywords": [
+      "缩小",
+      "zoom out",
+      "视图"
+    ],
+    "pinyin": "suo xiao suoxiao s x sx suo xiao   shi tu suoxiao shitu s x   s t sx st"
   },
   {
     "id": "ac-fullscreen",
     "appId": "acrobat",
     "type": "software",
     "category": "productivity",
-    "name": { "zh": "全屏模式", "en": "Full Screen" },
-    "description": { "zh": "进入或退出全屏阅读", "en": "Enter or exit full screen" },
+    "name": {
+      "zh": "全屏模式",
+      "en": "Full Screen"
+    },
+    "description": {
+      "zh": "进入或退出全屏阅读",
+      "en": "Enter or exit full screen"
+    },
     "windows": "Ctrl+L",
     "mac": "⌘+L",
     "linux": "—",
-    "keywords": ["全屏", "fullscreen", "阅读"],
-    "pinyin": "quan ping mo shi quanpingmoshi q p m s qpms"
+    "keywords": [
+      "全屏",
+      "fullscreen",
+      "阅读"
+    ],
+    "pinyin": "quan ping mo shi quanpingmoshi q p m s qpms quan ping   yue du quanping yuedu q p   y d qp yd"
   },
   {
     "id": "ac-rotatecw",
     "appId": "acrobat",
     "type": "software",
     "category": "productivity",
-    "name": { "zh": "顺时针旋转视图", "en": "Rotate View CW" },
-    "description": { "zh": "顺时针旋转页面视图", "en": "Rotate the view clockwise" },
+    "name": {
+      "zh": "顺时针旋转视图",
+      "en": "Rotate View CW"
+    },
+    "description": {
+      "zh": "顺时针旋转页面视图",
+      "en": "Rotate the view clockwise"
+    },
     "windows": "Ctrl+Shift++",
     "mac": "⌘+Shift++",
     "linux": "—",
-    "keywords": ["旋转", "rotate", "视图"],
-    "pinyin": "shun shi zhen xuan zhuan shunshizhenxuanzhuan s s z x z sszx z"
+    "keywords": [
+      "旋转",
+      "rotate",
+      "视图"
+    ],
+    "pinyin": "shun shi zhen xuan zhuan shi tu shunshizhenxuanzhuanshitu s s z x z s t sszxzst xuan zhuan   shi tu xuanzhuan shitu x z   s t xz st"
   },
   {
     "id": "ac-bookmark",
     "appId": "acrobat",
     "type": "software",
     "category": "productivity",
-    "name": { "zh": "新建书签", "en": "New Bookmark" },
-    "description": { "zh": "为当前页添加书签", "en": "Add a bookmark for the page" },
+    "name": {
+      "zh": "新建书签",
+      "en": "New Bookmark"
+    },
+    "description": {
+      "zh": "为当前页添加书签",
+      "en": "Add a bookmark for the page"
+    },
     "windows": "Ctrl+B",
     "mac": "⌘+B",
     "linux": "—",
-    "keywords": ["书签", "bookmark", "收藏"],
-    "pinyin": "xin jian shu qian xin jianshuqian x j s q xjsq"
+    "keywords": [
+      "书签",
+      "bookmark",
+      "收藏"
+    ],
+    "pinyin": "xin jian shu qian xinjianshuqian x j s q xjsq shu qian   shou cang shuqian shoucang s q   s c sq sc"
   },
   {
     "id": "ac-hand",
     "appId": "acrobat",
     "type": "software",
     "category": "productivity",
-    "name": { "zh": "手形工具", "en": "Hand Tool" },
-    "description": { "zh": "拖动平移页面", "en": "Pan the page by dragging" },
+    "name": {
+      "zh": "手形工具",
+      "en": "Hand Tool"
+    },
+    "description": {
+      "zh": "拖动平移页面",
+      "en": "Pan the page by dragging"
+    },
     "windows": "H",
     "mac": "H",
     "linux": "—",
-    "keywords": ["手形", "hand", "平移"],
-    "pinyin": "shou xing gong ju shouxinggongju s x g j sxgj"
+    "keywords": [
+      "手形",
+      "hand",
+      "平移"
+    ],
+    "pinyin": "shou xing gong ju shouxinggongju s x g j sxgj shou xing   ping yi shouxing pingyi s x   p y sx py"
+  },
+  {
+    "id": "acrobat-acrobat-open",
+    "appId": "acrobat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "打开文件",
+      "en": "Open"
+    },
+    "description": {
+      "zh": "打开 PDF",
+      "en": "Open file"
+    },
+    "windows": "Ctrl+O",
+    "mac": "Cmd+O",
+    "linux": "Ctrl+O",
+    "keywords": [
+      "打开",
+      "open"
+    ],
+    "pinyin": "da kai wen jian dakaiwenjian d k w j dkwj da kai dakai d k dk"
+  },
+  {
+    "id": "acrobat-acrobat-save",
+    "appId": "acrobat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "保存",
+      "en": "Save"
+    },
+    "description": {
+      "zh": "保存",
+      "en": "Save"
+    },
+    "windows": "Ctrl+S",
+    "mac": "Cmd+S",
+    "linux": "Ctrl+S",
+    "keywords": [
+      "保存",
+      "save"
+    ],
+    "pinyin": "bao cun baocun b c bc bao cun baocun b c bc"
+  },
+  {
+    "id": "acrobat-acrobat-print",
+    "appId": "acrobat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "打印",
+      "en": "Print"
+    },
+    "description": {
+      "zh": "打印",
+      "en": "Print"
+    },
+    "windows": "Ctrl+P",
+    "mac": "Cmd+P",
+    "linux": "Ctrl+P",
+    "keywords": [
+      "打印",
+      "print"
+    ],
+    "pinyin": "da yin dayin d y dy da yin dayin d y dy"
+  },
+  {
+    "id": "acrobat-acrobat-find",
+    "appId": "acrobat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "查找",
+      "en": "Find"
+    },
+    "description": {
+      "zh": "查找文本",
+      "en": "Find"
+    },
+    "windows": "Ctrl+F",
+    "mac": "Cmd+F",
+    "linux": "Ctrl+F",
+    "keywords": [
+      "查找",
+      "find"
+    ],
+    "pinyin": "cha zhao chazhao c z cz cha zhao chazhao c z cz"
+  },
+  {
+    "id": "acrobat-acrobat-next",
+    "appId": "acrobat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "下一页",
+      "en": "Next Page"
+    },
+    "description": {
+      "zh": "下一页",
+      "en": "Next page"
+    },
+    "windows": "Page Down",
+    "mac": "Page Down",
+    "linux": "Page Down",
+    "keywords": [
+      "下一页",
+      "next page"
+    ],
+    "pinyin": "xia yi ye xiayiye x y y xyy xia yi ye xiayiye x y y xyy"
+  },
+  {
+    "id": "acrobat-acrobat-prev",
+    "appId": "acrobat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "上一页",
+      "en": "Previous Page"
+    },
+    "description": {
+      "zh": "上一页",
+      "en": "Previous page"
+    },
+    "windows": "Page Up",
+    "mac": "Page Up",
+    "linux": "Page Up",
+    "keywords": [
+      "上一页",
+      "prev page"
+    ],
+    "pinyin": "shang yi ye shangyiye s y y syy shang yi ye shangyiye s y y syy"
+  },
+  {
+    "id": "acrobat-acrobat-fit",
+    "appId": "acrobat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "适应宽度",
+      "en": "Fit Width"
+    },
+    "description": {
+      "zh": "适应页面宽度",
+      "en": "Fit width"
+    },
+    "windows": "Ctrl+2",
+    "mac": "Cmd+2",
+    "linux": "Ctrl+2",
+    "keywords": [
+      "适应宽度",
+      "fit width"
+    ],
+    "pinyin": "shi ying kuan du shiyingkuandu s y k d sykd shi ying kuan du shiyingkuandu s y k d sykd"
+  },
+  {
+    "id": "acrobat-acrobat-zoomin",
+    "appId": "acrobat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "放大",
+      "en": "Zoom In"
+    },
+    "description": {
+      "zh": "放大",
+      "en": "Zoom in"
+    },
+    "windows": "Ctrl++",
+    "mac": "Cmd++",
+    "linux": "Ctrl++",
+    "keywords": [
+      "放大",
+      "zoom in"
+    ],
+    "pinyin": "fang da fangda f d fd fang da fangda f d fd"
+  },
+  {
+    "id": "acrobat-acrobat-zoomout",
+    "appId": "acrobat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "缩小",
+      "en": "Zoom Out"
+    },
+    "description": {
+      "zh": "缩小",
+      "en": "Zoom out"
+    },
+    "windows": "Ctrl+-",
+    "mac": "Cmd+-",
+    "linux": "Ctrl+-",
+    "keywords": [
+      "缩小",
+      "zoom out"
+    ],
+    "pinyin": "suo xiao suoxiao s x sx suo xiao suoxiao s x sx"
+  },
+  {
+    "id": "acrobat-acrobat-hand",
+    "appId": "acrobat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "手型工具",
+      "en": "Hand Tool"
+    },
+    "description": {
+      "zh": "平移页面",
+      "en": "Hand tool"
+    },
+    "windows": "H",
+    "mac": "H",
+    "linux": "H",
+    "keywords": [
+      "手型",
+      "hand"
+    ],
+    "pinyin": "shou xing gong ju shouxinggongju s x g j sxgj shou xing shouxing s x sx"
+  },
+  {
+    "id": "acrobat-acrobat-select",
+    "appId": "acrobat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "选择工具",
+      "en": "Select Tool"
+    },
+    "description": {
+      "zh": "选择文本",
+      "en": "Select tool"
+    },
+    "windows": "V",
+    "mac": "V",
+    "linux": "V",
+    "keywords": [
+      "选择",
+      "select"
+    ],
+    "pinyin": "xuan ze gong ju xuanzegongju x z g j xzgj xuan ze xuanze x z xz"
+  },
+  {
+    "id": "acrobat-acrobat-comment",
+    "appId": "acrobat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "注释",
+      "en": "Comment"
+    },
+    "description": {
+      "zh": "打开注释",
+      "en": "Comment"
+    },
+    "windows": "Ctrl+Shift+E",
+    "mac": "Cmd+Shift+E",
+    "linux": "Ctrl+Shift+E",
+    "keywords": [
+      "注释",
+      "comment"
+    ],
+    "pinyin": "zhu shi zhushi z s zs zhu shi zhushi z s zs"
+  },
+  {
+    "id": "acrobat-acrobat-highlight",
+    "appId": "acrobat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "高亮",
+      "en": "Highlight"
+    },
+    "description": {
+      "zh": "高亮文本",
+      "en": "Highlight"
+    },
+    "windows": "U",
+    "mac": "U",
+    "linux": "U",
+    "keywords": [
+      "高亮",
+      "highlight"
+    ],
+    "pinyin": "gao liang gaoliang g l gl gao liang gaoliang g l gl"
+  },
+  {
+    "id": "acrobat-acrobat-bookmark",
+    "appId": "acrobat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "书签",
+      "en": "Bookmarks"
+    },
+    "description": {
+      "zh": "显示书签",
+      "en": "Bookmarks"
+    },
+    "windows": "Ctrl+B",
+    "mac": "Cmd+B",
+    "linux": "Ctrl+B",
+    "keywords": [
+      "书签",
+      "bookmark"
+    ],
+    "pinyin": "shu qian shuqian s q sq shu qian shuqian s q sq"
+  },
+  {
+    "id": "acrobat-acrobat-fullscreen",
+    "appId": "acrobat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "全屏阅读",
+      "en": "Full Screen"
+    },
+    "description": {
+      "zh": "全屏",
+      "en": "Full screen"
+    },
+    "windows": "Ctrl+L",
+    "mac": "Cmd+L",
+    "linux": "Ctrl+L",
+    "keywords": [
+      "全屏",
+      "fullscreen"
+    ],
+    "pinyin": "quan ping yue du quanpingyuedu q p y d qpyd quan ping quanping q p qp"
+  },
+  {
+    "id": "acrobat-acrobat-rotate",
+    "appId": "acrobat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "旋转视图",
+      "en": "Rotate View"
+    },
+    "description": {
+      "zh": "顺时针旋转",
+      "en": "Rotate view"
+    },
+    "windows": "Ctrl+Shift++",
+    "mac": "Cmd+Shift++",
+    "linux": "Ctrl+Shift++",
+    "keywords": [
+      "旋转",
+      "rotate"
+    ],
+    "pinyin": "xuan zhuan shi tu xuanzhuanshitu x z s t xzst xuan zhuan xuanzhuan x z xz"
+  },
+  {
+    "id": "acrobat-acrobat-export",
+    "appId": "acrobat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "导出 PDF",
+      "en": "Export"
+    },
+    "description": {
+      "zh": "导出为其他格式",
+      "en": "Export"
+    },
+    "windows": "Ctrl+E",
+    "mac": "Cmd+E",
+    "linux": "Ctrl+E",
+    "keywords": [
+      "导出",
+      "export"
+    ],
+    "pinyin": "dao chu   p d f daochu pdf d c   p d f dc pdf dao chu daochu d c dc"
+  },
+  {
+    "id": "acrobat-acrobat-organize",
+    "appId": "acrobat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "组织页面",
+      "en": "Organize Pages"
+    },
+    "description": {
+      "zh": "页面管理",
+      "en": "Organize pages"
+    },
+    "windows": "Ctrl+Shift+O",
+    "mac": "Cmd+Shift+O",
+    "linux": "Ctrl+Shift+O",
+    "keywords": [
+      "组织页面",
+      "organize"
+    ],
+    "pinyin": "zu zhi ye mian zuzhiyemian z z y m zzym zu zhi ye mian zuzhiyemian z z y m zzym"
   }
 ]

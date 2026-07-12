@@ -1,0 +1,492 @@
+[
+  {
+    "id": "edge-newtab",
+    "appId": "edge",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "新建标签页",
+      "en": "New Tab"
+    },
+    "description": {
+      "zh": "打开新标签页",
+      "en": "Open new tab"
+    },
+    "windows": "Ctrl+T",
+    "mac": "Cmd+T",
+    "linux": "Ctrl+T",
+    "keywords": [
+      "新建标签",
+      "new tab"
+    ],
+    "pinyin": "xin jian biao qian ye xinjianbiaoqianye x j b q y xjbqy xin jian biao qian xinjianbiaoqian x j b q xjbq"
+  },
+  {
+    "id": "edge-newwindow",
+    "appId": "edge",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "新建窗口",
+      "en": "New Window"
+    },
+    "description": {
+      "zh": "打开新窗口",
+      "en": "Open new window"
+    },
+    "windows": "Ctrl+N",
+    "mac": "Cmd+N",
+    "linux": "Ctrl+N",
+    "keywords": [
+      "新建窗口",
+      "new window"
+    ],
+    "pinyin": "xin jian chuang kou xinjianchuangkou x j c k xjck xin jian chuang kou xinjianchuangkou x j c k xjck"
+  },
+  {
+    "id": "edge-newinprivate",
+    "appId": "edge",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "InPrivate 窗口",
+      "en": "InPrivate Window"
+    },
+    "description": {
+      "zh": "打开无痕窗口",
+      "en": "Open InPrivate window"
+    },
+    "windows": "Ctrl+Shift+N",
+    "mac": "Cmd+Shift+N",
+    "linux": "Ctrl+Shift+N",
+    "keywords": [
+      "无痕",
+      "inprivate",
+      "隐私"
+    ],
+    "pinyin": "i n p r i v a t e   chuang kou inprivate chuangkou i n p r i v a t e   c k inprivate ck wu hen   yin si wuhen yinsi w h   y s wh ys"
+  },
+  {
+    "id": "edge-close",
+    "appId": "edge",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "关闭标签页",
+      "en": "Close Tab"
+    },
+    "description": {
+      "zh": "关闭当前标签",
+      "en": "Close tab"
+    },
+    "windows": "Ctrl+W",
+    "mac": "Cmd+W",
+    "linux": "Ctrl+W",
+    "keywords": [
+      "关闭",
+      "close"
+    ],
+    "pinyin": "guan bi biao qian ye guanbibiaoqianye g b b q y gbbqy guan bi guanbi g b gb"
+  },
+  {
+    "id": "edge-reopen",
+    "appId": "edge",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "恢复关闭的标签",
+      "en": "Reopen Closed Tab"
+    },
+    "description": {
+      "zh": "重新打开关闭的标签",
+      "en": "Reopen closed tab"
+    },
+    "windows": "Ctrl+Shift+T",
+    "mac": "Cmd+Shift+T",
+    "linux": "Ctrl+Shift+T",
+    "keywords": [
+      "恢复",
+      "reopen"
+    ],
+    "pinyin": "hui fu guan bi de biao qian huifuguanbidebiaoqian h f g b d b q hfgbdbq hui fu huifu h f hf"
+  },
+  {
+    "id": "edge-nexttab",
+    "appId": "edge",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "下一个标签",
+      "en": "Next Tab"
+    },
+    "description": {
+      "zh": "切换到下一个标签",
+      "en": "Next tab"
+    },
+    "windows": "Ctrl+Tab",
+    "mac": "Cmd+Option+Right",
+    "linux": "Ctrl+Tab",
+    "keywords": [
+      "下一个标签",
+      "next tab"
+    ],
+    "pinyin": "xia yi ge biao qian xiayigebiaoqian x y g b q xygbq xia yi ge biao qian xiayigebiaoqian x y g b q xygbq"
+  },
+  {
+    "id": "edge-prevtab",
+    "appId": "edge",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "上一个标签",
+      "en": "Previous Tab"
+    },
+    "description": {
+      "zh": "切换到上一个标签",
+      "en": "Previous tab"
+    },
+    "windows": "Ctrl+Shift+Tab",
+    "mac": "Cmd+Option+Left",
+    "linux": "Ctrl+Shift+Tab",
+    "keywords": [
+      "上一个标签",
+      "prev tab"
+    ],
+    "pinyin": "shang yi ge biao qian shangyigebiaoqian s y g b q sygbq shang yi ge biao qian shangyigebiaoqian s y g b q sygbq"
+  },
+  {
+    "id": "edge-addrbar",
+    "appId": "edge",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "地址栏",
+      "en": "Address Bar"
+    },
+    "description": {
+      "zh": "聚焦地址栏",
+      "en": "Focus address bar"
+    },
+    "windows": "Ctrl+L",
+    "mac": "Cmd+L",
+    "linux": "Ctrl+L",
+    "keywords": [
+      "地址栏",
+      "address",
+      "url"
+    ],
+    "pinyin": "di zhi lan dizhilan d z l dzl di zhi lan dizhilan d z l dzl"
+  },
+  {
+    "id": "edge-find",
+    "appId": "edge",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "查找",
+      "en": "Find"
+    },
+    "description": {
+      "zh": "页面内查找",
+      "en": "Find on page"
+    },
+    "windows": "Ctrl+F",
+    "mac": "Cmd+F",
+    "linux": "Ctrl+F",
+    "keywords": [
+      "查找",
+      "find",
+      "搜索"
+    ],
+    "pinyin": "cha zhao chazhao c z cz cha zhao   sou suo chazhao sousuo c z   s s cz ss"
+  },
+  {
+    "id": "edge-bookmark",
+    "appId": "edge",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "添加收藏",
+      "en": "Add Favorite"
+    },
+    "description": {
+      "zh": "添加到收藏夹",
+      "en": "Add to favorites"
+    },
+    "windows": "Ctrl+D",
+    "mac": "Cmd+D",
+    "linux": "Ctrl+D",
+    "keywords": [
+      "收藏",
+      "bookmark",
+      "favorite"
+    ],
+    "pinyin": "tian jia shou cang tianjiashoucang t j s c tjsc shou cang shoucang s c sc"
+  },
+  {
+    "id": "edge-history",
+    "appId": "edge",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "历史记录",
+      "en": "History"
+    },
+    "description": {
+      "zh": "打开历史记录",
+      "en": "Open history"
+    },
+    "windows": "Ctrl+H",
+    "mac": "Cmd+Y",
+    "linux": "Ctrl+H",
+    "keywords": [
+      "历史",
+      "history"
+    ],
+    "pinyin": "li shi ji lu lishijilu l s j l lsjl li shi lishi l s ls"
+  },
+  {
+    "id": "edge-downloads",
+    "appId": "edge",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "下载",
+      "en": "Downloads"
+    },
+    "description": {
+      "zh": "打开下载页",
+      "en": "Open downloads"
+    },
+    "windows": "Ctrl+J",
+    "mac": "Cmd+J",
+    "linux": "Ctrl+J",
+    "keywords": [
+      "下载",
+      "downloads"
+    ],
+    "pinyin": "xia zai xiazai x z xz xia zai xiazai x z xz"
+  },
+  {
+    "id": "edge-devtools",
+    "appId": "edge",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "开发者工具",
+      "en": "DevTools"
+    },
+    "description": {
+      "zh": "打开开发者工具",
+      "en": "Open devtools"
+    },
+    "windows": "Ctrl+Shift+I",
+    "mac": "Cmd+Option+I",
+    "linux": "Ctrl+Shift+I",
+    "keywords": [
+      "开发者",
+      "devtools",
+      "f12"
+    ],
+    "pinyin": "kai fa zhe gong ju kaifazhegongju k f z g j kfzgj kai fa zhe kaifazhe k f z kfz"
+  },
+  {
+    "id": "edge-refresh",
+    "appId": "edge",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "刷新",
+      "en": "Refresh"
+    },
+    "description": {
+      "zh": "刷新页面",
+      "en": "Refresh page"
+    },
+    "windows": "F5",
+    "mac": "Cmd+R",
+    "linux": "F5",
+    "keywords": [
+      "刷新",
+      "refresh"
+    ],
+    "pinyin": "shua xin shuaxin s x sx shua xin shuaxin s x sx"
+  },
+  {
+    "id": "edge-home",
+    "appId": "edge",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "主页",
+      "en": "Home"
+    },
+    "description": {
+      "zh": "回到主页",
+      "en": "Go home"
+    },
+    "windows": "Alt+Home",
+    "mac": "Alt+Home",
+    "linux": "Alt+Home",
+    "keywords": [
+      "主页",
+      "home"
+    ],
+    "pinyin": "zhu ye zhuye z y zy zhu ye zhuye z y zy"
+  },
+  {
+    "id": "edge-zoomin",
+    "appId": "edge",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "放大页面",
+      "en": "Zoom In"
+    },
+    "description": {
+      "zh": "放大网页",
+      "en": "Zoom in"
+    },
+    "windows": "Ctrl++",
+    "mac": "Cmd++",
+    "linux": "Ctrl++",
+    "keywords": [
+      "放大",
+      "zoom in"
+    ],
+    "pinyin": "fang da ye mian fangdayemian f d y m fdym fang da fangda f d fd"
+  },
+  {
+    "id": "edge-zoomout",
+    "appId": "edge",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "缩小页面",
+      "en": "Zoom Out"
+    },
+    "description": {
+      "zh": "缩小网页",
+      "en": "Zoom out"
+    },
+    "windows": "Ctrl+-",
+    "mac": "Cmd+-",
+    "linux": "Ctrl+-",
+    "keywords": [
+      "缩小",
+      "zoom out"
+    ],
+    "pinyin": "suo xiao ye mian suoxiaoyemian s x y m sxym suo xiao suoxiao s x sx"
+  },
+  {
+    "id": "edge-fullscreen",
+    "appId": "edge",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "全屏",
+      "en": "Full Screen"
+    },
+    "description": {
+      "zh": "全屏模式",
+      "en": "Full screen"
+    },
+    "windows": "F11",
+    "mac": "Cmd+Ctrl+F",
+    "linux": "F11",
+    "keywords": [
+      "全屏",
+      "fullscreen"
+    ],
+    "pinyin": "quan ping quanping q p qp quan ping quanping q p qp"
+  },
+  {
+    "id": "edge-taskmgr",
+    "appId": "edge",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "浏览器任务管理器",
+      "en": "Browser Task Manager"
+    },
+    "description": {
+      "zh": "打开任务管理器",
+      "en": "Open task manager"
+    },
+    "windows": "Shift+Esc",
+    "mac": "Shift+Esc",
+    "linux": "Shift+Esc",
+    "keywords": [
+      "任务管理器",
+      "task manager"
+    ],
+    "pinyin": "liu lan qi ren wu guan li qi liulanqirenwuguanliqi l l q r w g l q llqrwglq ren wu guan li qi renwuguanliqi r w g l q rwglq"
+  },
+  {
+    "id": "edge-readmode",
+    "appId": "edge",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "阅读模式",
+      "en": "Immersive Reader"
+    },
+    "description": {
+      "zh": "进入阅读视图",
+      "en": "Immersive reader"
+    },
+    "windows": "Ctrl+Shift+R",
+    "mac": "Cmd+Shift+R",
+    "linux": "Ctrl+Shift+R",
+    "keywords": [
+      "阅读",
+      "reader",
+      "沉浸"
+    ],
+    "pinyin": "yue du mo shi yuedumoshi y d m s ydms yue du   chen jin yuedu chenjin y d   c j yd cj"
+  },
+  {
+    "id": "edge-collections",
+    "appId": "edge",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "收藏集",
+      "en": "Collections"
+    },
+    "description": {
+      "zh": "打开收藏集",
+      "en": "Open collections"
+    },
+    "windows": "Ctrl+Shift+Y",
+    "mac": "Cmd+Shift+Y",
+    "linux": "Ctrl+Shift+Y",
+    "keywords": [
+      "收藏集",
+      "collections"
+    ],
+    "pinyin": "shou cang ji shoucangji s c j scj shou cang ji shoucangji s c j scj"
+  },
+  {
+    "id": "edge-settings",
+    "appId": "edge",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "设置",
+      "en": "Settings"
+    },
+    "description": {
+      "zh": "打开设置",
+      "en": "Open settings"
+    },
+    "windows": "Alt+F then S",
+    "mac": "Cmd+,",
+    "linux": "Alt+F then S",
+    "keywords": [
+      "设置",
+      "settings"
+    ],
+    "pinyin": "she zhi shezhi s z sz she zhi shezhi s z sz"
+  }
+]

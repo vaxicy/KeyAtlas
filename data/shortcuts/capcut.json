@@ -1,0 +1,582 @@
+[
+  {
+    "id": "capcut-play",
+    "appId": "capcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "播放/暂停",
+      "en": "Play / Pause"
+    },
+    "description": {
+      "zh": "播放或暂停预览",
+      "en": "Play or pause preview"
+    },
+    "windows": "Space",
+    "mac": "Space",
+    "linux": "Space",
+    "keywords": [
+      "播放",
+      "暂停",
+      "play",
+      "pause"
+    ],
+    "pinyin": "bo fang / zan ting bofang/zanting b f / z t bf/zt bo fang   zan ting bofang zanting b f   z t bf zt"
+  },
+  {
+    "id": "capcut-split",
+    "appId": "capcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "分割",
+      "en": "Split"
+    },
+    "description": {
+      "zh": "在播放头分割片段",
+      "en": "Split clip at playhead"
+    },
+    "windows": "Ctrl+B",
+    "mac": "Cmd+B",
+    "linux": "Ctrl+B",
+    "keywords": [
+      "分割",
+      "split",
+      "剪切点"
+    ],
+    "pinyin": "fen ge fenge f g fg fen ge   jian qie dian fenge jianqiedian f g   j q d fg jqd"
+  },
+  {
+    "id": "capcut-delete",
+    "appId": "capcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "删除片段",
+      "en": "Delete"
+    },
+    "description": {
+      "zh": "删除选中片段",
+      "en": "Delete selected clip"
+    },
+    "windows": "Delete",
+    "mac": "Delete",
+    "linux": "Delete",
+    "keywords": [
+      "删除",
+      "delete"
+    ],
+    "pinyin": "shan chu pian duan shanchupianduan s c p d scpd shan chu shanchu s c sc"
+  },
+  {
+    "id": "capcut-undo",
+    "appId": "capcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销上一步",
+      "en": "Undo last action"
+    },
+    "windows": "Ctrl+Z",
+    "mac": "Cmd+Z",
+    "linux": "Ctrl+Z",
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "capcut-redo",
+    "appId": "capcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "重做操作",
+      "en": "Redo action"
+    },
+    "windows": "Ctrl+Shift+Z",
+    "mac": "Cmd+Shift+Z",
+    "linux": "Ctrl+Shift+Z",
+    "keywords": [
+      "重做",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "capcut-copy",
+    "appId": "capcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "复制",
+      "en": "Copy"
+    },
+    "description": {
+      "zh": "复制选中",
+      "en": "Copy selection"
+    },
+    "windows": "Ctrl+C",
+    "mac": "Cmd+C",
+    "linux": "Ctrl+C",
+    "keywords": [
+      "复制",
+      "copy"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "capcut-paste",
+    "appId": "capcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "粘贴",
+      "en": "Paste"
+    },
+    "description": {
+      "zh": "粘贴",
+      "en": "Paste"
+    },
+    "windows": "Ctrl+V",
+    "mac": "Cmd+V",
+    "linux": "Ctrl+V",
+    "keywords": [
+      "粘贴",
+      "paste"
+    ],
+    "pinyin": "nian tie niantie n t nt nian tie niantie n t nt"
+  },
+  {
+    "id": "capcut-cut",
+    "appId": "capcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "剪切",
+      "en": "Cut"
+    },
+    "description": {
+      "zh": "剪切选中",
+      "en": "Cut selection"
+    },
+    "windows": "Ctrl+X",
+    "mac": "Cmd+X",
+    "linux": "Ctrl+X",
+    "keywords": [
+      "剪切",
+      "cut"
+    ],
+    "pinyin": "jian qie jianqie j q jq jian qie jianqie j q jq"
+  },
+  {
+    "id": "capcut-ripple",
+    "appId": "capcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "波纹删除",
+      "en": "Ripple Delete"
+    },
+    "description": {
+      "zh": "删除并自动补齐间隙",
+      "en": "Delete and close gap"
+    },
+    "windows": "Ctrl+Delete",
+    "mac": "Cmd+Delete",
+    "linux": "Ctrl+Delete",
+    "keywords": [
+      "波纹删除",
+      "ripple"
+    ],
+    "pinyin": "bo wen shan chu bowenshanchu b w s c bwsc bo wen shan chu bowenshanchu b w s c bwsc"
+  },
+  {
+    "id": "capcut-zoomfit",
+    "appId": "capcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "适应窗口",
+      "en": "Fit"
+    },
+    "description": {
+      "zh": "缩放时间轴适应窗口",
+      "en": "Zoom timeline to fit"
+    },
+    "windows": "Shift+1",
+    "mac": "Shift+1",
+    "linux": "Shift+1",
+    "keywords": [
+      "适应",
+      "fit",
+      "缩放"
+    ],
+    "pinyin": "shi ying chuang kou shiyingchuangkou s y c k syck shi ying   suo fang shiying suofang s y   s f sy sf"
+  },
+  {
+    "id": "capcut-zoomin",
+    "appId": "capcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "放大时间轴",
+      "en": "Zoom In"
+    },
+    "description": {
+      "zh": "放大时间轴",
+      "en": "Zoom in timeline"
+    },
+    "windows": "Ctrl+=",
+    "mac": "Cmd+=",
+    "linux": "Ctrl+=",
+    "keywords": [
+      "放大",
+      "zoom in"
+    ],
+    "pinyin": "fang da shi jian zhou fangdashijianzhou f d s j z fdsjz fang da fangda f d fd"
+  },
+  {
+    "id": "capcut-zoomout",
+    "appId": "capcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "缩小时间轴",
+      "en": "Zoom Out"
+    },
+    "description": {
+      "zh": "缩小时间轴",
+      "en": "Zoom out timeline"
+    },
+    "windows": "Ctrl+-",
+    "mac": "Cmd+-",
+    "linux": "Ctrl+-",
+    "keywords": [
+      "缩小",
+      "zoom out"
+    ],
+    "pinyin": "suo xiao shi jian zhou suoxiaoshijianzhou s x s j z sxsjz suo xiao suoxiao s x sx"
+  },
+  {
+    "id": "capcut-prevframe",
+    "appId": "capcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "上一帧",
+      "en": "Previous Frame"
+    },
+    "description": {
+      "zh": "逐帧后退",
+      "en": "Step back one frame"
+    },
+    "windows": "Left",
+    "mac": "Left",
+    "linux": "Left",
+    "keywords": [
+      "上一帧",
+      "prev frame"
+    ],
+    "pinyin": "shang yi zhen shangyizhen s y z syz shang yi zhen shangyizhen s y z syz"
+  },
+  {
+    "id": "capcut-nextframe",
+    "appId": "capcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "下一帧",
+      "en": "Next Frame"
+    },
+    "description": {
+      "zh": "逐帧前进",
+      "en": "Step forward one frame"
+    },
+    "windows": "Right",
+    "mac": "Right",
+    "linux": "Right",
+    "keywords": [
+      "下一帧",
+      "next frame"
+    ],
+    "pinyin": "xia yi zhen xiayizhen x y z xyz xia yi zhen xiayizhen x y z xyz"
+  },
+  {
+    "id": "capcut-home",
+    "appId": "capcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "回到开头",
+      "en": "Go to Start"
+    },
+    "description": {
+      "zh": "跳到时间轴开头",
+      "en": "Jump to start"
+    },
+    "windows": "Home",
+    "mac": "Home",
+    "linux": "Home",
+    "keywords": [
+      "开头",
+      "start",
+      "home"
+    ],
+    "pinyin": "hui dao kai tou huidaokaitou h d k t hdkt kai tou kaitou k t kt"
+  },
+  {
+    "id": "capcut-end",
+    "appId": "capcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "跳到结尾",
+      "en": "Go to End"
+    },
+    "description": {
+      "zh": "跳到时间轴结尾",
+      "en": "Jump to end"
+    },
+    "windows": "End",
+    "mac": "End",
+    "linux": "End",
+    "keywords": [
+      "结尾",
+      "end"
+    ],
+    "pinyin": "tiao dao jie wei tiaodaojiewei t d j w tdjw jie wei jiewei j w jw"
+  },
+  {
+    "id": "capcut-markin",
+    "appId": "capcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "标记入点",
+      "en": "Mark In"
+    },
+    "description": {
+      "zh": "设置入点",
+      "en": "Set in point"
+    },
+    "windows": "I",
+    "mac": "I",
+    "linux": "I",
+    "keywords": [
+      "入点",
+      "mark in"
+    ],
+    "pinyin": "biao ji ru dian biaojirudian b j r d bjrd ru dian rudian r d rd"
+  },
+  {
+    "id": "capcut-markout",
+    "appId": "capcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "标记出点",
+      "en": "Mark Out"
+    },
+    "description": {
+      "zh": "设置出点",
+      "en": "Set out point"
+    },
+    "windows": "O",
+    "mac": "O",
+    "linux": "O",
+    "keywords": [
+      "出点",
+      "mark out"
+    ],
+    "pinyin": "biao ji chu dian biaojichudian b j c d bjcd chu dian chudian c d cd"
+  },
+  {
+    "id": "capcut-speed",
+    "appId": "capcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "变速",
+      "en": "Speed"
+    },
+    "description": {
+      "zh": "打开变速面板",
+      "en": "Open speed panel"
+    },
+    "windows": "Ctrl+R",
+    "mac": "Cmd+R",
+    "linux": "Ctrl+R",
+    "keywords": [
+      "变速",
+      "speed",
+      "曲线变速"
+    ],
+    "pinyin": "bian su biansu b s bs bian su   qu xian bian su biansu quxianbiansu b s   q x b s bs qxbs"
+  },
+  {
+    "id": "capcut-text",
+    "appId": "capcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "添加文本",
+      "en": "Add Text"
+    },
+    "description": {
+      "zh": "添加文字",
+      "en": "Add text"
+    },
+    "windows": "T",
+    "mac": "T",
+    "linux": "T",
+    "keywords": [
+      "文本",
+      "text",
+      "字幕"
+    ],
+    "pinyin": "tian jia wen ben tianjiawenben t j w b tjwb wen ben   zi mu wenben zimu w b   z m wb zm"
+  },
+  {
+    "id": "capcut-audio",
+    "appId": "capcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "分离音频",
+      "en": "Extract Audio"
+    },
+    "description": {
+      "zh": "分离音视频轨道",
+      "en": "Detach audio"
+    },
+    "windows": "Ctrl+Alt+D",
+    "mac": "Cmd+Option+D",
+    "linux": "Ctrl+Alt+D",
+    "keywords": [
+      "分离音频",
+      "audio",
+      "提取"
+    ],
+    "pinyin": "fen li yin pin fenliyinpin f l y p flyp fen li yin pin   ti qu fenliyinpin tiqu f l y p   t q flyp tq"
+  },
+  {
+    "id": "capcut-reverse",
+    "appId": "capcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "倒放",
+      "en": "Reverse"
+    },
+    "description": {
+      "zh": "视频倒放",
+      "en": "Play backwards"
+    },
+    "windows": "Ctrl+Shift+R",
+    "mac": "Cmd+Shift+R",
+    "linux": "Ctrl+Shift+R",
+    "keywords": [
+      "倒放",
+      "reverse"
+    ],
+    "pinyin": "dao fang daofang d f df dao fang daofang d f df"
+  },
+  {
+    "id": "capcut-freeze",
+    "appId": "capcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "定格",
+      "en": "Freeze Frame"
+    },
+    "description": {
+      "zh": "生成定格帧",
+      "en": "Create freeze frame"
+    },
+    "windows": "Alt+F",
+    "mac": "Option+F",
+    "linux": "Alt+F",
+    "keywords": [
+      "定格",
+      "freeze"
+    ],
+    "pinyin": "ding ge dingge d g dg ding ge dingge d g dg"
+  },
+  {
+    "id": "capcut-fullscreen",
+    "appId": "capcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "全屏预览",
+      "en": "Fullscreen Preview"
+    },
+    "description": {
+      "zh": "全屏播放预览",
+      "en": "Fullscreen preview"
+    },
+    "windows": "F",
+    "mac": "F",
+    "linux": "F",
+    "keywords": [
+      "全屏",
+      "fullscreen"
+    ],
+    "pinyin": "quan ping yu lan quanpingyulan q p y l qpyl quan ping quanping q p qp"
+  },
+  {
+    "id": "capcut-export",
+    "appId": "capcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "导出",
+      "en": "Export"
+    },
+    "description": {
+      "zh": "打开导出窗口",
+      "en": "Open export window"
+    },
+    "windows": "Ctrl+E",
+    "mac": "Cmd+E",
+    "linux": "Ctrl+E",
+    "keywords": [
+      "导出",
+      "export"
+    ],
+    "pinyin": "dao chu daochu d c dc dao chu daochu d c dc"
+  },
+  {
+    "id": "capcut-mute",
+    "appId": "capcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "静音",
+      "en": "Mute"
+    },
+    "description": {
+      "zh": "静音/取消静音",
+      "en": "Mute/unmute"
+    },
+    "windows": "Ctrl+Shift+M",
+    "mac": "Cmd+Shift+M",
+    "linux": "Ctrl+Shift+M",
+    "keywords": [
+      "静音",
+      "mute"
+    ],
+    "pinyin": "jing yin jingyin j y jy jing yin jingyin j y jy"
+  }
+]

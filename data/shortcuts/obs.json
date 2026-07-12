@@ -1,0 +1,404 @@
+[
+  {
+    "id": "obs-startrec",
+    "appId": "obs",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "开始录制",
+      "en": "Start Recording"
+    },
+    "description": {
+      "zh": "开始录制",
+      "en": "Start recording"
+    },
+    "windows": "Start Recording",
+    "mac": "Start Recording",
+    "linux": "Start Recording",
+    "keywords": [
+      "录制",
+      "record",
+      "开始"
+    ],
+    "pinyin": "kai shi lu zhi kaishiluzhi k s l z kslz lu zhi   kai shi luzhi kaishi l z   k s lz ks"
+  },
+  {
+    "id": "obs-stoprec",
+    "appId": "obs",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "停止录制",
+      "en": "Stop Recording"
+    },
+    "description": {
+      "zh": "停止录制",
+      "en": "Stop recording"
+    },
+    "windows": "Stop Recording",
+    "mac": "Stop Recording",
+    "linux": "Stop Recording",
+    "keywords": [
+      "停止",
+      "stop"
+    ],
+    "pinyin": "ting zhi lu zhi tingzhiluzhi t z l z tzlz ting zhi tingzhi t z tz"
+  },
+  {
+    "id": "obs-pauserec",
+    "appId": "obs",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "暂停录制",
+      "en": "Pause Recording"
+    },
+    "description": {
+      "zh": "暂停录制",
+      "en": "Pause recording"
+    },
+    "windows": "Pause Recording",
+    "mac": "Pause Recording",
+    "linux": "Pause Recording",
+    "keywords": [
+      "暂停",
+      "pause"
+    ],
+    "pinyin": "zan ting lu zhi zantingluzhi z t l z ztlz zan ting zanting z t zt"
+  },
+  {
+    "id": "obs-startstream",
+    "appId": "obs",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "开始推流",
+      "en": "Start Streaming"
+    },
+    "description": {
+      "zh": "开始直播推流",
+      "en": "Start streaming"
+    },
+    "windows": "Start Streaming",
+    "mac": "Start Streaming",
+    "linux": "Start Streaming",
+    "keywords": [
+      "推流",
+      "stream",
+      "直播"
+    ],
+    "pinyin": "kai shi tui liu kaishituiliu k s t l kstl tui liu   zhi bo tuiliu zhibo t l   z b tl zb"
+  },
+  {
+    "id": "obs-stopstream",
+    "appId": "obs",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "停止推流",
+      "en": "Stop Streaming"
+    },
+    "description": {
+      "zh": "停止直播",
+      "en": "Stop streaming"
+    },
+    "windows": "Stop Streaming",
+    "mac": "Stop Streaming",
+    "linux": "Stop Streaming",
+    "keywords": [
+      "停止推流",
+      "stop stream"
+    ],
+    "pinyin": "ting zhi tui liu tingzhituiliu t z t l tztl ting zhi tui liu tingzhituiliu t z t l tztl"
+  },
+  {
+    "id": "obs-studiomode",
+    "appId": "obs",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "演播室模式",
+      "en": "Studio Mode"
+    },
+    "description": {
+      "zh": "切换演播室模式",
+      "en": "Toggle studio mode"
+    },
+    "windows": "Studio Mode",
+    "mac": "Studio Mode",
+    "linux": "Studio Mode",
+    "keywords": [
+      "演播室",
+      "studio mode"
+    ],
+    "pinyin": "yan bo shi mo shi yanboshimoshi y b s m s ybsms yan bo shi yanboshi y b s ybs"
+  },
+  {
+    "id": "obs-transition",
+    "appId": "obs",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "场景过渡",
+      "en": "Transition"
+    },
+    "description": {
+      "zh": "触发场景过渡",
+      "en": "Trigger transition"
+    },
+    "windows": "Transition",
+    "mac": "Transition",
+    "linux": "Transition",
+    "keywords": [
+      "过渡",
+      "transition",
+      "场景"
+    ],
+    "pinyin": "chang jing guo du changjingguodu c j g d cjgd guo du   chang jing guodu changjing g d   c j gd cj"
+  },
+  {
+    "id": "obs-sceneup",
+    "appId": "obs",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "上一个场景",
+      "en": "Previous Scene"
+    },
+    "description": {
+      "zh": "切换上一个场景",
+      "en": "Previous scene"
+    },
+    "windows": "Previous Scene",
+    "mac": "Previous Scene",
+    "linux": "Previous Scene",
+    "keywords": [
+      "上一个场景",
+      "prev scene"
+    ],
+    "pinyin": "shang yi ge chang jing shangyigechangjing s y g c j sygcj shang yi ge chang jing shangyigechangjing s y g c j sygcj"
+  },
+  {
+    "id": "obs-scenedown",
+    "appId": "obs",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "下一个场景",
+      "en": "Next Scene"
+    },
+    "description": {
+      "zh": "切换下一个场景",
+      "en": "Next scene"
+    },
+    "windows": "Next Scene",
+    "mac": "Next Scene",
+    "linux": "Next Scene",
+    "keywords": [
+      "下一个场景",
+      "next scene"
+    ],
+    "pinyin": "xia yi ge chang jing xiayigechangjing x y g c j xygcj xia yi ge chang jing xiayigechangjing x y g c j xygcj"
+  },
+  {
+    "id": "obs-mutesource",
+    "appId": "obs",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "静音来源",
+      "en": "Mute Source"
+    },
+    "description": {
+      "zh": "静音选中来源",
+      "en": "Mute source"
+    },
+    "windows": "Mute",
+    "mac": "Mute",
+    "linux": "Mute",
+    "keywords": [
+      "静音",
+      "mute",
+      "来源"
+    ],
+    "pinyin": "jing yin lai yuan jingyinlaiyuan j y l y jyly jing yin   lai yuan jingyin laiyuan j y   l y jy ly"
+  },
+  {
+    "id": "obs-unmutesource",
+    "appId": "obs",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "取消静音",
+      "en": "Unmute Source"
+    },
+    "description": {
+      "zh": "取消静音",
+      "en": "Unmute source"
+    },
+    "windows": "Unmute",
+    "mac": "Unmute",
+    "linux": "Unmute",
+    "keywords": [
+      "取消静音",
+      "unmute"
+    ],
+    "pinyin": "qu xiao jing yin quxiaojingyin q x j y qxjy qu xiao jing yin quxiaojingyin q x j y qxjy"
+  },
+  {
+    "id": "obs-interact",
+    "appId": "obs",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "交互来源",
+      "en": "Interact"
+    },
+    "description": {
+      "zh": "与来源交互",
+      "en": "Interact with source"
+    },
+    "windows": "Interact",
+    "mac": "Interact",
+    "linux": "Interact",
+    "keywords": [
+      "交互",
+      "interact"
+    ],
+    "pinyin": "jiao hu lai yuan jiaohulaiyuan j h l y jhly jiao hu jiaohu j h jh"
+  },
+  {
+    "id": "obs-lock",
+    "appId": "obs",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "锁定预览",
+      "en": "Lock Preview"
+    },
+    "description": {
+      "zh": "锁定预览",
+      "en": "Lock preview"
+    },
+    "windows": "Lock",
+    "mac": "Lock",
+    "linux": "Lock",
+    "keywords": [
+      "锁定",
+      "lock"
+    ],
+    "pinyin": "suo ding yu lan suodingyulan s d y l sdyl suo ding suoding s d sd"
+  },
+  {
+    "id": "obs-fullscreen",
+    "appId": "obs",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "全屏预览",
+      "en": "Fullscreen Projector"
+    },
+    "description": {
+      "zh": "全屏投影预览",
+      "en": "Fullscreen projector"
+    },
+    "windows": "Fullscreen",
+    "mac": "Fullscreen",
+    "linux": "Fullscreen",
+    "keywords": [
+      "全屏",
+      "fullscreen",
+      "投影"
+    ],
+    "pinyin": "quan ping yu lan quanpingyulan q p y l qpyl quan ping   tou ying quanping touying q p   t y qp ty"
+  },
+  {
+    "id": "obs-settings",
+    "appId": "obs",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "设置",
+      "en": "Settings"
+    },
+    "description": {
+      "zh": "打开设置",
+      "en": "Open settings"
+    },
+    "windows": "Settings",
+    "mac": "Settings",
+    "linux": "Settings",
+    "keywords": [
+      "设置",
+      "settings"
+    ],
+    "pinyin": "she zhi shezhi s z sz she zhi shezhi s z sz"
+  },
+  {
+    "id": "obs-screenshot",
+    "appId": "obs",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "截图",
+      "en": "Screenshot"
+    },
+    "description": {
+      "zh": "截取来源画面",
+      "en": "Screenshot source"
+    },
+    "windows": "Screenshot",
+    "mac": "Screenshot",
+    "linux": "Screenshot",
+    "keywords": [
+      "截图",
+      "screenshot"
+    ],
+    "pinyin": "jie tu jietu j t jt jie tu jietu j t jt"
+  },
+  {
+    "id": "obs-togglehide",
+    "appId": "obs",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "隐藏来源",
+      "en": "Toggle Source Visibility"
+    },
+    "description": {
+      "zh": "切换来源可见性",
+      "en": "Toggle visibility"
+    },
+    "windows": "Toggle Source Visibility",
+    "mac": "Toggle Source Visibility",
+    "linux": "Toggle Source Visibility",
+    "keywords": [
+      "隐藏",
+      "visibility",
+      "可见性"
+    ],
+    "pinyin": "yin cang lai yuan yincanglaiyuan y c l y ycly yin cang   ke jian xing yincang kejianxing y c   k j x yc kjx"
+  },
+  {
+    "id": "obs-frontend",
+    "appId": "obs",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "前端热键",
+      "en": "Toggle Frontend"
+    },
+    "description": {
+      "zh": "切换前端窗口",
+      "en": "Toggle frontend"
+    },
+    "windows": "Toggle Frontend",
+    "mac": "Toggle Frontend",
+    "linux": "Toggle Frontend",
+    "keywords": [
+      "前端",
+      "frontend"
+    ],
+    "pinyin": "qian duan re jian qianduanrejian q d r j qdrj qian duan qianduan q d qd"
+  }
+]

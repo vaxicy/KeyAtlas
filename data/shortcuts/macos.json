@@ -351,5 +351,447 @@
       "folder"
     ],
     "pinyin": "xin jian wen jian jia xinjianwenjianjia x j w j j xjwjj wen jian jia wenjianjia w j j wjj"
+  },
+  {
+    "id": "macos-mac-spotlight",
+    "appId": "macos",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "聚焦搜索",
+      "en": "Spotlight"
+    },
+    "description": {
+      "zh": "打开聚焦",
+      "en": "Spotlight"
+    },
+    "windows": "Cmd+Space",
+    "mac": "Cmd+Space",
+    "linux": "Cmd+Space",
+    "keywords": [
+      "聚焦",
+      "spotlight",
+      "搜索"
+    ],
+    "pinyin": "ju jiao sou suo jujiaosousuo j j s s jjss ju jiao   sou suo jujiao sousuo j j   s s jj ss"
+  },
+  {
+    "id": "macos-mac-finder",
+    "appId": "macos",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "访达",
+      "en": "Finder"
+    },
+    "description": {
+      "zh": "打开访达",
+      "en": "Finder"
+    },
+    "windows": "Cmd+Option+Space",
+    "mac": "Cmd+Option+Space",
+    "linux": "Cmd+Option+Space",
+    "keywords": [
+      "访达",
+      "finder"
+    ],
+    "pinyin": "fang da fangda f d fd fang da fangda f d fd"
+  },
+  {
+    "id": "macos-mac-switch",
+    "appId": "macos",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "切换应用",
+      "en": "Switch App"
+    },
+    "description": {
+      "zh": "切换应用",
+      "en": "Switch app"
+    },
+    "windows": "Cmd+Tab",
+    "mac": "Cmd+Tab",
+    "linux": "Cmd+Tab",
+    "keywords": [
+      "切换",
+      "switch",
+      "应用"
+    ],
+    "pinyin": "qie huan ying yong qiehuanyingyong q h y y qhyy qie huan   ying yong qiehuan yingyong q h   y y qh yy"
+  },
+  {
+    "id": "macos-mac-hide",
+    "appId": "macos",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "隐藏窗口",
+      "en": "Hide"
+    },
+    "description": {
+      "zh": "隐藏当前应用",
+      "en": "Hide app"
+    },
+    "windows": "Cmd+H",
+    "mac": "Cmd+H",
+    "linux": "Cmd+H",
+    "keywords": [
+      "隐藏",
+      "hide"
+    ],
+    "pinyin": "yin cang chuang kou yincangchuangkou y c c k ycck yin cang yincang y c yc"
+  },
+  {
+    "id": "macos-mac-min",
+    "appId": "macos",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "最小化",
+      "en": "Minimize"
+    },
+    "description": {
+      "zh": "最小化",
+      "en": "Minimize"
+    },
+    "windows": "Cmd+M",
+    "mac": "Cmd+M",
+    "linux": "Cmd+M",
+    "keywords": [
+      "最小化",
+      "minimize"
+    ],
+    "pinyin": "zui xiao hua zuixiaohua z x h zxh zui xiao hua zuixiaohua z x h zxh"
+  },
+  {
+    "id": "macos-mac-close",
+    "appId": "macos",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "关闭窗口",
+      "en": "Close Window"
+    },
+    "description": {
+      "zh": "关闭窗口",
+      "en": "Close window"
+    },
+    "windows": "Cmd+W",
+    "mac": "Cmd+W",
+    "linux": "Cmd+W",
+    "keywords": [
+      "关闭",
+      "close"
+    ],
+    "pinyin": "guan bi chuang kou guanbichuangkou g b c k gbck guan bi guanbi g b gb"
+  },
+  {
+    "id": "macos-mac-quit",
+    "appId": "macos",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "退出应用",
+      "en": "Quit"
+    },
+    "description": {
+      "zh": "退出应用",
+      "en": "Quit"
+    },
+    "windows": "Cmd+Q",
+    "mac": "Cmd+Q",
+    "linux": "Cmd+Q",
+    "keywords": [
+      "退出",
+      "quit"
+    ],
+    "pinyin": "tui chu ying yong tuichuyingyong t c y y tcyy tui chu tuichu t c tc"
+  },
+  {
+    "id": "macos-mac-forcequit",
+    "appId": "macos",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "强制退出",
+      "en": "Force Quit"
+    },
+    "description": {
+      "zh": "强制退出",
+      "en": "Force quit"
+    },
+    "windows": "Cmd+Option+Esc",
+    "mac": "Cmd+Option+Esc",
+    "linux": "Cmd+Option+Esc",
+    "keywords": [
+      "强制退出",
+      "force quit"
+    ],
+    "pinyin": "qiang zhi tui chu qiangzhituichu q z t c qztc qiang zhi tui chu qiangzhituichu q z t c qztc"
+  },
+  {
+    "id": "macos-mac-screenshot",
+    "appId": "macos",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "截图",
+      "en": "Screenshot"
+    },
+    "description": {
+      "zh": "区域截图",
+      "en": "Screenshot"
+    },
+    "windows": "Cmd+Shift+4",
+    "mac": "Cmd+Shift+4",
+    "linux": "Cmd+Shift+4",
+    "keywords": [
+      "截图",
+      "screenshot"
+    ],
+    "pinyin": "jie tu jietu j t jt jie tu jietu j t jt"
+  },
+  {
+    "id": "macos-mac-fullshot",
+    "appId": "macos",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "全屏截图",
+      "en": "Full Screenshot"
+    },
+    "description": {
+      "zh": "全屏截图",
+      "en": "Full screenshot"
+    },
+    "windows": "Cmd+Shift+3",
+    "mac": "Cmd+Shift+3",
+    "linux": "Cmd+Shift+3",
+    "keywords": [
+      "全屏截图",
+      "full screenshot"
+    ],
+    "pinyin": "quan ping jie tu quanpingjietu q p j t qpjt quan ping jie tu quanpingjietu q p j t qpjt"
+  },
+  {
+    "id": "macos-mac-recording",
+    "appId": "macos",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "录屏",
+      "en": "Screen Recording"
+    },
+    "description": {
+      "zh": "录屏",
+      "en": "Screen recording"
+    },
+    "windows": "Cmd+Shift+5",
+    "mac": "Cmd+Shift+5",
+    "linux": "Cmd+Shift+5",
+    "keywords": [
+      "录屏",
+      "recording"
+    ],
+    "pinyin": "lu ping luping l p lp lu ping luping l p lp"
+  },
+  {
+    "id": "macos-mac-launchpad",
+    "appId": "macos",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "启动台",
+      "en": "Launchpad"
+    },
+    "description": {
+      "zh": "打开启动台",
+      "en": "Launchpad"
+    },
+    "windows": "F4",
+    "mac": "F4",
+    "linux": "F4",
+    "keywords": [
+      "启动台",
+      "launchpad"
+    ],
+    "pinyin": "qi dong tai qidongtai q d t qdt qi dong tai qidongtai q d t qdt"
+  },
+  {
+    "id": "macos-mac-mission",
+    "appId": "macos",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "调度中心",
+      "en": "Mission Control"
+    },
+    "description": {
+      "zh": "调度中心",
+      "en": "Mission control"
+    },
+    "windows": "Ctrl+Up",
+    "mac": "Ctrl+Up",
+    "linux": "Ctrl+Up",
+    "keywords": [
+      "调度中心",
+      "mission control"
+    ],
+    "pinyin": "diao du zhong xin diaoduzhongxin d d z x ddzx diao du zhong xin diaoduzhongxin d d z x ddzx"
+  },
+  {
+    "id": "macos-mac-expose",
+    "appId": "macos",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "应用窗口",
+      "en": "App Expose"
+    },
+    "description": {
+      "zh": "当前应用窗口",
+      "en": "App expose"
+    },
+    "windows": "Ctrl+Down",
+    "mac": "Ctrl+Down",
+    "linux": "Ctrl+Down",
+    "keywords": [
+      "应用窗口",
+      "expose"
+    ],
+    "pinyin": "ying yong chuang kou yingyongchuangkou y y c k yyck ying yong chuang kou yingyongchuangkou y y c k yyck"
+  },
+  {
+    "id": "macos-mac-dict",
+    "appId": "macos",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "字典",
+      "en": "Dictionary"
+    },
+    "description": {
+      "zh": "查词",
+      "en": "Dictionary"
+    },
+    "windows": "Cmd+Ctrl+D",
+    "mac": "Cmd+Ctrl+D",
+    "linux": "Cmd+Ctrl+D",
+    "keywords": [
+      "字典",
+      "dictionary"
+    ],
+    "pinyin": "zi dian zidian z d zd zi dian zidian z d zd"
+  },
+  {
+    "id": "macos-mac-emoji",
+    "appId": "macos",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "表情符号",
+      "en": "Emoji"
+    },
+    "description": {
+      "zh": "表情面板",
+      "en": "Emoji"
+    },
+    "windows": "Cmd+Ctrl+Space",
+    "mac": "Cmd+Ctrl+Space",
+    "linux": "Cmd+Ctrl+Space",
+    "keywords": [
+      "表情",
+      "emoji"
+    ],
+    "pinyin": "biao qing fu hao biaoqingfuhao b q f h bqfh biao qing biaoqing b q bq"
+  },
+  {
+    "id": "macos-mac-settings",
+    "appId": "macos",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "系统设置",
+      "en": "System Settings"
+    },
+    "description": {
+      "zh": "系统设置",
+      "en": "System settings"
+    },
+    "windows": "Cmd+Space then type",
+    "mac": "Cmd+Space then type",
+    "linux": "Cmd+Space then type",
+    "keywords": [
+      "系统设置",
+      "settings"
+    ],
+    "pinyin": "xi tong she zhi xitongshezhi x t s z xtsz xi tong she zhi xitongshezhi x t s z xtsz"
+  },
+  {
+    "id": "macos-mac-lock",
+    "appId": "macos",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "锁屏",
+      "en": "Lock Screen"
+    },
+    "description": {
+      "zh": "锁屏",
+      "en": "Lock screen"
+    },
+    "windows": "Cmd+Ctrl+Q",
+    "mac": "Cmd+Ctrl+Q",
+    "linux": "Cmd+Ctrl+Q",
+    "keywords": [
+      "锁屏",
+      "lock"
+    ],
+    "pinyin": "suo ping suoping s p sp suo ping suoping s p sp"
+  },
+  {
+    "id": "macos-mac-save",
+    "appId": "macos",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "保存",
+      "en": "Save"
+    },
+    "description": {
+      "zh": "保存",
+      "en": "Save"
+    },
+    "windows": "Cmd+S",
+    "mac": "Cmd+S",
+    "linux": "Cmd+S",
+    "keywords": [
+      "保存",
+      "save"
+    ],
+    "pinyin": "bao cun baocun b c bc bao cun baocun b c bc"
+  },
+  {
+    "id": "macos-mac-print",
+    "appId": "macos",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "打印",
+      "en": "Print"
+    },
+    "description": {
+      "zh": "打印",
+      "en": "Print"
+    },
+    "windows": "Cmd+P",
+    "mac": "Cmd+P",
+    "linux": "Cmd+P",
+    "keywords": [
+      "打印",
+      "print"
+    ],
+    "pinyin": "da yin dayin d y dy da yin dayin d y dy"
   }
 ]

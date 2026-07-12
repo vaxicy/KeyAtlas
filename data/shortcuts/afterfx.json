@@ -4,220 +4,896 @@
     "appId": "afterfx",
     "type": "software",
     "category": "video",
-    "name": { "zh": "新建合成", "en": "New Composition" },
-    "description": { "zh": "创建一个新的合成", "en": "Create a new composition" },
+    "name": {
+      "zh": "新建合成",
+      "en": "New Composition"
+    },
+    "description": {
+      "zh": "创建一个新的合成",
+      "en": "Create a new composition"
+    },
     "windows": "Ctrl+N",
     "mac": "⌘+N",
     "linux": "—",
-    "keywords": ["合成", "composition", "新建"],
-    "pinyin": "xin jian he cheng xinjianhecheng x j h c xjhc he cheng hecheng h c hc"
+    "keywords": [
+      "合成",
+      "composition",
+      "新建"
+    ],
+    "pinyin": "xin jian he cheng xinjianhecheng x j h c xjhc he cheng   xin jian hecheng xinjian h c   x j hc xj"
   },
   {
     "id": "ae-newproject",
     "appId": "afterfx",
     "type": "software",
     "category": "video",
-    "name": { "zh": "新建项目", "en": "New Project" },
-    "description": { "zh": "创建一个新的项目", "en": "Create a new project" },
+    "name": {
+      "zh": "新建项目",
+      "en": "New Project"
+    },
+    "description": {
+      "zh": "创建一个新的项目",
+      "en": "Create a new project"
+    },
     "windows": "Ctrl+Alt+N",
     "mac": "⌘+Opt+N",
     "linux": "—",
-    "keywords": ["项目", "project", "新建"],
-    "pinyin": "xin jian xiang mu xinjianxiangmu x j x m xjxm xiang mu xiangmu x m xm"
+    "keywords": [
+      "项目",
+      "project",
+      "新建"
+    ],
+    "pinyin": "xin jian xiang mu xinjianxiangmu x j x m xjxm xiang mu   xin jian xiangmu xinjian x m   x j xm xj"
   },
   {
     "id": "ae-import",
     "appId": "afterfx",
     "type": "software",
     "category": "video",
-    "name": { "zh": "导入素材", "en": "Import" },
-    "description": { "zh": "导入文件到项目", "en": "Import files into the project" },
+    "name": {
+      "zh": "导入素材",
+      "en": "Import"
+    },
+    "description": {
+      "zh": "导入文件到项目",
+      "en": "Import files into the project"
+    },
     "windows": "Ctrl+I",
     "mac": "⌘+I",
     "linux": "—",
-    "keywords": ["导入", "import", "素材"],
-    "pinyin": "dao ru su cai daorusucai d r s c drsc su cai sucai s c sc"
+    "keywords": [
+      "导入",
+      "import",
+      "素材"
+    ],
+    "pinyin": "dao ru su cai daorusucai d r s c drsc dao ru   su cai daoru sucai d r   s c dr sc"
   },
   {
     "id": "ae-addqueue",
     "appId": "afterfx",
     "type": "software",
     "category": "video",
-    "name": { "zh": "添加到渲染队列", "en": "Add to Render Queue" },
-    "description": { "zh": "把当前合成加入渲染队列", "en": "Add current comp to render queue" },
+    "name": {
+      "zh": "添加到渲染队列",
+      "en": "Add to Render Queue"
+    },
+    "description": {
+      "zh": "把当前合成加入渲染队列",
+      "en": "Add current comp to render queue"
+    },
     "windows": "Ctrl+M",
     "mac": "⌘+M",
     "linux": "—",
-    "keywords": ["渲染", "render", "导出"],
-    "pinyin": "tian jia dao xuan ran dui lie tianjiadaoxuanranduilie t j d x r d l tjdxrdl"
+    "keywords": [
+      "渲染",
+      "render",
+      "导出"
+    ],
+    "pinyin": "tian jia dao xuan ran dui lie tianjiadaoxuanranduilie t j d x r d l tjdxrdl xuan ran   dao chu xuanran daochu x r   d c xr dc"
   },
   {
     "id": "ae-save",
     "appId": "afterfx",
     "type": "software",
     "category": "video",
-    "name": { "zh": "保存", "en": "Save" },
-    "description": { "zh": "保存项目", "en": "Save the project" },
+    "name": {
+      "zh": "保存",
+      "en": "Save"
+    },
+    "description": {
+      "zh": "保存项目",
+      "en": "Save the project"
+    },
     "windows": "Ctrl+S",
     "mac": "⌘+S",
     "linux": "—",
-    "keywords": ["保存", "save"],
-    "pinyin": "bao cun bao cun baocun b c bc"
+    "keywords": [
+      "保存",
+      "save"
+    ],
+    "pinyin": "bao cun baocun b c bc bao cun baocun b c bc"
   },
   {
     "id": "ae-undo",
     "appId": "afterfx",
     "type": "software",
     "category": "video",
-    "name": { "zh": "撤销", "en": "Undo" },
-    "description": { "zh": "撤销上一步操作", "en": "Undo the last action" },
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销上一步操作",
+      "en": "Undo the last action"
+    },
     "windows": "Ctrl+Z",
     "mac": "⌘+Z",
     "linux": "—",
-    "keywords": ["撤销", "undo"],
-    "pinyin": "che xiao chexiao c x cx"
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
   },
   {
     "id": "ae-redo",
     "appId": "afterfx",
     "type": "software",
     "category": "video",
-    "name": { "zh": "重做", "en": "Redo" },
-    "description": { "zh": "重做被撤销的操作", "en": "Redo the undone action" },
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "重做被撤销的操作",
+      "en": "Redo the undone action"
+    },
     "windows": "Ctrl+Shift+Z",
     "mac": "⌘+Shift+Z",
     "linux": "—",
-    "keywords": ["重做", "redo"],
-    "pinyin": "zhong zuo zhongzuo z z zz"
+    "keywords": [
+      "重做",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
   },
   {
     "id": "ae-rampreview",
     "appId": "afterfx",
     "type": "software",
     "category": "video",
-    "name": { "zh": "RAM 预览", "en": "RAM Preview" },
-    "description": { "zh": "预览已缓存的动画", "en": "Preview the cached animation" },
+    "name": {
+      "zh": "RAM 预览",
+      "en": "RAM Preview"
+    },
+    "description": {
+      "zh": "预览已缓存的动画",
+      "en": "Preview the cached animation"
+    },
     "windows": "Numpad 0",
     "mac": "Numpad 0",
     "linux": "Numpad 0",
-    "keywords": ["预览", "preview", "ram"],
-    "pinyin": "ram yu lan ramyulan r y l ryl"
+    "keywords": [
+      "预览",
+      "preview",
+      "ram"
+    ],
+    "pinyin": "r a m   yu lan ram yulan r a m   y l ram yl yu lan yulan y l yl"
   },
   {
     "id": "ae-play",
     "appId": "afterfx",
     "type": "software",
     "category": "video",
-    "name": { "zh": "播放/停止", "en": "Play / Stop" },
-    "description": { "zh": "播放或停止预览", "en": "Play or stop preview" },
+    "name": {
+      "zh": "播放/停止",
+      "en": "Play / Stop"
+    },
+    "description": {
+      "zh": "播放或停止预览",
+      "en": "Play or stop preview"
+    },
     "windows": "Space",
     "mac": "Space",
     "linux": "Space",
-    "keywords": ["播放", "play", "停止"],
-    "pinyin": "bo fang ting zhi bofangtingzhi b f t z bftz"
+    "keywords": [
+      "播放",
+      "play",
+      "停止"
+    ],
+    "pinyin": "bo fang / ting zhi bofang/tingzhi b f / t z bf/tz bo fang   ting zhi bofang tingzhi b f   t z bf tz"
   },
   {
     "id": "ae-selection",
     "appId": "afterfx",
     "type": "software",
     "category": "video",
-    "name": { "zh": "选择工具", "en": "Selection Tool" },
-    "description": { "zh": "选择并移动图层", "en": "Select and move layers" },
+    "name": {
+      "zh": "选择工具",
+      "en": "Selection Tool"
+    },
+    "description": {
+      "zh": "选择并移动图层",
+      "en": "Select and move layers"
+    },
     "windows": "V",
     "mac": "V",
     "linux": "V",
-    "keywords": ["选择", "select", "工具"],
-    "pinyin": "xuan ze gong ju xuanzegongju x z g j xzgj"
+    "keywords": [
+      "选择",
+      "select",
+      "工具"
+    ],
+    "pinyin": "xuan ze gong ju xuanzegongju x z g j xzgj xuan ze   gong ju xuanze gongju x z   g j xz gj"
   },
   {
     "id": "ae-panbehind",
     "appId": "afterfx",
     "type": "software",
     "category": "video",
-    "name": { "zh": "幕后平移", "en": "Pan Behind" },
-    "description": { "zh": "移动图层的锚点", "en": "Move the layer anchor point" },
+    "name": {
+      "zh": "幕后平移",
+      "en": "Pan Behind"
+    },
+    "description": {
+      "zh": "移动图层的锚点",
+      "en": "Move the layer anchor point"
+    },
     "windows": "Y",
     "mac": "Y",
     "linux": "Y",
-    "keywords": ["平移", "pan", "锚点"],
-    "pinyin": "mu hou ping yi muhoupingyi m h p y mhpy"
+    "keywords": [
+      "平移",
+      "pan",
+      "锚点"
+    ],
+    "pinyin": "mu hou ping yi muhoupingyi m h p y mhpy ping yi   mao dian pingyi maodian p y   m d py md"
   },
   {
     "id": "ae-pen",
     "appId": "afterfx",
     "type": "software",
     "category": "video",
-    "name": { "zh": "钢笔工具", "en": "Pen Tool" },
-    "description": { "zh": "绘制蒙版路径", "en": "Draw mask paths" },
+    "name": {
+      "zh": "钢笔工具",
+      "en": "Pen Tool"
+    },
+    "description": {
+      "zh": "绘制蒙版路径",
+      "en": "Draw mask paths"
+    },
     "windows": "G",
     "mac": "G",
     "linux": "G",
-    "keywords": ["钢笔", "pen", "蒙版"],
-    "pinyin": "gang bi gong ju gangbigongju g b g j gbgj"
+    "keywords": [
+      "钢笔",
+      "pen",
+      "蒙版"
+    ],
+    "pinyin": "gang bi gong ju gangbigongju g b g j gbgj gang bi   meng ban gangbi mengban g b   m b gb mb"
   },
   {
     "id": "ae-text",
     "appId": "afterfx",
     "type": "software",
     "category": "video",
-    "name": { "zh": "文字工具", "en": "Text Tool" },
-    "description": { "zh": "创建文字图层", "en": "Create a text layer" },
+    "name": {
+      "zh": "文字工具",
+      "en": "Text Tool"
+    },
+    "description": {
+      "zh": "创建文字图层",
+      "en": "Create a text layer"
+    },
     "windows": "Ctrl+T",
     "mac": "⌘+T",
     "linux": "—",
-    "keywords": ["文字", "text", "字体"],
-    "pinyin": "wen zi gong ju wenzigongju w z g j wzgj"
+    "keywords": [
+      "文字",
+      "text",
+      "字体"
+    ],
+    "pinyin": "wen zi gong ju wenzigongju w z g j wzgj wen zi   zi ti wenzi ziti w z   z t wz zt"
   },
   {
     "id": "ae-duplicate",
     "appId": "afterfx",
     "type": "software",
     "category": "video",
-    "name": { "zh": "复制图层", "en": "Duplicate" },
-    "description": { "zh": "复制选中的图层", "en": "Duplicate the selected layer" },
+    "name": {
+      "zh": "复制图层",
+      "en": "Duplicate"
+    },
+    "description": {
+      "zh": "复制选中的图层",
+      "en": "Duplicate the selected layer"
+    },
     "windows": "Ctrl+D",
     "mac": "⌘+D",
     "linux": "—",
-    "keywords": ["复制", "duplicate", "图层"],
-    "pinyin": "fu zhi tu ceng fuzhitu ceng f z t c fztc"
+    "keywords": [
+      "复制",
+      "duplicate",
+      "图层"
+    ],
+    "pinyin": "fu zhi tu ceng fuzhituceng f z t c fztc fu zhi   tu ceng fuzhi tuceng f z   t c fz tc"
   },
   {
     "id": "ae-split",
     "appId": "afterfx",
     "type": "software",
     "category": "video",
-    "name": { "zh": "拆分图层", "en": "Split Layer" },
-    "description": { "zh": "在播放头处拆分图层", "en": "Split the layer at the playhead" },
+    "name": {
+      "zh": "拆分图层",
+      "en": "Split Layer"
+    },
+    "description": {
+      "zh": "在播放头处拆分图层",
+      "en": "Split the layer at the playhead"
+    },
     "windows": "Ctrl+Shift+D",
     "mac": "⌘+Shift+D",
     "linux": "—",
-    "keywords": ["拆分", "split", "图层"],
-    "pinyin": "chai fen tu ceng chaifentuceng c f t c cftc"
+    "keywords": [
+      "拆分",
+      "split",
+      "图层"
+    ],
+    "pinyin": "chai fen tu ceng chaifentuceng c f t c cftc chai fen   tu ceng chaifen tuceng c f   t c cf tc"
   },
   {
     "id": "ae-workstart",
     "appId": "afterfx",
     "type": "software",
     "category": "video",
-    "name": { "zh": "工作区起点", "en": "Work Area Start" },
-    "description": { "zh": "将工作区起点设到播放头", "en": "Set work area start to playhead" },
+    "name": {
+      "zh": "工作区起点",
+      "en": "Work Area Start"
+    },
+    "description": {
+      "zh": "将工作区起点设到播放头",
+      "en": "Set work area start to playhead"
+    },
     "windows": "B",
     "mac": "B",
     "linux": "B",
-    "keywords": ["工作区", "workarea", "起点"],
-    "pinyin": "gong zuo qu qi dian gongzuoquqidian g z q q d gzqqd"
+    "keywords": [
+      "工作区",
+      "workarea",
+      "起点"
+    ],
+    "pinyin": "gong zuo qu qi dian gongzuoquqidian g z q q d gzqqd gong zuo qu   qi dian gongzuoqu qidian g z q   q d gzq qd"
   },
   {
     "id": "ae-compsettings",
     "appId": "afterfx",
     "type": "software",
     "category": "video",
-    "name": { "zh": "合成设置", "en": "Composition Settings" },
-    "description": { "zh": "打开合成属性设置", "en": "Open composition settings" },
+    "name": {
+      "zh": "合成设置",
+      "en": "Composition Settings"
+    },
+    "description": {
+      "zh": "打开合成属性设置",
+      "en": "Open composition settings"
+    },
     "windows": "Ctrl+K",
     "mac": "⌘+K",
     "linux": "—",
-    "keywords": ["合成", "composition", "设置"],
-    "pinyin": "he cheng she zhi hechengshezhi h c s z hcsz"
+    "keywords": [
+      "合成",
+      "composition",
+      "设置"
+    ],
+    "pinyin": "he cheng she zhi hechengshezhi h c s z hcsz he cheng   she zhi hecheng shezhi h c   s z hc sz"
+  },
+  {
+    "id": "afterfx-ae-select",
+    "appId": "afterfx",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "选择工具",
+      "en": "Selection"
+    },
+    "description": {
+      "zh": "选择工具",
+      "en": "Selection"
+    },
+    "windows": "V",
+    "mac": "V",
+    "linux": "V",
+    "keywords": [
+      "选择",
+      "selection"
+    ],
+    "pinyin": "xuan ze gong ju xuanzegongju x z g j xzgj xuan ze xuanze x z xz"
+  },
+  {
+    "id": "afterfx-ae-pan",
+    "appId": "afterfx",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "抓手",
+      "en": "Hand"
+    },
+    "description": {
+      "zh": "平移",
+      "en": "Hand"
+    },
+    "windows": "H",
+    "mac": "H",
+    "linux": "H",
+    "keywords": [
+      "抓手",
+      "hand"
+    ],
+    "pinyin": "zhua shou zhuashou z s zs zhua shou zhuashou z s zs"
+  },
+  {
+    "id": "afterfx-ae-zoom",
+    "appId": "afterfx",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "缩放",
+      "en": "Zoom"
+    },
+    "description": {
+      "zh": "缩放",
+      "en": "Zoom"
+    },
+    "windows": "Z",
+    "mac": "Z",
+    "linux": "Z",
+    "keywords": [
+      "缩放",
+      "zoom"
+    ],
+    "pinyin": "suo fang suofang s f sf suo fang suofang s f sf"
+  },
+  {
+    "id": "afterfx-ae-rotation",
+    "appId": "afterfx",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "旋转工具",
+      "en": "Rotation"
+    },
+    "description": {
+      "zh": "旋转工具",
+      "en": "Rotation"
+    },
+    "windows": "W",
+    "mac": "W",
+    "linux": "W",
+    "keywords": [
+      "旋转",
+      "rotation"
+    ],
+    "pinyin": "xuan zhuan gong ju xuanzhuangongju x z g j xzgj xuan zhuan xuanzhuan x z xz"
+  },
+  {
+    "id": "afterfx-ae-panbehind",
+    "appId": "afterfx",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "后平移",
+      "en": "Pan Behind"
+    },
+    "description": {
+      "zh": "轴心点",
+      "en": "Pan behind"
+    },
+    "windows": "Y",
+    "mac": "Y",
+    "linux": "Y",
+    "keywords": [
+      "后平移",
+      "pan behind",
+      "轴心"
+    ],
+    "pinyin": "hou ping yi houpingyi h p y hpy hou ping yi   zhou xin houpingyi zhouxin h p y   z x hpy zx"
+  },
+  {
+    "id": "afterfx-ae-mask",
+    "appId": "afterfx",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "蒙版",
+      "en": "Mask"
+    },
+    "description": {
+      "zh": "蒙版工具",
+      "en": "Mask"
+    },
+    "windows": "Q",
+    "mac": "Q",
+    "linux": "Q",
+    "keywords": [
+      "蒙版",
+      "mask"
+    ],
+    "pinyin": "meng ban mengban m b mb meng ban mengban m b mb"
+  },
+  {
+    "id": "afterfx-ae-pen",
+    "appId": "afterfx",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "钢笔",
+      "en": "Pen"
+    },
+    "description": {
+      "zh": "钢笔工具",
+      "en": "Pen"
+    },
+    "windows": "G",
+    "mac": "G",
+    "linux": "G",
+    "keywords": [
+      "钢笔",
+      "pen"
+    ],
+    "pinyin": "gang bi gangbi g b gb gang bi gangbi g b gb"
+  },
+  {
+    "id": "afterfx-ae-text",
+    "appId": "afterfx",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "文字",
+      "en": "Type"
+    },
+    "description": {
+      "zh": "文字工具",
+      "en": "Type"
+    },
+    "windows": "Ctrl+T",
+    "mac": "Cmd+T",
+    "linux": "Ctrl+T",
+    "keywords": [
+      "文字",
+      "type"
+    ],
+    "pinyin": "wen zi wenzi w z wz wen zi wenzi w z wz"
+  },
+  {
+    "id": "afterfx-ae-brush",
+    "appId": "afterfx",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "画笔",
+      "en": "Brush"
+    },
+    "description": {
+      "zh": "画笔工具",
+      "en": "Brush"
+    },
+    "windows": "Ctrl+B",
+    "mac": "Cmd+B",
+    "linux": "Ctrl+B",
+    "keywords": [
+      "画笔",
+      "brush"
+    ],
+    "pinyin": "hua bi huabi h b hb hua bi huabi h b hb"
+  },
+  {
+    "id": "afterfx-ae-clone",
+    "appId": "afterfx",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "仿制图章",
+      "en": "Clone Stamp"
+    },
+    "description": {
+      "zh": "仿制图章",
+      "en": "Clone stamp"
+    },
+    "windows": "Ctrl+B",
+    "mac": "Cmd+B",
+    "linux": "Ctrl+B",
+    "keywords": [
+      "仿制",
+      "clone"
+    ],
+    "pinyin": "fang zhi tu zhang fangzhituzhang f z t z fztz fang zhi fangzhi f z fz"
+  },
+  {
+    "id": "afterfx-ae-newcomp",
+    "appId": "afterfx",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "新建合成",
+      "en": "New Comp"
+    },
+    "description": {
+      "zh": "新建合成",
+      "en": "New composition"
+    },
+    "windows": "Ctrl+N",
+    "mac": "Cmd+N",
+    "linux": "Ctrl+N",
+    "keywords": [
+      "新建合成",
+      "comp"
+    ],
+    "pinyin": "xin jian he cheng xinjianhecheng x j h c xjhc xin jian he cheng xinjianhecheng x j h c xjhc"
+  },
+  {
+    "id": "afterfx-ae-newproj",
+    "appId": "afterfx",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "新建项目",
+      "en": "New Project"
+    },
+    "description": {
+      "zh": "新建项目",
+      "en": "New project"
+    },
+    "windows": "Ctrl+Alt+N",
+    "mac": "Cmd+Option+N",
+    "linux": "Ctrl+Alt+N",
+    "keywords": [
+      "新建项目",
+      "project"
+    ],
+    "pinyin": "xin jian xiang mu xinjianxiangmu x j x m xjxm xin jian xiang mu xinjianxiangmu x j x m xjxm"
+  },
+  {
+    "id": "afterfx-ae-import",
+    "appId": "afterfx",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "导入",
+      "en": "Import"
+    },
+    "description": {
+      "zh": "导入素材",
+      "en": "Import"
+    },
+    "windows": "Ctrl+I",
+    "mac": "Cmd+I",
+    "linux": "Ctrl+I",
+    "keywords": [
+      "导入",
+      "import"
+    ],
+    "pinyin": "dao ru daoru d r dr dao ru daoru d r dr"
+  },
+  {
+    "id": "afterfx-ae-addframe",
+    "appId": "afterfx",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "添加帧定格",
+      "en": "Add Frame Hold"
+    },
+    "description": {
+      "zh": "帧定格",
+      "en": "Frame hold"
+    },
+    "windows": "Ctrl+Alt+F",
+    "mac": "Cmd+Option+F",
+    "linux": "Ctrl+Alt+F",
+    "keywords": [
+      "帧定格",
+      "frame hold"
+    ],
+    "pinyin": "tian jia zhen ding ge tianjiazhendingge t j z d g tjzdg zhen ding ge zhendingge z d g zdg"
+  },
+  {
+    "id": "afterfx-ae-preview",
+    "appId": "afterfx",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "预览",
+      "en": "Preview"
+    },
+    "description": {
+      "zh": "内存预览",
+      "en": "RAM preview"
+    },
+    "windows": "Space",
+    "mac": "Space",
+    "linux": "Space",
+    "keywords": [
+      "预览",
+      "preview"
+    ],
+    "pinyin": "yu lan yulan y l yl yu lan yulan y l yl"
+  },
+  {
+    "id": "afterfx-ae-render",
+    "appId": "afterfx",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "添加到渲染队列",
+      "en": "Add to Render"
+    },
+    "description": {
+      "zh": "渲染队列",
+      "en": "Add to render"
+    },
+    "windows": "Ctrl+Shift+/",
+    "mac": "Cmd+Shift+/",
+    "linux": "Ctrl+Shift+/",
+    "keywords": [
+      "渲染",
+      "render",
+      "队列"
+    ],
+    "pinyin": "tian jia dao xuan ran dui lie tianjiadaoxuanranduilie t j d x r d l tjdxrdl xuan ran   dui lie xuanran duilie x r   d l xr dl"
+  },
+  {
+    "id": "afterfx-ae-save",
+    "appId": "afterfx",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "保存",
+      "en": "Save"
+    },
+    "description": {
+      "zh": "保存",
+      "en": "Save"
+    },
+    "windows": "Ctrl+S",
+    "mac": "Cmd+S",
+    "linux": "Ctrl+S",
+    "keywords": [
+      "保存",
+      "save"
+    ],
+    "pinyin": "bao cun baocun b c bc bao cun baocun b c bc"
+  },
+  {
+    "id": "afterfx-ae-undo",
+    "appId": "afterfx",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "windows": "Ctrl+Z",
+    "mac": "Cmd+Z",
+    "linux": "Ctrl+Z",
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "afterfx-ae-redo",
+    "appId": "afterfx",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "windows": "Ctrl+Shift+Z",
+    "mac": "Cmd+Shift+Z",
+    "linux": "Ctrl+Shift+Z",
+    "keywords": [
+      "重做",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "afterfx-ae-fit",
+    "appId": "afterfx",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "适应窗口",
+      "en": "Fit"
+    },
+    "description": {
+      "zh": "适配窗口",
+      "en": "Fit"
+    },
+    "windows": "Shift+1",
+    "mac": "Shift+1",
+    "linux": "Shift+1",
+    "keywords": [
+      "适应",
+      "fit"
+    ],
+    "pinyin": "shi ying chuang kou shiyingchuangkou s y c k syck shi ying shiying s y sy"
+  },
+  {
+    "id": "afterfx-ae-split",
+    "appId": "afterfx",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "分裂图层",
+      "en": "Split Layer"
+    },
+    "description": {
+      "zh": "在播放头分裂",
+      "en": "Split layer"
+    },
+    "windows": "Ctrl+Shift+D",
+    "mac": "Cmd+Shift+D",
+    "linux": "Ctrl+Shift+D",
+    "keywords": [
+      "分裂",
+      "split",
+      "图层"
+    ],
+    "pinyin": "fen lie tu ceng fenlietuceng f l t c fltc fen lie   tu ceng fenlie tuceng f l   t c fl tc"
+  },
+  {
+    "id": "afterfx-ae-duplicate",
+    "appId": "afterfx",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "复制图层",
+      "en": "Duplicate Layer"
+    },
+    "description": {
+      "zh": "复制图层",
+      "en": "Duplicate layer"
+    },
+    "windows": "Ctrl+D",
+    "mac": "Cmd+D",
+    "linux": "Ctrl+D",
+    "keywords": [
+      "复制图层",
+      "duplicate"
+    ],
+    "pinyin": "fu zhi tu ceng fuzhituceng f z t c fztc fu zhi tu ceng fuzhituceng f z t c fztc"
+  },
+  {
+    "id": "afterfx-ae-delete",
+    "appId": "afterfx",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "删除图层",
+      "en": "Delete Layer"
+    },
+    "description": {
+      "zh": "删除图层",
+      "en": "Delete layer"
+    },
+    "windows": "Ctrl+Shift+D",
+    "mac": "Cmd+Shift+D",
+    "linux": "Ctrl+Shift+D",
+    "keywords": [
+      "删除图层",
+      "delete"
+    ],
+    "pinyin": "shan chu tu ceng shanchutuceng s c t c sctc shan chu tu ceng shanchutuceng s c t c sctc"
   }
 ]

@@ -4,194 +4,782 @@
     "appId": "indesign",
     "type": "software",
     "category": "design",
-    "name": { "zh": "新建文档", "en": "New Document" },
-    "description": { "zh": "创建一个新的文档", "en": "Create a new document" },
+    "name": {
+      "zh": "新建文档",
+      "en": "New Document"
+    },
+    "description": {
+      "zh": "创建一个新的文档",
+      "en": "Create a new document"
+    },
     "windows": "Ctrl+N",
     "mac": "⌘+N",
     "linux": "—",
-    "keywords": ["文档", "document", "新建"],
-    "pinyin": "xin jian wen dang xinjianwendang x j w d xjwd wen dang wendang w d wd"
+    "keywords": [
+      "文档",
+      "document",
+      "新建"
+    ],
+    "pinyin": "xin jian wen dang xinjianwendang x j w d xjwd wen dang   xin jian wendang xinjian w d   x j wd xj"
   },
   {
     "id": "id-open",
     "appId": "indesign",
     "type": "software",
     "category": "design",
-    "name": { "zh": "打开文档", "en": "Open" },
-    "description": { "zh": "打开已有文档", "en": "Open an existing document" },
+    "name": {
+      "zh": "打开文档",
+      "en": "Open"
+    },
+    "description": {
+      "zh": "打开已有文档",
+      "en": "Open an existing document"
+    },
     "windows": "Ctrl+O",
     "mac": "⌘+O",
     "linux": "—",
-    "keywords": ["打开", "open", "文档"],
-    "pinyin": "da kai wen dang dakaiwendang d k w d dkwd"
+    "keywords": [
+      "打开",
+      "open",
+      "文档"
+    ],
+    "pinyin": "da kai wen dang dakaiwendang d k w d dkwd da kai   wen dang dakai wendang d k   w d dk wd"
   },
   {
     "id": "id-save",
     "appId": "indesign",
     "type": "software",
     "category": "design",
-    "name": { "zh": "保存", "en": "Save" },
-    "description": { "zh": "保存当前文档", "en": "Save the current document" },
+    "name": {
+      "zh": "保存",
+      "en": "Save"
+    },
+    "description": {
+      "zh": "保存当前文档",
+      "en": "Save the current document"
+    },
     "windows": "Ctrl+S",
     "mac": "⌘+S",
     "linux": "—",
-    "keywords": ["保存", "save"],
-    "pinyin": "bao cun baocun b c bc"
+    "keywords": [
+      "保存",
+      "save"
+    ],
+    "pinyin": "bao cun baocun b c bc bao cun baocun b c bc"
   },
   {
     "id": "id-export",
     "appId": "indesign",
     "type": "software",
     "category": "design",
-    "name": { "zh": "导出", "en": "Export" },
-    "description": { "zh": "导出为 PDF 或其他格式", "en": "Export to PDF or other format" },
+    "name": {
+      "zh": "导出",
+      "en": "Export"
+    },
+    "description": {
+      "zh": "导出为 PDF 或其他格式",
+      "en": "Export to PDF or other format"
+    },
     "windows": "Ctrl+E",
     "mac": "⌘+E",
     "linux": "—",
-    "keywords": ["导出", "export", "pdf"],
-    "pinyin": "dao chu daochu d c dc"
+    "keywords": [
+      "导出",
+      "export",
+      "pdf"
+    ],
+    "pinyin": "dao chu daochu d c dc dao chu daochu d c dc"
   },
   {
     "id": "id-print",
     "appId": "indesign",
     "type": "software",
     "category": "design",
-    "name": { "zh": "打印", "en": "Print" },
-    "description": { "zh": "打开打印对话框", "en": "Open the print dialog" },
+    "name": {
+      "zh": "打印",
+      "en": "Print"
+    },
+    "description": {
+      "zh": "打开打印对话框",
+      "en": "Open the print dialog"
+    },
     "windows": "Ctrl+P",
     "mac": "⌘+P",
     "linux": "—",
-    "keywords": ["打印", "print"],
-    "pinyin": "da yin dayin d y dy"
+    "keywords": [
+      "打印",
+      "print"
+    ],
+    "pinyin": "da yin dayin d y dy da yin dayin d y dy"
   },
   {
     "id": "id-undo",
     "appId": "indesign",
     "type": "software",
     "category": "design",
-    "name": { "zh": "撤销", "en": "Undo" },
-    "description": { "zh": "撤销上一步操作", "en": "Undo the last action" },
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销上一步操作",
+      "en": "Undo the last action"
+    },
     "windows": "Ctrl+Z",
     "mac": "⌘+Z",
     "linux": "—",
-    "keywords": ["撤销", "undo"],
-    "pinyin": "che xiao chexiao c x cx"
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
   },
   {
     "id": "id-selection",
     "appId": "indesign",
     "type": "software",
     "category": "design",
-    "name": { "zh": "选择工具", "en": "Selection Tool" },
-    "description": { "zh": "选择并移动对象", "en": "Select and move objects" },
+    "name": {
+      "zh": "选择工具",
+      "en": "Selection Tool"
+    },
+    "description": {
+      "zh": "选择并移动对象",
+      "en": "Select and move objects"
+    },
     "windows": "V",
     "mac": "V",
     "linux": "—",
-    "keywords": ["选择", "select", "工具"],
-    "pinyin": "xuan ze gong ju xuanzegongju x z g j xzgj"
+    "keywords": [
+      "选择",
+      "select",
+      "工具"
+    ],
+    "pinyin": "xuan ze gong ju xuanzegongju x z g j xzgj xuan ze   gong ju xuanze gongju x z   g j xz gj"
   },
   {
     "id": "id-direct",
     "appId": "indesign",
     "type": "software",
     "category": "design",
-    "name": { "zh": "直接选择", "en": "Direct Selection" },
-    "description": { "zh": "选择锚点或路径", "en": "Select anchor points or paths" },
+    "name": {
+      "zh": "直接选择",
+      "en": "Direct Selection"
+    },
+    "description": {
+      "zh": "选择锚点或路径",
+      "en": "Select anchor points or paths"
+    },
     "windows": "A",
     "mac": "A",
     "linux": "—",
-    "keywords": ["直接", "direct", "锚点"],
-    "pinyin": "zhi jie xuan ze zhijiexuanze z j x z zjxz"
+    "keywords": [
+      "直接",
+      "direct",
+      "锚点"
+    ],
+    "pinyin": "zhi jie xuan ze zhijiexuanze z j x z zjxz zhi jie   mao dian zhijie maodian z j   m d zj md"
   },
   {
     "id": "id-pen",
     "appId": "indesign",
     "type": "software",
     "category": "design",
-    "name": { "zh": "钢笔工具", "en": "Pen Tool" },
-    "description": { "zh": "绘制矢量路径", "en": "Draw vector paths" },
+    "name": {
+      "zh": "钢笔工具",
+      "en": "Pen Tool"
+    },
+    "description": {
+      "zh": "绘制矢量路径",
+      "en": "Draw vector paths"
+    },
     "windows": "P",
     "mac": "P",
     "linux": "—",
-    "keywords": ["钢笔", "pen", "路径"],
-    "pinyin": "gang bi gong ju gangbigongju g b g j gbgj"
+    "keywords": [
+      "钢笔",
+      "pen",
+      "路径"
+    ],
+    "pinyin": "gang bi gong ju gangbigongju g b g j gbgj gang bi   lu jing gangbi lujing g b   l j gb lj"
   },
   {
     "id": "id-type",
     "appId": "indesign",
     "type": "software",
     "category": "design",
-    "name": { "zh": "文字工具", "en": "Type Tool" },
-    "description": { "zh": "创建或编辑文本框", "en": "Create or edit text frames" },
+    "name": {
+      "zh": "文字工具",
+      "en": "Type Tool"
+    },
+    "description": {
+      "zh": "创建或编辑文本框",
+      "en": "Create or edit text frames"
+    },
     "windows": "T",
     "mac": "T",
     "linux": "—",
-    "keywords": ["文字", "text", "字体"],
-    "pinyin": "wen zi gong ju wenzigongju w z g j wzgj"
+    "keywords": [
+      "文字",
+      "text",
+      "字体"
+    ],
+    "pinyin": "wen zi gong ju wenzigongju w z g j wzgj wen zi   zi ti wenzi ziti w z   z t wz zt"
   },
   {
     "id": "id-rectangle",
     "appId": "indesign",
     "type": "software",
     "category": "design",
-    "name": { "zh": "矩形工具", "en": "Rectangle Tool" },
-    "description": { "zh": "绘制矩形", "en": "Draw a rectangle" },
+    "name": {
+      "zh": "矩形工具",
+      "en": "Rectangle Tool"
+    },
+    "description": {
+      "zh": "绘制矩形",
+      "en": "Draw a rectangle"
+    },
     "windows": "M",
     "mac": "M",
     "linux": "—",
-    "keywords": ["矩形", "rectangle", "形状"],
-    "pinyin": "ju xing gong ju juxinggongju j x g j jxgj"
+    "keywords": [
+      "矩形",
+      "rectangle",
+      "形状"
+    ],
+    "pinyin": "ju xing gong ju juxinggongju j x g j jxgj ju xing   xing zhuang juxing xingzhuang j x   x z jx xz"
   },
   {
     "id": "id-zoom",
     "appId": "indesign",
     "type": "software",
     "category": "design",
-    "name": { "zh": "缩放工具", "en": "Zoom Tool" },
-    "description": { "zh": "放大或缩小视图", "en": "Zoom in or out" },
+    "name": {
+      "zh": "缩放工具",
+      "en": "Zoom Tool"
+    },
+    "description": {
+      "zh": "放大或缩小视图",
+      "en": "Zoom in or out"
+    },
     "windows": "Z",
     "mac": "Z",
     "linux": "—",
-    "keywords": ["缩放", "zoom", "视图"],
-    "pinyin": "suo fang gong ju suofanggongju s f g j sfgj"
+    "keywords": [
+      "缩放",
+      "zoom",
+      "视图"
+    ],
+    "pinyin": "suo fang gong ju suofanggongju s f g j sfgj suo fang   shi tu suofang shitu s f   s t sf st"
   },
   {
     "id": "id-fitwindow",
     "appId": "indesign",
     "type": "software",
     "category": "design",
-    "name": { "zh": "适合窗口", "en": "Fit in Window" },
-    "description": { "zh": "缩放至适应窗口", "en": "Zoom to fit the window" },
+    "name": {
+      "zh": "适合窗口",
+      "en": "Fit in Window"
+    },
+    "description": {
+      "zh": "缩放至适应窗口",
+      "en": "Zoom to fit the window"
+    },
     "windows": "Ctrl+0",
     "mac": "⌘+0",
     "linux": "—",
-    "keywords": ["适合", "fit", "窗口"],
-    "pinyin": "shi he chuang kou shihechuangkou s h c k s hck"
+    "keywords": [
+      "适合",
+      "fit",
+      "窗口"
+    ],
+    "pinyin": "shi he chuang kou shihechuangkou s h c k shck shi he   chuang kou shihe chuangkou s h   c k sh ck"
   },
   {
     "id": "id-preview",
     "appId": "indesign",
     "type": "software",
     "category": "design",
-    "name": { "zh": "预览模式", "en": "Preview Mode" },
-    "description": { "zh": "切换预览隐藏辅助元素", "en": "Toggle preview hiding guides" },
+    "name": {
+      "zh": "预览模式",
+      "en": "Preview Mode"
+    },
+    "description": {
+      "zh": "切换预览隐藏辅助元素",
+      "en": "Toggle preview hiding guides"
+    },
     "windows": "W",
     "mac": "W",
     "linux": "—",
-    "keywords": ["预览", "preview", "模式"],
-    "pinyin": "yu lan mo shi yulanmoshi y l m s ylms"
+    "keywords": [
+      "预览",
+      "preview",
+      "模式"
+    ],
+    "pinyin": "yu lan mo shi yulanmoshi y l m s ylms yu lan   mo shi yulan moshi y l   m s yl ms"
   },
   {
     "id": "id-guides",
     "appId": "indesign",
     "type": "software",
     "category": "design",
-    "name": { "zh": "显示/隐藏参考线", "en": "Show/Hide Guides" },
-    "description": { "zh": "切换参考线显示", "en": "Toggle guide visibility" },
+    "name": {
+      "zh": "显示/隐藏参考线",
+      "en": "Show/Hide Guides"
+    },
+    "description": {
+      "zh": "切换参考线显示",
+      "en": "Toggle guide visibility"
+    },
     "windows": "Ctrl+;",
     "mac": "⌘+;",
     "linux": "—",
-    "keywords": ["参考线", "guides", "网格"],
-    "pinyin": "can kao xian cankaoxian c k x ckx"
+    "keywords": [
+      "参考线",
+      "guides",
+      "网格"
+    ],
+    "pinyin": "xian shi / yin cang can kao xian xianshi/yincangcankaoxian x s / y c c k x xs/ycckx can kao xian   wang ge cankaoxian wangge c k x   w g ckx wg"
+  },
+  {
+    "id": "indesign-indesign-rect",
+    "appId": "indesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "矩形",
+      "en": "Rectangle"
+    },
+    "description": {
+      "zh": "绘制矩形",
+      "en": "Rectangle"
+    },
+    "windows": "M",
+    "mac": "M",
+    "linux": "M",
+    "keywords": [
+      "矩形",
+      "rectangle"
+    ],
+    "pinyin": "ju xing juxing j x jx ju xing juxing j x jx"
+  },
+  {
+    "id": "indesign-indesign-ellipse",
+    "appId": "indesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "椭圆",
+      "en": "Ellipse"
+    },
+    "description": {
+      "zh": "绘制椭圆",
+      "en": "Ellipse"
+    },
+    "windows": "L",
+    "mac": "L",
+    "linux": "L",
+    "keywords": [
+      "椭圆",
+      "ellipse"
+    ],
+    "pinyin": "tuo yuan tuoyuan t y ty tuo yuan tuoyuan t y ty"
+  },
+  {
+    "id": "indesign-indesign-pen",
+    "appId": "indesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "钢笔",
+      "en": "Pen"
+    },
+    "description": {
+      "zh": "钢笔工具",
+      "en": "Pen"
+    },
+    "windows": "P",
+    "mac": "P",
+    "linux": "P",
+    "keywords": [
+      "钢笔",
+      "pen"
+    ],
+    "pinyin": "gang bi gangbi g b gb gang bi gangbi g b gb"
+  },
+  {
+    "id": "indesign-indesign-text",
+    "appId": "indesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "文字",
+      "en": "Type"
+    },
+    "description": {
+      "zh": "文字工具",
+      "en": "Type"
+    },
+    "windows": "T",
+    "mac": "T",
+    "linux": "T",
+    "keywords": [
+      "文字",
+      "type",
+      "文本"
+    ],
+    "pinyin": "wen zi wenzi w z wz wen zi   wen ben wenzi wenben w z   w b wz wb"
+  },
+  {
+    "id": "indesign-indesign-frame",
+    "appId": "indesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "矩形框架",
+      "en": "Rectangle Frame"
+    },
+    "description": {
+      "zh": "图文框",
+      "en": "Frame"
+    },
+    "windows": "F",
+    "mac": "F",
+    "linux": "F",
+    "keywords": [
+      "框架",
+      "frame"
+    ],
+    "pinyin": "ju xing kuang jia juxingkuangjia j x k j jxkj kuang jia kuangjia k j kj"
+  },
+  {
+    "id": "indesign-indesign-select",
+    "appId": "indesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "选择",
+      "en": "Selection"
+    },
+    "description": {
+      "zh": "选择工具",
+      "en": "Selection"
+    },
+    "windows": "V",
+    "mac": "V",
+    "linux": "V",
+    "keywords": [
+      "选择",
+      "selection"
+    ],
+    "pinyin": "xuan ze xuanze x z xz xuan ze xuanze x z xz"
+  },
+  {
+    "id": "indesign-indesign-zoom",
+    "appId": "indesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "缩放",
+      "en": "Zoom"
+    },
+    "description": {
+      "zh": "缩放工具",
+      "en": "Zoom"
+    },
+    "windows": "Z",
+    "mac": "Z",
+    "linux": "Z",
+    "keywords": [
+      "缩放",
+      "zoom"
+    ],
+    "pinyin": "suo fang suofang s f sf suo fang suofang s f sf"
+  },
+  {
+    "id": "indesign-indesign-hand",
+    "appId": "indesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "抓手",
+      "en": "Hand"
+    },
+    "description": {
+      "zh": "平移",
+      "en": "Hand"
+    },
+    "windows": "H",
+    "mac": "H",
+    "linux": "H",
+    "keywords": [
+      "抓手",
+      "hand"
+    ],
+    "pinyin": "zhua shou zhuashou z s zs zhua shou zhuashou z s zs"
+  },
+  {
+    "id": "indesign-indesign-group",
+    "appId": "indesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "编组",
+      "en": "Group"
+    },
+    "description": {
+      "zh": "编组",
+      "en": "Group"
+    },
+    "windows": "Ctrl+G",
+    "mac": "Cmd+G",
+    "linux": "Ctrl+G",
+    "keywords": [
+      "编组",
+      "group"
+    ],
+    "pinyin": "bian zu bianzu b z bz bian zu bianzu b z bz"
+  },
+  {
+    "id": "indesign-indesign-ungroup",
+    "appId": "indesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "取消编组",
+      "en": "Ungroup"
+    },
+    "description": {
+      "zh": "取消编组",
+      "en": "Ungroup"
+    },
+    "windows": "Ctrl+Shift+G",
+    "mac": "Cmd+Shift+G",
+    "linux": "Ctrl+Shift+G",
+    "keywords": [
+      "取消编组",
+      "ungroup"
+    ],
+    "pinyin": "qu xiao bian zu quxiaobianzu q x b z qxbz qu xiao bian zu quxiaobianzu q x b z qxbz"
+  },
+  {
+    "id": "indesign-indesign-duplicate",
+    "appId": "indesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "复制",
+      "en": "Duplicate"
+    },
+    "description": {
+      "zh": "原位复制",
+      "en": "Duplicate"
+    },
+    "windows": "Ctrl+D",
+    "mac": "Cmd+D",
+    "linux": "Ctrl+D",
+    "keywords": [
+      "复制",
+      "duplicate"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "indesign-indesign-copy",
+    "appId": "indesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "拷贝",
+      "en": "Copy"
+    },
+    "description": {
+      "zh": "拷贝",
+      "en": "Copy"
+    },
+    "windows": "Ctrl+C",
+    "mac": "Cmd+C",
+    "linux": "Ctrl+C",
+    "keywords": [
+      "拷贝",
+      "copy"
+    ],
+    "pinyin": "kao bei kaobei k b kb kao bei kaobei k b kb"
+  },
+  {
+    "id": "indesign-indesign-paste",
+    "appId": "indesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "粘贴",
+      "en": "Paste"
+    },
+    "description": {
+      "zh": "粘贴",
+      "en": "Paste"
+    },
+    "windows": "Ctrl+V",
+    "mac": "Cmd+V",
+    "linux": "Ctrl+V",
+    "keywords": [
+      "粘贴",
+      "paste"
+    ],
+    "pinyin": "nian tie niantie n t nt nian tie niantie n t nt"
+  },
+  {
+    "id": "indesign-indesign-undo",
+    "appId": "indesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "windows": "Ctrl+Z",
+    "mac": "Cmd+Z",
+    "linux": "Ctrl+Z",
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "indesign-indesign-redo",
+    "appId": "indesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "windows": "Ctrl+Shift+Z",
+    "mac": "Cmd+Shift+Z",
+    "linux": "Ctrl+Shift+Z",
+    "keywords": [
+      "重做",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "indesign-indesign-fit",
+    "appId": "indesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "适应窗口",
+      "en": "Fit Page"
+    },
+    "description": {
+      "zh": "适应页面",
+      "en": "Fit page"
+    },
+    "windows": "Ctrl+0",
+    "mac": "Cmd+0",
+    "linux": "Ctrl+0",
+    "keywords": [
+      "适应",
+      "fit"
+    ],
+    "pinyin": "shi ying chuang kou shiyingchuangkou s y c k syck shi ying shiying s y sy"
+  },
+  {
+    "id": "indesign-indesign-new",
+    "appId": "indesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "新建文档",
+      "en": "New Document"
+    },
+    "description": {
+      "zh": "新建",
+      "en": "New"
+    },
+    "windows": "Ctrl+N",
+    "mac": "Cmd+N",
+    "linux": "Ctrl+N",
+    "keywords": [
+      "新建",
+      "new"
+    ],
+    "pinyin": "xin jian wen dang xinjianwendang x j w d xjwd xin jian xinjian x j xj"
+  },
+  {
+    "id": "indesign-indesign-save",
+    "appId": "indesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "保存",
+      "en": "Save"
+    },
+    "description": {
+      "zh": "保存",
+      "en": "Save"
+    },
+    "windows": "Ctrl+S",
+    "mac": "Cmd+S",
+    "linux": "Ctrl+S",
+    "keywords": [
+      "保存",
+      "save"
+    ],
+    "pinyin": "bao cun baocun b c bc bao cun baocun b c bc"
+  },
+  {
+    "id": "indesign-indesign-export",
+    "appId": "indesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "导出",
+      "en": "Export"
+    },
+    "description": {
+      "zh": "导出",
+      "en": "Export"
+    },
+    "windows": "Ctrl+E",
+    "mac": "Cmd+E",
+    "linux": "Ctrl+E",
+    "keywords": [
+      "导出",
+      "export"
+    ],
+    "pinyin": "dao chu daochu d c dc dao chu daochu d c dc"
+  },
+  {
+    "id": "indesign-indesign-preview",
+    "appId": "indesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "预览",
+      "en": "Preview"
+    },
+    "description": {
+      "zh": "预览模式",
+      "en": "Preview"
+    },
+    "windows": "W",
+    "mac": "W",
+    "linux": "W",
+    "keywords": [
+      "预览",
+      "preview"
+    ],
+    "pinyin": "yu lan yulan y l yl yu lan yulan y l yl"
   }
 ]

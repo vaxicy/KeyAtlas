@@ -244,5 +244,403 @@
       "unstage"
     ],
     "pinyin": "che xiao zan cun chexiaozancun c x z c cxzc che xiao chexiao c x cx"
+  },
+  {
+    "id": "git-git-init",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "初始化仓库",
+      "en": "Init"
+    },
+    "description": {
+      "zh": "初始化 git 仓库",
+      "en": "Init repo"
+    },
+    "windows": "git init",
+    "mac": "git init",
+    "linux": "git init",
+    "keywords": [
+      "初始化",
+      "init"
+    ],
+    "pinyin": "chu shi hua cang ku chushihuacangku c s h c k cshck chu shi hua chushihua c s h csh"
+  },
+  {
+    "id": "git-git-clone",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "克隆仓库",
+      "en": "Clone"
+    },
+    "description": {
+      "zh": "克隆远程仓库",
+      "en": "Clone repo"
+    },
+    "windows": "git clone",
+    "mac": "git clone",
+    "linux": "git clone",
+    "keywords": [
+      "克隆",
+      "clone"
+    ],
+    "pinyin": "ke long cang ku kelongcangku k l c k klck ke long kelong k l kl"
+  },
+  {
+    "id": "git-git-status",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "查看状态",
+      "en": "Status"
+    },
+    "description": {
+      "zh": "查看工作区状态",
+      "en": "Status"
+    },
+    "windows": "git status",
+    "mac": "git status",
+    "linux": "git status",
+    "keywords": [
+      "状态",
+      "status"
+    ],
+    "pinyin": "cha kan zhuang tai chakanzhuangtai c k z t ckzt zhuang tai zhuangtai z t zt"
+  },
+  {
+    "id": "git-git-add",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "暂存文件",
+      "en": "Add"
+    },
+    "description": {
+      "zh": "添加文件到暂存区",
+      "en": "Stage file"
+    },
+    "windows": "git add",
+    "mac": "git add",
+    "linux": "git add",
+    "keywords": [
+      "暂存",
+      "add",
+      "stage"
+    ],
+    "pinyin": "zan cun wen jian zancunwenjian z c w j zcwj zan cun zancun z c zc"
+  },
+  {
+    "id": "git-git-commit",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "提交",
+      "en": "Commit"
+    },
+    "description": {
+      "zh": "提交更改",
+      "en": "Commit"
+    },
+    "windows": "git commit",
+    "mac": "git commit",
+    "linux": "git commit",
+    "keywords": [
+      "提交",
+      "commit"
+    ],
+    "pinyin": "ti jiao tijiao t j tj ti jiao tijiao t j tj"
+  },
+  {
+    "id": "git-git-push",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "推送",
+      "en": "Push"
+    },
+    "description": {
+      "zh": "推送到远程",
+      "en": "Push"
+    },
+    "windows": "git push",
+    "mac": "git push",
+    "linux": "git push",
+    "keywords": [
+      "推送",
+      "push"
+    ],
+    "pinyin": "tui song tuisong t s ts tui song tuisong t s ts"
+  },
+  {
+    "id": "git-git-pull",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "拉取",
+      "en": "Pull"
+    },
+    "description": {
+      "zh": "拉取远程更新",
+      "en": "Pull"
+    },
+    "windows": "git pull",
+    "mac": "git pull",
+    "linux": "git pull",
+    "keywords": [
+      "拉取",
+      "pull"
+    ],
+    "pinyin": "la qu laqu l q lq la qu laqu l q lq"
+  },
+  {
+    "id": "git-git-branch",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "分支",
+      "en": "Branch"
+    },
+    "description": {
+      "zh": "查看/创建分支",
+      "en": "Branch"
+    },
+    "windows": "git branch",
+    "mac": "git branch",
+    "linux": "git branch",
+    "keywords": [
+      "分支",
+      "branch"
+    ],
+    "pinyin": "fen zhi fenzhi f z fz fen zhi fenzhi f z fz"
+  },
+  {
+    "id": "git-git-checkout",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "切换分支",
+      "en": "Checkout"
+    },
+    "description": {
+      "zh": "切换分支",
+      "en": "Checkout"
+    },
+    "windows": "git checkout",
+    "mac": "git checkout",
+    "linux": "git checkout",
+    "keywords": [
+      "切换分支",
+      "checkout"
+    ],
+    "pinyin": "qie huan fen zhi qiehuanfenzhi q h f z qhfz qie huan fen zhi qiehuanfenzhi q h f z qhfz"
+  },
+  {
+    "id": "git-git-merge",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "合并",
+      "en": "Merge"
+    },
+    "description": {
+      "zh": "合并分支",
+      "en": "Merge"
+    },
+    "windows": "git merge",
+    "mac": "git merge",
+    "linux": "git merge",
+    "keywords": [
+      "合并",
+      "merge"
+    ],
+    "pinyin": "he bing hebing h b hb he bing hebing h b hb"
+  },
+  {
+    "id": "git-git-log",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "查看日志",
+      "en": "Log"
+    },
+    "description": {
+      "zh": "查看提交历史",
+      "en": "Log"
+    },
+    "windows": "git log",
+    "mac": "git log",
+    "linux": "git log",
+    "keywords": [
+      "日志",
+      "log",
+      "历史"
+    ],
+    "pinyin": "cha kan ri zhi chakanrizhi c k r z ckrz ri zhi   li shi rizhi lishi r z   l s rz ls"
+  },
+  {
+    "id": "git-git-diff",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "差异对比",
+      "en": "Diff"
+    },
+    "description": {
+      "zh": "查看差异",
+      "en": "Diff"
+    },
+    "windows": "git diff",
+    "mac": "git diff",
+    "linux": "git diff",
+    "keywords": [
+      "差异",
+      "diff"
+    ],
+    "pinyin": "cha yi dui bi chayiduibi c y d b cydb cha yi chayi c y cy"
+  },
+  {
+    "id": "git-git-stash",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "暂存改动",
+      "en": "Stash"
+    },
+    "description": {
+      "zh": "暂存未提交改动",
+      "en": "Stash"
+    },
+    "windows": "git stash",
+    "mac": "git stash",
+    "linux": "git stash",
+    "keywords": [
+      "暂存",
+      "stash"
+    ],
+    "pinyin": "zan cun gai dong zancungaidong z c g d zcgd zan cun zancun z c zc"
+  },
+  {
+    "id": "git-git-reset",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "重置",
+      "en": "Reset"
+    },
+    "description": {
+      "zh": "重置到某提交",
+      "en": "Reset"
+    },
+    "windows": "git reset",
+    "mac": "git reset",
+    "linux": "git reset",
+    "keywords": [
+      "重置",
+      "reset"
+    ],
+    "pinyin": "zhong zhi zhongzhi z z zz zhong zhi zhongzhi z z zz"
+  },
+  {
+    "id": "git-git-fetch",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "获取",
+      "en": "Fetch"
+    },
+    "description": {
+      "zh": "获取远程引用",
+      "en": "Fetch"
+    },
+    "windows": "git fetch",
+    "mac": "git fetch",
+    "linux": "git fetch",
+    "keywords": [
+      "获取",
+      "fetch"
+    ],
+    "pinyin": "huo qu huoqu h q hq huo qu huoqu h q hq"
+  },
+  {
+    "id": "git-git-rebase",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "变基",
+      "en": "Rebase"
+    },
+    "description": {
+      "zh": "变基分支",
+      "en": "Rebase"
+    },
+    "windows": "git rebase",
+    "mac": "git rebase",
+    "linux": "git rebase",
+    "keywords": [
+      "变基",
+      "rebase"
+    ],
+    "pinyin": "bian ji bianji b j bj bian ji bianji b j bj"
+  },
+  {
+    "id": "git-git-tag",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "打标签",
+      "en": "Tag"
+    },
+    "description": {
+      "zh": "创建标签",
+      "en": "Tag"
+    },
+    "windows": "git tag",
+    "mac": "git tag",
+    "linux": "git tag",
+    "keywords": [
+      "标签",
+      "tag"
+    ],
+    "pinyin": "da biao qian dabiaoqian d b q dbq biao qian biaoqian b q bq"
+  },
+  {
+    "id": "git-git-remote",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "远程仓库",
+      "en": "Remote"
+    },
+    "description": {
+      "zh": "管理远程仓库",
+      "en": "Remote"
+    },
+    "windows": "git remote",
+    "mac": "git remote",
+    "linux": "git remote",
+    "keywords": [
+      "远程",
+      "remote"
+    ],
+    "pinyin": "yuan cheng cang ku yuanchengcangku y c c k ycck yuan cheng yuancheng y c yc"
   }
 ]

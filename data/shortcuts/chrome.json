@@ -380,5 +380,489 @@
       "fullscreen"
     ],
     "pinyin": "quan ping quanping q p qp quan ping quanping q p qp"
+  },
+  {
+    "id": "chrome-chrome-newtab",
+    "appId": "chrome",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "新建标签",
+      "en": "New Tab"
+    },
+    "description": {
+      "zh": "新建标签",
+      "en": "New tab"
+    },
+    "windows": "Ctrl+T",
+    "mac": "Cmd+T",
+    "linux": "Ctrl+T",
+    "keywords": [
+      "新建标签",
+      "new tab"
+    ],
+    "pinyin": "xin jian biao qian xinjianbiaoqian x j b q xjbq xin jian biao qian xinjianbiaoqian x j b q xjbq"
+  },
+  {
+    "id": "chrome-chrome-newwindow",
+    "appId": "chrome",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "新建窗口",
+      "en": "New Window"
+    },
+    "description": {
+      "zh": "新建窗口",
+      "en": "New window"
+    },
+    "windows": "Ctrl+N",
+    "mac": "Cmd+N",
+    "linux": "Ctrl+N",
+    "keywords": [
+      "新建窗口",
+      "new window"
+    ],
+    "pinyin": "xin jian chuang kou xinjianchuangkou x j c k xjck xin jian chuang kou xinjianchuangkou x j c k xjck"
+  },
+  {
+    "id": "chrome-chrome-incognito",
+    "appId": "chrome",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "无痕窗口",
+      "en": "Incognito"
+    },
+    "description": {
+      "zh": "打开无痕窗口",
+      "en": "Incognito"
+    },
+    "windows": "Ctrl+Shift+N",
+    "mac": "Cmd+Shift+N",
+    "linux": "Ctrl+Shift+N",
+    "keywords": [
+      "无痕",
+      "incognito"
+    ],
+    "pinyin": "wu hen chuang kou wuhenchuangkou w h c k whck wu hen wuhen w h wh"
+  },
+  {
+    "id": "chrome-chrome-close",
+    "appId": "chrome",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "关闭标签",
+      "en": "Close Tab"
+    },
+    "description": {
+      "zh": "关闭标签",
+      "en": "Close tab"
+    },
+    "windows": "Ctrl+W",
+    "mac": "Cmd+W",
+    "linux": "Ctrl+W",
+    "keywords": [
+      "关闭",
+      "close"
+    ],
+    "pinyin": "guan bi biao qian guanbibiaoqian g b b q gbbq guan bi guanbi g b gb"
+  },
+  {
+    "id": "chrome-chrome-reopen",
+    "appId": "chrome",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "恢复标签",
+      "en": "Reopen Tab"
+    },
+    "description": {
+      "zh": "恢复关闭标签",
+      "en": "Reopen tab"
+    },
+    "windows": "Ctrl+Shift+T",
+    "mac": "Cmd+Shift+T",
+    "linux": "Ctrl+Shift+T",
+    "keywords": [
+      "恢复",
+      "reopen"
+    ],
+    "pinyin": "hui fu biao qian huifubiaoqian h f b q hfbq hui fu huifu h f hf"
+  },
+  {
+    "id": "chrome-chrome-next",
+    "appId": "chrome",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "下一个标签",
+      "en": "Next Tab"
+    },
+    "description": {
+      "zh": "下一个标签",
+      "en": "Next tab"
+    },
+    "windows": "Ctrl+Tab",
+    "mac": "Cmd+Option+Right",
+    "linux": "Ctrl+Tab",
+    "keywords": [
+      "下一个标签",
+      "next tab"
+    ],
+    "pinyin": "xia yi ge biao qian xiayigebiaoqian x y g b q xygbq xia yi ge biao qian xiayigebiaoqian x y g b q xygbq"
+  },
+  {
+    "id": "chrome-chrome-prev",
+    "appId": "chrome",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "上一个标签",
+      "en": "Previous Tab"
+    },
+    "description": {
+      "zh": "上一个标签",
+      "en": "Previous tab"
+    },
+    "windows": "Ctrl+Shift+Tab",
+    "mac": "Cmd+Option+Left",
+    "linux": "Ctrl+Shift+Tab",
+    "keywords": [
+      "上一个标签",
+      "prev tab"
+    ],
+    "pinyin": "shang yi ge biao qian shangyigebiaoqian s y g b q sygbq shang yi ge biao qian shangyigebiaoqian s y g b q sygbq"
+  },
+  {
+    "id": "chrome-chrome-addr",
+    "appId": "chrome",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "地址栏",
+      "en": "Address Bar"
+    },
+    "description": {
+      "zh": "聚焦地址栏",
+      "en": "Address bar"
+    },
+    "windows": "Ctrl+L",
+    "mac": "Cmd+L",
+    "linux": "Ctrl+L",
+    "keywords": [
+      "地址栏",
+      "address"
+    ],
+    "pinyin": "di zhi lan dizhilan d z l dzl di zhi lan dizhilan d z l dzl"
+  },
+  {
+    "id": "chrome-chrome-find",
+    "appId": "chrome",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "查找",
+      "en": "Find"
+    },
+    "description": {
+      "zh": "页面查找",
+      "en": "Find"
+    },
+    "windows": "Ctrl+F",
+    "mac": "Cmd+F",
+    "linux": "Ctrl+F",
+    "keywords": [
+      "查找",
+      "find"
+    ],
+    "pinyin": "cha zhao chazhao c z cz cha zhao chazhao c z cz"
+  },
+  {
+    "id": "chrome-chrome-bookmark",
+    "appId": "chrome",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "书签",
+      "en": "Bookmark"
+    },
+    "description": {
+      "zh": "添加书签",
+      "en": "Bookmark"
+    },
+    "windows": "Ctrl+D",
+    "mac": "Cmd+D",
+    "linux": "Ctrl+D",
+    "keywords": [
+      "书签",
+      "bookmark"
+    ],
+    "pinyin": "shu qian shuqian s q sq shu qian shuqian s q sq"
+  },
+  {
+    "id": "chrome-chrome-history",
+    "appId": "chrome",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "历史",
+      "en": "History"
+    },
+    "description": {
+      "zh": "打开历史",
+      "en": "History"
+    },
+    "windows": "Ctrl+H",
+    "mac": "Cmd+Y",
+    "linux": "Ctrl+H",
+    "keywords": [
+      "历史",
+      "history"
+    ],
+    "pinyin": "li shi lishi l s ls li shi lishi l s ls"
+  },
+  {
+    "id": "chrome-chrome-downloads",
+    "appId": "chrome",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "下载",
+      "en": "Downloads"
+    },
+    "description": {
+      "zh": "打开下载",
+      "en": "Downloads"
+    },
+    "windows": "Ctrl+J",
+    "mac": "Cmd+J",
+    "linux": "Ctrl+J",
+    "keywords": [
+      "下载",
+      "downloads"
+    ],
+    "pinyin": "xia zai xiazai x z xz xia zai xiazai x z xz"
+  },
+  {
+    "id": "chrome-chrome-devtools",
+    "appId": "chrome",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "开发者工具",
+      "en": "DevTools"
+    },
+    "description": {
+      "zh": "打开 DevTools",
+      "en": "DevTools"
+    },
+    "windows": "Ctrl+Shift+I",
+    "mac": "Cmd+Option+I",
+    "linux": "Ctrl+Shift+I",
+    "keywords": [
+      "开发者",
+      "devtools"
+    ],
+    "pinyin": "kai fa zhe gong ju kaifazhegongju k f z g j kfzgj kai fa zhe kaifazhe k f z kfz"
+  },
+  {
+    "id": "chrome-chrome-refresh",
+    "appId": "chrome",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "刷新",
+      "en": "Reload"
+    },
+    "description": {
+      "zh": "刷新",
+      "en": "Reload"
+    },
+    "windows": "F5",
+    "mac": "Cmd+R",
+    "linux": "F5",
+    "keywords": [
+      "刷新",
+      "reload"
+    ],
+    "pinyin": "shua xin shuaxin s x sx shua xin shuaxin s x sx"
+  },
+  {
+    "id": "chrome-chrome-hardrefresh",
+    "appId": "chrome",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "强制刷新",
+      "en": "Hard Reload"
+    },
+    "description": {
+      "zh": "忽略缓存刷新",
+      "en": "Hard reload"
+    },
+    "windows": "Ctrl+F5",
+    "mac": "Cmd+Shift+R",
+    "linux": "Ctrl+F5",
+    "keywords": [
+      "强制刷新",
+      "hard reload"
+    ],
+    "pinyin": "qiang zhi shua xin qiangzhishuaxin q z s x qzsx qiang zhi shua xin qiangzhishuaxin q z s x qzsx"
+  },
+  {
+    "id": "chrome-chrome-zoomin",
+    "appId": "chrome",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "放大",
+      "en": "Zoom In"
+    },
+    "description": {
+      "zh": "放大",
+      "en": "Zoom in"
+    },
+    "windows": "Ctrl++",
+    "mac": "Cmd++",
+    "linux": "Ctrl++",
+    "keywords": [
+      "放大",
+      "zoom in"
+    ],
+    "pinyin": "fang da fangda f d fd fang da fangda f d fd"
+  },
+  {
+    "id": "chrome-chrome-zoomout",
+    "appId": "chrome",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "缩小",
+      "en": "Zoom Out"
+    },
+    "description": {
+      "zh": "缩小",
+      "en": "Zoom out"
+    },
+    "windows": "Ctrl+-",
+    "mac": "Cmd+-",
+    "linux": "Ctrl+-",
+    "keywords": [
+      "缩小",
+      "zoom out"
+    ],
+    "pinyin": "suo xiao suoxiao s x sx suo xiao suoxiao s x sx"
+  },
+  {
+    "id": "chrome-chrome-fullscreen",
+    "appId": "chrome",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "全屏",
+      "en": "Full Screen"
+    },
+    "description": {
+      "zh": "全屏",
+      "en": "Full screen"
+    },
+    "windows": "F11",
+    "mac": "Cmd+Ctrl+F",
+    "linux": "F11",
+    "keywords": [
+      "全屏",
+      "fullscreen"
+    ],
+    "pinyin": "quan ping quanping q p qp quan ping quanping q p qp"
+  },
+  {
+    "id": "chrome-chrome-taskmgr",
+    "appId": "chrome",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "任务管理器",
+      "en": "Task Manager"
+    },
+    "description": {
+      "zh": "任务管理器",
+      "en": "Task manager"
+    },
+    "windows": "Shift+Esc",
+    "mac": "Shift+Esc",
+    "linux": "Shift+Esc",
+    "keywords": [
+      "任务管理器",
+      "task manager"
+    ],
+    "pinyin": "ren wu guan li qi renwuguanliqi r w g l q rwglq ren wu guan li qi renwuguanliqi r w g l q rwglq"
+  },
+  {
+    "id": "chrome-chrome-home",
+    "appId": "chrome",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "主页",
+      "en": "Home"
+    },
+    "description": {
+      "zh": "回到主页",
+      "en": "Home"
+    },
+    "windows": "Alt+Home",
+    "mac": "Alt+Home",
+    "linux": "Alt+Home",
+    "keywords": [
+      "主页",
+      "home"
+    ],
+    "pinyin": "zhu ye zhuye z y zy zhu ye zhuye z y zy"
+  },
+  {
+    "id": "chrome-chrome-top",
+    "appId": "chrome",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "滚动到顶部",
+      "en": "Scroll to Top"
+    },
+    "description": {
+      "zh": "回到页顶",
+      "en": "Scroll to top"
+    },
+    "windows": "Home",
+    "mac": "Cmd+Up",
+    "linux": "Home",
+    "keywords": [
+      "顶部",
+      "top"
+    ],
+    "pinyin": "gun dong dao ding bu gundongdaodingbu g d d d b gdddb ding bu dingbu d b db"
+  },
+  {
+    "id": "chrome-chrome-bottom",
+    "appId": "chrome",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "滚动到底部",
+      "en": "Scroll to Bottom"
+    },
+    "description": {
+      "zh": "到页底",
+      "en": "Scroll to bottom"
+    },
+    "windows": "End",
+    "mac": "Cmd+Down",
+    "linux": "End",
+    "keywords": [
+      "底部",
+      "bottom"
+    ],
+    "pinyin": "gun dong dao di bu gundongdaodibu g d d d b gdddb di bu dibu d b db"
   }
 ]

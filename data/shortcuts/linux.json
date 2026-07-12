@@ -220,5 +220,295 @@
       "workspace"
     ],
     "pinyin": "qie huan gong zuo qu qiehuangongzuoqu q h g z q qhgzq gong zuo qu gongzuoqu g z q gzq"
+  },
+  {
+    "id": "linux-linux-terminal",
+    "appId": "linux",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "打开终端",
+      "en": "Open Terminal"
+    },
+    "description": {
+      "zh": "打开终端",
+      "en": "Open terminal"
+    },
+    "windows": "Ctrl+Alt+T",
+    "mac": "Ctrl+Alt+T",
+    "linux": "Ctrl+Alt+T",
+    "keywords": [
+      "终端",
+      "terminal"
+    ],
+    "pinyin": "da kai zhong duan dakaizhongduan d k z d dkzd zhong duan zhongduan z d zd"
+  },
+  {
+    "id": "linux-linux-screenshot",
+    "appId": "linux",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "截图",
+      "en": "Screenshot"
+    },
+    "description": {
+      "zh": "全屏截图",
+      "en": "Screenshot"
+    },
+    "windows": "PrtSc",
+    "mac": "PrtSc",
+    "linux": "PrtSc",
+    "keywords": [
+      "截图",
+      "screenshot"
+    ],
+    "pinyin": "jie tu jietu j t jt jie tu jietu j t jt"
+  },
+  {
+    "id": "linux-linux-windowshot",
+    "appId": "linux",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "窗口截图",
+      "en": "Window Screenshot"
+    },
+    "description": {
+      "zh": "当前窗口截图",
+      "en": "Window screenshot"
+    },
+    "windows": "Alt+PrtSc",
+    "mac": "Alt+PrtSc",
+    "linux": "Alt+PrtSc",
+    "keywords": [
+      "窗口截图",
+      "window"
+    ],
+    "pinyin": "chuang kou jie tu chuangkoujietu c k j t ckjt chuang kou jie tu chuangkoujietu c k j t ckjt"
+  },
+  {
+    "id": "linux-linux-switch",
+    "appId": "linux",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "切换窗口",
+      "en": "Switch Window"
+    },
+    "description": {
+      "zh": "切换应用窗口",
+      "en": "Switch window"
+    },
+    "windows": "Alt+Tab",
+    "mac": "Alt+Tab",
+    "linux": "Alt+Tab",
+    "keywords": [
+      "切换",
+      "switch",
+      "窗口"
+    ],
+    "pinyin": "qie huan chuang kou qiehuanchuangkou q h c k qhck qie huan   chuang kou qiehuan chuangkou q h   c k qh ck"
+  },
+  {
+    "id": "linux-linux-run",
+    "appId": "linux",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "运行命令",
+      "en": "Run Command"
+    },
+    "description": {
+      "zh": "运行对话框",
+      "en": "Run dialog"
+    },
+    "windows": "Alt+F2",
+    "mac": "Alt+F2",
+    "linux": "Alt+F2",
+    "keywords": [
+      "运行",
+      "run"
+    ],
+    "pinyin": "yun xing ming ling yunxingmingling y x m l yxml yun xing yunxing y x yx"
+  },
+  {
+    "id": "linux-linux-lock",
+    "appId": "linux",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "锁屏",
+      "en": "Lock Screen"
+    },
+    "description": {
+      "zh": "锁定屏幕",
+      "en": "Lock screen"
+    },
+    "windows": "Super+L",
+    "mac": "Super+L",
+    "linux": "Super+L",
+    "keywords": [
+      "锁屏",
+      "lock",
+      "屏幕"
+    ],
+    "pinyin": "suo ping suoping s p sp suo ping   ping mu suoping pingmu s p   p m sp pm"
+  },
+  {
+    "id": "linux-linux-workspace",
+    "appId": "linux",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "切换工作区",
+      "en": "Switch Workspace"
+    },
+    "description": {
+      "zh": "切换虚拟桌面",
+      "en": "Switch workspace"
+    },
+    "windows": "Ctrl+Alt+Left/Right",
+    "mac": "Ctrl+Alt+Left/Right",
+    "linux": "Ctrl+Alt+Left/Right",
+    "keywords": [
+      "工作区",
+      "workspace",
+      "桌面"
+    ],
+    "pinyin": "qie huan gong zuo qu qiehuangongzuoqu q h g z q qhgzq gong zuo qu   zhuo mian gongzuoqu zhuomian g z q   z m gzq zm"
+  },
+  {
+    "id": "linux-linux-launcher",
+    "appId": "linux",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "应用启动器",
+      "en": "App Launcher"
+    },
+    "description": {
+      "zh": "打开应用菜单",
+      "en": "App launcher"
+    },
+    "windows": "Super",
+    "mac": "Super",
+    "linux": "Super",
+    "keywords": [
+      "启动器",
+      "launcher",
+      "菜单"
+    ],
+    "pinyin": "ying yong qi dong qi yingyongqidongqi y y q d q yyqdq qi dong qi   cai dan qidongqi caidan q d q   c d qdq cd"
+  },
+  {
+    "id": "linux-linux-close",
+    "appId": "linux",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "关闭窗口",
+      "en": "Close Window"
+    },
+    "description": {
+      "zh": "关闭窗口",
+      "en": "Close window"
+    },
+    "windows": "Alt+F4",
+    "mac": "Alt+F4",
+    "linux": "Alt+F4",
+    "keywords": [
+      "关闭",
+      "close"
+    ],
+    "pinyin": "guan bi chuang kou guanbichuangkou g b c k gbck guan bi guanbi g b gb"
+  },
+  {
+    "id": "linux-linux-maximize",
+    "appId": "linux",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "最大化",
+      "en": "Maximize"
+    },
+    "description": {
+      "zh": "最大化窗口",
+      "en": "Maximize"
+    },
+    "windows": "Super+Up",
+    "mac": "Super+Up",
+    "linux": "Super+Up",
+    "keywords": [
+      "最大化",
+      "maximize"
+    ],
+    "pinyin": "zui da hua zuidahua z d h zdh zui da hua zuidahua z d h zdh"
+  },
+  {
+    "id": "linux-linux-minimize",
+    "appId": "linux",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "最小化",
+      "en": "Minimize"
+    },
+    "description": {
+      "zh": "最小化窗口",
+      "en": "Minimize"
+    },
+    "windows": "Super+Down",
+    "mac": "Super+Down",
+    "linux": "Super+Down",
+    "keywords": [
+      "最小化",
+      "minimize"
+    ],
+    "pinyin": "zui xiao hua zuixiaohua z x h zxh zui xiao hua zuixiaohua z x h zxh"
+  },
+  {
+    "id": "linux-linux-filemgr",
+    "appId": "linux",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "文件管理器",
+      "en": "File Manager"
+    },
+    "description": {
+      "zh": "打开文件管理器",
+      "en": "File manager"
+    },
+    "windows": "Super+E",
+    "mac": "Super+E",
+    "linux": "Super+E",
+    "keywords": [
+      "文件管理器",
+      "file"
+    ],
+    "pinyin": "wen jian guan li qi wenjianguanliqi w j g l q wjglq wen jian guan li qi wenjianguanliqi w j g l q wjglq"
+  },
+  {
+    "id": "linux-linux-settings",
+    "appId": "linux",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "设置",
+      "en": "Settings"
+    },
+    "description": {
+      "zh": "打开系统设置",
+      "en": "Settings"
+    },
+    "windows": "Super+I",
+    "mac": "Super+I",
+    "linux": "Super+I",
+    "keywords": [
+      "设置",
+      "settings"
+    ],
+    "pinyin": "she zhi shezhi s z sz she zhi shezhi s z sz"
   }
 ]

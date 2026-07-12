@@ -1,1 +1,738 @@
-[{"id": "devtools-open", "appId": "devtools", "type": "software", "category": "development", "name": {"zh": "打开开发者工具", "en": "Open DevTools"}, "description": {"zh": "打开或关闭开发者工具", "en": "Toggle Developer Tools"}, "windows": "F12", "mac": "⌘+Option+I", "linux": "F12", "keywords": ["开发者工具", "devtools"], "pinyin": "da kai kai fa zhe gong ju dakaikaifazhegongju d k k f z g j dkkfzgj kai fa zhe gong ju kaifazhegongju k f z g j kfzgj"}, {"id": "devtools-inspect", "appId": "devtools", "type": "software", "category": "development", "name": {"zh": "检查元素", "en": "Inspect Element"}, "description": {"zh": "打开元素选择器", "en": "Open element inspector"}, "windows": "Ctrl+Shift+C", "mac": "⌘+Shift+C", "linux": "Ctrl+Shift+C", "keywords": ["检查", "inspect", "element"], "pinyin": "jian cha yuan su jianchayuansu j c y s jcys"}, {"id": "devtools-console", "appId": "devtools", "type": "software", "category": "development", "name": {"zh": "打开控制台", "en": "Open Console"}, "description": {"zh": "直接打开控制台面板", "en": "Open the Console panel"}, "windows": "Ctrl+Shift+J", "mac": "⌘+Option+J", "linux": "Ctrl+Shift+J", "keywords": ["控制台", "console"], "pinyin": "da kai kong zhi tai dakaikongzhitai d k k z t dkkzt"}, {"id": "devtools-search", "appId": "devtools", "type": "software", "category": "development", "name": {"zh": "全局搜索", "en": "Search All Files"}, "description": {"zh": "在所有加载的资源中搜索", "en": "Search across all loaded files"}, "windows": "Ctrl+Shift+F", "mac": "⌘+Option+F", "linux": "Ctrl+Shift+F", "keywords": ["搜索", "search"], "pinyin": "quan ju sou suo quanjusousuo q j s s qjss"}, {"id": "devtools-command", "appId": "devtools", "type": "software", "category": "development", "name": {"zh": "命令菜单", "en": "Command Menu"}, "description": {"zh": "打开命令菜单执行操作", "en": "Open command menu"}, "windows": "Ctrl+Shift+P", "mac": "⌘+Shift+P", "linux": "Ctrl+Shift+P", "keywords": ["命令", "command"], "pinyin": "ming ling cai dan minglingcaidan m l c d mlcd"}, {"id": "devtools-device", "appId": "devtools", "type": "software", "category": "development", "name": {"zh": "设备模式", "en": "Device Toolbar"}, "description": {"zh": "切换响应式设备模拟", "en": "Toggle device toolbar"}, "windows": "Ctrl+Shift+M", "mac": "⌘+Shift+M", "linux": "Ctrl+Shift+M", "keywords": ["设备", "device", "responsive"], "pinyin": "she bei mo shi shebeimoshi s b m s sbms"}, {"id": "devtools-clear", "appId": "devtools", "type": "software", "category": "development", "name": {"zh": "清空控制台", "en": "Clear Console"}, "description": {"zh": "清除控制台输出", "en": "Clear the console"}, "windows": "Ctrl+L", "mac": "⌘+K", "linux": "Ctrl+L", "keywords": ["清空", "clear"], "pinyin": "qing kong kong zhi tai qingkongkongzhitai q k k z t qkkzt"}, {"id": "devtools-elements", "appId": "devtools", "type": "software", "category": "development", "name": {"zh": "元素面板", "en": "Elements Panel"}, "description": {"zh": "打开元素/检查器面板", "en": "Open Elements/Inspector panel"}, "windows": "Ctrl+0 or Ctrl+1 (in DevTools)", "mac": "⌘+0 or ⌘+1 (in DevTools)", "linux": "Ctrl+0", "keywords": ["元素", "elements", "DOM"], "pinyin": "yuan su mian ban yuansumiban y s mb ysmb yuan su yuansu y s ys"}, {"id": "devtools-network", "appId": "devtools", "type": "software", "category": "development", "name": {"zh": "网络面板", "en": "Network Panel"}, "description": {"zh": "打开网络请求面板", "en": "Open Network panel"}, "windows": "Ctrl+5 (in DevTools) or Ctrl+Shift+E", "mac": "⌘+5 (in DevTools)", "linux": "Ctrl+5", "keywords": ["网络", "network", "请求"], "pinyin": "wang luo mian ban wangluomiban w l mb wlmb wang luo wangluo w l wl"}, {"id": "devtools-sources", "appId": "devtools", "type": "software", "category": "development", "name": {"zh": "源代码面板", "en": "Sources Panel"}, "description": {"zh": "打开源代码调试面板", "en": "Open Sources/debugger panel"}, "windows": "Ctrl+2 (in DevTools)", "mac": "⌘+2 (in DevTools)", "linux": "Ctrl+2", "keywords": ["源码", "sources", "debugger"], "pinyin": "yuan dai ma mian ban yuandamamiban y d m b ydmb yuan dai ma yuandama y d m ydm"}, {"id": "devtools-performance", "appId": "devtools", "type": "software", "category": "development", "name": {"zh": "性能面板", "en": "Performance Panel"}, "description": {"zh": "打开性能分析面板", "en": "Open Performance panel"}, "windows": "Ctrl+Shift+E (Chrome) or Ctrl+4", "mac": "⌘+Shift+E (Chrome)", "linux": "Ctrl+4", "keywords": ["性能", "performance", "分析"], "pinyin": "xing neng mian ban xingnengmiban x n mb xnmb xing neng xingneng x n xn"}, {"id": "devtools-application", "appId": "devtools", "type": "software", "category": "development", "name": {"zh": "应用面板", "en": "Application Panel"}, "description": {"zh": "打开应用存储/Cookie/缓存面板", "en": "Open Application storage panel"}, "windows": "Ctrl+Shift+A (in some browsers)", "mac": "⌘+Shift+A (in some browsers)", "linux": "—", "keywords": ["应用", "application", "storage", "cookie"], "pinyin": "ying yong mian ban yingyongmiban y y mb yymb ying yong yingyong y y yy"}, {"id": "devtools-toggle-breakpoint", "appId": "devtools", "type": "software", "category": "development", "name": {"zh": "切换断点", "en": "Toggle Breakpoint"}, "description": {"zh": "在当前行切换断点", "en": "Toggle breakpoint at current line"}, "windows": "F9 (in Sources panel)", "mac": "F9 (in Sources panel)", "linux": "F9", "keywords": ["断点", "breakpoint"], "pinyin": "qie huan duan dian qiehuanduandian q h dd qhdd duan dian duandian d d dd"}, {"id": "devtools-step-over", "appId": "devtools", "type": "software", "category": "development", "name": {"zh": "单步跳过", "en": "Step Over"}, "description": {"zh": "执行下一行但不进入函数", "en": "Execute next line without entering function"}, "windows": "F10 (in Sources panel)", "mac": "F10 (in Sources panel)", "linux": "F10", "keywords": ["单步", "step over", "调试"], "pinyin": "dan bu tiao guo danbutiaoguo d b tg dbtg tiao shi diaoshi t s ds"}, {"id": "devtools-step-into", "appId": "devtools", "type": "software", "category": "development", "name": {"zh": "单步进入", "en": "Step Into"}, "description": {"zh": "进入函数内部逐行执行", "en": "Step into function"}, "windows": "F11 (in Sources panel)", "mac": "F11 (in Sources panel)", "linux": "F11", "keywords": ["单步进入", "step into", "调试"], "pinyin": "dan bu jin ru danbu jinru d b jr dbjr"}]
+[
+  {
+    "id": "devtools-open",
+    "appId": "devtools",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "打开开发者工具",
+      "en": "Open DevTools"
+    },
+    "description": {
+      "zh": "打开或关闭开发者工具",
+      "en": "Toggle Developer Tools"
+    },
+    "windows": "F12",
+    "mac": "⌘+Option+I",
+    "linux": "F12",
+    "keywords": [
+      "开发者工具",
+      "devtools"
+    ],
+    "pinyin": "da kai kai fa zhe gong ju dakaikaifazhegongju d k k f z g j dkkfzgj kai fa zhe gong ju kaifazhegongju k f z g j kfzgj"
+  },
+  {
+    "id": "devtools-inspect",
+    "appId": "devtools",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "检查元素",
+      "en": "Inspect Element"
+    },
+    "description": {
+      "zh": "打开元素选择器",
+      "en": "Open element inspector"
+    },
+    "windows": "Ctrl+Shift+C",
+    "mac": "⌘+Shift+C",
+    "linux": "Ctrl+Shift+C",
+    "keywords": [
+      "检查",
+      "inspect",
+      "element"
+    ],
+    "pinyin": "jian cha yuan su jianchayuansu j c y s jcys jian cha jiancha j c jc"
+  },
+  {
+    "id": "devtools-console",
+    "appId": "devtools",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "打开控制台",
+      "en": "Open Console"
+    },
+    "description": {
+      "zh": "直接打开控制台面板",
+      "en": "Open the Console panel"
+    },
+    "windows": "Ctrl+Shift+J",
+    "mac": "⌘+Option+J",
+    "linux": "Ctrl+Shift+J",
+    "keywords": [
+      "控制台",
+      "console"
+    ],
+    "pinyin": "da kai kong zhi tai dakaikongzhitai d k k z t dkkzt kong zhi tai kongzhitai k z t kzt"
+  },
+  {
+    "id": "devtools-search",
+    "appId": "devtools",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "全局搜索",
+      "en": "Search All Files"
+    },
+    "description": {
+      "zh": "在所有加载的资源中搜索",
+      "en": "Search across all loaded files"
+    },
+    "windows": "Ctrl+Shift+F",
+    "mac": "⌘+Option+F",
+    "linux": "Ctrl+Shift+F",
+    "keywords": [
+      "搜索",
+      "search"
+    ],
+    "pinyin": "quan ju sou suo quanjusousuo q j s s qjss sou suo sousuo s s ss"
+  },
+  {
+    "id": "devtools-command",
+    "appId": "devtools",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "命令菜单",
+      "en": "Command Menu"
+    },
+    "description": {
+      "zh": "打开命令菜单执行操作",
+      "en": "Open command menu"
+    },
+    "windows": "Ctrl+Shift+P",
+    "mac": "⌘+Shift+P",
+    "linux": "Ctrl+Shift+P",
+    "keywords": [
+      "命令",
+      "command"
+    ],
+    "pinyin": "ming ling cai dan minglingcaidan m l c d mlcd ming ling mingling m l ml"
+  },
+  {
+    "id": "devtools-device",
+    "appId": "devtools",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "设备模式",
+      "en": "Device Toolbar"
+    },
+    "description": {
+      "zh": "切换响应式设备模拟",
+      "en": "Toggle device toolbar"
+    },
+    "windows": "Ctrl+Shift+M",
+    "mac": "⌘+Shift+M",
+    "linux": "Ctrl+Shift+M",
+    "keywords": [
+      "设备",
+      "device",
+      "responsive"
+    ],
+    "pinyin": "she bei mo shi shebeimoshi s b m s sbms she bei shebei s b sb"
+  },
+  {
+    "id": "devtools-clear",
+    "appId": "devtools",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "清空控制台",
+      "en": "Clear Console"
+    },
+    "description": {
+      "zh": "清除控制台输出",
+      "en": "Clear the console"
+    },
+    "windows": "Ctrl+L",
+    "mac": "⌘+K",
+    "linux": "Ctrl+L",
+    "keywords": [
+      "清空",
+      "clear"
+    ],
+    "pinyin": "qing kong kong zhi tai qingkongkongzhitai q k k z t qkkzt qing kong qingkong q k qk"
+  },
+  {
+    "id": "devtools-elements",
+    "appId": "devtools",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "元素面板",
+      "en": "Elements Panel"
+    },
+    "description": {
+      "zh": "打开元素/检查器面板",
+      "en": "Open Elements/Inspector panel"
+    },
+    "windows": "Ctrl+0 or Ctrl+1 (in DevTools)",
+    "mac": "⌘+0 or ⌘+1 (in DevTools)",
+    "linux": "Ctrl+0",
+    "keywords": [
+      "元素",
+      "elements",
+      "DOM"
+    ],
+    "pinyin": "yuan su mian ban yuansumianban y s m b ysmb yuan su yuansu y s ys"
+  },
+  {
+    "id": "devtools-network",
+    "appId": "devtools",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "网络面板",
+      "en": "Network Panel"
+    },
+    "description": {
+      "zh": "打开网络请求面板",
+      "en": "Open Network panel"
+    },
+    "windows": "Ctrl+5 (in DevTools) or Ctrl+Shift+E",
+    "mac": "⌘+5 (in DevTools)",
+    "linux": "Ctrl+5",
+    "keywords": [
+      "网络",
+      "network",
+      "请求"
+    ],
+    "pinyin": "wang luo mian ban wangluomianban w l m b wlmb wang luo   qing qiu wangluo qingqiu w l   q q wl qq"
+  },
+  {
+    "id": "devtools-sources",
+    "appId": "devtools",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "源代码面板",
+      "en": "Sources Panel"
+    },
+    "description": {
+      "zh": "打开源代码调试面板",
+      "en": "Open Sources/debugger panel"
+    },
+    "windows": "Ctrl+2 (in DevTools)",
+    "mac": "⌘+2 (in DevTools)",
+    "linux": "Ctrl+2",
+    "keywords": [
+      "源码",
+      "sources",
+      "debugger"
+    ],
+    "pinyin": "yuan dai ma mian ban yuandaimamianban y d m m b ydmmb yuan ma yuanma y m ym"
+  },
+  {
+    "id": "devtools-performance",
+    "appId": "devtools",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "性能面板",
+      "en": "Performance Panel"
+    },
+    "description": {
+      "zh": "打开性能分析面板",
+      "en": "Open Performance panel"
+    },
+    "windows": "Ctrl+Shift+E (Chrome) or Ctrl+4",
+    "mac": "⌘+Shift+E (Chrome)",
+    "linux": "Ctrl+4",
+    "keywords": [
+      "性能",
+      "performance",
+      "分析"
+    ],
+    "pinyin": "xing neng mian ban xingnengmianban x n m b xnmb xing neng   fen xi xingneng fenxi x n   f x xn fx"
+  },
+  {
+    "id": "devtools-application",
+    "appId": "devtools",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "应用面板",
+      "en": "Application Panel"
+    },
+    "description": {
+      "zh": "打开应用存储/Cookie/缓存面板",
+      "en": "Open Application storage panel"
+    },
+    "windows": "Ctrl+Shift+A (in some browsers)",
+    "mac": "⌘+Shift+A (in some browsers)",
+    "linux": "—",
+    "keywords": [
+      "应用",
+      "application",
+      "storage",
+      "cookie"
+    ],
+    "pinyin": "ying yong mian ban yingyongmianban y y m b yymb ying yong yingyong y y yy"
+  },
+  {
+    "id": "devtools-toggle-breakpoint",
+    "appId": "devtools",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "切换断点",
+      "en": "Toggle Breakpoint"
+    },
+    "description": {
+      "zh": "在当前行切换断点",
+      "en": "Toggle breakpoint at current line"
+    },
+    "windows": "F9 (in Sources panel)",
+    "mac": "F9 (in Sources panel)",
+    "linux": "F9",
+    "keywords": [
+      "断点",
+      "breakpoint"
+    ],
+    "pinyin": "qie huan duan dian qiehuanduandian q h d d qhdd duan dian duandian d d dd"
+  },
+  {
+    "id": "devtools-step-over",
+    "appId": "devtools",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "单步跳过",
+      "en": "Step Over"
+    },
+    "description": {
+      "zh": "执行下一行但不进入函数",
+      "en": "Execute next line without entering function"
+    },
+    "windows": "F10 (in Sources panel)",
+    "mac": "F10 (in Sources panel)",
+    "linux": "F10",
+    "keywords": [
+      "单步",
+      "step over",
+      "调试"
+    ],
+    "pinyin": "dan bu tiao guo danbutiaoguo d b t g dbtg dan bu   tiao shi danbu tiaoshi d b   t s db ts"
+  },
+  {
+    "id": "devtools-step-into",
+    "appId": "devtools",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "单步进入",
+      "en": "Step Into"
+    },
+    "description": {
+      "zh": "进入函数内部逐行执行",
+      "en": "Step into function"
+    },
+    "windows": "F11 (in Sources panel)",
+    "mac": "F11 (in Sources panel)",
+    "linux": "F11",
+    "keywords": [
+      "单步进入",
+      "step into",
+      "调试"
+    ],
+    "pinyin": "dan bu jin ru danbujinru d b j r dbjr dan bu jin ru   tiao shi danbujinru tiaoshi d b j r   t s dbjr ts"
+  },
+  {
+    "id": "devtools-dt-elements",
+    "appId": "devtools",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "Elements 面板",
+      "en": "Elements"
+    },
+    "description": {
+      "zh": "打开 Elements",
+      "en": "Elements panel"
+    },
+    "windows": "Ctrl+Shift+C",
+    "mac": "Cmd+Option+C",
+    "linux": "Ctrl+Shift+C",
+    "keywords": [
+      "elements",
+      "元素"
+    ],
+    "pinyin": "e l e m e n t s   mian ban elements mianban e l e m e n t s   m b elements mb yuan su yuansu y s ys"
+  },
+  {
+    "id": "devtools-dt-console",
+    "appId": "devtools",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "Console 面板",
+      "en": "Console"
+    },
+    "description": {
+      "zh": "打开 Console",
+      "en": "Console panel"
+    },
+    "windows": "Ctrl+Shift+J",
+    "mac": "Cmd+Option+J",
+    "linux": "Ctrl+Shift+J",
+    "keywords": [
+      "console",
+      "控制台"
+    ],
+    "pinyin": "c o n s o l e   mian ban console mianban c o n s o l e   m b console mb kong zhi tai kongzhitai k z t kzt"
+  },
+  {
+    "id": "devtools-dt-sources",
+    "appId": "devtools",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "Sources 面板",
+      "en": "Sources"
+    },
+    "description": {
+      "zh": "打开 Sources",
+      "en": "Sources panel"
+    },
+    "windows": "Ctrl+Shift+P then S",
+    "mac": "Cmd+Shift+P then S",
+    "linux": "Ctrl+Shift+P then S",
+    "keywords": [
+      "sources",
+      "源"
+    ],
+    "pinyin": "s o u r c e s   mian ban sources mianban s o u r c e s   m b sources mb yuan yuan y y"
+  },
+  {
+    "id": "devtools-dt-network",
+    "appId": "devtools",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "Network 面板",
+      "en": "Network"
+    },
+    "description": {
+      "zh": "打开 Network",
+      "en": "Network panel"
+    },
+    "windows": "Ctrl+Shift+P then N",
+    "mac": "Cmd+Shift+P then N",
+    "linux": "Ctrl+Shift+P then N",
+    "keywords": [
+      "network",
+      "网络"
+    ],
+    "pinyin": "n e t w o r k   mian ban network mianban n e t w o r k   m b network mb wang luo wangluo w l wl"
+  },
+  {
+    "id": "devtools-dt-performance",
+    "appId": "devtools",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "Performance 面板",
+      "en": "Performance"
+    },
+    "description": {
+      "zh": "打开 Performance",
+      "en": "Performance panel"
+    },
+    "windows": "Ctrl+Shift+P then P",
+    "mac": "Cmd+Shift+P then P",
+    "linux": "Ctrl+Shift+P then P",
+    "keywords": [
+      "performance",
+      "性能"
+    ],
+    "pinyin": "p e r f o r m a n c e   mian ban performance mianban p e r f o r m a n c e   m b performance mb xing neng xingneng x n xn"
+  },
+  {
+    "id": "devtools-dt-application",
+    "appId": "devtools",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "Application 面板",
+      "en": "Application"
+    },
+    "description": {
+      "zh": "打开 Application",
+      "en": "Application panel"
+    },
+    "windows": "Ctrl+Shift+P then A",
+    "mac": "Cmd+Shift+P then A",
+    "linux": "Ctrl+Shift+P then A",
+    "keywords": [
+      "application",
+      "应用"
+    ],
+    "pinyin": "a p p l i c a t i o n   mian ban application mianban a p p l i c a t i o n   m b application mb ying yong yingyong y y yy"
+  },
+  {
+    "id": "devtools-dt-toggle",
+    "appId": "devtools",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "显示/隐藏",
+      "en": "Toggle DevTools"
+    },
+    "description": {
+      "zh": "打开或关闭",
+      "en": "Toggle devtools"
+    },
+    "windows": "Ctrl+Shift+I",
+    "mac": "Cmd+Option+I",
+    "linux": "Ctrl+Shift+I",
+    "keywords": [
+      "切换",
+      "toggle"
+    ],
+    "pinyin": "xian shi / yin cang xianshi/yincang x s / y c xs/yc qie huan qiehuan q h qh"
+  },
+  {
+    "id": "devtools-dt-dock",
+    "appId": "devtools",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "切换停靠",
+      "en": "Toggle Dock"
+    },
+    "description": {
+      "zh": "切换左右停靠",
+      "en": "Toggle dock"
+    },
+    "windows": "Ctrl+Shift+D",
+    "mac": "Cmd+Shift+D",
+    "linux": "Ctrl+Shift+D",
+    "keywords": [
+      "停靠",
+      "dock"
+    ],
+    "pinyin": "qie huan ting kao qiehuantingkao q h t k qhtk ting kao tingkao t k tk"
+  },
+  {
+    "id": "devtools-dt-inspect",
+    "appId": "devtools",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "检查元素",
+      "en": "Inspect"
+    },
+    "description": {
+      "zh": "检查元素",
+      "en": "Inspect"
+    },
+    "windows": "Ctrl+Shift+C",
+    "mac": "Cmd+Shift+C",
+    "linux": "Ctrl+Shift+C",
+    "keywords": [
+      "检查",
+      "inspect"
+    ],
+    "pinyin": "jian cha yuan su jianchayuansu j c y s jcys jian cha jiancha j c jc"
+  },
+  {
+    "id": "devtools-dt-breakpoint",
+    "appId": "devtools",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "切换断点",
+      "en": "Toggle Breakpoint"
+    },
+    "description": {
+      "zh": "行断点",
+      "en": "Breakpoint"
+    },
+    "windows": "F9",
+    "mac": "F9",
+    "linux": "F9",
+    "keywords": [
+      "断点",
+      "breakpoint"
+    ],
+    "pinyin": "qie huan duan dian qiehuanduandian q h d d qhdd duan dian duandian d d dd"
+  },
+  {
+    "id": "devtools-dt-step",
+    "appId": "devtools",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "单步执行",
+      "en": "Step Over"
+    },
+    "description": {
+      "zh": "单步跳过",
+      "en": "Step over"
+    },
+    "windows": "F10",
+    "mac": "F10",
+    "linux": "F10",
+    "keywords": [
+      "单步",
+      "step"
+    ],
+    "pinyin": "dan bu zhi xing danbuzhixing d b z x dbzx dan bu danbu d b db"
+  },
+  {
+    "id": "devtools-dt-stepin",
+    "appId": "devtools",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "步入",
+      "en": "Step Into"
+    },
+    "description": {
+      "zh": "步入函数",
+      "en": "Step into"
+    },
+    "windows": "F11",
+    "mac": "F11",
+    "linux": "F11",
+    "keywords": [
+      "步入",
+      "step into"
+    ],
+    "pinyin": "bu ru buru b r br bu ru buru b r br"
+  },
+  {
+    "id": "devtools-dt-stepout",
+    "appId": "devtools",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "步出",
+      "en": "Step Out"
+    },
+    "description": {
+      "zh": "步出函数",
+      "en": "Step out"
+    },
+    "windows": "Shift+F11",
+    "mac": "Shift+F11",
+    "linux": "Shift+F11",
+    "keywords": [
+      "步出",
+      "step out"
+    ],
+    "pinyin": "bu chu buchu b c bc bu chu buchu b c bc"
+  },
+  {
+    "id": "devtools-dt-resume",
+    "appId": "devtools",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "继续执行",
+      "en": "Resume"
+    },
+    "description": {
+      "zh": "继续运行",
+      "en": "Resume"
+    },
+    "windows": "F8",
+    "mac": "F8",
+    "linux": "F8",
+    "keywords": [
+      "继续",
+      "resume"
+    ],
+    "pinyin": "ji xu zhi xing jixuzhixing j x z x jxzx ji xu jixu j x jx"
+  },
+  {
+    "id": "devtools-dt-clear",
+    "appId": "devtools",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "清除控制台",
+      "en": "Clear Console"
+    },
+    "description": {
+      "zh": "清空控制台",
+      "en": "Clear console"
+    },
+    "windows": "Ctrl+L",
+    "mac": "Cmd+K",
+    "linux": "Ctrl+L",
+    "keywords": [
+      "清除",
+      "clear"
+    ],
+    "pinyin": "qing chu kong zhi tai qingchukongzhitai q c k z t qckzt qing chu qingchu q c qc"
+  },
+  {
+    "id": "devtools-dt-search",
+    "appId": "devtools",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "搜索文件",
+      "en": "Search"
+    },
+    "description": {
+      "zh": "全局搜索文件",
+      "en": "Search files"
+    },
+    "windows": "Ctrl+P",
+    "mac": "Cmd+P",
+    "linux": "Ctrl+P",
+    "keywords": [
+      "搜索",
+      "search"
+    ],
+    "pinyin": "sou suo wen jian sousuowenjian s s w j sswj sou suo sousuo s s ss"
+  },
+  {
+    "id": "devtools-dt-reload",
+    "appId": "devtools",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "刷新",
+      "en": "Reload"
+    },
+    "description": {
+      "zh": "刷新页面",
+      "en": "Reload"
+    },
+    "windows": "F5",
+    "mac": "Cmd+R",
+    "linux": "F5",
+    "keywords": [
+      "刷新",
+      "reload"
+    ],
+    "pinyin": "shua xin shuaxin s x sx shua xin shuaxin s x sx"
+  },
+  {
+    "id": "devtools-dt-screenshot",
+    "appId": "devtools",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "截图",
+      "en": "Screenshot"
+    },
+    "description": {
+      "zh": "截取节点",
+      "en": "Screenshot node"
+    },
+    "windows": "Ctrl+Shift+P then S",
+    "mac": "Cmd+Shift+P then S",
+    "linux": "Ctrl+Shift+P then S",
+    "keywords": [
+      "截图",
+      "screenshot"
+    ],
+    "pinyin": "jie tu jietu j t jt jie tu jietu j t jt"
+  }
+]

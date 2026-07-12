@@ -4,177 +4,712 @@
     "appId": "audition",
     "type": "software",
     "category": "video",
-    "name": { "zh": "新建音频文件", "en": "New Audio File" },
-    "description": { "zh": "创建一个空的音频文件", "en": "Create a blank audio file" },
+    "name": {
+      "zh": "新建音频文件",
+      "en": "New Audio File"
+    },
+    "description": {
+      "zh": "创建一个空的音频文件",
+      "en": "Create a blank audio file"
+    },
     "windows": "Ctrl+Alt+N",
     "mac": "⌘+Opt+N",
     "linux": "—",
-    "keywords": ["新建", "new", "音频"],
-    "pinyin": "xin jian yin pin wen jian xinjianyinpinwenjian x j y p w j xjypwj"
+    "keywords": [
+      "新建",
+      "new",
+      "音频"
+    ],
+    "pinyin": "xin jian yin pin wen jian xinjianyinpinwenjian x j y p w j xjypwj xin jian   yin pin xinjian yinpin x j   y p xj yp"
   },
   {
     "id": "au-open",
     "appId": "audition",
     "type": "software",
     "category": "video",
-    "name": { "zh": "打开", "en": "Open" },
-    "description": { "zh": "打开音频文件", "en": "Open an audio file" },
+    "name": {
+      "zh": "打开",
+      "en": "Open"
+    },
+    "description": {
+      "zh": "打开音频文件",
+      "en": "Open an audio file"
+    },
     "windows": "Ctrl+O",
     "mac": "⌘+O",
     "linux": "—",
-    "keywords": ["打开", "open"],
-    "pinyin": "da kai dakai d k dk"
+    "keywords": [
+      "打开",
+      "open"
+    ],
+    "pinyin": "da kai dakai d k dk da kai dakai d k dk"
   },
   {
     "id": "au-import",
     "appId": "audition",
     "type": "software",
     "category": "video",
-    "name": { "zh": "导入", "en": "Import" },
-    "description": { "zh": "导入文件到项目", "en": "Import files into the project" },
+    "name": {
+      "zh": "导入",
+      "en": "Import"
+    },
+    "description": {
+      "zh": "导入文件到项目",
+      "en": "Import files into the project"
+    },
     "windows": "Ctrl+I",
     "mac": "⌘+I",
     "linux": "—",
-    "keywords": ["导入", "import", "素材"],
-    "pinyin": "dao ru daoru d r dr"
+    "keywords": [
+      "导入",
+      "import",
+      "素材"
+    ],
+    "pinyin": "dao ru daoru d r dr dao ru   su cai daoru sucai d r   s c dr sc"
   },
   {
     "id": "au-save",
     "appId": "audition",
     "type": "software",
     "category": "video",
-    "name": { "zh": "保存", "en": "Save" },
-    "description": { "zh": "保存当前文件", "en": "Save the current file" },
+    "name": {
+      "zh": "保存",
+      "en": "Save"
+    },
+    "description": {
+      "zh": "保存当前文件",
+      "en": "Save the current file"
+    },
     "windows": "Ctrl+S",
     "mac": "⌘+S",
     "linux": "—",
-    "keywords": ["保存", "save"],
-    "pinyin": "bao cun baocun b c bc"
+    "keywords": [
+      "保存",
+      "save"
+    ],
+    "pinyin": "bao cun baocun b c bc bao cun baocun b c bc"
   },
   {
     "id": "au-export",
     "appId": "audition",
     "type": "software",
     "category": "video",
-    "name": { "zh": "导出", "en": "Export" },
-    "description": { "zh": "导出选中的音频", "en": "Export selected audio" },
+    "name": {
+      "zh": "导出",
+      "en": "Export"
+    },
+    "description": {
+      "zh": "导出选中的音频",
+      "en": "Export selected audio"
+    },
     "windows": "Ctrl+Shift+E",
     "mac": "⌘+Shift+E",
     "linux": "—",
-    "keywords": ["导出", "export", "渲染"],
-    "pinyin": "dao chu daochu d c dc"
+    "keywords": [
+      "导出",
+      "export",
+      "渲染"
+    ],
+    "pinyin": "dao chu daochu d c dc dao chu   xuan ran daochu xuanran d c   x r dc xr"
   },
   {
     "id": "au-playstop",
     "appId": "audition",
     "type": "software",
     "category": "video",
-    "name": { "zh": "播放/停止", "en": "Play / Stop" },
-    "description": { "zh": "播放或停止回放", "en": "Play or stop playback" },
+    "name": {
+      "zh": "播放/停止",
+      "en": "Play / Stop"
+    },
+    "description": {
+      "zh": "播放或停止回放",
+      "en": "Play or stop playback"
+    },
     "windows": "Space",
     "mac": "Space",
     "linux": "—",
-    "keywords": ["播放", "play", "停止"],
-    "pinyin": "bo fang ting zhi bofangtingzhi b f t z bftz"
+    "keywords": [
+      "播放",
+      "play",
+      "停止"
+    ],
+    "pinyin": "bo fang / ting zhi bofang/tingzhi b f / t z bf/tz bo fang   ting zhi bofang tingzhi b f   t z bf tz"
   },
   {
     "id": "au-record",
     "appId": "audition",
     "type": "software",
     "category": "video",
-    "name": { "zh": "录音", "en": "Record" },
-    "description": { "zh": "开始或停止录音", "en": "Start or stop recording" },
+    "name": {
+      "zh": "录音",
+      "en": "Record"
+    },
+    "description": {
+      "zh": "开始或停止录音",
+      "en": "Start or stop recording"
+    },
     "windows": "Shift+Space",
     "mac": "Shift+Space",
     "linux": "—",
-    "keywords": ["录音", "record", "录制"],
-    "pinyin": "lu yin luyin l y ly"
+    "keywords": [
+      "录音",
+      "record",
+      "录制"
+    ],
+    "pinyin": "lu yin luyin l y ly lu yin   lu zhi luyin luzhi l y   l z ly lz"
   },
   {
     "id": "au-zoomin",
     "appId": "audition",
     "type": "software",
     "category": "video",
-    "name": { "zh": "放大", "en": "Zoom In" },
-    "description": { "zh": "放大波形显示", "en": "Zoom in the waveform" },
-    "windows": "Ctrl+=", "mac": "⌘+=", "linux": "—",
-    "keywords": ["放大", "zoom in", "波形"],
-    "pinyin": "fang da fangda f d fd"
+    "name": {
+      "zh": "放大",
+      "en": "Zoom In"
+    },
+    "description": {
+      "zh": "放大波形显示",
+      "en": "Zoom in the waveform"
+    },
+    "windows": "Ctrl+=",
+    "mac": "⌘+=",
+    "linux": "—",
+    "keywords": [
+      "放大",
+      "zoom in",
+      "波形"
+    ],
+    "pinyin": "fang da fangda f d fd fang da   bo xing fangda boxing f d   b x fd bx"
   },
   {
     "id": "au-zoomout",
     "appId": "audition",
     "type": "software",
     "category": "video",
-    "name": { "zh": "缩小", "en": "Zoom Out" },
-    "description": { "zh": "缩小波形显示", "en": "Zoom out the waveform" },
-    "windows": "Ctrl+-", "mac": "⌘+-", "linux": "—",
-    "keywords": ["缩小", "zoom out", "波形"],
-    "pinyin": "suo xiao suoxiao s x sx"
+    "name": {
+      "zh": "缩小",
+      "en": "Zoom Out"
+    },
+    "description": {
+      "zh": "缩小波形显示",
+      "en": "Zoom out the waveform"
+    },
+    "windows": "Ctrl+-",
+    "mac": "⌘+-",
+    "linux": "—",
+    "keywords": [
+      "缩小",
+      "zoom out",
+      "波形"
+    ],
+    "pinyin": "suo xiao suoxiao s x sx suo xiao   bo xing suoxiao boxing s x   b x sx bx"
   },
   {
     "id": "au-tostart",
     "appId": "audition",
     "type": "software",
     "category": "video",
-    "name": { "zh": "跳到开头", "en": "Go to Start" },
-    "description": { "zh": "播放头跳到文件开头", "en": "Move playhead to file start" },
+    "name": {
+      "zh": "跳到开头",
+      "en": "Go to Start"
+    },
+    "description": {
+      "zh": "播放头跳到文件开头",
+      "en": "Move playhead to file start"
+    },
     "windows": "Home",
     "mac": "Home",
     "linux": "—",
-    "keywords": ["开头", "start", "跳转"],
-    "pinyin": "tiao dao kai tou tiaodaokaitou t d k t tdk t"
+    "keywords": [
+      "开头",
+      "start",
+      "跳转"
+    ],
+    "pinyin": "tiao dao kai tou tiaodaokaitou t d k t tdkt kai tou   tiao zhuan kaitou tiaozhuan k t   t z kt tz"
   },
   {
     "id": "au-toend",
     "appId": "audition",
     "type": "software",
     "category": "video",
-    "name": { "zh": "跳到结尾", "en": "Go to End" },
-    "description": { "zh": "播放头跳到文件结尾", "en": "Move playhead to file end" },
+    "name": {
+      "zh": "跳到结尾",
+      "en": "Go to End"
+    },
+    "description": {
+      "zh": "播放头跳到文件结尾",
+      "en": "Move playhead to file end"
+    },
     "windows": "End",
     "mac": "End",
     "linux": "—",
-    "keywords": ["结尾", "end", "跳转"],
-    "pinyin": "tiao dao jie wei tiaodaojiewei t d j w tdjw"
+    "keywords": [
+      "结尾",
+      "end",
+      "跳转"
+    ],
+    "pinyin": "tiao dao jie wei tiaodaojiewei t d j w tdjw jie wei   tiao zhuan jiewei tiaozhuan j w   t z jw tz"
   },
   {
     "id": "au-selectall",
     "appId": "audition",
     "type": "software",
     "category": "video",
-    "name": { "zh": "全选", "en": "Select All" },
-    "description": { "zh": "选择全部音频", "en": "Select all audio" },
+    "name": {
+      "zh": "全选",
+      "en": "Select All"
+    },
+    "description": {
+      "zh": "选择全部音频",
+      "en": "Select all audio"
+    },
     "windows": "Ctrl+A",
     "mac": "⌘+A",
     "linux": "—",
-    "keywords": ["全选", "select all"],
-    "pinyin": "quan xuan quanxuan q x qx"
+    "keywords": [
+      "全选",
+      "select all"
+    ],
+    "pinyin": "quan xuan quanxuan q x qx quan xuan quanxuan q x qx"
   },
   {
     "id": "au-undo",
     "appId": "audition",
     "type": "software",
     "category": "video",
-    "name": { "zh": "撤销", "en": "Undo" },
-    "description": { "zh": "撤销上一步操作", "en": "Undo the last action" },
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销上一步操作",
+      "en": "Undo the last action"
+    },
     "windows": "Ctrl+Z",
     "mac": "⌘+Z",
     "linux": "—",
-    "keywords": ["撤销", "undo"],
-    "pinyin": "che xiao chexiao c x cx"
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
   },
   {
     "id": "au-redo",
     "appId": "audition",
     "type": "software",
     "category": "video",
-    "name": { "zh": "重做", "en": "Redo" },
-    "description": { "zh": "重做被撤销的操作", "en": "Redo the undone action" },
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "重做被撤销的操作",
+      "en": "Redo the undone action"
+    },
     "windows": "Ctrl+Shift+Z",
     "mac": "⌘+Shift+Z",
     "linux": "—",
-    "keywords": ["重做", "redo"],
-    "pinyin": "zhong zuo zhongzuo z z zz"
+    "keywords": [
+      "重做",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "audition-audition-new",
+    "appId": "audition",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "新建",
+      "en": "New"
+    },
+    "description": {
+      "zh": "新建音频文件",
+      "en": "New audio"
+    },
+    "windows": "Ctrl+Alt+N",
+    "mac": "Cmd+Option+N",
+    "linux": "Ctrl+Alt+N",
+    "keywords": [
+      "新建",
+      "new"
+    ],
+    "pinyin": "xin jian xinjian x j xj xin jian xinjian x j xj"
+  },
+  {
+    "id": "audition-audition-open",
+    "appId": "audition",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "打开",
+      "en": "Open"
+    },
+    "description": {
+      "zh": "打开文件",
+      "en": "Open"
+    },
+    "windows": "Ctrl+O",
+    "mac": "Cmd+O",
+    "linux": "Ctrl+O",
+    "keywords": [
+      "打开",
+      "open"
+    ],
+    "pinyin": "da kai dakai d k dk da kai dakai d k dk"
+  },
+  {
+    "id": "audition-audition-save",
+    "appId": "audition",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "保存",
+      "en": "Save"
+    },
+    "description": {
+      "zh": "保存",
+      "en": "Save"
+    },
+    "windows": "Ctrl+S",
+    "mac": "Cmd+S",
+    "linux": "Ctrl+S",
+    "keywords": [
+      "保存",
+      "save"
+    ],
+    "pinyin": "bao cun baocun b c bc bao cun baocun b c bc"
+  },
+  {
+    "id": "audition-audition-play",
+    "appId": "audition",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "播放/停止",
+      "en": "Play/Stop"
+    },
+    "description": {
+      "zh": "播放或停止",
+      "en": "Play/stop"
+    },
+    "windows": "Space",
+    "mac": "Space",
+    "linux": "Space",
+    "keywords": [
+      "播放",
+      "play"
+    ],
+    "pinyin": "bo fang / ting zhi bofang/tingzhi b f / t z bf/tz bo fang bofang b f bf"
+  },
+  {
+    "id": "audition-audition-record",
+    "appId": "audition",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "录音",
+      "en": "Record"
+    },
+    "description": {
+      "zh": "开始录音",
+      "en": "Record"
+    },
+    "windows": "Shift+Space",
+    "mac": "Shift+Space",
+    "linux": "Shift+Space",
+    "keywords": [
+      "录音",
+      "record"
+    ],
+    "pinyin": "lu yin luyin l y ly lu yin luyin l y ly"
+  },
+  {
+    "id": "audition-audition-zoomin",
+    "appId": "audition",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "放大",
+      "en": "Zoom In"
+    },
+    "description": {
+      "zh": "放大",
+      "en": "Zoom in"
+    },
+    "windows": "Ctrl+=",
+    "mac": "Cmd+=",
+    "linux": "Ctrl+=",
+    "keywords": [
+      "放大",
+      "zoom in"
+    ],
+    "pinyin": "fang da fangda f d fd fang da fangda f d fd"
+  },
+  {
+    "id": "audition-audition-zoomout",
+    "appId": "audition",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "缩小",
+      "en": "Zoom Out"
+    },
+    "description": {
+      "zh": "缩小",
+      "en": "Zoom out"
+    },
+    "windows": "Ctrl+-",
+    "mac": "Cmd+-",
+    "linux": "Ctrl+-",
+    "keywords": [
+      "缩小",
+      "zoom out"
+    ],
+    "pinyin": "suo xiao suoxiao s x sx suo xiao suoxiao s x sx"
+  },
+  {
+    "id": "audition-audition-fit",
+    "appId": "audition",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "适应窗口",
+      "en": "Zoom to Fit"
+    },
+    "description": {
+      "zh": "适配",
+      "en": "Zoom to fit"
+    },
+    "windows": "Ctrl+\\",
+    "mac": "Cmd+\\",
+    "linux": "Ctrl+\\",
+    "keywords": [
+      "适应",
+      "fit"
+    ],
+    "pinyin": "shi ying chuang kou shiyingchuangkou s y c k syck shi ying shiying s y sy"
+  },
+  {
+    "id": "audition-audition-start",
+    "appId": "audition",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "跳到开头",
+      "en": "Go to Start"
+    },
+    "description": {
+      "zh": "跳开头",
+      "en": "Go to start"
+    },
+    "windows": "Home",
+    "mac": "Home",
+    "linux": "Home",
+    "keywords": [
+      "开头",
+      "start"
+    ],
+    "pinyin": "tiao dao kai tou tiaodaokaitou t d k t tdkt kai tou kaitou k t kt"
+  },
+  {
+    "id": "audition-audition-end",
+    "appId": "audition",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "跳到结尾",
+      "en": "Go to End"
+    },
+    "description": {
+      "zh": "跳结尾",
+      "en": "Go to end"
+    },
+    "windows": "End",
+    "mac": "End",
+    "linux": "End",
+    "keywords": [
+      "结尾",
+      "end"
+    ],
+    "pinyin": "tiao dao jie wei tiaodaojiewei t d j w tdjw jie wei jiewei j w jw"
+  },
+  {
+    "id": "audition-audition-selectall",
+    "appId": "audition",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "全选",
+      "en": "Select All"
+    },
+    "description": {
+      "zh": "全选",
+      "en": "Select all"
+    },
+    "windows": "Ctrl+A",
+    "mac": "Cmd+A",
+    "linux": "Ctrl+A",
+    "keywords": [
+      "全选",
+      "select all"
+    ],
+    "pinyin": "quan xuan quanxuan q x qx quan xuan quanxuan q x qx"
+  },
+  {
+    "id": "audition-audition-copy",
+    "appId": "audition",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "复制",
+      "en": "Copy"
+    },
+    "description": {
+      "zh": "复制",
+      "en": "Copy"
+    },
+    "windows": "Ctrl+C",
+    "mac": "Cmd+C",
+    "linux": "Ctrl+C",
+    "keywords": [
+      "复制",
+      "copy"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "audition-audition-paste",
+    "appId": "audition",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "粘贴",
+      "en": "Paste"
+    },
+    "description": {
+      "zh": "粘贴",
+      "en": "Paste"
+    },
+    "windows": "Ctrl+V",
+    "mac": "Cmd+V",
+    "linux": "Ctrl+V",
+    "keywords": [
+      "粘贴",
+      "paste"
+    ],
+    "pinyin": "nian tie niantie n t nt nian tie niantie n t nt"
+  },
+  {
+    "id": "audition-audition-undo",
+    "appId": "audition",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "windows": "Ctrl+Z",
+    "mac": "Cmd+Z",
+    "linux": "Ctrl+Z",
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "audition-audition-redo",
+    "appId": "audition",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "windows": "Ctrl+Shift+Z",
+    "mac": "Cmd+Shift+Z",
+    "linux": "Ctrl+Shift+Z",
+    "keywords": [
+      "重做",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "audition-audition-fadein",
+    "appId": "audition",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "淡入",
+      "en": "Fade In"
+    },
+    "description": {
+      "zh": "淡入",
+      "en": "Fade in"
+    },
+    "windows": "Ctrl+Shift+F",
+    "mac": "Cmd+Shift+F",
+    "linux": "Ctrl+Shift+F",
+    "keywords": [
+      "淡入",
+      "fade in"
+    ],
+    "pinyin": "dan ru danru d r dr dan ru danru d r dr"
+  },
+  {
+    "id": "audition-audition-fadeout",
+    "appId": "audition",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "淡出",
+      "en": "Fade Out"
+    },
+    "description": {
+      "zh": "淡出",
+      "en": "Fade out"
+    },
+    "windows": "Ctrl+Alt+F",
+    "mac": "Cmd+Option+F",
+    "linux": "Ctrl+Alt+F",
+    "keywords": [
+      "淡出",
+      "fade out"
+    ],
+    "pinyin": "dan chu danchu d c dc dan chu danchu d c dc"
+  },
+  {
+    "id": "audition-audition-mute",
+    "appId": "audition",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "静音",
+      "en": "Mute"
+    },
+    "description": {
+      "zh": "静音轨道",
+      "en": "Mute"
+    },
+    "windows": "M",
+    "mac": "M",
+    "linux": "M",
+    "keywords": [
+      "静音",
+      "mute"
+    ],
+    "pinyin": "jing yin jingyin j y jy jing yin jingyin j y jy"
   }
 ]

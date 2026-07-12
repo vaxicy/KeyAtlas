@@ -311,5 +311,445 @@
       "split"
     ],
     "pinyin": "chai fen bian ji qi chaifenbianjiqi c f b j q cfbjq chai fen chaifen c f cf"
+  },
+  {
+    "id": "vscode-vscode-command",
+    "appId": "vscode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "命令面板",
+      "en": "Command Palette"
+    },
+    "description": {
+      "zh": "打开命令面板",
+      "en": "Command palette"
+    },
+    "windows": "Ctrl+Shift+P",
+    "mac": "Cmd+Shift+P",
+    "linux": "Ctrl+Shift+P",
+    "keywords": [
+      "命令面板",
+      "command"
+    ],
+    "pinyin": "ming ling mian ban minglingmianban m l m b mlmb ming ling mian ban minglingmianban m l m b mlmb"
+  },
+  {
+    "id": "vscode-vscode-explorer",
+    "appId": "vscode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "资源管理器",
+      "en": "Explorer"
+    },
+    "description": {
+      "zh": "打开资源管理器",
+      "en": "Explorer"
+    },
+    "windows": "Ctrl+Shift+E",
+    "mac": "Cmd+Shift+E",
+    "linux": "Ctrl+Shift+E",
+    "keywords": [
+      "资源管理器",
+      "explorer"
+    ],
+    "pinyin": "zi yuan guan li qi ziyuanguanliqi z y g l q zyglq zi yuan guan li qi ziyuanguanliqi z y g l q zyglq"
+  },
+  {
+    "id": "vscode-vscode-search",
+    "appId": "vscode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "搜索",
+      "en": "Search"
+    },
+    "description": {
+      "zh": "全局搜索",
+      "en": "Search"
+    },
+    "windows": "Ctrl+Shift+F",
+    "mac": "Cmd+Shift+F",
+    "linux": "Ctrl+Shift+F",
+    "keywords": [
+      "搜索",
+      "search"
+    ],
+    "pinyin": "sou suo sousuo s s ss sou suo sousuo s s ss"
+  },
+  {
+    "id": "vscode-vscode-git",
+    "appId": "vscode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "源代码管理",
+      "en": "Source Control"
+    },
+    "description": {
+      "zh": "Git 面板",
+      "en": "Source control"
+    },
+    "windows": "Ctrl+Shift+G",
+    "mac": "Cmd+Shift+G",
+    "linux": "Ctrl+Shift+G",
+    "keywords": [
+      "源代码",
+      "git"
+    ],
+    "pinyin": "yuan dai ma guan li yuandaimaguanli y d m g l ydmgl yuan dai ma yuandaima y d m ydm"
+  },
+  {
+    "id": "vscode-vscode-run",
+    "appId": "vscode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "运行调试",
+      "en": "Run & Debug"
+    },
+    "description": {
+      "zh": "运行面板",
+      "en": "Run & debug"
+    },
+    "windows": "Ctrl+Shift+D",
+    "mac": "Cmd+Shift+D",
+    "linux": "Ctrl+Shift+D",
+    "keywords": [
+      "运行",
+      "debug"
+    ],
+    "pinyin": "yun xing tiao shi yunxingtiaoshi y x t s yxts yun xing yunxing y x yx"
+  },
+  {
+    "id": "vscode-vscode-ext",
+    "appId": "vscode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "扩展",
+      "en": "Extensions"
+    },
+    "description": {
+      "zh": "扩展市场",
+      "en": "Extensions"
+    },
+    "windows": "Ctrl+Shift+X",
+    "mac": "Cmd+Shift+X",
+    "linux": "Ctrl+Shift+X",
+    "keywords": [
+      "扩展",
+      "extensions"
+    ],
+    "pinyin": "kuo zhan kuozhan k z kz kuo zhan kuozhan k z kz"
+  },
+  {
+    "id": "vscode-vscode-terminal",
+    "appId": "vscode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "终端",
+      "en": "Terminal"
+    },
+    "description": {
+      "zh": "集成终端",
+      "en": "Terminal"
+    },
+    "windows": "Ctrl+`",
+    "mac": "Cmd+`",
+    "linux": "Ctrl+`",
+    "keywords": [
+      "终端",
+      "terminal"
+    ],
+    "pinyin": "zhong duan zhongduan z d zd zhong duan zhongduan z d zd"
+  },
+  {
+    "id": "vscode-vscode-format",
+    "appId": "vscode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "格式化",
+      "en": "Format"
+    },
+    "description": {
+      "zh": "格式化文档",
+      "en": "Format"
+    },
+    "windows": "Ctrl+Shift+I",
+    "mac": "Cmd+Shift+I",
+    "linux": "Ctrl+Shift+I",
+    "keywords": [
+      "格式化",
+      "format"
+    ],
+    "pinyin": "ge shi hua geshihua g s h gsh ge shi hua geshihua g s h gsh"
+  },
+  {
+    "id": "vscode-vscode-comment",
+    "appId": "vscode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "注释",
+      "en": "Toggle Comment"
+    },
+    "description": {
+      "zh": "切换注释",
+      "en": "Toggle comment"
+    },
+    "windows": "Ctrl+/",
+    "mac": "Cmd+/",
+    "linux": "Ctrl+/",
+    "keywords": [
+      "注释",
+      "comment"
+    ],
+    "pinyin": "zhu shi zhushi z s zs zhu shi zhushi z s zs"
+  },
+  {
+    "id": "vscode-vscode-find",
+    "appId": "vscode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "查找",
+      "en": "Find"
+    },
+    "description": {
+      "zh": "查找",
+      "en": "Find"
+    },
+    "windows": "Ctrl+F",
+    "mac": "Cmd+F",
+    "linux": "Ctrl+F",
+    "keywords": [
+      "查找",
+      "find"
+    ],
+    "pinyin": "cha zhao chazhao c z cz cha zhao chazhao c z cz"
+  },
+  {
+    "id": "vscode-vscode-replace",
+    "appId": "vscode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "替换",
+      "en": "Replace"
+    },
+    "description": {
+      "zh": "替换",
+      "en": "Replace"
+    },
+    "windows": "Ctrl+H",
+    "mac": "Cmd+H",
+    "linux": "Ctrl+H",
+    "keywords": [
+      "替换",
+      "replace"
+    ],
+    "pinyin": "ti huan tihuan t h th ti huan tihuan t h th"
+  },
+  {
+    "id": "vscode-vscode-quickopen",
+    "appId": "vscode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "快速打开",
+      "en": "Quick Open"
+    },
+    "description": {
+      "zh": "快速打开文件",
+      "en": "Quick open"
+    },
+    "windows": "Ctrl+P",
+    "mac": "Cmd+P",
+    "linux": "Ctrl+P",
+    "keywords": [
+      "快速打开",
+      "quick open"
+    ],
+    "pinyin": "kuai su da kai kuaisudakai k s d k ksdk kuai su da kai kuaisudakai k s d k ksdk"
+  },
+  {
+    "id": "vscode-vscode-multicursor",
+    "appId": "vscode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "多光标",
+      "en": "Multi-Cursor"
+    },
+    "description": {
+      "zh": "多光标",
+      "en": "Multi-cursor"
+    },
+    "windows": "Ctrl+Alt+Down",
+    "mac": "Cmd+Option+Down",
+    "linux": "Ctrl+Alt+Down",
+    "keywords": [
+      "多光标",
+      "multicursor"
+    ],
+    "pinyin": "duo guang biao duoguangbiao d g b dgb duo guang biao duoguangbiao d g b dgb"
+  },
+  {
+    "id": "vscode-vscode-split",
+    "appId": "vscode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "拆分编辑器",
+      "en": "Split Editor"
+    },
+    "description": {
+      "zh": "拆分窗口",
+      "en": "Split editor"
+    },
+    "windows": "Ctrl+\\",
+    "mac": "Cmd+\\",
+    "linux": "Ctrl+\\",
+    "keywords": [
+      "拆分",
+      "split"
+    ],
+    "pinyin": "chai fen bian ji qi chaifenbianjiqi c f b j q cfbjq chai fen chaifen c f cf"
+  },
+  {
+    "id": "vscode-vscode-save",
+    "appId": "vscode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "保存",
+      "en": "Save"
+    },
+    "description": {
+      "zh": "保存",
+      "en": "Save"
+    },
+    "windows": "Ctrl+S",
+    "mac": "Cmd+S",
+    "linux": "Ctrl+S",
+    "keywords": [
+      "保存",
+      "save"
+    ],
+    "pinyin": "bao cun baocun b c bc bao cun baocun b c bc"
+  },
+  {
+    "id": "vscode-vscode-saveall",
+    "appId": "vscode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "全部保存",
+      "en": "Save All"
+    },
+    "description": {
+      "zh": "保存所有",
+      "en": "Save all"
+    },
+    "windows": "Ctrl+K,S",
+    "mac": "Cmd+Option+S",
+    "linux": "Ctrl+K,S",
+    "keywords": [
+      "全部保存",
+      "save all"
+    ],
+    "pinyin": "quan bu bao cun quanbubaocun q b b c qbbc quan bu bao cun quanbubaocun q b b c qbbc"
+  },
+  {
+    "id": "vscode-vscode-zen",
+    "appId": "vscode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "禅模式",
+      "en": "Zen Mode"
+    },
+    "description": {
+      "zh": "禅模式",
+      "en": "Zen mode"
+    },
+    "windows": "Ctrl+K,Z",
+    "mac": "Cmd+K,Z",
+    "linux": "Ctrl+K,Z",
+    "keywords": [
+      "禅模式",
+      "zen"
+    ],
+    "pinyin": "chan mo shi chanmoshi c m s cms chan mo shi chanmoshi c m s cms"
+  },
+  {
+    "id": "vscode-vscode-commandpalette",
+    "appId": "vscode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "问题面板",
+      "en": "Problems"
+    },
+    "description": {
+      "zh": "打开问题面板",
+      "en": "Problems"
+    },
+    "windows": "Ctrl+Shift+M",
+    "mac": "Cmd+Shift+M",
+    "linux": "Ctrl+Shift+M",
+    "keywords": [
+      "问题",
+      "problems"
+    ],
+    "pinyin": "wen ti mian ban wentimianban w t m b wtmb wen ti wenti w t wt"
+  },
+  {
+    "id": "vscode-vscode-outline",
+    "appId": "vscode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "大纲",
+      "en": "Outline"
+    },
+    "description": {
+      "zh": "打开大纲",
+      "en": "Outline"
+    },
+    "windows": "Ctrl+Shift+O",
+    "mac": "Cmd+Shift+O",
+    "linux": "Ctrl+Shift+O",
+    "keywords": [
+      "大纲",
+      "outline"
+    ],
+    "pinyin": "da gang dagang d g dg da gang dagang d g dg"
+  },
+  {
+    "id": "vscode-vscode-settings",
+    "appId": "vscode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "设置",
+      "en": "Settings"
+    },
+    "description": {
+      "zh": "设置",
+      "en": "Settings"
+    },
+    "windows": "Ctrl+,",
+    "mac": "Cmd+,",
+    "linux": "Ctrl+,",
+    "keywords": [
+      "设置",
+      "settings"
+    ],
+    "pinyin": "she zhi shezhi s z sz she zhi shezhi s z sz"
   }
 ]

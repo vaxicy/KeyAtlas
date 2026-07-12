@@ -4,5 +4,8 @@
   },
   "appDesc": {
     "message": "Quickly find keyboard shortcuts for your OS and favorite apps. Covers Windows, macOS and Linux. Fast, offline, bilingual (EN/中文)."
+  },
+  "extOpen": {
+    "message": "Open KeyAtlas"
   }
 }

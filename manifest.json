@@ -1,8 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "KeyAtlas – Shortcut Search Engine",
+  "name": "__MSG_appName__",
   "version": "1.0.0",
-  "description": "Instantly find keyboard shortcuts for your OS and favorite apps. Bilingual (EN/中文), fast, offline.",
+  "default_locale": "en",
+  "description": "__MSG_appDesc__",
   "icons": {
     "16": "icons/icon-16.png",
     "48": "icons/icon-48.png",

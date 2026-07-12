@@ -23,7 +23,7 @@ const I18N = {
     noResults: "No shortcuts found",
     noResultsQuery: 'No shortcuts for "{q}"',
     noResultsHint: "Try another keyword or app name.",
-    kbdHint: "↑↓ to navigate · Enter to copy · Esc to clear",
+    kbdHint: "↑↓ to navigate · Enter to view · Esc to clear",
     startTyping: "Type to search shortcuts",
     startTypingHint: "e.g. copy, screenshot, VS Code",
     emptyFavorites: "No favorites yet",
@@ -31,6 +31,7 @@ const I18N = {
     emptyFavoritesAction: "Browse shortcuts",
     emptyRecent: "No recent shortcuts",
     emptyRecentHint: "Shortcuts you view will appear here.",
+    emptyRecentAction: "Browse shortcuts",
     clear: "Clear",
     back: "Back",
     copied: "Copied!",
@@ -53,7 +54,9 @@ const I18N = {
     trySearch: "Try searching",
     grpSystem: "System",
     grpSoftware: "Software",
-    grpScenes: "Scenes"
+    grpScenes: "Scenes",
+    copyKey: "Copy",
+    shortcutLabel: "Shortcut"
   },
   zh: {
     appName: "KeyAtlas",
@@ -74,7 +77,7 @@ const I18N = {
     noResults: "未找到快捷键",
     noResultsQuery: '未找到 "{q}" 的快捷键',
     noResultsHint: "换个关键词或软件名试试。",
-    kbdHint: "↑↓ 选择 · Enter 复制 · Esc 清空",
+    kbdHint: "↑↓ 选择 · Enter 查看 · Esc 清空",
     startTyping: "输入以搜索快捷键",
     startTypingHint: "例如：复制、截图、VS Code",
     emptyFavorites: "还没有收藏",
@@ -82,6 +85,7 @@ const I18N = {
     emptyFavoritesAction: "去浏览快捷键",
     emptyRecent: "还没有最近记录",
     emptyRecentHint: "查看过的快捷键会显示在这里。",
+    emptyRecentAction: "去浏览快捷键",
     clear: "清空",
     back: "返回",
     copied: "已复制！",
@@ -104,7 +108,9 @@ const I18N = {
     trySearch: "试试搜索",
     grpSystem: "系统",
     grpSoftware: "软件",
-    grpScenes: "场景"
+    grpScenes: "场景",
+    copyKey: "复制",
+    shortcutLabel: "快捷键"
   }
 };
 

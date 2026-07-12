@@ -13,6 +13,7 @@
     os: "windows",
     catView: null, // categories home group: 'system' | 'software' | 'scenes' | null
     catDrill: null, // drilled target: 'os:windows' | 'app:chrome' | 'cat:design' | null
+    detail: null, // shortcut id currently shown in detail view, or null
     activeIdx: -1, // keyboard-nav highlighted card index
     favSet: new Set()
   };
@@ -99,7 +100,7 @@
   // Escape text, then wrap case-insensitive matches of `q` in <mark>.
   function highlight(text, q) {
     const safe = escapeHTML(text);
-    const term = (q || "").trim();
+    const term = String(q || "").trim();
     if (!term) return safe;
     const re = new RegExp("(" + term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + ")", "ig");
     return safe.replace(re, "<mark>$1</mark>");
@@ -159,6 +160,7 @@
   /* ---------- Renderers per tab ---------- */
   function render() {
     clearActiveCard();
+    if (state.detail) return renderDetail(state.detail);
     if (state.tab === "search") return renderSearch();
     if (state.tab === "categories") return renderCategories();
     if (state.tab === "favorites") return renderFavorites();
@@ -370,13 +372,62 @@
     const ids = await store.getRecent();
     const items = DataStore.getShortcutsByIds(ids);
     if (!items.length) {
-      el.content.innerHTML = emptyHTML("🕘", t.emptyRecent, t.emptyRecentHint);
+      el.content.innerHTML = `
+        <div class="empty">
+          <span class="empty-emoji">🕘</span>
+          <div class="empty-title">${t.emptyRecent}</div>
+          <div class="empty-hint">${t.emptyRecentHint}</div>
+          <button class="empty-action" data-browse="categories">${t.emptyRecentAction}</button>
+        </div>`;
       return;
     }
     el.content.innerHTML =
       `<div class="section-title">${i18n.format(t.resultsCount, { n: items.length })}
         <button class="link-btn" id="clearRecent">${t.clear}</button></div>` +
       items.map(cardHTML).join("");
+  }
+
+  /* ---------- Detail view (click / Enter on a card) ---------- */
+  function renderDetail(id) {
+    const t = i18n.t;
+    const s = DataStore.getShortcut(id);
+    if (!s) { state.detail = null; return render(); }
+    const app = DataStore.getApp(s.appId);
+    const appName = app ? escapeHTML(i18n.pick(app.name)) : "";
+    const fav = state.favSet.has(s.id);
+    const platforms = ["windows", "mac", "linux"];
+    const rows = platforms.map((p) => {
+      const raw = s[p] || "—";
+      const isCurrent = p === state.os;
+      const disabled = raw === "—";
+      return `
+        <div class="detail-row ${isCurrent ? "current" : ""}">
+          <span class="detail-os">${OS_META[p].icon} ${t[OS_META[p].key]}${isCurrent ? " ·" : ""}</span>
+          <span class="detail-keys">${disabled ? "—" : renderKeys(raw)}</span>
+          <button class="detail-copy ${disabled ? "disabled" : ""}" data-copy="${p}" ${disabled ? "disabled" : ""}>
+            ${t.copyKey}
+          </button>
+        </div>`;
+    }).join("");
+    el.content.innerHTML = `
+      ${subheadHTML(i18n.pick(s.name))}
+      <div class="detail-body">
+        <div class="detail-head">
+          <span class="detail-app">${appName}</span>
+          <button class="star-btn ${fav ? "active" : ""}" data-star="${s.id}"
+            title="${fav ? t.removeFav : t.addFav}" aria-label="${fav ? t.removeFav : t.addFav}">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="${fav ? "currentColor" : "none"}"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+            </svg>
+          </button>
+        </div>
+        <p class="detail-desc">${escapeHTML(i18n.pick(s.description))}</p>
+        <div class="detail-keys-wrap">
+          <div class="detail-section-label">${t.shortcutLabel}</div>
+          ${rows}
+        </div>
+      </div>`;
   }
 
   /* ---------- Events ---------- */
@@ -449,9 +500,18 @@
 
     const back = e.target.closest("[data-back]");
     if (back) {
+      if (state.detail) { closeDetail(); return; }
       if (state.catDrill) state.catDrill = null;
       else       if (state.catView) state.catView = null;
       render();
+      return;
+    }
+
+    // Detail view: copy a specific platform's key
+    const copyBtn = e.target.closest("[data-copy]");
+    if (copyBtn && state.detail) {
+      const s = DataStore.getShortcut(state.detail);
+      if (s) copyOS(s, copyBtn.dataset.copy);
       return;
     }
 
@@ -492,7 +552,7 @@
 
     const card = e.target.closest(".card");
     if (card) {
-      copyCard(card);
+      showDetail(card.dataset.id);
     }
   }
 
@@ -509,21 +569,40 @@
     }
   }
 
-  function copyCard(card) {
-    const id = card.dataset.id;
-    store.pushRecent(id).then(() => {
-      const s = DataStore.getShortcut(id);
-      if (s) {
-        copyToClipboard(keyForOS(s));
-        toast(i18n.t.copied);
-      }
-    });
+  function copyOS(s, platform) {
+    const raw = s[platform] || "—";
+    if (raw === "—") return;
+    copyToClipboard(raw);
+    toast(i18n.t.copied);
+  }
+
+  function showDetail(id) {
+    state.detail = id;
+    store.pushRecent(id);
+    render();
+  }
+
+  function closeDetail() {
+    state.detail = null;
+    render();
   }
 
   function onKeydown(e) {
     // Settings overlay open: only Esc closes it
     if (!el.settingsPanel.hidden) {
       if (e.key === "Escape") closeSettings();
+      return;
+    }
+    // Detail view: Enter copies current-OS key, Esc returns to list
+    if (state.detail) {
+      if (e.key === "Enter") {
+        e.preventDefault();
+        const s = DataStore.getShortcut(state.detail);
+        if (s) copyOS(s, state.os);
+      } else if (e.key === "Escape") {
+        e.preventDefault();
+        closeDetail();
+      }
       return;
     }
     const cards = getCards();
@@ -537,7 +616,7 @@
     } else if (e.key === "Enter") {
       if (state.activeIdx >= 0 && cards[state.activeIdx]) {
         e.preventDefault();
-        copyCard(cards[state.activeIdx]);
+        showDetail(cards[state.activeIdx].dataset.id);
       }
     } else if (e.key === "Escape") {
       if (state.query) {

@@ -6,7 +6,8 @@
 const KEYS = {
   favorites: "keyatlas_favorites",
   recent: "keyatlas_recent",
-  theme: "keyatlas_theme"
+  theme: "keyatlas_theme",
+  incognito: "keyatlas_incognito"
 };
 
 const RECENT_LIMIT = 50;
@@ -70,11 +71,22 @@ const store = {
   async clearRecent() {
     await set(KEYS.recent, []);
   },
+  async removeRecent(id) {
+    let recent = await this.getRecent();
+    recent = recent.filter((x) => x !== id);
+    await set(KEYS.recent, recent);
+  },
   async getTheme() {
     return (await get(KEYS.theme)) || "light";
   },
   async setTheme(theme) {
     await set(KEYS.theme, theme);
+  },
+  async getIncognito() {
+    return Boolean(await get(KEYS.incognito));
+  },
+  async setIncognito(val) {
+    await set(KEYS.incognito, Boolean(val));
   }
 };
 

@@ -706,3 +706,93 @@ html, body {
   z-index: 60;
 }
 .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+/* ---- Favorites grouping ---- */
+.fav-group { margin-bottom: 4px; }
+.fav-group-title {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--sub);
+  text-transform: uppercase;
+  letter-spacing: .4px;
+  margin: 12px 2px 6px;
+}
+.fav-group-count {
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--primary);
+  background: var(--primary-soft);
+  border-radius: 10px;
+  padding: 1px 7px;
+}
+
+/* ---- Search suggestions (empty state) ---- */
+.suggest { margin-top: 16px; }
+.suggest-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--sub);
+  margin: 0 2px 8px;
+}
+
+/* ---- Recent card delete button ---- */
+.del-btn {
+  border: none;
+  background: transparent;
+  color: var(--sub);
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  padding: 4px;
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+  transition: color .15s, background .15s, transform .12s;
+}
+.del-btn:hover { color: #e5484d; background: rgba(229, 72, 77, 0.1); transform: scale(1.12); }
+
+/* ---- Focus ring for new controls ---- */
+.del-btn:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
+/* ---- Alphabet index (software list) ---- */
+.alpha-index {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  background: var(--bg);
+  padding: 4px 0 6px;
+  margin-bottom: 2px;
+}
+.alpha-link {
+  border: none;
+  background: var(--surface);
+  color: var(--primary);
+  font-size: 11px;
+  font-weight: 700;
+  min-width: 22px;
+  height: 22px;
+  padding: 0 4px;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  transition: background .15s, color .15s;
+}
+.alpha-link:hover { background: var(--primary); color: #fff; }
+.alpha-group { margin-bottom: 2px; }
+.alpha-letter {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--sub);
+  margin: 10px 2px 6px;
+}

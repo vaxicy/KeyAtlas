@@ -59,7 +59,12 @@ const I18N = {
     copyKey: "Copy",
     shortcutLabel: "Shortcut",
     export: "Export",
-    exportCopied: "Exported to clipboard!"
+    exportCopied: "Exported to clipboard!",
+    suggestTitle: "Try a suggestion:",
+    removeRecentOne: "Remove from recent",
+    favExportTitle: "Favorited shortcuts",
+    incognitoLabel: "Incognito Mode",
+    incognitoHint: "Stop saving recently viewed shortcuts"
   },
   zh: {
     appName: "KeyAtlas",
@@ -116,7 +121,12 @@ const I18N = {
     copyKey: "复制",
     shortcutLabel: "快捷键",
     export: "导出",
-    exportCopied: "已复制到剪贴板！"
+    exportCopied: "已复制到剪贴板！",
+    suggestTitle: "试试这些：",
+    removeRecentOne: "从最近记录移除",
+    favExportTitle: "收藏的快捷键",
+    incognitoLabel: "无痕模式",
+    incognitoHint: "开启后不记录最近浏览的快捷键"
   }
 };
 

@@ -16,7 +16,8 @@
     detail: null, // shortcut id currently shown in detail view, or null
     activeIdx: -1, // keyboard-nav highlighted card index
     filterOS: "all", // OS filter for search results: 'all' | 'windows' | 'mac' | 'linux'
-    favSet: new Set()
+    favSet: new Set(),
+    incognito: false // when true, do not record recently viewed shortcuts
   };
 
   const OS_META = {
@@ -40,6 +41,7 @@
     closeSettings: document.getElementById("closeSettings"),
     setLang: document.getElementById("setLang"),
     setTheme: document.getElementById("setTheme"),
+    incognitoToggle: document.getElementById("incognitoToggle"),
     aboutVersion: document.getElementById("aboutVersion"),
     toast: document.getElementById("toast")
   };
@@ -132,7 +134,8 @@
     return `<span class="card-os">${only.icon} ${t[only.key]}</span>`;
   }
 
-  function cardHTML(s, q) {
+  function cardHTML(s, q, opts) {
+    opts = opts || {};
     const app = DataStore.getApp(s.appId);
     const appName = app ? escapeHTML(i18n.pick(app.name)) : "";
     const isSystem = app && app.type === "system";
@@ -141,6 +144,9 @@
     // System shortcuts already carry the OS in their app label, so we skip the
     // redundant OS tag there; software shortcuts show which OS the key is for.
     const osTag = isSystem ? "" : platformTagsHTML(s);
+    const delBtn = opts.del
+      ? `<button class="del-btn" data-del="${s.id}" title="${t.removeRecentOne}" aria-label="${t.removeRecentOne}">🗑️</button>`
+      : "";
     return `
       <div class="card" data-id="${s.id}">
         <div class="card-main">
@@ -154,6 +160,7 @@
           </div>
         </div>
         <div class="card-keys">${renderKeys(keyForOS(s))}</div>
+        ${delBtn}
         <button class="star-btn ${fav ? "active" : ""}" data-star="${s.id}"
           title="${fav ? t.removeFav : t.addFav}" aria-label="${fav ? t.removeFav : t.addFav}">
           <svg viewBox="0 0 24 24" width="18" height="18" fill="${fav ? "currentColor" : "none"}"
@@ -225,9 +232,13 @@
       });
     }
     if (!results.length) {
+      const chips = exampleChips()
+        .map((e) => `<button class="pill pill-ghost" data-example="${escapeHTML(e.term)}">${escapeHTML(e.label)}</button>`)
+        .join("");
       el.content.innerHTML =
         osFilterBarHTML() +
-        emptyHTML("🤔", i18n.format(t.noResultsQuery, { q }), t.noResultsHint);
+        emptyHTML("🤔", i18n.format(t.noResultsQuery, { q }), t.noResultsHint) +
+        `<div class="suggest"><div class="suggest-title">${t.suggestTitle}</div><div class="pills">${chips}</div></div>`;
       return;
     }
     el.content.innerHTML = osFilterBarHTML() + listHTML(results, q);
@@ -356,13 +367,33 @@
     }
     if (state.catView === "software") {
       const apps = DataStore.apps.filter((a) => a.type === "software");
-      const chips = apps
-        .map(
-          (a) =>
-            `<button class="chip" data-drill="app:${a.id}">${a.icon || ""} ${escapeHTML(i18n.pick(a.name))}</button>`
-        )
-        .join("");
-      el.content.innerHTML = subheadHTML(t.grpSoftware) + `<div class="chips">${chips}</div>`;
+      // Group apps by first letter for quick scanning
+      const groups = new Map();
+      for (const a of apps) {
+        const name = i18n.pick(a.name);
+        const letter = (name[0] || "#").toUpperCase();
+        if (!groups.has(letter)) groups.set(letter, []);
+        groups.get(letter).push(a);
+      }
+      const letters = Array.from(groups.keys()).sort((a, b) => a.localeCompare(b));
+      const indexBar = `<div class="alpha-index">${letters
+        .map((l) => `<button class="alpha-link" data-alpha="${l}" title="${l}">${l}</button>`)
+        .join("")}</div>`;
+      let body = "";
+      for (const l of letters) {
+        const chips = groups
+          .get(l)
+          .map(
+            (a) =>
+              `<button class="chip" data-drill="app:${a.id}">${a.icon || ""} ${escapeHTML(i18n.pick(a.name))}</button>`
+          )
+          .join("");
+        body += `<div class="alpha-group" data-alpha-group="${l}">
+          <div class="alpha-letter">${l}</div>
+          <div class="chips">${chips}</div>
+        </div>`;
+      }
+      el.content.innerHTML = subheadHTML(t.grpSoftware) + indexBar + body;
       return;
     }
     if (state.catView === "scenes") {
@@ -421,7 +452,25 @@
         </div>`;
       return;
     }
-    el.content.innerHTML = listHTML(items);
+    // Group by app for easier scanning
+    const groups = new Map();
+    for (const s of items) {
+      if (!groups.has(s.appId)) groups.set(s.appId, []);
+      groups.get(s.appId).push(s);
+    }
+    let html =
+      `<div class="section-title">${i18n.format(t.resultsCount, { n: items.length })}
+        <button class="link-btn" data-export="favorites" title="${t.export}" aria-label="${t.export}">${t.export}</button></div>`;
+    for (const [appId, list] of groups) {
+      const app = DataStore.getApp(appId);
+      const appName = app ? escapeHTML(i18n.pick(app.name)) : "";
+      const icon = app && app.icon ? app.icon + " " : "";
+      html += `<div class="fav-group">
+        <div class="fav-group-title">${icon}${appName}<span class="fav-group-count">${list.length}</span></div>
+        ${list.map((s) => cardHTML(s, "")).join("")}
+      </div>`;
+    }
+    el.content.innerHTML = html;
   }
 
   async function renderRecent() {
@@ -441,7 +490,7 @@
     el.content.innerHTML =
       `<div class="section-title">${i18n.format(t.resultsCount, { n: items.length })}
         <button class="link-btn" id="clearRecent">${t.clear}</button></div>` +
-      items.map(cardHTML).join("");
+      items.map((s) => cardHTML(s, "", { del: true })).join("");
   }
 
   /* ---------- Detail view (click / Enter on a card) ---------- */
@@ -516,6 +565,7 @@
 
   function setTab(tab) {
     state.tab = tab;
+    state.detail = null;
     state.catView = null;
     state.catDrill = null;
     el.searchInput.value = state.query;
@@ -566,6 +616,15 @@
       renderRecent();
       return;
     }
+
+    const del = e.target.closest("[data-del]");
+    if (del) {
+      e.stopPropagation();
+      await store.removeRecent(del.dataset.del);
+      renderRecent();
+      return;
+    }
+
 
     const browse = e.target.closest("[data-browse]");
     if (browse) {
@@ -625,6 +684,14 @@
       return;
     }
 
+    // Categories (software): jump to a letter group via the index bar
+    const alpha = e.target.closest("[data-alpha]");
+    if (alpha) {
+      const target = el.content.querySelector(`[data-alpha-group="${alpha.dataset.alpha}"]`);
+      if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
+      return;
+    }
+
     const card = e.target.closest(".card");
     if (card) {
       showDetail(card.dataset.id);
@@ -667,7 +734,7 @@
     return head + thead + rows + "\n";
   }
 
-  function exportScope(attr) {
+  async function exportScope(attr) {
     const t = i18n.t;
     const [kind, id] = (attr || "").split(":");
     let items = [];
@@ -678,6 +745,10 @@
       items = [s];
       const app = DataStore.getApp(s.appId);
       title = i18n.pick(s.name) + (app ? ` (${i18n.pick(app.name)})` : "");
+    } else if (kind === "favorites") {
+      const favIds = await store.getFavorites();
+      items = DataStore.getShortcutsByIds(favIds);
+      title = t.favExportTitle;
     } else if (kind === "app") {
       const app = DataStore.getApp(id);
       items = DataStore.getShortcutsByApp(id);
@@ -700,7 +771,7 @@
 
   function showDetail(id) {
     state.detail = id;
-    store.pushRecent(id);
+    if (!state.incognito) store.pushRecent(id);
     render();
   }
 
@@ -821,6 +892,12 @@
     const theme = await store.getTheme();
     applyTheme(theme);
 
+    // incognito mode
+    state.incognito = await store.getIncognito();
+    if (el.incognitoToggle) {
+      el.incognitoToggle.setAttribute("aria-checked", String(!!state.incognito));
+    }
+
     // segmented bindings (settings panel)
     bindSegment(el.setTheme, "theme", pickTheme);
     bindSegment(el.setLang, "lang", pickLang);
@@ -867,6 +944,17 @@
     el.settingsBtn.addEventListener("click", openSettings);
     el.closeSettings.addEventListener("click", closeSettings);
     el.settingsBackdrop.addEventListener("click", closeSettings);
+    if (el.incognitoToggle) {
+      el.incognitoToggle.addEventListener("click", async () => {
+        state.incognito = !state.incognito;
+        el.incognitoToggle.setAttribute("aria-checked", String(state.incognito));
+        await store.setIncognito(state.incognito);
+        if (state.incognito) {
+          await store.clearRecent();
+          if (state.tab === "recent") renderRecent();
+        }
+      });
+    }
 
     el.content.addEventListener("click", onContentClick);
     document.addEventListener("keydown", onKeydown);

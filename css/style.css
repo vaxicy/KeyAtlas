@@ -485,6 +485,10 @@ html, body {
 .cat-name { font-size: 13px; font-weight: 600; color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .cat-count { font-size: 11px; color: var(--sub); }
 
+/* system list (single-line rows): tighten to match sparse content */
+.cat-list .cat-tile { padding: 8px 12px; }
+.cat-list .cat-emoji { font-size: 20px; }
+
 /* ---- App chips (inside category) ---- */
 .chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 10px 0; padding-left: 10px; }
 .chip {
@@ -521,7 +525,7 @@ html, body {
   justify-content: center;
   flex-shrink: 0;
 }
-.subhead-title { font-size: 14px; font-weight: 700; display: inline-flex; align-items: center; gap: 6px; line-height: 1; }
+.subhead-title { font-size: 14px; font-weight: 700; flex: 1; min-width: 0; display: flex; align-items: center; gap: 6px; line-height: 1; }
 .subhead-export {
   margin-left: auto;
   border: none;

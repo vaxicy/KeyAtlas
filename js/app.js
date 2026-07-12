@@ -326,14 +326,14 @@
           return a && a.type === "system" && s[id];
         });
         const m = OS_META[id] || OS_META.windows;
-        el.content.innerHTML = subheadHTML(`${m.icon} ${t[m.key]}`, `os:${id}`) + listHTML(items);
+        el.content.innerHTML = subheadHTML(`${m.icon} ${t[m.key]}`) + listHTML(items);
         return;
       }
       if (kind === "app") {
         const app = DataStore.getApp(id);
         const items = DataStore.getShortcutsByApp(id);
         el.content.innerHTML =
-          subheadHTML(`${app.icon || ""} ${escapeHTML(i18n.pick(app.name))}`, `app:${id}`) + listHTML(items);
+          subheadHTML(`${app.icon || ""} ${escapeHTML(i18n.pick(app.name))}`) + listHTML(items);
         return;
       }
       if (kind === "cat") {
@@ -347,7 +347,7 @@
           )
           .join("");
         el.content.innerHTML =
-          subheadHTML(`${cat.icon || ""} ${escapeHTML(i18n.pick(cat.name))}`, `cat:${id}`) +
+          subheadHTML(`${cat.icon || ""} ${escapeHTML(i18n.pick(cat.name))}`) +
           (chips ? `<div class="chips">${chips}</div>` : "") +
           listHTML(items);
         return;
@@ -424,18 +424,12 @@
     el.content.innerHTML = `<div class="cat-grid">${tiles}</div>`;
   }
 
-  function subheadHTML(title, exportAttr) {
-    const exportBtn = exportAttr
-      ? `<button class="subhead-export" data-export="${exportAttr}" title="${i18n.t.export}" aria-label="${i18n.t.export}">
-          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-        </button>`
-      : "";
+  function subheadHTML(title) {
     return `<div class="subhead">
       <button class="back-btn" data-back="1" aria-label="${i18n.t.back}">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
       </button>
       <span class="subhead-title">${title}</span>
-      ${exportBtn}
     </div>`;
   }
 
@@ -521,9 +515,6 @@
       <div class="detail-body">
         <div class="detail-head">
           <span class="detail-app">${appName}</span>
-          <button class="detail-export" data-export="detail" title="${t.export}" aria-label="${t.export}">
-            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-          </button>
           <button class="star-btn ${fav ? "active" : ""}" data-star="${s.id}"
             title="${fav ? t.removeFav : t.addFav}" aria-label="${fav ? t.removeFav : t.addFav}">
             <svg viewBox="0 0 24 24" width="18" height="18" fill="${fav ? "currentColor" : "none"}"

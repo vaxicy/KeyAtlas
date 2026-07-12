@@ -9,8 +9,8 @@
       "en": "Copy"
     },
     "description": {
-      "zh": "复制选中的内容",
-      "en": "Copy selected content"
+      "zh": "复制所选文字或项目",
+      "en": "Copy selected text or item"
     },
     "windows": "Ctrl+C",
     "mac": "⌘+C",
@@ -32,7 +32,7 @@
     },
     "description": {
       "zh": "粘贴剪贴板内容",
-      "en": "Paste from clipboard"
+      "en": "Paste clipboard content"
     },
     "windows": "Ctrl+V",
     "mac": "⌘+V",
@@ -53,8 +53,8 @@
       "en": "Cut"
     },
     "description": {
-      "zh": "剪切选中的内容",
-      "en": "Cut selected content"
+      "zh": "剪切所选文字或项目",
+      "en": "Cut selected text or item"
     },
     "windows": "Ctrl+X",
     "mac": "⌘+X",
@@ -75,7 +75,7 @@
       "en": "Undo"
     },
     "description": {
-      "zh": "撤销上一步操作",
+      "zh": "撤销上一次操作",
       "en": "Undo last action"
     },
     "windows": "Ctrl+Z",
@@ -119,8 +119,8 @@
       "en": "Select All"
     },
     "description": {
-      "zh": "选中全部内容",
-      "en": "Select all items"
+      "zh": "选择所有文本或窗口中的所有项",
+      "en": "Select all text or items in window"
     },
     "windows": "Ctrl+A",
     "mac": "⌘+A",
@@ -132,28 +132,6 @@
     "pinyin": "quan xuan quanxuan q x qx quan xuan quanxuan q x qx"
   },
   {
-    "id": "windows-save",
-    "appId": "windows",
-    "type": "system",
-    "category": "system",
-    "name": {
-      "zh": "保存",
-      "en": "Save"
-    },
-    "description": {
-      "zh": "保存当前文件",
-      "en": "Save current file"
-    },
-    "windows": "Ctrl+S",
-    "mac": "⌘+S",
-    "linux": "Ctrl+S",
-    "keywords": [
-      "保存",
-      "save"
-    ],
-    "pinyin": "bao cun baocun b c bc bao cun baocun b c bc"
-  },
-  {
     "id": "windows-find",
     "appId": "windows",
     "type": "system",
@@ -163,8 +141,8 @@
       "en": "Find"
     },
     "description": {
-      "zh": "在当前内容中查找",
-      "en": "Find in current content"
+      "zh": "在当前内容中查找文本",
+      "en": "Find text in current content"
     },
     "windows": "Ctrl+F",
     "mac": "⌘+F",
@@ -177,49 +155,204 @@
     "pinyin": "cha zhao chazhao c z cz cha zhao chazhao c z cz"
   },
   {
-    "id": "windows-print",
+    "id": "windows-findreplace",
     "appId": "windows",
     "type": "system",
     "category": "system",
     "name": {
-      "zh": "打印",
-      "en": "Print"
+      "zh": "查找和替换",
+      "en": "Find & Replace"
     },
     "description": {
-      "zh": "打印当前文档",
-      "en": "Print current document"
+      "zh": "打开查找和替换对话框",
+      "en": "Open find and replace dialog"
     },
-    "windows": "Ctrl+P",
-    "mac": "⌘+P",
-    "linux": "Ctrl+P",
+    "windows": "Ctrl+H",
+    "mac": "⌘+H",
+    "linux": "Ctrl+H",
     "keywords": [
-      "打印",
-      "print"
+      "替换",
+      "replace",
+      "查找替换"
     ],
-    "pinyin": "da yin dayin d y dy da yin dayin d y dy"
+    "pinyin": "cha zhao he ti huan chazhaohetihuan c z h t h czhth ti huan   cha zhao ti huan tihuan chazhaotihuan t h   c z t h th czth"
   },
   {
-    "id": "windows-screenshot",
+    "id": "windows-bold",
     "appId": "windows",
     "type": "system",
     "category": "system",
     "name": {
-      "zh": "截图",
-      "en": "Screenshot"
+      "zh": "粗体",
+      "en": "Bold"
     },
     "description": {
-      "zh": "打开截图工具选区截图",
-      "en": "Open snipping tool to capture"
+      "zh": "将粗体格式应用于所选文本",
+      "en": "Apply bold formatting to selection"
     },
-    "windows": "Win+Shift+S",
-    "mac": "⌘+Shift+4",
-    "linux": "PrtSc",
+    "windows": "Ctrl+B",
+    "mac": "⌘+B",
+    "linux": "Ctrl+B",
     "keywords": [
-      "截图",
-      "screenshot",
-      "snip"
+      "粗体",
+      "bold"
     ],
-    "pinyin": "jie tu jietu j t jt jie tu jietu j t jt"
+    "pinyin": "cu ti cuti c t ct cu ti cuti c t ct"
+  },
+  {
+    "id": "windows-italic",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "斜体",
+      "en": "Italic"
+    },
+    "description": {
+      "zh": "将倾斜格式应用于所选文本",
+      "en": "Apply italic formatting to selection"
+    },
+    "windows": "Ctrl+I",
+    "mac": "⌘+I",
+    "linux": "Ctrl+I",
+    "keywords": [
+      "斜体",
+      "italic"
+    ],
+    "pinyin": "xie ti xieti x t xt xie ti xieti x t xt"
+  },
+  {
+    "id": "windows-underline",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "下划线",
+      "en": "Underline"
+    },
+    "description": {
+      "zh": "将下划线格式应用于所选文本",
+      "en": "Apply underline to selection"
+    },
+    "windows": "Ctrl+U",
+    "mac": "⌘+U",
+    "linux": "Ctrl+U",
+    "keywords": [
+      "下划线",
+      "underline"
+    ],
+    "pinyin": "xia hua xian xiahuaxian x h x xhx xia hua xian xiahuaxian x h x xhx"
+  },
+  {
+    "id": "windows-pastetext",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "纯文本粘贴",
+      "en": "Paste as Text"
+    },
+    "description": {
+      "zh": "粘贴为纯文本（去除格式）",
+      "en": "Paste as plain text without formatting"
+    },
+    "windows": "Ctrl+Shift+V",
+    "mac": "⌘+Option+Shift+V",
+    "linux": "Ctrl+Shift+V",
+    "keywords": [
+      "纯文本粘贴",
+      "paste plain text"
+    ],
+    "pinyin": "chun wen ben nian tie chunwenbenniantie c w b n t cwbnt chun wen ben nian tie chunwenbenniantie c w b n t cwbnt"
+  },
+  {
+    "id": "windows-delete-word-left",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "删除左侧字词",
+      "en": "Delete Word Left"
+    },
+    "description": {
+      "zh": "删除光标左侧的字词",
+      "en": "Delete word to left of cursor"
+    },
+    "windows": "Ctrl+Backspace",
+    "mac": "⌘+Delete",
+    "linux": "Ctrl+Backspace",
+    "keywords": [
+      "删除",
+      "delete word"
+    ],
+    "pinyin": "shan chu zuo ce zi ci shanchuzuocezici s c z c z c sczczc shan chu shanchu s c sc"
+  },
+  {
+    "id": "windows-delete-word-right",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "删除右侧字词",
+      "en": "Delete Word Right"
+    },
+    "description": {
+      "zh": "删除光标右侧的字词",
+      "en": "Delete word to right of cursor"
+    },
+    "windows": "Ctrl+Del",
+    "mac": "⌘+Fn+Delete",
+    "linux": "Ctrl+Del",
+    "keywords": [
+      "删除",
+      "delete word right"
+    ],
+    "pinyin": "shan chu you ce zi ci shanchuyoucezici s c y c z c scyczc shan chu shanchu s c sc"
+  },
+  {
+    "id": "windows-switch-apps",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "切换应用",
+      "en": "Switch Apps"
+    },
+    "description": {
+      "zh": "在打开的应用之间切换",
+      "en": "Switch between open applications"
+    },
+    "windows": "Alt+Tab",
+    "mac": "⌘+Tab",
+    "linux": "Alt+Tab",
+    "keywords": [
+      "切换",
+      "switch",
+      "alt tab"
+    ],
+    "pinyin": "qie huan ying yong qiehuanyingyong q h y y qhyy qie huan qiehuan q h qh"
+  },
+  {
+    "id": "windows-close-window",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "关闭窗口",
+      "en": "Close Window"
+    },
+    "description": {
+      "zh": "关闭活动窗口或退出活动应用",
+      "en": "Close active window or exit active app"
+    },
+    "windows": "Alt+F4",
+    "mac": "⌘+Q",
+    "linux": "Alt+F4",
+    "keywords": [
+      "关闭",
+      "close"
+    ],
+    "pinyin": "guan bi chuang kou guanbichuangkou g b c k gbck guan bi guanbi g b gb"
   },
   {
     "id": "windows-lock",
@@ -239,54 +372,9 @@
     "linux": "Ctrl+Alt+L",
     "keywords": [
       "锁屏",
-      "lock"
+      "lock screen"
     ],
     "pinyin": "suo ping suoping s p sp suo ping suoping s p sp"
-  },
-  {
-    "id": "windows-taskmgr",
-    "appId": "windows",
-    "type": "system",
-    "category": "system",
-    "name": {
-      "zh": "任务管理器",
-      "en": "Task Manager"
-    },
-    "description": {
-      "zh": "打开任务管理器",
-      "en": "Open Task Manager"
-    },
-    "windows": "Ctrl+Shift+Esc",
-    "mac": "⌘+Option+Esc",
-    "linux": "System Monitor",
-    "keywords": [
-      "任务管理器",
-      "task manager"
-    ],
-    "pinyin": "ren wu guan li qi renwuguanliqi r w g l q rwglq ren wu guan li qi renwuguanliqi r w g l q rwglq"
-  },
-  {
-    "id": "windows-switch",
-    "appId": "windows",
-    "type": "system",
-    "category": "system",
-    "name": {
-      "zh": "切换窗口",
-      "en": "Switch Windows"
-    },
-    "description": {
-      "zh": "在打开的应用之间切换",
-      "en": "Switch between open apps"
-    },
-    "windows": "Alt+Tab",
-    "mac": "⌘+Tab",
-    "linux": "Alt+Tab",
-    "keywords": [
-      "切换",
-      "switch",
-      "alt tab"
-    ],
-    "pinyin": "qie huan chuang kou qiehuanchuangkou q h c k qhck qie huan qiehuan q h qh"
   },
   {
     "id": "windows-showdesktop",
@@ -299,16 +387,61 @@
     },
     "description": {
       "zh": "最小化所有窗口显示桌面",
-      "en": "Minimize all to show desktop"
+      "en": "Minimize all windows to show desktop"
     },
     "windows": "Win+D",
     "mac": "F11",
     "linux": "Ctrl+Alt+D",
     "keywords": [
       "桌面",
-      "desktop"
+      "desktop",
+      "显示桌面"
     ],
-    "pinyin": "xian shi zhuo mian xianshizhuomian x s z m xszm zhuo mian zhuomian z m zm"
+    "pinyin": "xian shi zhuo mian xianshizhuomian x s z m xszm zhuo mian   xian shi zhuo mian zhuomian xianshizhuomian z m   x s z m zm xszm"
+  },
+  {
+    "id": "windows-peek-desktop",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "速览桌面",
+      "en": "Peek at Desktop"
+    },
+    "description": {
+      "zh": "临时预览桌面（松开后恢复）",
+      "en": "Temporarily peek at desktop"
+    },
+    "windows": "Win+,",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "速览",
+      "peek desktop"
+    ],
+    "pinyin": "su lan zhuo mian sulanzhuomian s l z m slzm su lan sulan s l sl"
+  },
+  {
+    "id": "windows-taskview",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "任务视图",
+      "en": "Task View"
+    },
+    "description": {
+      "zh": "打开任务视图（时间线/虚拟桌面）",
+      "en": "Open Task View timeline/virtual desktops"
+    },
+    "windows": "Win+Tab",
+    "mac": "Control+↑",
+    "linux": "—",
+    "keywords": [
+      "任务视图",
+      "task view"
+    ],
+    "pinyin": "ren wu shi tu renwushitu r w s t rwst ren wu shi tu renwushitu r w s t rwst"
   },
   {
     "id": "windows-explorer",
@@ -316,22 +449,22 @@
     "type": "system",
     "category": "system",
     "name": {
-      "zh": "打开文件资源管理器",
-      "en": "Open File Explorer"
+      "zh": "文件资源管理器",
+      "en": "File Explorer"
     },
     "description": {
       "zh": "打开文件资源管理器",
-      "en": "Open file explorer"
+      "en": "Open File Explorer"
     },
     "windows": "Win+E",
-    "mac": "⌘+N",
+    "mac": "⌘+E",
     "linux": "Super+E",
     "keywords": [
       "资源管理器",
       "explorer",
-      "files"
+      "文件管理器"
     ],
-    "pinyin": "da kai wen jian zi yuan guan li qi dakaiwenjianziyuanguanliqi d k w j z y g l q dkwjzyglq zi yuan guan li qi ziyuanguanliqi z y g l q zyglq"
+    "pinyin": "wen jian zi yuan guan li qi wenjianziyuanguanliqi w j z y g l q wjzyglq zi yuan guan li qi   wen jian guan li qi ziyuanguanliqi wenjianguanliqi z y g l q   w j g l q zyglq wjglq"
   },
   {
     "id": "windows-settings",
@@ -339,12 +472,12 @@
     "type": "system",
     "category": "system",
     "name": {
-      "zh": "打开设置",
-      "en": "Open Settings"
+      "zh": "设置",
+      "en": "Settings"
     },
     "description": {
       "zh": "打开系统设置",
-      "en": "Open system settings"
+      "en": "Open Settings app"
     },
     "windows": "Win+I",
     "mac": "⌘+,",
@@ -353,96 +486,30 @@
       "设置",
       "settings"
     ],
-    "pinyin": "da kai she zhi dakaishezhi d k s z dksz she zhi shezhi s z sz"
+    "pinyin": "she zhi shezhi s z sz she zhi shezhi s z sz"
   },
   {
-    "id": "windows-emoji",
+    "id": "windows-search",
     "appId": "windows",
     "type": "system",
     "category": "system",
     "name": {
-      "zh": "表情面板",
-      "en": "Emoji Panel"
+      "zh": "搜索",
+      "en": "Search"
     },
     "description": {
-      "zh": "打开表情符号面板",
-      "en": "Open emoji picker"
+      "zh": "打开 Windows 搜索",
+      "en": "Open Windows Search"
     },
-    "windows": "Win+.",
-    "mac": "⌘+Ctrl+Space",
-    "linux": "—",
-    "keywords": [
-      "表情",
-      "emoji"
-    ],
-    "pinyin": "biao qing mian ban biaoqingmianban b q m b bqmb biao qing biaoqing b q bq"
-  },
-  {
-    "id": "windows-virtualdesktop",
-    "appId": "windows",
-    "type": "system",
-    "category": "system",
-    "name": {
-      "zh": "新建虚拟桌面",
-      "en": "New Virtual Desktop"
-    },
-    "description": {
-      "zh": "创建新的虚拟桌面",
-      "en": "Create a new virtual desktop"
-    },
-    "windows": "Win+Ctrl+D",
-    "mac": "Ctrl+Up",
-    "linux": "—",
-    "keywords": [
-      "虚拟桌面",
-      "virtual desktop"
-    ],
-    "pinyin": "xin jian xu ni zhuo mian xinjianxunizhuomian x j x n z m xjxnzm xu ni zhuo mian xunizhuomian x n z m xnzm"
-  },
-  {
-    "id": "windows-snapleft",
-    "appId": "windows",
-    "type": "system",
-    "category": "system",
-    "name": {
-      "zh": "窗口贴靠左侧",
-      "en": "Snap Window Left"
-    },
-    "description": {
-      "zh": "将窗口贴靠到屏幕左半边",
-      "en": "Snap window to left half"
-    },
-    "windows": "Win+Left",
-    "mac": "—",
-    "linux": "Super+Left",
-    "keywords": [
-      "贴靠",
-      "snap",
-      "window"
-    ],
-    "pinyin": "chuang kou tie kao zuo ce chuangkoutiekaozuoce c k t k z c cktkzc tie kao tiekao t k tk"
-  },
-  {
-    "id": "windows-clipboard",
-    "appId": "windows",
-    "type": "system",
-    "category": "system",
-    "name": {
-      "zh": "剪贴板历史",
-      "en": "Clipboard History"
-    },
-    "description": {
-      "zh": "打开剪贴板历史记录",
-      "en": "Open clipboard history"
-    },
-    "windows": "Win+V",
+    "windows": "Win+S",
     "mac": "—",
     "linux": "—",
     "keywords": [
-      "剪贴板",
-      "clipboard"
+      "搜索",
+      "search",
+      "win+s"
     ],
-    "pinyin": "jian tie ban li shi jiantiebanlishi j t b l s jtbls jian tie ban jiantieban j t b jtb"
+    "pinyin": "sou suo sousuo s s ss sou suo sousuo s s ss"
   },
   {
     "id": "windows-run",
@@ -454,7 +521,7 @@
       "en": "Run"
     },
     "description": {
-      "zh": "打开运行对话框",
+      "zh": "打开「运行」对话框",
       "en": "Open Run dialog"
     },
     "windows": "Win+R",
@@ -467,386 +534,144 @@
     "pinyin": "yun xing yunxing y x yx yun xing yunxing y x yx"
   },
   {
-    "id": "windows-win-search",
+    "id": "windows-taskmgr",
     "appId": "windows",
     "type": "system",
     "category": "system",
     "name": {
-      "zh": "搜索",
-      "en": "Search"
+      "zh": "任务管理器",
+      "en": "Task Manager"
     },
     "description": {
-      "zh": "打开搜索",
-      "en": "Open search"
+      "zh": "直接打开任务管理器",
+      "en": "Open Task Manager directly"
     },
-    "windows": "Win+S",
-    "mac": "Win+S",
-    "linux": "Win+S",
+    "windows": "Ctrl+Shift+Esc",
+    "mac": "⌘+Option+Esc",
+    "linux": "—",
     "keywords": [
-      "搜索",
-      "search"
+      "任务管理器",
+      "task manager"
     ],
-    "pinyin": "sou suo sousuo s s ss sou suo sousuo s s ss"
+    "pinyin": "ren wu guan li qi renwuguanliqi r w g l q rwglq ren wu guan li qi renwuguanliqi r w g l q rwglq"
   },
   {
-    "id": "windows-win-explorer",
+    "id": "windows-screenshot-clip",
     "appId": "windows",
     "type": "system",
     "category": "system",
     "name": {
-      "zh": "文件资源管理器",
-      "en": "File Explorer"
+      "zh": "截图到剪贴板",
+      "en": "Screenshot to Clipboard"
     },
     "description": {
-      "zh": "打开资源管理器",
-      "en": "File explorer"
-    },
-    "windows": "Win+E",
-    "mac": "Win+E",
-    "linux": "Win+E",
-    "keywords": [
-      "资源管理器",
-      "explorer",
-      "文件"
-    ],
-    "pinyin": "wen jian zi yuan guan li qi wenjianziyuanguanliqi w j z y g l q wjzyglq zi yuan guan li qi   wen jian ziyuanguanliqi wenjian z y g l q   w j zyglq wj"
-  },
-  {
-    "id": "windows-win-settings",
-    "appId": "windows",
-    "type": "system",
-    "category": "system",
-    "name": {
-      "zh": "设置",
-      "en": "Settings"
-    },
-    "description": {
-      "zh": "打开设置",
-      "en": "Settings"
-    },
-    "windows": "Win+I",
-    "mac": "Win+I",
-    "linux": "Win+I",
-    "keywords": [
-      "设置",
-      "settings"
-    ],
-    "pinyin": "she zhi shezhi s z sz she zhi shezhi s z sz"
-  },
-  {
-    "id": "windows-win-lock",
-    "appId": "windows",
-    "type": "system",
-    "category": "system",
-    "name": {
-      "zh": "锁屏",
-      "en": "Lock"
-    },
-    "description": {
-      "zh": "锁定屏幕",
-      "en": "Lock screen"
-    },
-    "windows": "Win+L",
-    "mac": "Win+L",
-    "linux": "Win+L",
-    "keywords": [
-      "锁屏",
-      "lock"
-    ],
-    "pinyin": "suo ping suoping s p sp suo ping suoping s p sp"
-  },
-  {
-    "id": "windows-win-switch",
-    "appId": "windows",
-    "type": "system",
-    "category": "system",
-    "name": {
-      "zh": "切换窗口",
-      "en": "Switch Window"
-    },
-    "description": {
-      "zh": "切换应用",
-      "en": "Switch window"
-    },
-    "windows": "Alt+Tab",
-    "mac": "Alt+Tab",
-    "linux": "Alt+Tab",
-    "keywords": [
-      "切换",
-      "switch",
-      "窗口"
-    ],
-    "pinyin": "qie huan chuang kou qiehuanchuangkou q h c k qhck qie huan   chuang kou qiehuan chuangkou q h   c k qh ck"
-  },
-  {
-    "id": "windows-win-desktop",
-    "appId": "windows",
-    "type": "system",
-    "category": "system",
-    "name": {
-      "zh": "显示桌面",
-      "en": "Show Desktop"
-    },
-    "description": {
-      "zh": "显示桌面",
-      "en": "Show desktop"
-    },
-    "windows": "Win+D",
-    "mac": "Win+D",
-    "linux": "Win+D",
-    "keywords": [
-      "桌面",
-      "desktop"
-    ],
-    "pinyin": "xian shi zhuo mian xianshizhuomian x s z m xszm zhuo mian zhuomian z m zm"
-  },
-  {
-    "id": "windows-win-snapleft",
-    "appId": "windows",
-    "type": "system",
-    "category": "system",
-    "name": {
-      "zh": "左贴靠",
-      "en": "Snap Left"
-    },
-    "description": {
-      "zh": "窗口贴左",
-      "en": "Snap left"
-    },
-    "windows": "Win+Left",
-    "mac": "Win+Left",
-    "linux": "Win+Left",
-    "keywords": [
-      "贴靠",
-      "snap",
-      "左"
-    ],
-    "pinyin": "zuo tie kao zuotiekao z t k ztk tie kao   zuo tiekao zuo t k   z tk z"
-  },
-  {
-    "id": "windows-win-snapright",
-    "appId": "windows",
-    "type": "system",
-    "category": "system",
-    "name": {
-      "zh": "右贴靠",
-      "en": "Snap Right"
-    },
-    "description": {
-      "zh": "窗口贴右",
-      "en": "Snap right"
-    },
-    "windows": "Win+Right",
-    "mac": "Win+Right",
-    "linux": "Win+Right",
-    "keywords": [
-      "贴靠",
-      "snap",
-      "右"
-    ],
-    "pinyin": "you tie kao youtiekao y t k ytk tie kao   you tiekao you t k   y tk y"
-  },
-  {
-    "id": "windows-win-max",
-    "appId": "windows",
-    "type": "system",
-    "category": "system",
-    "name": {
-      "zh": "最大化",
-      "en": "Maximize"
-    },
-    "description": {
-      "zh": "最大化窗口",
-      "en": "Maximize"
-    },
-    "windows": "Win+Up",
-    "mac": "Win+Up",
-    "linux": "Win+Up",
-    "keywords": [
-      "最大化",
-      "maximize"
-    ],
-    "pinyin": "zui da hua zuidahua z d h zdh zui da hua zuidahua z d h zdh"
-  },
-  {
-    "id": "windows-win-min",
-    "appId": "windows",
-    "type": "system",
-    "category": "system",
-    "name": {
-      "zh": "最小化",
-      "en": "Minimize"
-    },
-    "description": {
-      "zh": "最小化窗口",
-      "en": "Minimize"
-    },
-    "windows": "Win+Down",
-    "mac": "Win+Down",
-    "linux": "Win+Down",
-    "keywords": [
-      "最小化",
-      "minimize"
-    ],
-    "pinyin": "zui xiao hua zuixiaohua z x h zxh zui xiao hua zuixiaohua z x h zxh"
-  },
-  {
-    "id": "windows-win-tab",
-    "appId": "windows",
-    "type": "system",
-    "category": "system",
-    "name": {
-      "zh": "任务视图",
-      "en": "Task View"
-    },
-    "description": {
-      "zh": "任务视图",
-      "en": "Task view"
-    },
-    "windows": "Win+Tab",
-    "mac": "Win+Tab",
-    "linux": "Win+Tab",
-    "keywords": [
-      "任务视图",
-      "task view"
-    ],
-    "pinyin": "ren wu shi tu renwushitu r w s t rwst ren wu shi tu renwushitu r w s t rwst"
-  },
-  {
-    "id": "windows-win-clipboard",
-    "appId": "windows",
-    "type": "system",
-    "category": "system",
-    "name": {
-      "zh": "剪贴板历史",
-      "en": "Clipboard"
-    },
-    "description": {
-      "zh": "剪贴板历史",
-      "en": "Clipboard history"
-    },
-    "windows": "Win+V",
-    "mac": "Win+V",
-    "linux": "Win+V",
-    "keywords": [
-      "剪贴板",
-      "clipboard"
-    ],
-    "pinyin": "jian tie ban li shi jiantiebanlishi j t b l s jtbls jian tie ban jiantieban j t b jtb"
-  },
-  {
-    "id": "windows-win-screenshot",
-    "appId": "windows",
-    "type": "system",
-    "category": "system",
-    "name": {
-      "zh": "截图",
-      "en": "Screenshot"
-    },
-    "description": {
-      "zh": "截图工具",
-      "en": "Screenshot"
+      "zh": "选择屏幕区域截图并复制到剪贴板",
+      "en": "Capture screen area to clipboard"
     },
     "windows": "Win+Shift+S",
-    "mac": "Win+Shift+S",
-    "linux": "Win+Shift+S",
+    "mac": "⌘+Shift+4",
+    "linux": "PrtSc",
     "keywords": [
       "截图",
-      "screenshot"
+      "screenshot",
+      "snip",
+      "截图工具"
     ],
-    "pinyin": "jie tu jietu j t jt jie tu jietu j t jt"
+    "pinyin": "jie tu dao jian tie ban jietudaojiantieban j t d j t b jtdjtb jie tu   jie tu gong ju jietu jietugongju j t   j t g j jt jtgj"
   },
   {
-    "id": "windows-win-run",
+    "id": "windows-screenshot-full",
     "appId": "windows",
     "type": "system",
     "category": "system",
     "name": {
-      "zh": "运行",
-      "en": "Run"
+      "zh": "全屏截图",
+      "en": "Full Screenshot"
     },
     "description": {
-      "zh": "运行对话框",
-      "en": "Run dialog"
+      "zh": "捕获全屏截图并保存到图片文件夹",
+      "en": "Capture full screen and save to Pictures folder"
     },
-    "windows": "Win+R",
-    "mac": "Win+R",
-    "linux": "Win+R",
+    "windows": "Win+PrtScn",
+    "mac": "⌘+Shift+3",
+    "linux": "PrtSc",
     "keywords": [
-      "运行",
-      "run"
+      "全屏截图",
+      "full screenshot",
+      "prtscn"
     ],
-    "pinyin": "yun xing yunxing y x yx yun xing yunxing y x yx"
+    "pinyin": "quan ping jie tu quanpingjietu q p j t qpjt quan ping jie tu quanpingjietu q p j t qpjt"
   },
   {
-    "id": "windows-win-emoji",
+    "id": "windows-screenshot-win",
     "appId": "windows",
     "type": "system",
     "category": "system",
     "name": {
-      "zh": "表情符号",
-      "en": "Emoji"
+      "zh": "窗口截图",
+      "en": "Window Screenshot"
     },
     "description": {
-      "zh": "打开表情面板",
-      "en": "Emoji panel"
+      "zh": "捕获活动窗口截图并复制到剪贴板",
+      "en": "Capture active window screenshot to clipboard"
+    },
+    "windows": "Alt+PrtScn",
+    "mac": "⌘+Shift+4+Space",
+    "linux": "Alt+PrtSc",
+    "keywords": [
+      "窗口截图",
+      "window screenshot"
+    ],
+    "pinyin": "chuang kou jie tu chuangkoujietu c k j t ckjt chuang kou jie tu chuangkoujietu c k j t ckjt"
+  },
+  {
+    "id": "windows-clipboard-history",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "剪贴板历史",
+      "en": "Clipboard History"
+    },
+    "description": {
+      "zh": "打开剪贴板历史记录面板",
+      "en": "Open Clipboard History panel"
+    },
+    "windows": "Win+V",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "剪贴板",
+      "clipboard",
+      "历史"
+    ],
+    "pinyin": "jian tie ban li shi jiantiebanlishi j t b l s jtbls jian tie ban   li shi jiantieban lishi j t b   l s jtb ls"
+  },
+  {
+    "id": "windows-emoji",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "表情符号面板",
+      "en": "Emoji Panel"
+    },
+    "description": {
+      "zh": "打开表情符号面板",
+      "en": "Open Emoji picker panel"
     },
     "windows": "Win+.",
-    "mac": "Win+.",
-    "linux": "Win+.",
+    "mac": "⌘+Ctrl+Space",
+    "linux": "—",
     "keywords": [
       "表情",
-      "emoji"
+      "emoji",
+      "符号"
     ],
-    "pinyin": "biao qing fu hao biaoqingfuhao b q f h bqfh biao qing biaoqing b q bq"
+    "pinyin": "biao qing fu hao mian ban biaoqingfuhaomianban b q f h m b bqfhmb biao qing   fu hao biaoqing fuhao b q   f h bq fh"
   },
   {
-    "id": "windows-win-vc",
-    "appId": "windows",
-    "type": "system",
-    "category": "system",
-    "name": {
-      "zh": "语音输入",
-      "en": "Voice Typing"
-    },
-    "description": {
-      "zh": "语音输入",
-      "en": "Voice typing"
-    },
-    "windows": "Win+H",
-    "mac": "Win+H",
-    "linux": "Win+H",
-    "keywords": [
-      "语音",
-      "voice",
-      "听写"
-    ],
-    "pinyin": "yu yin shu ru yuyinshuru y y s r yysr yu yin   ting xie yuyin tingxie y y   t x yy tx"
-  },
-  {
-    "id": "windows-win-project",
-    "appId": "windows",
-    "type": "system",
-    "category": "system",
-    "name": {
-      "zh": "投影",
-      "en": "Project"
-    },
-    "description": {
-      "zh": "投影到屏幕",
-      "en": "Project"
-    },
-    "windows": "Win+P",
-    "mac": "Win+P",
-    "linux": "Win+P",
-    "keywords": [
-      "投影",
-      "project"
-    ],
-    "pinyin": "tou ying touying t y ty tou ying touying t y ty"
-  },
-  {
-    "id": "windows-win-a",
+    "id": "windows-action-center",
     "appId": "windows",
     "type": "system",
     "category": "system",
@@ -855,82 +680,1248 @@
       "en": "Action Center"
     },
     "description": {
-      "zh": "打开操作中心",
-      "en": "Action center"
+      "zh": "打开通知和操作中心",
+      "en": "Open Action Center / notification center"
     },
     "windows": "Win+A",
-    "mac": "Win+A",
-    "linux": "Win+A",
+    "mac": "—",
+    "linux": "—",
     "keywords": [
       "操作中心",
-      "action center"
+      "action center",
+      "通知中心"
     ],
-    "pinyin": "cao zuo zhong xin caozuozhongxin c z z x czzx cao zuo zhong xin caozuozhongxin c z z x czzx"
+    "pinyin": "cao zuo zhong xin caozuozhongxin c z z x czzx cao zuo zhong xin   tong zhi zhong xin caozuozhongxin tongzhizhongxin c z z x   t z z x czzx tzzx"
   },
   {
-    "id": "windows-win-x",
+    "id": "windows-notifications",
     "appId": "windows",
     "type": "system",
     "category": "system",
     "name": {
-      "zh": "快速菜单",
-      "en": "Quick Menu"
+      "zh": "通知中心",
+      "en": "Notification Center"
     },
     "description": {
-      "zh": "电源菜单",
-      "en": "Quick menu"
+      "zh": "打开通知中心和日历",
+      "en": "Open notification center and calendar"
+    },
+    "windows": "Win+N",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "通知",
+      "notification",
+      "日历"
+    ],
+    "pinyin": "tong zhi zhong xin tongzhizhongxin t z z x tzzx tong zhi   ri li tongzhi rili t z   r l tz rl"
+  },
+  {
+    "id": "widgets",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "小组件",
+      "en": "Widgets"
+    },
+    "description": {
+      "zh": "打开小组件面板",
+      "en": "Open Widgets panel"
+    },
+    "windows": "Win+W",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "小组件",
+      "widget",
+      "widgets"
+    ],
+    "pinyin": "xiao zu jian xiaozujian x z j xzj xiao zu jian xiaozujian x z j xzj"
+  },
+  {
+    "id": "windows-quick-menu",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "快速链接菜单",
+      "en": "Quick Links Menu"
+    },
+    "description": {
+      "zh": "打开快速链接菜单（电源/设备管理等）",
+      "en": "Open Quick Links menu for power/device management"
     },
     "windows": "Win+X",
-    "mac": "Win+X",
-    "linux": "Win+X",
+    "mac": "—",
+    "linux": "—",
     "keywords": [
       "快速菜单",
-      "quick menu"
+      "quick menu",
+      "电源菜单"
     ],
-    "pinyin": "kuai su cai dan kuaisucaidan k s c d kscd kuai su cai dan kuaisucaidan k s c d kscd"
+    "pinyin": "kuai su lian jie cai dan kuaisulianjiecaidan k s l j c d ksljcd kuai su cai dan   dian yuan cai dan kuaisucaidan dianyuancaidan k s c d   d y c d kscd dycd"
   },
   {
-    "id": "windows-win-num",
+    "id": "windows-voice-typing",
     "appId": "windows",
     "type": "system",
     "category": "system",
     "name": {
-      "zh": "固定应用",
-      "en": "Pinned App"
+      "zh": "语音输入",
+      "en": "Voice Typing"
     },
     "description": {
-      "zh": "打开任务栏应用",
-      "en": "Pinned app"
+      "zh": "开启语音听写输入",
+      "en": "Start voice dictation input"
     },
-    "windows": "Win+1..9",
-    "mac": "Win+1..9",
-    "linux": "Win+1..9",
+    "windows": "Win+H",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "语音",
+      "voice",
+      "听写",
+      "dictation"
+    ],
+    "pinyin": "yu yin shu ru yuyinshuru y y s r yysr yu yin   ting xie yuyin tingxie y y   t x yy tx"
+  },
+  {
+    "id": "windows-game-bar",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "游戏栏",
+      "en": "Game Bar"
+    },
+    "description": {
+      "zh": "打开 Xbox 游戏栏",
+      "en": "Open Xbox Game Bar"
+    },
+    "windows": "Win+G",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "游戏",
+      "game bar",
+      "xbox"
+    ],
+    "pinyin": "you xi lan youxilan y x l yxl you xi youxi y x yx"
+  },
+  {
+    "id": "windows-project",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "投影",
+      "en": "Project"
+    },
+    "description": {
+      "zh": "打开投影/演示模式选择",
+      "en": "Open project/presentation mode selector"
+    },
+    "windows": "Win+P",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "投影",
+      "project",
+      "演示模式"
+    ],
+    "pinyin": "tou ying touying t y ty tou ying   yan shi mo shi touying yanshimoshi t y   y s m s ty ysms"
+  },
+  {
+    "id": "windows-cast",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "投屏",
+      "en": "Cast"
+    },
+    "description": {
+      "zh": "从快速设置中打开投屏以连接显示器",
+      "en": "Open cast/connect to display from Quick Settings"
+    },
+    "windows": "Win+K",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "投屏",
+      "cast",
+      "连接显示器"
+    ],
+    "pinyin": "tou ping touping t p tp tou ping   lian jie xian shi qi touping lianjiexianshiqi t p   l j x s q tp ljxsq"
+  },
+  {
+    "id": "windows-accessibility",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "辅助功能",
+      "en": "Accessibility"
+    },
+    "description": {
+      "zh": "打开设置的辅助功能部分",
+      "en": "Open Settings > Accessibility"
+    },
+    "windows": "Win+U",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "辅助功能",
+      "accessibility",
+      "无障碍"
+    ],
+    "pinyin": "fu zhu gong neng fuzhugongneng f z g n fzgn fu zhu gong neng   wu zhang ai fuzhugongneng wuzhangai f z g n   w z a fzgn wza"
+  },
+  {
+    "id": "windows-system-info",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "系统信息",
+      "en": "System Info"
+    },
+    "description": {
+      "zh": "打开系统关于页面（系统属性）",
+      "en": "Open System > About page"
+    },
+    "windows": "Win+Pause",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "系统信息",
+      "system info",
+      "系统属性"
+    ],
+    "pinyin": "xi tong xin xi xitongxinxi x t x x xtxx xi tong xin xi   xi tong shu xing xitongxinxi xitongshuxing x t x x   x t s x xtxx xtsx"
+  },
+  {
+    "id": "windows-snap-left",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "窗口贴靠左半屏",
+      "en": "Snap Left"
+    },
+    "description": {
+      "zh": "将活动窗口贴靠到屏幕左半边",
+      "en": "Snap active window to left half of screen"
+    },
+    "windows": "Win+Left",
+    "mac": "—",
+    "linux": "Super+Left",
+    "keywords": [
+      "贴靠",
+      "snap",
+      "左",
+      "分屏"
+    ],
+    "pinyin": "chuang kou tie kao zuo ban ping chuangkoutiekaozuobanping c k t k z b p cktkzbp tie kao   zuo   fen ping tiekao zuo fenping t k   z   f p tk z fp"
+  },
+  {
+    "id": "windows-snap-right",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "窗口贴靠右半屏",
+      "en": "Snap Right"
+    },
+    "description": {
+      "zh": "将活动窗口贴靠到屏幕右半边",
+      "en": "Snap active window to right half of screen"
+    },
+    "windows": "Win+Right",
+    "mac": "—",
+    "linux": "Super+Right",
+    "keywords": [
+      "贴靠",
+      "snap",
+      "右",
+      "分屏"
+    ],
+    "pinyin": "chuang kou tie kao you ban ping chuangkoutiekaoyoubanping c k t k y b p cktkybp tie kao   you   fen ping tiekao you fenping t k   y   f p tk y fp"
+  },
+  {
+    "id": "windows-maximize",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "最大化窗口",
+      "en": "Maximize Window"
+    },
+    "description": {
+      "zh": "最大化活动窗口",
+      "en": "Maximize active window"
+    },
+    "windows": "Win+Up",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "最大化",
+      "maximize",
+      "放大"
+    ],
+    "pinyin": "zui da hua chuang kou zuidahuachuangkou z d h c k zdhck zui da hua   fang da zuidahua fangda z d h   f d zdh fd"
+  },
+  {
+    "id": "windows-minimize",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "最小化窗口",
+      "en": "Minimize Window"
+    },
+    "description": {
+      "zh": "最小化活动窗口",
+      "en": "Minimize active window"
+    },
+    "windows": "Win+Down",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "最小化",
+      "minimize",
+      "缩小"
+    ],
+    "pinyin": "zui xiao hua chuang kou zuixiaohuachuangkou z x h c k zxhck zui xiao hua   suo xiao zuixiaohua suoxiao z x h   s x zxh sx"
+  },
+  {
+    "id": "windows-minimize-all",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "最小化所有窗口",
+      "en": "Minimize All Windows"
+    },
+    "description": {
+      "zh": "最小化所有窗口（除活动窗口外）",
+      "en": "Minimize all windows except active one"
+    },
+    "windows": "Win+Home",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "最小化所有",
+      "minimize all"
+    ],
+    "pinyin": "zui xiao hua suo you chuang kou zuixiaohuasuoyouchuangkou z x h s y c k zxhsyck zui xiao hua suo you zuixiaohuasuoyou z x h s y zxhsy"
+  },
+  {
+    "id": "windows-restore-minimized",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "还原最小化的窗口",
+      "en": "Restore Minimized"
+    },
+    "description": {
+      "zh": "还原所有最小化的窗口",
+      "en": "Restore all minimized windows"
+    },
+    "windows": "Win+Shift+M",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "还原",
+      "restore",
+      "恢复窗口"
+    ],
+    "pinyin": "huan yuan zui xiao hua de chuang kou huanyuanzuixiaohuadechuangkou h y z x h d c k hyzxhdck huan yuan   hui fu chuang kou huanyuan huifuchuangkou h y   h f c k hy hfck"
+  },
+  {
+    "id": "windows-snap-top-half",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "窗口贴靠上半屏",
+      "en": "Snap Top Half"
+    },
+    "description": {
+      "zh": "将活动窗口贴靠到屏幕上半部分",
+      "en": "Snap active window to top half of screen"
+    },
+    "windows": "Win+Alt+Up",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "贴靠上半屏",
+      "snap top"
+    ],
+    "pinyin": "chuang kou tie kao shang ban ping chuangkoutiekaoshangbanping c k t k s b p cktksbp tie kao shang ban ping tiekaoshangbanping t k s b p tksbp"
+  },
+  {
+    "id": "windows-snap-bottom-half",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "窗口贴靠下半屏",
+      "en": "Snap Bottom Half"
+    },
+    "description": {
+      "zh": "将活动窗口贴靠到屏幕下半部分",
+      "en": "Snap active window to bottom half of screen"
+    },
+    "windows": "Win+Alt+Down",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "贴靠下半屏",
+      "snap bottom"
+    ],
+    "pinyin": "chuang kou tie kao xia ban ping chuangkoutiekaoxiabanping c k t k x b p cktkxbp tie kao xia ban ping tiekaoxiabanping t k x b p tkxbp"
+  },
+  {
+    "id": "windows-snap-stretch",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "窗口拉伸至顶部底部",
+      "en": "Snap Stretch Vertical"
+    },
+    "description": {
+      "zh": "将桌面窗口拉伸至屏幕顶部和底部",
+      "en": "Stretch desktop window from top to bottom of screen"
+    },
+    "windows": "Win+Shift+Up",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "拉伸",
+      "stretch vertical"
+    ],
+    "pinyin": "chuang kou la shen zhi ding bu di bu chuangkoulashenzhidingbudibu c k l s z d b d b cklszdbdb la shen lashen l s ls"
+  },
+  {
+    "id": "windows-move-display-left",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "移动窗口到左侧显示器",
+      "en": "Move to Left Display"
+    },
+    "description": {
+      "zh": "将活动窗口移动到左侧显示器",
+      "en": "Move active window to left monitor"
+    },
+    "windows": "Win+Shift+Left",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "移动显示器",
+      "move display"
+    ],
+    "pinyin": "yi dong chuang kou dao zuo ce xian shi qi yidongchuangkoudaozuocexianshiqi y d c k d z c x s q ydckdzcxsq yi dong xian shi qi yidongxianshiqi y d x s q ydxsq"
+  },
+  {
+    "id": "windows-move-display-right",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "移动窗口到右侧显示器",
+      "en": "Move to Right Display"
+    },
+    "description": {
+      "zh": "将活动窗口移动到右侧显示器",
+      "en": "Move active window to right monitor"
+    },
+    "windows": "Win+Shift+Right",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "移动显示器",
+      "move display right"
+    ],
+    "pinyin": "yi dong chuang kou dao you ce xian shi qi yidongchuangkoudaoyoucexianshiqi y d c k d y c x s q ydckdycxsq yi dong xian shi qi yidongxianshiqi y d x s q ydxsq"
+  },
+  {
+    "id": "windows-virtual-desktop-new",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "新建虚拟桌面",
+      "en": "New Virtual Desktop"
+    },
+    "description": {
+      "zh": "创建新的虚拟桌面",
+      "en": "Create a new virtual desktop"
+    },
+    "windows": "Win+Ctrl+D",
+    "mac": "Control+↑+D",
+    "linux": "—",
+    "keywords": [
+      "虚拟桌面",
+      "virtual desktop",
+      "新建桌面"
+    ],
+    "pinyin": "xin jian xu ni zhuo mian xinjianxunizhuomian x j x n z m xjxnzm xu ni zhuo mian   xin jian zhuo mian xunizhuomian xinjianzhuomian x n z m   x j z m xnzm xjzm"
+  },
+  {
+    "id": "windows-virtual-desktop-next",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "切换到下一个虚拟桌面",
+      "en": "Next Virtual Desktop"
+    },
+    "description": {
+      "zh": "切换到右侧的虚拟桌面",
+      "en": "Switch to next virtual desktop on the right"
+    },
+    "windows": "Win+Ctrl+Right",
+    "mac": "Control+→",
+    "linux": "—",
+    "keywords": [
+      "虚拟桌面",
+      "virtual desktop switch"
+    ],
+    "pinyin": "qie huan dao xia yi ge xu ni zhuo mian qiehuandaoxiayigexunizhuomian q h d x y g x n z m qhdxygxnzm xu ni zhuo mian xunizhuomian x n z m xnzm"
+  },
+  {
+    "id": "windows-virtual-desktop-prev",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "切换到上一个虚拟桌面",
+      "en": "Previous Virtual Desktop"
+    },
+    "description": {
+      "zh": "切换到左侧的虚拟桌面",
+      "en": "Switch to previous virtual desktop on the left"
+    },
+    "windows": "Win+Ctrl+Left",
+    "mac": "Control+←",
+    "linux": "—",
+    "keywords": [
+      "虚拟桌面",
+      "virtual desktop previous"
+    ],
+    "pinyin": "qie huan dao shang yi ge xu ni zhuo mian qiehuandaoshangyigexunizhuomian q h d s y g x n z m qhdsygxnzm xu ni zhuo mian xunizhuomian x n z m xnzm"
+  },
+  {
+    "id": "windows-virtual-desktop-close",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "关闭当前虚拟桌面",
+      "en": "Close Virtual Desktop"
+    },
+    "description": {
+      "zh": "关闭正在使用的虚拟桌面",
+      "en": "Close current virtual desktop"
+    },
+    "windows": "Win+Ctrl+F4",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "虚拟桌面",
+      "close virtual desktop"
+    ],
+    "pinyin": "guan bi dang qian xu ni zhuo mian guanbidangqianxunizhuomian g b d q x n z m gbdqxnzm xu ni zhuo mian xunizhuomian x n z m xnzm"
+  },
+  {
+    "id": "windows-align-layouts",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "对齐布局",
+      "en": "Snap Layouts"
+    },
+    "description": {
+      "zh": "打开对齐布局选择面板",
+      "en": "Open snap layouts selector"
+    },
+    "windows": "Win+Z",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "对齐布局",
+      "snap layouts",
+      "分屏布局"
+    ],
+    "pinyin": "dui qi bu ju duiqibuju d q b j dqbj dui qi bu ju   fen ping bu ju duiqibuju fenpingbuju d q b j   f p b j dqbj fpbj"
+  },
+  {
+    "id": "windows-start-menu",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "开始菜单",
+      "en": "Start Menu"
+    },
+    "description": {
+      "zh": "打开或关闭开始菜单",
+      "en": "Open or close Start menu"
+    },
+    "windows": "Win",
+    "mac": "—",
+    "linux": "Super",
+    "keywords": [
+      "开始菜单",
+      "start menu",
+      "win键"
+    ],
+    "pinyin": "kai shi cai dan kaishicaidan k s c d kscd kai shi cai dan   w i n jian kaishicaidan winjian k s c d   w i n j kscd winj"
+  },
+  {
+    "id": "windows-screen-record",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "屏幕录制",
+      "en": "Screen Record"
+    },
+    "description": {
+      "zh": "选择区域录制视频并在截图工具中打开",
+      "en": "Select area to record video and open in Snipping Tool"
+    },
+    "windows": "Win+Shift+R",
+    "mac": "⌘+Shift+5",
+    "linux": "—",
+    "keywords": [
+      "录制",
+      "record",
+      "录屏"
+    ],
+    "pinyin": "ping mu lu zhi pingmuluzhi p m l z pmlz lu zhi   lu ping luzhi luping l z   l p lz lp"
+  },
+  {
+    "id": "windows-magnifier-zoom-in",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "放大镜放大",
+      "en": "Magnifier Zoom In"
+    },
+    "description": {
+      "zh": "使用放大镜放大",
+      "en": "Zoom in with Magnifier"
+    },
+    "windows": "Win++",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "放大镜",
+      "magnifier",
+      "zoom in",
+      "放大"
+    ],
+    "pinyin": "fang da jing fang da fangdajingfangda f d j f d fdjfd fang da jing   fang da fangdajing fangda f d j   f d fdj fd"
+  },
+  {
+    "id": "windows-magnifier-zoom-out",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "放大镜缩小",
+      "en": "Magnifier Zoom Out"
+    },
+    "description": {
+      "zh": "使用放大镜缩小",
+      "en": "Zoom out with Magnifier"
+    },
+    "windows": "Win+-",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "放大镜",
+      "magnifier",
+      "zoom out",
+      "缩小"
+    ],
+    "pinyin": "fang da jing suo xiao fangdajingsuoxiao f d j s x fdjsx fang da jing   suo xiao fangdajing suoxiao f d j   s x fdj sx"
+  },
+  {
+    "id": "windows-close-magnifier",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "关闭放大镜",
+      "en": "Close Magnifier"
+    },
+    "description": {
+      "zh": "关闭放大镜工具",
+      "en": "Exit Magnifier tool"
+    },
+    "windows": "Win+Esc",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "放大镜",
+      "magnifier",
+      "关闭"
+    ],
+    "pinyin": "guan bi fang da jing guanbifangdajing g b f d j gbfdj fang da jing   guan bi fangdajing guanbi f d j   g b fdj gb"
+  },
+  {
+    "id": "windows-narrator",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "讲述人",
+      "en": "Narrator"
+    },
+    "description": {
+      "zh": "打开或关闭讲述人（屏幕阅读器）",
+      "en": "Toggle Narrator screen reader"
+    },
+    "windows": "Win+Ctrl+Enter",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "讲述人",
+      "narrator",
+      "屏幕阅读器"
+    ],
+    "pinyin": "jiang shu ren jiangshuren j s r jsr jiang shu ren   ping mu yue du qi jiangshuren pingmuyueduqi j s r   p m y d q jsr pmydq"
+  },
+  {
+    "id": "windows-switch-input-lang",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "切换输入法语言",
+      "en": "Switch Input Language"
+    },
+    "description": {
+      "zh": "按顺序向前切换输入语言和键盘布局",
+      "en": "Cycle forward through input languages and keyboard layouts"
+    },
+    "windows": "Win+Space",
+    "mac": "Control+Space",
+    "linux": "Super+Space",
+    "keywords": [
+      "输入法",
+      "input method",
+      "切换语言",
+      "IME"
+    ],
+    "pinyin": "qie huan shu ru fa yu yan qiehuanshurufayuyan q h s r f y y qhsrfyy shu ru fa   qie huan yu yan shurufa qiehuanyuyan s r f   q h y y srf qhyy"
+  },
+  {
+    "id": "windows-switch-input-lang-back",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "反向切换输入法语言",
+      "en": "Switch Input Language Backward"
+    },
+    "description": {
+      "zh": "按顺序向后切换输入语言和键盘布局",
+      "en": "Cycle backward through input languages and keyboard layouts"
+    },
+    "windows": "Win+Shift+Space",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "输入法",
+      "input method",
+      "反向切换"
+    ],
+    "pinyin": "fan xiang qie huan shu ru fa yu yan fanxiangqiehuanshurufayuyan f x q h s r f y y fxqhsrfyy shu ru fa   fan xiang qie huan shurufa fanxiangqiehuan s r f   f x q h srf fxqh"
+  },
+  {
+    "id": "windows-toggle-ime",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "开关中文输入法",
+      "en": "Toggle IME"
+    },
+    "description": {
+      "zh": "启用或禁用中文输入法编辑器（IME）",
+      "en": "Enable or disable IME (Chinese Input Method Editor)"
+    },
+    "windows": "Ctrl+Space",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "输入法",
+      "IME",
+      "中文输入"
+    ],
+    "pinyin": "kai guan zhong wen shu ru fa kaiguanzhongwenshurufa k g z w s r f kgzwsrf shu ru fa   zhong wen shu ru shurufa zhongwenshuru s r f   z w s r srf zwsr"
+  },
+  {
+    "id": "windows-switch-keyboard-layout",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "切换键盘布局",
+      "en": "Switch Keyboard Layout"
+    },
+    "description": {
+      "zh": "切换键盘布局（有多个时）",
+      "en": "Switch keyboard layout when multiple installed"
+    },
+    "windows": "Ctrl+Shift",
+    "mac": "Control+Space",
+    "linux": "—",
+    "keywords": [
+      "键盘布局",
+      "keyboard layout",
+      "切换布局"
+    ],
+    "pinyin": "qie huan jian pan bu ju qiehuanjianpanbuju q h j p b j qhjpbj jian pan bu ju   qie huan bu ju jianpanbuju qiehuanbuju j p b j   q h b j jpbj qhbj"
+  },
+  {
+    "id": "windows-safe-screen",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "安全选项屏幕",
+      "en": "Security Options"
+    },
+    "description": {
+      "zh": "切换到安全屏幕（锁定/切换用户/任务管理器等）",
+      "en": "Switch to security options screen (lock/user switch/task manager)"
+    },
+    "windows": "Ctrl+Alt+Del",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "安全",
+      "security",
+      "锁定",
+      "任务管理器"
+    ],
+    "pinyin": "an quan xuan xiang ping mu anquanxuanxiangpingmu a q x x p m aqxxpm an quan   suo ding   ren wu guan li qi anquan suoding renwuguanliqi a q   s d   r w g l q aq sd rwglq"
+  },
+  {
+    "id": "windows-alt-tab-all",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "使用箭头切换应用",
+      "en": "Switch Apps with Arrows"
+    },
+    "description": {
+      "zh": "查看所有打开应用的缩略图，用箭头键切换",
+      "en": "View open app thumbnails and switch with arrow keys"
+    },
+    "windows": "Ctrl+Alt+Tab",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "切换应用",
+      "switch apps",
+      "alt+tab"
+    ],
+    "pinyin": "shi yong jian tou qie huan ying yong shiyongjiantouqiehuanyingyong s y j t q h y y syjtqhyy qie huan ying yong qiehuanyingyong q h y y qhyy"
+  },
+  {
+    "id": "windows-refresh",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "刷新",
+      "en": "Refresh"
+    },
+    "description": {
+      "zh": "刷新活动窗口",
+      "en": "Refresh active window"
+    },
+    "windows": "F5",
+    "mac": "—",
+    "linux": "F5",
+    "keywords": [
+      "刷新",
+      "refresh",
+      "重载"
+    ],
+    "pinyin": "shua xin shuaxin s x sx shua xin   zhong zai shuaxin zhongzai s x   z z sx zz"
+  },
+  {
+    "id": "windows-rename",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "重命名",
+      "en": "Rename"
+    },
+    "description": {
+      "zh": "重命名所选项目（资源管理器等）",
+      "en": "Rename selected item (File Explorer etc.)"
+    },
+    "windows": "F2",
+    "mac": "Return",
+    "linux": "F2",
+    "keywords": [
+      "重命名",
+      "rename"
+    ],
+    "pinyin": "zhong ming ming zhongmingming z m m zmm zhong ming ming zhongmingming z m m zmm"
+  },
+  {
+    "id": "windows-context-menu",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "快捷菜单",
+      "en": "Context Menu"
+    },
+    "description": {
+      "zh": "显示选定项目的上下文（右键）菜单",
+      "en": "Show context (right-click) menu for selected item"
+    },
+    "windows": "Shift+F10",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "右键菜单",
+      "context menu",
+      "快捷菜单"
+    ],
+    "pinyin": "kuai jie cai dan kuaijiecaidan k j c d kjcd you jian cai dan   kuai jie cai dan youjiancaidan kuaijiecaidan y j c d   k j c d yjcd kjcd"
+  },
+  {
+    "id": "windows-permanent-delete",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "永久删除",
+      "en": "Permanent Delete"
+    },
+    "description": {
+      "zh": "永久删除所选项不放入回收站",
+      "en": "Permanently delete items without moving to Recycle Bin"
+    },
+    "windows": "Shift+Delete",
+    "mac": "⌘+Delete",
+    "linux": "Shift+Delete",
+    "keywords": [
+      "永久删除",
+      "permanent delete",
+      "shift+delete"
+    ],
+    "pinyin": "yong jiu shan chu yongjiushanchu y j s c yjsc yong jiu shan chu yongjiushanchu y j s c yjsc"
+  },
+  {
+    "id": "windows-explorer-new-folder",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "新建文件夹",
+      "en": "New Folder"
+    },
+    "description": {
+      "zh": "在文件资源管理器中新建文件夹",
+      "en": "Create new folder in File Explorer"
+    },
+    "windows": "Ctrl+Shift+N",
+    "mac": "⌘+Shift+N",
+    "linux": "—",
+    "keywords": [
+      "新建文件夹",
+      "new folder"
+    ],
+    "pinyin": "xin jian wen jian jia xinjianwenjianjia x j w j j xjwjj xin jian wen jian jia xinjianwenjianjia x j w j j xjwjj"
+  },
+  {
+    "id": "windows-explorer-new-window",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "资源管理器新窗口",
+      "en": "Explorer New Window"
+    },
+    "description": {
+      "zh": "打开新的文件资源管理器窗口",
+      "en": "Open a new File Explorer window"
+    },
+    "windows": "Ctrl+N",
+    "mac": "⌘+N",
+    "linux": "—",
+    "keywords": [
+      "新窗口",
+      "new window",
+      "资源管理器"
+    ],
+    "pinyin": "zi yuan guan li qi xin chuang kou ziyuanguanliqixinchuangkou z y g l q x c k zyglqxck xin chuang kou   zi yuan guan li qi xinchuangkou ziyuanguanliqi x c k   z y g l q xck zyglq"
+  },
+  {
+    "id": "windows-explorer-address-bar",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "定位地址栏",
+      "en": "Focus Address Bar"
+    },
+    "description": {
+      "zh": "将焦点放在地址栏上",
+      "en": "Focus address bar in File Explorer"
+    },
+    "windows": "Ctrl+L / Alt+D",
+    "mac": "⌘+L",
+    "linux": "—",
+    "keywords": [
+      "地址栏",
+      "address bar"
+    ],
+    "pinyin": "ding wei di zhi lan dingweidizhilan d w d z l dwdzl di zhi lan dizhilan d z l dzl"
+  },
+  {
+    "id": "windows-explorer-properties",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "属性",
+      "en": "Properties"
+    },
+    "description": {
+      "zh": "显示所选项目的属性",
+      "en": "Show properties of selected item"
+    },
+    "windows": "Alt+Enter",
+    "mac": "⌘+I",
+    "linux": "—",
+    "keywords": [
+      "属性",
+      "properties"
+    ],
+    "pinyin": "shu xing shuxing s x sx shu xing shuxing s x sx"
+  },
+  {
+    "id": "windows-explorer-toggle-preview",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "预览窗格",
+      "en": "Preview Pane"
+    },
+    "description": {
+      "zh": "显示或隐藏预览窗格",
+      "en": "Toggle preview pane visibility"
+    },
+    "windows": "Alt+P",
+    "mac": "⌘+Shift+P",
+    "linux": "—",
+    "keywords": [
+      "预览窗格",
+      "preview pane"
+    ],
+    "pinyin": "yu lan chuang ge yulanchuangge y l c g ylcg yu lan chuang ge yulanchuangge y l c g ylcg"
+  },
+  {
+    "id": "windows-explorer-toggle-details",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "细节窗格",
+      "en": "Details Pane"
+    },
+    "description": {
+      "zh": "显示或隐藏细节窗格",
+      "en": "Toggle details pane visibility"
+    },
+    "windows": "Alt+Shift+P",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "细节窗格",
+      "details pane"
+    ],
+    "pinyin": "xi jie chuang ge xijiechuangge x j c g xjcg xi jie chuang ge xijiechuangge x j c g xjcg"
+  },
+  {
+    "id": "windows-explorer-new-tab",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "资源管理器新标签页",
+      "en": "Explorer New Tab"
+    },
+    "description": {
+      "zh": "打开新标签页并切换到该标签页",
+      "en": "Open new tab and switch to it in File Explorer"
+    },
+    "windows": "Ctrl+T",
+    "mac": "⌘+T",
+    "linux": "—",
+    "keywords": [
+      "新标签页",
+      "new tab",
+      "资源管理器"
+    ],
+    "pinyin": "zi yuan guan li qi xin biao qian ye ziyuanguanliqixinbiaoqianye z y g l q x b q y zyglqxbqy xin biao qian ye   zi yuan guan li qi xinbiaoqianye ziyuanguanliqi x b q y   z y g l q xbqy zyglq"
+  },
+  {
+    "id": "windows-explorer-close-tab",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "关闭资源管理器标签页",
+      "en": "Explorer Close Tab"
+    },
+    "description": {
+      "zh": "关闭活动标签页；若只有一个则关闭窗口",
+      "en": "Close active tab; close window if only one tab"
+    },
+    "windows": "Ctrl+W",
+    "mac": "⌘+W",
+    "linux": "—",
+    "keywords": [
+      "关闭标签页",
+      "close tab"
+    ],
+    "pinyin": "guan bi zi yuan guan li qi biao qian ye guanbiziyuanguanliqibiaoqianye g b z y g l q b q y gbzyglqbqy guan bi biao qian ye guanbibiaoqianye g b b q y gbbqy"
+  },
+  {
+    "id": "windows-taskbar-cycle",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "循环浏览任务栏应用",
+      "en": "Cycle Taskbar Apps"
+    },
+    "description": {
+      "zh": "循环浏览任务栏中的应用图标",
+      "en": "Cycle through taskbar application icons"
+    },
+    "windows": "Win+T",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "任务栏",
+      "taskbar",
+      "循环"
+    ],
+    "pinyin": "xun huan liu lan ren wu lan ying yong xunhuanliulanrenwulanyingyong x h l l r w l y y xhllrwlyy ren wu lan   xun huan renwulan xunhuan r w l   x h rwl xh"
+  },
+  {
+    "id": "windows-taskbar-pinned-app",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "打开固定应用",
+      "en": "Open Pinned App"
+    },
+    "description": {
+      "zh": "打开或切换到任务栏固定位置的应用",
+      "en": "Open or switch to pinned taskbar app by position number"
+    },
+    "windows": "Win+0..9",
+    "mac": "—",
+    "linux": "—",
     "keywords": [
       "固定应用",
-      "pinned"
+      "pinned app",
+      "任务栏数字"
     ],
-    "pinyin": "gu ding ying yong gudingyingyong g d y y gdyy gu ding ying yong gudingyingyong g d y y gdyy"
+    "pinyin": "da kai gu ding ying yong dakaigudingyingyong d k g d y y dkgdyy gu ding ying yong   ren wu lan shu zi gudingyingyong renwulanshuzi g d y y   r w l s z gdyy rwlsz"
   },
   {
-    "id": "windows-win-close",
+    "id": "windows-taskbar-notification-area",
     "appId": "windows",
     "type": "system",
     "category": "system",
     "name": {
-      "zh": "关闭窗口",
-      "en": "Close Window"
+      "zh": "聚焦通知区域",
+      "en": "Focus Notification Area"
     },
     "description": {
-      "zh": "关闭窗口",
-      "en": "Close window"
+      "zh": "将焦点设置到任务栏通知区域的第一个图标",
+      "en": "Set focus to first icon in taskbar notification area"
     },
-    "windows": "Alt+F4",
-    "mac": "Alt+F4",
-    "linux": "Alt+F4",
+    "windows": "Win+B",
+    "mac": "—",
+    "linux": "—",
     "keywords": [
-      "关闭",
-      "close"
+      "通知区域",
+      "notification area",
+      "托盘"
     ],
-    "pinyin": "guan bi chuang kou guanbichuangkou g b c k gbck guan bi guanbi g b gb"
+    "pinyin": "ju jiao tong zhi qu yu jujiaotongzhiquyu j j t z q y jjtzqy tong zhi qu yu   tuo pan tongzhiquyu tuopan t z q y   t p tzqy tp"
+  },
+  {
+    "id": "windows-copilot-key",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "Copilot 键",
+      "en": "Copilot Key"
+    },
+    "description": {
+      "zh": "使用 Copilot 键打开或关闭 Windows 搜索",
+      "en": "Use Copilot key to toggle Windows Search"
+    },
+    "windows": "Copilot 键",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "copilot",
+      "AI助手"
+    ],
+    "pinyin": "c o p i l o t   jian copilot jian c o p i l o t   j copilot j a i zhu shou aizhushou a i z s aizs"
+  },
+  {
+    "id": "windows-recall",
+    "appId": "windows",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "召回（Recall）",
+      "en": "Recall"
+    },
+    "description": {
+      "zh": "打开召回功能（需满足最低系统要求）",
+      "en": "Open Recall feature (requires minimum system requirements)"
+    },
+    "windows": "Win+J",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "召回",
+      "recall"
+    ],
+    "pinyin": "zhao hui （ r e c a l l ） zhaohui（recall） z h （ r e c a l l ） zh（recall） zhao hui zhaohui z h zh"
   }
 ]

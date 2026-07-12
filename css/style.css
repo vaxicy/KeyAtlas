@@ -56,7 +56,7 @@
 :focus:not(:focus-visible) { outline: none; }
 
 html, body {
-  width: 380px;
+  width: 340px;
   background: var(--bg);
   color: var(--text);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
@@ -65,14 +65,14 @@ html, body {
   -webkit-font-smoothing: antialiased;
 }
 
-.app { position: relative; display: flex; flex-direction: column; height: 540px; overflow: hidden; }
+.app { position: relative; display: flex; flex-direction: column; height: 470px; overflow: hidden; }
 
 /* ---- Header (compact) ---- */
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 14px 6px;
+  padding: 8px 12px 4px;
 }
 .brand { display: flex; align-items: center; gap: 9px; }
 .brand-logo { width: 28px; height: 28px; border-radius: 7px; }
@@ -160,8 +160,8 @@ html, body {
 .tabs {
   display: flex;
   gap: 4px;
-  padding: 0 14px;
-  margin-bottom: 8px;
+  padding: 0 12px;
+  margin-bottom: 4px;
 }
 .tab {
   flex: 1;
@@ -186,7 +186,7 @@ html, body {
 .content {
   flex: 1;
   overflow-y: auto;
-  padding: 2px 14px 14px;
+  padding: 2px 12px 12px;
 }
 .content .kbd-hint {
   font-size: 10px;
@@ -422,7 +422,7 @@ html, body {
   display: flex;
   align-items: center;
   gap: 8px;
-  margin: 10px 0 10px;
+  margin: 2px 0 6px;
 }
 .back-btn {
   border: none;
@@ -432,7 +432,6 @@ html, body {
   width: 30px; height: 30px;
   cursor: pointer;
   box-shadow: var(--shadow);
-  font-size: 16px;
   display: inline-flex;
   align-items: center;
   justify-content: center;

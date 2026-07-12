@@ -1,5 +1,348 @@
 [
   {
+    "id": "obs-quit",
+    "appId": "obs",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "退出 OBS",
+      "en": "Quit OBS"
+    },
+    "description": {
+      "zh": "退出 OBS Studio",
+      "en": "Quit OBS Studio"
+    },
+    "windows": "Ctrl-Q",
+    "mac": "Cmd-Q",
+    "linux": "Ctrl-Q",
+    "keywords": [
+      "退出",
+      "quit"
+    ],
+    "pinyin": "tui chu   o b s tuichu obs t c   o b s tc obs tui chu tuichu t c tc"
+  },
+  {
+    "id": "obs-undo",
+    "appId": "obs",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销编辑",
+      "en": "Undo edit"
+    },
+    "windows": "Ctrl-Z",
+    "mac": "Cmd-Z",
+    "linux": "Ctrl-Z",
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "obs-redo",
+    "appId": "obs",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "重做编辑",
+      "en": "Redo edit"
+    },
+    "windows": "Ctrl-Shift-Z",
+    "mac": "Cmd-Shift-Z",
+    "linux": "Ctrl-Shift-Z",
+    "keywords": [
+      "重做",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "obs-copy-source",
+    "appId": "obs",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "复制源",
+      "en": "Copy Source"
+    },
+    "description": {
+      "zh": "复制选中的源",
+      "en": "Copy selected source"
+    },
+    "windows": "Ctrl-C",
+    "mac": "Cmd-C",
+    "linux": "Ctrl-C",
+    "keywords": [
+      "复制",
+      "copy",
+      "源"
+    ],
+    "pinyin": "fu zhi yuan fuzhiyuan f z y fzy fu zhi   yuan fuzhi yuan f z   y fz y"
+  },
+  {
+    "id": "obs-paste-source",
+    "appId": "obs",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "粘贴源",
+      "en": "Paste Source"
+    },
+    "description": {
+      "zh": "粘贴源",
+      "en": "Paste source"
+    },
+    "windows": "Ctrl-V",
+    "mac": "Cmd-V",
+    "linux": "Ctrl-V",
+    "keywords": [
+      "粘贴",
+      "paste",
+      "源"
+    ],
+    "pinyin": "nian tie yuan niantieyuan n t y nty nian tie   yuan niantie yuan n t   y nt y"
+  },
+  {
+    "id": "obs-remove-source",
+    "appId": "obs",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "移除源",
+      "en": "Remove Source"
+    },
+    "description": {
+      "zh": "删除选中的源",
+      "en": "Remove selected source"
+    },
+    "windows": "Delete",
+    "mac": "Delete",
+    "linux": "Delete",
+    "keywords": [
+      "移除",
+      "删除",
+      "remove",
+      "delete"
+    ],
+    "pinyin": "yi chu yuan yichuyuan y c y ycy yi chu   shan chu yichu shanchu y c   s c yc sc"
+  },
+  {
+    "id": "obs-source-up",
+    "appId": "obs",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "上移源",
+      "en": "Move Source Up"
+    },
+    "description": {
+      "zh": "在源列表中上移",
+      "en": "Move source up in list"
+    },
+    "windows": "Ctrl-Up",
+    "mac": "Cmd-Up",
+    "linux": "Ctrl-Up",
+    "keywords": [
+      "上移",
+      "move up",
+      "源"
+    ],
+    "pinyin": "shang yi yuan shangyiyuan s y y syy shang yi   yuan shangyi yuan s y   y sy y"
+  },
+  {
+    "id": "obs-source-down",
+    "appId": "obs",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "下移源",
+      "en": "Move Source Down"
+    },
+    "description": {
+      "zh": "在源列表中下移",
+      "en": "Move source down in list"
+    },
+    "windows": "Ctrl-Down",
+    "mac": "Cmd-Down",
+    "linux": "Ctrl-Down",
+    "keywords": [
+      "下移",
+      "move down",
+      "源"
+    ],
+    "pinyin": "xia yi yuan xiayiyuan x y y xyy xia yi   yuan xiayi yuan x y   y xy y"
+  },
+  {
+    "id": "obs-source-top",
+    "appId": "obs",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "源移到顶部",
+      "en": "Source to Top"
+    },
+    "description": {
+      "zh": "将源移到源列表顶部",
+      "en": "Move source to top of list"
+    },
+    "windows": "Ctrl-Home",
+    "mac": "Cmd-Home",
+    "linux": "Ctrl-Home",
+    "keywords": [
+      "顶部",
+      "top",
+      "源"
+    ],
+    "pinyin": "yuan yi dao ding bu yuanyidaodingbu y y d d b yyddb ding bu   yuan dingbu yuan d b   y db y"
+  },
+  {
+    "id": "obs-source-bottom",
+    "appId": "obs",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "源移到底部",
+      "en": "Source to Bottom"
+    },
+    "description": {
+      "zh": "将源移到源列表底部",
+      "en": "Move source to bottom of list"
+    },
+    "windows": "Ctrl-End",
+    "mac": "Cmd-End",
+    "linux": "Ctrl-End",
+    "keywords": [
+      "底部",
+      "bottom",
+      "源"
+    ],
+    "pinyin": "yuan yi dao di bu yuanyidaodibu y y d d b yyddb di bu   yuan dibu yuan d b   y db y"
+  },
+  {
+    "id": "obs-edit-transform",
+    "appId": "obs",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "编辑变换",
+      "en": "Edit Transform"
+    },
+    "description": {
+      "zh": "编辑选中源的变换",
+      "en": "Edit transform of source"
+    },
+    "windows": "Ctrl-E",
+    "mac": "Cmd-E",
+    "linux": "Ctrl-E",
+    "keywords": [
+      "变换",
+      "transform",
+      "编辑"
+    ],
+    "pinyin": "bian ji bian huan bianjibianhuan b j b h bjbh bian huan   bian ji bianhuan bianji b h   b j bh bj"
+  },
+  {
+    "id": "obs-reset-transform",
+    "appId": "obs",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "重置变换",
+      "en": "Reset Transform"
+    },
+    "description": {
+      "zh": "重置源的变换",
+      "en": "Reset transform of source"
+    },
+    "windows": "Ctrl-R",
+    "mac": "Cmd-R",
+    "linux": "Ctrl-R",
+    "keywords": [
+      "重置",
+      "reset",
+      "变换"
+    ],
+    "pinyin": "zhong zhi bian huan zhongzhibianhuan z z b h zzbh zhong zhi   bian huan zhongzhi bianhuan z z   b h zz bh"
+  },
+  {
+    "id": "obs-fit-screen",
+    "appId": "obs",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "适配屏幕",
+      "en": "Fit to Screen"
+    },
+    "description": {
+      "zh": "源适配屏幕",
+      "en": "Fit source to screen"
+    },
+    "windows": "Ctrl-F",
+    "mac": "Cmd-F",
+    "linux": "Ctrl-F",
+    "keywords": [
+      "适配",
+      "fit",
+      "屏幕"
+    ],
+    "pinyin": "shi pei ping mu shipeipingmu s p p m sppm shi pei   ping mu shipei pingmu s p   p m sp pm"
+  },
+  {
+    "id": "obs-stretch-screen",
+    "appId": "obs",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "拉伸至屏幕",
+      "en": "Stretch to Screen"
+    },
+    "description": {
+      "zh": "拉伸源至屏幕",
+      "en": "Stretch source to screen"
+    },
+    "windows": "Ctrl-S",
+    "mac": "Cmd-S",
+    "linux": "Ctrl-S",
+    "keywords": [
+      "拉伸",
+      "stretch",
+      "屏幕"
+    ],
+    "pinyin": "la shen zhi ping mu lashenzhipingmu l s z p m lszpm la shen   ping mu lashen pingmu l s   p m ls pm"
+  },
+  {
+    "id": "obs-center-screen",
+    "appId": "obs",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "居中到屏幕",
+      "en": "Center to Screen"
+    },
+    "description": {
+      "zh": "源居中到屏幕",
+      "en": "Center source on screen"
+    },
+    "windows": "Ctrl-D",
+    "mac": "Cmd-D",
+    "linux": "Ctrl-D",
+    "keywords": [
+      "居中",
+      "center",
+      "屏幕"
+    ],
+    "pinyin": "ju zhong dao ping mu juzhongdaopingmu j z d p m jzdpm ju zhong   ping mu juzhong pingmu j z   p m jz pm"
+  },
+  {
     "id": "obs-startrec",
     "appId": "obs",
     "type": "software",
@@ -9,8 +352,8 @@
       "en": "Start Recording"
     },
     "description": {
-      "zh": "开始录制（推荐）",
-      "en": "Start recording (recommended)"
+      "zh": "开始录制（与停止同键切换）",
+      "en": "Start recording (toggles with stop)"
     },
     "windows": "F9",
     "mac": "F9",
@@ -32,17 +375,18 @@
       "en": "Stop Recording"
     },
     "description": {
-      "zh": "停止录制（推荐）",
-      "en": "Stop recording (recommended)"
+      "zh": "停止录制（与开始同键切换）",
+      "en": "Stop recording (toggles with start)"
     },
     "windows": "F9",
     "mac": "F9",
     "linux": "F9",
     "keywords": [
       "停止",
-      "stop"
+      "stop",
+      "录制"
     ],
-    "pinyin": "ting zhi lu zhi tingzhiluzhi t z l z tzlz ting zhi tingzhi t z tz"
+    "pinyin": "ting zhi lu zhi tingzhiluzhi t z l z tzlz ting zhi   lu zhi tingzhi luzhi t z   l z tz lz"
   },
   {
     "id": "obs-pauserec",
@@ -54,17 +398,18 @@
       "en": "Pause Recording"
     },
     "description": {
-      "zh": "暂停录制（推荐）",
-      "en": "Pause recording (recommended)"
+      "zh": "暂停/继续录制",
+      "en": "Pause/resume recording"
     },
     "windows": "F10",
     "mac": "F10",
     "linux": "F10",
     "keywords": [
       "暂停",
-      "pause"
+      "pause",
+      "录制"
     ],
-    "pinyin": "zan ting lu zhi zantingluzhi z t l z ztlz zan ting zanting z t zt"
+    "pinyin": "zan ting lu zhi zantingluzhi z t l z ztlz zan ting   lu zhi zanting luzhi z t   l z zt lz"
   },
   {
     "id": "obs-startstream",
@@ -76,8 +421,8 @@
       "en": "Start Streaming"
     },
     "description": {
-      "zh": "开始直播推流（推荐）",
-      "en": "Start streaming (recommended)"
+      "zh": "开始直播推流（与停止同键切换）",
+      "en": "Start streaming (toggles with stop)"
     },
     "windows": "F8",
     "mac": "F8",
@@ -99,17 +444,18 @@
       "en": "Stop Streaming"
     },
     "description": {
-      "zh": "停止直播（推荐）",
-      "en": "Stop streaming (recommended)"
+      "zh": "停止直播（与开始同键切换）",
+      "en": "Stop streaming (toggles with start)"
     },
     "windows": "F8",
     "mac": "F8",
     "linux": "F8",
     "keywords": [
       "停止推流",
-      "stop stream"
+      "stop stream",
+      "直播"
     ],
-    "pinyin": "ting zhi tui liu tingzhituiliu t z t l tztl ting zhi tui liu tingzhituiliu t z t l tztl"
+    "pinyin": "ting zhi tui liu tingzhituiliu t z t l tztl ting zhi tui liu   zhi bo tingzhituiliu zhibo t z t l   z b tztl zb"
   },
   {
     "id": "obs-studiomode",
@@ -121,8 +467,8 @@
       "en": "Studio Mode"
     },
     "description": {
-      "zh": "切换演播室模式（推荐）",
-      "en": "Toggle studio mode (recommended)"
+      "zh": "切换演播室模式",
+      "en": "Toggle studio mode"
     },
     "windows": "F11",
     "mac": "F11",
@@ -143,8 +489,8 @@
       "en": "Transition"
     },
     "description": {
-      "zh": "触发场景过渡（推荐）",
-      "en": "Trigger transition (recommended)"
+      "zh": "触发场景过渡",
+      "en": "Trigger transition"
     },
     "windows": "F12",
     "mac": "F12",
@@ -166,12 +512,12 @@
       "en": "Previous Scene"
     },
     "description": {
-      "zh": "切换上一个场景（推荐）",
-      "en": "Previous scene (recommended)"
+      "zh": "切换上一个场景",
+      "en": "Switch to previous scene"
     },
-    "windows": "Ctrl+PageUp",
-    "mac": "Cmd+PageUp",
-    "linux": "Ctrl+PageUp",
+    "windows": "Ctrl-PageUp",
+    "mac": "Cmd-PageUp",
+    "linux": "Ctrl-PageUp",
     "keywords": [
       "上一个场景",
       "prev scene"
@@ -188,12 +534,12 @@
       "en": "Next Scene"
     },
     "description": {
-      "zh": "切换下一个场景（推荐）",
-      "en": "Next scene (recommended)"
+      "zh": "切换下一个场景",
+      "en": "Switch to next scene"
     },
-    "windows": "Ctrl+PageDown",
-    "mac": "Cmd+PageDown",
-    "linux": "Ctrl+PageDown",
+    "windows": "Ctrl-PageDown",
+    "mac": "Cmd-PageDown",
+    "linux": "Ctrl-PageDown",
     "keywords": [
       "下一个场景",
       "next scene"
@@ -210,12 +556,12 @@
       "en": "Mute Source"
     },
     "description": {
-      "zh": "静音选中来源（推荐）",
-      "en": "Mute source (recommended)"
+      "zh": "静音选中来源",
+      "en": "Mute selected source"
     },
-    "windows": "Ctrl+M",
-    "mac": "Cmd+M",
-    "linux": "Ctrl+M",
+    "windows": "Ctrl-M",
+    "mac": "Cmd-M",
+    "linux": "Ctrl-M",
     "keywords": [
       "静音",
       "mute",
@@ -233,12 +579,12 @@
       "en": "Unmute Source"
     },
     "description": {
-      "zh": "取消静音（推荐）",
-      "en": "Unmute source (recommended)"
+      "zh": "取消静音来源",
+      "en": "Unmute selected source"
     },
-    "windows": "Ctrl+Shift+M",
-    "mac": "Cmd+Shift+M",
-    "linux": "Ctrl+Shift+M",
+    "windows": "Ctrl-Shift-M",
+    "mac": "Cmd-Shift-M",
+    "linux": "Ctrl-Shift-M",
     "keywords": [
       "取消静音",
       "unmute"
@@ -255,12 +601,12 @@
       "en": "Interact"
     },
     "description": {
-      "zh": "与来源交互（推荐）",
-      "en": "Interact with source (recommended)"
+      "zh": "与来源交互",
+      "en": "Interact with source"
     },
-    "windows": "Ctrl+Shift+I",
-    "mac": "Cmd+Shift+I",
-    "linux": "Ctrl+Shift+I",
+    "windows": "Ctrl-Shift-I",
+    "mac": "Cmd-Shift-I",
+    "linux": "Ctrl-Shift-I",
     "keywords": [
       "交互",
       "interact"
@@ -277,12 +623,12 @@
       "en": "Lock Preview"
     },
     "description": {
-      "zh": "锁定预览（推荐）",
-      "en": "Lock preview (recommended)"
+      "zh": "锁定预览",
+      "en": "Lock preview"
     },
-    "windows": "Ctrl+L",
-    "mac": "Cmd+L",
-    "linux": "Ctrl+L",
+    "windows": "Ctrl-L",
+    "mac": "Cmd-L",
+    "linux": "Ctrl-L",
     "keywords": [
       "锁定",
       "lock"
@@ -299,12 +645,12 @@
       "en": "Fullscreen Projector"
     },
     "description": {
-      "zh": "全屏投影预览（推荐）",
-      "en": "Fullscreen projector (recommended)"
+      "zh": "全屏投影预览",
+      "en": "Fullscreen projector"
     },
-    "windows": "Ctrl+Shift+F",
-    "mac": "Cmd+Shift+F",
-    "linux": "Ctrl+Shift+F",
+    "windows": "Ctrl-Shift-F",
+    "mac": "Cmd-Shift-F",
+    "linux": "Ctrl-Shift-F",
     "keywords": [
       "全屏",
       "fullscreen",
@@ -322,12 +668,12 @@
       "en": "Settings"
     },
     "description": {
-      "zh": "打开设置（推荐）",
-      "en": "Open settings (recommended)"
+      "zh": "打开设置",
+      "en": "Open settings"
     },
-    "windows": "Ctrl+,",
-    "mac": "Cmd+,",
-    "linux": "Ctrl+,",
+    "windows": "Ctrl-,",
+    "mac": "Cmd-,",
+    "linux": "Ctrl-,",
     "keywords": [
       "设置",
       "settings"
@@ -344,12 +690,12 @@
       "en": "Screenshot"
     },
     "description": {
-      "zh": "截取来源画面（推荐）",
-      "en": "Screenshot source (recommended)"
+      "zh": "截取来源画面",
+      "en": "Screenshot source"
     },
-    "windows": "Ctrl+Shift+S",
-    "mac": "Cmd+Shift+S",
-    "linux": "Ctrl+Shift+S",
+    "windows": "Ctrl-Shift-S",
+    "mac": "Cmd-Shift-S",
+    "linux": "Ctrl-Shift-S",
     "keywords": [
       "截图",
       "screenshot"
@@ -366,12 +712,12 @@
       "en": "Toggle Source Visibility"
     },
     "description": {
-      "zh": "切换来源可见性（推荐）",
-      "en": "Toggle visibility (recommended)"
+      "zh": "切换来源可见性",
+      "en": "Toggle visibility"
     },
-    "windows": "Ctrl+H",
-    "mac": "Cmd+H",
-    "linux": "Ctrl+H",
+    "windows": "Ctrl-H",
+    "mac": "Cmd-H",
+    "linux": "Ctrl-H",
     "keywords": [
       "隐藏",
       "visibility",
@@ -389,12 +735,12 @@
       "en": "Toggle Frontend"
     },
     "description": {
-      "zh": "切换前端窗口（推荐）",
-      "en": "Toggle frontend (recommended)"
+      "zh": "切换前端窗口",
+      "en": "Toggle frontend"
     },
-    "windows": "Ctrl+Shift+W",
-    "mac": "Cmd+Shift+W",
-    "linux": "Ctrl+Shift+W",
+    "windows": "Ctrl-Shift-W",
+    "mac": "Cmd-Shift-W",
+    "linux": "Ctrl-Shift-W",
     "keywords": [
       "前端",
       "frontend"

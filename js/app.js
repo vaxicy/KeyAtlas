@@ -87,11 +87,28 @@
     return s[p] || s.windows || s.mac || s.linux || "—";
   }
   function renderKeys(combo) {
-    return combo
+    // Take only the primary combo when alternatives are listed with "/" or "或"
+    const primary = String(combo).split(/\s*(?:\/|或)\s*/)[0].trim();
+    // Entries like "无默认(Alt+点击图标)" contain CJK → render as plain text, not badges
+    if (/[一-鿿]/.test(primary)) {
+      return `<span class="kbd-none">${escapeHTML(primary)}</span>`;
+    }
+    const MOD = {
+      Ctrl: "⌃", Command: "⌘", Cmd: "⌘", "⌘": "⌘",
+      Alt: "⌥", Option: "⌥", "⌥": "⌥",
+      Shift: "⇧", Win: "⊞", "⊞": "⊞",
+    };
+    return primary
       .split(/\s*\+\s*/)
       .map((k) => k.trim())
       .filter(Boolean)
-      .map((k) => `<span class="kbd">${escapeHTML(k)}</span>`)
+      .map((k) => {
+        // strip trailing "(...)" annotations like "(盖印图层)"
+        const raw = k.replace(/\([^)]*\)/g, "").trim() || k;
+        const label = MOD[raw] || raw;
+        const long = raw.length > 8 ? " long" : "";
+        return `<span class="kbd${long}">${escapeHTML(label)}</span>`;
+      })
       .join('<span class="kbd-plus">+</span>');
   }
 

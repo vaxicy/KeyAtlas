@@ -13,8 +13,8 @@
       "en": "Create a new timeline sequence"
     },
     "windows": "Ctrl+N",
-    "mac": "⌘+N",
-    "linux": "—",
+    "mac": "Cmd+N",
+    "linux": "Ctrl+N",
     "keywords": [
       "序列",
       "sequence",
@@ -36,8 +36,8 @@
       "en": "Create a new project"
     },
     "windows": "Ctrl+Alt+N",
-    "mac": "⌘+Opt+N",
-    "linux": "—",
+    "mac": "Cmd+Opt+N",
+    "linux": "Ctrl+Alt+N",
     "keywords": [
       "项目",
       "project",
@@ -59,8 +59,8 @@
       "en": "Import media files into the project"
     },
     "windows": "Ctrl+I",
-    "mac": "⌘+I",
-    "linux": "—",
+    "mac": "Cmd+I",
+    "linux": "Ctrl+I",
     "keywords": [
       "导入",
       "import",
@@ -82,8 +82,8 @@
       "en": "Open export settings to render video"
     },
     "windows": "Ctrl+M",
-    "mac": "⌘+M",
-    "linux": "—",
+    "mac": "Cmd+M",
+    "linux": "Ctrl+M",
     "keywords": [
       "导出",
       "export",
@@ -105,8 +105,8 @@
       "en": "Save the current project"
     },
     "windows": "Ctrl+S",
-    "mac": "⌘+S",
-    "linux": "—",
+    "mac": "Cmd+S",
+    "linux": "Ctrl+S",
     "keywords": [
       "保存",
       "save"
@@ -127,8 +127,8 @@
       "en": "Undo the last action"
     },
     "windows": "Ctrl+Z",
-    "mac": "⌘+Z",
-    "linux": "—",
+    "mac": "Cmd+Z",
+    "linux": "Ctrl+Z",
     "keywords": [
       "撤销",
       "undo"
@@ -149,13 +149,57 @@
       "en": "Redo the undone action"
     },
     "windows": "Ctrl+Shift+Z",
-    "mac": "⌘+Shift+Z",
-    "linux": "—",
+    "mac": "Cmd+Shift+Z",
+    "linux": "Ctrl+Shift+Z",
     "keywords": [
       "重做",
       "redo"
     ],
     "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "pr-copy",
+    "appId": "premiere",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "复制",
+      "en": "Copy"
+    },
+    "description": {
+      "zh": "复制选中的剪辑或内容",
+      "en": "Copy selected clip or content"
+    },
+    "windows": "Ctrl+C",
+    "mac": "Cmd+C",
+    "linux": "Ctrl+C",
+    "keywords": [
+      "复制",
+      "copy"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "pr-paste",
+    "appId": "premiere",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "粘贴",
+      "en": "Paste"
+    },
+    "description": {
+      "zh": "粘贴已复制的内容",
+      "en": "Paste copied content"
+    },
+    "windows": "Ctrl+V",
+    "mac": "Cmd+V",
+    "linux": "Ctrl+V",
+    "keywords": [
+      "粘贴",
+      "paste"
+    ],
+    "pinyin": "nian tie niantie n t nt nian tie niantie n t nt"
   },
   {
     "id": "pr-playstop",
@@ -181,141 +225,50 @@
     "pinyin": "bo fang / ting zhi bofang/tingzhi b f / t z bf/tz bo fang   ting zhi bofang tingzhi b f   t z bf tz"
   },
   {
-    "id": "pr-razor",
+    "id": "pr-stepback",
     "appId": "premiere",
     "type": "software",
     "category": "video",
     "name": {
-      "zh": "剃刀工具",
-      "en": "Razor Tool"
+      "zh": "后退一帧",
+      "en": "Step Back One Frame"
     },
     "description": {
-      "zh": "在时间轴上切割剪辑",
-      "en": "Cut clips on the timeline"
+      "zh": "播放头逐帧后退",
+      "en": "Move playhead back one frame"
     },
-    "windows": "C",
-    "mac": "C",
-    "linux": "C",
+    "windows": "Left",
+    "mac": "Left",
+    "linux": "Left",
     "keywords": [
-      "剃刀",
-      "razor",
-      "切割"
+      "逐帧",
+      "frame",
+      "后退"
     ],
-    "pinyin": "ti dao gong ju tidaogongju t d g j tdgj ti dao   qie ge tidao qiege t d   q g td qg"
+    "pinyin": "hou tui yi zhen houtuiyizhen h t y z htyz zhu zhen   hou tui zhuzhen houtui z z   h t zz ht"
   },
   {
-    "id": "pr-selection",
+    "id": "pr-stepforward",
     "appId": "premiere",
     "type": "software",
     "category": "video",
     "name": {
-      "zh": "选择工具",
-      "en": "Selection Tool"
+      "zh": "前进一帧",
+      "en": "Step Forward One Frame"
     },
     "description": {
-      "zh": "选择并移动剪辑",
-      "en": "Select and move clips"
+      "zh": "播放头逐帧前进",
+      "en": "Move playhead forward one frame"
     },
-    "windows": "V",
-    "mac": "V",
-    "linux": "V",
+    "windows": "Right",
+    "mac": "Right",
+    "linux": "Right",
     "keywords": [
-      "选择",
-      "select",
-      "工具"
+      "逐帧",
+      "frame",
+      "前进"
     ],
-    "pinyin": "xuan ze gong ju xuanzegongju x z g j xzgj xuan ze   gong ju xuanze gongju x z   g j xz gj"
-  },
-  {
-    "id": "pr-ripple",
-    "appId": "premiere",
-    "type": "software",
-    "category": "video",
-    "name": {
-      "zh": "波纹编辑",
-      "en": "Ripple Edit"
-    },
-    "description": {
-      "zh": "拖动边缘并自动移动后续剪辑",
-      "en": "Drag edges and shift following clips"
-    },
-    "windows": "B",
-    "mac": "B",
-    "linux": "B",
-    "keywords": [
-      "波纹",
-      "ripple",
-      "编辑"
-    ],
-    "pinyin": "bo wen bian ji bowenbianji b w b j bwbj bo wen   bian ji bowen bianji b w   b j bw bj"
-  },
-  {
-    "id": "pr-rate",
-    "appId": "premiere",
-    "type": "software",
-    "category": "video",
-    "name": {
-      "zh": "速率拉伸",
-      "en": "Rate Stretch"
-    },
-    "description": {
-      "zh": "拖动改变剪辑速度与时长",
-      "en": "Drag to change clip speed and duration"
-    },
-    "windows": "R",
-    "mac": "R",
-    "linux": "R",
-    "keywords": [
-      "速率",
-      "rate",
-      "速度"
-    ],
-    "pinyin": "su lü la shen sulülashen s l l s slls su lü   su du sulü sudu s l   s d sl sd"
-  },
-  {
-    "id": "pr-pen",
-    "appId": "premiere",
-    "type": "software",
-    "category": "video",
-    "name": {
-      "zh": "钢笔工具",
-      "en": "Pen Tool"
-    },
-    "description": {
-      "zh": "绘制关键帧或蒙版路径",
-      "en": "Draw keyframes or mask paths"
-    },
-    "windows": "P",
-    "mac": "P",
-    "linux": "P",
-    "keywords": [
-      "钢笔",
-      "pen",
-      "关键帧"
-    ],
-    "pinyin": "gang bi gong ju gangbigongju g b g j gbgj gang bi   guan jian zhen gangbi guanjianzhen g b   g j z gb gjz"
-  },
-  {
-    "id": "pr-marker",
-    "appId": "premiere",
-    "type": "software",
-    "category": "video",
-    "name": {
-      "zh": "添加标记",
-      "en": "Add Marker"
-    },
-    "description": {
-      "zh": "在时间轴上添加标记点",
-      "en": "Add a marker on the timeline"
-    },
-    "windows": "M",
-    "mac": "M",
-    "linux": "M",
-    "keywords": [
-      "标记",
-      "marker"
-    ],
-    "pinyin": "tian jia biao ji tianjiabiaoji t j b j tjbj biao ji biaoji b j bj"
+    "pinyin": "qian jin yi zhen qianjinyizhen q j y z qjyz zhu zhen   qian jin zhuzhen qianjin z z   q j zz qj"
   },
   {
     "id": "pr-tostart",
@@ -364,128 +317,109 @@
     "pinyin": "tiao dao jie wei tiaodaojiewei t d j w tdjw jie wei   tiao zhuan jiewei tiaozhuan j w   t z jw tz"
   },
   {
-    "id": "pr-speed",
-    "appId": "premiere",
-    "type": "software",
-    "category": "video",
-    "name": {
-      "zh": "速度/持续时间",
-      "en": "Speed / Duration"
-    },
-    "description": {
-      "zh": "打开剪辑速度与持续时间设置",
-      "en": "Open clip speed and duration"
-    },
-    "windows": "Ctrl+R",
-    "mac": "⌘+R",
-    "linux": "—",
-    "keywords": [
-      "速度",
-      "speed",
-      "时长"
-    ],
-    "pinyin": "su du / chi xu shi jian sudu/chixushijian s d / c x s j sd/cxsj su du   shi chang sudu shichang s d   s c sd sc"
-  },
-  {
-    "id": "premiere-pr-select",
+    "id": "pr-select",
     "appId": "premiere",
     "type": "software",
     "category": "video",
     "name": {
       "zh": "选择工具",
-      "en": "Selection"
+      "en": "Selection Tool"
     },
     "description": {
-      "zh": "选择工具",
-      "en": "Selection"
+      "zh": "选择并移动剪辑",
+      "en": "Select and move clips"
     },
     "windows": "V",
     "mac": "V",
     "linux": "V",
     "keywords": [
       "选择",
-      "selection"
+      "select",
+      "工具"
     ],
-    "pinyin": "xuan ze gong ju xuanzegongju x z g j xzgj xuan ze xuanze x z xz"
+    "pinyin": "xuan ze gong ju xuanzegongju x z g j xzgj xuan ze   gong ju xuanze gongju x z   g j xz gj"
   },
   {
-    "id": "premiere-pr-track",
+    "id": "pr-trackselect",
     "appId": "premiere",
     "type": "software",
     "category": "video",
     "name": {
-      "zh": "轨道选择",
-      "en": "Track Select"
+      "zh": "轨道选择工具",
+      "en": "Track Select Tool"
     },
     "description": {
-      "zh": "轨道选择",
-      "en": "Track select"
+      "zh": "选择轨道上后续所有剪辑",
+      "en": "Select all clips forward on a track"
     },
     "windows": "A",
     "mac": "A",
     "linux": "A",
     "keywords": [
       "轨道",
-      "track"
+      "track",
+      "选择"
     ],
-    "pinyin": "gui dao xuan ze guidaoxuanze g d x z gdxz gui dao guidao g d gd"
+    "pinyin": "gui dao xuan ze gong ju guidaoxuanzegongju g d x z g j gdxzgj gui dao   xuan ze guidao xuanze g d   x z gd xz"
   },
   {
-    "id": "premiere-pr-ripple",
+    "id": "pr-ripple",
     "appId": "premiere",
     "type": "software",
     "category": "video",
     "name": {
-      "zh": "波纹编辑",
-      "en": "Ripple Edit"
+      "zh": "波纹编辑工具",
+      "en": "Ripple Edit Tool"
     },
     "description": {
-      "zh": "波纹编辑",
-      "en": "Ripple edit"
+      "zh": "拖动边缘并自动移动后续剪辑",
+      "en": "Drag edges and shift following clips"
     },
     "windows": "B",
     "mac": "B",
     "linux": "B",
     "keywords": [
       "波纹",
-      "ripple"
+      "ripple",
+      "编辑"
     ],
-    "pinyin": "bo wen bian ji bowenbianji b w b j bwbj bo wen bowen b w bw"
+    "pinyin": "bo wen bian ji gong ju bowenbianjigongju b w b j g j bwbjgj bo wen   bian ji bowen bianji b w   b j bw bj"
   },
   {
-    "id": "premiere-pr-roll",
+    "id": "pr-roll",
     "appId": "premiere",
     "type": "software",
     "category": "video",
     "name": {
-      "zh": "滚动编辑",
-      "en": "Rolling Edit"
+      "zh": "滚动编辑工具",
+      "en": "Rolling Edit Tool"
     },
     "description": {
-      "zh": "滚动编辑",
-      "en": "Rolling edit"
+      "zh": "同时调整相邻剪辑的入出点",
+      "en": "Adjust adjacent clip in/out points together"
     },
     "windows": "N",
     "mac": "N",
     "linux": "N",
     "keywords": [
       "滚动",
-      "rolling"
+      "rolling",
+      "编辑"
     ],
-    "pinyin": "gun dong bian ji gundongbianji g d b j gdbj gun dong gundong g d gd"
+    "pinyin": "gun dong bian ji gong ju gundongbianjigongju g d b j g j gdbjgj gun dong   bian ji gundong bianji g d   b j gd bj"
   },
   {
-    "id": "premiere-pr-rate",
+    "id": "pr-rate",
     "appId": "premiere",
     "type": "software",
     "category": "video",
     "name": {
-      "zh": "速率拉伸",
-      "en": "Rate Stretch"
+      "zh": "速率拉伸工具",
+      "en": "Rate Stretch Tool"
     },
     "description": {
-      "zh": "速率拉伸",
-      "en": "Rate stretch"
+      "zh": "拖动改变剪辑速度与时长",
+      "en": "Drag to change clip speed and duration"
     },
     "windows": "R",
     "mac": "R",
@@ -493,22 +427,22 @@
     "keywords": [
       "速率",
       "rate",
-      "拉伸"
+      "速度"
     ],
-    "pinyin": "su lü la shen sulülashen s l l s slls su lü   la shen sulü lashen s l   l s sl ls"
+    "pinyin": "su lü la shen gong ju sulülashengongju s l l s g j sllsgj su lü   su du sulü sudu s l   s d sl sd"
   },
   {
-    "id": "premiere-pr-razor",
+    "id": "pr-blade",
     "appId": "premiere",
     "type": "software",
     "category": "video",
     "name": {
       "zh": "剃刀工具",
-      "en": "Razor"
+      "en": "Razor Tool"
     },
     "description": {
-      "zh": "切割片段",
-      "en": "Razor"
+      "zh": "在时间轴上切割剪辑",
+      "en": "Cut clips on the timeline"
     },
     "windows": "C",
     "mac": "C",
@@ -521,17 +455,17 @@
     "pinyin": "ti dao gong ju tidaogongju t d g j tdgj ti dao   qie ge tidao qiege t d   q g td qg"
   },
   {
-    "id": "premiere-pr-slip",
+    "id": "pr-slip",
     "appId": "premiere",
     "type": "software",
     "category": "video",
     "name": {
-      "zh": "滑移",
-      "en": "Slip"
+      "zh": "滑移工具",
+      "en": "Slip Tool"
     },
     "description": {
-      "zh": "滑移编辑",
-      "en": "Slip"
+      "zh": "在不改变时长的情况下滑动源内容",
+      "en": "Slide source content without changing duration"
     },
     "windows": "Y",
     "mac": "Y",
@@ -540,20 +474,20 @@
       "滑移",
       "slip"
     ],
-    "pinyin": "hua yi huayi h y hy hua yi huayi h y hy"
+    "pinyin": "hua yi gong ju huayigongju h y g j hygj hua yi huayi h y hy"
   },
   {
-    "id": "premiere-pr-slide",
+    "id": "pr-slide",
     "appId": "premiere",
     "type": "software",
     "category": "video",
     "name": {
-      "zh": "滑动",
-      "en": "Slide"
+      "zh": "滑动工具",
+      "en": "Slide Tool"
     },
     "description": {
-      "zh": "滑动编辑",
-      "en": "Slide"
+      "zh": "在不改变时长的情况下滑动剪辑位置",
+      "en": "Slide clip position without changing duration"
     },
     "windows": "U",
     "mac": "U",
@@ -562,64 +496,66 @@
       "滑动",
       "slide"
     ],
-    "pinyin": "hua dong huadong h d hd hua dong huadong h d hd"
+    "pinyin": "hua dong gong ju huadonggongju h d g j hdgj hua dong huadong h d hd"
   },
   {
-    "id": "premiere-pr-pen",
+    "id": "pr-pen",
     "appId": "premiere",
     "type": "software",
     "category": "video",
     "name": {
-      "zh": "钢笔",
-      "en": "Pen"
+      "zh": "钢笔工具",
+      "en": "Pen Tool"
     },
     "description": {
-      "zh": "钢笔工具",
-      "en": "Pen"
+      "zh": "绘制关键帧或蒙版路径",
+      "en": "Draw keyframes or mask paths"
     },
     "windows": "P",
     "mac": "P",
     "linux": "P",
     "keywords": [
       "钢笔",
-      "pen"
+      "pen",
+      "关键帧"
     ],
-    "pinyin": "gang bi gangbi g b gb gang bi gangbi g b gb"
+    "pinyin": "gang bi gong ju gangbigongju g b g j gbgj gang bi   guan jian zhen gangbi guanjianzhen g b   g j z gb gjz"
   },
   {
-    "id": "premiere-pr-hand",
+    "id": "pr-hand",
     "appId": "premiere",
     "type": "software",
     "category": "video",
     "name": {
-      "zh": "抓手",
-      "en": "Hand"
+      "zh": "抓手工具",
+      "en": "Hand Tool"
     },
     "description": {
-      "zh": "平移",
-      "en": "Hand"
+      "zh": "平移时间轴或节目视图",
+      "en": "Pan the timeline or program view"
     },
     "windows": "H",
     "mac": "H",
     "linux": "H",
     "keywords": [
       "抓手",
-      "hand"
+      "hand",
+      "平移"
     ],
-    "pinyin": "zhua shou zhuashou z s zs zhua shou zhuashou z s zs"
+    "pinyin": "zhua shou gong ju zhuashougongju z s g j zsgj zhua shou   ping yi zhuashou pingyi z s   p y zs py"
   },
   {
-    "id": "premiere-pr-zoom",
+    "id": "pr-zoom",
     "appId": "premiere",
     "type": "software",
     "category": "video",
     "name": {
-      "zh": "缩放",
-      "en": "Zoom"
+      "zh": "缩放工具",
+      "en": "Zoom Tool"
     },
     "description": {
-      "zh": "缩放工具",
-      "en": "Zoom"
+      "zh": "放大或缩小时间轴视图",
+      "en": "Zoom in or out of the timeline"
     },
     "windows": "Z",
     "mac": "Z",
@@ -628,120 +564,55 @@
       "缩放",
       "zoom"
     ],
-    "pinyin": "suo fang suofang s f sf suo fang suofang s f sf"
+    "pinyin": "suo fang gong ju suofanggongju s f g j sfgj suo fang suofang s f sf"
   },
   {
-    "id": "premiere-pr-text",
+    "id": "pr-text",
     "appId": "premiere",
     "type": "software",
     "category": "video",
     "name": {
-      "zh": "文字",
-      "en": "Type"
+      "zh": "文字工具",
+      "en": "Type Tool"
     },
     "description": {
-      "zh": "文字工具",
-      "en": "Type"
+      "zh": "在节目监视器中添加文字",
+      "en": "Add text in the Program Monitor"
     },
     "windows": "T",
     "mac": "T",
     "linux": "T",
     "keywords": [
       "文字",
-      "type"
+      "type",
+      "字幕"
     ],
-    "pinyin": "wen zi wenzi w z wz wen zi wenzi w z wz"
+    "pinyin": "wen zi gong ju wenzigongju w z g j wzgj wen zi   zi mu wenzi zimu w z   z m wz zm"
   },
   {
-    "id": "premiere-pr-newseq",
+    "id": "pr-marker",
     "appId": "premiere",
     "type": "software",
     "category": "video",
     "name": {
-      "zh": "新建序列",
-      "en": "New Sequence"
+      "zh": "添加标记",
+      "en": "Add Marker"
     },
     "description": {
-      "zh": "新建序列",
-      "en": "New sequence"
+      "zh": "在时间轴上添加标记点",
+      "en": "Add a marker on the timeline"
     },
-    "windows": "Ctrl+N",
-    "mac": "Cmd+N",
-    "linux": "Ctrl+N",
+    "windows": "M",
+    "mac": "M",
+    "linux": "M",
     "keywords": [
-      "新建序列",
-      "sequence"
+      "标记",
+      "marker"
     ],
-    "pinyin": "xin jian xu lie xinjianxulie x j x l xjxl xin jian xu lie xinjianxulie x j x l xjxl"
+    "pinyin": "tian jia biao ji tianjiabiaoji t j b j tjbj biao ji biaoji b j bj"
   },
   {
-    "id": "premiere-pr-import",
-    "appId": "premiere",
-    "type": "software",
-    "category": "video",
-    "name": {
-      "zh": "导入",
-      "en": "Import"
-    },
-    "description": {
-      "zh": "导入素材",
-      "en": "Import"
-    },
-    "windows": "Ctrl+I",
-    "mac": "Cmd+I",
-    "linux": "Ctrl+I",
-    "keywords": [
-      "导入",
-      "import"
-    ],
-    "pinyin": "dao ru daoru d r dr dao ru daoru d r dr"
-  },
-  {
-    "id": "premiere-pr-export",
-    "appId": "premiere",
-    "type": "software",
-    "category": "video",
-    "name": {
-      "zh": "导出媒体",
-      "en": "Export Media"
-    },
-    "description": {
-      "zh": "导出",
-      "en": "Export media"
-    },
-    "windows": "Ctrl+M",
-    "mac": "Cmd+M",
-    "linux": "Ctrl+M",
-    "keywords": [
-      "导出",
-      "export"
-    ],
-    "pinyin": "dao chu mei ti daochumeiti d c m t dcmt dao chu daochu d c dc"
-  },
-  {
-    "id": "premiere-pr-play",
-    "appId": "premiere",
-    "type": "software",
-    "category": "video",
-    "name": {
-      "zh": "播放/停止",
-      "en": "Play/Stop"
-    },
-    "description": {
-      "zh": "播放或停止",
-      "en": "Play/stop"
-    },
-    "windows": "Space",
-    "mac": "Space",
-    "linux": "Space",
-    "keywords": [
-      "播放",
-      "play"
-    ],
-    "pinyin": "bo fang / ting zhi bofang/tingzhi b f / t z bf/tz bo fang bofang b f bf"
-  },
-  {
-    "id": "premiere-pr-markin",
+    "id": "pr-markin",
     "appId": "premiere",
     "type": "software",
     "category": "video",
@@ -750,8 +621,8 @@
       "en": "Mark In"
     },
     "description": {
-      "zh": "入点",
-      "en": "Mark in"
+      "zh": "设置入点",
+      "en": "Set the in point"
     },
     "windows": "I",
     "mac": "I",
@@ -763,7 +634,7 @@
     "pinyin": "biao ji ru dian biaojirudian b j r d bjrd ru dian rudian r d rd"
   },
   {
-    "id": "premiere-pr-markout",
+    "id": "pr-markout",
     "appId": "premiere",
     "type": "software",
     "category": "video",
@@ -772,8 +643,8 @@
       "en": "Mark Out"
     },
     "description": {
-      "zh": "出点",
-      "en": "Mark out"
+      "zh": "设置出点",
+      "en": "Set the out point"
     },
     "windows": "O",
     "mac": "O",
@@ -785,43 +656,68 @@
     "pinyin": "biao ji chu dian biaojichudian b j c d bjcd chu dian chudian c d cd"
   },
   {
-    "id": "premiere-pr-splitshift",
+    "id": "pr-clearinout",
     "appId": "premiere",
     "type": "software",
     "category": "video",
     "name": {
-      "zh": "覆盖插入",
-      "en": "Overwrite"
+      "zh": "清除入出点",
+      "en": "Clear In and Out"
     },
     "description": {
-      "zh": "覆盖编辑",
-      "en": "Overwrite"
+      "zh": "清除入点和出点（出点：Ctrl+Shift+O）",
+      "en": "Clear the in and out points (out: Ctrl+Shift+O)"
+    },
+    "windows": "Ctrl+Shift+I",
+    "mac": "Cmd+Shift+I",
+    "linux": "Ctrl+Shift+I",
+    "keywords": [
+      "清除",
+      "clear",
+      "入点",
+      "出点"
+    ],
+    "pinyin": "qing chu ru chu dian qingchuruchudian q c r c d qcrcd qing chu   ru dian   chu dian qingchu rudian chudian q c   r d   c d qc rd cd"
+  },
+  {
+    "id": "pr-split",
+    "appId": "premiere",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "分割剪辑（在播放头处）",
+      "en": "Split at Playhead"
+    },
+    "description": {
+      "zh": "在播放头位置分割所有轨道上的剪辑",
+      "en": "Split clips on all tracks at the playhead"
     },
     "windows": "Ctrl+K",
     "mac": "Cmd+K",
     "linux": "Ctrl+K",
     "keywords": [
-      "覆盖",
-      "overwrite"
+      "分割",
+      "split",
+      "切割"
     ],
-    "pinyin": "fu gai cha ru fugaicharu f g c r fgcr fu gai fugai f g fg"
+    "pinyin": "fen ge jian ji （ zai bo fang tou chu ） fengejianji（zaibofangtouchu） f g j j （ z b f t c ） fgjj（zbftc） fen ge   qie ge fenge qiege f g   q g fg qg"
   },
   {
-    "id": "premiere-pr-insert",
+    "id": "pr-insert",
     "appId": "premiere",
     "type": "software",
     "category": "video",
     "name": {
       "zh": "插入编辑",
-      "en": "Insert"
+      "en": "Insert Edit"
     },
     "description": {
-      "zh": "插入编辑",
-      "en": "Insert"
+      "zh": "将源监视器剪辑插入到序列",
+      "en": "Insert the Source Monitor clip into the sequence"
     },
-    "windows": "Ctrl+Shift+,",
-    "mac": "Cmd+Shift+,",
-    "linux": "Ctrl+Shift+,",
+    "windows": ",",
+    "mac": ",",
+    "linux": ",",
     "keywords": [
       "插入",
       "insert"
@@ -829,17 +725,83 @@
     "pinyin": "cha ru bian ji charubianji c r b j crbj cha ru charu c r cr"
   },
   {
-    "id": "premiere-pr-render",
+    "id": "pr-overwrite",
     "appId": "premiere",
     "type": "software",
     "category": "video",
     "name": {
-      "zh": "渲染效果",
-      "en": "Render Effects"
+      "zh": "覆盖编辑",
+      "en": "Overwrite Edit"
     },
     "description": {
+      "zh": "将源监视器剪辑覆盖到序列",
+      "en": "Overwrite the Source Monitor clip into the sequence"
+    },
+    "windows": ".",
+    "mac": ".",
+    "linux": ".",
+    "keywords": [
+      "覆盖",
+      "overwrite"
+    ],
+    "pinyin": "fu gai bian ji fugaibianji f g b j fgbj fu gai fugai f g fg"
+  },
+  {
+    "id": "pr-lift",
+    "appId": "premiere",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "提升",
+      "en": "Lift"
+    },
+    "description": {
+      "zh": "移除入出点区间内容并保留间隙",
+      "en": "Remove in/out range content, leaving a gap"
+    },
+    "windows": ";",
+    "mac": ";",
+    "linux": ";",
+    "keywords": [
+      "提升",
+      "lift"
+    ],
+    "pinyin": "ti sheng tisheng t s ts ti sheng tisheng t s ts"
+  },
+  {
+    "id": "pr-extract",
+    "appId": "premiere",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "提取",
+      "en": "Extract"
+    },
+    "description": {
+      "zh": "移除入出点区间内容并闭合间隙",
+      "en": "Remove in/out range content and close the gap"
+    },
+    "windows": "'",
+    "mac": "'",
+    "linux": "'",
+    "keywords": [
+      "提取",
+      "extract"
+    ],
+    "pinyin": "ti qu tiqu t q tq ti qu tiqu t q tq"
+  },
+  {
+    "id": "pr-renderinout",
+    "appId": "premiere",
+    "type": "software",
+    "category": "video",
+    "name": {
       "zh": "渲染入出点",
-      "en": "Render effects"
+      "en": "Render In to Out"
+    },
+    "description": {
+      "zh": "渲染入点到出点之间的效果",
+      "en": "Render effects between in and out points"
     },
     "windows": "Enter",
     "mac": "Enter",
@@ -848,72 +810,143 @@
       "渲染",
       "render"
     ],
-    "pinyin": "xuan ran xiao guo xuanranxiaoguo x r x g xrxg xuan ran xuanran x r xr"
+    "pinyin": "xuan ran ru chu dian xuanranruchudian x r r c d xrrcd xuan ran xuanran x r xr"
   },
   {
-    "id": "premiere-pr-fit",
+    "id": "pr-fitprogram",
     "appId": "premiere",
     "type": "software",
     "category": "video",
     "name": {
-      "zh": "适应窗口",
-      "en": "Fit"
+      "zh": "适应节目窗口",
+      "en": "Fit to Program Monitor"
     },
     "description": {
-      "zh": "适配节目窗口",
-      "en": "Fit"
+      "zh": "缩放节目监视器以适配窗口",
+      "en": "Zoom the Program Monitor to fit"
     },
     "windows": "Shift+1",
     "mac": "Shift+1",
     "linux": "Shift+1",
     "keywords": [
       "适应",
-      "fit"
+      "fit",
+      "节目"
     ],
-    "pinyin": "shi ying chuang kou shiyingchuangkou s y c k syck shi ying shiying s y sy"
+    "pinyin": "shi ying jie mu chuang kou shiyingjiemuchuangkou s y j m c k syjmck shi ying   jie mu shiying jiemu s y   j m sy jm"
   },
   {
-    "id": "premiere-pr-undo",
+    "id": "pr-fitsequence",
     "appId": "premiere",
     "type": "software",
     "category": "video",
     "name": {
-      "zh": "撤销",
-      "en": "Undo"
+      "zh": "适应序列",
+      "en": "Fit to Sequence"
     },
     "description": {
-      "zh": "撤销",
-      "en": "Undo"
+      "zh": "缩放时间轴以显示整个序列",
+      "en": "Zoom the timeline to show the whole sequence"
     },
-    "windows": "Ctrl+Z",
-    "mac": "Cmd+Z",
-    "linux": "Ctrl+Z",
+    "windows": "Shift+/",
+    "mac": "Shift+/",
+    "linux": "Shift+/",
     "keywords": [
-      "撤销",
-      "undo"
+      "适应",
+      "fit",
+      "序列"
     ],
-    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+    "pinyin": "shi ying xu lie shiyingxulie s y x l syxl shi ying   xu lie shiying xulie s y   x l sy xl"
   },
   {
-    "id": "premiere-pr-redo",
+    "id": "pr-selectall",
     "appId": "premiere",
     "type": "software",
     "category": "video",
     "name": {
-      "zh": "重做",
-      "en": "Redo"
+      "zh": "全选",
+      "en": "Select All"
     },
     "description": {
-      "zh": "重做",
-      "en": "Redo"
+      "zh": "选中所有剪辑",
+      "en": "Select all clips"
     },
-    "windows": "Ctrl+Shift+Z",
-    "mac": "Cmd+Shift+Z",
-    "linux": "Ctrl+Shift+Z",
+    "windows": "Ctrl+A",
+    "mac": "Cmd+A",
+    "linux": "Ctrl+A",
     "keywords": [
-      "重做",
-      "redo"
+      "全选",
+      "select all"
     ],
-    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+    "pinyin": "quan xuan quanxuan q x qx quan xuan quanxuan q x qx"
+  },
+  {
+    "id": "pr-deselect",
+    "appId": "premiere",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "取消选择",
+      "en": "Deselect All"
+    },
+    "description": {
+      "zh": "取消选中所有剪辑",
+      "en": "Deselect all clips"
+    },
+    "windows": "Ctrl+Shift+A",
+    "mac": "Cmd+Shift+A",
+    "linux": "Ctrl+Shift+A",
+    "keywords": [
+      "取消",
+      "deselect"
+    ],
+    "pinyin": "qu xiao xuan ze quxiaoxuanze q x x z qxxz qu xiao quxiao q x qx"
+  },
+  {
+    "id": "pr-selecttrackall",
+    "appId": "premiere",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "选择轨道上全部",
+      "en": "Select All on Track"
+    },
+    "description": {
+      "zh": "选中目标轨道上的所有剪辑",
+      "en": "Select all clips on the targeted track"
+    },
+    "windows": "Ctrl+Shift+F",
+    "mac": "Cmd+Shift+F",
+    "linux": "Ctrl+Shift+F",
+    "keywords": [
+      "轨道",
+      "track",
+      "全选"
+    ],
+    "pinyin": "xuan ze gui dao shang quan bu xuanzeguidaoshangquanbu x z g d s q b xzgdsqb gui dao   quan xuan guidao quanxuan g d   q x gd qx"
+  },
+  {
+    "id": "pr-audiogain",
+    "appId": "premiere",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "音频增益",
+      "en": "Audio Gain"
+    },
+    "description": {
+      "zh": "调整所选剪辑的音频增益",
+      "en": "Adjust the audio gain of selected clips"
+    },
+    "windows": "G",
+    "mac": "G",
+    "linux": "G",
+    "keywords": [
+      "音频",
+      "audio",
+      "增益",
+      "gain"
+    ],
+    "pinyin": "yin pin zeng yi yinpinzengyi y p z y ypzy yin pin   zeng yi yinpin zengyi y p   z y yp zy"
   }
 ]

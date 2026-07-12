@@ -1,808 +1,137 @@
 [
   {
-    "id": "ai-selection",
+    "id": "ai-new",
     "appId": "illustrator",
     "type": "software",
     "category": "design",
     "name": {
-      "zh": "选择工具",
-      "en": "Selection Tool"
+      "zh": "新建文档",
+      "en": "New Document"
     },
     "description": {
-      "zh": "选择对象",
-      "en": "Select objects"
+      "zh": "创建一个新的 Illustrator 文档",
+      "en": "Create a new Illustrator document"
     },
-    "windows": "V",
-    "mac": "V",
-    "linux": "—",
+    "windows": "Ctrl+N",
+    "mac": "Cmd+N",
+    "linux": "Ctrl+N",
     "keywords": [
-      "选择",
-      "selection"
+      "新建",
+      "new",
+      "文档",
+      "document"
     ],
-    "pinyin": "xuan ze gong ju xuanzegongju x z g j xzgj xuan ze xuanze x z xz"
+    "pinyin": "xin jian wen dang xinjianwendang x j w d xjwd xin jian   wen dang xinjian wendang x j   w d xj wd"
   },
   {
-    "id": "ai-directselect",
+    "id": "ai-open",
     "appId": "illustrator",
     "type": "software",
     "category": "design",
     "name": {
-      "zh": "直接选择工具",
-      "en": "Direct Selection"
+      "zh": "打开文件",
+      "en": "Open"
     },
     "description": {
-      "zh": "选择锚点和路径段",
-      "en": "Select anchor points"
+      "zh": "打开已有的文件",
+      "en": "Open an existing file"
     },
-    "windows": "A",
-    "mac": "A",
-    "linux": "—",
+    "windows": "Ctrl+O",
+    "mac": "Cmd+O",
+    "linux": "Ctrl+O",
     "keywords": [
-      "直接选择",
-      "direct selection"
+      "打开",
+      "open"
     ],
-    "pinyin": "zhi jie xuan ze gong ju zhijiexuanzegongju z j x z g j zjxzgj zhi jie xuan ze zhijiexuanze z j x z zjxz"
+    "pinyin": "da kai wen jian dakaiwenjian d k w j dkwj da kai dakai d k dk"
   },
   {
-    "id": "ai-pen",
+    "id": "ai-close",
     "appId": "illustrator",
     "type": "software",
     "category": "design",
     "name": {
-      "zh": "钢笔工具",
-      "en": "Pen Tool"
+      "zh": "关闭文件",
+      "en": "Close"
     },
     "description": {
-      "zh": "绘制路径",
-      "en": "Draw paths"
+      "zh": "关闭当前文件",
+      "en": "Close the current file"
     },
-    "windows": "P",
-    "mac": "P",
-    "linux": "—",
+    "windows": "Ctrl+W",
+    "mac": "Cmd+W",
+    "linux": "Ctrl+W",
     "keywords": [
-      "钢笔",
-      "pen"
+      "关闭",
+      "close"
     ],
-    "pinyin": "gang bi gong ju gangbigongju g b g j gbgj gang bi gangbi g b gb"
+    "pinyin": "guan bi wen jian guanbiwenjian g b w j gbwj guan bi guanbi g b gb"
   },
   {
-    "id": "ai-text-t",
+    "id": "ai-save",
     "appId": "illustrator",
     "type": "software",
     "category": "design",
     "name": {
-      "zh": "文字工具",
-      "en": "Type Tool"
+      "zh": "保存",
+      "en": "Save"
     },
     "description": {
-      "zh": "添加文字",
-      "en": "Add text"
+      "zh": "保存当前文件",
+      "en": "Save the current file"
     },
-    "windows": "T",
-    "mac": "T",
-    "linux": "—",
+    "windows": "Ctrl+S",
+    "mac": "Cmd+S",
+    "linux": "Ctrl+S",
     "keywords": [
-      "文字",
-      "text",
-      "字体"
+      "保存",
+      "save"
     ],
-    "pinyin": "wen zi gong ju wenzigongju w z g j wzgj wen zi   zi ti wenzi ziti w z   z t wz zt"
+    "pinyin": "bao cun baocun b c bc bao cun baocun b c bc"
   },
   {
-    "id": "ai-rectangle-m",
+    "id": "ai-saveas",
     "appId": "illustrator",
     "type": "software",
     "category": "design",
     "name": {
-      "zh": "矩形工具",
-      "en": "Rectangle Tool"
+      "zh": "另存为",
+      "en": "Save As"
     },
     "description": {
-      "zh": "绘制矩形/圆角矩形",
-      "en": "Draw rectangle/rounded rect"
+      "zh": "将文件另存为新文件",
+      "en": "Save the file as a new file"
     },
-    "windows": "M",
-    "mac": "M",
-    "linux": "—",
+    "windows": "Ctrl+Shift+S",
+    "mac": "Cmd+Shift+S",
+    "linux": "Ctrl+Shift+S",
     "keywords": [
-      "矩形",
-      "rectangle"
+      "另存为",
+      "save as"
     ],
-    "pinyin": "ju xing gong ju juxinggongju j x g j jxgj ju xing juxing j x jx"
+    "pinyin": "ling cun wei lingcunwei l c w lcw ling cun wei lingcunwei l c w lcw"
   },
   {
-    "id": "ai-ellipse-l",
+    "id": "ai-export",
     "appId": "illustrator",
     "type": "software",
     "category": "design",
     "name": {
-      "zh": "椭圆工具",
-      "en": "Ellipse Tool"
+      "zh": "导出为…",
+      "en": "Export As…"
     },
     "description": {
-      "zh": "绘制椭圆/圆形/多边形",
-      "en": "Draw ellipse/circle/polygon"
+      "zh": "打开导出对话框，将作品导出为指定格式",
+      "en": "Open the export dialog to export artwork in a chosen format"
     },
-    "windows": "L",
-    "mac": "L",
-    "linux": "—",
+    "windows": "Ctrl+Alt+E",
+    "mac": "Cmd+Opt+E",
+    "linux": "Ctrl+Alt+E",
     "keywords": [
-      "椭圆",
-      "ellipse",
-      "圆",
-      "circle"
+      "导出",
+      "export"
     ],
-    "pinyin": "tuo yuan gong ju tuoyuangongju t y g j tygj tuo yuan   yuan tuoyuan yuan t y   y ty y"
-  },
-  {
-    "id": "ai-pencil-n",
-    "appId": "illustrator",
-    "type": "software",
-    "category": "design",
-    "name": {
-      "zh": "铅笔工具",
-      "en": "Pencil Tool"
-    },
-    "description": {
-      "zh": "自由绘制路径",
-      "en": "Draw freeform paths"
-    },
-    "windows": "N",
-    "mac": "N",
-    "linux": "—",
-    "keywords": [
-      "铅笔",
-      "pencil",
-      "绘图"
-    ],
-    "pinyin": "qian bi gong ju qianbigongju q b g j qbgj qian bi   hui tu qianbi huitu q b   h t qb ht"
-  },
-  {
-    "id": "ai-rotate-r",
-    "appId": "illustrator",
-    "type": "software",
-    "category": "design",
-    "name": {
-      "zh": "旋转工具",
-      "en": "Rotate Tool"
-    },
-    "description": {
-      "zh": "旋转选中对象",
-      "en": "Rotate selection"
-    },
-    "windows": "R",
-    "mac": "R",
-    "linux": "—",
-    "keywords": [
-      "旋转",
-      "rotate"
-    ],
-    "pinyin": "xuan zhuan gong ju xuanzhuangongju x z g j xzgj xuan zhuan xuanzhuan x z xz"
-  },
-  {
-    "id": "ai-scale-s",
-    "appId": "illustrator",
-    "type": "software",
-    "category": "design",
-    "name": {
-      "zh": "比例缩放工具",
-      "en": "Scale Tool"
-    },
-    "description": {
-      "zh": "缩放选中对象",
-      "en": "Scale selection"
-    },
-    "windows": "S",
-    "mac": "S",
-    "linux": "—",
-    "keywords": [
-      "缩放",
-      "scale"
-    ],
-    "pinyin": "bi li suo fang gong ju bilisuofanggongju b l s f g j blsfgj suo fang suofang s f sf"
-  },
-  {
-    "id": "ai-free-transform-e",
-    "appId": "illustrator",
-    "type": "software",
-    "category": "design",
-    "name": {
-      "zh": "自由变换工具",
-      "en": "Free Transform Tool"
-    },
-    "description": {
-      "zh": "自由变换对象",
-      "en": "Free transform object"
-    },
-    "windows": "E",
-    "mac": "E",
-    "linux": "—",
-    "keywords": [
-      "自由变换",
-      "free transform"
-    ],
-    "pinyin": "zi you bian huan gong ju ziyoubianhuangongju z y b h g j zybhgj zi you bian huan ziyoubianhuan z y b h zybh"
-  },
-  {
-    "id": "ai-shape-shift-o",
-    "appId": "illustrator",
-    "type": "software",
-    "category": "design",
-    "name": {
-      "zh": "变形/宽度工具",
-      "en": "Warp/Width Tool"
-    },
-    "description": {
-      "zh": "变形对象或调整描边宽度",
-      "en": "Warp shape or adjust stroke width"
-    },
-    "windows": "Shift+O / O",
-    "mac": "Shift+O / O",
-    "linux": "—",
-    "keywords": [
-      "变形",
-      "warp",
-      "宽度",
-      "width"
-    ],
-    "pinyin": "bian xing / kuan du gong ju bianxing/kuandugongju b x / k d g j bx/kdgj bian xing   kuan du bianxing kuandu b x   k d bx kd"
-  },
-  {
-    "id": "ai-gradient-g",
-    "appId": "illustrator",
-    "type": "software",
-    "category": "design",
-    "name": {
-      "zh": "渐变工具",
-      "en": "Gradient Tool"
-    },
-    "description": {
-      "zh": "应用渐变填充",
-      "en": "Apply gradient fill"
-    },
-    "windows": "G",
-    "mac": "G",
-    "linux": "—",
-    "keywords": [
-      "渐变",
-      "gradient"
-    ],
-    "pinyin": "jian bian gong ju jianbiangongju j b g j jbgj jian bian jianbian j b jb"
-  },
-  {
-    "id": "ai-eyedropper-i",
-    "appId": "illustrator",
-    "type": "software",
-    "category": "design",
-    "name": {
-      "zh": "吸管工具",
-      "en": "Eyedropper Tool"
-    },
-    "description": {
-      "zh": "吸取颜色和样式属性",
-      "en": "Sample color and style attributes"
-    },
-    "windows": "I",
-    "mac": "I",
-    "linux": "—",
-    "keywords": [
-      "吸管",
-      "eyedropper",
-      "取色"
-    ],
-    "pinyin": "xi guan gong ju xiguangongju x g g j xggj xi guan   qu se xiguan quse x g   q s xg qs"
-  },
-  {
-    "id": "ai-blend-w",
-    "appId": "illustrator",
-    "type": "software",
-    "category": "design",
-    "name": {
-      "zh": "混合工具",
-      "en": "Blend Tool"
-    },
-    "description": {
-      "zh": "在两个对象间创建混合",
-      "en": "Create blend between two objects"
-    },
-    "windows": "W",
-    "mac": "W",
-    "linux": "—",
-    "keywords": [
-      "混合",
-      "blend"
-    ],
-    "pinyin": "hun he gong ju hunhegongju h h g j hhgj hun he hunhe h h hh"
-  },
-  {
-    "id": "ai-artboard-shift-o",
-    "appId": "illustrator",
-    "type": "software",
-    "category": "design",
-    "name": {
-      "zh": "画板工具",
-      "en": "Artboard Tool"
-    },
-    "description": {
-      "zh": "创建和编辑画板",
-      "en": "Create and edit artboards"
-    },
-    "windows": "Shift+O",
-    "mac": "Shift+O",
-    "linux": "—",
-    "keywords": [
-      "画板",
-      "artboard"
-    ],
-    "pinyin": "hua ban gong ju huabangongju h b g j hbgj hua ban huaban h b hb"
-  },
-  {
-    "id": "ai-measure-q",
-    "appId": "illustrator",
-    "type": "software",
-    "category": "design",
-    "name": {
-      "zh": "度量工具",
-      "en": "Measure Tool"
-    },
-    "description": {
-      "zh": "测量距离和角度",
-      "en": "Measure distance and angle"
-    },
-    "windows": "Q",
-    "mac": "Q",
-    "linux": "—",
-    "keywords": [
-      "度量",
-      "measure",
-      "测量"
-    ],
-    "pinyin": "du liang gong ju dulianggongju d l g j dlgj du liang   ce liang duliang celiang d l   c l dl cl"
-  },
-  {
-    "id": "ai-hand-h",
-    "appId": "illustrator",
-    "type": "software",
-    "category": "design",
-    "name": {
-      "zh": "抓手工具",
-      "en": "Hand Tool"
-    },
-    "description": {
-      "zh": "平移视图",
-      "en": "Pan the view"
-    },
-    "windows": "H",
-    "mac": "H",
-    "linux": "—",
-    "keywords": [
-      "抓手",
-      "hand",
-      "平移"
-    ],
-    "pinyin": "zhua shou gong ju zhuashougongju z s g j zsgj zhua shou   ping yi zhuashou pingyi z s   p y zs py"
-  },
-  {
-    "id": "ai-zoom-z",
-    "appId": "illustrator",
-    "type": "software",
-    "category": "design",
-    "name": {
-      "zh": "缩放工具",
-      "en": "Zoom Tool"
-    },
-    "description": {
-      "zh": "放大或缩小视图",
-      "en": "Zoom in or out"
-    },
-    "windows": "Z",
-    "mac": "Z",
-    "linux": "—",
-    "keywords": [
-      "缩放",
-      "zoom"
-    ],
-    "pinyin": "suo fang gong ju suofanggongju s f g j sfgj suo fang suofang s f sf"
-  },
-  {
-    "id": "ai-group",
-    "appId": "illustrator",
-    "type": "software",
-    "category": "design",
-    "name": {
-      "zh": "编组",
-      "en": "Group"
-    },
-    "description": {
-      "zh": "将对象编组",
-      "en": "Group objects"
-    },
-    "windows": "Ctrl+G",
-    "mac": "⌘+G",
-    "linux": "—",
-    "keywords": [
-      "编组",
-      "group"
-    ],
-    "pinyin": "bian zu bianzu b z bz bian zu bianzu b z bz"
-  },
-  {
-    "id": "ai-group-select",
-    "appId": "illustrator",
-    "type": "software",
-    "category": "design",
-    "name": {
-      "zh": "取消编组",
-      "en": "Ungroup"
-    },
-    "description": {
-      "zh": "取消对象编组",
-      "en": "Ungroup objects"
-    },
-    "windows": "Ctrl+Shift+G",
-    "mac": "⌘+Shift+G",
-    "linux": "—",
-    "keywords": [
-      "取消编组",
-      "ungroup"
-    ],
-    "pinyin": "qu xiao bian zu quxiaobianzu q x b z qxbz qu xiao bian zu quxiaobianzu q x b z qxbz"
-  },
-  {
-    "id": "ai-outline",
-    "appId": "illustrator",
-    "type": "software",
-    "category": "design",
-    "name": {
-      "zh": "创建轮廓",
-      "en": "Create Outlines"
-    },
-    "description": {
-      "zh": "将文字转为轮廓",
-      "en": "Convert text to outlines"
-    },
-    "windows": "Ctrl+Shift+O",
-    "mac": "⌘+Shift+O",
-    "linux": "—",
-    "keywords": [
-      "轮廓",
-      "outline",
-      "转曲"
-    ],
-    "pinyin": "chuang jian lun kuo chuangjianlunkuo c j l k cjlk lun kuo   zhuan qu lunkuo zhuanqu l k   z q lk zq"
-  },
-  {
-    "id": "ai-copy-c",
-    "appId": "illustrator",
-    "type": "software",
-    "category": "design",
-    "name": {
-      "zh": "复制",
-      "en": "Copy"
-    },
-    "description": {
-      "zh": "复制选中对象到剪贴板",
-      "en": "Copy selection to clipboard"
-    },
-    "windows": "Ctrl+C",
-    "mac": "⌘+C",
-    "linux": "—",
-    "keywords": [
-      "复制",
-      "copy"
-    ],
-    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
-  },
-  {
-    "id": "ai-paste-v",
-    "appId": "illustrator",
-    "type": "software",
-    "category": "design",
-    "name": {
-      "zh": "粘贴",
-      "en": "Paste"
-    },
-    "description": {
-      "zh": "粘贴剪贴板内容",
-      "en": "Paste from clipboard"
-    },
-    "windows": "Ctrl+V",
-    "mac": "⌘+V",
-    "linux": "—",
-    "keywords": [
-      "粘贴",
-      "paste"
-    ],
-    "pinyin": "nian tie niantie n t nt nian tie niantie n t nt"
-  },
-  {
-    "id": "ai-cut-x",
-    "appId": "illustrator",
-    "type": "software",
-    "category": "design",
-    "name": {
-      "zh": "剪切",
-      "en": "Cut"
-    },
-    "description": {
-      "zh": "剪切选中对象",
-      "en": "Cut selection"
-    },
-    "windows": "Ctrl+X",
-    "mac": "⌘+X",
-    "linux": "—",
-    "keywords": [
-      "剪切",
-      "cut"
-    ],
-    "pinyin": "jian qie jianqie j q jq jian qie jianqie j q jq"
-  },
-  {
-    "id": "ai-duplicate-front",
-    "appId": "illustrator",
-    "type": "software",
-    "category": "design",
-    "name": {
-      "zh": "原位前方粘贴",
-      "en": "Paste in Front"
-    },
-    "description": {
-      "zh": "在原位置前方粘贴",
-      "en": "Paste in front of original position"
-    },
-    "windows": "Ctrl+F",
-    "mac": "⌘+F",
-    "linux": "—",
-    "keywords": [
-      "原位粘贴",
-      "paste front"
-    ],
-    "pinyin": "yuan wei qian fang nian tie yuanweiqianfangniantie y w q f n t ywqfnt yuan wei nian tie yuanweiniantie y w n t ywnt"
-  },
-  {
-    "id": "ai-duplicate-back",
-    "appId": "illustrator",
-    "type": "software",
-    "category": "design",
-    "name": {
-      "zh": "原位后方粘贴",
-      "en": "Paste in Back"
-    },
-    "description": {
-      "zh": "在原位置后方粘贴",
-      "en": "Paste behind original position"
-    },
-    "windows": "Ctrl+B",
-    "mac": "⌘+B",
-    "linux": "—",
-    "keywords": [
-      "原位粘贴",
-      "paste back"
-    ],
-    "pinyin": "yuan wei hou fang nian tie yuanweihoufangniantie y w h f n t ywhfnt yuan wei nian tie yuanweiniantie y w n t ywnt"
-  },
-  {
-    "id": "ai-lock",
-    "appId": "illustrator",
-    "type": "software",
-    "category": "design",
-    "name": {
-      "zh": "锁定对象",
-      "en": "Lock Object"
-    },
-    "description": {
-      "zh": "锁定选中对象",
-      "en": "Lock selection"
-    },
-    "windows": "Ctrl+2",
-    "mac": "⌘+2",
-    "linux": "—",
-    "keywords": [
-      "锁定",
-      "lock"
-    ],
-    "pinyin": "suo ding dui xiang suodingduixiang s d d x sddx suo ding suoding s d sd"
-  },
-  {
-    "id": "ai-unlock-all",
-    "appId": "illustrator",
-    "type": "software",
-    "category": "design",
-    "name": {
-      "zh": "解锁全部对象",
-      "en": "Unlock All Objects"
-    },
-    "description": {
-      "zh": "解锁所有已锁定的对象",
-      "en": "Unlock all locked objects"
-    },
-    "windows": "Ctrl+Alt+2",
-    "mac": "⌘+Option+2",
-    "linux": "—",
-    "keywords": [
-      "解锁",
-      "unlock"
-    ],
-    "pinyin": "jie suo quan bu dui xiang jiesuoquanbuduixiang j s q b d x jsqbdx jie suo jiesuo j s js"
-  },
-  {
-    "id": "ai-hide-selection",
-    "appId": "illustrator",
-    "type": "software",
-    "category": "design",
-    "name": {
-      "zh": "隐藏选中对象",
-      "en": "Hide Selection"
-    },
-    "description": {
-      "zh": "隐藏当前选中对象",
-      "en": "Hide selected objects"
-    },
-    "windows": "Ctrl+3",
-    "mac": "⌘+3",
-    "linux": "—",
-    "keywords": [
-      "隐藏",
-      "hide"
-    ],
-    "pinyin": "yin cang xuan zhong dui xiang yincangxuanzhongduixiang y c x z d x ycxzdx yin cang yincang y c yc"
-  },
-  {
-    "id": "ai-show-all",
-    "appId": "illustrator",
-    "type": "software",
-    "category": "design",
-    "name": {
-      "zh": "显示全部对象",
-      "en": "Show All Objects"
-    },
-    "description": {
-      "zh": "显示所有被隐藏的对象",
-      "en": "Show all hidden objects"
-    },
-    "windows": "Ctrl+Alt+3",
-    "mac": "⌘+Option+3",
-    "linux": "—",
-    "keywords": [
-      "显示",
-      "show all"
-    ],
-    "pinyin": "xian shi quan bu dui xiang xianshiquanbuduixiang x s q b d x xsqbdx xian shi xianshi x s xs"
-  },
-  {
-    "id": "ai-clipping-mask",
-    "appId": "illustrator",
-    "type": "software",
-    "category": "design",
-    "name": {
-      "zh": "建立剪切蒙版",
-      "en": "Make Clipping Mask"
-    },
-    "description": {
-      "zh": "用顶层对象作为下方内容的蒙版",
-      "en": "Clip content with top object"
-    },
-    "windows": "Ctrl+7",
-    "mac": "⌘+7",
-    "linux": "—",
-    "keywords": [
-      "蒙版",
-      "clipping mask",
-      "剪切"
-    ],
-    "pinyin": "jian li jian qie meng ban jianlijianqiemengban j l j q m b jljqmb meng ban   jian qie mengban jianqie m b   j q mb jq"
-  },
-  {
-    "id": "ai-release-mask",
-    "appId": "illustrator",
-    "type": "software",
-    "category": "design",
-    "name": {
-      "zh": "释放剪切蒙版",
-      "en": "Release Clipping Mask"
-    },
-    "description": {
-      "zh": "释放剪切蒙版恢复原图",
-      "en": "Release clipping mask"
-    },
-    "windows": "Ctrl+Alt+7",
-    "mac": "⌘+Option+7",
-    "linux": "—",
-    "keywords": [
-      "释放蒙版",
-      "release mask"
-    ],
-    "pinyin": "shi fang jian qie meng ban shifangjianqiemengban s f j q m b sfjqmb shi fang meng ban shifangmengban s f m b sfmb"
-  },
-  {
-    "id": "ai-compound-path",
-    "appId": "illustrator",
-    "type": "software",
-    "category": "design",
-    "name": {
-      "zh": "建立复合路径",
-      "en": "Make Compound Path"
-    },
-    "description": {
-      "zh": "将多个路径组合成复合路径",
-      "en": "Combine paths into compound path"
-    },
-    "windows": "Ctrl+8",
-    "mac": "⌘+8",
-    "linux": "—",
-    "keywords": [
-      "复合路径",
-      "compound path"
-    ],
-    "pinyin": "jian li fu he lu jing jianlifuhelujing j l f h l j jlfhlj fu he lu jing fuhelujing f h l j fhlj"
-  },
-  {
-    "id": "ai-release-compound",
-    "appId": "illustrator",
-    "type": "software",
-    "category": "design",
-    "name": {
-      "zh": "释放复合路径",
-      "en": "Release Compound Path"
-    },
-    "description": {
-      "zh": "释放复合路径为独立路径",
-      "en": "Release compound path to separate"
-    },
-    "windows": "Ctrl+Alt+8",
-    "mac": "⌘+Option+8",
-    "linux": "—",
-    "keywords": [
-      "释放复合路径",
-      "release compound path"
-    ],
-    "pinyin": "shi fang fu he lu jing shifangfuhelujing s f f h l j sffhlj shi fang fu he lu jing shifangfuhelujing s f f h l j sffhlj"
-  },
-  {
-    "id": "ai-fitart",
-    "appId": "illustrator",
-    "type": "software",
-    "category": "design",
-    "name": {
-      "zh": "适合画板",
-      "en": "Fit Artboard"
-    },
-    "description": {
-      "zh": "缩放以适合画板",
-      "en": "Fit artboard in window"
-    },
-    "windows": "Ctrl+0",
-    "mac": "⌘+0",
-    "linux": "—",
-    "keywords": [
-      "适合",
-      "fit",
-      "artboard"
-    ],
-    "pinyin": "shi he hua ban shihehuaban s h h b shhb shi he shihe s h sh"
-  },
-  {
-    "id": "ai-actualsize",
-    "appId": "illustrator",
-    "type": "software",
-    "category": "design",
-    "name": {
-      "zh": "实际尺寸(100%)",
-      "en": "Actual Size (100%)"
-    },
-    "description": {
-      "zh": "以100%显示实际尺寸",
-      "en": "View at actual size (100%)"
-    },
-    "windows": "Ctrl+1",
-    "mac": "⌘+1",
-    "linux": "—",
-    "keywords": [
-      "100%",
-      "实际尺寸",
-      "actual size"
-    ],
-    "pinyin": "shi ji chi cun ( 1 0 0 % ) shijichicun(100%) s j c c ( 1 0 0 % ) sjcc(100%) shi ji chi cun shijichicun s j c c sjcc"
+    "pinyin": "dao chu wei … daochuwei… d c w … dcw… dao chu daochu d c dc"
   },
   {
     "id": "ai-undo",
@@ -815,11 +144,11 @@
     },
     "description": {
       "zh": "撤销上一步操作",
-      "en": "Undo last action"
+      "en": "Undo the last action"
     },
     "windows": "Ctrl+Z",
-    "mac": "⌘+Z",
-    "linux": "—",
+    "mac": "Cmd+Z",
+    "linux": "Ctrl+Z",
     "keywords": [
       "撤销",
       "undo"
@@ -837,11 +166,11 @@
     },
     "description": {
       "zh": "重做被撤销的操作",
-      "en": "Redo undone action"
+      "en": "Redo the undone action"
     },
     "windows": "Ctrl+Shift+Z",
-    "mac": "⌘+Shift+Z",
-    "linux": "—",
+    "mac": "Cmd+Shift+Z",
+    "linux": "Ctrl+Shift+Z",
     "keywords": [
       "重做",
       "redo"
@@ -849,95 +178,117 @@
     "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
   },
   {
-    "id": "ai-new-doc",
+    "id": "ai-cut",
     "appId": "illustrator",
     "type": "software",
     "category": "design",
     "name": {
-      "zh": "新建文档",
-      "en": "New Document"
+      "zh": "剪切",
+      "en": "Cut"
     },
     "description": {
-      "zh": "创建新文档",
-      "en": "Create new document"
+      "zh": "剪切选中内容到剪贴板",
+      "en": "Cut the selection to the clipboard"
     },
-    "windows": "Ctrl+N",
-    "mac": "⌘+N",
-    "linux": "—",
+    "windows": "Ctrl+X",
+    "mac": "Cmd+X",
+    "linux": "Ctrl+X",
     "keywords": [
-      "新建",
-      "new document"
+      "剪切",
+      "cut"
     ],
-    "pinyin": "xin jian wen dang xinjianwendang x j w d xjwd xin jian xinjian x j xj"
+    "pinyin": "jian qie jianqie j q jq jian qie jianqie j q jq"
   },
   {
-    "id": "ai-save",
+    "id": "ai-copy",
     "appId": "illustrator",
     "type": "software",
     "category": "design",
     "name": {
-      "zh": "保存",
-      "en": "Save"
+      "zh": "复制",
+      "en": "Copy"
     },
     "description": {
-      "zh": "保存当前文件",
-      "en": "Save current file"
+      "zh": "复制选中内容",
+      "en": "Copy the selection"
     },
-    "windows": "Ctrl+S",
-    "mac": "⌘+S",
-    "linux": "—",
+    "windows": "Ctrl+C",
+    "mac": "Cmd+C",
+    "linux": "Ctrl+C",
     "keywords": [
-      "保存",
-      "save"
+      "复制",
+      "copy"
     ],
-    "pinyin": "bao cun baocun b c bc bao cun baocun b c bc"
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
   },
   {
-    "id": "ai-open",
+    "id": "ai-paste",
     "appId": "illustrator",
     "type": "software",
     "category": "design",
     "name": {
-      "zh": "打开文件",
-      "en": "Open File"
+      "zh": "粘贴",
+      "en": "Paste"
     },
     "description": {
-      "zh": "打开已有文件",
-      "en": "Open existing file"
+      "zh": "粘贴剪贴板内容",
+      "en": "Paste from the clipboard"
     },
-    "windows": "Ctrl+O",
-    "mac": "⌘+O",
-    "linux": "—",
+    "windows": "Ctrl+V",
+    "mac": "Cmd+V",
+    "linux": "Ctrl+V",
     "keywords": [
-      "打开",
-      "open"
+      "粘贴",
+      "paste"
     ],
-    "pinyin": "da kai wen jian dakaiwenjian d k w j dkwj da kai dakai d k dk"
+    "pinyin": "nian tie niantie n t nt nian tie niantie n t nt"
   },
   {
-    "id": "ai-close",
+    "id": "ai-pastefront",
     "appId": "illustrator",
     "type": "software",
     "category": "design",
     "name": {
-      "zh": "关闭文件",
-      "en": "Close File"
+      "zh": "原位贴至前方",
+      "en": "Paste in Front"
     },
     "description": {
-      "zh": "关闭当前文件",
-      "en": "Close current file"
+      "zh": "在同一位置粘贴到选中对象前方",
+      "en": "Paste in place in front of the selection"
     },
-    "windows": "Ctrl+W",
-    "mac": "⌘+W",
-    "linux": "—",
+    "windows": "Ctrl+F",
+    "mac": "Cmd+F",
+    "linux": "Ctrl+F",
     "keywords": [
-      "关闭",
-      "close"
+      "原位粘贴",
+      "paste in front"
     ],
-    "pinyin": "guan bi wen jian guanbiwenjian g b w j gbwj guan bi guanbi g b gb"
+    "pinyin": "yuan wei tie zhi qian fang yuanweitiezhiqianfang y w t z q f ywtzqf yuan wei nian tie yuanweiniantie y w n t ywnt"
   },
   {
-    "id": "ai-select-all",
+    "id": "ai-pasteback",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "原位贴至后方",
+      "en": "Paste in Back"
+    },
+    "description": {
+      "zh": "在同一位置粘贴到选中对象后方",
+      "en": "Paste in place behind the selection"
+    },
+    "windows": "Ctrl+B",
+    "mac": "Cmd+B",
+    "linux": "Ctrl+B",
+    "keywords": [
+      "原位粘贴",
+      "paste in back"
+    ],
+    "pinyin": "yuan wei tie zhi hou fang yuanweitiezhihoufang y w t z h f ywtzhf yuan wei nian tie yuanweiniantie y w n t ywnt"
+  },
+  {
+    "id": "ai-selectall",
     "appId": "illustrator",
     "type": "software",
     "category": "design",
@@ -946,12 +297,12 @@
       "en": "Select All"
     },
     "description": {
-      "zh": "选中画板上所有对象",
-      "en": "Select all objects on artboard"
+      "zh": "选中文档中所有对象",
+      "en": "Select all objects in the document"
     },
     "windows": "Ctrl+A",
-    "mac": "⌘+A",
-    "linux": "—",
+    "mac": "Cmd+A",
+    "linux": "Ctrl+A",
     "keywords": [
       "全选",
       "select all"
@@ -959,75 +310,7 @@
     "pinyin": "quan xuan quanxuan q x qx quan xuan quanxuan q x qx"
   },
   {
-    "id": "ai-select-same",
-    "appId": "illustrator",
-    "type": "software",
-    "category": "design",
-    "name": {
-      "zh": "选择相同对象",
-      "en": "Select Same"
-    },
-    "description": {
-      "zh": "选择与当前选中相同属性的对象",
-      "en": "Select objects with same attributes"
-    },
-    "windows": "Select > Same",
-    "mac": "Select > Same",
-    "linux": "—",
-    "keywords": [
-      "选择相同",
-      "select same"
-    ],
-    "pinyin": "xuan ze xiang tong dui xiang xuanzexiangtongduixiang x z x t d x xzxtdx xuan ze xiang tong xuanzexiangtong x z x t xzxt"
-  },
-  {
-    "id": "ai-bring-front",
-    "appId": "illustrator",
-    "type": "software",
-    "category": "design",
-    "name": {
-      "zh": "置于顶层",
-      "en": "Bring to Front"
-    },
-    "description": {
-      "zh": "将对象移到最前面",
-      "en": "Bring object to very front"
-    },
-    "windows": "Ctrl+Shift+]",
-    "mac": "⌘+Shift+]",
-    "linux": "—",
-    "keywords": [
-      "置顶",
-      "bring front",
-      "图层顺序"
-    ],
-    "pinyin": "zhi yu ding ceng zhiyudingceng z y d c zydc zhi ding   tu ceng shun xu zhiding tucengshunxu z d   t c s x zd tcsx"
-  },
-  {
-    "id": "ai-send-back",
-    "appId": "illustrator",
-    "type": "software",
-    "category": "design",
-    "name": {
-      "zh": "置于底层",
-      "en": "Send to Back"
-    },
-    "description": {
-      "zh": "将对象移到最后面",
-      "en": "Send object to very back"
-    },
-    "windows": "Ctrl+Shift+[",
-    "mac": "⌘+Shift+[",
-    "linux": "—",
-    "keywords": [
-      "置底",
-      "send back",
-      "图层顺序"
-    ],
-    "pinyin": "zhi yu di ceng zhiyudiceng z y d c zydc zhi di   tu ceng shun xu zhidi tucengshunxu z d   t c s x zd tcsx"
-  },
-  {
-    "id": "ai-repeat-transform",
+    "id": "ai-transformagain",
     "appId": "illustrator",
     "type": "software",
     "category": "design",
@@ -1036,18 +319,750 @@
       "en": "Transform Again"
     },
     "description": {
-      "zh": "重复上一次变换操作",
-      "en": "Repeat last transform"
+      "zh": "重复上一次的变换操作",
+      "en": "Repeat the last transformation"
     },
     "windows": "Ctrl+D",
-    "mac": "⌘+D",
-    "linux": "—",
+    "mac": "Cmd+D",
+    "linux": "Ctrl+D",
     "keywords": [
       "再次变换",
-      "transform again",
-      "重复"
+      "transform again"
     ],
-    "pinyin": "zai ci bian huan zaicibianhuan z c b h zcbh zai ci bian huan   chong fu zaicibianhuan chongfu z c b h   c f zcbh cf"
+    "pinyin": "zai ci bian huan zaicibianhuan z c b h zcbh zai ci bian huan zaicibianhuan z c b h zcbh"
+  },
+  {
+    "id": "ai-selection",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "选择工具",
+      "en": "Selection Tool"
+    },
+    "description": {
+      "zh": "选择并移动整个对象",
+      "en": "Select and move whole objects"
+    },
+    "windows": "V",
+    "mac": "V",
+    "linux": "V",
+    "keywords": [
+      "选择",
+      "selection",
+      "移动"
+    ],
+    "pinyin": "xuan ze gong ju xuanzegongju x z g j xzgj xuan ze   yi dong xuanze yidong x z   y d xz yd"
+  },
+  {
+    "id": "ai-directselect",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "直接选择工具",
+      "en": "Direct Selection Tool"
+    },
+    "description": {
+      "zh": "选择锚点和路径段",
+      "en": "Select anchor points and path segments"
+    },
+    "windows": "A",
+    "mac": "A",
+    "linux": "A",
+    "keywords": [
+      "直接选择",
+      "direct selection",
+      "锚点"
+    ],
+    "pinyin": "zhi jie xuan ze gong ju zhijiexuanzegongju z j x z g j zjxzgj zhi jie xuan ze   mao dian zhijiexuanze maodian z j x z   m d zjxz md"
+  },
+  {
+    "id": "ai-groupselect",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "编组选择工具",
+      "en": "Group Selection Tool"
+    },
+    "description": {
+      "zh": "选择编组中的单个对象",
+      "en": "Select individual objects within a group"
+    },
+    "windows": "Shift+A",
+    "mac": "Shift+A",
+    "linux": "Shift+A",
+    "keywords": [
+      "编组选择",
+      "group selection"
+    ],
+    "pinyin": "bian zu xuan ze gong ju bianzuxuanzegongju b z x z g j bzxzgj bian zu xuan ze bianzuxuanze b z x z bzxz"
+  },
+  {
+    "id": "ai-magicwand",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "魔棒工具",
+      "en": "Magic Wand Tool"
+    },
+    "description": {
+      "zh": "按属性相似度选择对象",
+      "en": "Select objects by similar attributes"
+    },
+    "windows": "Y",
+    "mac": "Y",
+    "linux": "Y",
+    "keywords": [
+      "魔棒",
+      "magic wand"
+    ],
+    "pinyin": "mo bang gong ju mobanggongju m b g j mbgj mo bang mobang m b mb"
+  },
+  {
+    "id": "ai-lasso",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "套索工具",
+      "en": "Lasso Tool"
+    },
+    "description": {
+      "zh": "自由拖动圈选锚点",
+      "en": "Drag freely to select anchor points"
+    },
+    "windows": "Q",
+    "mac": "Q",
+    "linux": "Q",
+    "keywords": [
+      "套索",
+      "lasso"
+    ],
+    "pinyin": "tao suo gong ju taosuogongju t s g j tsgj tao suo taosuo t s ts"
+  },
+  {
+    "id": "ai-pen",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "钢笔工具",
+      "en": "Pen Tool"
+    },
+    "description": {
+      "zh": "绘制直线和曲线路径",
+      "en": "Draw straight and curved paths"
+    },
+    "windows": "P",
+    "mac": "P",
+    "linux": "P",
+    "keywords": [
+      "钢笔",
+      "pen",
+      "路径"
+    ],
+    "pinyin": "gang bi gong ju gangbigongju g b g j gbgj gang bi   lu jing gangbi lujing g b   l j gb lj"
+  },
+  {
+    "id": "ai-curvature",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "曲率工具",
+      "en": "Curvature Tool"
+    },
+    "description": {
+      "zh": "以直观方式绘制平滑曲线",
+      "en": "Draw smooth curves intuitively"
+    },
+    "windows": "Shift+~",
+    "mac": "Shift+~",
+    "linux": "Shift+~",
+    "keywords": [
+      "曲率",
+      "curvature"
+    ],
+    "pinyin": "qu lü gong ju qulügongju q l g j qlgj qu lü qulü q l ql"
+  },
+  {
+    "id": "ai-type",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "文字工具",
+      "en": "Type Tool"
+    },
+    "description": {
+      "zh": "添加点文本或段落文本",
+      "en": "Add point or area text"
+    },
+    "windows": "T",
+    "mac": "T",
+    "linux": "T",
+    "keywords": [
+      "文字",
+      "type",
+      "文本"
+    ],
+    "pinyin": "wen zi gong ju wenzigongju w z g j wzgj wen zi   wen ben wenzi wenben w z   w b wz wb"
+  },
+  {
+    "id": "ai-line",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "直线段工具",
+      "en": "Line Segment Tool"
+    },
+    "description": {
+      "zh": "绘制直线段",
+      "en": "Draw straight line segments"
+    },
+    "windows": "\\",
+    "mac": "\\",
+    "linux": "\\",
+    "keywords": [
+      "直线",
+      "line"
+    ],
+    "pinyin": "zhi xian duan gong ju zhixianduangongju z x d g j zxdgj zhi xian zhixian z x zx"
+  },
+  {
+    "id": "ai-rectangle",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "矩形工具",
+      "en": "Rectangle Tool"
+    },
+    "description": {
+      "zh": "绘制矩形",
+      "en": "Draw rectangles"
+    },
+    "windows": "M",
+    "mac": "M",
+    "linux": "M",
+    "keywords": [
+      "矩形",
+      "rectangle"
+    ],
+    "pinyin": "ju xing gong ju juxinggongju j x g j jxgj ju xing juxing j x jx"
+  },
+  {
+    "id": "ai-ellipse",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "椭圆工具",
+      "en": "Ellipse Tool"
+    },
+    "description": {
+      "zh": "绘制椭圆/圆形",
+      "en": "Draw ellipses/circles"
+    },
+    "windows": "L",
+    "mac": "L",
+    "linux": "L",
+    "keywords": [
+      "椭圆",
+      "ellipse",
+      "圆形"
+    ],
+    "pinyin": "tuo yuan gong ju tuoyuangongju t y g j tygj tuo yuan   yuan xing tuoyuan yuanxing t y   y x ty yx"
+  },
+  {
+    "id": "ai-artboard",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "画板工具",
+      "en": "Artboard Tool"
+    },
+    "description": {
+      "zh": "编辑画板的大小与位置",
+      "en": "Edit artboard size and position"
+    },
+    "windows": "Shift+O",
+    "mac": "Shift+O",
+    "linux": "Shift+O",
+    "keywords": [
+      "画板",
+      "artboard"
+    ],
+    "pinyin": "hua ban gong ju huabangongju h b g j hbgj hua ban huaban h b hb"
+  },
+  {
+    "id": "ai-pencil",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "铅笔工具",
+      "en": "Pencil Tool"
+    },
+    "description": {
+      "zh": "自由绘制路径",
+      "en": "Draw paths freely"
+    },
+    "windows": "N",
+    "mac": "N",
+    "linux": "N",
+    "keywords": [
+      "铅笔",
+      "pencil"
+    ],
+    "pinyin": "qian bi gong ju qianbigongju q b g j qbgj qian bi qianbi q b qb"
+  },
+  {
+    "id": "ai-shifter",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "切换选择工具",
+      "en": "Switch to Selection Tool"
+    },
+    "description": {
+      "zh": "快速切换到选择工具（Shift 临时切换）",
+      "en": "Quickly switch to the Selection tool"
+    },
+    "windows": "Shift+Z",
+    "mac": "Shift+Z",
+    "linux": "Shift+Z",
+    "keywords": [
+      "切换",
+      "shifter"
+    ],
+    "pinyin": "qie huan xuan ze gong ju qiehuanxuanzegongju q h x z g j qhxzgj qie huan qiehuan q h qh"
+  },
+  {
+    "id": "ai-width",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "宽度工具",
+      "en": "Width Tool"
+    },
+    "description": {
+      "zh": "调整描边的可变宽度",
+      "en": "Adjust variable width of strokes"
+    },
+    "windows": "Shift+W",
+    "mac": "Shift+W",
+    "linux": "Shift+W",
+    "keywords": [
+      "宽度",
+      "width"
+    ],
+    "pinyin": "kuan du gong ju kuandugongju k d g j kdgj kuan du kuandu k d kd"
+  },
+  {
+    "id": "ai-freewarp",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "变形工具",
+      "en": "Free Warp Tool"
+    },
+    "description": {
+      "zh": "对对象进行自由变形",
+      "en": "Warp objects freely"
+    },
+    "windows": "Shift+R",
+    "mac": "Shift+R",
+    "linux": "Shift+R",
+    "keywords": [
+      "变形",
+      "warp"
+    ],
+    "pinyin": "bian xing gong ju bianxinggongju b x g j bxgj bian xing bianxing b x bx"
+  },
+  {
+    "id": "ai-rotate",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "旋转工具",
+      "en": "Rotate Tool"
+    },
+    "description": {
+      "zh": "围绕参考点旋转对象",
+      "en": "Rotate objects around a reference point"
+    },
+    "windows": "R",
+    "mac": "R",
+    "linux": "R",
+    "keywords": [
+      "旋转",
+      "rotate"
+    ],
+    "pinyin": "xuan zhuan gong ju xuanzhuangongju x z g j xzgj xuan zhuan xuanzhuan x z xz"
+  },
+  {
+    "id": "ai-mirror",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "镜像工具",
+      "en": "Reflect Tool"
+    },
+    "description": {
+      "zh": "沿轴镜像翻转对象",
+      "en": "Reflect objects across an axis"
+    },
+    "windows": "O",
+    "mac": "O",
+    "linux": "O",
+    "keywords": [
+      "镜像",
+      "reflect",
+      "翻转"
+    ],
+    "pinyin": "jing xiang gong ju jingxianggongju j x g j jxgj jing xiang   fan zhuan jingxiang fanzhuan j x   f z jx fz"
+  },
+  {
+    "id": "ai-scale",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "比例缩放工具",
+      "en": "Scale Tool"
+    },
+    "description": {
+      "zh": "按比例缩放对象",
+      "en": "Scale objects proportionally"
+    },
+    "windows": "S",
+    "mac": "S",
+    "linux": "S",
+    "keywords": [
+      "缩放",
+      "scale"
+    ],
+    "pinyin": "bi li suo fang gong ju bilisuofanggongju b l s f g j blsfgj suo fang suofang s f sf"
+  },
+  {
+    "id": "ai-shear",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "倾斜工具",
+      "en": "Shear Tool"
+    },
+    "description": {
+      "zh": "倾斜变形对象",
+      "en": "Shear and slant objects"
+    },
+    "windows": "Shift+S",
+    "mac": "Shift+S",
+    "linux": "Shift+S",
+    "keywords": [
+      "倾斜",
+      "shear"
+    ],
+    "pinyin": "qing xie gong ju qingxiegongju q x g j qxgj qing xie qingxie q x qx"
+  },
+  {
+    "id": "ai-freetransform",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "自由变换工具",
+      "en": "Free Transform Tool"
+    },
+    "description": {
+      "zh": "综合进行移动/缩放/旋转",
+      "en": "Move, scale and rotate combined"
+    },
+    "windows": "E",
+    "mac": "E",
+    "linux": "E",
+    "keywords": [
+      "自由变换",
+      "free transform"
+    ],
+    "pinyin": "zi you bian huan gong ju ziyoubianhuangongju z y b h g j zybhgj zi you bian huan ziyoubianhuan z y b h zybh"
+  },
+  {
+    "id": "ai-shapebuilder",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "形状生成器工具",
+      "en": "Shape Builder Tool"
+    },
+    "description": {
+      "zh": "合并或删减相交形状",
+      "en": "Merge or remove intersecting shapes"
+    },
+    "windows": "Shift+M",
+    "mac": "Shift+M",
+    "linux": "Shift+M",
+    "keywords": [
+      "形状生成器",
+      "shape builder"
+    ],
+    "pinyin": "xing zhuang sheng cheng qi gong ju xingzhuangshengchengqigongju x z s c q g j xzscqgj xing zhuang sheng cheng qi xingzhuangshengchengqi x z s c q xzscq"
+  },
+  {
+    "id": "ai-perspectivegrid",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "透视网格工具",
+      "en": "Perspective Grid Tool"
+    },
+    "description": {
+      "zh": "显示/编辑透视网格",
+      "en": "Show and edit the perspective grid"
+    },
+    "windows": "Shift+P",
+    "mac": "Shift+P",
+    "linux": "Shift+P",
+    "keywords": [
+      "透视网格",
+      "perspective grid"
+    ],
+    "pinyin": "tou shi wang ge gong ju toushiwanggegongju t s w g g j tswggj tou shi wang ge toushiwangge t s w g tswg"
+  },
+  {
+    "id": "ai-gradient",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "渐变工具",
+      "en": "Gradient Tool"
+    },
+    "description": {
+      "zh": "应用并调整渐变填充",
+      "en": "Apply and adjust gradient fills"
+    },
+    "windows": "G",
+    "mac": "G",
+    "linux": "G",
+    "keywords": [
+      "渐变",
+      "gradient"
+    ],
+    "pinyin": "jian bian gong ju jianbiangongju j b g j jbgj jian bian jianbian j b jb"
+  },
+  {
+    "id": "ai-eyedropper",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "吸管工具",
+      "en": "Eyedropper Tool"
+    },
+    "description": {
+      "zh": "吸取并应用颜色/样式",
+      "en": "Pick up and apply color/style"
+    },
+    "windows": "I",
+    "mac": "I",
+    "linux": "I",
+    "keywords": [
+      "吸管",
+      "eyedropper",
+      "取色"
+    ],
+    "pinyin": "xi guan gong ju xiguangongju x g g j xggj xi guan   qu se xiguan quse x g   q s xg qs"
+  },
+  {
+    "id": "ai-blend",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "混合工具",
+      "en": "Blend Tool"
+    },
+    "description": {
+      "zh": "在对象间创建混合过渡",
+      "en": "Create blends between objects"
+    },
+    "windows": "W",
+    "mac": "W",
+    "linux": "W",
+    "keywords": [
+      "混合",
+      "blend"
+    ],
+    "pinyin": "hun he gong ju hunhegongju h h g j hhgj hun he hunhe h h hh"
+  },
+  {
+    "id": "ai-livepaint",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "实时上色工具",
+      "en": "Live Paint Bucket Tool"
+    },
+    "description": {
+      "zh": "为实时上色组的区域填色",
+      "en": "Fill regions of a Live Paint group"
+    },
+    "windows": "K",
+    "mac": "K",
+    "linux": "K",
+    "keywords": [
+      "实时上色",
+      "live paint"
+    ],
+    "pinyin": "shi shi shang se gong ju shishishangsegongju s s s s g j ssssgj shi shi shang se shishishangse s s s s ssss"
+  },
+  {
+    "id": "ai-livepaintselect",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "实时上色选择工具",
+      "en": "Live Paint Selection Tool"
+    },
+    "description": {
+      "zh": "选择实时上色组中的区域",
+      "en": "Select regions within a Live Paint group"
+    },
+    "windows": "Shift+L",
+    "mac": "Shift+L",
+    "linux": "Shift+L",
+    "keywords": [
+      "实时上色选择",
+      "live paint selection"
+    ],
+    "pinyin": "shi shi shang se xuan ze gong ju shishishangsexuanzegongju s s s s x z g j ssssxzgj shi shi shang se xuan ze shishishangsexuanze s s s s x z ssssxz"
+  },
+  {
+    "id": "ai-measure",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "度量工具",
+      "en": "Measure Tool"
+    },
+    "description": {
+      "zh": "测量两点之间的距离与角度",
+      "en": "Measure distance and angle between points"
+    },
+    "windows": "(无默认快捷键)",
+    "mac": "(无默认快捷键)",
+    "linux": "(无默认快捷键)",
+    "keywords": [
+      "度量",
+      "measure"
+    ],
+    "pinyin": "du liang gong ju dulianggongju d l g j dlgj du liang duliang d l dl"
+  },
+  {
+    "id": "ai-gridtool",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "网格工具",
+      "en": "Grid Tool"
+    },
+    "description": {
+      "zh": "在对象内创建网格以着色",
+      "en": "Create an envelope grid for coloring"
+    },
+    "windows": "U",
+    "mac": "U",
+    "linux": "U",
+    "keywords": [
+      "网格",
+      "grid"
+    ],
+    "pinyin": "wang ge gong ju wanggegongju w g g j wggj wang ge wangge w g wg"
+  },
+  {
+    "id": "ai-slice",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "切片工具",
+      "en": "Slice Tool"
+    },
+    "description": {
+      "zh": "将图稿分割为可导出切片",
+      "en": "Divide artwork into exportable slices"
+    },
+    "windows": "Shift+K",
+    "mac": "Shift+K",
+    "linux": "Shift+K",
+    "keywords": [
+      "切片",
+      "slice"
+    ],
+    "pinyin": "qie pian gong ju qiepiangongju q p g j qpgj qie pian qiepian q p qp"
+  },
+  {
+    "id": "ai-eraser",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "橡皮擦工具",
+      "en": "Eraser Tool"
+    },
+    "description": {
+      "zh": "擦除路径与填充区域",
+      "en": "Erase paths and filled areas"
+    },
+    "windows": "Shift+E",
+    "mac": "Shift+E",
+    "linux": "Shift+E",
+    "keywords": [
+      "橡皮擦",
+      "eraser"
+    ],
+    "pinyin": "xiang pi ca gong ju xiangpicagongju x p c g j xpcgj xiang pi ca xiangpica x p c xpc"
+  },
+  {
+    "id": "ai-scissors",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "剪刀工具",
+      "en": "Scissors Tool"
+    },
+    "description": {
+      "zh": "沿路径剪开锚点",
+      "en": "Cut a path at anchor points"
+    },
+    "windows": "C",
+    "mac": "C",
+    "linux": "C",
+    "keywords": [
+      "剪刀",
+      "scissors"
+    ],
+    "pinyin": "jian dao gong ju jiandaogongju j d g j jdgj jian dao jiandao j d jd"
   },
   {
     "id": "ai-join",
@@ -1055,22 +1070,551 @@
     "type": "software",
     "category": "design",
     "name": {
-      "zh": "连接端点",
+      "zh": "连接（Join）",
       "en": "Join"
     },
     "description": {
-      "zh": "连接选中的锚点或路径端点",
-      "en": "Join selected endpoints"
+      "zh": "连接两个端点或闭合路径",
+      "en": "Connect two endpoints or close a path"
     },
     "windows": "Ctrl+J",
-    "mac": "⌘+J",
-    "linux": "—",
+    "mac": "Cmd+J",
+    "linux": "Ctrl+J",
     "keywords": [
       "连接",
-      "join",
-      "端点"
+      "join"
     ],
-    "pinyin": "lian jie duan dian lianjieduandian l j d d ljdd lian jie   duan dian lianjie duandian l j   d d lj dd"
+    "pinyin": "lian jie （ j o i n ） lianjie（join） l j （ j o i n ） lj（join） lian jie lianjie l j lj"
+  },
+  {
+    "id": "ai-anchor",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "锚点工具",
+      "en": "Anchor Point Tool"
+    },
+    "description": {
+      "zh": "添加或转换锚点的控制柄",
+      "en": "Add or convert anchor point handles"
+    },
+    "windows": "Shift+C",
+    "mac": "Shift+C",
+    "linux": "Shift+C",
+    "keywords": [
+      "锚点",
+      "anchor point"
+    ],
+    "pinyin": "mao dian gong ju maodiangongju m d g j mdgj mao dian maodian m d md"
+  },
+  {
+    "id": "ai-touchtype",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "触控文字工具",
+      "en": "Touch Type Tool"
+    },
+    "description": {
+      "zh": "单独移动/缩放/旋转单个字符",
+      "en": "Move/scale/rotate individual characters"
+    },
+    "windows": "Shift+T",
+    "mac": "Shift+T",
+    "linux": "Shift+T",
+    "keywords": [
+      "触控文字",
+      "touch type"
+    ],
+    "pinyin": "chu kong wen zi gong ju chukongwenzigongju c k w z g j ckwzgj chu kong wen zi chukongwenzi c k w z ckwz"
+  },
+  {
+    "id": "ai-character",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "字符面板",
+      "en": "Character Panel"
+    },
+    "description": {
+      "zh": "打开字符面板设置字体格式",
+      "en": "Open the Character panel to set type formatting"
+    },
+    "windows": "Ctrl+T",
+    "mac": "Cmd+T",
+    "linux": "Ctrl+T",
+    "keywords": [
+      "字符",
+      "character",
+      "字体"
+    ],
+    "pinyin": "zi fu mian ban zifumianban z f m b zfmb zi fu   zi ti zifu ziti z f   z t zf zt"
+  },
+  {
+    "id": "ai-paragraph",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "段落面板",
+      "en": "Paragraph Panel"
+    },
+    "description": {
+      "zh": "打开段落面板设置对齐与缩进",
+      "en": "Open the Paragraph panel for alignment and indents"
+    },
+    "windows": "Ctrl+Alt+T",
+    "mac": "Cmd+Opt+T",
+    "linux": "Ctrl+Alt+T",
+    "keywords": [
+      "段落",
+      "paragraph"
+    ],
+    "pinyin": "duan luo mian ban duanluomianban d l m b dlmb duan luo duanluo d l dl"
+  },
+  {
+    "id": "ai-opentype",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "OpenType 面板",
+      "en": "OpenType Panel"
+    },
+    "description": {
+      "zh": "打开 OpenType 特性面板",
+      "en": "Open the OpenType features panel"
+    },
+    "windows": "Alt+Shift+O",
+    "mac": "Opt+Shift+O",
+    "linux": "Alt+Shift+O",
+    "keywords": [
+      "opentype",
+      "字体特性"
+    ],
+    "pinyin": "o p e n t y p e   mian ban opentype mianban o p e n t y p e   m b opentype mb zi ti te xing zititexing z t t x zttx"
+  },
+  {
+    "id": "ai-tabs",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "制表符面板",
+      "en": "Tabs Panel"
+    },
+    "description": {
+      "zh": "打开制表符设置面板",
+      "en": "Open the Tabs panel"
+    },
+    "windows": "Ctrl+Shift+T",
+    "mac": "Cmd+Shift+T",
+    "linux": "Ctrl+Shift+T",
+    "keywords": [
+      "制表符",
+      "tabs"
+    ],
+    "pinyin": "zhi biao fu mian ban zhibiaofumianban z b f m b zbfmb zhi biao fu zhibiaofu z b f zbf"
+  },
+  {
+    "id": "ai-glyphs",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "字形面板",
+      "en": "Glyphs Panel"
+    },
+    "description": {
+      "zh": "打开字形面板插入特殊字符",
+      "en": "Open the Glyphs panel to insert special characters"
+    },
+    "windows": "Ctrl+Alt+Shift+T",
+    "mac": "Cmd+Opt+Shift+T",
+    "linux": "Ctrl+Alt+Shift+T",
+    "keywords": [
+      "字形",
+      "glyphs"
+    ],
+    "pinyin": "zi xing mian ban zixingmianban z x m b zxmb zi xing zixing z x zx"
+  },
+  {
+    "id": "ai-hidecharacters",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "显示/隐藏字符",
+      "en": "Show/Hide Hidden Characters"
+    },
+    "description": {
+      "zh": "切换非打印字符的显示",
+      "en": "Toggle display of non-printing characters"
+    },
+    "windows": "Ctrl+Shift+Y",
+    "mac": "Cmd+Shift+Y",
+    "linux": "Ctrl+Shift+Y",
+    "keywords": [
+      "隐藏字符",
+      "hidden characters"
+    ],
+    "pinyin": "xian shi / yin cang zi fu xianshi/yincangzifu x s / y c z f xs/yczf yin cang zi fu yincangzifu y c z f yczf"
+  },
+  {
+    "id": "ai-group",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "编组",
+      "en": "Group"
+    },
+    "description": {
+      "zh": "将选中的对象编为一组",
+      "en": "Group selected objects"
+    },
+    "windows": "Ctrl+G",
+    "mac": "Cmd+G",
+    "linux": "Ctrl+G",
+    "keywords": [
+      "编组",
+      "group"
+    ],
+    "pinyin": "bian zu bianzu b z bz bian zu bianzu b z bz"
+  },
+  {
+    "id": "ai-ungroup",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "取消编组",
+      "en": "Ungroup"
+    },
+    "description": {
+      "zh": "解散所选编组",
+      "en": "Ungroup the selected group"
+    },
+    "windows": "Ctrl+Shift+G",
+    "mac": "Cmd+Shift+G",
+    "linux": "Ctrl+Shift+G",
+    "keywords": [
+      "取消编组",
+      "ungroup"
+    ],
+    "pinyin": "qu xiao bian zu quxiaobianzu q x b z qxbz qu xiao bian zu quxiaobianzu q x b z qxbz"
+  },
+  {
+    "id": "ai-lock",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "锁定所选对象",
+      "en": "Lock Selection"
+    },
+    "description": {
+      "zh": "锁定当前选中的对象",
+      "en": "Lock the current selection"
+    },
+    "windows": "Ctrl+2",
+    "mac": "Cmd+2",
+    "linux": "Ctrl+2",
+    "keywords": [
+      "锁定",
+      "lock"
+    ],
+    "pinyin": "suo ding suo xuan dui xiang suodingsuoxuanduixiang s d s x d x sdsxdx suo ding suoding s d sd"
+  },
+  {
+    "id": "ai-unlockall",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "解锁全部",
+      "en": "Unlock All"
+    },
+    "description": {
+      "zh": "解锁文档中所有锁定对象",
+      "en": "Unlock all locked objects in the document"
+    },
+    "windows": "Ctrl+Alt+2",
+    "mac": "Cmd+Opt+2",
+    "linux": "Ctrl+Alt+2",
+    "keywords": [
+      "解锁",
+      "unlock"
+    ],
+    "pinyin": "jie suo quan bu jiesuoquanbu j s q b jsqb jie suo jiesuo j s js"
+  },
+  {
+    "id": "ai-hide",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "隐藏所选对象",
+      "en": "Hide Selection"
+    },
+    "description": {
+      "zh": "隐藏当前选中的对象",
+      "en": "Hide the current selection"
+    },
+    "windows": "Ctrl+3",
+    "mac": "Cmd+3",
+    "linux": "Ctrl+3",
+    "keywords": [
+      "隐藏",
+      "hide"
+    ],
+    "pinyin": "yin cang suo xuan dui xiang yincangsuoxuanduixiang y c s x d x ycsxdx yin cang yincang y c yc"
+  },
+  {
+    "id": "ai-showall",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "显示全部",
+      "en": "Show All"
+    },
+    "description": {
+      "zh": "显示所有被隐藏的对象",
+      "en": "Show all hidden objects"
+    },
+    "windows": "Ctrl+Alt+3",
+    "mac": "Cmd+Opt+3",
+    "linux": "Ctrl+Alt+3",
+    "keywords": [
+      "显示全部",
+      "show all"
+    ],
+    "pinyin": "xian shi quan bu xianshiquanbu x s q b xsqb xian shi quan bu xianshiquanbu x s q b xsqb"
+  },
+  {
+    "id": "ai-bringtofront",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "置于顶层",
+      "en": "Bring to Front"
+    },
+    "description": {
+      "zh": "将所选对象移到最前面",
+      "en": "Move the selection to the front"
+    },
+    "windows": "Ctrl+Shift+]",
+    "mac": "Cmd+Shift+]",
+    "linux": "Ctrl+Shift+]",
+    "keywords": [
+      "置于顶层",
+      "bring to front"
+    ],
+    "pinyin": "zhi yu ding ceng zhiyudingceng z y d c zydc zhi yu ding ceng zhiyudingceng z y d c zydc"
+  },
+  {
+    "id": "ai-sendtoback",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "置于底层",
+      "en": "Send to Back"
+    },
+    "description": {
+      "zh": "将所选对象移到最后面",
+      "en": "Move the selection to the back"
+    },
+    "windows": "Ctrl+Shift+[",
+    "mac": "Cmd+Shift+[",
+    "linux": "Ctrl+Shift+[",
+    "keywords": [
+      "置于底层",
+      "send to back"
+    ],
+    "pinyin": "zhi yu di ceng zhiyudiceng z y d c zydc zhi yu di ceng zhiyudiceng z y d c zydc"
+  },
+  {
+    "id": "ai-bringforward",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "前移一层",
+      "en": "Bring Forward"
+    },
+    "description": {
+      "zh": "将所选对象向前移动一层",
+      "en": "Move the selection forward one level"
+    },
+    "windows": "Ctrl+]",
+    "mac": "Cmd+]",
+    "linux": "Ctrl+]",
+    "keywords": [
+      "前移一层",
+      "bring forward"
+    ],
+    "pinyin": "qian yi yi ceng qianyiyiceng q y y c qyyc qian yi yi ceng qianyiyiceng q y y c qyyc"
+  },
+  {
+    "id": "ai-sendbackward",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "后移一层",
+      "en": "Send Backward"
+    },
+    "description": {
+      "zh": "将所选对象向后移动一层",
+      "en": "Move the selection backward one level"
+    },
+    "windows": "Ctrl+[",
+    "mac": "Cmd+[",
+    "linux": "Ctrl+[",
+    "keywords": [
+      "后移一层",
+      "send backward"
+    ],
+    "pinyin": "hou yi yi ceng houyiyiceng h y y c hyyc hou yi yi ceng houyiyiceng h y y c hyyc"
+  },
+  {
+    "id": "ai-isolate",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "进入/退出隔离模式",
+      "en": "Enter/Exit Isolation Mode"
+    },
+    "description": {
+      "zh": "双击编组进入隔离模式，编辑其中对象",
+      "en": "Double-click a group to isolate and edit its contents"
+    },
+    "windows": "Double-click",
+    "mac": "Double-click",
+    "linux": "Double-click",
+    "keywords": [
+      "隔离模式",
+      "isolation"
+    ],
+    "pinyin": "jin ru / tui chu ge li mo shi jinru/tuichugelimoshi j r / t c g l m s jr/tcglms ge li mo shi gelimoshi g l m s glms"
+  },
+  {
+    "id": "ai-compoundpath",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "建立复合路径",
+      "en": "Make Compound Path"
+    },
+    "description": {
+      "zh": "将多个路径合并为复合路径",
+      "en": "Combine multiple paths into one compound path"
+    },
+    "windows": "Ctrl+8",
+    "mac": "Cmd+8",
+    "linux": "Ctrl+8",
+    "keywords": [
+      "复合路径",
+      "compound path"
+    ],
+    "pinyin": "jian li fu he lu jing jianlifuhelujing j l f h l j jlfhlj fu he lu jing fuhelujing f h l j fhlj"
+  },
+  {
+    "id": "ai-releasecompoundpath",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "释放复合路径",
+      "en": "Release Compound Path"
+    },
+    "description": {
+      "zh": "将复合路径拆分回独立路径",
+      "en": "Split a compound path back into separate paths"
+    },
+    "windows": "Ctrl+Alt+8",
+    "mac": "Cmd+Opt+8",
+    "linux": "Ctrl+Alt+8",
+    "keywords": [
+      "释放复合路径",
+      "release compound path"
+    ],
+    "pinyin": "shi fang fu he lu jing shifangfuhelujing s f f h l j sffhlj shi fang fu he lu jing shifangfuhelujing s f f h l j sffhlj"
+  },
+  {
+    "id": "ai-clippingmask",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "建立剪贴蒙版",
+      "en": "Make Clipping Mask"
+    },
+    "description": {
+      "zh": "用上层对象裁剪下层内容",
+      "en": "Use the top object to clip the content below"
+    },
+    "windows": "Ctrl+7",
+    "mac": "Cmd+7",
+    "linux": "Ctrl+7",
+    "keywords": [
+      "剪贴蒙版",
+      "clipping mask"
+    ],
+    "pinyin": "jian li jian tie meng ban jianlijiantiemengban j l j t m b jljtmb jian tie meng ban jiantiemengban j t m b jtmb"
+  },
+  {
+    "id": "ai-releaseclippingmask",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "释放剪贴蒙版",
+      "en": "Release Clipping Mask"
+    },
+    "description": {
+      "zh": "取消剪贴蒙版关系",
+      "en": "Remove the clipping mask relationship"
+    },
+    "windows": "Ctrl+Alt+7",
+    "mac": "Cmd+Opt+7",
+    "linux": "Ctrl+Alt+7",
+    "keywords": [
+      "释放剪贴蒙版",
+      "release clipping mask"
+    ],
+    "pinyin": "shi fang jian tie meng ban shifangjiantiemengban s f j t m b sfjtmb shi fang jian tie meng ban shifangjiantiemengban s f j t m b sfjtmb"
+  },
+  {
+    "id": "ai-createoutlines",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "创建轮廓",
+      "en": "Create Outlines"
+    },
+    "description": {
+      "zh": "将文字转换为可编辑路径",
+      "en": "Convert type into editable paths"
+    },
+    "windows": "Ctrl+Shift+O",
+    "mac": "Cmd+Shift+O",
+    "linux": "Ctrl+Shift+O",
+    "keywords": [
+      "创建轮廓",
+      "create outlines",
+      "转曲"
+    ],
+    "pinyin": "chuang jian lun kuo chuangjianlunkuo c j l k cjlk chuang jian lun kuo   zhuan qu chuangjianlunkuo zhuanqu c j l k   z q cjlk zq"
   },
   {
     "id": "ai-average",
@@ -1078,22 +1622,156 @@
     "type": "software",
     "category": "design",
     "name": {
-      "zh": "平均端点",
-      "en": "Average (Join at Center)"
+      "zh": "平均（Average）",
+      "en": "Average"
     },
     "description": {
-      "zh": "将选中端点平均对齐到中心连接",
-      "en": "Average and join points at center"
+      "zh": "将所选锚点对齐到一条线",
+      "en": "Align selected anchor points along a line"
     },
     "windows": "Ctrl+Alt+J",
-    "mac": "⌘+Option+J",
-    "linux": "—",
+    "mac": "Cmd+Opt+J",
+    "linux": "Ctrl+Alt+J",
     "keywords": [
       "平均",
-      "average",
-      "居中"
+      "average"
     ],
-    "pinyin": "ping jun duan dian pingjunduandian p j d d pjdd ping jun   ju zhong pingjun juzhong p j   j z pj jz"
+    "pinyin": "ping jun （ a v e r a g e ） pingjun（average） p j （ a v e r a g e ） pj（average） ping jun pingjun p j pj"
+  },
+  {
+    "id": "ai-offsetpath",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "偏移路径",
+      "en": "Offset Path"
+    },
+    "description": {
+      "zh": "沿法线方向偏移生成新路径",
+      "en": "Create a new path offset from the original"
+    },
+    "windows": "Ctrl+Alt+O (Effects menu)",
+    "mac": "Cmd+Opt+O (Effects menu)",
+    "linux": "Ctrl+Alt+O (Effects menu)",
+    "keywords": [
+      "偏移路径",
+      "offset path"
+    ],
+    "pinyin": "pian yi lu jing pianyilujing p y l j pylj pian yi lu jing pianyilujing p y l j pylj"
+  },
+  {
+    "id": "ai-outlinestroke",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "轮廓化描边",
+      "en": "Outline Stroke"
+    },
+    "description": {
+      "zh": "将描边转换为填充轮廓",
+      "en": "Convert a stroke into a filled outline"
+    },
+    "windows": "Object menu",
+    "mac": "Object menu",
+    "linux": "Object menu",
+    "keywords": [
+      "轮廓化描边",
+      "outline stroke"
+    ],
+    "pinyin": "lun kuo hua miao bian lunkuohuamiaobian l k h m b lkhmb lun kuo hua miao bian lunkuohuamiaobian l k h m b lkhmb"
+  },
+  {
+    "id": "ai-fitartboard",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "适合窗口大小",
+      "en": "Fit to Window"
+    },
+    "description": {
+      "zh": "缩放视图使画板适配窗口",
+      "en": "Zoom so the artboard fits the window"
+    },
+    "windows": "Ctrl+0",
+    "mac": "Cmd+0",
+    "linux": "Ctrl+0",
+    "keywords": [
+      "适合窗口",
+      "fit to window"
+    ],
+    "pinyin": "shi he chuang kou da xiao shihechuangkoudaxiao s h c k d x shckdx shi he chuang kou shihechuangkou s h c k shck"
+  },
+  {
+    "id": "ai-actualsize",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "实际大小 (100%)",
+      "en": "Actual Size (100%)"
+    },
+    "description": {
+      "zh": "以 100% 显示图稿",
+      "en": "View artwork at 100%"
+    },
+    "windows": "Ctrl+1",
+    "mac": "Cmd+1",
+    "linux": "Ctrl+1",
+    "keywords": [
+      "实际大小",
+      "actual size",
+      "100%"
+    ],
+    "pinyin": "shi ji da xiao   ( 1 0 0 % ) shijidaxiao (100%) s j d x   ( 1 0 0 % ) sjdx (100%) shi ji da xiao shijidaxiao s j d x sjdx"
+  },
+  {
+    "id": "ai-previewoutline",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "预览 / 轮廓",
+      "en": "Preview / Outline"
+    },
+    "description": {
+      "zh": "在预览与轮廓显示之间切换",
+      "en": "Toggle between Preview and Outline display"
+    },
+    "windows": "Ctrl+Y",
+    "mac": "Cmd+Y",
+    "linux": "Ctrl+Y",
+    "keywords": [
+      "预览",
+      "轮廓",
+      "preview",
+      "outline"
+    ],
+    "pinyin": "yu lan   /   lun kuo yulan / lunkuo y l   /   l k yl / lk yu lan   lun kuo yulan lunkuo y l   l k yl lk"
+  },
+  {
+    "id": "ai-pixelpreview",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "像素预览",
+      "en": "Pixel Preview"
+    },
+    "description": {
+      "zh": "以像素方式预览图稿",
+      "en": "Preview artwork as pixels"
+    },
+    "windows": "Alt+Ctrl+Y",
+    "mac": "Opt+Cmd+Y",
+    "linux": "Alt+Ctrl+Y",
+    "keywords": [
+      "像素预览",
+      "pixel preview"
+    ],
+    "pinyin": "xiang su yu lan xiangsuyulan x s y l xsyl xiang su yu lan xiangsuyulan x s y l xsyl"
   },
   {
     "id": "ai-smartguides",
@@ -1105,18 +1783,17 @@
       "en": "Smart Guides"
     },
     "description": {
-      "zh": "开启或关闭智能参考线",
-      "en": "Toggle smart guides"
+      "zh": "开启/关闭智能参考线",
+      "en": "Toggle Smart Guides"
     },
     "windows": "Ctrl+U",
-    "mac": "⌘+U",
-    "linux": "—",
+    "mac": "Cmd+U",
+    "linux": "Ctrl+U",
     "keywords": [
       "智能参考线",
-      "smart guides",
-      "参考线"
+      "smart guides"
     ],
-    "pinyin": "zhi neng can kao xian zhinengcankaoxian z n c k x znckx zhi neng can kao xian   can kao xian zhinengcankaoxian cankaoxian z n c k x   c k x znckx ckx"
+    "pinyin": "zhi neng can kao xian zhinengcankaoxian z n c k x znckx zhi neng can kao xian zhinengcankaoxian z n c k x znckx"
   },
   {
     "id": "ai-grid",
@@ -1124,21 +1801,21 @@
     "type": "software",
     "category": "design",
     "name": {
-      "zh": "显示网格",
-      "en": "Show Grid"
+      "zh": "显示/隐藏网格",
+      "en": "Show/Hide Grid"
     },
     "description": {
-      "zh": "显示或隐藏文档网格",
-      "en": "Toggle grid visibility"
+      "zh": "切换文档网格的显示",
+      "en": "Toggle the document grid"
     },
     "windows": "Ctrl+'",
-    "mac": "⌘+'",
-    "linux": "—",
+    "mac": "Cmd+'",
+    "linux": "Ctrl+'",
     "keywords": [
       "网格",
       "grid"
     ],
-    "pinyin": "xian shi wang ge xianshiwangge x s w g xswg wang ge wangge w g wg"
+    "pinyin": "xian shi / yin cang wang ge xianshi/yincangwangge x s / y c w g xs/ycwg wang ge wangge w g wg"
   },
   {
     "id": "ai-rulers",
@@ -1146,45 +1823,110 @@
     "type": "software",
     "category": "design",
     "name": {
-      "zh": "显示标尺",
-      "en": "Show Rulers"
+      "zh": "显示/隐藏标尺",
+      "en": "Show/Hide Rulers"
     },
     "description": {
-      "zh": "显示或隐藏标尺",
-      "en": "Toggle rulers visibility"
+      "zh": "切换标尺的显示",
+      "en": "Toggle the rulers"
     },
     "windows": "Ctrl+R",
-    "mac": "⌘+R",
-    "linux": "—",
+    "mac": "Cmd+R",
+    "linux": "Ctrl+R",
     "keywords": [
       "标尺",
       "rulers"
     ],
-    "pinyin": "xian shi biao chi xianshibiaochi x s b c xsbc biao chi biaochi b c bc"
+    "pinyin": "xian shi / yin cang biao chi xianshi/yincangbiaochi x s / y c b c xs/ycbc biao chi biaochi b c bc"
   },
   {
-    "id": "ai-preview-edge",
+    "id": "ai-guides",
     "appId": "illustrator",
     "type": "software",
     "category": "design",
     "name": {
-      "zh": "切换预览/轮廓模式",
-      "en": "Toggle Preview/Outline Mode"
+      "zh": "显示/隐藏参考线",
+      "en": "Show/Hide Guides"
     },
     "description": {
-      "zh": "在预览和轮廓模式间切换",
-      "en": "Switch between preview and outline mode"
+      "zh": "切换参考线的显示",
+      "en": "Toggle guides"
     },
-    "windows": "Ctrl+Y",
-    "mac": "⌘+Y",
-    "linux": "—",
+    "windows": "Ctrl+;",
+    "mac": "Cmd+;",
+    "linux": "Ctrl+;",
     "keywords": [
-      "预览",
-      "preview",
-      "轮廓",
-      "outline"
+      "参考线",
+      "guides"
     ],
-    "pinyin": "qie huan yu lan / lun kuo mo shi qiehuanyulan/lunkuomoshi q h y l / l k m s qhyl/lkms yu lan   lun kuo yulan lunkuo y l   l k yl lk"
+    "pinyin": "xian shi / yin cang can kao xian xianshi/yincangcankaoxian x s / y c c k x xs/ycckx can kao xian cankaoxian c k x ckx"
+  },
+  {
+    "id": "ai-snapstopoints",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "对齐点（Snap to Point）",
+      "en": "Snap to Point"
+    },
+    "description": {
+      "zh": "开启/关闭锚点对齐",
+      "en": "Toggle snapping to anchor points"
+    },
+    "windows": "Ctrl+Shift+\"",
+    "mac": "Cmd+Shift+\"",
+    "linux": "Ctrl+Shift+\"",
+    "keywords": [
+      "对齐点",
+      "snap to point"
+    ],
+    "pinyin": "dui qi dian （ s n a p   t o   p o i n t ） duiqidian（snap to point） d q d （ s n a p   t o   p o i n t ） dqd（snap to point） dui qi dian duiqidian d q d dqd"
+  },
+  {
+    "id": "ai-snaptogrid",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "对齐网格",
+      "en": "Snap to Grid"
+    },
+    "description": {
+      "zh": "开启/关闭网格对齐",
+      "en": "Toggle snapping to the grid"
+    },
+    "windows": "Ctrl+Shift+'",
+    "mac": "Cmd+Shift+'",
+    "linux": "Ctrl+Shift+'",
+    "keywords": [
+      "对齐网格",
+      "snap to grid"
+    ],
+    "pinyin": "dui qi wang ge duiqiwangge d q w g dqwg dui qi wang ge duiqiwangge d q w g dqwg"
+  },
+  {
+    "id": "ai-slicecut",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "建立切片",
+      "en": "Create Slices (from guides/selection)"
+    },
+    "description": {
+      "zh": "由参考线或选区生成切片",
+      "en": "Generate slices from guides or selection"
+    },
+    "windows": "Ctrl+Alt+;",
+    "mac": "Cmd+Opt+;",
+    "linux": "Ctrl+Alt+;",
+    "keywords": [
+      "切分",
+      "切片",
+      "slice"
+    ],
+    "pinyin": "jian li qie pian jianliqiepian j l q p jlqp qie fen   qie pian qiefen qiepian q f   q p qf qp"
   },
   {
     "id": "ai-preferences",
@@ -1196,17 +1938,38 @@
       "en": "Preferences"
     },
     "description": {
-      "zh": "打开首选项设置",
-      "en": "Open preferences dialog"
+      "zh": "打开首选项设置对话框",
+      "en": "Open the Preferences dialog"
     },
     "windows": "Ctrl+K",
-    "mac": "⌘+K",
-    "linux": "—",
+    "mac": "Cmd+K",
+    "linux": "Ctrl+K",
     "keywords": [
-      "设置",
-      "preferences",
-      "首选项"
+      "首选项",
+      "preferences"
     ],
-    "pinyin": "shou xuan xiang shouxuanxiang s x x sxx she zhi   shou xuan xiang shezhi shouxuanxiang s z   s x x sz sxx"
+    "pinyin": "shou xuan xiang shouxuanxiang s x x sxx shou xuan xiang shouxuanxiang s x x sxx"
+  },
+  {
+    "id": "ai-colorsettings",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "颜色设置",
+      "en": "Color Settings"
+    },
+    "description": {
+      "zh": "打开颜色管理设置",
+      "en": "Open color management settings"
+    },
+    "windows": "Shift+Ctrl+K",
+    "mac": "Shift+Cmd+K",
+    "linux": "Shift+Ctrl+K",
+    "keywords": [
+      "颜色设置",
+      "color settings"
+    ],
+    "pinyin": "yan se she zhi yanseshezhi y s s z yssz yan se she zhi yanseshezhi y s s z yssz"
   }
 ]

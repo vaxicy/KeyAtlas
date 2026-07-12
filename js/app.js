@@ -107,18 +107,38 @@
   }
 
   /* ---------- Shortcut card ---------- */
+  // Returns the platform tag(s) for a card. A shortcut covering all three OSes
+  // shows a single "通用/Universal" badge; two OSes show both; one shows that one.
+  function platformTagsHTML(s) {
+    const t = i18n.t;
+    const present = ["windows", "mac", "linux"].filter((p) => {
+      const v = s[p];
+      return v && v !== "—";
+    });
+    if (present.length >= 3) {
+      return `<span class="card-os card-os-universal">🌐 ${t.os_universal}</span>`;
+    }
+    if (present.length === 2) {
+      return present
+        .map((p) => {
+          const m = OS_META[p];
+          return `<span class="card-os">${m.icon} ${t[m.key]}</span>`;
+        })
+        .join("");
+    }
+    const only = present[0] ? OS_META[present[0]] : OS_META[state.os];
+    return `<span class="card-os">${only.icon} ${t[only.key]}</span>`;
+  }
+
   function cardHTML(s, q) {
     const app = DataStore.getApp(s.appId);
     const appName = app ? escapeHTML(i18n.pick(app.name)) : "";
     const isSystem = app && app.type === "system";
     const fav = state.favSet.has(s.id);
     const t = i18n.t;
-    const osMeta = OS_META[state.os] || OS_META.windows;
     // System shortcuts already carry the OS in their app label, so we skip the
     // redundant OS tag there; software shortcuts show which OS the key is for.
-    const osTag = isSystem
-      ? ""
-      : `<span class="card-os">${osMeta.icon} ${t[osMeta.key]}</span>`;
+    const osTag = isSystem ? "" : platformTagsHTML(s);
     return `
       <div class="card" data-id="${s.id}">
         <div class="card-main">

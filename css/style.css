@@ -302,7 +302,7 @@ html, body {
   padding: 2px 6px;
   flex-shrink: 0;
 }
-.card-meta { display: flex; align-items: center; gap: 6px; margin-top: 4px; }
+.card-meta { display: flex; align-items: center; gap: 6px; margin-top: 4px; flex-wrap: wrap; }
 .card-cat {
   display: inline-flex;
   align-items: center;
@@ -341,6 +341,11 @@ html, body {
   border-radius: 5px;
   padding: 2px 6px;
   flex-shrink: 0;
+}
+.card-os-universal {
+  color: #fff;
+  background: var(--primary-strong);
+  font-weight: 700;
 }
 
 .card-keys { display: flex; align-items: center; gap: 3px; flex-shrink: 0; }

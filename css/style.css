@@ -131,16 +131,7 @@ html, body {
 }
 .clear-btn:hover { color: var(--text); }
 
-.kbd-hint {
-  font-size: 10px;
-  color: var(--sub);
-  text-align: center;
-  margin: -3px 14px 5px;
-  user-select: none;
-  letter-spacing: .2px;
-}
-
-/* ---- Segmented control ---- */
+/* ---- Tabs (capsule) ---- */
 .segmented {
   display: inline-flex;
   background: var(--surface-2);
@@ -196,6 +187,14 @@ html, body {
   flex: 1;
   overflow-y: auto;
   padding: 2px 14px 14px;
+}
+.content .kbd-hint {
+  font-size: 10px;
+  color: var(--sub);
+  text-align: center;
+  margin: -4px 0 6px;
+  user-select: none;
+  letter-spacing: .2px;
 }
 .content::-webkit-scrollbar { width: 8px; }
 .content::-webkit-scrollbar-thumb {
@@ -371,18 +370,24 @@ html, body {
 .star-btn:hover { transform: scale(1.15); }
 .star-btn.active { color: var(--accent); }
 
-/* ---- Category grid ---- */
+/* ---- Category grid / list ---- */
 .cat-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 8px;
   margin-top: 4px;
 }
+.cat-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 4px;
+}
 .cat-tile {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
-  padding: 14px 12px;
+  padding: 10px 12px;
   cursor: pointer;
   box-shadow: var(--shadow);
   display: flex;
@@ -417,7 +422,7 @@ html, body {
   display: flex;
   align-items: center;
   gap: 8px;
-  margin: 4px 0 10px;
+  margin: 10px 0 10px;
 }
 .back-btn {
   border: none;

@@ -38,7 +38,6 @@
     closeSettings: document.getElementById("closeSettings"),
     setLang: document.getElementById("setLang"),
     setTheme: document.getElementById("setTheme"),
-    setOs: document.getElementById("setOs"),
     aboutVersion: document.getElementById("aboutVersion"),
     toast: document.getElementById("toast")
   };
@@ -146,6 +145,7 @@
     const t = i18n.t;
     return (
       `<div class="section-title">${i18n.format(t.resultsCount, { n: items.length })}</div>` +
+      (q ? `<div class="kbd-hint" data-i18n="kbdHint">${t.kbdHint}</div>` : "") +
       items.map((s) => cardHTML(s, q)).join("")
     );
   }
@@ -298,7 +298,7 @@
           return `<div class="cat-tile" data-drill="os:${id}"><span class="cat-emoji">${m.icon}</span><div class="cat-info"><span class="cat-name">${t[m.key]}</span></div></div>`;
         })
         .join("");
-      el.content.innerHTML = subheadHTML(t.grpSystem) + `<div class="cat-grid">${tiles}</div>`;
+      el.content.innerHTML = subheadHTML(t.grpSystem) + `<div class="cat-list">${tiles}</div>`;
       return;
     }
     if (state.catView === "software") {
@@ -576,12 +576,6 @@
     });
   }
 
-  function pickOS(os) {
-    state.os = os;
-    setActiveSegment(el.setOs, "os", os);
-    render();
-  }
-
   function pickTheme(theme) {
     applyTheme(theme);
     store.setTheme(theme);
@@ -624,9 +618,12 @@
     const theme = await store.getTheme();
     applyTheme(theme);
 
-    // OS
+    // segmented bindings (settings panel)
+    bindSegment(el.setTheme, "theme", pickTheme);
+    bindSegment(el.setLang, "lang", pickLang);
+
+    // OS (auto-detect, no manual selector)
     state.os = detectOS();
-    setActiveSegment(el.setOs, "os", state.os);
 
     // Load data
     try {
@@ -667,11 +664,6 @@
     el.settingsBtn.addEventListener("click", openSettings);
     el.closeSettings.addEventListener("click", closeSettings);
     el.settingsBackdrop.addEventListener("click", closeSettings);
-
-    // segmented bindings (settings panel)
-    bindSegment(el.setOs, "os", pickOS);
-    bindSegment(el.setTheme, "theme", pickTheme);
-    bindSegment(el.setLang, "lang", pickLang);
 
     el.content.addEventListener("click", onContentClick);
     document.addEventListener("keydown", onKeydown);

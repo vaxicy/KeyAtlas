@@ -49,7 +49,8 @@
 .link-btn:focus-visible,
 .empty-action:focus-visible,
 .clear-btn:focus-visible,
-.settings-btn:focus-visible {
+.settings-btn:focus-visible,
+.settings-close:focus-visible {
   outline: 2px solid var(--primary);
   outline-offset: 2px;
 }
@@ -480,10 +481,12 @@ html, body {
   top: 0;
   right: 0;
   height: 100%;
-  width: 100%;
+  width: 72%;
   background: var(--surface);
   border-left: 1px solid var(--border);
-  box-shadow: var(--shadow-lg);
+  border-top-left-radius: 14px;
+  border-bottom-left-radius: 14px;
+  box-shadow: -8px 0 24px rgba(16, 24, 40, 0.18);
   z-index: 50;
   display: flex;
   flex-direction: column;
@@ -495,10 +498,23 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 14px 14px 12px;
+  padding: 10px 12px;
   border-bottom: 1px solid var(--border);
 }
-.settings-title { font-size: 16px; font-weight: 700; }
+.settings-title { font-size: 15px; font-weight: 700; }
+.settings-close {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px; height: 28px;
+  border: none;
+  border-radius: 50%;
+  background: var(--surface-2);
+  color: var(--sub);
+  cursor: pointer;
+  transition: background .15s, color .15s;
+}
+.settings-close:hover { background: var(--border); color: var(--text); }
 .settings-body {
   flex: 1;
   overflow-y: auto;
@@ -545,12 +561,22 @@ html, body {
 /* about */
 .about {
   background: var(--surface-2);
+  border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   padding: 12px;
   gap: 6px;
 }
 .about-desc { font-size: 12px; color: var(--sub); line-height: 1.5; }
-.about-version { font-size: 11px; color: var(--sub); font-weight: 600; }
+.about-version {
+  font-size: 11px;
+  color: var(--sub);
+  font-weight: 600;
+  align-self: flex-start;
+  padding: 2px 8px;
+  border-radius: 10px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
 
 /* ---- Toast ---- */
 .toast {

@@ -1,0 +1,45 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="64" y1="64" x2="448" y2="448" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4F46E5"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="kgrad" x1="176" y1="150" x2="336" y2="330" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4F46E5"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="kshine" x1="176" y1="150" x2="336" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#1E1B4B" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- background tile -->
+  <rect x="32" y="32" width="448" height="448" rx="104" fill="url(#bg)"/>
+  <rect x="32" y="32" width="448" height="448" rx="104" fill="#FFFFFF" fill-opacity="0.06"/>
+
+  <!-- keycap shadow base -->
+  <rect x="150" y="170" width="212" height="212" rx="44" fill="#312E81" fill-opacity="0.55"/>
+  <!-- keycap body -->
+  <rect x="156" y="158" width="200" height="200" rx="40" fill="#FFFFFF" filter="url(#soft)"/>
+  <!-- keycap top shine -->
+  <rect x="156" y="158" width="200" height="100" rx="40" fill="url(#kshine)"/>
+
+  <!-- K letter -->
+  <path d="M232 214 L232 302 M232 258 L286 214 M232 258 L288 302"
+        stroke="url(#kgrad)" stroke-width="26" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- atlas dot grid (collection hint) -->
+  <g fill="#FFFFFF" fill-opacity="0.85">
+    <circle cx="206" cy="392" r="9"/>
+    <circle cx="234" cy="392" r="9"/>
+    <circle cx="262" cy="392" r="9"/>
+    <circle cx="290" cy="392" r="9"/>
+    <circle cx="220" cy="416" r="9"/>
+    <circle cx="248" cy="416" r="9"/>
+    <circle cx="276" cy="416" r="9"/>
+  </g>
+</svg>

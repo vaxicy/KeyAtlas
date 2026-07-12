@@ -5,9 +5,11 @@
   "description": "KeyAtlas – offline keyboard shortcut search engine (Chrome extension).",
   "scripts": {
     "gen:pinyin": "node scripts/gen-pinyin.js",
-    "validate:data": "node scripts/validate-data.js"
+    "validate:data": "node scripts/validate-data.js",
+    "gen:icons": "node scripts/gen-icons.js"
   },
   "devDependencies": {
-    "pinyin-pro": "^3.28.1"
+    "pinyin-pro": "^3.28.1",
+    "sharp": "^0.33.0"
   }
 }

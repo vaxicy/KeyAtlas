@@ -219,7 +219,7 @@ html, body {
   color: var(--sub);
   text-transform: uppercase;
   letter-spacing: .4px;
-  margin: 10px 2px 8px;
+  margin: 10px 2px 8px 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -386,7 +386,7 @@ html, body {
 .star-btn.active { color: var(--accent); }
 
 /* ---- Detail view ---- */
-.detail-body { padding: 4px 2px 4px; }
+.detail-body { padding: 4px 2px 4px 12px; }
 .detail-head {
   display: flex;
   align-items: center;
@@ -457,36 +457,36 @@ html, body {
 /* ---- Category grid / list ---- */
 .cat-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 8px;
-  margin-top: 4px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin: 4px 0 0 10px;
 }
 .cat-list {
   display: flex;
   flex-direction: column;
   gap: 6px;
-  margin-top: 4px;
+  margin: 4px 0 0 10px;
 }
 .cat-tile {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
-  padding: 8px 9px;
+  padding: 11px 12px;
   cursor: pointer;
   box-shadow: var(--shadow);
   display: flex;
   align-items: center;
-  gap: 7px;
+  gap: 10px;
   transition: transform .12s, box-shadow .12s, border-color .12s;
 }
 .cat-tile:hover { box-shadow: var(--shadow-lg); border-color: var(--primary); }
-.cat-emoji { font-size: 20px; flex-shrink: 0; }
+.cat-emoji { font-size: 24px; flex-shrink: 0; }
 .cat-info { display: flex; flex-direction: column; min-width: 0; }
 .cat-name { font-size: 13px; font-weight: 600; color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .cat-count { font-size: 11px; color: var(--sub); }
 
 /* ---- App chips (inside category) ---- */
-.chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 10px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 10px 0; padding-left: 10px; }
 .chip {
   border: 1px solid var(--border);
   background: var(--surface);
@@ -505,31 +505,31 @@ html, body {
 .subhead {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 0px;
   margin: 2px 0 6px;
+  line-height: 1;
 }
 .back-btn {
   border: none;
-  background: var(--surface);
+  background: transparent;
   color: var(--text);
-  border-radius: 8px;
-  width: 30px; height: 30px;
+  padding: 4px 2px;
+  margin: -4px 0;
   cursor: pointer;
-  box-shadow: var(--shadow);
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
-.subhead-title { font-size: 15px; font-weight: 700; display: flex; align-items: center; gap: 6px; }
+.subhead-title { font-size: 14px; font-weight: 700; display: inline-flex; align-items: center; gap: 6px; line-height: 1; }
 .subhead-export {
   margin-left: auto;
   border: none;
-  background: var(--surface);
+  background: transparent;
   color: var(--text);
-  border-radius: 8px;
-  width: 30px; height: 30px;
+  padding: 6px;
+  margin: -6px 0;
   cursor: pointer;
-  box-shadow: var(--shadow);
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -540,8 +540,8 @@ html, body {
   border: none;
   background: transparent;
   color: var(--sub);
-  border-radius: 8px;
-  width: 30px; height: 30px;
+  padding: 6px;
+  margin: -6px 0 -6px auto;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
@@ -771,7 +771,7 @@ html, body {
   flex-wrap: wrap;
   gap: 4px;
   background: var(--bg);
-  padding: 4px 0 6px;
+  padding: 4px 0 6px 10px;
   margin-bottom: 2px;
 }
 .alpha-link {

@@ -178,28 +178,7 @@
     ],
     "pinyin": "jian qie jianqie j q jq jian qie jianqie j q jq"
   },
-  {
-    "id": "capcut-ripple",
-    "appId": "capcut",
-    "type": "software",
-    "category": "video",
-    "name": {
-      "zh": "波纹删除",
-      "en": "Ripple Delete"
-    },
-    "description": {
-      "zh": "删除并自动补齐间隙",
-      "en": "Delete and close gap"
-    },
-    "windows": "Ctrl+Delete",
-    "mac": "Cmd+Delete",
-    "linux": "Ctrl+Delete",
-    "keywords": [
-      "波纹删除",
-      "ripple"
-    ],
-    "pinyin": "bo wen shan chu bowenshanchu b w s c bwsc bo wen shan chu bowenshanchu b w s c bwsc"
-  },
+
   {
     "id": "capcut-zoomfit",
     "appId": "capcut",
@@ -267,50 +246,8 @@
     ],
     "pinyin": "suo xiao shi jian zhou suoxiaoshijianzhou s x s j z sxsjz suo xiao suoxiao s x sx"
   },
-  {
-    "id": "capcut-prevframe",
-    "appId": "capcut",
-    "type": "software",
-    "category": "video",
-    "name": {
-      "zh": "上一帧",
-      "en": "Previous Frame"
-    },
-    "description": {
-      "zh": "逐帧后退",
-      "en": "Step back one frame"
-    },
-    "windows": "Left",
-    "mac": "Left",
-    "linux": "Left",
-    "keywords": [
-      "上一帧",
-      "prev frame"
-    ],
-    "pinyin": "shang yi zhen shangyizhen s y z syz shang yi zhen shangyizhen s y z syz"
-  },
-  {
-    "id": "capcut-nextframe",
-    "appId": "capcut",
-    "type": "software",
-    "category": "video",
-    "name": {
-      "zh": "下一帧",
-      "en": "Next Frame"
-    },
-    "description": {
-      "zh": "逐帧前进",
-      "en": "Step forward one frame"
-    },
-    "windows": "Right",
-    "mac": "Right",
-    "linux": "Right",
-    "keywords": [
-      "下一帧",
-      "next frame"
-    ],
-    "pinyin": "xia yi zhen xiayizhen x y z xyz xia yi zhen xiayizhen x y z xyz"
-  },
+
+
   {
     "id": "capcut-home",
     "appId": "capcut",
@@ -400,29 +337,7 @@
     ],
     "pinyin": "biao ji chu dian biaojichudian b j c d bjcd chu dian chudian c d cd"
   },
-  {
-    "id": "capcut-speed",
-    "appId": "capcut",
-    "type": "software",
-    "category": "video",
-    "name": {
-      "zh": "变速",
-      "en": "Speed"
-    },
-    "description": {
-      "zh": "打开变速面板",
-      "en": "Open speed panel"
-    },
-    "windows": "Ctrl+R",
-    "mac": "Cmd+R",
-    "linux": "Ctrl+R",
-    "keywords": [
-      "变速",
-      "speed",
-      "曲线变速"
-    ],
-    "pinyin": "bian su biansu b s bs bian su   qu xian bian su biansu quxianbiansu b s   q x b s bs qxbs"
-  },
+
   {
     "id": "capcut-text",
     "appId": "capcut",
@@ -556,27 +471,5 @@
       "export"
     ],
     "pinyin": "dao chu daochu d c dc dao chu daochu d c dc"
-  },
-  {
-    "id": "capcut-mute",
-    "appId": "capcut",
-    "type": "software",
-    "category": "video",
-    "name": {
-      "zh": "静音",
-      "en": "Mute"
-    },
-    "description": {
-      "zh": "静音/取消静音",
-      "en": "Mute/unmute"
-    },
-    "windows": "Ctrl+Shift+M",
-    "mac": "Cmd+Shift+M",
-    "linux": "Ctrl+Shift+M",
-    "keywords": [
-      "静音",
-      "mute"
-    ],
-    "pinyin": "jing yin jingyin j y jy jing yin jingyin j y jy"
   }
 ]

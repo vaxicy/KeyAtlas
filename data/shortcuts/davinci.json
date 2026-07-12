@@ -1,5 +1,27 @@
 [
   {
+    "id": "davinci-media",
+    "appId": "davinci",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "媒体页面",
+      "en": "Media Page"
+    },
+    "description": {
+      "zh": "切换到媒体页面",
+      "en": "Switch to Media"
+    },
+    "windows": "Shift+1",
+    "mac": "Shift+1",
+    "linux": "Shift+1",
+    "keywords": [
+      "媒体",
+      "media"
+    ],
+    "pinyin": "mei ti ye mian meitiyemian m t y m mtym mei ti meiti m t mt"
+  },
+  {
     "id": "davinci-cut",
     "appId": "davinci",
     "type": "software",
@@ -156,116 +178,72 @@
     "pinyin": "bo fang / zan ting bofang/zanting b f / z t bf/zt bo fang bofang b f bf"
   },
   {
-    "id": "davinci-split",
+    "id": "davinci-stop",
     "appId": "davinci",
     "type": "software",
     "category": "video",
     "name": {
-      "zh": "刀片分割",
-      "en": "Blade"
+      "zh": "停止",
+      "en": "Stop"
     },
     "description": {
-      "zh": "在播放头分割",
-      "en": "Cut at playhead"
+      "zh": "停止播放",
+      "en": "Stop playback"
     },
-    "windows": "Ctrl+B",
-    "mac": "Cmd+B",
-    "linux": "Ctrl+B",
+    "windows": "K",
+    "mac": "K",
+    "linux": "K",
     "keywords": [
-      "分割",
-      "blade",
-      "刀"
+      "停止",
+      "stop"
     ],
-    "pinyin": "dao pian fen ge daopianfenge d p f g dpfg fen ge   dao fenge dao f g   d fg d"
+    "pinyin": "ting zhi tingzhi t z tz ting zhi tingzhi t z tz"
   },
   {
-    "id": "davinci-ripple",
+    "id": "davinci-jumpforward",
     "appId": "davinci",
     "type": "software",
     "category": "video",
     "name": {
-      "zh": "波纹删除",
-      "en": "Ripple Delete"
+      "zh": "向前跳帧",
+      "en": "Jump Forward"
     },
     "description": {
-      "zh": "删除并补齐",
-      "en": "Ripple delete"
+      "zh": "向前跳转（大步）",
+      "en": "Jump forward"
     },
-    "windows": "Shift+Delete",
-    "mac": "Shift+Delete",
-    "linux": "Shift+Delete",
+    "windows": "Right",
+    "mac": "Right",
+    "linux": "Right",
     "keywords": [
-      "波纹",
-      "ripple"
+      "前进",
+      "跳帧",
+      "forward"
     ],
-    "pinyin": "bo wen shan chu bowenshanchu b w s c bwsc bo wen bowen b w bw"
+    "pinyin": "xiang qian tiao zhen xiangqiantiaozhen x q t z xqtz qian jin   tiao zhen qianjin tiaozhen q j   t z qj tz"
   },
   {
-    "id": "davinci-zoomfit",
+    "id": "davinci-jumpback",
     "appId": "davinci",
     "type": "software",
     "category": "video",
     "name": {
-      "zh": "适应时间轴",
-      "en": "Zoom to Fit"
+      "zh": "向后跳帧",
+      "en": "Jump Back"
     },
     "description": {
-      "zh": "适配时间轴",
-      "en": "Fit timeline"
+      "zh": "向后跳转（大步）",
+      "en": "Jump back"
     },
-    "windows": "Shift+Z",
-    "mac": "Shift+Z",
-    "linux": "Shift+Z",
+    "windows": "Left",
+    "mac": "Left",
+    "linux": "Left",
     "keywords": [
-      "适应",
-      "fit",
-      "缩放"
+      "后退",
+      "跳帧",
+      "back"
     ],
-    "pinyin": "shi ying shi jian zhou shiyingshijianzhou s y s j z sysjz shi ying   suo fang shiying suofang s y   s f sy sf"
-  },
-  {
-    "id": "davinci-zoomin",
-    "appId": "davinci",
-    "type": "software",
-    "category": "video",
-    "name": {
-      "zh": "放大",
-      "en": "Zoom In"
-    },
-    "description": {
-      "zh": "放大",
-      "en": "Zoom in"
-    },
-    "windows": "Ctrl+=",
-    "mac": "Cmd+=",
-    "linux": "Ctrl+=",
-    "keywords": [
-      "放大",
-      "zoom in"
-    ],
-    "pinyin": "fang da fangda f d fd fang da fangda f d fd"
-  },
-  {
-    "id": "davinci-zoomout",
-    "appId": "davinci",
-    "type": "software",
-    "category": "video",
-    "name": {
-      "zh": "缩小",
-      "en": "Zoom Out"
-    },
-    "description": {
-      "zh": "缩小",
-      "en": "Zoom out"
-    },
-    "windows": "Ctrl+-",
-    "mac": "Cmd+-",
-    "linux": "Ctrl+-",
-    "keywords": [
-      "缩小",
-      "zoom out"
-    ],
-    "pinyin": "suo xiao suoxiao s x sx suo xiao suoxiao s x sx"
+    "pinyin": "xiang hou tiao zhen xianghoutiaozhen x h t z xhtz hou tui   tiao zhen houtui tiaozhen h t   t z ht tz"
   },
   {
     "id": "davinci-prevframe",
@@ -312,83 +290,132 @@
     "pinyin": "xia yi zhen xiayizhen x y z xyz xia yi zhen xiayizhen x y z xyz"
   },
   {
-    "id": "davinci-mark",
+    "id": "davinci-gostart",
     "appId": "davinci",
     "type": "software",
     "category": "video",
     "name": {
-      "zh": "添加标记",
-      "en": "Add Marker"
+      "zh": "转到开头",
+      "en": "Go to Start"
     },
     "description": {
-      "zh": "添加时间线标记",
-      "en": "Add marker"
+      "zh": "跳转到时间线开头",
+      "en": "Go to start of timeline"
     },
-    "windows": "M",
-    "mac": "M",
-    "linux": "M",
+    "windows": "Home",
+    "mac": "Home",
+    "linux": "Home",
     "keywords": [
-      "标记",
-      "marker"
+      "开头",
+      "start",
+      "home"
     ],
-    "pinyin": "tian jia biao ji tianjiabiaoji t j b j tjbj biao ji biaoji b j bj"
+    "pinyin": "zhuan dao kai tou zhuandaokaitou z d k t zdkt kai tou kaitou k t kt"
   },
   {
-    "id": "davinci-snap",
+    "id": "davinci-goend",
     "appId": "davinci",
     "type": "software",
     "category": "video",
     "name": {
-      "zh": "吸附",
-      "en": "Snapping"
+      "zh": "转到结尾",
+      "en": "Go to End"
     },
     "description": {
-      "zh": "开关吸附",
-      "en": "Toggle snapping"
+      "zh": "跳转到时间线结尾",
+      "en": "Go to end of timeline"
     },
-    "windows": "N",
-    "mac": "N",
-    "linux": "N",
+    "windows": "End",
+    "mac": "End",
+    "linux": "End",
     "keywords": [
-      "吸附",
-      "snap"
+      "结尾",
+      "end"
     ],
-    "pinyin": "xi fu xifu x f xf xi fu xifu x f xf"
+    "pinyin": "zhuan dao jie wei zhuandaojiewei z d j w zdjw jie wei jiewei j w jw"
   },
   {
-    "id": "davinci-linked",
+    "id": "davinci-split",
     "appId": "davinci",
     "type": "software",
     "category": "video",
     "name": {
-      "zh": "链接选择",
-      "en": "Linked Selection"
+      "zh": "刀片分割",
+      "en": "Blade / Split"
     },
     "description": {
-      "zh": "开关链接选择",
-      "en": "Toggle linked selection"
+      "zh": "在播放头位置分割片段",
+      "en": "Split clip at playhead"
     },
-    "windows": "Shift+L",
-    "mac": "Shift+L",
-    "linux": "Shift+L",
+    "windows": "Ctrl+B",
+    "mac": "Cmd+B",
+    "linux": "Ctrl+B",
     "keywords": [
-      "链接",
-      "linked"
+      "分割",
+      "split",
+      "blade",
+      "刀"
     ],
-    "pinyin": "lian jie xuan ze lianjiexuanze l j x z ljxz lian jie lianjie l j lj"
+    "pinyin": "dao pian fen ge daopianfenge d p f g dpfg fen ge   dao fenge dao f g   d fg d"
   },
   {
-    "id": "davinci-insource",
+    "id": "davinci-rippledelete",
+    "appId": "davinci",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "波纹删除",
+      "en": "Ripple Delete"
+    },
+    "description": {
+      "zh": "波纹删除选中内容并补齐空隙",
+      "en": "Ripple delete selection"
+    },
+    "windows": "Shift+Delete",
+    "mac": "Shift+Delete",
+    "linux": "Shift+Delete",
+    "keywords": [
+      "波纹",
+      "ripple",
+      "删除"
+    ],
+    "pinyin": "bo wen shan chu bowenshanchu b w s c bwsc bo wen   shan chu bowen shanchu b w   s c bw sc"
+  },
+  {
+    "id": "davinci-delete",
+    "appId": "davinci",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "删除",
+      "en": "Delete"
+    },
+    "description": {
+      "zh": "删除选中（留空隙）",
+      "en": "Delete lift selection"
+    },
+    "windows": "Delete / Backspace",
+    "mac": "Delete / Backspace",
+    "linux": "Delete / Backspace",
+    "keywords": [
+      "删除",
+      "delete",
+      "lift"
+    ],
+    "pinyin": "shan chu shanchu s c sc shan chu shanchu s c sc"
+  },
+  {
+    "id": "davinci-insert",
     "appId": "davinci",
     "type": "software",
     "category": "video",
     "name": {
       "zh": "插入素材",
-      "en": "Insert"
+      "en": "Insert Clip"
     },
     "description": {
-      "zh": "插入到时间线",
-      "en": "Insert clip"
+      "zh": "将源素材插入时间线（推挤后续片段）",
+      "en": "Insert source to timeline"
     },
     "windows": "F9",
     "mac": "F9",
@@ -406,11 +433,11 @@
     "category": "video",
     "name": {
       "zh": "覆盖素材",
-      "en": "Overwrite"
+      "en": "Overwrite Clip"
     },
     "description": {
-      "zh": "覆盖到时间线",
-      "en": "Overwrite clip"
+      "zh": "将源素材覆盖到时间线（替换原内容）",
+      "en": "Overwrite source to timeline"
     },
     "windows": "F10",
     "mac": "F10",
@@ -422,71 +449,349 @@
     "pinyin": "fu gai su cai fugaisucai f g s c fgsc fu gai fugai f g fg"
   },
   {
-    "id": "davinci-renderinout",
+    "id": "davinci-replace",
     "appId": "davinci",
     "type": "software",
     "category": "video",
     "name": {
-      "zh": "渲染入出点",
-      "en": "Render In/Out"
+      "zh": "替换素材",
+      "en": "Replace Clip"
     },
     "description": {
-      "zh": "渲染入点到出点",
-      "en": "Render in to out"
+      "zh": "用源素材替换时间线上选中片段（保持时长不变）",
+      "en": "Replace selected clip with source"
     },
-    "windows": "Shift+R",
-    "mac": "Shift+R",
-    "linux": "Shift+R",
+    "windows": "F11",
+    "mac": "F11",
+    "linux": "F11",
     "keywords": [
-      "渲染",
-      "render"
+      "替换",
+      "replace",
+      "覆盖"
     ],
-    "pinyin": "xuan ran ru chu dian xuanranruchudian x r r c d xrrcd xuan ran xuanran x r xr"
+    "pinyin": "ti huan su cai tihuansucai t h s c thsc ti huan   fu gai tihuan fugai t h   f g th fg"
   },
   {
-    "id": "davinci-fullscreen",
+    "id": "davinci-append",
     "appId": "davinci",
     "type": "software",
     "category": "video",
     "name": {
-      "zh": "全屏查看器",
-      "en": "Fullscreen Viewer"
+      "zh": "追加到末尾",
+      "en": "Append to End"
     },
     "description": {
-      "zh": "全屏查看器",
-      "en": "Fullscreen viewer"
+      "zh": "将素材追加到时间线末尾",
+      "en": "Append clip to end of timeline"
     },
-    "windows": "Ctrl+F",
-    "mac": "Cmd+F",
-    "linux": "Ctrl+F",
+    "windows": "F12",
+    "mac": "F12",
+    "linux": "F12",
     "keywords": [
-      "全屏",
-      "fullscreen"
+      "追加",
+      "append",
+      "末尾"
     ],
-    "pinyin": "quan ping cha kan qi quanpingchakanqi q p c k q qpckq quan ping quanping q p qp"
+    "pinyin": "zhui jia dao mo wei zhuijiadaomowei z j d m w zjdmw zhui jia   mo wei zhuijia mowei z j   m w zj mw"
   },
   {
-    "id": "davinci-grab",
+    "id": "davinci-zoomfit",
     "appId": "davinci",
     "type": "software",
     "category": "video",
     "name": {
-      "zh": "抓取静帧",
-      "en": "Grab Still"
+      "zh": "适应窗口",
+      "en": "Zoom to Fit"
     },
     "description": {
-      "zh": "抓取调色静帧",
-      "en": "Grab still"
+      "zh": "缩放以完整显示时间轴",
+      "en": "Zoom timeline to fit window"
     },
-    "windows": "Shift+D",
-    "mac": "Shift+D",
-    "linux": "Shift+D",
+    "windows": "Shift+Z",
+    "mac": "Shift+Z",
+    "linux": "Shift+Z",
     "keywords": [
-      "静帧",
-      "still",
-      "grab"
+      "适应",
+      "fit",
+      "缩放",
+      "zoom fit"
     ],
-    "pinyin": "zhua qu jing zhen zhuaqujingzhen z q j z zqjz jing zhen jingzhen j z jz"
+    "pinyin": "shi ying chuang kou shiyingchuangkou s y c k syck shi ying   suo fang shiying suofang s y   s f sy sf"
+  },
+  {
+    "id": "davinci-zoomin",
+    "appId": "davinci",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "放大时间轴",
+      "en": "Zoom In Timeline"
+    },
+    "description": {
+      "zh": "放大时间轴视图",
+      "en": "Zoom in on timeline"
+    },
+    "windows": "Ctrl++",
+    "mac": "Cmd++",
+    "linux": "Ctrl++",
+    "keywords": [
+      "放大",
+      "zoom in",
+      "timeline"
+    ],
+    "pinyin": "fang da shi jian zhou fangdashijianzhou f d s j z fdsjz fang da fangda f d fd"
+  },
+  {
+    "id": "davinci-zoomout",
+    "appId": "davinci",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "缩小时间轴",
+      "en": "Zoom Out Timeline"
+    },
+    "description": {
+      "zh": "缩小时间轴视图",
+      "en": "Zoom out on timeline"
+    },
+    "windows": "Ctrl+-",
+    "mac": "Cmd+-",
+    "linux": "Ctrl+-",
+    "keywords": [
+      "缩小",
+      "zoom out",
+      "timeline"
+    ],
+    "pinyin": "suo xiao shi jian zhou suoxiaoshijianzhou s x s j z sxsjz suo xiao suoxiao s x sx"
+  },
+  {
+    "id": "davinci-mark",
+    "appId": "davinci",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "添加标记",
+      "en": "Add Marker"
+    },
+    "description": {
+      "zh": "在播放头位置添加标记",
+      "en": "Add marker at playhead"
+    },
+    "windows": "M",
+    "mac": "M",
+    "linux": "M",
+    "keywords": [
+      "标记",
+      "marker",
+      "mark"
+    ],
+    "pinyin": "tian jia biao ji tianjiabiaoji t j b j tjbj biao ji biaoji b j bj"
+  },
+  {
+    "id": "davinci-markin",
+    "appId": "davinci",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "设置入点",
+      "en": "Set In Point"
+    },
+    "description": {
+      "zh": "设置入点",
+      "en": "Set in point at playhead"
+    },
+    "windows": "I",
+    "mac": "I",
+    "linux": "I",
+    "keywords": [
+      "入点",
+      "in point",
+      "in"
+    ],
+    "pinyin": "she zhi ru dian shezhirudian s z r d szrd ru dian rudian r d rd"
+  },
+  {
+    "id": "davinci-markout",
+    "appId": "davinci",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "设置出点",
+      "en": "Set Out Point"
+    },
+    "description": {
+      "zh": "设置出点",
+      "en": "Set out point at playhead"
+    },
+    "windows": "O",
+    "mac": "O",
+    "linux": "O",
+    "keywords": [
+      "出点",
+      "out point",
+      "out"
+    ],
+    "pinyin": "she zhi chu dian shezhichudian s z c d szcd chu dian chudian c d cd"
+  },
+  {
+    "id": "davinci-clearinout",
+    "appId": "davinci",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "清除入出点",
+      "en": "Clear In/Out"
+    },
+    "description": {
+      "zh": "清除已设的入点和出点",
+      "en": "Clear in and out points"
+    },
+    "windows": "Alt+X",
+    "mac": "Option+X",
+    "linux": "Alt+X",
+    "keywords": [
+      "清除",
+      "clear",
+      "入出点"
+    ],
+    "pinyin": "qing chu ru chu dian qingchuruchudian q c r c d qcrcd qing chu   ru chu dian qingchu ruchudian q c   r c d qc rcd"
+  },
+  {
+    "id": "davinci-gotoin",
+    "appId": "davinci",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "跳转入点",
+      "en": "Go to In Point"
+    },
+    "description": {
+      "zh": "播放头跳转到入点位置",
+      "en": "Move playhead to in point"
+    },
+    "windows": "Shift+I",
+    "mac": "Shift+I",
+    "linux": "Shift+I",
+    "keywords": [
+      "跳转",
+      "入点",
+      "goto in"
+    ],
+    "pinyin": "tiao zhuan ru dian tiaozhuanrudian t z r d tzrd tiao zhuan   ru dian tiaozhuan rudian t z   r d tz rd"
+  },
+  {
+    "id": "davinci-gotoout",
+    "appId": "davinci",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "跳转出点",
+      "en": "Go to Out Point"
+    },
+    "description": {
+      "zh": "播放头跳转到出点位置",
+      "en": "Move playhead to out point"
+    },
+    "windows": "Shift+O",
+    "mac": "Shift+O",
+    "linux": "Shift+O",
+    "keywords": [
+      "跳转",
+      "出点",
+      "goto out"
+    ],
+    "pinyin": "tiao zhuan chu dian tiaozhuanchudian t z c d tzcd tiao zhuan   chu dian tiaozhuan chudian t z   c d tz cd"
+  },
+  {
+    "id": "davinci-snap",
+    "appId": "davinci",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "吸附开关",
+      "en": "Toggle Snapping"
+    },
+    "description": {
+      "zh": "开启或关闭吸附功能",
+      "en": "Enable/disable snapping"
+    },
+    "windows": "N",
+    "mac": "N",
+    "linux": "N",
+    "keywords": [
+      "吸附",
+      "snap",
+      "magnetic"
+    ],
+    "pinyin": "xi fu kai guan xifukaiguan x f k g xfkg xi fu xifu x f xf"
+  },
+  {
+    "id": "davinci-linkedselect",
+    "appId": "davinci",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "链接选择",
+      "en": "Linked Selection"
+    },
+    "description": {
+      "zh": "开关链接选择模式",
+      "en": "Toggle linked selection mode"
+    },
+    "windows": "Shift+L",
+    "mac": "Shift+L",
+    "linux": "Shift+L",
+    "keywords": [
+      "链接",
+      "linked",
+      "selection"
+    ],
+    "pinyin": "lian jie xuan ze lianjiexuanze l j x z ljxz lian jie lianjie l j lj"
+  },
+  {
+    "id": "davinci-selectallclips",
+    "appId": "davinci",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "选择时间线上全部片段",
+      "en": "Select All Clips"
+    },
+    "description": {
+      "zh": "选择当前轨道上所有片段",
+      "en": "Select all clips in current track"
+    },
+    "windows": "Ctrl+A",
+    "mac": "Cmd+A",
+    "linux": "Ctrl+A",
+    "keywords": [
+      "全选",
+      "select all",
+      "全部"
+    ],
+    "pinyin": "xuan ze shi jian xian shang quan bu pian duan xuanzeshijianxianshangquanbupianduan x z s j x s q b p d xzsjxsqbpd quan xuan   quan bu quanxuan quanbu q x   q b qx qb"
+  },
+  {
+    "id": "davinci-deselect",
+    "appId": "davinci",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "取消选择",
+      "en": "Deselect All"
+    },
+    "description": {
+      "zh": "取消所有选中",
+      "en": "Deselect all"
+    },
+    "windows": "Ctrl+Shift+A",
+    "mac": "Cmd+Shift+A",
+    "linux": "Ctrl+Shift+A",
+    "keywords": [
+      "取消选择",
+      "deselect"
+    ],
+    "pinyin": "qu xiao xuan ze quxiaoxuanze q x x z qxxz qu xiao xuan ze quxiaoxuanze q x x z qxxz"
   },
   {
     "id": "davinci-undo",
@@ -498,8 +803,8 @@
       "en": "Undo"
     },
     "description": {
-      "zh": "撤销",
-      "en": "Undo"
+      "zh": "撤销上一步操作",
+      "en": "Undo last action"
     },
     "windows": "Ctrl+Z",
     "mac": "Cmd+Z",
@@ -520,8 +825,8 @@
       "en": "Redo"
     },
     "description": {
-      "zh": "重做",
-      "en": "Redo"
+      "zh": "重做被撤销的操作",
+      "en": "Redo undone action"
     },
     "windows": "Ctrl+Shift+Z",
     "mac": "Cmd+Shift+Z",
@@ -542,38 +847,732 @@
       "en": "Save Project"
     },
     "description": {
-      "zh": "保存",
-      "en": "Save project"
+      "zh": "保存当前项目",
+      "en": "Save current project"
     },
     "windows": "Ctrl+S",
     "mac": "Cmd+S",
     "linux": "Ctrl+S",
     "keywords": [
       "保存",
-      "save"
+      "save",
+      "项目"
     ],
-    "pinyin": "bao cun xiang mu baocunxiangmu b c x m bcxm bao cun baocun b c bc"
+    "pinyin": "bao cun xiang mu baocunxiangmu b c x m bcxm bao cun   xiang mu baocun xiangmu b c   x m bc xm"
   },
   {
-    "id": "davinci-media",
+    "id": "davinci-renderinout",
     "appId": "davinci",
     "type": "software",
     "category": "video",
     "name": {
-      "zh": "媒体页面",
-      "en": "Media Page"
+      "zh": "渲染入出点区域",
+      "en": "Render In to Out"
     },
     "description": {
-      "zh": "切换到媒体页面",
-      "en": "Switch to Media"
+      "zh": "渲染入点到出点之间的内容",
+      "en": "Render between in and out points"
     },
-    "windows": "Shift+1",
-    "mac": "Shift+1",
-    "linux": "Shift+1",
+    "windows": "Shift+R",
+    "mac": "Shift+R",
+    "linux": "Shift+R",
     "keywords": [
-      "媒体",
-      "media"
+      "渲染",
+      "render",
+      "缓存"
     ],
-    "pinyin": "mei ti ye mian meitiyemian m t y m mtym mei ti meiti m t mt"
+    "pinyin": "xuan ran ru chu dian qu yu xuanranruchudianquyu x r r c d q y xrrcdqy xuan ran   huan cun xuanran huancun x r   h c xr hc"
+  },
+  {
+    "id": "davinci-fullscreenviewer",
+    "appId": "davinci",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "全屏查看器",
+      "en": "Fullscreen Viewer"
+    },
+    "description": {
+      "zh": "将预览窗口切换为全屏显示",
+      "en": "Toggle fullscreen viewer"
+    },
+    "windows": "Ctrl+F",
+    "mac": "Cmd+F",
+    "linux": "Ctrl+F",
+    "keywords": [
+      "全屏",
+      "fullscreen",
+      "viewer"
+    ],
+    "pinyin": "quan ping cha kan qi quanpingchakanqi q p c k q qpckq quan ping quanping q p qp"
+  },
+  {
+    "id": "davinci-grabstill",
+    "appId": "davinci",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "抓取静帧",
+      "en": "Grab Still"
+    },
+    "description": {
+      "zh": "从预览画面抓取一帧静态图像到调色画廊",
+      "en": "Grab still frame to color gallery"
+    },
+    "windows": "Shift+D",
+    "mac": "Shift+D",
+    "linux": "Shift+D",
+    "keywords": [
+      "静帧",
+      "still",
+      "grab",
+      "抓取"
+    ],
+    "pinyin": "zhua qu jing zhen zhuaqujingzhen z q j z zqjz jing zhen   zhua qu jingzhen zhuaqu j z   z q jz zq"
+  },
+  {
+    "id": "davinci-cutmode",
+    "appId": "davinci",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "刀片工具",
+      "en": "Blade Tool"
+    },
+    "description": {
+      "zh": "激活刀片切割模式",
+      "en": "Activate blade edit tool"
+    },
+    "windows": "B",
+    "mac": "B",
+    "linux": "B",
+    "keywords": [
+      "刀片",
+      "blade",
+      "切割",
+      "工具"
+    ],
+    "pinyin": "dao pian gong ju daopiangongju d p g j dpgj dao pian   qie ge   gong ju daopian qiege gongju d p   q g   g j dp qg gj"
+  },
+  {
+    "id": "davinci-trimeditmode",
+    "appId": "davinci",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "修剪编辑模式",
+      "en": "Trim Edit Mode"
+    },
+    "description": {
+      "zh": "激活修剪编辑（动态裁剪）",
+      "en": "Activate trim edit mode"
+    },
+    "windows": "T",
+    "mac": "T",
+    "linux": "T",
+    "keywords": [
+      "修剪",
+      "trim",
+      "编辑模式"
+    ],
+    "pinyin": "xiu jian bian ji mo shi xiujianbianjimoshi x j b j m s xjbjms xiu jian   bian ji mo shi xiujian bianjimoshi x j   b j m s xj bjms"
+  },
+  {
+    "id": "davinci-snippermode",
+    "appId": "davinci",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "动态裁剪模式",
+      "en": "Snip Mode"
+    },
+    "description": {
+      "zh": "激活动态裁剪修剪模式",
+      "en": "Activate snipping trim mode"
+    },
+    "windows": "A",
+    "mac": "A",
+    "linux": "A",
+    "keywords": [
+      "动态裁剪",
+      "snip",
+      "trim",
+      "裁剪"
+    ],
+    "pinyin": "dong tai cai jian mo shi dongtaicaijianmoshi d t c j m s dtcjms dong tai cai jian   cai jian dongtaicaijian caijian d t c j   c j dtcj cj"
+  },
+  {
+    "id": "davinci-selectmode",
+    "appId": "davinci",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "选择工具",
+      "en": "Select Tool"
+    },
+    "description": {
+      "zh": "激活选择工具",
+      "en": "Activate select tool"
+    },
+    "windows": "V",
+    "mac": "V",
+    "linux": "V",
+    "keywords": [
+      "选择",
+      "select",
+      "工具",
+      "指针"
+    ],
+    "pinyin": "xuan ze gong ju xuanzegongju x z g j xzgj xuan ze   gong ju   zhi zhen xuanze gongju zhizhen x z   g j   z z xz gj zz"
+  },
+  {
+    "id": "davinci-editindexmode",
+    "appId": "davinci",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "索引模式",
+      "en": "Edit Index Mode"
+    },
+    "description": {
+      "zh": "切换索引编辑模式",
+      "en": "Toggle edit index mode"
+    },
+    "windows": "` (backtick)",
+    "mac": "` (backtick)",
+    "linux": "` (backtick)",
+    "keywords": [
+      "索引",
+      "index",
+      "编辑模式"
+    ],
+    "pinyin": "suo yin mo shi suoyinmoshi s y m s syms suo yin   bian ji mo shi suoyin bianjimoshi s y   b j m s sy bjms"
+  },
+  {
+    "id": "davinci-sourceoverwrite",
+    "appId": "davinci",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "源覆盖模式",
+      "en": "Source Overwrite"
+    },
+    "description": {
+      "zh": "切换源监视器覆盖拖放模式",
+      "en": "Toggle source overwrite drag mode"
+    },
+    "windows": "7",
+    "mac": "7",
+    "linux": "7",
+    "keywords": [
+      "源覆盖",
+      "source overwrite",
+      "拖放"
+    ],
+    "pinyin": "yuan fu gai mo shi yuanfugaimoshi y f g m s yfgms yuan fu gai   tuo fang yuanfugai tuofang y f g   t f yfg tf"
+  },
+  {
+    "id": "davinci-sourceinsert",
+    "appId": "davinci",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "源插入模式",
+      "en": "Source Insert"
+    },
+    "description": {
+      "zh": "切换源监视器插入拖放模式",
+      "en": "Toggle source insert drag mode"
+    },
+    "windows": "8",
+    "mac": "8",
+    "linux": "8",
+    "keywords": [
+      "源插入",
+      "source insert",
+      "拖放"
+    ],
+    "pinyin": "yuan cha ru mo shi yuancharumoshi y c r m s ycrms yuan cha ru   tuo fang yuancharu tuofang y c r   t f ycr tf"
+  },
+  {
+    "id": "davinci-closeapp",
+    "appId": "davinci",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "关闭达芬奇",
+      "en": "Close DaVinci"
+    },
+    "description": {
+      "zh": "关闭 DaVinci Resolve 程序",
+      "en": "Close DaVinci Resolve application"
+    },
+    "windows": "Ctrl+Q",
+    "mac": "Cmd+Q",
+    "linux": "Ctrl+Q",
+    "keywords": [
+      "关闭",
+      "close",
+      "退出",
+      "quit"
+    ],
+    "pinyin": "guan bi da fen qi guanbidafenqi g b d f q gbdfq guan bi   tui chu guanbi tuichu g b   t c gb tc"
+  },
+  {
+    "id": "davinci-newproject",
+    "appId": "davinci",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "新建项目",
+      "en": "New Project"
+    },
+    "description": {
+      "zh": "创建新项目",
+      "en": "Create new project"
+    },
+    "windows": "Ctrl+N",
+    "mac": "Cmd+N",
+    "linux": "Ctrl+N",
+    "keywords": [
+      "新建",
+      "new",
+      "project"
+    ],
+    "pinyin": "xin jian xiang mu xinjianxiangmu x j x m xjxm xin jian xinjian x j xj"
+  },
+  {
+    "id": "davinci-importmedia",
+    "appId": "davinci",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "导入媒体",
+      "en": "Import Media"
+    },
+    "description": {
+      "zh": "导入媒体文件",
+      "en": "Import media files"
+    },
+    "windows": "Ctrl+I",
+    "mac": "Cmd+I",
+    "linux": "Ctrl+I",
+    "keywords": [
+      "导入",
+      "import",
+      "媒体"
+    ],
+    "pinyin": "dao ru mei ti daorumeiti d r m t drmt dao ru   mei ti daoru meiti d r   m t dr mt"
+  },
+  {
+    "id": "davinci-export",
+    "appId": "davinci",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "导出/渲染",
+      "en": "Export / Render"
+    },
+    "description": {
+      "zh": "开始导出渲染",
+      "en": "Start export render"
+    },
+    "windows": "Ctrl+M",
+    "mac": "Cmd+M",
+    "linux": "Ctrl+M",
+    "keywords": [
+      "导出",
+      "export",
+      "render",
+      "渲染"
+    ],
+    "pinyin": "dao chu / xuan ran daochu/xuanran d c / x r dc/xr dao chu   xuan ran daochu xuanran d c   x r dc xr"
+  },
+  {
+    "id": "davinci-addtitle",
+    "appId": "davinci",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "添加字幕/标题",
+      "en": "Add Title"
+    },
+    "description": {
+      "zh": "添加文本标题",
+      "en": "Add text title"
+    },
+    "windows": "Ctrl+T",
+    "mac": "Cmd+T",
+    "linux": "Ctrl+T",
+    "keywords": [
+      "字幕",
+      "标题",
+      "title",
+      "text",
+      "文字"
+    ],
+    "pinyin": "tian jia zi mu / biao ti tianjiazimu/biaoti t j z m / b t tjzm/bt zi mu   biao ti   wen zi zimu biaoti wenzi z m   b t   w z zm bt wz"
+  },
+  {
+    "id": "davinci-speededitor",
+    "appId": "davinci",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "变速/重定时",
+      "en": "Speed Editor / Retime Controls"
+    },
+    "description": {
+      "zh": "打开速度/重定时控制面板",
+      "en": "Open speed/retime controls"
+    },
+    "windows": "Ctrl+R",
+    "mac": "Cmd+R",
+    "linux": "Ctrl+R",
+    "keywords": [
+      "变速",
+      "speed",
+      "retime",
+      "重定时",
+      "速度"
+    ],
+    "pinyin": "bian su / zhong ding shi biansu/zhongdingshi b s / z d s bs/zds bian su   zhong ding shi   su du biansu zhongdingshi sudu b s   z d s   s d bs zds sd"
+  },
+  {
+    "id": "davinci-colorpage-lift",
+    "appId": "davinci",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "调色-提升(Lift)",
+      "en": "Color Lift"
+    },
+    "description": {
+      "zh": "调色页面的 Lift（阴影）轮",
+      "en": "Color page Lift wheel (shadows)"
+    },
+    "windows": "Ctrl+Shift+L",
+    "mac": "Cmd+Shift+L",
+    "linux": "Ctrl+Shift+L",
+    "keywords": [
+      "lift",
+      "提升",
+      "阴影",
+      "shadows",
+      "调色"
+    ],
+    "pinyin": "tiao se - ti sheng ( l i f t ) tiaose-tisheng(lift) t s - t s ( l i f t ) ts-ts(lift) ti sheng   yin ying   tiao se tisheng yinying tiaose t s   y y   t s ts yy ts"
+  },
+  {
+    "id": "davinci-colorpage-gamma",
+    "appId": "davinci",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "调色-伽马(Gamma)",
+      "en": "Color Gamma"
+    },
+    "description": {
+      "zh": "调色页面的 Gamma（中间调）轮",
+      "en": "Color page Gamma wheel (midtones)"
+    },
+    "windows": "Ctrl+Shift+G",
+    "mac": "Cmd+Shift+G",
+    "linux": "Ctrl+Shift+G",
+    "keywords": [
+      "gamma",
+      "伽马",
+      "中间调",
+      "midtones",
+      "调色"
+    ],
+    "pinyin": "tiao se - jia ma ( g a m m a ) tiaose-jiama(gamma) t s - j m ( g a m m a ) ts-jm(gamma) jia ma   zhong jian tiao   tiao se jiama zhongjiantiao tiaose j m   z j t   t s jm zjt ts"
+  },
+  {
+    "id": "davinci-colorpage-gain",
+    "appId": "davinci",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "调色-增益(Gain)",
+      "en": "Color Gain"
+    },
+    "description": {
+      "zh": "调色页面的 Gain（高光）轮",
+      "en": "Color page Gain wheel (highlights)"
+    },
+    "windows": "Ctrl+Shift+H",
+    "mac": "Cmd+Shift+H",
+    "linux": "Ctrl+Shift+H",
+    "keywords": [
+      "gain",
+      "增益",
+      "高光",
+      "highlights",
+      "调色"
+    ],
+    "pinyin": "tiao se - zeng yi ( g a i n ) tiaose-zengyi(gain) t s - z y ( g a i n ) ts-zy(gain) zeng yi   gao guang   tiao se zengyi gaoguang tiaose z y   g g   t s zy gg ts"
+  },
+  {
+    "id": "davinci-colorpage-offset",
+    "appId": "davinci",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "调色-偏移(Offset)",
+      "en": "Color Offset"
+    },
+    "description": {
+      "zh": "调色页面的 Offset 轮",
+      "en": "Color page Offset wheel"
+    },
+    "windows": "Ctrl+Shift+O",
+    "mac": "Cmd+Shift+O",
+    "linux": "Ctrl+Shift+O",
+    "keywords": [
+      "offset",
+      "偏移",
+      "调色"
+    ],
+    "pinyin": "tiao se - pian yi ( o f f s e t ) tiaose-pianyi(offset) t s - p y ( o f f s e t ) ts-py(offset) pian yi   tiao se pianyi tiaose p y   t s py ts"
+  },
+  {
+    "id": "davinci-colorpage-contrast",
+    "appId": "davinci",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "调色-对比度(Contrast)",
+      "en": "Color Contrast"
+    },
+    "description": {
+      "zh": "调色页面对比度调节",
+      "en": "Color page contrast adjustment"
+    },
+    "windows": "Ctrl+Shift+C",
+    "mac": "Cmd+Shift+C",
+    "linux": "Ctrl+Shift+C",
+    "keywords": [
+      "contrast",
+      "对比度",
+      "调色"
+    ],
+    "pinyin": "tiao se - dui bi du ( c o n t r a s t ) tiaose-duibidu(contrast) t s - d b d ( c o n t r a s t ) ts-dbd(contrast) dui bi du   tiao se duibidu tiaose d b d   t s dbd ts"
+  },
+  {
+    "id": "davinci-colorpage-reset",
+    "appId": "davinci",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "调色-重置节点",
+      "en": "Reset Color Node"
+    },
+    "description": {
+      "zh": "重置当前调色节点参数",
+      "en": "Reset current color node parameters"
+    },
+    "windows": "Ctrl+Shift+E",
+    "mac": "Cmd+Shift+E",
+    "linux": "Ctrl+Shift+E",
+    "keywords": [
+      "reset",
+      "重置",
+      "node",
+      "节点",
+      "调色"
+    ],
+    "pinyin": "tiao se - zhong zhi jie dian tiaose-zhongzhijiedian t s - z z j d ts-zzjd zhong zhi   jie dian   tiao se zhongzhi jiedian tiaose z z   j d   t s zz jd ts"
+  },
+  {
+    "id": "davinci-colorpage-next",
+    "appId": "davinci",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "调色-下一个片段",
+      "en": "Color Next Clip"
+    },
+    "description": {
+      "zh": "在调色页面跳到下一个片段",
+      "en": "Go to next clip in color page"
+    },
+    "windows": "Down",
+    "mac": "Down",
+    "linux": "Down",
+    "keywords": [
+      "下一个",
+      "next clip",
+      "color",
+      "调色"
+    ],
+    "pinyin": "tiao se - xia yi ge pian duan tiaose-xiayigepianduan t s - x y g p d ts-xygpd xia yi ge   tiao se xiayige tiaose x y g   t s xyg ts"
+  },
+  {
+    "id": "davinci-colorpage-prev",
+    "appId": "davinci",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "调色-上一个片段",
+      "en": "Color Previous Clip"
+    },
+    "description": {
+      "zh": "在调色页面跳到上一个片段",
+      "en": "Go to previous clip in color page"
+    },
+    "windows": "Up",
+    "mac": "Up",
+    "linux": "Up",
+    "keywords": [
+      "上一个",
+      "previous clip",
+      "color",
+      "调色"
+    ],
+    "pinyin": "tiao se - shang yi ge pian duan tiaose-shangyigepianduan t s - s y g p d ts-sygpd shang yi ge   tiao se shangyige tiaose s y g   t s syg ts"
+  },
+  {
+    "id": "davinci-fairlight-mute",
+    "appId": "davinci",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "Fairlight-静音片段",
+      "en": "Fairlight Mute Clip"
+    },
+    "description": {
+      "zh": "在 Fairlight 页面静音选中音频片段",
+      "en": "Mute selected clip in Fairlight"
+    },
+    "windows": "Shift+S",
+    "mac": "Shift+S",
+    "linux": "Shift+S",
+    "keywords": [
+      "mute",
+      "静音",
+      "fairlight",
+      "音频"
+    ],
+    "pinyin": "f a i r l i g h t - jing yin pian duan fairlight-jingyinpianduan f a i r l i g h t - j y p d fairlight-jypd jing yin   yin pin jingyin yinpin j y   y p jy yp"
+  },
+  {
+    "id": "davinci-fairlink-normalize",
+    "appId": "davinci",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "Fairlight-标准化音频",
+      "en": "Fairlight Normalize Audio"
+    },
+    "description": {
+      "zh": "标准化选中音频片段音量",
+      "en": "Normalize volume of selected audio clip"
+    },
+    "windows": "Ctrl+Shift+N",
+    "mac": "Cmd+Shift+N",
+    "linux": "Ctrl+Shift+N",
+    "keywords": [
+      "normalize",
+      "标准化",
+      "fairlight",
+      "音量"
+    ],
+    "pinyin": "f a i r l i g h t - biao zhun hua yin pin fairlight-biaozhunhuayinpin f a i r l i g h t - b z h y p fairlight-bzhyp biao zhun hua   yin liang biaozhunhua yinliang b z h   y l bzh yl"
+  },
+  {
+    "id": "davinci-fairlink-fadefromblack",
+    "appId": "davinci",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "Fairlight-淡入(从黑)",
+      "en": "Fairlight Fade In"
+    },
+    "description": {
+      "zh": "音频淡入效果",
+      "en": "Audio fade in effect"
+    },
+    "windows": "Ctrl+Shift+[",
+    "mac": "Cmd+Shift+[",
+    "linux": "Ctrl+Shift+[",
+    "keywords": [
+      "fade in",
+      "淡入",
+      "fairlight"
+    ],
+    "pinyin": "f a i r l i g h t - dan ru ( cong hei ) fairlight-danru(conghei) f a i r l i g h t - d r ( c h ) fairlight-dr(ch) dan ru danru d r dr"
+  },
+  {
+    "id": "davinci-fairlink-fadetoblack",
+    "appId": "davinci",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "Fairlight-淡出(至黑)",
+      "en": "Fairlight Fade Out"
+    },
+    "description": {
+      "zh": "音频淡出效果",
+      "en": "Audio fade out effect"
+    },
+    "windows": "Ctrl+Shift+]",
+    "mac": "Cmd+Shift+]",
+    "linux": "Ctrl+Shift+]",
+    "keywords": [
+      "fade out",
+      "淡出",
+      "fairlight"
+    ],
+    "pinyin": "f a i r l i g h t - dan chu ( zhi hei ) fairlight-danchu(zhihei) f a i r l i g h t - d c ( z h ) fairlight-dc(zh) dan chu danchu d c dc"
+  },
+  {
+    "id": "davinci-deliver-startrender",
+    "appId": "davinci",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "交付-开始渲染",
+      "en": "Deliver Start Rendering"
+    },
+    "description": {
+      "zh": "开始渲染队列中所有任务",
+      "en": "Start rendering all jobs in queue"
+    },
+    "windows": "Ctrl+Enter",
+    "mac": "Cmd+Return",
+    "linux": "Ctrl+Enter",
+    "keywords": [
+      "render",
+      "渲染",
+      "start",
+      "开始",
+      "交付"
+    ],
+    "pinyin": "jiao fu - kai shi xuan ran jiaofu-kaishixuanran j f - k s x r jf-ksxr xuan ran   kai shi   jiao fu xuanran kaishi jiaofu x r   k s   j f xr ks jf"
+  },
+  {
+    "id": "davinci-fusion-connect",
+    "appId": "davinci",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "Fusion-连接到DaVinci",
+      "en": "Fusion Connect Clip"
+    },
+    "description": {
+      "zh": "将片段连接到 Fusion 合成",
+      "en": "Connect clip to Fusion composition"
+    },
+    "windows": "",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "fusion",
+      "connect",
+      "合成",
+      "连接"
+    ],
+    "pinyin": "f u s i o n - lian jie dao d a v i n c i fusion-lianjiedaodavinci f u s i o n - l j d d a v i n c i fusion-ljddavinci he cheng   lian jie hecheng lianjie h c   l j hc lj"
   }
 ]

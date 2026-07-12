@@ -15,6 +15,7 @@
     catDrill: null, // drilled target: 'os:windows' | 'app:chrome' | 'cat:design' | null
     detail: null, // shortcut id currently shown in detail view, or null
     activeIdx: -1, // keyboard-nav highlighted card index
+    filterOS: "all", // OS filter for search results: 'all' | 'windows' | 'mac' | 'linux'
     favSet: new Set()
   };
 
@@ -80,7 +81,8 @@
 
   /* ---------- Key rendering ---------- */
   function keyForOS(s) {
-    return s[state.os] || s.windows || s.mac || s.linux || "—";
+    const p = state.filterOS && state.filterOS !== "all" ? state.filterOS : state.os;
+    return s[p] || s.windows || s.mac || s.linux || "—";
   }
   function renderKeys(combo) {
     return combo
@@ -171,6 +173,27 @@
     );
   }
 
+  /* ---------- OS filter bar (search results) ---------- */
+  function osFilterBarHTML() {
+    const t = i18n.t;
+    const opts = [
+      { id: "all", icon: "🌐", key: "all" },
+      { id: "windows", icon: "🪟", key: "os_windows" },
+      { id: "mac", icon: "🍎", key: "os_mac" },
+      { id: "linux", icon: "🐧", key: "os_linux" }
+    ];
+    return (
+      `<div class="os-filter segmented" role="group" aria-label="${t.filterLabel}">` +
+      opts
+        .map(
+          (o) =>
+            `<button class="${state.filterOS === o.id ? "active" : ""}" data-osfilter="${o.id}" aria-pressed="${state.filterOS === o.id}">${o.icon} ${t[o.key]}</button>`
+        )
+        .join("") +
+      `</div>`
+    );
+  }
+
   function emptyHTML(emoji, title, hint) {
     return `<div class="empty"><span class="empty-emoji">${emoji}</span>
       <div class="empty-title">${title}</div>
@@ -194,12 +217,20 @@
       renderHomepage();
       return;
     }
-    const results = SearchEngine.search(q);
+    let results = SearchEngine.search(q);
+    if (state.filterOS && state.filterOS !== "all") {
+      results = results.filter((s) => {
+        const v = s[state.filterOS];
+        return v && v !== "—";
+      });
+    }
     if (!results.length) {
-      el.content.innerHTML = emptyHTML("🤔", i18n.format(t.noResultsQuery, { q }), t.noResultsHint);
+      el.content.innerHTML =
+        osFilterBarHTML() +
+        emptyHTML("🤔", i18n.format(t.noResultsQuery, { q }), t.noResultsHint);
       return;
     }
-    el.content.innerHTML = listHTML(results, q);
+    el.content.innerHTML = osFilterBarHTML() + listHTML(results, q);
   }
 
   /* ---------- Homepage (search-first landing) ---------- */
@@ -502,6 +533,14 @@
   }
 
   async function onContentClick(e) {
+    const osFilter = e.target.closest("[data-osfilter]");
+    if (osFilter) {
+      e.stopPropagation();
+      state.filterOS = osFilter.dataset.osfilter;
+      renderSearch();
+      return;
+    }
+
     const exportBtn = e.target.closest("[data-export]");
     if (exportBtn) {
       e.stopPropagation();

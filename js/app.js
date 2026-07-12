@@ -97,8 +97,17 @@
     );
   }
 
+  // Escape text, then wrap case-insensitive matches of `q` in <mark>.
+  function highlight(text, q) {
+    const safe = escapeHTML(text);
+    const term = (q || "").trim();
+    if (!term) return safe;
+    const re = new RegExp("(" + term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + ")", "ig");
+    return safe.replace(re, "<mark>$1</mark>");
+  }
+
   /* ---------- Shortcut card ---------- */
-  function cardHTML(s) {
+  function cardHTML(s, q) {
     const app = DataStore.getApp(s.appId);
     const appName = app ? escapeHTML(i18n.pick(app.name)) : "";
     const isSystem = app && app.type === "system";
@@ -114,12 +123,12 @@
       <div class="card" data-id="${s.id}">
         <div class="card-main">
           <div class="card-title-row">
-            <span class="card-title">${escapeHTML(i18n.pick(s.name))}</span>
+            <span class="card-title">${highlight(i18n.pick(s.name), q)}</span>
             ${appName ? `<span class="card-app">${appName}</span>` : ""}
           </div>
           <div class="card-meta">
             ${osTag}
-            <span class="card-desc">${escapeHTML(i18n.pick(s.description))}</span>
+            <span class="card-desc">${highlight(i18n.pick(s.description), q)}</span>
           </div>
         </div>
         <div class="card-keys">${renderKeys(keyForOS(s))}</div>
@@ -133,11 +142,11 @@
       </div>`;
   }
 
-  function listHTML(items) {
+  function listHTML(items, q) {
     const t = i18n.t;
     return (
       `<div class="section-title">${i18n.format(t.resultsCount, { n: items.length })}</div>` +
-      items.map(cardHTML).join("")
+      items.map((s) => cardHTML(s, q)).join("")
     );
   }
 
@@ -165,10 +174,10 @@
     }
     const results = SearchEngine.search(q);
     if (!results.length) {
-      el.content.innerHTML = emptyHTML("🤔", t.noResults, t.noResultsHint);
+      el.content.innerHTML = emptyHTML("🤔", i18n.format(t.noResultsQuery, { q }), t.noResultsHint);
       return;
     }
-    el.content.innerHTML = listHTML(results);
+    el.content.innerHTML = listHTML(results, q);
   }
 
   /* ---------- Homepage (search-first landing) ---------- */

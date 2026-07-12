@@ -5,8 +5,9 @@
   --surface-2: #f0f2f5;
   --border: #e5e8ec;
   --text: #1a1d21;
-  --sub: #667085;
+  --sub: #5a6675;
   --primary: #4f6ef7;
+  --primary-strong: #3a55d9;
   --primary-soft: #eaefff;
   --accent: #ffb020;
   --key-bg: #eef2ff;
@@ -26,6 +27,7 @@
   --text: #eef1f5;
   --sub: #98a2b3;
   --primary: #7c93ff;
+  --primary-strong: #3a55d9;
   --primary-soft: #23293e;
   --accent: #ffc247;
   --key-bg: #262b44;
@@ -36,6 +38,22 @@
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
+
+/* ---- Keyboard focus ring (a11y) ---- */
+.tab:focus-visible,
+.icon-btn:focus-visible,
+.pill:focus-visible,
+.chip:focus-visible,
+.segmented button:focus-visible,
+.star-btn:focus-visible,
+.link-btn:focus-visible,
+.empty-action:focus-visible,
+.clear-btn:focus-visible,
+.settings-btn:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+:focus:not(:focus-visible) { outline: none; }
 
 html, body {
   width: 380px;
@@ -113,6 +131,15 @@ html, body {
 }
 .clear-btn:hover { color: var(--text); }
 
+.kbd-hint {
+  font-size: 10px;
+  color: var(--sub);
+  text-align: center;
+  margin: -3px 14px 5px;
+  user-select: none;
+  letter-spacing: .2px;
+}
+
 /* ---- Segmented control ---- */
 .segmented {
   display: inline-flex;
@@ -160,8 +187,8 @@ html, body {
 .tab:hover { color: var(--text); }
 .tab.active {
   color: #fff;
-  background: var(--primary);
-  box-shadow: 0 4px 12px rgba(79, 110, 247, 0.35);
+  background: var(--primary-strong);
+  box-shadow: 0 4px 12px rgba(58, 85, 217, 0.35);
 }
 
 /* ---- Content ---- */
@@ -291,6 +318,13 @@ html, body {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+.card-title mark, .card-desc mark {
+  background: var(--primary-soft);
+  color: var(--primary-strong);
+  border-radius: 3px;
+  padding: 0 1px;
+  font-weight: 700;
+}
 .card-os {
   display: inline-flex;
   align-items: center;
@@ -376,7 +410,7 @@ html, body {
   transition: all .15s;
 }
 .chip:hover { border-color: var(--primary); color: var(--primary); }
-.chip.active { background: var(--primary); border-color: var(--primary); color: #fff; }
+.chip.active { background: var(--primary-strong); border-color: var(--primary-strong); color: #fff; }
 
 /* ---- Back header ---- */
 .subhead {
@@ -413,17 +447,17 @@ html, body {
   display: inline-block;
   margin-top: 14px;
   border: none;
-  background: var(--primary);
+  background: var(--primary-strong);
   color: #fff;
   font-size: 13px;
   font-weight: 600;
   padding: 8px 18px;
   border-radius: 20px;
   cursor: pointer;
-  box-shadow: 0 4px 12px rgba(79, 110, 247, 0.35);
+  box-shadow: 0 4px 12px rgba(58, 85, 217, 0.35);
   transition: transform .12s, box-shadow .12s;
 }
-.empty-action:hover { transform: translateY(-1px); box-shadow: 0 6px 16px rgba(79, 110, 247, 0.45); }
+.empty-action:hover { transform: translateY(-1px); box-shadow: 0 6px 16px rgba(58, 85, 217, 0.45); }
 
 .loading { text-align: center; color: var(--sub); padding: 40px; }
 
@@ -442,7 +476,7 @@ html, body {
   top: 0;
   right: 0;
   height: 100%;
-  width: 320px;
+  width: 100%;
   background: var(--surface);
   border-left: 1px solid var(--border);
   box-shadow: var(--shadow-lg);

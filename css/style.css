@@ -6,13 +6,14 @@
   --border: #e5e8ec;
   --text: #1a1d21;
   --sub: #5a6675;
-  --primary: #4f6ef7;
-  --primary-strong: #3a55d9;
-  --primary-soft: #eaefff;
+  --primary: #6366f1;
+  --primary-strong: #4F46E5;
+  --primary-soft: #ede9fe;
+  --primary-grad: linear-gradient(135deg, #4F46E5, #7C3AED);
   --accent: #ffb020;
-  --key-bg: #eef2ff;
-  --key-border: #c5d0ff;
-  --key-text: #2a3a8f;
+  --key-bg: #f5f3ff;
+  --key-border: #ddd6fe;
+  --key-text: #5b21b6;
   --shadow: 0 2px 10px rgba(16, 24, 40, 0.06);
   --shadow-lg: 0 8px 24px rgba(16, 24, 40, 0.12);
   --radius: 14px;
@@ -26,13 +27,14 @@
   --border: #2b303a;
   --text: #eef1f5;
   --sub: #98a2b3;
-  --primary: #7c93ff;
-  --primary-strong: #3a55d9;
-  --primary-soft: #23293e;
+  --primary: #818cf8;
+  --primary-strong: #6366f1;
+  --primary-soft: #26243a;
+  --primary-grad: linear-gradient(135deg, #6366f1, #8b5cf6);
   --accent: #ffc247;
-  --key-bg: #262b44;
-  --key-border: #3a4470;
-  --key-text: #cdd6ff;
+  --key-bg: #2a2545;
+  --key-border: #4a3f7a;
+  --key-text: #ddd6fe;
   --shadow: 0 2px 10px rgba(0, 0, 0, 0.35);
   --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.45);
 }
@@ -78,7 +80,12 @@ html, body {
   padding: 8px 12px 4px;
 }
 .brand { display: flex; align-items: center; gap: 9px; }
-.brand-logo { width: 28px; height: 28px; border-radius: 7px; }
+.brand-logo {
+  width: 28px;
+  height: 28px;
+  border-radius: 7px;
+  box-shadow: 0 2px 6px rgba(79, 70, 229, 0.35);
+}
 .brand-text { display: flex; flex-direction: column; line-height: 1.15; }
 .brand-name { font-weight: 700; font-size: 15px; letter-spacing: -0.2px; }
 .brand-tag { font-size: 10px; color: var(--sub); }
@@ -188,8 +195,8 @@ html, body {
 .tab:hover { color: var(--text); }
 .tab.active {
   color: #fff;
-  background: var(--primary-strong);
-  box-shadow: 0 4px 12px rgba(58, 85, 217, 0.35);
+  background: var(--primary-grad);
+  box-shadow: 0 4px 12px rgba(79, 70, 229, 0.4);
 }
 
 /* ---- Content ---- */
@@ -528,7 +535,7 @@ html, body {
   transition: all .15s;
 }
 .chip:hover { border-color: var(--primary); color: var(--primary); }
-.chip.active { background: var(--primary-strong); border-color: var(--primary-strong); color: #fff; }
+.chip.active { background: var(--primary-grad); border-color: transparent; color: #fff; }
 
 /* ---- Back header ---- */
 .subhead {
@@ -590,17 +597,17 @@ html, body {
   display: inline-block;
   margin-top: 14px;
   border: none;
-  background: var(--primary-strong);
+  background: var(--primary-grad);
   color: #fff;
   font-size: 13px;
   font-weight: 600;
   padding: 8px 18px;
   border-radius: 20px;
   cursor: pointer;
-  box-shadow: 0 4px 12px rgba(58, 85, 217, 0.35);
+  box-shadow: 0 4px 12px rgba(79, 70, 229, 0.4);
   transition: transform .12s, box-shadow .12s;
 }
-.empty-action:hover { transform: translateY(-1px); box-shadow: 0 6px 16px rgba(58, 85, 217, 0.45); }
+.empty-action:hover { transform: translateY(-1px); box-shadow: 0 6px 16px rgba(79, 70, 229, 0.5); }
 
 .loading { text-align: center; color: var(--sub); padding: 40px; }
 

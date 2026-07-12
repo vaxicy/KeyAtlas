@@ -11,10 +11,9 @@
     tab: "search",
     query: "",
     os: "windows",
-    category: null, // legacy, kept for compatibility
-    app: null, // legacy, kept for compatibility
     catView: null, // categories home group: 'system' | 'software' | 'scenes' | null
     catDrill: null, // drilled target: 'os:windows' | 'app:chrome' | 'cat:design' | null
+    activeIdx: -1, // keyboard-nav highlighted card index
     favSet: new Set()
   };
 
@@ -23,6 +22,8 @@
     mac: { icon: "🍎", key: "os_mac" },
     linux: { icon: "🐧", key: "os_linux" }
   };
+
+  const VERSION = "1.0.0";
 
   // Cached DOM
   const el = {
@@ -61,7 +62,7 @@
     el.settingsBtn.title = t.settings;
     el.settingsBtn.setAttribute("aria-label", t.settings);
     document.documentElement.lang = i18n.lang;
-    if (el.aboutVersion) el.aboutVersion.textContent = i18n.format(t.aboutVersion, { n: "1.0.0" });
+    if (el.aboutVersion) el.aboutVersion.textContent = i18n.format(t.aboutVersion, { n: VERSION });
   }
 
   /* ---------- Toast ---------- */
@@ -148,6 +149,7 @@
 
   /* ---------- Renderers per tab ---------- */
   function render() {
+    clearActiveCard();
     if (state.tab === "search") return renderSearch();
     if (state.tab === "categories") return renderCategories();
     if (state.tab === "favorites") return renderFavorites();
@@ -210,7 +212,7 @@
   function renderHomepage() {
     const t = i18n.t;
     const qsCards = quickStartItems().map(cardHTML).join("");
-    const popApps = ["chrome", "vscode", "figma", "photoshop", "excel"];
+    const popApps = DataStore.apps.filter((a) => a.popular).map((a) => a.id);
     const popChips = popApps
       .map((id) => {
         const a = DataStore.getApp(id);
@@ -303,6 +305,7 @@
     }
     if (state.catView === "scenes") {
       const tiles = DataStore.categories
+        .filter((c) => DataStore.getShortcutsByCategory(c.id).length > 0)
         .map((c) => {
           const count = DataStore.getShortcutsByCategory(c.id).length;
           return `<div class="cat-tile" data-drill="cat:${c.id}"><span class="cat-emoji">${c.icon || "📁"}</span><div class="cat-info"><span class="cat-name">${escapeHTML(i18n.pick(c.name))}</span><span class="cat-count">${i18n.format(t.resultsCount, { n: count })}</span></div></div>`;
@@ -366,6 +369,23 @@
   }
 
   /* ---------- Events ---------- */
+  function getCards() {
+    return Array.from(el.content.querySelectorAll(".card"));
+  }
+  function setActiveCard(idx) {
+    const cards = getCards();
+    if (!cards.length) return;
+    if (idx < 0) idx = 0;
+    if (idx >= cards.length) idx = cards.length - 1;
+    state.activeIdx = idx;
+    cards.forEach((c, i) => c.classList.toggle("card-active", i === idx));
+    cards[idx].scrollIntoView({ block: "nearest" });
+  }
+  function clearActiveCard() {
+    state.activeIdx = -1;
+    el.content.querySelectorAll(".card-active").forEach((c) => c.classList.remove("card-active"));
+  }
+
   function syncTabs() {
     document.querySelectorAll(".tab").forEach((b) =>
       b.classList.toggle("active", b.dataset.tab === state.tab)
@@ -374,8 +394,6 @@
 
   function setTab(tab) {
     state.tab = tab;
-    state.category = null;
-    state.app = null;
     state.catView = null;
     state.catDrill = null;
     el.searchInput.value = state.query;
@@ -421,9 +439,7 @@
     const back = e.target.closest("[data-back]");
     if (back) {
       if (state.catDrill) state.catDrill = null;
-      else if (state.catView) state.catView = null;
-      state.category = null;
-      state.app = null;
+      else       if (state.catView) state.catView = null;
       render();
       return;
     }
@@ -463,22 +479,9 @@
       return;
     }
 
-    const chip = e.target.closest("[data-app]");
-    if (chip) {
-      state.app = chip.dataset.app;
-      render();
-      return;
-    }
-
     const card = e.target.closest(".card");
     if (card) {
-      const id = card.dataset.id;
-      await store.pushRecent(id);
-      const s = DataStore.getShortcut(id);
-      if (s) {
-        copyToClipboard(keyForOS(s));
-        toast(i18n.t.copied);
-      }
+      copyCard(card);
     }
   }
 
@@ -492,6 +495,46 @@
       ta.select();
       try { document.execCommand("copy"); } catch {}
       document.body.removeChild(ta);
+    }
+  }
+
+  function copyCard(card) {
+    const id = card.dataset.id;
+    store.pushRecent(id).then(() => {
+      const s = DataStore.getShortcut(id);
+      if (s) {
+        copyToClipboard(keyForOS(s));
+        toast(i18n.t.copied);
+      }
+    });
+  }
+
+  function onKeydown(e) {
+    // Settings overlay open: only Esc closes it
+    if (!el.settingsPanel.hidden) {
+      if (e.key === "Escape") closeSettings();
+      return;
+    }
+    const cards = getCards();
+    if (!cards.length) return;
+    if (e.key === "ArrowDown") {
+      e.preventDefault();
+      setActiveCard(state.activeIdx < 0 ? 0 : state.activeIdx + 1);
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault();
+      setActiveCard(state.activeIdx < 0 ? 0 : state.activeIdx - 1);
+    } else if (e.key === "Enter") {
+      if (state.activeIdx >= 0 && cards[state.activeIdx]) {
+        e.preventDefault();
+        copyCard(cards[state.activeIdx]);
+      }
+    } else if (e.key === "Escape") {
+      if (state.query) {
+        el.searchInput.value = "";
+        state.query = "";
+        el.clearSearch.hidden = true;
+        renderSearch();
+      }
     }
   }
 
@@ -622,6 +665,7 @@
     bindSegment(el.setLang, "lang", pickLang);
 
     el.content.addEventListener("click", onContentClick);
+    document.addEventListener("keydown", onKeydown);
 
     el.searchInput.focus();
     render();

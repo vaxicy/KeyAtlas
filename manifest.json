@@ -17,11 +17,5 @@
       "128": "icons/icon-128.png"
     }
   },
-  "permissions": ["storage"],
-  "web_accessible_resources": [
-    {
-      "resources": ["data/*"],
-      "matches": ["<all_urls>"]
-    }
-  ]
+  "permissions": ["storage"]
 }

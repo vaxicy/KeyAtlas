@@ -249,6 +249,7 @@ html, body {
 }
 .card:hover { box-shadow: var(--shadow-lg); border-color: var(--primary); }
 .card:active { transform: scale(.99); }
+.card-active { border-color: var(--primary); box-shadow: 0 0 0 2px var(--primary); }
 
 .card-main { flex: 1; min-width: 0; }
 .card-title-row { display: flex; align-items: center; gap: 6px; }

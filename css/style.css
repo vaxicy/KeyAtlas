@@ -50,7 +50,9 @@
 .empty-action:focus-visible,
 .clear-btn:focus-visible,
 .settings-btn:focus-visible,
-.settings-close:focus-visible {
+.settings-close:focus-visible,
+.subhead-export:focus-visible,
+.detail-export:focus-visible {
   outline: 2px solid var(--primary);
   outline-offset: 2px;
 }
@@ -510,6 +512,32 @@ html, body {
   justify-content: center;
 }
 .subhead-title { font-size: 15px; font-weight: 700; display: flex; align-items: center; gap: 6px; }
+.subhead-export {
+  margin-left: auto;
+  border: none;
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 8px;
+  width: 30px; height: 30px;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.subhead-export:hover, .detail-export:hover { color: var(--primary-strong); }
+.detail-export {
+  margin-left: auto;
+  border: none;
+  background: transparent;
+  color: var(--sub);
+  border-radius: 8px;
+  width: 30px; height: 30px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /* ---- Empty / info states ---- */
 .empty {

@@ -1,16 +1,315 @@
 [
-  { "id": "vscode-command", "appId": "vscode", "type": "software", "category": "development", "name": { "zh": "命令面板", "en": "Command Palette" }, "description": { "zh": "打开命令面板", "en": "Open command palette" }, "windows": "Ctrl+Shift+P", "mac": "⌘+Shift+P", "linux": "Ctrl+Shift+P", "keywords": ["命令", "command", "palette"] },
-  { "id": "vscode-quickopen", "appId": "vscode", "type": "software", "category": "development", "name": { "zh": "快速打开文件", "en": "Quick Open File" }, "description": { "zh": "按名称快速打开文件", "en": "Go to file by name" }, "windows": "Ctrl+P", "mac": "⌘+P", "linux": "Ctrl+P", "keywords": ["打开", "quick open", "file"] },
-  { "id": "vscode-comment", "appId": "vscode", "type": "software", "category": "development", "name": { "zh": "注释切换", "en": "Toggle Comment" }, "description": { "zh": "注释或取消注释当前行", "en": "Toggle line comment" }, "windows": "Ctrl+/", "mac": "⌘+/", "linux": "Ctrl+/", "keywords": ["注释", "comment"] },
-  { "id": "vscode-terminal", "appId": "vscode", "type": "software", "category": "development", "name": { "zh": "切换终端", "en": "Toggle Terminal" }, "description": { "zh": "打开或关闭集成终端", "en": "Toggle integrated terminal" }, "windows": "Ctrl+`", "mac": "⌘+`", "linux": "Ctrl+`", "keywords": ["终端", "terminal"] },
-  { "id": "vscode-multicursor", "appId": "vscode", "type": "software", "category": "development", "name": { "zh": "添加光标", "en": "Add Cursor" }, "description": { "zh": "在下一行添加光标", "en": "Add cursor below" }, "windows": "Ctrl+Alt+Down", "mac": "⌘+Option+Down", "linux": "Ctrl+Alt+Down", "keywords": ["多光标", "cursor", "multi"] },
-  { "id": "vscode-selectword", "appId": "vscode", "type": "software", "category": "development", "name": { "zh": "选中相同词", "en": "Select Next Match" }, "description": { "zh": "选中下一个相同单词", "en": "Select next occurrence" }, "windows": "Ctrl+D", "mac": "⌘+D", "linux": "Ctrl+D", "keywords": ["选中", "select", "match"] },
-  { "id": "vscode-moveline", "appId": "vscode", "type": "software", "category": "development", "name": { "zh": "移动行", "en": "Move Line" }, "description": { "zh": "上下移动当前行", "en": "Move line up / down" }, "windows": "Alt+Up / Down", "mac": "Option+Up / Down", "linux": "Alt+Up / Down", "keywords": ["移动行", "move line"] },
-  { "id": "vscode-copyline", "appId": "vscode", "type": "software", "category": "development", "name": { "zh": "复制行", "en": "Copy Line" }, "description": { "zh": "向下复制当前行", "en": "Copy line down" }, "windows": "Shift+Alt+Down", "mac": "Shift+Option+Down", "linux": "Shift+Alt+Down", "keywords": ["复制行", "copy line", "duplicate"] },
-  { "id": "vscode-format", "appId": "vscode", "type": "software", "category": "development", "name": { "zh": "格式化文档", "en": "Format Document" }, "description": { "zh": "格式化整个文档", "en": "Format the whole document" }, "windows": "Shift+Alt+F", "mac": "Shift+Option+F", "linux": "Ctrl+Shift+I", "keywords": ["格式化", "format"] },
-  { "id": "vscode-rename", "appId": "vscode", "type": "software", "category": "development", "name": { "zh": "重命名符号", "en": "Rename Symbol" }, "description": { "zh": "重命名变量或符号", "en": "Rename a symbol" }, "windows": "F2", "mac": "F2", "linux": "F2", "keywords": ["重命名", "rename"] },
-  { "id": "vscode-gotoline", "appId": "vscode", "type": "software", "category": "development", "name": { "zh": "跳转到行", "en": "Go to Line" }, "description": { "zh": "跳转到指定行号", "en": "Go to a line number" }, "windows": "Ctrl+G", "mac": "⌘+G", "linux": "Ctrl+G", "keywords": ["跳转", "go to line"] },
-  { "id": "vscode-search", "appId": "vscode", "type": "software", "category": "development", "name": { "zh": "全局搜索", "en": "Search Across Files" }, "description": { "zh": "在所有文件中搜索", "en": "Search in all files" }, "windows": "Ctrl+Shift+F", "mac": "⌘+Shift+F", "linux": "Ctrl+Shift+F", "keywords": ["搜索", "search"] },
-  { "id": "vscode-sidebar", "appId": "vscode", "type": "software", "category": "development", "name": { "zh": "切换侧边栏", "en": "Toggle Sidebar" }, "description": { "zh": "显示或隐藏侧边栏", "en": "Toggle the sidebar" }, "windows": "Ctrl+B", "mac": "⌘+B", "linux": "Ctrl+B", "keywords": ["侧边栏", "sidebar"] },
-  { "id": "vscode-split", "appId": "vscode", "type": "software", "category": "development", "name": { "zh": "拆分编辑器", "en": "Split Editor" }, "description": { "zh": "拆分编辑器窗口", "en": "Split the editor" }, "windows": "Ctrl+\\", "mac": "⌘+\\", "linux": "Ctrl+\\", "keywords": ["拆分", "split"] }
+  {
+    "id": "vscode-command",
+    "appId": "vscode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "命令面板",
+      "en": "Command Palette"
+    },
+    "description": {
+      "zh": "打开命令面板",
+      "en": "Open command palette"
+    },
+    "windows": "Ctrl+Shift+P",
+    "mac": "⌘+Shift+P",
+    "linux": "Ctrl+Shift+P",
+    "keywords": [
+      "命令",
+      "command",
+      "palette"
+    ],
+    "pinyin": "ming ling mian ban minglingmianban m l m b mlmb ming ling mingling m l ml"
+  },
+  {
+    "id": "vscode-quickopen",
+    "appId": "vscode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "快速打开文件",
+      "en": "Quick Open File"
+    },
+    "description": {
+      "zh": "按名称快速打开文件",
+      "en": "Go to file by name"
+    },
+    "windows": "Ctrl+P",
+    "mac": "⌘+P",
+    "linux": "Ctrl+P",
+    "keywords": [
+      "打开",
+      "quick open",
+      "file"
+    ],
+    "pinyin": "kuai su da kai wen jian kuaisudakaiwenjian k s d k w j ksdkwj da kai dakai d k dk"
+  },
+  {
+    "id": "vscode-comment",
+    "appId": "vscode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "注释切换",
+      "en": "Toggle Comment"
+    },
+    "description": {
+      "zh": "注释或取消注释当前行",
+      "en": "Toggle line comment"
+    },
+    "windows": "Ctrl+/",
+    "mac": "⌘+/",
+    "linux": "Ctrl+/",
+    "keywords": [
+      "注释",
+      "comment"
+    ],
+    "pinyin": "zhu shi qie huan zhushiqiehuan z s q h zsqh zhu shi zhushi z s zs"
+  },
+  {
+    "id": "vscode-terminal",
+    "appId": "vscode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "切换终端",
+      "en": "Toggle Terminal"
+    },
+    "description": {
+      "zh": "打开或关闭集成终端",
+      "en": "Toggle integrated terminal"
+    },
+    "windows": "Ctrl+`",
+    "mac": "⌘+`",
+    "linux": "Ctrl+`",
+    "keywords": [
+      "终端",
+      "terminal"
+    ],
+    "pinyin": "qie huan zhong duan qiehuanzhongduan q h z d qhzd zhong duan zhongduan z d zd"
+  },
+  {
+    "id": "vscode-multicursor",
+    "appId": "vscode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "添加光标",
+      "en": "Add Cursor"
+    },
+    "description": {
+      "zh": "在下一行添加光标",
+      "en": "Add cursor below"
+    },
+    "windows": "Ctrl+Alt+Down",
+    "mac": "⌘+Option+Down",
+    "linux": "Ctrl+Alt+Down",
+    "keywords": [
+      "多光标",
+      "cursor",
+      "multi"
+    ],
+    "pinyin": "tian jia guang biao tianjiaguangbiao t j g b tjgb duo guang biao duoguangbiao d g b dgb"
+  },
+  {
+    "id": "vscode-selectword",
+    "appId": "vscode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "选中相同词",
+      "en": "Select Next Match"
+    },
+    "description": {
+      "zh": "选中下一个相同单词",
+      "en": "Select next occurrence"
+    },
+    "windows": "Ctrl+D",
+    "mac": "⌘+D",
+    "linux": "Ctrl+D",
+    "keywords": [
+      "选中",
+      "select",
+      "match"
+    ],
+    "pinyin": "xuan zhong xiang tong ci xuanzhongxiangtongci x z x t c xzxtc xuan zhong xuanzhong x z xz"
+  },
+  {
+    "id": "vscode-moveline",
+    "appId": "vscode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "移动行",
+      "en": "Move Line"
+    },
+    "description": {
+      "zh": "上下移动当前行",
+      "en": "Move line up / down"
+    },
+    "windows": "Alt+Up / Down",
+    "mac": "Option+Up / Down",
+    "linux": "Alt+Up / Down",
+    "keywords": [
+      "移动行",
+      "move line"
+    ],
+    "pinyin": "yi dong xing yidongxing y d x ydx yi dong xing yidongxing y d x ydx"
+  },
+  {
+    "id": "vscode-copyline",
+    "appId": "vscode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "复制行",
+      "en": "Copy Line"
+    },
+    "description": {
+      "zh": "向下复制当前行",
+      "en": "Copy line down"
+    },
+    "windows": "Shift+Alt+Down",
+    "mac": "Shift+Option+Down",
+    "linux": "Shift+Alt+Down",
+    "keywords": [
+      "复制行",
+      "copy line",
+      "duplicate"
+    ],
+    "pinyin": "fu zhi xing fuzhixing f z x fzx fu zhi xing fuzhixing f z x fzx"
+  },
+  {
+    "id": "vscode-format",
+    "appId": "vscode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "格式化文档",
+      "en": "Format Document"
+    },
+    "description": {
+      "zh": "格式化整个文档",
+      "en": "Format the whole document"
+    },
+    "windows": "Shift+Alt+F",
+    "mac": "Shift+Option+F",
+    "linux": "Ctrl+Shift+I",
+    "keywords": [
+      "格式化",
+      "format"
+    ],
+    "pinyin": "ge shi hua wen dang geshihuawendang g s h w d gshwd ge shi hua geshihua g s h gsh"
+  },
+  {
+    "id": "vscode-rename",
+    "appId": "vscode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "重命名符号",
+      "en": "Rename Symbol"
+    },
+    "description": {
+      "zh": "重命名变量或符号",
+      "en": "Rename a symbol"
+    },
+    "windows": "F2",
+    "mac": "F2",
+    "linux": "F2",
+    "keywords": [
+      "重命名",
+      "rename"
+    ],
+    "pinyin": "zhong ming ming fu hao zhongmingmingfuhao z m m f h zmmfh zhong ming ming zhongmingming z m m zmm"
+  },
+  {
+    "id": "vscode-gotoline",
+    "appId": "vscode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "跳转到行",
+      "en": "Go to Line"
+    },
+    "description": {
+      "zh": "跳转到指定行号",
+      "en": "Go to a line number"
+    },
+    "windows": "Ctrl+G",
+    "mac": "⌘+G",
+    "linux": "Ctrl+G",
+    "keywords": [
+      "跳转",
+      "go to line"
+    ],
+    "pinyin": "tiao zhuan dao xing tiaozhuandaoxing t z d x tzdx tiao zhuan tiaozhuan t z tz"
+  },
+  {
+    "id": "vscode-search",
+    "appId": "vscode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "全局搜索",
+      "en": "Search Across Files"
+    },
+    "description": {
+      "zh": "在所有文件中搜索",
+      "en": "Search in all files"
+    },
+    "windows": "Ctrl+Shift+F",
+    "mac": "⌘+Shift+F",
+    "linux": "Ctrl+Shift+F",
+    "keywords": [
+      "搜索",
+      "search"
+    ],
+    "pinyin": "quan ju sou suo quanjusousuo q j s s qjss sou suo sousuo s s ss"
+  },
+  {
+    "id": "vscode-sidebar",
+    "appId": "vscode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "切换侧边栏",
+      "en": "Toggle Sidebar"
+    },
+    "description": {
+      "zh": "显示或隐藏侧边栏",
+      "en": "Toggle the sidebar"
+    },
+    "windows": "Ctrl+B",
+    "mac": "⌘+B",
+    "linux": "Ctrl+B",
+    "keywords": [
+      "侧边栏",
+      "sidebar"
+    ],
+    "pinyin": "qie huan ce bian lan qiehuancebianlan q h c b l qhcbl ce bian lan cebianlan c b l cbl"
+  },
+  {
+    "id": "vscode-split",
+    "appId": "vscode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "拆分编辑器",
+      "en": "Split Editor"
+    },
+    "description": {
+      "zh": "拆分编辑器窗口",
+      "en": "Split the editor"
+    },
+    "windows": "Ctrl+\\",
+    "mac": "⌘+\\",
+    "linux": "Ctrl+\\",
+    "keywords": [
+      "拆分",
+      "split"
+    ],
+    "pinyin": "chai fen bian ji qi chaifenbianjiqi c f b j q cfbjq chai fen chaifen c f cf"
+  }
 ]

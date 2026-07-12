@@ -18,5 +18,11 @@
       "128": "icons/icon-128.png"
     }
   },
+  "background": {
+    "service_worker": "js/background.js"
+  },
+  "omnibox": {
+    "keyword": "ka"
+  },
   "permissions": ["storage"]
 }

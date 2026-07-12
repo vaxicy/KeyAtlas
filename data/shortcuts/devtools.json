@@ -1,9 +1,158 @@
 [
-  { "id": "devtools-open", "appId": "devtools", "type": "software", "category": "development", "name": { "zh": "打开开发者工具", "en": "Open DevTools" }, "description": { "zh": "打开或关闭开发者工具", "en": "Toggle Developer Tools" }, "windows": "F12", "mac": "⌘+Option+I", "linux": "F12", "keywords": ["开发者工具", "devtools"] },
-  { "id": "devtools-inspect", "appId": "devtools", "type": "software", "category": "development", "name": { "zh": "检查元素", "en": "Inspect Element" }, "description": { "zh": "打开元素选择器", "en": "Open element inspector" }, "windows": "Ctrl+Shift+C", "mac": "⌘+Shift+C", "linux": "Ctrl+Shift+C", "keywords": ["检查", "inspect", "element"] },
-  { "id": "devtools-console", "appId": "devtools", "type": "software", "category": "development", "name": { "zh": "打开控制台", "en": "Open Console" }, "description": { "zh": "直接打开控制台面板", "en": "Open the Console panel" }, "windows": "Ctrl+Shift+J", "mac": "⌘+Option+J", "linux": "Ctrl+Shift+J", "keywords": ["控制台", "console"] },
-  { "id": "devtools-search", "appId": "devtools", "type": "software", "category": "development", "name": { "zh": "全局搜索", "en": "Search All Files" }, "description": { "zh": "在所有加载的资源中搜索", "en": "Search across all loaded files" }, "windows": "Ctrl+Shift+F", "mac": "⌘+Option+F", "linux": "Ctrl+Shift+F", "keywords": ["搜索", "search"] },
-  { "id": "devtools-command", "appId": "devtools", "type": "software", "category": "development", "name": { "zh": "命令菜单", "en": "Command Menu" }, "description": { "zh": "打开命令菜单执行操作", "en": "Open command menu" }, "windows": "Ctrl+Shift+P", "mac": "⌘+Shift+P", "linux": "Ctrl+Shift+P", "keywords": ["命令", "command"] },
-  { "id": "devtools-device", "appId": "devtools", "type": "software", "category": "development", "name": { "zh": "设备模式", "en": "Device Toolbar" }, "description": { "zh": "切换响应式设备模拟", "en": "Toggle device toolbar" }, "windows": "Ctrl+Shift+M", "mac": "⌘+Shift+M", "linux": "Ctrl+Shift+M", "keywords": ["设备", "device", "responsive"] },
-  { "id": "devtools-clear", "appId": "devtools", "type": "software", "category": "development", "name": { "zh": "清空控制台", "en": "Clear Console" }, "description": { "zh": "清除控制台输出", "en": "Clear the console" }, "windows": "Ctrl+L", "mac": "⌘+K", "linux": "Ctrl+L", "keywords": ["清空", "clear"] }
+  {
+    "id": "devtools-open",
+    "appId": "devtools",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "打开开发者工具",
+      "en": "Open DevTools"
+    },
+    "description": {
+      "zh": "打开或关闭开发者工具",
+      "en": "Toggle Developer Tools"
+    },
+    "windows": "F12",
+    "mac": "⌘+Option+I",
+    "linux": "F12",
+    "keywords": [
+      "开发者工具",
+      "devtools"
+    ],
+    "pinyin": "da kai kai fa zhe gong ju dakaikaifazhegongju d k k f z g j dkkfzgj kai fa zhe gong ju kaifazhegongju k f z g j kfzgj"
+  },
+  {
+    "id": "devtools-inspect",
+    "appId": "devtools",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "检查元素",
+      "en": "Inspect Element"
+    },
+    "description": {
+      "zh": "打开元素选择器",
+      "en": "Open element inspector"
+    },
+    "windows": "Ctrl+Shift+C",
+    "mac": "⌘+Shift+C",
+    "linux": "Ctrl+Shift+C",
+    "keywords": [
+      "检查",
+      "inspect",
+      "element"
+    ],
+    "pinyin": "jian cha yuan su jianchayuansu j c y s jcys jian cha jiancha j c jc"
+  },
+  {
+    "id": "devtools-console",
+    "appId": "devtools",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "打开控制台",
+      "en": "Open Console"
+    },
+    "description": {
+      "zh": "直接打开控制台面板",
+      "en": "Open the Console panel"
+    },
+    "windows": "Ctrl+Shift+J",
+    "mac": "⌘+Option+J",
+    "linux": "Ctrl+Shift+J",
+    "keywords": [
+      "控制台",
+      "console"
+    ],
+    "pinyin": "da kai kong zhi tai dakaikongzhitai d k k z t dkkzt kong zhi tai kongzhitai k z t kzt"
+  },
+  {
+    "id": "devtools-search",
+    "appId": "devtools",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "全局搜索",
+      "en": "Search All Files"
+    },
+    "description": {
+      "zh": "在所有加载的资源中搜索",
+      "en": "Search across all loaded files"
+    },
+    "windows": "Ctrl+Shift+F",
+    "mac": "⌘+Option+F",
+    "linux": "Ctrl+Shift+F",
+    "keywords": [
+      "搜索",
+      "search"
+    ],
+    "pinyin": "quan ju sou suo quanjusousuo q j s s qjss sou suo sousuo s s ss"
+  },
+  {
+    "id": "devtools-command",
+    "appId": "devtools",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "命令菜单",
+      "en": "Command Menu"
+    },
+    "description": {
+      "zh": "打开命令菜单执行操作",
+      "en": "Open command menu"
+    },
+    "windows": "Ctrl+Shift+P",
+    "mac": "⌘+Shift+P",
+    "linux": "Ctrl+Shift+P",
+    "keywords": [
+      "命令",
+      "command"
+    ],
+    "pinyin": "ming ling cai dan minglingcaidan m l c d mlcd ming ling mingling m l ml"
+  },
+  {
+    "id": "devtools-device",
+    "appId": "devtools",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "设备模式",
+      "en": "Device Toolbar"
+    },
+    "description": {
+      "zh": "切换响应式设备模拟",
+      "en": "Toggle device toolbar"
+    },
+    "windows": "Ctrl+Shift+M",
+    "mac": "⌘+Shift+M",
+    "linux": "Ctrl+Shift+M",
+    "keywords": [
+      "设备",
+      "device",
+      "responsive"
+    ],
+    "pinyin": "she bei mo shi shebeimoshi s b m s sbms she bei shebei s b sb"
+  },
+  {
+    "id": "devtools-clear",
+    "appId": "devtools",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "清空控制台",
+      "en": "Clear Console"
+    },
+    "description": {
+      "zh": "清除控制台输出",
+      "en": "Clear the console"
+    },
+    "windows": "Ctrl+L",
+    "mac": "⌘+K",
+    "linux": "Ctrl+L",
+    "keywords": [
+      "清空",
+      "clear"
+    ],
+    "pinyin": "qing kong kong zhi tai qingkongkongzhitai q k k z t qkkzt qing kong qingkong q k qk"
+  }
 ]

@@ -1,12 +1,224 @@
 [
-  { "id": "linux-copy", "appId": "linux", "type": "system", "category": "system", "name": { "zh": "复制", "en": "Copy" }, "description": { "zh": "复制选中的内容", "en": "Copy selected content" }, "windows": "Ctrl+C", "mac": "⌘+C", "linux": "Ctrl+C", "keywords": ["复制", "copy"] },
-  { "id": "linux-paste", "appId": "linux", "type": "system", "category": "system", "name": { "zh": "粘贴", "en": "Paste" }, "description": { "zh": "粘贴剪贴板内容", "en": "Paste from clipboard" }, "windows": "Ctrl+V", "mac": "⌘+V", "linux": "Ctrl+V", "keywords": ["粘贴", "paste"] },
-  { "id": "linux-terminal-copy", "appId": "linux", "type": "system", "category": "system", "name": { "zh": "终端复制", "en": "Terminal Copy" }, "description": { "zh": "在终端中复制", "en": "Copy in terminal" }, "windows": "Ctrl+C", "mac": "⌘+C", "linux": "Ctrl+Shift+C", "keywords": ["终端", "terminal", "copy"] },
-  { "id": "linux-terminal-paste", "appId": "linux", "type": "system", "category": "system", "name": { "zh": "终端粘贴", "en": "Terminal Paste" }, "description": { "zh": "在终端中粘贴", "en": "Paste in terminal" }, "windows": "Ctrl+V", "mac": "⌘+V", "linux": "Ctrl+Shift+V", "keywords": ["终端", "terminal", "paste"] },
-  { "id": "linux-switch", "appId": "linux", "type": "system", "category": "system", "name": { "zh": "切换窗口", "en": "Switch Windows" }, "description": { "zh": "在打开的窗口间切换", "en": "Switch between windows" }, "windows": "Alt+Tab", "mac": "⌘+Tab", "linux": "Alt+Tab", "keywords": ["切换", "switch"] },
-  { "id": "linux-close", "appId": "linux", "type": "system", "category": "system", "name": { "zh": "关闭窗口", "en": "Close Window" }, "description": { "zh": "关闭当前窗口", "en": "Close current window" }, "windows": "Alt+F4", "mac": "⌘+W", "linux": "Alt+F4", "keywords": ["关闭", "close"] },
-  { "id": "linux-terminal", "appId": "linux", "type": "system", "category": "system", "name": { "zh": "打开终端", "en": "Open Terminal" }, "description": { "zh": "打开终端窗口", "en": "Open a terminal window" }, "windows": "—", "mac": "—", "linux": "Ctrl+Alt+T", "keywords": ["终端", "terminal"] },
-  { "id": "linux-lock", "appId": "linux", "type": "system", "category": "system", "name": { "zh": "锁屏", "en": "Lock Screen" }, "description": { "zh": "锁定屏幕", "en": "Lock the screen" }, "windows": "Win+L", "mac": "⌘+Ctrl+Q", "linux": "Super+L", "keywords": ["锁屏", "lock"] },
-  { "id": "linux-showapps", "appId": "linux", "type": "system", "category": "system", "name": { "zh": "显示应用", "en": "Show Applications" }, "description": { "zh": "打开应用程序列表", "en": "Open applications overview" }, "windows": "Win", "mac": "—", "linux": "Super+A", "keywords": ["应用", "applications"] },
-  { "id": "linux-workspace", "appId": "linux", "type": "system", "category": "system", "name": { "zh": "切换工作区", "en": "Switch Workspace" }, "description": { "zh": "切换到其他工作区", "en": "Switch to another workspace" }, "windows": "Win+Ctrl+Left", "mac": "Ctrl+Left", "linux": "Ctrl+Alt+Left", "keywords": ["工作区", "workspace"] }
+  {
+    "id": "linux-copy",
+    "appId": "linux",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "复制",
+      "en": "Copy"
+    },
+    "description": {
+      "zh": "复制选中的内容",
+      "en": "Copy selected content"
+    },
+    "windows": "Ctrl+C",
+    "mac": "⌘+C",
+    "linux": "Ctrl+C",
+    "keywords": [
+      "复制",
+      "copy"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "linux-paste",
+    "appId": "linux",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "粘贴",
+      "en": "Paste"
+    },
+    "description": {
+      "zh": "粘贴剪贴板内容",
+      "en": "Paste from clipboard"
+    },
+    "windows": "Ctrl+V",
+    "mac": "⌘+V",
+    "linux": "Ctrl+V",
+    "keywords": [
+      "粘贴",
+      "paste"
+    ],
+    "pinyin": "nian tie niantie n t nt nian tie niantie n t nt"
+  },
+  {
+    "id": "linux-terminal-copy",
+    "appId": "linux",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "终端复制",
+      "en": "Terminal Copy"
+    },
+    "description": {
+      "zh": "在终端中复制",
+      "en": "Copy in terminal"
+    },
+    "windows": "Ctrl+C",
+    "mac": "⌘+C",
+    "linux": "Ctrl+Shift+C",
+    "keywords": [
+      "终端",
+      "terminal",
+      "copy"
+    ],
+    "pinyin": "zhong duan fu zhi zhongduanfuzhi z d f z zdfz zhong duan zhongduan z d zd"
+  },
+  {
+    "id": "linux-terminal-paste",
+    "appId": "linux",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "终端粘贴",
+      "en": "Terminal Paste"
+    },
+    "description": {
+      "zh": "在终端中粘贴",
+      "en": "Paste in terminal"
+    },
+    "windows": "Ctrl+V",
+    "mac": "⌘+V",
+    "linux": "Ctrl+Shift+V",
+    "keywords": [
+      "终端",
+      "terminal",
+      "paste"
+    ],
+    "pinyin": "zhong duan nian tie zhongduanniantie z d n t zdnt zhong duan zhongduan z d zd"
+  },
+  {
+    "id": "linux-switch",
+    "appId": "linux",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "切换窗口",
+      "en": "Switch Windows"
+    },
+    "description": {
+      "zh": "在打开的窗口间切换",
+      "en": "Switch between windows"
+    },
+    "windows": "Alt+Tab",
+    "mac": "⌘+Tab",
+    "linux": "Alt+Tab",
+    "keywords": [
+      "切换",
+      "switch"
+    ],
+    "pinyin": "qie huan chuang kou qiehuanchuangkou q h c k qhck qie huan qiehuan q h qh"
+  },
+  {
+    "id": "linux-close",
+    "appId": "linux",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "关闭窗口",
+      "en": "Close Window"
+    },
+    "description": {
+      "zh": "关闭当前窗口",
+      "en": "Close current window"
+    },
+    "windows": "Alt+F4",
+    "mac": "⌘+W",
+    "linux": "Alt+F4",
+    "keywords": [
+      "关闭",
+      "close"
+    ],
+    "pinyin": "guan bi chuang kou guanbichuangkou g b c k gbck guan bi guanbi g b gb"
+  },
+  {
+    "id": "linux-terminal",
+    "appId": "linux",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "打开终端",
+      "en": "Open Terminal"
+    },
+    "description": {
+      "zh": "打开终端窗口",
+      "en": "Open a terminal window"
+    },
+    "windows": "—",
+    "mac": "—",
+    "linux": "Ctrl+Alt+T",
+    "keywords": [
+      "终端",
+      "terminal"
+    ],
+    "pinyin": "da kai zhong duan dakaizhongduan d k z d dkzd zhong duan zhongduan z d zd"
+  },
+  {
+    "id": "linux-lock",
+    "appId": "linux",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "锁屏",
+      "en": "Lock Screen"
+    },
+    "description": {
+      "zh": "锁定屏幕",
+      "en": "Lock the screen"
+    },
+    "windows": "Win+L",
+    "mac": "⌘+Ctrl+Q",
+    "linux": "Super+L",
+    "keywords": [
+      "锁屏",
+      "lock"
+    ],
+    "pinyin": "suo ping suoping s p sp suo ping suoping s p sp"
+  },
+  {
+    "id": "linux-showapps",
+    "appId": "linux",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "显示应用",
+      "en": "Show Applications"
+    },
+    "description": {
+      "zh": "打开应用程序列表",
+      "en": "Open applications overview"
+    },
+    "windows": "Win",
+    "mac": "—",
+    "linux": "Super+A",
+    "keywords": [
+      "应用",
+      "applications"
+    ],
+    "pinyin": "xian shi ying yong xianshiyingyong x s y y xsyy ying yong yingyong y y yy"
+  },
+  {
+    "id": "linux-workspace",
+    "appId": "linux",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "切换工作区",
+      "en": "Switch Workspace"
+    },
+    "description": {
+      "zh": "切换到其他工作区",
+      "en": "Switch to another workspace"
+    },
+    "windows": "Win+Ctrl+Left",
+    "mac": "Ctrl+Left",
+    "linux": "Ctrl+Alt+Left",
+    "keywords": [
+      "工作区",
+      "workspace"
+    ],
+    "pinyin": "qie huan gong zuo qu qiehuangongzuoqu q h g z q qhgzq gong zuo qu gongzuoqu g z q gzq"
+  }
 ]

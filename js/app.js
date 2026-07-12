@@ -264,14 +264,14 @@
           return a && a.type === "system" && s[id];
         });
         const m = OS_META[id] || OS_META.windows;
-        el.content.innerHTML = subheadHTML(`${m.icon} ${t[m.key]}`) + listHTML(items);
+        el.content.innerHTML = subheadHTML(`${m.icon} ${t[m.key]}`, `os:${id}`) + listHTML(items);
         return;
       }
       if (kind === "app") {
         const app = DataStore.getApp(id);
         const items = DataStore.getShortcutsByApp(id);
         el.content.innerHTML =
-          subheadHTML(`${app.icon || ""} ${escapeHTML(i18n.pick(app.name))}`) + listHTML(items);
+          subheadHTML(`${app.icon || ""} ${escapeHTML(i18n.pick(app.name))}`, `app:${id}`) + listHTML(items);
         return;
       }
       if (kind === "cat") {
@@ -285,7 +285,7 @@
           )
           .join("");
         el.content.innerHTML =
-          subheadHTML(`${cat.icon || ""} ${escapeHTML(i18n.pick(cat.name))}`) +
+          subheadHTML(`${cat.icon || ""} ${escapeHTML(i18n.pick(cat.name))}`, `cat:${id}`) +
           (chips ? `<div class="chips">${chips}</div>` : "") +
           listHTML(items);
         return;
@@ -341,12 +341,18 @@
     el.content.innerHTML = `<div class="cat-grid">${tiles}</div>`;
   }
 
-  function subheadHTML(title) {
+  function subheadHTML(title, exportAttr) {
+    const exportBtn = exportAttr
+      ? `<button class="subhead-export" data-export="${exportAttr}" title="${i18n.t.export}" aria-label="${i18n.t.export}">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        </button>`
+      : "";
     return `<div class="subhead">
       <button class="back-btn" data-back="1" aria-label="${i18n.t.back}">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
       </button>
       <span class="subhead-title">${title}</span>
+      ${exportBtn}
     </div>`;
   }
 
@@ -414,6 +420,9 @@
       <div class="detail-body">
         <div class="detail-head">
           <span class="detail-app">${appName}</span>
+          <button class="detail-export" data-export="detail" title="${t.export}" aria-label="${t.export}">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          </button>
           <button class="star-btn ${fav ? "active" : ""}" data-star="${s.id}"
             title="${fav ? t.removeFav : t.addFav}" aria-label="${fav ? t.removeFav : t.addFav}">
             <svg viewBox="0 0 24 24" width="18" height="18" fill="${fav ? "currentColor" : "none"}"
@@ -441,7 +450,7 @@
     if (idx >= cards.length) idx = cards.length - 1;
     state.activeIdx = idx;
     cards.forEach((c, i) => c.classList.toggle("card-active", i === idx));
-    cards[idx].scrollIntoView({ block: "nearest" });
+    cards[idx].scrollIntoView({ block: "nearest", behavior: "smooth" });
   }
   function clearActiveCard() {
     state.activeIdx = -1;
@@ -473,6 +482,13 @@
   }
 
   async function onContentClick(e) {
+    const exportBtn = e.target.closest("[data-export]");
+    if (exportBtn) {
+      e.stopPropagation();
+      exportScope(exportBtn.dataset.export);
+      return;
+    }
+
     const star = e.target.closest("[data-star]");
     if (star) {
       e.stopPropagation();
@@ -574,6 +590,53 @@
     if (raw === "—") return;
     copyToClipboard(raw);
     toast(i18n.t.copied);
+  }
+
+  /* ---------- Export (Markdown) ---------- */
+  function buildMarkdown(items, title) {
+    const head = `## ${title}\n\n`;
+    const thead = "| 操作 | Windows | macOS | Linux |\n|------|---------|-------|-------|\n";
+    const rows = items
+      .map((s) => {
+        const name = i18n.pick(s.name);
+        const w = s.windows || "—";
+        const m = s.mac || "—";
+        const l = s.linux || "—";
+        return `| ${name} | ${w} | ${m} | ${l} |`;
+      })
+      .join("\n");
+    return head + thead + rows + "\n";
+  }
+
+  function exportScope(attr) {
+    const t = i18n.t;
+    const [kind, id] = (attr || "").split(":");
+    let items = [];
+    let title = "";
+    if (kind === "detail") {
+      const s = DataStore.getShortcut(state.detail);
+      if (!s) return;
+      items = [s];
+      const app = DataStore.getApp(s.appId);
+      title = i18n.pick(s.name) + (app ? ` (${i18n.pick(app.name)})` : "");
+    } else if (kind === "app") {
+      const app = DataStore.getApp(id);
+      items = DataStore.getShortcutsByApp(id);
+      title = app ? i18n.pick(app.name) : id;
+    } else if (kind === "cat") {
+      const cat = DataStore.getCategory(id);
+      items = DataStore.getShortcutsByCategory(id);
+      title = cat ? i18n.pick(cat.name) : id;
+    } else if (kind === "os") {
+      items = DataStore.shortcuts.filter((s) => {
+        const a = DataStore.getApp(s.appId);
+        return a && a.type === "system" && s[id];
+      });
+      title = t[OS_META[id].key];
+    }
+    if (!items.length) return;
+    copyToClipboard(buildMarkdown(items, title));
+    toast(t.exportCopied);
   }
 
   function showDetail(id) {
@@ -748,6 +811,16 @@
 
     el.content.addEventListener("click", onContentClick);
     document.addEventListener("keydown", onKeydown);
+
+    // Omnibox / deep-link: ?q= pre-fills the search.
+    const urlQ = new URLSearchParams(location.search).get("q");
+    if (urlQ) {
+      el.searchInput.value = urlQ;
+      state.query = urlQ;
+      el.clearSearch.hidden = false;
+      state.tab = "search";
+      syncTabs();
+    }
 
     el.searchInput.focus();
     render();

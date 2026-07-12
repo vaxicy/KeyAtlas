@@ -1,10 +1,178 @@
 [
-  { "id": "word-bold", "appId": "word", "type": "software", "category": "productivity", "name": { "zh": "加粗", "en": "Bold" }, "description": { "zh": "将文字加粗", "en": "Make text bold" }, "windows": "Ctrl+B", "mac": "⌘+B", "linux": "—", "keywords": ["加粗", "bold"] },
-  { "id": "word-italic", "appId": "word", "type": "software", "category": "productivity", "name": { "zh": "斜体", "en": "Italic" }, "description": { "zh": "将文字设为斜体", "en": "Make text italic" }, "windows": "Ctrl+I", "mac": "⌘+I", "linux": "—", "keywords": ["斜体", "italic"] },
-  { "id": "word-underline", "appId": "word", "type": "software", "category": "productivity", "name": { "zh": "下划线", "en": "Underline" }, "description": { "zh": "为文字添加下划线", "en": "Underline text" }, "windows": "Ctrl+U", "mac": "⌘+U", "linux": "—", "keywords": ["下划线", "underline"] },
-  { "id": "word-center", "appId": "word", "type": "software", "category": "productivity", "name": { "zh": "居中对齐", "en": "Center Align" }, "description": { "zh": "段落居中对齐", "en": "Center align paragraph" }, "windows": "Ctrl+E", "mac": "⌘+E", "linux": "—", "keywords": ["居中", "center"] },
-  { "id": "word-find", "appId": "word", "type": "software", "category": "productivity", "name": { "zh": "查找", "en": "Find" }, "description": { "zh": "查找文档中的文本", "en": "Find text in document" }, "windows": "Ctrl+F", "mac": "⌘+F", "linux": "—", "keywords": ["查找", "find"] },
-  { "id": "word-replace", "appId": "word", "type": "software", "category": "productivity", "name": { "zh": "替换", "en": "Replace" }, "description": { "zh": "查找并替换文本", "en": "Find and replace" }, "windows": "Ctrl+H", "mac": "Ctrl+H", "linux": "—", "keywords": ["替换", "replace"] },
-  { "id": "word-pagebreak", "appId": "word", "type": "software", "category": "productivity", "name": { "zh": "分页符", "en": "Page Break" }, "description": { "zh": "插入分页符", "en": "Insert a page break" }, "windows": "Ctrl+Enter", "mac": "⌘+Enter", "linux": "—", "keywords": ["分页", "page break"] },
-  { "id": "word-wordcount", "appId": "word", "type": "software", "category": "productivity", "name": { "zh": "字数统计", "en": "Word Count" }, "description": { "zh": "打开字数统计", "en": "Open word count" }, "windows": "Ctrl+Shift+G", "mac": "⌘+Shift+G", "linux": "—", "keywords": ["字数", "word count"] }
+  {
+    "id": "word-bold",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "加粗",
+      "en": "Bold"
+    },
+    "description": {
+      "zh": "将文字加粗",
+      "en": "Make text bold"
+    },
+    "windows": "Ctrl+B",
+    "mac": "⌘+B",
+    "linux": "—",
+    "keywords": [
+      "加粗",
+      "bold"
+    ],
+    "pinyin": "jia cu jiacu j c jc jia cu jiacu j c jc"
+  },
+  {
+    "id": "word-italic",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "斜体",
+      "en": "Italic"
+    },
+    "description": {
+      "zh": "将文字设为斜体",
+      "en": "Make text italic"
+    },
+    "windows": "Ctrl+I",
+    "mac": "⌘+I",
+    "linux": "—",
+    "keywords": [
+      "斜体",
+      "italic"
+    ],
+    "pinyin": "xie ti xieti x t xt xie ti xieti x t xt"
+  },
+  {
+    "id": "word-underline",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "下划线",
+      "en": "Underline"
+    },
+    "description": {
+      "zh": "为文字添加下划线",
+      "en": "Underline text"
+    },
+    "windows": "Ctrl+U",
+    "mac": "⌘+U",
+    "linux": "—",
+    "keywords": [
+      "下划线",
+      "underline"
+    ],
+    "pinyin": "xia hua xian xiahuaxian x h x xhx xia hua xian xiahuaxian x h x xhx"
+  },
+  {
+    "id": "word-center",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "居中对齐",
+      "en": "Center Align"
+    },
+    "description": {
+      "zh": "段落居中对齐",
+      "en": "Center align paragraph"
+    },
+    "windows": "Ctrl+E",
+    "mac": "⌘+E",
+    "linux": "—",
+    "keywords": [
+      "居中",
+      "center"
+    ],
+    "pinyin": "ju zhong dui qi juzhongduiqi j z d q jzdq ju zhong juzhong j z jz"
+  },
+  {
+    "id": "word-find",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "查找",
+      "en": "Find"
+    },
+    "description": {
+      "zh": "查找文档中的文本",
+      "en": "Find text in document"
+    },
+    "windows": "Ctrl+F",
+    "mac": "⌘+F",
+    "linux": "—",
+    "keywords": [
+      "查找",
+      "find"
+    ],
+    "pinyin": "cha zhao chazhao c z cz cha zhao chazhao c z cz"
+  },
+  {
+    "id": "word-replace",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "替换",
+      "en": "Replace"
+    },
+    "description": {
+      "zh": "查找并替换文本",
+      "en": "Find and replace"
+    },
+    "windows": "Ctrl+H",
+    "mac": "Ctrl+H",
+    "linux": "—",
+    "keywords": [
+      "替换",
+      "replace"
+    ],
+    "pinyin": "ti huan tihuan t h th ti huan tihuan t h th"
+  },
+  {
+    "id": "word-pagebreak",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "分页符",
+      "en": "Page Break"
+    },
+    "description": {
+      "zh": "插入分页符",
+      "en": "Insert a page break"
+    },
+    "windows": "Ctrl+Enter",
+    "mac": "⌘+Enter",
+    "linux": "—",
+    "keywords": [
+      "分页",
+      "page break"
+    ],
+    "pinyin": "fen ye fu fenyefu f y f fyf fen ye fenye f y fy"
+  },
+  {
+    "id": "word-wordcount",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "字数统计",
+      "en": "Word Count"
+    },
+    "description": {
+      "zh": "打开字数统计",
+      "en": "Open word count"
+    },
+    "windows": "Ctrl+Shift+G",
+    "mac": "⌘+Shift+G",
+    "linux": "—",
+    "keywords": [
+      "字数",
+      "word count"
+    ],
+    "pinyin": "zi shu tong ji zishutongji z s t j zstj zi shu zishu z s zs"
+  }
 ]

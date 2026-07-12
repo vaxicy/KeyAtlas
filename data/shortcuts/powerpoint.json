@@ -1,8 +1,137 @@
 [
-  { "id": "ppt-play", "appId": "powerpoint", "type": "software", "category": "productivity", "name": { "zh": "从头放映", "en": "Start Slideshow" }, "description": { "zh": "从第一张开始放映", "en": "Start from first slide" }, "windows": "F5", "mac": "⌘+Shift+Return", "linux": "—", "keywords": ["放映", "slideshow", "play"] },
-  { "id": "ppt-playcurrent", "appId": "powerpoint", "type": "software", "category": "productivity", "name": { "zh": "从当前页放映", "en": "Play from Current" }, "description": { "zh": "从当前幻灯片放映", "en": "Play from current slide" }, "windows": "Shift+F5", "mac": "⌘+Return", "linux": "—", "keywords": ["放映", "current"] },
-  { "id": "ppt-newslide", "appId": "powerpoint", "type": "software", "category": "productivity", "name": { "zh": "新建幻灯片", "en": "New Slide" }, "description": { "zh": "插入新幻灯片", "en": "Insert a new slide" }, "windows": "Ctrl+M", "mac": "⌘+Shift+N", "linux": "—", "keywords": ["幻灯片", "slide", "new"] },
-  { "id": "ppt-duplicate", "appId": "powerpoint", "type": "software", "category": "productivity", "name": { "zh": "复制幻灯片", "en": "Duplicate Slide" }, "description": { "zh": "复制当前幻灯片", "en": "Duplicate current slide" }, "windows": "Ctrl+Shift+D", "mac": "⌘+Shift+D", "linux": "—", "keywords": ["复制", "duplicate"] },
-  { "id": "ppt-group", "appId": "powerpoint", "type": "software", "category": "productivity", "name": { "zh": "组合对象", "en": "Group Objects" }, "description": { "zh": "组合选中的对象", "en": "Group selected objects" }, "windows": "Ctrl+G", "mac": "⌘+Option+G", "linux": "—", "keywords": ["组合", "group"] },
-  { "id": "ppt-end", "appId": "powerpoint", "type": "software", "category": "productivity", "name": { "zh": "结束放映", "en": "End Slideshow" }, "description": { "zh": "退出放映模式", "en": "Exit the slideshow" }, "windows": "Esc", "mac": "Esc", "linux": "—", "keywords": ["结束", "end", "esc"] }
+  {
+    "id": "ppt-play",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "从头放映",
+      "en": "Start Slideshow"
+    },
+    "description": {
+      "zh": "从第一张开始放映",
+      "en": "Start from first slide"
+    },
+    "windows": "F5",
+    "mac": "⌘+Shift+Return",
+    "linux": "—",
+    "keywords": [
+      "放映",
+      "slideshow",
+      "play"
+    ],
+    "pinyin": "cong tou fang ying congtoufangying c t f y ctfy fang ying fangying f y fy"
+  },
+  {
+    "id": "ppt-playcurrent",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "从当前页放映",
+      "en": "Play from Current"
+    },
+    "description": {
+      "zh": "从当前幻灯片放映",
+      "en": "Play from current slide"
+    },
+    "windows": "Shift+F5",
+    "mac": "⌘+Return",
+    "linux": "—",
+    "keywords": [
+      "放映",
+      "current"
+    ],
+    "pinyin": "cong dang qian ye fang ying congdangqianyefangying c d q y f y cdqyfy fang ying fangying f y fy"
+  },
+  {
+    "id": "ppt-newslide",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "新建幻灯片",
+      "en": "New Slide"
+    },
+    "description": {
+      "zh": "插入新幻灯片",
+      "en": "Insert a new slide"
+    },
+    "windows": "Ctrl+M",
+    "mac": "⌘+Shift+N",
+    "linux": "—",
+    "keywords": [
+      "幻灯片",
+      "slide",
+      "new"
+    ],
+    "pinyin": "xin jian huan deng pian xinjianhuandengpian x j h d p xjhdp huan deng pian huandengpian h d p hdp"
+  },
+  {
+    "id": "ppt-duplicate",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "复制幻灯片",
+      "en": "Duplicate Slide"
+    },
+    "description": {
+      "zh": "复制当前幻灯片",
+      "en": "Duplicate current slide"
+    },
+    "windows": "Ctrl+Shift+D",
+    "mac": "⌘+Shift+D",
+    "linux": "—",
+    "keywords": [
+      "复制",
+      "duplicate"
+    ],
+    "pinyin": "fu zhi huan deng pian fuzhihuandengpian f z h d p fzhdp fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "ppt-group",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "组合对象",
+      "en": "Group Objects"
+    },
+    "description": {
+      "zh": "组合选中的对象",
+      "en": "Group selected objects"
+    },
+    "windows": "Ctrl+G",
+    "mac": "⌘+Option+G",
+    "linux": "—",
+    "keywords": [
+      "组合",
+      "group"
+    ],
+    "pinyin": "zu he dui xiang zuheduixiang z h d x zhdx zu he zuhe z h zh"
+  },
+  {
+    "id": "ppt-end",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "结束放映",
+      "en": "End Slideshow"
+    },
+    "description": {
+      "zh": "退出放映模式",
+      "en": "Exit the slideshow"
+    },
+    "windows": "Esc",
+    "mac": "Esc",
+    "linux": "—",
+    "keywords": [
+      "结束",
+      "end",
+      "esc"
+    ],
+    "pinyin": "jie shu fang ying jieshufangying j s f y jsfy jie shu jieshu j s js"
+  }
 ]

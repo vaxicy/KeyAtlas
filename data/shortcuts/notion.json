@@ -1,10 +1,182 @@
 [
-  { "id": "notion-newpage", "appId": "notion", "type": "software", "category": "productivity", "name": { "zh": "新建页面", "en": "New Page" }, "description": { "zh": "创建一个新页面", "en": "Create a new page" }, "windows": "Ctrl+N", "mac": "⌘+N", "linux": "Ctrl+N", "keywords": ["新建", "page", "new"] },
-  { "id": "notion-search", "appId": "notion", "type": "software", "category": "productivity", "name": { "zh": "快速搜索", "en": "Quick Search" }, "description": { "zh": "打开快速搜索", "en": "Open quick search" }, "windows": "Ctrl+P", "mac": "⌘+P", "linux": "Ctrl+P", "keywords": ["搜索", "search"] },
-  { "id": "notion-command", "appId": "notion", "type": "software", "category": "productivity", "name": { "zh": "命令菜单", "en": "Command Menu" }, "description": { "zh": "输入斜杠打开命令菜单", "en": "Open the slash command menu" }, "windows": "/", "mac": "/", "linux": "/", "keywords": ["命令", "command", "slash"] },
-  { "id": "notion-bold", "appId": "notion", "type": "software", "category": "productivity", "name": { "zh": "加粗", "en": "Bold" }, "description": { "zh": "将文字加粗", "en": "Make text bold" }, "windows": "Ctrl+B", "mac": "⌘+B", "linux": "Ctrl+B", "keywords": ["加粗", "bold"] },
-  { "id": "notion-checkbox", "appId": "notion", "type": "software", "category": "productivity", "name": { "zh": "待办清单", "en": "To-do Checkbox" }, "description": { "zh": "创建待办复选框", "en": "Create a to-do checkbox" }, "windows": "Ctrl+Shift+9", "mac": "⌘+Shift+9", "linux": "Ctrl+Shift+9", "keywords": ["待办", "todo", "checkbox"] },
-  { "id": "notion-toggle", "appId": "notion", "type": "software", "category": "productivity", "name": { "zh": "折叠列表", "en": "Toggle List" }, "description": { "zh": "创建可折叠列表", "en": "Create a toggle list" }, "windows": "Ctrl+Shift+7", "mac": "⌘+Shift+7", "linux": "Ctrl+Shift+7", "keywords": ["折叠", "toggle"] },
-  { "id": "notion-dark", "appId": "notion", "type": "software", "category": "productivity", "name": { "zh": "切换深色模式", "en": "Toggle Dark Mode" }, "description": { "zh": "在明暗模式间切换", "en": "Switch light / dark mode" }, "windows": "Ctrl+Shift+L", "mac": "⌘+Shift+L", "linux": "Ctrl+Shift+L", "keywords": ["深色", "dark", "mode"] },
-  { "id": "notion-link", "appId": "notion", "type": "software", "category": "productivity", "name": { "zh": "插入链接", "en": "Add Link" }, "description": { "zh": "为选中文字添加链接", "en": "Add a link to text" }, "windows": "Ctrl+K", "mac": "⌘+K", "linux": "Ctrl+K", "keywords": ["链接", "link"] }
+  {
+    "id": "notion-newpage",
+    "appId": "notion",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "新建页面",
+      "en": "New Page"
+    },
+    "description": {
+      "zh": "创建一个新页面",
+      "en": "Create a new page"
+    },
+    "windows": "Ctrl+N",
+    "mac": "⌘+N",
+    "linux": "Ctrl+N",
+    "keywords": [
+      "新建",
+      "page",
+      "new"
+    ],
+    "pinyin": "xin jian ye mian xinjianyemian x j y m xjym xin jian xinjian x j xj"
+  },
+  {
+    "id": "notion-search",
+    "appId": "notion",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "快速搜索",
+      "en": "Quick Search"
+    },
+    "description": {
+      "zh": "打开快速搜索",
+      "en": "Open quick search"
+    },
+    "windows": "Ctrl+P",
+    "mac": "⌘+P",
+    "linux": "Ctrl+P",
+    "keywords": [
+      "搜索",
+      "search"
+    ],
+    "pinyin": "kuai su sou suo kuaisusousuo k s s s ksss sou suo sousuo s s ss"
+  },
+  {
+    "id": "notion-command",
+    "appId": "notion",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "命令菜单",
+      "en": "Command Menu"
+    },
+    "description": {
+      "zh": "输入斜杠打开命令菜单",
+      "en": "Open the slash command menu"
+    },
+    "windows": "/",
+    "mac": "/",
+    "linux": "/",
+    "keywords": [
+      "命令",
+      "command",
+      "slash"
+    ],
+    "pinyin": "ming ling cai dan minglingcaidan m l c d mlcd ming ling mingling m l ml"
+  },
+  {
+    "id": "notion-bold",
+    "appId": "notion",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "加粗",
+      "en": "Bold"
+    },
+    "description": {
+      "zh": "将文字加粗",
+      "en": "Make text bold"
+    },
+    "windows": "Ctrl+B",
+    "mac": "⌘+B",
+    "linux": "Ctrl+B",
+    "keywords": [
+      "加粗",
+      "bold"
+    ],
+    "pinyin": "jia cu jiacu j c jc jia cu jiacu j c jc"
+  },
+  {
+    "id": "notion-checkbox",
+    "appId": "notion",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "待办清单",
+      "en": "To-do Checkbox"
+    },
+    "description": {
+      "zh": "创建待办复选框",
+      "en": "Create a to-do checkbox"
+    },
+    "windows": "Ctrl+Shift+9",
+    "mac": "⌘+Shift+9",
+    "linux": "Ctrl+Shift+9",
+    "keywords": [
+      "待办",
+      "todo",
+      "checkbox"
+    ],
+    "pinyin": "dai ban qing dan daibanqingdan d b q d dbqd dai ban daiban d b db"
+  },
+  {
+    "id": "notion-toggle",
+    "appId": "notion",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "折叠列表",
+      "en": "Toggle List"
+    },
+    "description": {
+      "zh": "创建可折叠列表",
+      "en": "Create a toggle list"
+    },
+    "windows": "Ctrl+Shift+7",
+    "mac": "⌘+Shift+7",
+    "linux": "Ctrl+Shift+7",
+    "keywords": [
+      "折叠",
+      "toggle"
+    ],
+    "pinyin": "zhe die lie biao zhedieliebiao z d l b zdlb zhe die zhedie z d zd"
+  },
+  {
+    "id": "notion-dark",
+    "appId": "notion",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "切换深色模式",
+      "en": "Toggle Dark Mode"
+    },
+    "description": {
+      "zh": "在明暗模式间切换",
+      "en": "Switch light / dark mode"
+    },
+    "windows": "Ctrl+Shift+L",
+    "mac": "⌘+Shift+L",
+    "linux": "Ctrl+Shift+L",
+    "keywords": [
+      "深色",
+      "dark",
+      "mode"
+    ],
+    "pinyin": "qie huan shen se mo shi qiehuanshensemoshi q h s s m s qhssms shen se shense s s ss"
+  },
+  {
+    "id": "notion-link",
+    "appId": "notion",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "插入链接",
+      "en": "Add Link"
+    },
+    "description": {
+      "zh": "为选中文字添加链接",
+      "en": "Add a link to text"
+    },
+    "windows": "Ctrl+K",
+    "mac": "⌘+K",
+    "linux": "Ctrl+K",
+    "keywords": [
+      "链接",
+      "link"
+    ],
+    "pinyin": "cha ru lian jie charulianjie c r l j crlj lian jie lianjie l j lj"
+  }
 ]

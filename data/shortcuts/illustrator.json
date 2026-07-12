@@ -1,10 +1,179 @@
 [
-  { "id": "ai-selection", "appId": "illustrator", "type": "software", "category": "design", "name": { "zh": "选择工具", "en": "Selection Tool" }, "description": { "zh": "选择对象", "en": "Select objects" }, "windows": "V", "mac": "V", "linux": "—", "keywords": ["选择", "selection"] },
-  { "id": "ai-directselect", "appId": "illustrator", "type": "software", "category": "design", "name": { "zh": "直接选择工具", "en": "Direct Selection" }, "description": { "zh": "选择锚点和路径段", "en": "Select anchor points" }, "windows": "A", "mac": "A", "linux": "—", "keywords": ["直接选择", "direct selection"] },
-  { "id": "ai-pen", "appId": "illustrator", "type": "software", "category": "design", "name": { "zh": "钢笔工具", "en": "Pen Tool" }, "description": { "zh": "绘制路径", "en": "Draw paths" }, "windows": "P", "mac": "P", "linux": "—", "keywords": ["钢笔", "pen"] },
-  { "id": "ai-group", "appId": "illustrator", "type": "software", "category": "design", "name": { "zh": "编组", "en": "Group" }, "description": { "zh": "将对象编组", "en": "Group objects" }, "windows": "Ctrl+G", "mac": "⌘+G", "linux": "—", "keywords": ["编组", "group"] },
-  { "id": "ai-outline", "appId": "illustrator", "type": "software", "category": "design", "name": { "zh": "创建轮廓", "en": "Create Outlines" }, "description": { "zh": "将文字转为轮廓", "en": "Convert text to outlines" }, "windows": "Ctrl+Shift+O", "mac": "⌘+Shift+O", "linux": "—", "keywords": ["轮廓", "outline"] },
-  { "id": "ai-group-select", "appId": "illustrator", "type": "software", "category": "design", "name": { "zh": "取消编组", "en": "Ungroup" }, "description": { "zh": "取消对象编组", "en": "Ungroup objects" }, "windows": "Ctrl+Shift+G", "mac": "⌘+Shift+G", "linux": "—", "keywords": ["取消编组", "ungroup"] },
-  { "id": "ai-fitart", "appId": "illustrator", "type": "software", "category": "design", "name": { "zh": "适合画板", "en": "Fit Artboard" }, "description": { "zh": "缩放以适合画板", "en": "Fit artboard in window" }, "windows": "Ctrl+0", "mac": "⌘+0", "linux": "—", "keywords": ["适合", "fit", "artboard"] },
-  { "id": "ai-lock", "appId": "illustrator", "type": "software", "category": "design", "name": { "zh": "锁定对象", "en": "Lock Object" }, "description": { "zh": "锁定选中对象", "en": "Lock selection" }, "windows": "Ctrl+2", "mac": "⌘+2", "linux": "—", "keywords": ["锁定", "lock"] }
+  {
+    "id": "ai-selection",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "选择工具",
+      "en": "Selection Tool"
+    },
+    "description": {
+      "zh": "选择对象",
+      "en": "Select objects"
+    },
+    "windows": "V",
+    "mac": "V",
+    "linux": "—",
+    "keywords": [
+      "选择",
+      "selection"
+    ],
+    "pinyin": "xuan ze gong ju xuanzegongju x z g j xzgj xuan ze xuanze x z xz"
+  },
+  {
+    "id": "ai-directselect",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "直接选择工具",
+      "en": "Direct Selection"
+    },
+    "description": {
+      "zh": "选择锚点和路径段",
+      "en": "Select anchor points"
+    },
+    "windows": "A",
+    "mac": "A",
+    "linux": "—",
+    "keywords": [
+      "直接选择",
+      "direct selection"
+    ],
+    "pinyin": "zhi jie xuan ze gong ju zhijiexuanzegongju z j x z g j zjxzgj zhi jie xuan ze zhijiexuanze z j x z zjxz"
+  },
+  {
+    "id": "ai-pen",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "钢笔工具",
+      "en": "Pen Tool"
+    },
+    "description": {
+      "zh": "绘制路径",
+      "en": "Draw paths"
+    },
+    "windows": "P",
+    "mac": "P",
+    "linux": "—",
+    "keywords": [
+      "钢笔",
+      "pen"
+    ],
+    "pinyin": "gang bi gong ju gangbigongju g b g j gbgj gang bi gangbi g b gb"
+  },
+  {
+    "id": "ai-group",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "编组",
+      "en": "Group"
+    },
+    "description": {
+      "zh": "将对象编组",
+      "en": "Group objects"
+    },
+    "windows": "Ctrl+G",
+    "mac": "⌘+G",
+    "linux": "—",
+    "keywords": [
+      "编组",
+      "group"
+    ],
+    "pinyin": "bian zu bianzu b z bz bian zu bianzu b z bz"
+  },
+  {
+    "id": "ai-outline",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "创建轮廓",
+      "en": "Create Outlines"
+    },
+    "description": {
+      "zh": "将文字转为轮廓",
+      "en": "Convert text to outlines"
+    },
+    "windows": "Ctrl+Shift+O",
+    "mac": "⌘+Shift+O",
+    "linux": "—",
+    "keywords": [
+      "轮廓",
+      "outline"
+    ],
+    "pinyin": "chuang jian lun kuo chuangjianlunkuo c j l k cjlk lun kuo lunkuo l k lk"
+  },
+  {
+    "id": "ai-group-select",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "取消编组",
+      "en": "Ungroup"
+    },
+    "description": {
+      "zh": "取消对象编组",
+      "en": "Ungroup objects"
+    },
+    "windows": "Ctrl+Shift+G",
+    "mac": "⌘+Shift+G",
+    "linux": "—",
+    "keywords": [
+      "取消编组",
+      "ungroup"
+    ],
+    "pinyin": "qu xiao bian zu quxiaobianzu q x b z qxbz qu xiao bian zu quxiaobianzu q x b z qxbz"
+  },
+  {
+    "id": "ai-fitart",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "适合画板",
+      "en": "Fit Artboard"
+    },
+    "description": {
+      "zh": "缩放以适合画板",
+      "en": "Fit artboard in window"
+    },
+    "windows": "Ctrl+0",
+    "mac": "⌘+0",
+    "linux": "—",
+    "keywords": [
+      "适合",
+      "fit",
+      "artboard"
+    ],
+    "pinyin": "shi he hua ban shihehuaban s h h b shhb shi he shihe s h sh"
+  },
+  {
+    "id": "ai-lock",
+    "appId": "illustrator",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "锁定对象",
+      "en": "Lock Object"
+    },
+    "description": {
+      "zh": "锁定选中对象",
+      "en": "Lock selection"
+    },
+    "windows": "Ctrl+2",
+    "mac": "⌘+2",
+    "linux": "—",
+    "keywords": [
+      "锁定",
+      "lock"
+    ],
+    "pinyin": "suo ding dui xiang suodingduixiang s d d x sddx suo ding suoding s d sd"
+  }
 ]

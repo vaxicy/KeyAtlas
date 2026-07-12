@@ -56,7 +56,9 @@ const I18N = {
     grpSoftware: "Software",
     grpScenes: "Scenes",
     copyKey: "Copy",
-    shortcutLabel: "Shortcut"
+    shortcutLabel: "Shortcut",
+    export: "Export",
+    exportCopied: "Exported to clipboard!"
   },
   zh: {
     appName: "KeyAtlas",
@@ -110,7 +112,9 @@ const I18N = {
     grpSoftware: "软件",
     grpScenes: "场景",
     copyKey: "复制",
-    shortcutLabel: "快捷键"
+    shortcutLabel: "快捷键",
+    export: "导出",
+    exportCopied: "已复制到剪贴板！"
   }
 };
 

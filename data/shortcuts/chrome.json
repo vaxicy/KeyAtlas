@@ -1,19 +1,384 @@
 [
-  { "id": "chrome-newtab", "appId": "chrome", "type": "software", "category": "browser", "name": { "zh": "新建标签页", "en": "New Tab" }, "description": { "zh": "打开一个新标签页", "en": "Open a new tab" }, "windows": "Ctrl+T", "mac": "⌘+T", "linux": "Ctrl+T", "keywords": ["标签", "tab", "new"] },
-  { "id": "chrome-closetab", "appId": "chrome", "type": "software", "category": "browser", "name": { "zh": "关闭标签页", "en": "Close Tab" }, "description": { "zh": "关闭当前标签页", "en": "Close the current tab" }, "windows": "Ctrl+W", "mac": "⌘+W", "linux": "Ctrl+W", "keywords": ["关闭", "close", "tab"] },
-  { "id": "chrome-reopentab", "appId": "chrome", "type": "software", "category": "browser", "name": { "zh": "重新打开标签页", "en": "Reopen Closed Tab" }, "description": { "zh": "恢复最近关闭的标签页", "en": "Reopen last closed tab" }, "windows": "Ctrl+Shift+T", "mac": "⌘+Shift+T", "linux": "Ctrl+Shift+T", "keywords": ["恢复", "reopen", "tab"] },
-  { "id": "chrome-newwindow", "appId": "chrome", "type": "software", "category": "browser", "name": { "zh": "新建窗口", "en": "New Window" }, "description": { "zh": "打开一个新窗口", "en": "Open a new window" }, "windows": "Ctrl+N", "mac": "⌘+N", "linux": "Ctrl+N", "keywords": ["窗口", "window"] },
-  { "id": "chrome-incognito", "appId": "chrome", "type": "software", "category": "browser", "name": { "zh": "无痕窗口", "en": "Incognito Window" }, "description": { "zh": "打开无痕浏览窗口", "en": "Open incognito window" }, "windows": "Ctrl+Shift+N", "mac": "⌘+Shift+N", "linux": "Ctrl+Shift+N", "keywords": ["无痕", "incognito", "private"] },
-  { "id": "chrome-address", "appId": "chrome", "type": "software", "category": "browser", "name": { "zh": "定位地址栏", "en": "Focus Address Bar" }, "description": { "zh": "光标移动到地址栏", "en": "Jump to the address bar" }, "windows": "Ctrl+L", "mac": "⌘+L", "linux": "Ctrl+L", "keywords": ["地址栏", "address", "url"] },
-  { "id": "chrome-reload", "appId": "chrome", "type": "software", "category": "browser", "name": { "zh": "刷新页面", "en": "Reload Page" }, "description": { "zh": "重新加载当前页面", "en": "Reload current page" }, "windows": "Ctrl+R", "mac": "⌘+R", "linux": "Ctrl+R", "keywords": ["刷新", "reload", "refresh"] },
-  { "id": "chrome-hardreload", "appId": "chrome", "type": "software", "category": "browser", "name": { "zh": "强制刷新", "en": "Hard Reload" }, "description": { "zh": "忽略缓存重新加载", "en": "Reload ignoring cache" }, "windows": "Ctrl+Shift+R", "mac": "⌘+Shift+R", "linux": "Ctrl+Shift+R", "keywords": ["强制刷新", "hard reload"] },
-  { "id": "chrome-history", "appId": "chrome", "type": "software", "category": "browser", "name": { "zh": "历史记录", "en": "History" }, "description": { "zh": "打开浏览历史", "en": "Open browsing history" }, "windows": "Ctrl+H", "mac": "⌘+Y", "linux": "Ctrl+H", "keywords": ["历史", "history"] },
-  { "id": "chrome-downloads", "appId": "chrome", "type": "software", "category": "browser", "name": { "zh": "下载内容", "en": "Downloads" }, "description": { "zh": "打开下载页面", "en": "Open downloads page" }, "windows": "Ctrl+J", "mac": "⌘+Shift+J", "linux": "Ctrl+J", "keywords": ["下载", "downloads"] },
-  { "id": "chrome-bookmark", "appId": "chrome", "type": "software", "category": "browser", "name": { "zh": "收藏当前页", "en": "Bookmark Page" }, "description": { "zh": "将当前页面加入书签", "en": "Bookmark current page" }, "windows": "Ctrl+D", "mac": "⌘+D", "linux": "Ctrl+D", "keywords": ["收藏", "bookmark"] },
-  { "id": "chrome-find", "appId": "chrome", "type": "software", "category": "browser", "name": { "zh": "页内查找", "en": "Find in Page" }, "description": { "zh": "在当前页面查找文本", "en": "Find text on the page" }, "windows": "Ctrl+F", "mac": "⌘+F", "linux": "Ctrl+F", "keywords": ["查找", "find"] },
-  { "id": "chrome-zoomin", "appId": "chrome", "type": "software", "category": "browser", "name": { "zh": "放大页面", "en": "Zoom In" }, "description": { "zh": "放大页面内容", "en": "Zoom in the page" }, "windows": "Ctrl++", "mac": "⌘++", "linux": "Ctrl++", "keywords": ["放大", "zoom"] },
-  { "id": "chrome-zoomreset", "appId": "chrome", "type": "software", "category": "browser", "name": { "zh": "重置缩放", "en": "Reset Zoom" }, "description": { "zh": "恢复默认缩放比例", "en": "Reset zoom to default" }, "windows": "Ctrl+0", "mac": "⌘+0", "linux": "Ctrl+0", "keywords": ["缩放", "zoom", "reset"] },
-  { "id": "chrome-nexttab", "appId": "chrome", "type": "software", "category": "browser", "name": { "zh": "下一个标签页", "en": "Next Tab" }, "description": { "zh": "切换到下一个标签页", "en": "Switch to next tab" }, "windows": "Ctrl+Tab", "mac": "⌘+Option+Right", "linux": "Ctrl+Tab", "keywords": ["标签", "tab", "next"] },
-  { "id": "chrome-devtools", "appId": "chrome", "type": "software", "category": "browser", "name": { "zh": "开发者工具", "en": "Developer Tools" }, "description": { "zh": "打开开发者工具", "en": "Open Developer Tools" }, "windows": "Ctrl+Shift+I", "mac": "⌘+Option+I", "linux": "Ctrl+Shift+I", "keywords": ["开发者工具", "devtools"] },
-  { "id": "chrome-fullscreen", "appId": "chrome", "type": "software", "category": "browser", "name": { "zh": "全屏", "en": "Full Screen" }, "description": { "zh": "进入或退出全屏", "en": "Toggle full screen" }, "windows": "F11", "mac": "⌘+Ctrl+F", "linux": "F11", "keywords": ["全屏", "fullscreen"] }
+  {
+    "id": "chrome-newtab",
+    "appId": "chrome",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "新建标签页",
+      "en": "New Tab"
+    },
+    "description": {
+      "zh": "打开一个新标签页",
+      "en": "Open a new tab"
+    },
+    "windows": "Ctrl+T",
+    "mac": "⌘+T",
+    "linux": "Ctrl+T",
+    "keywords": [
+      "标签",
+      "tab",
+      "new"
+    ],
+    "pinyin": "xin jian biao qian ye xinjianbiaoqianye x j b q y xjbqy biao qian biaoqian b q bq"
+  },
+  {
+    "id": "chrome-closetab",
+    "appId": "chrome",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "关闭标签页",
+      "en": "Close Tab"
+    },
+    "description": {
+      "zh": "关闭当前标签页",
+      "en": "Close the current tab"
+    },
+    "windows": "Ctrl+W",
+    "mac": "⌘+W",
+    "linux": "Ctrl+W",
+    "keywords": [
+      "关闭",
+      "close",
+      "tab"
+    ],
+    "pinyin": "guan bi biao qian ye guanbibiaoqianye g b b q y gbbqy guan bi guanbi g b gb"
+  },
+  {
+    "id": "chrome-reopentab",
+    "appId": "chrome",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "重新打开标签页",
+      "en": "Reopen Closed Tab"
+    },
+    "description": {
+      "zh": "恢复最近关闭的标签页",
+      "en": "Reopen last closed tab"
+    },
+    "windows": "Ctrl+Shift+T",
+    "mac": "⌘+Shift+T",
+    "linux": "Ctrl+Shift+T",
+    "keywords": [
+      "恢复",
+      "reopen",
+      "tab"
+    ],
+    "pinyin": "chong xin da kai biao qian ye chongxindakaibiaoqianye c x d k b q y cxdkbqy hui fu huifu h f hf"
+  },
+  {
+    "id": "chrome-newwindow",
+    "appId": "chrome",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "新建窗口",
+      "en": "New Window"
+    },
+    "description": {
+      "zh": "打开一个新窗口",
+      "en": "Open a new window"
+    },
+    "windows": "Ctrl+N",
+    "mac": "⌘+N",
+    "linux": "Ctrl+N",
+    "keywords": [
+      "窗口",
+      "window"
+    ],
+    "pinyin": "xin jian chuang kou xinjianchuangkou x j c k xjck chuang kou chuangkou c k ck"
+  },
+  {
+    "id": "chrome-incognito",
+    "appId": "chrome",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "无痕窗口",
+      "en": "Incognito Window"
+    },
+    "description": {
+      "zh": "打开无痕浏览窗口",
+      "en": "Open incognito window"
+    },
+    "windows": "Ctrl+Shift+N",
+    "mac": "⌘+Shift+N",
+    "linux": "Ctrl+Shift+N",
+    "keywords": [
+      "无痕",
+      "incognito",
+      "private"
+    ],
+    "pinyin": "wu hen chuang kou wuhenchuangkou w h c k whck wu hen wuhen w h wh"
+  },
+  {
+    "id": "chrome-address",
+    "appId": "chrome",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "定位地址栏",
+      "en": "Focus Address Bar"
+    },
+    "description": {
+      "zh": "光标移动到地址栏",
+      "en": "Jump to the address bar"
+    },
+    "windows": "Ctrl+L",
+    "mac": "⌘+L",
+    "linux": "Ctrl+L",
+    "keywords": [
+      "地址栏",
+      "address",
+      "url"
+    ],
+    "pinyin": "ding wei di zhi lan dingweidizhilan d w d z l dwdzl di zhi lan dizhilan d z l dzl"
+  },
+  {
+    "id": "chrome-reload",
+    "appId": "chrome",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "刷新页面",
+      "en": "Reload Page"
+    },
+    "description": {
+      "zh": "重新加载当前页面",
+      "en": "Reload current page"
+    },
+    "windows": "Ctrl+R",
+    "mac": "⌘+R",
+    "linux": "Ctrl+R",
+    "keywords": [
+      "刷新",
+      "reload",
+      "refresh"
+    ],
+    "pinyin": "shua xin ye mian shuaxinyemian s x y m sxym shua xin shuaxin s x sx"
+  },
+  {
+    "id": "chrome-hardreload",
+    "appId": "chrome",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "强制刷新",
+      "en": "Hard Reload"
+    },
+    "description": {
+      "zh": "忽略缓存重新加载",
+      "en": "Reload ignoring cache"
+    },
+    "windows": "Ctrl+Shift+R",
+    "mac": "⌘+Shift+R",
+    "linux": "Ctrl+Shift+R",
+    "keywords": [
+      "强制刷新",
+      "hard reload"
+    ],
+    "pinyin": "qiang zhi shua xin qiangzhishuaxin q z s x qzsx qiang zhi shua xin qiangzhishuaxin q z s x qzsx"
+  },
+  {
+    "id": "chrome-history",
+    "appId": "chrome",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "历史记录",
+      "en": "History"
+    },
+    "description": {
+      "zh": "打开浏览历史",
+      "en": "Open browsing history"
+    },
+    "windows": "Ctrl+H",
+    "mac": "⌘+Y",
+    "linux": "Ctrl+H",
+    "keywords": [
+      "历史",
+      "history"
+    ],
+    "pinyin": "li shi ji lu lishijilu l s j l lsjl li shi lishi l s ls"
+  },
+  {
+    "id": "chrome-downloads",
+    "appId": "chrome",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "下载内容",
+      "en": "Downloads"
+    },
+    "description": {
+      "zh": "打开下载页面",
+      "en": "Open downloads page"
+    },
+    "windows": "Ctrl+J",
+    "mac": "⌘+Shift+J",
+    "linux": "Ctrl+J",
+    "keywords": [
+      "下载",
+      "downloads"
+    ],
+    "pinyin": "xia zai nei rong xiazaineirong x z n r xznr xia zai xiazai x z xz"
+  },
+  {
+    "id": "chrome-bookmark",
+    "appId": "chrome",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "收藏当前页",
+      "en": "Bookmark Page"
+    },
+    "description": {
+      "zh": "将当前页面加入书签",
+      "en": "Bookmark current page"
+    },
+    "windows": "Ctrl+D",
+    "mac": "⌘+D",
+    "linux": "Ctrl+D",
+    "keywords": [
+      "收藏",
+      "bookmark"
+    ],
+    "pinyin": "shou cang dang qian ye shoucangdangqianye s c d q y scdqy shou cang shoucang s c sc"
+  },
+  {
+    "id": "chrome-find",
+    "appId": "chrome",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "页内查找",
+      "en": "Find in Page"
+    },
+    "description": {
+      "zh": "在当前页面查找文本",
+      "en": "Find text on the page"
+    },
+    "windows": "Ctrl+F",
+    "mac": "⌘+F",
+    "linux": "Ctrl+F",
+    "keywords": [
+      "查找",
+      "find"
+    ],
+    "pinyin": "ye nei cha zhao yeneichazhao y n c z yncz cha zhao chazhao c z cz"
+  },
+  {
+    "id": "chrome-zoomin",
+    "appId": "chrome",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "放大页面",
+      "en": "Zoom In"
+    },
+    "description": {
+      "zh": "放大页面内容",
+      "en": "Zoom in the page"
+    },
+    "windows": "Ctrl++",
+    "mac": "⌘++",
+    "linux": "Ctrl++",
+    "keywords": [
+      "放大",
+      "zoom"
+    ],
+    "pinyin": "fang da ye mian fangdayemian f d y m fdym fang da fangda f d fd"
+  },
+  {
+    "id": "chrome-zoomreset",
+    "appId": "chrome",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "重置缩放",
+      "en": "Reset Zoom"
+    },
+    "description": {
+      "zh": "恢复默认缩放比例",
+      "en": "Reset zoom to default"
+    },
+    "windows": "Ctrl+0",
+    "mac": "⌘+0",
+    "linux": "Ctrl+0",
+    "keywords": [
+      "缩放",
+      "zoom",
+      "reset"
+    ],
+    "pinyin": "zhong zhi suo fang zhongzhisuofang z z s f zzsf suo fang suofang s f sf"
+  },
+  {
+    "id": "chrome-nexttab",
+    "appId": "chrome",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "下一个标签页",
+      "en": "Next Tab"
+    },
+    "description": {
+      "zh": "切换到下一个标签页",
+      "en": "Switch to next tab"
+    },
+    "windows": "Ctrl+Tab",
+    "mac": "⌘+Option+Right",
+    "linux": "Ctrl+Tab",
+    "keywords": [
+      "标签",
+      "tab",
+      "next"
+    ],
+    "pinyin": "xia yi ge biao qian ye xiayigebiaoqianye x y g b q y xygbqy biao qian biaoqian b q bq"
+  },
+  {
+    "id": "chrome-devtools",
+    "appId": "chrome",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "开发者工具",
+      "en": "Developer Tools"
+    },
+    "description": {
+      "zh": "打开开发者工具",
+      "en": "Open Developer Tools"
+    },
+    "windows": "Ctrl+Shift+I",
+    "mac": "⌘+Option+I",
+    "linux": "Ctrl+Shift+I",
+    "keywords": [
+      "开发者工具",
+      "devtools"
+    ],
+    "pinyin": "kai fa zhe gong ju kaifazhegongju k f z g j kfzgj kai fa zhe gong ju kaifazhegongju k f z g j kfzgj"
+  },
+  {
+    "id": "chrome-fullscreen",
+    "appId": "chrome",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "全屏",
+      "en": "Full Screen"
+    },
+    "description": {
+      "zh": "进入或退出全屏",
+      "en": "Toggle full screen"
+    },
+    "windows": "F11",
+    "mac": "⌘+Ctrl+F",
+    "linux": "F11",
+    "keywords": [
+      "全屏",
+      "fullscreen"
+    ],
+    "pinyin": "quan ping quanping q p qp quan ping quanping q p qp"
+  }
 ]

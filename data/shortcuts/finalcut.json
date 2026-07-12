@@ -44,29 +44,6 @@
     "pinyin": "dao pian fen ge daopianfenge d p f g dpfg fen ge fenge f g fg"
   },
   {
-    "id": "finalcut-trim",
-    "appId": "finalcut",
-    "type": "software",
-    "category": "video",
-    "name": {
-      "zh": "波纹修剪",
-      "en": "Ripple Trim"
-    },
-    "description": {
-      "zh": "波纹修剪",
-      "en": "Ripple trim"
-    },
-    "windows": "E",
-    "mac": "E",
-    "linux": "E",
-    "keywords": [
-      "修剪",
-      "trim",
-      "波纹"
-    ],
-    "pinyin": "bo wen xiu jian bowenxiujian b w x j bwxj xiu jian   bo wen xiujian bowen x j   b w xj bw"
-  },
-  {
     "id": "finalcut-roll",
     "appId": "finalcut",
     "type": "software",

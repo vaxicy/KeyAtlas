@@ -9,12 +9,12 @@
       "en": "Start Recording"
     },
     "description": {
-      "zh": "开始录制",
-      "en": "Start recording"
+      "zh": "开始录制（推荐）",
+      "en": "Start recording (recommended)"
     },
-    "windows": "Start Recording",
-    "mac": "Start Recording",
-    "linux": "Start Recording",
+    "windows": "F9",
+    "mac": "F9",
+    "linux": "F9",
     "keywords": [
       "录制",
       "record",
@@ -32,12 +32,12 @@
       "en": "Stop Recording"
     },
     "description": {
-      "zh": "停止录制",
-      "en": "Stop recording"
+      "zh": "停止录制（推荐）",
+      "en": "Stop recording (recommended)"
     },
-    "windows": "Stop Recording",
-    "mac": "Stop Recording",
-    "linux": "Stop Recording",
+    "windows": "F9",
+    "mac": "F9",
+    "linux": "F9",
     "keywords": [
       "停止",
       "stop"
@@ -54,12 +54,12 @@
       "en": "Pause Recording"
     },
     "description": {
-      "zh": "暂停录制",
-      "en": "Pause recording"
+      "zh": "暂停录制（推荐）",
+      "en": "Pause recording (recommended)"
     },
-    "windows": "Pause Recording",
-    "mac": "Pause Recording",
-    "linux": "Pause Recording",
+    "windows": "F10",
+    "mac": "F10",
+    "linux": "F10",
     "keywords": [
       "暂停",
       "pause"
@@ -76,12 +76,12 @@
       "en": "Start Streaming"
     },
     "description": {
-      "zh": "开始直播推流",
-      "en": "Start streaming"
+      "zh": "开始直播推流（推荐）",
+      "en": "Start streaming (recommended)"
     },
-    "windows": "Start Streaming",
-    "mac": "Start Streaming",
-    "linux": "Start Streaming",
+    "windows": "F8",
+    "mac": "F8",
+    "linux": "F8",
     "keywords": [
       "推流",
       "stream",
@@ -99,12 +99,12 @@
       "en": "Stop Streaming"
     },
     "description": {
-      "zh": "停止直播",
-      "en": "Stop streaming"
+      "zh": "停止直播（推荐）",
+      "en": "Stop streaming (recommended)"
     },
-    "windows": "Stop Streaming",
-    "mac": "Stop Streaming",
-    "linux": "Stop Streaming",
+    "windows": "F8",
+    "mac": "F8",
+    "linux": "F8",
     "keywords": [
       "停止推流",
       "stop stream"
@@ -121,12 +121,12 @@
       "en": "Studio Mode"
     },
     "description": {
-      "zh": "切换演播室模式",
-      "en": "Toggle studio mode"
+      "zh": "切换演播室模式（推荐）",
+      "en": "Toggle studio mode (recommended)"
     },
-    "windows": "Studio Mode",
-    "mac": "Studio Mode",
-    "linux": "Studio Mode",
+    "windows": "F11",
+    "mac": "F11",
+    "linux": "F11",
     "keywords": [
       "演播室",
       "studio mode"
@@ -143,12 +143,12 @@
       "en": "Transition"
     },
     "description": {
-      "zh": "触发场景过渡",
-      "en": "Trigger transition"
+      "zh": "触发场景过渡（推荐）",
+      "en": "Trigger transition (recommended)"
     },
-    "windows": "Transition",
-    "mac": "Transition",
-    "linux": "Transition",
+    "windows": "F12",
+    "mac": "F12",
+    "linux": "F12",
     "keywords": [
       "过渡",
       "transition",
@@ -166,12 +166,12 @@
       "en": "Previous Scene"
     },
     "description": {
-      "zh": "切换上一个场景",
-      "en": "Previous scene"
+      "zh": "切换上一个场景（推荐）",
+      "en": "Previous scene (recommended)"
     },
-    "windows": "Previous Scene",
-    "mac": "Previous Scene",
-    "linux": "Previous Scene",
+    "windows": "Ctrl+PageUp",
+    "mac": "Cmd+PageUp",
+    "linux": "Ctrl+PageUp",
     "keywords": [
       "上一个场景",
       "prev scene"
@@ -188,12 +188,12 @@
       "en": "Next Scene"
     },
     "description": {
-      "zh": "切换下一个场景",
-      "en": "Next scene"
+      "zh": "切换下一个场景（推荐）",
+      "en": "Next scene (recommended)"
     },
-    "windows": "Next Scene",
-    "mac": "Next Scene",
-    "linux": "Next Scene",
+    "windows": "Ctrl+PageDown",
+    "mac": "Cmd+PageDown",
+    "linux": "Ctrl+PageDown",
     "keywords": [
       "下一个场景",
       "next scene"
@@ -210,12 +210,12 @@
       "en": "Mute Source"
     },
     "description": {
-      "zh": "静音选中来源",
-      "en": "Mute source"
+      "zh": "静音选中来源（推荐）",
+      "en": "Mute source (recommended)"
     },
-    "windows": "Mute",
-    "mac": "Mute",
-    "linux": "Mute",
+    "windows": "Ctrl+M",
+    "mac": "Cmd+M",
+    "linux": "Ctrl+M",
     "keywords": [
       "静音",
       "mute",
@@ -233,12 +233,12 @@
       "en": "Unmute Source"
     },
     "description": {
-      "zh": "取消静音",
-      "en": "Unmute source"
+      "zh": "取消静音（推荐）",
+      "en": "Unmute source (recommended)"
     },
-    "windows": "Unmute",
-    "mac": "Unmute",
-    "linux": "Unmute",
+    "windows": "Ctrl+Shift+M",
+    "mac": "Cmd+Shift+M",
+    "linux": "Ctrl+Shift+M",
     "keywords": [
       "取消静音",
       "unmute"
@@ -255,12 +255,12 @@
       "en": "Interact"
     },
     "description": {
-      "zh": "与来源交互",
-      "en": "Interact with source"
+      "zh": "与来源交互（推荐）",
+      "en": "Interact with source (recommended)"
     },
-    "windows": "Interact",
-    "mac": "Interact",
-    "linux": "Interact",
+    "windows": "Ctrl+Shift+I",
+    "mac": "Cmd+Shift+I",
+    "linux": "Ctrl+Shift+I",
     "keywords": [
       "交互",
       "interact"
@@ -277,12 +277,12 @@
       "en": "Lock Preview"
     },
     "description": {
-      "zh": "锁定预览",
-      "en": "Lock preview"
+      "zh": "锁定预览（推荐）",
+      "en": "Lock preview (recommended)"
     },
-    "windows": "Lock",
-    "mac": "Lock",
-    "linux": "Lock",
+    "windows": "Ctrl+L",
+    "mac": "Cmd+L",
+    "linux": "Ctrl+L",
     "keywords": [
       "锁定",
       "lock"
@@ -299,12 +299,12 @@
       "en": "Fullscreen Projector"
     },
     "description": {
-      "zh": "全屏投影预览",
-      "en": "Fullscreen projector"
+      "zh": "全屏投影预览（推荐）",
+      "en": "Fullscreen projector (recommended)"
     },
-    "windows": "Fullscreen",
-    "mac": "Fullscreen",
-    "linux": "Fullscreen",
+    "windows": "Ctrl+Shift+F",
+    "mac": "Cmd+Shift+F",
+    "linux": "Ctrl+Shift+F",
     "keywords": [
       "全屏",
       "fullscreen",
@@ -322,12 +322,12 @@
       "en": "Settings"
     },
     "description": {
-      "zh": "打开设置",
-      "en": "Open settings"
+      "zh": "打开设置（推荐）",
+      "en": "Open settings (recommended)"
     },
-    "windows": "Settings",
-    "mac": "Settings",
-    "linux": "Settings",
+    "windows": "Ctrl+,",
+    "mac": "Cmd+,",
+    "linux": "Ctrl+,",
     "keywords": [
       "设置",
       "settings"
@@ -344,12 +344,12 @@
       "en": "Screenshot"
     },
     "description": {
-      "zh": "截取来源画面",
-      "en": "Screenshot source"
+      "zh": "截取来源画面（推荐）",
+      "en": "Screenshot source (recommended)"
     },
-    "windows": "Screenshot",
-    "mac": "Screenshot",
-    "linux": "Screenshot",
+    "windows": "Ctrl+Shift+S",
+    "mac": "Cmd+Shift+S",
+    "linux": "Ctrl+Shift+S",
     "keywords": [
       "截图",
       "screenshot"
@@ -366,12 +366,12 @@
       "en": "Toggle Source Visibility"
     },
     "description": {
-      "zh": "切换来源可见性",
-      "en": "Toggle visibility"
+      "zh": "切换来源可见性（推荐）",
+      "en": "Toggle visibility (recommended)"
     },
-    "windows": "Toggle Source Visibility",
-    "mac": "Toggle Source Visibility",
-    "linux": "Toggle Source Visibility",
+    "windows": "Ctrl+H",
+    "mac": "Cmd+H",
+    "linux": "Ctrl+H",
     "keywords": [
       "隐藏",
       "visibility",
@@ -389,12 +389,12 @@
       "en": "Toggle Frontend"
     },
     "description": {
-      "zh": "切换前端窗口",
-      "en": "Toggle frontend"
+      "zh": "切换前端窗口（推荐）",
+      "en": "Toggle frontend (recommended)"
     },
-    "windows": "Toggle Frontend",
-    "mac": "Toggle Frontend",
-    "linux": "Toggle Frontend",
+    "windows": "Ctrl+Shift+W",
+    "mac": "Cmd+Shift+W",
+    "linux": "Ctrl+Shift+W",
     "keywords": [
       "前端",
       "frontend"

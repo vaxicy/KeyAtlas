@@ -12,9 +12,9 @@
       "zh": "切换到剪切页面",
       "en": "Switch to Cut page"
     },
-    "windows": "Shift+4",
-    "mac": "Shift+4",
-    "linux": "Shift+4",
+    "windows": "Shift+2",
+    "mac": "Shift+2",
+    "linux": "Shift+2",
     "keywords": [
       "剪切",
       "cut"
@@ -34,9 +34,9 @@
       "zh": "切换到编辑页面",
       "en": "Switch to Edit page"
     },
-    "windows": "Shift+5",
-    "mac": "Shift+5",
-    "linux": "Shift+5",
+    "windows": "Shift+3",
+    "mac": "Shift+3",
+    "linux": "Shift+3",
     "keywords": [
       "编辑",
       "edit"
@@ -56,9 +56,9 @@
       "zh": "切换到 Fusion",
       "en": "Switch to Fusion"
     },
-    "windows": "Shift+6",
-    "mac": "Shift+6",
-    "linux": "Shift+6",
+    "windows": "Shift+4",
+    "mac": "Shift+4",
+    "linux": "Shift+4",
     "keywords": [
       "fusion",
       "特效"
@@ -78,9 +78,9 @@
       "zh": "切换到调色",
       "en": "Switch to Color"
     },
-    "windows": "Shift+7",
-    "mac": "Shift+7",
-    "linux": "Shift+7",
+    "windows": "Shift+5",
+    "mac": "Shift+5",
+    "linux": "Shift+5",
     "keywords": [
       "调色",
       "color",
@@ -101,9 +101,9 @@
       "zh": "切换到音频",
       "en": "Switch to Fairlight"
     },
-    "windows": "Shift+8",
-    "mac": "Shift+8",
-    "linux": "Shift+8",
+    "windows": "Shift+6",
+    "mac": "Shift+6",
+    "linux": "Shift+6",
     "keywords": [
       "fairlight",
       "音频"
@@ -123,9 +123,9 @@
       "zh": "切换到交付",
       "en": "Switch to Deliver"
     },
-    "windows": "Shift+9",
-    "mac": "Shift+9",
-    "linux": "Shift+9",
+    "windows": "Shift+7",
+    "mac": "Shift+7",
+    "linux": "Shift+7",
     "keywords": [
       "交付",
       "deliver",
@@ -555,25 +555,25 @@
     "pinyin": "bao cun xiang mu baocunxiangmu b c x m bcxm bao cun baocun b c bc"
   },
   {
-    "id": "davinci-export",
+    "id": "davinci-media",
     "appId": "davinci",
     "type": "software",
     "category": "video",
     "name": {
-      "zh": "导出",
-      "en": "Deliver / Export"
+      "zh": "媒体页面",
+      "en": "Media Page"
     },
     "description": {
-      "zh": "打开交付导出",
-      "en": "Open deliver"
+      "zh": "切换到媒体页面",
+      "en": "Switch to Media"
     },
-    "windows": "Shift+9",
-    "mac": "Shift+9",
-    "linux": "Shift+9",
+    "windows": "Shift+1",
+    "mac": "Shift+1",
+    "linux": "Shift+1",
     "keywords": [
-      "导出",
-      "export"
+      "媒体",
+      "media"
     ],
-    "pinyin": "dao chu daochu d c dc dao chu daochu d c dc"
+    "pinyin": "mei ti ye mian meitiyemian m t y m mtym mei ti meiti m t mt"
   }
 ]

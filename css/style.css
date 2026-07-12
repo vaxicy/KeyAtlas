@@ -102,7 +102,7 @@ html, body {
   position: relative;
   display: flex;
   align-items: center;
-  margin: 2px 14px 8px;
+  margin: 2px 12px 8px;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
@@ -374,7 +374,7 @@ html, body {
 /* ---- Category grid / list ---- */
 .cat-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: 8px;
   margin-top: 4px;
 }

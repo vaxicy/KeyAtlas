@@ -14,5 +14,13 @@
   { "id": "excel",    "name": { "zh": "Excel",          "en": "Excel" },          "category": "productivity", "icon": "📊", "type": "software", "popular": true, "file": "excel.json" },
   { "id": "word",     "name": { "zh": "Word",           "en": "Word" },           "category": "productivity", "icon": "📝", "type": "software", "file": "word.json" },
   { "id": "powerpoint","name": { "zh": "PowerPoint",    "en": "PowerPoint" },     "category": "productivity", "icon": "📽️", "type": "software", "file": "powerpoint.json" },
-  { "id": "notion",   "name": { "zh": "Notion",         "en": "Notion" },         "category": "productivity", "icon": "📒", "type": "software", "file": "notion.json" }
+  { "id": "notion",   "name": { "zh": "Notion",         "en": "Notion" },         "category": "productivity", "icon": "📒", "type": "software", "file": "notion.json" },
+  { "id": "premiere", "name": { "zh": "Premiere Pro",   "en": "Premiere Pro" },   "category": "video",        "icon": "🎞️", "type": "software", "file": "premiere.json" },
+  { "id": "afterfx",  "name": { "zh": "After Effects",   "en": "After Effects" },  "category": "video",        "icon": "✨", "type": "software", "file": "afterfx.json" },
+  { "id": "lightroom","name": { "zh": "Lightroom",       "en": "Lightroom" },      "category": "design",       "icon": "🌅", "type": "software", "file": "lightroom.json" },
+  { "id": "indesign", "name": { "zh": "InDesign",        "en": "InDesign" },       "category": "design",       "icon": "📰", "type": "software", "file": "indesign.json" },
+  { "id": "xd",       "name": { "zh": "Adobe XD",        "en": "Adobe XD" },       "category": "design",       "icon": "💡", "type": "software", "file": "xd.json" },
+  { "id": "acrobat",  "name": { "zh": "Acrobat",         "en": "Acrobat" },        "category": "productivity", "icon": "📕", "type": "software", "file": "acrobat.json" },
+  { "id": "audition", "name": { "zh": "Audition",        "en": "Audition" },       "category": "video",        "icon": "🎧", "type": "software", "file": "audition.json" },
+  { "id": "bilibili", "name": { "zh": "哔哩哔哩",         "en": "Bilibili" },       "category": "video",        "icon": "📺", "type": "software", "sortKey": "Bilibili", "file": "bilibili.json" }
 ]

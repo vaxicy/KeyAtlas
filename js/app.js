@@ -371,7 +371,8 @@
       const groups = new Map();
       for (const a of apps) {
         const name = i18n.pick(a.name);
-        const letter = (name[0] || "#").toUpperCase();
+        const sortKey = a.sortKey || name;
+        const letter = (sortKey[0] || "#").toUpperCase();
         if (!groups.has(letter)) groups.set(letter, []);
         groups.get(letter).push(a);
       }

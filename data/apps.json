@@ -33,4 +33,8 @@
   { "id": "todoist",  "name": { "zh": "Todoist",          "en": "Todoist" },        "category": "productivity", "icon": "✅", "type": "software", "file": "todoist.json" },
   { "id": "cursor",   "name": { "zh": "Cursor",           "en": "Cursor" },         "category": "development",  "icon": "⌨️", "type": "software", "file": "cursor.json" },
   { "id": "chatgpt",  "name": { "zh": "ChatGPT",          "en": "ChatGPT" },        "category": "productivity", "icon": "🤖", "type": "software", "file": "chatgpt.json" }
+,
+  { "id": "outlook",    "name": { "zh": "Outlook",      "en": "Outlook" },       "category": "productivity", "icon": "📧", "type": "software", "file": "outlook.json" },
+  { "id": "gmail",      "name": { "zh": "Gmail",        "en": "Gmail" },         "category": "productivity", "icon": "✉️", "type": "software", "file": "gmail.json" },
+  { "id": "googledocs", "name": { "zh": "Google 文档",   "en": "Google Docs" },   "category": "productivity", "icon": "📄", "type": "software", "file": "googledocs.json" }
 ]

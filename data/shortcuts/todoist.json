@@ -35,9 +35,9 @@
       "zh": "在当前内容中搜索任务",
       "en": "Search tasks in current view"
     },
-    "windows": "/ 或 F",
-    "mac": "/ 或 F",
-    "linux": "/ 或 F",
+    "windows": " / 或 F",
+    "mac": " / 或 F",
+    "linux": " / 或 F",
     "keywords": [
       "搜索",
       "search",
@@ -128,9 +128,9 @@
       "zh": "打开快速查找（搜索所有任务）",
       "en": "Open Quick Find to search all tasks"
     },
-    "windows": "Ctrl+K",
-    "mac": "Cmd+K",
-    "linux": "Ctrl+K",
+    "windows": "Ctrl + K",
+    "mac": "⌘ K",
+    "linux": "Ctrl + K",
     "keywords": [
       "快速查找",
       "quick find",
@@ -151,9 +151,9 @@
       "zh": "打印当前任务视图",
       "en": "Print the current task view"
     },
-    "windows": "Ctrl+P",
-    "mac": "Cmd+P",
-    "linux": "Ctrl+P",
+    "windows": "Ctrl + P",
+    "mac": "⌘ P",
+    "linux": "Ctrl + P",
     "keywords": [
       "打印",
       "print"
@@ -173,9 +173,9 @@
       "zh": "放大界面字体",
       "en": "Increase font size / zoom in"
     },
-    "windows": "Ctrl+Shift+=",
-    "mac": "Cmd+=",
-    "linux": "Ctrl+Shift+=",
+    "windows": "Ctrl + Shift + =",
+    "mac": "⌘ =",
+    "linux": "Ctrl + Shift + =",
     "keywords": [
       "放大",
       "zoom in",
@@ -196,9 +196,9 @@
       "zh": "缩小界面字体",
       "en": "Decrease font size / zoom out"
     },
-    "windows": "Ctrl+-",
-    "mac": "Cmd+-",
-    "linux": "Ctrl+-",
+    "windows": "Ctrl + -",
+    "mac": "⌘ -",
+    "linux": "Ctrl + -",
     "keywords": [
       "缩小",
       "zoom out",
@@ -374,9 +374,9 @@
       "zh": "前往分区",
       "en": "Go to a section"
     },
-    "windows": "G 然后 /",
-    "mac": "G 然后 /",
-    "linux": "G 然后 /",
+    "windows": "G 然后 / ",
+    "mac": "G 然后 / ",
+    "linux": "G 然后 / ",
     "keywords": [
       "分区",
       "section"
@@ -440,9 +440,9 @@
       "zh": "返回上一个视图",
       "en": "Go back to the previous view"
     },
-    "windows": "Alt+←",
-    "mac": "Cmd+[",
-    "linux": "Alt+←",
+    "windows": "Alt + ←",
+    "mac": "⌘ [",
+    "linux": "Alt + ←",
     "keywords": [
       "返回",
       "back"
@@ -462,9 +462,9 @@
       "zh": "前进到最近的视图",
       "en": "Go forward to the most recent view"
     },
-    "windows": "Alt+→",
-    "mac": "Cmd+]",
-    "linux": "Alt+→",
+    "windows": "Alt + →",
+    "mac": "⌘ ]",
+    "linux": "Alt + →",
     "keywords": [
       "前进",
       "forward"
@@ -507,9 +507,9 @@
       "zh": "编辑选中的任务",
       "en": "Edit the selected task"
     },
-    "windows": "Ctrl+E",
-    "mac": "Cmd+E",
-    "linux": "Ctrl+E",
+    "windows": "Ctrl + E",
+    "mac": "⌘ E",
+    "linux": "Ctrl + E",
     "keywords": [
       "编辑",
       "edit"
@@ -529,9 +529,9 @@
       "zh": "保存任务并在上方新建一个",
       "en": "Save and create a new task above"
     },
-    "windows": "Ctrl+Enter",
-    "mac": "Cmd+Enter",
-    "linux": "Ctrl+Enter",
+    "windows": "Ctrl + Enter",
+    "mac": "⌘ Enter",
+    "linux": "Ctrl + Enter",
     "keywords": [
       "保存",
       "save",
@@ -667,9 +667,9 @@
       "zh": "删除选中的任务",
       "en": "Delete the selected task"
     },
-    "windows": "Shift+Delete",
-    "mac": "Cmd+Delete",
-    "linux": "Shift+Delete",
+    "windows": "Shift + Delete",
+    "mac": "⌘ Delete",
+    "linux": "Shift + Delete",
     "keywords": [
       "删除",
       "delete"
@@ -733,9 +733,9 @@
       "zh": "分配或转派聚焦任务",
       "en": "Assign or reassign the focused task"
     },
-    "windows": "Shift+R",
-    "mac": "Shift+R",
-    "linux": "Shift+R",
+    "windows": "Shift + R",
+    "mac": "⇧ R",
+    "linux": "Shift + R",
     "keywords": [
       "分配",
       "assign",
@@ -778,9 +778,9 @@
       "zh": "复制聚焦任务的链接",
       "en": "Copy a link to the focused task"
     },
-    "windows": "Shift+Ctrl+C",
-    "mac": "Shift+Cmd+C",
-    "linux": "Shift+Ctrl+C",
+    "windows": "Shift + Ctrl + C",
+    "mac": "⇧ ⌘ C",
+    "linux": "Shift + Ctrl + C",
     "keywords": [
       "复制链接",
       "copy link"
@@ -823,9 +823,9 @@
       "zh": "在列表顶部添加新任务",
       "en": "Add a new task to the top of the list"
     },
-    "windows": "Shift+A",
-    "mac": "Shift+A",
-    "linux": "Shift+A",
+    "windows": "Shift + A",
+    "mac": "⇧ A",
+    "linux": "Shift + A",
     "keywords": [
       "添加任务",
       "add task",

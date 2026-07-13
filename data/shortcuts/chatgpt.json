@@ -12,9 +12,9 @@
       "zh": "打开快捷键速查面板",
       "en": "Open the keyboard shortcuts cheat sheet"
     },
-    "windows": "Ctrl+/",
-    "mac": "Cmd+/",
-    "linux": "Ctrl+/",
+    "windows": "Ctrl / ",
+    "mac": "⌘ / ",
+    "linux": "Ctrl / ",
     "keywords": [
       "快捷键",
       "shortcuts",
@@ -35,9 +35,9 @@
       "zh": "开始一个新的对话",
       "en": "Start a new conversation"
     },
-    "windows": "Ctrl+Shift+O",
-    "mac": "Cmd+Shift+O",
-    "linux": "Ctrl+Shift+O",
+    "windows": "Ctrl + Shift + O",
+    "mac": "⌘ ⇧ O",
+    "linux": "Ctrl + Shift + O",
     "keywords": [
       "新建",
       "new chat",
@@ -58,9 +58,9 @@
       "zh": "显示或隐藏侧边栏",
       "en": "Show or hide the sidebar"
     },
-    "windows": "Ctrl+Shift+S",
-    "mac": "Cmd+Shift+S",
-    "linux": "Ctrl+Shift+S",
+    "windows": "Ctrl + Shift + S",
+    "mac": "⌘ ⇧ S",
+    "linux": "Ctrl + Shift + S",
     "keywords": [
       "侧边栏",
       "sidebar"
@@ -80,9 +80,9 @@
       "zh": "在当前对话中查找文本",
       "en": "Find text within the current conversation"
     },
-    "windows": "Ctrl+F",
-    "mac": "Cmd+F",
-    "linux": "Ctrl+F",
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
+    "linux": "Ctrl + F",
     "keywords": [
       "查找",
       "find",
@@ -103,9 +103,9 @@
       "zh": "跳转到指定编号的聊天标签页",
       "en": "Jump to the chat tab with the given number"
     },
-    "windows": "Ctrl+1 … Ctrl+9",
-    "mac": "Cmd+1 … Cmd+9",
-    "linux": "Ctrl+1 … Ctrl+9",
+    "windows": "Ctrl + 1 … Ctrl + 9",
+    "mac": "⌘ 1 … Cmd 9",
+    "linux": "Ctrl + 1 … Ctrl + 9",
     "keywords": [
       "标签页",
       "tab",
@@ -127,9 +127,9 @@
       "zh": "切换到下一个标签页",
       "en": "Switch to the next tab"
     },
-    "windows": "Ctrl+Tab",
-    "mac": "Ctrl+Tab",
-    "linux": "Ctrl+Tab",
+    "windows": "Ctrl + Tab",
+    "mac": "⌃ Tab",
+    "linux": "Ctrl + Tab",
     "keywords": [
       "标签页",
       "tab",
@@ -150,9 +150,9 @@
       "zh": "切换到上一个标签页",
       "en": "Switch to the previous tab"
     },
-    "windows": "Ctrl+Shift+Tab",
-    "mac": "Ctrl+Shift+Tab",
-    "linux": "Ctrl+Shift+Tab",
+    "windows": "Ctrl + Shift + Tab",
+    "mac": "⌃ ⇧ Tab",
+    "linux": "Ctrl + Shift + Tab",
     "keywords": [
       "标签页",
       "tab",
@@ -173,9 +173,9 @@
       "zh": "将焦点移到输入框（取消界面聚焦）",
       "en": "Move focus to the input box / dismiss UI focus"
     },
-    "windows": "Shift+Esc",
-    "mac": "Shift+Esc",
-    "linux": "Shift+Esc",
+    "windows": "Shift + Esc",
+    "mac": "⇧ Esc",
+    "linux": "Shift + Esc",
     "keywords": [
       "聚焦",
       "输入框",
@@ -244,9 +244,9 @@
       "zh": "在输入框内换行而不发送",
       "en": "Insert a new line without sending"
     },
-    "windows": "Shift+Enter",
-    "mac": "Shift+Return",
-    "linux": "Shift+Enter",
+    "windows": "Shift + Enter",
+    "mac": "⇧ Return",
+    "linux": "Shift + Enter",
     "keywords": [
       "换行",
       "new line",
@@ -267,9 +267,9 @@
       "zh": "当关闭回车发送时强制发送",
       "en": "Force-send when send-on-Enter is off"
     },
-    "windows": "Ctrl+Enter",
-    "mac": "Cmd+Return",
-    "linux": "Ctrl+Enter",
+    "windows": "Ctrl + Enter",
+    "mac": "⌘ Return",
+    "linux": "Ctrl + Enter",
     "keywords": [
       "强制发送",
       "force send"
@@ -289,9 +289,9 @@
       "zh": "复制回复中最后一个代码块",
       "en": "Copy the last code block in the response"
     },
-    "windows": "Ctrl+Shift+;",
-    "mac": "Cmd+Shift+;",
-    "linux": "Ctrl+Shift+;",
+    "windows": "Ctrl + Shift + ;",
+    "mac": "⌘ ⇧ ;",
+    "linux": "Ctrl + Shift + ;",
     "keywords": [
       "复制",
       "copy",
@@ -313,9 +313,9 @@
       "zh": "复制上一条完整回复",
       "en": "Copy the full last response"
     },
-    "windows": "Ctrl+Shift+C",
-    "mac": "Cmd+Shift+C",
-    "linux": "Ctrl+Shift+C",
+    "windows": "Ctrl + Shift + C",
+    "mac": "⌘ ⇧ C",
+    "linux": "Ctrl + Shift + C",
     "keywords": [
       "复制",
       "copy",
@@ -337,7 +337,7 @@
       "zh": "Windows 桌面端全局打开 ChatGPT  companion 窗口",
       "en": "Open the ChatGPT companion window globally on Windows desktop"
     },
-    "windows": "Alt+Space",
+    "windows": "Alt + Space",
     "mac": "—",
     "linux": "—",
     "keywords": [
@@ -362,7 +362,7 @@
       "en": "Open the ChatGPT Chat Bar globally on Mac desktop"
     },
     "windows": "—",
-    "mac": "Option+Space",
+    "mac": "⌥ Space",
     "linux": "—",
     "keywords": [
       "chat bar",
@@ -385,9 +385,9 @@
       "zh": "打开 Companion / Chat Bar 热键设置",
       "en": "Open companion hotkey customization"
     },
-    "windows": "Ctrl+,",
-    "mac": "Cmd+,",
-    "linux": "Ctrl+,",
+    "windows": "Ctrl + ,",
+    "mac": "⌘ ,",
+    "linux": "Ctrl + ,",
     "keywords": [
       "自定义",
       "customize",
@@ -409,9 +409,9 @@
       "zh": "Windows 隐藏到系统托盘；Mac 隐藏应用",
       "en": "Hide to tray on Windows; hide app on Mac"
     },
-    "windows": "Ctrl+W",
-    "mac": "Cmd+H",
-    "linux": "Ctrl+W",
+    "windows": "Ctrl + W",
+    "mac": "⌘ H",
+    "linux": "Ctrl + W",
     "keywords": [
       "隐藏",
       "hide",
@@ -432,9 +432,9 @@
       "zh": "退出 ChatGPT 桌面应用",
       "en": "Quit the ChatGPT desktop app"
     },
-    "windows": "Alt+F4",
-    "mac": "Cmd+Q",
-    "linux": "Alt+F4",
+    "windows": "Alt + F4",
+    "mac": "⌘ Q",
+    "linux": "Alt + F4",
     "keywords": [
       "退出",
       "quit",

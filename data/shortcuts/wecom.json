@@ -12,9 +12,9 @@
       "zh": "全局截屏（系统级，可在设置中自定义）",
       "en": "Capture screen globally, customizable in settings"
     },
-    "windows": "Ctrl+Alt+A",
-    "mac": "⇧+⌘+A",
-    "linux": "Ctrl+Alt+A",
+    "windows": "Ctrl + Alt + A",
+    "mac": "⇧ ⌘ A",
+    "linux": "Ctrl + Alt + A",
     "keywords": [
       "截图",
       "截屏",
@@ -36,9 +36,9 @@
       "zh": "在聊天中搜索消息记录",
       "en": "Search message history in chats"
     },
-    "windows": "Ctrl+F",
-    "mac": "⌘+F",
-    "linux": "Ctrl+F",
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
+    "linux": "Ctrl + F",
     "keywords": [
       "搜索",
       "查找",
@@ -61,9 +61,9 @@
       "zh": "发起新的聊天会话",
       "en": "Start a new chat conversation"
     },
-    "windows": "Ctrl+N",
-    "mac": "⌘+N",
-    "linux": "Ctrl+N",
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
+    "linux": "Ctrl + N",
     "keywords": [
       "新建",
       "会话",
@@ -86,9 +86,9 @@
       "zh": "发送消息（可在设置中切换回车或 Ctrl+Enter 发送）",
       "en": "Send message (configurable: Enter or Ctrl+Enter in settings)"
     },
-    "windows": "Enter 或 Ctrl+Enter",
-    "mac": "Enter 或 ⌘+Enter",
-    "linux": "Enter 或 Ctrl+Enter",
+    "windows": "Enter 或 Ctrl + Enter",
+    "mac": "Enter 或 ⌘ Enter",
+    "linux": "Enter 或 Ctrl + Enter",
     "keywords": [
       "发送",
       "消息",
@@ -110,9 +110,9 @@
       "zh": "在不同聊天窗口之间快速切换",
       "en": "Quickly switch between chat windows"
     },
-    "windows": "Ctrl+Tab",
-    "mac": "⌃+Tab",
-    "linux": "Ctrl+Tab",
+    "windows": "Ctrl + Tab",
+    "mac": "⌃ Tab",
+    "linux": "Ctrl + Tab",
     "keywords": [
       "切换",
       "聊天",
@@ -135,9 +135,9 @@
       "zh": "跳转到导航栏指定数字标签页",
       "en": "Jump to the tab at the given number position"
     },
-    "windows": "Ctrl+1~9",
-    "mac": "⌘+1~9",
-    "linux": "Ctrl+1~9",
+    "windows": "Ctrl + 1~9",
+    "mac": "⌘ 1~9",
+    "linux": "Ctrl + 1~9",
     "keywords": [
       "标签页",
       "切换",
@@ -159,9 +159,9 @@
       "zh": "关闭当前聊天窗口",
       "en": "Close the current chat window"
     },
-    "windows": "Ctrl+W",
-    "mac": "⌘+W",
-    "linux": "Ctrl+W",
+    "windows": "Ctrl + W",
+    "mac": "⌘ W",
+    "linux": "Ctrl + W",
     "keywords": [
       "关闭",
       "聊天",

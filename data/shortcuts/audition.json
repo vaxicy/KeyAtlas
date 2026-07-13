@@ -12,9 +12,9 @@
       "zh": "创建新的空白音频文件",
       "en": "Create a new blank audio file"
     },
-    "windows": "Ctrl+Alt+N",
-    "mac": "⌘+Option+N",
-    "linux": "Ctrl+Alt+N",
+    "windows": "Ctrl + Alt + N",
+    "mac": "⌘ ⌥ N",
+    "linux": "Ctrl + Alt + N",
     "keywords": [
       "新建",
       "new",
@@ -35,9 +35,9 @@
       "zh": "打开音频文件",
       "en": "Open an audio file"
     },
-    "windows": "Ctrl+O",
-    "mac": "⌘+O",
-    "linux": "Ctrl+O",
+    "windows": "Ctrl + O",
+    "mac": "⌘ O",
+    "linux": "Ctrl + O",
     "keywords": [
       "打开",
       "open"
@@ -57,9 +57,9 @@
       "zh": "关闭当前文件",
       "en": "Close current file"
     },
-    "windows": "Ctrl+W",
-    "mac": "⌘+W",
-    "linux": "Ctrl+W",
+    "windows": "Ctrl + W",
+    "mac": "⌘ W",
+    "linux": "Ctrl + W",
     "keywords": [
       "关闭",
       "close"
@@ -79,9 +79,9 @@
       "zh": "保存当前文件",
       "en": "Save current file"
     },
-    "windows": "Ctrl+S",
-    "mac": "⌘+S",
-    "linux": "Ctrl+S",
+    "windows": "Ctrl + S",
+    "mac": "⌘ S",
+    "linux": "Ctrl + S",
     "keywords": [
       "保存",
       "save"
@@ -101,9 +101,9 @@
       "zh": "保存所有打开的文件",
       "en": "Save all open files"
     },
-    "windows": "Ctrl+Alt+S",
-    "mac": "⌘+Option+S",
-    "linux": "Ctrl+Alt+S",
+    "windows": "Ctrl + Alt + S",
+    "mac": "⌘ ⌥ S",
+    "linux": "Ctrl + Alt + S",
     "keywords": [
       "全部保存",
       "save all"
@@ -123,8 +123,8 @@
       "zh": "将当前文件另存为副本",
       "en": "Save a copy of the current file"
     },
-    "windows": "Ctrl+Shift+S（波形视图）",
-    "mac": "⌘+Shift+S",
+    "windows": "Ctrl + Shift + S（波形视图）",
+    "mac": "⌘ ⇧ S",
     "linux": "—",
     "keywords": [
       "另存副本",
@@ -145,8 +145,8 @@
       "zh": "导出多轨会话的混缩结果",
       "en": "Export multitrack session mixdown"
     },
-    "windows": "Ctrl+Shift+E（多轨视图）",
-    "mac": "⌘+Shift+E",
+    "windows": "Ctrl + Shift + E（多轨视图）",
+    "mac": "⌘ ⇧ E",
     "linux": "—",
     "keywords": [
       "导出",
@@ -168,8 +168,8 @@
       "zh": "导出当前选中的音频区域",
       "en": "Export the selected audio region"
     },
-    "windows": "Shift+Ctrl+E",
-    "mac": "Shift+⌘+E",
+    "windows": "Shift + Ctrl + E",
+    "mac": "⇧ ⌘ E",
     "linux": "—",
     "keywords": [
       "导出所选",
@@ -214,9 +214,9 @@
       "zh": "开始或停止录音",
       "en": "Start or stop recording"
     },
-    "windows": "Shift+Space",
-    "mac": "Shift+Space",
-    "linux": "Shift+Space",
+    "windows": "Shift + Space",
+    "mac": "⇧ Space",
+    "linux": "Shift + Space",
     "keywords": [
       "录音",
       "record",
@@ -237,8 +237,8 @@
       "zh": "从时间指针当前位置开始播放",
       "en": "Play from the current playhead position"
     },
-    "windows": "Shift+Space（多轨）",
-    "mac": "Shift+Return（多轨）",
+    "windows": "Shift + Space（多轨）",
+    "mac": "⇧ Return（多轨）",
     "linux": "—",
     "keywords": [
       "播放",
@@ -259,8 +259,8 @@
       "zh": "启用或禁用循环播放",
       "en": "Enable or disable loop playback"
     },
-    "windows": "L（多轨视图） / Shift+L（波形）",
-    "mac": "L（多轨） / Shift+L（波形）",
+    "windows": "L（多轨视图） / Shift + L（波形）",
+    "mac": "L（多轨） / ⇧ L（波形）",
     "linux": "—",
     "keywords": [
       "循环",
@@ -283,7 +283,7 @@
       "en": "Move playhead to start of file/session"
     },
     "windows": "Home",
-    "mac": "Home / Fn+←",
+    "mac": "Home / Fn ←",
     "linux": "Home",
     "keywords": [
       "开头",
@@ -306,7 +306,7 @@
       "en": "Move playhead to end of file/session"
     },
     "windows": "End",
-    "mac": "End / Fn+→",
+    "mac": "End / Fn →",
     "linux": "End",
     "keywords": [
       "结尾",
@@ -328,8 +328,8 @@
       "zh": "跳到上一个标记的起始或结束位置",
       "en": "Jump to previous start/end marker"
     },
-    "windows": "Ctrl+Left / Alt+Left",
-    "mac": "⌘+Left / Option+Left",
+    "windows": "Ctrl + Left / Alt + Left",
+    "mac": "⌘ Left / ⌥ Left",
     "linux": "—",
     "keywords": [
       "上一个",
@@ -351,8 +351,8 @@
       "zh": "跳到下一个标记的起始或结束位置",
       "en": "Jump to next start/end marker"
     },
-    "windows": "Ctrl+Right / Alt+Right",
-    "mac": "⌘+Right / Option+Right",
+    "windows": "Ctrl + Right / Alt + Right",
+    "mac": "⌘ Right / ⌥ Right",
     "linux": "—",
     "keywords": [
       "下一个",
@@ -374,8 +374,8 @@
       "zh": "水平方向放大时间轴显示",
       "en": "Zoom in horizontally on timeline"
     },
-    "windows": "Ctrl+=",
-    "mac": "⌘+=",
+    "windows": "Ctrl + =",
+    "mac": "⌘ =",
     "linux": "—",
     "keywords": [
       "水平放大",
@@ -397,8 +397,8 @@
       "zh": "水平方向缩小时间轴显示",
       "en": "Zoom out horizontally on timeline"
     },
-    "windows": "Ctrl+-",
-    "mac": "⌘+-",
+    "windows": "Ctrl + -",
+    "mac": "⌘ -",
     "linux": "—",
     "keywords": [
       "水平缩小",
@@ -419,8 +419,8 @@
       "zh": "垂直方向放大振幅显示（波形视图）",
       "en": "Zoom in vertically on amplitude (Waveform)"
     },
-    "windows": "Alt+=",
-    "mac": "Option+=",
+    "windows": "Alt + =",
+    "mac": "⌥ =",
     "linux": "—",
     "keywords": [
       "垂直放大",
@@ -443,8 +443,8 @@
       "zh": "垂直方向缩小振幅显示（波形视图）",
       "en": "Zoom out vertically on amplitude (Waveform)"
     },
-    "windows": "Alt+-",
-    "mac": "Option+-",
+    "windows": "Alt + -",
+    "mac": "⌥ -",
     "linux": "—",
     "keywords": [
       "垂直缩小",
@@ -465,8 +465,8 @@
       "zh": "缩放以显示全部内容",
       "en": "Zoom to show full waveform/session"
     },
-    "windows": "Ctrl+\\",
-    "mac": "⌘+\\",
+    "windows": "Ctrl + \\",
+    "mac": "⌘ \\",
     "linux": "—",
     "keywords": [
       "全部",
@@ -489,7 +489,7 @@
       "en": "Zoom to show only the selected region"
     },
     "windows": "无默认",
-    "mac": "Option+=",
+    "mac": "⌥ =",
     "linux": "—",
     "keywords": [
       "缩放到选区",
@@ -510,9 +510,9 @@
       "zh": "选择全部波形/全部轨道内容",
       "en": "Select all waveforms/all track content"
     },
-    "windows": "Ctrl+A",
-    "mac": "⌘+A",
-    "linux": "Ctrl+A",
+    "windows": "Ctrl + A",
+    "mac": "⌘ A",
+    "linux": "Ctrl + A",
     "keywords": [
       "全选",
       "select all"
@@ -532,9 +532,9 @@
       "zh": "取消当前选择",
       "en": "Clear current selection"
     },
-    "windows": "Ctrl+Shift+A",
-    "mac": "Shift+⌘+A",
-    "linux": "Ctrl+Shift+A",
+    "windows": "Ctrl + Shift + A",
+    "mac": "⇧ ⌘ A",
+    "linux": "Ctrl + Shift + A",
     "keywords": [
       "取消选择",
       "deselect"
@@ -554,8 +554,8 @@
       "zh": "在播放头位置分割剪辑（多轨视图）",
       "en": "Split clip at playhead position (Multitrack)"
     },
-    "windows": "Ctrl+K / K（切刀工具）",
-    "mac": "⌘+K / K",
+    "windows": "Ctrl + K / K（切刀工具）",
+    "mac": "⌘ K / K",
     "linux": "—",
     "keywords": [
       "分割",
@@ -578,8 +578,8 @@
       "zh": "裁剪选中区域的左边界",
       "en": "Trim the left edge of selection"
     },
-    "windows": "Ctrl+[（波形） / W（多轨）",
-    "mac": "⌘+[（波形） / W（多轨）",
+    "windows": "Ctrl + [（波形） / W（多轨）",
+    "mac": "⌘ [（波形） / W（多轨）",
     "linux": "—",
     "keywords": [
       "裁剪左侧",
@@ -601,8 +601,8 @@
       "zh": "裁剪选中区域的右边界",
       "en": "Trim the right edge of selection"
     },
-    "windows": "Ctrl+]（波形） / Q（多轨）",
-    "mac": "⌘+]（波形） / Q（多轨）",
+    "windows": "Ctrl + ]（波形） / Q（多轨）",
+    "mac": "⌘ ]（波形） / Q（多轨）",
     "linux": "—",
     "keywords": [
       "裁剪右侧",
@@ -623,8 +623,8 @@
       "zh": "开启或关闭吸附到网格/标记的功能",
       "en": "Enable or disable snapping to grid/markers"
     },
-    "windows": "Ctrl+Shift+S（多轨） / S",
-    "mac": "⌘+Shift+S（多轨） / S",
+    "windows": "Ctrl + Shift + S（多轨） / S",
+    "mac": "⌘ ⇧ S（多轨） / S",
     "linux": "—",
     "keywords": [
       "吸附",
@@ -646,9 +646,9 @@
       "zh": "撤销上一步操作",
       "en": "Undo last action"
     },
-    "windows": "Ctrl+Z",
-    "mac": "⌘+Z",
-    "linux": "Ctrl+Z",
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "Ctrl + Z",
     "keywords": [
       "撤销",
       "undo"
@@ -668,8 +668,8 @@
       "zh": "重做被撤销的操作",
       "en": "Redo undone action"
     },
-    "windows": "Ctrl+Shift+Z / Ctrl+Y",
-    "mac": "⌘+Shift+Z / ⌘+Y",
+    "windows": "Ctrl + Shift + Z / Ctrl + Y",
+    "mac": "⌘ ⇧ Z / ⌘ Y",
     "linux": "—",
     "keywords": [
       "重做",
@@ -690,9 +690,9 @@
       "zh": "复制选中内容到剪贴板",
       "en": "Copy selection to clipboard"
     },
-    "windows": "Ctrl+C",
-    "mac": "⌘+C",
-    "linux": "Ctrl+C",
+    "windows": "Ctrl + C",
+    "mac": "⌘ C",
+    "linux": "Ctrl + C",
     "keywords": [
       "复制",
       "copy"
@@ -712,9 +712,9 @@
       "zh": "从剪贴板粘贴内容",
       "en": "Paste from clipboard"
     },
-    "windows": "Ctrl+V",
-    "mac": "⌘+V",
-    "linux": "Ctrl+V",
+    "windows": "Ctrl + V",
+    "mac": "⌘ V",
+    "linux": "Ctrl + V",
     "keywords": [
       "粘贴",
       "paste"
@@ -757,8 +757,8 @@
       "zh": "删除选中区域并让后续内容自动前移填补空隙",
       "en": "Delete selection and ripple-fill the gap"
     },
-    "windows": "Shift+Delete / Shift+Backspace",
-    "mac": "Shift+Delete / Shift+Backspace",
+    "windows": "Shift + Delete / Shift + Backspace",
+    "mac": "⇧ Delete / ⇧ Backspace",
     "linux": "—",
     "keywords": [
       "波纹删除",
@@ -803,8 +803,8 @@
       "zh": "在选中区域开头添加淡入效果",
       "en": "Apply fade-in at beginning of selection"
     },
-    "windows": "Ctrl+Shift+F",
-    "mac": "⌘+Shift+F",
+    "windows": "Ctrl + Shift + F",
+    "mac": "⌘ ⇧ F",
     "linux": "—",
     "keywords": [
       "淡入",
@@ -826,8 +826,8 @@
       "zh": "在选中区域末尾添加淡出效果",
       "en": "Apply fade-out at end of selection"
     },
-    "windows": "Ctrl+Alt+F",
-    "mac": "⌘+Option+F",
+    "windows": "Ctrl + Alt + F",
+    "mac": "⌘ ⌥ F",
     "linux": "—",
     "keywords": [
       "淡出",
@@ -942,8 +942,8 @@
       "zh": "捕捉背景噪声用于降噪处理",
       "en": "Capture background noise for noise reduction"
     },
-    "windows": "Shift+P（波形，需先选纯噪声段）",
-    "mac": "Shift+P",
+    "windows": "Shift + P（波形，需先选纯噪声段）",
+    "mac": "⇧ P",
     "linux": "—",
     "keywords": [
       "降噪",
@@ -1057,8 +1057,8 @@
       "zh": "在当前位置设置入点标记",
       "en": "Set in point marker at current position"
     },
-    "windows": "I（多轨） / Alt+[（波形）",
-    "mac": "I（多轨） / Option+[（波形）",
+    "windows": "I（多轨） / Alt + [（波形）",
+    "mac": "I（多轨） / ⌥ [（波形）",
     "linux": "—",
     "keywords": [
       "入点",
@@ -1080,8 +1080,8 @@
       "zh": "在当前位置设置出点标记",
       "en": "Set out point marker at current position"
     },
-    "windows": "O（多轨） / Alt+]（波形）",
-    "mac": "O（多轨） / Option+]（波形）",
+    "windows": "O（多轨） / Alt + ]（波形）",
+    "mac": "O（多轨） / ⌥ ]（波形）",
     "linux": "—",
     "keywords": [
       "出点",
@@ -1103,7 +1103,7 @@
       "zh": "将选中音频标准化到目标响度/振幅",
       "en": "Normalize selected audio to target loudness/amplitude"
     },
-    "windows": "无默认（菜单/效果面板）",
+    "windows": "无默认（菜单 / 效果面板）",
     "mac": "无默认",
     "linux": "—",
     "keywords": [
@@ -1150,8 +1150,8 @@
       "zh": "在多轨会话中插入新轨道",
       "en": "Insert a new track in multitrack session"
     },
-    "windows": "Ctrl+Shift+T（多轨） / 右键轨道区",
-    "mac": "⌘+Shift+T（多轨）",
+    "windows": "Ctrl + Shift + T（多轨） / 右键轨道区",
+    "mac": "⌘ ⇧ T（多轨）",
     "linux": "—",
     "keywords": [
       "新轨道",

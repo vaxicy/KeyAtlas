@@ -36,9 +36,9 @@
       "zh": "跳到当前数据区域的边缘单元格",
       "en": "Jump to the edge of the current data region"
     },
-    "windows": "Ctrl+方向键",
-    "mac": "⌘+方向键",
-    "linux": "Ctrl+方向键",
+    "windows": "Ctrl + 方向键",
+    "mac": "⌘ 方向键",
+    "linux": "Ctrl + 方向键",
     "keywords": [
       "跳转",
       "边缘",
@@ -60,9 +60,9 @@
       "zh": "按住 Shift 加方向键扩展选区",
       "en": "Extend the selection with Shift+Arrow"
     },
-    "windows": "Shift+方向键",
-    "mac": "Shift+方向键",
-    "linux": "Shift+方向键",
+    "windows": "Shift + 方向键",
+    "mac": "⇧ 方向键",
+    "linux": "Shift + 方向键",
     "keywords": [
       "选择",
       "选区",
@@ -83,9 +83,9 @@
       "zh": "从当前单元格选到数据区域边缘",
       "en": "Extend selection to the edge of the data region"
     },
-    "windows": "Ctrl+Shift+方向键",
-    "mac": "⌘+Shift+方向键",
-    "linux": "Ctrl+Shift+方向键",
+    "windows": "Ctrl + Shift + 方向键",
+    "mac": "⌘ ⇧ 方向键",
+    "linux": "Ctrl + Shift + 方向键",
     "keywords": [
       "选择",
       "选区",
@@ -108,7 +108,7 @@
       "en": "Go to the start or end of the current row"
     },
     "windows": "Home / End",
-    "mac": "⌘+← / ⌘+→",
+    "mac": "⌘ ← / ⌘ →",
     "linux": "Home / End",
     "keywords": [
       "行首",
@@ -132,9 +132,9 @@
       "zh": "跳到整个表格的第一个或最后一个单元格",
       "en": "Go to the first or last cell of the sheet"
     },
-    "windows": "Ctrl+Home / Ctrl+End",
-    "mac": "⌘+Home / ⌘+End",
-    "linux": "Ctrl+Home / Ctrl+End",
+    "windows": "Ctrl + Home / Ctrl + End",
+    "mac": "⌘ Home / ⌘ End",
+    "linux": "Ctrl + Home / Ctrl + End",
     "keywords": [
       "表格",
       "开头",
@@ -182,9 +182,9 @@
       "zh": "在含有下拉选项的单元格中打开列表",
       "en": "Open the dropdown list inside a cell"
     },
-    "windows": "Alt+↓",
-    "mac": "⌥+↓",
-    "linux": "Alt+↓",
+    "windows": "Alt + ↓",
+    "mac": "⌥ ↓",
+    "linux": "Alt + ↓",
     "keywords": [
       "下拉",
       "列表",
@@ -205,9 +205,9 @@
       "zh": "选中整个表格（按两次选中全部内容）",
       "en": "Select the whole sheet (twice for all content)"
     },
-    "windows": "Ctrl+A",
-    "mac": "⌘+A",
-    "linux": "Ctrl+A",
+    "windows": "Ctrl + A",
+    "mac": "⌘ A",
+    "linux": "Ctrl + A",
     "keywords": [
       "全选",
       "select",
@@ -228,9 +228,9 @@
       "zh": "选中当前单元格所在的整行",
       "en": "Select the entire row of the current cell"
     },
-    "windows": "Shift+空格",
-    "mac": "Shift+空格",
-    "linux": "Shift+空格",
+    "windows": "Shift + 空格",
+    "mac": "⇧ 空格",
+    "linux": "Shift + 空格",
     "keywords": [
       "选择行",
       "select",
@@ -251,9 +251,9 @@
       "zh": "选中当前单元格所在的整列",
       "en": "Select the entire column of the current cell"
     },
-    "windows": "Ctrl+空格",
-    "mac": "⌘+空格",
-    "linux": "Ctrl+空格",
+    "windows": "Ctrl + 空格",
+    "mac": "⌘ 空格",
+    "linux": "Ctrl + 空格",
     "keywords": [
       "选择列",
       "select",
@@ -274,9 +274,9 @@
       "zh": "选中当前所有含数据的区域",
       "en": "Select the current data region"
     },
-    "windows": "Ctrl+Shift+空格",
-    "mac": "⌘+Shift+空格",
-    "linux": "Ctrl+Shift+空格",
+    "windows": "Ctrl + Shift + 空格",
+    "mac": "⌘ ⇧ 空格",
+    "linux": "Ctrl + Shift + 空格",
     "keywords": [
       "选择",
       "数据",
@@ -321,9 +321,9 @@
       "zh": "确认输入并移动到上方单元格",
       "en": "Confirm entry and move to the cell above"
     },
-    "windows": "Shift+Enter",
-    "mac": "Shift+Enter",
-    "linux": "Shift+Enter",
+    "windows": "Shift + Enter",
+    "mac": "⇧ Enter",
+    "linux": "Shift + Enter",
     "keywords": [
       "确认",
       "输入",
@@ -367,9 +367,9 @@
       "zh": "确认输入并移动到左侧单元格",
       "en": "Confirm entry and move to the cell on the left"
     },
-    "windows": "Shift+Tab",
-    "mac": "Shift+Tab",
-    "linux": "Shift+Tab",
+    "windows": "Shift + Tab",
+    "mac": "⇧ Tab",
+    "linux": "Shift + Tab",
     "keywords": [
       "确认",
       "tab",
@@ -390,9 +390,9 @@
       "zh": "在单元格中插入今天的日期",
       "en": "Insert today's date into the cell"
     },
-    "windows": "Ctrl+;",
-    "mac": "⌘+;",
-    "linux": "Ctrl+;",
+    "windows": "Ctrl + ;",
+    "mac": "⌘ ;",
+    "linux": "Ctrl + ;",
     "keywords": [
       "日期",
       "date"
@@ -412,9 +412,9 @@
       "zh": "在单元格中插入当前时间",
       "en": "Insert the current time into the cell"
     },
-    "windows": "Ctrl+Shift+;",
-    "mac": "⌘+Shift+;",
-    "linux": "Ctrl+Shift+;",
+    "windows": "Ctrl + Shift + ;",
+    "mac": "⌘ ⇧ ;",
+    "linux": "Ctrl + Shift + ;",
     "keywords": [
       "时间",
       "time"
@@ -434,9 +434,9 @@
       "zh": "在单元格中插入当前日期和时间",
       "en": "Insert the current date and time into the cell"
     },
-    "windows": "Ctrl+Alt+Shift+;",
-    "mac": "⌘+⌥+Shift+;",
-    "linux": "Ctrl+Alt+Shift+;",
+    "windows": "Ctrl + Alt + Shift + ;",
+    "mac": "⌘ ⌥ ⇧ ;",
+    "linux": "Ctrl + Alt + Shift + ;",
     "keywords": [
       "日期",
       "时间",
@@ -502,9 +502,9 @@
       "zh": "将选中文字加粗",
       "en": "Make the selection bold"
     },
-    "windows": "Ctrl+B",
-    "mac": "⌘+B",
-    "linux": "Ctrl+B",
+    "windows": "Ctrl + B",
+    "mac": "⌘ B",
+    "linux": "Ctrl + B",
     "keywords": [
       "加粗",
       "bold"
@@ -524,9 +524,9 @@
       "zh": "将选中文字设为斜体",
       "en": "Make the selection italic"
     },
-    "windows": "Ctrl+I",
-    "mac": "⌘+I",
-    "linux": "Ctrl+I",
+    "windows": "Ctrl + I",
+    "mac": "⌘ I",
+    "linux": "Ctrl + I",
     "keywords": [
       "斜体",
       "italic"
@@ -546,9 +546,9 @@
       "zh": "为选中文字添加下划线",
       "en": "Underline the selection"
     },
-    "windows": "Ctrl+U",
-    "mac": "⌘+U",
-    "linux": "Ctrl+U",
+    "windows": "Ctrl + U",
+    "mac": "⌘ U",
+    "linux": "Ctrl + U",
     "keywords": [
       "下划线",
       "underline"
@@ -568,9 +568,9 @@
       "zh": "为选中文字添加删除线",
       "en": "Strikethrough the selection"
     },
-    "windows": "Alt+Shift+5",
-    "mac": "⌘+Shift+X",
-    "linux": "Alt+Shift+5",
+    "windows": "Alt + Shift + 5",
+    "mac": "⌘ ⇧ X",
+    "linux": "Alt + Shift + 5",
     "keywords": [
       "删除线",
       "strikethrough"
@@ -590,9 +590,9 @@
       "zh": "为选中区域添加外边框",
       "en": "Add borders to the selection"
     },
-    "windows": "Ctrl+Shift+7",
-    "mac": "⌘+Shift+7",
-    "linux": "Ctrl+Shift+7",
+    "windows": "Ctrl + Shift + 7",
+    "mac": "⌘ ⇧ 7",
+    "linux": "Ctrl + Shift + 7",
     "keywords": [
       "边框",
       "border"
@@ -612,9 +612,9 @@
       "zh": "清除选中区域的边框",
       "en": "Remove borders from the selection"
     },
-    "windows": "Ctrl+Shift+_",
-    "mac": "⌘+Shift+_",
-    "linux": "Ctrl+Shift+_",
+    "windows": "Ctrl + Shift + _",
+    "mac": "⌘ ⇧ _",
+    "linux": "Ctrl + Shift + _",
     "keywords": [
       "边框",
       "border",
@@ -635,9 +635,9 @@
       "zh": "将数字设为常规格式",
       "en": "Apply the plain number format"
     },
-    "windows": "Ctrl+Shift+1",
-    "mac": "⌘+Shift+1",
-    "linux": "Ctrl+Shift+1",
+    "windows": "Ctrl + Shift + 1",
+    "mac": "⌘ ⇧ 1",
+    "linux": "Ctrl + Shift + 1",
     "keywords": [
       "数字",
       "格式",
@@ -659,9 +659,9 @@
       "zh": "设为保留两位小数的格式",
       "en": "Apply a two-decimal number format"
     },
-    "windows": "Ctrl+Shift+2",
-    "mac": "⌘+Shift+2",
-    "linux": "Ctrl+Shift+2",
+    "windows": "Ctrl + Shift + 2",
+    "mac": "⌘ ⇧ 2",
+    "linux": "Ctrl + Shift + 2",
     "keywords": [
       "数字",
       "小数",
@@ -683,9 +683,9 @@
       "zh": "设为货币格式",
       "en": "Apply a currency number format"
     },
-    "windows": "Ctrl+Shift+3",
-    "mac": "⌘+Shift+3",
-    "linux": "Ctrl+Shift+3",
+    "windows": "Ctrl + Shift + 3",
+    "mac": "⌘ ⇧ 3",
+    "linux": "Ctrl + Shift + 3",
     "keywords": [
       "货币",
       "数字",
@@ -706,9 +706,9 @@
       "zh": "设为百分比格式",
       "en": "Apply a percent number format"
     },
-    "windows": "Ctrl+Shift+4",
-    "mac": "⌘+Shift+4",
-    "linux": "Ctrl+Shift+4",
+    "windows": "Ctrl + Shift + 4",
+    "mac": "⌘ ⇧ 4",
+    "linux": "Ctrl + Shift + 4",
     "keywords": [
       "百分比",
       "数字",
@@ -729,9 +729,9 @@
       "zh": "设为日期格式",
       "en": "Apply a date number format"
     },
-    "windows": "Ctrl+Shift+5",
-    "mac": "⌘+Shift+5",
-    "linux": "Ctrl+Shift+5",
+    "windows": "Ctrl + Shift + 5",
+    "mac": "⌘ ⇧ 5",
+    "linux": "Ctrl + Shift + 5",
     "keywords": [
       "日期",
       "数字",
@@ -752,9 +752,9 @@
       "zh": "设为时间格式",
       "en": "Apply a time number format"
     },
-    "windows": "Ctrl+Shift+6",
-    "mac": "⌘+Shift+6",
-    "linux": "Ctrl+Shift+6",
+    "windows": "Ctrl + Shift + 6",
+    "mac": "⌘ ⇧ 6",
+    "linux": "Ctrl + Shift + 6",
     "keywords": [
       "时间",
       "数字",
@@ -775,9 +775,9 @@
       "zh": "将内容左对齐",
       "en": "Align content to the left"
     },
-    "windows": "Ctrl+Shift+L",
-    "mac": "⌘+Shift+L",
-    "linux": "Ctrl+Shift+L",
+    "windows": "Ctrl + Shift + L",
+    "mac": "⌘ ⇧ L",
+    "linux": "Ctrl + Shift + L",
     "keywords": [
       "对齐",
       "左",
@@ -799,9 +799,9 @@
       "zh": "将内容水平居中",
       "en": "Center content horizontally"
     },
-    "windows": "Ctrl+Shift+E",
-    "mac": "⌘+Shift+E",
-    "linux": "Ctrl+Shift+E",
+    "windows": "Ctrl + Shift + E",
+    "mac": "⌘ ⇧ E",
+    "linux": "Ctrl + Shift + E",
     "keywords": [
       "对齐",
       "居中",
@@ -823,9 +823,9 @@
       "zh": "将内容右对齐",
       "en": "Align content to the right"
     },
-    "windows": "Ctrl+Shift+R",
-    "mac": "⌘+Shift+R",
-    "linux": "Ctrl+Shift+R",
+    "windows": "Ctrl + Shift + R",
+    "mac": "⌘ ⇧ R",
+    "linux": "Ctrl + Shift + R",
     "keywords": [
       "对齐",
       "右",
@@ -847,9 +847,9 @@
       "zh": "切换单元格文字自动换行",
       "en": "Toggle text wrapping in the cell"
     },
-    "windows": "Ctrl+Shift+W",
-    "mac": "⌘+Shift+W",
-    "linux": "Ctrl+Shift+W",
+    "windows": "Ctrl + Shift + W",
+    "mac": "⌘ ⇧ W",
+    "linux": "Ctrl + Shift + W",
     "keywords": [
       "换行",
       "wrap"
@@ -892,9 +892,9 @@
       "zh": "打开函数插入窗口",
       "en": "Open the function insertion dialog"
     },
-    "windows": "Shift+F3",
-    "mac": "Shift+F3",
-    "linux": "Shift+F3",
+    "windows": "Shift + F3",
+    "mac": "⇧ F3",
+    "linux": "Shift + F3",
     "keywords": [
       "函数",
       "formula",
@@ -915,9 +915,9 @@
       "zh": "对选中区域快速求和",
       "en": "Quickly sum the selected range"
     },
-    "windows": "Alt+Shift+=",
-    "mac": "⌥+Shift+=",
-    "linux": "Alt+Shift+=",
+    "windows": "Alt + Shift + =",
+    "mac": "⌥ ⇧ =",
+    "linux": "Alt + Shift + =",
     "keywords": [
       "求和",
       "sum"
@@ -937,9 +937,9 @@
       "zh": "切换显示公式本身而非计算结果",
       "en": "Toggle showing formulas instead of results"
     },
-    "windows": "Ctrl+`",
-    "mac": "⌘+`",
-    "linux": "Ctrl+`",
+    "windows": "Ctrl + `",
+    "mac": "⌘ `",
+    "linux": "Ctrl + `",
     "keywords": [
       "显示",
       "公式",
@@ -984,9 +984,9 @@
       "zh": "以数组公式方式确认输入",
       "en": "Confirm entry as an array formula"
     },
-    "windows": "Ctrl+Shift+Enter",
-    "mac": "⌘+Shift+Enter",
-    "linux": "Ctrl+Shift+Enter",
+    "windows": "Ctrl + Shift + Enter",
+    "mac": "⌘ ⇧ Enter",
+    "linux": "Ctrl + Shift + Enter",
     "keywords": [
       "数组",
       "公式",
@@ -1008,9 +1008,9 @@
       "zh": "打开所有快捷键的速查列表",
       "en": "Open the full list of keyboard shortcuts"
     },
-    "windows": "Ctrl+/",
-    "mac": "⌘+/",
-    "linux": "Ctrl+/",
+    "windows": "Ctrl / ",
+    "mac": "⌘ / ",
+    "linux": "Ctrl / ",
     "keywords": [
       "快捷键",
       "帮助",
@@ -1032,9 +1032,9 @@
       "zh": "撤销上一步操作",
       "en": "Undo the last action"
     },
-    "windows": "Ctrl+Z",
-    "mac": "⌘+Z",
-    "linux": "Ctrl+Z",
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "Ctrl + Z",
     "keywords": [
       "撤销",
       "undo"
@@ -1054,9 +1054,9 @@
       "zh": "重做已撤销的操作",
       "en": "Redo the last undone action"
     },
-    "windows": "Ctrl+Y",
-    "mac": "⌘+Y",
-    "linux": "Ctrl+Y",
+    "windows": "Ctrl + Y",
+    "mac": "⌘ Y",
+    "linux": "Ctrl + Y",
     "keywords": [
       "重做",
       "redo"
@@ -1076,9 +1076,9 @@
       "zh": "在表格中查找内容",
       "en": "Find content in the sheet"
     },
-    "windows": "Ctrl+F",
-    "mac": "⌘+F",
-    "linux": "Ctrl+F",
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
+    "linux": "Ctrl + F",
     "keywords": [
       "查找",
       "find"
@@ -1098,9 +1098,9 @@
       "zh": "查找并替换表格中的内容",
       "en": "Find and replace content in the sheet"
     },
-    "windows": "Ctrl+H",
-    "mac": "⌘+Shift+H",
-    "linux": "Ctrl+H",
+    "windows": "Ctrl + H",
+    "mac": "⌘ ⇧ H",
+    "linux": "Ctrl + H",
     "keywords": [
       "替换",
       "find",
@@ -1121,9 +1121,9 @@
       "zh": "打开菜单搜索框快速执行命令",
       "en": "Open the menu search box to run commands"
     },
-    "windows": "Alt+/",
-    "mac": "⌥+/",
-    "linux": "Alt+/",
+    "windows": "Alt / ",
+    "mac": "⌥ / ",
+    "linux": "Alt / ",
     "keywords": [
       "菜单",
       "搜索",
@@ -1145,9 +1145,9 @@
       "zh": "打开版本历史记录面板",
       "en": "Open the version history panel"
     },
-    "windows": "Ctrl+Alt+Shift+H",
-    "mac": "⌘+⌥+Shift+H",
-    "linux": "Ctrl+Alt+Shift+H",
+    "windows": "Ctrl + Alt + Shift + H",
+    "mac": "⌘ ⌥ ⇧ H",
+    "linux": "Ctrl + Alt + Shift + H",
     "keywords": [
       "版本",
       "历史",
@@ -1169,9 +1169,9 @@
       "zh": "打开拼写检查工具",
       "en": "Open the spelling check tool"
     },
-    "windows": "Ctrl+Alt+X",
-    "mac": "⌘+⌥+X",
-    "linux": "Ctrl+Alt+X",
+    "windows": "Ctrl + Alt + X",
+    "mac": "⌘ ⌥ X",
+    "linux": "Ctrl + Alt + X",
     "keywords": [
       "拼写",
       "检查",
@@ -1192,9 +1192,9 @@
       "zh": "在当前工作表插入图表",
       "en": "Insert a chart on the current sheet"
     },
-    "windows": "Alt+F1",
-    "mac": "⌥+F1",
-    "linux": "Alt+F1",
+    "windows": "Alt + F1",
+    "mac": "⌥ F1",
+    "linux": "Alt + F1",
     "keywords": [
       "图表",
       "chart"
@@ -1236,9 +1236,9 @@
       "zh": "打开右侧工具面板",
       "en": "Open the side tools panel"
     },
-    "windows": "Ctrl+Alt+Shift+I",
-    "mac": "⌘+⌥+Shift+I",
-    "linux": "Ctrl+Alt+Shift+I",
+    "windows": "Ctrl + Alt + Shift + I",
+    "mac": "⌘ ⌥ ⇧ I",
+    "linux": "Ctrl + Alt + Shift + I",
     "keywords": [
       "工具",
       "面板",
@@ -1260,9 +1260,9 @@
       "zh": "为选中区域添加评论",
       "en": "Add a comment to the selection"
     },
-    "windows": "Ctrl+Alt+M",
-    "mac": "⌘+⌥+M",
-    "linux": "Ctrl+Alt+M",
+    "windows": "Ctrl + Alt + M",
+    "mac": "⌘ ⌥ M",
+    "linux": "Ctrl + Alt + M",
     "keywords": [
       "评论",
       "comment"
@@ -1282,9 +1282,9 @@
       "zh": "为单元格添加备注",
       "en": "Add a note to the cell"
     },
-    "windows": "Shift+F2",
-    "mac": "Shift+F2",
-    "linux": "Shift+F2",
+    "windows": "Shift + F2",
+    "mac": "⇧ F2",
+    "linux": "Shift + F2",
     "keywords": [
       "备注",
       "note"

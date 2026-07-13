@@ -257,9 +257,9 @@
       "zh": "快速查找页面中的链接或文本（仅查找，不打开搜索框）",
       "en": "Quick find link or text on page (find only, no search bar opens)"
     },
-    "windows": "' (单引号) / / (斜杠)",
-    "mac": "' (单引号) / / (斜杠)",
-    "linux": "' (单引号) / / (斜杠)",
+    "windows": "' (单引号) /  / (斜杠)",
+    "mac": "' (单引号) /  / (斜杠)",
+    "linux": "' (单引号) /  / (斜杠)",
     "keywords": [
       "快速查找",
       "quick find",
@@ -666,9 +666,9 @@
       "zh": "放大页面文字（仅文本缩放）",
       "en": "Make text larger (text-only zoom)"
     },
-    "windows": "Ctrl + +",
+    "windows": "Ctrl + =",
     "mac": "⌘",
-    "linux": "Ctrl + +",
+    "linux": "Ctrl + =",
     "keywords": [
       "放大",
       "zoom in",
@@ -734,9 +734,9 @@
       "zh": "整体放大页面（含图片）",
       "en": "Full-page zoom in (including images)"
     },
-    "windows": "Ctrl + + (NumPad)",
+    "windows": "Ctrl + (NumPad)",
     "mac": "⌘   (NumPad)",
-    "linux": "Ctrl + + (NumPad)",
+    "linux": "Ctrl + (NumPad)",
     "keywords": [
       "全页放大",
       "full zoom in"

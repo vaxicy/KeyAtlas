@@ -12,9 +12,9 @@
       "zh": "打开命令面板",
       "en": "Open command palette"
     },
-    "windows": "Ctrl+Shift+P",
-    "mac": "⌘+Shift+P",
-    "linux": "Ctrl+Shift+P",
+    "windows": "Ctrl + Shift + P",
+    "mac": "⌘ ⇧ P",
+    "linux": "Ctrl + Shift + P",
     "keywords": [
       "命令面板",
       "command"
@@ -34,9 +34,9 @@
       "zh": "用 AI 就地生成或修改代码",
       "en": "Generate or edit code inline with AI"
     },
-    "windows": "Ctrl+K",
-    "mac": "⌘+K",
-    "linux": "Ctrl+K",
+    "windows": "Ctrl + K",
+    "mac": "⌘ K",
+    "linux": "Ctrl + K",
     "keywords": [
       "生成",
       "generate",
@@ -58,9 +58,9 @@
       "zh": "打开 Cursor 聊天",
       "en": "Open AI chat"
     },
-    "windows": "Ctrl+L",
-    "mac": "⌘+L",
-    "linux": "Ctrl+L",
+    "windows": "Ctrl + L",
+    "mac": "⌘ L",
+    "linux": "Ctrl + L",
     "keywords": [
       "聊天",
       "chat",
@@ -81,9 +81,9 @@
       "zh": "打开 Composer 编写区",
       "en": "Open composer"
     },
-    "windows": "Ctrl+I",
-    "mac": "⌘+I",
-    "linux": "Ctrl+I",
+    "windows": "Ctrl + I",
+    "mac": "⌘ I",
+    "linux": "Ctrl + I",
     "keywords": [
       "composer",
       "编写",
@@ -104,9 +104,9 @@
       "zh": "将选中代码作为上下文加入聊天",
       "en": "Add selected code to chat"
     },
-    "windows": "Ctrl+Shift+L",
-    "mac": "⌘+Shift+L",
-    "linux": "Ctrl+Shift+L",
+    "windows": "Ctrl + Shift + L",
+    "mac": "⌘ ⇧ L",
+    "linux": "Ctrl + Shift + L",
     "keywords": [
       "上下文",
       "context",
@@ -127,9 +127,9 @@
       "zh": "打开 Cursor 专属设置",
       "en": "Open Cursor settings"
     },
-    "windows": "Ctrl+Shift+J",
-    "mac": "⌘+Shift+J",
-    "linux": "Ctrl+Shift+J",
+    "windows": "Ctrl + Shift + J",
+    "mac": "⌘ ⇧ J",
+    "linux": "Ctrl + Shift + J",
     "keywords": [
       "设置",
       "settings",
@@ -173,9 +173,9 @@
       "zh": "打开文件资源管理器",
       "en": "Open explorer"
     },
-    "windows": "Ctrl+Shift+E",
-    "mac": "⌘+Shift+E",
-    "linux": "Ctrl+Shift+E",
+    "windows": "Ctrl + Shift + E",
+    "mac": "⌘ ⇧ E",
+    "linux": "Ctrl + Shift + E",
     "keywords": [
       "资源管理器",
       "explorer",
@@ -196,9 +196,9 @@
       "zh": "跨文件全局搜索",
       "en": "Search across files"
     },
-    "windows": "Ctrl+Shift+F",
-    "mac": "⌘+Shift+F",
-    "linux": "Ctrl+Shift+F",
+    "windows": "Ctrl + Shift + F",
+    "mac": "⌘ ⇧ F",
+    "linux": "Ctrl + Shift + F",
     "keywords": [
       "搜索",
       "search"
@@ -218,9 +218,9 @@
       "zh": "打开 Git 面板",
       "en": "Open source control"
     },
-    "windows": "Ctrl+Shift+G",
-    "mac": "⌘+Shift+G",
-    "linux": "Ctrl+Shift+G",
+    "windows": "Ctrl + Shift + G",
+    "mac": "⌘ ⇧ G",
+    "linux": "Ctrl + Shift + G",
     "keywords": [
       "源代码",
       "git",
@@ -241,9 +241,9 @@
       "zh": "打开运行面板",
       "en": "Open run panel"
     },
-    "windows": "Ctrl+Shift+D",
-    "mac": "⌘+Shift+D",
-    "linux": "Ctrl+Shift+D",
+    "windows": "Ctrl + Shift + D",
+    "mac": "⌘ ⇧ D",
+    "linux": "Ctrl + Shift + D",
     "keywords": [
       "运行",
       "debug",
@@ -264,9 +264,9 @@
       "zh": "打开扩展市场",
       "en": "Open extensions"
     },
-    "windows": "Ctrl+Shift+X",
-    "mac": "⌘+Shift+X",
-    "linux": "Ctrl+Shift+X",
+    "windows": "Ctrl + Shift + X",
+    "mac": "⌘ ⇧ X",
+    "linux": "Ctrl + Shift + X",
     "keywords": [
       "扩展",
       "extensions"
@@ -286,9 +286,9 @@
       "zh": "打开终端",
       "en": "Open terminal"
     },
-    "windows": "Ctrl+`",
-    "mac": "⌘+`",
-    "linux": "Ctrl+`",
+    "windows": "Ctrl + `",
+    "mac": "⌘ `",
+    "linux": "Ctrl + `",
     "keywords": [
       "终端",
       "terminal"
@@ -308,9 +308,9 @@
       "zh": "新建文件",
       "en": "New file"
     },
-    "windows": "Ctrl+N",
-    "mac": "⌘+N",
-    "linux": "Ctrl+N",
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
+    "linux": "Ctrl + N",
     "keywords": [
       "新建文件",
       "new file"
@@ -330,9 +330,9 @@
       "zh": "保存文件",
       "en": "Save file"
     },
-    "windows": "Ctrl+S",
-    "mac": "⌘+S",
-    "linux": "Ctrl+S",
+    "windows": "Ctrl + S",
+    "mac": "⌘ S",
+    "linux": "Ctrl + S",
     "keywords": [
       "保存",
       "save"
@@ -352,9 +352,9 @@
       "zh": "格式化文档",
       "en": "Format document"
     },
-    "windows": "Shift+Alt+F",
-    "mac": "Shift+Option+F",
-    "linux": "Shift+Alt+F",
+    "windows": "Shift + Alt + F",
+    "mac": "⇧ ⌥ F",
+    "linux": "Shift + Alt + F",
     "keywords": [
       "格式化",
       "format"
@@ -374,9 +374,9 @@
       "zh": "在可用 AI 模型间循环切换（Cursor 官方键位，非注释）",
       "en": "Cycle through available AI models (Cursor's official binding, not comment toggle)"
     },
-    "windows": "Ctrl+/",
-    "mac": "⌘+/",
-    "linux": "Ctrl+/",
+    "windows": "Ctrl / ",
+    "mac": "⌘ / ",
+    "linux": "Ctrl / ",
     "keywords": [
       "AI",
       "模型",
@@ -398,9 +398,9 @@
       "zh": "查找",
       "en": "Find"
     },
-    "windows": "Ctrl+F",
-    "mac": "⌘+F",
-    "linux": "Ctrl+F",
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
+    "linux": "Ctrl + F",
     "keywords": [
       "查找",
       "find"
@@ -420,9 +420,9 @@
       "zh": "替换",
       "en": "Replace"
     },
-    "windows": "Ctrl+H",
-    "mac": "⌘+H",
-    "linux": "Ctrl+H",
+    "windows": "Ctrl + H",
+    "mac": "⌘ H",
+    "linux": "Ctrl + H",
     "keywords": [
       "替换",
       "replace"
@@ -442,9 +442,9 @@
       "zh": "快速打开文件",
       "en": "Quick open file"
     },
-    "windows": "Ctrl+P",
-    "mac": "⌘+P",
-    "linux": "Ctrl+P",
+    "windows": "Ctrl + P",
+    "mac": "⌘ P",
+    "linux": "Ctrl + P",
     "keywords": [
       "快速打开",
       "quick open"
@@ -464,9 +464,9 @@
       "zh": "在下方添加光标",
       "en": "Add cursor below"
     },
-    "windows": "Ctrl+Alt+Down",
-    "mac": "⌘+Option+Down",
-    "linux": "Ctrl+Alt+Down",
+    "windows": "Ctrl + Alt + Down",
+    "mac": "⌘ ⌥ Down",
+    "linux": "Ctrl + Alt + Down",
     "keywords": [
       "多光标",
       "multicursor"
@@ -486,9 +486,9 @@
       "zh": "拆分编辑窗口",
       "en": "Split editor"
     },
-    "windows": "Ctrl+\\",
-    "mac": "⌘+\\",
-    "linux": "Ctrl+\\",
+    "windows": "Ctrl + \\",
+    "mac": "⌘ \\",
+    "linux": "Ctrl + \\",
     "keywords": [
       "拆分",
       "split"
@@ -508,9 +508,9 @@
       "zh": "撤销",
       "en": "Undo"
     },
-    "windows": "Ctrl+Z",
-    "mac": "⌘+Z",
-    "linux": "Ctrl+Z",
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "Ctrl + Z",
     "keywords": [
       "撤销",
       "undo"
@@ -530,9 +530,9 @@
       "zh": "重做",
       "en": "Redo"
     },
-    "windows": "Ctrl+Shift+Z",
-    "mac": "⌘+Shift+Z",
-    "linux": "Ctrl+Shift+Z",
+    "windows": "Ctrl + Shift + Z",
+    "mac": "⌘ ⇧ Z",
+    "linux": "Ctrl + Shift + Z",
     "keywords": [
       "重做",
       "redo"
@@ -552,9 +552,9 @@
       "zh": "打开设置",
       "en": "Open settings"
     },
-    "windows": "Ctrl+,",
-    "mac": "⌘+,",
-    "linux": "Ctrl+,",
+    "windows": "Ctrl + ,",
+    "mac": "⌘ ,",
+    "linux": "Ctrl + ,",
     "keywords": [
       "设置",
       "settings"

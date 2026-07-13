@@ -336,9 +336,9 @@
       "zh": "放大画布",
       "en": "Zoom in on the canvas"
     },
-    "windows": "⌘+",
-    "mac": "⌘+",
-    "linux": "⌘+",
+    "windows": "⌘",
+    "mac": "⌘",
+    "linux": "⌘",
     "keywords": [
       "放大",
       "缩放",
@@ -1436,9 +1436,9 @@
       "zh": "增大所选文本字号",
       "en": "Increase the font size"
     },
-    "windows": "⌥⌘+",
-    "mac": "⌥⌘+",
-    "linux": "⌥⌘+",
+    "windows": "⌥⌘",
+    "mac": "⌥⌘",
+    "linux": "⌥⌘",
     "keywords": [
       "字号",
       "增大",

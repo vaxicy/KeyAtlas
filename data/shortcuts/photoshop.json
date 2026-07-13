@@ -12,9 +12,9 @@
       "zh": "创建新文档",
       "en": "Create new document"
     },
-    "windows": "Ctrl+N",
-    "mac": "⌘+N",
-    "linux": "Ctrl+N",
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
+    "linux": "Ctrl + N",
     "keywords": [
       "新建",
       "new",
@@ -35,9 +35,9 @@
       "zh": "打开已有文件",
       "en": "Open existing file"
     },
-    "windows": "Ctrl+O",
-    "mac": "⌘+O",
-    "linux": "Ctrl+O",
+    "windows": "Ctrl + O",
+    "mac": "⌘ O",
+    "linux": "Ctrl + O",
     "keywords": [
       "打开",
       "open"
@@ -57,9 +57,9 @@
       "zh": "在 Adobe Bridge 中浏览文件",
       "en": "Browse files in Adobe Bridge"
     },
-    "windows": "Ctrl+Alt+O",
-    "mac": "⌘+Option+O",
-    "linux": "Ctrl+Alt+O",
+    "windows": "Ctrl + Alt + O",
+    "mac": "⌘ ⌥ O",
+    "linux": "Ctrl + Alt + O",
     "keywords": [
       "浏览",
       "browse",
@@ -80,9 +80,9 @@
       "zh": "关闭当前文件",
       "en": "Close current file"
     },
-    "windows": "Ctrl+W",
-    "mac": "⌘+W",
-    "linux": "Ctrl+W",
+    "windows": "Ctrl + W",
+    "mac": "⌘ W",
+    "linux": "Ctrl + W",
     "keywords": [
       "关闭",
       "close"
@@ -102,9 +102,9 @@
       "zh": "关闭所有打开的文件",
       "en": "Close all open files"
     },
-    "windows": "Ctrl+Alt+W",
-    "mac": "⌘+Option+W",
-    "linux": "Ctrl+Alt+W",
+    "windows": "Ctrl + Alt + W",
+    "mac": "⌘ ⌥ W",
+    "linux": "Ctrl + Alt + W",
     "keywords": [
       "全部关闭",
       "close all"
@@ -124,9 +124,9 @@
       "zh": "保存当前文件",
       "en": "Save current file"
     },
-    "windows": "Ctrl+S",
-    "mac": "⌘+S",
-    "linux": "Ctrl+S",
+    "windows": "Ctrl + S",
+    "mac": "⌘ S",
+    "linux": "Ctrl + S",
     "keywords": [
       "保存",
       "save"
@@ -146,9 +146,9 @@
       "zh": "另存为新文件",
       "en": "Save as new file"
     },
-    "windows": "Ctrl+Shift+S",
-    "mac": "⌘+Shift+S",
-    "linux": "Ctrl+Shift+S",
+    "windows": "Ctrl + Shift + S",
+    "mac": "⌘ ⇧ S",
+    "linux": "Ctrl + Shift + S",
     "keywords": [
       "另存为",
       "save as"
@@ -168,9 +168,9 @@
       "zh": "打开导出为对话框",
       "en": "Open Export As dialog"
     },
-    "windows": "Ctrl+Alt+Shift+W",
-    "mac": "⌘+Option+Shift+W",
-    "linux": "Ctrl+Alt+Shift+W",
+    "windows": "Ctrl + Alt + Shift + W",
+    "mac": "⌘ ⌥ ⇧ W",
+    "linux": "Ctrl + Alt + Shift + W",
     "keywords": [
       "导出",
       "export"
@@ -190,9 +190,9 @@
       "zh": "打开打印对话框",
       "en": "Open print dialog"
     },
-    "windows": "Ctrl+P",
-    "mac": "⌘+P",
-    "linux": "Ctrl+P",
+    "windows": "Ctrl + P",
+    "mac": "⌘ P",
+    "linux": "Ctrl + P",
     "keywords": [
       "打印",
       "print"
@@ -212,9 +212,9 @@
       "zh": "撤销上一步操作",
       "en": "Undo last step"
     },
-    "windows": "Ctrl+Z",
-    "mac": "⌘+Z",
-    "linux": "Ctrl+Z",
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "Ctrl + Z",
     "keywords": [
       "撤销",
       "undo"
@@ -234,9 +234,9 @@
       "zh": "重做 / 前进一步",
       "en": "Step forward / redo"
     },
-    "windows": "Alt+Ctrl+Z",
-    "mac": "⌥+⌘+Z",
-    "linux": "Alt+Ctrl+Z",
+    "windows": "Alt + Ctrl + Z",
+    "mac": "⌥ ⌘ Z",
+    "linux": "Alt + Ctrl + Z",
     "keywords": [
       "重做",
       "redo",
@@ -257,9 +257,9 @@
       "zh": "后退一步历史记录",
       "en": "Step backward in history"
     },
-    "windows": "Shift+Alt+Ctrl+Z",
-    "mac": "Shift+⌥+⌘+Z",
-    "linux": "Shift+Alt+Ctrl+Z",
+    "windows": "Shift + Alt + Ctrl + Z",
+    "mac": "⇧ ⌥ ⌘ Z",
+    "linux": "Shift + Alt + Ctrl + Z",
     "keywords": [
       "后退",
       "step backward"
@@ -279,9 +279,9 @@
       "zh": "渐隐上一步操作的效果",
       "en": "Fade last operation"
     },
-    "windows": "Shift+Ctrl+F",
-    "mac": "Shift+⌘+F",
-    "linux": "Shift+Ctrl+F",
+    "windows": "Shift + Ctrl + F",
+    "mac": "⇧ ⌘ F",
+    "linux": "Shift + Ctrl + F",
     "keywords": [
       "渐隐",
       "fade"
@@ -301,9 +301,9 @@
       "zh": "剪切选中内容到剪贴板",
       "en": "Cut selection to clipboard"
     },
-    "windows": "Ctrl+X",
-    "mac": "⌘+X",
-    "linux": "Ctrl+X",
+    "windows": "Ctrl + X",
+    "mac": "⌘ X",
+    "linux": "Ctrl + X",
     "keywords": [
       "剪切",
       "cut"
@@ -323,9 +323,9 @@
       "zh": "复制选区内容",
       "en": "Copy selection"
     },
-    "windows": "Ctrl+C",
-    "mac": "⌘+C",
-    "linux": "Ctrl+C",
+    "windows": "Ctrl + C",
+    "mac": "⌘ C",
+    "linux": "Ctrl + C",
     "keywords": [
       "复制",
       "copy"
@@ -345,9 +345,9 @@
       "zh": "合并可见图层后复制",
       "en": "Copy merged visible layers"
     },
-    "windows": "Shift+Ctrl+C",
-    "mac": "Shift+⌘+C",
-    "linux": "Shift+Ctrl+C",
+    "windows": "Shift + Ctrl + C",
+    "mac": "⇧ ⌘ C",
+    "linux": "Shift + Ctrl + C",
     "keywords": [
       "合并拷贝",
       "copy merged"
@@ -367,9 +367,9 @@
       "zh": "粘贴剪贴板内容",
       "en": "Paste from clipboard"
     },
-    "windows": "Ctrl+V",
-    "mac": "⌘+V",
-    "linux": "Ctrl+V",
+    "windows": "Ctrl + V",
+    "mac": "⌘ V",
+    "linux": "Ctrl + V",
     "keywords": [
       "粘贴",
       "paste"
@@ -389,9 +389,9 @@
       "zh": "打开选择性粘贴菜单",
       "en": "Open paste special menu"
     },
-    "windows": "Shift+Ctrl+V",
-    "mac": "Shift+⌘+V",
-    "linux": "Shift+Ctrl+V",
+    "windows": "Shift + Ctrl + V",
+    "mac": "⇧ ⌘ V",
+    "linux": "Shift + Ctrl + V",
     "keywords": [
       "选择性粘贴",
       "paste special"
@@ -411,9 +411,9 @@
       "zh": "有选区时打开填充对话框（含内容识别填充）",
       "en": "Open Fill dialog with selection (Content-Aware)"
     },
-    "windows": "Shift+F5",
-    "mac": "Shift+F5",
-    "linux": "Shift+F5",
+    "windows": "Shift + F5",
+    "mac": "⇧ F5",
+    "linux": "Shift + F5",
     "keywords": [
       "填充",
       "fill",
@@ -435,9 +435,9 @@
       "zh": "用前景色填充选区（备选：Alt+Backspace）",
       "en": "Fill selection with foreground color (alt: Alt+Backspace)"
     },
-    "windows": "Alt+Delete",
-    "mac": "Option+Delete",
-    "linux": "Alt+Delete",
+    "windows": "Alt + Delete",
+    "mac": "⌥ Delete",
+    "linux": "Alt + Delete",
     "keywords": [
       "填充前景色",
       "fill foreground"
@@ -457,9 +457,9 @@
       "zh": "用背景色填充选区（备选：Ctrl+Backspace）",
       "en": "Fill selection with background color (alt: Ctrl+Backspace)"
     },
-    "windows": "Ctrl+Delete",
-    "mac": "⌘+Delete",
-    "linux": "Ctrl+Delete",
+    "windows": "Ctrl + Delete",
+    "mac": "⌘ Delete",
+    "linux": "Ctrl + Delete",
     "keywords": [
       "填充背景色",
       "fill background"
@@ -479,9 +479,9 @@
       "zh": "对选区进行描边",
       "en": "Stroke the selection"
     },
-    "windows": "Alt+E+S",
-    "mac": "⌥+E+S",
-    "linux": "Alt+E+S",
+    "windows": "Alt + E + S",
+    "mac": "⌥ E S",
+    "linux": "Alt + E + S",
     "keywords": [
       "描边",
       "stroke"
@@ -501,9 +501,9 @@
       "zh": "自由变换选中内容",
       "en": "Free transform selection"
     },
-    "windows": "Ctrl+T",
-    "mac": "⌘+T",
-    "linux": "Ctrl+T",
+    "windows": "Ctrl + T",
+    "mac": "⌘ T",
+    "linux": "Ctrl + T",
     "keywords": [
       "变换",
       "transform"
@@ -523,9 +523,9 @@
       "zh": "重复上一次变换",
       "en": "Repeat last transform"
     },
-    "windows": "Ctrl+Shift+T",
-    "mac": "⌘+Shift+T",
-    "linux": "Ctrl+Shift+T",
+    "windows": "Ctrl + Shift + T",
+    "mac": "⌘ ⇧ T",
+    "linux": "Ctrl + Shift + T",
     "keywords": [
       "再次变换",
       "transform again"
@@ -545,9 +545,9 @@
       "zh": "选择画布全部内容",
       "en": "Select all on canvas"
     },
-    "windows": "Ctrl+A",
-    "mac": "⌘+A",
-    "linux": "Ctrl+A",
+    "windows": "Ctrl + A",
+    "mac": "⌘ A",
+    "linux": "Ctrl + A",
     "keywords": [
       "全选",
       "select all"
@@ -567,9 +567,9 @@
       "zh": "取消当前选区",
       "en": "Deselect current selection"
     },
-    "windows": "Ctrl+D",
-    "mac": "⌘+D",
-    "linux": "Ctrl+D",
+    "windows": "Ctrl + D",
+    "mac": "⌘ D",
+    "linux": "Ctrl + D",
     "keywords": [
       "取消选择",
       "deselect"
@@ -589,9 +589,9 @@
       "zh": "恢复上次取消的选区",
       "en": "Restore last deselection"
     },
-    "windows": "Shift+Ctrl+D",
-    "mac": "Shift+⌘+D",
-    "linux": "Shift+Ctrl+D",
+    "windows": "Shift + Ctrl + D",
+    "mac": "⇧ ⌘ D",
+    "linux": "Shift + Ctrl + D",
     "keywords": [
       "重新选择",
       "reselect"
@@ -611,9 +611,9 @@
       "zh": "反转选区（选中未选部分）",
       "en": "Invert selection"
     },
-    "windows": "Shift+Ctrl+I",
-    "mac": "Shift+⌘+I",
-    "linux": "Shift+Ctrl+I",
+    "windows": "Shift + Ctrl + I",
+    "mac": "⇧ ⌘ I",
+    "linux": "Shift + Ctrl + I",
     "keywords": [
       "反选",
       "inverse"
@@ -633,9 +633,9 @@
       "zh": "羽化选区边缘使其柔和",
       "en": "Soften selection edges"
     },
-    "windows": "Shift+F6",
-    "mac": "Shift+F6",
-    "linux": "Shift+F6",
+    "windows": "Shift + F6",
+    "mac": "⇧ F6",
+    "linux": "Shift + F6",
     "keywords": [
       "羽化",
       "feather"
@@ -655,9 +655,9 @@
       "zh": "选中所有图层",
       "en": "Select all layers"
     },
-    "windows": "Alt+Ctrl+A",
-    "mac": "⌥+⌘+A",
-    "linux": "Alt+Ctrl+A",
+    "windows": "Alt + Ctrl + A",
+    "mac": "⌥ ⌘ A",
+    "linux": "Alt + Ctrl + A",
     "keywords": [
       "所有图层",
       "all layers"
@@ -677,9 +677,9 @@
       "zh": "切换选区边缘、参考线等额外内容显示",
       "en": "Toggle selection edges, guides and other extras"
     },
-    "windows": "Ctrl+H",
-    "mac": "⌘+H",
-    "linux": "Ctrl+H",
+    "windows": "Ctrl + H",
+    "mac": "⌘ H",
+    "linux": "Ctrl + H",
     "keywords": [
       "额外内容",
       "extras"
@@ -699,9 +699,9 @@
       "zh": "放大画布视图",
       "en": "Zoom in canvas"
     },
-    "windows": "Ctrl++",
-    "mac": "⌘++",
-    "linux": "Ctrl++",
+    "windows": "Ctrl + =",
+    "mac": "⌘ =",
+    "linux": "Ctrl + =",
     "keywords": [
       "放大",
       "zoom in"
@@ -721,9 +721,9 @@
       "zh": "缩小画布视图",
       "en": "Zoom out canvas"
     },
-    "windows": "Ctrl+-",
-    "mac": "⌘+-",
-    "linux": "Ctrl+-",
+    "windows": "Ctrl + -",
+    "mac": "⌘ -",
+    "linux": "Ctrl + -",
     "keywords": [
       "缩小",
       "zoom out"
@@ -743,9 +743,9 @@
       "zh": "缩放图像以适合屏幕",
       "en": "Fit image on screen"
     },
-    "windows": "Ctrl+0",
-    "mac": "⌘+0",
-    "linux": "Ctrl+0",
+    "windows": "Ctrl + 0",
+    "mac": "⌘ 0",
+    "linux": "Ctrl + 0",
     "keywords": [
       "适合",
       "fit"
@@ -765,9 +765,9 @@
       "zh": "以100%显示实际像素大小",
       "en": "View at actual pixel size (100%)"
     },
-    "windows": "Ctrl+1",
-    "mac": "⌘+1",
-    "linux": "Ctrl+1",
+    "windows": "Ctrl + 1",
+    "mac": "⌘ 1",
+    "linux": "Ctrl + 1",
     "keywords": [
       "100%",
       "实际像素",
@@ -810,9 +810,9 @@
       "zh": "显示或隐藏标尺",
       "en": "Show or hide rulers"
     },
-    "windows": "Ctrl+R",
-    "mac": "⌘+R",
-    "linux": "Ctrl+R",
+    "windows": "Ctrl + R",
+    "mac": "⌘ R",
+    "linux": "Ctrl + R",
     "keywords": [
       "标尺",
       "rulers"
@@ -832,9 +832,9 @@
       "zh": "开启或关闭对齐吸附",
       "en": "Toggle snap"
     },
-    "windows": "Shift+Ctrl+;",
-    "mac": "Shift+⌘+;",
-    "linux": "Shift+Ctrl+;",
+    "windows": "Shift + Ctrl + ;",
+    "mac": "⇧ ⌘ ;",
+    "linux": "Shift + Ctrl + ;",
     "keywords": [
       "对齐",
       "snap"
@@ -854,9 +854,9 @@
       "zh": "锁定或解锁参考线",
       "en": "Lock or unlock guides"
     },
-    "windows": "Alt+Ctrl+;",
-    "mac": "⌥+⌘+;",
-    "linux": "Alt+Ctrl+;",
+    "windows": "Alt + Ctrl + ;",
+    "mac": "⌥ ⌘ ;",
+    "linux": "Alt + Ctrl + ;",
     "keywords": [
       "参考线",
       "guides"
@@ -876,9 +876,9 @@
       "zh": "新建一条参考线",
       "en": "Create a new guide"
     },
-    "windows": "Alt+Ctrl+G",
-    "mac": "⌥+⌘+G",
-    "linux": "Alt+Ctrl+G",
+    "windows": "Alt + Ctrl + G",
+    "mac": "⌥ ⌘ G",
+    "linux": "Alt + Ctrl + G",
     "keywords": [
       "新建参考线",
       "new guide"
@@ -1305,9 +1305,9 @@
       "zh": "创建一个新图层",
       "en": "Create a new layer"
     },
-    "windows": "Ctrl+Shift+N",
-    "mac": "⌘+Shift+N",
-    "linux": "Ctrl+Shift+N",
+    "windows": "Ctrl + Shift + N",
+    "mac": "⌘ ⇧ N",
+    "linux": "Ctrl + Shift + N",
     "keywords": [
       "图层",
       "layer"
@@ -1327,9 +1327,9 @@
       "zh": "复制当前选区或图层到新图层",
       "en": "Copy current selection or layer to new layer"
     },
-    "windows": "Ctrl+J",
-    "mac": "⌘+J",
-    "linux": "Ctrl+J",
+    "windows": "Ctrl + J",
+    "mac": "⌘ J",
+    "linux": "Ctrl + J",
     "keywords": [
       "复制图层",
       "duplicate layer"
@@ -1349,9 +1349,9 @@
       "zh": "将图层放入新组",
       "en": "Group layers into folder"
     },
-    "windows": "Ctrl+G",
-    "mac": "⌘+G",
-    "linux": "Ctrl+G",
+    "windows": "Ctrl + G",
+    "mac": "⌘ G",
+    "linux": "Ctrl + G",
     "keywords": [
       "图层组",
       "group"
@@ -1371,9 +1371,9 @@
       "zh": "取消图层组的编组",
       "en": "Ungroup layers"
     },
-    "windows": "Ctrl+Shift+G",
-    "mac": "⌘+Shift+G",
-    "linux": "Ctrl+Shift+G",
+    "windows": "Ctrl + Shift + G",
+    "mac": "⌘ ⇧ G",
+    "linux": "Ctrl + Shift + G",
     "keywords": [
       "取消编组",
       "ungroup"
@@ -1393,9 +1393,9 @@
       "zh": "合并选中的图层",
       "en": "Merge selected layers"
     },
-    "windows": "Ctrl+E",
-    "mac": "⌘+E",
-    "linux": "Ctrl+E",
+    "windows": "Ctrl + E",
+    "mac": "⌘ E",
+    "linux": "Ctrl + E",
     "keywords": [
       "合并",
       "merge"
@@ -1415,9 +1415,9 @@
       "zh": "合并所有可见图层",
       "en": "Merge all visible layers"
     },
-    "windows": "Ctrl+Shift+E",
-    "mac": "⌘+Shift+E",
-    "linux": "Ctrl+Shift+E",
+    "windows": "Ctrl + Shift + E",
+    "mac": "⌘ ⇧ E",
+    "linux": "Ctrl + Shift + E",
     "keywords": [
       "合并可见",
       "merge visible"
@@ -1437,9 +1437,9 @@
       "zh": "将所有图层合并为一个背景层（盖印图层）",
       "en": "Merge all layers into one background (stamp visible)"
     },
-    "windows": "Alt+Ctrl+Shift+E",
-    "mac": "⌥+⌘+Shift+E",
-    "linux": "Alt+Ctrl+Shift+E",
+    "windows": "Alt + Ctrl + Shift + E",
+    "mac": "⌥ ⌘ ⇧ E",
+    "linux": "Alt + Ctrl + Shift + E",
     "keywords": [
       "拼合",
       "flatten",
@@ -1461,8 +1461,8 @@
       "zh": "通过图层面板底部半黑圆图标新建填充图层",
       "en": "New fill layer via half-black circle icon"
     },
-    "windows": "无默认(Alt+点击图标)",
-    "mac": "无默认(Option+点击图标)",
+    "windows": "无默认(Alt + 点击图标)",
+    "mac": "无默认(Option 点击图标)",
     "linux": "无默认",
     "keywords": [
       "填充图层",
@@ -1505,9 +1505,9 @@
       "zh": "打开色阶调整",
       "en": "Open Levels adjustment"
     },
-    "windows": "Ctrl+L",
-    "mac": "⌘+L",
-    "linux": "Ctrl+L",
+    "windows": "Ctrl + L",
+    "mac": "⌘ L",
+    "linux": "Ctrl + L",
     "keywords": [
       "色阶",
       "levels"
@@ -1527,9 +1527,9 @@
       "zh": "打开曲线调整",
       "en": "Open Curves adjustment"
     },
-    "windows": "Ctrl+M",
-    "mac": "⌘+M",
-    "linux": "Ctrl+M",
+    "windows": "Ctrl + M",
+    "mac": "⌘ M",
+    "linux": "Ctrl + M",
     "keywords": [
       "曲线",
       "curves"
@@ -1549,9 +1549,9 @@
       "zh": "打开色相饱和度调整",
       "en": "Open Hue/Saturation"
     },
-    "windows": "Ctrl+U",
-    "mac": "⌘+U",
-    "linux": "Ctrl+U",
+    "windows": "Ctrl + U",
+    "mac": "⌘ U",
+    "linux": "Ctrl + U",
     "keywords": [
       "色相",
       "hue",
@@ -1572,9 +1572,9 @@
       "zh": "打开色彩平衡调整",
       "en": "Open Color Balance"
     },
-    "windows": "Ctrl+B",
-    "mac": "⌘+B",
-    "linux": "Ctrl+B",
+    "windows": "Ctrl + B",
+    "mac": "⌘ B",
+    "linux": "Ctrl + B",
     "keywords": [
       "色彩平衡",
       "color balance"
@@ -1594,9 +1594,9 @@
       "zh": "反转颜色",
       "en": "Invert colors"
     },
-    "windows": "Ctrl+I",
-    "mac": "⌘+I",
-    "linux": "Ctrl+I",
+    "windows": "Ctrl + I",
+    "mac": "⌘ I",
+    "linux": "Ctrl + I",
     "keywords": [
       "反相",
       "invert"
@@ -1616,9 +1616,9 @@
       "zh": "去除彩色转为灰度",
       "en": "Remove color (grayscale)"
     },
-    "windows": "Ctrl+Shift+U",
-    "mac": "⌘+Shift+U",
-    "linux": "Ctrl+Shift+U",
+    "windows": "Ctrl + Shift + U",
+    "mac": "⌘ ⇧ U",
+    "linux": "Ctrl + Shift + U",
     "keywords": [
       "去色",
       "desaturate",
@@ -1639,9 +1639,9 @@
       "zh": "打开阴影/高光调整",
       "en": "Open Shadow/Highlight adjustment"
     },
-    "windows": "Alt+Shift+Ctrl+M",
-    "mac": "⌥+Shift+⌘+M",
-    "linux": "Alt+Shift+Ctrl+M",
+    "windows": "Alt + Shift + Ctrl + M",
+    "mac": "⌥ ⇧ ⌘ M",
+    "linux": "Alt + Shift + Ctrl + M",
     "keywords": [
       "阴影高光",
       "shadow highlight"
@@ -1661,9 +1661,9 @@
       "zh": "Shift++/- 在混合模式间切换（正常/溶解等）",
       "en": "Shift++/- to cycle blend modes"
     },
-    "windows": "Shift++ / Shift+-",
-    "mac": "Shift++ / Shift+-",
-    "linux": "Shift++ / Shift+-",
+    "windows": "Shift + = / Shift + -",
+    "mac": "⇧ = / ⇧ -",
+    "linux": "Shift + = / Shift + -",
     "keywords": [
       "混合模式",
       "blend mode"
@@ -1683,9 +1683,9 @@
       "zh": "快速切换到正常混合模式",
       "en": "Switch to Normal blend mode"
     },
-    "windows": "Shift+Alt+N",
-    "mac": "Shift+⌥+N",
-    "linux": "Shift+Alt+N",
+    "windows": "Shift + Alt + N",
+    "mac": "⇧ ⌥ N",
+    "linux": "Shift + Alt + N",
     "keywords": [
       "正常",
       "normal"
@@ -1705,9 +1705,9 @@
       "zh": "快速切换到正片叠底混合模式",
       "en": "Switch to Multiply blend mode"
     },
-    "windows": "Shift+Alt+M",
-    "mac": "Shift+⌥+M",
-    "linux": "Shift+Alt+M",
+    "windows": "Shift + Alt + M",
+    "mac": "⇧ ⌥ M",
+    "linux": "Shift + Alt + M",
     "keywords": [
       "正片叠底",
       "multiply"
@@ -1727,9 +1727,9 @@
       "zh": "快速切换到滤色混合模式",
       "en": "Switch to Screen blend mode"
     },
-    "windows": "Shift+Alt+S",
-    "mac": "Shift+⌥+S",
-    "linux": "Shift+Alt+S",
+    "windows": "Shift + Alt + S",
+    "mac": "⇧ ⌥ S",
+    "linux": "Shift + Alt + S",
     "keywords": [
       "滤色",
       "screen"
@@ -1749,9 +1749,9 @@
       "zh": "快速切换到叠加混合模式",
       "en": "Switch to Overlay blend mode"
     },
-    "windows": "Shift+Alt+O",
-    "mac": "Shift+⌥+O",
-    "linux": "Shift+Alt+O",
+    "windows": "Shift + Alt + O",
+    "mac": "⇧ ⌥ O",
+    "linux": "Shift + Alt + O",
     "keywords": [
       "叠加",
       "overlay"

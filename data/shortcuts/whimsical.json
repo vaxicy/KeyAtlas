@@ -12,9 +12,9 @@
       "zh": "Z+点击/拖拽或 ⌘/Ctrl+滚轮缩放",
       "en": "Zoom with Z+click/drag or ⌘/Ctrl+scroll"
     },
-    "windows": "Ctrl+Scroll / Z+Click",
-    "mac": "⌘Scroll / Z+Click",
-    "linux": "Ctrl+Scroll / Z+Click",
+    "windows": "Ctrl + Scroll / Z + Click",
+    "mac": "⌘Scroll / Z Click",
+    "linux": "Ctrl + Scroll / Z + Click",
     "keywords": [
       "缩放",
       "zoom"
@@ -147,9 +147,9 @@
       "zh": "空格+拖拽平移画布",
       "en": "Space+drag to pan"
     },
-    "windows": "Space+Drag",
-    "mac": "Space+Drag",
-    "linux": "Space+Drag",
+    "windows": "Space + Drag",
+    "mac": "Space Drag",
+    "linux": "Space + Drag",
     "keywords": [
       "平移",
       "画布",
@@ -170,9 +170,9 @@
       "zh": "撤销上一步",
       "en": "Undo the last action"
     },
-    "windows": "Ctrl+Z",
+    "windows": "Ctrl + Z",
     "mac": "⌘Z",
-    "linux": "Ctrl+Z",
+    "linux": "Ctrl + Z",
     "keywords": [
       "撤销",
       "undo"
@@ -192,9 +192,9 @@
       "zh": "重做被撤销的操作",
       "en": "Redo the undone action"
     },
-    "windows": "Ctrl+Shift+Z",
+    "windows": "Ctrl + Shift + Z",
     "mac": "⌘⇧Z",
-    "linux": "Ctrl+Shift+Z",
+    "linux": "Ctrl + Shift + Z",
     "keywords": [
       "重做",
       "redo"
@@ -214,9 +214,9 @@
       "zh": "添加评论",
       "en": "Add a comment"
     },
-    "windows": "Ctrl+Alt+M",
+    "windows": "Ctrl + Alt + M",
     "mac": "⌘⌥M",
-    "linux": "Ctrl+Alt+M",
+    "linux": "Ctrl + Alt + M",
     "keywords": [
       "评论",
       "comment"
@@ -236,9 +236,9 @@
       "zh": "切换文件内评论显示",
       "en": "Toggle comments in a file"
     },
-    "windows": "Shift+Alt+C",
+    "windows": "Shift + Alt + C",
     "mac": "⇧⌥C",
-    "linux": "Shift+Alt+C",
+    "linux": "Shift + Alt + C",
     "keywords": [
       "评论",
       "显示",
@@ -259,9 +259,9 @@
       "zh": "将所选复制为图片",
       "en": "Copy the selection as an image"
     },
-    "windows": "Ctrl+Shift+C",
+    "windows": "Ctrl + Shift + C",
     "mac": "⌘⇧C",
-    "linux": "Ctrl+Shift+C",
+    "linux": "Ctrl + Shift + C",
     "keywords": [
       "复制",
       "图片",
@@ -282,9 +282,9 @@
       "zh": "复制对象链接",
       "en": "Copy a link to the object"
     },
-    "windows": "Ctrl+Alt+Shift+C",
+    "windows": "Ctrl + Alt + Shift + C",
     "mac": "⌘⌥⇧C",
-    "linux": "Ctrl+Alt+Shift+C",
+    "linux": "Ctrl + Alt + Shift + C",
     "keywords": [
       "复制",
       "链接",
@@ -305,9 +305,9 @@
       "zh": "Shift+点击多选",
       "en": "Shift+click to select multiple"
     },
-    "windows": "Shift+Click",
-    "mac": "Shift+Click",
-    "linux": "Shift+Click",
+    "windows": "Shift + Click",
+    "mac": "⇧ Click",
+    "linux": "Shift + Click",
     "keywords": [
       "多选",
       "选择",
@@ -329,9 +329,9 @@
       "zh": "选择所有对象（排除锁定）",
       "en": "Select all excluding locked objects"
     },
-    "windows": "Ctrl+A",
+    "windows": "Ctrl + A",
     "mac": "⌘A",
-    "linux": "Ctrl+A",
+    "linux": "Ctrl + A",
     "keywords": [
       "全选",
       "select",
@@ -352,9 +352,9 @@
       "zh": "选择所有对象（含锁定）",
       "en": "Select all including locked objects"
     },
-    "windows": "Hold Ctrl+Double A",
-    "mac": "Hold ⌘+Double A",
-    "linux": "Hold Ctrl+Double A",
+    "windows": "Hold Ctrl + Double A",
+    "mac": "Hold ⌘ Double A",
+    "linux": "Hold Ctrl + Double A",
     "keywords": [
       "全选",
       "锁定",
@@ -398,9 +398,9 @@
       "zh": "Ctrl/⌘+点击选择嵌套对象",
       "en": "Ctrl/⌘+click to select nested object"
     },
-    "windows": "Ctrl+Click",
+    "windows": "Ctrl + Click",
     "mac": "⌘Click",
-    "linux": "Ctrl+Click",
+    "linux": "Ctrl + Click",
     "keywords": [
       "深层",
       "选择",
@@ -422,9 +422,9 @@
       "zh": "移动时忽略自动吸附",
       "en": "Ignore auto-snapping when moving"
     },
-    "windows": "Ctrl+Drag",
+    "windows": "Ctrl + Drag",
     "mac": "⌘Drag",
-    "linux": "Ctrl+Drag",
+    "linux": "Ctrl + Drag",
     "keywords": [
       "吸附",
       "移动",
@@ -445,9 +445,9 @@
       "zh": "选中对象后按住 Alt/⌥ 悬停其他对象",
       "en": "Hold Alt/⌥ and hover other objects"
     },
-    "windows": "Alt+hover",
+    "windows": "Alt + hover",
     "mac": "⌥hover",
-    "linux": "Alt+hover",
+    "linux": "Alt + hover",
     "keywords": [
       "测量",
       "间距",
@@ -468,9 +468,9 @@
       "zh": "复制所选",
       "en": "Copy the selection"
     },
-    "windows": "Ctrl+C",
+    "windows": "Ctrl + C",
     "mac": "⌘C",
-    "linux": "Ctrl+C",
+    "linux": "Ctrl + C",
     "keywords": [
       "复制",
       "copy"
@@ -490,9 +490,9 @@
       "zh": "粘贴剪贴板内容",
       "en": "Paste from the clipboard"
     },
-    "windows": "Ctrl+V",
+    "windows": "Ctrl + V",
     "mac": "⌘V",
-    "linux": "Ctrl+V",
+    "linux": "Ctrl + V",
     "keywords": [
       "粘贴",
       "paste"
@@ -512,9 +512,9 @@
       "zh": "复制对象样式",
       "en": "Copy the object style"
     },
-    "windows": "Ctrl+Alt+C",
+    "windows": "Ctrl + Alt + C",
     "mac": "⌘⌥C",
-    "linux": "Ctrl+Alt+C",
+    "linux": "Ctrl + Alt + C",
     "keywords": [
       "复制",
       "样式",
@@ -535,9 +535,9 @@
       "zh": "复制所选对象",
       "en": "Duplicate the selection"
     },
-    "windows": "Ctrl+D",
+    "windows": "Ctrl + D",
     "mac": "⌘D",
-    "linux": "Ctrl+D",
+    "linux": "Ctrl + D",
     "keywords": [
       "副本",
       "复制",
@@ -581,9 +581,9 @@
       "zh": "将所选编组",
       "en": "Group the selection"
     },
-    "windows": "Ctrl+G",
+    "windows": "Ctrl + G",
     "mac": "⌘G",
-    "linux": "Ctrl+G",
+    "linux": "Ctrl + G",
     "keywords": [
       "编组",
       "group"
@@ -603,9 +603,9 @@
       "zh": "解除所选编组",
       "en": "Ungroup the selection"
     },
-    "windows": "Ctrl+Shift+G",
+    "windows": "Ctrl + Shift + G",
     "mac": "⌘⇧G",
-    "linux": "Ctrl+Shift+G",
+    "linux": "Ctrl + Shift + G",
     "keywords": [
       "解组",
       "ungroup"
@@ -648,9 +648,9 @@
       "zh": "将所选上移一层",
       "en": "Bring the selection forward"
     },
-    "windows": "Ctrl+]",
+    "windows": "Ctrl + ]",
     "mac": "⌘]",
-    "linux": "Ctrl+]",
+    "linux": "Ctrl + ]",
     "keywords": [
       "上移",
       "图层",
@@ -695,9 +695,9 @@
       "zh": "将所选下移一层",
       "en": "Send the selection backward"
     },
-    "windows": "Ctrl+[",
+    "windows": "Ctrl + [",
     "mac": "⌘[",
-    "linux": "Ctrl+[",
+    "linux": "Ctrl + [",
     "keywords": [
       "下移",
       "图层",
@@ -719,9 +719,9 @@
       "zh": "Shift+拖拽锁定宽高比",
       "en": "Shift+drag to keep aspect ratio"
     },
-    "windows": "Shift+Drag",
-    "mac": "Shift+Drag",
-    "linux": "Shift+Drag",
+    "windows": "Shift + Drag",
+    "mac": "⇧ Drag",
+    "linux": "Shift + Drag",
     "keywords": [
       "比例",
       "缩放",
@@ -742,9 +742,9 @@
       "zh": "Alt/⌥+拖拽从中心缩放",
       "en": "Alt/⌥+drag to resize from center"
     },
-    "windows": "Alt+Drag",
+    "windows": "Alt + Drag",
     "mac": "⌥Drag",
-    "linux": "Alt+Drag",
+    "linux": "Alt + Drag",
     "keywords": [
       "中心",
       "缩放",
@@ -765,9 +765,9 @@
       "zh": "增大对象内文字字号",
       "en": "Increase text size in object"
     },
-    "windows": "Ctrl+Alt+=",
+    "windows": "Ctrl + Alt + =",
     "mac": "⌘⌥=",
-    "linux": "Ctrl+Alt+=",
+    "linux": "Ctrl + Alt + =",
     "keywords": [
       "字号",
       "增大",
@@ -789,9 +789,9 @@
       "zh": "减小对象内文字字号",
       "en": "Decrease text size in object"
     },
-    "windows": "Ctrl+Alt+-",
+    "windows": "Ctrl + Alt + -",
     "mac": "⌘⌥-",
-    "linux": "Ctrl+Alt+-",
+    "linux": "Ctrl + Alt + -",
     "keywords": [
       "字号",
       "减小",
@@ -813,9 +813,9 @@
       "zh": "Ctrl/⌘+点击制作动画连线",
       "en": "Ctrl/⌘+click to animate connector"
     },
-    "windows": "Ctrl+Click",
+    "windows": "Ctrl + Click",
     "mac": "⌘Click",
-    "linux": "Ctrl+Click",
+    "linux": "Ctrl + Click",
     "keywords": [
       "动画",
       "连线",
@@ -992,9 +992,9 @@
       "zh": "Alt/⌥+方向键快速添加形状",
       "en": "Alt/⌥+arrow to quick add shape"
     },
-    "windows": "Alt+Arrow",
+    "windows": "Alt + Arrow",
     "mac": "⌥Arrow",
-    "linux": "Alt+Arrow",
+    "linux": "Alt + Arrow",
     "keywords": [
       "快速",
       "添加",
@@ -1042,9 +1042,9 @@
       "zh": "锁定/解锁对象",
       "en": "Lock or unlock the object"
     },
-    "windows": "Ctrl+Shift+L",
+    "windows": "Ctrl + Shift + L",
     "mac": "⌘⇧L",
-    "linux": "Ctrl+Shift+L",
+    "linux": "Ctrl + Shift + L",
     "keywords": [
       "锁定",
       "对象",
@@ -1134,9 +1134,9 @@
       "zh": "Alt/⌥+Enter 添加父节点",
       "en": "Alt/⌥+Enter to add a parent node"
     },
-    "windows": "Alt+Enter",
+    "windows": "Alt + Enter",
     "mac": "⌥Enter",
-    "linux": "Alt+Enter",
+    "linux": "Alt + Enter",
     "keywords": [
       "父节点",
       "思维导图",
@@ -1157,9 +1157,9 @@
       "zh": "Ctrl/⌘+/ 折叠或展开节点",
       "en": "Ctrl/⌘+/ to collapse or expand"
     },
-    "windows": "Ctrl+/",
-    "mac": "⌘/",
-    "linux": "Ctrl+/",
+    "windows": "Ctrl / ",
+    "mac": "⌘ / ",
+    "linux": "Ctrl / ",
     "keywords": [
       "折叠",
       "展开",
@@ -1181,9 +1181,9 @@
       "zh": "Shift+Enter 软换行",
       "en": "Shift+Enter for a line break"
     },
-    "windows": "Shift+Enter",
-    "mac": "Shift+Enter",
-    "linux": "Shift+Enter",
+    "windows": "Shift + Enter",
+    "mac": "⇧ Enter",
+    "linux": "Shift + Enter",
     "keywords": [
       "换行",
       "line",
@@ -1204,9 +1204,9 @@
       "zh": "Ctrl/⌘+Shift+U 添加链接",
       "en": "Ctrl/⌘+Shift+U to add a link"
     },
-    "windows": "Ctrl+Shift+U",
+    "windows": "Ctrl + Shift + U",
     "mac": "⌘⇧U",
-    "linux": "Ctrl+Shift+U",
+    "linux": "Ctrl + Shift + U",
     "keywords": [
       "添加",
       "链接",
@@ -1249,9 +1249,9 @@
       "zh": "Alt/⌥+拖拽复制便利贴",
       "en": "Alt/⌥+drag to duplicate a note"
     },
-    "windows": "Alt+Drag",
+    "windows": "Alt + Drag",
     "mac": "⌥Drag",
-    "linux": "Alt+Drag",
+    "linux": "Alt + Drag",
     "keywords": [
       "复制",
       "便利贴",
@@ -1272,9 +1272,9 @@
       "zh": "Ctrl/⌘+\\ 切换段落",
       "en": "Ctrl/⌘+\\ to toggle paragraph"
     },
-    "windows": "Ctrl+\\",
+    "windows": "Ctrl + \\",
     "mac": "⌘\\",
-    "linux": "Ctrl+\\",
+    "linux": "Ctrl + \\",
     "keywords": [
       "段落",
       "paragraph"
@@ -1340,9 +1340,9 @@
       "zh": "Ctrl/⌘+. 用 AI 生成内容",
       "en": "Ctrl/⌘+. to generate with AI"
     },
-    "windows": "Ctrl+.",
+    "windows": "Ctrl + .",
     "mac": "⌘.",
-    "linux": "Ctrl+.",
+    "linux": "Ctrl + .",
     "keywords": [
       "AI",
       "生成",
@@ -1363,9 +1363,9 @@
       "zh": "Ctrl/⌘+Enter 根据提示生成",
       "en": "Ctrl/⌘+Enter to create from prompt"
     },
-    "windows": "Ctrl+Enter",
+    "windows": "Ctrl + Enter",
     "mac": "⌘Enter",
-    "linux": "Ctrl+Enter",
+    "linux": "Ctrl + Enter",
     "keywords": [
       "AI",
       "生成",
@@ -1387,9 +1387,9 @@
       "zh": "按 / 查看示例提示",
       "en": "Press / to see example prompts"
     },
-    "windows": "/",
-    "mac": "/",
-    "linux": "/",
+    "windows": " / ",
+    "mac": " / ",
+    "linux": " / ",
     "keywords": [
       "AI",
       "示例",

@@ -12,9 +12,9 @@
       "zh": "撤销上一步",
       "en": "Undo the last action"
     },
-    "windows": "Ctrl+Z",
+    "windows": "Ctrl + Z",
     "mac": "⌘Z",
-    "linux": "Ctrl+Z",
+    "linux": "Ctrl + Z",
     "keywords": [
       "撤销",
       "undo"
@@ -34,9 +34,9 @@
       "zh": "重做被撤销的操作",
       "en": "Redo the undone action"
     },
-    "windows": "Ctrl+Shift+Z",
+    "windows": "Ctrl + Shift + Z",
     "mac": "⌘⇧Z",
-    "linux": "Ctrl+Shift+Z",
+    "linux": "Ctrl + Shift + Z",
     "keywords": [
       "重做",
       "redo"
@@ -56,9 +56,9 @@
       "zh": "复制所选",
       "en": "Copy the selection"
     },
-    "windows": "Ctrl+C",
+    "windows": "Ctrl + C",
     "mac": "⌘C",
-    "linux": "Ctrl+C",
+    "linux": "Ctrl + C",
     "keywords": [
       "复制",
       "copy"
@@ -78,9 +78,9 @@
       "zh": "剪切所选",
       "en": "Cut the selection"
     },
-    "windows": "Ctrl+X",
+    "windows": "Ctrl + X",
     "mac": "⌘X",
-    "linux": "Ctrl+X",
+    "linux": "Ctrl + X",
     "keywords": [
       "剪切",
       "cut"
@@ -100,9 +100,9 @@
       "zh": "粘贴剪贴板内容",
       "en": "Paste from the clipboard"
     },
-    "windows": "Ctrl+V",
+    "windows": "Ctrl + V",
     "mac": "⌘V",
-    "linux": "Ctrl+V",
+    "linux": "Ctrl + V",
     "keywords": [
       "粘贴",
       "paste"
@@ -122,9 +122,9 @@
       "zh": "复制所选元素",
       "en": "Duplicate the selection"
     },
-    "windows": "Ctrl+D",
+    "windows": "Ctrl + D",
     "mac": "⌘D",
-    "linux": "Ctrl+D",
+    "linux": "Ctrl + D",
     "keywords": [
       "副本",
       "复制",
@@ -145,9 +145,9 @@
       "zh": "选择所有元素",
       "en": "Select all elements"
     },
-    "windows": "Ctrl+A",
+    "windows": "Ctrl + A",
     "mac": "⌘A",
-    "linux": "Ctrl+A",
+    "linux": "Ctrl + A",
     "keywords": [
       "全选",
       "select",
@@ -168,9 +168,9 @@
       "zh": "将所选编组",
       "en": "Group the selection"
     },
-    "windows": "Ctrl+G",
+    "windows": "Ctrl + G",
     "mac": "⌘G",
-    "linux": "Ctrl+G",
+    "linux": "Ctrl + G",
     "keywords": [
       "编组",
       "group"
@@ -190,9 +190,9 @@
       "zh": "解除所选编组",
       "en": "Ungroup the selection"
     },
-    "windows": "Ctrl+Shift+G",
+    "windows": "Ctrl + Shift + G",
     "mac": "⌘⇧G",
-    "linux": "Ctrl+Shift+G",
+    "linux": "Ctrl + Shift + G",
     "keywords": [
       "解组",
       "ungroup"
@@ -212,9 +212,9 @@
       "zh": "选择所有元素（含锁定的）",
       "en": "Select all elements including locked ones"
     },
-    "windows": "Ctrl+Shift+A",
+    "windows": "Ctrl + Shift + A",
     "mac": "⌘⇧A",
-    "linux": "Ctrl+Shift+A",
+    "linux": "Ctrl + Shift + A",
     "keywords": [
       "全选",
       "锁定",
@@ -258,9 +258,9 @@
       "zh": "按较大步长移动元素",
       "en": "Move the element by a larger step"
     },
-    "windows": "Shift+Arrow",
-    "mac": "Shift+Arrow",
-    "linux": "Shift+Arrow",
+    "windows": "Shift + Arrow",
+    "mac": "⇧ Arrow",
+    "linux": "Shift + Arrow",
     "keywords": [
       "移动",
       "元素",
@@ -328,9 +328,9 @@
       "zh": "插入线条",
       "en": "Insert a line"
     },
-    "windows": "Ctrl+Alt+L",
+    "windows": "Ctrl + Alt + L",
     "mac": "⌘⌥L",
-    "linux": "Ctrl+Alt+L",
+    "linux": "Ctrl + Alt + L",
     "keywords": [
       "线条",
       "line"
@@ -350,9 +350,9 @@
       "zh": "插入连接线",
       "en": "Insert a connector"
     },
-    "windows": "Ctrl+Alt+C",
+    "windows": "Ctrl + Alt + C",
     "mac": "⌘⌥C",
-    "linux": "Ctrl+Alt+C",
+    "linux": "Ctrl + Alt + C",
     "keywords": [
       "连接线",
       "connector"
@@ -372,9 +372,9 @@
       "zh": "上传图片",
       "en": "Upload an image"
     },
-    "windows": "Ctrl+Alt+U",
+    "windows": "Ctrl + Alt + U",
     "mac": "⌘⌥U",
-    "linux": "Ctrl+Alt+U",
+    "linux": "Ctrl + Alt + U",
     "keywords": [
       "上传",
       "图片",
@@ -442,9 +442,9 @@
       "zh": "在白板中快速平移",
       "en": "Pan quickly around the mural"
     },
-    "windows": "Shift+Arrow",
-    "mac": "Shift+Arrow",
-    "linux": "Shift+Arrow",
+    "windows": "Shift + Arrow",
+    "mac": "⇧ Arrow",
+    "linux": "Shift + Arrow",
     "keywords": [
       "移动",
       "画布",
@@ -489,9 +489,9 @@
       "zh": "缩小白板",
       "en": "Zoom out on the mural"
     },
-    "windows": "Alt+Z",
+    "windows": "Alt + Z",
     "mac": "⌥Z",
-    "linux": "Alt+Z",
+    "linux": "Alt + Z",
     "keywords": [
       "缩小",
       "缩放",
@@ -512,9 +512,9 @@
       "zh": "缩放以适配所有内容",
       "en": "Zoom to fit all content"
     },
-    "windows": "Ctrl+0",
+    "windows": "Ctrl + 0",
     "mac": "⌘0",
-    "linux": "Ctrl+0",
+    "linux": "Ctrl + 0",
     "keywords": [
       "适应",
       "内容",
@@ -535,9 +535,9 @@
       "zh": "缩放到实际大小",
       "en": "Zoom to actual size"
     },
-    "windows": "Ctrl+Alt+0",
+    "windows": "Ctrl + Alt + 0",
     "mac": "⌘⌥0",
-    "linux": "Ctrl+Alt+0",
+    "linux": "Ctrl + Alt + 0",
     "keywords": [
       "实际大小",
       "缩放",
@@ -582,9 +582,9 @@
       "zh": "插入 3×3 网格便利贴",
       "en": "Insert a 3×3 grid of sticky notes"
     },
-    "windows": "Ctrl+Alt+N",
+    "windows": "Ctrl + Alt + N",
     "mac": "⌘⌥N",
-    "linux": "Ctrl+Alt+N",
+    "linux": "Ctrl + Alt + N",
     "keywords": [
       "便利贴",
       "网格",
@@ -605,9 +605,9 @@
       "zh": "插入 5×3 网格便利贴",
       "en": "Insert a 5×3 grid of sticky notes"
     },
-    "windows": "Ctrl+Alt+M",
+    "windows": "Ctrl + Alt + M",
     "mac": "⌘⌥M",
-    "linux": "Ctrl+Alt+M",
+    "linux": "Ctrl + Alt + M",
     "keywords": [
       "便利贴",
       "网格",
@@ -628,9 +628,9 @@
       "zh": "插入圆形便利贴",
       "en": "Insert a circle sticky note"
     },
-    "windows": "Ctrl+Alt+X",
+    "windows": "Ctrl + Alt + X",
     "mac": "⌘⌥X",
-    "linux": "Ctrl+Alt+X",
+    "linux": "Ctrl + Alt + X",
     "keywords": [
       "便利贴",
       "圆形",
@@ -652,9 +652,9 @@
       "zh": "插入标题文本",
       "en": "Insert a title"
     },
-    "windows": "Ctrl+Alt+H",
+    "windows": "Ctrl + Alt + H",
     "mac": "⌘⌥H",
-    "linux": "Ctrl+Alt+H",
+    "linux": "Ctrl + Alt + H",
     "keywords": [
       "标题",
       "title"
@@ -674,9 +674,9 @@
       "zh": "插入文本框",
       "en": "Insert a textbox"
     },
-    "windows": "Ctrl+Alt+T",
+    "windows": "Ctrl + Alt + T",
     "mac": "⌘⌥T",
-    "linux": "Ctrl+Alt+T",
+    "linux": "Ctrl + Alt + T",
     "keywords": [
       "文本框",
       "text",
@@ -697,9 +697,9 @@
       "zh": "插入矩形",
       "en": "Insert a rectangle"
     },
-    "windows": "Ctrl+Alt+R",
+    "windows": "Ctrl + Alt + R",
     "mac": "⌘⌥R",
-    "linux": "Ctrl+Alt+R",
+    "linux": "Ctrl + Alt + R",
     "keywords": [
       "矩形",
       "rectangle"
@@ -719,9 +719,9 @@
       "zh": "插入椭圆",
       "en": "Insert an oval"
     },
-    "windows": "Ctrl+Alt+O",
+    "windows": "Ctrl + Alt + O",
     "mac": "⌘⌥O",
-    "linux": "Ctrl+Alt+O",
+    "linux": "Ctrl + Alt + O",
     "keywords": [
       "椭圆",
       "oval"
@@ -764,9 +764,9 @@
       "zh": "在便利贴文本内软换行",
       "en": "Soft line break inside a sticky"
     },
-    "windows": "Shift+Enter",
-    "mac": "Shift+Enter",
-    "linux": "Shift+Enter",
+    "windows": "Shift + Enter",
+    "mac": "⇧ Enter",
+    "linux": "Shift + Enter",
     "keywords": [
       "换行",
       "便利贴",
@@ -811,9 +811,9 @@
       "zh": "搜索 murals 和 rooms",
       "en": "Search murals and rooms"
     },
-    "windows": "Ctrl+K",
+    "windows": "Ctrl + K",
     "mac": "⌘K",
-    "linux": "Ctrl+K",
+    "linux": "Ctrl + K",
     "keywords": [
       "搜索",
       "mural",
@@ -857,9 +857,9 @@
       "zh": "在当前白板内搜索元素",
       "en": "Search for elements inside the mural"
     },
-    "windows": "Ctrl+F",
+    "windows": "Ctrl + F",
     "mac": "⌘F",
-    "linux": "Ctrl+F",
+    "linux": "Ctrl + F",
     "keywords": [
       "搜索",
       "白板",

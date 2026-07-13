@@ -12,9 +12,9 @@
       "zh": "全局唤起截图功能（系统级，焦点不在钉钉也生效）",
       "en": "Launch screenshot globally, works even when DingTalk is not focused"
     },
-    "windows": "Ctrl+Shift+A",
-    "mac": "⌘+Shift+A",
-    "linux": "Ctrl+Shift+A",
+    "windows": "Ctrl + Shift + A",
+    "mac": "⌘ ⇧ A",
+    "linux": "Ctrl + Shift + A",
     "keywords": [
       "截图",
       "screenshot",
@@ -35,9 +35,9 @@
       "zh": "在钉钉内搜索或查找内容",
       "en": "Search or find content inside DingTalk"
     },
-    "windows": "Ctrl+Shift+F",
-    "mac": "⌘+Shift+F",
-    "linux": "Ctrl+Shift+F",
+    "windows": "Ctrl + Shift + F",
+    "mac": "⌘ ⇧ F",
+    "linux": "Ctrl + Shift + F",
     "keywords": [
       "搜索",
       "查找",
@@ -59,9 +59,9 @@
       "zh": "跳转到下一个未读会话",
       "en": "Jump to the next unread conversation"
     },
-    "windows": "Ctrl+G",
-    "mac": "⌘+G",
-    "linux": "Ctrl+G",
+    "windows": "Ctrl + G",
+    "mac": "⌘ G",
+    "linux": "Ctrl + G",
     "keywords": [
       "未读",
       "跳转",
@@ -83,9 +83,9 @@
       "zh": "切换到上一个会话",
       "en": "Switch to the previous conversation"
     },
-    "windows": "Ctrl+↑",
-    "mac": "⌘+↑",
-    "linux": "Ctrl+↑",
+    "windows": "Ctrl + ↑",
+    "mac": "⌘ ↑",
+    "linux": "Ctrl + ↑",
     "keywords": [
       "会话",
       "上一个",
@@ -107,9 +107,9 @@
       "zh": "切换到下一个会话",
       "en": "Switch to the next conversation"
     },
-    "windows": "Ctrl+↓",
-    "mac": "⌘+↓",
-    "linux": "Ctrl+↓",
+    "windows": "Ctrl + ↓",
+    "mac": "⌘ ↓",
+    "linux": "Ctrl + ↓",
     "keywords": [
       "会话",
       "下一个",
@@ -131,9 +131,9 @@
       "zh": "全局打开 DING 提醒界面",
       "en": "Open the DING reminder interface globally"
     },
-    "windows": "Ctrl+Shift+D",
-    "mac": "⌘+Shift+D",
-    "linux": "Ctrl+Shift+D",
+    "windows": "Ctrl + Shift + D",
+    "mac": "⌘ ⇧ D",
+    "linux": "Ctrl + Shift + D",
     "keywords": [
       "DING",
       "提醒",
@@ -154,9 +154,9 @@
       "zh": "在不同聊天窗口之间快速切换",
       "en": "Quickly switch between chat windows"
     },
-    "windows": "Ctrl+Tab",
-    "mac": "⌃+Tab",
-    "linux": "Ctrl+Tab",
+    "windows": "Ctrl + Tab",
+    "mac": "⌃ Tab",
+    "linux": "Ctrl + Tab",
     "keywords": [
       "切换",
       "聊天",
@@ -179,9 +179,9 @@
       "zh": "发起新的聊天会话",
       "en": "Start a new chat conversation"
     },
-    "windows": "Ctrl+N",
-    "mac": "⌘+N",
-    "linux": "Ctrl+N",
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
+    "linux": "Ctrl + N",
     "keywords": [
       "新建",
       "会话",
@@ -203,9 +203,9 @@
       "zh": "发送消息（可在设置中切换回车或组合键发送）",
       "en": "Send message (configurable: Enter or shortcut in settings)"
     },
-    "windows": "Enter 或 Ctrl+Enter",
-    "mac": "Enter 或 ⌘+Enter",
-    "linux": "Enter 或 Ctrl+Enter",
+    "windows": "Enter 或 Ctrl + Enter",
+    "mac": "Enter 或 ⌘ Enter",
+    "linux": "Enter 或 Ctrl + Enter",
     "keywords": [
       "发送",
       "消息",
@@ -227,9 +227,9 @@
       "zh": "关闭当前聊天窗口",
       "en": "Close the current chat window"
     },
-    "windows": "Ctrl+W",
-    "mac": "⌘+W",
-    "linux": "Ctrl+W",
+    "windows": "Ctrl + W",
+    "mac": "⌘ W",
+    "linux": "Ctrl + W",
     "keywords": [
       "关闭",
       "聊天",
@@ -251,9 +251,9 @@
       "zh": "跳转到导航栏指定数字标签页",
       "en": "Jump to the tab at the given number position"
     },
-    "windows": "Ctrl+1~9",
-    "mac": "⌘+1~9",
-    "linux": "Ctrl+1~9",
+    "windows": "Ctrl + 1~9",
+    "mac": "⌘ 1~9",
+    "linux": "Ctrl + 1~9",
     "keywords": [
       "标签页",
       "切换",

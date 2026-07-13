@@ -12,9 +12,9 @@
       "zh": "新建空白 PDF 文档",
       "en": "Create a new blank PDF document"
     },
-    "windows": "Ctrl+N",
-    "mac": "⌘+N",
-    "linux": "Ctrl+N",
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
+    "linux": "Ctrl + N",
     "keywords": [
       "新建",
       "new",
@@ -35,9 +35,9 @@
       "zh": "打开 PDF 文件",
       "en": "Open a PDF file"
     },
-    "windows": "Ctrl+O",
-    "mac": "⌘+O",
-    "linux": "Ctrl+O",
+    "windows": "Ctrl + O",
+    "mac": "⌘ O",
+    "linux": "Ctrl + O",
     "keywords": [
       "打开",
       "open"
@@ -57,9 +57,9 @@
       "zh": "保存当前文档",
       "en": "Save the current document"
     },
-    "windows": "Ctrl+S",
-    "mac": "⌘+S",
-    "linux": "Ctrl+S",
+    "windows": "Ctrl + S",
+    "mac": "⌘ S",
+    "linux": "Ctrl + S",
     "keywords": [
       "保存",
       "save"
@@ -79,9 +79,9 @@
       "zh": "将文档另存为新文件",
       "en": "Save document as a new file"
     },
-    "windows": "Ctrl+Shift+S",
-    "mac": "⌘+Shift+S",
-    "linux": "Ctrl+Shift+S",
+    "windows": "Ctrl + Shift + S",
+    "mac": "⌘ ⇧ S",
+    "linux": "Ctrl + Shift + S",
     "keywords": [
       "另存为",
       "save as"
@@ -101,9 +101,9 @@
       "zh": "打开打印对话框",
       "en": "Open print dialog"
     },
-    "windows": "Ctrl+P",
-    "mac": "⌘+P",
-    "linux": "Ctrl+P",
+    "windows": "Ctrl + P",
+    "mac": "⌘ P",
+    "linux": "Ctrl + P",
     "keywords": [
       "打印",
       "print"
@@ -123,9 +123,9 @@
       "zh": "关闭当前文档",
       "en": "Close current document"
     },
-    "windows": "Ctrl+W",
-    "mac": "⌘+W",
-    "linux": "Ctrl+W",
+    "windows": "Ctrl + W",
+    "mac": "⌘ W",
+    "linux": "Ctrl + W",
     "keywords": [
       "关闭",
       "close"
@@ -145,9 +145,9 @@
       "zh": "在文档中查找文字",
       "en": "Find text in document"
     },
-    "windows": "Ctrl+F",
-    "mac": "⌘+F",
-    "linux": "Ctrl+F",
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
+    "linux": "Ctrl + F",
     "keywords": [
       "查找",
       "find",
@@ -168,9 +168,9 @@
       "zh": "查找下一个匹配项",
       "en": "Find next match"
     },
-    "windows": "F3 / Ctrl+G",
-    "mac": "⌘+G / F3",
-    "linux": "F3 / Ctrl+G",
+    "windows": "F3 / Ctrl + G",
+    "mac": "⌘ G / F3",
+    "linux": "F3 / Ctrl + G",
     "keywords": [
       "下一个",
       "find next"
@@ -190,9 +190,9 @@
       "zh": "撤销上一步操作",
       "en": "Undo last action"
     },
-    "windows": "Ctrl+Z",
-    "mac": "⌘+Z",
-    "linux": "Ctrl+Z",
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "Ctrl + Z",
     "keywords": [
       "撤销",
       "undo"
@@ -212,9 +212,9 @@
       "zh": "重做被撤销的操作",
       "en": "Redo undone action"
     },
-    "windows": "Ctrl+Y",
-    "mac": "⌘+Y / Shift+⌘+Z",
-    "linux": "Ctrl+Y",
+    "windows": "Ctrl + Y",
+    "mac": "⌘ Y / ⇧ ⌘ Z",
+    "linux": "Ctrl + Y",
     "keywords": [
       "重做",
       "redo"
@@ -234,9 +234,9 @@
       "zh": "复制选中的文本或对象",
       "en": "Copy selected text or object"
     },
-    "windows": "Ctrl+C",
-    "mac": "⌘+C",
-    "linux": "Ctrl+C",
+    "windows": "Ctrl + C",
+    "mac": "⌘ C",
+    "linux": "Ctrl + C",
     "keywords": [
       "复制",
       "copy"
@@ -256,9 +256,9 @@
       "zh": "粘贴剪贴板内容",
       "en": "Paste clipboard content"
     },
-    "windows": "Ctrl+V",
-    "mac": "⌘+V",
-    "linux": "Ctrl+V",
+    "windows": "Ctrl + V",
+    "mac": "⌘ V",
+    "linux": "Ctrl + V",
     "keywords": [
       "粘贴",
       "paste"
@@ -278,9 +278,9 @@
       "zh": "剪切选中内容到剪贴板",
       "en": "Cut selection to clipboard"
     },
-    "windows": "Ctrl+X",
-    "mac": "⌘+X",
-    "linux": "Ctrl+X",
+    "windows": "Ctrl + X",
+    "mac": "⌘ X",
+    "linux": "Ctrl + X",
     "keywords": [
       "剪切",
       "cut"
@@ -300,9 +300,9 @@
       "zh": "选择全部内容",
       "en": "Select all content"
     },
-    "windows": "Ctrl+A",
-    "mac": "⌘+A",
-    "linux": "Ctrl+A",
+    "windows": "Ctrl + A",
+    "mac": "⌘ A",
+    "linux": "Ctrl + A",
     "keywords": [
       "全选",
       "select all"
@@ -323,7 +323,7 @@
       "en": "Go to next page"
     },
     "windows": "Page Down / →",
-    "mac": "Page Down / → / Fn+↓",
+    "mac": "Page Down / → / Fn ↓",
     "linux": "Page Down",
     "keywords": [
       "下一页",
@@ -346,7 +346,7 @@
       "en": "Go to previous page"
     },
     "windows": "Page Up / ←",
-    "mac": "Page Up / ← / Fn+↑",
+    "mac": "Page Up / ← / Fn ↑",
     "linux": "Page Up",
     "keywords": [
       "上一页",
@@ -368,8 +368,8 @@
       "zh": "跳到文档第一页",
       "en": "Go to first page"
     },
-    "windows": "Shift+Ctrl+Page Up / Home",
-    "mac": "Shift+⌘+Page Up / ⌘+Fn+← / Home",
+    "windows": "Shift + Ctrl + Page Up / Home",
+    "mac": "⇧ ⌘ Page Up / ⌘ Fn ← / Home",
     "linux": "Home",
     "keywords": [
       "首页",
@@ -391,8 +391,8 @@
       "zh": "跳到文档最后一页",
       "en": "Go to last page"
     },
-    "windows": "Shift+Ctrl+Page Down / End",
-    "mac": "Shift+⌘+Page Down / ⌘+Fn+→ / End",
+    "windows": "Shift + Ctrl + Page Down / End",
+    "mac": "⇧ ⌘ Page Down / ⌘ Fn → / End",
     "linux": "End",
     "keywords": [
       "末页",
@@ -414,9 +414,9 @@
       "zh": "输入页码跳转",
       "en": "Jump to specified page number"
     },
-    "windows": "Ctrl+Shift+N",
-    "mac": "⌘+Shift+N",
-    "linux": "Ctrl+Shift+N",
+    "windows": "Ctrl + Shift + N",
+    "mac": "⌘ ⇧ N",
+    "linux": "Ctrl + Shift + N",
     "keywords": [
       "跳转",
       "go to page",
@@ -437,9 +437,9 @@
       "zh": "放大视图",
       "en": "Zoom in view"
     },
-    "windows": "Ctrl++ / Ctrl+= / 滚轮向上",
-    "mac": "⌘++ / ⌘+= / 双指捏合",
-    "linux": "Ctrl++",
+    "windows": "Ctrl + = / Ctrl + = / 滚轮向上",
+    "mac": "⌘ = / ⌘ = / 双指捏合",
+    "linux": "Ctrl + =",
     "keywords": [
       "放大",
       "zoom in"
@@ -459,9 +459,9 @@
       "zh": "缩小视图",
       "en": "Zoom out view"
     },
-    "windows": "Ctrl+- / 滚轮向下",
-    "mac": "⌘+- / 双指展开",
-    "linux": "Ctrl+-",
+    "windows": "Ctrl + - / 滚轮向下",
+    "mac": "⌘ - / 双指展开",
+    "linux": "Ctrl + -",
     "keywords": [
       "缩小",
       "zoom out"
@@ -481,9 +481,9 @@
       "zh": "缩放使整页可见",
       "en": "Zoom to fit entire page"
     },
-    "windows": "Ctrl+0",
-    "mac": "⌘+0",
-    "linux": "Ctrl+0",
+    "windows": "Ctrl + 0",
+    "mac": "⌘ 0",
+    "linux": "Ctrl + 0",
     "keywords": [
       "适合页面",
       "fit page",
@@ -504,9 +504,9 @@
       "zh": "缩放使页面宽度适合窗口",
       "en": "Fit page width to window"
     },
-    "windows": "Ctrl+2",
-    "mac": "⌘+2",
-    "linux": "Ctrl+2",
+    "windows": "Ctrl + 2",
+    "mac": "⌘ 2",
+    "linux": "Ctrl + 2",
     "keywords": [
       "适合宽度",
       "fit width"
@@ -526,9 +526,9 @@
       "zh": "缩放使文本区域适合窗口宽度",
       "en": "Fit visible text area width"
     },
-    "windows": "Ctrl+3",
-    "mac": "⌘+3",
-    "linux": "Ctrl+3",
+    "windows": "Ctrl + 3",
+    "mac": "⌘ 3",
+    "linux": "Ctrl + 3",
     "keywords": [
       "适合可见",
       "fit visible"
@@ -548,9 +548,9 @@
       "zh": "以实际大小（100%）显示",
       "en": "Show at actual size (100%)"
     },
-    "windows": "Ctrl+1",
-    "mac": "⌘+1",
-    "linux": "Ctrl+1",
+    "windows": "Ctrl + 1",
+    "mac": "⌘ 1",
+    "linux": "Ctrl + 1",
     "keywords": [
       "实际大小",
       "actual size",
@@ -571,9 +571,9 @@
       "zh": "自动重排文本以适应窗口宽度",
       "en": "Reflow text to fit window width"
     },
-    "windows": "Ctrl+4",
-    "mac": "⌘+4",
-    "linux": "Ctrl+4",
+    "windows": "Ctrl + 4",
+    "mac": "⌘ 4",
+    "linux": "Ctrl + 4",
     "keywords": [
       "重排",
       "reflow",
@@ -594,9 +594,9 @@
       "zh": "进入或退出全屏阅读模式",
       "en": "Enter or exit full screen reading mode"
     },
-    "windows": "Ctrl+L",
-    "mac": "⌘+L",
-    "linux": "Ctrl+L",
+    "windows": "Ctrl + L",
+    "mac": "⌘ L",
+    "linux": "Ctrl + L",
     "keywords": [
       "全屏",
       "fullscreen",
@@ -617,9 +617,9 @@
       "zh": "顺时针旋转文档/页面",
       "en": "Rotate document/page clockwise"
     },
-    "windows": "Ctrl+Shift++",
-    "mac": "⌘+Shift++",
-    "linux": "Ctrl+Shift++",
+    "windows": "Ctrl + Shift + =",
+    "mac": "⌘ ⇧ =",
+    "linux": "Ctrl + Shift + =",
     "keywords": [
       "顺时针旋转",
       "rotate clockwise",
@@ -640,9 +640,9 @@
       "zh": "逆时针旋转文档/页面",
       "en": "Rotate document/page counter-clockwise"
     },
-    "windows": "Ctrl+Shift+-",
-    "mac": "⌘+Shift+-",
-    "linux": "Ctrl+Shift+-",
+    "windows": "Ctrl + Shift + -",
+    "mac": "⌘ ⇧ -",
+    "linux": "Ctrl + Shift + -",
     "keywords": [
       "逆时针旋转",
       "rotate counter-clockwise",
@@ -663,8 +663,8 @@
       "zh": "拖动平移页面视图",
       "en": "Pan around the page view"
     },
-    "windows": "H / Alt+拖动",
-    "mac": "H / Option+拖动",
+    "windows": "H / Alt + 拖动",
+    "mac": "H / ⌥ 拖动",
     "linux": "H",
     "keywords": [
       "手形",
@@ -733,9 +733,9 @@
       "zh": "添加注释批注到文档",
       "en": "Add comment annotation to document"
     },
-    "windows": "Ctrl+Shift+E / F6",
-    "mac": "⌘+Option+F6 / F6",
-    "linux": "Ctrl+Shift+E",
+    "windows": "Ctrl + Shift + E / F6",
+    "mac": "⌘ ⌥ F6 / F6",
+    "linux": "Ctrl + Shift + E",
     "keywords": [
       "注释",
       "comment",
@@ -757,9 +757,9 @@
       "zh": "为当前页面添加书签",
       "en": "Add bookmark for current page"
     },
-    "windows": "Ctrl+B",
-    "mac": "⌘+B",
-    "linux": "Ctrl+B",
+    "windows": "Ctrl + B",
+    "mac": "⌘ B",
+    "linux": "Ctrl + B",
     "keywords": [
       "书签",
       "bookmark",
@@ -781,7 +781,7 @@
       "en": "Show or hide bookmarks panel"
     },
     "windows": "无默认",
-    "mac": "Option+⌘+2",
+    "mac": "⌥ ⌘ 2",
     "linux": "—",
     "keywords": [
       "书签面板",
@@ -804,7 +804,7 @@
       "en": "Show or hide pages/thumbnails panel"
     },
     "windows": "无默认",
-    "mac": "Option+⌘+4",
+    "mac": "⌥ ⌘ 4",
     "linux": "—",
     "keywords": [
       "缩略图",
@@ -826,9 +826,9 @@
       "zh": "导出 PDF 为其他格式（Word、图片等）",
       "en": "Export PDF to other formats (Word, image, etc.)"
     },
-    "windows": "Ctrl+E",
-    "mac": "⌘+E",
-    "linux": "Ctrl+E",
+    "windows": "Ctrl + E",
+    "mac": "⌘ E",
+    "linux": "Ctrl + E",
     "keywords": [
       "导出",
       "export",
@@ -849,9 +849,9 @@
       "zh": "插入/删除/替换/提取/拆分页面",
       "en": "Insert/delete/replace/extract/split pages"
     },
-    "windows": "Ctrl+Shift+O",
-    "mac": "⌘+Shift+O",
-    "linux": "Ctrl+Shift+O",
+    "windows": "Ctrl + Shift + O",
+    "mac": "⌘ ⇧ O",
+    "linux": "Ctrl + Shift + O",
     "keywords": [
       "组织页面",
       "organize pages",
@@ -918,8 +918,8 @@
       "zh": "将选定区域复制为图像到剪贴板",
       "en": "Copy selected area as image to clipboard"
     },
-    "windows": "Ctrl+Shift+T（部分版本）/ G",
-    "mac": "⌘+Shift+3 / G",
+    "windows": "Ctrl + Shift + T（部分版本） / G",
+    "mac": "⌘ ⇧ 3 / G",
     "linux": "—",
     "keywords": [
       "快照",

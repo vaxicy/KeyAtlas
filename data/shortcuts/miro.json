@@ -198,9 +198,9 @@
       "zh": "撤销上一步",
       "en": "Undo the last action"
     },
-    "windows": "Ctrl+Z",
+    "windows": "Ctrl + Z",
     "mac": "⌘Z",
-    "linux": "Ctrl+Z",
+    "linux": "Ctrl + Z",
     "keywords": [
       "撤销",
       "undo"
@@ -220,9 +220,9 @@
       "zh": "重做被撤销的操作",
       "en": "Redo the undone action"
     },
-    "windows": "Ctrl+Shift+Z",
+    "windows": "Ctrl + Shift + Z",
     "mac": "⌘⇧Z",
-    "linux": "Ctrl+Shift+Z",
+    "linux": "Ctrl + Shift + Z",
     "keywords": [
       "重做",
       "redo"
@@ -242,9 +242,9 @@
       "zh": "剪切所选",
       "en": "Cut the selection"
     },
-    "windows": "Ctrl+X",
+    "windows": "Ctrl + X",
     "mac": "⌘X",
-    "linux": "Ctrl+X",
+    "linux": "Ctrl + X",
     "keywords": [
       "剪切",
       "cut"
@@ -264,9 +264,9 @@
       "zh": "复制所选",
       "en": "Copy the selection"
     },
-    "windows": "Ctrl+C",
+    "windows": "Ctrl + C",
     "mac": "⌘C",
-    "linux": "Ctrl+C",
+    "linux": "Ctrl + C",
     "keywords": [
       "复制",
       "copy"
@@ -286,9 +286,9 @@
       "zh": "粘贴剪贴板内容",
       "en": "Paste from the clipboard"
     },
-    "windows": "Ctrl+V",
+    "windows": "Ctrl + V",
     "mac": "⌘V",
-    "linux": "Ctrl+V",
+    "linux": "Ctrl + V",
     "keywords": [
       "粘贴",
       "paste"
@@ -308,9 +308,9 @@
       "zh": "复制所选元素",
       "en": "Duplicate the selection"
     },
-    "windows": "Ctrl+D",
+    "windows": "Ctrl + D",
     "mac": "⌘D",
-    "linux": "Ctrl+D",
+    "linux": "Ctrl + D",
     "keywords": [
       "副本",
       "复制",
@@ -353,9 +353,9 @@
       "zh": "选择所有元素",
       "en": "Select all elements"
     },
-    "windows": "Ctrl+A",
+    "windows": "Ctrl + A",
     "mac": "⌘A",
-    "linux": "Ctrl+A",
+    "linux": "Ctrl + A",
     "keywords": [
       "全选",
       "select",
@@ -376,9 +376,9 @@
       "zh": "将所选编组",
       "en": "Group the selection"
     },
-    "windows": "Ctrl+G",
+    "windows": "Ctrl + G",
     "mac": "⌘G",
-    "linux": "Ctrl+G",
+    "linux": "Ctrl + G",
     "keywords": [
       "编组",
       "group"
@@ -398,9 +398,9 @@
       "zh": "解除所选编组",
       "en": "Ungroup the selection"
     },
-    "windows": "Ctrl+Shift+G",
+    "windows": "Ctrl + Shift + G",
     "mac": "⌘⇧G",
-    "linux": "Ctrl+Shift+G",
+    "linux": "Ctrl + Shift + G",
     "keywords": [
       "解组",
       "ungroup"
@@ -420,9 +420,9 @@
       "zh": "切换元素锁定状态",
       "en": "Lock or unlock the selection"
     },
-    "windows": "Ctrl+Shift+L",
+    "windows": "Ctrl + Shift + L",
     "mac": "⌘⇧L",
-    "linux": "Ctrl+Shift+L",
+    "linux": "Ctrl + Shift + L",
     "keywords": [
       "锁定",
       "lock"
@@ -465,9 +465,9 @@
       "zh": "缩小白板",
       "en": "Zoom out on the board"
     },
-    "windows": "Ctrl+-",
+    "windows": "Ctrl + -",
     "mac": "⌘-",
-    "linux": "Ctrl+-",
+    "linux": "Ctrl + -",
     "keywords": [
       "缩小",
       "缩放",
@@ -488,9 +488,9 @@
       "zh": "缩放以适配整个白板",
       "en": "Zoom to fit the whole board"
     },
-    "windows": "Ctrl+Shift+H",
+    "windows": "Ctrl + Shift + H",
     "mac": "⌘⇧H",
-    "linux": "Ctrl+Shift+H",
+    "linux": "Ctrl + Shift + H",
     "keywords": [
       "适应",
       "屏幕",
@@ -511,9 +511,9 @@
       "zh": "将白板缩放到 100%",
       "en": "Zoom to 100% on the board"
     },
-    "windows": "Ctrl+0",
+    "windows": "Ctrl + 0",
     "mac": "⌘0",
-    "linux": "Ctrl+0",
+    "linux": "Ctrl + 0",
     "keywords": [
       "缩放",
       "100",
@@ -534,9 +534,9 @@
       "zh": "在白板内搜索元素",
       "en": "Search for elements on the board"
     },
-    "windows": "Ctrl+F",
+    "windows": "Ctrl + F",
     "mac": "⌘F",
-    "linux": "Ctrl+F",
+    "linux": "Ctrl + F",
     "keywords": [
       "搜索",
       "白板",
@@ -557,9 +557,9 @@
       "zh": "进入演示全屏模式",
       "en": "Enter present/fullscreen mode"
     },
-    "windows": "Ctrl+Shift+P",
+    "windows": "Ctrl + Shift + P",
     "mac": "⌘⇧P",
-    "linux": "Ctrl+Shift+P",
+    "linux": "Ctrl + Shift + P",
     "keywords": [
       "演示",
       "全屏",
@@ -580,9 +580,9 @@
       "zh": "将所选置于最顶层",
       "en": "Bring the selection to the front"
     },
-    "windows": "Ctrl+Shift+]",
+    "windows": "Ctrl + Shift + ]",
     "mac": "⌘⇧]",
-    "linux": "Ctrl+Shift+]",
+    "linux": "Ctrl + Shift + ]",
     "keywords": [
       "顶层",
       "bring",
@@ -603,9 +603,9 @@
       "zh": "将所选置于最底层",
       "en": "Send the selection to the back"
     },
-    "windows": "Ctrl+Shift+[",
+    "windows": "Ctrl + Shift + [",
     "mac": "⌘⇧[",
-    "linux": "Ctrl+Shift+[",
+    "linux": "Ctrl + Shift + [",
     "keywords": [
       "底层",
       "send",
@@ -626,9 +626,9 @@
       "zh": "将所选上移一层",
       "en": "Bring the selection forward"
     },
-    "windows": "Ctrl+]",
+    "windows": "Ctrl + ]",
     "mac": "⌘]",
-    "linux": "Ctrl+]",
+    "linux": "Ctrl + ]",
     "keywords": [
       "上移",
       "图层",
@@ -650,9 +650,9 @@
       "zh": "将所选下移一层",
       "en": "Send the selection backward"
     },
-    "windows": "Ctrl+[",
+    "windows": "Ctrl + [",
     "mac": "⌘[",
-    "linux": "Ctrl+[",
+    "linux": "Ctrl + [",
     "keywords": [
       "下移",
       "图层",
@@ -674,9 +674,9 @@
       "zh": "将所选左对齐",
       "en": "Align the selection to the left"
     },
-    "windows": "Ctrl+Shift+Left",
+    "windows": "Ctrl + Shift + Left",
     "mac": "⌘⇧←",
-    "linux": "Ctrl+Shift+Left",
+    "linux": "Ctrl + Shift + Left",
     "keywords": [
       "对齐",
       "左",
@@ -698,9 +698,9 @@
       "zh": "将所选右对齐",
       "en": "Align the selection to the right"
     },
-    "windows": "Ctrl+Shift+Right",
+    "windows": "Ctrl + Shift + Right",
     "mac": "⌘⇧→",
-    "linux": "Ctrl+Shift+Right",
+    "linux": "Ctrl + Shift + Right",
     "keywords": [
       "对齐",
       "右",

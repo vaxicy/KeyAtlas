@@ -12,9 +12,9 @@
       "zh": "显示所有可用命令",
       "en": "Show Command Palette"
     },
-    "windows": "Ctrl+Shift+P",
-    "mac": "⌘+Shift+P",
-    "linux": "Ctrl+Shift+P",
+    "windows": "Ctrl + Shift + P",
+    "mac": "⌘ ⇧ P",
+    "linux": "Ctrl + Shift + P",
     "keywords": [
       "命令",
       "command",
@@ -35,9 +35,9 @@
       "zh": "按名称快速打开文件",
       "en": "Quick Open, Go to File"
     },
-    "windows": "Ctrl+P",
-    "mac": "⌘+P",
-    "linux": "Ctrl+P",
+    "windows": "Ctrl + P",
+    "mac": "⌘ P",
+    "linux": "Ctrl + P",
     "keywords": [
       "快速打开",
       "file"
@@ -57,9 +57,9 @@
       "zh": "新建 VS Code 窗口",
       "en": "New window / instance"
     },
-    "windows": "Ctrl+Shift+N",
-    "mac": "⌘+Shift+N",
-    "linux": "Ctrl+Shift+N",
+    "windows": "Ctrl + Shift + N",
+    "mac": "⌘ ⇧ N",
+    "linux": "Ctrl + Shift + N",
     "keywords": [
       "新建窗口",
       "new window"
@@ -79,9 +79,9 @@
       "zh": "关闭当前窗口",
       "en": "Close window / instance"
     },
-    "windows": "Ctrl+Shift+W",
-    "mac": "⌘+Shift+W",
-    "linux": "Ctrl+Shift+W",
+    "windows": "Ctrl + Shift + W",
+    "mac": "⌘ ⇧ W",
+    "linux": "Ctrl + Shift + W",
     "keywords": [
       "关闭窗口",
       "close window"
@@ -101,9 +101,9 @@
       "zh": "打开设置",
       "en": "Open settings"
     },
-    "windows": "Ctrl+,",
-    "mac": "⌘+,",
-    "linux": "Ctrl+,",
+    "windows": "Ctrl + ,",
+    "mac": "⌘ ,",
+    "linux": "Ctrl + ,",
     "keywords": [
       "设置",
       "settings"
@@ -123,9 +123,9 @@
       "zh": "打开键盘快捷方式配置",
       "en": "Open Keyboard Shortcuts"
     },
-    "windows": "Ctrl+K Ctrl+S",
-    "mac": "⌘+K ⌘+S",
-    "linux": "Ctrl+K Ctrl+S",
+    "windows": "Ctrl + K Ctrl + S",
+    "mac": "⌘ K ⌘ S",
+    "linux": "Ctrl + K Ctrl + S",
     "keywords": [
       "键盘快捷键",
       "keyboard shortcuts"
@@ -145,9 +145,9 @@
       "zh": "剪切当前行（空选时）",
       "en": "Cut line (empty selection)"
     },
-    "windows": "Ctrl+X",
-    "mac": "⌘+X",
-    "linux": "Ctrl+X",
+    "windows": "Ctrl + X",
+    "mac": "⌘ X",
+    "linux": "Ctrl + X",
     "keywords": [
       "剪切行",
       "cut line"
@@ -167,9 +167,9 @@
       "zh": "复制当前行（空选时）",
       "en": "Copy line (empty selection)"
     },
-    "windows": "Ctrl+C",
-    "mac": "⌘+C",
-    "linux": "Ctrl+C",
+    "windows": "Ctrl + C",
+    "mac": "⌘ C",
+    "linux": "Ctrl + C",
     "keywords": [
       "复制行",
       "copy line"
@@ -189,9 +189,9 @@
       "zh": "将当前行上移或下移",
       "en": "Move line up / down"
     },
-    "windows": "Alt+Up / Alt+Down",
-    "mac": "Option+Up / Option+Down",
-    "linux": "Alt+Up / Alt+Down",
+    "windows": "Alt + Up / Alt + Down",
+    "mac": "⌥ Up / ⌥ Down",
+    "linux": "Alt + Up / Alt + Down",
     "keywords": [
       "移动行",
       "move line"
@@ -211,9 +211,9 @@
       "zh": "在下方复制当前行",
       "en": "Copy line down"
     },
-    "windows": "Shift+Alt+Down",
-    "mac": "Shift+Option+Down",
-    "linux": "Shift+Alt+Down",
+    "windows": "Shift + Alt + Down",
+    "mac": "⇧ ⌥ Down",
+    "linux": "Shift + Alt + Down",
     "keywords": [
       "复制行",
       "duplicate line"
@@ -233,9 +233,9 @@
       "zh": "删除当前行",
       "en": "Delete line"
     },
-    "windows": "Ctrl+Shift+K",
-    "mac": "⌘+Shift+K",
-    "linux": "Ctrl+Shift+K",
+    "windows": "Ctrl + Shift + K",
+    "mac": "⌘ ⇧ K",
+    "linux": "Ctrl + Shift + K",
     "keywords": [
       "删除行",
       "delete line"
@@ -255,9 +255,9 @@
       "zh": "在光标上方或下方插入行",
       "en": "Insert cursor above / below"
     },
-    "windows": "Ctrl+Enter / Ctrl+Shift+Enter",
-    "mac": "⌘+Enter / ⌘+Shift+Enter",
-    "linux": "Ctrl+Enter / Ctrl+Shift+Enter",
+    "windows": "Ctrl + Enter / Ctrl + Shift + Enter",
+    "mac": "⌘ Enter / ⌘ ⇧ Enter",
+    "linux": "Ctrl + Enter / Ctrl + Shift + Enter",
     "keywords": [
       "插入行",
       "insert line"
@@ -277,9 +277,9 @@
       "zh": "跳转到匹配的括号",
       "en": "Jump to matching bracket"
     },
-    "windows": "Ctrl+Shift+\\",
-    "mac": "⌘+Shift+\\",
-    "linux": "Ctrl+Shift+\\",
+    "windows": "Ctrl + Shift + \\",
+    "mac": "⌘ ⇧ \\",
+    "linux": "Ctrl + Shift + \\",
     "keywords": [
       "匹配括号",
       "bracket"
@@ -299,9 +299,9 @@
       "zh": "增加或减少当前行缩进",
       "en": "Indent / Outdent line"
     },
-    "windows": "Ctrl+] / Ctrl+[",
-    "mac": "⌘+] / ⌘+[",
-    "linux": "Ctrl+] / Ctrl+[",
+    "windows": "Ctrl + ] / Ctrl + [",
+    "mac": "⌘ ] / ⌘ [",
+    "linux": "Ctrl + ] / Ctrl + [",
     "keywords": [
       "缩进",
       "indent outdent"
@@ -321,9 +321,9 @@
       "zh": "跳转到指定行号",
       "en": "Go to line..."
     },
-    "windows": "Ctrl+G",
-    "mac": "Ctrl+G",
-    "linux": "Ctrl+G",
+    "windows": "Ctrl + G",
+    "mac": "⌃ G",
+    "linux": "Ctrl + G",
     "keywords": [
       "转到行",
       "go to line"
@@ -343,9 +343,9 @@
       "zh": "添加或取消行注释",
       "en": "Toggle line comment"
     },
-    "windows": "Ctrl+/",
-    "mac": "⌘+/",
-    "linux": "Ctrl+/",
+    "windows": "Ctrl / ",
+    "mac": "⌘ / ",
+    "linux": "Ctrl / ",
     "keywords": [
       "注释",
       "comment"
@@ -365,9 +365,9 @@
       "zh": "开启或关闭自动换行",
       "en": "Toggle word wrap"
     },
-    "windows": "Alt+Z",
-    "mac": "Option+Z",
-    "linux": "Alt+Z",
+    "windows": "Alt + Z",
+    "mac": "⌥ Z",
+    "linux": "Alt + Z",
     "keywords": [
       "换行",
       "word wrap"
@@ -387,9 +387,9 @@
       "zh": "打开符号搜索（函数、类等）",
       "en": "Show all symbols"
     },
-    "windows": "Ctrl+T",
-    "mac": "⌘+T",
-    "linux": "Ctrl+T",
+    "windows": "Ctrl + T",
+    "mac": "⌘ T",
+    "linux": "Ctrl + T",
     "keywords": [
       "符号",
       "symbols"
@@ -409,9 +409,9 @@
       "zh": "显示文档结构大纲",
       "en": "Show outline / file symbols"
     },
-    "windows": "Ctrl+Shift+O",
-    "mac": "⌘+Shift+O",
-    "linux": "Ctrl+Shift+O",
+    "windows": "Ctrl + Shift + O",
+    "mac": "⌘ ⇧ O",
+    "linux": "Ctrl + Shift + O",
     "keywords": [
       "大纲",
       "outline"
@@ -431,9 +431,9 @@
       "zh": "按名称打开文件",
       "en": "Go to file..."
     },
-    "windows": "Ctrl+P",
-    "mac": "⌘+P",
-    "linux": "Ctrl+P",
+    "windows": "Ctrl + P",
+    "mac": "⌘ P",
+    "linux": "Ctrl + P",
     "keywords": [
       "转到文件",
       "go to file"
@@ -453,9 +453,9 @@
       "zh": "导航后退或前进",
       "en": "Navigate back / forward"
     },
-    "windows": "Alt+Left / Alt+Right",
-    "mac": "Ctrl+- / Ctrl+Shift+-",
-    "linux": "Alt+Left / Alt+Right",
+    "windows": "Alt + Left / Alt + Right",
+    "mac": "⌃ - / ⌃ ⇧ -",
+    "linux": "Alt + Left / Alt + Right",
     "keywords": [
       "后退前进",
       "back forward navigation"
@@ -475,9 +475,9 @@
       "zh": "跳转到最后编辑的位置",
       "en": "Go to last edit location"
     },
-    "windows": "Ctrl+K Ctrl+Q",
-    "mac": "⌘+K ⌘+Q",
-    "linux": "Ctrl+K Ctrl+Q",
+    "windows": "Ctrl + K Ctrl + Q",
+    "mac": "⌘ K ⌘ Q",
+    "linux": "Ctrl + K Ctrl + Q",
     "keywords": [
       "编辑位置",
       "last edit location"
@@ -497,9 +497,9 @@
       "zh": "显示错误和警告列表",
       "en": "Go to problems panel / errors & warnings"
     },
-    "windows": "Ctrl+Shift+M",
-    "mac": "⌘+Shift+M",
-    "linux": "Ctrl+Shift+M",
+    "windows": "Ctrl + Shift + M",
+    "mac": "⌘ ⇧ M",
+    "linux": "Ctrl + Shift + M",
     "keywords": [
       "问题面板",
       "problems errors warnings"
@@ -519,9 +519,9 @@
       "zh": "在当前文件中查找或替换",
       "en": "Find / Replace"
     },
-    "windows": "Ctrl+F / Ctrl+H",
-    "mac": "⌘+F / ⌘+H",
-    "linux": "Ctrl+F / Ctrl+H",
+    "windows": "Ctrl + F / Ctrl + H",
+    "mac": "⌘ F / ⌘ H",
+    "linux": "Ctrl + F / Ctrl + H",
     "keywords": [
       "查找替换",
       "find replace"
@@ -541,9 +541,9 @@
       "zh": "查找下一处或上一处匹配",
       "en": "Find next/previous of Find match"
     },
-    "windows": "F3 / Shift+F3",
-    "mac": "F3 / Shift+F3",
-    "linux": "F3 / Shift+F3",
+    "windows": "F3 / Shift + F3",
+    "mac": "F3 / ⇧ F3",
+    "linux": "F3 / Shift + F3",
     "keywords": [
       "查找下一个",
       "find next previous"
@@ -563,9 +563,9 @@
       "zh": "选中下一个 Find 匹配项",
       "en": "Select all occurrences of Find match"
     },
-    "windows": "Alt+Enter",
-    "mac": "Option+Enter",
-    "linux": "Alt+Enter",
+    "windows": "Alt + Enter",
+    "mac": "⌥ Enter",
+    "linux": "Alt + Enter",
     "keywords": [
       "选择匹配",
       "select occurrence"
@@ -585,9 +585,9 @@
       "zh": "切换查找选项：大小写敏感、全词匹配、正则表达式",
       "en": "Toggle case sensitive / regex / whole word"
     },
-    "windows": "Alt+C / Alt+W / Alt+R",
-    "mac": "Option+C / Option+W / Option+R",
-    "linux": "Alt+C / Alt+W / Alt+R",
+    "windows": "Alt + C / Alt + W / Alt + R",
+    "mac": "⌥ C / ⌥ W / ⌥ R",
+    "linux": "Alt + C / Alt + W / Alt + R",
     "keywords": [
       "大小写",
       "case sensitive",
@@ -609,9 +609,9 @@
       "zh": "在鼠标点击处插入光标（Alt+Click）",
       "en": "Insert cursor at mouse position (Alt+Click)"
     },
-    "windows": "Alt+Click",
-    "mac": "Option+Click",
-    "linux": "Alt+Click",
+    "windows": "Alt + Click",
+    "mac": "⌥ Click",
+    "linux": "Alt + Click",
     "keywords": [
       "插入光标",
       "insert cursor multi"
@@ -631,9 +631,9 @@
       "zh": "在上下方各插入一个光标",
       "en": "Insert cursor above / below"
     },
-    "windows": "Ctrl+Alt+Up / Down",
-    "mac": "⌘+Option+Up / Down",
-    "linux": "Ctrl+Alt+Up / Down",
+    "windows": "Ctrl + Alt + Up / Down",
+    "mac": "⌘ ⌥ Up / Down",
+    "linux": "Ctrl + Alt + Up / Down",
     "keywords": [
       "多光标",
       "multi cursor above below"
@@ -653,9 +653,9 @@
       "zh": "撤销最近的光标操作",
       "en": "Undo last cursor operation"
     },
-    "windows": "Ctrl+U",
-    "mac": "⌘+U",
-    "linux": "Ctrl+U",
+    "windows": "Ctrl + U",
+    "mac": "⌘ U",
+    "linux": "Ctrl + U",
     "keywords": [
       "撤销光标操作",
       "undo cursor"
@@ -675,9 +675,9 @@
       "zh": "选中每行的末尾",
       "en": "Select cursors at ends of each line selected"
     },
-    "windows": "Shift+Alt+I",
-    "mac": "Shift+Option+I",
-    "linux": "Shift+Alt+I",
+    "windows": "Shift + Alt + I",
+    "mac": "⇧ ⌥ I",
+    "linux": "Shift + Alt + I",
     "keywords": [
       "选择行尾",
       "select line ends"
@@ -697,9 +697,9 @@
       "zh": "逐级扩大或缩小选择范围",
       "en": "Expand / Shrink selection"
     },
-    "windows": "Shift+Alt+→ / Shift+Alt+←",
-    "mac": "Shift+Option+→ / Shift+Option+←",
-    "linux": "Shift+Alt+→ / Shift+Alt+←",
+    "windows": "Shift + Alt + → / Shift + Alt + ←",
+    "mac": "⇧ ⌥ → / ⇧ ⌥ ←",
+    "linux": "Shift + Alt + → / Shift + Alt + ←",
     "keywords": [
       "扩展缩小选择",
       "expand shrink selection"
@@ -719,9 +719,9 @@
       "zh": "列模式选择（拖动鼠标或翻页扩展）",
       "en": "Column (box) selection (drag mouse or page up/down)"
     },
-    "windows": "Shift+Alt+(drag) / Ctrl+Shift+Alt+PgUp/PgDn",
-    "mac": "Shift+Option+(drag) / ⌘+Shift+Option+PgUp/PgDn",
-    "linux": "Shift+Alt+(drag) / Ctrl+Shift+Alt+PgUp/PgDn",
+    "windows": "Shift + Alt + (drag) / Ctrl + Shift + Alt + PgUp / PgDn",
+    "mac": "⇧ ⌥ (drag) / ⌘ ⇧ ⌥ PgUp / PgDn",
+    "linux": "Shift + Alt + (drag) / Ctrl + Shift + Alt + PgUp / PgDn",
     "keywords": [
       "列选择",
       "column box selection"
@@ -741,9 +741,9 @@
       "zh": "显示函数参数提示",
       "en": "Trigger parameter hints"
     },
-    "windows": "Ctrl+Shift+Space",
-    "mac": "⌘+Shift+Space",
-    "linux": "Ctrl+Shift+Space",
+    "windows": "Ctrl + Shift + Space",
+    "mac": "⌘ ⇧ Space",
+    "linux": "Ctrl + Shift + Space",
     "keywords": [
       "参数提示",
       "parameter hints"
@@ -763,9 +763,9 @@
       "zh": "触发代码补全建议",
       "en": "Trigger suggestion"
     },
-    "windows": "Ctrl+Space",
-    "mac": "Ctrl+Space",
-    "linux": "Ctrl+Space",
+    "windows": "Ctrl + Space",
+    "mac": "⌃ Space",
+    "linux": "Ctrl + Space",
     "keywords": [
       "代码补全",
       "suggestion suggest"
@@ -785,9 +785,9 @@
       "zh": "格式化整个文档",
       "en": "Format document"
     },
-    "windows": "Shift+Alt+F",
-    "mac": "Shift+Option+F",
-    "linux": "Ctrl+Shift+I",
+    "windows": "Shift + Alt + F",
+    "mac": "⇧ ⌥ F",
+    "linux": "Ctrl + Shift + I",
     "keywords": [
       "格式化文档",
       "format document"
@@ -807,9 +807,9 @@
       "zh": "跳转到定义或内联预览",
       "en": "Go to Definition / Peek Definition to side"
     },
-    "windows": "F12 / Alt+F12",
-    "mac": "F12 / Option+F12",
-    "linux": "F12 / Alt+F12",
+    "windows": "F12 / Alt + F12",
+    "mac": "F12 / ⌥ F12",
+    "linux": "F12 / Alt + F12",
     "keywords": [
       "定义",
       "definition peek"
@@ -829,9 +829,9 @@
       "zh": "显示可用的快速修复选项",
       "en": "Quick fix"
     },
-    "windows": "Ctrl+.",
-    "mac": "⌘+.",
-    "linux": "Ctrl+.",
+    "windows": "Ctrl + .",
+    "mac": "⌘ .",
+    "linux": "Ctrl + .",
     "keywords": [
       "快速修复",
       "quick fix error"
@@ -851,9 +851,9 @@
       "zh": "查看所有引用位置",
       "en": "Show references"
     },
-    "windows": "Shift+F12",
-    "mac": "Shift+F12",
-    "linux": "Shift+F12",
+    "windows": "Shift + F12",
+    "mac": "⇧ F12",
+    "linux": "Shift + F12",
     "keywords": [
       "引用",
       "references"
@@ -895,9 +895,9 @@
       "zh": "删除行尾空白字符",
       "en": "Trim trailing whitespace"
     },
-    "windows": "Ctrl+K Ctrl+X",
-    "mac": "⌘+K ⌘+X",
-    "linux": "Ctrl+K Ctrl+X",
+    "windows": "Ctrl + K Ctrl + X",
+    "mac": "⌘ K ⌘ X",
+    "linux": "Ctrl + K Ctrl + X",
     "keywords": [
       "空白字符",
       "trim whitespace"
@@ -917,9 +917,9 @@
       "zh": "关闭编辑器、文件夹、拆分编辑器、聚焦第1/2/3组",
       "en": "Close editor/folder, split editor, focus group 1/2/3"
     },
-    "windows": "Ctrl+W / Ctrl+K F / Ctrl+\\ / Ctrl+1 2 3",
-    "mac": "⌘+W / ⌘+K F / ⌘+\\ / ⌘+1 2 3",
-    "linux": "Ctrl+W / Ctrl+K F / Ctrl+\\ / Ctrl+1 2 3",
+    "windows": "Ctrl + W / Ctrl + K F / Ctrl + \\ / Ctrl + 1 2 3",
+    "mac": "⌘ W / ⌘ K F / ⌘ \\ / ⌘ 1 2 3",
+    "linux": "Ctrl + W / Ctrl + K F / Ctrl + \\ / Ctrl + 1 2 3",
     "keywords": [
       "关闭编辑器",
       "split editor group",
@@ -940,9 +940,9 @@
       "zh": "左右移动编辑器标签页到相邻组",
       "en": "Move editor left/right group"
     },
-    "windows": "Ctrl+K ← / Ctrl+K →",
-    "mac": "⌘+K ← / ⌘+K →",
-    "linux": "Ctrl+K ← / Ctrl+K →",
+    "windows": "Ctrl + K ← / Ctrl + K →",
+    "mac": "⌘ K ← / ⌘ K →",
+    "linux": "Ctrl + K ← / Ctrl + K →",
     "keywords": [
       "移动编辑器",
       "move editor left right"
@@ -962,9 +962,9 @@
       "zh": "文件操作：新建、保存、另存为、全部保存、全部关闭",
       "en": "File: New, Save, Save As, Save All, Close All"
     },
-    "windows": "Ctrl+N / Ctrl+S / Ctrl+Shift+S / Ctrl+K S / Ctrl+K W",
-    "mac": "⌘+N / ⌘+S / ⌘+Shift+S / ⌘+Option+S / ⌘+K W",
-    "linux": "Ctrl+N / Ctrl+S / Ctrl+Shift+S / Ctrl+K S / Ctrl+K W",
+    "windows": "Ctrl + N / Ctrl + S / Ctrl + Shift + S / Ctrl + K S / Ctrl + K W",
+    "mac": "⌘ N / ⌘ S / ⌘ ⇧ S / ⌘ ⌥ S / ⌘ K W",
+    "linux": "Ctrl + N / Ctrl + S / Ctrl + Shift + S / Ctrl + K S / Ctrl + K W",
     "keywords": [
       "新建保存",
       "new save saveall closeall"
@@ -984,9 +984,9 @@
       "zh": "文件管理相关操作",
       "en": "Open file, keep open, next/prev tab, copy path, reveal active file"
     },
-    "windows": "Ctrl+O / Ctrl+K Enter / Ctrl+Tab / Ctrl+Shift+Tab / Ctrl+K P / Ctrl+K O",
-    "mac": "⌘+O / ⌘+K Enter / Ctrl+Tab / ⌘+Shift+Tab / ⌘+K P / ⌘+K O",
-    "linux": "Ctrl+O / Ctrl+K Enter / Ctrl+Tab / Ctrl+Shift+Tab / Ctrl+K P / Ctrl+K O",
+    "windows": "Ctrl + O / Ctrl + K Enter / Ctrl + Tab / Ctrl + Shift + Tab / Ctrl + K P / Ctrl + K O",
+    "mac": "⌘ O / ⌘ K Enter / ⌃ Tab / ⌘ ⇧ Tab / ⌘ K P / ⌘ K O",
+    "linux": "Ctrl + O / Ctrl + K Enter / Ctrl + Tab / Ctrl + Shift + Tab / Ctrl + K P / Ctrl + K O",
     "keywords": [
       "打开文件",
       "open file copy path reveal"
@@ -1006,9 +1006,9 @@
       "zh": "显示控制：全屏模式、缩放编辑器布局、切换侧边栏可见性",
       "en": "Display: Full screen, zoom layout, toggle sidebar visibility"
     },
-    "windows": "F11 / Ctrl+=/- / Ctrl+B",
-    "mac": "Ctrl+⌘+F / ⌘+=/- / ⌘+B",
-    "linux": "F11 / Ctrl+=/- / Ctrl+B",
+    "windows": "F11 / Ctrl + = / - / Ctrl + B",
+    "mac": "⌃ ⌘ F / ⌘ = / - / ⌘ B",
+    "linux": "F11 / Ctrl + = / - / Ctrl + B",
     "keywords": [
       "全屏缩放布局",
       "fullscreen zoom sidebar visibility"
@@ -1028,9 +1028,9 @@
       "zh": "焦点切到各功能面板",
       "en": "Focus into Explorer / Search / Source Control / Run&Debug / Extensions / Problems / Output"
     },
-    "windows": "Ctrl+Shift+E / F / G / D / X / M / U",
-    "mac": "⌘+Shift+E / F / G / D / X / M / U",
-    "linux": "Ctrl+Shift+E / F / G / D / X / M / U",
+    "windows": "Ctrl + Shift + E / F / G / D / X / M / U",
+    "mac": "⌘ ⇧ E / F / G / D / X / M / U",
+    "linux": "Ctrl + Shift + E / F / G / D / X / M / U",
     "keywords": [
       "聚焦面板",
       "focus panel explorer search scm debug ext problems output"
@@ -1050,9 +1050,9 @@
       "zh": "调试操作：切换断点、启动/停止调试、单步执行",
       "en": "Debug: Toggle breakpoint, start/stop debugging, step into/over/out"
     },
-    "windows": "F9 / F5 / F11 / F10 / Shift+F11 / Shift+F5",
-    "mac": "F9 / F5 / F11 / F10 / Shift+F11 / Shift+F5",
-    "linux": "F9 / F5 / F11 / F10 / Shift+F11 / Shift+F5",
+    "windows": "F9 / F5 / F11 / F10 / Shift + F11 / Shift + F5",
+    "mac": "F9 / F5 / F11 / F10 / ⇧ F11 / ⇧ F5",
+    "linux": "F9 / F5 / F11 / F10 / Shift + F11 / Shift + F5",
     "keywords": [
       "断点调试",
       "debug breakpoint step into over out stop"
@@ -1072,9 +1072,9 @@
       "zh": "集成终端操作",
       "en": "Integrated terminal operations"
     },
-    "windows": "Ctrl+` / Ctrl+Shift+` / Ctrl+Shift+5 / Shift+PgUp/PgDn",
-    "mac": "⌘+` / ⌘+Shift+` / ⌘+Shift+5 / ⌘+PgUp/PgDn",
-    "linux": "Ctrl+` / Ctrl+Shift+` / Ctrl+Shift+5 / Shift+PgUp/PgDn",
+    "windows": "Ctrl + ` / Ctrl + Shift + ` / Ctrl + Shift + 5 / Shift + PgUp / PgDn",
+    "mac": "⌘ ` / ⌘ ⇧ ` / ⌘ ⇧ 5 / ⌘ PgUp / PgDn",
+    "linux": "Ctrl + ` / Ctrl + Shift + ` / Ctrl + Shift + 5 / Shift + PgUp / PgDn",
     "keywords": [
       "终端",
       "terminal new split scroll"

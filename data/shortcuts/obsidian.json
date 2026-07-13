@@ -12,9 +12,9 @@
       "zh": "新建 Markdown 笔记",
       "en": "Create new note"
     },
-    "windows": "Ctrl+N",
-    "mac": "⌘+N",
-    "linux": "Ctrl+N",
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
+    "linux": "Ctrl + N",
     "keywords": [
       "新建笔记",
       "new note"
@@ -34,9 +34,9 @@
       "zh": "新建文件夹",
       "en": "New folder"
     },
-    "windows": "Ctrl+Shift+N",
-    "mac": "⌘+Shift+N",
-    "linux": "Ctrl+Shift+N",
+    "windows": "Ctrl + Shift + N",
+    "mac": "⌘ ⇧ N",
+    "linux": "Ctrl + Shift + N",
     "keywords": [
       "新建文件夹",
       "folder"
@@ -56,9 +56,9 @@
       "zh": "快速打开笔记",
       "en": "Quick switcher"
     },
-    "windows": "Ctrl+O",
-    "mac": "⌘+O",
-    "linux": "Ctrl+O",
+    "windows": "Ctrl + O",
+    "mac": "⌘ O",
+    "linux": "Ctrl + O",
     "keywords": [
       "快速切换",
       "quick switcher",
@@ -79,9 +79,9 @@
       "zh": "在仓库中全局搜索",
       "en": "Search in vault"
     },
-    "windows": "Ctrl+Shift+F",
-    "mac": "⌘+Shift+F",
-    "linux": "Ctrl+Shift+F",
+    "windows": "Ctrl + Shift + F",
+    "mac": "⌘ ⇧ F",
+    "linux": "Ctrl + Shift + F",
     "keywords": [
       "搜索",
       "search"
@@ -101,9 +101,9 @@
       "zh": "打开命令面板",
       "en": "Command palette"
     },
-    "windows": "Ctrl+P",
-    "mac": "⌘+P",
-    "linux": "Ctrl+P",
+    "windows": "Ctrl + P",
+    "mac": "⌘ P",
+    "linux": "Ctrl + P",
     "keywords": [
       "命令面板",
       "command"
@@ -123,9 +123,9 @@
       "zh": "打开图谱视图",
       "en": "Open graph view"
     },
-    "windows": "Ctrl+G",
-    "mac": "⌘+G",
-    "linux": "Ctrl+G",
+    "windows": "Ctrl + G",
+    "mac": "⌘ G",
+    "linux": "Ctrl + G",
     "keywords": [
       "图谱",
       "graph",
@@ -146,9 +146,9 @@
       "zh": "编辑与预览模式切换",
       "en": "Toggle edit/preview"
     },
-    "windows": "Ctrl+E",
-    "mac": "⌘+E",
-    "linux": "Ctrl+E",
+    "windows": "Ctrl + E",
+    "mac": "⌘ E",
+    "linux": "Ctrl + E",
     "keywords": [
       "编辑",
       "预览",
@@ -170,9 +170,9 @@
       "zh": "切换阅读视图",
       "en": "Reading view"
     },
-    "windows": "Ctrl+Shift+E",
-    "mac": "⌘+Shift+E",
-    "linux": "Ctrl+Shift+E",
+    "windows": "Ctrl + Shift + E",
+    "mac": "⌘ ⇧ E",
+    "linux": "Ctrl + Shift + E",
     "keywords": [
       "阅读",
       "reading"
@@ -192,9 +192,9 @@
       "zh": "加粗文本",
       "en": "Bold text"
     },
-    "windows": "Ctrl+B",
-    "mac": "⌘+B",
-    "linux": "Ctrl+B",
+    "windows": "Ctrl + B",
+    "mac": "⌘ B",
+    "linux": "Ctrl + B",
     "keywords": [
       "加粗",
       "bold"
@@ -214,9 +214,9 @@
       "zh": "斜体文本",
       "en": "Italic text"
     },
-    "windows": "Ctrl+I",
-    "mac": "⌘+I",
-    "linux": "Ctrl+I",
+    "windows": "Ctrl + I",
+    "mac": "⌘ I",
+    "linux": "Ctrl + I",
     "keywords": [
       "斜体",
       "italic"
@@ -236,9 +236,9 @@
       "zh": "插入内部/外部链接",
       "en": "Insert link"
     },
-    "windows": "Ctrl+K",
-    "mac": "⌘+K",
-    "linux": "Ctrl+K",
+    "windows": "Ctrl + K",
+    "mac": "⌘ K",
+    "linux": "Ctrl + K",
     "keywords": [
       "链接",
       "link"
@@ -258,9 +258,9 @@
       "zh": "插入代码块",
       "en": "Insert code block"
     },
-    "windows": "Ctrl+Shift+K",
-    "mac": "⌘+Shift+K",
-    "linux": "Ctrl+Shift+K",
+    "windows": "Ctrl + Shift + K",
+    "mac": "⌘ ⇧ K",
+    "linux": "Ctrl + Shift + K",
     "keywords": [
       "代码",
       "code"
@@ -280,9 +280,9 @@
       "zh": "插入项目符号列表",
       "en": "Bullet list"
     },
-    "windows": "Ctrl+8",
-    "mac": "⌘+8",
-    "linux": "Ctrl+8",
+    "windows": "Ctrl + 8",
+    "mac": "⌘ 8",
+    "linux": "Ctrl + 8",
     "keywords": [
       "列表",
       "bullet",
@@ -303,9 +303,9 @@
       "zh": "插入编号列表",
       "en": "Numbered list"
     },
-    "windows": "Ctrl+7",
-    "mac": "⌘+7",
-    "linux": "Ctrl+7",
+    "windows": "Ctrl + 7",
+    "mac": "⌘ 7",
+    "linux": "Ctrl + 7",
     "keywords": [
       "编号",
       "number",
@@ -326,9 +326,9 @@
       "zh": "插入待办任务",
       "en": "Task list"
     },
-    "windows": "Ctrl+Enter",
-    "mac": "⌘+Enter",
-    "linux": "Ctrl+Enter",
+    "windows": "Ctrl + Enter",
+    "mac": "⌘ Enter",
+    "linux": "Ctrl + Enter",
     "keywords": [
       "任务",
       "todo",
@@ -349,9 +349,9 @@
       "zh": "循环切换标题级别",
       "en": "Cycle heading"
     },
-    "windows": "Ctrl+H",
-    "mac": "⌘+H",
-    "linux": "Ctrl+H",
+    "windows": "Ctrl + H",
+    "mac": "⌘ H",
+    "linux": "Ctrl + H",
     "keywords": [
       "标题",
       "heading"
@@ -371,9 +371,9 @@
       "zh": "显示/隐藏侧边栏",
       "en": "Toggle sidebar"
     },
-    "windows": "Ctrl+\\",
-    "mac": "⌘+\\",
-    "linux": "Ctrl+\\",
+    "windows": "Ctrl + \\",
+    "mac": "⌘ \\",
+    "linux": "Ctrl + \\",
     "keywords": [
       "侧边栏",
       "sidebar"
@@ -393,9 +393,9 @@
       "zh": "打开设置",
       "en": "Open settings"
     },
-    "windows": "Ctrl+,",
-    "mac": "⌘+,",
-    "linux": "Ctrl+,",
+    "windows": "Ctrl + ,",
+    "mac": "⌘ ,",
+    "linux": "Ctrl + ,",
     "keywords": [
       "设置",
       "settings"
@@ -415,9 +415,9 @@
       "zh": "关闭当前面板",
       "en": "Close active pane"
     },
-    "windows": "Ctrl+W",
-    "mac": "⌘+W",
-    "linux": "Ctrl+W",
+    "windows": "Ctrl + W",
+    "mac": "⌘ W",
+    "linux": "Ctrl + W",
     "keywords": [
       "关闭",
       "close"
@@ -437,9 +437,9 @@
       "zh": "撤销上一步操作",
       "en": "Undo last action"
     },
-    "windows": "Ctrl+Z",
-    "mac": "⌘+Z",
-    "linux": "Ctrl+Z",
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "Ctrl + Z",
     "keywords": [
       "撤销",
       "undo"
@@ -459,9 +459,9 @@
       "zh": "重做已撤销的操作",
       "en": "Redo last undone action"
     },
-    "windows": "Ctrl+Shift+Z",
-    "mac": "⌘+Shift+Z",
-    "linux": "Ctrl+Shift+Z",
+    "windows": "Ctrl + Shift + Z",
+    "mac": "⌘ ⇧ Z",
+    "linux": "Ctrl + Shift + Z",
     "keywords": [
       "重做",
       "redo"
@@ -481,9 +481,9 @@
       "zh": "为文本添加下划线",
       "en": "Underline text"
     },
-    "windows": "Ctrl+U",
-    "mac": "⌘+U",
-    "linux": "Ctrl+U",
+    "windows": "Ctrl + U",
+    "mac": "⌘ U",
+    "linux": "Ctrl + U",
     "keywords": [
       "下划线",
       "underline"
@@ -503,9 +503,9 @@
       "zh": "插入行内代码标记",
       "en": "Insert inline code"
     },
-    "windows": "Ctrl+`",
-    "mac": "⌘+`",
-    "linux": "Ctrl+`",
+    "windows": "Ctrl + `",
+    "mac": "⌘ `",
+    "linux": "Ctrl + `",
     "keywords": [
       "代码",
       "code",
@@ -526,9 +526,9 @@
       "zh": "选中全部内容",
       "en": "Select all content"
     },
-    "windows": "Ctrl+A",
-    "mac": "⌘+A",
-    "linux": "Ctrl+A",
+    "windows": "Ctrl + A",
+    "mac": "⌘ A",
+    "linux": "Ctrl + A",
     "keywords": [
       "全选",
       "select all"
@@ -548,9 +548,9 @@
       "zh": "打开新标签页",
       "en": "Open new tab"
     },
-    "windows": "Ctrl+T",
-    "mac": "⌘+T",
-    "linux": "Ctrl+T",
+    "windows": "Ctrl + T",
+    "mac": "⌘ T",
+    "linux": "Ctrl + T",
     "keywords": [
       "新建",
       "标签",

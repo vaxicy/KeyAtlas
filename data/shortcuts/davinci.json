@@ -531,9 +531,9 @@
       "zh": "放大时间轴视图",
       "en": "Zoom in on timeline"
     },
-    "windows": "Ctrl + +",
+    "windows": "Ctrl + =",
     "mac": "⌘ =",
-    "linux": "Ctrl + +",
+    "linux": "Ctrl + =",
     "keywords": [
       "放大",
       "zoom in",

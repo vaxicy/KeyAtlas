@@ -12,9 +12,9 @@
       "zh": "创建一个新页面",
       "en": "Create a new page"
     },
-    "windows": "Ctrl+N",
-    "mac": "⌘+N",
-    "linux": "Ctrl+N",
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
+    "linux": "Ctrl + N",
     "keywords": [
       "新建",
       "new page"
@@ -34,9 +34,9 @@
       "zh": "打开全局搜索 / 查找替换",
       "en": "Open global search / Find & Replace"
     },
-    "windows": "Ctrl+P",
-    "mac": "⌘+P",
-    "linux": "Ctrl+P",
+    "windows": "Ctrl + P",
+    "mac": "⌘ P",
+    "linux": "Ctrl + P",
     "keywords": [
       "搜索",
       "search",
@@ -58,9 +58,9 @@
       "zh": "输入斜杠打开块类型选择菜单",
       "en": "Open slash command menu to insert blocks"
     },
-    "windows": "/",
-    "mac": "/",
-    "linux": "/",
+    "windows": " / ",
+    "mac": " / ",
+    "linux": " / ",
     "keywords": [
       "命令",
       "command",
@@ -83,9 +83,9 @@
       "zh": "将选中文字加粗",
       "en": "Make selected text bold"
     },
-    "windows": "Ctrl+B",
-    "mac": "⌘+B",
-    "linux": "Ctrl+B",
+    "windows": "Ctrl + B",
+    "mac": "⌘ B",
+    "linux": "Ctrl + B",
     "keywords": [
       "加粗",
       "bold"
@@ -105,9 +105,9 @@
       "zh": "将选中文字变为斜体",
       "en": "Make selected text italic"
     },
-    "windows": "Ctrl+I",
-    "mac": "⌘+I",
-    "linux": "Ctrl+I",
+    "windows": "Ctrl + I",
+    "mac": "⌘ I",
+    "linux": "Ctrl + I",
     "keywords": [
       "斜体",
       "italic"
@@ -127,9 +127,9 @@
       "zh": "为文字添加下划线",
       "en": "Underline text"
     },
-    "windows": "Ctrl+U",
-    "mac": "⌘+U",
-    "linux": "Ctrl+U",
+    "windows": "Ctrl + U",
+    "mac": "⌘ U",
+    "linux": "Ctrl + U",
     "keywords": [
       "下划线",
       "underline"
@@ -149,9 +149,9 @@
       "zh": "为文字添加删除线",
       "en": "Strikethrough text"
     },
-    "windows": "Ctrl+Shift+S",
-    "mac": "⌘+⇧+S",
-    "linux": "Ctrl+Shift+S",
+    "windows": "Ctrl + Shift + S",
+    "mac": "⌘ ⇧ S",
+    "linux": "Ctrl + Shift + S",
     "keywords": [
       "删除线",
       "strikethrough",
@@ -172,9 +172,9 @@
       "zh": "将文字转为等宽行内代码格式",
       "en": "Format text as inline code (monospace)"
     },
-    "windows": "Ctrl+E",
-    "mac": "⌘+E",
-    "linux": "Ctrl+E",
+    "windows": "Ctrl + E",
+    "mac": "⌘ E",
+    "linux": "Ctrl + E",
     "keywords": [
       "代码",
       "code",
@@ -196,9 +196,9 @@
       "zh": "为选中文字添加超链接",
       "en": "Add hyperlink to selected text"
     },
-    "windows": "Ctrl+K",
-    "mac": "⌘+K",
-    "linux": "Ctrl+K",
+    "windows": "Ctrl + K",
+    "mac": "⌘ K",
+    "linux": "Ctrl + K",
     "keywords": [
       "链接",
       "link",
@@ -219,9 +219,9 @@
       "zh": "将当前块设为一级标题",
       "en": "Turn block into Heading 1"
     },
-    "windows": "Ctrl+1",
-    "mac": "⌘+1",
-    "linux": "Ctrl+1",
+    "windows": "Ctrl + 1",
+    "mac": "⌘ 1",
+    "linux": "Ctrl + 1",
     "keywords": [
       "标题",
       "h1",
@@ -243,9 +243,9 @@
       "zh": "将当前块设为二级标题",
       "en": "Turn block into Heading 2"
     },
-    "windows": "Ctrl+2",
-    "mac": "⌘+2",
-    "linux": "Ctrl+2",
+    "windows": "Ctrl + 2",
+    "mac": "⌘ 2",
+    "linux": "Ctrl + 2",
     "keywords": [
       "标题",
       "h2",
@@ -267,9 +267,9 @@
       "zh": "将当前块设为三级标题",
       "en": "Turn block into Heading 3"
     },
-    "windows": "Ctrl+3",
-    "mac": "⌘+3",
-    "linux": "Ctrl+3",
+    "windows": "Ctrl + 3",
+    "mac": "⌘ 3",
+    "linux": "Ctrl + 3",
     "keywords": [
       "标题",
       "h3",
@@ -291,9 +291,9 @@
       "zh": "创建项目符号列表",
       "en": "Create bullet list"
     },
-    "windows": "Ctrl+8",
-    "mac": "⌘+8",
-    "linux": "Ctrl+8",
+    "windows": "Ctrl + 8",
+    "mac": "⌘ 8",
+    "linux": "Ctrl + 8",
     "keywords": [
       "列表",
       "bullet",
@@ -315,9 +315,9 @@
       "zh": "创建编号列表",
       "en": "Create numbered list"
     },
-    "windows": "Ctrl+7",
-    "mac": "⌘+7",
-    "linux": "Ctrl+7",
+    "windows": "Ctrl + 7",
+    "mac": "⌘ 7",
+    "linux": "Ctrl + 7",
     "keywords": [
       "编号",
       "number",
@@ -339,9 +339,9 @@
       "zh": "创建带复选框的待办列表项",
       "en": "Create to-do item with checkbox"
     },
-    "windows": "Ctrl+Enter",
-    "mac": "⌘+Enter",
-    "linux": "Ctrl+Enter",
+    "windows": "Ctrl + Enter",
+    "mac": "⌘ Enter",
+    "linux": "Ctrl + Enter",
     "keywords": [
       "待办",
       "todo",
@@ -364,9 +364,9 @@
       "zh": "创建可展开/折叠的列表",
       "en": "Create toggle list (expandable/collapsible)"
     },
-    "windows": "Ctrl+Shift+7",
-    "mac": "⌘+⇧+7",
-    "linux": "Ctrl+Shift+7",
+    "windows": "Ctrl + Shift + 7",
+    "mac": "⌘ ⇧ 7",
+    "linux": "Ctrl + Shift + 7",
     "keywords": [
       "折叠",
       "toggle",
@@ -388,9 +388,9 @@
       "zh": "创建引用块",
       "en": "Create quote block"
     },
-    "windows": "Ctrl+Shift+B",
-    "mac": "⌘+⇧+B",
-    "linux": "Ctrl+Shift+B",
+    "windows": "Ctrl + Shift + B",
+    "mac": "⌘ ⇧ B",
+    "linux": "Ctrl + Shift + B",
     "keywords": [
       "引用",
       "quote",
@@ -435,9 +435,9 @@
       "zh": "插入代码块（支持语法高亮）",
       "en": "Insert code block with syntax highlighting"
     },
-    "windows": "Ctrl+Shift+6",
-    "mac": "⌘+⇧+6",
-    "linux": "Ctrl+Shift+6",
+    "windows": "Ctrl + Shift + 6",
+    "mac": "⌘ ⇧ 6",
+    "linux": "Ctrl + Shift + 6",
     "keywords": [
       "代码",
       "code block",
@@ -527,9 +527,9 @@
       "zh": "创建一个全页数据库视图",
       "en": "Create a full-page database view"
     },
-    "windows": "/full 或 /database",
-    "mac": "/full 或 /database",
-    "linux": "/full 或 /database",
+    "windows": " / full 或 / database",
+    "mac": " / full 或 / database",
+    "linux": " / full 或 / database",
     "keywords": [
       "数据库",
       "database",
@@ -551,9 +551,9 @@
       "zh": "在当前页面中嵌入数据库",
       "en": "Embed database inline in page"
     },
-    "windows": "/inline 或 /board 或 /table",
-    "mac": "/inline 或 /board 或 /table",
-    "linux": "/inline 或 /board 或 /table",
+    "windows": " / inline 或 / board 或 / table",
+    "mac": " / inline 或 / board 或 / table",
+    "linux": " / inline 或 / board 或 / table",
     "keywords": [
       "内联数据库",
       "inline database",
@@ -575,9 +575,9 @@
       "zh": "显示或隐藏左侧边栏",
       "en": "Show or hide left sidebar"
     },
-    "windows": "Ctrl+\\",
-    "mac": "⌘+\\",
-    "linux": "Ctrl+\\",
+    "windows": "Ctrl + \\",
+    "mac": "⌘ \\",
+    "linux": "Ctrl + \\",
     "keywords": [
       "侧边栏",
       "sidebar",
@@ -598,9 +598,9 @@
       "zh": "回到上一个访问的页面",
       "en": "Go back to previously visited page"
     },
-    "windows": "Alt+←",
-    "mac": "⌘+[",
-    "linux": "Alt+←",
+    "windows": "Alt + ←",
+    "mac": "⌘ [",
+    "linux": "Alt + ←",
     "keywords": [
       "后退",
       "back",
@@ -621,9 +621,9 @@
       "zh": "复制指向当前页面的链接",
       "en": "Copy link to current page"
     },
-    "windows": "Ctrl+Shift+V",
-    "mac": "⌘+⇧+V",
-    "linux": "Ctrl+Shift+V",
+    "windows": "Ctrl + Shift + V",
+    "mac": "⌘ ⇧ V",
+    "linux": "Ctrl + Shift + V",
     "keywords": [
       "链接",
       "link",
@@ -645,9 +645,9 @@
       "zh": "复制同步块的原始来源链接",
       "en": "Copy original source URL for synced block"
     },
-    "windows": "Ctrl+Shift+Alt+V",
-    "mac": "⌘+⇧+⌥+V",
-    "linux": "Ctrl+Shift+Alt+V",
+    "windows": "Ctrl + Shift + Alt + V",
+    "mac": "⌘ ⇧ ⌥ V",
+    "linux": "Ctrl + Shift + Alt + V",
     "keywords": [
       "原始链接",
       "original link",
@@ -668,9 +668,9 @@
       "zh": "删除当前选中的内容块",
       "en": "Delete currently selected block"
     },
-    "windows": "Ctrl+Shift+Delete",
-    "mac": "⌘+⇧+Delete",
-    "linux": "Ctrl+Shift+Delete",
+    "windows": "Ctrl + Shift + Delete",
+    "mac": "⌘ ⇧ Delete",
+    "linux": "Ctrl + Shift + Delete",
     "keywords": [
       "删除",
       "delete",
@@ -691,9 +691,9 @@
       "zh": "复制当前选中的内容块",
       "en": "Duplicate currently selected block"
     },
-    "windows": "Ctrl+D",
-    "mac": "⌘+D",
-    "linux": "Ctrl+D",
+    "windows": "Ctrl + D",
+    "mac": "⌘ D",
+    "linux": "Ctrl + D",
     "keywords": [
       "复制",
       "duplicate",
@@ -715,9 +715,9 @@
       "zh": "在明暗主题之间切换",
       "en": "Switch between light and dark mode"
     },
-    "windows": "Ctrl+Shift+L",
-    "mac": "⌘+⇧+L",
-    "linux": "Ctrl+Shift+L",
+    "windows": "Ctrl + Shift + L",
+    "mac": "⌘ ⇧ L",
+    "linux": "Ctrl + Shift + L",
     "keywords": [
       "深色",
       "dark mode",
@@ -739,9 +739,9 @@
       "zh": "对选中内容添加评论",
       "en": "Add comment on selection"
     },
-    "windows": "Ctrl+Shift+M",
-    "mac": "⌘+⇧+M",
-    "linux": "Ctrl+Shift+M",
+    "windows": "Ctrl + Shift + M",
+    "mac": "⌘ ⇧ M",
+    "linux": "Ctrl + Shift + M",
     "keywords": [
       "评论",
       "comment",
@@ -763,9 +763,9 @@
       "zh": "更改当前块的背景颜色",
       "en": "Change background color of current block"
     },
-    "windows": "Ctrl+Shift+H",
-    "mac": "⌘+⇧+H",
-    "linux": "Ctrl+Shift+H",
+    "windows": "Ctrl + Shift + H",
+    "mac": "⌘ ⇧ H",
+    "linux": "Ctrl + Shift + H",
     "keywords": [
       "颜色",
       "color",

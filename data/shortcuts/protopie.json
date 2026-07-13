@@ -12,9 +12,9 @@
       "zh": "新建一个 pie 文件",
       "en": "Create a new pie"
     },
-    "windows": "Ctrl+N",
+    "windows": "Ctrl + N",
     "mac": "⌘N",
-    "linux": "Ctrl+N",
+    "linux": "Ctrl + N",
     "keywords": [
       "新建",
       "pie"
@@ -34,9 +34,9 @@
       "zh": "打开已有 pie",
       "en": "Open an existing pie"
     },
-    "windows": "Ctrl+O",
+    "windows": "Ctrl + O",
     "mac": "⌘O",
-    "linux": "Ctrl+O",
+    "linux": "Ctrl + O",
     "keywords": [
       "打开",
       "pie"
@@ -56,9 +56,9 @@
       "zh": "关闭当前标签",
       "en": "Close the current tab"
     },
-    "windows": "Ctrl+W",
+    "windows": "Ctrl + W",
     "mac": "⌘W",
-    "linux": "Ctrl+W",
+    "linux": "Ctrl + W",
     "keywords": [
       "关闭",
       "标签",
@@ -79,9 +79,9 @@
       "zh": "保存当前文件",
       "en": "Save the current file"
     },
-    "windows": "Ctrl+S",
+    "windows": "Ctrl + S",
     "mac": "⌘S",
-    "linux": "Ctrl+S",
+    "linux": "Ctrl + S",
     "keywords": [
       "保存",
       "save"
@@ -101,9 +101,9 @@
       "zh": "将文件另存为新 pie",
       "en": "Save the file as a new pie"
     },
-    "windows": "Ctrl+Shift+S",
+    "windows": "Ctrl + Shift + S",
     "mac": "⇧⌘S",
-    "linux": "Ctrl+Shift+S",
+    "linux": "Ctrl + Shift + S",
     "keywords": [
       "另存为",
       "save",
@@ -124,9 +124,9 @@
       "zh": "上传当前 pie 到云端",
       "en": "Upload the pie to the cloud"
     },
-    "windows": "Ctrl+U",
+    "windows": "Ctrl + U",
     "mac": "⌘U",
-    "linux": "Ctrl+U",
+    "linux": "Ctrl + U",
     "keywords": [
       "上传",
       "云",
@@ -148,9 +148,9 @@
       "zh": "上传为云端新 pie",
       "en": "Upload as a new cloud pie"
     },
-    "windows": "Ctrl+Shift+U",
+    "windows": "Ctrl + Shift + U",
     "mac": "⇧⌘U",
-    "linux": "Ctrl+Shift+U",
+    "linux": "Ctrl + Shift + U",
     "keywords": [
       "上传",
       "云",
@@ -172,9 +172,9 @@
       "zh": "打开偏好设置",
       "en": "Open preferences"
     },
-    "windows": "Ctrl+,",
+    "windows": "Ctrl + ,",
     "mac": "⌘,",
-    "linux": "Ctrl+,",
+    "linux": "Ctrl + ,",
     "keywords": [
       "偏好",
       "设置",
@@ -195,9 +195,9 @@
       "zh": "打开快捷键帮助",
       "en": "Open the shortcuts help"
     },
-    "windows": "Ctrl+Shift+?",
+    "windows": "Ctrl + Shift + ?",
     "mac": "⌃⇧?",
-    "linux": "Ctrl+Shift+?",
+    "linux": "Ctrl + Shift + ?",
     "keywords": [
       "快捷键",
       "帮助",
@@ -330,9 +330,9 @@
       "zh": "撤销上一步",
       "en": "Undo the last action"
     },
-    "windows": "Ctrl+Z",
+    "windows": "Ctrl + Z",
     "mac": "⌘Z",
-    "linux": "Ctrl+Z",
+    "linux": "Ctrl + Z",
     "keywords": [
       "撤销",
       "undo"
@@ -352,9 +352,9 @@
       "zh": "重做被撤销的操作",
       "en": "Redo the undone action"
     },
-    "windows": "Ctrl+Shift+Z",
+    "windows": "Ctrl + Shift + Z",
     "mac": "⇧⌘Z",
-    "linux": "Ctrl+Shift+Z",
+    "linux": "Ctrl + Shift + Z",
     "keywords": [
       "重做",
       "redo"
@@ -374,9 +374,9 @@
       "zh": "复制所选",
       "en": "Copy the selection"
     },
-    "windows": "Ctrl+C",
+    "windows": "Ctrl + C",
     "mac": "⌘C",
-    "linux": "Ctrl+C",
+    "linux": "Ctrl + C",
     "keywords": [
       "复制",
       "copy"
@@ -396,9 +396,9 @@
       "zh": "剪切所选",
       "en": "Cut the selection"
     },
-    "windows": "Ctrl+X",
+    "windows": "Ctrl + X",
     "mac": "⌘X",
-    "linux": "Ctrl+X",
+    "linux": "Ctrl + X",
     "keywords": [
       "剪切",
       "cut"
@@ -418,9 +418,9 @@
       "zh": "复制所选对象",
       "en": "Duplicate the selection"
     },
-    "windows": "Ctrl+D",
+    "windows": "Ctrl + D",
     "mac": "⌘D",
-    "linux": "Ctrl+D",
+    "linux": "Ctrl + D",
     "keywords": [
       "副本",
       "复制",
@@ -441,9 +441,9 @@
       "zh": "Alt/⌥+拖拽复制对象",
       "en": "Alt/⌥+drag to duplicate"
     },
-    "windows": "Alt+Drag",
+    "windows": "Alt + Drag",
     "mac": "⌥Drag",
-    "linux": "Alt+Drag",
+    "linux": "Alt + Drag",
     "keywords": [
       "复制",
       "拖拽",
@@ -464,9 +464,9 @@
       "zh": "粘贴剪贴板内容",
       "en": "Paste from the clipboard"
     },
-    "windows": "Ctrl+V",
+    "windows": "Ctrl + V",
     "mac": "⌘V",
-    "linux": "Ctrl+V",
+    "linux": "Ctrl + V",
     "keywords": [
       "粘贴",
       "paste"
@@ -486,9 +486,9 @@
       "zh": "粘贴并保留关联触发",
       "en": "Paste keeping linked triggers"
     },
-    "windows": "Ctrl+Shift+V",
+    "windows": "Ctrl + Shift + V",
     "mac": "⇧⌘V",
-    "linux": "Ctrl+Shift+V",
+    "linux": "Ctrl + Shift + V",
     "keywords": [
       "粘贴",
       "关联",
@@ -532,9 +532,9 @@
       "zh": "选择所有图层",
       "en": "Select all layers"
     },
-    "windows": "Ctrl+A",
+    "windows": "Ctrl + A",
     "mac": "⌘A",
-    "linux": "Ctrl+A",
+    "linux": "Ctrl + A",
     "keywords": [
       "全选",
       "select",
@@ -555,9 +555,9 @@
       "zh": "重命名所选",
       "en": "Rename the selection"
     },
-    "windows": "Ctrl+R",
+    "windows": "Ctrl + R",
     "mac": "⌘R",
-    "linux": "Ctrl+R",
+    "linux": "Ctrl + R",
     "keywords": [
       "重命名",
       "rename"
@@ -600,9 +600,9 @@
       "zh": "将所选创建为组件",
       "en": "Create a component from the selection"
     },
-    "windows": "Ctrl+K",
+    "windows": "Ctrl + K",
     "mac": "⌘K",
-    "linux": "Ctrl+K",
+    "linux": "Ctrl + K",
     "keywords": [
       "组件",
       "component"
@@ -622,9 +622,9 @@
       "zh": "将组件实例分离",
       "en": "Detach a component instance"
     },
-    "windows": "Ctrl+Alt+B",
+    "windows": "Ctrl + Alt + B",
     "mac": "⌥⌘B",
-    "linux": "Ctrl+Alt+B",
+    "linux": "Ctrl + Alt + B",
     "keywords": [
       "分离",
       "实例",
@@ -645,9 +645,9 @@
       "zh": "将所选转为可编辑",
       "en": "Make the selection editable"
     },
-    "windows": "Ctrl+E",
+    "windows": "Ctrl + E",
     "mac": "⌘E",
-    "linux": "Ctrl+E",
+    "linux": "Ctrl + E",
     "keywords": [
       "可编辑",
       "editable"
@@ -667,9 +667,9 @@
       "zh": "为所选添加自动布局",
       "en": "Add auto layout to the selection"
     },
-    "windows": "Shift+A",
+    "windows": "Shift + A",
     "mac": "⇧A",
-    "linux": "Shift+A",
+    "linux": "Shift + A",
     "keywords": [
       "自动布局",
       "auto",
@@ -690,9 +690,9 @@
       "zh": "移除所选的自动布局",
       "en": "Remove auto layout from the selection"
     },
-    "windows": "Alt+Shift+A",
+    "windows": "Alt + Shift + A",
     "mac": "⌥⇧A",
-    "linux": "Alt+Shift+A",
+    "linux": "Alt + Shift + A",
     "keywords": [
       "自动布局",
       "auto",
@@ -713,9 +713,9 @@
       "zh": "缩放以适配内容",
       "en": "Resize to fit the content"
     },
-    "windows": "Ctrl+Alt+Shift+R",
+    "windows": "Ctrl + Alt + Shift + R",
     "mac": "⌥⇧⌘R",
-    "linux": "Ctrl+Alt+Shift+R",
+    "linux": "Ctrl + Alt + Shift + R",
     "keywords": [
       "缩放",
       "适配",
@@ -737,9 +737,9 @@
       "zh": "切换图层锁定状态",
       "en": "Lock or unlock the layer"
     },
-    "windows": "Ctrl+Shift+L",
+    "windows": "Ctrl + Shift + L",
     "mac": "⇧⌘L",
-    "linux": "Ctrl+Shift+L",
+    "linux": "Ctrl + Shift + L",
     "keywords": [
       "锁定",
       "lock"
@@ -759,9 +759,9 @@
       "zh": "切换图层显示状态",
       "en": "Show or hide the layer"
     },
-    "windows": "Ctrl+Shift+H",
+    "windows": "Ctrl + Shift + H",
     "mac": "⇧⌘H",
-    "linux": "Ctrl+Shift+H",
+    "linux": "Ctrl + Shift + H",
     "keywords": [
       "显示",
       "隐藏",
@@ -783,9 +783,9 @@
       "zh": "按住 Alt/⌥ 悬停显示间距",
       "en": "Hold Alt/⌥ and hover to show distance"
     },
-    "windows": "Alt+hover",
+    "windows": "Alt + hover",
     "mac": "⌥hover",
-    "linux": "Alt+hover",
+    "linux": "Alt + hover",
     "keywords": [
       "间距",
       "距离",
@@ -806,9 +806,9 @@
       "zh": "Alt/⌥+点击展开嵌套容器",
       "en": "Alt/⌥+click to expand nested containers"
     },
-    "windows": "Alt+Click",
+    "windows": "Alt + Click",
     "mac": "⌥Click",
-    "linux": "Alt+Click",
+    "linux": "Alt + Click",
     "keywords": [
       "展开",
       "嵌套",
@@ -829,9 +829,9 @@
       "zh": "Ctrl/⌘+拖拽忽略参考线",
       "en": "Ctrl/⌘+drag to ignore guides"
     },
-    "windows": "Ctrl+Drag",
+    "windows": "Ctrl + Drag",
     "mac": "⌘Drag",
-    "linux": "Ctrl+Drag",
+    "linux": "Ctrl + Drag",
     "keywords": [
       "移动",
       "参考线",
@@ -852,9 +852,9 @@
       "zh": "Shift+拖拽沿 X/Y 轴移动",
       "en": "Shift+drag to move along axis"
     },
-    "windows": "Shift+Drag",
+    "windows": "Shift + Drag",
     "mac": "⇧Drag",
-    "linux": "Shift+Drag",
+    "linux": "Shift + Drag",
     "keywords": [
       "移动",
       "轴",
@@ -875,9 +875,9 @@
       "zh": "Alt/⌥+缩放从中心",
       "en": "Alt/⌥+resize from center"
     },
-    "windows": "Alt+Resize",
+    "windows": "Alt + Resize",
     "mac": "⌥Resize",
-    "linux": "Alt+Resize",
+    "linux": "Alt + Resize",
     "keywords": [
       "中心",
       "缩放",
@@ -921,9 +921,9 @@
       "zh": "切换文字加粗",
       "en": "Toggle bold text"
     },
-    "windows": "Ctrl+B",
+    "windows": "Ctrl + B",
     "mac": "⌘B",
-    "linux": "Ctrl+B",
+    "linux": "Ctrl + B",
     "keywords": [
       "加粗",
       "bold"
@@ -943,9 +943,9 @@
       "zh": "切换文字斜体",
       "en": "Toggle italic text"
     },
-    "windows": "Ctrl+I",
+    "windows": "Ctrl + I",
     "mac": "⌘I",
-    "linux": "Ctrl+I",
+    "linux": "Ctrl + I",
     "keywords": [
       "斜体",
       "italic"
@@ -965,9 +965,9 @@
       "zh": "将所选编组",
       "en": "Group the selection"
     },
-    "windows": "Ctrl+G",
+    "windows": "Ctrl + G",
     "mac": "⌘G",
-    "linux": "Ctrl+G",
+    "linux": "Ctrl + G",
     "keywords": [
       "编组",
       "group"
@@ -987,9 +987,9 @@
       "zh": "解除所选编组",
       "en": "Ungroup the selection"
     },
-    "windows": "Ctrl+Shift+G",
+    "windows": "Ctrl + Shift + G",
     "mac": "⇧⌘G",
-    "linux": "Ctrl+Shift+G",
+    "linux": "Ctrl + Shift + G",
     "keywords": [
       "解组",
       "ungroup"
@@ -1009,9 +1009,9 @@
       "zh": "将所选上移一层",
       "en": "Bring the selection forward"
     },
-    "windows": "Ctrl+]",
+    "windows": "Ctrl + ]",
     "mac": "⌘]",
-    "linux": "Ctrl+]",
+    "linux": "Ctrl + ]",
     "keywords": [
       "上移",
       "图层",
@@ -1033,9 +1033,9 @@
       "zh": "将所选置于最顶层",
       "en": "Bring the selection to the front"
     },
-    "windows": "Ctrl+Shift+]",
+    "windows": "Ctrl + Shift + ]",
     "mac": "⌥⌘]",
-    "linux": "Ctrl+Shift+]",
+    "linux": "Ctrl + Shift + ]",
     "keywords": [
       "顶层",
       "bring",
@@ -1056,9 +1056,9 @@
       "zh": "将所选下移一层",
       "en": "Send the selection backward"
     },
-    "windows": "Ctrl+[",
+    "windows": "Ctrl + [",
     "mac": "⌘[",
-    "linux": "Ctrl+[",
+    "linux": "Ctrl + [",
     "keywords": [
       "下移",
       "图层",
@@ -1080,9 +1080,9 @@
       "zh": "将所选置于最底层",
       "en": "Send the selection to the back"
     },
-    "windows": "Ctrl+Shift+[",
+    "windows": "Ctrl + Shift + [",
     "mac": "⌥⌘[",
-    "linux": "Ctrl+Shift+[",
+    "linux": "Ctrl + Shift + [",
     "keywords": [
       "底层",
       "send",
@@ -1103,9 +1103,9 @@
       "zh": "将所选左对齐",
       "en": "Align the selection to the left"
     },
-    "windows": "Ctrl+Shift+←",
+    "windows": "Ctrl + Shift + ←",
     "mac": "⌃⌘←",
-    "linux": "Ctrl+Shift+←",
+    "linux": "Ctrl + Shift + ←",
     "keywords": [
       "对齐",
       "左",
@@ -1127,9 +1127,9 @@
       "zh": "将所选右对齐",
       "en": "Align the selection to the right"
     },
-    "windows": "Ctrl+Shift+→",
+    "windows": "Ctrl + Shift + →",
     "mac": "⌃⌘→",
-    "linux": "Ctrl+Shift+→",
+    "linux": "Ctrl + Shift + →",
     "keywords": [
       "对齐",
       "右",
@@ -1151,9 +1151,9 @@
       "zh": "将所选顶对齐",
       "en": "Align the selection to the top"
     },
-    "windows": "Ctrl+Shift+↑",
+    "windows": "Ctrl + Shift + ↑",
     "mac": "⌃⌘↑",
-    "linux": "Ctrl+Shift+↑",
+    "linux": "Ctrl + Shift + ↑",
     "keywords": [
       "对齐",
       "顶",
@@ -1175,9 +1175,9 @@
       "zh": "将所选底对齐",
       "en": "Align the selection to the bottom"
     },
-    "windows": "Ctrl+Shift+↓",
+    "windows": "Ctrl + Shift + ↓",
     "mac": "⌃⌘↓",
-    "linux": "Ctrl+Shift+↓",
+    "linux": "Ctrl + Shift + ↓",
     "keywords": [
       "对齐",
       "底",
@@ -1199,9 +1199,9 @@
       "zh": "将所选水平居中",
       "en": "Align the selection to the center"
     },
-    "windows": "Ctrl+Shift+C",
+    "windows": "Ctrl + Shift + C",
     "mac": "⌃⌘C",
-    "linux": "Ctrl+Shift+C",
+    "linux": "Ctrl + Shift + C",
     "keywords": [
       "对齐",
       "居中",
@@ -1223,9 +1223,9 @@
       "zh": "将所选垂直居中",
       "en": "Align the selection to the middle"
     },
-    "windows": "Ctrl+Shift+M",
+    "windows": "Ctrl + Shift + M",
     "mac": "⌃⌘M",
-    "linux": "Ctrl+Shift+M",
+    "linux": "Ctrl + Shift + M",
     "keywords": [
       "对齐",
       "垂直居中",
@@ -1247,9 +1247,9 @@
       "zh": "运行当前原型",
       "en": "Run the prototype"
     },
-    "windows": "Ctrl+Shift+R",
+    "windows": "Ctrl + Shift + R",
     "mac": "⇧⌘R",
-    "linux": "Ctrl+Shift+R",
+    "linux": "Ctrl + Shift + R",
     "keywords": [
       "运行",
       "原型",
@@ -1270,9 +1270,9 @@
       "zh": "放大画布",
       "en": "Zoom in"
     },
-    "windows": "Ctrl+=",
+    "windows": "Ctrl + =",
     "mac": "⌘=",
-    "linux": "Ctrl+=",
+    "linux": "Ctrl + =",
     "keywords": [
       "放大",
       "缩放",
@@ -1293,9 +1293,9 @@
       "zh": "缩小画布",
       "en": "Zoom out"
     },
-    "windows": "Ctrl+-",
+    "windows": "Ctrl + -",
     "mac": "⌘-",
-    "linux": "Ctrl+-",
+    "linux": "Ctrl + -",
     "keywords": [
       "缩小",
       "缩放",
@@ -1316,9 +1316,9 @@
       "zh": "缩放到实际大小",
       "en": "Zoom to actual size"
     },
-    "windows": "Ctrl+0",
+    "windows": "Ctrl + 0",
     "mac": "⌘0",
-    "linux": "Ctrl+0",
+    "linux": "Ctrl + 0",
     "keywords": [
       "实际大小",
       "缩放",
@@ -1340,9 +1340,9 @@
       "zh": "空格+拖拽平移画布",
       "en": "Space+drag to pan"
     },
-    "windows": "Space+Drag",
-    "mac": "Space+Drag",
-    "linux": "Space+Drag",
+    "windows": "Space + Drag",
+    "mac": "Space Drag",
+    "linux": "Space + Drag",
     "keywords": [
       "平移",
       "画布",
@@ -1407,9 +1407,9 @@
       "zh": "切换标尺显示",
       "en": "Toggle the ruler"
     },
-    "windows": "Shift+R",
+    "windows": "Shift + R",
     "mac": "⇧R",
-    "linux": "Shift+R",
+    "linux": "Shift + R",
     "keywords": [
       "标尺",
       "ruler"
@@ -1429,9 +1429,9 @@
       "zh": "切换图层面板",
       "en": "Toggle the layer panel"
     },
-    "windows": "Ctrl+Alt+1",
+    "windows": "Ctrl + Alt + 1",
     "mac": "⌥⌘1",
-    "linux": "Ctrl+Alt+1",
+    "linux": "Ctrl + Alt + 1",
     "keywords": [
       "图层面板",
       "layer",
@@ -1452,9 +1452,9 @@
       "zh": "切换交互面板",
       "en": "Toggle the interaction panel"
     },
-    "windows": "Ctrl+Alt+2",
+    "windows": "Ctrl + Alt + 2",
     "mac": "⌥⌘2",
-    "linux": "Ctrl+Alt+2",
+    "linux": "Ctrl + Alt + 2",
     "keywords": [
       "交互面板",
       "interaction",
@@ -1475,9 +1475,9 @@
       "zh": "切换图层和交互面板",
       "en": "Toggle layer and interaction panels"
     },
-    "windows": "Ctrl+Alt+3",
+    "windows": "Ctrl + Alt + 3",
     "mac": "⌥⌘3",
-    "linux": "Ctrl+Alt+3",
+    "linux": "Ctrl + Alt + 3",
     "keywords": [
       "面板",
       "panels"
@@ -1497,9 +1497,9 @@
       "zh": "切换组件面板",
       "en": "Toggle the component panel"
     },
-    "windows": "Ctrl+Alt+5",
+    "windows": "Ctrl + Alt + 5",
     "mac": "⌥⌘5",
-    "linux": "Ctrl+Alt+5",
+    "linux": "Ctrl + Alt + 5",
     "keywords": [
       "组件面板",
       "component",
@@ -1520,9 +1520,9 @@
       "zh": "切换公式输入框",
       "en": "Toggle the formula input field"
     },
-    "windows": "Ctrl+Enter",
+    "windows": "Ctrl + Enter",
     "mac": "⌘⏎",
-    "linux": "Ctrl+Enter",
+    "linux": "Ctrl + Enter",
     "keywords": [
       "公式",
       "formula"
@@ -1542,9 +1542,9 @@
       "zh": "最小化窗口",
       "en": "Minimize the window"
     },
-    "windows": "Ctrl+M",
+    "windows": "Ctrl + M",
     "mac": "⌘M",
-    "linux": "Ctrl+M",
+    "linux": "Ctrl + M",
     "keywords": [
       "最小化",
       "窗口",
@@ -1565,9 +1565,9 @@
       "zh": "切换预览窗口",
       "en": "Toggle the preview window"
     },
-    "windows": "Ctrl+P",
+    "windows": "Ctrl + P",
     "mac": "⌘P",
-    "linux": "Ctrl+P",
+    "linux": "Ctrl + P",
     "keywords": [
       "预览",
       "preview"
@@ -1587,9 +1587,9 @@
       "zh": "切换到下一个标签",
       "en": "Go to the next tab"
     },
-    "windows": "Ctrl+Tab",
+    "windows": "Ctrl + Tab",
     "mac": "⌃Tab",
-    "linux": "Ctrl+Tab",
+    "linux": "Ctrl + Tab",
     "keywords": [
       "下一个",
       "标签",
@@ -1610,9 +1610,9 @@
       "zh": "切换到上一个标签",
       "en": "Go to the previous tab"
     },
-    "windows": "Ctrl+Shift+Tab",
+    "windows": "Ctrl + Shift + Tab",
     "mac": "⌃⇧Tab",
-    "linux": "Ctrl+Shift+Tab",
+    "linux": "Ctrl + Shift + Tab",
     "keywords": [
       "上一个",
       "标签",

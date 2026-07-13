@@ -12,9 +12,9 @@
       "zh": "聚焦到搜索框（全局可用）",
       "en": "Focus the search bar (global)"
     },
-    "windows": "S 或 /",
-    "mac": "S 或 /",
-    "linux": "S 或 /",
+    "windows": "S 或 / ",
+    "mac": "S 或 / ",
+    "linux": "S 或 / ",
     "keywords": [
       "搜索",
       "search"
@@ -56,9 +56,9 @@
       "zh": "打开 GitHub 命令面板（全局）",
       "en": "Open command palette (global)"
     },
-    "windows": "Ctrl+K",
-    "mac": "⌘+K",
-    "linux": "Ctrl+K",
+    "windows": "Ctrl + K",
+    "mac": "⌘ K",
+    "linux": "Ctrl + K",
     "keywords": [
       "命令",
       "command palette"
@@ -324,9 +324,9 @@
       "zh": "提交当前评论（编辑框内）",
       "en": "Submit the comment (in editor)"
     },
-    "windows": "Ctrl+Enter",
-    "mac": "⌘+Enter",
-    "linux": "Ctrl+Enter",
+    "windows": "Ctrl + Enter",
+    "mac": "⌘ Enter",
+    "linux": "Ctrl + Enter",
     "keywords": [
       "提交",
       "submit",
@@ -393,9 +393,9 @@
       "zh": "在 PR/commit 页面查看差异",
       "en": "View file changes diff (PR/commit page)"
     },
-    "windows": "D (PR/commit 页)",
-    "mac": "D (PR/commit 页)",
-    "linux": "D (PR/commit page)",
+    "windows": "D (PR / commit 页)",
+    "mac": "D (PR / commit 页)",
+    "linux": "D (PR / commit page)",
     "keywords": [
       "diff",
       "差异",
@@ -506,9 +506,9 @@
       "zh": "展开所有隐藏的回复（Shift+E）",
       "en": "Expand all hidden replies (Shift+E)"
     },
-    "windows": "Shift+E",
-    "mac": "Shift+E",
-    "linux": "Shift+E",
+    "windows": "Shift + E",
+    "mac": "⇧ E",
+    "linux": "Shift + E",
     "keywords": [
       "展开",
       "expand",

@@ -125,9 +125,9 @@
       "zh": "发送邮件",
       "en": "Send the message"
     },
-    "windows": "Ctrl+Enter",
-    "mac": "⌘+Enter",
-    "linux": "Ctrl+Enter",
+    "windows": "Ctrl + Enter",
+    "mac": "⌘ Enter",
+    "linux": "Ctrl + Enter",
     "keywords": [
       "发送",
       "send"
@@ -259,9 +259,9 @@
       "zh": "标记为已读",
       "en": "Mark as read"
     },
-    "windows": "Shift+I",
-    "mac": "⇧+I",
-    "linux": "Shift+I",
+    "windows": "Shift + I",
+    "mac": "⇧ I",
+    "linux": "Shift + I",
     "keywords": [
       "已读",
       "read"
@@ -281,9 +281,9 @@
       "zh": "标记为未读",
       "en": "Mark as unread"
     },
-    "windows": "Shift+U",
-    "mac": "⇧+U",
-    "linux": "Shift+U",
+    "windows": "Shift + U",
+    "mac": "⇧ U",
+    "linux": "Shift + U",
     "keywords": [
       "未读",
       "unread"
@@ -417,9 +417,9 @@
       "zh": "聚焦搜索框",
       "en": "Search mail"
     },
-    "windows": "/",
-    "mac": "/",
-    "linux": "/",
+    "windows": " / ",
+    "mac": " / ",
+    "linux": " / ",
     "keywords": [
       "搜索",
       "search",
@@ -647,9 +647,9 @@
       "zh": "跳转到上一个收件箱分区",
       "en": "Go to previous inbox section"
     },
-    "windows": "Shift+`",
-    "mac": "⇧+`",
-    "linux": "Shift+`",
+    "windows": "Shift + `",
+    "mac": "⇧ `",
+    "linux": "Shift + `",
     "keywords": [
       "分区",
       "section",
@@ -670,9 +670,9 @@
       "zh": "添加抄送收件人",
       "en": "Add Cc recipients"
     },
-    "windows": "Ctrl+Shift+C",
-    "mac": "⌘+Shift+C",
-    "linux": "Ctrl+Shift+C",
+    "windows": "Ctrl + Shift + C",
+    "mac": "⌘ ⇧ C",
+    "linux": "Ctrl + Shift + C",
     "keywords": [
       "抄送",
       "cc"
@@ -692,9 +692,9 @@
       "zh": "添加密送收件人",
       "en": "Add Bcc recipients"
     },
-    "windows": "Ctrl+Shift+B",
-    "mac": "⌘+Shift+B",
-    "linux": "Ctrl+Shift+B",
+    "windows": "Ctrl + Shift + B",
+    "mac": "⌘ ⇧ B",
+    "linux": "Ctrl + Shift + B",
     "keywords": [
       "密送",
       "bcc"
@@ -714,9 +714,9 @@
       "zh": "在邮件中插入链接",
       "en": "Insert a link"
     },
-    "windows": "Ctrl+K",
-    "mac": "⌘+K",
-    "linux": "Ctrl+K",
+    "windows": "Ctrl + K",
+    "mac": "⌘ K",
+    "linux": "Ctrl + K",
     "keywords": [
       "链接",
       "link"
@@ -736,9 +736,9 @@
       "zh": "加粗文字",
       "en": "Bold text"
     },
-    "windows": "Ctrl+B",
-    "mac": "⌘+B",
-    "linux": "Ctrl+B",
+    "windows": "Ctrl + B",
+    "mac": "⌘ B",
+    "linux": "Ctrl + B",
     "keywords": [
       "加粗",
       "bold"
@@ -758,9 +758,9 @@
       "zh": "斜体文字",
       "en": "Italic text"
     },
-    "windows": "Ctrl+I",
-    "mac": "⌘+I",
-    "linux": "Ctrl+I",
+    "windows": "Ctrl + I",
+    "mac": "⌘ I",
+    "linux": "Ctrl + I",
     "keywords": [
       "斜体",
       "italic"
@@ -780,9 +780,9 @@
       "zh": "为文字添加下划线",
       "en": "Underline text"
     },
-    "windows": "Ctrl+U",
-    "mac": "⌘+U",
-    "linux": "Ctrl+U",
+    "windows": "Ctrl + U",
+    "mac": "⌘ U",
+    "linux": "Ctrl + U",
     "keywords": [
       "下划线",
       "underline"

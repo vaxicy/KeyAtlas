@@ -390,9 +390,9 @@
       "zh": "在屏幕视图中放大",
       "en": "Zoom in on a screen"
     },
-    "windows": "Ctrl + +",
+    "windows": "Ctrl + =",
     "mac": "⌘ =",
-    "linux": "Ctrl + +",
+    "linux": "Ctrl + =",
     "keywords": [
       "放大",
       "zoom",
@@ -484,7 +484,7 @@
       "en": "Zoom to fit the current selection"
     },
     "windows": "Layer + Ctrl + 2",
-    "mac": "Layer + ⌘ 2",
+    "mac": "Layer ⌘ 2",
     "linux": "Layer + Ctrl + 2",
     "keywords": [
       "选区",

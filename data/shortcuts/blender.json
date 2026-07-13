@@ -190,9 +190,9 @@
       "zh": "渲染整个动画序列",
       "en": "Render full animation sequence"
     },
-    "windows": "Ctrl+F12",
-    "mac": "⌘+F12",
-    "linux": "Ctrl+F12",
+    "windows": "Ctrl + F12",
+    "mac": "⌘ F12",
+    "linux": "Ctrl + F12",
     "keywords": [
       "渲染动画",
       "render animation"
@@ -212,9 +212,9 @@
       "zh": "在网格上添加循环边",
       "en": "Add loop cut to mesh"
     },
-    "windows": "Ctrl+R",
-    "mac": "⌘+R",
-    "linux": "Ctrl+R",
+    "windows": "Ctrl + R",
+    "mac": "⌘ R",
+    "linux": "Ctrl + R",
     "keywords": [
       "环形切割",
       "loop cut",
@@ -236,7 +236,7 @@
       "en": "Select entire loop of vertices/edges/faces (Edit Mode)"
     },
     "windows": "Alt + 左键点击 (Edit Mode)",
-    "mac": "Option + Left click (Edit Mode)",
+    "mac": "⌥ Left click (Edit Mode)",
     "linux": "Alt + LMB (Edit Mode)",
     "keywords": [
       "环形选择",
@@ -326,9 +326,9 @@
       "zh": "倒角",
       "en": "Bevel"
     },
-    "windows": "Ctrl+B",
-    "mac": "Ctrl+B",
-    "linux": "Ctrl+B",
+    "windows": "Ctrl + B",
+    "mac": "⌃ B",
+    "linux": "Ctrl + B",
     "keywords": [
       "倒角",
       "bevel"
@@ -392,9 +392,9 @@
       "zh": "撤销",
       "en": "Undo"
     },
-    "windows": "Ctrl+Z",
-    "mac": "Ctrl+Z",
-    "linux": "Ctrl+Z",
+    "windows": "Ctrl + Z",
+    "mac": "⌃ Z",
+    "linux": "Ctrl + Z",
     "keywords": [
       "撤销",
       "undo"
@@ -414,9 +414,9 @@
       "zh": "重做",
       "en": "Redo"
     },
-    "windows": "Ctrl+Shift+Z",
-    "mac": "Ctrl+Shift+Z",
-    "linux": "Ctrl+Shift+Z",
+    "windows": "Ctrl + Shift + Z",
+    "mac": "⌃ ⇧ Z",
+    "linux": "Ctrl + Shift + Z",
     "keywords": [
       "重做",
       "redo"
@@ -436,9 +436,9 @@
       "zh": "保存工程",
       "en": "Save"
     },
-    "windows": "Ctrl+S",
-    "mac": "Ctrl+S",
-    "linux": "Ctrl+S",
+    "windows": "Ctrl + S",
+    "mac": "⌃ S",
+    "linux": "Ctrl + S",
     "keywords": [
       "保存",
       "save"
@@ -458,9 +458,9 @@
       "zh": "复制物体",
       "en": "Duplicate"
     },
-    "windows": "Shift+D",
-    "mac": "Shift+D",
-    "linux": "Shift+D",
+    "windows": "Shift + D",
+    "mac": "⇧ D",
+    "linux": "Shift + D",
     "keywords": [
       "复制",
       "duplicate"

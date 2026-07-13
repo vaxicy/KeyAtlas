@@ -12,9 +12,9 @@
       "zh": "复制所选文字或项目",
       "en": "Copy selected text or item"
     },
-    "windows": "Ctrl+C",
-    "mac": "⌘+C",
-    "linux": "Ctrl+C",
+    "windows": "Ctrl + C",
+    "mac": "⌘ C",
+    "linux": "Ctrl + C",
     "keywords": [
       "复制",
       "copy"
@@ -34,9 +34,9 @@
       "zh": "粘贴剪贴板内容",
       "en": "Paste clipboard content"
     },
-    "windows": "Ctrl+V",
-    "mac": "⌘+V",
-    "linux": "Ctrl+V",
+    "windows": "Ctrl + V",
+    "mac": "⌘ V",
+    "linux": "Ctrl + V",
     "keywords": [
       "粘贴",
       "paste"
@@ -56,9 +56,9 @@
       "zh": "剪切所选文字或项目",
       "en": "Cut selected text or item"
     },
-    "windows": "Ctrl+X",
-    "mac": "⌘+X",
-    "linux": "Ctrl+X",
+    "windows": "Ctrl + X",
+    "mac": "⌘ X",
+    "linux": "Ctrl + X",
     "keywords": [
       "剪切",
       "cut"
@@ -78,9 +78,9 @@
       "zh": "撤销上一次操作",
       "en": "Undo last action"
     },
-    "windows": "Ctrl+Z",
-    "mac": "⌘+Z",
-    "linux": "Ctrl+Z",
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "Ctrl + Z",
     "keywords": [
       "撤销",
       "undo"
@@ -100,9 +100,9 @@
       "zh": "重做被撤销的操作",
       "en": "Redo undone action"
     },
-    "windows": "Ctrl+Y",
-    "mac": "⌘+Shift+Z",
-    "linux": "Ctrl+Y",
+    "windows": "Ctrl + Y",
+    "mac": "⌘ ⇧ Z",
+    "linux": "Ctrl + Y",
     "keywords": [
       "重做",
       "redo"
@@ -122,9 +122,9 @@
       "zh": "选择所有文本或窗口中的所有项",
       "en": "Select all text or items in window"
     },
-    "windows": "Ctrl+A",
-    "mac": "⌘+A",
-    "linux": "Ctrl+A",
+    "windows": "Ctrl + A",
+    "mac": "⌘ A",
+    "linux": "Ctrl + A",
     "keywords": [
       "全选",
       "select all"
@@ -144,9 +144,9 @@
       "zh": "在当前内容中查找文本",
       "en": "Find text in current content"
     },
-    "windows": "Ctrl+F",
-    "mac": "⌘+F",
-    "linux": "Ctrl+F",
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
+    "linux": "Ctrl + F",
     "keywords": [
       "查找",
       "find",
@@ -167,9 +167,9 @@
       "zh": "打开查找和替换对话框",
       "en": "Open find and replace dialog"
     },
-    "windows": "Ctrl+H",
-    "mac": "⌘+H",
-    "linux": "Ctrl+H",
+    "windows": "Ctrl + H",
+    "mac": "⌘ H",
+    "linux": "Ctrl + H",
     "keywords": [
       "替换",
       "replace",
@@ -190,9 +190,9 @@
       "zh": "将粗体格式应用于所选文本",
       "en": "Apply bold formatting to selection"
     },
-    "windows": "Ctrl+B",
-    "mac": "⌘+B",
-    "linux": "Ctrl+B",
+    "windows": "Ctrl + B",
+    "mac": "⌘ B",
+    "linux": "Ctrl + B",
     "keywords": [
       "粗体",
       "bold"
@@ -212,9 +212,9 @@
       "zh": "将倾斜格式应用于所选文本",
       "en": "Apply italic formatting to selection"
     },
-    "windows": "Ctrl+I",
-    "mac": "⌘+I",
-    "linux": "Ctrl+I",
+    "windows": "Ctrl + I",
+    "mac": "⌘ I",
+    "linux": "Ctrl + I",
     "keywords": [
       "斜体",
       "italic"
@@ -234,9 +234,9 @@
       "zh": "将下划线格式应用于所选文本",
       "en": "Apply underline to selection"
     },
-    "windows": "Ctrl+U",
-    "mac": "⌘+U",
-    "linux": "Ctrl+U",
+    "windows": "Ctrl + U",
+    "mac": "⌘ U",
+    "linux": "Ctrl + U",
     "keywords": [
       "下划线",
       "underline"
@@ -256,9 +256,9 @@
       "zh": "粘贴为纯文本（去除格式）",
       "en": "Paste as plain text without formatting"
     },
-    "windows": "Ctrl+Shift+V",
-    "mac": "⌘+Option+Shift+V",
-    "linux": "Ctrl+Shift+V",
+    "windows": "Ctrl + Shift + V",
+    "mac": "⌘ ⌥ ⇧ V",
+    "linux": "Ctrl + Shift + V",
     "keywords": [
       "纯文本粘贴",
       "paste plain text"
@@ -278,9 +278,9 @@
       "zh": "删除光标左侧的字词",
       "en": "Delete word to left of cursor"
     },
-    "windows": "Ctrl+Backspace",
-    "mac": "⌘+Delete",
-    "linux": "Ctrl+Backspace",
+    "windows": "Ctrl + Backspace",
+    "mac": "⌘ Delete",
+    "linux": "Ctrl + Backspace",
     "keywords": [
       "删除",
       "delete word"
@@ -300,9 +300,9 @@
       "zh": "删除光标右侧的字词",
       "en": "Delete word to right of cursor"
     },
-    "windows": "Ctrl+Del",
-    "mac": "⌘+Fn+Delete",
-    "linux": "Ctrl+Del",
+    "windows": "Ctrl + Del",
+    "mac": "⌘ Fn Delete",
+    "linux": "Ctrl + Del",
     "keywords": [
       "删除",
       "delete word right"
@@ -322,9 +322,9 @@
       "zh": "在打开的应用之间切换",
       "en": "Switch between open applications"
     },
-    "windows": "Alt+Tab",
-    "mac": "⌘+Tab",
-    "linux": "Alt+Tab",
+    "windows": "Alt + Tab",
+    "mac": "⌘ Tab",
+    "linux": "Alt + Tab",
     "keywords": [
       "切换",
       "switch",
@@ -345,9 +345,9 @@
       "zh": "关闭活动窗口或退出活动应用",
       "en": "Close active window or exit active app"
     },
-    "windows": "Alt+F4",
-    "mac": "⌘+Q",
-    "linux": "Alt+F4",
+    "windows": "Alt + F4",
+    "mac": "⌘ Q",
+    "linux": "Alt + F4",
     "keywords": [
       "关闭",
       "close"
@@ -367,9 +367,9 @@
       "zh": "锁定计算机",
       "en": "Lock your computer"
     },
-    "windows": "Win+L",
-    "mac": "⌘+Ctrl+Q",
-    "linux": "Ctrl+Alt+L",
+    "windows": "Win + L",
+    "mac": "⌘ ⌃ Q",
+    "linux": "Ctrl + Alt + L",
     "keywords": [
       "锁屏",
       "lock screen"
@@ -389,9 +389,9 @@
       "zh": "最小化所有窗口显示桌面",
       "en": "Minimize all windows to show desktop"
     },
-    "windows": "Win+D",
+    "windows": "Win + D",
     "mac": "F11",
-    "linux": "Ctrl+Alt+D",
+    "linux": "Ctrl + Alt + D",
     "keywords": [
       "桌面",
       "desktop",
@@ -412,7 +412,7 @@
       "zh": "临时预览桌面（松开后恢复）",
       "en": "Temporarily peek at desktop"
     },
-    "windows": "Win+,",
+    "windows": "Win + ,",
     "mac": "—",
     "linux": "—",
     "keywords": [
@@ -434,8 +434,8 @@
       "zh": "打开任务视图（时间线/虚拟桌面）",
       "en": "Open Task View timeline/virtual desktops"
     },
-    "windows": "Win+Tab",
-    "mac": "Control+↑",
+    "windows": "Win + Tab",
+    "mac": "⌃ ↑",
     "linux": "—",
     "keywords": [
       "任务视图",
@@ -456,9 +456,9 @@
       "zh": "打开文件资源管理器",
       "en": "Open File Explorer"
     },
-    "windows": "Win+E",
-    "mac": "⌘+E",
-    "linux": "Super+E",
+    "windows": "Win + E",
+    "mac": "⌘ E",
+    "linux": "Super + E",
     "keywords": [
       "资源管理器",
       "explorer",
@@ -479,8 +479,8 @@
       "zh": "打开系统设置",
       "en": "Open Settings app"
     },
-    "windows": "Win+I",
-    "mac": "⌘+,",
+    "windows": "Win + I",
+    "mac": "⌘ ,",
     "linux": "—",
     "keywords": [
       "设置",
@@ -501,7 +501,7 @@
       "zh": "打开 Windows 搜索",
       "en": "Open Windows Search"
     },
-    "windows": "Win+S",
+    "windows": "Win + S",
     "mac": "—",
     "linux": "—",
     "keywords": [
@@ -524,7 +524,7 @@
       "zh": "打开「运行」对话框",
       "en": "Open Run dialog"
     },
-    "windows": "Win+R",
+    "windows": "Win + R",
     "mac": "—",
     "linux": "—",
     "keywords": [
@@ -546,8 +546,8 @@
       "zh": "直接打开任务管理器",
       "en": "Open Task Manager directly"
     },
-    "windows": "Ctrl+Shift+Esc",
-    "mac": "⌘+Option+Esc",
+    "windows": "Ctrl + Shift + Esc",
+    "mac": "⌘ ⌥ Esc",
     "linux": "—",
     "keywords": [
       "任务管理器",
@@ -568,8 +568,8 @@
       "zh": "选择屏幕区域截图并复制到剪贴板",
       "en": "Capture screen area to clipboard"
     },
-    "windows": "Win+Shift+S",
-    "mac": "⌘+Shift+4",
+    "windows": "Win + Shift + S",
+    "mac": "⌘ ⇧ 4",
     "linux": "PrtSc",
     "keywords": [
       "截图",
@@ -592,8 +592,8 @@
       "zh": "捕获全屏截图并保存到图片文件夹",
       "en": "Capture full screen and save to Pictures folder"
     },
-    "windows": "Win+PrtScn",
-    "mac": "⌘+Shift+3",
+    "windows": "Win + PrtScn",
+    "mac": "⌘ ⇧ 3",
     "linux": "PrtSc",
     "keywords": [
       "全屏截图",
@@ -615,9 +615,9 @@
       "zh": "捕获活动窗口截图并复制到剪贴板",
       "en": "Capture active window screenshot to clipboard"
     },
-    "windows": "Alt+PrtScn",
-    "mac": "⌘+Shift+4+Space",
-    "linux": "Alt+PrtSc",
+    "windows": "Alt + PrtScn",
+    "mac": "⌘ ⇧ 4 Space",
+    "linux": "Alt + PrtSc",
     "keywords": [
       "窗口截图",
       "window screenshot"
@@ -637,7 +637,7 @@
       "zh": "打开剪贴板历史记录面板",
       "en": "Open Clipboard History panel"
     },
-    "windows": "Win+V",
+    "windows": "Win + V",
     "mac": "—",
     "linux": "—",
     "keywords": [
@@ -660,8 +660,8 @@
       "zh": "打开表情符号面板",
       "en": "Open Emoji picker panel"
     },
-    "windows": "Win+.",
-    "mac": "⌘+Ctrl+Space",
+    "windows": "Win + .",
+    "mac": "⌘ ⌃ Space",
     "linux": "—",
     "keywords": [
       "表情",
@@ -683,7 +683,7 @@
       "zh": "打开通知和操作中心",
       "en": "Open Action Center / notification center"
     },
-    "windows": "Win+A",
+    "windows": "Win + A",
     "mac": "—",
     "linux": "—",
     "keywords": [
@@ -706,7 +706,7 @@
       "zh": "打开通知中心和日历",
       "en": "Open notification center and calendar"
     },
-    "windows": "Win+N",
+    "windows": "Win + N",
     "mac": "—",
     "linux": "—",
     "keywords": [
@@ -729,7 +729,7 @@
       "zh": "打开小组件面板",
       "en": "Open Widgets panel"
     },
-    "windows": "Win+W",
+    "windows": "Win + W",
     "mac": "—",
     "linux": "—",
     "keywords": [
@@ -752,7 +752,7 @@
       "zh": "打开快速链接菜单（电源/设备管理等）",
       "en": "Open Quick Links menu for power/device management"
     },
-    "windows": "Win+X",
+    "windows": "Win + X",
     "mac": "—",
     "linux": "—",
     "keywords": [
@@ -775,7 +775,7 @@
       "zh": "开启语音听写输入",
       "en": "Start voice dictation input"
     },
-    "windows": "Win+H",
+    "windows": "Win + H",
     "mac": "—",
     "linux": "—",
     "keywords": [
@@ -799,7 +799,7 @@
       "zh": "打开 Xbox 游戏栏",
       "en": "Open Xbox Game Bar"
     },
-    "windows": "Win+G",
+    "windows": "Win + G",
     "mac": "—",
     "linux": "—",
     "keywords": [
@@ -822,7 +822,7 @@
       "zh": "打开投影/演示模式选择",
       "en": "Open project/presentation mode selector"
     },
-    "windows": "Win+P",
+    "windows": "Win + P",
     "mac": "—",
     "linux": "—",
     "keywords": [
@@ -845,7 +845,7 @@
       "zh": "从快速设置中打开投屏以连接显示器",
       "en": "Open cast/connect to display from Quick Settings"
     },
-    "windows": "Win+K",
+    "windows": "Win + K",
     "mac": "—",
     "linux": "—",
     "keywords": [
@@ -868,7 +868,7 @@
       "zh": "打开设置的辅助功能部分",
       "en": "Open Settings > Accessibility"
     },
-    "windows": "Win+U",
+    "windows": "Win + U",
     "mac": "—",
     "linux": "—",
     "keywords": [
@@ -891,7 +891,7 @@
       "zh": "打开系统关于页面（系统属性）",
       "en": "Open System > About page"
     },
-    "windows": "Win+Pause",
+    "windows": "Win + Pause",
     "mac": "—",
     "linux": "—",
     "keywords": [
@@ -914,9 +914,9 @@
       "zh": "将活动窗口贴靠到屏幕左半边",
       "en": "Snap active window to left half of screen"
     },
-    "windows": "Win+Left",
+    "windows": "Win + Left",
     "mac": "—",
-    "linux": "Super+Left",
+    "linux": "Super + Left",
     "keywords": [
       "贴靠",
       "snap",
@@ -938,9 +938,9 @@
       "zh": "将活动窗口贴靠到屏幕右半边",
       "en": "Snap active window to right half of screen"
     },
-    "windows": "Win+Right",
+    "windows": "Win + Right",
     "mac": "—",
-    "linux": "Super+Right",
+    "linux": "Super + Right",
     "keywords": [
       "贴靠",
       "snap",
@@ -962,7 +962,7 @@
       "zh": "最大化活动窗口",
       "en": "Maximize active window"
     },
-    "windows": "Win+Up",
+    "windows": "Win + Up",
     "mac": "—",
     "linux": "—",
     "keywords": [
@@ -985,7 +985,7 @@
       "zh": "最小化活动窗口",
       "en": "Minimize active window"
     },
-    "windows": "Win+Down",
+    "windows": "Win + Down",
     "mac": "—",
     "linux": "—",
     "keywords": [
@@ -1008,7 +1008,7 @@
       "zh": "最小化所有窗口（除活动窗口外）",
       "en": "Minimize all windows except active one"
     },
-    "windows": "Win+Home",
+    "windows": "Win + Home",
     "mac": "—",
     "linux": "—",
     "keywords": [
@@ -1030,7 +1030,7 @@
       "zh": "还原所有最小化的窗口",
       "en": "Restore all minimized windows"
     },
-    "windows": "Win+Shift+M",
+    "windows": "Win + Shift + M",
     "mac": "—",
     "linux": "—",
     "keywords": [
@@ -1053,7 +1053,7 @@
       "zh": "将活动窗口贴靠到屏幕上半部分",
       "en": "Snap active window to top half of screen"
     },
-    "windows": "Win+Alt+Up",
+    "windows": "Win + Alt + Up",
     "mac": "—",
     "linux": "—",
     "keywords": [
@@ -1075,7 +1075,7 @@
       "zh": "将活动窗口贴靠到屏幕下半部分",
       "en": "Snap active window to bottom half of screen"
     },
-    "windows": "Win+Alt+Down",
+    "windows": "Win + Alt + Down",
     "mac": "—",
     "linux": "—",
     "keywords": [
@@ -1097,7 +1097,7 @@
       "zh": "将桌面窗口拉伸至屏幕顶部和底部",
       "en": "Stretch desktop window from top to bottom of screen"
     },
-    "windows": "Win+Shift+Up",
+    "windows": "Win + Shift + Up",
     "mac": "—",
     "linux": "—",
     "keywords": [
@@ -1119,7 +1119,7 @@
       "zh": "将活动窗口移动到左侧显示器",
       "en": "Move active window to left monitor"
     },
-    "windows": "Win+Shift+Left",
+    "windows": "Win + Shift + Left",
     "mac": "—",
     "linux": "—",
     "keywords": [
@@ -1141,7 +1141,7 @@
       "zh": "将活动窗口移动到右侧显示器",
       "en": "Move active window to right monitor"
     },
-    "windows": "Win+Shift+Right",
+    "windows": "Win + Shift + Right",
     "mac": "—",
     "linux": "—",
     "keywords": [
@@ -1163,8 +1163,8 @@
       "zh": "创建新的虚拟桌面",
       "en": "Create a new virtual desktop"
     },
-    "windows": "Win+Ctrl+D",
-    "mac": "Control+↑+D",
+    "windows": "Win + Ctrl + D",
+    "mac": "⌃ ↑ D",
     "linux": "—",
     "keywords": [
       "虚拟桌面",
@@ -1186,8 +1186,8 @@
       "zh": "切换到右侧的虚拟桌面",
       "en": "Switch to next virtual desktop on the right"
     },
-    "windows": "Win+Ctrl+Right",
-    "mac": "Control+→",
+    "windows": "Win + Ctrl + Right",
+    "mac": "⌃ →",
     "linux": "—",
     "keywords": [
       "虚拟桌面",
@@ -1208,8 +1208,8 @@
       "zh": "切换到左侧的虚拟桌面",
       "en": "Switch to previous virtual desktop on the left"
     },
-    "windows": "Win+Ctrl+Left",
-    "mac": "Control+←",
+    "windows": "Win + Ctrl + Left",
+    "mac": "⌃ ←",
     "linux": "—",
     "keywords": [
       "虚拟桌面",
@@ -1230,7 +1230,7 @@
       "zh": "关闭正在使用的虚拟桌面",
       "en": "Close current virtual desktop"
     },
-    "windows": "Win+Ctrl+F4",
+    "windows": "Win + Ctrl + F4",
     "mac": "—",
     "linux": "—",
     "keywords": [
@@ -1252,7 +1252,7 @@
       "zh": "打开对齐布局选择面板",
       "en": "Open snap layouts selector"
     },
-    "windows": "Win+Z",
+    "windows": "Win + Z",
     "mac": "—",
     "linux": "—",
     "keywords": [
@@ -1298,8 +1298,8 @@
       "zh": "选择区域录制视频并在截图工具中打开",
       "en": "Select area to record video and open in Snipping Tool"
     },
-    "windows": "Win+Shift+R",
-    "mac": "⌘+Shift+5",
+    "windows": "Win + Shift + R",
+    "mac": "⌘ ⇧ 5",
     "linux": "—",
     "keywords": [
       "录制",
@@ -1321,7 +1321,7 @@
       "zh": "使用放大镜放大",
       "en": "Zoom in with Magnifier"
     },
-    "windows": "Win++",
+    "windows": "Win + =",
     "mac": "—",
     "linux": "—",
     "keywords": [
@@ -1345,7 +1345,7 @@
       "zh": "使用放大镜缩小",
       "en": "Zoom out with Magnifier"
     },
-    "windows": "Win+-",
+    "windows": "Win + -",
     "mac": "—",
     "linux": "—",
     "keywords": [
@@ -1369,7 +1369,7 @@
       "zh": "关闭放大镜工具",
       "en": "Exit Magnifier tool"
     },
-    "windows": "Win+Esc",
+    "windows": "Win + Esc",
     "mac": "—",
     "linux": "—",
     "keywords": [
@@ -1392,7 +1392,7 @@
       "zh": "打开或关闭讲述人（屏幕阅读器）",
       "en": "Toggle Narrator screen reader"
     },
-    "windows": "Win+Ctrl+Enter",
+    "windows": "Win + Ctrl + Enter",
     "mac": "—",
     "linux": "—",
     "keywords": [
@@ -1415,9 +1415,9 @@
       "zh": "按顺序向前切换输入语言和键盘布局",
       "en": "Cycle forward through input languages and keyboard layouts"
     },
-    "windows": "Win+Space",
-    "mac": "Control+Space",
-    "linux": "Super+Space",
+    "windows": "Win + Space",
+    "mac": "⌃ Space",
+    "linux": "Super + Space",
     "keywords": [
       "输入法",
       "input method",
@@ -1439,7 +1439,7 @@
       "zh": "按顺序向后切换输入语言和键盘布局",
       "en": "Cycle backward through input languages and keyboard layouts"
     },
-    "windows": "Win+Shift+Space",
+    "windows": "Win + Shift + Space",
     "mac": "—",
     "linux": "—",
     "keywords": [
@@ -1462,7 +1462,7 @@
       "zh": "启用或禁用中文输入法编辑器（IME）",
       "en": "Enable or disable IME (Chinese Input Method Editor)"
     },
-    "windows": "Ctrl+Space",
+    "windows": "Ctrl + Space",
     "mac": "—",
     "linux": "—",
     "keywords": [
@@ -1485,8 +1485,8 @@
       "zh": "切换键盘布局（有多个时）",
       "en": "Switch keyboard layout when multiple installed"
     },
-    "windows": "Ctrl+Shift",
-    "mac": "Control+Space",
+    "windows": "Ctrl + Shift",
+    "mac": "⌃ Space",
     "linux": "—",
     "keywords": [
       "键盘布局",
@@ -1508,7 +1508,7 @@
       "zh": "切换到安全屏幕（锁定/切换用户/任务管理器等）",
       "en": "Switch to security options screen (lock/user switch/task manager)"
     },
-    "windows": "Ctrl+Alt+Del",
+    "windows": "Ctrl + Alt + Del",
     "mac": "—",
     "linux": "—",
     "keywords": [
@@ -1532,7 +1532,7 @@
       "zh": "查看所有打开应用的缩略图，用箭头键切换",
       "en": "View open app thumbnails and switch with arrow keys"
     },
-    "windows": "Ctrl+Alt+Tab",
+    "windows": "Ctrl + Alt + Tab",
     "mac": "—",
     "linux": "—",
     "keywords": [
@@ -1600,7 +1600,7 @@
       "zh": "显示选定项目的上下文（右键）菜单",
       "en": "Show context (right-click) menu for selected item"
     },
-    "windows": "Shift+F10",
+    "windows": "Shift + F10",
     "mac": "—",
     "linux": "—",
     "keywords": [
@@ -1623,9 +1623,9 @@
       "zh": "永久删除所选项不放入回收站",
       "en": "Permanently delete items without moving to Recycle Bin"
     },
-    "windows": "Shift+Delete",
-    "mac": "⌘+Delete",
-    "linux": "Shift+Delete",
+    "windows": "Shift + Delete",
+    "mac": "⌘ Delete",
+    "linux": "Shift + Delete",
     "keywords": [
       "永久删除",
       "permanent delete",
@@ -1646,8 +1646,8 @@
       "zh": "在文件资源管理器中新建文件夹",
       "en": "Create new folder in File Explorer"
     },
-    "windows": "Ctrl+Shift+N",
-    "mac": "⌘+Shift+N",
+    "windows": "Ctrl + Shift + N",
+    "mac": "⌘ ⇧ N",
     "linux": "—",
     "keywords": [
       "新建文件夹",
@@ -1668,8 +1668,8 @@
       "zh": "打开新的文件资源管理器窗口",
       "en": "Open a new File Explorer window"
     },
-    "windows": "Ctrl+N",
-    "mac": "⌘+N",
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
     "linux": "—",
     "keywords": [
       "新窗口",
@@ -1691,8 +1691,8 @@
       "zh": "将焦点放在地址栏上",
       "en": "Focus address bar in File Explorer"
     },
-    "windows": "Ctrl+L / Alt+D",
-    "mac": "⌘+L",
+    "windows": "Ctrl + L / Alt + D",
+    "mac": "⌘ L",
     "linux": "—",
     "keywords": [
       "地址栏",
@@ -1713,8 +1713,8 @@
       "zh": "显示所选项目的属性",
       "en": "Show properties of selected item"
     },
-    "windows": "Alt+Enter",
-    "mac": "⌘+I",
+    "windows": "Alt + Enter",
+    "mac": "⌘ I",
     "linux": "—",
     "keywords": [
       "属性",
@@ -1735,8 +1735,8 @@
       "zh": "显示或隐藏预览窗格",
       "en": "Toggle preview pane visibility"
     },
-    "windows": "Alt+P",
-    "mac": "⌘+Shift+P",
+    "windows": "Alt + P",
+    "mac": "⌘ ⇧ P",
     "linux": "—",
     "keywords": [
       "预览窗格",
@@ -1757,7 +1757,7 @@
       "zh": "显示或隐藏细节窗格",
       "en": "Toggle details pane visibility"
     },
-    "windows": "Alt+Shift+P",
+    "windows": "Alt + Shift + P",
     "mac": "—",
     "linux": "—",
     "keywords": [
@@ -1779,8 +1779,8 @@
       "zh": "打开新标签页并切换到该标签页",
       "en": "Open new tab and switch to it in File Explorer"
     },
-    "windows": "Ctrl+T",
-    "mac": "⌘+T",
+    "windows": "Ctrl + T",
+    "mac": "⌘ T",
     "linux": "—",
     "keywords": [
       "新标签页",
@@ -1802,8 +1802,8 @@
       "zh": "关闭活动标签页；若只有一个则关闭窗口",
       "en": "Close active tab; close window if only one tab"
     },
-    "windows": "Ctrl+W",
-    "mac": "⌘+W",
+    "windows": "Ctrl + W",
+    "mac": "⌘ W",
     "linux": "—",
     "keywords": [
       "关闭标签页",
@@ -1824,7 +1824,7 @@
       "zh": "循环浏览任务栏中的应用图标",
       "en": "Cycle through taskbar application icons"
     },
-    "windows": "Win+T",
+    "windows": "Win + T",
     "mac": "—",
     "linux": "—",
     "keywords": [
@@ -1847,7 +1847,7 @@
       "zh": "打开或切换到任务栏固定位置的应用",
       "en": "Open or switch to pinned taskbar app by position number"
     },
-    "windows": "Win+0..9",
+    "windows": "Win + 0..9",
     "mac": "—",
     "linux": "—",
     "keywords": [
@@ -1870,7 +1870,7 @@
       "zh": "将焦点设置到任务栏通知区域的第一个图标",
       "en": "Set focus to first icon in taskbar notification area"
     },
-    "windows": "Win+B",
+    "windows": "Win + B",
     "mac": "—",
     "linux": "—",
     "keywords": [
@@ -1915,7 +1915,7 @@
       "zh": "打开召回功能（需满足最低系统要求）",
       "en": "Open Recall feature (requires minimum system requirements)"
     },
-    "windows": "Win+J",
+    "windows": "Win + J",
     "mac": "—",
     "linux": "—",
     "keywords": [

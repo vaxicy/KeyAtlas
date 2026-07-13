@@ -12,9 +12,9 @@
       "zh": "打开或关闭开发者工具",
       "en": "Open the last used panel"
     },
-    "windows": "F12 / Ctrl+Shift+I",
-    "mac": "⌘+Option+I",
-    "linux": "F12 / Ctrl+Shift+I",
+    "windows": "F12 / Ctrl + Shift + I",
+    "mac": "⌘ ⌥ I",
+    "linux": "F12 / Ctrl + Shift + I",
     "keywords": [
       "开发者工具",
       "devtools"
@@ -34,9 +34,9 @@
       "zh": "直接打开控制台面板",
       "en": "Open the Console panel"
     },
-    "windows": "Ctrl+Shift+J",
-    "mac": "⌘+Option+J",
-    "linux": "Ctrl+Shift+J",
+    "windows": "Ctrl + Shift + J",
+    "mac": "⌘ ⌥ J",
+    "linux": "Ctrl + Shift + J",
     "keywords": [
       "控制台",
       "console"
@@ -56,9 +56,9 @@
       "zh": "打开元素选择器",
       "en": "Toggle inspect element mode"
     },
-    "windows": "Ctrl+Shift+C",
-    "mac": "⌘+Shift+C",
-    "linux": "Ctrl+Shift+C",
+    "windows": "Ctrl + Shift + C",
+    "mac": "⌘ ⇧ C",
+    "linux": "Ctrl + Shift + C",
     "keywords": [
       "检查",
       "inspect",
@@ -79,9 +79,9 @@
       "zh": "打开命令菜单执行操作",
       "en": "Open the command menu"
     },
-    "windows": "Ctrl+Shift+P",
-    "mac": "⌘+Shift+P",
-    "linux": "Ctrl+Shift+P",
+    "windows": "Ctrl + Shift + P",
+    "mac": "⌘ ⇧ P",
+    "linux": "Ctrl + Shift + P",
     "keywords": [
       "命令",
       "command"
@@ -101,9 +101,9 @@
       "zh": "切换响应式设备模拟",
       "en": "Toggle device toolbar"
     },
-    "windows": "Ctrl+Shift+M",
-    "mac": "⌘+Shift+M",
-    "linux": "Ctrl+Shift+M",
+    "windows": "Ctrl + Shift + M",
+    "mac": "⌘ ⇧ M",
+    "linux": "Ctrl + Shift + M",
     "keywords": [
       "设备",
       "device",
@@ -124,9 +124,9 @@
       "zh": "在所有加载的资源中搜索",
       "en": "Search across all loaded resources"
     },
-    "windows": "Ctrl+Shift+F",
-    "mac": "⌘+Option+F",
-    "linux": "Ctrl+Shift+F",
+    "windows": "Ctrl + Shift + F",
+    "mac": "⌘ ⌥ F",
+    "linux": "Ctrl + Shift + F",
     "keywords": [
       "搜索",
       "search"
@@ -146,9 +146,9 @@
       "zh": "在当前面板内查找",
       "en": "Find within the current panel"
     },
-    "windows": "Ctrl+F",
-    "mac": "⌘+F",
-    "linux": "Ctrl+F",
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
+    "linux": "Ctrl + F",
     "keywords": [
       "查找",
       "find"
@@ -168,9 +168,9 @@
       "zh": "清除控制台输出",
       "en": "Clear the console"
     },
-    "windows": "Ctrl+L",
-    "mac": "⌘+K",
-    "linux": "Ctrl+L",
+    "windows": "Ctrl + L",
+    "mac": "⌘ K",
+    "linux": "Ctrl + L",
     "keywords": [
       "清空",
       "clear"
@@ -190,9 +190,9 @@
       "zh": "将焦点移到控制台输入框",
       "en": "Focus the console"
     },
-    "windows": "Ctrl+`",
-    "mac": "⌘+`",
-    "linux": "Ctrl+`",
+    "windows": "Ctrl + `",
+    "mac": "⌘ `",
+    "linux": "Ctrl + `",
     "keywords": [
       "控制台",
       "console",
@@ -213,9 +213,9 @@
       "zh": "切换到右侧面板",
       "en": "Focus the next panel"
     },
-    "windows": "Ctrl+]",
-    "mac": "⌘+]",
-    "linux": "Ctrl+]",
+    "windows": "Ctrl + ]",
+    "mac": "⌘ ]",
+    "linux": "Ctrl + ]",
     "keywords": [
       "面板",
       "panel",
@@ -236,9 +236,9 @@
       "zh": "切换到左侧面板",
       "en": "Focus the previous panel"
     },
-    "windows": "Ctrl+[",
-    "mac": "⌘+[",
-    "linux": "Ctrl+[",
+    "windows": "Ctrl + [",
+    "mac": "⌘ [",
+    "linux": "Ctrl + [",
     "keywords": [
       "面板",
       "panel",
@@ -259,9 +259,9 @@
       "zh": "切换停靠/弹出位置",
       "en": "Toggle docking position"
     },
-    "windows": "Ctrl+Shift+D",
-    "mac": "⌘+Shift+D",
-    "linux": "Ctrl+Shift+D",
+    "windows": "Ctrl + Shift + D",
+    "mac": "⌘ ⇧ D",
+    "linux": "Ctrl + Shift + D",
     "keywords": [
       "停靠",
       "dock"
@@ -350,9 +350,9 @@
       "zh": "执行完当前函数并跳出",
       "en": "Step out of the current function"
     },
-    "windows": "Shift+F11",
-    "mac": "Shift+F11",
-    "linux": "Shift+F11",
+    "windows": "Shift + F11",
+    "mac": "⇧ F11",
+    "linux": "Shift + F11",
     "keywords": [
       "单步跳出",
       "step out",
@@ -396,7 +396,7 @@
       "en": "Normal reload"
     },
     "windows": "F5",
-    "mac": "⌘+R",
+    "mac": "⌘ R",
     "linux": "F5",
     "keywords": [
       "刷新",
@@ -417,9 +417,9 @@
       "zh": "忽略缓存强制刷新",
       "en": "Hard reload ignoring cache"
     },
-    "windows": "Ctrl+F5",
-    "mac": "⌘+Shift+R",
-    "linux": "Ctrl+F5",
+    "windows": "Ctrl + F5",
+    "mac": "⌘ ⇧ R",
+    "linux": "Ctrl + F5",
     "keywords": [
       "硬刷新",
       "hard reload"

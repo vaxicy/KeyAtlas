@@ -12,8 +12,8 @@
       "zh": "创建新的照片目录",
       "en": "Create a new photo catalog"
     },
-    "windows": "Ctrl+N",
-    "mac": "⌘+N",
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
     "linux": "—",
     "keywords": [
       "目录",
@@ -35,8 +35,8 @@
       "zh": "打开已有目录",
       "en": "Open an existing catalog"
     },
-    "windows": "Ctrl+O",
-    "mac": "⌘+O",
+    "windows": "Ctrl + O",
+    "mac": "⌘ O",
     "linux": "—",
     "keywords": [
       "打开",
@@ -58,8 +58,8 @@
       "zh": "关闭当前目录",
       "en": "Close current catalog"
     },
-    "windows": "Ctrl+W",
-    "mac": "⌘+W",
+    "windows": "Ctrl + W",
+    "mac": "⌘ W",
     "linux": "—",
     "keywords": [
       "关闭",
@@ -81,8 +81,8 @@
       "zh": "保存更改到目录",
       "en": "Save changes to catalog"
     },
-    "windows": "Ctrl+S",
-    "mac": "⌘+S",
+    "windows": "Ctrl + S",
+    "mac": "⌘ S",
     "linux": "—",
     "keywords": [
       "保存",
@@ -103,8 +103,8 @@
       "zh": "打开导入窗口",
       "en": "Open import dialog"
     },
-    "windows": "Ctrl+Shift+I",
-    "mac": "⌘+Shift+I",
+    "windows": "Ctrl + Shift + I",
+    "mac": "⌘ ⇧ I",
     "linux": "—",
     "keywords": [
       "导入",
@@ -126,8 +126,8 @@
       "zh": "导出选中的照片",
       "en": "Export selected photos"
     },
-    "windows": "Ctrl+Shift+E",
-    "mac": "⌘+Shift+E",
+    "windows": "Ctrl + Shift + E",
+    "mac": "⌘ ⇧ E",
     "linux": "—",
     "keywords": [
       "导出",
@@ -693,7 +693,7 @@
       "en": "Jump to first photo"
     },
     "windows": "Home",
-    "mac": "Fn+←",
+    "mac": "Fn ←",
     "linux": "—",
     "keywords": [
       "第一张",
@@ -717,7 +717,7 @@
       "en": "Jump to last photo"
     },
     "windows": "End",
-    "mac": "Fn+→",
+    "mac": "Fn →",
     "linux": "—",
     "keywords": [
       "最后一张",
@@ -740,8 +740,8 @@
       "zh": "放大查看照片",
       "en": "Zoom in on photo"
     },
-    "windows": "Ctrl++",
-    "mac": "⌘++",
+    "windows": "Ctrl + =",
+    "mac": "⌘ =",
     "linux": "—",
     "keywords": [
       "放大",
@@ -763,8 +763,8 @@
       "zh": "缩小查看照片",
       "en": "Zoom out from photo"
     },
-    "windows": "Ctrl+-",
-    "mac": "⌘+-",
+    "windows": "Ctrl + -",
+    "mac": "⌘ -",
     "linux": "—",
     "keywords": [
       "缩小",
@@ -786,8 +786,8 @@
       "zh": "照片适配窗口大小",
       "en": "Fit photo to window size"
     },
-    "windows": "Ctrl+0",
-    "mac": "⌘+0",
+    "windows": "Ctrl + 0",
+    "mac": "⌘ 0",
     "linux": "—",
     "keywords": [
       "适合",
@@ -810,8 +810,8 @@
       "zh": "填满整个视图区域",
       "en": "Fill entire view area"
     },
-    "windows": "Ctrl+Alt+0",
-    "mac": "⌘+Opt+0",
+    "windows": "Ctrl + Alt + 0",
+    "mac": "⌘ ⌥ 0",
     "linux": "—",
     "keywords": [
       "填充",
@@ -833,8 +833,8 @@
       "zh": "以 100% 比例查看",
       "en": "View at 100% zoom"
     },
-    "windows": "Ctrl+1",
-    "mac": "⌘+1",
+    "windows": "Ctrl + 1",
+    "mac": "⌘ 1",
     "linux": "—",
     "keywords": [
       "100%",
@@ -857,8 +857,8 @@
       "zh": "进入图库模块",
       "en": "Switch to Library module"
     },
-    "windows": "Ctrl+Alt+1",
-    "mac": "⌘+Opt+1",
+    "windows": "Ctrl + Alt + 1",
+    "mac": "⌘ ⌥ 1",
     "linux": "—",
     "keywords": [
       "图库",
@@ -904,8 +904,8 @@
       "zh": "进入地图模块",
       "en": "Switch to Map module"
     },
-    "windows": "Ctrl+Alt+3",
-    "mac": "⌘+Opt+3",
+    "windows": "Ctrl + Alt + 3",
+    "mac": "⌘ ⌥ 3",
     "linux": "—",
     "keywords": [
       "地图",
@@ -927,8 +927,8 @@
       "zh": "进入画册模块",
       "en": "Switch to Book module"
     },
-    "windows": "Ctrl+Alt+4",
-    "mac": "⌘+Opt+4",
+    "windows": "Ctrl + Alt + 4",
+    "mac": "⌘ ⌥ 4",
     "linux": "—",
     "keywords": [
       "画册",
@@ -951,8 +951,8 @@
       "zh": "进入幻灯片模块",
       "en": "Switch to Slideshow module"
     },
-    "windows": "Ctrl+Alt+5",
-    "mac": "⌘+Opt+5",
+    "windows": "Ctrl + Alt + 5",
+    "mac": "⌘ ⌥ 5",
     "linux": "—",
     "keywords": [
       "幻灯片",
@@ -974,8 +974,8 @@
       "zh": "进入打印模块",
       "en": "Switch to Print module"
     },
-    "windows": "Ctrl+Alt+6",
-    "mac": "⌘+Opt+6",
+    "windows": "Ctrl + Alt + 6",
+    "mac": "⌘ ⌥ 6",
     "linux": "—",
     "keywords": [
       "打印",
@@ -997,8 +997,8 @@
       "zh": "进入 Web 画廊模块",
       "en": "Switch to Web Gallery module"
     },
-    "windows": "Ctrl+Alt+7",
-    "mac": "⌘+Opt+7",
+    "windows": "Ctrl + Alt + 7",
+    "mac": "⌘ ⌥ 7",
     "linux": "—",
     "keywords": [
       "Web",
@@ -1117,8 +1117,8 @@
       "zh": "椭圆形局部调整",
       "en": "Elliptical local adjustment"
     },
-    "windows": "Shift+M",
-    "mac": "Shift+M",
+    "windows": "Shift + M",
+    "mac": "⇧ M",
     "linux": "—",
     "keywords": [
       "径向",
@@ -1166,8 +1166,8 @@
       "zh": "仅自动调整曝光",
       "en": "Auto-adjust exposure only"
     },
-    "windows": "Shift+U",
-    "mac": "Shift+U",
+    "windows": "Shift + U",
+    "mac": "⇧ U",
     "linux": "—",
     "keywords": [
       "自动",
@@ -1190,8 +1190,8 @@
       "zh": "自动校正白平衡",
       "en": "Auto-correct white balance"
     },
-    "windows": "Shift+W",
-    "mac": "Shift+W",
+    "windows": "Shift + W",
+    "mac": "⇧ W",
     "linux": "—",
     "keywords": [
       "自动",
@@ -1214,8 +1214,8 @@
       "zh": "重置当前照片所有修改",
       "en": "Reset all adjustments on current photo"
     },
-    "windows": "Shift+R",
-    "mac": "Shift+R",
+    "windows": "Shift + R",
+    "mac": "⇧ R",
     "linux": "—",
     "keywords": [
       "重置",
@@ -1261,8 +1261,8 @@
       "zh": "复制当前修图参数",
       "en": "Copy develop settings"
     },
-    "windows": "Ctrl+Shift+C",
-    "mac": "⌘+Shift+C",
+    "windows": "Ctrl + Shift + C",
+    "mac": "⌘ ⇧ C",
     "linux": "—",
     "keywords": [
       "复制",
@@ -1285,8 +1285,8 @@
       "zh": "粘贴修图参数到其他照片",
       "en": "Paste develop settings to other photos"
     },
-    "windows": "Ctrl+Shift+V",
-    "mac": "⌘+Shift+V",
+    "windows": "Ctrl + Shift + V",
+    "mac": "⌘ ⇧ V",
     "linux": "—",
     "keywords": [
       "粘贴",
@@ -1380,8 +1380,8 @@
       "zh": "撤销上一步操作",
       "en": "Undo last action"
     },
-    "windows": "Ctrl+Z",
-    "mac": "⌘+Z",
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
     "linux": "—",
     "keywords": [
       "撤销",
@@ -1402,8 +1402,8 @@
       "zh": "重做被撤销的操作",
       "en": "Redo undone action"
     },
-    "windows": "Ctrl+Shift+Z",
-    "mac": "⌘+Shift+Z",
+    "windows": "Ctrl + Shift + Z",
+    "mac": "⌘ ⇧ Z",
     "linux": "—",
     "keywords": [
       "重做",
@@ -1447,8 +1447,8 @@
       "zh": "在图库中搜索照片",
       "en": "Search photos in Library"
     },
-    "windows": "Ctrl+F",
-    "mac": "⌘+F",
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
     "linux": "—",
     "keywords": [
       "查找",

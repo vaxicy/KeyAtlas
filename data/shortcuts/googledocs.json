@@ -12,9 +12,9 @@
       "zh": "复制选中内容",
       "en": "Copy the selection"
     },
-    "windows": "Ctrl+C",
-    "mac": "⌘+C",
-    "linux": "Ctrl+C",
+    "windows": "Ctrl + C",
+    "mac": "⌘ C",
+    "linux": "Ctrl + C",
     "keywords": [
       "复制",
       "copy"
@@ -34,9 +34,9 @@
       "zh": "剪切选中内容",
       "en": "Cut the selection"
     },
-    "windows": "Ctrl+X",
-    "mac": "⌘+X",
-    "linux": "Ctrl+X",
+    "windows": "Ctrl + X",
+    "mac": "⌘ X",
+    "linux": "Ctrl + X",
     "keywords": [
       "剪切",
       "cut"
@@ -56,9 +56,9 @@
       "zh": "粘贴内容",
       "en": "Paste content"
     },
-    "windows": "Ctrl+V",
-    "mac": "⌘+V",
-    "linux": "Ctrl+V",
+    "windows": "Ctrl + V",
+    "mac": "⌘ V",
+    "linux": "Ctrl + V",
     "keywords": [
       "粘贴",
       "paste"
@@ -78,9 +78,9 @@
       "zh": "粘贴并清除原格式",
       "en": "Paste without formatting"
     },
-    "windows": "Ctrl+Shift+V",
-    "mac": "⌘+Shift+V",
-    "linux": "Ctrl+Shift+V",
+    "windows": "Ctrl + Shift + V",
+    "mac": "⌘ ⇧ V",
+    "linux": "Ctrl + Shift + V",
     "keywords": [
       "无格式",
       "粘贴",
@@ -101,9 +101,9 @@
       "zh": "撤销上一步",
       "en": "Undo"
     },
-    "windows": "Ctrl+Z",
-    "mac": "⌘+Z",
-    "linux": "Ctrl+Z",
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "Ctrl + Z",
     "keywords": [
       "撤销",
       "undo"
@@ -123,9 +123,9 @@
       "zh": "重做已撤销操作",
       "en": "Redo"
     },
-    "windows": "Ctrl+Shift+Z",
-    "mac": "⌘+Shift+Z",
-    "linux": "Ctrl+Shift+Z",
+    "windows": "Ctrl + Shift + Z",
+    "mac": "⌘ ⇧ Z",
+    "linux": "Ctrl + Shift + Z",
     "keywords": [
       "重做",
       "redo"
@@ -145,9 +145,9 @@
       "zh": "选中全部内容",
       "en": "Select all"
     },
-    "windows": "Ctrl+A",
-    "mac": "⌘+A",
-    "linux": "Ctrl+A",
+    "windows": "Ctrl + A",
+    "mac": "⌘ A",
+    "linux": "Ctrl + A",
     "keywords": [
       "全选",
       "select all"
@@ -167,9 +167,9 @@
       "zh": "查找文字",
       "en": "Find text"
     },
-    "windows": "Ctrl+F",
-    "mac": "⌘+F",
-    "linux": "Ctrl+F",
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
+    "linux": "Ctrl + F",
     "keywords": [
       "查找",
       "find",
@@ -190,9 +190,9 @@
       "zh": "查找并替换文字",
       "en": "Find and replace"
     },
-    "windows": "Ctrl+H",
-    "mac": "⌘+H",
-    "linux": "Ctrl+H",
+    "windows": "Ctrl + H",
+    "mac": "⌘ H",
+    "linux": "Ctrl + H",
     "keywords": [
       "替换",
       "replace"
@@ -212,9 +212,9 @@
       "zh": "插入分页符",
       "en": "Insert a page break"
     },
-    "windows": "Ctrl+Enter",
-    "mac": "⌘+Enter",
-    "linux": "Ctrl+Enter",
+    "windows": "Ctrl + Enter",
+    "mac": "⌘ Enter",
+    "linux": "Ctrl + Enter",
     "keywords": [
       "分页",
       "page break"
@@ -234,9 +234,9 @@
       "zh": "打开文件对话框",
       "en": "Open file dialog"
     },
-    "windows": "Ctrl+O",
-    "mac": "⌘+O",
-    "linux": "Ctrl+O",
+    "windows": "Ctrl + O",
+    "mac": "⌘ O",
+    "linux": "Ctrl + O",
     "keywords": [
       "打开",
       "open"
@@ -256,9 +256,9 @@
       "zh": "打印文档",
       "en": "Print the document"
     },
-    "windows": "Ctrl+P",
-    "mac": "⌘+P",
-    "linux": "Ctrl+P",
+    "windows": "Ctrl + P",
+    "mac": "⌘ P",
+    "linux": "Ctrl + P",
     "keywords": [
       "打印",
       "print"
@@ -278,9 +278,9 @@
       "zh": "加粗文字",
       "en": "Bold"
     },
-    "windows": "Ctrl+B",
-    "mac": "⌘+B",
-    "linux": "Ctrl+B",
+    "windows": "Ctrl + B",
+    "mac": "⌘ B",
+    "linux": "Ctrl + B",
     "keywords": [
       "加粗",
       "bold"
@@ -300,9 +300,9 @@
       "zh": "斜体文字",
       "en": "Italic"
     },
-    "windows": "Ctrl+I",
-    "mac": "⌘+I",
-    "linux": "Ctrl+I",
+    "windows": "Ctrl + I",
+    "mac": "⌘ I",
+    "linux": "Ctrl + I",
     "keywords": [
       "斜体",
       "italic"
@@ -322,9 +322,9 @@
       "zh": "为文字添加下划线",
       "en": "Underline"
     },
-    "windows": "Ctrl+U",
-    "mac": "⌘+U",
-    "linux": "Ctrl+U",
+    "windows": "Ctrl + U",
+    "mac": "⌘ U",
+    "linux": "Ctrl + U",
     "keywords": [
       "下划线",
       "underline"
@@ -344,9 +344,9 @@
       "zh": "为文字添加删除线",
       "en": "Strikethrough"
     },
-    "windows": "Alt+Shift+5",
-    "mac": "⌘+Shift+X",
-    "linux": "Alt+Shift+5",
+    "windows": "Alt + Shift + 5",
+    "mac": "⌘ ⇧ X",
+    "linux": "Alt + Shift + 5",
     "keywords": [
       "删除线",
       "strikethrough"
@@ -366,9 +366,9 @@
       "zh": "设置为上标",
       "en": "Superscript"
     },
-    "windows": "Ctrl+.",
-    "mac": "⌘+.",
-    "linux": "Ctrl+.",
+    "windows": "Ctrl + .",
+    "mac": "⌘ .",
+    "linux": "Ctrl + .",
     "keywords": [
       "上标",
       "superscript"
@@ -388,9 +388,9 @@
       "zh": "设置为下标",
       "en": "Subscript"
     },
-    "windows": "Ctrl+,",
-    "mac": "⌘+,",
-    "linux": "Ctrl+,",
+    "windows": "Ctrl + ,",
+    "mac": "⌘ ,",
+    "linux": "Ctrl + ,",
     "keywords": [
       "下标",
       "subscript"
@@ -410,9 +410,9 @@
       "zh": "复制文本格式",
       "en": "Copy formatting"
     },
-    "windows": "Ctrl+Alt+C",
-    "mac": "⌘+⌥+C",
-    "linux": "Ctrl+Alt+C",
+    "windows": "Ctrl + Alt + C",
+    "mac": "⌘ ⌥ C",
+    "linux": "Ctrl + Alt + C",
     "keywords": [
       "复制格式",
       "format",
@@ -433,9 +433,9 @@
       "zh": "粘贴文本格式",
       "en": "Paste formatting"
     },
-    "windows": "Ctrl+Alt+V",
-    "mac": "⌘+⌥+V",
-    "linux": "Ctrl+Alt+V",
+    "windows": "Ctrl + Alt + V",
+    "mac": "⌘ ⌥ V",
+    "linux": "Ctrl + Alt + V",
     "keywords": [
       "粘贴格式",
       "format"
@@ -455,9 +455,9 @@
       "zh": "清除文字格式",
       "en": "Clear formatting"
     },
-    "windows": "Ctrl+\\",
-    "mac": "⌘+\\",
-    "linux": "Ctrl+\\",
+    "windows": "Ctrl + \\",
+    "mac": "⌘ \\",
+    "linux": "Ctrl + \\",
     "keywords": [
       "清除格式",
       "clear format"
@@ -477,9 +477,9 @@
       "zh": "增大选中文字字号",
       "en": "Increase font size"
     },
-    "windows": "Ctrl+Shift+.",
-    "mac": "⌘+Shift+.",
-    "linux": "Ctrl+Shift+.",
+    "windows": "Ctrl + Shift + .",
+    "mac": "⌘ ⇧ .",
+    "linux": "Ctrl + Shift + .",
     "keywords": [
       "字号",
       "font size",
@@ -500,9 +500,9 @@
       "zh": "减小选中文字字号",
       "en": "Decrease font size"
     },
-    "windows": "Ctrl+Shift+,",
-    "mac": "⌘+Shift+,",
-    "linux": "Ctrl+Shift+,",
+    "windows": "Ctrl + Shift + ,",
+    "mac": "⌘ ⇧ ,",
+    "linux": "Ctrl + Shift + ,",
     "keywords": [
       "字号",
       "font size",
@@ -523,9 +523,9 @@
       "zh": "增加段落缩进",
       "en": "Increase indent"
     },
-    "windows": "Ctrl+]",
-    "mac": "⌘+]",
-    "linux": "Ctrl+]",
+    "windows": "Ctrl + ]",
+    "mac": "⌘ ]",
+    "linux": "Ctrl + ]",
     "keywords": [
       "缩进",
       "indent",
@@ -546,9 +546,9 @@
       "zh": "减少段落缩进",
       "en": "Decrease indent"
     },
-    "windows": "Ctrl+[",
-    "mac": "⌘+[",
-    "linux": "Ctrl+[",
+    "windows": "Ctrl + [",
+    "mac": "⌘ [",
+    "linux": "Ctrl + [",
     "keywords": [
       "缩进",
       "indent",
@@ -569,9 +569,9 @@
       "zh": "应用普通文本样式",
       "en": "Apply normal text style"
     },
-    "windows": "Ctrl+Alt+0",
-    "mac": "⌘+⌥+0",
-    "linux": "Ctrl+Alt+0",
+    "windows": "Ctrl + Alt + 0",
+    "mac": "⌘ ⌥ 0",
+    "linux": "Ctrl + Alt + 0",
     "keywords": [
       "样式",
       "style",
@@ -592,9 +592,9 @@
       "zh": "应用标题 1 样式",
       "en": "Apply Heading 1"
     },
-    "windows": "Ctrl+Alt+1",
-    "mac": "⌘+⌥+1",
-    "linux": "Ctrl+Alt+1",
+    "windows": "Ctrl + Alt + 1",
+    "mac": "⌘ ⌥ 1",
+    "linux": "Ctrl + Alt + 1",
     "keywords": [
       "标题",
       "heading",
@@ -615,9 +615,9 @@
       "zh": "应用标题 2 样式",
       "en": "Apply Heading 2"
     },
-    "windows": "Ctrl+Alt+2",
-    "mac": "⌘+⌥+2",
-    "linux": "Ctrl+Alt+2",
+    "windows": "Ctrl + Alt + 2",
+    "mac": "⌘ ⌥ 2",
+    "linux": "Ctrl + Alt + 2",
     "keywords": [
       "标题",
       "heading",
@@ -638,9 +638,9 @@
       "zh": "应用标题 3 样式",
       "en": "Apply Heading 3"
     },
-    "windows": "Ctrl+Alt+3",
-    "mac": "⌘+⌥+3",
-    "linux": "Ctrl+Alt+3",
+    "windows": "Ctrl + Alt + 3",
+    "mac": "⌘ ⌥ 3",
+    "linux": "Ctrl + Alt + 3",
     "keywords": [
       "标题",
       "heading",
@@ -661,9 +661,9 @@
       "zh": "段落左对齐",
       "en": "Align left"
     },
-    "windows": "Ctrl+Shift+L",
-    "mac": "⌘+Shift+L",
-    "linux": "Ctrl+Shift+L",
+    "windows": "Ctrl + Shift + L",
+    "mac": "⌘ ⇧ L",
+    "linux": "Ctrl + Shift + L",
     "keywords": [
       "对齐",
       "align",
@@ -684,9 +684,9 @@
       "zh": "段落居中对齐",
       "en": "Align center"
     },
-    "windows": "Ctrl+Shift+E",
-    "mac": "⌘+Shift+E",
-    "linux": "Ctrl+Shift+E",
+    "windows": "Ctrl + Shift + E",
+    "mac": "⌘ ⇧ E",
+    "linux": "Ctrl + Shift + E",
     "keywords": [
       "对齐",
       "align",
@@ -707,9 +707,9 @@
       "zh": "段落右对齐",
       "en": "Align right"
     },
-    "windows": "Ctrl+Shift+R",
-    "mac": "⌘+Shift+R",
-    "linux": "Ctrl+Shift+R",
+    "windows": "Ctrl + Shift + R",
+    "mac": "⌘ ⇧ R",
+    "linux": "Ctrl + Shift + R",
     "keywords": [
       "对齐",
       "align",
@@ -730,9 +730,9 @@
       "zh": "应用编号列表",
       "en": "Apply numbered list"
     },
-    "windows": "Ctrl+Shift+7",
-    "mac": "⌘+Shift+7",
-    "linux": "Ctrl+Shift+7",
+    "windows": "Ctrl + Shift + 7",
+    "mac": "⌘ ⇧ 7",
+    "linux": "Ctrl + Shift + 7",
     "keywords": [
       "编号",
       "numbered",
@@ -753,9 +753,9 @@
       "zh": "应用项目符号列表",
       "en": "Apply bulleted list"
     },
-    "windows": "Ctrl+Shift+8",
-    "mac": "⌘+Shift+8",
-    "linux": "Ctrl+Shift+8",
+    "windows": "Ctrl + Shift + 8",
+    "mac": "⌘ ⇧ 8",
+    "linux": "Ctrl + Shift + 8",
     "keywords": [
       "项目符号",
       "bulleted",
@@ -776,9 +776,9 @@
       "zh": "应用清单列表",
       "en": "Apply checklist"
     },
-    "windows": "Ctrl+Shift+9",
-    "mac": "⌘+Shift+9",
-    "linux": "Ctrl+Shift+9",
+    "windows": "Ctrl + Shift + 9",
+    "mac": "⌘ ⇧ 9",
+    "linux": "Ctrl + Shift + 9",
     "keywords": [
       "清单",
       "checklist",
@@ -799,9 +799,9 @@
       "zh": "打开内置快捷键速查表",
       "en": "Open the built-in shortcut cheat sheet"
     },
-    "windows": "Ctrl+/",
-    "mac": "⌘+/",
-    "linux": "Ctrl+/",
+    "windows": "Ctrl / ",
+    "mac": "⌘ / ",
+    "linux": "Ctrl / ",
     "keywords": [
       "快捷键",
       "shortcuts",
@@ -822,9 +822,9 @@
       "zh": "打开命令搜索（工具查找）",
       "en": "Open the tool finder / command search"
     },
-    "windows": "Alt+/",
-    "mac": "⌥+/",
-    "linux": "Alt+/",
+    "windows": "Alt / ",
+    "mac": "⌥ / ",
+    "linux": "Alt / ",
     "keywords": [
       "工具",
       "tool",

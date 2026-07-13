@@ -36,9 +36,9 @@
       "zh": "在播放头分割片段",
       "en": "Split clip at playhead"
     },
-    "windows": "Ctrl+B",
-    "mac": "Cmd+B",
-    "linux": "Ctrl+B",
+    "windows": "Ctrl + B",
+    "mac": "⌘ B",
+    "linux": "Ctrl + B",
     "keywords": [
       "分割",
       "split",
@@ -60,9 +60,9 @@
       "zh": "对选中片段批量分割",
       "en": "Split all selected clips"
     },
-    "windows": "Ctrl+Shift+B",
-    "mac": "Cmd+Shift+B",
-    "linux": "Ctrl+Shift+B",
+    "windows": "Ctrl + Shift + B",
+    "mac": "⌘ ⇧ B",
+    "linux": "Ctrl + Shift + B",
     "keywords": [
       "批量分割",
       "batch split"
@@ -243,9 +243,9 @@
       "zh": "放大时间轴轨道",
       "en": "Zoom in timeline track"
     },
-    "windows": "Ctrl+=",
-    "mac": "Cmd+=",
-    "linux": "Ctrl+=",
+    "windows": "Ctrl + =",
+    "mac": "⌘ =",
+    "linux": "Ctrl + =",
     "keywords": [
       "放大",
       "zoom in",
@@ -266,9 +266,9 @@
       "zh": "缩小时间轴轨道",
       "en": "Zoom out timeline track"
     },
-    "windows": "Ctrl+-",
-    "mac": "Cmd+-",
-    "linux": "Ctrl+-",
+    "windows": "Ctrl + -",
+    "mac": "⌘ -",
+    "linux": "Ctrl + -",
     "keywords": [
       "缩小",
       "zoom out",
@@ -289,9 +289,9 @@
       "zh": "缩放时间轴适应窗口",
       "en": "Zoom timeline to fit"
     },
-    "windows": "Shift+1",
-    "mac": "Shift+1",
-    "linux": "Shift+1",
+    "windows": "Shift + 1",
+    "mac": "⇧ 1",
+    "linux": "Shift + 1",
     "keywords": [
       "适应",
       "fit",
@@ -312,9 +312,9 @@
       "zh": "启用或停用选中片段",
       "en": "Enable or disable selected clip"
     },
-    "windows": "Shift+E",
-    "mac": "Shift+E",
-    "linux": "Shift+E",
+    "windows": "Shift + E",
+    "mac": "⇧ E",
+    "linux": "Shift + E",
     "keywords": [
       "启用",
       "停用",
@@ -336,9 +336,9 @@
       "zh": "分离音频到独立轨道或还原",
       "en": "Detach audio to its own track or restore"
     },
-    "windows": "Ctrl+Alt+D",
-    "mac": "Cmd+Option+D",
-    "linux": "Ctrl+Alt+D",
+    "windows": "Ctrl + Alt + D",
+    "mac": "⌘ ⌥ D",
+    "linux": "Ctrl + Alt + D",
     "keywords": [
       "分离音频",
       "audio",
@@ -360,9 +360,9 @@
       "zh": "为选中音频添加踩点标记",
       "en": "Add beat marker to selected audio"
     },
-    "windows": "Ctrl+J",
-    "mac": "Cmd+J",
-    "linux": "Ctrl+J",
+    "windows": "Ctrl + J",
+    "mac": "⌘ J",
+    "linux": "Ctrl + J",
     "keywords": [
       "踩点",
       "beat",
@@ -517,9 +517,9 @@
       "zh": "按片段选定区域",
       "en": "Select region from clip"
     },
-    "windows": "Shift+X",
-    "mac": "Shift+X",
-    "linux": "Shift+X",
+    "windows": "Shift + X",
+    "mac": "⇧ X",
+    "linux": "Shift + X",
     "keywords": [
       "选定区域",
       "region",
@@ -540,9 +540,9 @@
       "zh": "取消已选定的区域",
       "en": "Cancel selected region"
     },
-    "windows": "Alt+X",
-    "mac": "Option+X",
-    "linux": "Alt+X",
+    "windows": "Alt + X",
+    "mac": "⌥ X",
+    "linux": "Alt + X",
     "keywords": [
       "取消选区",
       "cancel region"
@@ -562,9 +562,9 @@
       "zh": "将选中片段编组",
       "en": "Group selected clips"
     },
-    "windows": "Ctrl+G",
-    "mac": "Cmd+G",
-    "linux": "Ctrl+G",
+    "windows": "Ctrl + G",
+    "mac": "⌘ G",
+    "linux": "Ctrl + G",
     "keywords": [
       "组合",
       "编组",
@@ -585,9 +585,9 @@
       "zh": "取消片段编组",
       "en": "Ungroup clips"
     },
-    "windows": "Ctrl+Shift+G",
-    "mac": "Cmd+Shift+G",
-    "linux": "Ctrl+Shift+G",
+    "windows": "Ctrl + Shift + G",
+    "mac": "⌘ ⇧ G",
+    "linux": "Ctrl + Shift + G",
     "keywords": [
       "解除组合",
       "ungroup",
@@ -608,9 +608,9 @@
       "zh": "唤起变速面板",
       "en": "Open speed panel"
     },
-    "windows": "Ctrl+R",
-    "mac": "Cmd+R",
-    "linux": "Ctrl+R",
+    "windows": "Ctrl + R",
+    "mac": "⌘ R",
+    "linux": "Ctrl + R",
     "keywords": [
       "变速",
       "speed",
@@ -631,9 +631,9 @@
       "zh": "打开自定义曲线变速",
       "en": "Open custom curve speed"
     },
-    "windows": "Shift+B",
-    "mac": "Shift+B",
-    "linux": "Shift+B",
+    "windows": "Shift + B",
+    "mac": "⇧ B",
+    "linux": "Shift + B",
     "keywords": [
       "曲线变速",
       "curve speed",
@@ -654,9 +654,9 @@
       "zh": "将选中片段合并为复合片段",
       "en": "Create compound clip"
     },
-    "windows": "Alt+G",
-    "mac": "Option+G",
-    "linux": "Alt+G",
+    "windows": "Alt + G",
+    "mac": "⌥ G",
+    "linux": "Alt + G",
     "keywords": [
       "复合片段",
       "compound",
@@ -677,9 +677,9 @@
       "zh": "拆分复合片段",
       "en": "Break apart compound clip"
     },
-    "windows": "Alt+Shift+G",
-    "mac": "Option+Shift+G",
-    "linux": "Alt+Shift+G",
+    "windows": "Alt + Shift + G",
+    "mac": "⌥ ⇧ G",
+    "linux": "Alt + Shift + G",
     "keywords": [
       "解除复合",
       "uncompound"
@@ -699,9 +699,9 @@
       "zh": "视频倒放",
       "en": "Play backwards"
     },
-    "windows": "Ctrl+Shift+R",
-    "mac": "Cmd+Shift+R",
-    "linux": "Ctrl+Shift+R",
+    "windows": "Ctrl + Shift + R",
+    "mac": "⌘ ⇧ R",
+    "linux": "Ctrl + Shift + R",
     "keywords": [
       "倒放",
       "reverse"
@@ -721,9 +721,9 @@
       "zh": "生成定格帧",
       "en": "Create freeze frame"
     },
-    "windows": "Alt+F",
-    "mac": "Option+F",
-    "linux": "Alt+F",
+    "windows": "Alt + F",
+    "mac": "⌥ F",
+    "linux": "Alt + F",
     "keywords": [
       "定格",
       "freeze"
@@ -743,9 +743,9 @@
       "zh": "全屏/退出全屏播放预览",
       "en": "Toggle fullscreen preview"
     },
-    "windows": "Ctrl+Shift+F",
-    "mac": "Cmd+Shift+F",
-    "linux": "Ctrl+Shift+F",
+    "windows": "Ctrl + Shift + F",
+    "mac": "⌘ ⇧ F",
+    "linux": "Ctrl + Shift + F",
     "keywords": [
       "全屏",
       "fullscreen"
@@ -833,9 +833,9 @@
       "zh": "撤销上一步",
       "en": "Undo last action"
     },
-    "windows": "Ctrl+Z",
-    "mac": "Cmd+Z",
-    "linux": "Ctrl+Z",
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "Ctrl + Z",
     "keywords": [
       "撤销",
       "undo"
@@ -855,9 +855,9 @@
       "zh": "重做操作",
       "en": "Redo action"
     },
-    "windows": "Ctrl+Shift+Z",
-    "mac": "Cmd+Shift+Z",
-    "linux": "Ctrl+Shift+Z",
+    "windows": "Ctrl + Shift + Z",
+    "mac": "⌘ ⇧ Z",
+    "linux": "Ctrl + Shift + Z",
     "keywords": [
       "重做",
       "redo"
@@ -877,9 +877,9 @@
       "zh": "复制选中",
       "en": "Copy selection"
     },
-    "windows": "Ctrl+C",
-    "mac": "Cmd+C",
-    "linux": "Ctrl+C",
+    "windows": "Ctrl + C",
+    "mac": "⌘ C",
+    "linux": "Ctrl + C",
     "keywords": [
       "复制",
       "copy"
@@ -899,9 +899,9 @@
       "zh": "剪切选中",
       "en": "Cut selection"
     },
-    "windows": "Ctrl+X",
-    "mac": "Cmd+X",
-    "linux": "Ctrl+X",
+    "windows": "Ctrl + X",
+    "mac": "⌘ X",
+    "linux": "Ctrl + X",
     "keywords": [
       "剪切",
       "cut"
@@ -921,9 +921,9 @@
       "zh": "粘贴",
       "en": "Paste"
     },
-    "windows": "Ctrl+V",
-    "mac": "Cmd+V",
-    "linux": "Ctrl+V",
+    "windows": "Ctrl + V",
+    "mac": "⌘ V",
+    "linux": "Ctrl + V",
     "keywords": [
       "粘贴",
       "paste"
@@ -943,9 +943,9 @@
       "zh": "打开导入媒体窗口",
       "en": "Open import media dialog"
     },
-    "windows": "Ctrl+I",
-    "mac": "Cmd+I",
-    "linux": "Ctrl+I",
+    "windows": "Ctrl + I",
+    "mac": "⌘ I",
+    "linux": "Ctrl + I",
     "keywords": [
       "导入",
       "import",
@@ -966,9 +966,9 @@
       "zh": "打开导出窗口",
       "en": "Open export window"
     },
-    "windows": "Ctrl+E",
-    "mac": "Cmd+E",
-    "linux": "Ctrl+E",
+    "windows": "Ctrl + E",
+    "mac": "⌘ E",
+    "linux": "Ctrl + E",
     "keywords": [
       "导出",
       "export"
@@ -988,9 +988,9 @@
       "zh": "新建草稿项目",
       "en": "Create new project"
     },
-    "windows": "Ctrl+N",
-    "mac": "Cmd+N",
-    "linux": "Ctrl+N",
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
+    "linux": "Ctrl + N",
     "keywords": [
       "新建",
       "new",
@@ -1034,9 +1034,9 @@
       "zh": "退出剪映",
       "en": "Quit CapCut"
     },
-    "windows": "Ctrl+Q",
-    "mac": "Cmd+Q",
-    "linux": "Ctrl+Q",
+    "windows": "Ctrl + Q",
+    "mac": "⌘ Q",
+    "linux": "Ctrl + Q",
     "keywords": [
       "退出",
       "quit",
@@ -1080,9 +1080,9 @@
       "zh": "在字幕面板中将一行折成两行",
       "en": "Wrap subtitle line"
     },
-    "windows": "Ctrl+Enter",
-    "mac": "Cmd+Enter",
-    "linux": "Ctrl+Enter",
+    "windows": "Ctrl + Enter",
+    "mac": "⌘ Enter",
+    "linux": "Ctrl + Enter",
     "keywords": [
       "字幕折行",
       "subtitle wrap",

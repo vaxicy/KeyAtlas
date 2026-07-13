@@ -12,9 +12,9 @@
       "zh": "复制选中的内容",
       "en": "Copy selected content"
     },
-    "windows": "Ctrl+C",
-    "mac": "⌘+C",
-    "linux": "Ctrl+C",
+    "windows": "Ctrl + C",
+    "mac": "⌘ C",
+    "linux": "Ctrl + C",
     "keywords": [
       "复制",
       "copy"
@@ -34,9 +34,9 @@
       "zh": "粘贴剪贴板内容",
       "en": "Paste from clipboard"
     },
-    "windows": "Ctrl+V",
-    "mac": "⌘+V",
-    "linux": "Ctrl+V",
+    "windows": "Ctrl + V",
+    "mac": "⌘ V",
+    "linux": "Ctrl + V",
     "keywords": [
       "粘贴",
       "paste"
@@ -56,9 +56,9 @@
       "zh": "撤销上一步操作",
       "en": "Undo last action"
     },
-    "windows": "Ctrl+Z",
-    "mac": "⌘+Z",
-    "linux": "Ctrl+Z",
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "Ctrl + Z",
     "keywords": [
       "撤销",
       "undo"
@@ -78,9 +78,9 @@
       "zh": "重做被撤销的操作",
       "en": "Redo undone action"
     },
-    "windows": "Ctrl+Y",
-    "mac": "⌘+Shift+Z",
-    "linux": "Ctrl+Shift+Z",
+    "windows": "Ctrl + Y",
+    "mac": "⌘ ⇧ Z",
+    "linux": "Ctrl + Shift + Z",
     "keywords": [
       "重做",
       "redo"
@@ -100,9 +100,9 @@
       "zh": "保存当前文件",
       "en": "Save current file"
     },
-    "windows": "Ctrl+S",
-    "mac": "⌘+S",
-    "linux": "Ctrl+S",
+    "windows": "Ctrl + S",
+    "mac": "⌘ S",
+    "linux": "Ctrl + S",
     "keywords": [
       "保存",
       "save"
@@ -122,9 +122,9 @@
       "zh": "打印当前内容",
       "en": "Print current content"
     },
-    "windows": "Ctrl+P",
-    "mac": "⌘+P",
-    "linux": "Ctrl+P",
+    "windows": "Ctrl + P",
+    "mac": "⌘ P",
+    "linux": "Ctrl + P",
     "keywords": [
       "打印",
       "print"
@@ -144,8 +144,8 @@
       "zh": "打开聚焦搜索",
       "en": "Open Spotlight search"
     },
-    "windows": "Win+S",
-    "mac": "⌘+Space",
+    "windows": "Win + S",
+    "mac": "⌘ Space",
     "linux": "—",
     "keywords": [
       "聚焦",
@@ -167,8 +167,8 @@
       "zh": "截取屏幕选定区域",
       "en": "Capture selected screen area"
     },
-    "windows": "Win+Shift+S",
-    "mac": "⌘+Shift+4",
+    "windows": "Win + Shift + S",
+    "mac": "⌘ ⇧ 4",
     "linux": "PrtSc",
     "keywords": [
       "截图",
@@ -190,7 +190,7 @@
       "en": "Capture entire screen"
     },
     "windows": "PrtSc",
-    "mac": "⌘+Shift+3",
+    "mac": "⌘ ⇧ 3",
     "linux": "PrtSc",
     "keywords": [
       "全屏截图",
@@ -211,8 +211,8 @@
       "zh": "打开录屏工具",
       "en": "Open screen recording"
     },
-    "windows": "Win+Shift+S",
-    "mac": "⌘+Shift+5",
+    "windows": "Win + Shift + S",
+    "mac": "⌘ ⇧ 5",
     "linux": "—",
     "keywords": [
       "录屏",
@@ -233,9 +233,9 @@
       "zh": "在打开的应用间切换",
       "en": "Switch between open apps"
     },
-    "windows": "Alt+Tab",
-    "mac": "⌘+Tab",
-    "linux": "Alt+Tab",
+    "windows": "Alt + Tab",
+    "mac": "⌘ Tab",
+    "linux": "Alt + Tab",
     "keywords": [
       "切换",
       "switch"
@@ -255,9 +255,9 @@
       "zh": "彻底退出当前应用",
       "en": "Quit the current app"
     },
-    "windows": "Alt+F4",
-    "mac": "⌘+Q",
-    "linux": "Ctrl+Q",
+    "windows": "Alt + F4",
+    "mac": "⌘ Q",
+    "linux": "Ctrl + Q",
     "keywords": [
       "退出",
       "quit"
@@ -277,9 +277,9 @@
       "zh": "关闭当前窗口",
       "en": "Close current window"
     },
-    "windows": "Ctrl+W",
-    "mac": "⌘+W",
-    "linux": "Ctrl+W",
+    "windows": "Ctrl + W",
+    "mac": "⌘ W",
+    "linux": "Ctrl + W",
     "keywords": [
       "关闭",
       "close"
@@ -299,8 +299,8 @@
       "zh": "打开强制退出面板",
       "en": "Open Force Quit menu"
     },
-    "windows": "Ctrl+Shift+Esc",
-    "mac": "⌘+Option+Esc",
+    "windows": "Ctrl + Shift + Esc",
+    "mac": "⌘ ⌥ Esc",
     "linux": "—",
     "keywords": [
       "强制退出",
@@ -321,8 +321,8 @@
       "zh": "打开调度中心查看所有窗口",
       "en": "Open Mission Control"
     },
-    "windows": "Win+Tab",
-    "mac": "Ctrl+Up",
+    "windows": "Win + Tab",
+    "mac": "⌃ Up",
     "linux": "—",
     "keywords": [
       "调度中心",
@@ -344,7 +344,7 @@
       "en": "Show all windows of current app"
     },
     "windows": "—",
-    "mac": "Ctrl+Down",
+    "mac": "⌃ Down",
     "linux": "—",
     "keywords": [
       "应用窗口",
@@ -365,8 +365,8 @@
       "zh": "打开表情符号面板",
       "en": "Open emoji picker"
     },
-    "windows": "Win+.",
-    "mac": "⌘+Ctrl+Space",
+    "windows": "Win + .",
+    "mac": "⌘ ⌃ Space",
     "linux": "—",
     "keywords": [
       "表情",
@@ -387,9 +387,9 @@
       "zh": "锁定屏幕",
       "en": "Lock the screen"
     },
-    "windows": "Win+L",
-    "mac": "⌘+Ctrl+Q",
-    "linux": "Ctrl+Alt+L",
+    "windows": "Win + L",
+    "mac": "⌘ ⌃ Q",
+    "linux": "Ctrl + Alt + L",
     "keywords": [
       "锁屏",
       "lock"
@@ -409,9 +409,9 @@
       "zh": "在访达中新建文件夹",
       "en": "Create new folder in Finder"
     },
-    "windows": "Ctrl+Shift+N",
-    "mac": "⌘+Shift+N",
-    "linux": "Ctrl+Shift+N",
+    "windows": "Ctrl + Shift + N",
+    "mac": "⌘ ⇧ N",
+    "linux": "Ctrl + Shift + N",
     "keywords": [
       "文件夹",
       "folder"
@@ -431,8 +431,8 @@
       "zh": "打开访达",
       "en": "Open Finder"
     },
-    "windows": "Win+E",
-    "mac": "⌘+Option+Space",
+    "windows": "Win + E",
+    "mac": "⌘ ⌥ Space",
     "linux": "—",
     "keywords": [
       "访达",
@@ -476,7 +476,7 @@
       "en": "Look up word"
     },
     "windows": "—",
-    "mac": "⌘+Ctrl+D",
+    "mac": "⌘ ⌃ D",
     "linux": "—",
     "keywords": [
       "字典",

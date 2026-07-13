@@ -104,9 +104,9 @@
       "zh": "在胶片条中上移幻灯片",
       "en": "Move the slide up in the filmstrip"
     },
-    "windows": "Ctrl+↑",
-    "mac": "⌘+↑",
-    "linux": "Ctrl+↑",
+    "windows": "Ctrl + ↑",
+    "mac": "⌘ ↑",
+    "linux": "Ctrl + ↑",
     "keywords": [
       "移动",
       "上移",
@@ -128,9 +128,9 @@
       "zh": "在胶片条中下移幻灯片",
       "en": "Move the slide down in the filmstrip"
     },
-    "windows": "Ctrl+↓",
-    "mac": "⌘+↓",
-    "linux": "Ctrl+↓",
+    "windows": "Ctrl + ↓",
+    "mac": "⌘ ↓",
+    "linux": "Ctrl + ↓",
     "keywords": [
       "移动",
       "下移",
@@ -152,9 +152,9 @@
       "zh": "将幻灯片移到演示文稿开头",
       "en": "Move the slide to the beginning"
     },
-    "windows": "Ctrl+Shift+↑",
-    "mac": "⌘+Shift+↑",
-    "linux": "Ctrl+Shift+↑",
+    "windows": "Ctrl + Shift + ↑",
+    "mac": "⌘ ⇧ ↑",
+    "linux": "Ctrl + Shift + ↑",
     "keywords": [
       "移动",
       "开头",
@@ -175,9 +175,9 @@
       "zh": "将幻灯片移到演示文稿末尾",
       "en": "Move the slide to the end"
     },
-    "windows": "Ctrl+Shift+↓",
-    "mac": "⌘+Shift+↓",
-    "linux": "Ctrl+Shift+↓",
+    "windows": "Ctrl + Shift + ↓",
+    "mac": "⌘ ⇧ ↓",
+    "linux": "Ctrl + Shift + ↓",
     "keywords": [
       "移动",
       "末尾",
@@ -198,9 +198,9 @@
       "zh": "放大画布视图",
       "en": "Zoom in on the canvas"
     },
-    "windows": "Ctrl++",
-    "mac": "⌘++",
-    "linux": "Ctrl++",
+    "windows": "Ctrl + =",
+    "mac": "⌘ =",
+    "linux": "Ctrl + =",
     "keywords": [
       "放大",
       "zoom",
@@ -221,9 +221,9 @@
       "zh": "缩小画布视图",
       "en": "Zoom out on the canvas"
     },
-    "windows": "Ctrl+-",
-    "mac": "⌘+-",
-    "linux": "Ctrl+-",
+    "windows": "Ctrl + -",
+    "mac": "⌘ -",
+    "linux": "Ctrl + -",
     "keywords": [
       "缩小",
       "zoom",
@@ -244,9 +244,9 @@
       "zh": "将视图缩放回 100%",
       "en": "Reset zoom to 100%"
     },
-    "windows": "Ctrl+0",
-    "mac": "⌘+0",
-    "linux": "Ctrl+0",
+    "windows": "Ctrl + 0",
+    "mac": "⌘ 0",
+    "linux": "Ctrl + 0",
     "keywords": [
       "缩放",
       "100",
@@ -267,9 +267,9 @@
       "zh": "将焦点移到左侧胶片条",
       "en": "Move focus to the filmstrip"
     },
-    "windows": "Ctrl+Alt+Shift+F",
-    "mac": "⌘+⌥+Shift+F",
-    "linux": "Ctrl+Alt+Shift+F",
+    "windows": "Ctrl + Alt + Shift + F",
+    "mac": "⌘ ⌥ ⇧ F",
+    "linux": "Ctrl + Alt + Shift + F",
     "keywords": [
       "胶片条",
       "filmstrip"
@@ -289,9 +289,9 @@
       "zh": "将焦点移到中央画布",
       "en": "Move focus to the canvas"
     },
-    "windows": "Ctrl+Alt+Shift+C",
-    "mac": "⌘+⌥+Shift+C",
-    "linux": "Ctrl+Alt+Shift+C",
+    "windows": "Ctrl + Alt + Shift + C",
+    "mac": "⌘ ⌥ ⇧ C",
+    "linux": "Ctrl + Alt + Shift + C",
     "keywords": [
       "画布",
       "canvas"
@@ -311,9 +311,9 @@
       "zh": "打开演讲者备注面板",
       "en": "Open the speaker notes panel"
     },
-    "windows": "Ctrl+Alt+Shift+S",
-    "mac": "⌘+⌥+Shift+S",
-    "linux": "Ctrl+Alt+Shift+S",
+    "windows": "Ctrl + Alt + Shift + S",
+    "mac": "⌘ ⌥ ⇧ S",
+    "linux": "Ctrl + Alt + Shift + S",
     "keywords": [
       "备注",
       "speaker",
@@ -334,9 +334,9 @@
       "zh": "打开动画设置面板",
       "en": "Open the animations panel"
     },
-    "windows": "Ctrl+Alt+Shift+B",
-    "mac": "⌘+⌥+Shift+B",
-    "linux": "Ctrl+Alt+Shift+B",
+    "windows": "Ctrl + Alt + Shift + B",
+    "mac": "⌘ ⌥ ⇧ B",
+    "linux": "Ctrl + Alt + Shift + B",
     "keywords": [
       "动画",
       "animations"
@@ -356,9 +356,9 @@
       "zh": "打开修订历史记录",
       "en": "Open the revision history"
     },
-    "windows": "Ctrl+Alt+Shift+H",
-    "mac": "⌘+⌥+Shift+H",
-    "linux": "Ctrl+Alt+Shift+H",
+    "windows": "Ctrl + Alt + Shift + H",
+    "mac": "⌘ ⌥ ⇧ H",
+    "linux": "Ctrl + Alt + Shift + H",
     "keywords": [
       "历史",
       "修订",
@@ -403,9 +403,9 @@
       "zh": "从头开始播放演示",
       "en": "Start the presentation from the beginning"
     },
-    "windows": "Ctrl+F5",
-    "mac": "⌘+Enter",
-    "linux": "Ctrl+F5",
+    "windows": "Ctrl + F5",
+    "mac": "⌘ Enter",
+    "linux": "Ctrl + F5",
     "keywords": [
       "演示",
       "播放",
@@ -473,7 +473,7 @@
       "en": "Type a number then Enter to jump to that slide"
     },
     "windows": "数字 + Enter",
-    "mac": "数字 + Enter",
+    "mac": "数字 Enter",
     "linux": "数字 + Enter",
     "keywords": [
       "跳转",
@@ -610,9 +610,9 @@
       "zh": "演示中开关实时字幕（仅英文）",
       "en": "Toggle live captions while presenting (English only)"
     },
-    "windows": "Ctrl+Shift+C",
-    "mac": "⌘+Shift+C",
-    "linux": "Ctrl+Shift+C",
+    "windows": "Ctrl + Shift + C",
+    "mac": "⌘ ⇧ C",
+    "linux": "Ctrl + Shift + C",
     "keywords": [
       "字幕",
       "captions",
@@ -655,9 +655,9 @@
       "zh": "插入一张新幻灯片",
       "en": "Insert a new slide"
     },
-    "windows": "Ctrl+M",
-    "mac": "⌘+M",
-    "linux": "Ctrl+M",
+    "windows": "Ctrl + M",
+    "mac": "⌘ M",
+    "linux": "Ctrl + M",
     "keywords": [
       "新建",
       "幻灯片",
@@ -679,9 +679,9 @@
       "zh": "复制选中的幻灯片或对象",
       "en": "Duplicate the selected slide or object"
     },
-    "windows": "Ctrl+D",
-    "mac": "⌘+D",
-    "linux": "Ctrl+D",
+    "windows": "Ctrl + D",
+    "mac": "⌘ D",
+    "linux": "Ctrl + D",
     "keywords": [
       "复制",
       "duplicate"
@@ -701,9 +701,9 @@
       "zh": "撤销上一步操作",
       "en": "Undo the last action"
     },
-    "windows": "Ctrl+Z",
-    "mac": "⌘+Z",
-    "linux": "Ctrl+Z",
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "Ctrl + Z",
     "keywords": [
       "撤销",
       "undo"
@@ -723,9 +723,9 @@
       "zh": "重做已撤销的操作",
       "en": "Redo the last undone action"
     },
-    "windows": "Ctrl+Y",
-    "mac": "⌘+Y",
-    "linux": "Ctrl+Y",
+    "windows": "Ctrl + Y",
+    "mac": "⌘ Y",
+    "linux": "Ctrl + Y",
     "keywords": [
       "重做",
       "redo"
@@ -745,9 +745,9 @@
       "zh": "复制选中内容",
       "en": "Copy the selection"
     },
-    "windows": "Ctrl+C",
-    "mac": "⌘+C",
-    "linux": "Ctrl+C",
+    "windows": "Ctrl + C",
+    "mac": "⌘ C",
+    "linux": "Ctrl + C",
     "keywords": [
       "复制",
       "copy"
@@ -767,9 +767,9 @@
       "zh": "粘贴内容",
       "en": "Paste content"
     },
-    "windows": "Ctrl+V",
-    "mac": "⌘+V",
-    "linux": "Ctrl+V",
+    "windows": "Ctrl + V",
+    "mac": "⌘ V",
+    "linux": "Ctrl + V",
     "keywords": [
       "粘贴",
       "paste"
@@ -789,9 +789,9 @@
       "zh": "剪切选中内容",
       "en": "Cut the selection"
     },
-    "windows": "Ctrl+X",
-    "mac": "⌘+X",
-    "linux": "Ctrl+X",
+    "windows": "Ctrl + X",
+    "mac": "⌘ X",
+    "linux": "Ctrl + X",
     "keywords": [
       "剪切",
       "cut"
@@ -811,9 +811,9 @@
       "zh": "复制选中对象的格式",
       "en": "Copy the formatting of the selection"
     },
-    "windows": "Ctrl+Alt+C",
-    "mac": "⌘+⌥+C",
-    "linux": "Ctrl+Alt+C",
+    "windows": "Ctrl + Alt + C",
+    "mac": "⌘ ⌥ C",
+    "linux": "Ctrl + Alt + C",
     "keywords": [
       "复制格式",
       "format",
@@ -834,9 +834,9 @@
       "zh": "将复制的格式应用到选中对象",
       "en": "Apply copied formatting to the selection"
     },
-    "windows": "Ctrl+Alt+V",
-    "mac": "⌘+⌥+V",
-    "linux": "Ctrl+Alt+V",
+    "windows": "Ctrl + Alt + V",
+    "mac": "⌘ ⌥ V",
+    "linux": "Ctrl + Alt + V",
     "keywords": [
       "粘贴格式",
       "format",
@@ -857,9 +857,9 @@
       "zh": "为选中内容添加或编辑链接",
       "en": "Insert or edit a link on the selection"
     },
-    "windows": "Ctrl+K",
-    "mac": "⌘+K",
-    "linux": "Ctrl+K",
+    "windows": "Ctrl + K",
+    "mac": "⌘ K",
+    "linux": "Ctrl + K",
     "keywords": [
       "链接",
       "link"
@@ -879,9 +879,9 @@
       "zh": "打开选中对象上的链接",
       "en": "Open the link on the selected object"
     },
-    "windows": "Alt+Enter",
-    "mac": "⌥+Enter",
-    "linux": "Alt+Enter",
+    "windows": "Alt + Enter",
+    "mac": "⌥ Enter",
+    "linux": "Alt + Enter",
     "keywords": [
       "打开",
       "链接",
@@ -903,9 +903,9 @@
       "zh": "选中当前幻灯片所有对象",
       "en": "Select all objects on the slide"
     },
-    "windows": "Ctrl+A",
-    "mac": "⌘+A",
-    "linux": "Ctrl+A",
+    "windows": "Ctrl + A",
+    "mac": "⌘ A",
+    "linux": "Ctrl + A",
     "keywords": [
       "全选",
       "select",
@@ -926,9 +926,9 @@
       "zh": "在演示文稿中查找内容",
       "en": "Find content in the presentation"
     },
-    "windows": "Ctrl+F",
-    "mac": "⌘+F",
-    "linux": "Ctrl+F",
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
+    "linux": "Ctrl + F",
     "keywords": [
       "查找",
       "find"
@@ -948,9 +948,9 @@
       "zh": "查找并替换演示文稿中的内容",
       "en": "Find and replace content in the presentation"
     },
-    "windows": "Ctrl+H",
-    "mac": "⌘+Shift+H",
-    "linux": "Ctrl+H",
+    "windows": "Ctrl + H",
+    "mac": "⌘ ⇧ H",
+    "linux": "Ctrl + H",
     "keywords": [
       "替换",
       "find",
@@ -971,9 +971,9 @@
       "zh": "打开所有快捷键的速查列表",
       "en": "Open the full list of keyboard shortcuts"
     },
-    "windows": "Ctrl+/",
-    "mac": "⌘+/",
-    "linux": "Ctrl+/",
+    "windows": "Ctrl / ",
+    "mac": "⌘ / ",
+    "linux": "Ctrl / ",
     "keywords": [
       "快捷键",
       "帮助",
@@ -995,9 +995,9 @@
       "zh": "为选中对象添加替代文字",
       "en": "Add alt text to the selected object"
     },
-    "windows": "Ctrl+Alt+Y",
-    "mac": "⌘+⌥+Y",
-    "linux": "Ctrl+Alt+Y",
+    "windows": "Ctrl + Alt + Y",
+    "mac": "⌘ ⌥ Y",
+    "linux": "Ctrl + Alt + Y",
     "keywords": [
       "替代文字",
       "alt",
@@ -1018,9 +1018,9 @@
       "zh": "为选中内容添加评论",
       "en": "Add a comment to the selection"
     },
-    "windows": "Ctrl+Alt+M",
-    "mac": "⌘+⌥+M",
-    "linux": "Ctrl+Alt+M",
+    "windows": "Ctrl + Alt + M",
+    "mac": "⌘ ⌥ M",
+    "linux": "Ctrl + Alt + M",
     "keywords": [
       "评论",
       "comment"
@@ -1040,9 +1040,9 @@
       "zh": "打开当前对象的评论讨论串",
       "en": "Open the comment thread for the object"
     },
-    "windows": "Ctrl+Alt+Shift+A",
-    "mac": "⌘+⌥+Shift+A",
-    "linux": "Ctrl+Alt+Shift+A",
+    "windows": "Ctrl + Alt + Shift + A",
+    "mac": "⌘ ⌥ ⇧ A",
+    "linux": "Ctrl + Alt + Shift + A",
     "keywords": [
       "评论",
       "讨论",
@@ -1160,9 +1160,9 @@
       "zh": "将选中文字加粗",
       "en": "Make the selection bold"
     },
-    "windows": "Ctrl+B",
-    "mac": "⌘+B",
-    "linux": "Ctrl+B",
+    "windows": "Ctrl + B",
+    "mac": "⌘ B",
+    "linux": "Ctrl + B",
     "keywords": [
       "加粗",
       "bold"
@@ -1182,9 +1182,9 @@
       "zh": "将选中文字设为斜体",
       "en": "Make the selection italic"
     },
-    "windows": "Ctrl+I",
-    "mac": "⌘+I",
-    "linux": "Ctrl+I",
+    "windows": "Ctrl + I",
+    "mac": "⌘ I",
+    "linux": "Ctrl + I",
     "keywords": [
       "斜体",
       "italic"
@@ -1204,9 +1204,9 @@
       "zh": "为选中文字添加下划线",
       "en": "Underline the selection"
     },
-    "windows": "Ctrl+U",
-    "mac": "⌘+U",
-    "linux": "Ctrl+U",
+    "windows": "Ctrl + U",
+    "mac": "⌘ U",
+    "linux": "Ctrl + U",
     "keywords": [
       "下划线",
       "underline"
@@ -1226,9 +1226,9 @@
       "zh": "将选中文字设为下标",
       "en": "Make the selection subscript"
     },
-    "windows": "Ctrl+,",
-    "mac": "⌘+,",
-    "linux": "Ctrl+,",
+    "windows": "Ctrl + ,",
+    "mac": "⌘ ,",
+    "linux": "Ctrl + ,",
     "keywords": [
       "下标",
       "subscript"
@@ -1248,9 +1248,9 @@
       "zh": "将选中文字设为上标",
       "en": "Make the selection superscript"
     },
-    "windows": "Ctrl+.",
-    "mac": "⌘+.",
-    "linux": "Ctrl+.",
+    "windows": "Ctrl + .",
+    "mac": "⌘ .",
+    "linux": "Ctrl + .",
     "keywords": [
       "上标",
       "superscript"
@@ -1270,9 +1270,9 @@
       "zh": "为选中文字添加删除线",
       "en": "Strikethrough the selection"
     },
-    "windows": "Alt+Shift+5",
-    "mac": "⌘+Shift+X",
-    "linux": "Alt+Shift+5",
+    "windows": "Alt + Shift + 5",
+    "mac": "⌘ ⇧ X",
+    "linux": "Alt + Shift + 5",
     "keywords": [
       "删除线",
       "strikethrough"
@@ -1292,9 +1292,9 @@
       "zh": "清除选中文字的格式",
       "en": "Clear formatting from the selection"
     },
-    "windows": "Ctrl+空格",
-    "mac": "⌘+\\",
-    "linux": "Ctrl+空格",
+    "windows": "Ctrl + 空格",
+    "mac": "⌘ \\",
+    "linux": "Ctrl + 空格",
     "keywords": [
       "清除",
       "格式",
@@ -1316,9 +1316,9 @@
       "zh": "增大选中文字的字号",
       "en": "Increase the font size of the selection"
     },
-    "windows": "Ctrl+Shift+>",
-    "mac": "⌘+Shift+>",
-    "linux": "Ctrl+Shift+>",
+    "windows": "Ctrl + Shift + >",
+    "mac": "⌘ ⇧ >",
+    "linux": "Ctrl + Shift + >",
     "keywords": [
       "字号",
       "增大",
@@ -1340,9 +1340,9 @@
       "zh": "减小选中文字的字号",
       "en": "Decrease the font size of the selection"
     },
-    "windows": "Ctrl+Shift+<",
-    "mac": "⌘+Shift+<",
-    "linux": "Ctrl+Shift+<",
+    "windows": "Ctrl + Shift + <",
+    "mac": "⌘ ⇧ <",
+    "linux": "Ctrl + Shift + <",
     "keywords": [
       "字号",
       "减小",
@@ -1364,9 +1364,9 @@
       "zh": "将文字左对齐",
       "en": "Align text to the left"
     },
-    "windows": "Ctrl+Shift+L",
-    "mac": "⌘+Shift+L",
-    "linux": "Ctrl+Shift+L",
+    "windows": "Ctrl + Shift + L",
+    "mac": "⌘ ⇧ L",
+    "linux": "Ctrl + Shift + L",
     "keywords": [
       "对齐",
       "左",
@@ -1388,9 +1388,9 @@
       "zh": "将文字水平居中",
       "en": "Center text horizontally"
     },
-    "windows": "Ctrl+Shift+E",
-    "mac": "⌘+Shift+E",
-    "linux": "Ctrl+Shift+E",
+    "windows": "Ctrl + Shift + E",
+    "mac": "⌘ ⇧ E",
+    "linux": "Ctrl + Shift + E",
     "keywords": [
       "对齐",
       "居中",
@@ -1412,9 +1412,9 @@
       "zh": "将文字右对齐",
       "en": "Align text to the right"
     },
-    "windows": "Ctrl+Shift+R",
-    "mac": "⌘+Shift+R",
-    "linux": "Ctrl+Shift+R",
+    "windows": "Ctrl + Shift + R",
+    "mac": "⌘ ⇧ R",
+    "linux": "Ctrl + Shift + R",
     "keywords": [
       "对齐",
       "右",
@@ -1436,9 +1436,9 @@
       "zh": "将文字两端对齐",
       "en": "Justify the text"
     },
-    "windows": "Ctrl+Shift+J",
-    "mac": "⌘+Shift+J",
-    "linux": "Ctrl+Shift+J",
+    "windows": "Ctrl + Shift + J",
+    "mac": "⌘ ⇧ J",
+    "linux": "Ctrl + Shift + J",
     "keywords": [
       "对齐",
       "两端",
@@ -1459,9 +1459,9 @@
       "zh": "将段落向下移动",
       "en": "Move the paragraph down"
     },
-    "windows": "Alt+Shift+↓",
-    "mac": "⌥+Shift+↓",
-    "linux": "Alt+Shift+↓",
+    "windows": "Alt + Shift + ↓",
+    "mac": "⌥ ⇧ ↓",
+    "linux": "Alt + Shift + ↓",
     "keywords": [
       "段落",
       "下移",
@@ -1482,9 +1482,9 @@
       "zh": "将段落向上移动",
       "en": "Move the paragraph up"
     },
-    "windows": "Alt+Shift+↑",
-    "mac": "⌥+Shift+↑",
-    "linux": "Alt+Shift+↑",
+    "windows": "Alt + Shift + ↑",
+    "mac": "⌥ ⇧ ↑",
+    "linux": "Alt + Shift + ↑",
     "keywords": [
       "段落",
       "上移",
@@ -1505,9 +1505,9 @@
       "zh": "增加选中段落的缩进",
       "en": "Increase the indent of the selection"
     },
-    "windows": "Ctrl+]",
-    "mac": "⌘+]",
-    "linux": "Ctrl+]",
+    "windows": "Ctrl + ]",
+    "mac": "⌘ ]",
+    "linux": "Ctrl + ]",
     "keywords": [
       "缩进",
       "indent"
@@ -1527,9 +1527,9 @@
       "zh": "减少选中段落的缩进",
       "en": "Decrease the indent of the selection"
     },
-    "windows": "Ctrl+[",
-    "mac": "⌘+[",
-    "linux": "Ctrl+[",
+    "windows": "Ctrl + [",
+    "mac": "⌘ [",
+    "linux": "Ctrl + [",
     "keywords": [
       "缩进",
       "indent"
@@ -1549,9 +1549,9 @@
       "zh": "将选中文字设为项目符号列表",
       "en": "Make the selection a bulleted list"
     },
-    "windows": "Ctrl+Shift+8",
-    "mac": "⌘+Shift+8",
-    "linux": "Ctrl+Shift+8",
+    "windows": "Ctrl + Shift + 8",
+    "mac": "⌘ ⇧ 8",
+    "linux": "Ctrl + Shift + 8",
     "keywords": [
       "列表",
       "项目符号",
@@ -1573,9 +1573,9 @@
       "zh": "将选中文字设为编号列表",
       "en": "Make the selection a numbered list"
     },
-    "windows": "Ctrl+Shift+7",
-    "mac": "⌘+Shift+7",
-    "linux": "Ctrl+Shift+7",
+    "windows": "Ctrl + Shift + 7",
+    "mac": "⌘ ⇧ 7",
+    "linux": "Ctrl + Shift + 7",
     "keywords": [
       "列表",
       "编号",
@@ -1597,9 +1597,9 @@
       "zh": "将选中的多个对象组合",
       "en": "Group the selected objects"
     },
-    "windows": "Ctrl+Alt+G",
-    "mac": "⌘+⌥+G",
-    "linux": "Ctrl+Alt+G",
+    "windows": "Ctrl + Alt + G",
+    "mac": "⌘ ⌥ G",
+    "linux": "Ctrl + Alt + G",
     "keywords": [
       "组合",
       "group"
@@ -1619,9 +1619,9 @@
       "zh": "拆分已组合的对象",
       "en": "Ungroup the selected objects"
     },
-    "windows": "Ctrl+Alt+Shift+G",
-    "mac": "⌘+⌥+Shift+G",
-    "linux": "Ctrl+Alt+Shift+G",
+    "windows": "Ctrl + Alt + Shift + G",
+    "mac": "⌘ ⌥ ⇧ G",
+    "linux": "Ctrl + Alt + Shift + G",
     "keywords": [
       "取消组合",
       "ungroup"
@@ -1641,9 +1641,9 @@
       "zh": "将对象移到最底层",
       "en": "Send the object to the back"
     },
-    "windows": "Ctrl+Shift+↓",
-    "mac": "⌘+Shift+↓",
-    "linux": "Ctrl+Shift+↓",
+    "windows": "Ctrl + Shift + ↓",
+    "mac": "⌘ ⇧ ↓",
+    "linux": "Ctrl + Shift + ↓",
     "keywords": [
       "层级",
       "底层",
@@ -1664,9 +1664,9 @@
       "zh": "将对象移到最顶层",
       "en": "Bring the object to the front"
     },
-    "windows": "Ctrl+Shift+↑",
-    "mac": "⌘+Shift+↑",
-    "linux": "Ctrl+Shift+↑",
+    "windows": "Ctrl + Shift + ↑",
+    "mac": "⌘ ⇧ ↑",
+    "linux": "Ctrl + Shift + ↑",
     "keywords": [
       "层级",
       "顶层",
@@ -1711,9 +1711,9 @@
       "zh": "在对象间切换到上一个",
       "en": "Select the previous shape"
     },
-    "windows": "Shift+Tab",
-    "mac": "Shift+Tab",
-    "linux": "Shift+Tab",
+    "windows": "Shift + Tab",
+    "mac": "⇧ Tab",
+    "linux": "Shift + Tab",
     "keywords": [
       "选择",
       "对象",
@@ -1735,9 +1735,9 @@
       "zh": "按住 Shift 加方向键大步移动对象",
       "en": "Nudge the object by a larger increment"
     },
-    "windows": "Shift+方向键",
-    "mac": "Shift+方向键",
-    "linux": "Shift+方向键",
+    "windows": "Shift + 方向键",
+    "mac": "⇧ 方向键",
+    "linux": "Shift + 方向键",
     "keywords": [
       "移动",
       "对象",
@@ -1758,9 +1758,9 @@
       "zh": "将对象逆时针旋转 15 度",
       "en": "Rotate the object 15° counterclockwise"
     },
-    "windows": "Alt+←",
-    "mac": "⌥+←",
-    "linux": "Alt+←",
+    "windows": "Alt + ←",
+    "mac": "⌥ ←",
+    "linux": "Alt + ←",
     "keywords": [
       "旋转",
       "rotate"
@@ -1780,9 +1780,9 @@
       "zh": "将对象顺时针旋转 15 度",
       "en": "Rotate the object 15° clockwise"
     },
-    "windows": "Alt+→",
-    "mac": "⌥+→",
-    "linux": "Alt+→",
+    "windows": "Alt + →",
+    "mac": "⌥ →",
+    "linux": "Alt + →",
     "keywords": [
       "旋转",
       "rotate"

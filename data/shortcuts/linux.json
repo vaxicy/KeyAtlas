@@ -12,9 +12,9 @@
       "zh": "复制选中的内容",
       "en": "Copy selected content"
     },
-    "windows": "Ctrl+C",
-    "mac": "⌘+C",
-    "linux": "Ctrl+C",
+    "windows": "Ctrl + C",
+    "mac": "⌘ C",
+    "linux": "Ctrl + C",
     "keywords": [
       "复制",
       "copy"
@@ -34,9 +34,9 @@
       "zh": "粘贴剪贴板内容",
       "en": "Paste from clipboard"
     },
-    "windows": "Ctrl+V",
-    "mac": "⌘+V",
-    "linux": "Ctrl+V",
+    "windows": "Ctrl + V",
+    "mac": "⌘ V",
+    "linux": "Ctrl + V",
     "keywords": [
       "粘贴",
       "paste"
@@ -56,9 +56,9 @@
       "zh": "在终端中复制",
       "en": "Copy in terminal"
     },
-    "windows": "Ctrl+C",
-    "mac": "⌘+C",
-    "linux": "Ctrl+Shift+C",
+    "windows": "Ctrl + C",
+    "mac": "⌘ C",
+    "linux": "Ctrl + Shift + C",
     "keywords": [
       "终端",
       "terminal",
@@ -79,9 +79,9 @@
       "zh": "在终端中粘贴",
       "en": "Paste in terminal"
     },
-    "windows": "Ctrl+V",
-    "mac": "⌘+V",
-    "linux": "Ctrl+Shift+V",
+    "windows": "Ctrl + V",
+    "mac": "⌘ V",
+    "linux": "Ctrl + Shift + V",
     "keywords": [
       "终端",
       "terminal",
@@ -102,9 +102,9 @@
       "zh": "在打开的窗口间切换",
       "en": "Switch between windows"
     },
-    "windows": "Alt+Tab",
-    "mac": "⌘+Tab",
-    "linux": "Alt+Tab",
+    "windows": "Alt + Tab",
+    "mac": "⌘ Tab",
+    "linux": "Alt + Tab",
     "keywords": [
       "切换",
       "switch"
@@ -124,9 +124,9 @@
       "zh": "关闭当前窗口",
       "en": "Close current window"
     },
-    "windows": "Alt+F4",
-    "mac": "⌘+W",
-    "linux": "Alt+F4",
+    "windows": "Alt + F4",
+    "mac": "⌘ W",
+    "linux": "Alt + F4",
     "keywords": [
       "关闭",
       "close"
@@ -148,7 +148,7 @@
     },
     "windows": "—",
     "mac": "—",
-    "linux": "Ctrl+Alt+T",
+    "linux": "Ctrl + Alt + T",
     "keywords": [
       "终端",
       "terminal"
@@ -168,9 +168,9 @@
       "zh": "锁定屏幕",
       "en": "Lock the screen"
     },
-    "windows": "Win+L",
-    "mac": "⌘+Ctrl+Q",
-    "linux": "Super+L",
+    "windows": "Win + L",
+    "mac": "⌘ ⌃ Q",
+    "linux": "Super + L",
     "keywords": [
       "锁屏",
       "lock"
@@ -192,7 +192,7 @@
     },
     "windows": "Win",
     "mac": "—",
-    "linux": "Super+A",
+    "linux": "Super + A",
     "keywords": [
       "应用",
       "applications"
@@ -212,9 +212,9 @@
       "zh": "切换到其他工作区",
       "en": "Switch to another workspace"
     },
-    "windows": "Win+Ctrl+Left",
-    "mac": "Ctrl+Left",
-    "linux": "Ctrl+Alt+Left",
+    "windows": "Win + Ctrl + Left",
+    "mac": "⌃ Left",
+    "linux": "Ctrl + Alt + Left",
     "keywords": [
       "工作区",
       "workspace"
@@ -256,9 +256,9 @@
       "zh": "当前窗口截图",
       "en": "Window screenshot"
     },
-    "windows": "Alt+PrtSc",
-    "mac": "Alt+PrtSc",
-    "linux": "Alt+PrtSc",
+    "windows": "Alt + PrtSc",
+    "mac": "⌥ PrtSc",
+    "linux": "Alt + PrtSc",
     "keywords": [
       "窗口截图",
       "window"
@@ -280,7 +280,7 @@
     },
     "windows": "—",
     "mac": "—",
-    "linux": "Alt+F2",
+    "linux": "Alt + F2",
     "keywords": [
       "运行",
       "run"
@@ -323,9 +323,9 @@
       "zh": "最大化窗口",
       "en": "Maximize"
     },
-    "windows": "Win+Up",
+    "windows": "Win + Up",
     "mac": "—",
-    "linux": "Super+Up",
+    "linux": "Super + Up",
     "keywords": [
       "最大化",
       "maximize"
@@ -345,9 +345,9 @@
       "zh": "最小化窗口",
       "en": "Minimize"
     },
-    "windows": "Win+Down",
+    "windows": "Win + Down",
     "mac": "—",
-    "linux": "Super+Down",
+    "linux": "Super + Down",
     "keywords": [
       "最小化",
       "minimize"
@@ -367,9 +367,9 @@
       "zh": "打开文件管理器",
       "en": "File manager"
     },
-    "windows": "Win+E",
+    "windows": "Win + E",
     "mac": "—",
-    "linux": "Super+E",
+    "linux": "Super + E",
     "keywords": [
       "文件管理器",
       "file"
@@ -389,9 +389,9 @@
       "zh": "打开系统设置",
       "en": "Settings"
     },
-    "windows": "Win+I",
+    "windows": "Win + I",
     "mac": "—",
-    "linux": "Super+I",
+    "linux": "Super + I",
     "keywords": [
       "设置",
       "settings"

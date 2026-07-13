@@ -12,9 +12,9 @@
       "zh": "打开新标签页",
       "en": "Open new tab"
     },
-    "windows": "Ctrl+T",
-    "mac": "⌘+T",
-    "linux": "Ctrl+T",
+    "windows": "Ctrl + T",
+    "mac": "⌘ T",
+    "linux": "Ctrl + T",
     "keywords": [
       "新建标签",
       "new tab"
@@ -34,9 +34,9 @@
       "zh": "打开新窗口",
       "en": "Open new window"
     },
-    "windows": "Ctrl+N",
-    "mac": "⌘+N",
-    "linux": "Ctrl+N",
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
+    "linux": "Ctrl + N",
     "keywords": [
       "新建窗口",
       "new window"
@@ -56,9 +56,9 @@
       "zh": "打开无痕浏览窗口",
       "en": "Open InPrivate browsing window"
     },
-    "windows": "Ctrl+Shift+N",
-    "mac": "⌘+⇧+N",
-    "linux": "Ctrl+Shift+N",
+    "windows": "Ctrl + Shift + N",
+    "mac": "⌘ ⇧ N",
+    "linux": "Ctrl + Shift + N",
     "keywords": [
       "无痕",
       "inprivate",
@@ -79,9 +79,9 @@
       "zh": "关闭当前标签页",
       "en": "Close current tab"
     },
-    "windows": "Ctrl+W",
-    "mac": "⌘+W",
-    "linux": "Ctrl+W",
+    "windows": "Ctrl + W",
+    "mac": "⌘ W",
+    "linux": "Ctrl + W",
     "keywords": [
       "关闭",
       "close"
@@ -101,9 +101,9 @@
       "zh": "重新打开最近关闭的标签页",
       "en": "Reopen most recently closed tab"
     },
-    "windows": "Ctrl+Shift+T",
-    "mac": "⌘+⇧+T",
-    "linux": "Ctrl+Shift+T",
+    "windows": "Ctrl + Shift + T",
+    "mac": "⌘ ⇧ T",
+    "linux": "Ctrl + Shift + T",
     "keywords": [
       "恢复",
       "reopen",
@@ -124,9 +124,9 @@
       "zh": "切换到右侧下一个标签页",
       "en": "Switch to the next tab to the right"
     },
-    "windows": "Ctrl+Tab",
-    "mac": "⌘+⌥+→",
-    "linux": "Ctrl+Tab",
+    "windows": "Ctrl + Tab",
+    "mac": "⌘ ⌥ →",
+    "linux": "Ctrl + Tab",
     "keywords": [
       "下一个标签",
       "next tab"
@@ -146,9 +146,9 @@
       "zh": "切换到左侧上一个标签页",
       "en": "Switch to the previous tab to the left"
     },
-    "windows": "Ctrl+Shift+Tab",
-    "mac": "⌘+⌥+←",
-    "linux": "Ctrl+Shift+Tab",
+    "windows": "Ctrl + Shift + Tab",
+    "mac": "⌘ ⌥ ←",
+    "linux": "Ctrl + Shift + Tab",
     "keywords": [
       "上一个标签",
       "prev tab"
@@ -168,9 +168,9 @@
       "zh": "跳转到下一组标签页",
       "en": "Jump to the next set of tabs"
     },
-    "windows": "Ctrl+PageDown",
-    "mac": "⌘+⌥+→",
-    "linux": "Ctrl+PageDown",
+    "windows": "Ctrl + PageDown",
+    "mac": "⌘ ⌥ →",
+    "linux": "Ctrl + PageDown",
     "keywords": [
       "下一组标签",
       "page down"
@@ -190,9 +190,9 @@
       "zh": "跳转到上一组标签页",
       "en": "Jump to the previous set of tabs"
     },
-    "windows": "Ctrl+PageUp",
-    "mac": "⌘+⌥+←",
-    "linux": "Ctrl+PageUp",
+    "windows": "Ctrl + PageUp",
+    "mac": "⌘ ⌥ ←",
+    "linux": "Ctrl + PageUp",
     "keywords": [
       "上一组标签",
       "page up"
@@ -212,9 +212,9 @@
       "zh": "跳转到指定编号的标签页（1-8）",
       "en": "Switch to a specific numbered tab (1-8)"
     },
-    "windows": "Ctrl+1 ~ Ctrl+8",
-    "mac": "⌘+1 ~ ⌘+8",
-    "linux": "Ctrl+1 ~ Ctrl+8",
+    "windows": "Ctrl + 1 ~ Ctrl + 8",
+    "mac": "⌘ 1 ~ ⌘ 8",
+    "linux": "Ctrl + 1 ~ Ctrl + 8",
     "keywords": [
       "第N个标签",
       "switch tab",
@@ -235,9 +235,9 @@
       "zh": "跳转到最后一个标签页",
       "en": "Switch to the last tab"
     },
-    "windows": "Ctrl+9",
-    "mac": "⌘+9",
-    "linux": "Ctrl+9",
+    "windows": "Ctrl + 9",
+    "mac": "⌘ 9",
+    "linux": "Ctrl + 9",
     "keywords": [
       "最后一个标签",
       "last tab"
@@ -257,9 +257,9 @@
       "zh": "将光标定位到地址栏",
       "en": "Focus the address bar"
     },
-    "windows": "Ctrl+L / Alt+D",
-    "mac": "⌘+L",
-    "linux": "Ctrl+L",
+    "windows": "Ctrl + L / Alt + D",
+    "mac": "⌘ L",
+    "linux": "Ctrl + L",
     "keywords": [
       "地址栏",
       "address",
@@ -281,9 +281,9 @@
       "zh": "打开页面查找框",
       "en": "Open find on page bar"
     },
-    "windows": "Ctrl+F",
-    "mac": "⌘+F",
-    "linux": "Ctrl+F",
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
+    "linux": "Ctrl + F",
     "keywords": [
       "查找",
       "find",
@@ -304,9 +304,9 @@
       "zh": "打印当前页面",
       "en": "Print current page"
     },
-    "windows": "Ctrl+P",
-    "mac": "⌘+P",
-    "linux": "Ctrl+P",
+    "windows": "Ctrl + P",
+    "mac": "⌘ P",
+    "linux": "Ctrl + P",
     "keywords": [
       "打印",
       "print"
@@ -326,9 +326,9 @@
       "zh": "保存当前网页",
       "en": "Save current page"
     },
-    "windows": "Ctrl+S",
-    "mac": "⌘+S",
-    "linux": "Ctrl+S",
+    "windows": "Ctrl + S",
+    "mac": "⌘ S",
+    "linux": "Ctrl + S",
     "keywords": [
       "保存",
       "save",
@@ -349,9 +349,9 @@
       "zh": "将当前页添加到收藏夹",
       "en": "Add current page to favorites"
     },
-    "windows": "Ctrl+D",
-    "mac": "⌘+D",
-    "linux": "Ctrl+D",
+    "windows": "Ctrl + D",
+    "mac": "⌘ D",
+    "linux": "Ctrl + D",
     "keywords": [
       "收藏",
       "bookmark",
@@ -372,9 +372,9 @@
       "zh": "打开历史记录面板",
       "en": "Open history panel"
     },
-    "windows": "Ctrl+H",
-    "mac": "⌘+Y",
-    "linux": "Ctrl+H",
+    "windows": "Ctrl + H",
+    "mac": "⌘ Y",
+    "linux": "Ctrl + H",
     "keywords": [
       "历史",
       "history"
@@ -394,9 +394,9 @@
       "zh": "打开下载管理页",
       "en": "Open downloads manager"
     },
-    "windows": "Ctrl+J",
-    "mac": "⌘+J",
-    "linux": "Ctrl+J",
+    "windows": "Ctrl + J",
+    "mac": "⌘ J",
+    "linux": "Ctrl + J",
     "keywords": [
       "下载",
       "downloads"
@@ -416,9 +416,9 @@
       "zh": "打开开发者工具",
       "en": "Open Developer Tools (DevTools)"
     },
-    "windows": "F12 / Ctrl+Shift+I",
-    "mac": "⌘+⌥+I",
-    "linux": "F12 / Ctrl+Shift+I",
+    "windows": "F12 / Ctrl + Shift + I",
+    "mac": "⌘ ⌥ I",
+    "linux": "F12 / Ctrl + Shift + I",
     "keywords": [
       "开发者",
       "devtools",
@@ -440,9 +440,9 @@
       "zh": "刷新当前页面",
       "en": "Reload current page"
     },
-    "windows": "F5 / Ctrl+R",
-    "mac": "⌘+R",
-    "linux": "F5 / Ctrl+R",
+    "windows": "F5 / Ctrl + R",
+    "mac": "⌘ R",
+    "linux": "F5 / Ctrl + R",
     "keywords": [
       "刷新",
       "refresh",
@@ -463,9 +463,9 @@
       "zh": "忽略缓存强制刷新",
       "en": "Force reload ignoring cache"
     },
-    "windows": "Ctrl+F5 / Ctrl+Shift+R",
-    "mac": "⌘+⇧+R",
-    "linux": "Ctrl+F5 / Ctrl+Shift+R",
+    "windows": "Ctrl + F5 / Ctrl + Shift + R",
+    "mac": "⌘ ⇧ R",
+    "linux": "Ctrl + F5 / Ctrl + Shift + R",
     "keywords": [
       "强制刷新",
       "hard reload",
@@ -509,9 +509,9 @@
       "zh": "返回主页",
       "en": "Go to home page"
     },
-    "windows": "Alt+Home",
-    "mac": "⌘+Shift+H",
-    "linux": "Alt+Home",
+    "windows": "Alt + Home",
+    "mac": "⌘ ⇧ H",
+    "linux": "Alt + Home",
     "keywords": [
       "主页",
       "home"
@@ -531,9 +531,9 @@
       "zh": "放大页面（提高缩放比例）",
       "en": "Zoom in (increase zoom level)"
     },
-    "windows": "Ctrl++",
-    "mac": "⌘++",
-    "linux": "Ctrl++",
+    "windows": "Ctrl + =",
+    "mac": "⌘ =",
+    "linux": "Ctrl + =",
     "keywords": [
       "放大",
       "zoom in"
@@ -553,9 +553,9 @@
       "zh": "缩小页面（降低缩放比例）",
       "en": "Zoom out (decrease zoom level)"
     },
-    "windows": "Ctrl+-",
-    "mac": "⌘+-",
-    "linux": "Ctrl+-",
+    "windows": "Ctrl + -",
+    "mac": "⌘ -",
+    "linux": "Ctrl + -",
     "keywords": [
       "缩小",
       "zoom out"
@@ -575,9 +575,9 @@
       "zh": "恢复默认缩放级别（100%）",
       "en": "Reset zoom level to default (100%)"
     },
-    "windows": "Ctrl+0",
-    "mac": "⌘+0",
-    "linux": "Ctrl+0",
+    "windows": "Ctrl + 0",
+    "mac": "⌘ 0",
+    "linux": "Ctrl + 0",
     "keywords": [
       "重置缩放",
       "reset zoom",
@@ -599,7 +599,7 @@
       "en": "Enter full screen mode"
     },
     "windows": "F11",
-    "mac": "⌘+Ctrl+F",
+    "mac": "⌘ ⌃ F",
     "linux": "F11",
     "keywords": [
       "全屏",
@@ -620,9 +620,9 @@
       "zh": "打开浏览器任务管理器",
       "en": "Open Browser Task Manager"
     },
-    "windows": "Shift+Esc",
-    "mac": "Shift+Esc",
-    "linux": "Shift+Esc",
+    "windows": "Shift + Esc",
+    "mac": "⇧ Esc",
+    "linux": "Shift + Esc",
     "keywords": [
       "任务管理器",
       "task manager",
@@ -643,9 +643,9 @@
       "zh": "进入沉浸式阅读模式（阅读视图）",
       "en": "Enter Immersive Reader mode"
     },
-    "windows": "Ctrl+Shift+R",
-    "mac": "⌘+⇧+R",
-    "linux": "Ctrl+Shift+R",
+    "windows": "Ctrl + Shift + R",
+    "mac": "⌘ ⇧ R",
+    "linux": "Ctrl + Shift + R",
     "keywords": [
       "阅读",
       "reader",
@@ -667,9 +667,9 @@
       "zh": "打开收藏集侧边栏",
       "en": "Open Collections sidebar"
     },
-    "windows": "Ctrl+Shift+Y",
-    "mac": "⌘+⇧+Y",
-    "linux": "Ctrl+Shift+Y",
+    "windows": "Ctrl + Shift + Y",
+    "mac": "⌘ ⇧ Y",
+    "linux": "Ctrl + Shift + Y",
     "keywords": [
       "收藏集",
       "collections",
@@ -690,9 +690,9 @@
       "zh": "打开设置页面",
       "en": "Open Settings page"
     },
-    "windows": "Alt+F then S",
-    "mac": "⌘+,",
-    "linux": "Alt+F then S",
+    "windows": "Alt + F then S",
+    "mac": "⌘ ,",
+    "linux": "Alt + F then S",
     "keywords": [
       "设置",
       "settings",
@@ -713,9 +713,9 @@
       "zh": "后退到上一页",
       "en": "Go back to previous page"
     },
-    "windows": "Alt+←",
-    "mac": "⌘+[",
-    "linux": "Alt+←",
+    "windows": "Alt + ←",
+    "mac": "⌘ [",
+    "linux": "Alt + ←",
     "keywords": [
       "后退",
       "back",
@@ -736,9 +736,9 @@
       "zh": "前进到下一页",
       "en": "Go forward to next page"
     },
-    "windows": "Alt+→",
-    "mac": "⌘+]",
-    "linux": "Alt+→",
+    "windows": "Alt + →",
+    "mac": "⌘ ]",
+    "linux": "Alt + →",
     "keywords": [
       "前进",
       "forward"
@@ -758,9 +758,9 @@
       "zh": "关闭所有标签页并退出浏览器",
       "en": "Close all tabs and quit browser"
     },
-    "windows": "Ctrl+Shift+W",
-    "mac": "⌘+Q",
-    "linux": "Ctrl+Shift+W",
+    "windows": "Ctrl + Shift + W",
+    "mac": "⌘ Q",
+    "linux": "Ctrl + Shift + W",
     "keywords": [
       "关闭全部",
       "quit",
@@ -781,9 +781,9 @@
       "zh": "将当前站点设为静音",
       "en": "Mute the current site"
     },
-    "windows": "Ctrl+M",
-    "mac": "⌘+M",
-    "linux": "Ctrl+M",
+    "windows": "Ctrl + M",
+    "mac": "⌘ M",
+    "linux": "Ctrl + M",
     "keywords": [
       "静音",
       "mute"

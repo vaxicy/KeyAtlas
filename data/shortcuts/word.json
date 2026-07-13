@@ -12,9 +12,9 @@
       "zh": "创建新文档",
       "en": "Create a new document"
     },
-    "windows": "Ctrl+N",
-    "mac": "⌘+N",
-    "linux": "Ctrl+N",
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
+    "linux": "Ctrl + N",
     "keywords": [
       "新建",
       "new",
@@ -35,9 +35,9 @@
       "zh": "打开已有文档",
       "en": "Open an existing document"
     },
-    "windows": "Ctrl+O",
-    "mac": "⌘+O",
-    "linux": "Ctrl+O",
+    "windows": "Ctrl + O",
+    "mac": "⌘ O",
+    "linux": "Ctrl + O",
     "keywords": [
       "打开",
       "open"
@@ -57,9 +57,9 @@
       "zh": "保存当前文档",
       "en": "Save current document"
     },
-    "windows": "Ctrl+S",
-    "mac": "⌘+S",
-    "linux": "Ctrl+S",
+    "windows": "Ctrl + S",
+    "mac": "⌘ S",
+    "linux": "Ctrl + S",
     "keywords": [
       "保存",
       "save"
@@ -80,7 +80,7 @@
       "en": "Save as a new file"
     },
     "windows": "F12",
-    "mac": "⌘+Shift+S",
+    "mac": "⌘ ⇧ S",
     "linux": "F12",
     "keywords": [
       "另存为",
@@ -101,9 +101,9 @@
       "zh": "打印文档",
       "en": "Print document"
     },
-    "windows": "Ctrl+P",
-    "mac": "⌘+P",
-    "linux": "Ctrl+P",
+    "windows": "Ctrl + P",
+    "mac": "⌘ P",
+    "linux": "Ctrl + P",
     "keywords": [
       "打印",
       "print"
@@ -123,9 +123,9 @@
       "zh": "关闭当前文档",
       "en": "Close current document"
     },
-    "windows": "Ctrl+W / Ctrl+F4",
-    "mac": "⌘+W",
-    "linux": "Ctrl+W",
+    "windows": "Ctrl + W / Ctrl + F4",
+    "mac": "⌘ W",
+    "linux": "Ctrl + W",
     "keywords": [
       "关闭",
       "close"
@@ -145,9 +145,9 @@
       "zh": "退出应用程序",
       "en": "Quit application"
     },
-    "windows": "Alt+F4",
-    "mac": "⌘+Q",
-    "linux": "Alt+F4",
+    "windows": "Alt + F4",
+    "mac": "⌘ Q",
+    "linux": "Alt + F4",
     "keywords": [
       "退出",
       "quit"
@@ -167,9 +167,9 @@
       "zh": "撤销上一步操作",
       "en": "Undo last action"
     },
-    "windows": "Ctrl+Z",
-    "mac": "⌘+Z",
-    "linux": "Ctrl+Z",
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "Ctrl + Z",
     "keywords": [
       "撤销",
       "undo"
@@ -189,9 +189,9 @@
       "zh": "恢复被撤销的操作",
       "en": "Redo undone action"
     },
-    "windows": "Ctrl+Y",
-    "mac": "⌘+Y / ⌘+Shift+Z",
-    "linux": "Ctrl+Y",
+    "windows": "Ctrl + Y",
+    "mac": "⌘ Y / ⌘ ⇧ Z",
+    "linux": "Ctrl + Y",
     "keywords": [
       "重做",
       "redo",
@@ -212,9 +212,9 @@
       "zh": "剪切选中内容到剪贴板",
       "en": "Cut selection to clipboard"
     },
-    "windows": "Ctrl+X",
-    "mac": "⌘+X",
-    "linux": "Ctrl+X",
+    "windows": "Ctrl + X",
+    "mac": "⌘ X",
+    "linux": "Ctrl + X",
     "keywords": [
       "剪切",
       "cut"
@@ -234,9 +234,9 @@
       "zh": "复制选中内容到剪贴板",
       "en": "Copy selection to clipboard"
     },
-    "windows": "Ctrl+C",
-    "mac": "⌘+C",
-    "linux": "Ctrl+C",
+    "windows": "Ctrl + C",
+    "mac": "⌘ C",
+    "linux": "Ctrl + C",
     "keywords": [
       "复制",
       "copy"
@@ -256,9 +256,9 @@
       "zh": "粘贴剪贴板内容",
       "en": "Paste from clipboard"
     },
-    "windows": "Ctrl+V",
-    "mac": "⌘+V",
-    "linux": "Ctrl+V",
+    "windows": "Ctrl + V",
+    "mac": "⌘ V",
+    "linux": "Ctrl + V",
     "keywords": [
       "粘贴",
       "paste"
@@ -278,9 +278,9 @@
       "zh": "选择文档中所有内容",
       "en": "Select everything in document"
     },
-    "windows": "Ctrl+A",
-    "mac": "⌘+A",
-    "linux": "Ctrl+A",
+    "windows": "Ctrl + A",
+    "mac": "⌘ A",
+    "linux": "Ctrl + A",
     "keywords": [
       "全选",
       "select all"
@@ -300,9 +300,9 @@
       "zh": "在文档中查找文本",
       "en": "Find text in document"
     },
-    "windows": "Ctrl+F",
-    "mac": "⌘+F",
-    "linux": "Ctrl+F",
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
+    "linux": "Ctrl + F",
     "keywords": [
       "查找",
       "find"
@@ -322,9 +322,9 @@
       "zh": "查找并替换文本",
       "en": "Find and replace"
     },
-    "windows": "Ctrl+H",
-    "mac": "⌘+H",
-    "linux": "Ctrl+H",
+    "windows": "Ctrl + H",
+    "mac": "⌘ H",
+    "linux": "Ctrl + H",
     "keywords": [
       "替换",
       "replace"
@@ -344,9 +344,9 @@
       "zh": "跳转到下一个查找结果或页面",
       "en": "Go to next match or page"
     },
-    "windows": "Ctrl+Page Down",
-    "mac": "⌘+; 然后 G",
-    "linux": "Ctrl+Page Down",
+    "windows": "Ctrl + Page Down",
+    "mac": "⌘ ; 然后 G",
+    "linux": "Ctrl + Page Down",
     "keywords": [
       "定位",
       "goto",
@@ -367,9 +367,9 @@
       "zh": "跳转到上一个查找结果或页面",
       "en": "Go to previous match or page"
     },
-    "windows": "Ctrl+Page Up",
-    "mac": "⌘+; 然后 Shift+G",
-    "linux": "Ctrl+Page Up",
+    "windows": "Ctrl + Page Up",
+    "mac": "⌘ ; 然后 Shift G",
+    "linux": "Ctrl + Page Up",
     "keywords": [
       "定位",
       "goto",
@@ -390,9 +390,9 @@
       "zh": "将文字加粗显示",
       "en": "Make text bold"
     },
-    "windows": "Ctrl+B",
-    "mac": "⌘+B",
-    "linux": "Ctrl+B",
+    "windows": "Ctrl + B",
+    "mac": "⌘ B",
+    "linux": "Ctrl + B",
     "keywords": [
       "加粗",
       "bold"
@@ -412,9 +412,9 @@
       "zh": "将文字设为斜体",
       "en": "Make text italic"
     },
-    "windows": "Ctrl+I",
-    "mac": "⌘+I",
-    "linux": "Ctrl+I",
+    "windows": "Ctrl + I",
+    "mac": "⌘ I",
+    "linux": "Ctrl + I",
     "keywords": [
       "斜体",
       "italic"
@@ -434,9 +434,9 @@
       "zh": "为文字添加下划线",
       "en": "Underline text"
     },
-    "windows": "Ctrl+U",
-    "mac": "⌘+U",
-    "linux": "Ctrl+U",
+    "windows": "Ctrl + U",
+    "mac": "⌘ U",
+    "linux": "Ctrl + U",
     "keywords": [
       "下划线",
       "underline"
@@ -456,9 +456,9 @@
       "zh": "为文字添加删除线",
       "en": "Add strikethrough to text"
     },
-    "windows": "Ctrl+Shift+- (减号)",
-    "mac": "⌘+Shift+X",
-    "linux": "Ctrl+Shift+-",
+    "windows": "Ctrl + Shift + - (减号)",
+    "mac": "⌘ ⇧ X",
+    "linux": "Ctrl + Shift + -",
     "keywords": [
       "删除线",
       "strikethrough"
@@ -478,9 +478,9 @@
       "zh": "设为下标格式",
       "en": "Apply subscript formatting"
     },
-    "windows": "Ctrl+= (等号)",
-    "mac": "⌘+Shift+= (等号)",
-    "linux": "Ctrl+=",
+    "windows": "Ctrl + = (等号)",
+    "mac": "⌘ ⇧ = (等号)",
+    "linux": "Ctrl + =",
     "keywords": [
       "下标",
       "subscript"
@@ -500,9 +500,9 @@
       "zh": "设为上标格式",
       "en": "Apply superscript formatting"
     },
-    "windows": "Ctrl+Shift+= (等号)",
-    "mac": "⌘+Shift+= (等号)",
-    "linux": "Ctrl+Shift+=",
+    "windows": "Ctrl + Shift + = (等号)",
+    "mac": "⌘ ⇧ = (等号)",
+    "linux": "Ctrl + Shift + =",
     "keywords": [
       "上标",
       "superscript"
@@ -522,9 +522,9 @@
       "zh": "段落左对齐",
       "en": "Align paragraph left"
     },
-    "windows": "Ctrl+L",
-    "mac": "⌘+L",
-    "linux": "Ctrl+L",
+    "windows": "Ctrl + L",
+    "mac": "⌘ L",
+    "linux": "Ctrl + L",
     "keywords": [
       "左对齐",
       "align left"
@@ -544,9 +544,9 @@
       "zh": "段落居中对齐",
       "en": "Center align paragraph"
     },
-    "windows": "Ctrl+E",
-    "mac": "⌘+E",
-    "linux": "Ctrl+E",
+    "windows": "Ctrl + E",
+    "mac": "⌘ E",
+    "linux": "Ctrl + E",
     "keywords": [
       "居中",
       "center align"
@@ -566,9 +566,9 @@
       "zh": "段落右对齐",
       "en": "Align paragraph right"
     },
-    "windows": "Ctrl+R",
-    "mac": "⌘+R",
-    "linux": "Ctrl+R",
+    "windows": "Ctrl + R",
+    "mac": "⌘ R",
+    "linux": "Ctrl + R",
     "keywords": [
       "右对齐",
       "align right"
@@ -588,9 +588,9 @@
       "zh": "段落两端对齐",
       "en": "Justify paragraph"
     },
-    "windows": "Ctrl+J",
-    "mac": "⌘+J",
-    "linux": "Ctrl+J",
+    "windows": "Ctrl + J",
+    "mac": "⌘ J",
+    "linux": "Ctrl + J",
     "keywords": [
       "两端对齐",
       "justify"
@@ -610,9 +610,9 @@
       "zh": "增加段落缩进",
       "en": "Increase indent"
     },
-    "windows": "Ctrl+M",
-    "mac": "⌘+M",
-    "linux": "Ctrl+M",
+    "windows": "Ctrl + M",
+    "mac": "⌘ M",
+    "linux": "Ctrl + M",
     "keywords": [
       "增加缩进",
       "indent"
@@ -632,9 +632,9 @@
       "zh": "减少段落缩进",
       "en": "Decrease indent"
     },
-    "windows": "Ctrl+Shift+M",
-    "mac": "⌘+Shift+M",
-    "linux": "Ctrl+Shift+M",
+    "windows": "Ctrl + Shift + M",
+    "mac": "⌘ ⇧ M",
+    "linux": "Ctrl + Shift + M",
     "keywords": [
       "减少缩进",
       "decrease indent"
@@ -654,9 +654,9 @@
       "zh": "应用标题 1 样式",
       "en": "Apply Heading 1 style"
     },
-    "windows": "Ctrl+Alt+1",
-    "mac": "⌘+Option+1",
-    "linux": "Ctrl+Alt+1",
+    "windows": "Ctrl + Alt + 1",
+    "mac": "⌘ ⌥ 1",
+    "linux": "Ctrl + Alt + 1",
     "keywords": [
       "标题",
       "heading",
@@ -677,9 +677,9 @@
       "zh": "应用标题 2 样式",
       "en": "Apply Heading 2 style"
     },
-    "windows": "Ctrl+Alt+2",
-    "mac": "⌘+Option+2",
-    "linux": "Ctrl+Alt+2",
+    "windows": "Ctrl + Alt + 2",
+    "mac": "⌘ ⌥ 2",
+    "linux": "Ctrl + Alt + 2",
     "keywords": [
       "标题",
       "heading",
@@ -700,9 +700,9 @@
       "zh": "应用标题 3 样式",
       "en": "Apply Heading 3 style"
     },
-    "windows": "Ctrl+Alt+3",
-    "mac": "⌘+Option+3",
-    "linux": "Ctrl+Alt+3",
+    "windows": "Ctrl + Alt + 3",
+    "mac": "⌘ ⌥ 3",
+    "linux": "Ctrl + Alt + 3",
     "keywords": [
       "标题",
       "heading",
@@ -723,9 +723,9 @@
       "zh": "应用正文样式",
       "en": "Apply Normal style"
     },
-    "windows": "Ctrl+Shift+N",
-    "mac": "⌘+Shift+N",
-    "linux": "Ctrl+Shift+N",
+    "windows": "Ctrl + Shift + N",
+    "mac": "⌘ ⇧ N",
+    "linux": "Ctrl + Shift + N",
     "keywords": [
       "正文",
       "normal",
@@ -746,9 +746,9 @@
       "zh": "添加项目符号列表",
       "en": "Add bulleted list"
     },
-    "windows": "Ctrl+Shift+L",
-    "mac": "⌘+Shift+L",
-    "linux": "Ctrl+Shift+L",
+    "windows": "Ctrl + Shift + L",
+    "mac": "⌘ ⇧ L",
+    "linux": "Ctrl + Shift + L",
     "keywords": [
       "项目符号",
       "bullet",
@@ -769,8 +769,8 @@
       "zh": "添加编号列表",
       "en": "Add numbered list"
     },
-    "windows": "Ctrl+Shift+L (再次按)",
-    "mac": "⌘+Shift+L (再次按)",
+    "windows": "Ctrl + Shift + L (再次按)",
+    "mac": "⌘ ⇧ L (再次按)",
     "linux": "—",
     "keywords": [
       "编号",
@@ -791,9 +791,9 @@
       "zh": "插入分页符",
       "en": "Insert page break"
     },
-    "windows": "Ctrl+Enter",
-    "mac": "⌘+Enter",
-    "linux": "Ctrl+Enter",
+    "windows": "Ctrl + Enter",
+    "mac": "⌘ Enter",
+    "linux": "Ctrl + Enter",
     "keywords": [
       "分页",
       "page break"
@@ -813,9 +813,9 @@
       "zh": "插入换行符(不分段)",
       "en": "Insert line break without breaking paragraph"
     },
-    "windows": "Shift+Enter",
-    "mac": "Shift+Return",
-    "linux": "Shift+Enter",
+    "windows": "Shift + Enter",
+    "mac": "⇧ Return",
+    "linux": "Shift + Enter",
     "keywords": [
       "换行",
       "line break",
@@ -836,9 +836,9 @@
       "zh": "插入分栏符",
       "en": "Insert column break"
     },
-    "windows": "Ctrl+Shift+Enter",
-    "mac": "⌘+Shift+Return",
-    "linux": "Ctrl+Shift+Enter",
+    "windows": "Ctrl + Shift + Enter",
+    "mac": "⌘ ⇧ Return",
+    "linux": "Ctrl + Shift + Enter",
     "keywords": [
       "分栏",
       "column break"
@@ -858,9 +858,9 @@
       "zh": "在光标位置插入超链接",
       "en": "Insert hyperlink at cursor position"
     },
-    "windows": "Ctrl+K",
-    "mac": "⌘+K",
-    "linux": "Ctrl+K",
+    "windows": "Ctrl + K",
+    "mac": "⌘ K",
+    "linux": "Ctrl + K",
     "keywords": [
       "超链接",
       "hyperlink",
@@ -881,9 +881,9 @@
       "zh": "显示字数统计对话框",
       "en": "Show word count dialog"
     },
-    "windows": "Ctrl+Shift+G",
-    "mac": "⌘+Shift+G",
-    "linux": "Ctrl+Shift+G",
+    "windows": "Ctrl + Shift + G",
+    "mac": "⌘ ⇧ G",
+    "linux": "Ctrl + Shift + G",
     "keywords": [
       "字数",
       "word count",
@@ -905,7 +905,7 @@
       "en": "Start spelling and grammar check"
     },
     "windows": "F7",
-    "mac": "⌘+;",
+    "mac": "⌘ ;",
     "linux": "F7",
     "keywords": [
       "拼写",
@@ -928,9 +928,9 @@
       "zh": "打开同义词库面板",
       "en": "Open thesaurus pane"
     },
-    "windows": "Shift+F7",
-    "mac": "⌘+Option+Shift+R",
-    "linux": "Shift+F7",
+    "windows": "Shift + F7",
+    "mac": "⌘ ⌥ ⇧ R",
+    "linux": "Shift + F7",
     "keywords": [
       "同义词",
       "thesaurus",
@@ -951,9 +951,9 @@
       "zh": "增大所选文字字号",
       "en": "Increase font size of selected text"
     },
-    "windows": "Ctrl+Shift+> / Ctrl+]",
-    "mac": "⌘+Shift+. / ⌘+]",
-    "linux": "Ctrl+Shift+>",
+    "windows": "Ctrl + Shift + > / Ctrl + ]",
+    "mac": "⌘ ⇧ . / ⌘ ]",
+    "linux": "Ctrl + Shift + >",
     "keywords": [
       "增大字号",
       "font size",
@@ -974,9 +974,9 @@
       "zh": "减小所选文字字号",
       "en": "Decrease font size of selected text"
     },
-    "windows": "Ctrl+Shift+[ / Ctrl+<",
-    "mac": "⌘+Shift+, / ⌘+[",
-    "linux": "Ctrl+Shift+<",
+    "windows": "Ctrl + Shift + [ / Ctrl + <",
+    "mac": "⌘ ⇧ , / ⌘ [",
+    "linux": "Ctrl + Shift + <",
     "keywords": [
       "减小字号",
       "font size",
@@ -997,9 +997,9 @@
       "zh": "清除所选文本的所有格式",
       "en": "Clear all formatting from selection"
     },
-    "windows": "Ctrl+Space",
-    "mac": "⌘+Space",
-    "linux": "Ctrl+Space",
+    "windows": "Ctrl + Space",
+    "mac": "⌘ Space",
+    "linux": "Ctrl + Space",
     "keywords": [
       "清除格式",
       "clear formatting"
@@ -1019,9 +1019,9 @@
       "zh": "切换显示段落标记等编辑符号",
       "en": "Toggle display of paragraph marks and formatting symbols"
     },
-    "windows": "Ctrl+Shift+8 (*)",
-    "mac": "⌘+Shift+8 (*)",
-    "linux": "Ctrl+Shift+8",
+    "windows": "Ctrl + Shift + 8 (*)",
+    "mac": "⌘ ⇧ 8 (*)",
+    "linux": "Ctrl + Shift + 8",
     "keywords": [
       "编辑标记",
       "formatting marks",
@@ -1042,9 +1042,9 @@
       "zh": "放大页面视图比例",
       "en": "Zoom in page view"
     },
-    "windows": "Ctrl++ / Alt+W Q",
-    "mac": "⌘++ / ⌘+Option+=",
-    "linux": "Ctrl++",
+    "windows": "Ctrl + = / Alt + W Q",
+    "mac": "⌘ = / ⌘ ⌥ =",
+    "linux": "Ctrl + =",
     "keywords": [
       "放大",
       "zoom in",
@@ -1065,9 +1065,9 @@
       "zh": "缩小页面视图比例",
       "en": "Zoom out page view"
     },
-    "windows": "Ctrl+- / Alt+W Q",
-    "mac": "⌘+- / ⌘+Option+-",
-    "linux": "Ctrl+-",
+    "windows": "Ctrl + - / Alt + W Q",
+    "mac": "⌘ - / ⌘ ⌥ -",
+    "linux": "Ctrl + -",
     "keywords": [
       "缩小",
       "zoom out",
@@ -1089,7 +1089,7 @@
       "en": "Switch to reading view"
     },
     "windows": "Alt W F",
-    "mac": "⌘+Option+R",
+    "mac": "⌘ ⌥ R",
     "linux": "—",
     "keywords": [
       "阅读视图",
@@ -1111,7 +1111,7 @@
       "en": "Switch to print layout view"
     },
     "windows": "Alt W P",
-    "mac": "⌘+Option+P",
+    "mac": "⌘ ⌥ P",
     "linux": "—",
     "keywords": [
       "页面视图",
@@ -1134,7 +1134,7 @@
       "en": "Switch to web layout view"
     },
     "windows": "Alt W W",
-    "mac": "⌘+Option+I",
+    "mac": "⌘ ⌥ I",
     "linux": "—",
     "keywords": [
       "Web版式",
@@ -1156,7 +1156,7 @@
       "en": "Enter immersive reading/writing mode"
     },
     "windows": "Alt W Z",
-    "mac": "⌘+Option+Z",
+    "mac": "⌘ ⌥ Z",
     "linux": "—",
     "keywords": [
       "专注",
@@ -1179,7 +1179,7 @@
       "en": "Insert endnote (Mac only)"
     },
     "windows": "—",
-    "mac": "⌘+Option+Shift+E",
+    "mac": "⌘ ⌥ ⇧ E",
     "linux": "—",
     "keywords": [
       "尾注",
@@ -1201,7 +1201,7 @@
       "en": "Insert footnote (Mac only)"
     },
     "windows": "—",
-    "mac": "⌘+Option+F",
+    "mac": "⌘ ⌥ F",
     "linux": "—",
     "keywords": [
       "脚注",

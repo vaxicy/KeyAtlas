@@ -403,7 +403,7 @@
     },
     "windows": "Ctrl + =",
     "mac": "⌘ =",
-    "linux": "Ctrl + +",
+    "linux": "Ctrl + =",
     "keywords": [
       "放大",
       "zoom",

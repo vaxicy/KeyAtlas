@@ -12,9 +12,9 @@
       "zh": "创建一个新的项目文件",
       "en": "Create a new project file"
     },
-    "windows": "Ctrl+Alt+N",
-    "mac": "Cmd+Opt+N",
-    "linux": "Ctrl+Alt+N",
+    "windows": "Ctrl + Alt + N",
+    "mac": "⌘ ⌥ N",
+    "linux": "Ctrl + Alt + N",
     "keywords": [
       "项目",
       "project",
@@ -35,9 +35,9 @@
       "zh": "创建一个新的时间轴序列",
       "en": "Create a new timeline sequence"
     },
-    "windows": "Ctrl+N",
-    "mac": "Cmd+N",
-    "linux": "Ctrl+N",
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
+    "linux": "Ctrl + N",
     "keywords": [
       "序列",
       "sequence",
@@ -58,9 +58,9 @@
       "zh": "打开已有的项目文件",
       "en": "Open an existing project file"
     },
-    "windows": "Ctrl+O",
-    "mac": "Cmd+O",
-    "linux": "Ctrl+O",
+    "windows": "Ctrl + O",
+    "mac": "⌘ O",
+    "linux": "Ctrl + O",
     "keywords": [
       "打开",
       "open",
@@ -81,9 +81,9 @@
       "zh": "关闭当前活动面板或窗口",
       "en": "Close active panel or window"
     },
-    "windows": "Ctrl+W",
-    "mac": "Cmd+W",
-    "linux": "Ctrl+W",
+    "windows": "Ctrl + W",
+    "mac": "⌘ W",
+    "linux": "Ctrl + W",
     "keywords": [
       "关闭",
       "close"
@@ -103,9 +103,9 @@
       "zh": "保存当前项目",
       "en": "Save the current project"
     },
-    "windows": "Ctrl+S",
-    "mac": "Cmd+S",
-    "linux": "Ctrl+S",
+    "windows": "Ctrl + S",
+    "mac": "⌘ S",
+    "linux": "Ctrl + S",
     "keywords": [
       "保存",
       "save"
@@ -125,9 +125,9 @@
       "zh": "将当前项目另存为新文件",
       "en": "Save current project as a new file"
     },
-    "windows": "Ctrl+Alt+S",
-    "mac": "Cmd+Opt+S",
-    "linux": "Ctrl+Alt+S",
+    "windows": "Ctrl + Alt + S",
+    "mac": "⌘ ⌥ S",
+    "linux": "Ctrl + Alt + S",
     "keywords": [
       "另存为",
       "save as",
@@ -148,9 +148,9 @@
       "zh": "导入媒体文件到项目面板",
       "en": "Import media files into project panel"
     },
-    "windows": "Ctrl+I",
-    "mac": "Cmd+I",
-    "linux": "Ctrl+I",
+    "windows": "Ctrl + I",
+    "mac": "⌘ I",
+    "linux": "Ctrl + I",
     "keywords": [
       "导入",
       "import",
@@ -171,9 +171,9 @@
       "zh": "打开导出设置对话框渲染视频",
       "en": "Open export settings dialog to render video"
     },
-    "windows": "Ctrl+M",
-    "mac": "Cmd+M",
-    "linux": "Ctrl+M",
+    "windows": "Ctrl + M",
+    "mac": "⌘ M",
+    "linux": "Ctrl + M",
     "keywords": [
       "导出",
       "export",
@@ -194,9 +194,9 @@
       "zh": "撤销上一步操作",
       "en": "Undo the last action"
     },
-    "windows": "Ctrl+Z",
-    "mac": "Cmd+Z",
-    "linux": "Ctrl+Z",
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "Ctrl + Z",
     "keywords": [
       "撤销",
       "undo"
@@ -216,9 +216,9 @@
       "zh": "重做被撤销的操作",
       "en": "Redo the undone action"
     },
-    "windows": "Ctrl+Shift+Z",
-    "mac": "Cmd+Shift+Z",
-    "linux": "Ctrl+Shift+Z",
+    "windows": "Ctrl + Shift + Z",
+    "mac": "⌘ ⇧ Z",
+    "linux": "Ctrl + Shift + Z",
     "keywords": [
       "重做",
       "redo"
@@ -238,9 +238,9 @@
       "zh": "剪切选中的剪辑或内容到剪贴板",
       "en": "Cut selected clip or content to clipboard"
     },
-    "windows": "Ctrl+X",
-    "mac": "Cmd+X",
-    "linux": "Ctrl+X",
+    "windows": "Ctrl + X",
+    "mac": "⌘ X",
+    "linux": "Ctrl + X",
     "keywords": [
       "剪切",
       "cut"
@@ -260,9 +260,9 @@
       "zh": "复制选中的剪辑或内容",
       "en": "Copy selected clip or content"
     },
-    "windows": "Ctrl+C",
-    "mac": "Cmd+C",
-    "linux": "Ctrl+C",
+    "windows": "Ctrl + C",
+    "mac": "⌘ C",
+    "linux": "Ctrl + C",
     "keywords": [
       "复制",
       "copy"
@@ -282,9 +282,9 @@
       "zh": "粘贴剪贴板内容",
       "en": "Paste content from clipboard"
     },
-    "windows": "Ctrl+V",
-    "mac": "Cmd+V",
-    "linux": "Ctrl+V",
+    "windows": "Ctrl + V",
+    "mac": "⌘ V",
+    "linux": "Ctrl + V",
     "keywords": [
       "粘贴",
       "paste"
@@ -304,9 +304,9 @@
       "zh": "选中所有剪辑或元素",
       "en": "Select all clips or elements"
     },
-    "windows": "Ctrl+A",
-    "mac": "Cmd+A",
-    "linux": "Ctrl+A",
+    "windows": "Ctrl + A",
+    "mac": "⌘ A",
+    "linux": "Ctrl + A",
     "keywords": [
       "全选",
       "select all"
@@ -326,9 +326,9 @@
       "zh": "取消所有选中状态",
       "en": "Deselect everything"
     },
-    "windows": "Ctrl+Shift+A",
-    "mac": "Cmd+Shift+A",
-    "linux": "Ctrl+Shift+A",
+    "windows": "Ctrl + Shift + A",
+    "mac": "⌘ ⇧ A",
+    "linux": "Ctrl + Shift + A",
     "keywords": [
       "取消选择",
       "deselect"
@@ -348,9 +348,9 @@
       "zh": "在时间轴或项目中查找",
       "en": "Find in timeline or project"
     },
-    "windows": "Ctrl+F",
-    "mac": "Cmd+F",
-    "linux": "Ctrl+F",
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
+    "linux": "Ctrl + F",
     "keywords": [
       "查找",
       "find",
@@ -511,9 +511,9 @@
       "zh": "跳转到入点位置",
       "en": "Jump to in point position"
     },
-    "windows": "Shift+I",
-    "mac": "Shift+I",
-    "linux": "Shift+I",
+    "windows": "Shift + I",
+    "mac": "⇧ I",
+    "linux": "Shift + I",
     "keywords": [
       "入点",
       "in point",
@@ -534,9 +534,9 @@
       "zh": "跳转到出点位置",
       "en": "Jump to out point position"
     },
-    "windows": "Shift+O",
-    "mac": "Shift+O",
-    "linux": "Shift+O",
+    "windows": "Shift + O",
+    "mac": "⇧ O",
+    "linux": "Shift + O",
     "keywords": [
       "出点",
       "out point",
@@ -949,9 +949,9 @@
       "zh": "清除入点和出点",
       "en": "Clear the in and out points"
     },
-    "windows": "Ctrl+Shift+;",
-    "mac": "Cmd+Shift+;",
-    "linux": "Ctrl+Shift+;",
+    "windows": "Ctrl + Shift + ;",
+    "mac": "⌘ ⇧ ;",
+    "linux": "Ctrl + Shift + ;",
     "keywords": [
       "清除",
       "clear",
@@ -973,9 +973,9 @@
       "zh": "在播放头位置分割所有轨道上的剪辑",
       "en": "Split clips on all tracks at playhead"
     },
-    "windows": "Ctrl+K",
-    "mac": "Cmd+K",
-    "linux": "Ctrl+K",
+    "windows": "Ctrl + K",
+    "mac": "⌘ K",
+    "linux": "Ctrl + K",
     "keywords": [
       "分割",
       "split",
@@ -997,9 +997,9 @@
       "zh": "在播放头处为选中轨道添加切点",
       "en": "Add edit at playhead for selected tracks"
     },
-    "windows": "Ctrl+Shift+K",
-    "mac": "Cmd+Shift+K",
-    "linux": "Ctrl+Shift+K",
+    "windows": "Ctrl + Shift + K",
+    "mac": "⌘ ⇧ K",
+    "linux": "Ctrl + Shift + K",
     "keywords": [
       "添加",
       "add",
@@ -1135,9 +1135,9 @@
       "zh": "启用或禁用所选剪辑",
       "en": "Enable or disable selected clip"
     },
-    "windows": "Shift+E",
-    "mac": "Shift+E",
-    "linux": "Shift+E",
+    "windows": "Shift + E",
+    "mac": "⇧ E",
+    "linux": "Shift + E",
     "keywords": [
       "启用",
       "enable",
@@ -1159,9 +1159,9 @@
       "zh": "取消视频与音频的链接",
       "en": "Unlink audio from video"
     },
-    "windows": "Ctrl+L",
-    "mac": "Cmd+L",
-    "linux": "Ctrl+L",
+    "windows": "Ctrl + L",
+    "mac": "⌘ L",
+    "linux": "Ctrl + L",
     "keywords": [
       "取消链接",
       "unlink",
@@ -1183,9 +1183,9 @@
       "zh": "将选中的剪辑编组",
       "en": "Group selected clips"
     },
-    "windows": "Ctrl+G",
-    "mac": "Cmd+G",
-    "linux": "Ctrl+G",
+    "windows": "Ctrl + G",
+    "mac": "⌘ G",
+    "linux": "Ctrl + G",
     "keywords": [
       "编组",
       "group",
@@ -1206,9 +1206,9 @@
       "zh": "取消剪辑编组",
       "en": "Ungroup clips"
     },
-    "windows": "Ctrl+Shift+G",
-    "mac": "Cmd+Shift+G",
-    "linux": "Ctrl+Shift+G",
+    "windows": "Ctrl + Shift + G",
+    "mac": "⌘ ⇧ G",
+    "linux": "Ctrl + Shift + G",
     "keywords": [
       "取消编组",
       "ungroup"
@@ -1228,9 +1228,9 @@
       "zh": "将选中剪辑嵌套为一个子序列",
       "en": "Nest selected clips into sub-sequence"
     },
-    "windows": "Ctrl+U",
-    "mac": "Cmd+U",
-    "linux": "Ctrl+U",
+    "windows": "Ctrl + U",
+    "mac": "⌘ U",
+    "linux": "Ctrl + U",
     "keywords": [
       "嵌套",
       "nest",
@@ -1251,9 +1251,9 @@
       "zh": "打开剪辑的速度与持续时间对话框",
       "en": "Open clip speed/duration dialog"
     },
-    "windows": "Ctrl+R",
-    "mac": "Cmd+R",
-    "linux": "Ctrl+R",
+    "windows": "Ctrl + R",
+    "mac": "⌘ R",
+    "linux": "Ctrl + R",
     "keywords": [
       "速度",
       "speed",
@@ -1301,9 +1301,9 @@
       "zh": "设置音频映射和声道格式",
       "en": "Set audio mapping and channel format"
     },
-    "windows": "Shift+G",
-    "mac": "Shift+G",
-    "linux": "Shift+G",
+    "windows": "Shift + G",
+    "mac": "⇧ G",
+    "linux": "Shift + G",
     "keywords": [
       "音频",
       "audio",
@@ -1325,9 +1325,9 @@
       "zh": "将音频标准化到指定电平",
       "en": "Normalize audio to target level"
     },
-    "windows": "Shift+N",
-    "mac": "Shift+N",
-    "linux": "Shift+N",
+    "windows": "Shift + N",
+    "mac": "⇧ N",
+    "linux": "Shift + N",
     "keywords": [
       "音频",
       "audio",
@@ -1349,9 +1349,9 @@
       "zh": "缩放节目监视器视图以适配窗口",
       "en": "Scale Program Monitor view to fit window"
     },
-    "windows": "Shift+1",
-    "mac": "Shift+1",
-    "linux": "Shift+1",
+    "windows": "Shift + 1",
+    "mac": "⇧ 1",
+    "linux": "Shift + 1",
     "keywords": [
       "适应",
       "fit",
@@ -1373,9 +1373,9 @@
       "zh": "缩放时间轴以显示整个序列",
       "en": "Zoom timeline to show entire sequence"
     },
-    "windows": "Shift+/",
-    "mac": "Shift+/",
-    "linux": "Shift+/",
+    "windows": "Shift / ",
+    "mac": "⇧ / ",
+    "linux": "Shift / ",
     "keywords": [
       "适应",
       "fit",
@@ -1468,9 +1468,9 @@
       "zh": "切换同步锁定模式防止意外移动",
       "en": "Toggle sync lock mode to prevent accidental moves"
     },
-    "windows": "Shift+L",
-    "mac": "Shift+L",
-    "linux": "Shift+L",
+    "windows": "Shift + L",
+    "mac": "⇧ L",
+    "linux": "Shift + L",
     "keywords": [
       "同步",
       "sync",
@@ -1492,9 +1492,9 @@
       "zh": "选中目标轨道上从当前位置向前的所有剪辑",
       "en": "Select all clips forward on targeted track"
     },
-    "windows": "Ctrl+Shift+F",
-    "mac": "Cmd+Shift+F",
-    "linux": "Ctrl+Shift+F",
+    "windows": "Ctrl + Shift + F",
+    "mac": "⌘ ⇧ F",
+    "linux": "Ctrl + Shift + F",
     "keywords": [
       "轨道",
       "track",
@@ -1516,9 +1516,9 @@
       "zh": "打开效果控件面板",
       "en": "Open Effect Controls panel"
     },
-    "windows": "Shift+5",
-    "mac": "Shift+5",
-    "linux": "Shift+5",
+    "windows": "Shift + 5",
+    "mac": "⇧ 5",
+    "linux": "Shift + 5",
     "keywords": [
       "效果",
       "effects",
@@ -1540,9 +1540,9 @@
       "zh": "打开音频混合器面板",
       "en": "Open Audio Mixer panel"
     },
-    "windows": "Shift+6",
-    "mac": "Shift+6",
-    "linux": "Shift+6",
+    "windows": "Shift + 6",
+    "mac": "⇧ 6",
+    "linux": "Shift + 6",
     "keywords": [
       "音频",
       "audio",
@@ -1564,9 +1564,9 @@
       "zh": "打开音频索引面板进行语音转文字",
       "en": "Open Audio Indexer for speech-to-text"
     },
-    "windows": "Shift+8",
-    "mac": "Shift+8",
-    "linux": "Shift+8",
+    "windows": "Shift + 8",
+    "mac": "⇧ 8",
+    "linux": "Shift + 8",
     "keywords": [
       "音频",
       "audio",
@@ -1589,9 +1589,9 @@
       "zh": "打开 Lumetri 颜色面板",
       "en": "Open Lumetri Color panel"
     },
-    "windows": "Shift+7",
-    "mac": "Shift+7",
-    "linux": "Shift+7",
+    "windows": "Shift + 7",
+    "mac": "⇧ 7",
+    "linux": "Shift + 7",
     "keywords": [
       "颜色",
       "color",
@@ -1613,9 +1613,9 @@
       "zh": "打开效果面板",
       "en": "Open Effects panel"
     },
-    "windows": "Shift+7",
-    "mac": "Shift+7",
-    "linux": "Shift+7",
+    "windows": "Shift + 7",
+    "mac": "⇧ 7",
+    "linux": "Shift + 7",
     "keywords": [
       "效果",
       "effects",
@@ -1637,9 +1637,9 @@
       "zh": "打开项目面板",
       "en": "Open Project panel"
     },
-    "windows": "Ctrl+0",
-    "mac": "Cmd+0",
-    "linux": "Ctrl+0",
+    "windows": "Ctrl + 0",
+    "mac": "⌘ 0",
+    "linux": "Ctrl + 0",
     "keywords": [
       "项目",
       "project",
@@ -1661,9 +1661,9 @@
       "zh": "打开/聚焦时间轴面板",
       "en": "Open/focus Timeline panel"
     },
-    "windows": "Ctrl+Shift+0",
-    "mac": "Cmd+Shift+0",
-    "linux": "Ctrl+Shift+0",
+    "windows": "Ctrl + Shift + 0",
+    "mac": "⌘ ⇧ 0",
+    "linux": "Ctrl + Shift + 0",
     "keywords": [
       "时间轴",
       "timeline",
@@ -1684,9 +1684,9 @@
       "zh": "开启或关闭循环播放",
       "en": "Toggle loop playback"
     },
-    "windows": "Ctrl+Shift+/",
-    "mac": "Cmd+Shift+/",
-    "linux": "Ctrl+Shift+/",
+    "windows": "Ctrl + Shift / ",
+    "mac": "⌘ ⇧ / ",
+    "linux": "Ctrl + Shift / ",
     "keywords": [
       "循环",
       "loop",
@@ -1708,9 +1708,9 @@
       "zh": "显示或隐藏程序监视器的标尺",
       "en": "Show or hide rulers in Program Monitor"
     },
-    "windows": "Ctrl+R",
-    "mac": "Cmd+R",
-    "linux": "Ctrl+R",
+    "windows": "Ctrl + R",
+    "mac": "⌘ R",
+    "linux": "Ctrl + R",
     "keywords": [
       "标尺",
       "ruler",

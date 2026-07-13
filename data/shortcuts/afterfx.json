@@ -12,8 +12,8 @@
       "zh": "创建一个新的合成",
       "en": "Create a new composition"
     },
-    "windows": "Ctrl+N",
-    "mac": "⌘+N",
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
     "linux": "—",
     "keywords": [
       "合成",
@@ -35,8 +35,8 @@
       "zh": "创建一个新的项目",
       "en": "Create a new project"
     },
-    "windows": "Ctrl+Alt+N",
-    "mac": "⌘+Opt+N",
+    "windows": "Ctrl + Alt + N",
+    "mac": "⌘ ⌥ N",
     "linux": "—",
     "keywords": [
       "项目",
@@ -58,8 +58,8 @@
       "zh": "打开已有的项目文件",
       "en": "Open an existing project file"
     },
-    "windows": "Ctrl+O",
-    "mac": "⌘+O",
+    "windows": "Ctrl + O",
+    "mac": "⌘ O",
     "linux": "—",
     "keywords": [
       "打开",
@@ -81,8 +81,8 @@
       "zh": "导入文件到项目面板",
       "en": "Import files into the project panel"
     },
-    "windows": "Ctrl+I",
-    "mac": "⌘+I",
+    "windows": "Ctrl + I",
+    "mac": "⌘ I",
     "linux": "—",
     "keywords": [
       "导入",
@@ -105,8 +105,8 @@
       "zh": "快速导入最近使用的文件",
       "en": "Quick import recently used files"
     },
-    "windows": "Ctrl+Alt+I",
-    "mac": "⌘+Opt+I",
+    "windows": "Ctrl + Alt + I",
+    "mac": "⌘ ⌥ I",
     "linux": "—",
     "keywords": [
       "导入",
@@ -128,8 +128,8 @@
       "zh": "把当前合成加入渲染队列",
       "en": "Add current comp to render queue"
     },
-    "windows": "Ctrl+M",
-    "mac": "⌘+M",
+    "windows": "Ctrl + M",
+    "mac": "⌘ M",
     "linux": "—",
     "keywords": [
       "渲染",
@@ -152,8 +152,8 @@
       "zh": "打开渲染队列面板",
       "en": "Open Render Queue panel"
     },
-    "windows": "Ctrl+Alt+M",
-    "mac": "⌘+Opt+M",
+    "windows": "Ctrl + Alt + M",
+    "mac": "⌘ ⌥ M",
     "linux": "—",
     "keywords": [
       "渲染队列",
@@ -175,8 +175,8 @@
       "zh": "保存当前项目",
       "en": "Save the current project"
     },
-    "windows": "Ctrl+S",
-    "mac": "⌘+S",
+    "windows": "Ctrl + S",
+    "mac": "⌘ S",
     "linux": "—",
     "keywords": [
       "保存",
@@ -198,8 +198,8 @@
       "zh": "另存为新版本号的项目副本",
       "en": "Save as new versioned copy of project"
     },
-    "windows": "Ctrl+Alt+S",
-    "mac": "⌘+Opt+S",
+    "windows": "Ctrl + Alt + S",
+    "mac": "⌘ ⌥ S",
     "linux": "—",
     "keywords": [
       "保存",
@@ -222,8 +222,8 @@
       "zh": "撤销上一步操作",
       "en": "Undo the last action"
     },
-    "windows": "Ctrl+Z",
-    "mac": "⌘+Z",
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
     "linux": "—",
     "keywords": [
       "撤销",
@@ -244,8 +244,8 @@
       "zh": "重做被撤销的操作",
       "en": "Redo the undone action"
     },
-    "windows": "Ctrl+Shift+Z",
-    "mac": "⌘+Shift+Z",
+    "windows": "Ctrl + Shift + Z",
+    "mac": "⌘ ⇧ Z",
     "linux": "—",
     "keywords": [
       "重做",
@@ -266,8 +266,8 @@
       "zh": "剪切选中内容到剪贴板",
       "en": "Cut selection to clipboard"
     },
-    "windows": "Ctrl+X",
-    "mac": "⌘+X",
+    "windows": "Ctrl + X",
+    "mac": "⌘ X",
     "linux": "—",
     "keywords": [
       "剪切",
@@ -288,8 +288,8 @@
       "zh": "复制选中内容到剪贴板",
       "en": "Copy selection to clipboard"
     },
-    "windows": "Ctrl+C",
-    "mac": "⌘+C",
+    "windows": "Ctrl + C",
+    "mac": "⌘ C",
     "linux": "—",
     "keywords": [
       "复制",
@@ -310,8 +310,8 @@
       "zh": "粘贴剪贴板内容",
       "en": "Paste content from clipboard"
     },
-    "windows": "Ctrl+V",
-    "mac": "⌘+V",
+    "windows": "Ctrl + V",
+    "mac": "⌘ V",
     "linux": "—",
     "keywords": [
       "粘贴",
@@ -332,8 +332,8 @@
       "zh": "复制选中的图层",
       "en": "Duplicate selected layer"
     },
-    "windows": "Ctrl+D",
-    "mac": "⌘+D",
+    "windows": "Ctrl + D",
+    "mac": "⌘ D",
     "linux": "—",
     "keywords": [
       "复制",
@@ -355,8 +355,8 @@
       "zh": "在播放头处拆分图层",
       "en": "Split layer at playhead position"
     },
-    "windows": "Ctrl+Shift+D",
-    "mac": "⌘+Shift+D",
+    "windows": "Ctrl + Shift + D",
+    "mac": "⌘ ⇧ D",
     "linux": "—",
     "keywords": [
       "拆分",
@@ -379,8 +379,8 @@
       "zh": "选中时间轴中所有可见图层",
       "en": "Select all visible layers in timeline"
     },
-    "windows": "Ctrl+A",
-    "mac": "⌘+A",
+    "windows": "Ctrl + A",
+    "mac": "⌘ A",
     "linux": "—",
     "keywords": [
       "全选",
@@ -402,8 +402,8 @@
       "zh": "取消所有选择",
       "en": "Deselect everything"
     },
-    "windows": "Ctrl+Shift+A",
-    "mac": "⌘+Shift+A",
+    "windows": "Ctrl + Shift + A",
+    "mac": "⌘ ⇧ A",
     "linux": "—",
     "keywords": [
       "取消选择",
@@ -564,9 +564,9 @@
       "zh": "斜杠键预览末帧",
       "en": "Slash key previews last frame"
     },
-    "windows": "/",
-    "mac": "/",
-    "linux": "/",
+    "windows": " / ",
+    "mac": " / ",
+    "linux": " / ",
     "keywords": [
       "末帧",
       "last frame",
@@ -587,9 +587,9 @@
       "zh": "打开对话框跳转到指定时间码位置",
       "en": "Open dialog to jump to specific timecode"
     },
-    "windows": "Alt+Shift+J",
-    "mac": "Opt+Shift+J",
-    "linux": "Alt+Shift+J",
+    "windows": "Alt + Shift + J",
+    "mac": "⌥ ⇧ J",
+    "linux": "Alt + Shift + J",
     "keywords": [
       "转到",
       "go to",
@@ -707,9 +707,9 @@
       "zh": "将图层入点修剪到播放头（Alt+[）",
       "en": "Trim layer in point to playhead (Alt+[)"
     },
-    "windows": "Alt+[",
-    "mac": "Opt+[",
-    "linux": "Alt+[",
+    "windows": "Alt + [",
+    "mac": "⌥ [",
+    "linux": "Alt + [",
     "keywords": [
       "入点",
       "in point",
@@ -732,9 +732,9 @@
       "zh": "将图层出点修剪到播放头（Alt+]）",
       "en": "Trim layer out point to playhead (Alt+])"
     },
-    "windows": "Alt+]",
-    "mac": "Opt+]",
-    "linux": "Alt+]",
+    "windows": "Alt + ]",
+    "mac": "⌥ ]",
+    "linux": "Alt + ]",
     "keywords": [
       "出点",
       "out point",
@@ -947,8 +947,8 @@
       "zh": "用画笔绘制描边和绘画",
       "en": "Paint strokes with brush tool"
     },
-    "windows": "Ctrl+B",
-    "mac": "⌘+B",
+    "windows": "Ctrl + B",
+    "mac": "⌘ B",
     "linux": "—",
     "keywords": [
       "画笔",
@@ -971,8 +971,8 @@
       "zh": "添加人偶变形控制钉",
       "en": "Add puppet deformation pin"
     },
-    "windows": "Ctrl+P",
-    "mac": "⌘+P",
+    "windows": "Ctrl + P",
+    "mac": "⌘ P",
     "linux": "—",
     "keywords": [
       "人偶",
@@ -996,8 +996,8 @@
       "zh": "操控变形高级人偶工具",
       "en": "Advanced puppet warp tool"
     },
-    "windows": "Ctrl+Shift+W",
-    "mac": "⌘+Shift+W",
+    "windows": "Ctrl + Shift + W",
+    "mac": "⌘ ⇧ W",
     "linux": "—",
     "keywords": [
       "操控变形",
@@ -1019,8 +1019,8 @@
       "zh": "创建纯色固态图层",
       "en": "Create solid-color layer"
     },
-    "windows": "Ctrl+Y",
-    "mac": "⌘+Y",
+    "windows": "Ctrl + Y",
+    "mac": "⌘ Y",
     "linux": "—",
     "keywords": [
       "固态层",
@@ -1043,8 +1043,8 @@
       "zh": "创建调节图层用于非破坏性调色",
       "en": "Create adjustment layer for non-destructive color grading"
     },
-    "windows": "Ctrl+Alt+Y",
-    "mac": "⌘+Opt+Y",
+    "windows": "Ctrl + Alt + Y",
+    "mac": "⌘ ⌥ Y",
     "linux": "—",
     "keywords": [
       "调节层",
@@ -1066,8 +1066,8 @@
       "zh": "创建空对象图层用于父级控制",
       "en": "Create null object layer for parenting control"
     },
-    "windows": "Ctrl+Alt+Shift+Y",
-    "mac": "⌘+Opt+Shift+Y",
+    "windows": "Ctrl + Alt + Shift + Y",
+    "mac": "⌘ ⌥ ⇧ Y",
     "linux": "—",
     "keywords": [
       "空对象",
@@ -1114,8 +1114,8 @@
       "zh": "打开合成设置对话框",
       "en": "Open Composition Settings dialog"
     },
-    "windows": "Ctrl+K",
-    "mac": "⌘+K",
+    "windows": "Ctrl + K",
+    "mac": "⌘ K",
     "linux": "—",
     "keywords": [
       "合成",
@@ -1138,8 +1138,8 @@
       "zh": "将合成裁剪到兴趣区域大小",
       "en": "Crop composition to Region of Interest size"
     },
-    "windows": "Ctrl+Shift+X",
-    "mac": "⌘+Shift+X",
+    "windows": "Ctrl + Shift + X",
+    "mac": "⌘ ⇧ X",
     "linux": "—",
     "keywords": [
       "裁剪",
@@ -1162,8 +1162,8 @@
       "zh": "将合成发送到 AME 渲染",
       "en": "Send comp to AME for rendering"
     },
-    "windows": "Ctrl+Alt+E",
-    "mac": "⌘+Opt+E",
+    "windows": "Ctrl + Alt + E",
+    "mac": "⌘ ⌥ E",
     "linux": "—",
     "keywords": [
       "Media Encoder",
@@ -1474,9 +1474,9 @@
       "zh": "为选中的关键帧应用缓入曲线",
       "en": "Apply ease-in to selected keyframes"
     },
-    "windows": "Shift+F9",
-    "mac": "Shift+F9",
-    "linux": "Shift+F9",
+    "windows": "Shift + F9",
+    "mac": "⇧ F9",
+    "linux": "Shift + F9",
     "keywords": [
       "缓入",
       "ease in",
@@ -1498,8 +1498,8 @@
       "zh": "为选中的关键帧应用缓出曲线",
       "en": "Apply ease-out to selected keyframes"
     },
-    "windows": "Ctrl+Shift+F9",
-    "mac": "⌘+Shift+F9",
+    "windows": "Ctrl + Shift + F9",
+    "mac": "⌘ ⇧ F9",
     "linux": "—",
     "keywords": [
       "缓出",
@@ -1522,9 +1522,9 @@
       "zh": "在当前位置添加位置关键帧",
       "en": "Add position keyframe at current time"
     },
-    "windows": "Alt+Shift+P",
-    "mac": "Opt+Shift+P",
-    "linux": "Alt+Shift+P",
+    "windows": "Alt + Shift + P",
+    "mac": "⌥ ⇧ P",
+    "linux": "Alt + Shift + P",
     "keywords": [
       "关键帧",
       "keyframe",
@@ -1546,9 +1546,9 @@
       "zh": "在当前位置添加缩放关键帧",
       "en": "Add scale keyframe at current time"
     },
-    "windows": "Alt+Shift+S",
-    "mac": "Opt+Shift+S",
-    "linux": "Alt+Shift+S",
+    "windows": "Alt + Shift + S",
+    "mac": "⌥ ⇧ S",
+    "linux": "Alt + Shift + S",
     "keywords": [
       "关键帧",
       "keyframe",
@@ -1570,9 +1570,9 @@
       "zh": "在当前位置添加旋转关键帧",
       "en": "Add rotation keyframe at current time"
     },
-    "windows": "Alt+Shift+R",
-    "mac": "Opt+Shift+R",
-    "linux": "Alt+Shift+R",
+    "windows": "Alt + Shift + R",
+    "mac": "⌥ ⇧ R",
+    "linux": "Alt + Shift + R",
     "keywords": [
       "关键帧",
       "keyframe",
@@ -1594,9 +1594,9 @@
       "zh": "在当前位置添加不透明度关键帧",
       "en": "Add opacity keyframe at current time"
     },
-    "windows": "Alt+Shift+T",
-    "mac": "Opt+Shift+T",
-    "linux": "Alt+Shift+T",
+    "windows": "Alt + Shift + T",
+    "mac": "⌥ ⇧ T",
+    "linux": "Alt + Shift + T",
     "keywords": [
       "关键帧",
       "keyframe",
@@ -1666,9 +1666,9 @@
       "zh": "适配窗口并按当前分辨率缩放",
       "en": "Fit window and scale to current resolution"
     },
-    "windows": "Shift+1",
-    "mac": "Shift+1",
-    "linux": "Shift+1",
+    "windows": "Shift + 1",
+    "mac": "⇧ 1",
+    "linux": "Shift + 1",
     "keywords": [
       "适应",
       "fit",
@@ -1691,9 +1691,9 @@
       "zh": "缩放以完整显示合成",
       "en": "Scale to fit entire composition"
     },
-    "windows": "Shift+2",
-    "mac": "Shift+2",
-    "linux": "Shift+2",
+    "windows": "Shift + 2",
+    "mac": "⇧ 2",
+    "linux": "Shift + 2",
     "keywords": [
       "适应",
       "fit",
@@ -1715,8 +1715,8 @@
       "zh": "进入全屏预览模式",
       "en": "Enter full screen preview mode"
     },
-    "windows": "Ctrl+`",
-    "mac": "⌘+`",
+    "windows": "Ctrl + `",
+    "mac": "⌘ `",
     "linux": "—",
     "keywords": [
       "全屏",
@@ -1739,8 +1739,8 @@
       "zh": "打开/聚焦项目面板",
       "en": "Open/focus Project panel"
     },
-    "windows": "Ctrl+0",
-    "mac": "⌘+0",
+    "windows": "Ctrl + 0",
+    "mac": "⌘ 0",
     "linux": "—",
     "keywords": [
       "项目",
@@ -1763,8 +1763,8 @@
       "zh": "打开/聚焦时间轴面板",
       "en": "Open/focus Timeline panel"
     },
-    "windows": "Ctrl+Alt+0",
-    "mac": "⌘+Opt+0",
+    "windows": "Ctrl + Alt + 0",
+    "mac": "⌘ ⌥ 0",
     "linux": "—",
     "keywords": [
       "时间轴",
@@ -1786,8 +1786,8 @@
       "zh": "打开效果和预设面板",
       "en": "Open Effects & Presets panel"
     },
-    "windows": "Ctrl+5",
-    "mac": "⌘+5",
+    "windows": "Ctrl + 5",
+    "mac": "⌘ 5",
     "linux": "—",
     "keywords": [
       "效果",
@@ -1811,8 +1811,8 @@
       "zh": "打开字符面板设置文字格式",
       "en": "Open Character panel for text formatting"
     },
-    "windows": "Ctrl+6",
-    "mac": "⌘+6",
+    "windows": "Ctrl + 6",
+    "mac": "⌘ 6",
     "linux": "—",
     "keywords": [
       "字符",
@@ -1836,8 +1836,8 @@
       "zh": "打开段落面板设置段落格式",
       "en": "Open Paragraph panel for paragraph formatting"
     },
-    "windows": "Ctrl+7",
-    "mac": "⌘+7",
+    "windows": "Ctrl + 7",
+    "mac": "⌘ 7",
     "linux": "—",
     "keywords": [
       "段落",
@@ -1860,8 +1860,8 @@
       "zh": "打开绘画面板",
       "en": "Open Paint panel"
     },
-    "windows": "Ctrl+8",
-    "mac": "⌘+8",
+    "windows": "Ctrl + 8",
+    "mac": "⌘ 8",
     "linux": "—",
     "keywords": [
       "绘画",
@@ -1934,9 +1934,9 @@
       "zh": "按住 Alt 点击属性码表开启/关闭表达式",
       "en": "Hold Alt and click property stopwatch to toggle expression"
     },
-    "windows": "Alt+点击",
-    "mac": "Opt+点击",
-    "linux": "Alt+点击",
+    "windows": "Alt + 点击",
+    "mac": "⌥ 点击",
+    "linux": "Alt + 点击",
     "keywords": [
       "表达式",
       "expression",
@@ -1984,9 +1984,9 @@
       "zh": "高亮显示素材在项目面板中的位置",
       "en": "Highlight source item in project panel"
     },
-    "windows": "/",
-    "mac": "/",
-    "linux": "/",
+    "windows": " / ",
+    "mac": " / ",
+    "linux": " / ",
     "keywords": [
       "项目",
       "project",

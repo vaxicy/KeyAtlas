@@ -12,9 +12,9 @@
       "zh": "打开飞书全局搜索面板",
       "en": "Open the Feishu global search panel"
     },
-    "windows": "Ctrl+K",
-    "mac": "⌘+K",
-    "linux": "Ctrl+K",
+    "windows": "Ctrl + K",
+    "mac": "⌘ K",
+    "linux": "Ctrl + K",
     "keywords": [
       "搜索",
       "查找",
@@ -36,9 +36,9 @@
       "zh": "在当前页面内通过关键词查找",
       "en": "Find text within the current page"
     },
-    "windows": "Ctrl+F",
-    "mac": "⌘+F",
-    "linux": "Ctrl+F",
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
+    "linux": "Ctrl + F",
     "keywords": [
       "搜索",
       "查找",
@@ -61,9 +61,9 @@
       "zh": "发送当前输入框消息（可在设置中切换回车或组合键发送）",
       "en": "Send the message in the input box (configurable: Enter or shortcut)"
     },
-    "windows": "Enter 或 Ctrl+Enter",
-    "mac": "Enter 或 ⌘+Enter",
-    "linux": "Enter 或 Ctrl+Enter",
+    "windows": "Enter 或 Ctrl + Enter",
+    "mac": "Enter 或 ⌘ Enter",
+    "linux": "Enter 或 Ctrl + Enter",
     "keywords": [
       "发送",
       "消息",
@@ -85,9 +85,9 @@
       "zh": "切换至上一个消息分组",
       "en": "Switch to the previous message group"
     },
-    "windows": "Ctrl+↑",
-    "mac": "⌘+↑",
-    "linux": "Ctrl+↑",
+    "windows": "Ctrl + ↑",
+    "mac": "⌘ ↑",
+    "linux": "Ctrl + ↑",
     "keywords": [
       "分组",
       "上一个",
@@ -109,9 +109,9 @@
       "zh": "切换至下一个消息分组",
       "en": "Switch to the next message group"
     },
-    "windows": "Ctrl+↓",
-    "mac": "⌘+↓",
-    "linux": "Ctrl+↓",
+    "windows": "Ctrl + ↓",
+    "mac": "⌘ ↓",
+    "linux": "Ctrl + ↓",
     "keywords": [
       "分组",
       "下一个",
@@ -133,9 +133,9 @@
       "zh": "展开或隐藏消息功能中的分组栏",
       "en": "Expand or collapse the group sidebar in messages"
     },
-    "windows": "Ctrl+G",
-    "mac": "⌘+G",
-    "linux": "Ctrl+G",
+    "windows": "Ctrl + G",
+    "mac": "⌘ G",
+    "linux": "Ctrl + G",
     "keywords": [
       "分组",
       "展开",
@@ -158,9 +158,9 @@
       "zh": "切换至上一个未读会话",
       "en": "Jump to the previous unread conversation"
     },
-    "windows": "Ctrl+Shift+↑",
-    "mac": "⌘+Shift+↑",
-    "linux": "Ctrl+Shift+↑",
+    "windows": "Ctrl + Shift + ↑",
+    "mac": "⌘ ⇧ ↑",
+    "linux": "Ctrl + Shift + ↑",
     "keywords": [
       "未读",
       "上一个",
@@ -182,9 +182,9 @@
       "zh": "切换至下一个未读会话",
       "en": "Jump to the next unread conversation"
     },
-    "windows": "Ctrl+Shift+↓",
-    "mac": "⌘+Shift+↓",
-    "linux": "Ctrl+Shift+↓",
+    "windows": "Ctrl + Shift + ↓",
+    "mac": "⌘ ⇧ ↓",
+    "linux": "Ctrl + Shift + ↓",
     "keywords": [
       "未读",
       "下一个",
@@ -206,9 +206,9 @@
       "zh": "将当前会话移至“已完成”分组",
       "en": "Move the current conversation to the Done group"
     },
-    "windows": "Ctrl+D",
-    "mac": "⌘+D",
-    "linux": "Ctrl+D",
+    "windows": "Ctrl + D",
+    "mac": "⌘ D",
+    "linux": "Ctrl + D",
     "keywords": [
       "完成",
       "会话",
@@ -230,9 +230,9 @@
       "zh": "保存正在浏览的图片或视频",
       "en": "Save the image or video being viewed"
     },
-    "windows": "Ctrl+S",
-    "mac": "⌘+S",
-    "linux": "Ctrl+S",
+    "windows": "Ctrl + S",
+    "mac": "⌘ S",
+    "linux": "Ctrl + S",
     "keywords": [
       "保存",
       "图片",
@@ -256,9 +256,9 @@
       "zh": "在图片查看器中放大图片尺寸",
       "en": "Zoom in on an image in the viewer"
     },
-    "windows": "Ctrl+=",
-    "mac": "⌘+=",
-    "linux": "Ctrl+=",
+    "windows": "Ctrl + =",
+    "mac": "⌘ =",
+    "linux": "Ctrl + =",
     "keywords": [
       "放大",
       "图片",
@@ -280,9 +280,9 @@
       "zh": "在图片查看器中缩小图片尺寸",
       "en": "Zoom out on an image in the viewer"
     },
-    "windows": "Ctrl+-",
-    "mac": "⌘+-",
-    "linux": "Ctrl+-",
+    "windows": "Ctrl + -",
+    "mac": "⌘ -",
+    "linux": "Ctrl + -",
     "keywords": [
       "缩小",
       "图片",
@@ -304,9 +304,9 @@
       "zh": "会议中快速打开或关闭麦克风",
       "en": "Quickly turn the microphone on or off in a meeting"
     },
-    "windows": "Ctrl+Shift+D",
-    "mac": "⌘+Shift+D",
-    "linux": "Ctrl+Shift+D",
+    "windows": "Ctrl + Shift + D",
+    "mac": "⌘ ⇧ D",
+    "linux": "Ctrl + Shift + D",
     "keywords": [
       "麦克风",
       "会议",
@@ -330,9 +330,9 @@
       "zh": "会议中快速打开或关闭摄像头",
       "en": "Quickly turn the camera on or off in a meeting"
     },
-    "windows": "Ctrl+Shift+V",
-    "mac": "⌘+Shift+V",
-    "linux": "Ctrl+Shift+V",
+    "windows": "Ctrl + Shift + V",
+    "mac": "⌘ ⇧ V",
+    "linux": "Ctrl + Shift + V",
     "keywords": [
       "摄像头",
       "会议",
@@ -354,9 +354,9 @@
       "zh": "会议窗口进入或退出全屏",
       "en": "Enter or exit fullscreen for the meeting window"
     },
-    "windows": "Ctrl+Shift+F",
-    "mac": "⌘+Shift+F",
-    "linux": "Ctrl+Shift+F",
+    "windows": "Ctrl + Shift + F",
+    "mac": "⌘ ⇧ F",
+    "linux": "Ctrl + Shift + F",
     "keywords": [
       "会议",
       "全屏",
@@ -378,9 +378,9 @@
       "zh": "会议窗口最小化或恢复",
       "en": "Minimize or restore the meeting window"
     },
-    "windows": "Ctrl+Shift+M",
-    "mac": "⌘+Shift+M",
-    "linux": "Ctrl+Shift+M",
+    "windows": "Ctrl + Shift + M",
+    "mac": "⌘ ⇧ M",
+    "linux": "Ctrl + Shift + M",
     "keywords": [
       "会议",
       "最小化",
@@ -402,9 +402,9 @@
       "zh": "调起截图功能",
       "en": "Launch the screenshot tool"
     },
-    "windows": "Ctrl+Shift+A",
-    "mac": "⌘+Shift+A",
-    "linux": "Ctrl+Shift+A",
+    "windows": "Ctrl + Shift + A",
+    "mac": "⌘ ⇧ A",
+    "linux": "Ctrl + Shift + A",
     "keywords": [
       "截图",
       "screenshot",
@@ -425,9 +425,9 @@
       "zh": "调起录屏功能",
       "en": "Launch the screen recording tool"
     },
-    "windows": "Alt+Shift+R",
-    "mac": "⌥+Shift+R",
-    "linux": "Alt+Shift+R",
+    "windows": "Alt + Shift + R",
+    "mac": "⌥ ⇧ R",
+    "linux": "Alt + Shift + R",
     "keywords": [
       "录屏",
       "录制",
@@ -449,9 +449,9 @@
       "zh": "跳转左侧导航栏上一个打开的标签页",
       "en": "Jump to the previous open tab in the sidebar"
     },
-    "windows": "Ctrl+`",
-    "mac": "⌃+`",
-    "linux": "Ctrl+`",
+    "windows": "Ctrl + `",
+    "mac": "⌃ `",
+    "linux": "Ctrl + `",
     "keywords": [
       "标签页",
       "上一个",
@@ -473,9 +473,9 @@
       "zh": "唤起快捷切换器并向后选",
       "en": "Open the tab switcher and move forward"
     },
-    "windows": "Ctrl+Tab",
-    "mac": "⌃+Tab",
-    "linux": "Ctrl+Tab",
+    "windows": "Ctrl + Tab",
+    "mac": "⌃ Tab",
+    "linux": "Ctrl + Tab",
     "keywords": [
       "标签页",
       "切换",
@@ -497,9 +497,9 @@
       "zh": "唤起快捷切换器并向前选",
       "en": "Open the tab switcher and move backward"
     },
-    "windows": "Ctrl+Shift+Tab",
-    "mac": "⌃+Shift+Tab",
-    "linux": "Ctrl+Shift+Tab",
+    "windows": "Ctrl + Shift + Tab",
+    "mac": "⌃ ⇧ Tab",
+    "linux": "Ctrl + Shift + Tab",
     "keywords": [
       "标签页",
       "切换",
@@ -521,9 +521,9 @@
       "zh": "打开历史记录详情页",
       "en": "Open the browsing history page"
     },
-    "windows": "Ctrl+H",
-    "mac": "⌘+Y",
-    "linux": "Ctrl+H",
+    "windows": "Ctrl + H",
+    "mac": "⌘ Y",
+    "linux": "Ctrl + H",
     "keywords": [
       "历史",
       "记录",
@@ -544,9 +544,9 @@
       "zh": "标签页内后退",
       "en": "Go back within the tab"
     },
-    "windows": "Ctrl+←",
-    "mac": "⌘+←",
-    "linux": "Ctrl+←",
+    "windows": "Ctrl + ←",
+    "mac": "⌘ ←",
+    "linux": "Ctrl + ←",
     "keywords": [
       "后退",
       "back"
@@ -566,9 +566,9 @@
       "zh": "标签页内前进",
       "en": "Go forward within the tab"
     },
-    "windows": "Ctrl+→",
-    "mac": "⌘+→",
-    "linux": "Ctrl+→",
+    "windows": "Ctrl + →",
+    "mac": "⌘ →",
+    "linux": "Ctrl + →",
     "keywords": [
       "前进",
       "forward"
@@ -589,7 +589,7 @@
       "en": "Reload the current page"
     },
     "windows": "F5",
-    "mac": "⌘+R",
+    "mac": "⌘ R",
     "linux": "F5",
     "keywords": [
       "刷新",
@@ -612,9 +612,9 @@
       "zh": "复制当前页面的链接",
       "en": "Copy the link of the current page"
     },
-    "windows": "Ctrl+Shift+C",
-    "mac": "⌘+Shift+C",
-    "linux": "Ctrl+Shift+C",
+    "windows": "Ctrl + Shift + C",
+    "mac": "⌘ ⇧ C",
+    "linux": "Ctrl + Shift + C",
     "keywords": [
       "复制",
       "链接",
@@ -636,9 +636,9 @@
       "zh": "关闭标签页或窗口",
       "en": "Close the current tab or window"
     },
-    "windows": "Ctrl+W",
-    "mac": "⌘+W",
-    "linux": "Ctrl+W",
+    "windows": "Ctrl + W",
+    "mac": "⌘ W",
+    "linux": "Ctrl + W",
     "keywords": [
       "关闭",
       "标签页",
@@ -660,9 +660,9 @@
       "zh": "跳转导航栏指定数字标签",
       "en": "Jump to the tab at the given number position"
     },
-    "windows": "Ctrl+1~8",
-    "mac": "⌘+1~8",
-    "linux": "Ctrl+1~8",
+    "windows": "Ctrl + 1~8",
+    "mac": "⌘ 1~8",
+    "linux": "Ctrl + 1~8",
     "keywords": [
       "跳转",
       "标签页",
@@ -684,9 +684,9 @@
       "zh": "跳转导航栏最后一个标签",
       "en": "Jump to the last tab in the sidebar"
     },
-    "windows": "Ctrl+9",
-    "mac": "⌘+9",
-    "linux": "Ctrl+9",
+    "windows": "Ctrl + 9",
+    "mac": "⌘ 9",
+    "linux": "Ctrl + 9",
     "keywords": [
       "跳转",
       "最后",
@@ -708,9 +708,9 @@
       "zh": "按关闭顺序恢复标签页",
       "en": "Reopen a recently closed tab in order"
     },
-    "windows": "Ctrl+Shift+T",
-    "mac": "⌘+Shift+T",
-    "linux": "Ctrl+Shift+T",
+    "windows": "Ctrl + Shift + T",
+    "mac": "⌘ ⇧ T",
+    "linux": "Ctrl + Shift + T",
     "keywords": [
       "重新打开",
       "恢复",
@@ -733,9 +733,9 @@
       "zh": "打开飞书设置",
       "en": "Open Feishu settings"
     },
-    "windows": "Ctrl+,",
-    "mac": "⌘+,",
-    "linux": "Ctrl+,",
+    "windows": "Ctrl + ,",
+    "mac": "⌘ ,",
+    "linux": "Ctrl + ,",
     "keywords": [
       "设置",
       "settings"
@@ -755,9 +755,9 @@
       "zh": "打开快捷键设置面板",
       "en": "Open the shortcuts settings panel"
     },
-    "windows": "Ctrl+/",
-    "mac": "⌘+/",
-    "linux": "Ctrl+/",
+    "windows": "Ctrl / ",
+    "mac": "⌘ / ",
+    "linux": "Ctrl / ",
     "keywords": [
       "快捷键",
       "shortcuts",
@@ -778,9 +778,9 @@
       "zh": "打开状态设置面板",
       "en": "Open the status settings panel"
     },
-    "windows": "Ctrl+Shift+Y",
-    "mac": "⌘+Shift+Y",
-    "linux": "Ctrl+Shift+Y",
+    "windows": "Ctrl + Shift + Y",
+    "mac": "⌘ ⇧ Y",
+    "linux": "Ctrl + Shift + Y",
     "keywords": [
       "状态",
       "status"
@@ -800,9 +800,9 @@
       "zh": "在任务中心新建任务",
       "en": "Create a new task in the task center"
     },
-    "windows": "Ctrl+N",
-    "mac": "⌘+N",
-    "linux": "Ctrl+N",
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
+    "linux": "Ctrl + N",
     "keywords": [
       "新建",
       "任务",
@@ -825,7 +825,7 @@
       "en": "Open the help and support page"
     },
     "windows": "F1",
-    "mac": "Fn+F1",
+    "mac": "Fn F1",
     "linux": "F1",
     "keywords": [
       "帮助",
@@ -848,9 +848,9 @@
       "zh": "快速显示或隐藏飞书入口",
       "en": "Quickly show or hide the Feishu window"
     },
-    "windows": "Ctrl+Shift+W",
-    "mac": "⌘+Shift+W",
-    "linux": "Ctrl+Shift+W",
+    "windows": "Ctrl + Shift + W",
+    "mac": "⌘ ⇧ W",
+    "linux": "Ctrl + Shift + W",
     "keywords": [
       "显示",
       "隐藏",
@@ -872,9 +872,9 @@
       "zh": "放大飞书窗口缩放比例",
       "en": "Increase the Feishu window zoom level"
     },
-    "windows": "Ctrl+=",
+    "windows": "Ctrl + =",
     "mac": "⌘=",
-    "linux": "Ctrl+=",
+    "linux": "Ctrl + =",
     "keywords": [
       "放大",
       "窗口",
@@ -896,9 +896,9 @@
       "zh": "缩小飞书窗口缩放比例",
       "en": "Decrease the Feishu window zoom level"
     },
-    "windows": "Ctrl+-",
-    "mac": "⌘+-",
-    "linux": "Ctrl+-",
+    "windows": "Ctrl + -",
+    "mac": "⌘ -",
+    "linux": "Ctrl + -",
     "keywords": [
       "缩小",
       "窗口",
@@ -920,9 +920,9 @@
       "zh": "窗口缩放恢复默认",
       "en": "Reset the window zoom to default"
     },
-    "windows": "Ctrl+0",
-    "mac": "⌘+0",
-    "linux": "Ctrl+0",
+    "windows": "Ctrl + 0",
+    "mac": "⌘ 0",
+    "linux": "Ctrl + 0",
     "keywords": [
       "缩放",
       "100",
@@ -945,7 +945,7 @@
       "en": "Toggle Feishu window fullscreen"
     },
     "windows": "F11",
-    "mac": "⌘+⌃+F",
+    "mac": "⌘ ⌃ F",
     "linux": "F11",
     "keywords": [
       "全屏",

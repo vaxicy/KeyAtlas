@@ -60,8 +60,8 @@
       "zh": "创建和管理画板",
       "en": "Create and manage artboards"
     },
-    "windows": "Shift+O",
-    "mac": "Shift+O",
+    "windows": "Shift + O",
+    "mac": "⇧ O",
     "linux": "—",
     "keywords": [
       "画板",
@@ -229,8 +229,8 @@
       "zh": "批量复制排列元素为网格",
       "en": "Repeat elements in a grid pattern"
     },
-    "windows": "Shift+R",
-    "mac": "⌘+R",
+    "windows": "Shift + R",
+    "mac": "⌘ R",
     "linux": "—",
     "keywords": [
       "重复网格",
@@ -325,8 +325,8 @@
       "zh": "测量元素间距和尺寸",
       "en": "Measure distances and dimensions"
     },
-    "windows": "Shift+M",
-    "mac": "Shift+M",
+    "windows": "Shift + M",
+    "mac": "⇧ M",
     "linux": "—",
     "keywords": [
       "测量",
@@ -349,8 +349,8 @@
       "zh": "将选中的元素编为一组",
       "en": "Group selected elements"
     },
-    "windows": "Ctrl+G",
-    "mac": "⌘+G",
+    "windows": "Ctrl + G",
+    "mac": "⌘ G",
     "linux": "—",
     "keywords": [
       "编组",
@@ -372,8 +372,8 @@
       "zh": "取消元素的编组",
       "en": "Ungroup elements"
     },
-    "windows": "Ctrl+Shift+G",
-    "mac": "⌘+Shift+G",
+    "windows": "Ctrl + Shift + G",
+    "mac": "⌘ ⇧ G",
     "linux": "—",
     "keywords": [
       "取消编组",
@@ -395,8 +395,8 @@
       "zh": "复制并偏移一个副本",
       "en": "Duplicate with offset"
     },
-    "windows": "Ctrl+D",
-    "mac": "⌘+D",
+    "windows": "Ctrl + D",
+    "mac": "⌘ D",
     "linux": "—",
     "keywords": [
       "复制",
@@ -418,8 +418,8 @@
       "zh": "拷贝选中元素",
       "en": "Copy selected element"
     },
-    "windows": "Ctrl+C",
-    "mac": "⌘+C",
+    "windows": "Ctrl + C",
+    "mac": "⌘ C",
     "linux": "—",
     "keywords": [
       "拷贝",
@@ -441,8 +441,8 @@
       "zh": "粘贴元素",
       "en": "Paste element"
     },
-    "windows": "Ctrl+V",
-    "mac": "⌘+V",
+    "windows": "Ctrl + V",
+    "mac": "⌘ V",
     "linux": "—",
     "keywords": [
       "粘贴",
@@ -463,8 +463,8 @@
       "zh": "为选中的对象建立蒙版",
       "en": "Create mask for selected object"
     },
-    "windows": "Ctrl+Shift+M",
-    "mac": "⌘+Shift+M",
+    "windows": "Ctrl + Shift + M",
+    "mac": "⌘ ⇧ M",
     "linux": "—",
     "keywords": [
       "蒙版",
@@ -672,8 +672,8 @@
       "zh": "打开对齐与分布面板",
       "en": "Open Align & Distribute panel"
     },
-    "windows": "Ctrl+K",
-    "mac": "⌘+K",
+    "windows": "Ctrl + K",
+    "mac": "⌘ K",
     "linux": "—",
     "keywords": [
       "对齐面板",
@@ -720,8 +720,8 @@
       "zh": "导出选中的资源为图片/SVG/PDF",
       "en": "Export assets as images/SVG/PDF"
     },
-    "windows": "Ctrl+E",
-    "mac": "⌘+E",
+    "windows": "Ctrl + E",
+    "mac": "⌘ E",
     "linux": "—",
     "keywords": [
       "导出",
@@ -744,8 +744,8 @@
       "zh": "导出所有标记的资源",
       "en": "Export all marked assets"
     },
-    "windows": "Ctrl+Shift+E",
-    "mac": "⌘+Shift+E",
+    "windows": "Ctrl + Shift + E",
+    "mac": "⌘ ⇧ E",
     "linux": "—",
     "keywords": [
       "全部导出",
@@ -767,8 +767,8 @@
       "zh": "保存当前文档",
       "en": "Save current document"
     },
-    "windows": "Ctrl+S",
-    "mac": "⌘+S",
+    "windows": "Ctrl + S",
+    "mac": "⌘ S",
     "linux": "—",
     "keywords": [
       "保存",
@@ -790,8 +790,8 @@
       "zh": "撤销上一步操作",
       "en": "Undo last action"
     },
-    "windows": "Ctrl+Z",
-    "mac": "⌘+Z",
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
     "linux": "—",
     "keywords": [
       "撤销",
@@ -812,8 +812,8 @@
       "zh": "重做被撤销的操作",
       "en": "Redo undone action"
     },
-    "windows": "Ctrl+Shift+Z",
-    "mac": "⌘+Shift+Z",
+    "windows": "Ctrl + Shift + Z",
+    "mac": "⌘ ⇧ Z",
     "linux": "—",
     "keywords": [
       "重做",
@@ -834,8 +834,8 @@
       "zh": "创建新文档",
       "en": "Create new document"
     },
-    "windows": "Ctrl+N",
-    "mac": "⌘+N",
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
     "linux": "—",
     "keywords": [
       "新建",
@@ -857,8 +857,8 @@
       "zh": "打开已有文档",
       "en": "Open existing document"
     },
-    "windows": "Ctrl+O",
-    "mac": "⌘+O",
+    "windows": "Ctrl + O",
+    "mac": "⌘ O",
     "linux": "—",
     "keywords": [
       "打开",
@@ -880,8 +880,8 @@
       "zh": "关闭当前文档",
       "en": "Close current document"
     },
-    "windows": "Ctrl+W",
-    "mac": "⌘+W",
+    "windows": "Ctrl + W",
+    "mac": "⌘ W",
     "linux": "—",
     "keywords": [
       "关闭",
@@ -903,8 +903,8 @@
       "zh": "放大画布视图",
       "en": "Zoom in on canvas"
     },
-    "windows": "Ctrl++",
-    "mac": "⌘++",
+    "windows": "Ctrl + =",
+    "mac": "⌘ =",
     "linux": "—",
     "keywords": [
       "放大",
@@ -926,8 +926,8 @@
       "zh": "缩小画布视图",
       "en": "Zoom out from canvas"
     },
-    "windows": "Ctrl+-",
-    "mac": "⌘+-",
+    "windows": "Ctrl + -",
+    "mac": "⌘ -",
     "linux": "—",
     "keywords": [
       "缩小",
@@ -949,8 +949,8 @@
       "zh": "缩放以显示所有内容",
       "en": "Zoom to show all content"
     },
-    "windows": "Ctrl+1",
-    "mac": "⌘+1",
+    "windows": "Ctrl + 1",
+    "mac": "⌘ 1",
     "linux": "—",
     "keywords": [
       "适应全部",
@@ -972,8 +972,8 @@
       "zh": "缩放以显示选中的元素",
       "en": "Zoom to show selection"
     },
-    "windows": "Ctrl+2",
-    "mac": "⌘+2",
+    "windows": "Ctrl + 2",
+    "mac": "⌘ 2",
     "linux": "—",
     "keywords": [
       "适应选中",
@@ -995,8 +995,8 @@
       "zh": "锁定选中元素防止误编辑",
       "en": "Lock selected element from editing"
     },
-    "windows": "Ctrl+L",
-    "mac": "⌘+L",
+    "windows": "Ctrl + L",
+    "mac": "⌘ L",
     "linux": "—",
     "keywords": [
       "锁定",
@@ -1018,8 +1018,8 @@
       "zh": "隐藏选中元素",
       "en": "Hide selected element"
     },
-    "windows": "Ctrl+;",
-    "mac": "⌘+;",
+    "windows": "Ctrl + ;",
+    "mac": "⌘ ;",
     "linux": "—",
     "keywords": [
       "隐藏",
@@ -1064,8 +1064,8 @@
       "zh": "选中画板上的所有元素",
       "en": "Select all elements on artboard"
     },
-    "windows": "Ctrl+A",
-    "mac": "⌘+A",
+    "windows": "Ctrl + A",
+    "mac": "⌘ A",
     "linux": "—",
     "keywords": [
       "全选",
@@ -1086,8 +1086,8 @@
       "zh": "取消所有选择",
       "en": "Deselect everything"
     },
-    "windows": "Ctrl+Shift+A",
-    "mac": "⌘+Shift+A",
+    "windows": "Ctrl + Shift + A",
+    "mac": "⌘ ⇧ A",
     "linux": "—",
     "keywords": [
       "取消选择",
@@ -1109,8 +1109,8 @@
       "zh": "将元素上移一个层级",
       "en": "Bring element forward one level"
     },
-    "windows": "Ctrl+]",
-    "mac": "⌘+]",
+    "windows": "Ctrl + ]",
+    "mac": "⌘ ]",
     "linux": "—",
     "keywords": [
       "上移",
@@ -1133,8 +1133,8 @@
       "zh": "将元素下移一个层级",
       "en": "Send element back one level"
     },
-    "windows": "Ctrl+[",
-    "mac": "⌘+[",
+    "windows": "Ctrl + [",
+    "mac": "⌘ [",
     "linux": "—",
     "keywords": [
       "下移",
@@ -1156,8 +1156,8 @@
       "zh": "将元素移到最上层",
       "en": "Bring element to front"
     },
-    "windows": "Ctrl+Shift+]",
-    "mac": "⌘+Shift+]",
+    "windows": "Ctrl + Shift + ]",
+    "mac": "⌘ ⇧ ]",
     "linux": "—",
     "keywords": [
       "置顶",
@@ -1179,8 +1179,8 @@
       "zh": "将元素移到最下层",
       "en": "Send element to back"
     },
-    "windows": "Ctrl+Shift+[",
-    "mac": "⌘+Shift+[",
+    "windows": "Ctrl + Shift + [",
+    "mac": "⌘ ⇧ [",
     "linux": "—",
     "keywords": [
       "置底",
@@ -1202,8 +1202,8 @@
       "zh": "将选中元素转为可复用组件",
       "en": "Convert selection to reusable component"
     },
-    "windows": "Ctrl+K",
-    "mac": "⌘+K",
+    "windows": "Ctrl + K",
+    "mac": "⌘ K",
     "linux": "—",
     "keywords": [
       "组件",
@@ -1249,8 +1249,8 @@
       "zh": "断开实例与主组件的关联",
       "en": "Break link between instance and master"
     },
-    "windows": "Ctrl+Shift+K",
-    "mac": "⌘+Shift+K",
+    "windows": "Ctrl + Shift + K",
+    "mac": "⌘ ⇧ K",
     "linux": "—",
     "keywords": [
       "脱离",
@@ -1274,8 +1274,8 @@
       "zh": "按住 Cmd 拖动创建副本",
       "en": "Hold Cmd and drag to create copy"
     },
-    "windows": "(Ctrl+拖动)",
-    "mac": "(⌘+拖动)",
+    "windows": "(Ctrl + 拖动)",
+    "mac": "(⌘ 拖动)",
     "linux": "—",
     "keywords": [
       "副本",

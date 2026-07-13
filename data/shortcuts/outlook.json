@@ -12,8 +12,8 @@
       "zh": "创建新邮件或日历事件",
       "en": "Create a new message or calendar event"
     },
-    "windows": "Ctrl+N",
-    "mac": "⌘+N",
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
     "linux": "—",
     "keywords": [
       "新建",
@@ -37,8 +37,8 @@
       "zh": "回复邮件",
       "en": "Reply to the message"
     },
-    "windows": "Ctrl+R",
-    "mac": "⌘+R",
+    "windows": "Ctrl + R",
+    "mac": "⌘ R",
     "linux": "—",
     "keywords": [
       "回复",
@@ -60,8 +60,8 @@
       "zh": "回复发件人和所有收件人",
       "en": "Reply to sender and all recipients"
     },
-    "windows": "Ctrl+Shift+R",
-    "mac": "⌘+Shift+R",
+    "windows": "Ctrl + Shift + R",
+    "mac": "⌘ ⇧ R",
     "linux": "—",
     "keywords": [
       "回复全部",
@@ -83,8 +83,8 @@
       "zh": "转发邮件",
       "en": "Forward the message"
     },
-    "windows": "Ctrl+F",
-    "mac": "⌘+F",
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
     "linux": "—",
     "keywords": [
       "转发",
@@ -106,8 +106,8 @@
       "zh": "发送邮件",
       "en": "Send the email message"
     },
-    "windows": "Ctrl+Enter",
-    "mac": "⌘+Enter",
+    "windows": "Ctrl + Enter",
+    "mac": "⌘ Enter",
     "linux": "—",
     "keywords": [
       "发送",
@@ -129,8 +129,8 @@
       "zh": "在新窗口打开选中的邮件",
       "en": "Open the selected message in a new window"
     },
-    "windows": "Shift+Enter",
-    "mac": "⇧+Enter",
+    "windows": "Shift + Enter",
+    "mac": "⇧ Enter",
     "linux": "—",
     "keywords": [
       "新窗口",
@@ -175,9 +175,9 @@
       "zh": "永久删除选中的邮件或项目",
       "en": "Permanently delete the selected message or item"
     },
-    "windows": "Shift+Delete",
-    "mac": "⌘+Shift+Delete",
-    "linux": "Shift+Delete",
+    "windows": "Shift + Delete",
+    "mac": "⌘ ⇧ Delete",
+    "linux": "Shift + Delete",
     "keywords": [
       "永久删除",
       "delete",
@@ -198,8 +198,8 @@
       "zh": "将选中会话标记为已读",
       "en": "Mark the selected conversation as read"
     },
-    "windows": "Ctrl+Q",
-    "mac": "⌘+Q",
+    "windows": "Ctrl + Q",
+    "mac": "⌘ Q",
     "linux": "—",
     "keywords": [
       "已读",
@@ -221,8 +221,8 @@
       "zh": "将选中会话标记为未读",
       "en": "Mark the selected conversation as unread"
     },
-    "windows": "Ctrl+U",
-    "mac": "⌘+U",
+    "windows": "Ctrl + U",
+    "mac": "⌘ U",
     "linux": "—",
     "keywords": [
       "未读",
@@ -268,8 +268,8 @@
       "zh": "转到下一封邮件",
       "en": "Go to the next message"
     },
-    "windows": "Ctrl+>",
-    "mac": "⌘+>",
+    "windows": "Ctrl + >",
+    "mac": "⌘ >",
     "linux": "—",
     "keywords": [
       "下一封",
@@ -291,8 +291,8 @@
       "zh": "转到上一封邮件",
       "en": "Go to the previous message"
     },
-    "windows": "Ctrl+<",
-    "mac": "⌘+<",
+    "windows": "Ctrl + <",
+    "mac": "⌘ <",
     "linux": "—",
     "keywords": [
       "上一封",
@@ -315,7 +315,7 @@
       "en": "Go to the first message in the folder"
     },
     "windows": "Home",
-    "mac": "⌘+Home",
+    "mac": "⌘ Home",
     "linux": "Home",
     "keywords": [
       "第一封",
@@ -337,8 +337,8 @@
       "zh": "切换到邮件视图",
       "en": "Switch to the Mail view"
     },
-    "windows": "Ctrl+1",
-    "mac": "⌘+1",
+    "windows": "Ctrl + 1",
+    "mac": "⌘ 1",
     "linux": "—",
     "keywords": [
       "邮件",
@@ -360,8 +360,8 @@
       "zh": "切换到日历视图",
       "en": "Switch to the Calendar view"
     },
-    "windows": "Ctrl+2",
-    "mac": "⌘+2",
+    "windows": "Ctrl + 2",
+    "mac": "⌘ 2",
     "linux": "—",
     "keywords": [
       "日历",
@@ -383,8 +383,8 @@
       "zh": "切换到联系人视图",
       "en": "Switch to the People view"
     },
-    "windows": "Ctrl+4",
-    "mac": "⌘+4",
+    "windows": "Ctrl + 4",
+    "mac": "⌘ 4",
     "linux": "—",
     "keywords": [
       "联系人",
@@ -406,8 +406,8 @@
       "zh": "切换到待办视图",
       "en": "Switch to the To Do view"
     },
-    "windows": "Ctrl+5",
-    "mac": "⌘+5",
+    "windows": "Ctrl + 5",
+    "mac": "⌘ 5",
     "linux": "—",
     "keywords": [
       "待办",
@@ -429,8 +429,8 @@
       "zh": "转到文件夹窗格",
       "en": "Go to the Folder pane"
     },
-    "windows": "Ctrl+Y",
-    "mac": "⌘+Y",
+    "windows": "Ctrl + Y",
+    "mac": "⌘ Y",
     "linux": "—",
     "keywords": [
       "文件夹",
@@ -452,8 +452,8 @@
       "zh": "转到搜索框查找邮件",
       "en": "Go to the Search box to find an item"
     },
-    "windows": "Ctrl+E",
-    "mac": "⌘+E",
+    "windows": "Ctrl + E",
+    "mac": "⌘ E",
     "linux": "—",
     "keywords": [
       "搜索",
@@ -522,9 +522,9 @@
       "zh": "将选中内容复制到剪贴板",
       "en": "Copy the selection to the clipboard"
     },
-    "windows": "Ctrl+C",
-    "mac": "⌘+C",
-    "linux": "Ctrl+C",
+    "windows": "Ctrl + C",
+    "mac": "⌘ C",
+    "linux": "Ctrl + C",
     "keywords": [
       "复制",
       "copy"
@@ -544,9 +544,9 @@
       "zh": "剪切选中的文本",
       "en": "Cut the selected text"
     },
-    "windows": "Ctrl+X",
-    "mac": "⌘+X",
-    "linux": "Ctrl+X",
+    "windows": "Ctrl + X",
+    "mac": "⌘ X",
+    "linux": "Ctrl + X",
     "keywords": [
       "剪切",
       "cut"
@@ -566,9 +566,9 @@
       "zh": "从剪贴板粘贴内容",
       "en": "Paste content from the clipboard"
     },
-    "windows": "Ctrl+V",
-    "mac": "⌘+V",
-    "linux": "Ctrl+V",
+    "windows": "Ctrl + V",
+    "mac": "⌘ V",
+    "linux": "Ctrl + V",
     "keywords": [
       "粘贴",
       "paste"
@@ -588,9 +588,9 @@
       "zh": "撤销上一步操作",
       "en": "Reverse the most recent action"
     },
-    "windows": "Ctrl+Z",
-    "mac": "⌘+Z",
-    "linux": "Ctrl+Z",
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "Ctrl + Z",
     "keywords": [
       "撤销",
       "undo"
@@ -610,9 +610,9 @@
       "zh": "重做已撤销的操作",
       "en": "Repeat the most recent action"
     },
-    "windows": "Ctrl+Y",
-    "mac": "⌘+Y",
-    "linux": "Ctrl+Y",
+    "windows": "Ctrl + Y",
+    "mac": "⌘ Y",
+    "linux": "Ctrl + Y",
     "keywords": [
       "重做",
       "redo"
@@ -632,9 +632,9 @@
       "zh": "应用加粗格式",
       "en": "Apply bold formatting"
     },
-    "windows": "Ctrl+B",
-    "mac": "⌘+B",
-    "linux": "Ctrl+B",
+    "windows": "Ctrl + B",
+    "mac": "⌘ B",
+    "linux": "Ctrl + B",
     "keywords": [
       "加粗",
       "bold",
@@ -655,9 +655,9 @@
       "zh": "应用斜体格式",
       "en": "Apply italic formatting"
     },
-    "windows": "Ctrl+I",
-    "mac": "⌘+I",
-    "linux": "Ctrl+I",
+    "windows": "Ctrl + I",
+    "mac": "⌘ I",
+    "linux": "Ctrl + I",
     "keywords": [
       "斜体",
       "italic"
@@ -677,9 +677,9 @@
       "zh": "为文本添加下划线",
       "en": "Underline text"
     },
-    "windows": "Ctrl+U",
-    "mac": "⌘+U",
-    "linux": "Ctrl+U",
+    "windows": "Ctrl + U",
+    "mac": "⌘ U",
+    "linux": "Ctrl + U",
     "keywords": [
       "下划线",
       "underline"
@@ -699,9 +699,9 @@
       "zh": "插入超链接",
       "en": "Insert a hyperlink"
     },
-    "windows": "Ctrl+K",
-    "mac": "⌘+K",
-    "linux": "Ctrl+K",
+    "windows": "Ctrl + K",
+    "mac": "⌘ K",
+    "linux": "Ctrl + K",
     "keywords": [
       "链接",
       "link",
@@ -722,8 +722,8 @@
       "zh": "日历切换到日视图",
       "en": "Switch the calendar to Day view"
     },
-    "windows": "Ctrl+Alt+1",
-    "mac": "⌘+⌥+1",
+    "windows": "Ctrl + Alt + 1",
+    "mac": "⌘ ⌥ 1",
     "linux": "—",
     "keywords": [
       "日视图",
@@ -745,8 +745,8 @@
       "zh": "日历切换到周视图",
       "en": "Switch the calendar to Week view"
     },
-    "windows": "Ctrl+Alt+2",
-    "mac": "⌘+⌥+2",
+    "windows": "Ctrl + Alt + 2",
+    "mac": "⌘ ⌥ 2",
     "linux": "—",
     "keywords": [
       "周视图",
@@ -768,8 +768,8 @@
       "zh": "日历切换到月视图",
       "en": "Switch the calendar to Month view"
     },
-    "windows": "Ctrl+Alt+4",
-    "mac": "⌘+⌥+4",
+    "windows": "Ctrl + Alt + 4",
+    "mac": "⌘ ⌥ 4",
     "linux": "—",
     "keywords": [
       "月视图",
@@ -791,8 +791,8 @@
       "zh": "创建新联系人",
       "en": "Create a contact"
     },
-    "windows": "Ctrl+Shift+C",
-    "mac": "⌘+Shift+C",
+    "windows": "Ctrl + Shift + C",
+    "mac": "⌘ ⇧ C",
     "linux": "—",
     "keywords": [
       "联系人",
@@ -814,8 +814,8 @@
       "zh": "保存联系人",
       "en": "Save a contact or contact list"
     },
-    "windows": "Ctrl+S",
-    "mac": "⌘+S",
+    "windows": "Ctrl + S",
+    "mac": "⌘ S",
     "linux": "—",
     "keywords": [
       "保存",
@@ -837,8 +837,8 @@
       "zh": "选中所有联系人或联系人列表",
       "en": "Select all contacts or contact lists"
     },
-    "windows": "Ctrl+A",
-    "mac": "⌘+A",
+    "windows": "Ctrl + A",
+    "mac": "⌘ A",
     "linux": "—",
     "keywords": [
       "全选",
@@ -860,9 +860,9 @@
       "zh": "打印当前项目",
       "en": "Print the item"
     },
-    "windows": "Ctrl+P",
-    "mac": "⌘+P",
-    "linux": "Ctrl+P",
+    "windows": "Ctrl + P",
+    "mac": "⌘ P",
+    "linux": "Ctrl + P",
     "keywords": [
       "打印",
       "print"

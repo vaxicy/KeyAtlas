@@ -376,9 +376,9 @@
       "zh": "放大视图",
       "en": "Zoom in incrementally"
     },
-    "windows": "+ / = / Ctrl + +",
-    "mac": "/ = / ⌘",
-    "linux": "+ / = / Ctrl + +",
+    "windows": "= / = / Ctrl + =",
+    "mac": " / = / ⌘",
+    "linux": "= / = / Ctrl + =",
     "keywords": [
       "放大",
       "zoom in"
@@ -1306,9 +1306,9 @@
       "zh": "打开插件搜索运行面板",
       "en": "Open plugin panel"
     },
-    "windows": "Ctrl + /",
-    "mac": "⌘ /",
-    "linux": "Ctrl + /",
+    "windows": "Ctrl / ",
+    "mac": "⌘ / ",
+    "linux": "Ctrl / ",
     "keywords": [
       "插件",
       "plugin"

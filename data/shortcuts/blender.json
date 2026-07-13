@@ -120,8 +120,8 @@
       "en": "Subdivide"
     },
     "description": {
-      "zh": "细分选中的面",
-      "en": "Subdivide selected faces"
+      "zh": "细分选中的面（右键菜单）",
+      "en": "Subdivide selected faces (right-click menu)"
     },
     "windows": "Right Click > Subdivide",
     "mac": "Right Click > Subdivide",
@@ -142,8 +142,8 @@
       "en": "Shade Smooth"
     },
     "description": {
-      "zh": "将对象设为平滑着色",
-      "en": "Set smooth shading"
+      "zh": "将对象设为平滑着色（Object 菜单）",
+      "en": "Set smooth shading (Object menu)"
     },
     "windows": "— (Object menu)",
     "mac": "— (Object menu)",
@@ -161,8 +161,8 @@
     "type": "software",
     "category": "design",
     "name": {
-      "zh": "渲染",
-      "en": "Render"
+      "zh": "渲染图像",
+      "en": "Render Image"
     },
     "description": {
       "zh": "渲染当前帧",
@@ -175,7 +175,7 @@
       "渲染",
       "render"
     ],
-    "pinyin": "xuan ran xuanran x r xr xuan ran xuanran x r xr"
+    "pinyin": "xuan ran tu xiang xuanrantuxiang x r t x xrtx xuan ran xuanran x r xr"
   },
   {
     "id": "blender-render-animation",
@@ -232,8 +232,8 @@
       "en": "Loop Select"
     },
     "description": {
-      "zh": "选择一整圈顶点/边/面",
-      "en": "Select entire loop of vertices/edges/faces"
+      "zh": "选择一整圈顶点/边/面（编辑模式）",
+      "en": "Select entire loop of vertices/edges/faces (Edit Mode)"
     },
     "windows": "Alt + 左键点击 (Edit Mode)",
     "mac": "Option + Left click (Edit Mode)",
@@ -269,7 +269,7 @@
     "pinyin": "bi li bian ji bilibianji b l b j blbj bi li bian ji   shuai jian bilibianji shuaijian b l b j   s j blbj sj"
   },
   {
-    "id": "blender-shading-wire",
+    "id": "blender-wireframe",
     "appId": "blender",
     "type": "software",
     "category": "design",
@@ -278,12 +278,12 @@
       "en": "Wireframe Shading"
     },
     "description": {
-      "zh": "切换线框视图模式",
-      "en": "Toggle wireframe viewport shading"
+      "zh": "切换线框视图模式（Z 饼菜单）",
+      "en": "Toggle wireframe viewport shading (Z pie menu)"
     },
-    "windows": "Z (hold) or Z key twice",
-    "mac": "Z (hold) or Z key twice",
-    "linux": "Z (hold)",
+    "windows": "Z",
+    "mac": "Z",
+    "linux": "Z",
     "keywords": [
       "线框",
       "wireframe",
@@ -292,74 +292,7 @@
     "pinyin": "xian kuang xian shi xiankuangxianshi x k x s xkxs xian kuang   shi tu xiankuang shitu x k   s t xk st"
   },
   {
-    "id": "blender-blender-render",
-    "appId": "blender",
-    "type": "software",
-    "category": "design",
-    "name": {
-      "zh": "渲染图像",
-      "en": "Render Image"
-    },
-    "description": {
-      "zh": "渲染单帧",
-      "en": "Render image"
-    },
-    "windows": "F12",
-    "mac": "F12",
-    "linux": "F12",
-    "keywords": [
-      "渲染",
-      "render",
-      "图像"
-    ],
-    "pinyin": "xuan ran tu xiang xuanrantuxiang x r t x xrtx xuan ran   tu xiang xuanran tuxiang x r   t x xr tx"
-  },
-  {
-    "id": "blender-blender-anim",
-    "appId": "blender",
-    "type": "software",
-    "category": "design",
-    "name": {
-      "zh": "渲染动画",
-      "en": "Render Animation"
-    },
-    "description": {
-      "zh": "渲染动画",
-      "en": "Render animation"
-    },
-    "windows": "Ctrl+F12",
-    "mac": "Ctrl+F12",
-    "linux": "Ctrl+F12",
-    "keywords": [
-      "渲染动画",
-      "animation"
-    ],
-    "pinyin": "xuan ran dong hua xuanrandonghua x r d h xrdh xuan ran dong hua xuanrandonghua x r d h xrdh"
-  },
-  {
-    "id": "blender-blender-loopcut",
-    "appId": "blender",
-    "type": "software",
-    "category": "design",
-    "name": {
-      "zh": "环形切割",
-      "en": "Loop Cut"
-    },
-    "description": {
-      "zh": "环形切割",
-      "en": "Loop cut"
-    },
-    "windows": "Ctrl+R",
-    "mac": "Ctrl+R",
-    "linux": "Ctrl+R",
-    "keywords": [
-      "环形切割",
-      "loop cut"
-    ],
-    "pinyin": "huan xing qie ge huanxingqiege h x q g hxqg huan xing qie ge huanxingqiege h x q g hxqg"
-  },
-  {
-    "id": "blender-blender-knifecut",
+    "id": "blender-knifecut",
     "appId": "blender",
     "type": "software",
     "category": "design",
@@ -381,29 +314,7 @@
     "pinyin": "qie ge qiege q g qg qie ge qiege q g qg"
   },
   {
-    "id": "blender-blender-extrude",
-    "appId": "blender",
-    "type": "software",
-    "category": "design",
-    "name": {
-      "zh": "挤出",
-      "en": "Extrude"
-    },
-    "description": {
-      "zh": "挤出面/边",
-      "en": "Extrude"
-    },
-    "windows": "E",
-    "mac": "E",
-    "linux": "E",
-    "keywords": [
-      "挤出",
-      "extrude"
-    ],
-    "pinyin": "ji chu jichu j c jc ji chu jichu j c jc"
-  },
-  {
-    "id": "blender-blender-bevel",
+    "id": "blender-bevel",
     "appId": "blender",
     "type": "software",
     "category": "design",
@@ -425,118 +336,7 @@
     "pinyin": "dao jiao daojiao d j dj dao jiao daojiao d j dj"
   },
   {
-    "id": "blender-blender-scale",
-    "appId": "blender",
-    "type": "software",
-    "category": "design",
-    "name": {
-      "zh": "缩放",
-      "en": "Scale"
-    },
-    "description": {
-      "zh": "缩放物体",
-      "en": "Scale"
-    },
-    "windows": "S",
-    "mac": "S",
-    "linux": "S",
-    "keywords": [
-      "缩放",
-      "scale"
-    ],
-    "pinyin": "suo fang suofang s f sf suo fang suofang s f sf"
-  },
-  {
-    "id": "blender-blender-rotate",
-    "appId": "blender",
-    "type": "software",
-    "category": "design",
-    "name": {
-      "zh": "旋转",
-      "en": "Rotate"
-    },
-    "description": {
-      "zh": "旋转物体",
-      "en": "Rotate"
-    },
-    "windows": "R",
-    "mac": "R",
-    "linux": "R",
-    "keywords": [
-      "旋转",
-      "rotate"
-    ],
-    "pinyin": "xuan zhuan xuanzhuan x z xz xuan zhuan xuanzhuan x z xz"
-  },
-  {
-    "id": "blender-blender-grab",
-    "appId": "blender",
-    "type": "software",
-    "category": "design",
-    "name": {
-      "zh": "移动",
-      "en": "Move"
-    },
-    "description": {
-      "zh": "移动物体",
-      "en": "Move"
-    },
-    "windows": "G",
-    "mac": "G",
-    "linux": "G",
-    "keywords": [
-      "移动",
-      "grab",
-      "move"
-    ],
-    "pinyin": "yi dong yidong y d yd yi dong yidong y d yd"
-  },
-  {
-    "id": "blender-blender-proportional",
-    "appId": "blender",
-    "type": "software",
-    "category": "design",
-    "name": {
-      "zh": "比例编辑",
-      "en": "Proportional Edit"
-    },
-    "description": {
-      "zh": "开关比例编辑",
-      "en": "Proportional edit"
-    },
-    "windows": "O",
-    "mac": "O",
-    "linux": "O",
-    "keywords": [
-      "比例编辑",
-      "proportional"
-    ],
-    "pinyin": "bi li bian ji bilibianji b l b j blbj bi li bian ji bilibianji b l b j blbj"
-  },
-  {
-    "id": "blender-blender-wireframe",
-    "appId": "blender",
-    "type": "software",
-    "category": "design",
-    "name": {
-      "zh": "线框显示",
-      "en": "Wireframe"
-    },
-    "description": {
-      "zh": "线框模式",
-      "en": "Wireframe"
-    },
-    "windows": "Z then 4",
-    "mac": "Z then 4",
-    "linux": "Z then 4",
-    "keywords": [
-      "线框",
-      "wireframe"
-    ],
-    "pinyin": "xian kuang xian shi xiankuangxianshi x k x s xkxs xian kuang xiankuang x k xk"
-  },
-  {
-    "id": "blender-blender-solid",
+    "id": "blender-solid",
     "appId": "blender",
     "type": "software",
     "category": "design",
@@ -545,8 +345,8 @@
       "en": "Solid"
     },
     "description": {
-      "zh": "实体模式",
-      "en": "Solid"
+      "zh": "实体模式（Z 饼菜单选 6）",
+      "en": "Solid mode (Z pie menu → 6)"
     },
     "windows": "Z then 6",
     "mac": "Z then 6",
@@ -558,7 +358,7 @@
     "pinyin": "shi ti xian shi shitixianshi s t x s stxs shi ti shiti s t st"
   },
   {
-    "id": "blender-blender-render-view",
+    "id": "blender-rendered-view",
     "appId": "blender",
     "type": "software",
     "category": "design",
@@ -567,8 +367,8 @@
       "en": "Rendered View"
     },
     "description": {
-      "zh": "渲染预览",
-      "en": "Rendered view"
+      "zh": "渲染预览（Z 饼菜单选 8）",
+      "en": "Rendered view (Z pie menu → 8)"
     },
     "windows": "Z then 8",
     "mac": "Z then 8",
@@ -580,7 +380,7 @@
     "pinyin": "xuan ran shi tu xuanranshitu x r s t xrst xuan ran shi tu xuanranshitu x r s t xrst"
   },
   {
-    "id": "blender-blender-undo",
+    "id": "blender-undo",
     "appId": "blender",
     "type": "software",
     "category": "design",
@@ -602,7 +402,7 @@
     "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
   },
   {
-    "id": "blender-blender-redo",
+    "id": "blender-redo",
     "appId": "blender",
     "type": "software",
     "category": "design",
@@ -624,7 +424,7 @@
     "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
   },
   {
-    "id": "blender-blender-save",
+    "id": "blender-save",
     "appId": "blender",
     "type": "software",
     "category": "design",
@@ -646,30 +446,7 @@
     "pinyin": "bao cun baocun b c bc bao cun baocun b c bc"
   },
   {
-    "id": "blender-blender-tab",
-    "appId": "blender",
-    "type": "software",
-    "category": "design",
-    "name": {
-      "zh": "切换编辑模式",
-      "en": "Toggle Edit Mode"
-    },
-    "description": {
-      "zh": "物体/编辑模式切换",
-      "en": "Toggle edit mode"
-    },
-    "windows": "Tab",
-    "mac": "Tab",
-    "linux": "Tab",
-    "keywords": [
-      "编辑模式",
-      "edit mode",
-      "tab"
-    ],
-    "pinyin": "qie huan bian ji mo shi qiehuanbianjimoshi q h b j m s qhbjms bian ji mo shi bianjimoshi b j m s bjms"
-  },
-  {
-    "id": "blender-blender-duplicate",
+    "id": "blender-duplicate",
     "appId": "blender",
     "type": "software",
     "category": "design",
@@ -691,7 +468,7 @@
     "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
   },
   {
-    "id": "blender-blender-delete",
+    "id": "blender-delete",
     "appId": "blender",
     "type": "software",
     "category": "design",
@@ -700,8 +477,8 @@
       "en": "Delete"
     },
     "description": {
-      "zh": "删除物体",
-      "en": "Delete"
+      "zh": "删除物体（带确认）",
+      "en": "Delete (with confirmation)"
     },
     "windows": "X",
     "mac": "X",
@@ -713,7 +490,7 @@
     "pinyin": "shan chu shanchu s c sc shan chu shanchu s c sc"
   },
   {
-    "id": "blender-blender-camera",
+    "id": "blender-camera",
     "appId": "blender",
     "type": "software",
     "category": "design",

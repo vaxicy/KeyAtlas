@@ -1,1 +1,519 @@
-[{"id": "github-search", "appId": "github", "type": "software", "category": "development", "name": {"zh": "站内搜索", "en": "Search GitHub"}, "description": {"zh": "聚焦到搜索框（全局可用）", "en": "Focus the search bar (global)"}, "windows": "S 或 /", "mac": "S 或 /", "linux": "S 或 /", "keywords": ["搜索", "search"], "pinyin": "zhan nei sou suo zhanneisousuo z n s s znss sou suo sousuo s s ss"}, {"id": "github-new-issue-global", "appId": "github", "type": "software", "category": "development", "name": {"zh": "新建 Issue(全局)", "en": "New Issue (Global)"}, "description": {"zh": "打开新建 Issue 页面（全局快捷键）", "en": "Open new issue page (global shortcut)"}, "windows": ".", "mac": ".", "linux": ".", "keywords": ["issue", "新建"], "pinyin": "xin jian   i s s u e xinjian issue x j   i s s u e xj issue xin jian xinjian x j xj"}, {"id": "github-command-palette", "appId": "github", "type": "software", "category": "development", "name": {"zh": "命令面板", "en": "Command Palette"}, "description": {"zh": "打开 GitHub 命令面板（全局）", "en": "Open command palette (global)"}, "windows": "Ctrl+K", "mac": "⌘+K", "linux": "Ctrl+K", "keywords": ["命令", "command palette"], "pinyin": "ming ling mian ban minglingmianban m l m b mlmb ming ling mingling m l ml"}, {"id": "github-notification", "appId": "github", "type": "software", "category": "development", "name": {"zh": "通知中心", "en": "Notifications"}, "description": {"zh": "打开通知列表（G 然后 N）", "en": "Open notifications inbox (G then N)"}, "windows": "G 然后 N", "mac": "G 然后 N", "linux": "G then N", "keywords": ["通知", "notification"], "pinyin": "tong zhi zhong xin tongzhizhongxin t z z x tzzx tong zhi tongzhi t z tz"}, {"id": "github-new-repo-global", "appId": "github", "type": "software", "category": "development", "name": {"zh": "新建仓库(全局)", "en": "New Repository (Global)"}, "description": {"zh": "创建新仓库页面（G 然后 N 全局）", "en": "Go to new repository page (G then N global)"}, "windows": "G 然后 N (全局)", "mac": "G 然后 N (全局)", "linux": "G then N (global)", "keywords": ["新建仓库", "new repository", "repo"], "pinyin": "xin jian cang ku xinjiancangku x j c k xjck xin jian cang ku xinjiancangku x j c k xjck"}, {"id": "github-profile", "appId": "github", "type": "software", "category": "development", "name": {"zh": "个人主页", "en": "Your Profile"}, "description": {"zh": "跳转到你的个人主页", "en": "Go to your profile page"}, "windows": "G 然后 P", "mac": "G 然后 P", "linux": "G then P", "keywords": ["个人主页", "profile"], "pinyin": "ge ren zhu ye gerenzhuye g r zy grzy ge ren geren g r gr"}, {"id": "github-pull-requests", "appId": "github", "type": "software", "category": "development", "name": {"zh": "Pull Requests", "en": "Pull Requests"}, "description": {"zh": "跳转到 PR 列表页", "en": "Go to pull requests list"}, "windows": "G 然后 A", "mac": "G 然后 A", "linux": "G then A", "keywords": ["PR", "pull request", "合并请求"], "pinyin": "p u l l   r e q u e s t pull request p r q pr he bing qing qiu hebingqingqiu h b q q hbqq"}, {"id": "github-issues-list", "appId": "github", "type": "software", "category": "development", "name": {"zh": "Issues 列表", "en": "Issues List"}, "description": {"zh": "跳转到 Issues 列表页", "en": "Go to issues list"}, "windows": "G 然后 I", "mac": "G 然后 I", "linux": "G then I", "keywords": ["issues", "问题"], "pinyin": "i s s u e s lie biao issuesliebiao i s l b islb i s s u e issues i s is"}, {"id": "github-marketplace", "appId": "github", "type": "software", "category": "development", "name": {"zh": "Marketplace", "en": "Marketplace"}, "description": {"zh": "跳转到 GitHub Marketplace", "en": "Go to GitHub Marketplace"}, "windows": "G 然后 M", "mac": "G 然后 M", "linux": "G then M", "keywords": ["marketplace", "市场"], "pinyin": "m a r k e t p l a c e marketplace m k p l c mkpc marketplace mktplc"}, {"id": "github-explore", "appId": "github", "type": "software", "category": "development", "name": {"zh": "Explore 探索", "en": "Explore"}, "description": {"zh": "跳转到 GitHub Explore 探索页", "en": "Go to GitHub Explore"}, "windows": "G 然后 E", "mac": "G 然后 E", "linux": "G then E", "keywords": ["explore", "探索"], "pinyin": "e x p l o r e explore e x p l r explr explore explr e xpr"}, {"id": "github-filefinder", "appId": "github", "type": "software", "category": "development", "name": {"zh": "文件查找器", "en": "File Finder"}, "description": {"zh": "在仓库中快速查找文件（仓库页）", "en": "Find file in repo (repo page)"}, "windows": "T", "mac": "T", "linux": "T", "keywords": ["文件", "file", "finder"], "pinyin": "wen jian cha zhao qi wenjianchazhaoqi w j c z q wjczq wen jian wenjian w j wj"}, {"id": "github-blame", "appId": "github", "type": "software", "category": "development", "name": {"zh": "查看 Blame", "en": "Toggle Blame"}, "description": {"zh": "在文件视图切换 blame（仓库页）", "en": "Toggle blame view (repo page)"}, "windows": "B", "mac": "B", "linux": "B", "keywords": ["blame", "责任追溯"], "pinyin": "cha kan   b l a m e chakan blame c k   b l a m e ck blame ze ren zhui su zzzs"}, {"id": "github-gotoline", "appId": "github", "type": "software", "category": "development", "name": {"zh": "跳转到行", "en": "Go to Line"}, "description": {"zh": "在代码视图跳转到行（仓库页）", "en": "Jump to a line in code (repo page)"}, "windows": "L", "mac": "L", "linux": "L", "keywords": ["跳转", "line", "行号"], "pinyin": "tiao zhuan dao xing tiaozhuandaoxing t z d x tzdx tiao zhuan tiaozhuan t z tz hang hao h h hh"}, {"id": "github-createissue-repo", "appId": "github", "type": "software", "category": "development", "name": {"zh": "新建 Issue(仓库)", "en": "New Issue (Repo)"}, "description": {"zh": "在当前仓库创建新 issue（仓库页）", "en": "Create new issue in current repo (repo page)"}, "windows": "C", "mac": "C", "linux": "C", "keywords": ["issue", "新建"], "pinyin": "xin jian   i s s u e xinjian issue x j   i s s u e xj issue xin jian xinjian x j xj"}, {"id": "github-submit-comment", "appId": "github", "type": "software", "category": "development", "name": {"zh": "提交评论", "en": "Submit Comment"}, "description": {"zh": "提交当前评论（编辑框内）", "en": "Submit the comment (in editor)"}, "windows": "Ctrl+Enter", "mac": "⌘+Enter", "linux": "Ctrl+Enter", "keywords": ["提交", "submit", "comment"], "pinyin": "ti jiao ping lun tijiaopinglun t j p l tjpl ti jiao tijiao t j tj"}, {"id": "github-star-repo", "appId": "github", "type": "software", "category": "development", "name": {"zh": "收藏/取消收藏仓库", "en": "Star / Unstar Repo"}, "description": {"zh": "为当前仓库添加或移除星标（仓库页）", "en": "Star or unstar current repository (repo page)"}, "windows": "S (仓库页)", "mac": "S (仓库页)", "linux": "S (repo page)", "keywords": ["star", "收藏", "星标"], "pinyin": "shou cang / qu xiao shou cang shoucang/quxiaoshoucang s c / q x sc/qxsc shou cang xing biao shoucangxingbiao s c xb scxb"}, {"id": "github-new-pr-repo", "appId": "github", "type": "software", "category": "development", "name": {"zh": "新建 PR(仓库)", "en": "New Pull Request (Repo)"}, "description": {"zh": "创建新的 Pull Request（仓库页，P 键）", "en": "Create new pull request (repo page, P key)"}, "windows": "P (仓库页)", "mac": "P (仓库页)", "linux": "P (repo page)", "keywords": ["PR", "pull request", "合并请求"], "pinyin": "xin jian   p u l l   r e q u e s t xinjian pull request x j plrqst xj pr he bing qing qiu hbqq"}, {"id": "github-view-diff", "appId": "github", "type": "software", "category": "development", "name": {"zh": "查看 Diff", "en": "View Diff"}, "description": {"zh": "在 PR/commit 页面查看差异", "en": "View file changes diff (PR/commit page)"}, "windows": "D (PR/commit 页)", "mac": "D (PR/commit 页)", "linux": "D (PR/commit page)", "keywords": ["diff", "差异", "变更"], "pinyin": "cha kan   d i f f chakan diff c k   d i f f ck diff cha yi   bian geng chayi biangeng c y bg cy bg"}, {"id": "github-open-code-viewer", "appId": "github", "type": "software", "category": "development", "name": {"zh": "打开 Code Viewer", "en": "Open Code Viewer"}, "description": {"zh": "打开 GitHub 代码查看器（源码编辑器，I 键）", "en": "Open code viewer (source editor, I key)"}, "windows": "I (文件视图)", "mac": "I (文件视图)", "linux": "I (file view)", "keywords": ["code viewer", "代码查看器"], "pinyin": "da kai code viewer dakai codeviewer dk cvr da kai viewer dk vr"}, {"id": "github-copy-file-path", "appId": "github", "type": "software", "category": "development", "name": {"zh": "复制文件路径", "en": "Copy File Path"}, "description": {"zh": "复制当前文件的完整路径（Y 键）", "en": "Copy full path of current file (Y key)"}, "windows": "Y (文件视图)", "mac": "Y (文件视图)", "linux": "Y (file view)", "keywords": ["路径", "path", "copy"], "pinyin": "fu zhi wen jian lu jing fuziwenjianlujing f z w jl fzwlj fu zhi fuzhi f z fz"}, {"id": "github-toggle-whitespace", "appId": "github", "type": "software", "category": "development", "name": {"zh": "显示/隐藏空白字符", "en": "Toggle Whitespace"}, "description": {"zh": "切换空白字符的可见性（Diff 视图 Space 键）", "en": "Toggle whitespace visibility (Space in diff view)"}, "windows": "Space (Diff 视图)", "mac": "Space (Diff 视图)", "linux": "Space (diff view)", "keywords": ["空白", "whitespace"], "pinyin": "xian shi yin cang kong bai zi fu xianshiyincangkongaizifu x y kzf xykzf xian shi yin cang xsyc"}, {"id": "github-collapse-comments", "appId": "github", "type": "software", "category": "development", "name": {"zh": "折叠所有对话评论", "en": "Collapse All Comments"}, "description": {"zh": "折叠 PR 中的所有对话评论（W 键）", "en": "Collapse all conversation comments (W key)"}, "windows": "W (PR 文件视图)", "mac": "W (PR 文件视图)", "linux": "W (PR file view)", "keywords": ["折叠", "collapse", "评论"], "pinyin": "zhe die suo you dui hua ping lun zhediesuoyouduihuapinglun z s d hp l zsdhpl zhe die ping lun zhediepinglun z pl zdpl"}, {"id": "github-expand-all-replies", "appId": "github", "type": "software", "category": "development", "name": {"zh": "展开所有回复", "en": "Expand All Replies"}, "description": {"zh": "展开所有隐藏的回复（Shift+E）", "en": "Expand all hidden replies (Shift+E)"}, "windows": "Shift+E", "mac": "Shift+E", "linux": "Shift+E", "keywords": ["展开", "expand", "回复"], "pinyin": "zhan kai suo you hui fu zhankaisuoyouhuifu z k sy hf zkshyhf zhan kai hui fu zhankaihuifu z k hf zk hf"}]
+[
+  {
+    "id": "github-search",
+    "appId": "github",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "站内搜索",
+      "en": "Search GitHub"
+    },
+    "description": {
+      "zh": "聚焦到搜索框（全局可用）",
+      "en": "Focus the search bar (global)"
+    },
+    "windows": "S 或 /",
+    "mac": "S 或 /",
+    "linux": "S 或 /",
+    "keywords": [
+      "搜索",
+      "search"
+    ],
+    "pinyin": "zhan nei sou suo zhanneisousuo z n s s znss sou suo sousuo s s ss"
+  },
+  {
+    "id": "github-new-issue-global",
+    "appId": "github",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "新建 Issue(全局)",
+      "en": "New Issue (Global)"
+    },
+    "description": {
+      "zh": "打开新建 Issue 页面（全局快捷键）",
+      "en": "Open new issue page (global shortcut)"
+    },
+    "windows": ".",
+    "mac": ".",
+    "linux": ".",
+    "keywords": [
+      "issue",
+      "新建"
+    ],
+    "pinyin": "xin jian   i s s u e ( quan ju ) xinjian issue(quanju) x j   i s s u e ( q j ) xj issue(qj) xin jian xinjian x j xj"
+  },
+  {
+    "id": "github-command-palette",
+    "appId": "github",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "命令面板",
+      "en": "Command Palette"
+    },
+    "description": {
+      "zh": "打开 GitHub 命令面板（全局）",
+      "en": "Open command palette (global)"
+    },
+    "windows": "Ctrl+K",
+    "mac": "⌘+K",
+    "linux": "Ctrl+K",
+    "keywords": [
+      "命令",
+      "command palette"
+    ],
+    "pinyin": "ming ling mian ban minglingmianban m l m b mlmb ming ling mingling m l ml"
+  },
+  {
+    "id": "github-notification",
+    "appId": "github",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "通知中心",
+      "en": "Notifications"
+    },
+    "description": {
+      "zh": "打开通知列表（G 然后 N）",
+      "en": "Open notifications inbox (G then N)"
+    },
+    "windows": "G 然后 N",
+    "mac": "G 然后 N",
+    "linux": "G then N",
+    "keywords": [
+      "通知",
+      "notification"
+    ],
+    "pinyin": "tong zhi zhong xin tongzhizhongxin t z z x tzzx tong zhi tongzhi t z tz"
+  },
+  {
+    "id": "github-new-repo-global",
+    "appId": "github",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "新建仓库(全局)",
+      "en": "New Repository (Global)"
+    },
+    "description": {
+      "zh": "创建新仓库页面（G 然后 N 全局）",
+      "en": "Go to new repository page (G then N global)"
+    },
+    "windows": "G 然后 N (全局)",
+    "mac": "G 然后 N (全局)",
+    "linux": "G then N (global)",
+    "keywords": [
+      "新建仓库",
+      "new repository",
+      "repo"
+    ],
+    "pinyin": "xin jian cang ku ( quan ju ) xinjiancangku(quanju) x j c k ( q j ) xjck(qj) xin jian cang ku xinjiancangku x j c k xjck"
+  },
+  {
+    "id": "github-profile",
+    "appId": "github",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "个人主页",
+      "en": "Your Profile"
+    },
+    "description": {
+      "zh": "跳转到你的个人主页",
+      "en": "Go to your profile page"
+    },
+    "windows": "G 然后 P",
+    "mac": "G 然后 P",
+    "linux": "G then P",
+    "keywords": [
+      "个人主页",
+      "profile"
+    ],
+    "pinyin": "ge ren zhu ye gerenzhuye g r z y grzy ge ren zhu ye gerenzhuye g r z y grzy"
+  },
+  {
+    "id": "github-pull-requests",
+    "appId": "github",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "Pull Requests",
+      "en": "Pull Requests"
+    },
+    "description": {
+      "zh": "跳转到 PR 列表页",
+      "en": "Go to pull requests list"
+    },
+    "windows": "G 然后 A",
+    "mac": "G 然后 A",
+    "linux": "G then A",
+    "keywords": [
+      "PR",
+      "pull request",
+      "合并请求"
+    ],
+    "pinyin": "p u l l   r e q u e s t s pull requests p u l l   r e q u e s t s pull requests he bing qing qiu hebingqingqiu h b q q hbqq"
+  },
+  {
+    "id": "github-issues-list",
+    "appId": "github",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "Issues 列表",
+      "en": "Issues List"
+    },
+    "description": {
+      "zh": "跳转到 Issues 列表页",
+      "en": "Go to issues list"
+    },
+    "windows": "G 然后 I",
+    "mac": "G 然后 I",
+    "linux": "G then I",
+    "keywords": [
+      "issues",
+      "问题"
+    ],
+    "pinyin": "i s s u e s   lie biao issues liebiao i s s u e s   l b issues lb wen ti wenti w t wt"
+  },
+  {
+    "id": "github-marketplace",
+    "appId": "github",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "Marketplace",
+      "en": "Marketplace"
+    },
+    "description": {
+      "zh": "跳转到 GitHub Marketplace",
+      "en": "Go to GitHub Marketplace"
+    },
+    "windows": "G 然后 M",
+    "mac": "G 然后 M",
+    "linux": "G then M",
+    "keywords": [
+      "marketplace",
+      "市场"
+    ],
+    "pinyin": "m a r k e t p l a c e marketplace m a r k e t p l a c e marketplace shi chang shichang s c sc"
+  },
+  {
+    "id": "github-explore",
+    "appId": "github",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "Explore 探索",
+      "en": "Explore"
+    },
+    "description": {
+      "zh": "跳转到 GitHub Explore 探索页",
+      "en": "Go to GitHub Explore"
+    },
+    "windows": "G 然后 E",
+    "mac": "G 然后 E",
+    "linux": "G then E",
+    "keywords": [
+      "explore",
+      "探索"
+    ],
+    "pinyin": "e x p l o r e   tan suo explore tansuo e x p l o r e   t s explore ts tan suo tansuo t s ts"
+  },
+  {
+    "id": "github-filefinder",
+    "appId": "github",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "文件查找器",
+      "en": "File Finder"
+    },
+    "description": {
+      "zh": "在仓库中快速查找文件（仓库页）",
+      "en": "Find file in repo (repo page)"
+    },
+    "windows": "T",
+    "mac": "T",
+    "linux": "T",
+    "keywords": [
+      "文件",
+      "file",
+      "finder"
+    ],
+    "pinyin": "wen jian cha zhao qi wenjianchazhaoqi w j c z q wjczq wen jian wenjian w j wj"
+  },
+  {
+    "id": "github-blame",
+    "appId": "github",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "查看 Blame",
+      "en": "Toggle Blame"
+    },
+    "description": {
+      "zh": "在文件视图切换 blame（仓库页）",
+      "en": "Toggle blame view (repo page)"
+    },
+    "windows": "B",
+    "mac": "B",
+    "linux": "B",
+    "keywords": [
+      "blame",
+      "责任追溯"
+    ],
+    "pinyin": "cha kan   b l a m e chakan blame c k   b l a m e ck blame ze ren zhui su zerenzhuisu z r z s zrzs"
+  },
+  {
+    "id": "github-gotoline",
+    "appId": "github",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "跳转到行",
+      "en": "Go to Line"
+    },
+    "description": {
+      "zh": "在代码视图跳转到行（仓库页）",
+      "en": "Jump to a line in code (repo page)"
+    },
+    "windows": "L",
+    "mac": "L",
+    "linux": "L",
+    "keywords": [
+      "跳转",
+      "line",
+      "行号"
+    ],
+    "pinyin": "tiao zhuan dao xing tiaozhuandaoxing t z d x tzdx tiao zhuan   hang hao tiaozhuan hanghao t z   h h tz hh"
+  },
+  {
+    "id": "github-createissue-repo",
+    "appId": "github",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "新建 Issue(仓库)",
+      "en": "New Issue (Repo)"
+    },
+    "description": {
+      "zh": "在当前仓库创建新 issue（仓库页）",
+      "en": "Create new issue in current repo (repo page)"
+    },
+    "windows": "C",
+    "mac": "C",
+    "linux": "C",
+    "keywords": [
+      "issue",
+      "新建"
+    ],
+    "pinyin": "xin jian   i s s u e ( cang ku ) xinjian issue(cangku) x j   i s s u e ( c k ) xj issue(ck) xin jian xinjian x j xj"
+  },
+  {
+    "id": "github-submit-comment",
+    "appId": "github",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "提交评论",
+      "en": "Submit Comment"
+    },
+    "description": {
+      "zh": "提交当前评论（编辑框内）",
+      "en": "Submit the comment (in editor)"
+    },
+    "windows": "Ctrl+Enter",
+    "mac": "⌘+Enter",
+    "linux": "Ctrl+Enter",
+    "keywords": [
+      "提交",
+      "submit",
+      "comment"
+    ],
+    "pinyin": "ti jiao ping lun tijiaopinglun t j p l tjpl ti jiao tijiao t j tj"
+  },
+  {
+    "id": "github-star-repo",
+    "appId": "github",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "收藏/取消收藏仓库",
+      "en": "Star / Unstar Repo"
+    },
+    "description": {
+      "zh": "为当前仓库添加或移除星标（仓库页）",
+      "en": "Star or unstar current repository (repo page)"
+    },
+    "windows": "S (仓库页)",
+    "mac": "S (仓库页)",
+    "linux": "S (repo page)",
+    "keywords": [
+      "star",
+      "收藏",
+      "星标"
+    ],
+    "pinyin": "shou cang / qu xiao shou cang cang ku shoucang/quxiaoshoucangcangku s c / q x s c c k sc/qxscck shou cang   xing biao shoucang xingbiao s c   x b sc xb"
+  },
+  {
+    "id": "github-new-pr-repo",
+    "appId": "github",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "新建 PR(仓库)",
+      "en": "New Pull Request (Repo)"
+    },
+    "description": {
+      "zh": "创建新的 Pull Request（仓库页，P 键）",
+      "en": "Create new pull request (repo page, P key)"
+    },
+    "windows": "P (仓库页)",
+    "mac": "P (仓库页)",
+    "linux": "P (repo page)",
+    "keywords": [
+      "PR",
+      "pull request",
+      "合并请求"
+    ],
+    "pinyin": "xin jian   p r ( cang ku ) xinjian pr(cangku) x j   p r ( c k ) xj pr(ck) he bing qing qiu hebingqingqiu h b q q hbqq"
+  },
+  {
+    "id": "github-view-diff",
+    "appId": "github",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "查看 Diff",
+      "en": "View Diff"
+    },
+    "description": {
+      "zh": "在 PR/commit 页面查看差异",
+      "en": "View file changes diff (PR/commit page)"
+    },
+    "windows": "D (PR/commit 页)",
+    "mac": "D (PR/commit 页)",
+    "linux": "D (PR/commit page)",
+    "keywords": [
+      "diff",
+      "差异",
+      "变更"
+    ],
+    "pinyin": "cha kan   d i f f chakan diff c k   d i f f ck diff cha yi   bian geng chayi biangeng c y   b g cy bg"
+  },
+  {
+    "id": "github-open-code-viewer",
+    "appId": "github",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "打开 Code Viewer",
+      "en": "Open Code Viewer"
+    },
+    "description": {
+      "zh": "打开 GitHub 代码查看器（源码编辑器，I 键）",
+      "en": "Open code viewer (source editor, I key)"
+    },
+    "windows": "I (文件视图)",
+    "mac": "I (文件视图)",
+    "linux": "I (file view)",
+    "keywords": [
+      "code viewer",
+      "代码查看器"
+    ],
+    "pinyin": "da kai   c o d e   v i e w e r dakai code viewer d k   c o d e   v i e w e r dk code viewer dai ma cha kan qi daimachakanqi d m c k q dmckq"
+  },
+  {
+    "id": "github-copy-file-path",
+    "appId": "github",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "复制文件路径",
+      "en": "Copy File Path"
+    },
+    "description": {
+      "zh": "复制当前文件的完整路径（Y 键）",
+      "en": "Copy full path of current file (Y key)"
+    },
+    "windows": "Y (文件视图)",
+    "mac": "Y (文件视图)",
+    "linux": "Y (file view)",
+    "keywords": [
+      "路径",
+      "path",
+      "copy"
+    ],
+    "pinyin": "fu zhi wen jian lu jing fuzhiwenjianlujing f z w j l j fzwjlj lu jing lujing l j lj"
+  },
+  {
+    "id": "github-toggle-whitespace",
+    "appId": "github",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "显示/隐藏空白字符",
+      "en": "Toggle Whitespace"
+    },
+    "description": {
+      "zh": "切换空白字符的可见性（Diff 视图 Space 键）",
+      "en": "Toggle whitespace visibility (Space in diff view)"
+    },
+    "windows": "Space (Diff 视图)",
+    "mac": "Space (Diff 视图)",
+    "linux": "Space (diff view)",
+    "keywords": [
+      "空白",
+      "whitespace"
+    ],
+    "pinyin": "xian shi / yin cang kong bai zi fu xianshi/yincangkongbaizifu x s / y c k b z f xs/yckbzf kong bai kongbai k b kb"
+  },
+  {
+    "id": "github-collapse-comments",
+    "appId": "github",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "折叠所有对话评论",
+      "en": "Collapse All Comments"
+    },
+    "description": {
+      "zh": "折叠 PR 中的所有对话评论（W 键）",
+      "en": "Collapse all conversation comments (W key)"
+    },
+    "windows": "W (PR 文件视图)",
+    "mac": "W (PR 文件视图)",
+    "linux": "W (PR file view)",
+    "keywords": [
+      "折叠",
+      "collapse",
+      "评论"
+    ],
+    "pinyin": "zhe die suo you dui hua ping lun zhediesuoyouduihuapinglun z d s y d h p l zdsydhpl zhe die   ping lun zhedie pinglun z d   p l zd pl"
+  },
+  {
+    "id": "github-expand-all-replies",
+    "appId": "github",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "展开所有回复",
+      "en": "Expand All Replies"
+    },
+    "description": {
+      "zh": "展开所有隐藏的回复（Shift+E）",
+      "en": "Expand all hidden replies (Shift+E)"
+    },
+    "windows": "Shift+E",
+    "mac": "Shift+E",
+    "linux": "Shift+E",
+    "keywords": [
+      "展开",
+      "expand",
+      "回复"
+    ],
+    "pinyin": "zhan kai suo you hui fu zhankaisuoyouhuifu z k s y h f zksyhf zhan kai   hui fu zhankai huifu z k   h f zk hf"
+  }
+]

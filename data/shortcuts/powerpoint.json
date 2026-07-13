@@ -1,1 +1,1130 @@
-[{"id": "ppt-newslide", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "新建幻灯片", "en": "New Slide"}, "description": {"zh": "插入新幻灯片", "en": "Insert a new slide"}, "windows": "Ctrl+M", "mac": "⌘+Shift+N", "linux": "Ctrl+M", "keywords": ["新建幻灯片", "new slide", "幻灯片"], "pinyin": "xin jian huan deng pian xinjianhuandengpian xj hdp xjhdp huan deng pian huandengpian hdp hdp"}, {"id": "ppt-duplicateslide", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "复制幻灯片", "en": "Duplicate Slide"}, "description": {"zh": "复制当前幻灯片", "en": "Duplicate current slide"}, "windows": "Ctrl+D / Ctrl+Shift+D", "mac": "⌘+Shift+D", "linux": "Ctrl+D", "keywords": ["复制幻灯片", "duplicate slide", "复制"], "pinyin": "fu zhi huan deng pian fuzhihuandengpian fz hdp fzhd p fu zhi huan deng pian fuzhihuandengpian fz hdp fzhd p"}, {"id": "ppt-save", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "保存", "en": "Save"}, "description": {"zh": "保存演示文稿", "en": "Save presentation"}, "windows": "Ctrl+S", "mac": "⌘+S", "linux": "Ctrl+S", "keywords": ["保存", "save"], "pinyin": "bao cun baocun b c bc bao cun baocun b c bc"}, {"id": "ppt-open", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "打开", "en": "Open"}, "description": {"zh": "打开演示文稿", "en": "Open presentation"}, "windows": "Ctrl+O", "mac": "⌘+O", "linux": "Ctrl+O", "keywords": ["打开", "open"], "pinyin": "da kai dakai d k dk da kai dakai d k dk"}, {"id": "ppt-print", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "打印", "en": "Print"}, "description": {"zh": "打印演示文稿", "en": "Print presentation"}, "windows": "Ctrl+P", "mac": "⌘+P", "linux": "Ctrl+P", "keywords": ["打印", "print"], "pinyin": "da yin dayin d y dy da yin dayin d y dy"}, {"id": "ppt-close", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "关闭", "en": "Close"}, "description": {"zh": "关闭当前演示文稿", "en": "Close presentation"}, "windows": "Ctrl+W", "mac": "⌘+W", "linux": "Ctrl+W", "keywords": ["关闭", "close"], "pinyin": "guan bi guanbi g b gb guan bi guanbi g b gb"}, {"id": "ppt-undo", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "撤销", "en": "Undo"}, "description": {"zh": "撤销上一步操作", "en": "Undo last action"}, "windows": "Ctrl+Z", "mac": "⌘+Z", "linux": "Ctrl+Z", "keywords": ["撤销", "undo"], "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"}, {"id": "ppt-redo", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "重做", "en": "Redo"}, "description": {"zh": "恢复撤销的操作", "en": "Redo undone action"}, "windows": "Ctrl+Y", "mac": "⌘+Y / ⌘+Shift+Z", "linux": "Ctrl+Y", "keywords": ["重做", "redo"], "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"}, {"id": "ppt-cut", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "剪切", "en": "Cut"}, "description": {"zh": "剪切选中对象到剪贴板", "en": "Cut selection to clipboard"}, "windows": "Ctrl+X", "mac": "⌘+X", "linux": "Ctrl+X", "keywords": ["剪切", "cut"], "pinyin": "jian qie jianqie j q jq jian qie jianqie j q jq"}, {"id": "ppt-copy", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "复制", "en": "Copy"}, "description": {"zh": "复制选中对象到剪贴板", "en": "Copy selection to clipboard"}, "windows": "Ctrl+C", "mac": "⌘+C", "linux": "Ctrl+C", "keywords": ["复制", "copy"], "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"}, {"id": "ppt-paste", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "粘贴", "en": "Paste"}, "description": {"zh": "粘贴剪贴板内容", "en": "Paste from clipboard"}, "windows": "Ctrl+V", "mac": "⌘+V", "linux": "Ctrl+V", "keywords": ["粘贴", "paste"], "pinyin": "nian tie niantie n t nt nian tie niantie n t nt"}, {"id": "ppt-selectall", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "全选", "en": "Select All"}, "description": {"zh": "选中当前幻灯片中所有对象", "en": "Select all objects on slide"}, "windows": "Ctrl+A", "mac": "⌘+A", "linux": "Ctrl+A", "keywords": ["全选", "select all"], "pinyin": "quan xuan quanxuan q x qx quan xuan quanxuan q x qx"}, {"id": "ppt-find", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "查找", "en": "Find"}, "description": {"zh": "在演示文稿中查找文本", "en": "Find text in presentation"}, "windows": "Ctrl+F", "mac": "⌘+F", "linux": "Ctrl+F", "keywords": ["查找", "find", "搜索"], "pinyin": "cha zhao chazhao c z cz cha zhao chazhao c z cz"}, {"id": "ppt-replace", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "替换", "en": "Replace"}, "description": {"zh": "查找并替换文本", "en": "Find and replace"}, "windows": "Ctrl+H", "mac": "⌘+H", "linux": "Ctrl+H", "keywords": ["替换", "replace"], "pinyin": "ti huan tihuan t th ti huan tihuan t th"}, {"id": "ppt-bold", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "加粗", "en": "Bold"}, "description": {"zh": "将文字加粗", "en": "Make text bold"}, "windows": "Ctrl+B", "mac": "⌘+B", "linux": "Ctrl+B", "keywords": ["加粗", "bold"], "pinyin": "jia cu jiacu j c jc jia cu jiacu j c jc"}, {"id": "ppt-italic", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "斜体", "en": "Italic"}, "description": {"zh": "将文字设为斜体", "en": "Make text italic"}, "windows": "Ctrl+I", "mac": "⌘+I", "linux": "Ctrl+I", "keywords": ["斜体", "italic"], "pinyin": "xie ti xieti x t xt xie ti xieti x t xt"}, {"id": "ppt-underline", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "下划线", "en": "Underline"}, "description": {"zh": "为文字添加下划线", "en": "Underline text"}, "windows": "Ctrl+U", "mac": "⌘+U", "linux": "Ctrl+U", "keywords": ["下划线", "underline"], "pinyin": "xia hua xian xiahuaxian x h xhx xia hua xian xiahuaxian x h xhx"}, {"id": "ppt-alignleft", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "左对齐", "en": "Align Left"}, "description": {"zh": "文字左对齐", "en": "Align text left"}, "windows": "Ctrl+L", "mac": "⌘+L", "linux": "Ctrl+L", "keywords": ["左对齐", "align left"], "pinyin": "zuo dui qi zuoduiqi z d q zdq zuo dui qi zuoduiqi z d q zdq"}, {"id": "ppt-aligncenter", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "居中对齐", "en": "Center Align"}, "description": {"zh": "文字居中对齐", "en": "Center align text"}, "windows": "Ctrl+E", "mac": "⌘+E", "linux": "Ctrl+E", "keywords": ["居中", "center align"], "pinyin": "ju zhong dui qi juzhongduiqi j z dq jqzdq ju zhong dui qi juzhongduiqi j z dq jqzdq"}, {"id": "ppt-alignright", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "右对齐", "en": "Align Right"}, "description": {"zh": "文字右对齐", "en": "Align text right"}, "windows": "Ctrl+R", "mac": "⌘+R", "linux": "Ctrl+R", "keywords": ["右对齐", "align right"], "pinyin": "you dui qi youduiqi y d q ydq you dui qi youduiqi y d q ydq"}, {"id": "ppt-alignjustify", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "两端对齐", "en": "Justify"}, "description": {"zh": "文字两端对齐", "en": "Justify text"}, "windows": "Ctrl+J", "mac": "⌘+J", "linux": "Ctrl+J", "keywords": ["两端对齐", "justify"], "pinyin": "liang duan dui qi liangduanduiqi l d dq lddq liang duan dui qi liangduanduiqi l d dq lddq"}, {"id": "ppt-group", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "组合", "en": "Group"}, "description": {"zh": "组合选中的多个对象", "en": "Group selected objects"}, "windows": "Ctrl+G", "mac": "⌘+Option+G / ⌘+Ctrl+G", "linux": "Ctrl+G", "keywords": ["组合", "group"], "pinyin": "zu he zuhe zh zh zu he zuhe zh zh"}, {"id": "ppt-ungroup", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "取消组合", "en": "Ungroup"}, "description": {"zh": "取消对象组合", "en": "Ungroup objects"}, "windows": "Ctrl+Shift+G", "mac": "⌘+Option+Shift+G / ⌘+Ctrl+Shift+G", "linux": "Ctrl+Shift+G", "keywords": ["取消组合", "ungroup"], "pinyin": "qu xiao zu he quxiaozuhe qxzh qxzh qu xiao zu he quxiaozuhe qxzh qxzh"}, {"id": "ppt-slideshow-start", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "从头开始放映", "en": "Start From Beginning"}, "description": {"zh": "从第一张幻灯片开始放映", "en": "Start slideshow from first slide"}, "windows": "F5", "mac": "⌘+Shift+Return", "linux": "F5", "keywords": ["从头放映", "slideshow start", "放映"], "pinyin": "cong tou kai shi fang ying congtoukaishifangying ctksfy ctksfy cong tou kai shi fang ying congtoukaishifangying ctksfy ctksfy"}, {"id": "ppt-slideshow-current", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "从当前幻灯片放映", "en": "From Current Slide"}, "description": {"zh": "从当前幻灯片开始放映", "en": "Start slideshow from current slide"}, "windows": "Shift+F5", "mac": "⌘+Return", "linux": "Shift+F5", "keywords": ["当前放映", "current slide show"], "pinyin": "cong dang qian huan deng pian fang ying cdqhdpfy cdqhdpfy cong dang qian huan deng pian fang ying cdqhdpfy cdqhdpfy"}, {"id": "ppt-slideshow-end", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "结束放映", "en": "End Show"}, "description": {"zh": "退出幻灯片放映模式", "en": "Exit slideshow mode"}, "windows": "Esc", "mac": "Esc", "linux": "Esc", "keywords": ["结束", "end show", "esc"], "pinyin": "jie shu fang ying jieshufangying jsfy jsfy jie shu fang ying jieshufangying jsfy jsfy"}, {"id": "pt-show-nextslide", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "下一张(放映中)", "en": "Next Slide (During Show)"}, "description": {"zh": "放映模式下切换到下一张", "en": "Go to next slide during slideshow"}, "windows": "→ / Space / Page Down / N / Enter", "mac": "→ / Space / Page Down / N / Enter", "linux": "→ / Space / Page Down", "keywords": ["下一张", "next slide"], "pinyin": "xia yi zhang (fang ying zhong) xyz(fyz) xyz(fyz) xia yi zhang (fang ying zhong) xyz(fyz) xyz(fyz)"}, {"id": "ppt-show-prevslide", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "上一张(放映中)", "en": "Previous Slide (During Show)"}, "description": {"zh": "放映模式下切换到上一张", "en": "Go to previous slide during slideshow"}, "windows": "← / Page Up / P", "mac": "← / Page Up / P", "linux": "← / Page Up", "keywords": ["上一张", "previous slide"], "pinyin": "shang yi zhang (fang ying zhong) syz(fyz) syz(fyz) shang yi zhang (fang ying zhong) syz(fyz) syz(fyz)"}, {"id": "ppt-show-gotoslide", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "定位到指定幻灯片(放映中)", "en": "Go to Slide Number (During Show)"}, "description": {"zh": "输入数字后按 Enter 跳转到对应幻灯片", "en": "Type number then press Enter to jump to slide"}, "windows": "数字键 + Enter", "mac": "数字键 + Enter", "linux": "数字键 + Enter", "keywords": ["定位", "go to slide number"], "pinyin": "ding wei dao zhi ding huan deng pian (fang ying zhong) dwdzdhdp(fyz) dwdzdhdp(fyz) ding wei dao zhi ding huan deng pian (fang ying zhong) dwdzdhdp(fyz) dwdzdhdp(fyz)"}, {"id": "ppt-show-black", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "黑屏(放映中)", "en": "Black Screen (During Show)"}, "description": {"zh": "放映时屏幕变黑(再按一次恢复)", "en": "Black out screen during show (press again to restore)"}, "windows": "B / . (句号)", "mac": "B / . (句号)", "linux": "B", "keywords": ["黑屏", "black screen"], "pinyin": "hei ping (fang ying zhong) hp(fyz) hp(fyz) hei ping (fang ying zhong) hp(fyz) hp(fyz)"}, {"id": "ppt-show-white", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "白屏(放映中)", "en": "White Screen (During Show)"}, "description": {"zh": "放映时屏幕变白(再按一次恢复)", "en": "White out screen during show (press again to restore)"}, "windows": "W / , (逗号)", "mac": "W / , (逗号)", "linux": "W", "keywords": ["白屏", "white screen"], "pinyin": "bai ping (fang ying zhong) bp(fyz) bp(fyz) bai ping (fang ying zhong) bp(fyz) bp(fyz)"}, {"id": "ppt-show-laserpointer", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "激光笔(放映中)", "en": "Laser Pointer (During Show)"}, "description": {"zh": "显示激光笔指针", "en": "Turn on laser pointer during show"}, "windows": "Ctrl+L", "mac": "⌘+L", "linux": "—", "keywords": ["激光笔", "laser pointer"], "pinyin": "ji guang bi (fang ying zhong) jgb(fyz) jgb(fyz) ji guang bi (fang ying zhong) jgb(fyz) jgb(fyz)"}, {"id": "ppt-show-pen", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "画笔/荧光笔(放映中)", "en": "Pen/Highlighter (During Show)"}, "description": {"zh": "切换到画笔或荧光笔标注工具", "en": "Switch to pen or highlighter annotation tool"}, "windows": "Ctrl+P", "mac": "⌘+P", "linux": "—", "keywords": ["画笔", "荧光笔", "pen highlighter"], "pinyin": "hua bi ying guang bi (fang ying zhong) hbygb(fyz) hbygb(fyz) hua bi ying guang bi (fang ying zhong) hbygb(fyz) hbygb(fyz)"}, {"id": "ppt-show-eraser", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "橡皮擦(放映中)", "en": "Eraser (During Show)"}, "description": {"zh": "清除墨迹标注", "en": "Erase ink annotations"}, "windows": "E", "mac": "E", "linux": "—", "keywords": ["橡皮擦", "eraser"], "pinyin": "xiang pi ca (fang ying zhong) xpc(fyz) xpc(fyz) xiang pi ca (fang ying zhong) xpc(fyz) xpc(fyz)"}, {"id": "ppt-show-hide-pointer", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "隐藏鼠标指针(放映中)", "en": "Hide Pointer (During Show)"}, "description": {"zh": "隐藏鼠标指针和导航按钮", "en": "Hide pointer and navigation buttons"}, "windows": "H", "mac": "H", "linux": "—", "keywords": ["隐藏指针", "hide pointer"], "pinyin": "yin cang shu biao zhi zhen (fang ying zhong) ycsbz(fyz) ycsbz(fyz) yin cang shu biao zhi zhen (fang ying zhong) ycsbz(fyz) ycsbz(fyz)"}, {"id": "ppt-show-shortcut-menu", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "显示快捷菜单(放映中)", "en": "Shortcut Menu (During Show)"}, "description": {"zh": "显示幻灯片放映快捷菜单", "en": "Display slideshow shortcut menu"}, "windows": "Shift+F10 或 右键单击", "mac": "⌘+Shift+? 或 Ctrl+单击", "linux": "—", "keywords": ["快捷菜单", "shortcut menu"], "pinyin": "xian shi kuai jie cai dan (fang ying zhong) xskjcd(fyz) xskjcd(fyz) xian shi kuai jie cai dan (fang ying zhong) xskjcd(fyz) xskjcd(fyz)"}, {"id": "ppt-view-normal", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "普通视图", "en": "Normal View"}, "description": {"zh": "切换到普通视图(默认视图)", "en": "Switch to normal view (default)"}, "windows": "Alt H V N", "mac": "⌘+1", "linux": "—", "keywords": ["普通视图", "normal view"], "pinyin": "pu tong shi tu putongshitu ptst ptst pu tong shi tu putongshitu ptst ptst"}, {"id": "ppt-view-outline", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "大纲视图", "en": "Outline View"}, "description": {"zh": "切换到大纲视图", "en": "Switch to outline view"}, "windows": "Alt H V O", "mac": "⌘+4", "linux": "—", "keywords": ["大纲视图", "outline view"], "pinyin": "da gang shi tu dagangshitu dgst dgst da gang shi tu dagangshitu dgst dgst"}, {"id": "ppt-view-sorter", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "幻灯片浏览", "en": "Slide Sorter View"}, "description": {"zh": "切换到幻灯片浏览视图", "en": "Switch to slide sorter view"}, "windows": "Alt H V D", "mac": "⌘+2", "linux": "—", "keywords": ["浏览", "slide sorter"], "pinyin": "huan deng pian liu lan hdpll hdpll huan deng pian liu lan huandengpianliulan hdpll hdpll"}, {"id": "ppt-view-notes", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "备注页视图", "en": "Notes Page View"}, "description": {"zh": "切换到备注页视图", "en": "Switch to notes page view"}, "windows": "Alt H V P", "mac": "⌘+3", "linux": "—", "keywords": ["备注", "notes page"], "pinyin": "bei zhu ye shi tu bzyst bzyst bei zhu ye shi tu bzyst bzyst"}, {"id": "ppt-view-reading", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "阅读视图", "en": "Reading View"}, "description": {"zh": "切换到阅读视图", "en": "Switch to reading view"}, "windows": "Alt H V R", "mac": "⌘+Option+R", "linux": "—", "keywords": ["阅读", "reading view"], "pinyin": "yue du shi tu ydst ydst yue du shi tu ydst ydst"}, {"id": "ppt-view-presenter", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "演示者视图", "en": "Presenter View"}, "description": {"zh": "进入演示者视图(双屏模式)", "en": "Enter presenter view (dual-screen mode)"}, "windows": "Alt+F5", "mac": "⌘+Option+Return", "linux": "—", "keywords": ["演示者", "presenter view"], "pinyin": "yan shi zhe shi tu yszst yszst yan shi zhe shi tu yszst yszst"}, {"id": "ppt-insert-textbox", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "插入文本框", "en": "Insert Text Box"}, "description": {"zh": "插入文本框", "en": "Insert a text box"}, "windows": "Alt N X", "mac": "⌘+Option+T", "linux": "—", "keywords": ["文本框", "text box"], "pinyin": "cha ru wen ben kuang crwbk crwbk cha ru wen ben kuang crwbk crwbk"}, {"id": "ppt-insert-picture", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "插入图片", "en": "Insert Picture"}, "description": {"zh": "插入图片", "en": "Insert picture"}, "windows": "Alt N P", "mac": "⌘+Shift+Option+I", "linux": "—", "keywords": ["图片", "picture"], "pinyin": "cha ru tu pian crtp crtp cha ru tu pian crtp crtp"}, {"id": "ppt-insert-shape", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "插入形状", "en": "Insert Shape"}, "description": {"zh": "插入形状", "en": "Insert shape"}, "windows": "Alt N SH", "mac": "⌘+Shift+Option+U", "linux": "—", "keywords": ["形状", "shape"], "pinyin": "cha ru xing zhuang crxz crxz cha ru xing zhuang crxz crxz"}, {"id": "ppt-insert-chart", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "插入图表", "en": "Insert Chart"}, "description": {"zh": "插入图表", "en": "Insert chart"}, "windows": "Alt N C", "mac": "—", "linux": "—", "keywords": ["图表", "chart"], "pinyin": "cha ru tu biao crtb crtb cha ru tu biao crtb crtb"}, {"id": "ppt-format-font-dialog", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "字体对话框", "en": "Font Dialog Box"}, "description": {"zh": "打开字体设置对话框", "en": "Open font dialog box"}, "windows": "Ctrl+T", "mac": "⌘+D", "linux": "Ctrl+T", "keywords": ["字体", "font dialog"], "pinyin": "zi ti dui hua kuang ztdhk ztdhk zi ti dui hua kuang ztdhk ztdhk"}, {"id": "ppt-new-window", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "新窗口", "en": "New Window"}, "description": {"zh": "新建窗口查看同一演示文稿", "en": "Open new window for same presentation"}, "windows": "Alt W N", "mac": "—", "linux": "—", "keywords": ["新窗口", "new window"], "pinyin": "xin chuang kou xck xck xin chuang kou xck xck"}, {"id": "ppt-mac-insert-blank-slide", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "插入空白幻灯片(Mac)", "en": "Insert Blank Slide (Mac)"}, "description": {"zh": "插入空白幻灯片(Mac专用)", "en": "Insert blank slide (Mac only)"}, "windows": "—", "mac": "⌘+Shift+M", "linux": "—", "keywords": ["空白幻灯片", "blank slide"], "pinyin": "cha ru kong bai huan deng pian (Mac) crkbhp(Mac) crkbhp(Mac) cha ru kong bai huan deng pian (Mac) crkbhp(Mac) crkbhp(Mac)"}, {"id": "ppt-mac-spelling", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "拼写检查(Mac)", "en": "Spelling (Mac)"}, "description": {"zh": "拼写检查(Mac专用)", "en": "Spelling check (Mac only)"}, "windows": "—", "mac": "⌘+;", "linux": "—", "keywords": ["拼写", "spelling"], "pinyin": "pin xie jian cha (Mac) pxjc(Mac) pxjc(Mac) pin xie jian cha (Mac) pxjc(Mac) pxjc(Mac)"}, {"id": "ppt-mac-dictionary", "appId": "powerpoint", "type": "software", "category": "productivity", "name": {"zh": "词典面板(Mac)", "en": "Dictionary Panel (Mac)"}, "description": {"zh": "打开词典面板(Mac专用)", "en": "Open dictionary panel (Mac only)"}, "windows": "—", "mac": "⌘+Option+Shift+R", "linux": "—", "keywords": ["词典", "dictionary"], "pinyin": "ci dian mian ban (Mac) cdmb(Mac) cdmb(Mac) ci dian mian ban (Mac) cdmb(Mac) cdmb(Mac)"}]
+[
+  {
+    "id": "ppt-newslide",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "新建幻灯片",
+      "en": "New Slide"
+    },
+    "description": {
+      "zh": "插入新幻灯片",
+      "en": "Insert a new slide"
+    },
+    "windows": "Ctrl+M",
+    "mac": "⌘+Shift+N",
+    "linux": "Ctrl+M",
+    "keywords": [
+      "新建幻灯片",
+      "new slide",
+      "幻灯片"
+    ],
+    "pinyin": "xin jian huan deng pian xinjianhuandengpian x j h d p xjhdp xin jian huan deng pian   huan deng pian xinjianhuandengpian huandengpian x j h d p   h d p xjhdp hdp"
+  },
+  {
+    "id": "ppt-duplicateslide",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "复制幻灯片",
+      "en": "Duplicate Slide"
+    },
+    "description": {
+      "zh": "复制当前幻灯片",
+      "en": "Duplicate current slide"
+    },
+    "windows": "Ctrl+D / Ctrl+Shift+D",
+    "mac": "⌘+Shift+D",
+    "linux": "Ctrl+D",
+    "keywords": [
+      "复制幻灯片",
+      "duplicate slide",
+      "复制"
+    ],
+    "pinyin": "fu zhi huan deng pian fuzhihuandengpian f z h d p fzhdp fu zhi huan deng pian   fu zhi fuzhihuandengpian fuzhi f z h d p   f z fzhdp fz"
+  },
+  {
+    "id": "ppt-save",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "保存",
+      "en": "Save"
+    },
+    "description": {
+      "zh": "保存演示文稿",
+      "en": "Save presentation"
+    },
+    "windows": "Ctrl+S",
+    "mac": "⌘+S",
+    "linux": "Ctrl+S",
+    "keywords": [
+      "保存",
+      "save"
+    ],
+    "pinyin": "bao cun baocun b c bc bao cun baocun b c bc"
+  },
+  {
+    "id": "ppt-open",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "打开",
+      "en": "Open"
+    },
+    "description": {
+      "zh": "打开演示文稿",
+      "en": "Open presentation"
+    },
+    "windows": "Ctrl+O",
+    "mac": "⌘+O",
+    "linux": "Ctrl+O",
+    "keywords": [
+      "打开",
+      "open"
+    ],
+    "pinyin": "da kai dakai d k dk da kai dakai d k dk"
+  },
+  {
+    "id": "ppt-print",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "打印",
+      "en": "Print"
+    },
+    "description": {
+      "zh": "打印演示文稿",
+      "en": "Print presentation"
+    },
+    "windows": "Ctrl+P",
+    "mac": "⌘+P",
+    "linux": "Ctrl+P",
+    "keywords": [
+      "打印",
+      "print"
+    ],
+    "pinyin": "da yin dayin d y dy da yin dayin d y dy"
+  },
+  {
+    "id": "ppt-close",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "关闭",
+      "en": "Close"
+    },
+    "description": {
+      "zh": "关闭当前演示文稿",
+      "en": "Close presentation"
+    },
+    "windows": "Ctrl+W",
+    "mac": "⌘+W",
+    "linux": "Ctrl+W",
+    "keywords": [
+      "关闭",
+      "close"
+    ],
+    "pinyin": "guan bi guanbi g b gb guan bi guanbi g b gb"
+  },
+  {
+    "id": "ppt-undo",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销上一步操作",
+      "en": "Undo last action"
+    },
+    "windows": "Ctrl+Z",
+    "mac": "⌘+Z",
+    "linux": "Ctrl+Z",
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "ppt-redo",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "恢复撤销的操作",
+      "en": "Redo undone action"
+    },
+    "windows": "Ctrl+Y",
+    "mac": "⌘+Y / ⌘+Shift+Z",
+    "linux": "Ctrl+Y",
+    "keywords": [
+      "重做",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "ppt-cut",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "剪切",
+      "en": "Cut"
+    },
+    "description": {
+      "zh": "剪切选中对象到剪贴板",
+      "en": "Cut selection to clipboard"
+    },
+    "windows": "Ctrl+X",
+    "mac": "⌘+X",
+    "linux": "Ctrl+X",
+    "keywords": [
+      "剪切",
+      "cut"
+    ],
+    "pinyin": "jian qie jianqie j q jq jian qie jianqie j q jq"
+  },
+  {
+    "id": "ppt-copy",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "复制",
+      "en": "Copy"
+    },
+    "description": {
+      "zh": "复制选中对象到剪贴板",
+      "en": "Copy selection to clipboard"
+    },
+    "windows": "Ctrl+C",
+    "mac": "⌘+C",
+    "linux": "Ctrl+C",
+    "keywords": [
+      "复制",
+      "copy"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "ppt-paste",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "粘贴",
+      "en": "Paste"
+    },
+    "description": {
+      "zh": "粘贴剪贴板内容",
+      "en": "Paste from clipboard"
+    },
+    "windows": "Ctrl+V",
+    "mac": "⌘+V",
+    "linux": "Ctrl+V",
+    "keywords": [
+      "粘贴",
+      "paste"
+    ],
+    "pinyin": "nian tie niantie n t nt nian tie niantie n t nt"
+  },
+  {
+    "id": "ppt-selectall",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "全选",
+      "en": "Select All"
+    },
+    "description": {
+      "zh": "选中当前幻灯片中所有对象",
+      "en": "Select all objects on slide"
+    },
+    "windows": "Ctrl+A",
+    "mac": "⌘+A",
+    "linux": "Ctrl+A",
+    "keywords": [
+      "全选",
+      "select all"
+    ],
+    "pinyin": "quan xuan quanxuan q x qx quan xuan quanxuan q x qx"
+  },
+  {
+    "id": "ppt-find",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "查找",
+      "en": "Find"
+    },
+    "description": {
+      "zh": "在演示文稿中查找文本",
+      "en": "Find text in presentation"
+    },
+    "windows": "Ctrl+F",
+    "mac": "⌘+F",
+    "linux": "Ctrl+F",
+    "keywords": [
+      "查找",
+      "find",
+      "搜索"
+    ],
+    "pinyin": "cha zhao chazhao c z cz cha zhao   sou suo chazhao sousuo c z   s s cz ss"
+  },
+  {
+    "id": "ppt-replace",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "替换",
+      "en": "Replace"
+    },
+    "description": {
+      "zh": "查找并替换文本",
+      "en": "Find and replace"
+    },
+    "windows": "Ctrl+H",
+    "mac": "⌘+H",
+    "linux": "Ctrl+H",
+    "keywords": [
+      "替换",
+      "replace"
+    ],
+    "pinyin": "ti huan tihuan t h th ti huan tihuan t h th"
+  },
+  {
+    "id": "ppt-bold",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "加粗",
+      "en": "Bold"
+    },
+    "description": {
+      "zh": "将文字加粗",
+      "en": "Make text bold"
+    },
+    "windows": "Ctrl+B",
+    "mac": "⌘+B",
+    "linux": "Ctrl+B",
+    "keywords": [
+      "加粗",
+      "bold"
+    ],
+    "pinyin": "jia cu jiacu j c jc jia cu jiacu j c jc"
+  },
+  {
+    "id": "ppt-italic",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "斜体",
+      "en": "Italic"
+    },
+    "description": {
+      "zh": "将文字设为斜体",
+      "en": "Make text italic"
+    },
+    "windows": "Ctrl+I",
+    "mac": "⌘+I",
+    "linux": "Ctrl+I",
+    "keywords": [
+      "斜体",
+      "italic"
+    ],
+    "pinyin": "xie ti xieti x t xt xie ti xieti x t xt"
+  },
+  {
+    "id": "ppt-underline",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "下划线",
+      "en": "Underline"
+    },
+    "description": {
+      "zh": "为文字添加下划线",
+      "en": "Underline text"
+    },
+    "windows": "Ctrl+U",
+    "mac": "⌘+U",
+    "linux": "Ctrl+U",
+    "keywords": [
+      "下划线",
+      "underline"
+    ],
+    "pinyin": "xia hua xian xiahuaxian x h x xhx xia hua xian xiahuaxian x h x xhx"
+  },
+  {
+    "id": "ppt-alignleft",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "左对齐",
+      "en": "Align Left"
+    },
+    "description": {
+      "zh": "文字左对齐",
+      "en": "Align text left"
+    },
+    "windows": "Ctrl+L",
+    "mac": "⌘+L",
+    "linux": "Ctrl+L",
+    "keywords": [
+      "左对齐",
+      "align left"
+    ],
+    "pinyin": "zuo dui qi zuoduiqi z d q zdq zuo dui qi zuoduiqi z d q zdq"
+  },
+  {
+    "id": "ppt-aligncenter",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "居中对齐",
+      "en": "Center Align"
+    },
+    "description": {
+      "zh": "文字居中对齐",
+      "en": "Center align text"
+    },
+    "windows": "Ctrl+E",
+    "mac": "⌘+E",
+    "linux": "Ctrl+E",
+    "keywords": [
+      "居中",
+      "center align"
+    ],
+    "pinyin": "ju zhong dui qi juzhongduiqi j z d q jzdq ju zhong juzhong j z jz"
+  },
+  {
+    "id": "ppt-alignright",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "右对齐",
+      "en": "Align Right"
+    },
+    "description": {
+      "zh": "文字右对齐",
+      "en": "Align text right"
+    },
+    "windows": "Ctrl+R",
+    "mac": "⌘+R",
+    "linux": "Ctrl+R",
+    "keywords": [
+      "右对齐",
+      "align right"
+    ],
+    "pinyin": "you dui qi youduiqi y d q ydq you dui qi youduiqi y d q ydq"
+  },
+  {
+    "id": "ppt-alignjustify",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "两端对齐",
+      "en": "Justify"
+    },
+    "description": {
+      "zh": "文字两端对齐",
+      "en": "Justify text"
+    },
+    "windows": "Ctrl+J",
+    "mac": "⌘+J",
+    "linux": "Ctrl+J",
+    "keywords": [
+      "两端对齐",
+      "justify"
+    ],
+    "pinyin": "liang duan dui qi liangduanduiqi l d d q lddq liang duan dui qi liangduanduiqi l d d q lddq"
+  },
+  {
+    "id": "ppt-group",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "组合",
+      "en": "Group"
+    },
+    "description": {
+      "zh": "组合选中的多个对象",
+      "en": "Group selected objects"
+    },
+    "windows": "Ctrl+G",
+    "mac": "⌘+Option+G / ⌘+Ctrl+G",
+    "linux": "Ctrl+G",
+    "keywords": [
+      "组合",
+      "group"
+    ],
+    "pinyin": "zu he zuhe z h zh zu he zuhe z h zh"
+  },
+  {
+    "id": "ppt-ungroup",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "取消组合",
+      "en": "Ungroup"
+    },
+    "description": {
+      "zh": "取消对象组合",
+      "en": "Ungroup objects"
+    },
+    "windows": "Ctrl+Shift+G",
+    "mac": "⌘+Option+Shift+G / ⌘+Ctrl+Shift+G",
+    "linux": "Ctrl+Shift+G",
+    "keywords": [
+      "取消组合",
+      "ungroup"
+    ],
+    "pinyin": "qu xiao zu he quxiaozuhe q x z h qxzh qu xiao zu he quxiaozuhe q x z h qxzh"
+  },
+  {
+    "id": "ppt-slideshow-start",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "从头开始放映",
+      "en": "Start From Beginning"
+    },
+    "description": {
+      "zh": "从第一张幻灯片开始放映",
+      "en": "Start slideshow from first slide"
+    },
+    "windows": "F5",
+    "mac": "⌘+Shift+Return",
+    "linux": "F5",
+    "keywords": [
+      "从头放映",
+      "slideshow start",
+      "放映"
+    ],
+    "pinyin": "cong tou kai shi fang ying congtoukaishifangying c t k s f y ctksfy cong tou fang ying   fang ying congtoufangying fangying c t f y   f y ctfy fy"
+  },
+  {
+    "id": "ppt-slideshow-current",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "从当前幻灯片放映",
+      "en": "From Current Slide"
+    },
+    "description": {
+      "zh": "从当前幻灯片开始放映",
+      "en": "Start slideshow from current slide"
+    },
+    "windows": "Shift+F5",
+    "mac": "⌘+Return",
+    "linux": "Shift+F5",
+    "keywords": [
+      "当前放映",
+      "current slide show"
+    ],
+    "pinyin": "cong dang qian huan deng pian fang ying congdangqianhuandengpianfangying c d q h d p f y cdqhdpfy dang qian fang ying dangqianfangying d q f y dqfy"
+  },
+  {
+    "id": "ppt-slideshow-end",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "结束放映",
+      "en": "End Show"
+    },
+    "description": {
+      "zh": "退出幻灯片放映模式",
+      "en": "Exit slideshow mode"
+    },
+    "windows": "Esc",
+    "mac": "Esc",
+    "linux": "Esc",
+    "keywords": [
+      "结束",
+      "end show",
+      "esc"
+    ],
+    "pinyin": "jie shu fang ying jieshufangying j s f y jsfy jie shu jieshu j s js"
+  },
+  {
+    "id": "pt-show-nextslide",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "下一张(放映中)",
+      "en": "Next Slide (During Show)"
+    },
+    "description": {
+      "zh": "放映模式下切换到下一张",
+      "en": "Go to next slide during slideshow"
+    },
+    "windows": "→ / Space / Page Down / N / Enter",
+    "mac": "→ / Space / Page Down / N / Enter",
+    "linux": "→ / Space / Page Down",
+    "keywords": [
+      "下一张",
+      "next slide"
+    ],
+    "pinyin": "xia yi zhang ( fang ying zhong ) xiayizhang(fangyingzhong) x y z ( f y z ) xyz(fyz) xia yi zhang xiayizhang x y z xyz"
+  },
+  {
+    "id": "ppt-show-prevslide",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "上一张(放映中)",
+      "en": "Previous Slide (During Show)"
+    },
+    "description": {
+      "zh": "放映模式下切换到上一张",
+      "en": "Go to previous slide during slideshow"
+    },
+    "windows": "← / Page Up / P",
+    "mac": "← / Page Up / P",
+    "linux": "← / Page Up",
+    "keywords": [
+      "上一张",
+      "previous slide"
+    ],
+    "pinyin": "shang yi zhang ( fang ying zhong ) shangyizhang(fangyingzhong) s y z ( f y z ) syz(fyz) shang yi zhang shangyizhang s y z syz"
+  },
+  {
+    "id": "ppt-show-gotoslide",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "定位到指定幻灯片(放映中)",
+      "en": "Go to Slide Number (During Show)"
+    },
+    "description": {
+      "zh": "输入数字后按 Enter 跳转到对应幻灯片",
+      "en": "Type number then press Enter to jump to slide"
+    },
+    "windows": "数字键 + Enter",
+    "mac": "数字键 + Enter",
+    "linux": "数字键 + Enter",
+    "keywords": [
+      "定位",
+      "go to slide number"
+    ],
+    "pinyin": "ding wei dao zhi ding huan deng pian ( fang ying zhong ) dingweidaozhidinghuandengpian(fangyingzhong) d w d z d h d p ( f y z ) dwdzdhdp(fyz) ding wei dingwei d w dw"
+  },
+  {
+    "id": "ppt-show-black",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "黑屏(放映中)",
+      "en": "Black Screen (During Show)"
+    },
+    "description": {
+      "zh": "放映时屏幕变黑(再按一次恢复)",
+      "en": "Black out screen during show (press again to restore)"
+    },
+    "windows": "B / . (句号)",
+    "mac": "B / . (句号)",
+    "linux": "B",
+    "keywords": [
+      "黑屏",
+      "black screen"
+    ],
+    "pinyin": "hei ping ( fang ying zhong ) heiping(fangyingzhong) h p ( f y z ) hp(fyz) hei ping heiping h p hp"
+  },
+  {
+    "id": "ppt-show-white",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "白屏(放映中)",
+      "en": "White Screen (During Show)"
+    },
+    "description": {
+      "zh": "放映时屏幕变白(再按一次恢复)",
+      "en": "White out screen during show (press again to restore)"
+    },
+    "windows": "W / , (逗号)",
+    "mac": "W / , (逗号)",
+    "linux": "W",
+    "keywords": [
+      "白屏",
+      "white screen"
+    ],
+    "pinyin": "bai ping ( fang ying zhong ) baiping(fangyingzhong) b p ( f y z ) bp(fyz) bai ping baiping b p bp"
+  },
+  {
+    "id": "ppt-show-laserpointer",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "激光笔(放映中)",
+      "en": "Laser Pointer (During Show)"
+    },
+    "description": {
+      "zh": "显示激光笔指针",
+      "en": "Turn on laser pointer during show"
+    },
+    "windows": "Ctrl+L",
+    "mac": "⌘+L",
+    "linux": "—",
+    "keywords": [
+      "激光笔",
+      "laser pointer"
+    ],
+    "pinyin": "ji guang bi ( fang ying zhong ) jiguangbi(fangyingzhong) j g b ( f y z ) jgb(fyz) ji guang bi jiguangbi j g b jgb"
+  },
+  {
+    "id": "ppt-show-pen",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "画笔/荧光笔(放映中)",
+      "en": "Pen/Highlighter (During Show)"
+    },
+    "description": {
+      "zh": "切换到画笔或荧光笔标注工具",
+      "en": "Switch to pen or highlighter annotation tool"
+    },
+    "windows": "Ctrl+P",
+    "mac": "⌘+P",
+    "linux": "—",
+    "keywords": [
+      "画笔",
+      "荧光笔",
+      "pen highlighter"
+    ],
+    "pinyin": "hua bi / ying guang bi ( fang ying zhong ) huabi/yingguangbi(fangyingzhong) h b / y g b ( f y z ) hb/ygb(fyz) hua bi   ying guang bi huabi yingguangbi h b   y g b hb ygb"
+  },
+  {
+    "id": "ppt-show-eraser",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "橡皮擦(放映中)",
+      "en": "Eraser (During Show)"
+    },
+    "description": {
+      "zh": "清除墨迹标注",
+      "en": "Erase ink annotations"
+    },
+    "windows": "E",
+    "mac": "E",
+    "linux": "—",
+    "keywords": [
+      "橡皮擦",
+      "eraser"
+    ],
+    "pinyin": "xiang pi ca ( fang ying zhong ) xiangpica(fangyingzhong) x p c ( f y z ) xpc(fyz) xiang pi ca xiangpica x p c xpc"
+  },
+  {
+    "id": "ppt-show-hide-pointer",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "隐藏鼠标指针(放映中)",
+      "en": "Hide Pointer (During Show)"
+    },
+    "description": {
+      "zh": "隐藏鼠标指针和导航按钮",
+      "en": "Hide pointer and navigation buttons"
+    },
+    "windows": "H",
+    "mac": "H",
+    "linux": "—",
+    "keywords": [
+      "隐藏指针",
+      "hide pointer"
+    ],
+    "pinyin": "yin cang shu biao zhi zhen ( fang ying zhong ) yincangshubiaozhizhen(fangyingzhong) y c s b z z ( f y z ) ycsbzz(fyz) yin cang zhi zhen yincangzhizhen y c z z yczz"
+  },
+  {
+    "id": "ppt-show-shortcut-menu",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "显示快捷菜单(放映中)",
+      "en": "Shortcut Menu (During Show)"
+    },
+    "description": {
+      "zh": "显示幻灯片放映快捷菜单",
+      "en": "Display slideshow shortcut menu"
+    },
+    "windows": "Shift+F10 或 右键单击",
+    "mac": "⌘+Shift+? 或 Ctrl+单击",
+    "linux": "—",
+    "keywords": [
+      "快捷菜单",
+      "shortcut menu"
+    ],
+    "pinyin": "xian shi kuai jie cai dan ( fang ying zhong ) xianshikuaijiecaidan(fangyingzhong) x s k j c d ( f y z ) xskjcd(fyz) kuai jie cai dan kuaijiecaidan k j c d kjcd"
+  },
+  {
+    "id": "ppt-view-normal",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "普通视图",
+      "en": "Normal View"
+    },
+    "description": {
+      "zh": "切换到普通视图(默认视图)",
+      "en": "Switch to normal view (default)"
+    },
+    "windows": "Alt H V N",
+    "mac": "⌘+1",
+    "linux": "—",
+    "keywords": [
+      "普通视图",
+      "normal view"
+    ],
+    "pinyin": "pu tong shi tu putongshitu p t s t ptst pu tong shi tu putongshitu p t s t ptst"
+  },
+  {
+    "id": "ppt-view-outline",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "大纲视图",
+      "en": "Outline View"
+    },
+    "description": {
+      "zh": "切换到大纲视图",
+      "en": "Switch to outline view"
+    },
+    "windows": "Alt H V O",
+    "mac": "⌘+4",
+    "linux": "—",
+    "keywords": [
+      "大纲视图",
+      "outline view"
+    ],
+    "pinyin": "da gang shi tu dagangshitu d g s t dgst da gang shi tu dagangshitu d g s t dgst"
+  },
+  {
+    "id": "ppt-view-sorter",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "幻灯片浏览",
+      "en": "Slide Sorter View"
+    },
+    "description": {
+      "zh": "切换到幻灯片浏览视图",
+      "en": "Switch to slide sorter view"
+    },
+    "windows": "Alt H V D",
+    "mac": "⌘+2",
+    "linux": "—",
+    "keywords": [
+      "浏览",
+      "slide sorter"
+    ],
+    "pinyin": "huan deng pian liu lan huandengpianliulan h d p l l hdpll liu lan liulan l l ll"
+  },
+  {
+    "id": "ppt-view-notes",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "备注页视图",
+      "en": "Notes Page View"
+    },
+    "description": {
+      "zh": "切换到备注页视图",
+      "en": "Switch to notes page view"
+    },
+    "windows": "Alt H V P",
+    "mac": "⌘+3",
+    "linux": "—",
+    "keywords": [
+      "备注",
+      "notes page"
+    ],
+    "pinyin": "bei zhu ye shi tu beizhuyeshitu b z y s t bzyst bei zhu beizhu b z bz"
+  },
+  {
+    "id": "ppt-view-reading",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "阅读视图",
+      "en": "Reading View"
+    },
+    "description": {
+      "zh": "切换到阅读视图",
+      "en": "Switch to reading view"
+    },
+    "windows": "Alt H V R",
+    "mac": "⌘+Option+R",
+    "linux": "—",
+    "keywords": [
+      "阅读",
+      "reading view"
+    ],
+    "pinyin": "yue du shi tu yuedushitu y d s t ydst yue du yuedu y d yd"
+  },
+  {
+    "id": "ppt-view-presenter",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "演示者视图",
+      "en": "Presenter View"
+    },
+    "description": {
+      "zh": "进入演示者视图(双屏模式)",
+      "en": "Enter presenter view (dual-screen mode)"
+    },
+    "windows": "Alt+F5",
+    "mac": "⌘+Option+Return",
+    "linux": "—",
+    "keywords": [
+      "演示者",
+      "presenter view"
+    ],
+    "pinyin": "yan shi zhe shi tu yanshizheshitu y s z s t yszst yan shi zhe yanshizhe y s z ysz"
+  },
+  {
+    "id": "ppt-insert-textbox",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "插入文本框",
+      "en": "Insert Text Box"
+    },
+    "description": {
+      "zh": "插入文本框",
+      "en": "Insert a text box"
+    },
+    "windows": "Alt N X",
+    "mac": "⌘+Option+T",
+    "linux": "—",
+    "keywords": [
+      "文本框",
+      "text box"
+    ],
+    "pinyin": "cha ru wen ben kuang charuwenbenkuang c r w b k crwbk wen ben kuang wenbenkuang w b k wbk"
+  },
+  {
+    "id": "ppt-insert-picture",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "插入图片",
+      "en": "Insert Picture"
+    },
+    "description": {
+      "zh": "插入图片",
+      "en": "Insert picture"
+    },
+    "windows": "Alt N P",
+    "mac": "⌘+Shift+Option+I",
+    "linux": "—",
+    "keywords": [
+      "图片",
+      "picture"
+    ],
+    "pinyin": "cha ru tu pian charutupian c r t p crtp tu pian tupian t p tp"
+  },
+  {
+    "id": "ppt-insert-shape",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "插入形状",
+      "en": "Insert Shape"
+    },
+    "description": {
+      "zh": "插入形状",
+      "en": "Insert shape"
+    },
+    "windows": "Alt N SH",
+    "mac": "⌘+Shift+Option+U",
+    "linux": "—",
+    "keywords": [
+      "形状",
+      "shape"
+    ],
+    "pinyin": "cha ru xing zhuang charuxingzhuang c r x z crxz xing zhuang xingzhuang x z xz"
+  },
+  {
+    "id": "ppt-insert-chart",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "插入图表",
+      "en": "Insert Chart"
+    },
+    "description": {
+      "zh": "插入图表",
+      "en": "Insert chart"
+    },
+    "windows": "Alt N C",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "图表",
+      "chart"
+    ],
+    "pinyin": "cha ru tu biao charutubiao c r t b crtb tu biao tubiao t b tb"
+  },
+  {
+    "id": "ppt-format-font-dialog",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "字体对话框",
+      "en": "Font Dialog Box"
+    },
+    "description": {
+      "zh": "打开字体设置对话框",
+      "en": "Open font dialog box"
+    },
+    "windows": "Ctrl+T",
+    "mac": "⌘+D",
+    "linux": "Ctrl+T",
+    "keywords": [
+      "字体",
+      "font dialog"
+    ],
+    "pinyin": "zi ti dui hua kuang zitiduihuakuang z t d h k ztdhk zi ti ziti z t zt"
+  },
+  {
+    "id": "ppt-new-window",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "新窗口",
+      "en": "New Window"
+    },
+    "description": {
+      "zh": "新建窗口查看同一演示文稿",
+      "en": "Open new window for same presentation"
+    },
+    "windows": "Alt W N",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "新窗口",
+      "new window"
+    ],
+    "pinyin": "xin chuang kou xinchuangkou x c k xck xin chuang kou xinchuangkou x c k xck"
+  },
+  {
+    "id": "ppt-mac-insert-blank-slide",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "插入空白幻灯片(Mac)",
+      "en": "Insert Blank Slide (Mac)"
+    },
+    "description": {
+      "zh": "插入空白幻灯片(Mac专用)",
+      "en": "Insert blank slide (Mac only)"
+    },
+    "windows": "—",
+    "mac": "⌘+Shift+M",
+    "linux": "—",
+    "keywords": [
+      "空白幻灯片",
+      "blank slide"
+    ],
+    "pinyin": "cha ru kong bai huan deng pian ( m a c ) charukongbaihuandengpian(mac) c r k b h d p ( m a c ) crkbhdp(mac) kong bai huan deng pian kongbaihuandengpian k b h d p kbhdp"
+  },
+  {
+    "id": "ppt-mac-spelling",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "拼写检查(Mac)",
+      "en": "Spelling (Mac)"
+    },
+    "description": {
+      "zh": "拼写检查(Mac专用)",
+      "en": "Spelling check (Mac only)"
+    },
+    "windows": "—",
+    "mac": "⌘+;",
+    "linux": "—",
+    "keywords": [
+      "拼写",
+      "spelling"
+    ],
+    "pinyin": "pin xie jian cha ( m a c ) pinxiejiancha(mac) p x j c ( m a c ) pxjc(mac) pin xie pinxie p x px"
+  },
+  {
+    "id": "ppt-mac-dictionary",
+    "appId": "powerpoint",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "词典面板(Mac)",
+      "en": "Dictionary Panel (Mac)"
+    },
+    "description": {
+      "zh": "打开词典面板(Mac专用)",
+      "en": "Open dictionary panel (Mac only)"
+    },
+    "windows": "—",
+    "mac": "⌘+Option+Shift+R",
+    "linux": "—",
+    "keywords": [
+      "词典",
+      "dictionary"
+    ],
+    "pinyin": "ci dian mian ban ( m a c ) cidianmianban(mac) c d m b ( m a c ) cdmb(mac) ci dian cidian c d cd"
+  }
+]

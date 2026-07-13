@@ -63,5 +63,10 @@
   { "id": "inkscape", "name": { "zh": "Inkscape", "en": "Inkscape" }, "category": "design", "icon": "🌀", "type": "software", "file": "inkscape.json" },
   { "id": "procreate", "name": { "zh": "Procreate", "en": "Procreate" }, "category": "design", "icon": "🎨", "type": "software", "file": "procreate.json" },
   { "id": "safari", "name": { "zh": "Safari", "en": "Safari" }, "category": "browser", "icon": "🧭", "type": "software", "file": "safari.json" },
-  { "id": "androidstudio", "name": { "zh": "Android Studio", "en": "Android Studio" }, "category": "development", "icon": "🤖", "type": "software", "file": "androidstudio.json" }
+  { "id": "androidstudio", "name": { "zh": "Android Studio", "en": "Android Studio" }, "category": "development", "icon": "🤖", "type": "software", "file": "androidstudio.json" },
+  { "id": "spotify", "name": { "zh": "Spotify", "en": "Spotify" }, "category": "other", "icon": "🎵", "type": "software", "file": "spotify.json" },
+  { "id": "raycast", "name": { "zh": "Raycast", "en": "Raycast" }, "category": "productivity", "icon": "🚀", "type": "software", "file": "raycast.json" },
+  { "id": "audacity", "name": { "zh": "Audacity", "en": "Audacity" }, "category": "video", "icon": "🎙️", "type": "software", "file": "audacity.json" },
+  { "id": "teams", "name": { "zh": "Microsoft Teams", "en": "Microsoft Teams" }, "category": "productivity", "icon": "👥", "type": "software", "file": "teams.json" },
+  { "id": "alfred", "name": { "zh": "Alfred", "en": "Alfred" }, "category": "productivity", "icon": "🎩", "type": "software", "file": "alfred.json" }
 ]

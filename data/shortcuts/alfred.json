@@ -1,0 +1,708 @@
+[
+  {
+    "id": "alf-show",
+    "appId": "alfred",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "显示 Alfred",
+      "en": "Show Alfred"
+    },
+    "description": {
+      "zh": "显示 Alfred（⌥ Space）",
+      "en": "Show Alfred (⌥ Space)"
+    },
+    "windows": "—",
+    "mac": "⌥ Space",
+    "linux": "—",
+    "keywords": [
+      "显示 Alfred",
+      "Show Alfred",
+      "启动器",
+      "launcher"
+    ],
+    "pinyin": "xian shi   a l f r e d xianshi alfred x s   a l f r e d xs alfred xian shi   a l f r e d   qi dong qi xianshi alfred qidongqi x s   a l f r e d   q d q xs alfred qdq"
+  },
+  {
+    "id": "alf-next",
+    "appId": "alfred",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "选择列表下一项",
+      "en": "Select next item"
+    },
+    "description": {
+      "zh": "选择列表下一项（↓）",
+      "en": "Select next item (↓)"
+    },
+    "windows": "—",
+    "mac": "↓",
+    "linux": "—",
+    "keywords": [
+      "选择列表下一项",
+      "Select next item"
+    ],
+    "pinyin": "xuan ze lie biao xia yi xiang xuanzeliebiaoxiayixiang x z l b x y x xzlbxyx xuan ze lie biao xia yi xiang xuanzeliebiaoxiayixiang x z l b x y x xzlbxyx"
+  },
+  {
+    "id": "alf-prev",
+    "appId": "alfred",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "选择列表上一项",
+      "en": "Select previous item"
+    },
+    "description": {
+      "zh": "选择列表上一项（↑）",
+      "en": "Select previous item (↑)"
+    },
+    "windows": "—",
+    "mac": "↑",
+    "linux": "—",
+    "keywords": [
+      "选择列表上一项",
+      "Select previous item"
+    ],
+    "pinyin": "xuan ze lie biao shang yi xiang xuanzeliebiaoshangyixiang x z l b s y x xzlbsyx xuan ze lie biao shang yi xiang xuanzeliebiaoshangyixiang x z l b s y x xzlbsyx"
+  },
+  {
+    "id": "alf-action",
+    "appId": "alfred",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "执行所选项目",
+      "en": "Action selected item"
+    },
+    "description": {
+      "zh": "执行所选项目（↩）",
+      "en": "Action selected item (↩)"
+    },
+    "windows": "—",
+    "mac": "↩",
+    "linux": "—",
+    "keywords": [
+      "执行所选项目",
+      "Action selected item"
+    ],
+    "pinyin": "zhi xing suo xuan xiang mu zhixingsuoxuanxiangmu z x s x x m zxsxxm zhi xing suo xuan xiang mu zhixingsuoxuanxiangmu z x s x x m zxsxxm"
+  },
+  {
+    "id": "alf-actionn",
+    "appId": "alfred",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "直接执行第 N 项",
+      "en": "Action # item directly"
+    },
+    "description": {
+      "zh": "直接执行第 N 项（⌘ #）",
+      "en": "Action # item directly (⌘ #)"
+    },
+    "windows": "—",
+    "mac": "⌘ #",
+    "linux": "—",
+    "keywords": [
+      "直接执行第 N 项",
+      "Action # item directly"
+    ],
+    "pinyin": "zhi jie zhi xing di   n   xiang zhijiezhixingdi n xiang z j z x d   n   x zjzxd n x zhi jie zhi xing di   n   xiang zhijiezhixingdi n xiang z j z x d   n   x zjzxd n x"
+  },
+  {
+    "id": "alf-open",
+    "appId": "alfred",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "用默认应用打开",
+      "en": "Open in default app"
+    },
+    "description": {
+      "zh": "用默认应用打开（⌘ O）",
+      "en": "Open in default app (⌘ O)"
+    },
+    "windows": "—",
+    "mac": "⌘ O",
+    "linux": "—",
+    "keywords": [
+      "用默认应用打开",
+      "Open in default app"
+    ],
+    "pinyin": "yong mo ren ying yong da kai yongmorenyingyongdakai y m r y y d k ymryydk yong mo ren ying yong da kai yongmorenyingyongdakai y m r y y d k ymryydk"
+  },
+  {
+    "id": "alf-prefs",
+    "appId": "alfred",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "打开 Alfred 偏好设置",
+      "en": "Open Preferences"
+    },
+    "description": {
+      "zh": "打开 Alfred 偏好设置（⌘ ,）",
+      "en": "Open Preferences (⌘ ,)"
+    },
+    "windows": "—",
+    "mac": "⌘ ,",
+    "linux": "—",
+    "keywords": [
+      "打开 Alfred 偏好设置",
+      "Open Preferences"
+    ],
+    "pinyin": "da kai   a l f r e d   pian hao she zhi dakai alfred pianhaoshezhi d k   a l f r e d   p h s z dk alfred phsz da kai   a l f r e d   pian hao she zhi dakai alfred pianhaoshezhi d k   a l f r e d   p h s z dk alfred phsz"
+  },
+  {
+    "id": "alf-finder",
+    "appId": "alfred",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "在 Finder 中搜索",
+      "en": "Search query in Finder"
+    },
+    "description": {
+      "zh": "在 Finder 中搜索（⌥ ↩）",
+      "en": "Search query in Finder (⌥ ↩)"
+    },
+    "windows": "—",
+    "mac": "⌥ ↩",
+    "linux": "—",
+    "keywords": [
+      "在 Finder 中搜索",
+      "Search query in Finder"
+    ],
+    "pinyin": "zai   f i n d e r   zhong sou suo zai finder zhongsousuo z   f i n d e r   z s s z finder zss zai   f i n d e r   zhong sou suo zai finder zhongsousuo z   f i n d e r   z s s z finder zss"
+  },
+  {
+    "id": "alf-web",
+    "appId": "alfred",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "在网页中搜索",
+      "en": "Search query in web"
+    },
+    "description": {
+      "zh": "在网页中搜索（⌃ ↩）",
+      "en": "Search query in web (⌃ ↩)"
+    },
+    "windows": "—",
+    "mac": "⌃ ↩",
+    "linux": "—",
+    "keywords": [
+      "在网页中搜索",
+      "Search query in web"
+    ],
+    "pinyin": "zai wang ye zhong sou suo zaiwangyezhongsousuo z w y z s s zwyzss zai wang ye zhong sou suo zaiwangyezhongsousuo z w y z s s zwyzss"
+  },
+  {
+    "id": "alf-reveal",
+    "appId": "alfred",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "在 Finder 中显示",
+      "en": "Reveal in Finder"
+    },
+    "description": {
+      "zh": "在 Finder 中显示（⌘ ↩）",
+      "en": "Reveal in Finder (⌘ ↩)"
+    },
+    "windows": "—",
+    "mac": "⌘ ↩",
+    "linux": "—",
+    "keywords": [
+      "在 Finder 中显示",
+      "Reveal in Finder"
+    ],
+    "pinyin": "zai   f i n d e r   zhong xian shi zai finder zhongxianshi z   f i n d e r   z x s z finder zxs zai   f i n d e r   zhong xian shi zai finder zhongxianshi z   f i n d e r   z x s z finder zxs"
+  },
+  {
+    "id": "alf-actions",
+    "appId": "alfred",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "显示可用操作列表",
+      "en": "Show Actions list"
+    },
+    "description": {
+      "zh": "显示可用操作列表（⌥ ⌘ \\）",
+      "en": "Show Actions list (⌥ ⌘ \\)"
+    },
+    "windows": "—",
+    "mac": "⌥ ⌘ \\",
+    "linux": "—",
+    "keywords": [
+      "显示可用操作列表",
+      "Show Actions list"
+    ],
+    "pinyin": "xian shi ke yong cao zuo lie biao xianshikeyongcaozuoliebiao x s k y c z l b xskyczlb xian shi ke yong cao zuo lie biao xianshikeyongcaozuoliebiao x s k y c z l b xskyczlb"
+  },
+  {
+    "id": "alf-quicklook",
+    "appId": "alfred",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "快速预览",
+      "en": "Preview in Quick Look"
+    },
+    "description": {
+      "zh": "快速预览（⇧ /）",
+      "en": "Preview in Quick Look (⇧ /)"
+    },
+    "windows": "—",
+    "mac": "⇧ /",
+    "linux": "—",
+    "keywords": [
+      "快速预览",
+      "Preview in Quick Look"
+    ],
+    "pinyin": "kuai su yu lan kuaisuyulan k s y l ksyl kuai su yu lan kuaisuyulan k s y l ksyl"
+  },
+  {
+    "id": "alf-hide",
+    "appId": "alfred",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "隐藏 Alfred / 返回",
+      "en": "Hide Alfred / go back"
+    },
+    "description": {
+      "zh": "隐藏 Alfred / 返回（Esc）",
+      "en": "Hide Alfred / go back (Esc)"
+    },
+    "windows": "—",
+    "mac": "Esc",
+    "linux": "—",
+    "keywords": [
+      "隐藏 Alfred / 返回",
+      "Hide Alfred / go back"
+    ],
+    "pinyin": "yin cang   a l f r e d   /   fan hui yincang alfred / fanhui y c   a l f r e d   /   f h yc alfred / fh yin cang   a l f r e d   /   fan hui yincang alfred / fanhui y c   a l f r e d   /   f h yc alfred / fh"
+  },
+  {
+    "id": "alf-hideforce",
+    "appId": "alfred",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "强制隐藏 Alfred",
+      "en": "Hide Alfred ignoring stacked"
+    },
+    "description": {
+      "zh": "强制隐藏 Alfred（⌘ Esc）",
+      "en": "Hide Alfred ignoring stacked (⌘ Esc)"
+    },
+    "windows": "—",
+    "mac": "⌘ Esc",
+    "linux": "—",
+    "keywords": [
+      "强制隐藏 Alfred",
+      "Hide Alfred ignoring stacked"
+    ],
+    "pinyin": "qiang zhi yin cang   a l f r e d qiangzhiyincang alfred q z y c   a l f r e d qzyc alfred qiang zhi yin cang   a l f r e d qiangzhiyincang alfred q z y c   a l f r e d qzyc alfred"
+  },
+  {
+    "id": "alf-maxh",
+    "appId": "alfred",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "切换最大高度",
+      "en": "Toggle max height"
+    },
+    "description": {
+      "zh": "切换最大高度（⌘ 0）",
+      "en": "Toggle max height (⌘ 0)"
+    },
+    "windows": "—",
+    "mac": "⌘ 0",
+    "linux": "—",
+    "keywords": [
+      "切换最大高度",
+      "Toggle max height"
+    ],
+    "pinyin": "qie huan zui da gao du qiehuanzuidagaodu q h z d g d qhzdgd qie huan zui da gao du qiehuanzuidagaodu q h z d g d qhzdgd"
+  },
+  {
+    "id": "alf-zoomin",
+    "appId": "alfred",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "放大",
+      "en": "Zoom In"
+    },
+    "description": {
+      "zh": "放大（⌘ +）",
+      "en": "Zoom In (⌘ +)"
+    },
+    "windows": "—",
+    "mac": "⌘ +",
+    "linux": "—",
+    "keywords": [
+      "放大",
+      "Zoom In"
+    ],
+    "pinyin": "fang da fangda f d fd fang da fangda f d fd"
+  },
+  {
+    "id": "alf-zoomout",
+    "appId": "alfred",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "缩小",
+      "en": "Zoom Out"
+    },
+    "description": {
+      "zh": "缩小（⌘ -）",
+      "en": "Zoom Out (⌘ -)"
+    },
+    "windows": "—",
+    "mac": "⌘ -",
+    "linux": "—",
+    "keywords": [
+      "缩小",
+      "Zoom Out"
+    ],
+    "pinyin": "suo xiao suoxiao s x sx suo xiao suoxiao s x sx"
+  },
+  {
+    "id": "alf-lastpath",
+    "appId": "alfred",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "转到上次浏览路径",
+      "en": "Go to last browsed path"
+    },
+    "description": {
+      "zh": "转到上次浏览路径（⌥ ⌘ /）",
+      "en": "Go to last browsed path (⌥ ⌘ /)"
+    },
+    "windows": "—",
+    "mac": "⌥ ⌘ /",
+    "linux": "—",
+    "keywords": [
+      "转到上次浏览路径",
+      "Go to last browsed path"
+    ],
+    "pinyin": "zhuan dao shang ci liu lan lu jing zhuandaoshangciliulanlujing z d s c l l l j zdsclllj zhuan dao shang ci liu lan lu jing zhuandaoshangciliulanlujing z d s c l l l j zdsclllj"
+  },
+  {
+    "id": "alf-browse",
+    "appId": "alfred",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "浏览所选文件夹",
+      "en": "Browse selected folder"
+    },
+    "description": {
+      "zh": "浏览所选文件夹（⌘ ↓）",
+      "en": "Browse selected folder (⌘ ↓)"
+    },
+    "windows": "—",
+    "mac": "⌘ ↓",
+    "linux": "—",
+    "keywords": [
+      "浏览所选文件夹",
+      "Browse selected folder"
+    ],
+    "pinyin": "liu lan suo xuan wen jian jia liulansuoxuanwenjianjia l l s x w j j llsxwjj liu lan suo xuan wen jian jia liulansuoxuanwenjianjia l l s x w j j llsxwjj"
+  },
+  {
+    "id": "alf-enterfolder",
+    "appId": "alfred",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "进入文件夹",
+      "en": "Enter folder"
+    },
+    "description": {
+      "zh": "进入文件夹（↩）",
+      "en": "Enter folder (↩)"
+    },
+    "windows": "—",
+    "mac": "↩",
+    "linux": "—",
+    "keywords": [
+      "进入文件夹",
+      "Enter folder"
+    ],
+    "pinyin": "jin ru wen jian jia jinruwenjianjia j r w j j jrwjj jin ru wen jian jia jinruwenjianjia j r w j j jrwjj"
+  },
+  {
+    "id": "alf-upfolder",
+    "appId": "alfred",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "返回上级文件夹",
+      "en": "Go up folder"
+    },
+    "description": {
+      "zh": "返回上级文件夹（⌫）",
+      "en": "Go up folder (⌫)"
+    },
+    "windows": "—",
+    "mac": "⌫",
+    "linux": "—",
+    "keywords": [
+      "返回上级文件夹",
+      "Go up folder"
+    ],
+    "pinyin": "fan hui shang ji wen jian jia fanhuishangjiwenjianjia f h s j w j j fhsjwjj fan hui shang ji wen jian jia fanhuishangjiwenjianjia f h s j w j j fhsjwjj"
+  },
+  {
+    "id": "alf-autocomplete",
+    "appId": "alfred",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "自动补全",
+      "en": "Autocomplete"
+    },
+    "description": {
+      "zh": "自动补全（Tab）",
+      "en": "Autocomplete (Tab)"
+    },
+    "windows": "—",
+    "mac": "Tab",
+    "linux": "—",
+    "keywords": [
+      "自动补全",
+      "Autocomplete"
+    ],
+    "pinyin": "zi dong bu quan zidongbuquan z d b q zdbq zi dong bu quan zidongbuquan z d b q zdbq"
+  },
+  {
+    "id": "alf-hiddenfiles",
+    "appId": "alfred",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "显示隐藏文件",
+      "en": "Show hidden files"
+    },
+    "description": {
+      "zh": "显示隐藏文件（.）",
+      "en": "Show hidden files (.)"
+    },
+    "windows": "—",
+    "mac": ".",
+    "linux": "—",
+    "keywords": [
+      "显示隐藏文件",
+      "Show hidden files"
+    ],
+    "pinyin": "xian shi yin cang wen jian xianshiyincangwenjian x s y c w j xsycwj xian shi yin cang wen jian xianshiyincangwenjian x s y c w j xsycwj"
+  },
+  {
+    "id": "alf-bufadd",
+    "appId": "alfred",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "加入文件缓冲区并下移",
+      "en": "Add to File Buffer & next"
+    },
+    "description": {
+      "zh": "加入文件缓冲区并下移（⌥ ↓）",
+      "en": "Add to File Buffer & next (⌥ ↓)"
+    },
+    "windows": "—",
+    "mac": "⌥ ↓",
+    "linux": "—",
+    "keywords": [
+      "加入文件缓冲区并下移",
+      "Add to File Buffer & next"
+    ],
+    "pinyin": "jia ru wen jian huan chong qu bing xia yi jiaruwenjianhuanchongqubingxiayi j r w j h c q b x y jrwjhcqbxy jia ru wen jian huan chong qu bing xia yi jiaruwenjianhuanchongqubingxiayi j r w j h c q b x y jrwjhcqbxy"
+  },
+  {
+    "id": "alf-buftoggle",
+    "appId": "alfred",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "加入/移出文件缓冲区",
+      "en": "Add/remove from File Buffer"
+    },
+    "description": {
+      "zh": "加入/移出文件缓冲区（⌥ ↑）",
+      "en": "Add/remove from File Buffer (⌥ ↑)"
+    },
+    "windows": "—",
+    "mac": "⌥ ↑",
+    "linux": "—",
+    "keywords": [
+      "加入/移出文件缓冲区",
+      "Add/remove from File Buffer"
+    ],
+    "pinyin": "jia ru / yi chu wen jian huan chong qu jiaru/yichuwenjianhuanchongqu j r / y c w j h c q jr/ycwjhcq jia ru / yi chu wen jian huan chong qu jiaru/yichuwenjianhuanchongqu j r / y c w j h c q jr/ycwjhcq"
+  },
+  {
+    "id": "alf-bufremove",
+    "appId": "alfred",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "移出缓冲区最后项",
+      "en": "Remove last from File Buffer"
+    },
+    "description": {
+      "zh": "移出缓冲区最后项（⌥ ←）",
+      "en": "Remove last from File Buffer (⌥ ←)"
+    },
+    "windows": "—",
+    "mac": "⌥ ←",
+    "linux": "—",
+    "keywords": [
+      "移出缓冲区最后项",
+      "Remove last from File Buffer"
+    ],
+    "pinyin": "yi chu huan chong qu zui hou xiang yichuhuanchongquzuihouxiang y c h c q z h x ychcqzhx yi chu huan chong qu zui hou xiang yichuhuanchongquzuihouxiang y c h c q z h x ychcqzhx"
+  },
+  {
+    "id": "alf-bufaction",
+    "appId": "alfred",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "操作缓冲区全部项",
+      "en": "Action all in File Buffer"
+    },
+    "description": {
+      "zh": "操作缓冲区全部项（⌥ →）",
+      "en": "Action all in File Buffer (⌥ →)"
+    },
+    "windows": "—",
+    "mac": "⌥ →",
+    "linux": "—",
+    "keywords": [
+      "操作缓冲区全部项",
+      "Action all in File Buffer"
+    ],
+    "pinyin": "cao zuo huan chong qu quan bu xiang caozuohuanchongququanbuxiang c z h c q q b x czhcqqbx cao zuo huan chong qu quan bu xiang caozuohuanchongququanbuxiang c z h c q q b x czhcqqbx"
+  },
+  {
+    "id": "alf-clipboard",
+    "appId": "alfred",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "打开剪贴板历史",
+      "en": "Clipboard History viewer"
+    },
+    "description": {
+      "zh": "打开剪贴板历史（⌥ ⌘ C）",
+      "en": "Clipboard History viewer (⌥ ⌘ C)"
+    },
+    "windows": "—",
+    "mac": "⌥ ⌘ C",
+    "linux": "—",
+    "keywords": [
+      "打开剪贴板历史",
+      "Clipboard History viewer"
+    ],
+    "pinyin": "da kai jian tie ban li shi dakaijiantiebanlishi d k j t b l s dkjtbls da kai jian tie ban li shi dakaijiantiebanlishi d k j t b l s dkjtbls"
+  },
+  {
+    "id": "alf-clipcopy",
+    "appId": "alfred",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "复制所选片段",
+      "en": "Copy selected clip"
+    },
+    "description": {
+      "zh": "复制所选片段（⌘ C）",
+      "en": "Copy selected clip (⌘ C)"
+    },
+    "windows": "—",
+    "mac": "⌘ C",
+    "linux": "—",
+    "keywords": [
+      "复制所选片段",
+      "Copy selected clip"
+    ],
+    "pinyin": "fu zhi suo xuan pian duan fuzhisuoxuanpianduan f z s x p d fzsxpd fu zhi suo xuan pian duan fuzhisuoxuanpianduan f z s x p d fzsxpd"
+  },
+  {
+    "id": "alf-clipsave",
+    "appId": "alfred",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "保存片段为快照",
+      "en": "Save clip as snippet"
+    },
+    "description": {
+      "zh": "保存片段为快照（⌘ S）",
+      "en": "Save clip as snippet (⌘ S)"
+    },
+    "windows": "—",
+    "mac": "⌘ S",
+    "linux": "—",
+    "keywords": [
+      "保存片段为快照",
+      "Save clip as snippet"
+    ],
+    "pinyin": "bao cun pian duan wei kuai zhao baocunpianduanweikuaizhao b c p d w k z bcpdwkz bao cun pian duan wei kuai zhao baocunpianduanweikuaizhao b c p d w k z bcpdwkz"
+  },
+  {
+    "id": "alf-clipdel",
+    "appId": "alfred",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "删除所选项目",
+      "en": "Delete selected entry"
+    },
+    "description": {
+      "zh": "删除所选项目（Fn ⌫）",
+      "en": "Delete selected entry (Fn ⌫)"
+    },
+    "windows": "—",
+    "mac": "Fn ⌫",
+    "linux": "—",
+    "keywords": [
+      "删除所选项目",
+      "Delete selected entry"
+    ],
+    "pinyin": "shan chu suo xuan xiang mu shanchusuoxuanxiangmu s c s x x m scsxxm shan chu suo xuan xiang mu shanchusuoxuanxiangmu s c s x x m scsxxm"
+  },
+  {
+    "id": "alf-snippets",
+    "appId": "alfred",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "访问快照",
+      "en": "Access snippets"
+    },
+    "description": {
+      "zh": "访问快照（snip）",
+      "en": "Access snippets (snip)"
+    },
+    "windows": "—",
+    "mac": "snip",
+    "linux": "—",
+    "keywords": [
+      "访问快照",
+      "Access snippets"
+    ],
+    "pinyin": "fang wen kuai zhao fangwenkuaizhao f w k z fwkz fang wen kuai zhao fangwenkuaizhao f w k z fwkz"
+  }
+]

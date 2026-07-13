@@ -1,0 +1,1238 @@
+[
+  {
+    "id": "aud-playstop",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "播放/停止",
+      "en": "Play/Stop"
+    },
+    "description": {
+      "zh": "播放/停止（Space）",
+      "en": "Play/Stop (Space)"
+    },
+    "windows": "Space",
+    "mac": "Space",
+    "linux": "Space",
+    "keywords": [
+      "播放/停止",
+      "Play/Stop",
+      "播放",
+      "play"
+    ],
+    "pinyin": "bo fang / ting zhi bofang/tingzhi b f / t z bf/tz bo fang / ting zhi   bo fang bofang/tingzhi bofang b f / t z   b f bf/tz bf"
+  },
+  {
+    "id": "aud-playstopandsetcursor",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "播放/停止并定位光标",
+      "en": "Play/Stop and Set Cursor"
+    },
+    "description": {
+      "zh": "播放/停止并定位光标（X）",
+      "en": "Play/Stop and Set Cursor (X)"
+    },
+    "windows": "X",
+    "mac": "X",
+    "linux": "X",
+    "keywords": [
+      "播放/停止并定位光标",
+      "Play/Stop and Set Cursor"
+    ],
+    "pinyin": "bo fang / ting zhi bing ding wei guang biao bofang/tingzhibingdingweiguangbiao b f / t z b d w g b bf/tzbdwgb bo fang / ting zhi bing ding wei guang biao bofang/tingzhibingdingweiguangbiao b f / t z b d w g b bf/tzbdwgb"
+  },
+  {
+    "id": "aud-playoncestop",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "播放一次/停止",
+      "en": "Play Once/Stop"
+    },
+    "description": {
+      "zh": "播放一次/停止（Shift+Space）",
+      "en": "Play Once/Stop (Shift+Space)"
+    },
+    "windows": "Shift+Space",
+    "mac": "Shift+Space",
+    "linux": "Shift+Space",
+    "keywords": [
+      "播放一次/停止",
+      "Play Once/Stop"
+    ],
+    "pinyin": "bo fang yi ci / ting zhi bofangyici/tingzhi b f y c / t z bfyc/tz bo fang yi ci / ting zhi bofangyici/tingzhi b f y c / t z bfyc/tz"
+  },
+  {
+    "id": "aud-pause",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "暂停",
+      "en": "Pause"
+    },
+    "description": {
+      "zh": "暂停（P）",
+      "en": "Pause (P)"
+    },
+    "windows": "P",
+    "mac": "P",
+    "linux": "P",
+    "keywords": [
+      "暂停",
+      "Pause",
+      "暂停",
+      "pause"
+    ],
+    "pinyin": "zan ting zanting z t zt zan ting   zan ting zanting zanting z t   z t zt zt"
+  },
+  {
+    "id": "aud-playtoselection",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "播放到选区",
+      "en": "Play to Selection"
+    },
+    "description": {
+      "zh": "播放到选区（B）",
+      "en": "Play to Selection (B)"
+    },
+    "windows": "B",
+    "mac": "B",
+    "linux": "B",
+    "keywords": [
+      "播放到选区",
+      "Play to Selection"
+    ],
+    "pinyin": "bo fang dao xuan qu bofangdaoxuanqu b f d x q bfdxq bo fang dao xuan qu bofangdaoxuanqu b f d x q bfdxq"
+  },
+  {
+    "id": "aud-playcutpreview",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "播放裁剪预览",
+      "en": "Play Cut Preview"
+    },
+    "description": {
+      "zh": "播放裁剪预览（C）",
+      "en": "Play Cut Preview (C)"
+    },
+    "windows": "C",
+    "mac": "C",
+    "linux": "C",
+    "keywords": [
+      "播放裁剪预览",
+      "Play Cut Preview"
+    ],
+    "pinyin": "bo fang cai jian yu lan bofangcaijianyulan b f c j y l bfcjyl bo fang cai jian yu lan bofangcaijianyulan b f c j y l bfcjyl"
+  },
+  {
+    "id": "aud-shortseekleft",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "播放时左短移",
+      "en": "Short Seek Left"
+    },
+    "description": {
+      "zh": "播放时左短移（Left）",
+      "en": "Short Seek Left (Left)"
+    },
+    "windows": "Left",
+    "mac": "Left",
+    "linux": "Left",
+    "keywords": [
+      "播放时左短移",
+      "Short Seek Left"
+    ],
+    "pinyin": "bo fang shi zuo duan yi bofangshizuoduanyi b f s z d y bfszdy bo fang shi zuo duan yi bofangshizuoduanyi b f s z d y bfszdy"
+  },
+  {
+    "id": "aud-shortseekright",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "播放时右短移",
+      "en": "Short Seek Right"
+    },
+    "description": {
+      "zh": "播放时右短移（Right）",
+      "en": "Short Seek Right (Right)"
+    },
+    "windows": "Right",
+    "mac": "Right",
+    "linux": "Right",
+    "keywords": [
+      "播放时右短移",
+      "Short Seek Right"
+    ],
+    "pinyin": "bo fang shi you duan yi bofangshiyouduanyi b f s y d y bfsydy bo fang shi you duan yi bofangshiyouduanyi b f s y d y bfsydy"
+  },
+  {
+    "id": "aud-longseekleft",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "播放时左长移",
+      "en": "Long Seek Left"
+    },
+    "description": {
+      "zh": "播放时左长移（Shift+Left）",
+      "en": "Long Seek Left (Shift+Left)"
+    },
+    "windows": "Shift+Left",
+    "mac": "Shift+Left",
+    "linux": "Shift+Left",
+    "keywords": [
+      "播放时左长移",
+      "Long Seek Left"
+    ],
+    "pinyin": "bo fang shi zuo chang yi bofangshizuochangyi b f s z c y bfszcy bo fang shi zuo chang yi bofangshizuochangyi b f s z c y bfszcy"
+  },
+  {
+    "id": "aud-longseekright",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "播放时右长移",
+      "en": "Long Seek Right"
+    },
+    "description": {
+      "zh": "播放时右长移（Shift+Right）",
+      "en": "Long Seek Right (Shift+Right)"
+    },
+    "windows": "Shift+Right",
+    "mac": "Shift+Right",
+    "linux": "Shift+Right",
+    "keywords": [
+      "播放时右长移",
+      "Long Seek Right"
+    ],
+    "pinyin": "bo fang shi you chang yi bofangshiyouchangyi b f s y c y bfsycy bo fang shi you chang yi bofangshiyouchangyi b f s y c y bfsycy"
+  },
+  {
+    "id": "aud-record",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "录音",
+      "en": "Record"
+    },
+    "description": {
+      "zh": "录音（R）",
+      "en": "Record (R)"
+    },
+    "windows": "R",
+    "mac": "R",
+    "linux": "R",
+    "keywords": [
+      "录音",
+      "Record",
+      "录音",
+      "record"
+    ],
+    "pinyin": "lu yin luyin l y ly lu yin   lu yin luyin luyin l y   l y ly ly"
+  },
+  {
+    "id": "aud-recordnewtrack",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "录制新音轨",
+      "en": "Record New Track"
+    },
+    "description": {
+      "zh": "录制新音轨（Shift+R）",
+      "en": "Record New Track (Shift+R)"
+    },
+    "windows": "Shift+R",
+    "mac": "Shift+R",
+    "linux": "Shift+R",
+    "keywords": [
+      "录制新音轨",
+      "Record New Track"
+    ],
+    "pinyin": "lu zhi xin yin gui luzhixinyingui l z x y g lzxyg lu zhi xin yin gui luzhixinyingui l z x y g lzxyg"
+  },
+  {
+    "id": "aud-timerrecord",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "定时录音",
+      "en": "Timer Record"
+    },
+    "description": {
+      "zh": "定时录音（Shift+T）",
+      "en": "Timer Record (Shift+T)"
+    },
+    "windows": "Shift+T",
+    "mac": "Shift+T",
+    "linux": "Shift+T",
+    "keywords": [
+      "定时录音",
+      "Timer Record"
+    ],
+    "pinyin": "ding shi lu yin dingshiluyin d s l y dsly ding shi lu yin dingshiluyin d s l y dsly"
+  },
+  {
+    "id": "aud-punchandrollrecord",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "穿插录音",
+      "en": "Punch and Roll Record"
+    },
+    "description": {
+      "zh": "穿插录音（Shift+D）",
+      "en": "Punch and Roll Record (Shift+D)"
+    },
+    "windows": "Shift+D",
+    "mac": "Shift+D",
+    "linux": "Shift+D",
+    "keywords": [
+      "穿插录音",
+      "Punch and Roll Record"
+    ],
+    "pinyin": "chuan cha lu yin chuanchaluyin c c l y ccly chuan cha lu yin chuanchaluyin c c l y ccly"
+  },
+  {
+    "id": "aud-cursortoselectionstart",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "光标到选区起点",
+      "en": "Cursor to Selection Start"
+    },
+    "description": {
+      "zh": "光标到选区起点（Left）",
+      "en": "Cursor to Selection Start (Left)"
+    },
+    "windows": "Left",
+    "mac": "Left",
+    "linux": "Left",
+    "keywords": [
+      "光标到选区起点",
+      "Cursor to Selection Start"
+    ],
+    "pinyin": "guang biao dao xuan qu qi dian guangbiaodaoxuanquqidian g b d x q q d gbdxqqd guang biao dao xuan qu qi dian guangbiaodaoxuanquqidian g b d x q q d gbdxqqd"
+  },
+  {
+    "id": "aud-cursortoselectionend",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "光标到选区终点",
+      "en": "Cursor to Selection End"
+    },
+    "description": {
+      "zh": "光标到选区终点（Right）",
+      "en": "Cursor to Selection End (Right)"
+    },
+    "windows": "Right",
+    "mac": "Right",
+    "linux": "Right",
+    "keywords": [
+      "光标到选区终点",
+      "Cursor to Selection End"
+    ],
+    "pinyin": "guang biao dao xuan qu zhong dian guangbiaodaoxuanquzhongdian g b d x q z d gbdxqzd guang biao dao xuan qu zhong dian guangbiaodaoxuanquzhongdian g b d x q z d gbdxqzd"
+  },
+  {
+    "id": "aud-cursortotrackstart",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "光标到音轨起点",
+      "en": "Cursor to Track Start"
+    },
+    "description": {
+      "zh": "光标到音轨起点（J）",
+      "en": "Cursor to Track Start (J)"
+    },
+    "windows": "J",
+    "mac": "J",
+    "linux": "J",
+    "keywords": [
+      "光标到音轨起点",
+      "Cursor to Track Start"
+    ],
+    "pinyin": "guang biao dao yin gui qi dian guangbiaodaoyinguiqidian g b d y g q d gbdygqd guang biao dao yin gui qi dian guangbiaodaoyinguiqidian g b d y g q d gbdygqd"
+  },
+  {
+    "id": "aud-cursortotrackend",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "光标到音轨终点",
+      "en": "Cursor to Track End"
+    },
+    "description": {
+      "zh": "光标到音轨终点（K）",
+      "en": "Cursor to Track End (K)"
+    },
+    "windows": "K",
+    "mac": "K",
+    "linux": "K",
+    "keywords": [
+      "光标到音轨终点",
+      "Cursor to Track End"
+    ],
+    "pinyin": "guang biao dao yin gui zhong dian guangbiaodaoyinguizhongdian g b d y g z d gbdygzd guang biao dao yin gui zhong dian guangbiaodaoyinguizhongdian g b d y g z d gbdygzd"
+  },
+  {
+    "id": "aud-cursortoprojectstart",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "光标到项目起点",
+      "en": "Cursor to Project Start"
+    },
+    "description": {
+      "zh": "光标到项目起点（Home）",
+      "en": "Cursor to Project Start (Home)"
+    },
+    "windows": "Home",
+    "mac": "Home",
+    "linux": "Home",
+    "keywords": [
+      "光标到项目起点",
+      "Cursor to Project Start"
+    ],
+    "pinyin": "guang biao dao xiang mu qi dian guangbiaodaoxiangmuqidian g b d x m q d gbdxmqd guang biao dao xiang mu qi dian guangbiaodaoxiangmuqidian g b d x m q d gbdxmqd"
+  },
+  {
+    "id": "aud-cursortoprojectend",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "光标到项目终点",
+      "en": "Cursor to Project End"
+    },
+    "description": {
+      "zh": "光标到项目终点（End）",
+      "en": "Cursor to Project End (End)"
+    },
+    "windows": "End",
+    "mac": "End",
+    "linux": "End",
+    "keywords": [
+      "光标到项目终点",
+      "Cursor to Project End"
+    ],
+    "pinyin": "guang biao dao xiang mu zhong dian guangbiaodaoxiangmuzhongdian g b d x m z d gbdxmzd guang biao dao xiang mu zhong dian guangbiaodaoxiangmuzhongdian g b d x m z d gbdxmzd"
+  },
+  {
+    "id": "aud-looponoff",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "循环开/关",
+      "en": "Loop on/off"
+    },
+    "description": {
+      "zh": "循环开/关（L）",
+      "en": "Loop on/off (L)"
+    },
+    "windows": "L",
+    "mac": "L",
+    "linux": "L",
+    "keywords": [
+      "循环开/关",
+      "Loop on/off",
+      "循环",
+      "loop"
+    ],
+    "pinyin": "xun huan kai / guan xunhuankai/guan x h k / g xhk/g xun huan kai / guan   xun huan xunhuankai/guan xunhuan x h k / g   x h xhk/g xh"
+  },
+  {
+    "id": "aud-clearloop",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "清除循环",
+      "en": "Clear Loop"
+    },
+    "description": {
+      "zh": "清除循环（Shift+Alt+L）",
+      "en": "Clear Loop (Shift+Alt+L)"
+    },
+    "windows": "Shift+Alt+L",
+    "mac": "Shift+Alt+L",
+    "linux": "Shift+Alt+L",
+    "keywords": [
+      "清除循环",
+      "Clear Loop"
+    ],
+    "pinyin": "qing chu xun huan qingchuxunhuan q c x h qcxh qing chu xun huan qingchuxunhuan q c x h qcxh"
+  },
+  {
+    "id": "aud-setlooptoselection",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "将选区设为循环",
+      "en": "Set Loop to Selection"
+    },
+    "description": {
+      "zh": "将选区设为循环（Shift+L）",
+      "en": "Set Loop to Selection (Shift+L)"
+    },
+    "windows": "Shift+L",
+    "mac": "Shift+L",
+    "linux": "Shift+L",
+    "keywords": [
+      "将选区设为循环",
+      "Set Loop to Selection"
+    ],
+    "pinyin": "jiang xuan qu she wei xun huan jiangxuanqusheweixunhuan j x q s w x h jxqswxh jiang xuan qu she wei xun huan jiangxuanqusheweixunhuan j x q s w x h jxqswxh"
+  },
+  {
+    "id": "aud-undo",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销（⌘+Z）",
+      "en": "Undo (⌘+Z)"
+    },
+    "windows": "Ctrl+Z",
+    "mac": "⌘+Z",
+    "linux": "Ctrl+Z",
+    "keywords": [
+      "撤销",
+      "Undo",
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao   che xiao chexiao chexiao c x   c x cx cx"
+  },
+  {
+    "id": "aud-redo",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "重做（⌘+Y）",
+      "en": "Redo (⌘+Y)"
+    },
+    "windows": "Ctrl+Y",
+    "mac": "⌘+Y",
+    "linux": "Ctrl+Y",
+    "keywords": [
+      "重做",
+      "Redo",
+      "重做",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo   zhong zuo zhongzuo zhongzuo z z   z z zz zz"
+  },
+  {
+    "id": "aud-cut",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "剪切",
+      "en": "Cut"
+    },
+    "description": {
+      "zh": "剪切（⌘+X）",
+      "en": "Cut (⌘+X)"
+    },
+    "windows": "Ctrl+X",
+    "mac": "⌘+X",
+    "linux": "Ctrl+X",
+    "keywords": [
+      "剪切",
+      "Cut",
+      "剪切",
+      "cut"
+    ],
+    "pinyin": "jian qie jianqie j q jq jian qie   jian qie jianqie jianqie j q   j q jq jq"
+  },
+  {
+    "id": "aud-delete",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "删除",
+      "en": "Delete"
+    },
+    "description": {
+      "zh": "删除（⌘+K）",
+      "en": "Delete (⌘+K)"
+    },
+    "windows": "Ctrl+K",
+    "mac": "⌘+K",
+    "linux": "Ctrl+K",
+    "keywords": [
+      "删除",
+      "Delete",
+      "删除",
+      "delete"
+    ],
+    "pinyin": "shan chu shanchu s c sc shan chu   shan chu shanchu shanchu s c   s c sc sc"
+  },
+  {
+    "id": "aud-copy",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "复制",
+      "en": "Copy"
+    },
+    "description": {
+      "zh": "复制（⌘+C）",
+      "en": "Copy (⌘+C)"
+    },
+    "windows": "Ctrl+C",
+    "mac": "⌘+C",
+    "linux": "Ctrl+C",
+    "keywords": [
+      "复制",
+      "Copy",
+      "复制",
+      "copy"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi   fu zhi fuzhi fuzhi f z   f z fz fz"
+  },
+  {
+    "id": "aud-paste",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "粘贴",
+      "en": "Paste"
+    },
+    "description": {
+      "zh": "粘贴（⌘+V）",
+      "en": "Paste (⌘+V)"
+    },
+    "windows": "Ctrl+V",
+    "mac": "⌘+V",
+    "linux": "Ctrl+V",
+    "keywords": [
+      "粘贴",
+      "Paste",
+      "粘贴",
+      "paste"
+    ],
+    "pinyin": "nian tie niantie n t nt nian tie   nian tie niantie niantie n t   n t nt nt"
+  },
+  {
+    "id": "aud-duplicate",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "重复",
+      "en": "Duplicate"
+    },
+    "description": {
+      "zh": "重复（⌘+D）",
+      "en": "Duplicate (⌘+D)"
+    },
+    "windows": "Ctrl+D",
+    "mac": "⌘+D",
+    "linux": "Ctrl+D",
+    "keywords": [
+      "重复",
+      "Duplicate",
+      "重复",
+      "duplicate"
+    ],
+    "pinyin": "chong fu chongfu c f cf chong fu   chong fu chongfu chongfu c f   c f cf cf"
+  },
+  {
+    "id": "aud-preferences",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "偏好设置",
+      "en": "Preferences"
+    },
+    "description": {
+      "zh": "偏好设置（⌘+P）",
+      "en": "Preferences (⌘+P)"
+    },
+    "windows": "Ctrl+P",
+    "mac": "⌘+P",
+    "linux": "Ctrl+P",
+    "keywords": [
+      "偏好设置",
+      "Preferences"
+    ],
+    "pinyin": "pian hao she zhi pianhaoshezhi p h s z phsz pian hao she zhi pianhaoshezhi p h s z phsz"
+  },
+  {
+    "id": "aud-silenceaudio",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "静音音频",
+      "en": "Silence Audio"
+    },
+    "description": {
+      "zh": "静音音频（⌘+L）",
+      "en": "Silence Audio (⌘+L)"
+    },
+    "windows": "Ctrl+L",
+    "mac": "⌘+L",
+    "linux": "Ctrl+L",
+    "keywords": [
+      "静音音频",
+      "Silence Audio"
+    ],
+    "pinyin": "jing yin yin pin jingyinyinpin j y y p jyyp jing yin yin pin jingyinyinpin j y y p jyyp"
+  },
+  {
+    "id": "aud-trimaudio",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "裁剪音频",
+      "en": "Trim Audio"
+    },
+    "description": {
+      "zh": "裁剪音频（⌘+T）",
+      "en": "Trim Audio (⌘+T)"
+    },
+    "windows": "Ctrl+T",
+    "mac": "⌘+T",
+    "linux": "Ctrl+T",
+    "keywords": [
+      "裁剪音频",
+      "Trim Audio"
+    ],
+    "pinyin": "cai jian yin pin caijianyinpin c j y p cjyp cai jian yin pin caijianyinpin c j y p cjyp"
+  },
+  {
+    "id": "aud-splitclip",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "拆分剪辑",
+      "en": "Split Clip"
+    },
+    "description": {
+      "zh": "拆分剪辑（⌘+I）",
+      "en": "Split Clip (⌘+I)"
+    },
+    "windows": "Ctrl+I",
+    "mac": "⌘+I",
+    "linux": "Ctrl+I",
+    "keywords": [
+      "拆分剪辑",
+      "Split Clip"
+    ],
+    "pinyin": "chai fen jian ji chaifenjianji c f j j cfjj chai fen jian ji chaifenjianji c f j j cfjj"
+  },
+  {
+    "id": "aud-addlabelatselection",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "在选区添加标签",
+      "en": "Add Label at Selection"
+    },
+    "description": {
+      "zh": "在选区添加标签（⌘+B）",
+      "en": "Add Label at Selection (⌘+B)"
+    },
+    "windows": "Ctrl+B",
+    "mac": "⌘+B",
+    "linux": "Ctrl+B",
+    "keywords": [
+      "在选区添加标签",
+      "Add Label at Selection"
+    ],
+    "pinyin": "zai xuan qu tian jia biao qian zaixuanqutianjiabiaoqian z x q t j b q zxqtjbq zai xuan qu tian jia biao qian zaixuanqutianjiabiaoqian z x q t j b q zxqtjbq"
+  },
+  {
+    "id": "aud-addlabelatplayback",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "在播放位置添加标签",
+      "en": "Add Label at Playback"
+    },
+    "description": {
+      "zh": "在播放位置添加标签（⌘+M）",
+      "en": "Add Label at Playback (⌘+M)"
+    },
+    "windows": "Ctrl+M",
+    "mac": "⌘+M",
+    "linux": "Ctrl+M",
+    "keywords": [
+      "在播放位置添加标签",
+      "Add Label at Playback"
+    ],
+    "pinyin": "zai bo fang wei zhi tian jia biao qian zaibofangweizhitianjiabiaoqian z b f w z t j b q zbfwztjbq zai bo fang wei zhi tian jia biao qian zaibofangweizhitianjiabiaoqian z b f w z t j b q zbfwztjbq"
+  },
+  {
+    "id": "aud-selectall",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "全选",
+      "en": "Select All"
+    },
+    "description": {
+      "zh": "全选（⌘+A）",
+      "en": "Select All (⌘+A)"
+    },
+    "windows": "Ctrl+A",
+    "mac": "⌘+A",
+    "linux": "Ctrl+A",
+    "keywords": [
+      "全选",
+      "Select All",
+      "全选",
+      "select all"
+    ],
+    "pinyin": "quan xuan quanxuan q x qx quan xuan   quan xuan quanxuan quanxuan q x   q x qx qx"
+  },
+  {
+    "id": "aud-atzerocrossings",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "在零交叉点",
+      "en": "At Zero Crossings"
+    },
+    "description": {
+      "zh": "在零交叉点（Z）",
+      "en": "At Zero Crossings (Z)"
+    },
+    "windows": "Z",
+    "mac": "Z",
+    "linux": "Z",
+    "keywords": [
+      "在零交叉点",
+      "At Zero Crossings"
+    ],
+    "pinyin": "zai ling jiao cha dian zailingjiaochadian z l j c d zljcd zai ling jiao cha dian zailingjiaochadian z l j c d zljcd"
+  },
+  {
+    "id": "aud-leftatplayback",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "播放位置左侧",
+      "en": "Left at Playback"
+    },
+    "description": {
+      "zh": "播放位置左侧（[）",
+      "en": "Left at Playback ([)"
+    },
+    "windows": "[",
+    "mac": "[",
+    "linux": "[",
+    "keywords": [
+      "播放位置左侧",
+      "Left at Playback"
+    ],
+    "pinyin": "bo fang wei zhi zuo ce bofangweizhizuoce b f w z z c bfwzzc bo fang wei zhi zuo ce bofangweizhizuoce b f w z z c bfwzzc"
+  },
+  {
+    "id": "aud-rightatplayback",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "播放位置右侧",
+      "en": "Right at Playback"
+    },
+    "description": {
+      "zh": "播放位置右侧（]）",
+      "en": "Right at Playback (])"
+    },
+    "windows": "]",
+    "mac": "]",
+    "linux": "]",
+    "keywords": [
+      "播放位置右侧",
+      "Right at Playback"
+    ],
+    "pinyin": "bo fang wei zhi you ce bofangweizhiyouce b f w z y c bfwzyc bo fang wei zhi you ce bofangweizhiyouce b f w z y c bfwzyc"
+  },
+  {
+    "id": "aud-previousclip",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "上一个剪辑",
+      "en": "Previous Clip"
+    },
+    "description": {
+      "zh": "上一个剪辑（Alt+,）",
+      "en": "Previous Clip (Alt+,)"
+    },
+    "windows": "Alt+,",
+    "mac": "Alt+,",
+    "linux": "Alt+,",
+    "keywords": [
+      "上一个剪辑",
+      "Previous Clip"
+    ],
+    "pinyin": "shang yi ge jian ji shangyigejianji s y g j j sygjj shang yi ge jian ji shangyigejianji s y g j j sygjj"
+  },
+  {
+    "id": "aud-nextclip",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "下一个剪辑",
+      "en": "Next Clip"
+    },
+    "description": {
+      "zh": "下一个剪辑（Alt+.）",
+      "en": "Next Clip (Alt+.)"
+    },
+    "windows": "Alt+.",
+    "mac": "Alt+.",
+    "linux": "Alt+.",
+    "keywords": [
+      "下一个剪辑",
+      "Next Clip"
+    ],
+    "pinyin": "xia yi ge jian ji xiayigejianji x y g j j xygjj xia yi ge jian ji xiayigejianji x y g j j xygjj"
+  },
+  {
+    "id": "aud-selectiontostart",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "选区到起点",
+      "en": "Selection to Start"
+    },
+    "description": {
+      "zh": "选区到起点（Shift+Home）",
+      "en": "Selection to Start (Shift+Home)"
+    },
+    "windows": "Shift+Home",
+    "mac": "Shift+Home",
+    "linux": "Shift+Home",
+    "keywords": [
+      "选区到起点",
+      "Selection to Start"
+    ],
+    "pinyin": "xuan qu dao qi dian xuanqudaoqidian x q d q d xqdqd xuan qu dao qi dian xuanqudaoqidian x q d q d xqdqd"
+  },
+  {
+    "id": "aud-selectiontoend",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "选区到终点",
+      "en": "Selection to End"
+    },
+    "description": {
+      "zh": "选区到终点（Shift+End）",
+      "en": "Selection to End (Shift+End)"
+    },
+    "windows": "Shift+End",
+    "mac": "Shift+End",
+    "linux": "Shift+End",
+    "keywords": [
+      "选区到终点",
+      "Selection to End"
+    ],
+    "pinyin": "xuan qu dao zhong dian xuanqudaozhongdian x q d z d xqdzd xuan qu dao zhong dian xuanqudaozhongdian x q d z d xqdzd"
+  },
+  {
+    "id": "aud-selectiontool",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "选择工具",
+      "en": "Selection Tool"
+    },
+    "description": {
+      "zh": "选择工具（F1）",
+      "en": "Selection Tool (F1)"
+    },
+    "windows": "F1",
+    "mac": "F1",
+    "linux": "F1",
+    "keywords": [
+      "选择工具",
+      "Selection Tool",
+      "工具",
+      "tool"
+    ],
+    "pinyin": "xuan ze gong ju xuanzegongju x z g j xzgj xuan ze gong ju   gong ju xuanzegongju gongju x z g j   g j xzgj gj"
+  },
+  {
+    "id": "aud-envelopetool",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "封套工具",
+      "en": "Envelope Tool"
+    },
+    "description": {
+      "zh": "封套工具（F2）",
+      "en": "Envelope Tool (F2)"
+    },
+    "windows": "F2",
+    "mac": "F2",
+    "linux": "F2",
+    "keywords": [
+      "封套工具",
+      "Envelope Tool"
+    ],
+    "pinyin": "feng tao gong ju fengtaogongju f t g j ftgj feng tao gong ju fengtaogongju f t g j ftgj"
+  },
+  {
+    "id": "aud-drawtool",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "绘制工具",
+      "en": "Draw Tool"
+    },
+    "description": {
+      "zh": "绘制工具（F3）",
+      "en": "Draw Tool (F3)"
+    },
+    "windows": "F3",
+    "mac": "F3",
+    "linux": "F3",
+    "keywords": [
+      "绘制工具",
+      "Draw Tool"
+    ],
+    "pinyin": "hui zhi gong ju huizhigongju h z g j hzgj hui zhi gong ju huizhigongju h z g j hzgj"
+  },
+  {
+    "id": "aud-zoomtool",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "缩放工具",
+      "en": "Zoom Tool"
+    },
+    "description": {
+      "zh": "缩放工具（F4）",
+      "en": "Zoom Tool (F4)"
+    },
+    "windows": "F4",
+    "mac": "F4",
+    "linux": "F4",
+    "keywords": [
+      "缩放工具",
+      "Zoom Tool"
+    ],
+    "pinyin": "suo fang gong ju suofanggongju s f g j sfgj suo fang gong ju suofanggongju s f g j sfgj"
+  },
+  {
+    "id": "aud-multitool",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "多功能工具",
+      "en": "Multi Tool"
+    },
+    "description": {
+      "zh": "多功能工具（F6）",
+      "en": "Multi Tool (F6)"
+    },
+    "windows": "F6",
+    "mac": "F6",
+    "linux": "F6",
+    "keywords": [
+      "多功能工具",
+      "Multi Tool"
+    ],
+    "pinyin": "duo gong neng gong ju duogongnenggongju d g n g j dgngj duo gong neng gong ju duogongnenggongju d g n g j dgngj"
+  },
+  {
+    "id": "aud-focusprevioustrack",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "焦点到上一音轨",
+      "en": "Focus Previous Track"
+    },
+    "description": {
+      "zh": "焦点到上一音轨（Up）",
+      "en": "Focus Previous Track (Up)"
+    },
+    "windows": "Up",
+    "mac": "Up",
+    "linux": "Up",
+    "keywords": [
+      "焦点到上一音轨",
+      "Focus Previous Track"
+    ],
+    "pinyin": "jiao dian dao shang yi yin gui jiaodiandaoshangyiyingui j d d s y y g jddsyyg jiao dian dao shang yi yin gui jiaodiandaoshangyiyingui j d d s y y g jddsyyg"
+  },
+  {
+    "id": "aud-focusnexttrack",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "焦点到下一音轨",
+      "en": "Focus Next Track"
+    },
+    "description": {
+      "zh": "焦点到下一音轨（Down）",
+      "en": "Focus Next Track (Down)"
+    },
+    "windows": "Down",
+    "mac": "Down",
+    "linux": "Down",
+    "keywords": [
+      "焦点到下一音轨",
+      "Focus Next Track"
+    ],
+    "pinyin": "jiao dian dao xia yi yin gui jiaodiandaoxiayiyingui j d d x y y g jddxyyg jiao dian dao xia yi yin gui jiaodiandaoxiayiyingui j d d x y y g jddxyyg"
+  },
+  {
+    "id": "aud-fittowidth",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "适应宽度",
+      "en": "Fit to Width"
+    },
+    "description": {
+      "zh": "适应宽度（⌘+F）",
+      "en": "Fit to Width (⌘+F)"
+    },
+    "windows": "Ctrl+F",
+    "mac": "⌘+F",
+    "linux": "Ctrl+F",
+    "keywords": [
+      "适应宽度",
+      "Fit to Width"
+    ],
+    "pinyin": "shi ying kuan du shiyingkuandu s y k d sykd shi ying kuan du shiyingkuandu s y k d sykd"
+  },
+  {
+    "id": "aud-fittoheight",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "适应高度",
+      "en": "Fit to Height"
+    },
+    "description": {
+      "zh": "适应高度（⌘+Shift+F）",
+      "en": "Fit to Height (⌘+Shift+F)"
+    },
+    "windows": "Ctrl+Shift+F",
+    "mac": "⌘+Shift+F",
+    "linux": "Ctrl+Shift+F",
+    "keywords": [
+      "适应高度",
+      "Fit to Height"
+    ],
+    "pinyin": "shi ying gao du shiyinggaodu s y g d sygd shi ying gao du shiyinggaodu s y g d sygd"
+  },
+  {
+    "id": "aud-collapsealltracks",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "折叠所有音轨",
+      "en": "Collapse All Tracks"
+    },
+    "description": {
+      "zh": "折叠所有音轨（⌘+Shift+C）",
+      "en": "Collapse All Tracks (⌘+Shift+C)"
+    },
+    "windows": "Ctrl+Shift+C",
+    "mac": "⌘+Shift+C",
+    "linux": "Ctrl+Shift+C",
+    "keywords": [
+      "折叠所有音轨",
+      "Collapse All Tracks"
+    ],
+    "pinyin": "zhe die suo you yin gui zhediesuoyouyingui z d s y y g zdsyyg zhe die suo you yin gui zhediesuoyouyingui z d s y y g zdsyyg"
+  },
+  {
+    "id": "aud-expandcollapsedtracks",
+    "appId": "audacity",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "展开折叠音轨",
+      "en": "Expand Collapsed Tracks"
+    },
+    "description": {
+      "zh": "展开折叠音轨（⌘+Shift+X）",
+      "en": "Expand Collapsed Tracks (⌘+Shift+X)"
+    },
+    "windows": "Ctrl+Shift+X",
+    "mac": "⌘+Shift+X",
+    "linux": "Ctrl+Shift+X",
+    "keywords": [
+      "展开折叠音轨",
+      "Expand Collapsed Tracks"
+    ],
+    "pinyin": "zhan kai zhe die yin gui zhankaizhedieyingui z k z d y g zkzdyg zhan kai zhe die yin gui zhankaizhedieyingui z k z d y g zkzdyg"
+  }
+]

@@ -570,5 +570,348 @@
       "hide"
     ],
     "pinyin": "xian shi / yin cang jie mian xianshi/yincangjiemian x s / y c j m xs/ycjm jie mian   xian shi jiemian xianshi j m   x s jm xs"
+  },
+  {
+    "id": "mastergo-cut",
+    "appId": "mastergo",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "剪切",
+      "en": "Cut"
+    },
+    "description": {
+      "zh": "剪切选中内容",
+      "en": "Cut the selection"
+    },
+    "windows": "Ctrl + X",
+    "mac": "⌘ X",
+    "linux": "Ctrl + X",
+    "keywords": [
+      "剪切",
+      "cut"
+    ],
+    "pinyin": "jian qie jianqie j q jq jian qie jianqie j q jq"
+  },
+  {
+    "id": "mastergo-select-all",
+    "appId": "mastergo",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "全选",
+      "en": "Select all"
+    },
+    "description": {
+      "zh": "选中全部对象",
+      "en": "Select all objects"
+    },
+    "windows": "Ctrl + A",
+    "mac": "⌘ A",
+    "linux": "Ctrl + A",
+    "keywords": [
+      "全选",
+      "select all",
+      "全部"
+    ],
+    "pinyin": "quan xuan quanxuan q x qx quan xuan   quan bu quanxuan quanbu q x   q b qx qb"
+  },
+  {
+    "id": "mastergo-bold",
+    "appId": "mastergo",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "粗体",
+      "en": "Bold"
+    },
+    "description": {
+      "zh": "文本加粗",
+      "en": "Make text bold"
+    },
+    "windows": "Ctrl + B",
+    "mac": "⌘ B",
+    "linux": "Ctrl + B",
+    "keywords": [
+      "粗体",
+      "bold",
+      "加粗"
+    ],
+    "pinyin": "cu ti cuti c t ct cu ti   jia cu cuti jiacu c t   j c ct jc"
+  },
+  {
+    "id": "mastergo-italic",
+    "appId": "mastergo",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "斜体",
+      "en": "Italic"
+    },
+    "description": {
+      "zh": "文本倾斜",
+      "en": "Make text italic"
+    },
+    "windows": "Ctrl + I",
+    "mac": "⌘ I",
+    "linux": "Ctrl + I",
+    "keywords": [
+      "斜体",
+      "italic",
+      "倾斜"
+    ],
+    "pinyin": "xie ti xieti x t xt xie ti   qing xie xieti qingxie x t   q x xt qx"
+  },
+  {
+    "id": "mastergo-underline",
+    "appId": "mastergo",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "下划线",
+      "en": "Underline"
+    },
+    "description": {
+      "zh": "文本添加下划线",
+      "en": "Underline text"
+    },
+    "windows": "Ctrl + U",
+    "mac": "⌘ U",
+    "linux": "Ctrl + U",
+    "keywords": [
+      "下划线",
+      "underline"
+    ],
+    "pinyin": "xia hua xian xiahuaxian x h x xhx xia hua xian xiahuaxian x h x xhx"
+  },
+  {
+    "id": "mastergo-align-left",
+    "appId": "mastergo",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "左对齐",
+      "en": "Align left"
+    },
+    "description": {
+      "zh": "文本左对齐",
+      "en": "Align text to the left"
+    },
+    "windows": "Ctrl + Shift + L",
+    "mac": "⌘ ⇧ L",
+    "linux": "Ctrl + Shift + L",
+    "keywords": [
+      "左对齐",
+      "align left",
+      "文本对齐"
+    ],
+    "pinyin": "zuo dui qi zuoduiqi z d q zdq zuo dui qi   wen ben dui qi zuoduiqi wenbenduiqi z d q   w b d q zdq wbdq"
+  },
+  {
+    "id": "mastergo-align-center",
+    "appId": "mastergo",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "居中对齐",
+      "en": "Align center"
+    },
+    "description": {
+      "zh": "文本居中对齐",
+      "en": "Center align text"
+    },
+    "windows": "Ctrl + Shift + C",
+    "mac": "⌘ ⇧ C",
+    "linux": "Ctrl + Shift + C",
+    "keywords": [
+      "居中",
+      "align center",
+      "居中对齐"
+    ],
+    "pinyin": "ju zhong dui qi juzhongduiqi j z d q jzdq ju zhong   ju zhong dui qi juzhong juzhongduiqi j z   j z d q jz jzdq"
+  },
+  {
+    "id": "mastergo-align-right",
+    "appId": "mastergo",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "右对齐",
+      "en": "Align right"
+    },
+    "description": {
+      "zh": "文本右对齐",
+      "en": "Align text to the right"
+    },
+    "windows": "Ctrl + Shift + R",
+    "mac": "⌘ ⇧ R",
+    "linux": "Ctrl + Shift + R",
+    "keywords": [
+      "右对齐",
+      "align right",
+      "文本对齐"
+    ],
+    "pinyin": "you dui qi youduiqi y d q ydq you dui qi   wen ben dui qi youduiqi wenbenduiqi y d q   w b d q ydq wbdq"
+  },
+  {
+    "id": "mastergo-align-top",
+    "appId": "mastergo",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "顶部对齐",
+      "en": "Align top"
+    },
+    "description": {
+      "zh": "选中对象顶部对齐",
+      "en": "Align selected objects to the top"
+    },
+    "windows": "Alt + T",
+    "mac": "⌥ T",
+    "linux": "Alt + T",
+    "keywords": [
+      "顶部对齐",
+      "align top",
+      "对齐"
+    ],
+    "pinyin": "ding bu dui qi dingbuduiqi d b d q dbdq ding bu dui qi   dui qi dingbuduiqi duiqi d b d q   d q dbdq dq"
+  },
+  {
+    "id": "mastergo-align-middle",
+    "appId": "mastergo",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "垂直居中",
+      "en": "Align middle"
+    },
+    "description": {
+      "zh": "选中对象垂直居中对齐",
+      "en": "Align selected objects vertically centered"
+    },
+    "windows": "Alt + M",
+    "mac": "⌥ M",
+    "linux": "Alt + M",
+    "keywords": [
+      "垂直居中",
+      "align middle",
+      "居中"
+    ],
+    "pinyin": "chui zhi ju zhong chuizhijuzhong c z j z czjz chui zhi ju zhong   ju zhong chuizhijuzhong juzhong c z j z   j z czjz jz"
+  },
+  {
+    "id": "mastergo-align-bottom",
+    "appId": "mastergo",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "底部对齐",
+      "en": "Align bottom"
+    },
+    "description": {
+      "zh": "选中对象底部对齐",
+      "en": "Align selected objects to the bottom"
+    },
+    "windows": "Alt + B",
+    "mac": "⌥ B",
+    "linux": "Alt + B",
+    "keywords": [
+      "底部对齐",
+      "align bottom",
+      "对齐"
+    ],
+    "pinyin": "di bu dui qi dibuduiqi d b d q dbdq di bu dui qi   dui qi dibuduiqi duiqi d b d q   d q dbdq dq"
+  },
+  {
+    "id": "mastergo-distribute-h",
+    "appId": "mastergo",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "水平分布",
+      "en": "Distribute horizontally"
+    },
+    "description": {
+      "zh": "选中对象水平均匀分布",
+      "en": "Distribute selected objects horizontally"
+    },
+    "windows": "Alt + H",
+    "mac": "⌥ H",
+    "linux": "Alt + H",
+    "keywords": [
+      "水平分布",
+      "distribute horizontal",
+      "分布"
+    ],
+    "pinyin": "shui ping fen bu shuipingfenbu s p f b spfb shui ping fen bu   fen bu shuipingfenbu fenbu s p f b   f b spfb fb"
+  },
+  {
+    "id": "mastergo-distribute-v",
+    "appId": "mastergo",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "垂直分布",
+      "en": "Distribute vertically"
+    },
+    "description": {
+      "zh": "选中对象垂直均匀分布",
+      "en": "Distribute selected objects vertically"
+    },
+    "windows": "Alt + V",
+    "mac": "⌥ V",
+    "linux": "Alt + V",
+    "keywords": [
+      "垂直分布",
+      "distribute vertical",
+      "分布"
+    ],
+    "pinyin": "chui zhi fen bu chuizhifenbu c z f b czfb chui zhi fen bu   fen bu chuizhifenbu fenbu c z f b   f b czfb fb"
+  },
+  {
+    "id": "mastergo-save",
+    "appId": "mastergo",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "保存",
+      "en": "Save"
+    },
+    "description": {
+      "zh": "保存当前文件",
+      "en": "Save the current file"
+    },
+    "windows": "Ctrl + S",
+    "mac": "⌘ S",
+    "linux": "Ctrl + S",
+    "keywords": [
+      "保存",
+      "save"
+    ],
+    "pinyin": "bao cun baocun b c bc bao cun baocun b c bc"
+  },
+  {
+    "id": "mastergo-new-tab",
+    "appId": "mastergo",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "新建标签页",
+      "en": "New tab"
+    },
+    "description": {
+      "zh": "打开新的标签页",
+      "en": "Open a new tab"
+    },
+    "windows": "Ctrl + T",
+    "mac": "⌘ T",
+    "linux": "Ctrl + T",
+    "keywords": [
+      "新建",
+      "new",
+      "标签页",
+      "tab"
+    ],
+    "pinyin": "xin jian biao qian ye xinjianbiaoqianye x j b q y xjbqy xin jian   biao qian ye xinjian biaoqianye x j   b q y xj bqy"
   }
 ]

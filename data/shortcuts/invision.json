@@ -393,20 +393,21 @@
     "category": "design",
     "name": {
       "zh": "预览",
-      "en": "Preview"
+      "en": "Preview mode"
     },
     "description": {
-      "zh": "预览当前设计",
-      "en": "Preview the current design"
+      "zh": "进入预览模式",
+      "en": "Enter preview mode (Prototype)"
     },
-    "windows": "Ctrl + P",
-    "mac": "⌘ P",
-    "linux": "Ctrl + P",
+    "windows": "P",
+    "mac": "P",
+    "linux": "P",
     "keywords": [
       "预览",
-      "preview"
+      "preview",
+      "原型模式"
     ],
-    "pinyin": "yu lan yulan y l yl yu lan yulan y l yl"
+    "pinyin": "yu lan yulan y l yl yu lan   yuan xing mo shi yulan yuanxingmoshi y l   y x m s yl yxms"
   },
   {
     "id": "invision-export",
@@ -545,5 +546,168 @@
       "hide"
     ],
     "pinyin": "xian shi / yin cang jie mian xianshi/yincangjiemian x s / y c j m xs/ycjm jie mian   xian shi jiemian xianshi j m   x s jm xs"
+  },
+  {
+    "id": "invision-screen-nav",
+    "appId": "invision",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "切换屏幕",
+      "en": "Toggle between screens"
+    },
+    "description": {
+      "zh": "在原型屏幕之间切换导航（原型模式下）",
+      "en": "Navigate between prototype screens (in Prototype mode)"
+    },
+    "windows": "← / →",
+    "mac": "← / →",
+    "linux": "← / →",
+    "keywords": [
+      "切换屏幕",
+      "screen nav",
+      "导航",
+      "原型"
+    ],
+    "pinyin": "qie huan ping mu qiehuanpingmu q h p m qhpm qie huan ping mu   dao hang   yuan xing qiehuanpingmu daohang yuanxing q h p m   d h   y x qhpm dh yx"
+  },
+  {
+    "id": "invision-highlight-hotspot",
+    "appId": "invision",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "高亮热区",
+      "en": "Highlight created hotspot"
+    },
+    "description": {
+      "zh": "高亮显示已创建的热区连接点（原型模式下）",
+      "en": "Highlight created hotspots (in Prototype mode)"
+    },
+    "windows": "Shift",
+    "mac": "⇧",
+    "linux": "Shift",
+    "keywords": [
+      "热区",
+      "hotspot",
+      "高亮",
+      "原型"
+    ],
+    "pinyin": "gao liang re qu gaoliangrequ g l r q glrq re qu   gao liang   yuan xing requ gaoliang yuanxing r q   g l   y x rq gl yx"
+  },
+  {
+    "id": "invision-insert-screens",
+    "appId": "invision",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "插入屏幕",
+      "en": "Insert screens"
+    },
+    "description": {
+      "zh": "插入新屏幕（原型模式下）",
+      "en": "Insert new screens (in Prototype mode)"
+    },
+    "windows": "T",
+    "mac": "T",
+    "linux": "T",
+    "keywords": [
+      "插入屏幕",
+      "insert screens",
+      "原型"
+    ],
+    "pinyin": "cha ru ping mu charupingmu c r p m crpm cha ru ping mu   yuan xing charupingmu yuanxing c r p m   y x crpm yx"
+  },
+  {
+    "id": "invision-build-mode",
+    "appId": "invision",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "构建模式",
+      "en": "Build mode"
+    },
+    "description": {
+      "zh": "进入构建模式（原型模式下）",
+      "en": "Enter build mode (in Prototype mode)"
+    },
+    "windows": "B",
+    "mac": "B",
+    "linux": "B",
+    "keywords": [
+      "构建模式",
+      "build mode",
+      "原型"
+    ],
+    "pinyin": "gou jian mo shi goujianmoshi g j m s gjms gou jian mo shi   yuan xing goujianmoshi yuanxing g j m s   y x gjms yx"
+  },
+  {
+    "id": "invision-comment-mode",
+    "appId": "invision",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "评论模式",
+      "en": "Comment mode"
+    },
+    "description": {
+      "zh": "进入评论模式（原型模式下）",
+      "en": "Enter comment mode (in Prototype mode)"
+    },
+    "windows": "C",
+    "mac": "C",
+    "linux": "C",
+    "keywords": [
+      "评论模式",
+      "comment mode",
+      "原型"
+    ],
+    "pinyin": "ping lun mo shi pinglunmoshi p l m s plms ping lun mo shi   yuan xing pinglunmoshi yuanxing p l m s   y x plms yx"
+  },
+  {
+    "id": "invision-inspect-mode",
+    "appId": "invision",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "检查模式",
+      "en": "Inspect mode"
+    },
+    "description": {
+      "zh": "进入检查模式（原型模式下）",
+      "en": "Enter inspect mode (in Prototype mode)"
+    },
+    "windows": "I",
+    "mac": "I",
+    "linux": "I",
+    "keywords": [
+      "检查模式",
+      "inspect mode",
+      "原型"
+    ],
+    "pinyin": "jian cha mo shi jianchamoshi j c m s jcms jian cha mo shi   yuan xing jianchamoshi yuanxing j c m s   y x jcms yx"
+  },
+  {
+    "id": "invision-history-mode",
+    "appId": "invision",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "历史模式",
+      "en": "History mode"
+    },
+    "description": {
+      "zh": "进入历史模式（原型模式下）",
+      "en": "Enter history mode (in Prototype mode)"
+    },
+    "windows": "H",
+    "mac": "H",
+    "linux": "H",
+    "keywords": [
+      "历史模式",
+      "history mode",
+      "原型"
+    ],
+    "pinyin": "li shi mo shi lishimoshi l s m s lsms li shi mo shi   yuan xing lishimoshi yuanxing l s m s   y x lsms yx"
   }
 ]

@@ -12,9 +12,9 @@
       "zh": "切换到媒体页面",
       "en": "Switch to Media"
     },
-    "windows": "Shift+1",
-    "mac": "Shift+1",
-    "linux": "Shift+1",
+    "windows": "Shift + 1",
+    "mac": "⇧ 1",
+    "linux": "Shift + 1",
     "keywords": [
       "媒体",
       "media"
@@ -34,9 +34,9 @@
       "zh": "切换到剪切页面",
       "en": "Switch to Cut page"
     },
-    "windows": "Shift+2",
-    "mac": "Shift+2",
-    "linux": "Shift+2",
+    "windows": "Shift + 2",
+    "mac": "⇧ 2",
+    "linux": "Shift + 2",
     "keywords": [
       "剪切",
       "cut"
@@ -56,9 +56,9 @@
       "zh": "切换到编辑页面",
       "en": "Switch to Edit page"
     },
-    "windows": "Shift+3",
-    "mac": "Shift+3",
-    "linux": "Shift+3",
+    "windows": "Shift + 3",
+    "mac": "⇧ 3",
+    "linux": "Shift + 3",
     "keywords": [
       "编辑",
       "edit"
@@ -78,9 +78,9 @@
       "zh": "切换到 Fusion",
       "en": "Switch to Fusion"
     },
-    "windows": "Shift+4",
-    "mac": "Shift+4",
-    "linux": "Shift+4",
+    "windows": "Shift + 4",
+    "mac": "⇧ 4",
+    "linux": "Shift + 4",
     "keywords": [
       "fusion",
       "特效"
@@ -100,9 +100,9 @@
       "zh": "切换到调色",
       "en": "Switch to Color"
     },
-    "windows": "Shift+5",
-    "mac": "Shift+5",
-    "linux": "Shift+5",
+    "windows": "Shift + 5",
+    "mac": "⇧ 5",
+    "linux": "Shift + 5",
     "keywords": [
       "调色",
       "color",
@@ -123,9 +123,9 @@
       "zh": "切换到音频",
       "en": "Switch to Fairlight"
     },
-    "windows": "Shift+6",
-    "mac": "Shift+6",
-    "linux": "Shift+6",
+    "windows": "Shift + 6",
+    "mac": "⇧ 6",
+    "linux": "Shift + 6",
     "keywords": [
       "fairlight",
       "音频"
@@ -145,9 +145,9 @@
       "zh": "切换到交付",
       "en": "Switch to Deliver"
     },
-    "windows": "Shift+7",
-    "mac": "Shift+7",
-    "linux": "Shift+7",
+    "windows": "Shift + 7",
+    "mac": "⇧ 7",
+    "linux": "Shift + 7",
     "keywords": [
       "交付",
       "deliver",
@@ -347,9 +347,9 @@
       "zh": "在播放头位置分割片段",
       "en": "Split clip at playhead"
     },
-    "windows": "Ctrl+B",
-    "mac": "Cmd+B",
-    "linux": "Ctrl+B",
+    "windows": "Ctrl + B",
+    "mac": "⌘ B",
+    "linux": "Ctrl + B",
     "keywords": [
       "分割",
       "split",
@@ -371,9 +371,9 @@
       "zh": "波纹删除选中内容并补齐空隙",
       "en": "Ripple delete selection"
     },
-    "windows": "Shift+Delete",
-    "mac": "Shift+Delete",
-    "linux": "Shift+Delete",
+    "windows": "Shift + Delete",
+    "mac": "⇧ Delete",
+    "linux": "Shift + Delete",
     "keywords": [
       "波纹",
       "ripple",
@@ -507,9 +507,9 @@
       "zh": "缩放以完整显示时间轴",
       "en": "Zoom timeline to fit window"
     },
-    "windows": "Shift+Z",
-    "mac": "Shift+Z",
-    "linux": "Shift+Z",
+    "windows": "Shift + Z",
+    "mac": "⇧ Z",
+    "linux": "Shift + Z",
     "keywords": [
       "适应",
       "fit",
@@ -531,9 +531,9 @@
       "zh": "放大时间轴视图",
       "en": "Zoom in on timeline"
     },
-    "windows": "Ctrl++",
-    "mac": "Cmd++",
-    "linux": "Ctrl++",
+    "windows": "Ctrl + +",
+    "mac": "⌘ =",
+    "linux": "Ctrl + +",
     "keywords": [
       "放大",
       "zoom in",
@@ -554,9 +554,9 @@
       "zh": "缩小时间轴视图",
       "en": "Zoom out on timeline"
     },
-    "windows": "Ctrl+-",
-    "mac": "Cmd+-",
-    "linux": "Ctrl+-",
+    "windows": "Ctrl + -",
+    "mac": "⌘ -",
+    "linux": "Ctrl + -",
     "keywords": [
       "缩小",
       "zoom out",
@@ -646,9 +646,9 @@
       "zh": "清除已设的入点和出点",
       "en": "Clear in and out points"
     },
-    "windows": "Alt+X",
-    "mac": "Option+X",
-    "linux": "Alt+X",
+    "windows": "Alt + X",
+    "mac": "⌥ X",
+    "linux": "Alt + X",
     "keywords": [
       "清除",
       "clear",
@@ -669,9 +669,9 @@
       "zh": "播放头跳转到入点位置",
       "en": "Move playhead to in point"
     },
-    "windows": "Shift+I",
-    "mac": "Shift+I",
-    "linux": "Shift+I",
+    "windows": "Shift + I",
+    "mac": "⇧ I",
+    "linux": "Shift + I",
     "keywords": [
       "跳转",
       "入点",
@@ -692,9 +692,9 @@
       "zh": "播放头跳转到出点位置",
       "en": "Move playhead to out point"
     },
-    "windows": "Shift+O",
-    "mac": "Shift+O",
-    "linux": "Shift+O",
+    "windows": "Shift + O",
+    "mac": "⇧ O",
+    "linux": "Shift + O",
     "keywords": [
       "跳转",
       "出点",
@@ -738,9 +738,9 @@
       "zh": "开关链接选择模式",
       "en": "Toggle linked selection mode"
     },
-    "windows": "Shift+L",
-    "mac": "Shift+L",
-    "linux": "Shift+L",
+    "windows": "Shift + L",
+    "mac": "⇧ L",
+    "linux": "Shift + L",
     "keywords": [
       "链接",
       "linked",
@@ -761,9 +761,9 @@
       "zh": "选择当前轨道上所有片段",
       "en": "Select all clips in current track"
     },
-    "windows": "Ctrl+A",
-    "mac": "Cmd+A",
-    "linux": "Ctrl+A",
+    "windows": "Ctrl + A",
+    "mac": "⌘ A",
+    "linux": "Ctrl + A",
     "keywords": [
       "全选",
       "select all",
@@ -784,9 +784,9 @@
       "zh": "取消所有选中",
       "en": "Deselect all"
     },
-    "windows": "Ctrl+Shift+A",
-    "mac": "Cmd+Shift+A",
-    "linux": "Ctrl+Shift+A",
+    "windows": "Ctrl + Shift + A",
+    "mac": "⌘ ⇧ A",
+    "linux": "Ctrl + Shift + A",
     "keywords": [
       "取消选择",
       "deselect"
@@ -806,9 +806,9 @@
       "zh": "撤销上一步操作",
       "en": "Undo last action"
     },
-    "windows": "Ctrl+Z",
-    "mac": "Cmd+Z",
-    "linux": "Ctrl+Z",
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "Ctrl + Z",
     "keywords": [
       "撤销",
       "undo"
@@ -828,9 +828,9 @@
       "zh": "重做被撤销的操作",
       "en": "Redo undone action"
     },
-    "windows": "Ctrl+Shift+Z",
-    "mac": "Cmd+Shift+Z",
-    "linux": "Ctrl+Shift+Z",
+    "windows": "Ctrl + Shift + Z",
+    "mac": "⌘ ⇧ Z",
+    "linux": "Ctrl + Shift + Z",
     "keywords": [
       "重做",
       "redo"
@@ -850,9 +850,9 @@
       "zh": "保存当前项目",
       "en": "Save current project"
     },
-    "windows": "Ctrl+S",
-    "mac": "Cmd+S",
-    "linux": "Ctrl+S",
+    "windows": "Ctrl + S",
+    "mac": "⌘ S",
+    "linux": "Ctrl + S",
     "keywords": [
       "保存",
       "save",
@@ -873,9 +873,9 @@
       "zh": "渲染入点到出点之间的内容",
       "en": "Render between in and out points"
     },
-    "windows": "Shift+R",
-    "mac": "Shift+R",
-    "linux": "Shift+R",
+    "windows": "Shift + R",
+    "mac": "⇧ R",
+    "linux": "Shift + R",
     "keywords": [
       "渲染",
       "render",
@@ -896,9 +896,9 @@
       "zh": "将预览窗口切换为全屏显示",
       "en": "Toggle fullscreen viewer"
     },
-    "windows": "Ctrl+F",
-    "mac": "Cmd+F",
-    "linux": "Ctrl+F",
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
+    "linux": "Ctrl + F",
     "keywords": [
       "全屏",
       "fullscreen",
@@ -919,9 +919,9 @@
       "zh": "从预览画面抓取一帧静态图像到调色画廊",
       "en": "Grab still frame to color gallery"
     },
-    "windows": "Shift+D",
-    "mac": "Shift+D",
-    "linux": "Shift+D",
+    "windows": "Shift + D",
+    "mac": "⇧ D",
+    "linux": "Shift + D",
     "keywords": [
       "静帧",
       "still",
@@ -1107,9 +1107,9 @@
       "zh": "关闭 DaVinci Resolve 程序",
       "en": "Close DaVinci Resolve application"
     },
-    "windows": "Ctrl+Q",
-    "mac": "Cmd+Q",
-    "linux": "Ctrl+Q",
+    "windows": "Ctrl + Q",
+    "mac": "⌘ Q",
+    "linux": "Ctrl + Q",
     "keywords": [
       "关闭",
       "close",
@@ -1131,9 +1131,9 @@
       "zh": "创建新项目",
       "en": "Create new project"
     },
-    "windows": "Ctrl+N",
-    "mac": "Cmd+N",
-    "linux": "Ctrl+N",
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
+    "linux": "Ctrl + N",
     "keywords": [
       "新建",
       "new",
@@ -1154,9 +1154,9 @@
       "zh": "导入媒体文件",
       "en": "Import media files"
     },
-    "windows": "Ctrl+I",
-    "mac": "Cmd+I",
-    "linux": "Ctrl+I",
+    "windows": "Ctrl + I",
+    "mac": "⌘ I",
+    "linux": "Ctrl + I",
     "keywords": [
       "导入",
       "import",
@@ -1177,9 +1177,9 @@
       "zh": "开始导出渲染",
       "en": "Start export render"
     },
-    "windows": "Ctrl+M",
-    "mac": "Cmd+M",
-    "linux": "Ctrl+M",
+    "windows": "Ctrl + M",
+    "mac": "⌘ M",
+    "linux": "Ctrl + M",
     "keywords": [
       "导出",
       "export",
@@ -1201,9 +1201,9 @@
       "zh": "添加文本标题",
       "en": "Add text title"
     },
-    "windows": "Ctrl+T",
-    "mac": "Cmd+T",
-    "linux": "Ctrl+T",
+    "windows": "Ctrl + T",
+    "mac": "⌘ T",
+    "linux": "Ctrl + T",
     "keywords": [
       "字幕",
       "标题",
@@ -1226,9 +1226,9 @@
       "zh": "打开速度/重定时控制面板",
       "en": "Open speed/retime controls"
     },
-    "windows": "Ctrl+R",
-    "mac": "Cmd+R",
-    "linux": "Ctrl+R",
+    "windows": "Ctrl + R",
+    "mac": "⌘ R",
+    "linux": "Ctrl + R",
     "keywords": [
       "变速",
       "speed",
@@ -1251,9 +1251,9 @@
       "zh": "调色页面的 Lift（阴影）轮",
       "en": "Color page Lift wheel (shadows)"
     },
-    "windows": "Ctrl+Shift+L",
-    "mac": "Cmd+Shift+L",
-    "linux": "Ctrl+Shift+L",
+    "windows": "Ctrl + Shift + L",
+    "mac": "⌘ ⇧ L",
+    "linux": "Ctrl + Shift + L",
     "keywords": [
       "lift",
       "提升",
@@ -1276,9 +1276,9 @@
       "zh": "调色页面的 Gamma（中间调）轮",
       "en": "Color page Gamma wheel (midtones)"
     },
-    "windows": "Ctrl+Shift+G",
-    "mac": "Cmd+Shift+G",
-    "linux": "Ctrl+Shift+G",
+    "windows": "Ctrl + Shift + G",
+    "mac": "⌘ ⇧ G",
+    "linux": "Ctrl + Shift + G",
     "keywords": [
       "gamma",
       "伽马",
@@ -1301,9 +1301,9 @@
       "zh": "调色页面的 Gain（高光）轮",
       "en": "Color page Gain wheel (highlights)"
     },
-    "windows": "Ctrl+Shift+H",
-    "mac": "Cmd+Shift+H",
-    "linux": "Ctrl+Shift+H",
+    "windows": "Ctrl + Shift + H",
+    "mac": "⌘ ⇧ H",
+    "linux": "Ctrl + Shift + H",
     "keywords": [
       "gain",
       "增益",
@@ -1326,9 +1326,9 @@
       "zh": "调色页面的 Offset 轮",
       "en": "Color page Offset wheel"
     },
-    "windows": "Ctrl+Shift+O",
-    "mac": "Cmd+Shift+O",
-    "linux": "Ctrl+Shift+O",
+    "windows": "Ctrl + Shift + O",
+    "mac": "⌘ ⇧ O",
+    "linux": "Ctrl + Shift + O",
     "keywords": [
       "offset",
       "偏移",
@@ -1349,9 +1349,9 @@
       "zh": "调色页面对比度调节",
       "en": "Color page contrast adjustment"
     },
-    "windows": "Ctrl+Shift+C",
-    "mac": "Cmd+Shift+C",
-    "linux": "Ctrl+Shift+C",
+    "windows": "Ctrl + Shift + C",
+    "mac": "⌘ ⇧ C",
+    "linux": "Ctrl + Shift + C",
     "keywords": [
       "contrast",
       "对比度",
@@ -1372,9 +1372,9 @@
       "zh": "重置当前调色节点参数",
       "en": "Reset current color node parameters"
     },
-    "windows": "Ctrl+Shift+E",
-    "mac": "Cmd+Shift+E",
-    "linux": "Ctrl+Shift+E",
+    "windows": "Ctrl + Shift + E",
+    "mac": "⌘ ⇧ E",
+    "linux": "Ctrl + Shift + E",
     "keywords": [
       "reset",
       "重置",
@@ -1445,9 +1445,9 @@
       "zh": "在 Fairlight 页面静音选中音频片段",
       "en": "Mute selected clip in Fairlight"
     },
-    "windows": "Shift+S",
-    "mac": "Shift+S",
-    "linux": "Shift+S",
+    "windows": "Shift + S",
+    "mac": "⇧ S",
+    "linux": "Shift + S",
     "keywords": [
       "mute",
       "静音",
@@ -1469,9 +1469,9 @@
       "zh": "标准化选中音频片段音量",
       "en": "Normalize volume of selected audio clip"
     },
-    "windows": "Ctrl+Shift+N",
-    "mac": "Cmd+Shift+N",
-    "linux": "Ctrl+Shift+N",
+    "windows": "Ctrl + Shift + N",
+    "mac": "⌘ ⇧ N",
+    "linux": "Ctrl + Shift + N",
     "keywords": [
       "normalize",
       "标准化",
@@ -1493,9 +1493,9 @@
       "zh": "音频淡入效果",
       "en": "Audio fade in effect"
     },
-    "windows": "Ctrl+Shift+[",
-    "mac": "Cmd+Shift+[",
-    "linux": "Ctrl+Shift+[",
+    "windows": "Ctrl + Shift + [",
+    "mac": "⌘ ⇧ [",
+    "linux": "Ctrl + Shift + [",
     "keywords": [
       "fade in",
       "淡入",
@@ -1516,9 +1516,9 @@
       "zh": "音频淡出效果",
       "en": "Audio fade out effect"
     },
-    "windows": "Ctrl+Shift+]",
-    "mac": "Cmd+Shift+]",
-    "linux": "Ctrl+Shift+]",
+    "windows": "Ctrl + Shift + ]",
+    "mac": "⌘ ⇧ ]",
+    "linux": "Ctrl + Shift + ]",
     "keywords": [
       "fade out",
       "淡出",
@@ -1539,9 +1539,9 @@
       "zh": "开始渲染队列中所有任务",
       "en": "Start rendering all jobs in queue"
     },
-    "windows": "Ctrl+Enter",
-    "mac": "Cmd+Return",
-    "linux": "Ctrl+Enter",
+    "windows": "Ctrl + Enter",
+    "mac": "⌘ Return",
+    "linux": "Ctrl + Enter",
     "keywords": [
       "render",
       "渲染",

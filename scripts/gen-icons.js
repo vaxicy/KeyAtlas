@@ -1,15 +1,16 @@
 const sharp = require("sharp");
 const fs = require("fs");
+const path = require("path");
 
-const svg = fs.readFileSync("icons/logo.svg");
+const svg = fs.readFileSync(path.join(__dirname, "..", "icons", "logo.svg"));
+
 const sizes = [16, 48, 128];
-
 (async () => {
-  for (const size of sizes) {
+  for (const s of sizes) {
     await sharp(svg, { density: 384 })
-      .resize(size, size)
+      .resize(s, s)
       .png()
-      .toFile(`icons/icon-${size}.png`);
-    console.log(`icons/icon-${size}.png generated`);
+      .toFile(path.join(__dirname, "..", "icons", `icon-${s}.png`));
+    console.log(`icon-${s}.png generated`);
   }
 })();

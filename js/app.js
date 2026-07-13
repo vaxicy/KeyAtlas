@@ -711,7 +711,17 @@
     const alpha = e.target.closest("[data-alpha]");
     if (alpha) {
       const target = el.content.querySelector(`[data-alpha-group="${alpha.dataset.alpha}"]`);
-      if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
+      if (target) {
+        // 计算偏移，避开粘性字母导航栏（.alpha-index）的遮挡
+        const bar = el.content.querySelector(".alpha-index");
+        const offset = (bar ? bar.offsetHeight : 0) + 8;
+        const cRect = el.content.getBoundingClientRect();
+        const tRect = target.getBoundingClientRect();
+        el.content.scrollTo({
+          top: el.content.scrollTop + (tRect.top - cRect.top) - offset,
+          behavior: "smooth",
+        });
+      }
       return;
     }
 

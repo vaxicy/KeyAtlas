@@ -1,0 +1,1520 @@
+[
+  {
+    "id": "sketch-command-bar",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "打开命令栏",
+      "en": "Open Command Bar"
+    },
+    "description": {
+      "zh": "打开命令栏搜索并执行命令",
+      "en": "Open the command bar to search and run commands"
+    },
+    "windows": "S / ⌘K",
+    "mac": "S / ⌘K",
+    "linux": "S / ⌘K",
+    "keywords": [
+      "命令",
+      "搜索",
+      "command",
+      "search",
+      "命令栏"
+    ],
+    "pinyin": "da kai ming ling lan dakaiminglinglan d k m l l dkmll ming ling   sou suo   ming ling lan mingling sousuo minglinglan m l   s s   m l l ml ss mll"
+  },
+  {
+    "id": "sketch-settings",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "打开设置",
+      "en": "Open Settings"
+    },
+    "description": {
+      "zh": "打开 Sketch 设置",
+      "en": "Open Sketch settings"
+    },
+    "windows": "⌘,",
+    "mac": "⌘,",
+    "linux": "⌘,",
+    "keywords": [
+      "设置",
+      "settings",
+      "偏好"
+    ],
+    "pinyin": "da kai she zhi dakaishezhi d k s z dksz she zhi   pian hao shezhi pianhao s z   p h sz ph"
+  },
+  {
+    "id": "sketch-prototype-preview",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "原型预览",
+      "en": "Prototype Preview"
+    },
+    "description": {
+      "zh": "打开原型预览窗口",
+      "en": "Open the prototype preview window"
+    },
+    "windows": "⌘P",
+    "mac": "⌘P",
+    "linux": "⌘P",
+    "keywords": [
+      "预览",
+      "原型",
+      "preview",
+      "prototype"
+    ],
+    "pinyin": "yuan xing yu lan yuanxingyulan y x y l yxyl yu lan   yuan xing yulan yuanxing y l   y x yl yx"
+  },
+  {
+    "id": "sketch-run-script",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "运行脚本",
+      "en": "Run Script"
+    },
+    "description": {
+      "zh": "运行上次使用的脚本",
+      "en": "Run a script"
+    },
+    "windows": "⌃⇧K",
+    "mac": "⌃⇧K",
+    "linux": "⌃⇧K",
+    "keywords": [
+      "脚本",
+      "script",
+      "插件"
+    ],
+    "pinyin": "yun xing jiao ben yunxingjiaoben y x j b yxjb jiao ben   cha jian jiaoben chajian j b   c j jb cj"
+  },
+  {
+    "id": "sketch-new-doc",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "新建文档",
+      "en": "New Document"
+    },
+    "description": {
+      "zh": "新建一个文档",
+      "en": "Create a new document"
+    },
+    "windows": "⌘N",
+    "mac": "⌘N",
+    "linux": "⌘N",
+    "keywords": [
+      "新建",
+      "文档",
+      "new",
+      "document"
+    ],
+    "pinyin": "xin jian wen dang xinjianwendang x j w d xjwd xin jian   wen dang xinjian wendang x j   w d xj wd"
+  },
+  {
+    "id": "sketch-open-doc",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "打开文档",
+      "en": "Open Document"
+    },
+    "description": {
+      "zh": "打开工作区或本地文档",
+      "en": "Open a workspace or local document"
+    },
+    "windows": "⌘O",
+    "mac": "⌘O",
+    "linux": "⌘O",
+    "keywords": [
+      "打开",
+      "文档",
+      "open"
+    ],
+    "pinyin": "da kai wen dang dakaiwendang d k w d dkwd da kai   wen dang dakai wendang d k   w d dk wd"
+  },
+  {
+    "id": "sketch-close-doc",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "关闭文档",
+      "en": "Close Document"
+    },
+    "description": {
+      "zh": "关闭当前文档",
+      "en": "Close the current document"
+    },
+    "windows": "⌘W",
+    "mac": "⌘W",
+    "linux": "⌘W",
+    "keywords": [
+      "关闭",
+      "close"
+    ],
+    "pinyin": "guan bi wen dang guanbiwendang g b w d gbwd guan bi guanbi g b gb"
+  },
+  {
+    "id": "sketch-save",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "保存",
+      "en": "Save"
+    },
+    "description": {
+      "zh": "保存文档（自动保存开启时创建版本）",
+      "en": "Save the document"
+    },
+    "windows": "⌘S",
+    "mac": "⌘S",
+    "linux": "⌘S",
+    "keywords": [
+      "保存",
+      "save"
+    ],
+    "pinyin": "bao cun baocun b c bc bao cun baocun b c bc"
+  },
+  {
+    "id": "sketch-save-version",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "创建文档版本",
+      "en": "Create Version"
+    },
+    "description": {
+      "zh": "为工作区文档创建一个版本",
+      "en": "Create a version of the workspace document"
+    },
+    "windows": "⌃⌘S",
+    "mac": "⌃⌘S",
+    "linux": "⌃⌘S",
+    "keywords": [
+      "版本",
+      "保存",
+      "version"
+    ],
+    "pinyin": "chuang jian wen dang ban ben chuangjianwendangbanben c j w d b b cjwdbb ban ben   bao cun banben baocun b b   b c bb bc"
+  },
+  {
+    "id": "sketch-new-page",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "新建页面",
+      "en": "New Page"
+    },
+    "description": {
+      "zh": "在当前文档新建页面",
+      "en": "Create a new page"
+    },
+    "windows": "⇧⌘N",
+    "mac": "⇧⌘N",
+    "linux": "⇧⌘N",
+    "keywords": [
+      "新建",
+      "页面",
+      "page"
+    ],
+    "pinyin": "xin jian ye mian xinjianyemian x j y m xjym xin jian   ye mian xinjian yemian x j   y m xj ym"
+  },
+  {
+    "id": "sketch-canvas-view",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "切换到画布视图",
+      "en": "Canvas View"
+    },
+    "description": {
+      "zh": "切换到画布视图",
+      "en": "Switch to the Canvas view"
+    },
+    "windows": "⌃1",
+    "mac": "⌃1",
+    "linux": "⌃1",
+    "keywords": [
+      "画布",
+      "视图",
+      "canvas",
+      "view"
+    ],
+    "pinyin": "qie huan dao hua bu shi tu qiehuandaohuabushitu q h d h b s t qhdhbst hua bu   shi tu huabu shitu h b   s t hb st"
+  },
+  {
+    "id": "sketch-components-view",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "切换到组件视图",
+      "en": "Components View"
+    },
+    "description": {
+      "zh": "切换到组件视图",
+      "en": "Switch to the Components view"
+    },
+    "windows": "⌃2",
+    "mac": "⌃2",
+    "linux": "⌃2",
+    "keywords": [
+      "组件",
+      "视图",
+      "components"
+    ],
+    "pinyin": "qie huan dao zu jian shi tu qiehuandaozujianshitu q h d z j s t qhdzjst zu jian   shi tu zujian shitu z j   s t zj st"
+  },
+  {
+    "id": "sketch-toggle-interface",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "隐藏/显示界面",
+      "en": "Toggle Interface"
+    },
+    "description": {
+      "zh": "切换界面（隐藏/显示面板）",
+      "en": "Toggle the interface on or off"
+    },
+    "windows": "⌘.",
+    "mac": "⌘.",
+    "linux": "⌘.",
+    "keywords": [
+      "界面",
+      "隐藏",
+      "interface"
+    ],
+    "pinyin": "yin cang / xian shi jie mian yincang/xianshijiemian y c / x s j m yc/xsjm jie mian   yin cang jiemian yincang j m   y c jm yc"
+  },
+  {
+    "id": "sketch-fullscreen",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "全屏",
+      "en": "Full Screen"
+    },
+    "description": {
+      "zh": "切换全屏模式",
+      "en": "Toggle full screen"
+    },
+    "windows": "⌃⌘F",
+    "mac": "⌃⌘F",
+    "linux": "⌃⌘F",
+    "keywords": [
+      "全屏",
+      "fullscreen"
+    ],
+    "pinyin": "quan ping quanping q p qp quan ping quanping q p qp"
+  },
+  {
+    "id": "sketch-zoom-in",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "放大",
+      "en": "Zoom In"
+    },
+    "description": {
+      "zh": "放大画布",
+      "en": "Zoom in on the canvas"
+    },
+    "windows": "⌘+",
+    "mac": "⌘+",
+    "linux": "⌘+",
+    "keywords": [
+      "放大",
+      "缩放",
+      "zoom"
+    ],
+    "pinyin": "fang da fangda f d fd fang da   suo fang fangda suofang f d   s f fd sf"
+  },
+  {
+    "id": "sketch-zoom-out",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "缩小",
+      "en": "Zoom Out"
+    },
+    "description": {
+      "zh": "缩小画布",
+      "en": "Zoom out on the canvas"
+    },
+    "windows": "⌘-",
+    "mac": "⌘-",
+    "linux": "⌘-",
+    "keywords": [
+      "缩小",
+      "缩放",
+      "zoom"
+    ],
+    "pinyin": "suo xiao suoxiao s x sx suo xiao   suo fang suoxiao suofang s x   s f sx sf"
+  },
+  {
+    "id": "sketch-zoom-100",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "缩放到 100%",
+      "en": "Zoom to 100%"
+    },
+    "description": {
+      "zh": "将画布缩放到 100%",
+      "en": "Zoom to 100% on the canvas"
+    },
+    "windows": "⌘0",
+    "mac": "⌘0",
+    "linux": "⌘0",
+    "keywords": [
+      "缩放",
+      "100",
+      "zoom"
+    ],
+    "pinyin": "suo fang dao   1 0 0 % suofangdao 100% s f d   1 0 0 % sfd 100% suo fang suofang s f sf"
+  },
+  {
+    "id": "sketch-zoom-fit-all",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "适应所有图层",
+      "en": "Zoom to Fit All"
+    },
+    "description": {
+      "zh": "缩放以适配画布中所有图层",
+      "en": "Zoom to fit all layers in the canvas"
+    },
+    "windows": "⌘1",
+    "mac": "⌘1",
+    "linux": "⌘1",
+    "keywords": [
+      "适应",
+      "缩放",
+      "fit",
+      "zoom"
+    ],
+    "pinyin": "shi ying suo you tu ceng shiyingsuoyoutuceng s y s y t c sysytc shi ying   suo fang shiying suofang s y   s f sy sf"
+  },
+  {
+    "id": "sketch-zoom-fit-selection",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "适应所选",
+      "en": "Zoom to Selection"
+    },
+    "description": {
+      "zh": "缩放以适配当前所选图层",
+      "en": "Zoom to fit the current selection"
+    },
+    "windows": "⌘2",
+    "mac": "⌘2",
+    "linux": "⌘2",
+    "keywords": [
+      "适应",
+      "所选",
+      "fit",
+      "selection"
+    ],
+    "pinyin": "shi ying suo xuan shiyingsuoxuan s y s x sysx shi ying   suo xuan shiying suoxuan s y   s x sy sx"
+  },
+  {
+    "id": "sketch-center-selection",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "居中所选",
+      "en": "Center Selection"
+    },
+    "description": {
+      "zh": "将所选图层在画布中居中",
+      "en": "Center the selection in the canvas"
+    },
+    "windows": "⌘3",
+    "mac": "⌘3",
+    "linux": "⌘3",
+    "keywords": [
+      "居中",
+      "所选",
+      "center"
+    ],
+    "pinyin": "ju zhong suo xuan juzhongsuoxuan j z s x jzsx ju zhong   suo xuan juzhong suoxuan j z   s x jz sx"
+  },
+  {
+    "id": "sketch-toggle-rulers",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "显示/隐藏标尺",
+      "en": "Toggle Rulers"
+    },
+    "description": {
+      "zh": "切换标尺显示",
+      "en": "Show or hide rulers"
+    },
+    "windows": "⌃R",
+    "mac": "⌃R",
+    "linux": "⌃R",
+    "keywords": [
+      "标尺",
+      "rulers"
+    ],
+    "pinyin": "xian shi / yin cang biao chi xianshi/yincangbiaochi x s / y c b c xs/ycbc biao chi biaochi b c bc"
+  },
+  {
+    "id": "sketch-toggle-grid",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "显示/隐藏网格",
+      "en": "Toggle Grid"
+    },
+    "description": {
+      "zh": "切换网格显示",
+      "en": "Show or hide the grid"
+    },
+    "windows": "⌃G",
+    "mac": "⌃G",
+    "linux": "⌃G",
+    "keywords": [
+      "网格",
+      "grid"
+    ],
+    "pinyin": "xian shi / yin cang wang ge xianshi/yincangwangge x s / y c w g xs/ycwg wang ge wangge w g wg"
+  },
+  {
+    "id": "sketch-toggle-pixel-grid",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "显示/隐藏像素网格",
+      "en": "Toggle Pixel Grid"
+    },
+    "description": {
+      "zh": "切换像素网格显示",
+      "en": "Show or hide the pixel grid"
+    },
+    "windows": "⌃X",
+    "mac": "⌃X",
+    "linux": "⌃X",
+    "keywords": [
+      "像素",
+      "网格",
+      "pixel",
+      "grid"
+    ],
+    "pinyin": "xian shi / yin cang xiang su wang ge xianshi/yincangxiangsuwangge x s / y c x s w g xs/ycxswg xiang su   wang ge xiangsu wangge x s   w g xs wg"
+  },
+  {
+    "id": "sketch-insert-comment",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "插入评论",
+      "en": "Insert Comment"
+    },
+    "description": {
+      "zh": "在画布插入评论",
+      "en": "Insert a comment on the canvas"
+    },
+    "windows": "N",
+    "mac": "N",
+    "linux": "N",
+    "keywords": [
+      "评论",
+      "comment"
+    ],
+    "pinyin": "cha ru ping lun charupinglun c r p l crpl ping lun pinglun p l pl"
+  },
+  {
+    "id": "sketch-submit-comment",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "提交评论",
+      "en": "Submit Comment"
+    },
+    "description": {
+      "zh": "提交当前评论",
+      "en": "Submit the current comment"
+    },
+    "windows": "⌘⏎",
+    "mac": "⌘⏎",
+    "linux": "⌘⏎",
+    "keywords": [
+      "提交",
+      "评论",
+      "comment"
+    ],
+    "pinyin": "ti jiao ping lun tijiaopinglun t j p l tjpl ti jiao   ping lun tijiao pinglun t j   p l tj pl"
+  },
+  {
+    "id": "sketch-frame",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "插入画框",
+      "en": "Insert Frame"
+    },
+    "description": {
+      "zh": "插入一个画框（Frame）",
+      "en": "Insert a frame"
+    },
+    "windows": "F",
+    "mac": "F",
+    "linux": "F",
+    "keywords": [
+      "画框",
+      "frame"
+    ],
+    "pinyin": "cha ru hua kuang charuhuakuang c r h k crhk hua kuang huakuang h k hk"
+  },
+  {
+    "id": "sketch-graphic",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "插入图形",
+      "en": "Insert Graphic"
+    },
+    "description": {
+      "zh": "插入图形",
+      "en": "Insert a graphic"
+    },
+    "windows": "G",
+    "mac": "G",
+    "linux": "G",
+    "keywords": [
+      "图形",
+      "graphic"
+    ],
+    "pinyin": "cha ru tu xing charutuxing c r t x crtx tu xing tuxing t x tx"
+  },
+  {
+    "id": "sketch-rectangle",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "矩形",
+      "en": "Rectangle"
+    },
+    "description": {
+      "zh": "插入矩形",
+      "en": "Insert a rectangle"
+    },
+    "windows": "R",
+    "mac": "R",
+    "linux": "R",
+    "keywords": [
+      "矩形",
+      "rectangle"
+    ],
+    "pinyin": "ju xing juxing j x jx ju xing juxing j x jx"
+  },
+  {
+    "id": "sketch-oval",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "椭圆",
+      "en": "Oval"
+    },
+    "description": {
+      "zh": "插入椭圆",
+      "en": "Insert an oval"
+    },
+    "windows": "O",
+    "mac": "O",
+    "linux": "O",
+    "keywords": [
+      "椭圆",
+      "oval",
+      "圆形"
+    ],
+    "pinyin": "tuo yuan tuoyuan t y ty tuo yuan   yuan xing tuoyuan yuanxing t y   y x ty yx"
+  },
+  {
+    "id": "sketch-line",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "线条",
+      "en": "Line"
+    },
+    "description": {
+      "zh": "插入线条",
+      "en": "Insert a line"
+    },
+    "windows": "L",
+    "mac": "L",
+    "linux": "L",
+    "keywords": [
+      "线",
+      "line"
+    ],
+    "pinyin": "xian tiao xiantiao x t xt xian xian x x"
+  },
+  {
+    "id": "sketch-vector",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "矢量工具",
+      "en": "Vector"
+    },
+    "description": {
+      "zh": "使用矢量工具绘制路径",
+      "en": "Use the vector tool"
+    },
+    "windows": "V",
+    "mac": "V",
+    "linux": "V",
+    "keywords": [
+      "矢量",
+      "vector",
+      "路径"
+    ],
+    "pinyin": "shi liang gong ju shilianggongju s l g j slgj shi liang   lu jing shiliang lujing s l   l j sl lj"
+  },
+  {
+    "id": "sketch-pencil",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "铅笔",
+      "en": "Pencil"
+    },
+    "description": {
+      "zh": "使用铅笔自由绘制",
+      "en": "Use the pencil tool"
+    },
+    "windows": "P",
+    "mac": "P",
+    "linux": "P",
+    "keywords": [
+      "铅笔",
+      "pencil"
+    ],
+    "pinyin": "qian bi qianbi q b qb qian bi qianbi q b qb"
+  },
+  {
+    "id": "sketch-text",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "文本",
+      "en": "Text"
+    },
+    "description": {
+      "zh": "插入文本图层",
+      "en": "Insert a text layer"
+    },
+    "windows": "T",
+    "mac": "T",
+    "linux": "T",
+    "keywords": [
+      "文本",
+      "文字",
+      "text"
+    ],
+    "pinyin": "wen ben wenben w b wb wen ben   wen zi wenben wenzi w b   w z wb wz"
+  },
+  {
+    "id": "sketch-symbol",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "插入符号",
+      "en": "Insert Symbol"
+    },
+    "description": {
+      "zh": "插入一个符号（Symbol）",
+      "en": "Insert a symbol"
+    },
+    "windows": "Y",
+    "mac": "Y",
+    "linux": "Y",
+    "keywords": [
+      "符号",
+      "组件",
+      "symbol"
+    ],
+    "pinyin": "cha ru fu hao charufuhao c r f h crfh fu hao   zu jian fuhao zujian f h   z j fh zj"
+  },
+  {
+    "id": "sketch-marquee",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "框选",
+      "en": "Marquee Select"
+    },
+    "description": {
+      "zh": "使用选框工具选择图层",
+      "en": "Select layers with the marquee tool"
+    },
+    "windows": "X",
+    "mac": "X",
+    "linux": "X",
+    "keywords": [
+      "框选",
+      "选择",
+      "marquee",
+      "select"
+    ],
+    "pinyin": "kuang xuan kuangxuan k x kx kuang xuan   xuan ze kuangxuan xuanze k x   x z kx xz"
+  },
+  {
+    "id": "sketch-dive-in",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "进入容器",
+      "en": "Dive Into Container"
+    },
+    "description": {
+      "zh": "进入所选容器内部",
+      "en": "Dive deeper into the selected container"
+    },
+    "windows": "⏎",
+    "mac": "⏎",
+    "linux": "⏎",
+    "keywords": [
+      "进入",
+      "容器",
+      "dive"
+    ],
+    "pinyin": "jin ru rong qi jinrurongqi j r r q jrrq jin ru   rong qi jinru rongqi j r   r q jr rq"
+  },
+  {
+    "id": "sketch-select-parent",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "选择父容器",
+      "en": "Select Parent"
+    },
+    "description": {
+      "zh": "选择当前图层的父容器",
+      "en": "Select the parent container"
+    },
+    "windows": "Esc",
+    "mac": "Esc",
+    "linux": "Esc",
+    "keywords": [
+      "父容器",
+      "选择",
+      "parent"
+    ],
+    "pinyin": "xuan ze fu rong qi xuanzefurongqi x z f r q xzfrq fu rong qi   xuan ze furongqi xuanze f r q   x z frq xz"
+  },
+  {
+    "id": "sketch-select-all",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "全选图层",
+      "en": "Select All"
+    },
+    "description": {
+      "zh": "选择所有图层（不含隐藏/锁定）",
+      "en": "Select all layers except hidden or locked"
+    },
+    "windows": "⌘A",
+    "mac": "⌘A",
+    "linux": "⌘A",
+    "keywords": [
+      "全选",
+      "select",
+      "all"
+    ],
+    "pinyin": "quan xuan tu ceng quanxuantuceng q x t c qxtc quan xuan quanxuan q x qx"
+  },
+  {
+    "id": "sketch-find-layer",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "查找图层",
+      "en": "Find Layer"
+    },
+    "description": {
+      "zh": "按名称查找图层",
+      "en": "Find a layer by name"
+    },
+    "windows": "⌥⌘F",
+    "mac": "⌥⌘F",
+    "linux": "⌥⌘F",
+    "keywords": [
+      "查找",
+      "图层",
+      "find",
+      "layer"
+    ],
+    "pinyin": "cha zhao tu ceng chazhaotuceng c z t c cztc cha zhao   tu ceng chazhao tuceng c z   t c cz tc"
+  },
+  {
+    "id": "sketch-undo",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销上一步操作",
+      "en": "Undo the last action"
+    },
+    "windows": "⌘Z",
+    "mac": "⌘Z",
+    "linux": "⌘Z",
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "sketch-redo",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "重做被撤销的操作",
+      "en": "Redo the undone action"
+    },
+    "windows": "⇧⌘Z",
+    "mac": "⇧⌘Z",
+    "linux": "⇧⌘Z",
+    "keywords": [
+      "重做",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "sketch-copy",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "复制",
+      "en": "Copy"
+    },
+    "description": {
+      "zh": "复制所选图层",
+      "en": "Copy the selection"
+    },
+    "windows": "⌘C",
+    "mac": "⌘C",
+    "linux": "⌘C",
+    "keywords": [
+      "复制",
+      "copy"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "sketch-paste",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "粘贴",
+      "en": "Paste"
+    },
+    "description": {
+      "zh": "粘贴剪贴板内容",
+      "en": "Paste from the clipboard"
+    },
+    "windows": "⌘V",
+    "mac": "⌘V",
+    "linux": "⌘V",
+    "keywords": [
+      "粘贴",
+      "paste"
+    ],
+    "pinyin": "nian tie niantie n t nt nian tie niantie n t nt"
+  },
+  {
+    "id": "sketch-paste-over",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "原位粘贴",
+      "en": "Paste Over"
+    },
+    "description": {
+      "zh": "粘贴并覆盖所选图层位置",
+      "en": "Paste over the selection"
+    },
+    "windows": "⇧⌘V",
+    "mac": "⇧⌘V",
+    "linux": "⇧⌘V",
+    "keywords": [
+      "粘贴",
+      "原位",
+      "paste"
+    ],
+    "pinyin": "yuan wei nian tie yuanweiniantie y w n t ywnt nian tie   yuan wei niantie yuanwei n t   y w nt yw"
+  },
+  {
+    "id": "sketch-duplicate",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "复制图层",
+      "en": "Duplicate"
+    },
+    "description": {
+      "zh": "复制所选图层",
+      "en": "Duplicate the selection"
+    },
+    "windows": "⌘D",
+    "mac": "⌘D",
+    "linux": "⌘D",
+    "keywords": [
+      "复制",
+      "duplicate"
+    ],
+    "pinyin": "fu zhi tu ceng fuzhituceng f z t c fztc fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "sketch-rename",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "重命名图层",
+      "en": "Rename Layer"
+    },
+    "description": {
+      "zh": "重命名所选图层",
+      "en": "Rename the selected layer(s)"
+    },
+    "windows": "⌘R",
+    "mac": "⌘R",
+    "linux": "⌘R",
+    "keywords": [
+      "重命名",
+      "图层",
+      "rename"
+    ],
+    "pinyin": "zhong ming ming tu ceng zhongmingmingtuceng z m m t c zmmtc zhong ming ming   tu ceng zhongmingming tuceng z m m   t c zmm tc"
+  },
+  {
+    "id": "sketch-delete",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "删除图层",
+      "en": "Delete Layer"
+    },
+    "description": {
+      "zh": "删除所选图层",
+      "en": "Delete the selected layer"
+    },
+    "windows": "⌫",
+    "mac": "⌫",
+    "linux": "⌫",
+    "keywords": [
+      "删除",
+      "图层",
+      "delete"
+    ],
+    "pinyin": "shan chu tu ceng shanchutuceng s c t c sctc shan chu   tu ceng shanchu tuceng s c   t c sc tc"
+  },
+  {
+    "id": "sketch-hide-layer",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "隐藏/显示图层",
+      "en": "Hide/Show Layer"
+    },
+    "description": {
+      "zh": "切换图层隐藏状态",
+      "en": "Hide or show the selected layer"
+    },
+    "windows": "⇧⌘H",
+    "mac": "⇧⌘H",
+    "linux": "⇧⌘H",
+    "keywords": [
+      "隐藏",
+      "显示",
+      "图层",
+      "hide"
+    ],
+    "pinyin": "yin cang / xian shi tu ceng yincang/xianshituceng y c / x s t c yc/xstc yin cang   xian shi   tu ceng yincang xianshi tuceng y c   x s   t c yc xs tc"
+  },
+  {
+    "id": "sketch-lock-layer",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "锁定/解锁图层",
+      "en": "Lock/Unlock Layer"
+    },
+    "description": {
+      "zh": "切换图层锁定状态",
+      "en": "Lock or unlock the selected layer"
+    },
+    "windows": "⇧⌘L",
+    "mac": "⇧⌘L",
+    "linux": "⇧⌘L",
+    "keywords": [
+      "锁定",
+      "图层",
+      "lock"
+    ],
+    "pinyin": "suo ding / jie suo tu ceng suoding/jiesuotuceng s d / j s t c sd/jstc suo ding   tu ceng suoding tuceng s d   t c sd tc"
+  },
+  {
+    "id": "sketch-group",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "编组到画框",
+      "en": "Group in Frame"
+    },
+    "description": {
+      "zh": "将所选编组到一个画框",
+      "en": "Group the selection in a frame"
+    },
+    "windows": "⌘F",
+    "mac": "⌘F",
+    "linux": "⌘F",
+    "keywords": [
+      "编组",
+      "画框",
+      "group"
+    ],
+    "pinyin": "bian zu dao hua kuang bianzudaohuakuang b z d h k bzdhk bian zu   hua kuang bianzu huakuang b z   h k bz hk"
+  },
+  {
+    "id": "sketch-ungroup",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "解组",
+      "en": "Ungroup"
+    },
+    "description": {
+      "zh": "解除容器的编组",
+      "en": "Ungroup the selected container"
+    },
+    "windows": "⇧⌘G",
+    "mac": "⇧⌘G",
+    "linux": "⇧⌘G",
+    "keywords": [
+      "解组",
+      "ungroup"
+    ],
+    "pinyin": "jie zu jiezu j z jz jie zu jiezu j z jz"
+  },
+  {
+    "id": "sketch-bring-forward",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "上移一层",
+      "en": "Bring Forward"
+    },
+    "description": {
+      "zh": "将所选上移一层",
+      "en": "Bring the selection forward"
+    },
+    "windows": "⌘]",
+    "mac": "⌘]",
+    "linux": "⌘]",
+    "keywords": [
+      "上移",
+      "图层",
+      "bring",
+      "forward"
+    ],
+    "pinyin": "shang yi yi ceng shangyiyiceng s y y c syyc shang yi   tu ceng shangyi tuceng s y   t c sy tc"
+  },
+  {
+    "id": "sketch-bring-to-front",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "置于顶层",
+      "en": "Bring to Front"
+    },
+    "description": {
+      "zh": "将所选置于最顶层",
+      "en": "Bring the selection to the front"
+    },
+    "windows": "⌥⌘]",
+    "mac": "⌥⌘]",
+    "linux": "⌥⌘]",
+    "keywords": [
+      "顶层",
+      "bring",
+      "front"
+    ],
+    "pinyin": "zhi yu ding ceng zhiyudingceng z y d c zydc ding ceng dingceng d c dc"
+  },
+  {
+    "id": "sketch-send-backward",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "下移一层",
+      "en": "Send Backward"
+    },
+    "description": {
+      "zh": "将所选下移一层",
+      "en": "Send the selection backward"
+    },
+    "windows": "⌘[",
+    "mac": "⌘[",
+    "linux": "⌘[",
+    "keywords": [
+      "下移",
+      "图层",
+      "send",
+      "backward"
+    ],
+    "pinyin": "xia yi yi ceng xiayiyiceng x y y c xyyc xia yi   tu ceng xiayi tuceng x y   t c xy tc"
+  },
+  {
+    "id": "sketch-send-to-back",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "置于底层",
+      "en": "Send to Back"
+    },
+    "description": {
+      "zh": "将所选置于最底层",
+      "en": "Send the selection to the back"
+    },
+    "windows": "⌥⌘[",
+    "mac": "⌥⌘[",
+    "linux": "⌥⌘[",
+    "keywords": [
+      "底层",
+      "send",
+      "back"
+    ],
+    "pinyin": "zhi yu di ceng zhiyudiceng z y d c zydc di ceng diceng d c dc"
+  },
+  {
+    "id": "sketch-align-left",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "左对齐",
+      "en": "Align Left"
+    },
+    "description": {
+      "zh": "将所选左对齐",
+      "en": "Align the selection to the left"
+    },
+    "windows": "⌃⌘←",
+    "mac": "⌃⌘←",
+    "linux": "⌃⌘←",
+    "keywords": [
+      "对齐",
+      "左",
+      "align",
+      "left"
+    ],
+    "pinyin": "zuo dui qi zuoduiqi z d q zdq dui qi   zuo duiqi zuo d q   z dq z"
+  },
+  {
+    "id": "sketch-align-right",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "右对齐",
+      "en": "Align Right"
+    },
+    "description": {
+      "zh": "将所选右对齐",
+      "en": "Align the selection to the right"
+    },
+    "windows": "⌃⌘→",
+    "mac": "⌃⌘→",
+    "linux": "⌃⌘→",
+    "keywords": [
+      "对齐",
+      "右",
+      "align",
+      "right"
+    ],
+    "pinyin": "you dui qi youduiqi y d q ydq dui qi   you duiqi you d q   y dq y"
+  },
+  {
+    "id": "sketch-align-top",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "顶对齐",
+      "en": "Align Top"
+    },
+    "description": {
+      "zh": "将所选顶对齐",
+      "en": "Align the selection to the top"
+    },
+    "windows": "⌃⌘↑",
+    "mac": "⌃⌘↑",
+    "linux": "⌃⌘↑",
+    "keywords": [
+      "对齐",
+      "顶",
+      "align",
+      "top"
+    ],
+    "pinyin": "ding dui qi dingduiqi d d q ddq dui qi   ding duiqi ding d q   d dq d"
+  },
+  {
+    "id": "sketch-align-bottom",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "底对齐",
+      "en": "Align Bottom"
+    },
+    "description": {
+      "zh": "将所选底对齐",
+      "en": "Align the selection to the bottom"
+    },
+    "windows": "⌃⌘↓",
+    "mac": "⌃⌘↓",
+    "linux": "⌃⌘↓",
+    "keywords": [
+      "对齐",
+      "底",
+      "align",
+      "bottom"
+    ],
+    "pinyin": "di dui qi diduiqi d d q ddq dui qi   di duiqi di d q   d dq d"
+  },
+  {
+    "id": "sketch-bold",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "加粗",
+      "en": "Bold"
+    },
+    "description": {
+      "zh": "切换文本加粗",
+      "en": "Toggle bold text"
+    },
+    "windows": "⌘B",
+    "mac": "⌘B",
+    "linux": "⌘B",
+    "keywords": [
+      "加粗",
+      "粗体",
+      "bold"
+    ],
+    "pinyin": "jia cu jiacu j c jc jia cu   cu ti jiacu cuti j c   c t jc ct"
+  },
+  {
+    "id": "sketch-italic",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "斜体",
+      "en": "Italic"
+    },
+    "description": {
+      "zh": "切换文本斜体",
+      "en": "Toggle italic text"
+    },
+    "windows": "⌘I",
+    "mac": "⌘I",
+    "linux": "⌘I",
+    "keywords": [
+      "斜体",
+      "italic"
+    ],
+    "pinyin": "xie ti xieti x t xt xie ti xieti x t xt"
+  },
+  {
+    "id": "sketch-underline",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "下划线",
+      "en": "Underline"
+    },
+    "description": {
+      "zh": "切换文本下划线",
+      "en": "Toggle underlined text"
+    },
+    "windows": "⌘U",
+    "mac": "⌘U",
+    "linux": "⌘U",
+    "keywords": [
+      "下划线",
+      "underline"
+    ],
+    "pinyin": "xia hua xian xiahuaxian x h x xhx xia hua xian xiahuaxian x h x xhx"
+  },
+  {
+    "id": "sketch-increase-font",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "增大字号",
+      "en": "Increase Font Size"
+    },
+    "description": {
+      "zh": "增大所选文本字号",
+      "en": "Increase the font size"
+    },
+    "windows": "⌥⌘+",
+    "mac": "⌥⌘+",
+    "linux": "⌥⌘+",
+    "keywords": [
+      "字号",
+      "增大",
+      "font",
+      "size"
+    ],
+    "pinyin": "zeng da zi hao zengdazihao z d z h zdzh zi hao   zeng da zihao zengda z h   z d zh zd"
+  },
+  {
+    "id": "sketch-decrease-font",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "减小字号",
+      "en": "Decrease Font Size"
+    },
+    "description": {
+      "zh": "减小所选文本字号",
+      "en": "Decrease the font size"
+    },
+    "windows": "⌥⌘-",
+    "mac": "⌥⌘-",
+    "linux": "⌥⌘-",
+    "keywords": [
+      "字号",
+      "减小",
+      "font",
+      "size"
+    ],
+    "pinyin": "jian xiao zi hao jianxiaozihao j x z h jxzh zi hao   jian xiao zihao jianxiao z h   j x zh jx"
+  },
+  {
+    "id": "sketch-create-symbol",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "创建符号",
+      "en": "Create Symbol"
+    },
+    "description": {
+      "zh": "将所选创建为符号",
+      "en": "Create a symbol from the selection"
+    },
+    "windows": "⌘Y",
+    "mac": "⌘Y",
+    "linux": "⌘Y",
+    "keywords": [
+      "符号",
+      "组件",
+      "symbol",
+      "create"
+    ],
+    "pinyin": "chuang jian fu hao chuangjianfuhao c j f h cjfh fu hao   zu jian fuhao zujian f h   z j fh zj"
+  },
+  {
+    "id": "sketch-export",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "导出所选",
+      "en": "Export Selection"
+    },
+    "description": {
+      "zh": "将所选标记为可导出并导出",
+      "en": "Mark as exportable and export the selection"
+    },
+    "windows": "⌘E",
+    "mac": "⌘E",
+    "linux": "⌘E",
+    "keywords": [
+      "导出",
+      "export"
+    ],
+    "pinyin": "dao chu suo xuan daochusuoxuan d c s x dcsx dao chu daochu d c dc"
+  }
+]

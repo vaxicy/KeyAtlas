@@ -11,7 +11,7 @@
 ### 数据文件结构
 - 每个应用 = `data/shortcuts/<id>.json`（含 `pinyin` 字段，手写）+ `apps.json` 注册 1 条。
 - `pinyin` 字段目前无生成脚本，需手动补，否则拼音搜索命中不了。
-- 软件列表字母分组逻辑（`js/app.js`）：优先用 `a.sortKey[0]`，fallback 到 `name[0]`；中文名应用（如 bilibili「哔哩哔哩」）需加 `sortKey` 才能正确归到拼音首字母组。
+- 软件列表字母分组逻辑（`js/app.js`）：优先用 `a.sortKey[0]`，fallback 到 `a.name.en[0]`，再兜底 `#` 组。中文名应用**必须设 `sortKey` 且值为拼音首字母罗马化**（如 企业微信→Qiye→Q、剪映→Jianying→J），不能用汉字首字或英文名首字母（WeCom 的 W 是错的）。详见全局 user rule `apps-sortkey-pinyin-rule.md`。
 
 ## 快捷键数据来源核实状态（2026-07-13 全部完成）
 

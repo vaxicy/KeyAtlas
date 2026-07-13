@@ -402,8 +402,12 @@
       const groups = new Map();
       for (const a of apps) {
         const name = i18n.pick(a.name);
-        const sortKey = a.sortKey || name;
-        const letter = (sortKey[0] || "#").toUpperCase();
+        // 分组键优先用 sortKey（约定为拼音首字母，如 Feishu/Qiye/Jishi）；
+        // 若未设 sortKey 且显示名为中文，回退到英文名首字母，避免以汉字作分组标题。
+        const sortKey = a.sortKey || a.name.en || name;
+        let letter = (sortKey[0] || "#").toUpperCase();
+        // 防御：万一首字符仍是中文（漏设 sortKey 且英文名也是中文），归入 # 组
+        if (/[一-鿿]/.test(letter)) letter = "#";
         if (!groups.has(letter)) groups.set(letter, []);
         groups.get(letter).push(a);
       }

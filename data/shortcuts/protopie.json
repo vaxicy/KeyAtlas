@@ -1,0 +1,1623 @@
+[
+  {
+    "id": "protopie-new-pie",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "新建 pie",
+      "en": "New Pie"
+    },
+    "description": {
+      "zh": "新建一个 pie 文件",
+      "en": "Create a new pie"
+    },
+    "windows": "Ctrl+N",
+    "mac": "⌘N",
+    "linux": "Ctrl+N",
+    "keywords": [
+      "新建",
+      "pie"
+    ],
+    "pinyin": "xin jian   p i e xinjian pie x j   p i e xj pie xin jian xinjian x j xj"
+  },
+  {
+    "id": "protopie-open-pie",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "打开 pie",
+      "en": "Open Pie"
+    },
+    "description": {
+      "zh": "打开已有 pie",
+      "en": "Open an existing pie"
+    },
+    "windows": "Ctrl+O",
+    "mac": "⌘O",
+    "linux": "Ctrl+O",
+    "keywords": [
+      "打开",
+      "pie"
+    ],
+    "pinyin": "da kai   p i e dakai pie d k   p i e dk pie da kai dakai d k dk"
+  },
+  {
+    "id": "protopie-close-tab",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "关闭当前标签",
+      "en": "Close Current Tab"
+    },
+    "description": {
+      "zh": "关闭当前标签",
+      "en": "Close the current tab"
+    },
+    "windows": "Ctrl+W",
+    "mac": "⌘W",
+    "linux": "Ctrl+W",
+    "keywords": [
+      "关闭",
+      "标签",
+      "tab"
+    ],
+    "pinyin": "guan bi dang qian biao qian guanbidangqianbiaoqian g b d q b q gbdqbq guan bi   biao qian guanbi biaoqian g b   b q gb bq"
+  },
+  {
+    "id": "protopie-save",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "保存",
+      "en": "Save"
+    },
+    "description": {
+      "zh": "保存当前文件",
+      "en": "Save the current file"
+    },
+    "windows": "Ctrl+S",
+    "mac": "⌘S",
+    "linux": "Ctrl+S",
+    "keywords": [
+      "保存",
+      "save"
+    ],
+    "pinyin": "bao cun baocun b c bc bao cun baocun b c bc"
+  },
+  {
+    "id": "protopie-save-as",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "另存为",
+      "en": "Save As"
+    },
+    "description": {
+      "zh": "将文件另存为新 pie",
+      "en": "Save the file as a new pie"
+    },
+    "windows": "Ctrl+Shift+S",
+    "mac": "⇧⌘S",
+    "linux": "Ctrl+Shift+S",
+    "keywords": [
+      "另存为",
+      "save",
+      "as"
+    ],
+    "pinyin": "ling cun wei lingcunwei l c w lcw ling cun wei lingcunwei l c w lcw"
+  },
+  {
+    "id": "protopie-upload-cloud",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "上传到云",
+      "en": "Upload to Cloud"
+    },
+    "description": {
+      "zh": "上传当前 pie 到云端",
+      "en": "Upload the pie to the cloud"
+    },
+    "windows": "Ctrl+U",
+    "mac": "⌘U",
+    "linux": "Ctrl+U",
+    "keywords": [
+      "上传",
+      "云",
+      "upload",
+      "cloud"
+    ],
+    "pinyin": "shang chuan dao yun shangchuandaoyun s c d y scdy shang chuan   yun shangchuan yun s c   y sc y"
+  },
+  {
+    "id": "protopie-upload-cloud-new",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "上传为新 pie",
+      "en": "Upload as New Pie"
+    },
+    "description": {
+      "zh": "上传为云端新 pie",
+      "en": "Upload as a new cloud pie"
+    },
+    "windows": "Ctrl+Shift+U",
+    "mac": "⇧⌘U",
+    "linux": "Ctrl+Shift+U",
+    "keywords": [
+      "上传",
+      "云",
+      "upload",
+      "cloud"
+    ],
+    "pinyin": "shang chuan wei xin   p i e shangchuanweixin pie s c w x   p i e scwx pie shang chuan   yun shangchuan yun s c   y sc y"
+  },
+  {
+    "id": "protopie-preferences",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "偏好设置",
+      "en": "Preferences"
+    },
+    "description": {
+      "zh": "打开偏好设置",
+      "en": "Open preferences"
+    },
+    "windows": "Ctrl+,",
+    "mac": "⌘,",
+    "linux": "Ctrl+,",
+    "keywords": [
+      "偏好",
+      "设置",
+      "preferences"
+    ],
+    "pinyin": "pian hao she zhi pianhaoshezhi p h s z phsz pian hao   she zhi pianhao shezhi p h   s z ph sz"
+  },
+  {
+    "id": "protopie-shortcuts-help",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "快捷键帮助",
+      "en": "Shortcuts Help"
+    },
+    "description": {
+      "zh": "打开快捷键帮助",
+      "en": "Open the shortcuts help"
+    },
+    "windows": "Ctrl+Shift+?",
+    "mac": "⌃⇧?",
+    "linux": "Ctrl+Shift+?",
+    "keywords": [
+      "快捷键",
+      "帮助",
+      "shortcuts"
+    ],
+    "pinyin": "kuai jie jian bang zhu kuaijiejianbangzhu k j j b z kjjbz kuai jie jian   bang zhu kuaijiejian bangzhu k j j   b z kjj bz"
+  },
+  {
+    "id": "protopie-move-tool",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "移动工具",
+      "en": "Move Tool"
+    },
+    "description": {
+      "zh": "切换到移动工具",
+      "en": "Switch to the move tool"
+    },
+    "windows": "V",
+    "mac": "V",
+    "linux": "V",
+    "keywords": [
+      "移动",
+      "工具",
+      "move"
+    ],
+    "pinyin": "yi dong gong ju yidonggongju y d g j ydgj yi dong   gong ju yidong gongju y d   g j yd gj"
+  },
+  {
+    "id": "protopie-rectangle",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "矩形",
+      "en": "Rectangle"
+    },
+    "description": {
+      "zh": "插入矩形",
+      "en": "Insert a rectangle"
+    },
+    "windows": "R",
+    "mac": "R",
+    "linux": "R",
+    "keywords": [
+      "矩形",
+      "rectangle"
+    ],
+    "pinyin": "ju xing juxing j x jx ju xing juxing j x jx"
+  },
+  {
+    "id": "protopie-oval",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "椭圆",
+      "en": "Oval"
+    },
+    "description": {
+      "zh": "插入椭圆",
+      "en": "Insert an oval"
+    },
+    "windows": "O",
+    "mac": "O",
+    "linux": "O",
+    "keywords": [
+      "椭圆",
+      "oval"
+    ],
+    "pinyin": "tuo yuan tuoyuan t y ty tuo yuan tuoyuan t y ty"
+  },
+  {
+    "id": "protopie-container",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "容器",
+      "en": "Container"
+    },
+    "description": {
+      "zh": "插入容器",
+      "en": "Insert a container"
+    },
+    "windows": "N",
+    "mac": "N",
+    "linux": "N",
+    "keywords": [
+      "容器",
+      "container"
+    ],
+    "pinyin": "rong qi rongqi r q rq rong qi rongqi r q rq"
+  },
+  {
+    "id": "protopie-text",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "文本",
+      "en": "Text"
+    },
+    "description": {
+      "zh": "插入文本",
+      "en": "Insert text"
+    },
+    "windows": "T",
+    "mac": "T",
+    "linux": "T",
+    "keywords": [
+      "文本",
+      "文字",
+      "text"
+    ],
+    "pinyin": "wen ben wenben w b wb wen ben   wen zi wenben wenzi w b   w z wb wz"
+  },
+  {
+    "id": "protopie-undo",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销上一步",
+      "en": "Undo the last action"
+    },
+    "windows": "Ctrl+Z",
+    "mac": "⌘Z",
+    "linux": "Ctrl+Z",
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "protopie-redo",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "重做被撤销的操作",
+      "en": "Redo the undone action"
+    },
+    "windows": "Ctrl+Shift+Z",
+    "mac": "⇧⌘Z",
+    "linux": "Ctrl+Shift+Z",
+    "keywords": [
+      "重做",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "protopie-copy",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "复制",
+      "en": "Copy"
+    },
+    "description": {
+      "zh": "复制所选",
+      "en": "Copy the selection"
+    },
+    "windows": "Ctrl+C",
+    "mac": "⌘C",
+    "linux": "Ctrl+C",
+    "keywords": [
+      "复制",
+      "copy"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "protopie-cut",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "剪切",
+      "en": "Cut"
+    },
+    "description": {
+      "zh": "剪切所选",
+      "en": "Cut the selection"
+    },
+    "windows": "Ctrl+X",
+    "mac": "⌘X",
+    "linux": "Ctrl+X",
+    "keywords": [
+      "剪切",
+      "cut"
+    ],
+    "pinyin": "jian qie jianqie j q jq jian qie jianqie j q jq"
+  },
+  {
+    "id": "protopie-duplicate",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "创建副本",
+      "en": "Duplicate"
+    },
+    "description": {
+      "zh": "复制所选对象",
+      "en": "Duplicate the selection"
+    },
+    "windows": "Ctrl+D",
+    "mac": "⌘D",
+    "linux": "Ctrl+D",
+    "keywords": [
+      "副本",
+      "复制",
+      "duplicate"
+    ],
+    "pinyin": "chuang jian fu ben chuangjianfuben c j f b cjfb fu ben   fu zhi fuben fuzhi f b   f z fb fz"
+  },
+  {
+    "id": "protopie-duplicate-drag",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "拖拽复制",
+      "en": "Duplicate on Drag"
+    },
+    "description": {
+      "zh": "Alt/⌥+拖拽复制对象",
+      "en": "Alt/⌥+drag to duplicate"
+    },
+    "windows": "Alt+Drag",
+    "mac": "⌥Drag",
+    "linux": "Alt+Drag",
+    "keywords": [
+      "复制",
+      "拖拽",
+      "duplicate"
+    ],
+    "pinyin": "tuo zhuai fu zhi tuozhuaifuzhi t z f z tzfz fu zhi   tuo zhuai fuzhi tuozhuai f z   t z fz tz"
+  },
+  {
+    "id": "protopie-paste",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "粘贴",
+      "en": "Paste"
+    },
+    "description": {
+      "zh": "粘贴剪贴板内容",
+      "en": "Paste from the clipboard"
+    },
+    "windows": "Ctrl+V",
+    "mac": "⌘V",
+    "linux": "Ctrl+V",
+    "keywords": [
+      "粘贴",
+      "paste"
+    ],
+    "pinyin": "nian tie niantie n t nt nian tie niantie n t nt"
+  },
+  {
+    "id": "protopie-paste-linked",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "粘贴（关联触发）",
+      "en": "Paste with Linked Triggers"
+    },
+    "description": {
+      "zh": "粘贴并保留关联触发",
+      "en": "Paste keeping linked triggers"
+    },
+    "windows": "Ctrl+Shift+V",
+    "mac": "⇧⌘V",
+    "linux": "Ctrl+Shift+V",
+    "keywords": [
+      "粘贴",
+      "关联",
+      "paste",
+      "linked"
+    ],
+    "pinyin": "nian tie （ guan lian chu fa ） niantie（guanlianchufa） n t （ g l c f ） nt（glcf） nian tie   guan lian niantie guanlian n t   g l nt gl"
+  },
+  {
+    "id": "protopie-delete",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "删除",
+      "en": "Delete"
+    },
+    "description": {
+      "zh": "删除所选",
+      "en": "Delete the selection"
+    },
+    "windows": "Delete",
+    "mac": "⌫",
+    "linux": "Delete",
+    "keywords": [
+      "删除",
+      "delete"
+    ],
+    "pinyin": "shan chu shanchu s c sc shan chu shanchu s c sc"
+  },
+  {
+    "id": "protopie-select-all",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "全选",
+      "en": "Select All"
+    },
+    "description": {
+      "zh": "选择所有图层",
+      "en": "Select all layers"
+    },
+    "windows": "Ctrl+A",
+    "mac": "⌘A",
+    "linux": "Ctrl+A",
+    "keywords": [
+      "全选",
+      "select",
+      "all"
+    ],
+    "pinyin": "quan xuan quanxuan q x qx quan xuan quanxuan q x qx"
+  },
+  {
+    "id": "protopie-rename",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "重命名",
+      "en": "Rename"
+    },
+    "description": {
+      "zh": "重命名所选",
+      "en": "Rename the selection"
+    },
+    "windows": "Ctrl+R",
+    "mac": "⌘R",
+    "linux": "Ctrl+R",
+    "keywords": [
+      "重命名",
+      "rename"
+    ],
+    "pinyin": "zhong ming ming zhongmingming z m m zmm zhong ming ming zhongmingming z m m zmm"
+  },
+  {
+    "id": "protopie-pick-color",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "取色",
+      "en": "Pick Color"
+    },
+    "description": {
+      "zh": "用吸管取样颜色",
+      "en": "Pick a color with the eyedropper"
+    },
+    "windows": "I",
+    "mac": "⌃C",
+    "linux": "I",
+    "keywords": [
+      "取色",
+      "颜色",
+      "color"
+    ],
+    "pinyin": "qu se quse q s qs qu se   yan se quse yanse q s   y s qs ys"
+  },
+  {
+    "id": "protopie-create-component",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "创建组件",
+      "en": "Create Component"
+    },
+    "description": {
+      "zh": "将所选创建为组件",
+      "en": "Create a component from the selection"
+    },
+    "windows": "Ctrl+K",
+    "mac": "⌘K",
+    "linux": "Ctrl+K",
+    "keywords": [
+      "组件",
+      "component"
+    ],
+    "pinyin": "chuang jian zu jian chuangjianzujian c j z j cjzj zu jian zujian z j zj"
+  },
+  {
+    "id": "protopie-detach-instance",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "分离实例",
+      "en": "Detach Instance"
+    },
+    "description": {
+      "zh": "将组件实例分离",
+      "en": "Detach a component instance"
+    },
+    "windows": "Ctrl+Alt+B",
+    "mac": "⌥⌘B",
+    "linux": "Ctrl+Alt+B",
+    "keywords": [
+      "分离",
+      "实例",
+      "detach"
+    ],
+    "pinyin": "fen li shi li fenlishili f l s l flsl fen li   shi li fenli shili f l   s l fl sl"
+  },
+  {
+    "id": "protopie-make-editable",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "转为可编辑",
+      "en": "Make Editable"
+    },
+    "description": {
+      "zh": "将所选转为可编辑",
+      "en": "Make the selection editable"
+    },
+    "windows": "Ctrl+E",
+    "mac": "⌘E",
+    "linux": "Ctrl+E",
+    "keywords": [
+      "可编辑",
+      "editable"
+    ],
+    "pinyin": "zhuan wei ke bian ji zhuanweikebianji z w k b j zwkbj ke bian ji kebianji k b j kbj"
+  },
+  {
+    "id": "protopie-add-auto-layout",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "添加自动布局",
+      "en": "Add Auto Layout"
+    },
+    "description": {
+      "zh": "为所选添加自动布局",
+      "en": "Add auto layout to the selection"
+    },
+    "windows": "Shift+A",
+    "mac": "⇧A",
+    "linux": "Shift+A",
+    "keywords": [
+      "自动布局",
+      "auto",
+      "layout"
+    ],
+    "pinyin": "tian jia zi dong bu ju tianjiazidongbuju t j z d b j tjzdbj zi dong bu ju zidongbuju z d b j zdbj"
+  },
+  {
+    "id": "protopie-remove-auto-layout",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "移除自动布局",
+      "en": "Remove Auto Layout"
+    },
+    "description": {
+      "zh": "移除所选的自动布局",
+      "en": "Remove auto layout from the selection"
+    },
+    "windows": "Alt+Shift+A",
+    "mac": "⌥⇧A",
+    "linux": "Alt+Shift+A",
+    "keywords": [
+      "自动布局",
+      "auto",
+      "layout"
+    ],
+    "pinyin": "yi chu zi dong bu ju yichuzidongbuju y c z d b j yczdbj zi dong bu ju zidongbuju z d b j zdbj"
+  },
+  {
+    "id": "protopie-resize-fit",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "缩放到适配",
+      "en": "Resize to Fit"
+    },
+    "description": {
+      "zh": "缩放以适配内容",
+      "en": "Resize to fit the content"
+    },
+    "windows": "Ctrl+Alt+Shift+R",
+    "mac": "⌥⇧⌘R",
+    "linux": "Ctrl+Alt+Shift+R",
+    "keywords": [
+      "缩放",
+      "适配",
+      "resize",
+      "fit"
+    ],
+    "pinyin": "suo fang dao shi pei suofangdaoshipei s f d s p sfdsp suo fang   shi pei suofang shipei s f   s p sf sp"
+  },
+  {
+    "id": "protopie-lock-unlock",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "锁定/解锁",
+      "en": "Lock/Unlock"
+    },
+    "description": {
+      "zh": "切换图层锁定状态",
+      "en": "Lock or unlock the layer"
+    },
+    "windows": "Ctrl+Shift+L",
+    "mac": "⇧⌘L",
+    "linux": "Ctrl+Shift+L",
+    "keywords": [
+      "锁定",
+      "lock"
+    ],
+    "pinyin": "suo ding / jie suo suoding/jiesuo s d / j s sd/js suo ding suoding s d sd"
+  },
+  {
+    "id": "protopie-show-hide",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "显示/隐藏",
+      "en": "Show/Hide"
+    },
+    "description": {
+      "zh": "切换图层显示状态",
+      "en": "Show or hide the layer"
+    },
+    "windows": "Ctrl+Shift+H",
+    "mac": "⇧⌘H",
+    "linux": "Ctrl+Shift+H",
+    "keywords": [
+      "显示",
+      "隐藏",
+      "show",
+      "hide"
+    ],
+    "pinyin": "xian shi / yin cang xianshi/yincang x s / y c xs/yc xian shi   yin cang xianshi yincang x s   y c xs yc"
+  },
+  {
+    "id": "protopie-display-distance",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "显示间距",
+      "en": "Display Distance"
+    },
+    "description": {
+      "zh": "按住 Alt/⌥ 悬停显示间距",
+      "en": "Hold Alt/⌥ and hover to show distance"
+    },
+    "windows": "Alt+hover",
+    "mac": "⌥hover",
+    "linux": "Alt+hover",
+    "keywords": [
+      "间距",
+      "距离",
+      "distance"
+    ],
+    "pinyin": "xian shi jian ju xianshijianju x s j j xsjj jian ju   ju li jianju juli j j   j l jj jl"
+  },
+  {
+    "id": "protopie-expand-nested",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "展开嵌套容器",
+      "en": "Expand Nested Containers"
+    },
+    "description": {
+      "zh": "Alt/⌥+点击展开嵌套容器",
+      "en": "Alt/⌥+click to expand nested containers"
+    },
+    "windows": "Alt+Click",
+    "mac": "⌥Click",
+    "linux": "Alt+Click",
+    "keywords": [
+      "展开",
+      "嵌套",
+      "expand"
+    ],
+    "pinyin": "zhan kai qian tao rong qi zhankaiqiantaorongqi z k q t r q zkqtrq zhan kai   qian tao zhankai qiantao z k   q t zk qt"
+  },
+  {
+    "id": "protopie-move-ignoring-guide",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "忽略参考线移动",
+      "en": "Move Ignoring Guide"
+    },
+    "description": {
+      "zh": "Ctrl/⌘+拖拽忽略参考线",
+      "en": "Ctrl/⌘+drag to ignore guides"
+    },
+    "windows": "Ctrl+Drag",
+    "mac": "⌘Drag",
+    "linux": "Ctrl+Drag",
+    "keywords": [
+      "移动",
+      "参考线",
+      "guide"
+    ],
+    "pinyin": "hu lüe can kao xian yi dong hulüecankaoxianyidong h l c k x y d hlckxyd yi dong   can kao xian yidong cankaoxian y d   c k x yd ckx"
+  },
+  {
+    "id": "protopie-move-x-y",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "沿轴移动",
+      "en": "Move Along Axis"
+    },
+    "description": {
+      "zh": "Shift+拖拽沿 X/Y 轴移动",
+      "en": "Shift+drag to move along axis"
+    },
+    "windows": "Shift+Drag",
+    "mac": "⇧Drag",
+    "linux": "Shift+Drag",
+    "keywords": [
+      "移动",
+      "轴",
+      "move"
+    ],
+    "pinyin": "yan zhou yi dong yanzhouyidong y z y d yzyd yi dong   zhou yidong zhou y d   z yd z"
+  },
+  {
+    "id": "protopie-resize-center",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "从中心缩放",
+      "en": "Resize from Center"
+    },
+    "description": {
+      "zh": "Alt/⌥+缩放从中心",
+      "en": "Alt/⌥+resize from center"
+    },
+    "windows": "Alt+Resize",
+    "mac": "⌥Resize",
+    "linux": "Alt+Resize",
+    "keywords": [
+      "中心",
+      "缩放",
+      "resize"
+    ],
+    "pinyin": "cong zhong xin suo fang congzhongxinsuofang c z x s f czxsf zhong xin   suo fang zhongxin suofang z x   s f zx sf"
+  },
+  {
+    "id": "protopie-edit-text",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "编辑文本",
+      "en": "Edit Text"
+    },
+    "description": {
+      "zh": "进入文本编辑",
+      "en": "Edit the text layer"
+    },
+    "windows": "Enter",
+    "mac": "⏎",
+    "linux": "Enter",
+    "keywords": [
+      "编辑",
+      "文本",
+      "text"
+    ],
+    "pinyin": "bian ji wen ben bianjiwenben b j w b bjwb bian ji   wen ben bianji wenben b j   w b bj wb"
+  },
+  {
+    "id": "protopie-bold",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "加粗",
+      "en": "Bold"
+    },
+    "description": {
+      "zh": "切换文字加粗",
+      "en": "Toggle bold text"
+    },
+    "windows": "Ctrl+B",
+    "mac": "⌘B",
+    "linux": "Ctrl+B",
+    "keywords": [
+      "加粗",
+      "bold"
+    ],
+    "pinyin": "jia cu jiacu j c jc jia cu jiacu j c jc"
+  },
+  {
+    "id": "protopie-italic",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "斜体",
+      "en": "Italic"
+    },
+    "description": {
+      "zh": "切换文字斜体",
+      "en": "Toggle italic text"
+    },
+    "windows": "Ctrl+I",
+    "mac": "⌘I",
+    "linux": "Ctrl+I",
+    "keywords": [
+      "斜体",
+      "italic"
+    ],
+    "pinyin": "xie ti xieti x t xt xie ti xieti x t xt"
+  },
+  {
+    "id": "protopie-group",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "编组",
+      "en": "Group"
+    },
+    "description": {
+      "zh": "将所选编组",
+      "en": "Group the selection"
+    },
+    "windows": "Ctrl+G",
+    "mac": "⌘G",
+    "linux": "Ctrl+G",
+    "keywords": [
+      "编组",
+      "group"
+    ],
+    "pinyin": "bian zu bianzu b z bz bian zu bianzu b z bz"
+  },
+  {
+    "id": "protopie-ungroup",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "解组",
+      "en": "Ungroup"
+    },
+    "description": {
+      "zh": "解除所选编组",
+      "en": "Ungroup the selection"
+    },
+    "windows": "Ctrl+Shift+G",
+    "mac": "⇧⌘G",
+    "linux": "Ctrl+Shift+G",
+    "keywords": [
+      "解组",
+      "ungroup"
+    ],
+    "pinyin": "jie zu jiezu j z jz jie zu jiezu j z jz"
+  },
+  {
+    "id": "protopie-bring-forward",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "上移一层",
+      "en": "Bring Forward"
+    },
+    "description": {
+      "zh": "将所选上移一层",
+      "en": "Bring the selection forward"
+    },
+    "windows": "Ctrl+]",
+    "mac": "⌘]",
+    "linux": "Ctrl+]",
+    "keywords": [
+      "上移",
+      "图层",
+      "bring",
+      "forward"
+    ],
+    "pinyin": "shang yi yi ceng shangyiyiceng s y y c syyc shang yi   tu ceng shangyi tuceng s y   t c sy tc"
+  },
+  {
+    "id": "protopie-bring-to-front",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "置于顶层",
+      "en": "Bring to Front"
+    },
+    "description": {
+      "zh": "将所选置于最顶层",
+      "en": "Bring the selection to the front"
+    },
+    "windows": "Ctrl+Shift+]",
+    "mac": "⌥⌘]",
+    "linux": "Ctrl+Shift+]",
+    "keywords": [
+      "顶层",
+      "bring",
+      "front"
+    ],
+    "pinyin": "zhi yu ding ceng zhiyudingceng z y d c zydc ding ceng dingceng d c dc"
+  },
+  {
+    "id": "protopie-send-backward",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "下移一层",
+      "en": "Send Backward"
+    },
+    "description": {
+      "zh": "将所选下移一层",
+      "en": "Send the selection backward"
+    },
+    "windows": "Ctrl+[",
+    "mac": "⌘[",
+    "linux": "Ctrl+[",
+    "keywords": [
+      "下移",
+      "图层",
+      "send",
+      "backward"
+    ],
+    "pinyin": "xia yi yi ceng xiayiyiceng x y y c xyyc xia yi   tu ceng xiayi tuceng x y   t c xy tc"
+  },
+  {
+    "id": "protopie-send-to-back",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "置于底层",
+      "en": "Send to Back"
+    },
+    "description": {
+      "zh": "将所选置于最底层",
+      "en": "Send the selection to the back"
+    },
+    "windows": "Ctrl+Shift+[",
+    "mac": "⌥⌘[",
+    "linux": "Ctrl+Shift+[",
+    "keywords": [
+      "底层",
+      "send",
+      "back"
+    ],
+    "pinyin": "zhi yu di ceng zhiyudiceng z y d c zydc di ceng diceng d c dc"
+  },
+  {
+    "id": "protopie-align-left",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "左对齐",
+      "en": "Align Left"
+    },
+    "description": {
+      "zh": "将所选左对齐",
+      "en": "Align the selection to the left"
+    },
+    "windows": "Ctrl+Shift+←",
+    "mac": "⌃⌘←",
+    "linux": "Ctrl+Shift+←",
+    "keywords": [
+      "对齐",
+      "左",
+      "align",
+      "left"
+    ],
+    "pinyin": "zuo dui qi zuoduiqi z d q zdq dui qi   zuo duiqi zuo d q   z dq z"
+  },
+  {
+    "id": "protopie-align-right",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "右对齐",
+      "en": "Align Right"
+    },
+    "description": {
+      "zh": "将所选右对齐",
+      "en": "Align the selection to the right"
+    },
+    "windows": "Ctrl+Shift+→",
+    "mac": "⌃⌘→",
+    "linux": "Ctrl+Shift+→",
+    "keywords": [
+      "对齐",
+      "右",
+      "align",
+      "right"
+    ],
+    "pinyin": "you dui qi youduiqi y d q ydq dui qi   you duiqi you d q   y dq y"
+  },
+  {
+    "id": "protopie-align-top",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "顶对齐",
+      "en": "Align Top"
+    },
+    "description": {
+      "zh": "将所选顶对齐",
+      "en": "Align the selection to the top"
+    },
+    "windows": "Ctrl+Shift+↑",
+    "mac": "⌃⌘↑",
+    "linux": "Ctrl+Shift+↑",
+    "keywords": [
+      "对齐",
+      "顶",
+      "align",
+      "top"
+    ],
+    "pinyin": "ding dui qi dingduiqi d d q ddq dui qi   ding duiqi ding d q   d dq d"
+  },
+  {
+    "id": "protopie-align-bottom",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "底对齐",
+      "en": "Align Bottom"
+    },
+    "description": {
+      "zh": "将所选底对齐",
+      "en": "Align the selection to the bottom"
+    },
+    "windows": "Ctrl+Shift+↓",
+    "mac": "⌃⌘↓",
+    "linux": "Ctrl+Shift+↓",
+    "keywords": [
+      "对齐",
+      "底",
+      "align",
+      "bottom"
+    ],
+    "pinyin": "di dui qi diduiqi d d q ddq dui qi   di duiqi di d q   d dq d"
+  },
+  {
+    "id": "protopie-align-center",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "居中对齐",
+      "en": "Align Center"
+    },
+    "description": {
+      "zh": "将所选水平居中",
+      "en": "Align the selection to the center"
+    },
+    "windows": "Ctrl+Shift+C",
+    "mac": "⌃⌘C",
+    "linux": "Ctrl+Shift+C",
+    "keywords": [
+      "对齐",
+      "居中",
+      "align",
+      "center"
+    ],
+    "pinyin": "ju zhong dui qi juzhongduiqi j z d q jzdq dui qi   ju zhong duiqi juzhong d q   j z dq jz"
+  },
+  {
+    "id": "protopie-align-middle",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "垂直居中",
+      "en": "Align Middle"
+    },
+    "description": {
+      "zh": "将所选垂直居中",
+      "en": "Align the selection to the middle"
+    },
+    "windows": "Ctrl+Shift+M",
+    "mac": "⌃⌘M",
+    "linux": "Ctrl+Shift+M",
+    "keywords": [
+      "对齐",
+      "垂直居中",
+      "align",
+      "middle"
+    ],
+    "pinyin": "chui zhi ju zhong chuizhijuzhong c z j z czjz dui qi   chui zhi ju zhong duiqi chuizhijuzhong d q   c z j z dq czjz"
+  },
+  {
+    "id": "protopie-run-prototype",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "运行原型",
+      "en": "Run Prototype"
+    },
+    "description": {
+      "zh": "运行当前原型",
+      "en": "Run the prototype"
+    },
+    "windows": "Ctrl+Shift+R",
+    "mac": "⇧⌘R",
+    "linux": "Ctrl+Shift+R",
+    "keywords": [
+      "运行",
+      "原型",
+      "prototype"
+    ],
+    "pinyin": "yun xing yuan xing yunxingyuanxing y x y x yxyx yun xing   yuan xing yunxing yuanxing y x   y x yx yx"
+  },
+  {
+    "id": "protopie-zoom-in",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "放大",
+      "en": "Zoom In"
+    },
+    "description": {
+      "zh": "放大画布",
+      "en": "Zoom in"
+    },
+    "windows": "Ctrl+=",
+    "mac": "⌘=",
+    "linux": "Ctrl+=",
+    "keywords": [
+      "放大",
+      "缩放",
+      "zoom"
+    ],
+    "pinyin": "fang da fangda f d fd fang da   suo fang fangda suofang f d   s f fd sf"
+  },
+  {
+    "id": "protopie-zoom-out",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "缩小",
+      "en": "Zoom Out"
+    },
+    "description": {
+      "zh": "缩小画布",
+      "en": "Zoom out"
+    },
+    "windows": "Ctrl+-",
+    "mac": "⌘-",
+    "linux": "Ctrl+-",
+    "keywords": [
+      "缩小",
+      "缩放",
+      "zoom"
+    ],
+    "pinyin": "suo xiao suoxiao s x sx suo xiao   suo fang suoxiao suofang s x   s f sx sf"
+  },
+  {
+    "id": "protopie-zoom-actual",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "实际大小",
+      "en": "Actual Size"
+    },
+    "description": {
+      "zh": "缩放到实际大小",
+      "en": "Zoom to actual size"
+    },
+    "windows": "Ctrl+0",
+    "mac": "⌘0",
+    "linux": "Ctrl+0",
+    "keywords": [
+      "实际大小",
+      "缩放",
+      "actual",
+      "size"
+    ],
+    "pinyin": "shi ji da xiao shijidaxiao s j d x sjdx shi ji da xiao   suo fang shijidaxiao suofang s j d x   s f sjdx sf"
+  },
+  {
+    "id": "protopie-pan",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "平移",
+      "en": "Pan"
+    },
+    "description": {
+      "zh": "空格+拖拽平移画布",
+      "en": "Space+drag to pan"
+    },
+    "windows": "Space+Drag",
+    "mac": "Space+Drag",
+    "linux": "Space+Drag",
+    "keywords": [
+      "平移",
+      "画布",
+      "pan"
+    ],
+    "pinyin": "ping yi pingyi p y py ping yi   hua bu pingyi huabu p y   h b py hb"
+  },
+  {
+    "id": "protopie-prev-scene",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "上一场景/组件",
+      "en": "Previous Scene/Component"
+    },
+    "description": {
+      "zh": "跳到上一场景",
+      "en": "Go to the previous scene"
+    },
+    "windows": "Home / fn←",
+    "mac": "Home / fn←",
+    "linux": "Home / fn←",
+    "keywords": [
+      "上一场景",
+      "previous"
+    ],
+    "pinyin": "shang yi chang jing / zu jian shangyichangjing/zujian s y c j / z j sycj/zj shang yi chang jing shangyichangjing s y c j sycj"
+  },
+  {
+    "id": "protopie-next-scene",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "下一场景/组件",
+      "en": "Next Scene/Component"
+    },
+    "description": {
+      "zh": "跳到下一场景",
+      "en": "Go to the next scene"
+    },
+    "windows": "End / fn→",
+    "mac": "End / fn→",
+    "linux": "End / fn→",
+    "keywords": [
+      "下一场景",
+      "next"
+    ],
+    "pinyin": "xia yi chang jing / zu jian xiayichangjing/zujian x y c j / z j xycj/zj xia yi chang jing xiayichangjing x y c j xycj"
+  },
+  {
+    "id": "protopie-view-ruler",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "显示标尺",
+      "en": "View Ruler"
+    },
+    "description": {
+      "zh": "切换标尺显示",
+      "en": "Toggle the ruler"
+    },
+    "windows": "Shift+R",
+    "mac": "⇧R",
+    "linux": "Shift+R",
+    "keywords": [
+      "标尺",
+      "ruler"
+    ],
+    "pinyin": "xian shi biao chi xianshibiaochi x s b c xsbc biao chi biaochi b c bc"
+  },
+  {
+    "id": "protopie-show-hide-layer-panel",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "显示/隐藏图层面板",
+      "en": "Show/Hide Layer Panel"
+    },
+    "description": {
+      "zh": "切换图层面板",
+      "en": "Toggle the layer panel"
+    },
+    "windows": "Ctrl+Alt+1",
+    "mac": "⌥⌘1",
+    "linux": "Ctrl+Alt+1",
+    "keywords": [
+      "图层面板",
+      "layer",
+      "panel"
+    ],
+    "pinyin": "xian shi / yin cang tu ceng mian ban xianshi/yincangtucengmianban x s / y c t c m b xs/yctcmb tu ceng mian ban tucengmianban t c m b tcmb"
+  },
+  {
+    "id": "protopie-show-hide-interaction-panel",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "显示/隐藏交互面板",
+      "en": "Show/Hide Interaction Panel"
+    },
+    "description": {
+      "zh": "切换交互面板",
+      "en": "Toggle the interaction panel"
+    },
+    "windows": "Ctrl+Alt+2",
+    "mac": "⌥⌘2",
+    "linux": "Ctrl+Alt+2",
+    "keywords": [
+      "交互面板",
+      "interaction",
+      "panel"
+    ],
+    "pinyin": "xian shi / yin cang jiao hu mian ban xianshi/yincangjiaohumianban x s / y c j h m b xs/ycjhmb jiao hu mian ban jiaohumianban j h m b jhmb"
+  },
+  {
+    "id": "protopie-show-hide-panels",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "显示/隐藏面板",
+      "en": "Show/Hide Panels"
+    },
+    "description": {
+      "zh": "切换图层和交互面板",
+      "en": "Toggle layer and interaction panels"
+    },
+    "windows": "Ctrl+Alt+3",
+    "mac": "⌥⌘3",
+    "linux": "Ctrl+Alt+3",
+    "keywords": [
+      "面板",
+      "panels"
+    ],
+    "pinyin": "xian shi / yin cang mian ban xianshi/yincangmianban x s / y c m b xs/ycmb mian ban mianban m b mb"
+  },
+  {
+    "id": "protopie-show-hide-component-panel",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "显示/隐藏组件面板",
+      "en": "Show/Hide Component Panel"
+    },
+    "description": {
+      "zh": "切换组件面板",
+      "en": "Toggle the component panel"
+    },
+    "windows": "Ctrl+Alt+5",
+    "mac": "⌥⌘5",
+    "linux": "Ctrl+Alt+5",
+    "keywords": [
+      "组件面板",
+      "component",
+      "panel"
+    ],
+    "pinyin": "xian shi / yin cang zu jian mian ban xianshi/yincangzujianmianban x s / y c z j m b xs/yczjmb zu jian mian ban zujianmianban z j m b zjmb"
+  },
+  {
+    "id": "protopie-show-hide-formula",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "显示/隐藏公式输入",
+      "en": "Show/Hide Formula Field"
+    },
+    "description": {
+      "zh": "切换公式输入框",
+      "en": "Toggle the formula input field"
+    },
+    "windows": "Ctrl+Enter",
+    "mac": "⌘⏎",
+    "linux": "Ctrl+Enter",
+    "keywords": [
+      "公式",
+      "formula"
+    ],
+    "pinyin": "xian shi / yin cang gong shi shu ru xianshi/yincanggongshishuru x s / y c g s s r xs/ycgssr gong shi gongshi g s gs"
+  },
+  {
+    "id": "protopie-minimize",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "最小化窗口",
+      "en": "Minimize Window"
+    },
+    "description": {
+      "zh": "最小化窗口",
+      "en": "Minimize the window"
+    },
+    "windows": "Ctrl+M",
+    "mac": "⌘M",
+    "linux": "Ctrl+M",
+    "keywords": [
+      "最小化",
+      "窗口",
+      "minimize"
+    ],
+    "pinyin": "zui xiao hua chuang kou zuixiaohuachuangkou z x h c k zxhck zui xiao hua   chuang kou zuixiaohua chuangkou z x h   c k zxh ck"
+  },
+  {
+    "id": "protopie-show-hide-preview",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "显示/隐藏预览窗口",
+      "en": "Show/Hide Preview"
+    },
+    "description": {
+      "zh": "切换预览窗口",
+      "en": "Toggle the preview window"
+    },
+    "windows": "Ctrl+P",
+    "mac": "⌘P",
+    "linux": "Ctrl+P",
+    "keywords": [
+      "预览",
+      "preview"
+    ],
+    "pinyin": "xian shi / yin cang yu lan chuang kou xianshi/yincangyulanchuangkou x s / y c y l c k xs/ycylck yu lan yulan y l yl"
+  },
+  {
+    "id": "protopie-next-tab",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "下一个标签",
+      "en": "Next Tab"
+    },
+    "description": {
+      "zh": "切换到下一个标签",
+      "en": "Go to the next tab"
+    },
+    "windows": "Ctrl+Tab",
+    "mac": "⌃Tab",
+    "linux": "Ctrl+Tab",
+    "keywords": [
+      "下一个",
+      "标签",
+      "tab"
+    ],
+    "pinyin": "xia yi ge biao qian xiayigebiaoqian x y g b q xygbq xia yi ge   biao qian xiayige biaoqian x y g   b q xyg bq"
+  },
+  {
+    "id": "protopie-prev-tab",
+    "appId": "protopie",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "上一个标签",
+      "en": "Previous Tab"
+    },
+    "description": {
+      "zh": "切换到上一个标签",
+      "en": "Go to the previous tab"
+    },
+    "windows": "Ctrl+Shift+Tab",
+    "mac": "⌃⇧Tab",
+    "linux": "Ctrl+Shift+Tab",
+    "keywords": [
+      "上一个",
+      "标签",
+      "tab"
+    ],
+    "pinyin": "shang yi ge biao qian shangyigebiaoqian s y g b q sygbq shang yi ge   biao qian shangyige biaoqian s y g   b q syg bq"
+  }
+]

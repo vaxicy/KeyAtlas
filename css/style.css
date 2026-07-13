@@ -552,7 +552,14 @@ html, body {
 .cat-list .cat-emoji { font-size: 20px; }
 
 /* ---- App chips (inside category) ---- */
-.chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 10px 0; padding-left: 10px; }
+.chips {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 6px;
+  margin: 4px 0 10px 0;
+  padding-left: 10px;
+  padding-right: 2px;
+}
 .chip {
   border: 1px solid var(--border);
   background: var(--surface);
@@ -835,7 +842,7 @@ html, body {
   z-index: 5;
   display: flex;
   flex-wrap: wrap;
-  gap: 4px;
+  gap: 6px;
   background: var(--bg);
   padding: 4px 0 6px 10px;
   margin-bottom: 2px;
@@ -846,7 +853,7 @@ html, body {
   color: var(--primary);
   font-size: 11px;
   font-weight: 700;
-  min-width: 22px;
+  width: 28px;
   height: 22px;
   padding: 0 4px;
   border-radius: 6px;
@@ -860,5 +867,5 @@ html, body {
   font-size: 13px;
   font-weight: 700;
   color: var(--sub);
-  margin: 10px 2px 6px;
+  margin: 10px 0 6px 10px;
 }

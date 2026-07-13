@@ -507,9 +507,9 @@
       "zh": "打开 CSS 样式编辑器",
       "en": "Open Style Editor for CSS editing"
     },
-    "windows": "Ctrl + Shift + M",
-    "mac": "⌘ ⌥ M",
-    "linux": "Ctrl + Shift + M",
+    "windows": "Ctrl + Shift + Y",
+    "mac": "⌘ ⌥ Y",
+    "linux": "Ctrl + Shift + Y",
     "keywords": [
       "样式",
       "style editor",
@@ -667,7 +667,7 @@
       "en": "Make text larger (text-only zoom)"
     },
     "windows": "Ctrl + =",
-    "mac": "⌘",
+    "mac": "⌘ +",
     "linux": "Ctrl + =",
     "keywords": [
       "放大",
@@ -983,7 +983,7 @@
       "en": "Go to home page"
     },
     "windows": "Alt + Home",
-    "mac": "⌘ Shift Home",
+    "mac": "⌘ ⇧ Home",
     "linux": "Alt + Home",
     "keywords": [
       "主页",

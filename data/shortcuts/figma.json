@@ -126,7 +126,7 @@
       "en": "Draw arrow lines"
     },
     "windows": "Shift + L",
-    "mac": "Shift L",
+    "mac": "⇧ L",
     "linux": "Shift + L",
     "keywords": [
       "箭头",
@@ -170,7 +170,7 @@
       "en": "Freehand vector drawing"
     },
     "windows": "Shift + P",
-    "mac": "Shift P",
+    "mac": "⇧ P",
     "linux": "Shift + P",
     "keywords": [
       "铅笔",
@@ -239,7 +239,7 @@
       "en": "Draw polygon/star shapes"
     },
     "windows": "Shift + O",
-    "mac": "Shift O",
+    "mac": "⇧ O",
     "linux": "Shift + O",
     "keywords": [
       "多边形",
@@ -263,7 +263,7 @@
       "en": "Place image onto canvas"
     },
     "windows": "Ctrl + Shift + K",
-    "mac": "⌘ Shift K",
+    "mac": "⌘ ⇧ K",
     "linux": "Ctrl + Shift + K",
     "keywords": [
       "图片",
@@ -354,7 +354,7 @@
       "en": "Create slice for export"
     },
     "windows": "Shift + S",
-    "mac": "Shift S",
+    "mac": "⇧ S",
     "linux": "Shift + S",
     "keywords": [
       "切片",
@@ -377,7 +377,7 @@
       "en": "Zoom in incrementally"
     },
     "windows": "= / = / Ctrl + =",
-    "mac": " / = / ⌘",
+    "mac": " + / = / ⌘ +",
     "linux": "= / = / Ctrl + =",
     "keywords": [
       "放大",
@@ -443,7 +443,7 @@
       "en": "Zoom to show all content"
     },
     "windows": "Shift + 1",
-    "mac": "Shift 1",
+    "mac": "⇧ 1",
     "linux": "Shift + 1",
     "keywords": [
       "适应全部",
@@ -465,7 +465,7 @@
       "en": "Zoom to fill with selection"
     },
     "windows": "Shift + 2",
-    "mac": "Shift 2",
+    "mac": "⇧ 2",
     "linux": "Shift + 2",
     "keywords": [
       "适应选区",
@@ -576,7 +576,7 @@
       "en": "Save named version to history"
     },
     "windows": "Ctrl + Alt + S",
-    "mac": "⌘ Option S",
+    "mac": "⌘ ⌥ S",
     "linux": "Ctrl + Alt + S",
     "keywords": [
       "保存版本",
@@ -686,7 +686,7 @@
       "en": "Redo undone action"
     },
     "windows": "Ctrl + Shift + Z",
-    "mac": "⌘ Shift Z",
+    "mac": "⌘ ⇧ Z",
     "linux": "Ctrl + Shift + Z",
     "keywords": [
       "重做",
@@ -752,7 +752,7 @@
       "en": "Ungroup selection"
     },
     "windows": "Ctrl + Shift + G",
-    "mac": "⌘ Shift G",
+    "mac": "⌘ ⇧ G",
     "linux": "Ctrl + Shift + G",
     "keywords": [
       "取消编组",
@@ -797,7 +797,7 @@
       "en": "Lock object to prevent changes"
     },
     "windows": "Ctrl + Shift + L",
-    "mac": "⌘ Shift L",
+    "mac": "⌘ ⇧ L",
     "linux": "Ctrl + Shift + L",
     "keywords": [
       "锁定",
@@ -819,7 +819,7 @@
       "en": "Hide or show layer"
     },
     "windows": "Ctrl + Shift + H",
-    "mac": "⌘ Shift H",
+    "mac": "⌘ ⇧ H",
     "linux": "Ctrl + Shift + H",
     "keywords": [
       "隐藏",
@@ -842,7 +842,7 @@
       "en": "Use selection as mask"
     },
     "windows": "Ctrl + Alt + M",
-    "mac": "⌘ Ctrl M",
+    "mac": "⌘ ⌥ M",
     "linux": "Ctrl + Alt + M",
     "keywords": [
       "蒙版",
@@ -864,7 +864,7 @@
       "en": "Create frame around selection"
     },
     "windows": "Ctrl + Alt + G",
-    "mac": "⌘ Option G",
+    "mac": "⌘ ⌥ G",
     "linux": "Ctrl + Alt + G",
     "keywords": [
       "框架",
@@ -932,7 +932,7 @@
       "en": "Bring one layer forward"
     },
     "windows": "Ctrl + Alt + ]",
-    "mac": "⌘ Option ]",
+    "mac": "⌘ ⌥ ]",
     "linux": "Ctrl + Alt + ]",
     "keywords": [
       "上移一层",
@@ -954,7 +954,7 @@
       "en": "Send one layer backward"
     },
     "windows": "Ctrl + Alt + [",
-    "mac": "⌘ Option [",
+    "mac": "⌘ ⌥ [",
     "linux": "Ctrl + Alt + [",
     "keywords": [
       "下移一层",
@@ -976,7 +976,7 @@
       "en": "Turn selection into component"
     },
     "windows": "Ctrl + Alt + K",
-    "mac": "⌘ Option K",
+    "mac": "⌘ ⌥ K",
     "linux": "Ctrl + Alt + K",
     "keywords": [
       "组件",
@@ -998,7 +998,7 @@
       "en": "Break instance link to main component"
     },
     "windows": "Ctrl + Alt + B",
-    "mac": "⌘ Option B",
+    "mac": "⌘ ⌥ B",
     "linux": "Ctrl + Alt + B",
     "keywords": [
       "分离实例",
@@ -1020,7 +1020,7 @@
       "en": "Clear custom modifications on instance"
     },
     "windows": "Ctrl + Alt + R",
-    "mac": "⌘ Option R",
+    "mac": "⌘ ⌥ R",
     "linux": "Ctrl + Alt + R",
     "keywords": [
       "重置覆盖",
@@ -1043,7 +1043,7 @@
       "en": "Add auto layout frame"
     },
     "windows": "Shift + A",
-    "mac": "Shift A",
+    "mac": "⇧ A",
     "linux": "Shift + A",
     "keywords": [
       "自动布局",
@@ -1065,7 +1065,7 @@
       "en": "Align left edges"
     },
     "windows": "Ctrl + Alt + A",
-    "mac": "⌘ Option A",
+    "mac": "⌘ ⌥ A",
     "linux": "Ctrl + Alt + A",
     "keywords": [
       "左对齐",
@@ -1087,7 +1087,7 @@
       "en": "Center align horizontal"
     },
     "windows": "Ctrl + Alt + T",
-    "mac": "⌘ Option T",
+    "mac": "⌘ ⌥ T",
     "linux": "Ctrl + Alt + T",
     "keywords": [
       "水平居中",
@@ -1109,7 +1109,7 @@
       "en": "Align right edges"
     },
     "windows": "Ctrl + Alt + D",
-    "mac": "⌘ Option D",
+    "mac": "⌘ ⌥ D",
     "linux": "Ctrl + Alt + D",
     "keywords": [
       "右对齐",
@@ -1131,7 +1131,7 @@
       "en": "Align top edges"
     },
     "windows": "Ctrl + Alt + W",
-    "mac": "⌘ Option W",
+    "mac": "⌘ ⌥ W",
     "linux": "Ctrl + Alt + W",
     "keywords": [
       "顶部对齐",
@@ -1153,7 +1153,7 @@
       "en": "Center align vertical"
     },
     "windows": "Ctrl + Alt + V",
-    "mac": "⌘ Option V",
+    "mac": "⌘ ⌥ V",
     "linux": "Ctrl + Alt + V",
     "keywords": [
       "垂直居中",
@@ -1174,9 +1174,9 @@
       "zh": "底部边缘对齐",
       "en": "Align bottom edges"
     },
-    "windows": "Ctrl + Alt + B",
-    "mac": "⌘ Option B",
-    "linux": "Ctrl + Alt + B",
+    "windows": "—",
+    "mac": "—",
+    "linux": "—",
     "keywords": [
       "底部对齐",
       "align bottom"
@@ -1263,7 +1263,7 @@
       "en": "Increase font size"
     },
     "windows": "Ctrl + Shift + .",
-    "mac": "⌘ Shift .",
+    "mac": "⌘ ⇧ .",
     "linux": "Ctrl + Shift + .",
     "keywords": [
       "增大字号",
@@ -1285,7 +1285,7 @@
       "en": "Decrease font size"
     },
     "windows": "Ctrl + Shift + ,",
-    "mac": "⌘ Shift ,",
+    "mac": "⌘ ⇧ ,",
     "linux": "Ctrl + Shift + ,",
     "keywords": [
       "减小字号",
@@ -1329,7 +1329,7 @@
       "en": "Switch Design/Prototype mode"
     },
     "windows": "Shift + E",
-    "mac": "Shift E",
+    "mac": "⇧ E",
     "linux": "Shift + E",
     "keywords": [
       "原型",
@@ -1351,7 +1351,7 @@
       "en": "Enter/exit fullscreen presentation"
     },
     "windows": "Ctrl + Shift + \\",
-    "mac": "⌘ Shift \\",
+    "mac": "⌘ ⇧ \\",
     "linux": "Ctrl + Shift + \\",
     "keywords": [
       "演示",
@@ -1374,7 +1374,7 @@
       "en": "Subtract overlapping area"
     },
     "windows": "Alt + -",
-    "mac": "Option -",
+    "mac": "⌥ -",
     "linux": "Alt + -",
     "keywords": [
       "减去",
@@ -1397,7 +1397,7 @@
       "en": "Merge shapes into one"
     },
     "windows": "Alt + =",
-    "mac": "Option =",
+    "mac": "⌥ =",
     "linux": "Alt + =",
     "keywords": [
       "联合",
@@ -1420,7 +1420,7 @@
       "en": "Keep intersection only"
     },
     "windows": "Alt + I",
-    "mac": "Option I",
+    "mac": "⌥ I",
     "linux": "Alt + I",
     "keywords": [
       "交集",
@@ -1443,7 +1443,7 @@
       "en": "Exclude overlap area"
     },
     "windows": "Alt + X",
-    "mac": "Option X",
+    "mac": "⌥ X",
     "linux": "Alt + X",
     "keywords": [
       "排除",
@@ -1488,7 +1488,7 @@
       "en": "Jump to previous sibling frame"
     },
     "windows": "Shift + Tab",
-    "mac": "Shift Tab",
+    "mac": "⇧ Tab",
     "linux": "Shift + Tab",
     "keywords": [
       "上一个",

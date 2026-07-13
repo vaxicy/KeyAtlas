@@ -401,8 +401,8 @@
       "zh": "放大画布",
       "en": "Zoom in on the canvas"
     },
-    "windows": "Ctrl + +",
-    "mac": "⌘ +",
+    "windows": "Ctrl + =",
+    "mac": "⌘ =",
     "linux": "Ctrl + +",
     "keywords": [
       "放大",

@@ -362,26 +362,28 @@
     "pinyin": "ge shi hua geshihua g s h gsh ge shi hua geshihua g s h gsh"
   },
   {
-    "id": "cursor-comment",
+    "id": "cursor-ai-model",
     "appId": "cursor",
     "type": "software",
     "category": "development",
     "name": {
-      "zh": "注释",
-      "en": "Toggle Comment"
+      "zh": "切换 AI 模型",
+      "en": "Cycle AI Model"
     },
     "description": {
-      "zh": "切换行注释",
-      "en": "Toggle line comment"
+      "zh": "在可用 AI 模型间循环切换（Cursor 官方键位，非注释）",
+      "en": "Cycle through available AI models (Cursor's official binding, not comment toggle)"
     },
     "windows": "Ctrl+/",
     "mac": "⌘+/",
     "linux": "Ctrl+/",
     "keywords": [
-      "注释",
-      "comment"
+      "AI",
+      "模型",
+      "model",
+      "切换"
     ],
-    "pinyin": "zhu shi zhushi z s zs zhu shi zhushi z s zs"
+    "pinyin": "qie huan   a i   mo xing qiehuan ai moxing q h   a i   m x qh ai mx mo xing   qie huan moxing qiehuan m x   q h mx qh"
   },
   {
     "id": "cursor-find",

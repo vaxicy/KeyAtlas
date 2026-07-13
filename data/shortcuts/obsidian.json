@@ -423,5 +423,139 @@
       "close"
     ],
     "pinyin": "guan bi mian ban guanbimianban g b m b gbmb guan bi guanbi g b gb"
+  },
+  {
+    "id": "obsidian-undo",
+    "appId": "obsidian",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销上一步操作",
+      "en": "Undo last action"
+    },
+    "windows": "Ctrl+Z",
+    "mac": "⌘+Z",
+    "linux": "Ctrl+Z",
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "obsidian-redo",
+    "appId": "obsidian",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "重做已撤销的操作",
+      "en": "Redo last undone action"
+    },
+    "windows": "Ctrl+Shift+Z",
+    "mac": "⌘+Shift+Z",
+    "linux": "Ctrl+Shift+Z",
+    "keywords": [
+      "重做",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "obsidian-underline",
+    "appId": "obsidian",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "下划线",
+      "en": "Underline"
+    },
+    "description": {
+      "zh": "为文本添加下划线",
+      "en": "Underline text"
+    },
+    "windows": "Ctrl+U",
+    "mac": "⌘+U",
+    "linux": "Ctrl+U",
+    "keywords": [
+      "下划线",
+      "underline"
+    ],
+    "pinyin": "xia hua xian xiahuaxian x h x xhx xia hua xian xiahuaxian x h x xhx"
+  },
+  {
+    "id": "obsidian-inline-code",
+    "appId": "obsidian",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "行内代码",
+      "en": "Inline Code"
+    },
+    "description": {
+      "zh": "插入行内代码标记",
+      "en": "Insert inline code"
+    },
+    "windows": "Ctrl+`",
+    "mac": "⌘+`",
+    "linux": "Ctrl+`",
+    "keywords": [
+      "代码",
+      "code",
+      "行内"
+    ],
+    "pinyin": "xing nei dai ma xingneidaima x n d m xndm dai ma   xing nei daima xingnei d m   x n dm xn"
+  },
+  {
+    "id": "obsidian-select-all",
+    "appId": "obsidian",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "全选",
+      "en": "Select All"
+    },
+    "description": {
+      "zh": "选中全部内容",
+      "en": "Select all content"
+    },
+    "windows": "Ctrl+A",
+    "mac": "⌘+A",
+    "linux": "Ctrl+A",
+    "keywords": [
+      "全选",
+      "select all"
+    ],
+    "pinyin": "quan xuan quanxuan q x qx quan xuan quanxuan q x qx"
+  },
+  {
+    "id": "obsidian-newtab",
+    "appId": "obsidian",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "新建标签页",
+      "en": "New Tab"
+    },
+    "description": {
+      "zh": "打开新标签页",
+      "en": "Open new tab"
+    },
+    "windows": "Ctrl+T",
+    "mac": "⌘+T",
+    "linux": "Ctrl+T",
+    "keywords": [
+      "新建",
+      "标签",
+      "tab"
+    ],
+    "pinyin": "xin jian biao qian ye xinjianbiaoqianye x j b q y xjbqy xin jian   biao qian xinjian biaoqian x j   b q xj bq"
   }
 ]

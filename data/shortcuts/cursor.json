@@ -13,13 +13,152 @@
       "en": "Open command palette"
     },
     "windows": "Ctrl+Shift+P",
-    "mac": "Cmd+Shift+P",
+    "mac": "⌘+Shift+P",
     "linux": "Ctrl+Shift+P",
     "keywords": [
       "命令面板",
       "command"
     ],
     "pinyin": "ming ling mian ban minglingmianban m l m b mlmb ming ling mian ban minglingmianban m l m b mlmb"
+  },
+  {
+    "id": "cursor-generate",
+    "appId": "cursor",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "内联生成/编辑",
+      "en": "Inline Generate / Edit"
+    },
+    "description": {
+      "zh": "用 AI 就地生成或修改代码",
+      "en": "Generate or edit code inline with AI"
+    },
+    "windows": "Ctrl+K",
+    "mac": "⌘+K",
+    "linux": "Ctrl+K",
+    "keywords": [
+      "生成",
+      "generate",
+      "编辑",
+      "ai"
+    ],
+    "pinyin": "nei lian sheng cheng / bian ji neilianshengcheng/bianji n l s c / b j nlsc/bj sheng cheng   bian ji shengcheng bianji s c   b j sc bj"
+  },
+  {
+    "id": "cursor-chat",
+    "appId": "cursor",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "AI 聊天",
+      "en": "Chat"
+    },
+    "description": {
+      "zh": "打开 Cursor 聊天",
+      "en": "Open AI chat"
+    },
+    "windows": "Ctrl+L",
+    "mac": "⌘+L",
+    "linux": "Ctrl+L",
+    "keywords": [
+      "聊天",
+      "chat",
+      "ai"
+    ],
+    "pinyin": "a i   liao tian ai liaotian a i   l t ai lt liao tian liaotian l t lt"
+  },
+  {
+    "id": "cursor-composer",
+    "appId": "cursor",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "Composer / Agent",
+      "en": "Composer"
+    },
+    "description": {
+      "zh": "打开 Composer 编写区",
+      "en": "Open composer"
+    },
+    "windows": "Ctrl+I",
+    "mac": "⌘+I",
+    "linux": "Ctrl+I",
+    "keywords": [
+      "composer",
+      "编写",
+      "agent"
+    ],
+    "pinyin": "c o m p o s e r   /   a g e n t composer / agent c o m p o s e r   /   a g e n t composer / agent bian xie bianxie b x bx"
+  },
+  {
+    "id": "cursor-add-chat",
+    "appId": "cursor",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "加入选中到聊天",
+      "en": "Add Selection to Chat"
+    },
+    "description": {
+      "zh": "将选中代码作为上下文加入聊天",
+      "en": "Add selected code to chat"
+    },
+    "windows": "Ctrl+Shift+L",
+    "mac": "⌘+Shift+L",
+    "linux": "Ctrl+Shift+L",
+    "keywords": [
+      "上下文",
+      "context",
+      "聊天"
+    ],
+    "pinyin": "jia ru xuan zhong dao liao tian jiaruxuanzhongdaoliaotian j r x z d l t jrxzdlt shang xia wen   liao tian shangxiawen liaotian s x w   l t sxw lt"
+  },
+  {
+    "id": "cursor-cursor-settings",
+    "appId": "cursor",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "Cursor 设置",
+      "en": "Cursor Settings"
+    },
+    "description": {
+      "zh": "打开 Cursor 专属设置",
+      "en": "Open Cursor settings"
+    },
+    "windows": "Ctrl+Shift+J",
+    "mac": "⌘+Shift+J",
+    "linux": "Ctrl+Shift+J",
+    "keywords": [
+      "设置",
+      "settings",
+      "cursor"
+    ],
+    "pinyin": "c u r s o r   she zhi cursor shezhi c u r s o r   s z cursor sz she zhi shezhi s z sz"
+  },
+  {
+    "id": "cursor-tab",
+    "appId": "cursor",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "接受建议",
+      "en": "Accept Suggestion"
+    },
+    "description": {
+      "zh": "接受 AI 补全建议",
+      "en": "Accept AI suggestion"
+    },
+    "windows": "Tab",
+    "mac": "Tab",
+    "linux": "Tab",
+    "keywords": [
+      "接受",
+      "accept",
+      "补全"
+    ],
+    "pinyin": "jie shou jian yi jieshoujianyi j s j y jsjy jie shou   bu quan jieshou buquan j s   b q js bq"
   },
   {
     "id": "cursor-explorer",
@@ -35,7 +174,7 @@
       "en": "Open explorer"
     },
     "windows": "Ctrl+Shift+E",
-    "mac": "Cmd+Shift+E",
+    "mac": "⌘+Shift+E",
     "linux": "Ctrl+Shift+E",
     "keywords": [
       "资源管理器",
@@ -54,11 +193,11 @@
       "en": "Search"
     },
     "description": {
-      "zh": "全局搜索",
+      "zh": "跨文件全局搜索",
       "en": "Search across files"
     },
     "windows": "Ctrl+Shift+F",
-    "mac": "Cmd+Shift+F",
+    "mac": "⌘+Shift+F",
     "linux": "Ctrl+Shift+F",
     "keywords": [
       "搜索",
@@ -80,7 +219,7 @@
       "en": "Open source control"
     },
     "windows": "Ctrl+Shift+G",
-    "mac": "Cmd+Shift+G",
+    "mac": "⌘+Shift+G",
     "linux": "Ctrl+Shift+G",
     "keywords": [
       "源代码",
@@ -103,7 +242,7 @@
       "en": "Open run panel"
     },
     "windows": "Ctrl+Shift+D",
-    "mac": "Cmd+Shift+D",
+    "mac": "⌘+Shift+D",
     "linux": "Ctrl+Shift+D",
     "keywords": [
       "运行",
@@ -126,7 +265,7 @@
       "en": "Open extensions"
     },
     "windows": "Ctrl+Shift+X",
-    "mac": "Cmd+Shift+X",
+    "mac": "⌘+Shift+X",
     "linux": "Ctrl+Shift+X",
     "keywords": [
       "扩展",
@@ -148,81 +287,13 @@
       "en": "Open terminal"
     },
     "windows": "Ctrl+`",
-    "mac": "Cmd+`",
+    "mac": "⌘+`",
     "linux": "Ctrl+`",
     "keywords": [
       "终端",
       "terminal"
     ],
     "pinyin": "ji cheng zhong duan jichengzhongduan j c z d jczd zhong duan zhongduan z d zd"
-  },
-  {
-    "id": "cursor-chat",
-    "appId": "cursor",
-    "type": "software",
-    "category": "development",
-    "name": {
-      "zh": "AI 聊天",
-      "en": "AI Chat"
-    },
-    "description": {
-      "zh": "打开 Cursor 聊天",
-      "en": "Open AI chat"
-    },
-    "windows": "Ctrl+L",
-    "mac": "Cmd+L",
-    "linux": "Ctrl+L",
-    "keywords": [
-      "聊天",
-      "chat",
-      "ai"
-    ],
-    "pinyin": "a i   liao tian ai liaotian a i   l t ai lt liao tian liaotian l t lt"
-  },
-  {
-    "id": "cursor-composer",
-    "appId": "cursor",
-    "type": "software",
-    "category": "development",
-    "name": {
-      "zh": "Composer",
-      "en": "Composer"
-    },
-    "description": {
-      "zh": "打开 Composer",
-      "en": "Open composer"
-    },
-    "windows": "Ctrl+I",
-    "mac": "Cmd+I",
-    "linux": "Ctrl+I",
-    "keywords": [
-      "composer",
-      "编写"
-    ],
-    "pinyin": "c o m p o s e r composer c o m p o s e r composer bian xie bianxie b x bx"
-  },
-  {
-    "id": "cursor-tab",
-    "appId": "cursor",
-    "type": "software",
-    "category": "development",
-    "name": {
-      "zh": "接受建议",
-      "en": "Accept Suggestion"
-    },
-    "description": {
-      "zh": "接受 AI 补全",
-      "en": "Accept suggestion"
-    },
-    "windows": "Tab",
-    "mac": "Tab",
-    "linux": "Tab",
-    "keywords": [
-      "接受",
-      "accept",
-      "补全"
-    ],
-    "pinyin": "jie shou jian yi jieshoujianyi j s j y jsjy jie shou   bu quan jieshou buquan j s   b q js bq"
   },
   {
     "id": "cursor-newfile",
@@ -238,7 +309,7 @@
       "en": "New file"
     },
     "windows": "Ctrl+N",
-    "mac": "Cmd+N",
+    "mac": "⌘+N",
     "linux": "Ctrl+N",
     "keywords": [
       "新建文件",
@@ -260,7 +331,7 @@
       "en": "Save file"
     },
     "windows": "Ctrl+S",
-    "mac": "Cmd+S",
+    "mac": "⌘+S",
     "linux": "Ctrl+S",
     "keywords": [
       "保存",
@@ -281,9 +352,9 @@
       "zh": "格式化文档",
       "en": "Format document"
     },
-    "windows": "Ctrl+Shift+I",
-    "mac": "Cmd+Shift+I",
-    "linux": "Ctrl+Shift+I",
+    "windows": "Shift+Alt+F",
+    "mac": "Shift+Option+F",
+    "linux": "Shift+Alt+F",
     "keywords": [
       "格式化",
       "format"
@@ -300,11 +371,11 @@
       "en": "Toggle Comment"
     },
     "description": {
-      "zh": "切换注释",
+      "zh": "切换行注释",
       "en": "Toggle line comment"
     },
     "windows": "Ctrl+/",
-    "mac": "Cmd+/",
+    "mac": "⌘+/",
     "linux": "Ctrl+/",
     "keywords": [
       "注释",
@@ -326,7 +397,7 @@
       "en": "Find"
     },
     "windows": "Ctrl+F",
-    "mac": "Cmd+F",
+    "mac": "⌘+F",
     "linux": "Ctrl+F",
     "keywords": [
       "查找",
@@ -348,7 +419,7 @@
       "en": "Replace"
     },
     "windows": "Ctrl+H",
-    "mac": "Cmd+H",
+    "mac": "⌘+H",
     "linux": "Ctrl+H",
     "keywords": [
       "替换",
@@ -357,7 +428,7 @@
     "pinyin": "ti huan tihuan t h th ti huan tihuan t h th"
   },
   {
-    "id": "cursor-commandpalette2",
+    "id": "cursor-quickopen",
     "appId": "cursor",
     "type": "software",
     "category": "development",
@@ -370,7 +441,7 @@
       "en": "Quick open file"
     },
     "windows": "Ctrl+P",
-    "mac": "Cmd+P",
+    "mac": "⌘+P",
     "linux": "Ctrl+P",
     "keywords": [
       "快速打开",
@@ -388,11 +459,11 @@
       "en": "Multi-Cursor"
     },
     "description": {
-      "zh": "添加多光标",
-      "en": "Add cursor"
+      "zh": "在下方添加光标",
+      "en": "Add cursor below"
     },
     "windows": "Ctrl+Alt+Down",
-    "mac": "Cmd+Option+Down",
+    "mac": "⌘+Option+Down",
     "linux": "Ctrl+Alt+Down",
     "keywords": [
       "多光标",
@@ -414,7 +485,7 @@
       "en": "Split editor"
     },
     "windows": "Ctrl+\\",
-    "mac": "Cmd+\\",
+    "mac": "⌘+\\",
     "linux": "Ctrl+\\",
     "keywords": [
       "拆分",
@@ -436,7 +507,7 @@
       "en": "Undo"
     },
     "windows": "Ctrl+Z",
-    "mac": "Cmd+Z",
+    "mac": "⌘+Z",
     "linux": "Ctrl+Z",
     "keywords": [
       "撤销",
@@ -458,7 +529,7 @@
       "en": "Redo"
     },
     "windows": "Ctrl+Shift+Z",
-    "mac": "Cmd+Shift+Z",
+    "mac": "⌘+Shift+Z",
     "linux": "Ctrl+Shift+Z",
     "keywords": [
       "重做",
@@ -480,7 +551,7 @@
       "en": "Open settings"
     },
     "windows": "Ctrl+,",
-    "mac": "Cmd+,",
+    "mac": "⌘+,",
     "linux": "Ctrl+,",
     "keywords": [
       "设置",

@@ -1,0 +1,741 @@
+[
+  {
+    "id": "proc-settings",
+    "appId": "procreate",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "打开设置",
+      "en": "Open Settings"
+    },
+    "description": {
+      "zh": "打开设置（⌘ ,）",
+      "en": "Open Settings (⌘ ,)"
+    },
+    "windows": "—",
+    "mac": "⌘ ,",
+    "linux": "—",
+    "keywords": [
+      "打开设置",
+      "Open Settings",
+      "设置",
+      "settings"
+    ],
+    "pinyin": "da kai she zhi dakaishezhi d k s z dksz da kai she zhi   she zhi dakaishezhi shezhi d k s z   s z dksz sz"
+  },
+  {
+    "id": "proc-hide",
+    "appId": "procreate",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "隐藏应用",
+      "en": "Hide Procreate"
+    },
+    "description": {
+      "zh": "隐藏应用（⌘ H）",
+      "en": "Hide Procreate (⌘ H)"
+    },
+    "windows": "—",
+    "mac": "⌘ H",
+    "linux": "—",
+    "keywords": [
+      "隐藏应用",
+      "Hide Procreate",
+      "隐藏",
+      "hide"
+    ],
+    "pinyin": "yin cang ying yong yincangyingyong y c y y ycyy yin cang ying yong   yin cang yincangyingyong yincang y c y y   y c ycyy yc"
+  },
+  {
+    "id": "proc-actions",
+    "appId": "procreate",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "操作菜单",
+      "en": "Actions menu"
+    },
+    "description": {
+      "zh": "操作菜单（⌘ K）",
+      "en": "Actions menu (⌘ K)"
+    },
+    "windows": "—",
+    "mac": "⌘ K",
+    "linux": "—",
+    "keywords": [
+      "操作菜单",
+      "Actions menu",
+      "操作",
+      "actions"
+    ],
+    "pinyin": "cao zuo cai dan caozuocaidan c z c d czcd cao zuo cai dan   cao zuo caozuocaidan caozuo c z c d   c z czcd cz"
+  },
+  {
+    "id": "proc-undo",
+    "appId": "procreate",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销（⌘ Z）",
+      "en": "Undo (⌘ Z)"
+    },
+    "windows": "—",
+    "mac": "⌘ Z",
+    "linux": "—",
+    "keywords": [
+      "撤销",
+      "Undo",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "proc-redo",
+    "appId": "procreate",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "重做（⇧ ⌘ Z）",
+      "en": "Redo (⇧ ⌘ Z)"
+    },
+    "windows": "—",
+    "mac": "⇧ ⌘ Z",
+    "linux": "—",
+    "keywords": [
+      "重做",
+      "Redo",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "proc-cut",
+    "appId": "procreate",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "剪切",
+      "en": "Cut"
+    },
+    "description": {
+      "zh": "剪切（⌘ X）",
+      "en": "Cut (⌘ X)"
+    },
+    "windows": "—",
+    "mac": "⌘ X",
+    "linux": "—",
+    "keywords": [
+      "剪切",
+      "Cut",
+      "cut"
+    ],
+    "pinyin": "jian qie jianqie j q jq jian qie jianqie j q jq"
+  },
+  {
+    "id": "proc-copy",
+    "appId": "procreate",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "复制",
+      "en": "Copy"
+    },
+    "description": {
+      "zh": "复制（⌘ C）",
+      "en": "Copy (⌘ C)"
+    },
+    "windows": "—",
+    "mac": "⌘ C",
+    "linux": "—",
+    "keywords": [
+      "复制",
+      "Copy",
+      "copy"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "proc-paste",
+    "appId": "procreate",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "粘贴",
+      "en": "Paste"
+    },
+    "description": {
+      "zh": "粘贴（⌘ V）",
+      "en": "Paste (⌘ V)"
+    },
+    "windows": "—",
+    "mac": "⌘ V",
+    "linux": "—",
+    "keywords": [
+      "粘贴",
+      "Paste",
+      "paste"
+    ],
+    "pinyin": "nian tie niantie n t nt nian tie niantie n t nt"
+  },
+  {
+    "id": "proc-selectall",
+    "appId": "procreate",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "全选",
+      "en": "Select all"
+    },
+    "description": {
+      "zh": "全选（⌘ A）",
+      "en": "Select all (⌘ A)"
+    },
+    "windows": "—",
+    "mac": "⌘ A",
+    "linux": "—",
+    "keywords": [
+      "全选",
+      "Select all",
+      "select all"
+    ],
+    "pinyin": "quan xuan quanxuan q x qx quan xuan quanxuan q x qx"
+  },
+  {
+    "id": "proc-duplicate",
+    "appId": "procreate",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "复制图层",
+      "en": "Duplicate layer"
+    },
+    "description": {
+      "zh": "复制图层（⌘ J）",
+      "en": "Duplicate layer (⌘ J)"
+    },
+    "windows": "—",
+    "mac": "⌘ J",
+    "linux": "—",
+    "keywords": [
+      "复制图层",
+      "Duplicate layer",
+      "复制",
+      "duplicate"
+    ],
+    "pinyin": "fu zhi tu ceng fuzhituceng f z t c fztc fu zhi tu ceng   fu zhi fuzhituceng fuzhi f z t c   f z fztc fz"
+  },
+  {
+    "id": "proc-deselect",
+    "appId": "procreate",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "取消选择",
+      "en": "Deselect"
+    },
+    "description": {
+      "zh": "取消选择（⌘ D）",
+      "en": "Deselect (⌘ D)"
+    },
+    "windows": "—",
+    "mac": "⌘ D",
+    "linux": "—",
+    "keywords": [
+      "取消选择",
+      "Deselect",
+      "取消",
+      "deselect"
+    ],
+    "pinyin": "qu xiao xuan ze quxiaoxuanze q x x z qxxz qu xiao xuan ze   qu xiao quxiaoxuanze quxiao q x x z   q x qxxz qx"
+  },
+  {
+    "id": "proc-clear",
+    "appId": "procreate",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "清除",
+      "en": "Clear"
+    },
+    "description": {
+      "zh": "清除（⌘ ⌫）",
+      "en": "Clear (⌘ ⌫)"
+    },
+    "windows": "—",
+    "mac": "⌘ ⌫",
+    "linux": "—",
+    "keywords": [
+      "清除",
+      "Clear",
+      "clear"
+    ],
+    "pinyin": "qing chu qingchu q c qc qing chu qingchu q c qc"
+  },
+  {
+    "id": "proc-switch-color",
+    "appId": "procreate",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "切换前景/背景色",
+      "en": "Switch color"
+    },
+    "description": {
+      "zh": "切换前景/背景色（X）",
+      "en": "Switch color (X)"
+    },
+    "windows": "—",
+    "mac": "X",
+    "linux": "—",
+    "keywords": [
+      "切换前景/背景色",
+      "Switch color",
+      "颜色",
+      "color",
+      "切换"
+    ],
+    "pinyin": "qie huan qian jing / bei jing se qiehuanqianjing/beijingse q h q j / b j s qhqj/bjs qie huan qian jing / bei jing se   yan se   qie huan qiehuanqianjing/beijingse yanse qiehuan q h q j / b j s   y s   q h qhqj/bjs ys qh"
+  },
+  {
+    "id": "proc-brush",
+    "appId": "procreate",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "画笔工具",
+      "en": "Brush tool"
+    },
+    "description": {
+      "zh": "画笔工具（B）",
+      "en": "Brush tool (B)"
+    },
+    "windows": "—",
+    "mac": "B",
+    "linux": "—",
+    "keywords": [
+      "画笔工具",
+      "Brush tool",
+      "画笔",
+      "brush"
+    ],
+    "pinyin": "hua bi gong ju huabigongju h b g j hbgj hua bi gong ju   hua bi huabigongju huabi h b g j   h b hbgj hb"
+  },
+  {
+    "id": "proc-eraser",
+    "appId": "procreate",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "橡皮擦工具",
+      "en": "Eraser tool"
+    },
+    "description": {
+      "zh": "橡皮擦工具（E）",
+      "en": "Eraser tool (E)"
+    },
+    "windows": "—",
+    "mac": "E",
+    "linux": "—",
+    "keywords": [
+      "橡皮擦工具",
+      "Eraser tool",
+      "橡皮",
+      "eraser"
+    ],
+    "pinyin": "xiang pi ca gong ju xiangpicagongju x p c g j xpcgj xiang pi ca gong ju   xiang pi xiangpicagongju xiangpi x p c g j   x p xpcgj xp"
+  },
+  {
+    "id": "proc-brush-smaller5",
+    "appId": "procreate",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "画笔缩小 5%",
+      "en": "Brush size -5%"
+    },
+    "description": {
+      "zh": "画笔缩小 5%（[）",
+      "en": "Brush size -5% ([)"
+    },
+    "windows": "—",
+    "mac": "[",
+    "linux": "—",
+    "keywords": [
+      "画笔缩小 5%",
+      "Brush size -5%",
+      "画笔",
+      "brush",
+      "大小"
+    ],
+    "pinyin": "hua bi suo xiao   5 % huabisuoxiao 5% h b s x   5 % hbsx 5% hua bi suo xiao   5 %   hua bi   da xiao huabisuoxiao 5% huabi daxiao h b s x   5 %   h b   d x hbsx 5% hb dx"
+  },
+  {
+    "id": "proc-brush-bigger5",
+    "appId": "procreate",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "画笔放大 5%",
+      "en": "Brush size +5%"
+    },
+    "description": {
+      "zh": "画笔放大 5%（]）",
+      "en": "Brush size +5% (])"
+    },
+    "windows": "—",
+    "mac": "]",
+    "linux": "—",
+    "keywords": [
+      "画笔放大 5%",
+      "Brush size +5%",
+      "画笔",
+      "brush",
+      "大小"
+    ],
+    "pinyin": "hua bi fang da   5 % huabifangda 5% h b f d   5 % hbfd 5% hua bi fang da   5 %   hua bi   da xiao huabifangda 5% huabi daxiao h b f d   5 %   h b   d x hbfd 5% hb dx"
+  },
+  {
+    "id": "proc-brush-smaller1",
+    "appId": "procreate",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "画笔缩小 1%",
+      "en": "Brush size -1%"
+    },
+    "description": {
+      "zh": "画笔缩小 1%（⌘ [）",
+      "en": "Brush size -1% (⌘ [)"
+    },
+    "windows": "—",
+    "mac": "⌘ [",
+    "linux": "—",
+    "keywords": [
+      "画笔缩小 1%",
+      "Brush size -1%",
+      "画笔",
+      "brush"
+    ],
+    "pinyin": "hua bi suo xiao   1 % huabisuoxiao 1% h b s x   1 % hbsx 1% hua bi suo xiao   1 %   hua bi huabisuoxiao 1% huabi h b s x   1 %   h b hbsx 1% hb"
+  },
+  {
+    "id": "proc-brush-bigger1",
+    "appId": "procreate",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "画笔放大 1%",
+      "en": "Brush size +1%"
+    },
+    "description": {
+      "zh": "画笔放大 1%（⌘ ]）",
+      "en": "Brush size +1% (⌘ ])"
+    },
+    "windows": "—",
+    "mac": "⌘ ]",
+    "linux": "—",
+    "keywords": [
+      "画笔放大 1%",
+      "Brush size +1%",
+      "画笔",
+      "brush"
+    ],
+    "pinyin": "hua bi fang da   1 % huabifangda 1% h b f d   1 % hbfd 1% hua bi fang da   1 %   hua bi huabifangda 1% huabi h b f d   1 %   h b hbfd 1% hb"
+  },
+  {
+    "id": "proc-brush-smaller10",
+    "appId": "procreate",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "画笔缩小 10%",
+      "en": "Brush size -10%"
+    },
+    "description": {
+      "zh": "画笔缩小 10%（⇧ [）",
+      "en": "Brush size -10% (⇧ [)"
+    },
+    "windows": "—",
+    "mac": "⇧ [",
+    "linux": "—",
+    "keywords": [
+      "画笔缩小 10%",
+      "Brush size -10%",
+      "画笔",
+      "brush"
+    ],
+    "pinyin": "hua bi suo xiao   1 0 % huabisuoxiao 10% h b s x   1 0 % hbsx 10% hua bi suo xiao   1 0 %   hua bi huabisuoxiao 10% huabi h b s x   1 0 %   h b hbsx 10% hb"
+  },
+  {
+    "id": "proc-brush-bigger10",
+    "appId": "procreate",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "画笔放大 10%",
+      "en": "Brush size +10%"
+    },
+    "description": {
+      "zh": "画笔放大 10%（⇧ ]）",
+      "en": "Brush size +10% (⇧ ])"
+    },
+    "windows": "—",
+    "mac": "⇧ ]",
+    "linux": "—",
+    "keywords": [
+      "画笔放大 10%",
+      "Brush size +10%",
+      "画笔",
+      "brush"
+    ],
+    "pinyin": "hua bi fang da   1 0 % huabifangda 10% h b f d   1 0 % hbfd 10% hua bi fang da   1 0 %   hua bi huabifangda 10% huabi h b f d   1 0 %   h b hbfd 10% hb"
+  },
+  {
+    "id": "proc-hue",
+    "appId": "procreate",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "色相/饱和度",
+      "en": "Hue/Saturation"
+    },
+    "description": {
+      "zh": "色相/饱和度（⌘ U）",
+      "en": "Hue/Saturation (⌘ U)"
+    },
+    "windows": "—",
+    "mac": "⌘ U",
+    "linux": "—",
+    "keywords": [
+      "色相/饱和度",
+      "Hue/Saturation",
+      "色相",
+      "hue",
+      "饱和度"
+    ],
+    "pinyin": "se xiang / bao he du sexiang/baohedu s x / b h d sx/bhd se xiang / bao he du   se xiang   bao he du sexiang/baohedu sexiang baohedu s x / b h d   s x   b h d sx/bhd sx bhd"
+  },
+  {
+    "id": "proc-colorbalance",
+    "appId": "procreate",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "色彩平衡",
+      "en": "Color Balance"
+    },
+    "description": {
+      "zh": "色彩平衡（⌘ B）",
+      "en": "Color Balance (⌘ B)"
+    },
+    "windows": "—",
+    "mac": "⌘ B",
+    "linux": "—",
+    "keywords": [
+      "色彩平衡",
+      "Color Balance",
+      "色彩",
+      "color balance"
+    ],
+    "pinyin": "se cai ping heng secaipingheng s c p h scph se cai ping heng   se cai secaipingheng secai s c p h   s c scph sc"
+  },
+  {
+    "id": "proc-selection",
+    "appId": "procreate",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "选区工具",
+      "en": "Selection tool"
+    },
+    "description": {
+      "zh": "选区工具（S）",
+      "en": "Selection tool (S)"
+    },
+    "windows": "—",
+    "mac": "S",
+    "linux": "—",
+    "keywords": [
+      "选区工具",
+      "Selection tool",
+      "选区",
+      "selection"
+    ],
+    "pinyin": "xuan qu gong ju xuanqugongju x q g j xqgj xuan qu gong ju   xuan qu xuanqugongju xuanqu x q g j   x q xqgj xq"
+  },
+  {
+    "id": "proc-transform",
+    "appId": "procreate",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "变换工具",
+      "en": "Transform tool"
+    },
+    "description": {
+      "zh": "变换工具（V）",
+      "en": "Transform tool (V)"
+    },
+    "windows": "—",
+    "mac": "V",
+    "linux": "—",
+    "keywords": [
+      "变换工具",
+      "Transform tool",
+      "变换",
+      "transform"
+    ],
+    "pinyin": "bian huan gong ju bianhuangongju b h g j bhgj bian huan gong ju   bian huan bianhuangongju bianhuan b h g j   b h bhgj bh"
+  },
+  {
+    "id": "proc-layers-panel",
+    "appId": "procreate",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "图层面板",
+      "en": "Layers panel"
+    },
+    "description": {
+      "zh": "图层面板（L）",
+      "en": "Layers panel (L)"
+    },
+    "windows": "—",
+    "mac": "L",
+    "linux": "—",
+    "keywords": [
+      "图层面板",
+      "Layers panel",
+      "图层",
+      "layers"
+    ],
+    "pinyin": "tu ceng mian ban tucengmianban t c m b tcmb tu ceng mian ban   tu ceng tucengmianban tuceng t c m b   t c tcmb tc"
+  },
+  {
+    "id": "proc-colors-panel",
+    "appId": "procreate",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "颜色面板",
+      "en": "Colors panel"
+    },
+    "description": {
+      "zh": "颜色面板（C）",
+      "en": "Colors panel (C)"
+    },
+    "windows": "—",
+    "mac": "C",
+    "linux": "—",
+    "keywords": [
+      "颜色面板",
+      "Colors panel",
+      "颜色",
+      "colors"
+    ],
+    "pinyin": "yan se mian ban yansemianban y s m b ysmb yan se mian ban   yan se yansemianban yanse y s m b   y s ysmb ys"
+  },
+  {
+    "id": "proc-fullscreen",
+    "appId": "procreate",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "切换全屏",
+      "en": "Toggle fullscreen"
+    },
+    "description": {
+      "zh": "切换全屏（⌘ 0）",
+      "en": "Toggle fullscreen (⌘ 0)"
+    },
+    "windows": "—",
+    "mac": "⌘ 0",
+    "linux": "—",
+    "keywords": [
+      "切换全屏",
+      "Toggle fullscreen",
+      "全屏",
+      "fullscreen"
+    ],
+    "pinyin": "qie huan quan ping qiehuanquanping q h q p qhqp qie huan quan ping   quan ping qiehuanquanping quanping q h q p   q p qhqp qp"
+  },
+  {
+    "id": "proc-perspective",
+    "appId": "procreate",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "透视参考线",
+      "en": "Perspective guide"
+    },
+    "description": {
+      "zh": "透视参考线（⌘ ;）",
+      "en": "Perspective guide (⌘ ;)"
+    },
+    "windows": "—",
+    "mac": "⌘ ;",
+    "linux": "—",
+    "keywords": [
+      "透视参考线",
+      "Perspective guide",
+      "透视",
+      "perspective"
+    ],
+    "pinyin": "tou shi can kao xian toushicankaoxian t s c k x tsckx tou shi can kao xian   tou shi toushicankaoxian toushi t s c k x   t s tsckx ts"
+  },
+  {
+    "id": "proc-close",
+    "appId": "procreate",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "关闭",
+      "en": "Close"
+    },
+    "description": {
+      "zh": "关闭（⌘ W）",
+      "en": "Close (⌘ W)"
+    },
+    "windows": "—",
+    "mac": "⌘ W",
+    "linux": "—",
+    "keywords": [
+      "关闭",
+      "Close",
+      "close"
+    ],
+    "pinyin": "guan bi guanbi g b gb guan bi guanbi g b gb"
+  },
+  {
+    "id": "proc-minimize",
+    "appId": "procreate",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "最小化",
+      "en": "Minimize"
+    },
+    "description": {
+      "zh": "最小化（⌘ M）",
+      "en": "Minimize (⌘ M)"
+    },
+    "windows": "—",
+    "mac": "⌘ M",
+    "linux": "—",
+    "keywords": [
+      "最小化",
+      "Minimize",
+      "minimize"
+    ],
+    "pinyin": "zui xiao hua zuixiaohua z x h zxh zui xiao hua zuixiaohua z x h zxh"
+  }
+]

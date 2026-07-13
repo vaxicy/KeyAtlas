@@ -59,5 +59,9 @@
   { "id": "mastergo", "name": { "zh": "MasterGo", "en": "MasterGo" }, "category": "design", "icon": "🏔️", "type": "software", "file": "mastergo.json" },
   { "id": "affinityphoto", "name": { "zh": "Affinity Photo", "en": "Affinity Photo" }, "category": "design", "icon": "🖼️", "type": "software", "file": "affinityphoto.json" },
   { "id": "affinitydesigner", "name": { "zh": "Affinity Designer", "en": "Affinity Designer" }, "category": "design", "icon": "🎨", "type": "software", "file": "affinitydesigner.json" },
-  { "id": "affinitypublisher", "name": { "zh": "Affinity Publisher", "en": "Affinity Publisher" }, "category": "design", "icon": "📐", "type": "software", "file": "affinitypublisher.json" }
+  { "id": "affinitypublisher", "name": { "zh": "Affinity Publisher", "en": "Affinity Publisher" }, "category": "design", "icon": "📐", "type": "software", "file": "affinitypublisher.json" },
+  { "id": "inkscape", "name": { "zh": "Inkscape", "en": "Inkscape" }, "category": "design", "icon": "🌀", "type": "software", "file": "inkscape.json" },
+  { "id": "procreate", "name": { "zh": "Procreate", "en": "Procreate" }, "category": "design", "icon": "🎨", "type": "software", "file": "procreate.json" },
+  { "id": "safari", "name": { "zh": "Safari", "en": "Safari" }, "category": "browser", "icon": "🧭", "type": "software", "file": "safari.json" },
+  { "id": "androidstudio", "name": { "zh": "Android Studio", "en": "Android Studio" }, "category": "development", "icon": "🤖", "type": "software", "file": "androidstudio.json" }
 ]

@@ -1,0 +1,559 @@
+[
+  {
+    "id": "safa-search",
+    "appId": "safari",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "搜索当前网页",
+      "en": "Search the page"
+    },
+    "description": {
+      "zh": "搜索当前网页（⌘ F）",
+      "en": "Search the page (⌘ F)"
+    },
+    "windows": "—",
+    "mac": "⌘ F",
+    "linux": "—",
+    "keywords": [
+      "搜索当前网页",
+      "Search the page",
+      "搜索",
+      "search",
+      "find"
+    ],
+    "pinyin": "sou suo dang qian wang ye sousuodangqianwangye s s d q w y ssdqwy sou suo dang qian wang ye   sou suo sousuodangqianwangye sousuo s s d q w y   s s ssdqwy ss"
+  },
+  {
+    "id": "safa-smart-field",
+    "appId": "safari",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "选择智能搜索栏",
+      "en": "Select Smart Search field"
+    },
+    "description": {
+      "zh": "选择智能搜索栏（⌘ L）",
+      "en": "Select Smart Search field (⌘ L)"
+    },
+    "windows": "—",
+    "mac": "⌘ L",
+    "linux": "—",
+    "keywords": [
+      "选择智能搜索栏",
+      "Select Smart Search field",
+      "地址栏",
+      "url",
+      "search field"
+    ],
+    "pinyin": "xuan ze zhi neng sou suo lan xuanzezhinengsousuolan x z z n s s l xzznssl xuan ze zhi neng sou suo lan   di zhi lan xuanzezhinengsousuolan dizhilan x z z n s s l   d z l xzznssl dzl"
+  },
+  {
+    "id": "safa-print",
+    "appId": "safari",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "打印",
+      "en": "Print"
+    },
+    "description": {
+      "zh": "打印（⌘ P）",
+      "en": "Print (⌘ P)"
+    },
+    "windows": "—",
+    "mac": "⌘ P",
+    "linux": "—",
+    "keywords": [
+      "打印",
+      "Print",
+      "print"
+    ],
+    "pinyin": "da yin dayin d y dy da yin dayin d y dy"
+  },
+  {
+    "id": "safa-back",
+    "appId": "safari",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "后退",
+      "en": "Go back"
+    },
+    "description": {
+      "zh": "后退（⌘ [）",
+      "en": "Go back (⌘ [)"
+    },
+    "windows": "—",
+    "mac": "⌘ [",
+    "linux": "—",
+    "keywords": [
+      "后退",
+      "Go back",
+      "back"
+    ],
+    "pinyin": "hou tui houtui h t ht hou tui houtui h t ht"
+  },
+  {
+    "id": "safa-forward",
+    "appId": "safari",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "前进",
+      "en": "Go forward"
+    },
+    "description": {
+      "zh": "前进（⌘ ]）",
+      "en": "Go forward (⌘ ])"
+    },
+    "windows": "—",
+    "mac": "⌘ ]",
+    "linux": "—",
+    "keywords": [
+      "前进",
+      "Go forward",
+      "forward"
+    ],
+    "pinyin": "qian jin qianjin q j qj qian jin qianjin q j qj"
+  },
+  {
+    "id": "safa-tab-overview",
+    "appId": "safari",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "标签总览",
+      "en": "Tab overview"
+    },
+    "description": {
+      "zh": "标签总览（⇧ ⌘ \\）",
+      "en": "Tab overview (⇧ ⌘ \\)"
+    },
+    "windows": "—",
+    "mac": "⇧ ⌘ \\",
+    "linux": "—",
+    "keywords": [
+      "标签总览",
+      "Tab overview",
+      "标签",
+      "tab",
+      "overview"
+    ],
+    "pinyin": "biao qian zong lan biaoqianzonglan b q z l bqzl biao qian zong lan   biao qian biaoqianzonglan biaoqian b q z l   b q bqzl bq"
+  },
+  {
+    "id": "safa-next-tab",
+    "appId": "safari",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "下一个标签",
+      "en": "Next tab"
+    },
+    "description": {
+      "zh": "下一个标签（⌃ Tab）",
+      "en": "Next tab (⌃ Tab)"
+    },
+    "windows": "—",
+    "mac": "⌃ Tab",
+    "linux": "—",
+    "keywords": [
+      "下一个标签",
+      "Next tab",
+      "标签",
+      "tab",
+      "next"
+    ],
+    "pinyin": "xia yi ge biao qian xiayigebiaoqian x y g b q xygbq xia yi ge biao qian   biao qian xiayigebiaoqian biaoqian x y g b q   b q xygbq bq"
+  },
+  {
+    "id": "safa-prev-tab",
+    "appId": "safari",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "上一个标签",
+      "en": "Previous tab"
+    },
+    "description": {
+      "zh": "上一个标签（⌃ ⇧ Tab）",
+      "en": "Previous tab (⌃ ⇧ Tab)"
+    },
+    "windows": "—",
+    "mac": "⌃ ⇧ Tab",
+    "linux": "—",
+    "keywords": [
+      "上一个标签",
+      "Previous tab",
+      "标签",
+      "tab",
+      "previous"
+    ],
+    "pinyin": "shang yi ge biao qian shangyigebiaoqian s y g b q sygbq shang yi ge biao qian   biao qian shangyigebiaoqian biaoqian s y g b q   b q sygbq bq"
+  },
+  {
+    "id": "safa-tab1",
+    "appId": "safari",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "选择第 1 个标签",
+      "en": "Select tab 1"
+    },
+    "description": {
+      "zh": "选择第 1 个标签（⌘ 1）",
+      "en": "Select tab 1 (⌘ 1)"
+    },
+    "windows": "—",
+    "mac": "⌘ 1",
+    "linux": "—",
+    "keywords": [
+      "选择第 1 个标签",
+      "Select tab 1",
+      "标签",
+      "tab"
+    ],
+    "pinyin": "xuan ze di   1   ge biao qian xuanzedi 1 gebiaoqian x z d   1   g b q xzd 1 gbq xuan ze di   1   ge biao qian   biao qian xuanzedi 1 gebiaoqian biaoqian x z d   1   g b q   b q xzd 1 gbq bq"
+  },
+  {
+    "id": "safa-tab8",
+    "appId": "safari",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "选择第 8 个标签",
+      "en": "Select tab 8"
+    },
+    "description": {
+      "zh": "选择第 8 个标签（⌘ 8）",
+      "en": "Select tab 8 (⌘ 8)"
+    },
+    "windows": "—",
+    "mac": "⌘ 8",
+    "linux": "—",
+    "keywords": [
+      "选择第 8 个标签",
+      "Select tab 8",
+      "标签",
+      "tab"
+    ],
+    "pinyin": "xuan ze di   8   ge biao qian xuanzedi 8 gebiaoqian x z d   8   g b q xzd 8 gbq xuan ze di   8   ge biao qian   biao qian xuanzedi 8 gebiaoqian biaoqian x z d   8   g b q   b q xzd 8 gbq bq"
+  },
+  {
+    "id": "safa-tab-last",
+    "appId": "safari",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "选择最后一个标签",
+      "en": "Select last tab"
+    },
+    "description": {
+      "zh": "选择最后一个标签（⌘ 9）",
+      "en": "Select last tab (⌘ 9)"
+    },
+    "windows": "—",
+    "mac": "⌘ 9",
+    "linux": "—",
+    "keywords": [
+      "选择最后一个标签",
+      "Select last tab",
+      "标签",
+      "tab",
+      "last"
+    ],
+    "pinyin": "xuan ze zui hou yi ge biao qian xuanzezuihouyigebiaoqian x z z h y g b q xzzhygbq xuan ze zui hou yi ge biao qian   biao qian xuanzezuihouyigebiaoqian biaoqian x z z h y g b q   b q xzzhygbq bq"
+  },
+  {
+    "id": "safa-close-tab",
+    "appId": "safari",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "关闭标签",
+      "en": "Close tab"
+    },
+    "description": {
+      "zh": "关闭标签（⌘ W）",
+      "en": "Close tab (⌘ W)"
+    },
+    "windows": "—",
+    "mac": "⌘ W",
+    "linux": "—",
+    "keywords": [
+      "关闭标签",
+      "Close tab",
+      "关闭",
+      "close",
+      "tab"
+    ],
+    "pinyin": "guan bi biao qian guanbibiaoqian g b b q gbbq guan bi biao qian   guan bi guanbibiaoqian guanbi g b b q   g b gbbq gb"
+  },
+  {
+    "id": "safa-reopen-tab",
+    "appId": "safari",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "重新打开关闭的标签",
+      "en": "Reopen closed tab"
+    },
+    "description": {
+      "zh": "重新打开关闭的标签（⇧ ⌘ T）",
+      "en": "Reopen closed tab (⇧ ⌘ T)"
+    },
+    "windows": "—",
+    "mac": "⇧ ⌘ T",
+    "linux": "—",
+    "keywords": [
+      "重新打开关闭的标签",
+      "Reopen closed tab",
+      "标签",
+      "tab",
+      "reopen"
+    ],
+    "pinyin": "chong xin da kai guan bi de biao qian chongxindakaiguanbidebiaoqian c x d k g b d b q cxdkgbdbq chong xin da kai guan bi de biao qian   biao qian chongxindakaiguanbidebiaoqian biaoqian c x d k g b d b q   b q cxdkgbdbq bq"
+  },
+  {
+    "id": "safa-switch-win",
+    "appId": "safari",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "切换窗口",
+      "en": "Switch window"
+    },
+    "description": {
+      "zh": "切换窗口（⌘ `）",
+      "en": "Switch window (⌘ `)"
+    },
+    "windows": "—",
+    "mac": "⌘ `",
+    "linux": "—",
+    "keywords": [
+      "切换窗口",
+      "Switch window",
+      "窗口",
+      "window",
+      "switch"
+    ],
+    "pinyin": "qie huan chuang kou qiehuanchuangkou q h c k qhck qie huan chuang kou   chuang kou qiehuanchuangkou chuangkou q h c k   c k qhck ck"
+  },
+  {
+    "id": "safa-reading-list",
+    "appId": "safari",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "阅读列表侧栏",
+      "en": "Reading List sidebar"
+    },
+    "description": {
+      "zh": "阅读列表侧栏（⌃ ⌘ 2）",
+      "en": "Reading List sidebar (⌃ ⌘ 2)"
+    },
+    "windows": "—",
+    "mac": "⌃ ⌘ 2",
+    "linux": "—",
+    "keywords": [
+      "阅读列表侧栏",
+      "Reading List sidebar",
+      "阅读列表",
+      "reading list"
+    ],
+    "pinyin": "yue du lie biao ce lan yueduliebiaocelan y d l b c l ydlbcl yue du lie biao ce lan   yue du lie biao yueduliebiaocelan yueduliebiao y d l b c l   y d l b ydlbcl ydlb"
+  },
+  {
+    "id": "safa-add-reading",
+    "appId": "safari",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "添加到阅读列表",
+      "en": "Add to Reading List"
+    },
+    "description": {
+      "zh": "添加到阅读列表（⇧ ⌘ D）",
+      "en": "Add to Reading List (⇧ ⌘ D)"
+    },
+    "windows": "—",
+    "mac": "⇧ ⌘ D",
+    "linux": "—",
+    "keywords": [
+      "添加到阅读列表",
+      "Add to Reading List",
+      "阅读列表",
+      "reading list"
+    ],
+    "pinyin": "tian jia dao yue du lie biao tianjiadaoyueduliebiao t j d y d l b tjdydlb tian jia dao yue du lie biao   yue du lie biao tianjiadaoyueduliebiao yueduliebiao t j d y d l b   y d l b tjdydlb ydlb"
+  },
+  {
+    "id": "safa-reader",
+    "appId": "safari",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "打开阅读器",
+      "en": "Open Reader"
+    },
+    "description": {
+      "zh": "打开阅读器（⇧ ⌘ R）",
+      "en": "Open Reader (⇧ ⌘ R)"
+    },
+    "windows": "—",
+    "mac": "⇧ ⌘ R",
+    "linux": "—",
+    "keywords": [
+      "打开阅读器",
+      "Open Reader",
+      "阅读器",
+      "reader"
+    ],
+    "pinyin": "da kai yue du qi dakaiyueduqi d k y d q dkydq da kai yue du qi   yue du qi dakaiyueduqi yueduqi d k y d q   y d q dkydq ydq"
+  },
+  {
+    "id": "safa-bookmarks",
+    "appId": "safari",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "书签侧栏",
+      "en": "Bookmarks sidebar"
+    },
+    "description": {
+      "zh": "书签侧栏（⌃ ⌘ 1）",
+      "en": "Bookmarks sidebar (⌃ ⌘ 1)"
+    },
+    "windows": "—",
+    "mac": "⌃ ⌘ 1",
+    "linux": "—",
+    "keywords": [
+      "书签侧栏",
+      "Bookmarks sidebar",
+      "书签",
+      "bookmarks"
+    ],
+    "pinyin": "shu qian ce lan shuqiancelan s q c l sqcl shu qian ce lan   shu qian shuqiancelan shuqian s q c l   s q sqcl sq"
+  },
+  {
+    "id": "safa-top-left",
+    "appId": "safari",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "滚动到左上角",
+      "en": "Scroll to top-left"
+    },
+    "description": {
+      "zh": "滚动到左上角（⌘ ↑）",
+      "en": "Scroll to top-left (⌘ ↑)"
+    },
+    "windows": "—",
+    "mac": "⌘ ↑",
+    "linux": "—",
+    "keywords": [
+      "滚动到左上角",
+      "Scroll to top-left",
+      "滚动",
+      "scroll"
+    ],
+    "pinyin": "gun dong dao zuo shang jiao gundongdaozuoshangjiao g d d z s j gddzsj gun dong dao zuo shang jiao   gun dong gundongdaozuoshangjiao gundong g d d z s j   g d gddzsj gd"
+  },
+  {
+    "id": "safa-bottom-left",
+    "appId": "safari",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "滚动到左下角",
+      "en": "Scroll to bottom-left"
+    },
+    "description": {
+      "zh": "滚动到左下角（⌘ ↓）",
+      "en": "Scroll to bottom-left (⌘ ↓)"
+    },
+    "windows": "—",
+    "mac": "⌘ ↓",
+    "linux": "—",
+    "keywords": [
+      "滚动到左下角",
+      "Scroll to bottom-left",
+      "滚动",
+      "scroll"
+    ],
+    "pinyin": "gun dong dao zuo xia jiao gundongdaozuoxiajiao g d d z x j gddzxj gun dong dao zuo xia jiao   gun dong gundongdaozuoxiajiao gundong g d d z x j   g d gddzxj gd"
+  },
+  {
+    "id": "safa-zoom-in",
+    "appId": "safari",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "放大页面",
+      "en": "Zoom in"
+    },
+    "description": {
+      "zh": "放大页面（⌘ +）",
+      "en": "Zoom in (⌘ +)"
+    },
+    "windows": "—",
+    "mac": "⌘ +",
+    "linux": "—",
+    "keywords": [
+      "放大页面",
+      "Zoom in",
+      "放大",
+      "zoom"
+    ],
+    "pinyin": "fang da ye mian fangdayemian f d y m fdym fang da ye mian   fang da fangdayemian fangda f d y m   f d fdym fd"
+  },
+  {
+    "id": "safa-zoom-out",
+    "appId": "safari",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "缩小页面",
+      "en": "Zoom out"
+    },
+    "description": {
+      "zh": "缩小页面（⌘ -）",
+      "en": "Zoom out (⌘ -)"
+    },
+    "windows": "—",
+    "mac": "⌘ -",
+    "linux": "—",
+    "keywords": [
+      "缩小页面",
+      "Zoom out",
+      "缩小",
+      "zoom"
+    ],
+    "pinyin": "suo xiao ye mian suoxiaoyemian s x y m sxym suo xiao ye mian   suo xiao suoxiaoyemian suoxiao s x y m   s x sxym sx"
+  },
+  {
+    "id": "safa-actual-size",
+    "appId": "safari",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "实际大小",
+      "en": "Actual size"
+    },
+    "description": {
+      "zh": "实际大小（⌘ 0）",
+      "en": "Actual size (⌘ 0)"
+    },
+    "windows": "—",
+    "mac": "⌘ 0",
+    "linux": "—",
+    "keywords": [
+      "实际大小",
+      "Actual size",
+      "zoom"
+    ],
+    "pinyin": "shi ji da xiao shijidaxiao s j d x sjdx shi ji da xiao shijidaxiao s j d x sjdx"
+  }
+]

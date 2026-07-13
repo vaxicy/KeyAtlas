@@ -12,9 +12,9 @@
       "zh": "打开命令栏搜索并执行命令",
       "en": "Open the command bar to search and run commands"
     },
-    "windows": "S / ⌘K",
-    "mac": "S / ⌘K",
-    "linux": "S / ⌘K",
+    "windows": "⌘K",
+    "mac": "⌘K",
+    "linux": "⌘K",
     "keywords": [
       "命令",
       "搜索",
@@ -336,9 +336,9 @@
       "zh": "放大画布",
       "en": "Zoom in on the canvas"
     },
-    "windows": "⌘",
-    "mac": "⌘",
-    "linux": "⌘",
+    "windows": "⌘+",
+    "mac": "⌘+",
+    "linux": "⌘+",
     "keywords": [
       "放大",
       "缩放",
@@ -1436,9 +1436,9 @@
       "zh": "增大所选文本字号",
       "en": "Increase the font size"
     },
-    "windows": "⌥⌘",
-    "mac": "⌥⌘",
-    "linux": "⌥⌘",
+    "windows": "⌥⌘=",
+    "mac": "⌥⌘=",
+    "linux": "⌥⌘=",
     "keywords": [
       "字号",
       "增大",
@@ -1516,5 +1516,98 @@
       "export"
     ],
     "pinyin": "dao chu suo xuan daochusuoxuan d c s x dcsx dao chu daochu d c dc"
+  },
+  {
+    "id": "sketch-cut",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "剪切",
+      "en": "Cut"
+    },
+    "description": {
+      "zh": "剪切所选图层到剪贴板",
+      "en": "Cut the selection to clipboard"
+    },
+    "windows": "⌘X",
+    "mac": "⌘X",
+    "linux": "⌘X",
+    "keywords": [
+      "剪切",
+      "cut"
+    ],
+    "pinyin": "jian qie jianqie j q jq jian qie jianqie j q jq"
+  },
+  {
+    "id": "sketch-save-as",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "另存为",
+      "en": "Save As"
+    },
+    "description": {
+      "zh": "将文档另存为新文件",
+      "en": "Save the document as a new file"
+    },
+    "windows": "⇧⌘S",
+    "mac": "⇧⌘S",
+    "linux": "⇧⌘S",
+    "keywords": [
+      "另存为",
+      "保存",
+      "save as"
+    ],
+    "pinyin": "ling cun wei lingcunwei l c w lcw ling cun   wei lingcunwei l c   w lcw"
+  },
+  {
+    "id": "sketch-replace",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "替换",
+      "en": "Replace"
+    },
+    "description": {
+      "zh": "打开查找和替换面板",
+      "en": "Open find and replace panel"
+    },
+    "windows": "⌥⌘H",
+    "mac": "⌥⌘H",
+    "linux": "⌥⌘H",
+    "keywords": [
+      "替换",
+      "查找",
+      "replace",
+      "find"
+    ],
+    "pinyin": "ti huan tihuan t h th ti huan   cha zhao tihuan chazhao t h   cz th cz"
+  },
+  {
+    "id": "sketch-remove-from-artboard",
+    "appId": "sketch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "从画板移除",
+      "en": "Remove from Artboard"
+    },
+    "description": {
+      "zh": "将所选图层从画板中移除（不删除，与删除共用 Del/Backspace）",
+      "en": "Remove layer from artboard without deleting (shares Del/Backspace with Delete)"
+    },
+    "windows": "Del / Backspace（同删除）",
+    "mac": "⌫（同删除）",
+    "linux": "Del / Backspace（同删除）",
+    "keywords": [
+      "移除",
+      "画板",
+      "remove",
+      "artboard"
+    ],
+    "pinyin": "cong hua ban yi chui cong huabanyichui c h b yc chbyc yi chu hua ban yichu huaban y c   h b yc hb"
   }
 ]

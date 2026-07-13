@@ -119,6 +119,33 @@ html, body {
   box-shadow: var(--shadow);
 }
 .searchbar:focus-within { border-color: var(--primary); }
+
+/* ---- Key symbol legend (bottom of search results) ---- */
+.key-legend {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px 10px;
+  margin-top: 16px;
+  padding-bottom: 4px;
+  font-size: 10px;
+  line-height: 1.5;
+  color: var(--sub);
+}
+.key-legend .leg-item { white-space: nowrap; }
+.key-legend .leg-sym {
+  display: inline-block;
+  min-width: 18px;
+  padding: 1px 4px;
+  margin-right: 3px;
+  text-align: center;
+  font-weight: 700;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+}
 .search-icon { color: var(--sub); flex-shrink: 0; }
 #searchInput {
   flex: 1;
@@ -243,12 +270,15 @@ html, body {
 /* ---- Homepage (search-first landing) ---- */
 .home { display: flex; flex-direction: column; gap: 16px; padding-top: 2px; }
 .home-title {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 700;
-  color: var(--sub);
+  color: var(--text);
   text-transform: uppercase;
   letter-spacing: .4px;
   margin: 0 2px 8px;
+  padding-left: 8px;
+  border-left: 3px solid var(--primary);
+  line-height: 1.3;
 }
 .home-cards { display: flex; flex-direction: column; gap: 8px; }
 .pills { display: flex; flex-wrap: wrap; gap: 6px; }

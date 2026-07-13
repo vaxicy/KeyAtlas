@@ -64,7 +64,8 @@ const I18N = {
     removeRecentOne: "Remove from recent",
     favExportTitle: "Favorited shortcuts",
     incognitoLabel: "Incognito Mode",
-    incognitoHint: "Stop saving recently viewed shortcuts"
+    incognitoHint: "Stop saving recently viewed shortcuts",
+    legCommand: "Command", legOption: "Option", legShift: "Shift", legCtrl: "Ctrl", legWin: "Win"
   },
   zh: {
     appName: "KeyAtlas",
@@ -126,7 +127,8 @@ const I18N = {
     removeRecentOne: "从最近记录移除",
     favExportTitle: "收藏的快捷键",
     incognitoLabel: "无痕模式",
-    incognitoHint: "开启后不记录最近浏览的快捷键"
+    incognitoHint: "开启后不记录最近浏览的快捷键",
+    legCommand: "命令键", legOption: "Option", legShift: "上档键", legCtrl: "控制键", legWin: "Win 键"
   }
 };
 

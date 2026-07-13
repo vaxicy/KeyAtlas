@@ -67,6 +67,19 @@
     document.documentElement.lang = i18n.lang;
     if (el.aboutVersion) el.aboutVersion.textContent = i18n.format(t.aboutVersion, { n: VERSION });
   }
+  function renderKeyLegend() {
+    const t = i18n.t;
+    const items = [
+      { sym: "⌘", word: t.legCommand },
+      { sym: "⌥", word: t.legOption },
+      { sym: "⇧", word: t.legShift },
+      { sym: "⌃", word: t.legCtrl },
+      { sym: "⊞", word: t.legWin },
+    ];
+    return items
+      .map((it) => `<span class="leg-item"><span class="leg-sym">${it.sym}</span>= ${escapeHTML(it.word)}</span>`)
+      .join("");
+  }
 
   /* ---------- Toast ---------- */
   let toastTimer;
@@ -327,7 +340,8 @@
           <div class="home-title">${t.trySearch}</div>
           <div class="pills">${exChips}</div>
         </div>
-      </div>`;
+      </div>
+      <div class="key-legend">${renderKeyLegend()}</div>`;
   }
 
   function renderCategories() {

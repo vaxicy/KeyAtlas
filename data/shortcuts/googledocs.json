@@ -832,5 +832,128 @@
       "搜索"
     ],
     "pinyin": "gong ju cha zhao gongjuchazhao g j c z gjcz gong ju   ming ling   sou suo gongju mingling sousuo g j   m l   s s gj ml ss"
+  },
+  {
+    "id": "docs-insert-comment",
+    "appId": "googledocs",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "插入评论",
+      "en": "Insert comment"
+    },
+    "description": {
+      "zh": "在光标位置插入评论",
+      "en": "Insert a comment at cursor position"
+    },
+    "windows": "Ctrl + Alt + M",
+    "mac": "⌘ ⌥ M",
+    "linux": "Ctrl + Alt + M",
+    "keywords": [
+      "评论",
+      "comment",
+      "批注",
+      "annotation"
+    ],
+    "pinyin": "cha ru ping lun charupinglun c r pl crpl ping lun   bi zhu pinglun bizhu p l   b z crpl bz"
+  },
+  {
+    "id": "docs-word-count",
+    "appId": "googledocs",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "字数统计",
+      "en": "Word count"
+    },
+    "description": {
+      "zh": "打开字数统计工具",
+      "en": "Open word count tool"
+    },
+    "windows": "Ctrl + Shift + C",
+    "mac": "⌘ ⇧ C",
+    "linux": "Ctrl + Shift + C",
+    "keywords": [
+      "字数",
+      "word count",
+      "统计",
+      "count"
+    ],
+    "pinyin": "zi shu tong ji zishutongji z s tj zstj zi shu   tong ji zishu tongji z s   tj zstj tj"
+  },
+  {
+    "id": "docs-dictionary",
+    "appId": "googledocs",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "字典定义",
+      "en": "Dictionary definition"
+    },
+    "description": {
+      "zh": "查看选中文字的字典定义",
+      "en": "Show dictionary definition for selected text"
+    },
+    "windows": "Ctrl + Shift + Y",
+    "mac": "⌘ ⇧ Y",
+    "linux": "Ctrl + Shift + Y",
+    "keywords": [
+      "字典",
+      "dictionary",
+      "定义",
+      "definition",
+      "释义"
+    ],
+    "pinyin": "zi ding yi yi zidingyi z d y i zdyyi zi ding   yi yi zidingyi yiyi z d   y i zdyy yy"
+  },
+  {
+    "id": "docs-insert-datetime",
+    "appId": "googledocs",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "插入日期时间",
+      "en": "Insert date/time"
+    },
+    "description": {
+      "zh": "在光标位置插入当前日期和时间",
+      "en": "Insert current date and time at cursor"
+    },
+    "windows": "Ctrl + ;",
+    "mac": "⌘ ;",
+    "linux": "Ctrl + ;",
+    "keywords": [
+      "日期",
+      "date",
+      "时间",
+      "time",
+      "插入"
+    ],
+    "pinyin": "cha ru ri qi shi jian charuriqishijian c r q s j crqsj ri qi   shi jian riqi shijian r q   s j crq sj"
+  },
+  {
+    "id": "docs-voice-typing",
+    "appId": "googledocs",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "语音输入",
+      "en": "Voice typing"
+    },
+    "description": {
+      "zh": "开始/停止语音输入",
+      "en": "Start/stop voice typing"
+    },
+    "windows": "Ctrl + Shift + S",
+    "mac": "⌘ ⇧ S",
+    "linux": "Ctrl + Shift + S",
+    "keywords": [
+      "语音",
+      "voice",
+      "输入",
+      "typing",
+      "听写"
+    ],
+    "pinyin": "yu yin shu ru yuyinshuru y y s r yysr yu yin   shu ru yuyin shuru y y   s r yysr sr"
   }
 ]

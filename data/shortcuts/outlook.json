@@ -610,9 +610,9 @@
       "zh": "重做已撤销的操作",
       "en": "Repeat the most recent action"
     },
-    "windows": "Ctrl + Y",
-    "mac": "⌘ Y",
-    "linux": "Ctrl + Y",
+    "windows": "—",
+    "mac": "—",
+    "linux": "—",
     "keywords": [
       "重做",
       "redo"
@@ -663,28 +663,6 @@
       "italic"
     ],
     "pinyin": "xie ti xieti x t xt xie ti xieti x t xt"
-  },
-  {
-    "id": "outlook-underline",
-    "appId": "outlook",
-    "type": "software",
-    "category": "productivity",
-    "name": {
-      "zh": "下划线",
-      "en": "Underline"
-    },
-    "description": {
-      "zh": "为文本添加下划线",
-      "en": "Underline text"
-    },
-    "windows": "Ctrl + U",
-    "mac": "⌘ U",
-    "linux": "Ctrl + U",
-    "keywords": [
-      "下划线",
-      "underline"
-    ],
-    "pinyin": "xia hua xian xiahuaxian x h x xhx xia hua xian xiahuaxian x h x xhx"
   },
   {
     "id": "outlook-insert-link",
@@ -868,5 +846,126 @@
       "print"
     ],
     "pinyin": "da yin dayin d y dy da yin dayin d y dy"
+  },
+  {
+    "id": "outlook-categorize",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "分类",
+      "en": "Categorize"
+    },
+    "description": {
+      "zh": "为邮件或项目设置颜色分类",
+      "en": "Categorize a message or item with color category"
+    },
+    "windows": "Ctrl + Shift + G",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "分类",
+      "categorize",
+      "标签",
+      "category",
+      "颜色"
+    ],
+    "pinyin": "fen lei fenlei f l fl fen lei   yan se fenlei yanse f l   y s fl ys"
+  },
+  {
+    "id": "outlook-accept-meeting",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "接受会议",
+      "en": "Accept meeting"
+    },
+    "description": {
+      "zh": "接受会议邀请",
+      "en": "Accept a meeting request"
+    },
+    "windows": "—",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "接受",
+      "accept",
+      "会议",
+      "meeting",
+      "邀请"
+    ],
+    "pinyin": "jie shou hui yi jieshouhuiyi j s hy jshy jie shou   hui yi jieshou huiyi j s   h y jshy hy"
+  },
+  {
+    "id": "outlook-decline-meeting",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "拒绝会议",
+      "en": "Decline meeting"
+    },
+    "description": {
+      "zh": "拒绝会议邀请",
+      "en": "Decline a meeting request"
+    },
+    "windows": "—",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "拒绝",
+      "decline",
+      "会议",
+      "meeting"
+    ],
+    "pinyin": "ju jue hui yi jujuehuiyi j j hy jjhy ju jue   hui yi jujue huiyi j j   h y jjhy hy"
+  },
+  {
+    "id": "outlook-toggle-reading-pane",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "切换阅读窗格",
+      "en": "Toggle reading pane"
+    },
+    "description": {
+      "zh": "切换阅读窗格的显示/隐藏",
+      "en": "Toggle the reading pane on/off"
+    },
+    "windows": "Alt + W",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "阅读窗格",
+      "reading pane",
+      "窗格",
+      "pane"
+    ],
+    "pinyin": "qie huan yue du chuang ge qiehanyueduchuangge q h y d c g qhydcg yue du chuang ge yueduchuangge y d c g   c g ydc cg"
+  },
+  {
+    "id": "outlook-switch-notes",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "转到笔记",
+      "en": "Go to Notes"
+    },
+    "description": {
+      "zh": "切换到笔记视图（经典版）",
+      "en": "Switch to Notes view (Classic)"
+    },
+    "windows": "Ctrl + Shift + N",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "笔记",
+      "notes",
+      "视图"
+    ],
+    "pinyin": "zhuan dao bi ji zhuandaobiji z d b j zdbj bi ji   shi tu biji shitu b j   s t bj st"
   }
 ]

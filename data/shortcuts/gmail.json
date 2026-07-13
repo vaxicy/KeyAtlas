@@ -788,5 +788,101 @@
       "underline"
     ],
     "pinyin": "xia hua xian xiahuaxian x h x xhx xia hua xian xiahuaxian x h x xhx"
+  },
+  {
+    "id": "gmail-remove-from-view",
+    "appId": "gmail",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "从当前视图移除",
+      "en": "Remove from current view"
+    },
+    "description": {
+      "zh": "将对话从当前视图中移除",
+      "en": "Remove conversation from current view"
+    },
+    "windows": "Y",
+    "mac": "Y",
+    "linux": "Y",
+    "keywords": [
+      "移除",
+      "remove",
+      "隐藏",
+      "hide"
+    ],
+    "pinyin": "yi chu dang qian shi tu yichudangqianshitu y c d s t ycdst yi chu   yin cang yichu yincang y c   y c ycd yc"
+  },
+  {
+    "id": "gmail-move-to-labels",
+    "appId": "gmail",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "移动到标签",
+      "en": "Move to labels"
+    },
+    "description": {
+      "zh": "打开移动到标签菜单",
+      "en": "Open Move to labels menu"
+    },
+    "windows": "G then L",
+    "mac": "G then L",
+    "linux": "G then L",
+    "keywords": [
+      "移动",
+      "move",
+      "标签",
+      "labels",
+      "文件夹"
+    ],
+    "pinyin": "yi dong dao biao qian yidongdaobiaoqian y d b q ydbq biao qian   wen jian jia biaojian wenjianjia b q   w j ydbq wjj"
+  },
+  {
+    "id": "gmail-expand-all",
+    "appId": "gmail",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "展开全部邮件",
+      "en": "Expand all"
+    },
+    "description": {
+      "zh": "展开对话中的所有邮件",
+      "en": "Expand all messages in conversation"
+    },
+    "windows": ";",
+    "mac": ";",
+    "linux": ";",
+    "keywords": [
+      "展开",
+      "expand",
+      "全部"
+    ],
+    "pinyin": "zhan kai quan bu zhankaiquanbu z k q b zkqb zhan kai   quan bu zhankai quanbu z k   q b zk qb"
+  },
+  {
+    "id": "gmail-report-spam",
+    "appId": "gmail",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "报告垃圾邮件",
+      "en": "Report spam"
+    },
+    "description": {
+      "zh": "将对话标记为垃圾邮件",
+      "en": "Report as spam"
+    },
+    "windows": "!",
+    "mac": "!",
+    "linux": "!",
+    "keywords": [
+      "垃圾邮件",
+      "spam",
+      "举报",
+      "report"
+    ],
+    "pinyin": "bao gao la ji you jian baogaolajiyoujian b g l j y j bgljyj bao gao   la ji baogao laji b g   l j bglj lj"
   }
 ]

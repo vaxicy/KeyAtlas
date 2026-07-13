@@ -36,5 +36,7 @@
 ,
   { "id": "outlook",    "name": { "zh": "Outlook",      "en": "Outlook" },       "category": "productivity", "icon": "📧", "type": "software", "file": "outlook.json" },
   { "id": "gmail",      "name": { "zh": "Gmail",        "en": "Gmail" },         "category": "productivity", "icon": "✉️", "type": "software", "file": "gmail.json" },
-  { "id": "googledocs", "name": { "zh": "Google 文档",   "en": "Google Docs" },   "category": "productivity", "icon": "📄", "type": "software", "file": "googledocs.json" }
+  { "id": "googledocs", "name": { "zh": "Google 文档",   "en": "Google Docs" },   "category": "productivity", "icon": "📄", "type": "software", "file": "googledocs.json" },
+  { "id": "googlesheets", "name": { "zh": "Google 表格", "en": "Google Sheets" }, "category": "productivity", "icon": "📊", "type": "software", "file": "googlesheets.json" },
+  { "id": "googleslides", "name": { "zh": "Google 幻灯片", "en": "Google Slides" }, "category": "productivity", "icon": "📽️", "type": "software", "file": "googleslides.json" }
 ]

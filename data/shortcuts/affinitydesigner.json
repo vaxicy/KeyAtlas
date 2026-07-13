@@ -1,0 +1,1390 @@
+[
+  {
+    "id": "ad-move",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "移动工具",
+      "en": "Move tool"
+    },
+    "description": {
+      "zh": "移动工具（V）",
+      "en": "Move tool (V)"
+    },
+    "windows": "V",
+    "mac": "V",
+    "linux": "—",
+    "keywords": [
+      "移动",
+      "move"
+    ],
+    "pinyin": "yi dong gong ju yidonggongju y d g j ydgj yi dong yidong y d yd"
+  },
+  {
+    "id": "ad-node",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "节点工具",
+      "en": "Node tool"
+    },
+    "description": {
+      "zh": "节点工具（A）",
+      "en": "Node tool (A)"
+    },
+    "windows": "A",
+    "mac": "A",
+    "linux": "—",
+    "keywords": [
+      "节点",
+      "node"
+    ],
+    "pinyin": "jie dian gong ju jiediangongju j d g j jdgj jie dian jiedian j d jd"
+  },
+  {
+    "id": "ad-pointxf",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "点变换工具",
+      "en": "Point transform"
+    },
+    "description": {
+      "zh": "点变换工具（F）",
+      "en": "Point transform (F)"
+    },
+    "windows": "F",
+    "mac": "F",
+    "linux": "—",
+    "keywords": [
+      "变换",
+      "transform"
+    ],
+    "pinyin": "dian bian huan gong ju dianbianhuangongju d b h g j dbhgj bian huan bianhuan b h bh"
+  },
+  {
+    "id": "ad-view",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "视图工具",
+      "en": "View tool"
+    },
+    "description": {
+      "zh": "视图工具（H）",
+      "en": "View tool (H)"
+    },
+    "windows": "H",
+    "mac": "H",
+    "linux": "—",
+    "keywords": [
+      "视图",
+      "view"
+    ],
+    "pinyin": "shi tu gong ju shitugongju s t g j stgj shi tu shitu s t st"
+  },
+  {
+    "id": "ad-transparency",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "透明度工具",
+      "en": "Transparency tool"
+    },
+    "description": {
+      "zh": "透明度工具（Y）",
+      "en": "Transparency tool (Y)"
+    },
+    "windows": "Y",
+    "mac": "Y",
+    "linux": "—",
+    "keywords": [
+      "透明度",
+      "transparency"
+    ],
+    "pinyin": "tou ming du gong ju toumingdugongju t m d g j tmdgj tou ming du toumingdu t m d tmd"
+  },
+  {
+    "id": "ad-corner",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "拐角工具",
+      "en": "Corner tool"
+    },
+    "description": {
+      "zh": "拐角工具（C）",
+      "en": "Corner tool (C)"
+    },
+    "windows": "C",
+    "mac": "C",
+    "linux": "—",
+    "keywords": [
+      "拐角",
+      "corner"
+    ],
+    "pinyin": "guai jiao gong ju guaijiaogongju g j g j gjgj guai jiao guaijiao g j gj"
+  },
+  {
+    "id": "ad-pen",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "钢笔工具",
+      "en": "Pen tool"
+    },
+    "description": {
+      "zh": "钢笔工具（P）",
+      "en": "Pen tool (P)"
+    },
+    "windows": "P",
+    "mac": "P",
+    "linux": "—",
+    "keywords": [
+      "钢笔",
+      "pen"
+    ],
+    "pinyin": "gang bi gong ju gangbigongju g b g j gbgj gang bi gangbi g b gb"
+  },
+  {
+    "id": "ad-pencil",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "铅笔工具",
+      "en": "Pencil tool"
+    },
+    "description": {
+      "zh": "铅笔工具（N）",
+      "en": "Pencil tool (N)"
+    },
+    "windows": "N",
+    "mac": "N",
+    "linux": "—",
+    "keywords": [
+      "铅笔",
+      "pencil"
+    ],
+    "pinyin": "qian bi gong ju qianbigongju q b g j qbgj qian bi qianbi q b qb"
+  },
+  {
+    "id": "ad-zoom",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "缩放工具",
+      "en": "Zoom tool"
+    },
+    "description": {
+      "zh": "缩放工具（Z）",
+      "en": "Zoom tool (Z)"
+    },
+    "windows": "Z",
+    "mac": "Z",
+    "linux": "—",
+    "keywords": [
+      "缩放",
+      "zoom"
+    ],
+    "pinyin": "suo fang gong ju suofanggongju s f g j sfgj suo fang suofang s f sf"
+  },
+  {
+    "id": "ad-vectorbrush",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "矢量画笔",
+      "en": "Vector brush"
+    },
+    "description": {
+      "zh": "矢量画笔（B）",
+      "en": "Vector brush (B)"
+    },
+    "windows": "B",
+    "mac": "B",
+    "linux": "—",
+    "keywords": [
+      "矢量",
+      "vector",
+      "画笔"
+    ],
+    "pinyin": "shi liang hua bi shilianghuabi s l h b slhb shi liang   hua bi shiliang huabi s l   h b sl hb"
+  },
+  {
+    "id": "ad-rect",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "矩形/椭圆工具",
+      "en": "Rectangle/Ellipse"
+    },
+    "description": {
+      "zh": "矩形/椭圆工具（M）",
+      "en": "Rectangle/Ellipse (M)"
+    },
+    "windows": "M",
+    "mac": "M",
+    "linux": "—",
+    "keywords": [
+      "矩形",
+      "rect",
+      "椭圆"
+    ],
+    "pinyin": "ju xing / tuo yuan gong ju juxing/tuoyuangongju j x / t y g j jx/tygj ju xing   tuo yuan juxing tuoyuan j x   t y jx ty"
+  },
+  {
+    "id": "ad-text",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "艺术字/文本工具",
+      "en": "Artistic/Frame text"
+    },
+    "description": {
+      "zh": "艺术字/文本工具（T）",
+      "en": "Artistic/Frame text (T)"
+    },
+    "windows": "T",
+    "mac": "T",
+    "linux": "—",
+    "keywords": [
+      "文本",
+      "text"
+    ],
+    "pinyin": "yi shu zi / wen ben gong ju yishuzi/wenbengongju y s z / w b g j ysz/wbgj wen ben wenben w b wb"
+  },
+  {
+    "id": "ad-picker",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "颜色拾取器",
+      "en": "Color picker"
+    },
+    "description": {
+      "zh": "颜色拾取器（I）",
+      "en": "Color picker (I)"
+    },
+    "windows": "I",
+    "mac": "I",
+    "linux": "—",
+    "keywords": [
+      "拾色",
+      "picker"
+    ],
+    "pinyin": "yan se shi qu qi yanseshiquqi y s s q q yssqq shi se shise s s ss"
+  },
+  {
+    "id": "ad-filltool",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "填充工具",
+      "en": "Fill tool"
+    },
+    "description": {
+      "zh": "填充工具（G）",
+      "en": "Fill tool (G)"
+    },
+    "windows": "G",
+    "mac": "G",
+    "linux": "—",
+    "keywords": [
+      "填充",
+      "fill"
+    ],
+    "pinyin": "tian chong gong ju tianchonggongju t c g j tcgj tian chong tianchong t c tc"
+  },
+  {
+    "id": "ad-outline",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "轮廓工具",
+      "en": "Outline tool"
+    },
+    "description": {
+      "zh": "轮廓工具（O）",
+      "en": "Outline tool (O)"
+    },
+    "windows": "O",
+    "mac": "O",
+    "linux": "—",
+    "keywords": [
+      "轮廓",
+      "outline"
+    ],
+    "pinyin": "lun kuo gong ju lunkuogongju l k g j lkgj lun kuo lunkuo l k lk"
+  },
+  {
+    "id": "ad-new",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "新建文档",
+      "en": "New document"
+    },
+    "description": {
+      "zh": "新建文档（Ctrl + N）",
+      "en": "New document (Ctrl + N)"
+    },
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
+    "linux": "—",
+    "keywords": [
+      "新建",
+      "new",
+      "文档"
+    ],
+    "pinyin": "xin jian wen dang xinjianwendang x j w d xjwd xin jian   wen dang xinjian wendang x j   w d xj wd"
+  },
+  {
+    "id": "ad-open",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "打开文档",
+      "en": "Open document"
+    },
+    "description": {
+      "zh": "打开文档（Ctrl + O）",
+      "en": "Open document (Ctrl + O)"
+    },
+    "windows": "Ctrl + O",
+    "mac": "⌘ O",
+    "linux": "—",
+    "keywords": [
+      "打开",
+      "open"
+    ],
+    "pinyin": "da kai wen dang dakaiwendang d k w d dkwd da kai dakai d k dk"
+  },
+  {
+    "id": "ad-close",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "关闭文档",
+      "en": "Close document"
+    },
+    "description": {
+      "zh": "关闭文档（Ctrl + W）",
+      "en": "Close document (Ctrl + W)"
+    },
+    "windows": "Ctrl + W",
+    "mac": "⌘ W",
+    "linux": "—",
+    "keywords": [
+      "关闭",
+      "close"
+    ],
+    "pinyin": "guan bi wen dang guanbiwendang g b w d gbwd guan bi guanbi g b gb"
+  },
+  {
+    "id": "ad-save",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "保存",
+      "en": "Save"
+    },
+    "description": {
+      "zh": "保存（Ctrl + S）",
+      "en": "Save (Ctrl + S)"
+    },
+    "windows": "Ctrl + S",
+    "mac": "⌘ S",
+    "linux": "—",
+    "keywords": [
+      "保存",
+      "save"
+    ],
+    "pinyin": "bao cun baocun b c bc bao cun baocun b c bc"
+  },
+  {
+    "id": "ad-saveas",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "另存为",
+      "en": "Save as"
+    },
+    "description": {
+      "zh": "另存为（Ctrl + Shift + S）",
+      "en": "Save as (Ctrl + Shift + S)"
+    },
+    "windows": "Ctrl + Shift + S",
+    "mac": "⌘ Shift + S",
+    "linux": "—",
+    "keywords": [
+      "另存为",
+      "save as"
+    ],
+    "pinyin": "ling cun wei lingcunwei l c w lcw ling cun wei lingcunwei l c w lcw"
+  },
+  {
+    "id": "ad-export",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "导出",
+      "en": "Export"
+    },
+    "description": {
+      "zh": "导出（Ctrl + Alt + S）",
+      "en": "Export (Ctrl + Alt + S)"
+    },
+    "windows": "Ctrl + Alt + S",
+    "mac": "⌘ ⌥ S",
+    "linux": "—",
+    "keywords": [
+      "导出",
+      "export"
+    ],
+    "pinyin": "dao chu daochu d c dc dao chu daochu d c dc"
+  },
+  {
+    "id": "ad-print",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "打印",
+      "en": "Print"
+    },
+    "description": {
+      "zh": "打印（Ctrl + P）",
+      "en": "Print (Ctrl + P)"
+    },
+    "windows": "Ctrl + P",
+    "mac": "⌘ P",
+    "linux": "—",
+    "keywords": [
+      "打印",
+      "print"
+    ],
+    "pinyin": "da yin dayin d y dy da yin dayin d y dy"
+  },
+  {
+    "id": "ad-docsetup",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "文档设置",
+      "en": "Document setup"
+    },
+    "description": {
+      "zh": "文档设置（Ctrl + Shift + P）",
+      "en": "Document setup (Ctrl + Shift + P)"
+    },
+    "windows": "Ctrl + Shift + P",
+    "mac": "⌘ Shift + P",
+    "linux": "—",
+    "keywords": [
+      "文档设置",
+      "doc setup"
+    ],
+    "pinyin": "wen dang she zhi wendangshezhi w d s z wdsz wen dang she zhi wendangshezhi w d s z wdsz"
+  },
+  {
+    "id": "ad-undo",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销（Ctrl + Z）",
+      "en": "Undo (Ctrl + Z)"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "—",
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "ad-redo",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "重做（Ctrl + Y）",
+      "en": "Redo (Ctrl + Y)"
+    },
+    "windows": "Ctrl + Y",
+    "mac": "⌘ Y",
+    "linux": "—",
+    "keywords": [
+      "重做",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "ad-pastestyle",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "粘贴样式",
+      "en": "Paste style"
+    },
+    "description": {
+      "zh": "粘贴样式（Ctrl + Shift + V）",
+      "en": "Paste style (Ctrl + Shift + V)"
+    },
+    "windows": "Ctrl + Shift + V",
+    "mac": "⌘ Shift + V",
+    "linux": "—",
+    "keywords": [
+      "粘贴样式",
+      "paste style"
+    ],
+    "pinyin": "nian tie yang shi niantieyangshi n t y s ntys nian tie yang shi niantieyangshi n t y s ntys"
+  },
+  {
+    "id": "ad-pasteplain",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "无格式粘贴",
+      "en": "Paste without format"
+    },
+    "description": {
+      "zh": "无格式粘贴（Ctrl + Alt + V）",
+      "en": "Paste without format (Ctrl + Alt + V)"
+    },
+    "windows": "Ctrl + Alt + V",
+    "mac": "⌘ ⌥ V",
+    "linux": "—",
+    "keywords": [
+      "无格式粘贴",
+      "plain paste"
+    ],
+    "pinyin": "wu ge shi nian tie wugeshiniantie w g s n t wgsnt wu ge shi nian tie wugeshiniantie w g s n t wgsnt"
+  },
+  {
+    "id": "ad-group",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "编组",
+      "en": "Group"
+    },
+    "description": {
+      "zh": "编组（Ctrl + G）",
+      "en": "Group (Ctrl + G)"
+    },
+    "windows": "Ctrl + G",
+    "mac": "⌘ G",
+    "linux": "—",
+    "keywords": [
+      "编组",
+      "group"
+    ],
+    "pinyin": "bian zu bianzu b z bz bian zu bianzu b z bz"
+  },
+  {
+    "id": "ad-ungroup",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "解组",
+      "en": "Ungroup"
+    },
+    "description": {
+      "zh": "解组（Ctrl + Shift + G）",
+      "en": "Ungroup (Ctrl + Shift + G)"
+    },
+    "windows": "Ctrl + Shift + G",
+    "mac": "⌘ Shift + G",
+    "linux": "—",
+    "keywords": [
+      "解组",
+      "ungroup"
+    ],
+    "pinyin": "jie zu jiezu j z jz jie zu jiezu j z jz"
+  },
+  {
+    "id": "ad-duplicate",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "复制对象",
+      "en": "Duplicate"
+    },
+    "description": {
+      "zh": "复制对象（Ctrl + J）",
+      "en": "Duplicate (Ctrl + J)"
+    },
+    "windows": "Ctrl + J",
+    "mac": "⌘ J",
+    "linux": "—",
+    "keywords": [
+      "复制",
+      "duplicate"
+    ],
+    "pinyin": "fu zhi dui xiang fuzhiduixiang f z d x fzdx fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "ad-front",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "移到最前",
+      "en": "Bring to front"
+    },
+    "description": {
+      "zh": "移到最前（Ctrl + Shift + ]）",
+      "en": "Bring to front (Ctrl + Shift + ])"
+    },
+    "windows": "Ctrl + Shift + ]",
+    "mac": "⌘ Shift + ]",
+    "linux": "—",
+    "keywords": [
+      "最前",
+      "front"
+    ],
+    "pinyin": "yi dao zui qian yidaozuiqian y d z q ydzq zui qian zuiqian z q zq"
+  },
+  {
+    "id": "ad-forward",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "前移一层",
+      "en": "Bring forward"
+    },
+    "description": {
+      "zh": "前移一层（Ctrl + ]）",
+      "en": "Bring forward (Ctrl + ])"
+    },
+    "windows": "Ctrl + ]",
+    "mac": "⌘ ]",
+    "linux": "—",
+    "keywords": [
+      "前移",
+      "forward"
+    ],
+    "pinyin": "qian yi yi ceng qianyiyiceng q y y c qyyc qian yi qianyi q y qy"
+  },
+  {
+    "id": "ad-back",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "移到最后",
+      "en": "Send to back"
+    },
+    "description": {
+      "zh": "移到最后（Ctrl + Shift + [）",
+      "en": "Send to back (Ctrl + Shift + [)"
+    },
+    "windows": "Ctrl + Shift + [",
+    "mac": "⌘ Shift + [",
+    "linux": "—",
+    "keywords": [
+      "最后",
+      "back"
+    ],
+    "pinyin": "yi dao zui hou yidaozuihou y d z h ydzh zui hou zuihou z h zh"
+  },
+  {
+    "id": "ad-backward",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "后移一层",
+      "en": "Send backward"
+    },
+    "description": {
+      "zh": "后移一层（Ctrl + [）",
+      "en": "Send backward (Ctrl + [)"
+    },
+    "windows": "Ctrl + [",
+    "mac": "⌘ [",
+    "linux": "—",
+    "keywords": [
+      "后移",
+      "backward"
+    ],
+    "pinyin": "hou yi yi ceng houyiyiceng h y y c hyyc hou yi houyi h y hy"
+  },
+  {
+    "id": "ad-lock",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "锁定",
+      "en": "Lock"
+    },
+    "description": {
+      "zh": "锁定（Ctrl + L）",
+      "en": "Lock (Ctrl + L)"
+    },
+    "windows": "Ctrl + L",
+    "mac": "⌘ L",
+    "linux": "—",
+    "keywords": [
+      "锁定",
+      "lock"
+    ],
+    "pinyin": "suo ding suoding s d sd suo ding suoding s d sd"
+  },
+  {
+    "id": "ad-unlock",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "解锁",
+      "en": "Unlock"
+    },
+    "description": {
+      "zh": "解锁（Ctrl + Shift + L）",
+      "en": "Unlock (Ctrl + Shift + L)"
+    },
+    "windows": "Ctrl + Shift + L",
+    "mac": "⌘ Shift + L",
+    "linux": "—",
+    "keywords": [
+      "解锁",
+      "unlock"
+    ],
+    "pinyin": "jie suo jiesuo j s js jie suo jiesuo j s js"
+  },
+  {
+    "id": "ad-showall",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "全部显示",
+      "en": "Show all"
+    },
+    "description": {
+      "zh": "全部显示（Ctrl + Shift + Alt + H）",
+      "en": "Show all (Ctrl + Shift + Alt + H)"
+    },
+    "windows": "Ctrl + Shift + Alt + H",
+    "mac": "⌘ ⌥ Shift + H",
+    "linux": "—",
+    "keywords": [
+      "显示",
+      "show"
+    ],
+    "pinyin": "quan bu xian shi quanbuxianshi q b x s qbxs xian shi xianshi x s xs"
+  },
+  {
+    "id": "ad-newlayer",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "新建图层",
+      "en": "New layer"
+    },
+    "description": {
+      "zh": "新建图层（Ctrl + Shift + N）",
+      "en": "New layer (Ctrl + Shift + N)"
+    },
+    "windows": "Ctrl + Shift + N",
+    "mac": "⌘ Shift + N",
+    "linux": "—",
+    "keywords": [
+      "新建图层",
+      "new layer"
+    ],
+    "pinyin": "xin jian tu ceng xinjiantuceng x j t c xjtc xin jian tu ceng xinjiantuceng x j t c xjtc"
+  },
+  {
+    "id": "ad-zoomin",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "放大",
+      "en": "Zoom in"
+    },
+    "description": {
+      "zh": "放大（Ctrl + =）",
+      "en": "Zoom in (Ctrl + =)"
+    },
+    "windows": "Ctrl + =",
+    "mac": "⌘ =",
+    "linux": "—",
+    "keywords": [
+      "放大",
+      "zoom in"
+    ],
+    "pinyin": "fang da fangda f d fd fang da fangda f d fd"
+  },
+  {
+    "id": "ad-zoomout",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "缩小",
+      "en": "Zoom out"
+    },
+    "description": {
+      "zh": "缩小（Ctrl + -）",
+      "en": "Zoom out (Ctrl + -)"
+    },
+    "windows": "Ctrl + -",
+    "mac": "⌘ -",
+    "linux": "—",
+    "keywords": [
+      "缩小",
+      "zoom out"
+    ],
+    "pinyin": "suo xiao suoxiao s x sx suo xiao suoxiao s x sx"
+  },
+  {
+    "id": "ad-zoomfit",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "缩放以适应",
+      "en": "Zoom to fit"
+    },
+    "description": {
+      "zh": "缩放以适应（Ctrl + 0）",
+      "en": "Zoom to fit (Ctrl + 0)"
+    },
+    "windows": "Ctrl + 0",
+    "mac": "⌘ 0",
+    "linux": "—",
+    "keywords": [
+      "适应",
+      "fit"
+    ],
+    "pinyin": "suo fang yi shi ying suofangyishiying s f y s y sfysy shi ying shiying s y sy"
+  },
+  {
+    "id": "ad-zoom100",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "缩放至 100%",
+      "en": "Zoom to 100%"
+    },
+    "description": {
+      "zh": "缩放至 100%（Ctrl + 1）",
+      "en": "Zoom to 100% (Ctrl + 1)"
+    },
+    "windows": "Ctrl + 1",
+    "mac": "⌘ 1",
+    "linux": "—",
+    "keywords": [
+      "100%"
+    ],
+    "pinyin": "suo fang zhi   1 0 0 % suofangzhi 100% s f z   1 0 0 % sfz 100%"
+  },
+  {
+    "id": "ad-zoom200",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "缩放至 200%",
+      "en": "Zoom to 200%"
+    },
+    "description": {
+      "zh": "缩放至 200%（Ctrl + 2）",
+      "en": "Zoom to 200% (Ctrl + 2)"
+    },
+    "windows": "Ctrl + 2",
+    "mac": "⌘ 2",
+    "linux": "—",
+    "keywords": [
+      "200%"
+    ],
+    "pinyin": "suo fang zhi   2 0 0 % suofangzhi 200% s f z   2 0 0 % sfz 200%"
+  },
+  {
+    "id": "ad-actual",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "实际大小",
+      "en": "Actual size"
+    },
+    "description": {
+      "zh": "实际大小（Ctrl + 8）",
+      "en": "Actual size (Ctrl + 8)"
+    },
+    "windows": "Ctrl + 8",
+    "mac": "⌘ 8",
+    "linux": "—",
+    "keywords": [
+      "实际大小",
+      "actual"
+    ],
+    "pinyin": "shi ji da xiao shijidaxiao s j d x sjdx shi ji da xiao shijidaxiao s j d x sjdx"
+  },
+  {
+    "id": "ad-pixelsize",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "像素大小",
+      "en": "Pixel size"
+    },
+    "description": {
+      "zh": "像素大小（Ctrl + 9）",
+      "en": "Pixel size (Ctrl + 9)"
+    },
+    "windows": "Ctrl + 9",
+    "mac": "⌘ 9",
+    "linux": "—",
+    "keywords": [
+      "像素",
+      "pixel"
+    ],
+    "pinyin": "xiang su da xiao xiangsudaxiao x s d x xsdx xiang su xiangsu x s xs"
+  },
+  {
+    "id": "ad-rulers",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "显示/隐藏标尺",
+      "en": "Toggle rulers"
+    },
+    "description": {
+      "zh": "显示/隐藏标尺（Ctrl + R）",
+      "en": "Toggle rulers (Ctrl + R)"
+    },
+    "windows": "Ctrl + R",
+    "mac": "⌘ R",
+    "linux": "—",
+    "keywords": [
+      "标尺",
+      "rulers"
+    ],
+    "pinyin": "xian shi / yin cang biao chi xianshi/yincangbiaochi x s / y c b c xs/ycbc biao chi biaochi b c bc"
+  },
+  {
+    "id": "ad-guides",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "显示/隐藏参考线",
+      "en": "Toggle guides"
+    },
+    "description": {
+      "zh": "显示/隐藏参考线（Ctrl + ;）",
+      "en": "Toggle guides (Ctrl + ;)"
+    },
+    "windows": "Ctrl + ;",
+    "mac": "⌘ ;",
+    "linux": "—",
+    "keywords": [
+      "参考线",
+      "guides"
+    ],
+    "pinyin": "xian shi / yin cang can kao xian xianshi/yincangcankaoxian x s / y c c k x xs/ycckx can kao xian cankaoxian c k x ckx"
+  },
+  {
+    "id": "ad-grid",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "显示/隐藏网格",
+      "en": "Toggle grid"
+    },
+    "description": {
+      "zh": "显示/隐藏网格（Ctrl + '）",
+      "en": "Toggle grid (Ctrl + ')"
+    },
+    "windows": "Ctrl + '",
+    "mac": "⌘ '",
+    "linux": "—",
+    "keywords": [
+      "网格",
+      "grid"
+    ],
+    "pinyin": "xian shi / yin cang wang ge xianshi/yincangwangge x s / y c w g xs/ycwg wang ge wangge w g wg"
+  },
+  {
+    "id": "ad-nextview",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "切换至下一视图",
+      "en": "Next view"
+    },
+    "description": {
+      "zh": "切换至下一视图（`）",
+      "en": "Next view (`)"
+    },
+    "windows": "`",
+    "mac": "`",
+    "linux": "—",
+    "keywords": [
+      "视图",
+      "view"
+    ],
+    "pinyin": "qie huan zhi xia yi shi tu qiehuanzhixiayishitu q h z x y s t qhzxyst shi tu shitu s t st"
+  },
+  {
+    "id": "ad-resetrot",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "重置视图旋转",
+      "en": "Reset view rotation"
+    },
+    "description": {
+      "zh": "重置视图旋转（Ctrl + Shift + R）",
+      "en": "Reset view rotation (Ctrl + Shift + R)"
+    },
+    "windows": "Ctrl + Shift + R",
+    "mac": "⌘ Shift + R",
+    "linux": "—",
+    "keywords": [
+      "旋转",
+      "rotation"
+    ],
+    "pinyin": "zhong zhi shi tu xuan zhuan zhongzhishituxuanzhuan z z s t x z zzstxz xuan zhuan xuanzhuan x z xz"
+  },
+  {
+    "id": "ad-selectall",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "全选",
+      "en": "Select all"
+    },
+    "description": {
+      "zh": "全选（Ctrl + A）",
+      "en": "Select all (Ctrl + A)"
+    },
+    "windows": "Ctrl + A",
+    "mac": "⌘ A",
+    "linux": "—",
+    "keywords": [
+      "全选",
+      "select all"
+    ],
+    "pinyin": "quan xuan quanxuan q x qx quan xuan quanxuan q x qx"
+  },
+  {
+    "id": "ad-deselect",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "取消选择",
+      "en": "Deselect"
+    },
+    "description": {
+      "zh": "取消选择（Ctrl + D）",
+      "en": "Deselect (Ctrl + D)"
+    },
+    "windows": "Ctrl + D",
+    "mac": "⌘ D",
+    "linux": "—",
+    "keywords": [
+      "取消",
+      "deselect"
+    ],
+    "pinyin": "qu xiao xuan ze quxiaoxuanze q x x z qxxz qu xiao quxiao q x qx"
+  },
+  {
+    "id": "ad-invert",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "反转选择",
+      "en": "Invert selection"
+    },
+    "description": {
+      "zh": "反转选择（Ctrl + Shift + I）",
+      "en": "Invert selection (Ctrl + Shift + I)"
+    },
+    "windows": "Ctrl + Shift + I",
+    "mac": "⌘ Shift + I",
+    "linux": "—",
+    "keywords": [
+      "反转",
+      "invert"
+    ],
+    "pinyin": "fan zhuan xuan ze fanzhuanxuanze f z x z fzxz fan zhuan fanzhuan f z fz"
+  },
+  {
+    "id": "ad-nextobj",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "选择下一项",
+      "en": "Select next"
+    },
+    "description": {
+      "zh": "选择下一项（Ctrl + Shift + ]）",
+      "en": "Select next (Ctrl + Shift + ])"
+    },
+    "windows": "Ctrl + Shift + ]",
+    "mac": "⌘ Shift + ]",
+    "linux": "—",
+    "keywords": [
+      "下一项",
+      "next"
+    ],
+    "pinyin": "xuan ze xia yi xiang xuanzexiayixiang x z x y x xzxyx xia yi xiang xiayixiang x y x xyx"
+  },
+  {
+    "id": "ad-prevobj",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "选择上一项",
+      "en": "Select previous"
+    },
+    "description": {
+      "zh": "选择上一项（Ctrl + Shift + [）",
+      "en": "Select previous (Ctrl + Shift + [)"
+    },
+    "windows": "Ctrl + Shift + [",
+    "mac": "⌘ Shift + [",
+    "linux": "—",
+    "keywords": [
+      "上一项",
+      "previous"
+    ],
+    "pinyin": "xuan ze shang yi xiang xuanzeshangyixiang x z s y x xzsyx shang yi xiang shangyixiang s y x syx"
+  },
+  {
+    "id": "ad-character",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "字符面板",
+      "en": "Character panel"
+    },
+    "description": {
+      "zh": "字符面板（Ctrl + T）",
+      "en": "Character panel (Ctrl + T)"
+    },
+    "windows": "Ctrl + T",
+    "mac": "⌘ T",
+    "linux": "—",
+    "keywords": [
+      "字符",
+      "character",
+      "文本"
+    ],
+    "pinyin": "zi fu mian ban zifumianban z f m b zfmb zi fu   wen ben zifu wenben z f   w b zf wb"
+  },
+  {
+    "id": "ad-typography",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "排版面板",
+      "en": "Typography panel"
+    },
+    "description": {
+      "zh": "排版面板（Ctrl + Shift + T）",
+      "en": "Typography panel (Ctrl + Shift + T)"
+    },
+    "windows": "Ctrl + Shift + T",
+    "mac": "⌘ Shift + T",
+    "linux": "—",
+    "keywords": [
+      "排版",
+      "typography"
+    ],
+    "pinyin": "pai ban mian ban paibanmianban p b m b pbmb pai ban paiban p b pb"
+  },
+  {
+    "id": "ad-curvesadj",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "曲线调整",
+      "en": "Curves adjustment"
+    },
+    "description": {
+      "zh": "曲线调整（Ctrl + M）",
+      "en": "Curves adjustment (Ctrl + M)"
+    },
+    "windows": "Ctrl + M",
+    "mac": "⌘ M",
+    "linux": "—",
+    "keywords": [
+      "曲线",
+      "curves"
+    ],
+    "pinyin": "qu xian tiao zheng quxiantiaozheng q x t z qxtz qu xian quxian q x qx"
+  },
+  {
+    "id": "ad-bw",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "黑白调整",
+      "en": "Black & White"
+    },
+    "description": {
+      "zh": "黑白调整（Ctrl + Alt + B）",
+      "en": "Black & White (Ctrl + Alt + B)"
+    },
+    "windows": "Ctrl + Alt + B",
+    "mac": "⌘ ⌥ B",
+    "linux": "—",
+    "keywords": [
+      "黑白",
+      "black white"
+    ],
+    "pinyin": "hei bai tiao zheng heibaitiaozheng h b t z hbtz hei bai heibai h b hb"
+  },
+  {
+    "id": "ad-studio",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "显示/隐藏面板",
+      "en": "Toggle Studio"
+    },
+    "description": {
+      "zh": "显示/隐藏面板（Ctrl + Shift + H）",
+      "en": "Toggle Studio (Ctrl + Shift + H)"
+    },
+    "windows": "Ctrl + Shift + H",
+    "mac": "⌘ Shift + H",
+    "linux": "—",
+    "keywords": [
+      "面板",
+      "studio"
+    ],
+    "pinyin": "xian shi / yin cang mian ban xianshi/yincangmianban x s / y c m b xs/ycmb mian ban mianban m b mb"
+  },
+  {
+    "id": "ad-toolbar",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "显示/隐藏工具栏",
+      "en": "Toggle toolbar"
+    },
+    "description": {
+      "zh": "显示/隐藏工具栏（Ctrl + Shift + T）",
+      "en": "Toggle toolbar (Ctrl + Shift + T)"
+    },
+    "windows": "Ctrl + Shift + T",
+    "mac": "⌘ Shift + T",
+    "linux": "—",
+    "keywords": [
+      "工具栏",
+      "toolbar"
+    ],
+    "pinyin": "xian shi / yin cang gong ju lan xianshi/yincanggongjulan x s / y c g j l xs/ycgjl gong ju lan gongjulan g j l gjl"
+  },
+  {
+    "id": "ad-toggleui",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "切换界面隐藏",
+      "en": "Toggle UI"
+    },
+    "description": {
+      "zh": "切换界面隐藏（Ctrl + H）",
+      "en": "Toggle UI (Ctrl + H)"
+    },
+    "windows": "Ctrl + H",
+    "mac": "⌘ H",
+    "linux": "—",
+    "keywords": [
+      "界面",
+      "ui"
+    ],
+    "pinyin": "qie huan jie mian yin cang qiehuanjiemianyincang q h j m y c qhjmyc jie mian jiemian j m jm"
+  },
+  {
+    "id": "ad-prefs",
+    "appId": "affinitydesigner",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "首选项",
+      "en": "Preferences"
+    },
+    "description": {
+      "zh": "首选项（Ctrl + ,）",
+      "en": "Preferences (Ctrl + ,)"
+    },
+    "windows": "Ctrl + ,",
+    "mac": "⌘ ,",
+    "linux": "—",
+    "keywords": [
+      "首选项",
+      "preferences"
+    ],
+    "pinyin": "shou xuan xiang shouxuanxiang s x x sxx shou xuan xiang shouxuanxiang s x x sxx"
+  }
+]

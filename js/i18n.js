@@ -128,7 +128,7 @@ const I18N = {
     favExportTitle: "收藏的快捷键",
     incognitoLabel: "无痕模式",
     incognitoHint: "开启后不记录最近浏览的快捷键",
-    legCommand: "命令键", legOption: "Option", legShift: "上档键", legCtrl: "控制键", legWin: "Win 键"
+    legCommand: "Cmd", legOption: "Option", legShift: "Shift", legCtrl: "Ctrl", legWin: "Win"
   }
 };
 

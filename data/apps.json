@@ -56,5 +56,8 @@
   { "id": "lucidchart", "name": { "zh": "Lucidchart", "en": "Lucidchart" }, "category": "design", "icon": "📈", "type": "software", "file": "lucidchart.json" },
   { "id": "abstract", "name": { "zh": "Abstract", "en": "Abstract" }, "category": "design", "icon": "💠", "type": "software", "file": "abstract.json" },
   { "id": "jsdesign", "name": { "zh": "即时设计", "en": "JS Design" }, "category": "design", "icon": "⚡", "type": "software", "sortKey": "Jishi", "file": "jsdesign.json" },
-  { "id": "mastergo", "name": { "zh": "MasterGo", "en": "MasterGo" }, "category": "design", "icon": "🏔️", "type": "software", "file": "mastergo.json" }
+  { "id": "mastergo", "name": { "zh": "MasterGo", "en": "MasterGo" }, "category": "design", "icon": "🏔️", "type": "software", "file": "mastergo.json" },
+  { "id": "affinityphoto", "name": { "zh": "Affinity Photo", "en": "Affinity Photo" }, "category": "design", "icon": "🖼️", "type": "software", "file": "affinityphoto.json" },
+  { "id": "affinitydesigner", "name": { "zh": "Affinity Designer", "en": "Affinity Designer" }, "category": "design", "icon": "🎨", "type": "software", "file": "affinitydesigner.json" },
+  { "id": "affinitypublisher", "name": { "zh": "Affinity Publisher", "en": "Affinity Publisher" }, "category": "design", "icon": "📐", "type": "software", "file": "affinitypublisher.json" }
 ]

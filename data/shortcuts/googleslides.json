@@ -1641,9 +1641,9 @@
       "zh": "将对象移到最底层",
       "en": "Send the object to the back"
     },
-    "windows": "Ctrl + Shift + ↓",
-    "mac": "⌘ ⇧ ↓",
-    "linux": "Ctrl + Shift + ↓",
+    "windows": "—",
+    "mac": "—",
+    "linux": "—",
     "keywords": [
       "层级",
       "底层",
@@ -1664,9 +1664,9 @@
       "zh": "将对象移到最顶层",
       "en": "Bring the object to the front"
     },
-    "windows": "Ctrl + Shift + ↑",
-    "mac": "⌘ ⇧ ↑",
-    "linux": "Ctrl + Shift + ↑",
+    "windows": "—",
+    "mac": "—",
+    "linux": "—",
     "keywords": [
       "层级",
       "顶层",

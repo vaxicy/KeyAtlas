@@ -872,8 +872,8 @@
       "zh": "放大飞书窗口缩放比例",
       "en": "Increase the Feishu window zoom level"
     },
-    "windows": "Ctrl + =",
-    "mac": "⌘=",
+    "windows": "Ctrl + = / Ctrl ++",
+    "mac": "⌘ = / ⌘ +",
     "linux": "Ctrl + =",
     "keywords": [
       "放大",
@@ -893,8 +893,8 @@
       "en": "Zoom out window"
     },
     "description": {
-      "zh": "缩小飞书窗口缩放比例",
-      "en": "Decrease the Feishu window zoom level"
+      "zh": "缩小飞书窗口缩放比例（与图片查看器缩放共用 Ctrl+- ）",
+      "en": "Decrease the Feishu window zoom level (shares Ctrl+- with image viewer)"
     },
     "windows": "Ctrl + -",
     "mac": "⌘ -",
@@ -952,5 +952,511 @@
       "fullscreen"
     ],
     "pinyin": "jin ru / tui chu quan ping jinru/tuichuquanping j r / t c q p jr/tcqp quan ping quanping q p qp"
+  },
+  {
+    "id": "feishu-doc-bold",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "加粗（文档）",
+      "en": "Bold (doc)"
+    },
+    "description": {
+      "zh": "飞书文档中将选中文字加粗",
+      "en": "Make text bold in Feishu Doc"
+    },
+    "windows": "Ctrl + B",
+    "mac": "⌘ B",
+    "linux": "Ctrl + B",
+    "keywords": [
+      "加粗",
+      "bold",
+      "文档"
+    ],
+    "pinyin": "jia cu （ wen dang ） jiacu（wendang） j c （ w d ） jc（wd） jia cu jiacu j c jc"
+  },
+  {
+    "id": "feishu-doc-italic",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "斜体（文档）",
+      "en": "Italic (doc)"
+    },
+    "description": {
+      "zh": "飞书文档中将选中文字设为斜体",
+      "en": "Make text italic in Feishu Doc"
+    },
+    "windows": "Ctrl + I",
+    "mac": "⌘ I",
+    "linux": "Ctrl + I",
+    "keywords": [
+      "斜体",
+      "italic",
+      "文档"
+    ],
+    "pinyin": "xie ti （ wen dang ） xieti（wendang） x t （ w d ） xt（wd） xie ti xieti x t xt"
+  },
+  {
+    "id": "feishu-doc-underline",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "下划线（文档）",
+      "en": "Underline (doc)"
+    },
+    "description": {
+      "zh": "飞书文档中为选中文字添加下划线",
+      "en": "Underline text in Feishu Doc"
+    },
+    "windows": "Ctrl + U",
+    "mac": "⌘ U",
+    "linux": "Ctrl + U",
+    "keywords": [
+      "下划线",
+      "underline",
+      "文档"
+    ],
+    "pinyin": "xia hua xian （ wen dang ） xiahuaxian（wendang） x h x （ w d ） xhx（wd） xia hua xian xiahuaxian x h x xhx"
+  },
+  {
+    "id": "feishu-doc-strike",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "删除线（文档）",
+      "en": "Strikethrough (doc)"
+    },
+    "description": {
+      "zh": "飞书文档中为选中文字添加删除线",
+      "en": "Strikethrough text in Feishu Doc"
+    },
+    "windows": "Ctrl + Shift + X",
+    "mac": "⌘ ⇧ X",
+    "linux": "Ctrl + Shift + X",
+    "keywords": [
+      "删除线",
+      "strikethrough",
+      "文档"
+    ],
+    "pinyin": "shan chu xian （ wen dang ） shanchuxian（wendang） s c x （ w d ） scx（wd） shan chu xian shanchuxian s c x scx"
+  },
+  {
+    "id": "feishu-doc-heading1",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "标题一（文档）",
+      "en": "Heading 1 (doc)"
+    },
+    "description": {
+      "zh": "飞书文档中将当前行设为标题一",
+      "en": "Set current line to heading 1 in Feishu Doc"
+    },
+    "windows": "Ctrl + Alt + 1",
+    "mac": "⌘ ⌥ 1",
+    "linux": "Ctrl + Alt + 1",
+    "keywords": [
+      "标题",
+      "heading",
+      "文档"
+    ],
+    "pinyin": "biao ti yi （ wen dang ） biaotiyi（wendang） b t y （ w d ） bty（wd） biao ti   yi biaoti yi b t   y bt y"
+  },
+  {
+    "id": "feishu-doc-heading2",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "标题二（文档）",
+      "en": "Heading 2 (doc)"
+    },
+    "description": {
+      "zh": "飞书文档中将当前行设为标题二",
+      "en": "Set current line to heading 2 in Feishu Doc"
+    },
+    "windows": "Ctrl + Alt + 2",
+    "mac": "⌘ ⌥ 2",
+    "linux": "Ctrl + Alt + 2",
+    "keywords": [
+      "标题",
+      "heading",
+      "文档"
+    ],
+    "pinyin": "biao ti er （ wen dang ） biaotier（wendang） b t e （ w d ） bte（wd） biao ti   er biaoti er b t   e bt e"
+  },
+  {
+    "id": "feishu-doc-heading3",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "标题三（文档）",
+      "en": "Heading 3 (doc)"
+    },
+    "description": {
+      "zh": "飞书文档中将当前行设为标题三",
+      "en": "Set current line to heading 3 in Feishu Doc"
+    },
+    "windows": "Ctrl + Alt + 3",
+    "mac": "⌘ ⌥ 3",
+    "linux": "Ctrl + Alt + 3",
+    "keywords": [
+      "标题",
+      "heading",
+      "文档"
+    ],
+    "pinyin": "biao ti san （ wen dang ) biaotisan（wendang） b t s （ w d ） bts（wd） biao ti   san biaoti san b t   s bt s"
+  },
+  {
+    "id": "feishu-doc-link",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "插入链接（文档）",
+      "en": "Insert link (doc)"
+    },
+    "description": {
+      "zh": "飞书文档中插入超链接",
+      "en": "Insert hyperlink in Feishu Doc"
+    },
+    "windows": "Ctrl + K",
+    "mac": "⌘ K",
+    "linux": "Ctrl + K",
+    "keywords": [
+      "链接",
+      "link",
+      "文档"
+    ],
+    "pinyin": "cha ru lian jie （ wen dang ） charulianjie（wendang） c r l j （ w d ） crlj（wd） lian jie lianjie l j lj"
+  },
+  {
+    "id": "feishu-doc-code",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "代码块（文档）",
+      "en": "Code block (doc)"
+    },
+    "description": {
+      "zh": "飞书文档中插入代码块",
+      "en": "Insert code block in Feishu Doc"
+    },
+    "windows": "Ctrl + Alt + C",
+    "mac": "⌘ ⌥ C",
+    "linux": "Ctrl + Alt + C",
+    "keywords": [
+      "代码",
+      "code",
+      "文档"
+    ],
+    "pinyin": "dai ma kuai （ wen dang ） daimakuai（wendang） d m k （ w d ） dmk（wd） dai ma   kuai daima kuai d m   k dm k"
+  },
+  {
+    "id": "feishu-doc-divider",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "分割线（文档）",
+      "en": "Divider (doc)"
+    },
+    "description": {
+      "zh": "飞书文档中插入分割线",
+      "en": "Insert divider in Feishu Doc"
+    },
+    "windows": "Ctrl + Enter",
+    "mac": "⌘ Enter",
+    "linux": "Ctrl + Enter",
+    "keywords": [
+      "分割线",
+      "divider",
+      "文档"
+    ],
+    "pinyin": "fen ge xian （ wen dang ） fengexian（wendang） f g x （ w d ） fgx（wd） fen ge xian fengexian f g x fgx"
+  },
+  {
+    "id": "feishu-doc-bulleted",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "项目符号列表（文档）",
+      "en": "Bulleted list (doc)"
+    },
+    "description": {
+      "zh": "飞书文档中切换项目符号列表",
+      "en": "Toggle bulleted list in Feishu Doc"
+    },
+    "windows": "Ctrl + Shift + 8",
+    "mac": "⌘ ⇧ 8",
+    "linux": "Ctrl + Shift + 8",
+    "keywords": [
+      "列表",
+      "项目符号",
+      "文档"
+    ],
+    "pinyin": "xiang mu fu hao lie biao （ wen dang ） xiangmufuhaoliebiao（wendang） x m f h l b （ w d ） xmfhlb（wd） lie biao   xiang mu fu hao liebiao xiangmufuhao l b   x m f lb xmfh"
+  },
+  {
+    "id": "feishu-doc-numbered",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "编号列表（文档）",
+      "en": "Numbered list (doc)"
+    },
+    "description": {
+      "zh": "飞书文档中切换编号列表",
+      "en": "Toggle numbered list in Feishu Doc"
+    },
+    "windows": "Ctrl + Shift + 7",
+    "mac": "⌘ ⇧ 7",
+    "linux": "Ctrl + Shift + 7",
+    "keywords": [
+      "列表",
+      "编号",
+      "文档"
+    ],
+    "pinyin": "bian hao lie biao （ wen dang ） bianhaoliebiao（wendang） b h l b （ w d ） bhlb（wd） lie biao   bian hao liebiao bianhao l b   b h lb bh"
+  },
+  {
+    "id": "feishu-doc-indent",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "增加缩进（文档）",
+      "en": "Increase indent (doc)"
+    },
+    "description": {
+      "zh": "飞书文档中增加段落缩进",
+      "en": "Increase indent in Feishu Doc"
+    },
+    "windows": "Ctrl + ]",
+    "mac": "⌘ ]",
+    "linux": "Ctrl + ]",
+    "keywords": [
+      "缩进",
+      "indent",
+      "文档"
+    ],
+    "pinyin": "zeng jia suo jin （ wen dang ） zengjiasuojin（wendang） z j s j （ w d ） zjsj（wd） suo jin suojin s j sj"
+  },
+  {
+    "id": "feishu-doc-outdent",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "减少缩进（文档）",
+      "en": "Decrease indent (doc)"
+    },
+    "description": {
+      "zh": "飞书文档中减少段落缩进",
+      "en": "Decrease indent in Feishu Doc"
+    },
+    "windows": "Ctrl + [",
+    "mac": "⌘ [",
+    "linux": "Ctrl + [",
+    "keywords": [
+      "缩进",
+      "indent",
+      "文档"
+    ],
+    "pinyin": "jian shao suo jin （ wen dang ） jianshaosuojin（wendang） j s s j （ w d ） jssj（wd） suo jin suojin s j sj"
+  },
+  {
+    "id": "feishu-doc-undo",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "撤销（文档）",
+      "en": "Undo (doc)"
+    },
+    "description": {
+      "zh": "飞书文档中撤销上一步操作",
+      "en": "Undo in Feishu Doc"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "Ctrl + Z",
+    "keywords": [
+      "撤销",
+      "undo",
+      "文档"
+    ],
+    "pinyin": "che xiao （ wen dang ） chexiao（wendang） c x （ w d ） cx（wd） che xiao chexiao c x cx"
+  },
+  {
+    "id": "feishu-doc-redo",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "重做（文档）",
+      "en": "Redo (doc)"
+    },
+    "description": {
+      "zh": "飞书文档中重做已撤销操作",
+      "en": "Redo in Feishu Doc"
+    },
+    "windows": "Ctrl + Y",
+    "mac": "⌘ Y",
+    "linux": "Ctrl + Y",
+    "keywords": [
+      "重做",
+      "redo",
+      "文档"
+    ],
+    "pinyin": "zhong zuo （ wen dang ） zhongzuo（wendang） z z （ w d ） zz（wd） zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "feishu-doc-select-all",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "全选（文档）",
+      "en": "Select all (doc)"
+    },
+    "description": {
+      "zh": "飞书文档中选中全部内容",
+      "en": "Select all content in Feishu Doc"
+    },
+    "windows": "Ctrl + A",
+    "mac": "⌘ A",
+    "linux": "Ctrl + A",
+    "keywords": [
+      "全选",
+      "select",
+      "文档"
+    ],
+    "pinyin": "quan xuan （ wen dang ） quanxuan（wendang） q x （ w d ） qx（wd） quan xuan quanxuan q x qx"
+  },
+  {
+    "id": "feishu-doc-find",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "查找（文档）",
+      "en": "Find (doc)"
+    },
+    "description": {
+      "zh": "飞书文档中打开查找栏",
+      "en": "Open find bar in Feishu Doc"
+    },
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
+    "linux": "Ctrl + F",
+    "keywords": [
+      "查找",
+      "find",
+      "文档"
+    ],
+    "pinyin": "cha zhao （ wen dang ） chazhao（wendang） c z （ w d ） cz（wd） cha zhao chazhao c z cz"
+  },
+  {
+    "id": "feishu-sheet-edit-cell",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "编辑单元格（表格）",
+      "en": "Edit cell (sheet)"
+    },
+    "description": {
+      "zh": "飞书表格中进入单元格编辑模式",
+      "en": "Enter edit mode in Feishu Sheet"
+    },
+    "windows": "F2",
+    "mac": "F2",
+    "linux": "F2",
+    "keywords": [
+      "编辑",
+      "单元格",
+      "表格"
+    ],
+    "pinyin": "bian ji dan yuan ge （ biao ge ） bijidanyuange（biaoge） b j d y g （ b g ） bjdyg（bg） dan yuan ge   biao ge danyuange biaoge d y g   b g dyg bg"
+  },
+  {
+    "id": "feishu-sheet-date",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "插入日期（表格）",
+      "en": "Insert date (sheet)"
+    },
+    "description": {
+      "zh": "飞书表格中插入当前日期",
+      "en": "Insert today's date in Feishu Sheet"
+    },
+    "windows": "Ctrl + ;",
+    "mac": "⌘ ;",
+    "linux": "Ctrl + ;",
+    "keywords": [
+      "日期",
+      "date",
+      "表格"
+    ],
+    "pinyin": "cha ru ri qi （ biao ge ） charuriqi（biaoge） c r q （ b g ） crq（bg） ri qi riqi r q rq"
+  },
+  {
+    "id": "feishu-sheet-bold",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "加粗（表格）",
+      "en": "Bold (sheet)"
+    },
+    "description": {
+      "zh": "飞书表格中将选中内容加粗",
+      "en": "Make selection bold in Feishu Sheet"
+    },
+    "windows": "Ctrl + B",
+    "mac": "⌘ B",
+    "linux": "Ctrl + B",
+    "keywords": [
+      "加粗",
+      "bold",
+      "表格"
+    ],
+    "pinyin": "jia cu （ biao ge ） jiacu（biaoge） j c （ b g ） jc（bg） jia cu jiacu j c jc"
+  },
+  {
+    "id": "feishu-sheet-italic",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "斜体（表格）",
+      "en": "Italic (sheet)"
+    },
+    "description": {
+      "zh": "飞书表格中将选中内容设为斜体",
+      "en": "Make selection italic in Feishu Sheet"
+    },
+    "windows": "Ctrl + I",
+    "mac": "⌘ I",
+    "linux": "Ctrl + I",
+    "keywords": [
+      "斜体",
+      "italic",
+      "表格"
+    ],
+    "pinyin": "xie ti （ biao ge ） xieti（biaoge） x t （ b g ） xt（bg） xie ti xieti x t xt"
   }
 ]

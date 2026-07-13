@@ -263,9 +263,9 @@
       "zh": "切换至 1.0 倍速（正常速度）",
       "en": "Switch to 1.0x normal speed"
     },
-    "windows": "Shift+1",
-    "mac": "Shift+1",
-    "linux": "Shift+1",
+    "windows": "Shift + 1",
+    "mac": "Shift 1",
+    "linux": "Shift + 1",
     "keywords": [
       "倍速",
       "speed",
@@ -286,9 +286,9 @@
       "zh": "切换至 2.0 倍速（快速播放）",
       "en": "Switch to 2.0x fast speed"
     },
-    "windows": "Shift+2",
-    "mac": "Shift+2",
-    "linux": "Shift+2",
+    "windows": "Shift + 2",
+    "mac": "Shift 2",
+    "linux": "Shift + 2",
     "keywords": [
       "倍速",
       "speed",
@@ -517,9 +517,9 @@
       "zh": "一键隐藏窗口/退出程序（客户端独占）",
       "en": "Instantly hide window or exit program (client only)"
     },
-    "windows": "Ctrl+Shift+C",
-    "mac": "⌘+Shift+C",
-    "linux": "Ctrl+Shift+C",
+    "windows": "Ctrl + Shift + C",
+    "mac": "⌘ Shift C",
+    "linux": "Ctrl + Shift + C",
     "keywords": [
       "老板键",
       "boss key",

@@ -9,8 +9,8 @@
       "en": "Play / Pause"
     },
     "description": {
-      "zh": "播放或暂停当前视频",
-      "en": "Play or pause the current video"
+      "zh": "暂停或播放视频",
+      "en": "Pause or play video"
     },
     "windows": "Space",
     "mac": "Space",
@@ -24,17 +24,84 @@
     "pinyin": "bo fang / zan ting bofang/zanting b f / z t bf/zt bo fang   zan ting bofang zanting b f   z t bf zt"
   },
   {
+    "id": "bili-like",
+    "appId": "bilibili",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "点赞",
+      "en": "Like"
+    },
+    "description": {
+      "zh": "为视频点赞（长按 3 秒触发「一键三连」）",
+      "en": "Like video (hold 3s for triple combo)"
+    },
+    "windows": "Q",
+    "mac": "Q",
+    "linux": "Q",
+    "keywords": [
+      "点赞",
+      "like",
+      "三连"
+    ],
+    "pinyin": "dian zan dianzan d z dz dian zan   san lian dianzan sanlian d z   s l dz sl"
+  },
+  {
+    "id": "bili-coin",
+    "appId": "bilibili",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "投币",
+      "en": "Coin"
+    },
+    "description": {
+      "zh": "为视频投币",
+      "en": "Throw coin to video"
+    },
+    "windows": "W",
+    "mac": "W",
+    "linux": "W",
+    "keywords": [
+      "投币",
+      "coin"
+    ],
+    "pinyin": "tou bi toubi t b tb tou bi toubi t b tb"
+  },
+  {
+    "id": "bili-fav",
+    "appId": "bilibili",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "收藏",
+      "en": "Favorite"
+    },
+    "description": {
+      "zh": "收藏视频",
+      "en": "Favorite video"
+    },
+    "windows": "E",
+    "mac": "E",
+    "linux": "E",
+    "keywords": [
+      "收藏",
+      "favorite"
+    ],
+    "pinyin": "shou cang shoucang s c sc shou cang shoucang s c sc"
+  },
+  {
     "id": "bili-forward",
     "appId": "bilibili",
     "type": "software",
     "category": "video",
     "name": {
-      "zh": "快进 5 秒",
-      "en": "Forward 5s"
+      "zh": "快进",
+      "en": "Forward"
     },
     "description": {
-      "zh": "快进 5 秒",
-      "en": "Jump forward 5 seconds"
+      "zh": "视频向前快进（长按可倍速播放）",
+      "en": "Seek forward (hold for variable speed)"
     },
     "windows": "→",
     "mac": "→",
@@ -42,9 +109,9 @@
     "keywords": [
       "快进",
       "forward",
-      "前进"
+      "倍速"
     ],
-    "pinyin": "kuai jin   5   miao kuaijin 5 miao k j   5   m kj 5 m kuai jin   qian jin kuaijin qianjin k j   q j kj qj"
+    "pinyin": "kuai jin kuaijin k j kj kuai jin   bei su kuaijin beisu k j   b s kj bs"
   },
   {
     "id": "bili-back",
@@ -52,12 +119,12 @@
     "type": "software",
     "category": "video",
     "name": {
-      "zh": "快退 5 秒",
-      "en": "Back 5s"
+      "zh": "快退",
+      "en": "Backward"
     },
     "description": {
-      "zh": "快退 5 秒",
-      "en": "Jump back 5 seconds"
+      "zh": "视频向后快退",
+      "en": "Seek backward"
     },
     "windows": "←",
     "mac": "←",
@@ -67,7 +134,7 @@
       "back",
       "后退"
     ],
-    "pinyin": "kuai tui   5   miao kuaitui 5 miao k t   5   m kt 5 m kuai tui   hou tui kuaitui houtui k t   h t kt ht"
+    "pinyin": "kuai tui kuaitui k t kt kuai tui   hou tui kuaitui houtui k t   h t kt ht"
   },
   {
     "id": "bili-volup",
@@ -79,8 +146,8 @@
       "en": "Volume Up"
     },
     "description": {
-      "zh": "增大音量",
-      "en": "Increase volume"
+      "zh": "调高音量（每次增加 10%）",
+      "en": "Increase volume by 10%"
     },
     "windows": "↑",
     "mac": "↑",
@@ -102,8 +169,8 @@
       "en": "Volume Down"
     },
     "description": {
-      "zh": "减小音量",
-      "en": "Decrease volume"
+      "zh": "调低音量（每次减少 10%）",
+      "en": "Decrease volume by 10%"
     },
     "windows": "↓",
     "mac": "↓",
@@ -148,8 +215,8 @@
       "en": "Full Screen"
     },
     "description": {
-      "zh": "切换全屏模式",
-      "en": "Toggle full screen"
+      "zh": "开启或关闭全屏模式",
+      "en": "Toggle full screen mode"
     },
     "windows": "F",
     "mac": "F",
@@ -171,7 +238,7 @@
     },
     "description": {
       "zh": "开启或关闭弹幕",
-      "en": "Show or hide danmaku"
+      "en": "Toggle danmaku display"
     },
     "windows": "D",
     "mac": "D",
@@ -182,6 +249,98 @@
       "评论"
     ],
     "pinyin": "tan mu kai guan tanmukaiguan t m k g tmkg tan mu   ping lun tanmu pinglun t m   p l tm pl"
+  },
+  {
+    "id": "bili-speed-normal",
+    "appId": "bilibili",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "正常倍速",
+      "en": "Normal Speed"
+    },
+    "description": {
+      "zh": "切换至 1.0 倍速（正常速度）",
+      "en": "Switch to 1.0x normal speed"
+    },
+    "windows": "Shift+1",
+    "mac": "Shift+1",
+    "linux": "Shift+1",
+    "keywords": [
+      "倍速",
+      "speed",
+      "正常"
+    ],
+    "pinyin": "zheng chang bei su zhengchangbeisu z c b s zcbs bei su   zheng chang beisu zhengchang b s   z c bs zc"
+  },
+  {
+    "id": "bili-speed-fast",
+    "appId": "bilibili",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "2 倍速",
+      "en": "2x Speed"
+    },
+    "description": {
+      "zh": "切换至 2.0 倍速（快速播放）",
+      "en": "Switch to 2.0x fast speed"
+    },
+    "windows": "Shift+2",
+    "mac": "Shift+2",
+    "linux": "Shift+2",
+    "keywords": [
+      "倍速",
+      "speed",
+      "2x"
+    ],
+    "pinyin": "2   bei su 2 beisu 2   b s 2 bs bei su beisu b s bs"
+  },
+  {
+    "id": "bili-next",
+    "appId": "bilibili",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "下一个视频",
+      "en": "Next Video"
+    },
+    "description": {
+      "zh": "切换到下一个相关视频",
+      "en": "Switch to next related video"
+    },
+    "windows": "]",
+    "mac": "]",
+    "linux": "]",
+    "keywords": [
+      "下一个",
+      "next",
+      "相关"
+    ],
+    "pinyin": "xia yi ge shi pin xiayigeshipin x y g s p xygsp xia yi ge   xiang guan xiayige xiangguan x y g   x g xyg xg"
+  },
+  {
+    "id": "bili-prev",
+    "appId": "bilibili",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "上一个视频",
+      "en": "Previous Video"
+    },
+    "description": {
+      "zh": "切换到上一个相关视频",
+      "en": "Switch to previous related video"
+    },
+    "windows": "[",
+    "mac": "[",
+    "linux": "[",
+    "keywords": [
+      "上一个",
+      "previous",
+      "相关"
+    ],
+    "pinyin": "shang yi ge shi pin shangyigeshipin s y g s p sygsp shang yi ge   xiang guan shangyige xiangguan s y g   x g syg xg"
   },
   {
     "id": "bili-exitfull",
@@ -207,52 +366,6 @@
     "pinyin": "tui chu quan ping tuichuquanping t c q p tcqp tui chu   quan ping tuichu quanping t c   q p tc qp"
   },
   {
-    "id": "bili-nextvideo",
-    "appId": "bilibili",
-    "type": "software",
-    "category": "video",
-    "name": {
-      "zh": "下一个视频",
-      "en": "Next Video"
-    },
-    "description": {
-      "zh": "跳到播放列表下一个",
-      "en": "Go to the next video"
-    },
-    "windows": "PgDn",
-    "mac": "PgDn",
-    "linux": "PgDn",
-    "keywords": [
-      "下一个",
-      "next",
-      "视频"
-    ],
-    "pinyin": "xia yi ge shi pin xiayigeshipin x y g s p xygsp xia yi ge   shi pin xiayige shipin x y g   s p xyg sp"
-  },
-  {
-    "id": "bili-prevvideo",
-    "appId": "bilibili",
-    "type": "software",
-    "category": "video",
-    "name": {
-      "zh": "上一个视频",
-      "en": "Previous Video"
-    },
-    "description": {
-      "zh": "跳到播放列表上一个",
-      "en": "Go to the previous video"
-    },
-    "windows": "PgUp",
-    "mac": "PgUp",
-    "linux": "PgUp",
-    "keywords": [
-      "上一个",
-      "previous",
-      "视频"
-    ],
-    "pinyin": "shang yi ge shi pin shangyigeshipin s y g s p sygsp shang yi ge   shi pin shangyige shipin s y g   s p syg sp"
-  },
-  {
     "id": "bili-beginning",
     "appId": "bilibili",
     "type": "software",
@@ -270,9 +383,149 @@
     "linux": "Home",
     "keywords": [
       "开头",
-      "start",
-      "开头"
+      "start"
     ],
-    "pinyin": "hui dao kai tou huidaokaitou h d k t hdkt kai tou   kai tou kaitou kaitou k t   k t kt kt"
+    "pinyin": "hui dao kai tou huidaokaitou h d k t hdkt kai tou kaitou k t kt"
+  },
+  {
+    "id": "bili-pip",
+    "appId": "bilibili",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "画中画",
+      "en": "Picture-in-Picture"
+    },
+    "description": {
+      "zh": "开启或关闭画中画（小窗播放）模式（客户端独占）",
+      "en": "Toggle picture-in-picture mode (client only)"
+    },
+    "windows": "S",
+    "mac": "S",
+    "linux": "S",
+    "keywords": [
+      "画中画",
+      "pip",
+      "小窗",
+      "客户端"
+    ],
+    "pinyin": "hua zhong hua huazhonghua h z h hzh hua zhong hua   xiao chuang   ke hu duan huazhonghua xiaochuang kehuduan h z h   x c   k h d hzh xc khd"
+  },
+  {
+    "id": "bili-toggle-desc",
+    "appId": "bilibili",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "显示/隐藏简介",
+      "en": "Toggle Description"
+    },
+    "description": {
+      "zh": "显示或隐藏视频简介栏目（客户端独占）",
+      "en": "Show or hide video description (client only)"
+    },
+    "windows": "X",
+    "mac": "X",
+    "linux": "X",
+    "keywords": [
+      "简介",
+      "description",
+      "客户端"
+    ],
+    "pinyin": "xian shi / yin cang jian jie xianshi/yincangjianjie x s / y c j j xs/ycjj jian jie   ke hu duan jianjie kehuduan j j   k h d jj khd"
+  },
+  {
+    "id": "bili-toggle-comment",
+    "appId": "bilibili",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "显示/隐藏评论区",
+      "en": "Toggle Comments"
+    },
+    "description": {
+      "zh": "显示或隐藏评论栏（客户端独占）",
+      "en": "Show or hide comment section (client only)"
+    },
+    "windows": "C",
+    "mac": "C",
+    "linux": "C",
+    "keywords": [
+      "评论",
+      "comment",
+      "客户端"
+    ],
+    "pinyin": "xian shi / yin cang ping lun qu xianshi/yincangpinglunqu x s / y c p l q xs/ycplq ping lun   ke hu duan pinglun kehuduan p l   k h d pl khd"
+  },
+  {
+    "id": "bili-show-main",
+    "appId": "bilibili",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "显示主界面",
+      "en": "Show Main UI"
+    },
+    "description": {
+      "zh": "切换并显示主界面（客户端独占）",
+      "en": "Toggle and show main interface (client only)"
+    },
+    "windows": "A",
+    "mac": "A",
+    "linux": "A",
+    "keywords": [
+      "主界面",
+      "main ui",
+      "客户端"
+    ],
+    "pinyin": "xian shi zhu jie mian xianshizhujiemian x s z j m xszjm zhu jie mian   ke hu duan zhujiemian kehuduan z j m   k h d zjm khd"
+  },
+  {
+    "id": "bili-hide-main",
+    "appId": "bilibili",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "退出主界面",
+      "en": "Hide Main UI"
+    },
+    "description": {
+      "zh": "退出主界面，返回当前播放界面（客户端独占）",
+      "en": "Exit main UI, return to playback (client only)"
+    },
+    "windows": "B",
+    "mac": "B",
+    "linux": "B",
+    "keywords": [
+      "主界面",
+      "main ui",
+      "客户端",
+      "退出"
+    ],
+    "pinyin": "tui chu zhu jie mian tuichuzhujiemian t c z j m tczjm zhu jie mian   ke hu duan   tui chu zhujiemian kehuduan tuichu z j m   k h d   t c zjm khd tc"
+  },
+  {
+    "id": "bili-boss-key",
+    "appId": "bilibili",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "老板键",
+      "en": "Boss Key"
+    },
+    "description": {
+      "zh": "一键隐藏窗口/退出程序（客户端独占）",
+      "en": "Instantly hide window or exit program (client only)"
+    },
+    "windows": "Ctrl+Shift+C",
+    "mac": "⌘+Shift+C",
+    "linux": "Ctrl+Shift+C",
+    "keywords": [
+      "老板键",
+      "boss key",
+      "隐藏",
+      "客户端"
+    ],
+    "pinyin": "lao ban jian laobanjian l b j lbj lao ban jian   yin cang   ke hu duan laobanjian yincang kehuduan l b j   y c   k h d lbj yc khd"
   }
 ]

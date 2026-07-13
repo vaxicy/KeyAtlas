@@ -870,7 +870,7 @@
       "category",
       "颜色"
     ],
-    "pinyin": "fen lei fenlei f l fl fen lei   yan se fenlei yanse f l   y s fl ys"
+    "pinyin": "fen lei fenlei f l fl fen lei   biao qian   yan se fenlei biaoqian yanse f l   b q   y s fl bq ys"
   },
   {
     "id": "outlook-accept-meeting",
@@ -895,7 +895,7 @@
       "meeting",
       "邀请"
     ],
-    "pinyin": "jie shou hui yi jieshouhuiyi j s hy jshy jie shou   hui yi jieshou huiyi j s   h y jshy hy"
+    "pinyin": "jie shou hui yi jieshouhuiyi j s h y jshy jie shou   hui yi   yao qing jieshou huiyi yaoqing j s   h y   y q js hy yq"
   },
   {
     "id": "outlook-decline-meeting",
@@ -919,7 +919,7 @@
       "会议",
       "meeting"
     ],
-    "pinyin": "ju jue hui yi jujuehuiyi j j hy jjhy ju jue   hui yi jujue huiyi j j   h y jjhy hy"
+    "pinyin": "ju jue hui yi jujuehuiyi j j h y jjhy ju jue   hui yi jujue huiyi j j   h y jj hy"
   },
   {
     "id": "outlook-toggle-reading-pane",
@@ -943,7 +943,7 @@
       "窗格",
       "pane"
     ],
-    "pinyin": "qie huan yue du chuang ge qiehanyueduchuangge q h y d c g qhydcg yue du chuang ge yueduchuangge y d c g   c g ydc cg"
+    "pinyin": "qie huan yue du chuang ge qiehuanyueduchuangge q h y d c g qhydcg yue du chuang ge   chuang ge yueduchuangge chuangge y d c g   c g ydcg cg"
   },
   {
     "id": "outlook-switch-notes",

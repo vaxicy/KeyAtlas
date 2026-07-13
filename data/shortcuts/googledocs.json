@@ -855,7 +855,7 @@
       "批注",
       "annotation"
     ],
-    "pinyin": "cha ru ping lun charupinglun c r pl crpl ping lun   bi zhu pinglun bizhu p l   b z crpl bz"
+    "pinyin": "cha ru ping lun charupinglun c r p l crpl ping lun   pi zhu pinglun pizhu p l   p z pl pz"
   },
   {
     "id": "docs-word-count",
@@ -879,7 +879,7 @@
       "统计",
       "count"
     ],
-    "pinyin": "zi shu tong ji zishutongji z s tj zstj zi shu   tong ji zishu tongji z s   tj zstj tj"
+    "pinyin": "zi shu tong ji zishutongji z s t j zstj zi shu   tong ji zishu tongji z s   t j zs tj"
   },
   {
     "id": "docs-dictionary",
@@ -904,7 +904,7 @@
       "definition",
       "释义"
     ],
-    "pinyin": "zi ding yi yi zidingyi z d y i zdyyi zi ding   yi yi zidingyi yiyi z d   y i zdyy yy"
+    "pinyin": "zi dian ding yi zidiandingyi z d d y zddy zi dian   ding yi   shi yi zidian dingyi shiyi z d   d y   s y zd dy sy"
   },
   {
     "id": "docs-insert-datetime",
@@ -929,7 +929,7 @@
       "time",
       "插入"
     ],
-    "pinyin": "cha ru ri qi shi jian charuriqishijian c r q s j crqsj ri qi   shi jian riqi shijian r q   s j crq sj"
+    "pinyin": "cha ru ri qi shi jian charuriqishijian c r r q s j crrqsj ri qi   shi jian   cha ru riqi shijian charu r q   s j   c r rq sj cr"
   },
   {
     "id": "docs-voice-typing",
@@ -954,6 +954,6 @@
       "typing",
       "听写"
     ],
-    "pinyin": "yu yin shu ru yuyinshuru y y s r yysr yu yin   shu ru yuyin shuru y y   s r yysr sr"
+    "pinyin": "yu yin shu ru yuyinshuru y y s r yysr yu yin   shu ru   ting xie yuyin shuru tingxie y y   s r   t x yy sr tx"
   }
 ]

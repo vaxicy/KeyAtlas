@@ -1560,7 +1560,7 @@
       "保存",
       "save as"
     ],
-    "pinyin": "ling cun wei lingcunwei l c w lcw ling cun   wei lingcunwei l c   w lcw"
+    "pinyin": "ling cun wei lingcunwei l c w lcw ling cun wei   bao cun lingcunwei baocun l c w   b c lcw bc"
   },
   {
     "id": "sketch-replace",
@@ -1584,7 +1584,7 @@
       "replace",
       "find"
     ],
-    "pinyin": "ti huan tihuan t h th ti huan   cha zhao tihuan chazhao t h   cz th cz"
+    "pinyin": "ti huan tihuan t h th ti huan   cha zhao tihuan chazhao t h   c z th cz"
   },
   {
     "id": "sketch-remove-from-artboard",
@@ -1608,6 +1608,6 @@
       "remove",
       "artboard"
     ],
-    "pinyin": "cong hua ban yi chui cong huabanyichui c h b yc chbyc yi chu hua ban yichu huaban y c   h b yc hb"
+    "pinyin": "cong hua ban yi chu conghuabanyichu c h b y c chbyc yi chu   hua ban yichu huaban y c   h b yc hb"
   }
 ]

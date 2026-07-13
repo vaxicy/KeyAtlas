@@ -55,9 +55,6 @@
   { "id": "whimsical", "name": { "zh": "Whimsical", "en": "Whimsical" }, "category": "design", "icon": "🕸️", "type": "software", "file": "whimsical.json" },
   { "id": "lucidchart", "name": { "zh": "Lucidchart", "en": "Lucidchart" }, "category": "design", "icon": "📈", "type": "software", "file": "lucidchart.json" },
   { "id": "abstract", "name": { "zh": "Abstract", "en": "Abstract" }, "category": "design", "icon": "💠", "type": "software", "file": "abstract.json" },
-  { "id": "pitch", "name": { "zh": "Pitch", "en": "Pitch" }, "category": "design", "icon": "🎤", "type": "software", "file": "pitch.json" },
-  { "id": "marvel", "name": { "zh": "Marvel", "en": "Marvel" }, "category": "design", "icon": "🔮", "type": "software", "file": "marvel.json" },
-  { "id": "lanhu", "name": { "zh": "蓝湖", "en": "Lanhu" }, "category": "design", "icon": "🏞️", "type": "software", "sortKey": "Lanhu", "file": "lanhu.json" },
   { "id": "jsdesign", "name": { "zh": "即时设计", "en": "JS Design" }, "category": "design", "icon": "⚡", "type": "software", "sortKey": "Jishi", "file": "jsdesign.json" },
   { "id": "mastergo", "name": { "zh": "MasterGo", "en": "MasterGo" }, "category": "design", "icon": "🏔️", "type": "software", "file": "mastergo.json" }
 ]

@@ -811,7 +811,7 @@
       "隐藏",
       "hide"
     ],
-    "pinyin": "yi chu dang qian shi tu yichudangqianshitu y c d s t ycdst yi chu   yin cang yichu yincang y c   y c ycd yc"
+    "pinyin": "cong dang qian shi tu yi chu congdangqianshituyichu c d q s t y c cdqstyc yi chu   yin cang yichu yincang y c   y c yc yc"
   },
   {
     "id": "gmail-move-to-labels",
@@ -836,7 +836,7 @@
       "labels",
       "文件夹"
     ],
-    "pinyin": "yi dong dao biao qian yidongdaobiaoqian y d b q ydbq biao qian   wen jian jia biaojian wenjianjia b q   w j ydbq wjj"
+    "pinyin": "yi dong dao biao qian yidongdaobiaoqian y d d b q yddbq yi dong   biao qian   wen jian jia yidong biaoqian wenjianjia y d   b q   w j j yd bq wjj"
   },
   {
     "id": "gmail-expand-all",
@@ -859,7 +859,7 @@
       "expand",
       "全部"
     ],
-    "pinyin": "zhan kai quan bu zhankaiquanbu z k q b zkqb zhan kai   quan bu zhankai quanbu z k   q b zk qb"
+    "pinyin": "zhan kai quan bu you jian zhankaiquanbuyoujian z k q b y j zkqbyj zhan kai   quan bu zhankai quanbu z k   q b zk qb"
   },
   {
     "id": "gmail-report-spam",
@@ -883,6 +883,6 @@
       "举报",
       "report"
     ],
-    "pinyin": "bao gao la ji you jian baogaolajiyoujian b g l j y j bgljyj bao gao   la ji baogao laji b g   l j bglj lj"
+    "pinyin": "bao gao la ji you jian baogaolajiyoujian b g l j y j bgljyj la ji you jian   ju bao lajiyoujian jubao l j y j   j b ljyj jb"
   }
 ]

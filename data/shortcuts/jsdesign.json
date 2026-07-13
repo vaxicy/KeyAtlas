@@ -256,12 +256,12 @@
       "en": "Create artboard"
     },
     "description": {
-      "zh": "新建一个画板",
-      "en": "Create a new artboard"
+      "zh": "新建一个画板（Frame）",
+      "en": "Create a new artboard (Frame)"
     },
-    "windows": "Ctrl + Alt + G",
-    "mac": "⌘ ⌥ G",
-    "linux": "Ctrl + Alt + G",
+    "windows": "A",
+    "mac": "A",
+    "linux": "A",
     "keywords": [
       "画板",
       "artboard",
@@ -944,6 +944,75 @@
     "pinyin": "you dui qi youduiqi y d q ydq you dui qi youduiqi y d q ydq"
   },
   {
+    "id": "jsd-align-top",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "顶对齐",
+      "en": "Align top"
+    },
+    "description": {
+      "zh": "将选中对象顶部对齐",
+      "en": "Align the selection to the top"
+    },
+    "windows": "Alt + W",
+    "mac": "⌥ W",
+    "linux": "Alt + W",
+    "keywords": [
+      "顶对齐",
+      "align top",
+      "对齐"
+    ],
+    "pinyin": "ding dui qi dingduiqi d d q ddq ding dui qi   dui qi dingduiqi duiqi d d q   d q ddq dq"
+  },
+  {
+    "id": "jsd-align-center-v",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "垂直居中",
+      "en": "Align center vertically"
+    },
+    "description": {
+      "zh": "将选中对象垂直居中对齐",
+      "en": "Align the selection vertically centered"
+    },
+    "windows": "Alt + V",
+    "mac": "⌥ V",
+    "linux": "Alt + V",
+    "keywords": [
+      "垂直居中",
+      "align center",
+      "对齐"
+    ],
+    "pinyin": "chui zhi ju zhong chuizhijuzhong c z j z czjz chui zhi ju zhong   dui qi chuizhijuzhong duiqi c z j z   d q czjz dq"
+  },
+  {
+    "id": "jsd-align-bottom",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "底对齐",
+      "en": "Align bottom"
+    },
+    "description": {
+      "zh": "将选中对象底部对齐",
+      "en": "Align the selection to the bottom"
+    },
+    "windows": "Alt + S",
+    "mac": "⌥ S",
+    "linux": "Alt + S",
+    "keywords": [
+      "底对齐",
+      "align bottom",
+      "对齐"
+    ],
+    "pinyin": "di dui qi diduiqi d d q ddq di dui qi   dui qi diduiqi duiqi d d q   d q ddq dq"
+  },
+  {
     "id": "jsd-zoom-100",
     "appId": "jsdesign",
     "type": "software",
@@ -988,6 +1057,52 @@
       "缩放"
     ],
     "pinyin": "xian shi quan bu xianshiquanbu x s q b xsqb xian shi quan bu   suo fang xianshiquanbu suofang x s q b   s f xsqb sf"
+  },
+  {
+    "id": "jsd-zoom-in",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "放大",
+      "en": "Zoom in"
+    },
+    "description": {
+      "zh": "放大画布视图",
+      "en": "Zoom in on the canvas"
+    },
+    "windows": "Ctrl + =",
+    "mac": "⌘ =",
+    "linux": "Ctrl + =",
+    "keywords": [
+      "放大",
+      "zoom",
+      "in"
+    ],
+    "pinyin": "fang da fangda f d fd fang da fangda f d fd"
+  },
+  {
+    "id": "jsd-zoom-out",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "缩小",
+      "en": "Zoom out"
+    },
+    "description": {
+      "zh": "缩小画布视图",
+      "en": "Zoom out on the canvas"
+    },
+    "windows": "Ctrl + -",
+    "mac": "⌘ -",
+    "linux": "Ctrl + -",
+    "keywords": [
+      "缩小",
+      "zoom",
+      "out"
+    ],
+    "pinyin": "suo xiao suoxiao s x sx suo xiao suoxiao s x sx"
   },
   {
     "id": "jsd-zoom-selection",

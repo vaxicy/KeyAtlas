@@ -974,7 +974,7 @@
       "bold",
       "文档"
     ],
-    "pinyin": "jia cu （ wen dang ） jiacu（wendang） j c （ w d ） jc（wd） jia cu jiacu j c jc"
+    "pinyin": "jia cu （ wen dang ） jiacu（wendang） j c （ w d ） jc（wd） jia cu   wen dang jiacu wendang j c   w d jc wd"
   },
   {
     "id": "feishu-doc-italic",
@@ -997,7 +997,7 @@
       "italic",
       "文档"
     ],
-    "pinyin": "xie ti （ wen dang ） xieti（wendang） x t （ w d ） xt（wd） xie ti xieti x t xt"
+    "pinyin": "xie ti （ wen dang ） xieti（wendang） x t （ w d ） xt（wd） xie ti   wen dang xieti wendang x t   w d xt wd"
   },
   {
     "id": "feishu-doc-underline",
@@ -1020,7 +1020,7 @@
       "underline",
       "文档"
     ],
-    "pinyin": "xia hua xian （ wen dang ） xiahuaxian（wendang） x h x （ w d ） xhx（wd） xia hua xian xiahuaxian x h x xhx"
+    "pinyin": "xia hua xian （ wen dang ） xiahuaxian（wendang） x h x （ w d ） xhx（wd） xia hua xian   wen dang xiahuaxian wendang x h x   w d xhx wd"
   },
   {
     "id": "feishu-doc-strike",
@@ -1043,7 +1043,7 @@
       "strikethrough",
       "文档"
     ],
-    "pinyin": "shan chu xian （ wen dang ） shanchuxian（wendang） s c x （ w d ） scx（wd） shan chu xian shanchuxian s c x scx"
+    "pinyin": "shan chu xian （ wen dang ） shanchuxian（wendang） s c x （ w d ） scx（wd） shan chu xian   wen dang shanchuxian wendang s c x   w d scx wd"
   },
   {
     "id": "feishu-doc-heading1",
@@ -1066,7 +1066,7 @@
       "heading",
       "文档"
     ],
-    "pinyin": "biao ti yi （ wen dang ） biaotiyi（wendang） b t y （ w d ） bty（wd） biao ti   yi biaoti yi b t   y bt y"
+    "pinyin": "biao ti yi （ wen dang ） biaotiyi（wendang） b t y （ w d ） bty（wd） biao ti   wen dang biaoti wendang b t   w d bt wd"
   },
   {
     "id": "feishu-doc-heading2",
@@ -1089,7 +1089,7 @@
       "heading",
       "文档"
     ],
-    "pinyin": "biao ti er （ wen dang ） biaotier（wendang） b t e （ w d ） bte（wd） biao ti   er biaoti er b t   e bt e"
+    "pinyin": "biao ti er （ wen dang ） biaotier（wendang） b t e （ w d ） bte（wd） biao ti   wen dang biaoti wendang b t   w d bt wd"
   },
   {
     "id": "feishu-doc-heading3",
@@ -1112,7 +1112,7 @@
       "heading",
       "文档"
     ],
-    "pinyin": "biao ti san （ wen dang ) biaotisan（wendang） b t s （ w d ） bts（wd） biao ti   san biaoti san b t   s bt s"
+    "pinyin": "biao ti san （ wen dang ） biaotisan（wendang） b t s （ w d ） bts（wd） biao ti   wen dang biaoti wendang b t   w d bt wd"
   },
   {
     "id": "feishu-doc-link",
@@ -1135,7 +1135,7 @@
       "link",
       "文档"
     ],
-    "pinyin": "cha ru lian jie （ wen dang ） charulianjie（wendang） c r l j （ w d ） crlj（wd） lian jie lianjie l j lj"
+    "pinyin": "cha ru lian jie （ wen dang ） charulianjie（wendang） c r l j （ w d ） crlj（wd） lian jie   wen dang lianjie wendang l j   w d lj wd"
   },
   {
     "id": "feishu-doc-code",
@@ -1158,7 +1158,7 @@
       "code",
       "文档"
     ],
-    "pinyin": "dai ma kuai （ wen dang ） daimakuai（wendang） d m k （ w d ） dmk（wd） dai ma   kuai daima kuai d m   k dm k"
+    "pinyin": "dai ma kuai （ wen dang ） daimakuai（wendang） d m k （ w d ） dmk（wd） dai ma   wen dang daima wendang d m   w d dm wd"
   },
   {
     "id": "feishu-doc-divider",
@@ -1181,7 +1181,7 @@
       "divider",
       "文档"
     ],
-    "pinyin": "fen ge xian （ wen dang ） fengexian（wendang） f g x （ w d ） fgx（wd） fen ge xian fengexian f g x fgx"
+    "pinyin": "fen ge xian （ wen dang ） fengexian（wendang） f g x （ w d ） fgx（wd） fen ge xian   wen dang fengexian wendang f g x   w d fgx wd"
   },
   {
     "id": "feishu-doc-bulleted",
@@ -1204,7 +1204,7 @@
       "项目符号",
       "文档"
     ],
-    "pinyin": "xiang mu fu hao lie biao （ wen dang ） xiangmufuhaoliebiao（wendang） x m f h l b （ w d ） xmfhlb（wd） lie biao   xiang mu fu hao liebiao xiangmufuhao l b   x m f lb xmfh"
+    "pinyin": "xiang mu fu hao lie biao （ wen dang ） xiangmufuhaoliebiao（wendang） x m f h l b （ w d ） xmfhlb（wd） lie biao   xiang mu fu hao   wen dang liebiao xiangmufuhao wendang l b   x m f h   w d lb xmfh wd"
   },
   {
     "id": "feishu-doc-numbered",
@@ -1227,7 +1227,7 @@
       "编号",
       "文档"
     ],
-    "pinyin": "bian hao lie biao （ wen dang ） bianhaoliebiao（wendang） b h l b （ w d ） bhlb（wd） lie biao   bian hao liebiao bianhao l b   b h lb bh"
+    "pinyin": "bian hao lie biao （ wen dang ） bianhaoliebiao（wendang） b h l b （ w d ） bhlb（wd） lie biao   bian hao   wen dang liebiao bianhao wendang l b   b h   w d lb bh wd"
   },
   {
     "id": "feishu-doc-indent",
@@ -1250,7 +1250,7 @@
       "indent",
       "文档"
     ],
-    "pinyin": "zeng jia suo jin （ wen dang ） zengjiasuojin（wendang） z j s j （ w d ） zjsj（wd） suo jin suojin s j sj"
+    "pinyin": "zeng jia suo jin （ wen dang ） zengjiasuojin（wendang） z j s j （ w d ） zjsj（wd） suo jin   wen dang suojin wendang s j   w d sj wd"
   },
   {
     "id": "feishu-doc-outdent",
@@ -1273,7 +1273,7 @@
       "indent",
       "文档"
     ],
-    "pinyin": "jian shao suo jin （ wen dang ） jianshaosuojin（wendang） j s s j （ w d ） jssj（wd） suo jin suojin s j sj"
+    "pinyin": "jian shao suo jin （ wen dang ） jianshaosuojin（wendang） j s s j （ w d ） jssj（wd） suo jin   wen dang suojin wendang s j   w d sj wd"
   },
   {
     "id": "feishu-doc-undo",
@@ -1296,7 +1296,7 @@
       "undo",
       "文档"
     ],
-    "pinyin": "che xiao （ wen dang ） chexiao（wendang） c x （ w d ） cx（wd） che xiao chexiao c x cx"
+    "pinyin": "che xiao （ wen dang ） chexiao（wendang） c x （ w d ） cx（wd） che xiao   wen dang chexiao wendang c x   w d cx wd"
   },
   {
     "id": "feishu-doc-redo",
@@ -1319,7 +1319,7 @@
       "redo",
       "文档"
     ],
-    "pinyin": "zhong zuo （ wen dang ） zhongzuo（wendang） z z （ w d ） zz（wd） zhong zuo zhongzuo z z zz"
+    "pinyin": "zhong zuo （ wen dang ） zhongzuo（wendang） z z （ w d ） zz（wd） zhong zuo   wen dang zhongzuo wendang z z   w d zz wd"
   },
   {
     "id": "feishu-doc-select-all",
@@ -1342,7 +1342,7 @@
       "select",
       "文档"
     ],
-    "pinyin": "quan xuan （ wen dang ） quanxuan（wendang） q x （ w d ） qx（wd） quan xuan quanxuan q x qx"
+    "pinyin": "quan xuan （ wen dang ） quanxuan（wendang） q x （ w d ） qx（wd） quan xuan   wen dang quanxuan wendang q x   w d qx wd"
   },
   {
     "id": "feishu-doc-find",
@@ -1365,7 +1365,7 @@
       "find",
       "文档"
     ],
-    "pinyin": "cha zhao （ wen dang ） chazhao（wendang） c z （ w d ） cz（wd） cha zhao chazhao c z cz"
+    "pinyin": "cha zhao （ wen dang ） chazhao（wendang） c z （ w d ） cz（wd） cha zhao   wen dang chazhao wendang c z   w d cz wd"
   },
   {
     "id": "feishu-sheet-edit-cell",
@@ -1388,7 +1388,7 @@
       "单元格",
       "表格"
     ],
-    "pinyin": "bian ji dan yuan ge （ biao ge ） bijidanyuange（biaoge） b j d y g （ b g ） bjdyg（bg） dan yuan ge   biao ge danyuange biaoge d y g   b g dyg bg"
+    "pinyin": "bian ji dan yuan ge （ biao ge ） bianjidanyuange（biaoge） b j d y g （ b g ） bjdyg（bg） bian ji   dan yuan ge   biao ge bianji danyuange biaoge b j   d y g   b g bj dyg bg"
   },
   {
     "id": "feishu-sheet-date",
@@ -1411,7 +1411,7 @@
       "date",
       "表格"
     ],
-    "pinyin": "cha ru ri qi （ biao ge ） charuriqi（biaoge） c r q （ b g ） crq（bg） ri qi riqi r q rq"
+    "pinyin": "cha ru ri qi （ biao ge ） charuriqi（biaoge） c r r q （ b g ） crrq（bg） ri qi   biao ge riqi biaoge r q   b g rq bg"
   },
   {
     "id": "feishu-sheet-bold",
@@ -1434,7 +1434,7 @@
       "bold",
       "表格"
     ],
-    "pinyin": "jia cu （ biao ge ） jiacu（biaoge） j c （ b g ） jc（bg） jia cu jiacu j c jc"
+    "pinyin": "jia cu （ biao ge ） jiacu（biaoge） j c （ b g ） jc（bg） jia cu   biao ge jiacu biaoge j c   b g jc bg"
   },
   {
     "id": "feishu-sheet-italic",
@@ -1457,6 +1457,6 @@
       "italic",
       "表格"
     ],
-    "pinyin": "xie ti （ biao ge ） xieti（biaoge） x t （ b g ） xt（bg） xie ti xieti x t xt"
+    "pinyin": "xie ti （ biao ge ） xieti（biaoge） x t （ b g ） xt（bg） xie ti   biao ge xieti biaoge x t   b g xt bg"
   }
 ]

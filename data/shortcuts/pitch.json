@@ -1,0 +1,421 @@
+[
+  {
+    "id": "pitch-quick-menu",
+    "appId": "pitch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "打开快捷菜单",
+      "en": "Open quick menu"
+    },
+    "description": {
+      "zh": "打开快速菜单以搜索操作与快捷键",
+      "en": "Open the quick menu to search actions and shortcuts"
+    },
+    "windows": "Ctrl + K",
+    "mac": "⌘ K",
+    "linux": "Ctrl + K",
+    "keywords": [
+      "快捷菜单",
+      "quick menu",
+      "搜索",
+      "search",
+      "命令"
+    ],
+    "pinyin": "da kai kuai jie cai dan dakaikuaijiecaidan d k k j c d dkkjcd kuai jie cai dan   sou suo   ming ling kuaijiecaidan sousuo mingling k j c d   s s   m l kjcd ss ml"
+  },
+  {
+    "id": "pitch-new",
+    "appId": "pitch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "新建演示文稿",
+      "en": "New presentation"
+    },
+    "description": {
+      "zh": "创建一个新的演示文稿",
+      "en": "Create a new presentation"
+    },
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
+    "linux": "Ctrl + N",
+    "keywords": [
+      "新建",
+      "new",
+      "演示",
+      "presentation"
+    ],
+    "pinyin": "xin jian yan shi wen gao xinjianyanshiwengao x j y s w g xjyswg xin jian   yan shi xinjian yanshi x j   y s xj ys"
+  },
+  {
+    "id": "pitch-open",
+    "appId": "pitch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "打开文件",
+      "en": "Open file"
+    },
+    "description": {
+      "zh": "打开已有的演示文稿",
+      "en": "Open an existing presentation"
+    },
+    "windows": "Ctrl + O",
+    "mac": "⌘ O",
+    "linux": "Ctrl + O",
+    "keywords": [
+      "打开",
+      "open",
+      "文件",
+      "file"
+    ],
+    "pinyin": "da kai wen jian dakaiwenjian d k w j dkwj da kai   wen jian dakai wenjian d k   w j dk wj"
+  },
+  {
+    "id": "pitch-save",
+    "appId": "pitch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "保存",
+      "en": "Save"
+    },
+    "description": {
+      "zh": "保存当前演示文稿",
+      "en": "Save the current presentation"
+    },
+    "windows": "Ctrl + S",
+    "mac": "⌘ S",
+    "linux": "Ctrl + S",
+    "keywords": [
+      "保存",
+      "save"
+    ],
+    "pinyin": "bao cun baocun b c bc bao cun baocun b c bc"
+  },
+  {
+    "id": "pitch-present",
+    "appId": "pitch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "开始演示",
+      "en": "Start presenting"
+    },
+    "description": {
+      "zh": "进入演示模式",
+      "en": "Enter presentation mode"
+    },
+    "windows": "Ctrl + Enter",
+    "mac": "⌘ Enter",
+    "linux": "Ctrl + Enter",
+    "keywords": [
+      "演示",
+      "present",
+      "播放",
+      "play"
+    ],
+    "pinyin": "kai shi yan shi kaishiyanshi k s y s ksys yan shi   bo fang yanshi bofang y s   b f ys bf"
+  },
+  {
+    "id": "pitch-new-slide",
+    "appId": "pitch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "新建幻灯片",
+      "en": "New slide"
+    },
+    "description": {
+      "zh": "在当前位置新建一张幻灯片",
+      "en": "Add a new slide at the current position"
+    },
+    "windows": "Ctrl + Shift + N",
+    "mac": "⌘ ⇧ N",
+    "linux": "Ctrl + Shift + N",
+    "keywords": [
+      "新建",
+      "幻灯片",
+      "slide",
+      "new"
+    ],
+    "pinyin": "xin jian huan deng pian xinjianhuandengpian x j h d p xjhdp xin jian   huan deng pian xinjian huandengpian x j   h d p xj hdp"
+  },
+  {
+    "id": "pitch-duplicate-slide",
+    "appId": "pitch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "复制幻灯片",
+      "en": "Duplicate slide"
+    },
+    "description": {
+      "zh": "复制当前选中的幻灯片",
+      "en": "Duplicate the selected slide"
+    },
+    "windows": "Ctrl + D",
+    "mac": "⌘ D",
+    "linux": "Ctrl + D",
+    "keywords": [
+      "复制",
+      "duplicate",
+      "幻灯片",
+      "slide"
+    ],
+    "pinyin": "fu zhi huan deng pian fuzhihuandengpian f z h d p fzhdp fu zhi   huan deng pian fuzhi huandengpian f z   h d p fz hdp"
+  },
+  {
+    "id": "pitch-delete-slide",
+    "appId": "pitch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "删除幻灯片",
+      "en": "Delete slide"
+    },
+    "description": {
+      "zh": "删除当前选中的幻灯片",
+      "en": "Delete the selected slide"
+    },
+    "windows": "Delete",
+    "mac": "⌫",
+    "linux": "Delete",
+    "keywords": [
+      "删除",
+      "delete",
+      "幻灯片",
+      "slide"
+    ],
+    "pinyin": "shan chu huan deng pian shanchuhuandengpian s c h d p schdp shan chu   huan deng pian shanchu huandengpian s c   h d p sc hdp"
+  },
+  {
+    "id": "pitch-undo",
+    "appId": "pitch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销上一步操作",
+      "en": "Undo the last action"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "Ctrl + Z",
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "pitch-redo",
+    "appId": "pitch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "重做已撤销的操作",
+      "en": "Redo the undone action"
+    },
+    "windows": "Ctrl + Shift + Z",
+    "mac": "⌘ ⇧ Z",
+    "linux": "Ctrl + Shift + Z",
+    "keywords": [
+      "重做",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "pitch-copy",
+    "appId": "pitch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "复制",
+      "en": "Copy"
+    },
+    "description": {
+      "zh": "复制选中内容",
+      "en": "Copy the selection"
+    },
+    "windows": "Ctrl + C",
+    "mac": "⌘ C",
+    "linux": "Ctrl + C",
+    "keywords": [
+      "复制",
+      "copy"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "pitch-paste",
+    "appId": "pitch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "粘贴",
+      "en": "Paste"
+    },
+    "description": {
+      "zh": "粘贴剪贴板内容",
+      "en": "Paste from the clipboard"
+    },
+    "windows": "Ctrl + V",
+    "mac": "⌘ V",
+    "linux": "Ctrl + V",
+    "keywords": [
+      "粘贴",
+      "paste"
+    ],
+    "pinyin": "nian tie niantie n t nt nian tie niantie n t nt"
+  },
+  {
+    "id": "pitch-bold",
+    "appId": "pitch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "加粗",
+      "en": "Bold"
+    },
+    "description": {
+      "zh": "将选中文本加粗",
+      "en": "Make the selected text bold"
+    },
+    "windows": "Ctrl + B",
+    "mac": "⌘ B",
+    "linux": "Ctrl + B",
+    "keywords": [
+      "加粗",
+      "bold",
+      "文本"
+    ],
+    "pinyin": "jia cu jiacu j c jc jia cu   wen ben jiacu wenben j c   w b jc wb"
+  },
+  {
+    "id": "pitch-italic",
+    "appId": "pitch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "斜体",
+      "en": "Italic"
+    },
+    "description": {
+      "zh": "将选中文本设为斜体",
+      "en": "Make the selected text italic"
+    },
+    "windows": "Ctrl + I",
+    "mac": "⌘ I",
+    "linux": "Ctrl + I",
+    "keywords": [
+      "斜体",
+      "italic",
+      "文本"
+    ],
+    "pinyin": "xie ti xieti x t xt xie ti   wen ben xieti wenben x t   w b xt wb"
+  },
+  {
+    "id": "pitch-zoom-in",
+    "appId": "pitch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "放大",
+      "en": "Zoom in"
+    },
+    "description": {
+      "zh": "放大画布视图",
+      "en": "Zoom in on the canvas"
+    },
+    "windows": "Ctrl + =",
+    "mac": "⌘ =",
+    "linux": "Ctrl + =",
+    "keywords": [
+      "放大",
+      "zoom",
+      "in"
+    ],
+    "pinyin": "fang da fangda f d fd fang da fangda f d fd"
+  },
+  {
+    "id": "pitch-zoom-out",
+    "appId": "pitch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "缩小",
+      "en": "Zoom out"
+    },
+    "description": {
+      "zh": "缩小画布视图",
+      "en": "Zoom out on the canvas"
+    },
+    "windows": "Ctrl + -",
+    "mac": "⌘ -",
+    "linux": "Ctrl + -",
+    "keywords": [
+      "缩小",
+      "zoom",
+      "out"
+    ],
+    "pinyin": "suo xiao suoxiao s x sx suo xiao suoxiao s x sx"
+  },
+  {
+    "id": "pitch-fit-screen",
+    "appId": "pitch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "适应屏幕",
+      "en": "Fit to screen"
+    },
+    "description": {
+      "zh": "缩放以适配屏幕",
+      "en": "Zoom to fit the screen"
+    },
+    "windows": "Shift + 1",
+    "mac": "⇧ 1",
+    "linux": "Shift + 1",
+    "keywords": [
+      "适应",
+      "fit",
+      "屏幕",
+      "screen"
+    ],
+    "pinyin": "shi ying ping mu shiyingpingmu s y p m sypm shi ying   ping mu shiying pingmu s y   p m sy pm"
+  },
+  {
+    "id": "pitch-show-shortcuts",
+    "appId": "pitch",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "显示快捷键",
+      "en": "Show shortcuts"
+    },
+    "description": {
+      "zh": "打开快捷键帮助面板",
+      "en": "Open the keyboard shortcuts help panel"
+    },
+    "windows": "Ctrl + /",
+    "mac": "⌘ /",
+    "linux": "Ctrl + /",
+    "keywords": [
+      "快捷键",
+      "shortcut",
+      "帮助",
+      "help"
+    ],
+    "pinyin": "xian shi kuai jie jian xianshikuaijiejian x s k j j xskjj kuai jie jian   bang zhu kuaijiejian bangzhu k j j   b z kjj bz"
+  }
+]

@@ -1,0 +1,337 @@
+[
+  {
+    "id": "abstract-filter",
+    "appId": "abstract",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "聚焦筛选输入框",
+      "en": "Focus filter input"
+    },
+    "description": {
+      "zh": "聚焦项目或分支的筛选输入框",
+      "en": "Focus the filter input for projects or branches"
+    },
+    "windows": "—",
+    "mac": "⌘ F",
+    "linux": "—",
+    "keywords": [
+      "筛选",
+      "filter",
+      "搜索",
+      "search"
+    ],
+    "pinyin": "ju jiao shai xuan shu ru kuang jujiaoshaixuanshurukuang j j s x s r k jjsxsrk shai xuan   sou suo shaixuan sousuo s x   s s sx ss"
+  },
+  {
+    "id": "abstract-close-dialog",
+    "appId": "abstract",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "关闭对话框",
+      "en": "Close a dialog"
+    },
+    "description": {
+      "zh": "关闭当前打开的对话框",
+      "en": "Close the currently open dialog"
+    },
+    "windows": "—",
+    "mac": "Esc",
+    "linux": "—",
+    "keywords": [
+      "关闭",
+      "close",
+      "对话框",
+      "dialog"
+    ],
+    "pinyin": "guan bi dui hua kuang guanbiduihuakuang g b d h k gbdhk guan bi   dui hua kuang guanbi duihuakuang g b   d h k gb dhk"
+  },
+  {
+    "id": "abstract-show-shortcuts",
+    "appId": "abstract",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "显示快捷键",
+      "en": "Show keyboard shortcuts"
+    },
+    "description": {
+      "zh": "打开快捷键面板",
+      "en": "Show the keyboard shortcuts panel"
+    },
+    "windows": "—",
+    "mac": "⌘ /",
+    "linux": "—",
+    "keywords": [
+      "快捷键",
+      "shortcut",
+      "帮助",
+      "help"
+    ],
+    "pinyin": "xian shi kuai jie jian xianshikuaijiejian x s k j j xskjj kuai jie jian   bang zhu kuaijiejian bangzhu k j j   b z kjj bz"
+  },
+  {
+    "id": "abstract-switch-org",
+    "appId": "abstract",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "切换组织",
+      "en": "Switch organizations"
+    },
+    "description": {
+      "zh": "在多个组织间切换（1-9）",
+      "en": "Switch between organizations (1-9)"
+    },
+    "windows": "—",
+    "mac": "⌘ 1-9",
+    "linux": "—",
+    "keywords": [
+      "组织",
+      "organization",
+      "切换",
+      "switch"
+    ],
+    "pinyin": "qie huan zu zhi qiehuanzuzhi q h z z qhzz zu zhi   qie huan zuzhi qiehuan z z   q h zz qh"
+  },
+  {
+    "id": "abstract-prev-screen",
+    "appId": "abstract",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "上一个屏幕",
+      "en": "Previous screen"
+    },
+    "description": {
+      "zh": "切换到上一个屏幕",
+      "en": "Go to the previous screen"
+    },
+    "windows": "—",
+    "mac": "⌘ [",
+    "linux": "—",
+    "keywords": [
+      "上一个",
+      "previous",
+      "屏幕",
+      "screen"
+    ],
+    "pinyin": "shang yi ge ping mu shangyigepingmu s y g p m sygpm shang yi ge   ping mu shangyige pingmu s y g   p m syg pm"
+  },
+  {
+    "id": "abstract-next-screen",
+    "appId": "abstract",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "下一个屏幕",
+      "en": "Next screen"
+    },
+    "description": {
+      "zh": "切换到下一个屏幕",
+      "en": "Go to the next screen"
+    },
+    "windows": "—",
+    "mac": "⌘ ]",
+    "linux": "—",
+    "keywords": [
+      "下一个",
+      "next",
+      "屏幕",
+      "screen"
+    ],
+    "pinyin": "xia yi ge ping mu xiayigepingmu x y g p m xygpm xia yi ge   ping mu xiayige pingmu x y g   p m xyg pm"
+  },
+  {
+    "id": "abstract-submit",
+    "appId": "abstract",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "提交",
+      "en": "Submit"
+    },
+    "description": {
+      "zh": "提交当前表单或变更",
+      "en": "Submit the current form or change"
+    },
+    "windows": "—",
+    "mac": "⌘ Enter",
+    "linux": "—",
+    "keywords": [
+      "提交",
+      "submit",
+      "commit"
+    ],
+    "pinyin": "ti jiao tijiao t j tj ti jiao tijiao t j tj"
+  },
+  {
+    "id": "abstract-new-annotation",
+    "appId": "abstract",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "新建批注",
+      "en": "New annotation"
+    },
+    "description": {
+      "zh": "新建一条批注",
+      "en": "Create a new annotation"
+    },
+    "windows": "—",
+    "mac": "A",
+    "linux": "—",
+    "keywords": [
+      "批注",
+      "annotation",
+      "评论",
+      "comment"
+    ],
+    "pinyin": "xin jian pi zhu xinjianpizhu x j p z xjpz pi zhu   ping lun pizhu pinglun p z   p l pz pl"
+  },
+  {
+    "id": "abstract-toggle-annotations",
+    "appId": "abstract",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "切换批注显示",
+      "en": "Toggle annotations"
+    },
+    "description": {
+      "zh": "显示或隐藏批注",
+      "en": "Show or hide annotations"
+    },
+    "windows": "—",
+    "mac": "⌘ A",
+    "linux": "—",
+    "keywords": [
+      "批注",
+      "annotation",
+      "切换",
+      "toggle"
+    ],
+    "pinyin": "qie huan pi zhu xian shi qiehuanpizhuxianshi q h p z x s qhpzxs pi zhu   qie huan pizhu qiehuan p z   q h pz qh"
+  },
+  {
+    "id": "abstract-prev-layer",
+    "appId": "abstract",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "上一个图层",
+      "en": "Previous layer"
+    },
+    "description": {
+      "zh": "选择上一个图层",
+      "en": "Select the previous layer"
+    },
+    "windows": "—",
+    "mac": "←",
+    "linux": "—",
+    "keywords": [
+      "上一个",
+      "previous",
+      "图层",
+      "layer"
+    ],
+    "pinyin": "shang yi ge tu ceng shangyigetuceng s y g t c sygtc shang yi ge   tu ceng shangyige tuceng s y g   t c syg tc"
+  },
+  {
+    "id": "abstract-next-layer",
+    "appId": "abstract",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "下一个图层",
+      "en": "Next layer"
+    },
+    "description": {
+      "zh": "选择下一个图层",
+      "en": "Select the next layer"
+    },
+    "windows": "—",
+    "mac": "→",
+    "linux": "—",
+    "keywords": [
+      "下一个",
+      "next",
+      "图层",
+      "layer"
+    ],
+    "pinyin": "xia yi ge tu ceng xiayigetuceng x y g t c xygtc xia yi ge   tu ceng xiayige tuceng x y g   t c xyg tc"
+  },
+  {
+    "id": "abstract-prev-commit",
+    "appId": "abstract",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "上一个提交",
+      "en": "Previous commit"
+    },
+    "description": {
+      "zh": "查看上一个提交",
+      "en": "View the previous commit"
+    },
+    "windows": "—",
+    "mac": "↓",
+    "linux": "—",
+    "keywords": [
+      "上一个",
+      "previous",
+      "提交",
+      "commit"
+    ],
+    "pinyin": "shang yi ge ti jiao shangyigetijiao s y g t j sygtj shang yi ge   ti jiao shangyige tijiao s y g   t j syg tj"
+  },
+  {
+    "id": "abstract-next-commit",
+    "appId": "abstract",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "下一个提交",
+      "en": "Next commit"
+    },
+    "description": {
+      "zh": "查看下一个提交",
+      "en": "View the next commit"
+    },
+    "windows": "—",
+    "mac": "↑",
+    "linux": "—",
+    "keywords": [
+      "下一个",
+      "next",
+      "提交",
+      "commit"
+    ],
+    "pinyin": "xia yi ge ti jiao xiayigetijiao x y g t j xygtj xia yi ge   ti jiao xiayige tijiao x y g   t j xyg tj"
+  },
+  {
+    "id": "abstract-toggle-sidebars",
+    "appId": "abstract",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "切换侧边栏",
+      "en": "Toggle sidebars"
+    },
+    "description": {
+      "zh": "显示或隐藏侧边栏",
+      "en": "Show or hide the sidebars"
+    },
+    "windows": "—",
+    "mac": "⌘ \\",
+    "linux": "—",
+    "keywords": [
+      "侧边栏",
+      "sidebar",
+      "切换",
+      "toggle"
+    ],
+    "pinyin": "qie huan ce bian lan qiehuancebianlan q h c b l qhcbl ce bian lan   qie huan cebianlan qiehuan c b l   q h cbl qh"
+  }
+]

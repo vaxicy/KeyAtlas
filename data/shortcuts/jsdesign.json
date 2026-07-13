@@ -1,0 +1,1062 @@
+[
+  {
+    "id": "jsd-undo",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销上一步操作",
+      "en": "Undo the last action"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "Ctrl + Z",
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "jsd-redo",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "重做已撤销的操作",
+      "en": "Redo the undone action"
+    },
+    "windows": "Ctrl + Shift + Z",
+    "mac": "⌘ ⇧ Z",
+    "linux": "Ctrl + Shift + Z",
+    "keywords": [
+      "重做",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "jsd-copy",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "复制",
+      "en": "Copy"
+    },
+    "description": {
+      "zh": "复制选中对象",
+      "en": "Copy the selected object"
+    },
+    "windows": "Ctrl + C",
+    "mac": "⌘ C",
+    "linux": "Ctrl + C",
+    "keywords": [
+      "复制",
+      "copy"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "jsd-paste",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "粘贴",
+      "en": "Paste"
+    },
+    "description": {
+      "zh": "粘贴剪贴板内容",
+      "en": "Paste from the clipboard"
+    },
+    "windows": "Ctrl + V",
+    "mac": "⌘ V",
+    "linux": "Ctrl + V",
+    "keywords": [
+      "粘贴",
+      "paste"
+    ],
+    "pinyin": "nian tie niantie n t nt nian tie niantie n t nt"
+  },
+  {
+    "id": "jsd-paste-style",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "粘贴样式",
+      "en": "Paste style"
+    },
+    "description": {
+      "zh": "将复制的样式粘贴到选中对象",
+      "en": "Paste the copied style onto the selection"
+    },
+    "windows": "Ctrl + Alt + V",
+    "mac": "⌘ ⌥ V",
+    "linux": "Ctrl + Alt + V",
+    "keywords": [
+      "粘贴",
+      "样式",
+      "style",
+      "paste"
+    ],
+    "pinyin": "nian tie yang shi niantieyangshi n t y s ntys nian tie   yang shi niantie yangshi n t   y s nt ys"
+  },
+  {
+    "id": "jsd-paste-in-place",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "粘贴到当前位置",
+      "en": "Paste in place"
+    },
+    "description": {
+      "zh": "将内容粘贴到原位置",
+      "en": "Paste at the original position"
+    },
+    "windows": "Ctrl + Shift + V",
+    "mac": "⌘ ⇧ V",
+    "linux": "Ctrl + Shift + V",
+    "keywords": [
+      "粘贴",
+      "原位",
+      "in place",
+      "paste"
+    ],
+    "pinyin": "nian tie dao dang qian wei zhi niantiedaodangqianweizhi n t d d q w z ntddqwz nian tie   yuan wei niantie yuanwei n t   y w nt yw"
+  },
+  {
+    "id": "jsd-select-all",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "全选",
+      "en": "Select all"
+    },
+    "description": {
+      "zh": "选中画布中所有对象",
+      "en": "Select all objects on the canvas"
+    },
+    "windows": "Ctrl + A",
+    "mac": "⌘ A",
+    "linux": "Ctrl + A",
+    "keywords": [
+      "全选",
+      "select all"
+    ],
+    "pinyin": "quan xuan quanxuan q x qx quan xuan quanxuan q x qx"
+  },
+  {
+    "id": "jsd-rename",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "重命名",
+      "en": "Rename"
+    },
+    "description": {
+      "zh": "重命名选中图层",
+      "en": "Rename the selected layer"
+    },
+    "windows": "Ctrl + R",
+    "mac": "⌘ R",
+    "linux": "Ctrl + R",
+    "keywords": [
+      "重命名",
+      "rename",
+      "图层"
+    ],
+    "pinyin": "zhong ming ming zhongmingming z m m zmm zhong ming ming   tu ceng zhongmingming tuceng z m m   t c zmm tc"
+  },
+  {
+    "id": "jsd-delete",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "删除",
+      "en": "Delete"
+    },
+    "description": {
+      "zh": "删除选中对象",
+      "en": "Delete the selected object"
+    },
+    "windows": "Delete",
+    "mac": "⌫",
+    "linux": "Delete",
+    "keywords": [
+      "删除",
+      "delete"
+    ],
+    "pinyin": "shan chu shanchu s c sc shan chu shanchu s c sc"
+  },
+  {
+    "id": "jsd-group",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "创建分组",
+      "en": "Group"
+    },
+    "description": {
+      "zh": "将选中对象编组",
+      "en": "Group the selected objects"
+    },
+    "windows": "Ctrl + G",
+    "mac": "⌘ G",
+    "linux": "Ctrl + G",
+    "keywords": [
+      "分组",
+      "group"
+    ],
+    "pinyin": "chuang jian fen zu chuangjianfenzu c j f z cjfz fen zu fenzu f z fz"
+  },
+  {
+    "id": "jsd-ungroup",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "解除分组",
+      "en": "Ungroup"
+    },
+    "description": {
+      "zh": "取消选中对象的分组",
+      "en": "Ungroup the selected objects"
+    },
+    "windows": "Ctrl + Shift + G",
+    "mac": "⌘ ⇧ G",
+    "linux": "Ctrl + Shift + G",
+    "keywords": [
+      "解组",
+      "ungroup"
+    ],
+    "pinyin": "jie chu fen zu jiechufenzu j c f z jcfz jie zu jiezu j z jz"
+  },
+  {
+    "id": "jsd-artboard",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "创建画板",
+      "en": "Create artboard"
+    },
+    "description": {
+      "zh": "新建一个画板",
+      "en": "Create a new artboard"
+    },
+    "windows": "Ctrl + Alt + G",
+    "mac": "⌘ ⌥ G",
+    "linux": "Ctrl + Alt + G",
+    "keywords": [
+      "画板",
+      "artboard",
+      "新建"
+    ],
+    "pinyin": "chuang jian hua ban chuangjianhuaban c j h b cjhb hua ban   xin jian huaban xinjian h b   x j hb xj"
+  },
+  {
+    "id": "jsd-component",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "创建引用组件",
+      "en": "Create component"
+    },
+    "description": {
+      "zh": "将选中对象创建为引用组件",
+      "en": "Create the selection as a main component"
+    },
+    "windows": "Ctrl + Alt + K",
+    "mac": "⌘ ⌥ K",
+    "linux": "Ctrl + Alt + K",
+    "keywords": [
+      "组件",
+      "component",
+      "引用"
+    ],
+    "pinyin": "chuang jian yin yong zu jian chuangjianyinyongzujian c j y y z j cjyyzj zu jian   yin yong zujian yinyong z j   y y zj yy"
+  },
+  {
+    "id": "jsd-detach-component",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "从引用组件分离",
+      "en": "Detach from component"
+    },
+    "description": {
+      "zh": "将实例从引用组件中分离",
+      "en": "Detach the instance from its main component"
+    },
+    "windows": "Ctrl + Alt + B",
+    "mac": "⌘ ⌥ B",
+    "linux": "Ctrl + Alt + B",
+    "keywords": [
+      "分离",
+      "组件",
+      "detach",
+      "component"
+    ],
+    "pinyin": "cong yin yong zu jian fen li congyinyongzujianfenli c y y z j f l cyyzjfl fen li   zu jian fenli zujian f l   z j fl zj"
+  },
+  {
+    "id": "jsd-mask",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "设置为蒙版",
+      "en": "Use as mask"
+    },
+    "description": {
+      "zh": "将选中对象设为蒙版",
+      "en": "Set the selection as a mask"
+    },
+    "windows": "Ctrl + Shift + M",
+    "mac": "⌘ ⇧ M",
+    "linux": "Ctrl + Shift + M",
+    "keywords": [
+      "蒙版",
+      "mask"
+    ],
+    "pinyin": "she zhi wei meng ban shezhiweimengban s z w m b szwmb meng ban mengban m b mb"
+  },
+  {
+    "id": "jsd-hide",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "显示/隐藏",
+      "en": "Show/hide"
+    },
+    "description": {
+      "zh": "切换选中图层的显示与隐藏",
+      "en": "Toggle visibility of the selected layer"
+    },
+    "windows": "Ctrl + Shift + H",
+    "mac": "⌘ ⇧ H",
+    "linux": "Ctrl + Shift + H",
+    "keywords": [
+      "显示",
+      "隐藏",
+      "hide",
+      "show"
+    ],
+    "pinyin": "xian shi / yin cang xianshi/yincang x s / y c xs/yc xian shi   yin cang xianshi yincang x s   y c xs yc"
+  },
+  {
+    "id": "jsd-lock",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "锁定/解锁",
+      "en": "Lock/unlock"
+    },
+    "description": {
+      "zh": "切换选中图层的锁定状态",
+      "en": "Toggle the lock state of the selected layer"
+    },
+    "windows": "Ctrl + Shift + L",
+    "mac": "⌘ ⇧ L",
+    "linux": "Ctrl + Shift + L",
+    "keywords": [
+      "锁定",
+      "lock",
+      "解锁"
+    ],
+    "pinyin": "suo ding / jie suo suoding/jiesuo s d / j s sd/js suo ding   jie suo suoding jiesuo s d   j s sd js"
+  },
+  {
+    "id": "jsd-scale",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "等比缩放",
+      "en": "Scale proportionally"
+    },
+    "description": {
+      "zh": "对选中对象进行等比缩放",
+      "en": "Scale the selection proportionally"
+    },
+    "windows": "Ctrl + K",
+    "mac": "⌘ K",
+    "linux": "Ctrl + K",
+    "keywords": [
+      "缩放",
+      "scale",
+      "等比"
+    ],
+    "pinyin": "deng bi suo fang dengbisuofang d b s f dbsf suo fang   deng bi suofang dengbi s f   d b sf db"
+  },
+  {
+    "id": "jsd-flatten",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "拼合图层",
+      "en": "Flatten"
+    },
+    "description": {
+      "zh": "将选中图层拼合为一个",
+      "en": "Flatten the selected layers into one"
+    },
+    "windows": "Ctrl + E",
+    "mac": "⌘ E",
+    "linux": "Ctrl + E",
+    "keywords": [
+      "拼合",
+      "flatten",
+      "图层"
+    ],
+    "pinyin": "pin he tu ceng pinhetuceng p h t c phtc pin he   tu ceng pinhe tuceng p h   t c ph tc"
+  },
+  {
+    "id": "jsd-upload-library",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "上传至资源库",
+      "en": "Upload to library"
+    },
+    "description": {
+      "zh": "将选中对象上传到资源库",
+      "en": "Upload the selection to the asset library"
+    },
+    "windows": "Ctrl + Shift + S",
+    "mac": "⌘ ⇧ S",
+    "linux": "Ctrl + Shift + S",
+    "keywords": [
+      "上传",
+      "资源库",
+      "library",
+      "upload"
+    ],
+    "pinyin": "shang chuan zhi zi yuan ku shangchuanzhiziyuanku s c z z y k sczzyk shang chuan   zi yuan ku shangchuan ziyuanku s c   z y k sc zyk"
+  },
+  {
+    "id": "jsd-save-version",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "保存历史版本",
+      "en": "Save version"
+    },
+    "description": {
+      "zh": "保存当前文件的历史版本",
+      "en": "Save a version of the current file"
+    },
+    "windows": "Ctrl + Alt + S",
+    "mac": "⌘ ⌥ S",
+    "linux": "Ctrl + Alt + S",
+    "keywords": [
+      "保存",
+      "版本",
+      "version",
+      "save"
+    ],
+    "pinyin": "bao cun li shi ban ben baocunlishibanben b c l s b b bclsbb bao cun   ban ben baocun banben b c   b b bc bb"
+  },
+  {
+    "id": "jsd-export",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "导出",
+      "en": "Export"
+    },
+    "description": {
+      "zh": "导出选中对象",
+      "en": "Export the selected object"
+    },
+    "windows": "Ctrl + Alt + E",
+    "mac": "⌘ ⌥ E",
+    "linux": "Ctrl + Alt + E",
+    "keywords": [
+      "导出",
+      "export"
+    ],
+    "pinyin": "dao chu daochu d c dc dao chu daochu d c dc"
+  },
+  {
+    "id": "jsd-preview",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "预览",
+      "en": "Preview"
+    },
+    "description": {
+      "zh": "预览当前设计",
+      "en": "Preview the current design"
+    },
+    "windows": "Ctrl + P",
+    "mac": "⌘ P",
+    "linux": "Ctrl + P",
+    "keywords": [
+      "预览",
+      "preview"
+    ],
+    "pinyin": "yu lan yulan y l yl yu lan yulan y l yl"
+  },
+  {
+    "id": "jsd-shortcut-panel",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "查看快捷键",
+      "en": "Show shortcuts"
+    },
+    "description": {
+      "zh": "打开快捷键面板",
+      "en": "Open the keyboard shortcuts panel"
+    },
+    "windows": "Ctrl + /",
+    "mac": "⌘ /",
+    "linux": "Ctrl + /",
+    "keywords": [
+      "快捷键",
+      "shortcut",
+      "帮助",
+      "help"
+    ],
+    "pinyin": "cha kan kuai jie jian chakankuaijiejian c k k j j ckkjj kuai jie jian   bang zhu kuaijiejian bangzhu k j j   b z kjj bz"
+  },
+  {
+    "id": "jsd-tool-select",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "选择工具",
+      "en": "Select tool"
+    },
+    "description": {
+      "zh": "切换到选择工具",
+      "en": "Switch to the select tool"
+    },
+    "windows": "V",
+    "mac": "V",
+    "linux": "V",
+    "keywords": [
+      "选择",
+      "select",
+      "工具",
+      "tool"
+    ],
+    "pinyin": "xuan ze gong ju xuanzegongju x z g j xzgj xuan ze   gong ju xuanze gongju x z   g j xz gj"
+  },
+  {
+    "id": "jsd-tool-rect",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "矩形工具",
+      "en": "Rectangle tool"
+    },
+    "description": {
+      "zh": "切换到矩形工具",
+      "en": "Switch to the rectangle tool"
+    },
+    "windows": "R",
+    "mac": "R",
+    "linux": "R",
+    "keywords": [
+      "矩形",
+      "rectangle",
+      "工具"
+    ],
+    "pinyin": "ju xing gong ju juxinggongju j x g j jxgj ju xing   gong ju juxing gongju j x   g j jx gj"
+  },
+  {
+    "id": "jsd-tool-ellipse",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "圆形工具",
+      "en": "Ellipse tool"
+    },
+    "description": {
+      "zh": "切换到圆形工具",
+      "en": "Switch to the ellipse tool"
+    },
+    "windows": "O",
+    "mac": "O",
+    "linux": "O",
+    "keywords": [
+      "圆形",
+      "ellipse",
+      "工具"
+    ],
+    "pinyin": "yuan xing gong ju yuanxinggongju y x g j yxgj yuan xing   gong ju yuanxing gongju y x   g j yx gj"
+  },
+  {
+    "id": "jsd-tool-line",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "直线工具",
+      "en": "Line tool"
+    },
+    "description": {
+      "zh": "切换到直线工具",
+      "en": "Switch to the line tool"
+    },
+    "windows": "L",
+    "mac": "L",
+    "linux": "L",
+    "keywords": [
+      "直线",
+      "line",
+      "工具"
+    ],
+    "pinyin": "zhi xian gong ju zhixiangongju z x g j zxgj zhi xian   gong ju zhixian gongju z x   g j zx gj"
+  },
+  {
+    "id": "jsd-tool-pen",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "钢笔工具",
+      "en": "Pen tool"
+    },
+    "description": {
+      "zh": "切换到钢笔工具",
+      "en": "Switch to the pen tool"
+    },
+    "windows": "P",
+    "mac": "P",
+    "linux": "P",
+    "keywords": [
+      "钢笔",
+      "pen",
+      "工具",
+      "矢量"
+    ],
+    "pinyin": "gang bi gong ju gangbigongju g b g j gbgj gang bi   gong ju   shi liang gangbi gongju shiliang g b   g j   s l gb gj sl"
+  },
+  {
+    "id": "jsd-tool-text",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "文本工具",
+      "en": "Text tool"
+    },
+    "description": {
+      "zh": "切换到文本工具",
+      "en": "Switch to the text tool"
+    },
+    "windows": "T",
+    "mac": "T",
+    "linux": "T",
+    "keywords": [
+      "文本",
+      "text",
+      "工具"
+    ],
+    "pinyin": "wen ben gong ju wenbengongju w b g j wbgj wen ben   gong ju wenben gongju w b   g j wb gj"
+  },
+  {
+    "id": "jsd-tool-slice",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "切片工具",
+      "en": "Slice tool"
+    },
+    "description": {
+      "zh": "切换到切片工具",
+      "en": "Switch to the slice tool"
+    },
+    "windows": "S",
+    "mac": "S",
+    "linux": "S",
+    "keywords": [
+      "切片",
+      "slice",
+      "工具",
+      "切图"
+    ],
+    "pinyin": "qie pian gong ju qiepiangongju q p g j qpgj qie pian   gong ju   qie tu qiepian gongju qietu q p   g j   q t qp gj qt"
+  },
+  {
+    "id": "jsd-tool-eyedropper",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "取色器",
+      "en": "Eyedropper"
+    },
+    "description": {
+      "zh": "切换到取色器工具",
+      "en": "Switch to the eyedropper tool"
+    },
+    "windows": "I",
+    "mac": "I",
+    "linux": "I",
+    "keywords": [
+      "取色",
+      "eyedropper",
+      "吸管",
+      "颜色"
+    ],
+    "pinyin": "qu se qi quseqi q s q qsq qu se   xi guan   yan se quse xiguan yanse q s   x g   y s qs xg ys"
+  },
+  {
+    "id": "jsd-bold",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "加粗文本",
+      "en": "Bold text"
+    },
+    "description": {
+      "zh": "将选中文本加粗",
+      "en": "Make the selected text bold"
+    },
+    "windows": "Ctrl + B",
+    "mac": "⌘ B",
+    "linux": "Ctrl + B",
+    "keywords": [
+      "加粗",
+      "bold",
+      "文本"
+    ],
+    "pinyin": "jia cu wen ben jiacuwenben j c w b jcwb jia cu   wen ben jiacu wenben j c   w b jc wb"
+  },
+  {
+    "id": "jsd-italic",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "倾斜文本",
+      "en": "Italic text"
+    },
+    "description": {
+      "zh": "将选中文本设为斜体",
+      "en": "Make the selected text italic"
+    },
+    "windows": "Ctrl + I",
+    "mac": "⌘ I",
+    "linux": "Ctrl + I",
+    "keywords": [
+      "倾斜",
+      "italic",
+      "文本"
+    ],
+    "pinyin": "qing xie wen ben qingxiewenben q x w b qxwb qing xie   wen ben qingxie wenben q x   w b qx wb"
+  },
+  {
+    "id": "jsd-increase-font",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "增大字号",
+      "en": "Increase font size"
+    },
+    "description": {
+      "zh": "增大选中文本的字号",
+      "en": "Increase the font size of the selected text"
+    },
+    "windows": "Ctrl + Shift + >",
+    "mac": "⌘ ⇧ >",
+    "linux": "Ctrl + Shift + >",
+    "keywords": [
+      "字号",
+      "font",
+      "增大"
+    ],
+    "pinyin": "zeng da zi hao zengdazihao z d z h zdzh zi hao   zeng da zihao zengda z h   z d zh zd"
+  },
+  {
+    "id": "jsd-decrease-font",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "减小字号",
+      "en": "Decrease font size"
+    },
+    "description": {
+      "zh": "减小选中文本的字号",
+      "en": "Decrease the font size of the selected text"
+    },
+    "windows": "Ctrl + Shift + <",
+    "mac": "⌘ ⇧ <",
+    "linux": "Ctrl + Shift + <",
+    "keywords": [
+      "字号",
+      "font",
+      "减小"
+    ],
+    "pinyin": "jian xiao zi hao jianxiaozihao j x z h jxzh zi hao   jian xiao zihao jianxiao z h   j x zh jx"
+  },
+  {
+    "id": "jsd-bring-front",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "移至顶层",
+      "en": "Bring to front"
+    },
+    "description": {
+      "zh": "将选中图层移至最顶层",
+      "en": "Bring the selected layer to the front"
+    },
+    "windows": "Ctrl + Alt + ]",
+    "mac": "⌘ ⌥ ]",
+    "linux": "Ctrl + Alt + ]",
+    "keywords": [
+      "顶层",
+      "front",
+      "图层"
+    ],
+    "pinyin": "yi zhi ding ceng yizhidingceng y z d c yzdc ding ceng   tu ceng dingceng tuceng d c   t c dc tc"
+  },
+  {
+    "id": "jsd-send-back",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "移至底层",
+      "en": "Send to back"
+    },
+    "description": {
+      "zh": "将选中图层移至最底层",
+      "en": "Send the selected layer to the back"
+    },
+    "windows": "Ctrl + Alt + [",
+    "mac": "⌘ ⌥ [",
+    "linux": "Ctrl + Alt + [",
+    "keywords": [
+      "底层",
+      "back",
+      "图层"
+    ],
+    "pinyin": "yi zhi di ceng yizhidiceng y z d c yzdc di ceng   tu ceng diceng tuceng d c   t c dc tc"
+  },
+  {
+    "id": "jsd-align-left",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "左对齐",
+      "en": "Align left"
+    },
+    "description": {
+      "zh": "将选中对象左对齐",
+      "en": "Align the selection to the left"
+    },
+    "windows": "Alt + A",
+    "mac": "⌥ A",
+    "linux": "Alt + A",
+    "keywords": [
+      "左对齐",
+      "align",
+      "left"
+    ],
+    "pinyin": "zuo dui qi zuoduiqi z d q zdq zuo dui qi zuoduiqi z d q zdq"
+  },
+  {
+    "id": "jsd-align-center-h",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "水平居中对齐",
+      "en": "Align center horizontally"
+    },
+    "description": {
+      "zh": "将选中对象水平居中",
+      "en": "Center the selection horizontally"
+    },
+    "windows": "Alt + H",
+    "mac": "⌥ H",
+    "linux": "Alt + H",
+    "keywords": [
+      "居中",
+      "center",
+      "对齐",
+      "align"
+    ],
+    "pinyin": "shui ping ju zhong dui qi shuipingjuzhongduiqi s p j z d q spjzdq ju zhong   dui qi juzhong duiqi j z   d q jz dq"
+  },
+  {
+    "id": "jsd-align-right",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "右对齐",
+      "en": "Align right"
+    },
+    "description": {
+      "zh": "将选中对象右对齐",
+      "en": "Align the selection to the right"
+    },
+    "windows": "Alt + D",
+    "mac": "⌥ D",
+    "linux": "Alt + D",
+    "keywords": [
+      "右对齐",
+      "align",
+      "right"
+    ],
+    "pinyin": "you dui qi youduiqi y d q ydq you dui qi youduiqi y d q ydq"
+  },
+  {
+    "id": "jsd-zoom-100",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "缩放到 100%",
+      "en": "Zoom to 100%"
+    },
+    "description": {
+      "zh": "将画布缩放至实际尺寸",
+      "en": "Zoom the canvas to actual size"
+    },
+    "windows": "Ctrl + 0",
+    "mac": "⌘ 0",
+    "linux": "Ctrl + 0",
+    "keywords": [
+      "缩放",
+      "zoom",
+      "100%"
+    ],
+    "pinyin": "suo fang dao   1 0 0 % suofangdao 100% s f d   1 0 0 % sfd 100% suo fang suofang s f sf"
+  },
+  {
+    "id": "jsd-zoom-fit",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "显示全部",
+      "en": "Zoom to fit"
+    },
+    "description": {
+      "zh": "缩放以显示全部内容",
+      "en": "Zoom to show all content"
+    },
+    "windows": "Ctrl + 1",
+    "mac": "⌘ 1",
+    "linux": "Ctrl + 1",
+    "keywords": [
+      "显示全部",
+      "fit",
+      "缩放"
+    ],
+    "pinyin": "xian shi quan bu xianshiquanbu x s q b xsqb xian shi quan bu   suo fang xianshiquanbu suofang x s q b   s f xsqb sf"
+  },
+  {
+    "id": "jsd-zoom-selection",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "显示选中内容",
+      "en": "Zoom to selection"
+    },
+    "description": {
+      "zh": "缩放以适配选中内容",
+      "en": "Zoom to fit the selection"
+    },
+    "windows": "Ctrl + 2",
+    "mac": "⌘ 2",
+    "linux": "Ctrl + 2",
+    "keywords": [
+      "选区",
+      "selection",
+      "缩放",
+      "zoom"
+    ],
+    "pinyin": "xian shi xuan zhong nei rong xianshixuanzhongneirong x s x z n r xsxznr xuan qu   suo fang xuanqu suofang x q   s f xq sf"
+  },
+  {
+    "id": "jsd-pixel-grid",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "像素网格",
+      "en": "Pixel grid"
+    },
+    "description": {
+      "zh": "切换像素网格显示",
+      "en": "Toggle the pixel grid"
+    },
+    "windows": "Ctrl + '",
+    "mac": "⌘ '",
+    "linux": "Ctrl + '",
+    "keywords": [
+      "像素",
+      "网格",
+      "pixel",
+      "grid"
+    ],
+    "pinyin": "xiang su wang ge xiangsuwangge x s w g xswg xiang su   wang ge xiangsu wangge x s   w g xs wg"
+  },
+  {
+    "id": "jsd-rulers",
+    "appId": "jsdesign",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "标尺",
+      "en": "Rulers"
+    },
+    "description": {
+      "zh": "切换标尺显示",
+      "en": "Toggle the rulers"
+    },
+    "windows": "Shift + R",
+    "mac": "⇧ R",
+    "linux": "Shift + R",
+    "keywords": [
+      "标尺",
+      "ruler"
+    ],
+    "pinyin": "biao chi biaochi b c bc biao chi biaochi b c bc"
+  }
+]

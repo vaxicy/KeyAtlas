@@ -1339,5 +1339,29 @@
       "rulers"
     ],
     "pinyin": "xian shi biao chi xianshibiaochi x s b c xsbc biao chi biaochi b c bc"
+  },
+  {
+    "id": "framer-reply-comment",
+    "appId": "framer",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "回复评论",
+      "en": "Reply Comment"
+    },
+    "description": {
+      "zh": "回复选中的评论",
+      "en": "Reply to the selected comment"
+    },
+    "windows": "P",
+    "mac": "P",
+    "linux": "P",
+    "keywords": [
+      "回复",
+      "评论",
+      "reply",
+      "comment"
+    ],
+    "pinyin": "hui fu ping lun huifupinglun h f pl hfpl ping lun pinglun p l pl"
   }
 ]

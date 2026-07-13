@@ -1,51 +1,26 @@
 [
   {
-    "id": "chatgpt-newtask",
+    "id": "chatgpt-showshortcuts",
     "appId": "chatgpt",
     "type": "software",
     "category": "productivity",
     "name": {
-      "zh": "新建任务",
-      "en": "New Task"
+      "zh": "显示所有快捷键",
+      "en": "Show All Shortcuts"
     },
     "description": {
-      "zh": "创建新任务",
-      "en": "Create new task"
+      "zh": "打开快捷键速查面板",
+      "en": "Open the keyboard shortcuts cheat sheet"
     },
-    "windows": "Ctrl+N",
-    "mac": "Cmd+N",
-    "linux": "Ctrl+N",
+    "windows": "Ctrl+/",
+    "mac": "Cmd+/",
+    "linux": "Ctrl+/",
     "keywords": [
-      "新建",
-      "任务",
-      "new",
-      "task"
+      "快捷键",
+      "shortcuts",
+      "帮助"
     ],
-    "pinyin": "xin jian ren wu xinjianrenwu x j r w xjrw xin jian   ren wu xinjian renwu x j   r w xj rw"
-  },
-  {
-    "id": "chatgpt-newtask-alt",
-    "appId": "chatgpt",
-    "type": "software",
-    "category": "productivity",
-    "name": {
-      "zh": "新建任务（备选）",
-      "en": "New Task (Alt)"
-    },
-    "description": {
-      "zh": "新建任务的备选快捷键",
-      "en": "Alternative shortcut for new task"
-    },
-    "windows": "Ctrl+Shift+O",
-    "mac": "Cmd+Shift+O",
-    "linux": "Ctrl+Shift+O",
-    "keywords": [
-      "新建",
-      "任务",
-      "new",
-      "task"
-    ],
-    "pinyin": "xin jian ren wu （ bei xuan ） xinjianrenwu（beixuan） x j r w （ b x ） xjrw（bx） xin jian   ren wu xinjian renwu x j   r w xj rw"
+    "pinyin": "xian shi suo you kuai jie jian xianshisuoyoukuaijiejian x s s y k j j xssykjj kuai jie jian   bang zhu kuaijiejian bangzhu k j j   b z kjj bz"
   },
   {
     "id": "chatgpt-newchat",
@@ -53,87 +28,44 @@
     "type": "software",
     "category": "productivity",
     "name": {
-      "zh": "新聊天",
+      "zh": "新建聊天",
       "en": "New Chat"
     },
     "description": {
-      "zh": "开始新对话",
-      "en": "Start new conversation"
+      "zh": "开始一个新的对话",
+      "en": "Start a new conversation"
     },
-    "windows": "Ctrl+Alt+N",
-    "mac": "Cmd+Option+N",
-    "linux": "Ctrl+Alt+N",
+    "windows": "Ctrl+Shift+O",
+    "mac": "Cmd+Shift+O",
+    "linux": "Ctrl+Shift+O",
     "keywords": [
-      "新聊天",
-      "new chat"
+      "新建",
+      "new chat",
+      "新对话"
     ],
-    "pinyin": "xin liao tian xinliaotian x l t xlt xin liao tian xinliaotian x l t xlt"
+    "pinyin": "xin jian liao tian xinjianliaotian x j l t xjlt xin jian   xin dui hua xinjian xinduihua x j   x d h xj xdh"
   },
   {
-    "id": "chatgpt-archive",
+    "id": "chatgpt-sidebar",
     "appId": "chatgpt",
     "type": "software",
     "category": "productivity",
     "name": {
-      "zh": "归档任务",
-      "en": "Archive Task"
+      "zh": "切换侧边栏",
+      "en": "Toggle Sidebar"
     },
     "description": {
-      "zh": "归档当前任务",
-      "en": "Archive current task"
+      "zh": "显示或隐藏侧边栏",
+      "en": "Show or hide the sidebar"
     },
-    "windows": "Ctrl+Shift+A",
-    "mac": "Cmd+Shift+A",
-    "linux": "Ctrl+Shift+A",
+    "windows": "Ctrl+Shift+S",
+    "mac": "Cmd+Shift+S",
+    "linux": "Ctrl+Shift+S",
     "keywords": [
-      "归档",
-      "archive"
+      "侧边栏",
+      "sidebar"
     ],
-    "pinyin": "gui dang ren wu guidangrenwu g d r w gdrw gui dang guidang g d gd"
-  },
-  {
-    "id": "chatgpt-notask",
-    "appId": "chatgpt",
-    "type": "software",
-    "category": "productivity",
-    "name": {
-      "zh": "新建无项目任务",
-      "en": "New No-Project Task"
-    },
-    "description": {
-      "zh": "创建无项目的新任务",
-      "en": "Create new task without project"
-    },
-    "windows": "Ctrl+Alt+O",
-    "mac": "Cmd+Option+O",
-    "linux": "Ctrl+Alt+O",
-    "keywords": [
-      "无项目",
-      "no project"
-    ],
-    "pinyin": "xin jian wu xiang mu ren wu xinjianwuxiangmurenwu x j w x m r w xjwxmrw wu xiang mu wuxiangmu w x m wxm"
-  },
-  {
-    "id": "chatgpt-pin",
-    "appId": "chatgpt",
-    "type": "software",
-    "category": "productivity",
-    "name": {
-      "zh": "切换置顶状态",
-      "en": "Toggle Pin Status"
-    },
-    "description": {
-      "zh": "切换任务置顶状态",
-      "en": "Toggle pin status of task"
-    },
-    "windows": "Ctrl+Alt+P",
-    "mac": "Cmd+Option+P",
-    "linux": "Ctrl+Alt+P",
-    " keywords": [
-      "置顶",
-      "pin"
-    ],
-    "pinyin": "qie huan zhi ding zhuang tai qiehuanzhidingzhuangtai q h z d z t qhzdzt"
+    "pinyin": "qie huan ce bian lan qiehuancebianlan q h c b l qhcbl ce bian lan cebianlan c b l cbl"
   },
   {
     "id": "chatgpt-find",
@@ -141,12 +73,12 @@
     "type": "software",
     "category": "productivity",
     "name": {
-      "zh": "查找",
-      "en": "Find"
+      "zh": "页面内查找",
+      "en": "Find on Page"
     },
     "description": {
-      "zh": "在对话中查找内容",
-      "en": "Find in conversation"
+      "zh": "在当前对话中查找文本",
+      "en": "Find text within the current conversation"
     },
     "windows": "Ctrl+F",
     "mac": "Cmd+F",
@@ -156,73 +88,31 @@
       "find",
       "搜索"
     ],
-    "pinyin": "cha zhao chazhao c z cz cha zhao   sou suo chazhao sousuo c z   s s cz ss"
+    "pinyin": "ye mian nei cha zhao yemianneichazhao y m n c z ymncz cha zhao   sou suo chazhao sousuo c z   s s cz ss"
   },
   {
-    "id": "chatgpt-back",
+    "id": "chatgpt-jumptab",
     "appId": "chatgpt",
     "type": "software",
     "category": "productivity",
     "name": {
-      "zh": "返回",
-      "en": "Go Back"
+      "zh": "切换到标签页 1–9",
+      "en": "Jump to Tab 1–9"
     },
     "description": {
-      "zh": "返回上一个页面或位置",
-      "en": "Go back to previous page or location"
+      "zh": "跳转到指定编号的聊天标签页",
+      "en": "Jump to the chat tab with the given number"
     },
-    "windows": "Ctrl+[",
-    "mac": "Cmd+[",
-    "linux": "Ctrl+[",
+    "windows": "Ctrl+1 … Ctrl+9",
+    "mac": "Cmd+1 … Cmd+9",
+    "linux": "Ctrl+1 … Ctrl+9",
     "keywords": [
-      "返回",
-      "back"
+      "标签页",
+      "tab",
+      "切换",
+      "聊天"
     ],
-    "pinyin": "fan hui fanhui f h fh fan hui fanhui f h fh"
-  },
-  {
-    "id": "chatgpt-forward",
-    "appId": "chatgpt",
-    "type": "software",
-    "category": "productivity",
-    "name": {
-      "zh": "前进",
-      "en": "Go Forward"
-    },
-    "description": {
-      "zh": "前进到下一个页面或位置",
-      "en": "Go forward to next page or location"
-    },
-    "windows": "Ctrl+]",
-    "mac": "Cmd+]",
-    "linux": "Ctrl+]",
-    "keywords": [
-      "前进",
-      "forward"
-    ],
-    "pinyin": "qian jin qianjin q j qj qian jin qianjin q j qj"
-  },
-  {
-    "id": "chatgpt-nextrecent",
-    "appId": "chatgpt",
-    "type": "software",
-    "category": "productivity",
-    "name": {
-      "zh": "下一个最近查看的任务",
-      "en": "Next Recent Task"
-    },
-    "description": {
-      "zh": "切换到下一个最近查看的任务",
-      "en": "Switch to next recently viewed task"
-    },
-    "windows": "Ctrl+Tab",
-    "mac": "Cmd+Tab",
-    "linux": "Ctrl+Tab",
-    "keywords": [
-      "最近",
-      "recent"
-    ],
-    "pinyin": "xia yi ge zui jin cha kan de ren wu xiayigezuijinchakanderenwu x y g z j c k d r w xygzjckdrw zui jin zuijin z j zj"
+    "pinyin": "qie huan dao biao qian ye   1 – 9 qiehuandaobiaoqianye 1–9 q h d b q y   1 – 9 qhdbqy 1–9 biao qian ye   qie huan   liao tian biaoqianye qiehuan liaotian b q y   q h   l t bqy qh lt"
   },
   {
     "id": "chatgpt-nexttab",
@@ -235,38 +125,17 @@
     },
     "description": {
       "zh": "切换到下一个标签页",
-      "en": "Switch to next tab"
+      "en": "Switch to the next tab"
     },
     "windows": "Ctrl+Tab",
-    "mac": "Cmd+Tab",
+    "mac": "Ctrl+Tab",
     "linux": "Ctrl+Tab",
     "keywords": [
       "标签页",
-      "tab"
+      "tab",
+      "下一个"
     ],
-    "pinyin": "xia yi ge biao qian ye xiayigebiaoqianye x y g b q y xygbqy biao qian ye biaoqianye b q y bqy"
-  },
-  {
-    "id": "chatgpt-nexttask",
-    "appId": "chatgpt",
-    "type": "software",
-    "category": "productivity",
-    "name": {
-      "zh": "下一项任务",
-      "en": "Next Task"
-    },
-    "description": {
-      "zh": "切换到下一项任务",
-      "en": "Switch to next task"
-    },
-    "windows": "Ctrl+Shift+]",
-    "mac": "Cmd+Shift+]",
-    "linux": "Ctrl+Shift+]",
-    "keywords": [
-      "下一项",
-      "next task"
-    ],
-    "pinyin": "xia yi xiang ren wu xiayixiangrenwu x y x r w xyxrw xia yi xiang xiayixiang x y x xyx"
+    "pinyin": "xia yi ge biao qian ye xiayigebiaoqianye x y g b q y xygbqy biao qian ye   xia yi ge biaoqianye xiayige b q y   x y g bqy xyg"
   },
   {
     "id": "chatgpt-prevtab",
@@ -279,789 +148,298 @@
     },
     "description": {
       "zh": "切换到上一个标签页",
-      "en": "Switch to previous tab"
+      "en": "Switch to the previous tab"
     },
     "windows": "Ctrl+Shift+Tab",
-    "mac": "Cmd+Shift+Tab",
+    "mac": "Ctrl+Shift+Tab",
     "linux": "Ctrl+Shift+Tab",
     "keywords": [
       "标签页",
-      "tab"
+      "tab",
+      "上一个"
     ],
-    "pinyin": "shang yi ge biao qian ye shangyigebiaoqianye s y g b q y sygbqy biao qian ye biaoqianye b q y bqy"
+    "pinyin": "shang yi ge biao qian ye shangyigebiaoqianye s y g b q y sygbqy biao qian ye   shang yi ge biaoqianye shangyige b q y   s y g bqy syg"
   },
   {
-    "id": "chatgpt-prevtask",
+    "id": "chatgpt-focusinput",
     "appId": "chatgpt",
     "type": "software",
     "category": "productivity",
     "name": {
-      "zh": "上一项任务",
-      "en": "Previous Task"
+      "zh": "聚焦输入框",
+      "en": "Focus Chat Input"
     },
     "description": {
-      "zh": "切换到上一项任务",
-      "en": "Switch to previous task"
+      "zh": "将焦点移到输入框（取消界面聚焦）",
+      "en": "Move focus to the input box / dismiss UI focus"
     },
-    "windows": "Ctrl+Shift+[",
-    "mac": "Cmd+Shift+[",
-    "linux": "Ctrl+Shift+[",
+    "windows": "Shift+Esc",
+    "mac": "Shift+Esc",
+    "linux": "Shift+Esc",
     "keywords": [
-      "上一项",
-      "previous task"
+      "聚焦",
+      "输入框",
+      "focus",
+      "input"
     ],
-    "pinyin": "shang yi xiang ren wu shangyixiangrenwu s y x r w syxrw shang yi xiang shangyixiang s y x syx"
+    "pinyin": "ju jiao shu ru kuang jujiaoshurukuang j j s r k jjsrk ju jiao   shu ru kuang jujiao shurukuang j j   s r k jj srk"
   },
   {
-    "id": "chatgpt-browser-tab",
+    "id": "chatgpt-stop",
     "appId": "chatgpt",
     "type": "software",
     "category": "productivity",
     "name": {
-      "zh": "打开浏览器标签页",
-      "en": "Open Browser Tab"
+      "zh": "停止生成",
+      "en": "Stop Generation"
     },
     "description": {
-      "zh": "打开浏览器中的标签页",
-      "en": "Open browser tab"
+      "zh": "停止正在生成的回复",
+      "en": "Stop the streaming response"
     },
-    "windows": "Ctrl+T",
-    "mac": "Cmd+T",
-    "linux": "Ctrl+T",
+    "windows": "Esc",
+    "mac": "Esc",
+    "linux": "Esc",
     "keywords": [
-      "浏览器",
-      "browser",
-      "标签"
+      "停止",
+      "stop",
+      "取消",
+      "esc"
     ],
-    "pinyin": "da kai liu lan qi biao qian ye dakailiulanqibiaoqianye d k l l q b q y dkllqbqy liu lan qi   biao qian liulanqi biaoqian l l q   b q llq bq"
+    "pinyin": "ting zhi sheng cheng tingzhishengcheng t z s c tzsc ting zhi   qu xiao tingzhi quxiao t z   q x tz qx"
   },
   {
-    "id": "chatgpt-bottom-panel",
+    "id": "chatgpt-send",
     "appId": "chatgpt",
     "type": "software",
     "category": "productivity",
     "name": {
-      "zh": "切换底部面板",
-      "en": "Toggle Bottom Panel"
+      "zh": "发送消息",
+      "en": "Send Message"
     },
     "description": {
-      "zh": "显示/隐藏底部面板",
-      "en": "Toggle bottom panel visibility"
+      "zh": "发送当前输入框内容",
+      "en": "Send the message in the input box"
     },
-    "windows": "Ctrl+J",
-    "mac": "Cmd+J",
-    "linux": "Ctrl+J",
+    "windows": "Enter",
+    "mac": "Return",
+    "linux": "Enter",
     "keywords": [
-      "底部",
-      "面板",
-      "bottom panel"
+      "发送",
+      "send",
+      "消息"
     ],
-    "pinyin": "qie huan di bu mian ban qiehuandibumianban q h d b m b qhdbmb di bu   mian ban dibu mianban d b   m b db mb"
+    "pinyin": "fa song xiao xi fasongxiaoxi f s x x fsxx fa song   xiao xi fasong xiaoxi f s   x x fs xx"
   },
   {
-    "id": "chatgpt-browser-panel",
+    "id": "chatgpt-newline",
     "appId": "chatgpt",
     "type": "software",
     "category": "productivity",
     "name": {
-      "zh": "显示/隐藏浏览器面板",
-      "en": "Show/Hide Browser Panel"
+      "zh": "换行（不发送）",
+      "en": "New Line"
     },
     "description": {
-      "zh": "切换浏览器面板的可见性",
-      "en": "Toggle browser panel visibility"
+      "zh": "在输入框内换行而不发送",
+      "en": "Insert a new line without sending"
     },
-    "windows": "Ctrl+Shift+B",
-    "mac": "Cmd+Shift+B",
-    "linux": "Ctrl+Shift+B",
+    "windows": "Shift+Enter",
+    "mac": "Shift+Return",
+    "linux": "Shift+Enter",
     "keywords": [
-      "浏览器",
-      "面板",
-      "browser panel"
+      "换行",
+      "new line",
+      "不发送"
     ],
-    "pinyin": "xian shi / yin cang liu lan qi mian ban xianshi/yincangliulanqimianban x s / y c l l q m b xs/ycllqmb liu lan qi   mian ban liulanqi mianban l l q   m b llq mb"
+    "pinyin": "huan hang （ bu fa song ） huanhang（bufasong） h h （ b f s ） hh（bfs） huan hang   bu fa song huanhang bufasong h h   b f s hh bfs"
   },
   {
-    "id": "chatgpt-sidebar",
+    "id": "chatgpt-forcesend",
     "appId": "chatgpt",
     "type": "software",
     "category": "productivity",
     "name": {
-      "zh": "切换边栏",
-      "en": "Toggle Sidebar"
+      "zh": "强制发送",
+      "en": "Force Send"
     },
     "description": {
-      "zh": "显示/隐藏边栏",
-      "en": "Toggle sidebar visibility"
+      "zh": "当关闭回车发送时强制发送",
+      "en": "Force-send when send-on-Enter is off"
     },
-    "windows": "Ctrl+B",
-    "mac": "Cmd+B",
-    "linux": "Ctrl+B",
+    "windows": "Ctrl+Enter",
+    "mac": "Cmd+Return",
+    "linux": "Ctrl+Enter",
     "keywords": [
-      "边栏",
-      "sidebar"
+      "强制发送",
+      "force send"
     ],
-    "pinyin": "qie huan bian lan qiehuanbianlan q h b l qhbl bian lan bianlan b l bl"
+    "pinyin": "qiang zhi fa song qiangzhifasong q z f s qzfs qiang zhi fa song qiangzhifasong q z f s qzfs"
   },
   {
-    "id": "chatgpt-sidepanel",
+    "id": "chatgpt-copycode",
     "appId": "chatgpt",
     "type": "software",
     "category": "productivity",
     "name": {
-      "zh": "切换侧边面板",
-      "en": "Toggle Side Panel"
+      "zh": "复制最后一个代码块",
+      "en": "Copy Last Code Block"
     },
     "description": {
-      "zh": "显示/隐藏侧边面板",
-      "en": "Toggle side panel visibility"
+      "zh": "复制回复中最后一个代码块",
+      "en": "Copy the last code block in the response"
     },
-    "windows": "Ctrl+Alt+B",
-    "mac": "Cmd+Option+B",
-    "linux": "Ctrl+Alt+B",
+    "windows": "Ctrl+Shift+;",
+    "mac": "Cmd+Shift+;",
+    "linux": "Ctrl+Shift+;",
     "keywords": [
-      "侧边面板",
-      "side panel"
+      "复制",
+      "copy",
+      "代码",
+      "code"
     ],
-    "pinyin": "qie huan ce bian mian ban qiehuancebianmianban q h c b m b qhcbmb ce bian mian ban cebianmianban c b m b cbmb"
+    "pinyin": "fu zhi zui hou yi ge dai ma kuai fuzhizuihouyigedaimakuai f z z h y g d m k fzzhygdmk fu zhi   dai ma fuzhi daima f z   d m fz dm"
   },
   {
-    "id": "chatgpt-terminal",
+    "id": "chatgpt-copyresponse",
     "appId": "chatgpt",
     "type": "software",
     "category": "productivity",
     "name": {
-      "zh": "打开终端",
-      "en": "Open Terminal"
+      "zh": "复制完整回复",
+      "en": "Copy Last Response"
     },
     "description": {
-      "zh": "打开内置终端",
-      "en": "Open built-in terminal"
-    },
-    "windows": "Ctrl+`",
-    "mac": "Cmd+`",
-    "linux": "Ctrl+`",
-    "keywords": [
-      "终端",
-      "terminal"
-    ],
-    "pinyin": "da kai zhong duan dakaizhongduan d k z d dkzd zhong duan zhongduan z d zd"
-  },
-  {
-    "id": "chatgpt-openfolder",
-    "appId": "chatgpt",
-    "type": "software",
-    "category": "productivity",
-    "name": {
-      "zh": "打开文件夹",
-      "en": "Open Folder"
-    },
-    "description": {
-      "zh": "打开文件夹",
-      "en": "Open folder"
-    },
-    "windows": "Ctrl+O",
-    "mac": "Cmd+O",
-    "linux": "Ctrl+O",
-    "keywords": [
-      "文件夹",
-      "folder"
-    ],
-    "pinyin": "da kai wen jian jia dakaiwenjianjia d k w j j dkwjj wen jian jia wenjianjia w j j wjj"
-  },
-  {
-    "id": "chatgpt-settings",
-    "appId": "chatgpt",
-    "type": "software",
-    "category": "productivity",
-    "name": {
-      "zh": "设置",
-      "en": "Settings"
-    },
-    "description": {
-      "zh": "打开设置页面",
-      "en": "Open settings page"
-    },
-    "windows": "Ctrl+,",
-    "mac": "Cmd+,",
-    "linux": "Ctrl+,",
-    "keywords": [
-      "设置",
-      "settings"
-    ],
-    "pinyin": "she zhi shezhi s z sz she zhi shezhi s z sz"
-  },
-  {
-    "id": "chatgpt-closetab",
-    "appId": "chatgpt",
-    "type": "software",
-    "category": "productivity",
-    "name": {
-      "zh": "关闭标签页",
-      "en": "Close Tab"
-    },
-    "description": {
-      "zh": "关闭当前标签页",
-      "en": "Close current tab"
-    },
-    "windows": "Ctrl+W",
-    "mac": "Cmd+W",
-    "linux": "Ctrl+W",
-    "keywords": [
-      "关闭",
-      "close",
-      "标签"
-    ],
-    "pinyin": "guan bi biao qian ye guanbibiaoqianye g b b q y gbbqy guan bi   biao qian guanbi biaoqian g b   b q gb bq"
-  },
-  {
-    "id": "chatgpt-close",
-    "appId": "chatgpt",
-    "type": "software",
-    "category": "productivity",
-    "name": {
-      "zh": "关闭",
-      "en": "Close"
-    },
-    "description": {
-      "zh": "关闭窗口",
-      "en": "Close window"
-    },
-    "windows": "Ctrl+W",
-    "mac": "Cmd+W",
-    "linux": "Ctrl+W",
-    "keywords": [
-      "关闭",
-      "close"
-    ],
-    "pinyin": "guan bi guanbi g b gb guan bi guanbi g b gb"
-  },
-  {
-    "id": "chatgpt-model",
-    "appId": "chatgpt",
-    "type": "software",
-    "category": "productivity",
-    "name": {
-      "zh": "打开模型选择器",
-      "en": "Open Model Selector"
-    },
-    "description": {
-      "zh": "打开 AI 模型选择菜单",
-      "en": "Open AI model selection menu"
-    },
-    "windows": "Ctrl+Shift+M",
-    "mac": "Cmd+Shift+M",
-    "linux": "Ctrl+Shift+M",
-    "keywords": [
-      "模型",
-      "model",
-      "AI"
-    ],
-    "pinyin": "da kai mo xing xuan ze qi dakaimoxingxuanzeqi d k m x x z q dkmxxzq mo xing moxing m x mx"
-  },
-  {
-    "id": "chatgpt-deeplink",
-    "appId": "chatgpt",
-    "type": "software",
-    "category": "productivity",
-    "name": {
-      "zh": "复制 Deeplink",
-      "en": "Copy Deep Link"
-    },
-    "description": {
-      "zh": "复制当前对话的深度链接",
-      "en": "Copy deep link of current conversation"
-    },
-    "windows": "Ctrl+Alt+L",
-    "mac": "Cmd+Option+L",
-    "linux": "Ctrl+Alt+L",
-    "keywords": [
-      "deeplink",
-      "链接",
-      "link"
-    ],
-    "pinyin": "fu zhi   d e e p l i n k fuzhi deeplink f z   d e e p l i n k fz deeplink lian jie lianjie l j lj"
-  },
-  {
-    "id": "chatgpt-session-id",
-    "appId": "chatgpt",
-    "type": "software",
-    "category": "productivity",
-    "name": {
-      "zh": "复制 Session ID",
-      "en": "Copy Session ID"
-    },
-    "description": {
-      "zh": "复制当前会话 ID",
-      "en": "Copy current session ID"
-    },
-    "windows": "Ctrl+Alt+C",
-    "mac": "Cmd+Option+C",
-    "linux": "Ctrl+Alt+C",
-    "keywords": [
-      "session",
-      "ID",
-      "会话"
-    ],
-    "pinyin": "fu zhi   s e s s i o n   i d fuzhi session id f z   s e s s i o n   i d fz session id hui hua huihua h h hh"
-  },
-  {
-    "id": "chatgpt-copy-workdir",
-    "appId": "chatgpt",
-    "type": "software",
-    "category": "productivity",
-    "name": {
-      "zh": "复制工作目录",
-      "en": "Copy Working Directory"
-    },
-    "description": {
-      "zh": "复制当前工作目录路径",
-      "en": "Copy current working directory path"
+      "zh": "复制上一条完整回复",
+      "en": "Copy the full last response"
     },
     "windows": "Ctrl+Shift+C",
     "mac": "Cmd+Shift+C",
     "linux": "Ctrl+Shift+C",
     "keywords": [
-      "目录",
-      "directory",
-      "路径"
+      "复制",
+      "copy",
+      "回复",
+      "response"
     ],
-    "pinyin": "fu zhi gong zuo mu lu fuzhigongzuomulu f z g z m l fzgzml mu lu   lu jing mulu lujing m l   l j ml lj"
+    "pinyin": "fu zhi wan zheng hui fu fuzhiwanzhenghuifu f z w z h f fzwzhf fu zhi   hui fu fuzhi huifu f z   h f fz hf"
   },
   {
-    "id": "chatgpt-reload-force",
+    "id": "chatgpt-companion-win",
     "appId": "chatgpt",
     "type": "software",
     "category": "productivity",
     "name": {
-      "zh": "强制刷新浏览器页面",
-      "en": "Force Reload Browser Page"
+      "zh": "打开 Companion 窗口（Win 桌面端）",
+      "en": "Open Companion Window (Windows)"
     },
     "description": {
-      "zh": "强制重新加载浏览器页面",
-      "en": "Force reload browser page"
+      "zh": "Windows 桌面端全局打开 ChatGPT  companion 窗口",
+      "en": "Open the ChatGPT companion window globally on Windows desktop"
     },
-    "windows": "Ctrl+Shift+R",
-    "mac": "Cmd+Shift+R",
-    "linux": "Ctrl+Shift+R",
+    "windows": "Alt+Space",
+    "mac": "—",
+    "linux": "—",
     "keywords": [
-      "刷新",
-      "reload",
-      "重载"
+      "companion",
+      "窗口",
+      "全局",
+      "桌面端"
     ],
-    "pinyin": "qiang zhi shua xin liu lan qi ye mian qiangzhishuaxinliulanqiyemian q z s x l l q y m qzsxllqym shua xin   zhong zai shuaxin zhongzai s x   z z sx zz"
+    "pinyin": "da kai   c o m p a n i o n   chuang kou （ w i n   zhuo mian duan ） dakai companion chuangkou（win zhuomianduan） d k   c o m p a n i o n   c k （ w i n   z m d ） dk companion ck（win zmd） chuang kou   quan ju   zhuo mian duan chuangkou quanju zhuomianduan c k   q j   z m d ck qj zmd"
   },
   {
-    "id": "chatgpt-newwindow",
+    "id": "chatgpt-companion-mac",
     "appId": "chatgpt",
     "type": "software",
     "category": "productivity",
     "name": {
-      "zh": "新建窗口",
-      "en": "New Window"
+      "zh": "打开 Chat Bar（Mac 桌面端）",
+      "en": "Open Chat Bar (Mac)"
     },
     "description": {
-      "zh": "打开新窗口",
-      "en": "Open new window"
+      "zh": "Mac 桌面端全局打开 ChatGPT Chat Bar",
+      "en": "Open the ChatGPT Chat Bar globally on Mac desktop"
     },
-    "windows": "Ctrl+Shift+N",
-    "mac": "Cmd+Shift+N",
-    "linux": "Ctrl+Shift+N",
+    "windows": "—",
+    "mac": "Option+Space",
+    "linux": "—",
     "keywords": [
-      "新窗口",
-      "new window"
+      "chat bar",
+      "全局",
+      "桌面端",
+      "mac"
     ],
-    "pinyin": "xin jian chuang kou xinjianchuangkou x j c k xjck xin chuang kou xinchuangkou x c k xck"
+    "pinyin": "da kai   c h a t   b a r （ m a c   zhuo mian duan ） dakai chat bar（mac zhuomianduan） d k   c h a t   b a r （ m a c   z m d ） dk chat bar（mac zmd） quan ju   zhuo mian duan quanju zhuomianduan q j   z m d qj zmd"
   },
   {
-    "id": "chatgpt-command-menu",
+    "id": "chatgpt-customize",
     "appId": "chatgpt",
     "type": "software",
     "category": "productivity",
     "name": {
-      "zh": "打开命令菜单",
-      "en": "Open Command Menu"
+      "zh": "自定义 Companion 热键",
+      "en": "Customize Companion Hotkey"
     },
     "description": {
-      "zh": "打开命令面板",
-      "en": "Open command palette"
+      "zh": "打开 Companion / Chat Bar 热键设置",
+      "en": "Open companion hotkey customization"
     },
-    "windows": "Ctrl+K",
-    "mac": "Cmd+K",
-    "linux": "Ctrl+K",
+    "windows": "Ctrl+,",
+    "mac": "Cmd+,",
+    "linux": "Ctrl+,",
     "keywords": [
-      "命令",
-      "command",
-      "菜单"
+      "自定义",
+      "customize",
+      "热键",
+      "设置"
     ],
-    "pinyin": "da kai ming ling cai dan dakaiminglingcaidan d k m l c d dkmlcd ming ling   cai dan mingling caidan m l   c d ml cd"
+    "pinyin": "zi ding yi   c o m p a n i o n   re jian zidingyi companion rejian z d y   c o m p a n i o n   r j zdy companion rj zi ding yi   re jian   she zhi zidingyi rejian shezhi z d y   r j   s z zdy rj sz"
   },
   {
-    "id": "chatgpt-command-menu-alt",
+    "id": "chatgpt-hide",
     "appId": "chatgpt",
     "type": "software",
     "category": "productivity",
     "name": {
-      "zh": "打开命令菜单（备选）",
-      "en": "Open Command Menu (Alt)"
+      "zh": "隐藏到托盘 / 隐藏应用",
+      "en": "Hide to Tray / Hide App"
     },
     "description": {
-      "zh": "打开命令面板的备选快捷键",
-      "en": "Alternative shortcut for command palette"
+      "zh": "Windows 隐藏到系统托盘；Mac 隐藏应用",
+      "en": "Hide to tray on Windows; hide app on Mac"
     },
-    "windows": "Ctrl+Shift+P",
-    "mac": "Cmd+Shift+P",
-    "linux": "Ctrl+Shift+P",
+    "windows": "Ctrl+W",
+    "mac": "Cmd+H",
+    "linux": "Ctrl+W",
     "keywords": [
-      "命令",
-      "command",
-      "菜单"
+      "隐藏",
+      "hide",
+      "托盘"
     ],
-    "pinyin": "da kai ming ling cai dan （ bei xuan ） dakaiminglingcaidan（beixuan） d k m l c d （ b x ） dkmlcd（bx） ming ling   cai dan mingling caidan m l   c d ml cd"
+    "pinyin": "yin cang dao tuo pan   /   yin cang ying yong yincangdaotuopan / yincangyingyong y c d t p   /   y c y y ycdtp / ycyy yin cang   tuo pan yincang tuopan y c   t p yc tp"
   },
   {
-    "id": "chatgpt-reload",
+    "id": "chatgpt-quit",
     "appId": "chatgpt",
     "type": "software",
     "category": "productivity",
     "name": {
-      "zh": "刷新浏览器页面",
-      "en": "Reload Browser Page"
+      "zh": "退出应用",
+      "en": "Quit App"
     },
     "description": {
-      "zh": "重新加载浏览器页面",
-      "en": "Reload browser page"
+      "zh": "退出 ChatGPT 桌面应用",
+      "en": "Quit the ChatGPT desktop app"
     },
-    "windows": "Ctrl+R",
-    "mac": "Cmd+R",
-    "linux": "Ctrl+R",
+    "windows": "Alt+F4",
+    "mac": "Cmd+Q",
+    "linux": "Alt+F4",
     "keywords": [
-      "刷新",
-      "reload"
+      "退出",
+      "quit",
+      "关闭应用"
     ],
-    "pinyin": "shua xin liu lan qi ye mian shuaxinliulanqiyemian s x l l q y m sxllqym shua xin shuaxin s x sx"
-  },
-  {
-    "id": "chatgpt-rename-task",
-    "appId": "chatgpt",
-    "type": "software",
-    "category": "productivity",
-    "name": {
-      "zh": "重命名任务",
-      "en": "Rename Task"
-    },
-    "description": {
-      "zh": "重命名当前任务",
-      "en": "Rename current task"
-    },
-    "windows": "Ctrl+Alt+R",
-    "mac": "Cmd+Option+R",
-    "linux": "Ctrl+Alt+R",
-    "keywords": [
-      "重命名",
-      "rename",
-      "任务"
-    ],
-    "pinyin": "zhong ming ming ren wu zhongmingmingrenwu z m m r w zmmrw zhong ming ming   ren wu zhongmingming renwu z m m   r w zmm rw"
-  },
-  {
-    "id": "chatgpt-search-tasks",
-    "appId": "chatgpt",
-    "type": "software",
-    "category": "productivity",
-    "name": {
-      "zh": "搜索任务",
-      "en": "Search Tasks"
-    },
-    "description": {
-      "zh": "搜索所有任务",
-      "en": "Search through all tasks"
-    },
-    "windows": "Ctrl+G",
-    "mac": "Cmd+G",
-    "linux": "Ctrl+G",
-    "keywords": [
-      "搜索",
-      "search",
-      "任务"
-    ],
-    "pinyin": "sou suo ren wu sousuorenwu s s r w ssrw sou suo   ren wu sousuo renwu s s   r w ss rw"
-  },
-  {
-    "id": "chatgpt-search-files",
-    "appId": "chatgpt",
-    "type": "software",
-    "category": "productivity",
-    "name": {
-      "zh": "搜索文件",
-      "en": "Search Files"
-    },
-    "description": {
-      "zh": "搜索项目中的文件",
-      "en": "Search files in project"
-    },
-    "windows": "Ctrl+P",
-    "mac": "Cmd+P",
-    "linux": "Ctrl+P",
-    "keywords": [
-      "搜索",
-      "search",
-      "文件"
-    ],
-    "pinyin": "sou suo wen jian sousuowenjian s s w j sswj sou suo   wen jian sousuo wenjian s s   w j ss wj"
-  },
-  {
-    "id": "chatgpt-show-shortcuts",
-    "appId": "chatgpt",
-    "type": "software",
-    "category": "productivity",
-    "name": {
-      "zh": "显示键盘快捷键",
-      "en": "Show Keyboard Shortcuts"
-    },
-    "description": {
-      "zh": "显示所有键盘快捷键列表",
-      "en": "Show keyboard shortcuts reference"
-    },
-    "windows": "Ctrl+Shift+/",
-    "mac": "Cmd+Shift+/",
-    "linux": "Ctrl+Shift+/",
-    "keywords": [
-      "快捷键",
-      "shortcuts",
-      "帮助"
-    ],
-    "pinyin": "xian shi jian pan kuai jie jian xianshijianpankuaijiejian x s j p k j j xsjpkjj kuai jie jian   bang zhu kuaijiejian bangzhu k j j   b z kjj bz"
-  },
-  {
-    "id": "chatgpt-gotask1",
-    "appId": "chatgpt",
-    "type": "software",
-    "category": "productivity",
-    "name": {
-      "zh": "转到任务 1",
-      "en": "Switch to Task 1"
-    },
-    "description": {
-      "zh": "切换到第 1 个任务",
-      "en": "Switch to task #1"
-    },
-    "windows": "Ctrl+1",
-    "mac": "Cmd+1",
-    "linux": "Ctrl+1",
-    "keywords": [
-      "任务",
-      "task",
-      "切换"
-    ],
-    "pinyin": "zhuan dao ren wu   1 zhuandaorenwu 1 z d r w   1 zdrw 1 ren wu   qie huan renwu qiehuan r w   q h rw qh"
-  },
-  {
-    "id": "chatgpt-gotask2",
-    "appId": "chatgpt",
-    "type": "software",
-    "category": "productivity",
-    "name": {
-      "zh": "转到任务 2",
-      "en": "Switch to Task 2"
-    },
-    "description": {
-      "zh": "切换到第 2 个任务",
-      "en": "Switch to task #2"
-    },
-    "windows": "Ctrl+2",
-    "mac": "Cmd+2",
-    "linux": "Ctrl+2",
-    "keywords": [
-      "任务",
-      "task",
-      "切换"
-    ],
-    "pinyin": "zhuan dao ren wu   2 zhuandaorenwu 2 z d r w   2 zdrw 2 ren wu   qie huan renwu qiehuan r w   q h rw qh"
-  },
-  {
-    "id": "chatgpt-gotask3",
-    "appId": "chatgpt",
-    "type": "software",
-    "category": "productivity",
-    "name": {
-      "zh": "转到任务 3",
-      "en": "Switch to Task 3"
-    },
-    "description": {
-      "zh": "切换到第 3 个任务",
-      "en": "Switch to task #3"
-    },
-    "windows": "Ctrl+3",
-    "mac": "Cmd+3",
-    "linux": "Ctrl+3",
-    "keywords": [
-      "任务",
-      "task",
-      "切换"
-    ],
-    "pinyin": "zhuan dao ren wu   3 zhuandaorenwu 3 z d r w   3 zdrw 3 ren wu   qie huan renwu qiehuan r w   q h rw qh"
-  },
-  {
-    "id": "chatgpt-gotask4",
-    "appId": "chatgpt",
-    "type": "software",
-    "category": "productivity",
-    "name": {
-      "zh": "转到任务 4",
-      "en": "Switch to Task 4"
-    },
-    "description": {
-      "zh": "切换到第 4 个任务",
-      "en": "Switch to task #4"
-    },
-    "windows": "Ctrl+4",
-    "mac": "Cmd+4",
-    "linux": "Ctrl+4",
-    "keywords": [
-      "任务",
-      "task",
-      "切换"
-    ],
-    "pinyin": "zhuan dao ren wu   4 zhuandaorenwu 4 z d r w   4 zdrw 4 ren wu   qie huan renwu qiehuan r w   q h rw qh"
-  },
-  {
-    "id": "chatgpt-gotask5",
-    "appId": "chatgpt",
-    "type": "software",
-    "category": "productivity",
-    "name": {
-      "zh": "转到任务 5",
-      "en": "Switch to Task 5"
-    },
-    "description": {
-      "zh": "切换到第 5 个任务",
-      "en": "Switch to task #5"
-    },
-    "windows": "Ctrl+5",
-    "mac": "Cmd+5",
-    "linux": "Ctrl+5",
-    "keywords": [
-      "任务",
-      "task",
-      "切换"
-    ],
-    "pinyin": "zhuan dao ren wu   5 zhuandaorenwu 5 z d r w   5 zdrw 5 ren wu   qie huan renwu qiehuan r w   q h rw qh"
-  },
-  {
-    "id": "chatgpt-gotask6",
-    "appId": "chatgpt",
-    "type": "software",
-    "category": "productivity",
-    "name": {
-      "zh": "转到任务 6",
-      "en": "Switch to Task 6"
-    },
-    "description": {
-      "zh": "切换到第 6 个任务",
-      "en": "Switch to task #6"
-    },
-    "windows": "Ctrl+6",
-    "mac": "Cmd+6",
-    "linux": "Ctrl+6",
-    "keywords": [
-      "任务",
-      "task",
-      "切换"
-    ],
-    "pinyin": "zhuan dao ren wu   6 zhuandaorenwu 6 z d r w   6 zdrw 6 ren wu   qie huan renwu qiehuan r w   q h rw qh"
-  },
-  {
-    "id": "chatgpt-gotask7",
-    "appId": "chatgpt",
-    "type": "software",
-    "category": "productivity",
-    "name": {
-      "zh": "转到任务 7",
-      "en": "Switch to Task 7"
-    },
-    "description": {
-      "zh": "切换到第 7 个任务",
-      "en": "Switch to task #7"
-    },
-    "windows": "Ctrl+7",
-    "mac": "Cmd+7",
-    "linux": "Ctrl+7",
-    "keywords": [
-      "任务",
-      "task",
-      "切换"
-    ],
-    "pinyin": "zhuan dao ren wu   7 zhuandaorenwu 7 z d r w   7 zdrw 7 ren wu   qie huan renwu qiehuan r w   q h rw qh"
-  },
-  {
-    "id": "chatgpt-gotask8",
-    "appId": "chatgpt",
-    "type": "software",
-    "category": "productivity",
-    "name": {
-      "zh": "转到任务 8",
-      "en": "Switch to Task 8"
-    },
-    "description": {
-      "zh": "切换到第 8 个任务",
-      "en": "Switch to task #8"
-    },
-    "windows": "Ctrl+8",
-    "mac": "Cmd+8",
-    "linux": "Ctrl+8",
-    "keywords": [
-      "任务",
-      "task",
-      "切换"
-    ],
-    "pinyin": "zhuan dao ren wu   8 zhuandaorenwu 8 z d r w   8 zdrw 8 ren wu   qie huan renwu qiehuan r w   q h rw qh"
-  },
-  {
-    "id": "chatgpt-gotask9",
-    "appId": "chatgpt",
-    "type": "software",
-    "category": "productivity",
-    "name": {
-      "zh": "转到任务 9",
-      "en": "Switch to Task 9"
-    },
-    "description": {
-      "zh": "切换到第 9 个任务",
-      "en": "Switch to task #9"
-    },
-    "windows": "Ctrl+9",
-    "mac": "Cmd+9",
-    "linux": "Ctrl+9",
-    "keywords": [
-      "任务",
-      "task",
-      "切换"
-    ],
-    "pinyin": "zhuan dao ren wu   9 zhuandaorenwu 9 z d r w   9 zdrw 9 ren wu   qie huan renwu qiehuan r w   q h rw qh"
-  },
-  {
-    "id": "chatgpt-filetree",
-    "appId": "chatgpt",
-    "type": "software",
-    "category": "productivity",
-    "name": {
-      "zh": "切换文件树",
-      "en": "Toggle File Tree"
-    },
-    "description": {
-      "zh": "显示/隐藏文件树面板",
-      "en": "Toggle file tree panel visibility"
-    },
-    "windows": "Ctrl+Shift+E",
-    "mac": "Cmd+Shift+E",
-    "linux": "Ctrl+Shift+E",
-    "keywords": [
-      "文件",
-      "file",
-      "树",
-      "tree"
-    ],
-    "pinyin": "qie huan wen jian shu qiehuanwenjianshu q h w j s qhwjs wen jian   shu wenjian shu w j   s wj s"
+    "pinyin": "tui chu ying yong tuichuyingyong t c y y tcyy tui chu   guan bi ying yong tuichu guanbiyingyong t c   g b y y tc gbyy"
   }
 ]

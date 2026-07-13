@@ -60,9 +60,9 @@
       "zh": "对选中片段批量分割",
       "en": "Split all selected clips"
     },
-    "windows": "Ctrl+Shift+K",
-    "mac": "Cmd+Shift+K",
-    "linux": "Ctrl+Shift+K",
+    "windows": "Ctrl+Shift+B",
+    "mac": "Cmd+Shift+B",
+    "linux": "Ctrl+Shift+B",
     "keywords": [
       "批量分割",
       "batch split"
@@ -82,9 +82,9 @@
       "zh": "切换到鼠标选择模式",
       "en": "Switch to selection tool"
     },
-    "windows": "V",
-    "mac": "V",
-    "linux": "V",
+    "windows": "A",
+    "mac": "A",
+    "linux": "A",
     "keywords": [
       "选择",
       "select",
@@ -105,9 +105,9 @@
       "zh": "切换到鼠标分割模式",
       "en": "Switch to blade/cut tool"
     },
-    "windows": "C",
-    "mac": "C",
-    "linux": "C",
+    "windows": "B",
+    "mac": "B",
+    "linux": "B",
     "keywords": [
       "分割模式",
       "blade",
@@ -150,9 +150,9 @@
       "zh": "开启/关闭主轨道磁吸",
       "en": "Toggle main track magnetic snap"
     },
-    "windows": "Shift+Backspace",
-    "mac": "Shift+Backspace",
-    "linux": "Shift+Backspace",
+    "windows": "P",
+    "mac": "P",
+    "linux": "P",
     "keywords": [
       "主轨",
       "磁吸",
@@ -174,9 +174,9 @@
       "zh": "开启/关闭片段吸附",
       "en": "Toggle snapping"
     },
-    "windows": "S",
-    "mac": "S",
-    "linux": "S",
+    "windows": "N",
+    "mac": "N",
+    "linux": "N",
     "keywords": [
       "吸附",
       "snap",
@@ -197,9 +197,9 @@
       "zh": "链接/取消链接片段",
       "en": "Link or unlink clips"
     },
-    "windows": "Ctrl+L",
-    "mac": "Cmd+L",
-    "linux": "Ctrl+L",
+    "windows": "~",
+    "mac": "~",
+    "linux": "~",
     "keywords": [
       "联动",
       "链接",
@@ -220,9 +220,9 @@
       "zh": "开启/关闭时间线悬停预览",
       "en": "Toggle hover scrub preview"
     },
-    "windows": "Shift+P",
-    "mac": "Shift+P",
-    "linux": "Shift+P",
+    "windows": "S",
+    "mac": "S",
+    "linux": "S",
     "keywords": [
       "预览轴",
       "preview",
@@ -743,9 +743,9 @@
       "zh": "全屏/退出全屏播放预览",
       "en": "Toggle fullscreen preview"
     },
-    "windows": "F",
-    "mac": "F",
-    "linux": "F",
+    "windows": "Ctrl+Shift+F",
+    "mac": "Cmd+Shift+F",
+    "linux": "Ctrl+Shift+F",
     "keywords": [
       "全屏",
       "fullscreen"

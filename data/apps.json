@@ -38,5 +38,8 @@
   { "id": "gmail",      "name": { "zh": "Gmail",        "en": "Gmail" },         "category": "productivity", "icon": "✉️", "type": "software", "file": "gmail.json" },
   { "id": "googledocs", "name": { "zh": "Google 文档",   "en": "Google Docs" },   "category": "productivity", "icon": "📄", "type": "software", "file": "googledocs.json" },
   { "id": "googlesheets", "name": { "zh": "Google 表格", "en": "Google Sheets" }, "category": "productivity", "icon": "📊", "type": "software", "file": "googlesheets.json" },
-  { "id": "googleslides", "name": { "zh": "Google 幻灯片", "en": "Google Slides" }, "category": "productivity", "icon": "📽️", "type": "software", "file": "googleslides.json" }
+  { "id": "googleslides", "name": { "zh": "Google 幻灯片", "en": "Google Slides" }, "category": "productivity", "icon": "📽️", "type": "software", "file": "googleslides.json" },
+  { "id": "feishu", "name": { "zh": "飞书", "en": "Feishu (Lark)" }, "category": "productivity", "icon": "📨", "type": "software", "file": "feishu.json" },
+  { "id": "dingtalk", "name": { "zh": "钉钉", "en": "DingTalk" }, "category": "productivity", "icon": "📣", "type": "software", "file": "dingtalk.json" },
+  { "id": "wecom", "name": { "zh": "企业微信", "en": "WeCom" }, "category": "productivity", "icon": "💬", "type": "software", "file": "wecom.json" }
 ]

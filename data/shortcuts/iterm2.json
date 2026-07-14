@@ -1,0 +1,610 @@
+[
+  {
+    "id": "iterm2-new-tab",
+    "appId": "iterm2",
+    "type": "software",
+    "category": "system",
+    "name": {
+      "zh": "新建标签",
+      "en": "New Tab"
+    },
+    "description": {
+      "zh": "新建一个标签页",
+      "en": "Create a new tab"
+    },
+    "mac": "⌘ + T",
+    "pinyin": "xin jian biao qian xinjianbiaoqian x j b q xjbq"
+  },
+  {
+    "id": "iterm2-close-tab",
+    "appId": "iterm2",
+    "type": "software",
+    "category": "system",
+    "name": {
+      "zh": "关闭标签",
+      "en": "Close Tab"
+    },
+    "description": {
+      "zh": "关闭当前标签页",
+      "en": "Close current tab"
+    },
+    "mac": "⌘ + W",
+    "pinyin": "guan bi biao qian guanbibiaoqian g b b q gbbq"
+  },
+  {
+    "id": "iterm2-switch-tab-left",
+    "appId": "iterm2",
+    "type": "software",
+    "category": "system",
+    "name": {
+      "zh": "切换到左边标签",
+      "en": "Switch to Left Tab"
+    },
+    "description": {
+      "zh": "切换到左边的标签页",
+      "en": "Switch to tab on the left"
+    },
+    "mac": "⌘ + Shift + [",
+    "pinyin": "qie huan dao zuo bian biao qian qiehuandaozuobianbiaoqian q h d z b b q qhdzbbq"
+  },
+  {
+    "id": "iterm2-switch-tab-right",
+    "appId": "iterm2",
+    "type": "software",
+    "category": "system",
+    "name": {
+      "zh": "切换到右边标签",
+      "en": "Switch to Right Tab"
+    },
+    "description": {
+      "zh": "切换到右边的标签页",
+      "en": "Switch to tab on the right"
+    },
+    "mac": "⌘ + Shift + ]",
+    "pinyin": "qie huan dao you bian biao qian qiehuandaoyoubianbiaoqian q h d y b b q qhdybbq"
+  },
+  {
+    "id": "iterm2-switch-tab-number",
+    "appId": "iterm2",
+    "type": "software",
+    "category": "system",
+    "name": {
+      "zh": "切换到指定编号标签",
+      "en": "Switch to Tab by Number"
+    },
+    "description": {
+      "zh": "按数字键 1-9 切换到对应编号的标签",
+      "en": "Switch to numbered tab using keys 1-9"
+    },
+    "mac": "⌘ + 数字键(1-9)",
+    "pinyin": "qie huan dao zhi ding bian hao biao qian qiehuandaozhidingbianhaobiaoqian q h d z d b h b q qhdzdbhbq"
+  },
+  {
+    "id": "iterm2-split-horiz",
+    "appId": "iterm2",
+    "type": "software",
+    "category": "system",
+    "name": {
+      "zh": "左右分屏",
+      "en": "Split Pane Horizontally"
+    },
+    "description": {
+      "zh": "将当前窗格左右分割为两个",
+      "en": "Split current pane into left and right"
+    },
+    "mac": "⌘ + D",
+    "pinyin": "zuo you fen ping zuoyoufenping z y f p zyfp"
+  },
+  {
+    "id": "iterm2-split-vert",
+    "appId": "iterm2",
+    "type": "software",
+    "category": "system",
+    "name": {
+      "zh": "上下分屏",
+      "en": "Split Pane Vertically"
+    },
+    "description": {
+      "zh": "将当前窗格上下分割为两个",
+      "en": "Split current pane into top and bottom"
+    },
+    "mac": "⌘ + Shift + D",
+    "pinyin": "shang xia fen ping shangxiafenping s x f p sxfp"
+  },
+  {
+    "id": "iterm2-toggle-split-direction",
+    "appId": "iterm2",
+    "type": "software",
+    "category": "system",
+    "name": {
+      "zh": "切换分屏方向",
+      "en": "Toggle Split Direction"
+    },
+    "description": {
+      "zh": "切换下次分屏的方向(水平/垂直)",
+      "en": "Toggle direction of next split (horizontal/vertical)"
+    },
+    "mac": "Option + ⌘ + D",
+    "pinyin": "qie huan fen ping fang xiang qiehuanfenpingfangxiang q h f p f x qhfpfx"
+  },
+  {
+    "id": "iterm2-switch-pane-left",
+    "appId": "iterm2",
+    "type": "software",
+    "category": "system",
+    "name": {
+      "zh": "切换到左侧窗格",
+      "en": "Switch to Left Pane"
+    },
+    "description": {
+      "zh": "在分屏间切换焦点到左边",
+      "en": "Switch focus to left pane"
+    },
+    "mac": "⌘ + [",
+    "pinyin": "qie huan dao zuo ce chuang ge qiehuandaozuocechuangge q h d z c c g qhdzccg"
+  },
+  {
+    "id": "iterm2-switch-pane-right",
+    "appId": "iterm2",
+    "type": "software",
+    "category": "system",
+    "name": {
+      "zh": "切换到右侧窗格",
+      "en": "Switch to Right Pane"
+    },
+    "description": {
+      "zh": "在分屏间切换焦点到右边",
+      "en": "Switch focus to right pane"
+    },
+    "mac": "⌘ + ]",
+    "pinyin": "qie huan dao you ce chuang ge qiehuandaoyoucechuangge q h d y c c g qhdyccg"
+  },
+  {
+    "id": "iterm2-switch-pane-up",
+    "appId": "iterm2",
+    "type": "software",
+    "category": "system",
+    "name": {
+      "zh": "切换到上方窗格",
+      "en": "Switch to Upper Pane"
+    },
+    "description": {
+      "zh": "在分屏间切换焦点到上方",
+      "en": "Switch focus to upper pane"
+    },
+    "mac": "⌘ + Option + ↑",
+    "pinyin": "qie huan dao shang fang chuang ge qiehuandaoshangfangchuangge q h d s f c g qhdsfcg"
+  },
+  {
+    "id": "iterm2-switch-pane-down",
+    "appId": "iterm2",
+    "type": "software",
+    "category": "system",
+    "name": {
+      "zh": "切换到下方窗格",
+      "en": "Switch to Lower Pane"
+    },
+    "description": {
+      "zh": "在分屏间切换焦点到下方",
+      "en": "Switch focus to lower pane"
+    },
+    "mac": "⌘ + Option + ↓",
+    "pinyin": "qie huan dao xia fang chuang ge qiehuandaoxiafangchuangge q h d x f c g qhdxfcg"
+  },
+  {
+    "id": "iterm2-close-split",
+    "appId": "iterm2",
+    "type": "software",
+    "category": "system",
+    "name": {
+      "zh": "关闭分屏",
+      "en": "Close Split Pane"
+    },
+    "description": {
+      "zh": "关闭当前分屏窗格",
+      "en": "Close current split pane"
+    },
+    "mac": "⌘ + Shift + ;",
+    "pinyin": "guan bi fen ping guanbifenping g b f p gbfp"
+  },
+  {
+    "id": "iterm2-clear-line",
+    "appId": "iterm2",
+    "type": "software",
+    "category": "system",
+    "name": {
+      "zh": "清除当前行",
+      "en": "Clear Current Line"
+    },
+    "description": {
+      "zh": "清除当前输入行内容",
+      "en": "Clear content of current input line"
+    },
+    "mac": "Ctrl + U",
+    "pinyin": "qing chu dang qian xing qingchudangqianxing q c d q x qcdqx"
+  },
+  {
+    "id": "iterm2-cursor-forward-word",
+    "appId": "iterm2",
+    "type": "software",
+    "category": "system",
+    "name": {
+      "zh": "光标前移一个词",
+      "en": "Move Cursor Forward Word"
+    },
+    "description": {
+      "zh": "光标向前移动一个单词",
+      "en": "Move cursor forward one word"
+    },
+    "mac": "Option + F",
+    "pinyin": "guang biao qian yi yi ge ci guangbiaoqianyiyigeci g b q y y g c gbqyygc"
+  },
+  {
+    "id": "iterm2-cursor-backward-word",
+    "appId": "iterm2",
+    "type": "software",
+    "category": "system",
+    "name": {
+      "zh": "光标后移一个词",
+      "en": "Move Cursor Backward Word"
+    },
+    "description": {
+      "zh": "光标向后移动一个单词",
+      "en": "Move cursor backward one word"
+    },
+    "mac": "Option + B",
+    "pinyin": "guang biao hou yi yi ge ci guangbiaohouyiyigeci g b h y y g c gbhyygc"
+  },
+  {
+    "id": "iterm2-delete-forward-word",
+    "appId": "iterm2",
+    "type": "software",
+    "category": "system",
+    "name": {
+      "zh": "删除光标前一个词",
+      "en": "Delete Forward Word"
+    },
+    "description": {
+      "zh": "删除光标前方到词尾的内容",
+      "en": "Delete from cursor to end of word"
+    },
+    "mac": "Option + D",
+    "pinyin": "shan chu guang biao qian yi ge ci shanchuguangbiaoqianyigeci s c g b q y g c scgbqygc"
+  },
+  {
+    "id": "iterm2-delete-backward-word",
+    "appId": "iterm2",
+    "type": "software",
+    "category": "system",
+    "name": {
+      "zh": "删除光标后一个词",
+      "en": "Delete Backward Word"
+    },
+    "description": {
+      "zh": "删除光标后方到词首的内容",
+      "en": "Delete from cursor to start of word"
+    },
+    "mac": "Option + Delete (或 ⌥ + ⌫)",
+    "pinyin": "shan chu guang biao hou yi ge ci shanchuguangbiaohouyigeci s c g b h y g c scgbhygc"
+  },
+  {
+    "id": "iterm2-cursor-start-line",
+    "appId": "iterm2",
+    "type": "software",
+    "category": "system",
+    "name": {
+      "zh": "光标移到行首",
+      "en": "Move Cursor to Start of Line"
+    },
+    "description": {
+      "zh": "将光标移到当前行开头",
+      "en": "Move cursor to beginning of line"
+    },
+    "mac": "Ctrl + A",
+    "pinyin": "guang biao yi dao hang shou guangbiaoyidaohangshou g b y d h s gbydhs"
+  },
+  {
+    "id": "iterm2-cursor-end-line",
+    "appId": "iterm2",
+    "type": "software",
+    "category": "system",
+    "name": {
+      "zh": "光标移到行尾",
+      "en": "Move Cursor to End of Line"
+    },
+    "description": {
+      "zh": "将光标移到当前行末尾",
+      "en": "Move cursor to end of line"
+    },
+    "mac": "Ctrl + E",
+    "pinyin": "guang biao yi dao hang wei guangbiaoyidaohangwei g b y d h w gbydhw"
+  },
+  {
+    "id": "iterm2-history-prev",
+    "appId": "iterm2",
+    "type": "software",
+    "category": "system",
+    "name": {
+      "zh": "上一条历史命令",
+      "en": "Previous History Command"
+    },
+    "description": {
+      "zh": "浏览上一条命令历史记录",
+      "en": "Browse previous command history entry"
+    },
+    "mac": "Ctrl + P (或 ↑)",
+    "pinyin": "shang yi tiao li shi ming ling shangyitiaolishimingling s y t l s m l sytlsml"
+  },
+  {
+    "id": "iterm2-history-next",
+    "appId": "iterm2",
+    "type": "software",
+    "category": "system",
+    "name": {
+      "zh": "下一条历史命令",
+      "en": "Next History Command"
+    },
+    "description": {
+      "zh": "浏览下一条命令历史记录",
+      "en": "Browse next command history entry"
+    },
+    "mac": "Ctrl + N (或 ↓)",
+    "pinyin": "xia yi tiao li shi ming ling xiayitiaolishimingling x y t l s m l xytlsml"
+  },
+  {
+    "id": "iterm2-search-history",
+    "appId": "iterm2",
+    "type": "software",
+    "category": "system",
+    "name": {
+      "zh": "搜索历史命令",
+      "en": "Search History"
+    },
+    "description": {
+      "zh": "打开增量式历史搜索",
+      "en": "Open incremental history search"
+    },
+    "mac": "Ctrl + R",
+    "pinyin": "sou suo li shi ming ling sousuolishimingling s s l s m l sslsml"
+  },
+  {
+    "id": "iterm2-page-up",
+    "appId": "iterm2",
+    "type": "software",
+    "category": "system",
+    "name": {
+      "zh": "上翻一页",
+      "en": "Page Up"
+    },
+    "description": {
+      "zh": "向上滚动一页输出",
+      "en": "Scroll up one page of output"
+    },
+    "mac": "Page Up",
+    "pinyin": "shang fan yi ye shangfanyiye s f y y sfyy"
+  },
+  {
+    "id": "iterm2-page-down",
+    "appId": "iterm2",
+    "type": "software",
+    "category": "system",
+    "name": {
+      "zh": "下翻一页",
+      "en": "Page Down"
+    },
+    "description": {
+      "zh": "向下滚动一页输出",
+      "en": "Scroll down one page of output"
+    },
+    "mac": "Page Down",
+    "pinyin": "xia fan yi ye xiafanyiye x f y y xfyy"
+  },
+  {
+    "id": "iterm2-clear-screen",
+    "appId": "iterm2",
+    "type": "software",
+    "category": "system",
+    "name": {
+      "zh": "清屏",
+      "en": "Clear Screen"
+    },
+    "description": {
+      "zh": "清除屏幕内容(保留滚动缓冲区)",
+      "en": "Clear screen (keep scrollback buffer)"
+    },
+    "mac": "Ctrl + L",
+    "pinyin": "qing ping qingping q p qp"
+  },
+  {
+    "id": "iterm2-interrupt-process",
+    "appId": "iterm2",
+    "type": "software",
+    "category": "system",
+    "name": {
+      "zh": "中断进程",
+      "en": "Interrupt Process"
+    },
+    "description": {
+      "zh": "发送 SIGINT 中断当前运行的程序",
+      "en": "Send SIGINT to interrupt running process"
+    },
+    "mac": "Ctrl + C",
+    "pinyin": "zhong duan jin cheng zhongduanjincheng z d j c zdjc"
+  },
+  {
+    "id": "iterm2-end-of-input",
+    "appId": "iterm2",
+    "type": "software",
+    "category": "system",
+    "name": {
+      "zh": "结束输入/退出",
+      "en": "End of Input / Exit"
+    },
+    "description": {
+      "zh": "发送 EOF 结束输入或退出程序",
+      "en": "Send EOF to end input or exit program"
+    },
+    "mac": "Ctrl + D",
+    "pinyin": "jie shu shu ru / tui chu jieshushuru/tuichu j s s r / t c jssr/tc"
+  },
+  {
+    "id": "iterm2-suspend-process",
+    "appId": "iterm2",
+    "type": "software",
+    "category": "system",
+    "name": {
+      "zh": "挂起进程",
+      "en": "Suspend Process"
+    },
+    "description": {
+      "zh": "将前台进程挂起到后台(fg恢复)",
+      "en": "Suspend foreground process (use fg to resume)"
+    },
+    "mac": "Ctrl + Z",
+    "pinyin": "gua qi jin cheng guaqijincheng g q j c gqjc"
+  },
+  {
+    "id": "iterm2-find-next",
+    "appId": "iterm2",
+    "type": "software",
+    "category": "system",
+    "name": {
+      "zh": "查找下一个",
+      "en": "Find Next"
+    },
+    "description": {
+      "zh": "查找模式下定位下一个匹配",
+      "en": "Find next match in search mode"
+    },
+    "mac": "⌘ + G",
+    "pinyin": "cha zhao xia yi ge chazhaoxiayige c z x y g czxyg"
+  },
+  {
+    "id": "iterm2-find-prev",
+    "appId": "iterm2",
+    "type": "software",
+    "category": "system",
+    "name": {
+      "zh": "查找上一个",
+      "en": "Find Previous"
+    },
+    "description": {
+      "zh": "查找模式下定位上一个匹配",
+      "en": "Find previous match in search mode"
+    },
+    "mac": "⌘ + Shift + G",
+    "pinyin": "cha zhao shang yi ge chazhaoshangyige c z s y g czsyg"
+  },
+  {
+    "id": "iterm2-new-window",
+    "appId": "iterm2",
+    "type": "software",
+    "category": "system",
+    "name": {
+      "zh": "新建窗口",
+      "en": "New Window"
+    },
+    "description": {
+      "zh": "创建新的 iTerm2 窗口",
+      "en": "Create a new iTerm2 window"
+    },
+    "mac": "⌘ + N",
+    "pinyin": "xin jian chuang kou xinjianchuangkou x j c k xjck"
+  },
+  {
+    "id": "iterm2-close-window",
+    "appId": "iterm2",
+    "type": "software",
+    "category": "system",
+    "name": {
+      "zh": "关闭窗口",
+      "en": "Close Window"
+    },
+    "description": {
+      "zh": "关闭当前 iTerm2 窗口",
+      "en": "Close current iTerm2 window"
+    },
+    "mac": "⌘ + Shift + W",
+    "pinyin": "guan bi chuang kou guanbichuangkou g b c k gbck"
+  },
+  {
+    "id": "iterm2-toggle-fullscreen",
+    "appId": "iterm2",
+    "type": "software",
+    "category": "system",
+    "name": {
+      "zh": "切换全屏",
+      "en": "Toggle Fullscreen"
+    },
+    "description": {
+      "zh": "切换全屏模式",
+      "en": "Toggle fullscreen mode"
+    },
+    "mac": "⌘ + Enter (or ⌘ + Ctrl + F)",
+    "pinyin": "qie huan quan ping qiehuanquanping q h q p qhqp"
+  },
+  {
+    "id": "iterm2-zoom-font-size-reset",
+    "appId": "iterm2",
+    "type": "software",
+    "category": "system",
+    "name": {
+      "zh": "重置字体大小",
+      "en": "Reset Font Size"
+    },
+    "description": {
+      "zh": "重置字体大小为默认值",
+      "en": "Reset font size to default"
+    },
+    "mac": "⌘ + Option + 0",
+    "pinyin": "zhong zhi zi ti da xiao zhongzhizitidaxiao z z z t d x zzztdx"
+  },
+  {
+    "id": "iterm2-zoom-font-in",
+    "appId": "iterm2",
+    "type": "software",
+    "category": "system",
+    "name": {
+      "zh": "放大字体",
+      "en": "Zoom In Font"
+    },
+    "description": {
+      "zh": "增大终端字体大小",
+      "en": "Increase terminal font size"
+    },
+    "mac": "⌘ + = (或 ⌘ + +)",
+    "pinyin": "fang da zi ti fangdaziti f d z t fdzt"
+  },
+  {
+    "id": "iterm2-zoom-font-out",
+    "appId": "iterm2",
+    "type": "software",
+    "category": "system",
+    "name": {
+      "zh": "缩小字体",
+      "en": "Zoom Out Font"
+    },
+    "description": {
+      "zh": "减小终端字体大小",
+      "en": "Decrease terminal font size"
+    },
+    "mac": "⌘ + -",
+    "pinyin": "suo xiao zi ti suoxiaoziti s x z t sxzt"
+  },
+  {
+    "id": "iterm2-toggle-password-mode",
+    "appId": "iterm2",
+    "type": "software",
+    "category": "system",
+    "name": {
+      "zh": "切换密码输入模式",
+      "en": "Toggle Password Mode"
+    },
+    "description": {
+      "zh": "隐藏输入的字符(密码模式)",
+      "en": "Hide typed characters (password mode)"
+    },
+    "mac": "⌘ + .",
+    "pinyin": "qie huan mi ma shu ru mo shi qiehuanmimashurumoshi q h m m s r m s qhmmsrms"
+  }
+]

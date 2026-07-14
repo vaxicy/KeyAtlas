@@ -1,0 +1,274 @@
+[
+  {
+    "id": "toonboom-pan-canvas",
+    "appId": "toonboom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "平移画布",
+      "en": "Pan Canvas"
+    },
+    "description": {
+      "zh": "按住空格键拖动鼠标平移视图，或按鼠标中键拖动",
+      "en": "Hold Space and drag, or drag with middle mouse button"
+    },
+    "windows": "Space + 拖动 / 鼠标中键",
+    "mac": "Space + 拖动 / 鼠标中键",
+    "pinyin": "ping yi hua bu pingyihuabu p y h b pyhb"
+  },
+  {
+    "id": "toonboom-rotate-canvas",
+    "appId": "toonboom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "旋转画布",
+      "en": "Rotate Canvas"
+    },
+    "description": {
+      "zh": "按住 Ctrl+Alt 并拖动旋转视图",
+      "en": "Hold Ctrl+Alt and drag to rotate canvas"
+    },
+    "windows": "Ctrl + Alt + 拖动",
+    "mac": "⌘ + Option + 拖动",
+    "pinyin": "xuan zhuan hua bu xuanzhuanhuabu x z h b xzhb"
+  },
+  {
+    "id": "toonboom-reset-view",
+    "appId": "toonboom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "视图复位",
+      "en": "Reset View"
+    },
+    "description": {
+      "zh": "瞬间重置摄像机视图（缩放、平移和旋转）",
+      "en": "Instantly reset camera view (zoom, pan, rotation)"
+    },
+    "windows": "Shift + X",
+    "mac": "Shift + X",
+    "pinyin": "shi tu fu wei shitufuwei s t f w stfw"
+  },
+  {
+    "id": "toonboom-zoom-out",
+    "appId": "toonboom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "缩小视图",
+      "en": "Zoom Out"
+    },
+    "description": {
+      "zh": "按 1 缩小画布",
+      "en": "Press 1 to zoom out"
+    },
+    "windows": "1",
+    "mac": "1",
+    "pinyin": "suo xiao shi tu suoxiaoshitu s x s t sxst"
+  },
+  {
+    "id": "toonboom-zoom-in",
+    "appId": "toonboom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "放大视图",
+      "en": "Zoom In"
+    },
+    "description": {
+      "zh": "按 2 放大画布",
+      "en": "Press 2 to zoom in"
+    },
+    "windows": "2",
+    "mac": "2",
+    "pinyin": "fang da shi tu fangdashitu f d s t fdst"
+  },
+  {
+    "id": "toonboom-lasso-tool",
+    "appId": "toonboom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "套索/选择工具",
+      "en": "Lasso / Select Tool"
+    },
+    "description": {
+      "zh": "按住 Alt 键可临时切换为套索工具，按 Ctrl 键可切换为选择工具",
+      "en": "Hold Alt for temporary Lasso tool, hold Ctrl for Select tool"
+    },
+    "windows": "Alt (临时套索) / Ctrl (临时选择)",
+    "mac": "Option (临时套索) / ⌘ (临时选择)",
+    "pinyin": "tao suo / xuan ze gong ju taosuo/xuanzegongju t s / x z g j ts/xzgj"
+  },
+  {
+    "id": "toonboom-brush-tool",
+    "appId": "toonboom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "画笔/铅笔工具",
+      "en": "Brush / Pencil Tool"
+    },
+    "description": {
+      "zh": "按 Alt+B 切换为画笔(Brush)，按 Alt+N 切换为直线工具",
+      "en": "Alt+B for Brush, Alt+N for Line tool"
+    },
+    "windows": "Alt + B / Alt + N",
+    "mac": "Option + B / Option + N",
+    "pinyin": "hua bi / qian bi gong ju huabi/qianbigongju h b / q b g j hb/qbgj"
+  },
+  {
+    "id": "toonboom-brush-size-decrease",
+    "appId": "toonboom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "缩小笔刷",
+      "en": "Decrease Brush Size"
+    },
+    "description": {
+      "zh": "按 [ 缩小笔刷大小",
+      "en": "Press [ to decrease brush size"
+    },
+    "windows": "[",
+    "mac": "[",
+    "pinyin": "suo xiao bi shua suoxiaobishua s x b s sxbs"
+  },
+  {
+    "id": "toonboom-brush-size-increase",
+    "appId": "toonboom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "放大笔刷",
+      "en": "Increase Brush Size"
+    },
+    "description": {
+      "zh": "按 ] 放大笔刷大小",
+      "en": "Press ] to increase brush size"
+    },
+    "windows": "]",
+    "mac": "]",
+    "pinyin": "fang da bi shua fangdabishua f d b s fdbs"
+  },
+  {
+    "id": "toonboom-paint-bucket",
+    "appId": "toonboom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "自动填充(油漆桶/切割工具)",
+      "en": "Auto Fill (Paint Bucket / Cutter)"
+    },
+    "description": {
+      "zh": "按 Alt+T 使用涂抹/切割工具，使用 Alt+C 闭合缺口",
+      "en": "Alt+T for Paint/Cutter tool, Alt+C to close gaps"
+    },
+    "windows": "Alt + T / Alt + C",
+    "mac": "Option + T / Option + C",
+    "pinyin": "zi dong tian chong ( you qi tong / qie ge gong ju ) zidongtianchong(youqitong/qiegegongju) z d t c ( y q t / q g g j ) zdtc(yqt/qggj)"
+  },
+  {
+    "id": "toonboom-play-pause",
+    "appId": "toonboom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "播放/暂停",
+      "en": "Play / Pause"
+    },
+    "description": {
+      "zh": "点击空格键播放或暂停动画",
+      "en": "Press Spacebar to play or pause animation"
+    },
+    "windows": "空格",
+    "mac": "空格",
+    "pinyin": "bo fang / zan ting bofang/zanting b f / z t bf/zt"
+  },
+  {
+    "id": "toonboom-prev-frame",
+    "appId": "toonboom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "上一帧",
+      "en": "Previous Frame"
+    },
+    "description": {
+      "zh": "按逗号键跳到上一帧",
+      "en": "Press comma to go to previous frame"
+    },
+    "windows": ",",
+    "mac": ",",
+    "pinyin": "shang yi zhen shangyizhen s y z syz"
+  },
+  {
+    "id": "toonboom-next-frame",
+    "appId": "toonboom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "下一帧",
+      "en": "Next Frame"
+    },
+    "description": {
+      "zh": "按句号键跳到下一帧",
+      "en": "Press period to go to next frame"
+    },
+    "windows": ".",
+    "mac": ".",
+    "pinyin": "xia yi zhen xiayizhen x y z xyz"
+  },
+  {
+    "id": "toonboom-add-keyframe",
+    "appId": "toonboom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "添加关键帧",
+      "en": "Add Keyframe"
+    },
+    "description": {
+      "zh": "选中帧后按 F6 添加关键帧",
+      "en": "Select frame then press F6 to add keyframe"
+    },
+    "windows": "F6",
+    "mac": "F6",
+    "pinyin": "tian jia guan jian zhen tianjiaguanjianzhen t j g j z tjgjz"
+  },
+  {
+    "id": "toonboom-clear-keyframe",
+    "appId": "toonboom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "清除关键帧",
+      "en": "Clear Keyframe"
+    },
+    "description": {
+      "zh": "选中帧后按 F7 清除关键帧",
+      "en": "Select frame then press F7 to clear keyframe"
+    },
+    "windows": "F7",
+    "mac": "F7",
+    "pinyin": "qing chu guan jian zhen qingchuguanjianzhen q c g j z qcgjz"
+  },
+  {
+    "id": "toonboom-expand-collapse-layer",
+    "appId": "toonboom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "展开/折叠图层",
+      "en": "Expand / Collapse Layer"
+    },
+    "description": {
+      "zh": "按 Ctrl+I 展开或折叠图层",
+      "en": "Press Ctrl+I to expand or collapse layer"
+    },
+    "windows": "Ctrl + I",
+    "mac": "⌘ + I",
+    "pinyin": "zhan kai / zhe die tu ceng zhankai/zhedietuceng z k / z d t c zk/zdtc"
+  }
+]

@@ -1,0 +1,435 @@
+[
+  {
+    "id": "zoom-mute-unmute",
+    "appId": "zoom",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "静音/取消静音",
+      "en": "Mute / Unmute"
+    },
+    "description": {
+      "zh": "切换静音状态",
+      "en": "Toggle mute state"
+    },
+    "mac": "⌘ + Shift + A",
+    "windows": "Alt + A",
+    "linux": "Alt + A",
+    "pinyin": "jing yin / qu xiao jing yin jingyin/quxiaojingyin j y / q x j y jy/qxjy"
+  },
+  {
+    "id": "zoom-start-stop-video",
+    "appId": "zoom",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "开启/关闭视频",
+      "en": "Start / Stop Video"
+    },
+    "description": {
+      "zh": "切换视频开关",
+      "en": "Toggle video on/off"
+    },
+    "mac": "⌘ + Shift + V",
+    "windows": "Alt + V",
+    "pinyin": "kai qi / guan bi shi pin kaiqi/guanbishipin k q / g b s p kq/gbsp"
+  },
+  {
+    "id": "zoom-toggle-fullscreen-gallery",
+    "appId": "zoom",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "进入/退出全屏(画廊视图)",
+      "en": "Enter / Exit Full Screen (Gallery View)"
+    },
+    "description": {
+      "zh": "画廊视图下切换全屏",
+      "en": "Toggle fullscreen in gallery view"
+    },
+    "mac": "⌘ + Shift + F",
+    "windows": "Alt + F",
+    "pinyin": "jin ru / tui chu quan ping ( hua lang shi tu ) jinru/tuichuquanping(hualangshitu) j r / t c q p ( h l s t ) jr/tcqp(hlst)"
+  },
+  {
+    "id": "zoom-toggle-fullscreen-speaker",
+    "appId": "zoom",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "进入/退出全屏(演讲者视图)",
+      "en": "Enter / Exit Full Screen (Speaker View)"
+    },
+    "description": {
+      "zh": "演讲者视图下切换全屏",
+      "en": "Toggle fullscreen in speaker view"
+    },
+    "mac": "⌘ + Shift + H",
+    "windows": "Alt + H",
+    "pinyin": "jin ru / tui chu quan ping ( yan jiang zhe shi tu ) jinru/tuichuquanping(yanjiangzheshitu) j r / t c q p ( y j z s t ) jr/tcqp(yjzst)"
+  },
+  {
+    "id": "zoom-mute-all",
+    "appId": "zoom",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "全部静音",
+      "en": "Mute All Participants"
+    },
+    "description": {
+      "zh": "将所有参与者静音（仅主持人）",
+      "en": "Mute all participants (host only)"
+    },
+    "mac": "⌘ + Ctrl + M",
+    "windows": "Ctrl + M",
+    "pinyin": "quan bu jing yin quanbujingyin q b j y qbjy"
+  },
+  {
+    "id": "zoom-pause-resume-recording",
+    "appId": "zoom",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "暂停/继续录制",
+      "en": "Pause / Resume Recording"
+    },
+    "description": {
+      "zh": "暂停或继续会议录制",
+      "en": "Pause or resume meeting recording"
+    },
+    "mac": "⌘ + Shift + P",
+    "windows": "Alt + P",
+    "pinyin": "zan ting / ji xu lu zhi zanting/jixuluzhi z t / j x l z zt/jxlz"
+  },
+  {
+    "id": "zoom-start-stop-recording",
+    "appId": "zoom",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "开始/停止录制",
+      "en": "Start / Stop Recording"
+    },
+    "description": {
+      "zh": "开始或停止会议录制",
+      "en": "Start or stop meeting recording"
+    },
+    "mac": "⌘ + Shift + R",
+    "windows": "Alt + R",
+    "pinyin": "kai shi / ting zhi lu zhi kaishi/tingzhiluzhi k s / t z l z ks/tzlz"
+  },
+  {
+    "id": "zoom-screen-share",
+    "appId": "zoom",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "开始屏幕共享",
+      "en": "Start Screen Share"
+    },
+    "description": {
+      "zh": "启动屏幕共享",
+      "en": "Start sharing your screen"
+    },
+    "mac": "⌘ + Shift + S",
+    "windows": "Alt + S",
+    "pinyin": "kai shi ping mu gong xiang kaishipingmugongxiang k s p m g x kspmgx"
+  },
+  {
+    "id": "zoom-toggle-annotation",
+    "appId": "zoom",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "开启/关闭注释",
+      "en": "Enable / Disable Annotation"
+    },
+    "description": {
+      "zh": "在屏幕共享时切换注释工具",
+      "en": "Toggle annotation tools during screen share"
+    },
+    "mac": "Option + T",
+    "windows": "Alt + T",
+    "pinyin": "kai qi / guan bi zhu shi kaiqi/guanbizhushi k q / g b z s kq/gbzs"
+  },
+  {
+    "id": "zoom-new-meeting",
+    "appId": "zoom",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "发起即时会议",
+      "en": "Start Instant Meeting"
+    },
+    "description": {
+      "zh": "快速发起新会议",
+      "en": "Quick start a new instant meeting"
+    },
+    "mac": "⌘ + Control + N",
+    "windows": "Ctrl + N",
+    "pinyin": "fa qi ji shi hui yi faqijishihuiyi f q j s h y fqjshy"
+  },
+  {
+    "id": "zoom-schedule-meeting",
+    "appId": "zoom",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "安排会议",
+      "en": "Schedule Meeting"
+    },
+    "description": {
+      "zh": "打开预约会议界面",
+      "en": "Open schedule meeting dialog"
+    },
+    "mac": "⌘ + Control + S",
+    "windows": "Ctrl + S",
+    "pinyin": "an pai hui yi anpaihuiyi a p h y aphy"
+  },
+  {
+    "id": "zoom-join-meeting",
+    "appId": "zoom",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "加入会议",
+      "en": "Join Meeting"
+    },
+    "description": {
+      "zh": "打开加入会议对话框",
+      "en": "Open join meeting dialog"
+    },
+    "mac": "⌘ + Control + J",
+    "windows": "Ctrl + J",
+    "pinyin": "jia ru hui yi jiaruhuiyi j r h y jrhy"
+  },
+  {
+    "id": "zoom-pin-video",
+    "appId": "zoom",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "固定视频",
+      "en": "Pin Video"
+    },
+    "description": {
+      "zh": "固定某参与者的视频画面",
+      "en": "Pin a participant's video"
+    },
+    "mac": "⌘ + P",
+    "windows": "Ctrl + P",
+    "pinyin": "gu ding shi pin gudingshipin g d s p gdsp"
+  },
+  {
+    "id": "zoom-hide-self-view",
+    "appId": "zoom",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "隐藏自己的视图",
+      "en": "Hide Self View"
+    },
+    "description": {
+      "zh": "隐藏自己在画廊中的视频",
+      "en": "Hide self view from gallery"
+    },
+    "mac": "⌘ + H",
+    "windows": "Ctrl + H",
+    "pinyin": "yin cang zi ji de shi tu yincangzijideshitu y c z j d s t yczjdst"
+  },
+  {
+    "id": "zoom-show-hide-participants",
+    "appId": "zoom",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "显示/隐藏参与者面板",
+      "en": "Show / Hide Participants Panel"
+    },
+    "description": {
+      "zh": "切换参与者列表显示",
+      "en": "Toggle participants panel visibility"
+    },
+    "mac": "⌘ + U",
+    "windows": "Ctrl + U",
+    "pinyin": "xian shi / yin cang can yu zhe mian ban xianshi/yincangcanyuzhemianban x s / y c c y z m b xs/yccyzmb"
+  },
+  {
+    "id": "zoom-show-hide-chat",
+    "appId": "zoom",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "显示/隐藏聊天窗口",
+      "en": "Show / Hide Chat Panel"
+    },
+    "description": {
+      "zh": "切换聊天面板显示",
+      "en": "Toggle chat panel visibility"
+    },
+    "mac": "⌘ + Shift + H",
+    "windows": "Alt + H",
+    "pinyin": "xian shi / yin cang liao tian chuang kou xianshi/yincangliaotianchuangkou x s / y c l t c k xs/ycltck"
+  },
+  {
+    "id": "zoom-enter-full-screen",
+    "appId": "zoom",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "进入全屏",
+      "en": "Enter Full Screen"
+    },
+    "description": {
+      "zh": "进入全屏模式",
+      "en": "Enter full screen mode"
+    },
+    "mac": "⌘ + Shift + F",
+    "windows": "Alt + F",
+    "pinyin": "jin ru quan ping jinruquanping j r q p jrqp"
+  },
+  {
+    "id": "zoom-exit-full-screen",
+    "appId": "zoom",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "退出全屏",
+      "en": "Exit Full Screen"
+    },
+    "description": {
+      "zh": "退出全屏模式",
+      "en": "Exit full screen mode"
+    },
+    "mac": "Esc",
+    "windows": "Esc",
+    "pinyin": "tui chu quan ping tuichuquanping t c q p tcqp"
+  },
+  {
+    "id": "zoom-toggle-active-speaker",
+    "appId": "zoom",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "切换活跃演讲者视图",
+      "en": "Toggle Active Speaker View"
+    },
+    "description": {
+      "zh": "在画廊视图与演讲者视图间切换",
+      "en": "Switch between gallery and speaker view"
+    },
+    "mac": "⌘ + Shift + W",
+    "windows": "Alt + W",
+    "linux": "Alt + W",
+    "pinyin": "qie huan huo yue yan jiang zhe shi tu qiehuanhuoyueyanjiangzheshitu q h h y y j z s t qhhyyjzst"
+  },
+  {
+    "id": "zoom-raised-hand",
+    "appId": "zoom",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "举手",
+      "en": "Raise Hand"
+    },
+    "description": {
+      "zh": "向主持人举手示意",
+      "en": "Raise hand to get host attention"
+    },
+    "mac": "⌘ + Option + Y",
+    "windows": "Alt + Y",
+    "linux": "Alt + Y",
+    "pinyin": "ju shou jushou j s js"
+  },
+  {
+    "id": "zoom-chat-message",
+    "appId": "zoom",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "打开聊天输入框",
+      "en": "Open Chat Input"
+    },
+    "description": {
+      "zh": "聚焦聊天消息输入框",
+      "en": "Focus chat message input"
+    },
+    "mac": "⌘ + Shift + C",
+    "windows": "Alt + C",
+    "linux": "Alt + C",
+    "pinyin": "da kai liao tian shu ru kuang dakailiaotianshurukuang d k l t s r k dkltsrk"
+  },
+  {
+    "id": "zoom-next-video",
+    "appId": "zoom",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "下一个视频(画廊)",
+      "en": "Next Video (Gallery)"
+    },
+    "description": {
+      "zh": "在画廊视图中跳转到下一个视频",
+      "en": "Navigate to next video in gallery"
+    },
+    "mac": "Control + N",
+    "windows": "Page Down",
+    "linux": "Page Down",
+    "pinyin": "xia yi ge shi pin ( hua lang ) xiayigeshipin(hualang) x y g s p ( h l ) xygsp(hl)"
+  },
+  {
+    "id": "zoom-prev-video",
+    "appId": "zoom",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "上一个视频(画廊)",
+      "en": "Previous Video (Gallery)"
+    },
+    "description": {
+      "zh": "在画廊视图中跳转到上一个视频",
+      "en": "Navigate to previous video in gallery"
+    },
+    "mac": "Control + P",
+    "windows": "Page Up",
+    "linux": "Page Up",
+    "pinyin": "shang yi ge shi pin ( hua lang ) shangyigeshipin(hualang) s y g s p ( h l ) sygsp(hl)"
+  },
+  {
+    "id": "zoom-audio-via-phone",
+    "appId": "zoom",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "通过电话加入音频",
+      "en": "Join Audio by Phone"
+    },
+    "description": {
+      "zh": "通过电话拨号加入音频",
+      "en": "Join audio via phone call-in"
+    },
+    "mac": "⌘ + Shift + A",
+    "windows": "Alt + A",
+    "linux": "Alt + A",
+    "pinyin": "tong guo dian hua jia ru yin pin tongguodianhuajiaruyinpin t g d h j r y p tgdhjryp"
+  },
+  {
+    "id": "zoom-end-meeting",
+    "appId": "zoom",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "结束会议",
+      "en": "End Meeting"
+    },
+    "description": {
+      "zh": "结束当前会议",
+      "en": "End the current meeting"
+    },
+    "mac": "⌘ + W",
+    "windows": "Ctrl + W / ⌘ + Q",
+    "linux": "Ctrl + Q",
+    "pinyin": "jie shu hui yi jieshuhuiyi j s h y jshy"
+  }
+]

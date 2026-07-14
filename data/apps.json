@@ -121,5 +121,10 @@
   { "id": "confluence",      "name": { "zh": "Confluence",    "en": "Confluence" },    "category": "productivity","icon": "📚", "type": "software", "file": "confluence.json", "source": "ai" },
   { "id": "studioone",       "name": { "zh": "Studio One",    "en": "Studio One" },    "category": "audio",       "icon": "🎚️", "type": "software", "file": "studioone.json", "source": "ai" },
   { "id": "protools",        "name": { "zh": "Pro Tools",     "en": "Pro Tools" },     "category": "audio",       "icon": "🎞️", "type": "software", "file": "protools.json", "source": "ai" },
-  { "id": "ios",             "name": { "zh": "iOS / iPadOS",  "en": "iOS / iPadOS" },  "category": "system",      "icon": "📱", "type": "system", "file": "ios.json", "source": "ai" }
+  { "id": "ios",             "name": { "zh": "iOS / iPadOS",  "en": "iOS / iPadOS" },  "category": "system",      "icon": "📱", "type": "system", "file": "ios.json", "source": "ai" },
+  { "id": "postman",         "name": { "zh": "Postman",       "en": "Postman" },       "category": "development",   "icon": "📮", "type": "software", "file": "postman.json", "source": "community" },
+  { "id": "zoom",            "name": { "zh": "Zoom",          "en": "Zoom" },          "category": "productivity",  "icon": "📹", "type": "software", "file": "zoom.json", "source": "community" },
+  { "id": "asana",           "name": { "zh": "Asana",         "en": "Asana" },         "category": "productivity",  "icon": "✅", "type": "software", "file": "asana.json", "source": "community" },
+  { "id": "toonboom",        "name": { "zh": "Toon Boom Harmony", "en": "Toon Boom Harmony" }, "category": "design",     "icon": "🎬", "type": "software", "file": "toonboom.json", "source": "community" },
+  { "id": "iterm2",          "name": { "zh": "iTerm2",        "en": "iTerm2" },        "category": "system",       "icon": "🖥️", "type": "software", "file": "iterm2.json", "source": "community" }
 ]

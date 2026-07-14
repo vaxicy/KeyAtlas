@@ -68,5 +68,16 @@
   { "id": "raycast", "name": { "zh": "Raycast", "en": "Raycast" }, "category": "productivity", "icon": "🚀", "type": "software", "file": "raycast.json" },
   { "id": "audacity", "name": { "zh": "Audacity", "en": "Audacity" }, "category": "video", "icon": "🎙️", "type": "software", "file": "audacity.json" },
   { "id": "teams", "name": { "zh": "Microsoft Teams", "en": "Microsoft Teams" }, "category": "productivity", "icon": "👥", "type": "software", "file": "teams.json" },
-  { "id": "alfred", "name": { "zh": "Alfred", "en": "Alfred" }, "category": "productivity", "icon": "🎩", "type": "software", "file": "alfred.json" }
+  { "id": "alfred", "name": { "zh": "Alfred", "en": "Alfred" }, "category": "productivity", "icon": "🎩", "type": "software", "file": "alfred.json" },
+  { "id": "gimp", "name": { "zh": "GIMP", "en": "GIMP" }, "category": "design", "icon": "🐘", "type": "software", "file": "gimp.json" },
+  { "id": "intellij", "name": { "zh": "IntelliJ IDEA", "en": "IntelliJ IDEA" }, "category": "development", "icon": "💡", "type": "software", "file": "intellij.json" },
+  { "id": "webstorm", "name": { "zh": "WebStorm", "en": "WebStorm" }, "category": "development", "icon": "💙", "type": "software", "file": "webstorm.json" },
+  { "id": "slack", "name": { "zh": "Slack", "en": "Slack" }, "category": "productivity", "icon": "💬", "type": "software", "file": "slack.json" },
+  { "id": "sublimetext", "name": { "zh": "Sublime Text", "en": "Sublime Text" }, "category": "development", "icon": "📝", "type": "software", "file": "sublimetext.json" },
+  { "id": "krita", "name": { "zh": "Krita", "en": "Krita" }, "category": "design", "icon": "🎨", "type": "software", "file": "krita.json" },
+  { "id": "clipstudio", "name": { "zh": "Clip Studio Paint", "en": "Clip Studio Paint" }, "category": "design", "icon": "🖌️", "type": "software", "file": "clipstudio.json" },
+  { "id": "xcode", "name": { "zh": "Xcode", "en": "Xcode" }, "category": "development", "icon": "🔨", "type": "software", "file": "xcode.json" },
+  { "id": "arc", "name": { "zh": "Arc", "en": "Arc" }, "category": "browser", "icon": "🔵", "type": "software", "file": "arc.json" },
+  { "id": "linear", "name": { "zh": "Linear", "en": "Linear" }, "category": "productivity", "icon": "📐", "type": "software", "file": "linear.json" },
+  { "id": "figjam", "name": { "zh": "FigJam", "en": "FigJam" }, "category": "design", "icon": "🟡", "type": "software", "file": "figjam.json" }
 ]

@@ -1,0 +1,332 @@
+[
+  {
+    "id": "figjam-sticky",
+    "appId": "figjam",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "便利贴",
+      "en": "Sticky Note"
+    },
+    "description": {
+      "zh": "便利贴",
+      "en": "Sticky Note"
+    },
+    "windows": "S",
+    "mac": "S",
+    "linux": "S",
+    "keywords": [
+      "便利贴",
+      "Sticky Note"
+    ],
+    "pinyin": "bian li tie bianlitie b l t blt bian li tie bianlitie b l t blt"
+  },
+  {
+    "id": "figjam-connector",
+    "appId": "figjam",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "连接线",
+      "en": "Connector"
+    },
+    "description": {
+      "zh": "连接线",
+      "en": "Connector"
+    },
+    "windows": "X",
+    "mac": "X",
+    "linux": "X",
+    "keywords": [
+      "连接线",
+      "Connector"
+    ],
+    "pinyin": "lian jie xian lianjiexian l j x ljx lian jie xian lianjiexian l j x ljx"
+  },
+  {
+    "id": "figjam-marker",
+    "appId": "figjam",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "马克笔",
+      "en": "Marker"
+    },
+    "description": {
+      "zh": "马克笔",
+      "en": "Marker"
+    },
+    "windows": "M",
+    "mac": "M",
+    "linux": "M",
+    "keywords": [
+      "马克笔",
+      "Marker"
+    ],
+    "pinyin": "ma ke bi makebi m k b mkb ma ke bi makebi m k b mkb"
+  },
+  {
+    "id": "figjam-highlighter",
+    "appId": "figjam",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "荧光笔",
+      "en": "Highlighter"
+    },
+    "description": {
+      "zh": "荧光笔",
+      "en": "Highlighter"
+    },
+    "windows": "Shift M",
+    "mac": "⇧ M",
+    "linux": "Shift M",
+    "keywords": [
+      "荧光笔",
+      "Highlighter"
+    ],
+    "pinyin": "ying guang bi yingguangbi y g b ygb ying guang bi yingguangbi y g b ygb"
+  },
+  {
+    "id": "figjam-text",
+    "appId": "figjam",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "文字",
+      "en": "Text"
+    },
+    "description": {
+      "zh": "文字",
+      "en": "Text"
+    },
+    "windows": "T",
+    "mac": "T",
+    "linux": "T",
+    "keywords": [
+      "文字",
+      "Text"
+    ],
+    "pinyin": "wen zi wenzi w z wz wen zi wenzi w z wz"
+  },
+  {
+    "id": "figjam-select",
+    "appId": "figjam",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "选择",
+      "en": "Select"
+    },
+    "description": {
+      "zh": "选择",
+      "en": "Select"
+    },
+    "windows": "V",
+    "mac": "V",
+    "linux": "V",
+    "keywords": [
+      "选择",
+      "Select"
+    ],
+    "pinyin": "xuan ze xuanze x z xz xuan ze xuanze x z xz"
+  },
+  {
+    "id": "figjam-hand",
+    "appId": "figjam",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "抓手",
+      "en": "Hand"
+    },
+    "description": {
+      "zh": "抓手",
+      "en": "Hand"
+    },
+    "windows": "H",
+    "mac": "H",
+    "linux": "H",
+    "keywords": [
+      "抓手",
+      "Hand"
+    ],
+    "pinyin": "zhua shou zhuashou z s zs zhua shou zhuashou z s zs"
+  },
+  {
+    "id": "figjam-highfive",
+    "appId": "figjam",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "击掌",
+      "en": "High Five"
+    },
+    "description": {
+      "zh": "击掌",
+      "en": "High Five"
+    },
+    "windows": "H",
+    "mac": "H",
+    "linux": "H",
+    "keywords": [
+      "击掌",
+      "High Five"
+    ],
+    "pinyin": "ji zhang jizhang j z jz ji zhang jizhang j z jz"
+  },
+  {
+    "id": "figjam-washi",
+    "appId": "figjam",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "和纸胶带",
+      "en": "Washi Tape"
+    },
+    "description": {
+      "zh": "和纸胶带",
+      "en": "Washi Tape"
+    },
+    "windows": "W",
+    "mac": "W",
+    "linux": "W",
+    "keywords": [
+      "和纸胶带",
+      "Washi Tape"
+    ],
+    "pinyin": "he zhi jiao dai hezhijiaodai h z j d hzjd he zhi jiao dai hezhijiaodai h z j d hzjd"
+  },
+  {
+    "id": "figjam-stamp",
+    "appId": "figjam",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "印章/表情",
+      "en": "Stamp/Emote"
+    },
+    "description": {
+      "zh": "印章/表情",
+      "en": "Stamp/Emote"
+    },
+    "windows": "E",
+    "mac": "E",
+    "linux": "E",
+    "keywords": [
+      "印章/表情",
+      "Stamp/Emote"
+    ],
+    "pinyin": "yin zhang / biao qing yinzhang/biaoqing y z / b q yz/bq yin zhang / biao qing yinzhang/biaoqing y z / b q yz/bq"
+  },
+  {
+    "id": "figjam-square",
+    "appId": "figjam",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "添加正方形",
+      "en": "Add a Square"
+    },
+    "description": {
+      "zh": "添加正方形",
+      "en": "Add a Square"
+    },
+    "windows": "R",
+    "mac": "R",
+    "linux": "R",
+    "keywords": [
+      "添加正方形",
+      "Add a Square"
+    ],
+    "pinyin": "tian jia zheng fang xing tianjiazhengfangxing t j z f x tjzfx tian jia zheng fang xing tianjiazhengfangxing t j z f x tjzfx"
+  },
+  {
+    "id": "figjam-ellipse",
+    "appId": "figjam",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "添加椭圆",
+      "en": "Add an Ellipse"
+    },
+    "description": {
+      "zh": "添加椭圆",
+      "en": "Add an Ellipse"
+    },
+    "windows": "O",
+    "mac": "O",
+    "linux": "O",
+    "keywords": [
+      "添加椭圆",
+      "Add an Ellipse"
+    ],
+    "pinyin": "tian jia tuo yuan tianjiatuoyuan t j t y tjty tian jia tuo yuan tianjiatuoyuan t j t y tjty"
+  },
+  {
+    "id": "figjam-comment",
+    "appId": "figjam",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "添加评论",
+      "en": "Add a Comment"
+    },
+    "description": {
+      "zh": "添加评论",
+      "en": "Add a Comment"
+    },
+    "windows": "C",
+    "mac": "C",
+    "linux": "C",
+    "keywords": [
+      "添加评论",
+      "Add a Comment"
+    ],
+    "pinyin": "tian jia ping lun tianjiapinglun t j p l tjpl tian jia ping lun tianjiapinglun t j p l tjpl"
+  },
+  {
+    "id": "figjam-zoomin",
+    "appId": "figjam",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "放大",
+      "en": "Zoom In"
+    },
+    "description": {
+      "zh": "放大",
+      "en": "Zoom In"
+    },
+    "windows": "Ctrl +",
+    "mac": "⌘ +",
+    "linux": "Ctrl +",
+    "keywords": [
+      "放大",
+      "Zoom In"
+    ],
+    "pinyin": "fang da fangda f d fd fang da fangda f d fd"
+  },
+  {
+    "id": "figjam-zoomout",
+    "appId": "figjam",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "缩小",
+      "en": "Zoom Out"
+    },
+    "description": {
+      "zh": "缩小",
+      "en": "Zoom Out"
+    },
+    "windows": "Ctrl -",
+    "mac": "⌘ -",
+    "linux": "Ctrl -",
+    "keywords": [
+      "缩小",
+      "Zoom Out"
+    ],
+    "pinyin": "suo xiao suoxiao s x sx suo xiao suoxiao s x sx"
+  }
+]

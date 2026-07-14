@@ -15,15 +15,17 @@
 
 ## 快捷键数据来源核实状态（2026-07-14 更新）
 
-共 **91 个**应用/系统条目。
+共 **102 个**应用/系统条目。
 
 | 来源 | 数量 | 说明 |
 |------|------|------|
-| `official` | 79 | 对照官方文档/截图逐条核实 |
+| `official` | 80 | 对照官方文档/截图逐条核实 |
 | `community` | 10 | 社区整理版，非官方逐条验证 |
-| `ai` | 2 | AI 总结版，精确度较低 |
+| `ai` | 12 | AI 专业知识库编写，未经官网逐条核实（见下方） |
 
-分类分布：系统 3 / 浏览器 5 / 开发 18 / 设计 31 / 办公 24 / 视频 9 / 其他 1
+分类分布：系统 3 / 浏览器 5 / 开发 19 / 设计 34 / 效率 27 / 视频 9 / 音频 4 / 其他 1
+
+> 分类表 `data/categories.json` 含 8 类：system / browser / development / design / productivity / video / audio / ai / other。
 
 ### ✅ 官方核实（79 个）
 
@@ -62,17 +64,17 @@
 
 **第三批（2026-07-14 web_fetch 官方文档核实）：**
 - `pycharm.json` / `goland.json` / `clion.json` / `phpstorm.json` / `rider.json`（JetBrains 全家桶）
-- `vim.json` / `neovim.json` / `emacs.json`（vimhelp.org / neovim doc / GNU 参考卡）
+- `vim.json` / `neovim.json` / `emacs.json` / `helix.json`（vimhelp.org / neovim doc / GNU 参考卡 / Helix 官方 keymap）
 - `keynote.json` / `pages.json` / `numbers.json`（Apple iWork 标准，Mac-only）
 
-### ⚠️ 非官方来源标注（12 个）
+### ⚠️ 非官方来源标注（22 个）
 
 | 来源类型 | 应用 |
 |----------|------|
 | `community`（10） | figma, firefox, acrobat, sublimetext, krita, clipstudio, xcode, arc, linear, figjam |
-| `ai`（2） | git, bilibili |
+| `ai`（12） | git, bilibili, **cinema4d, maya, zbrush, logicpro, abletonlive, garageband, reaper, jira, trello, onenote** |
 
-> 这些应用基于社区整理版或 AI 总结编写，未经官方文档逐条验证。补全到官方级别需要逐个 web_fetch 官方快捷键页。
+> `ai` 来源的应用（含 2026-07-14 新增的 10 个：Cinema 4D / Maya / ZBrush / Logic Pro / Ableton Live / GarageBand / REAPER / Jira / Trello / OneNote）由 AI 专业知识库编写，**未经官网逐条核实**（当时网络受限，官方正文页全部超时/仅返回目录）。键位大概率正确但建议后续 web_fetch 官方页复核。Logic Pro / GarageBand 为 Mac 独占（windows/linux 设为 "—"）。
 
 ## 技术栈
 - Chrome 扩展（Manifest V3），popup 单页应用。

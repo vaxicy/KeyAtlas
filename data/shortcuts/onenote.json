@@ -1,0 +1,548 @@
+[
+  {
+    "id": "onenote-newpage",
+    "appId": "onenote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "新建页面",
+      "en": "New Page"
+    },
+    "description": {
+      "zh": "在当前分区新建页面",
+      "en": "Create a new page in the current section"
+    },
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
+    "linux": "—",
+    "keywords": [
+      "新建",
+      "new",
+      "页面",
+      "page"
+    ],
+    "pinyin": "xin jian ye mian xinjianyemian x j y m xjym xin jian   ye mian xinjian yemian x j   y m xj ym"
+  },
+  {
+    "id": "onenote-newsection",
+    "appId": "onenote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "新建分区",
+      "en": "New Section"
+    },
+    "description": {
+      "zh": "新建一个分区",
+      "en": "Create a new section"
+    },
+    "windows": "Ctrl + T",
+    "mac": "⌘ T",
+    "linux": "—",
+    "keywords": [
+      "新建",
+      "new",
+      "分区",
+      "section"
+    ],
+    "pinyin": "xin jian fen qu xinjianfenqu x j f q xjfq xin jian   fen qu xinjian fenqu x j   f q xj fq"
+  },
+  {
+    "id": "onenote-save",
+    "appId": "onenote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "保存",
+      "en": "Save"
+    },
+    "description": {
+      "zh": "保存当前笔记本",
+      "en": "Save the current notebook"
+    },
+    "windows": "Ctrl + S",
+    "mac": "⌘ S",
+    "linux": "—",
+    "keywords": [
+      "保存",
+      "save"
+    ],
+    "pinyin": "bao cun baocun b c bc bao cun baocun b c bc"
+  },
+  {
+    "id": "onenote-undo",
+    "appId": "onenote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销上一步",
+      "en": "Undo the last action"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "—",
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "onenote-redo",
+    "appId": "onenote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "重做操作",
+      "en": "Redo the action"
+    },
+    "windows": "Ctrl + Y",
+    "mac": "⌘ ⇧ Z",
+    "linux": "—",
+    "keywords": [
+      "重做",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "onenote-copy",
+    "appId": "onenote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "复制",
+      "en": "Copy"
+    },
+    "description": {
+      "zh": "复制选中内容",
+      "en": "Copy the selection"
+    },
+    "windows": "Ctrl + C",
+    "mac": "⌘ C",
+    "linux": "—",
+    "keywords": [
+      "复制",
+      "copy"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "onenote-paste",
+    "appId": "onenote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "粘贴",
+      "en": "Paste"
+    },
+    "description": {
+      "zh": "粘贴内容",
+      "en": "Paste the clipboard"
+    },
+    "windows": "Ctrl + V",
+    "mac": "⌘ V",
+    "linux": "—",
+    "keywords": [
+      "粘贴",
+      "paste"
+    ],
+    "pinyin": "nian tie niantie n t nt nian tie niantie n t nt"
+  },
+  {
+    "id": "onenote-cut",
+    "appId": "onenote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "剪切",
+      "en": "Cut"
+    },
+    "description": {
+      "zh": "剪切选中内容",
+      "en": "Cut the selection"
+    },
+    "windows": "Ctrl + X",
+    "mac": "⌘ X",
+    "linux": "—",
+    "keywords": [
+      "剪切",
+      "cut"
+    ],
+    "pinyin": "jian qie jianqie j q jq jian qie jianqie j q jq"
+  },
+  {
+    "id": "onenote-selectall",
+    "appId": "onenote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "全选",
+      "en": "Select All"
+    },
+    "description": {
+      "zh": "选中页面所有内容",
+      "en": "Select all content on the page"
+    },
+    "windows": "Ctrl + A",
+    "mac": "⌘ A",
+    "linux": "—",
+    "keywords": [
+      "全选",
+      "select all"
+    ],
+    "pinyin": "quan xuan quanxuan q x qx quan xuan quanxuan q x qx"
+  },
+  {
+    "id": "onenote-bold",
+    "appId": "onenote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "加粗",
+      "en": "Bold"
+    },
+    "description": {
+      "zh": "加粗选中文字",
+      "en": "Bold the selected text"
+    },
+    "windows": "Ctrl + B",
+    "mac": "⌘ B",
+    "linux": "—",
+    "keywords": [
+      "加粗",
+      "bold"
+    ],
+    "pinyin": "jia cu jiacu j c jc jia cu jiacu j c jc"
+  },
+  {
+    "id": "onenote-italic",
+    "appId": "onenote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "斜体",
+      "en": "Italic"
+    },
+    "description": {
+      "zh": "将选中文字设为斜体",
+      "en": "Italicize the selected text"
+    },
+    "windows": "Ctrl + I",
+    "mac": "⌘ I",
+    "linux": "—",
+    "keywords": [
+      "斜体",
+      "italic"
+    ],
+    "pinyin": "xie ti xieti x t xt xie ti xieti x t xt"
+  },
+  {
+    "id": "onenote-underline",
+    "appId": "onenote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "下划线",
+      "en": "Underline"
+    },
+    "description": {
+      "zh": "为选中文字加下划线",
+      "en": "Underline the selected text"
+    },
+    "windows": "Ctrl + U",
+    "mac": "⌘ U",
+    "linux": "—",
+    "keywords": [
+      "下划线",
+      "underline"
+    ],
+    "pinyin": "xia hua xian xiahuaxian x h x xhx xia hua xian xiahuaxian x h x xhx"
+  },
+  {
+    "id": "onenote-link",
+    "appId": "onenote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "插入链接",
+      "en": "Insert Link"
+    },
+    "description": {
+      "zh": "插入超链接",
+      "en": "Insert a hyperlink"
+    },
+    "windows": "Ctrl + K",
+    "mac": "⌘ K",
+    "linux": "—",
+    "keywords": [
+      "链接",
+      "link",
+      "超链接"
+    ],
+    "pinyin": "cha ru lian jie charulianjie c r l j crlj lian jie   chao lian jie lianjie chaolianjie l j   c l j lj clj"
+  },
+  {
+    "id": "onenote-search",
+    "appId": "onenote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "搜索",
+      "en": "Search"
+    },
+    "description": {
+      "zh": "聚焦到搜索框",
+      "en": "Focus the search box"
+    },
+    "windows": "Ctrl + E",
+    "mac": "⌘ E",
+    "linux": "—",
+    "keywords": [
+      "搜索",
+      "search",
+      "查找",
+      "find"
+    ],
+    "pinyin": "sou suo sousuo s s ss sou suo   cha zhao sousuo chazhao s s   c z ss cz"
+  },
+  {
+    "id": "onenote-prevpage",
+    "appId": "onenote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "上一页",
+      "en": "Previous Page"
+    },
+    "description": {
+      "zh": "切换到上一页",
+      "en": "Go to the previous page"
+    },
+    "windows": "Ctrl + PageUp",
+    "mac": "⌘ PageUp",
+    "linux": "—",
+    "keywords": [
+      "上一页",
+      "previous",
+      "页面",
+      "page"
+    ],
+    "pinyin": "shang yi ye shangyiye s y y syy shang yi ye   ye mian shangyiye yemian s y y   y m syy ym"
+  },
+  {
+    "id": "onenote-nextpage",
+    "appId": "onenote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "下一页",
+      "en": "Next Page"
+    },
+    "description": {
+      "zh": "切换到下一页",
+      "en": "Go to the next page"
+    },
+    "windows": "Ctrl + PageDown",
+    "mac": "⌘ PageDown",
+    "linux": "—",
+    "keywords": [
+      "下一页",
+      "next",
+      "页面",
+      "page"
+    ],
+    "pinyin": "xia yi ye xiayiye x y y xyy xia yi ye   ye mian xiayiye yemian x y y   y m xyy ym"
+  },
+  {
+    "id": "onenote-tag1",
+    "appId": "onenote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "应用标记 1",
+      "en": "Apply Tag 1"
+    },
+    "description": {
+      "zh": "为段落应用第 1 个标记",
+      "en": "Apply tag number 1 to the paragraph"
+    },
+    "windows": "Ctrl + 1",
+    "mac": "⌘ 1",
+    "linux": "—",
+    "keywords": [
+      "标记",
+      "tag",
+      "标签"
+    ],
+    "pinyin": "ying yong biao ji   1 yingyongbiaoji 1 y y b j   1 yybj 1 biao ji   biao qian biaoji biaoqian b j   b q bj bq"
+  },
+  {
+    "id": "onenote-tag2",
+    "appId": "onenote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "应用标记 2",
+      "en": "Apply Tag 2"
+    },
+    "description": {
+      "zh": "为段落应用第 2 个标记",
+      "en": "Apply tag number 2 to the paragraph"
+    },
+    "windows": "Ctrl + 2",
+    "mac": "⌘ 2",
+    "linux": "—",
+    "keywords": [
+      "标记",
+      "tag",
+      "标签"
+    ],
+    "pinyin": "ying yong biao ji   2 yingyongbiaoji 2 y y b j   2 yybj 2 biao ji   biao qian biaoji biaoqian b j   b q bj bq"
+  },
+  {
+    "id": "onenote-tag3",
+    "appId": "onenote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "应用标记 3",
+      "en": "Apply Tag 3"
+    },
+    "description": {
+      "zh": "为段落应用第 3 个标记",
+      "en": "Apply tag number 3 to the paragraph"
+    },
+    "windows": "Ctrl + 3",
+    "mac": "⌘ 3",
+    "linux": "—",
+    "keywords": [
+      "标记",
+      "tag",
+      "标签"
+    ],
+    "pinyin": "ying yong biao ji   3 yingyongbiaoji 3 y y b j   3 yybj 3 biao ji   biao qian biaoji biaoqian b j   b q bj bq"
+  },
+  {
+    "id": "onenote-zoom100",
+    "appId": "onenote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "缩放到 100%",
+      "en": "Zoom to 100%"
+    },
+    "description": {
+      "zh": "将页面缩放恢复为 100%",
+      "en": "Reset zoom to 100%"
+    },
+    "windows": "Ctrl + Alt + 1",
+    "mac": "⌘ ⌥ 1",
+    "linux": "—",
+    "keywords": [
+      "缩放",
+      "zoom",
+      "100"
+    ],
+    "pinyin": "suo fang dao   1 0 0 % suofangdao 100% s f d   1 0 0 % sfd 100% suo fang suofang s f sf"
+  },
+  {
+    "id": "onenote-zoomfit",
+    "appId": "onenote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "缩放到合适",
+      "en": "Zoom to Fit"
+    },
+    "description": {
+      "zh": "将页面缩放至适应窗口",
+      "en": "Zoom to fit the window"
+    },
+    "windows": "Ctrl + Alt + 0",
+    "mac": "⌘ ⌥ 0",
+    "linux": "—",
+    "keywords": [
+      "缩放",
+      "zoom",
+      "fit"
+    ],
+    "pinyin": "suo fang dao he shi suofangdaoheshi s f d h s sfdhs suo fang suofang s f sf"
+  },
+  {
+    "id": "onenote-delete",
+    "appId": "onenote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "删除",
+      "en": "Delete"
+    },
+    "description": {
+      "zh": "删除选中的对象",
+      "en": "Delete the selected object"
+    },
+    "windows": "Del",
+    "mac": "⌫",
+    "linux": "—",
+    "keywords": [
+      "删除",
+      "delete"
+    ],
+    "pinyin": "shan chu shanchu s c sc shan chu shanchu s c sc"
+  },
+  {
+    "id": "onenote-sync",
+    "appId": "onenote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "同步",
+      "en": "Sync"
+    },
+    "description": {
+      "zh": "同步当前笔记本",
+      "en": "Sync the current notebook"
+    },
+    "windows": "Shift + F9",
+    "mac": "⇧ F9",
+    "linux": "—",
+    "keywords": [
+      "同步",
+      "sync"
+    ],
+    "pinyin": "tong bu tongbu t b tb tong bu tongbu t b tb"
+  },
+  {
+    "id": "onenote-newbelow",
+    "appId": "onenote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "在下方新建页面",
+      "en": "New Page Below"
+    },
+    "description": {
+      "zh": "在当前页面下方新建页面",
+      "en": "Create a new page below the current one"
+    },
+    "windows": "Ctrl + Alt + N",
+    "mac": "⌘ ⌥ N",
+    "linux": "—",
+    "keywords": [
+      "新建",
+      "new",
+      "页面",
+      "page"
+    ],
+    "pinyin": "zai xia fang xin jian ye mian zaixiafangxinjianyemian z x f x j y m zxfxjym xin jian   ye mian xinjian yemian x j   y m xj ym"
+  }
+]

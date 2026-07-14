@@ -1,0 +1,413 @@
+[
+  {
+    "id": "jira-shortcuts",
+    "appId": "jira",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "显示快捷键",
+      "en": "Show Shortcuts"
+    },
+    "description": {
+      "zh": "打开快捷键帮助面板",
+      "en": "Open the keyboard shortcuts help"
+    },
+    "windows": "?",
+    "mac": "?",
+    "linux": "?",
+    "keywords": [
+      "快捷键",
+      "shortcuts",
+      "帮助",
+      "help"
+    ],
+    "pinyin": "xian shi kuai jie jian xianshikuaijiejian x s k j j xskjj kuai jie jian   bang zhu kuaijiejian bangzhu k j j   b z kjj bz"
+  },
+  {
+    "id": "jira-search",
+    "appId": "jira",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "快速搜索",
+      "en": "Quick Search"
+    },
+    "description": {
+      "zh": "聚焦到搜索框",
+      "en": "Focus the quick search box"
+    },
+    "windows": "/",
+    "mac": "/",
+    "linux": "/",
+    "keywords": [
+      "搜索",
+      "search",
+      "查找",
+      "find"
+    ],
+    "pinyin": "kuai su sou suo kuaisusousuo k s s s ksss sou suo   cha zhao sousuo chazhao s s   c z ss cz"
+  },
+  {
+    "id": "jira-create",
+    "appId": "jira",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "创建问题",
+      "en": "Create Issue"
+    },
+    "description": {
+      "zh": "打开创建问题对话框",
+      "en": "Open the create issue dialog"
+    },
+    "windows": "C",
+    "mac": "C",
+    "linux": "C",
+    "keywords": [
+      "创建",
+      "create",
+      "问题",
+      "issue"
+    ],
+    "pinyin": "chuang jian wen ti chuangjianwenti c j w t cjwt chuang jian   wen ti chuangjian wenti c j   w t cj wt"
+  },
+  {
+    "id": "jira-open",
+    "appId": "jira",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "打开选中问题",
+      "en": "Open Selected Issue"
+    },
+    "description": {
+      "zh": "打开当前选中的问题",
+      "en": "Open the currently selected issue"
+    },
+    "windows": "O",
+    "mac": "O",
+    "linux": "O",
+    "keywords": [
+      "打开",
+      "open",
+      "问题",
+      "issue"
+    ],
+    "pinyin": "da kai xuan zhong wen ti dakaixuanzhongwenti d k x z w t dkxzwt da kai   wen ti dakai wenti d k   w t dk wt"
+  },
+  {
+    "id": "jira-assignme",
+    "appId": "jira",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "分配给我",
+      "en": "Assign to Me"
+    },
+    "description": {
+      "zh": "把当前问题分配给自己",
+      "en": "Assign the current issue to yourself"
+    },
+    "windows": "I",
+    "mac": "I",
+    "linux": "I",
+    "keywords": [
+      "分配",
+      "assign",
+      "我",
+      "me"
+    ],
+    "pinyin": "fen pei ji wo fenpeijiwo f p j w fpjw fen pei   wo fenpei wo f p   w fp w"
+  },
+  {
+    "id": "jira-comment",
+    "appId": "jira",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "评论",
+      "en": "Comment"
+    },
+    "description": {
+      "zh": "为当前问题添加评论",
+      "en": "Add a comment to the current issue"
+    },
+    "windows": "M",
+    "mac": "M",
+    "linux": "M",
+    "keywords": [
+      "评论",
+      "comment"
+    ],
+    "pinyin": "ping lun pinglun p l pl ping lun pinglun p l pl"
+  },
+  {
+    "id": "jira-edit",
+    "appId": "jira",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "编辑问题",
+      "en": "Edit Issue"
+    },
+    "description": {
+      "zh": "打开编辑问题界面",
+      "en": "Open the edit issue screen"
+    },
+    "windows": "E",
+    "mac": "E",
+    "linux": "E",
+    "keywords": [
+      "编辑",
+      "edit"
+    ],
+    "pinyin": "bian ji wen ti bianjiwenti b j w t bjwt bian ji bianji b j bj"
+  },
+  {
+    "id": "jira-select",
+    "appId": "jira",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "选择问题",
+      "en": "Select Issue"
+    },
+    "description": {
+      "zh": "选中/取消选中当前问题",
+      "en": "Select/deselect the current issue"
+    },
+    "windows": "X",
+    "mac": "X",
+    "linux": "X",
+    "keywords": [
+      "选择",
+      "select"
+    ],
+    "pinyin": "xuan ze wen ti xuanzewenti x z w t xzwt xuan ze xuanze x z xz"
+  },
+  {
+    "id": "jira-up",
+    "appId": "jira",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "上移选择",
+      "en": "Move Selection Up"
+    },
+    "description": {
+      "zh": "在选择列表中上移",
+      "en": "Move the selection up"
+    },
+    "windows": "K",
+    "mac": "K",
+    "linux": "K",
+    "keywords": [
+      "上移",
+      "up"
+    ],
+    "pinyin": "shang yi xuan ze shangyixuanze s y x z syxz shang yi shangyi s y sy"
+  },
+  {
+    "id": "jira-down",
+    "appId": "jira",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "下移选择",
+      "en": "Move Selection Down"
+    },
+    "description": {
+      "zh": "在选择列表中下移",
+      "en": "Move the selection down"
+    },
+    "windows": "J",
+    "mac": "J",
+    "linux": "J",
+    "keywords": [
+      "下移",
+      "down"
+    ],
+    "pinyin": "xia yi xuan ze xiayixuanze x y x z xyxz xia yi xiayi x y xy"
+  },
+  {
+    "id": "jira-sidebar",
+    "appId": "jira",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "切换侧边栏",
+      "en": "Toggle Sidebar"
+    },
+    "description": {
+      "zh": "显示/隐藏左侧侧边栏",
+      "en": "Show/hide the left sidebar"
+    },
+    "windows": "[",
+    "mac": "[",
+    "linux": "[",
+    "keywords": [
+      "侧边栏",
+      "sidebar"
+    ],
+    "pinyin": "qie huan ce bian lan qiehuancebianlan q h c b l qhcbl ce bian lan cebianlan c b l cbl"
+  },
+  {
+    "id": "jira-dashboard",
+    "appId": "jira",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "前往仪表盘",
+      "en": "Go to Dashboard"
+    },
+    "description": {
+      "zh": "快速跳转至仪表盘",
+      "en": "Go to the Dashboard (G then D)"
+    },
+    "windows": "G D",
+    "mac": "G D",
+    "linux": "G D",
+    "keywords": [
+      "仪表盘",
+      "dashboard"
+    ],
+    "pinyin": "qian wang yi biao pan qianwangyibiaopan q w y b p qwybp yi biao pan yibiaopan y b p ybp"
+  },
+  {
+    "id": "jira-projects",
+    "appId": "jira",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "前往项目",
+      "en": "Go to Projects"
+    },
+    "description": {
+      "zh": "快速跳转至项目列表",
+      "en": "Go to Projects (G then P)"
+    },
+    "windows": "G P",
+    "mac": "G P",
+    "linux": "G P",
+    "keywords": [
+      "项目",
+      "projects"
+    ],
+    "pinyin": "qian wang xiang mu qianwangxiangmu q w x m qwxm xiang mu xiangmu x m xm"
+  },
+  {
+    "id": "jira-boards",
+    "appId": "jira",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "前往看板",
+      "en": "Go to Boards"
+    },
+    "description": {
+      "zh": "快速跳转至看板",
+      "en": "Go to Boards (G then B)"
+    },
+    "windows": "G B",
+    "mac": "G B",
+    "linux": "G B",
+    "keywords": [
+      "看板",
+      "boards",
+      "board"
+    ],
+    "pinyin": "qian wang kan ban qianwangkanban q w k b qwkb kan ban kanban k b kb"
+  },
+  {
+    "id": "jira-issues",
+    "appId": "jira",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "前往问题",
+      "en": "Go to Issues"
+    },
+    "description": {
+      "zh": "快速跳转至问题搜索",
+      "en": "Go to Issues (G then I)"
+    },
+    "windows": "G I",
+    "mac": "G I",
+    "linux": "G I",
+    "keywords": [
+      "问题",
+      "issues"
+    ],
+    "pinyin": "qian wang wen ti qianwangwenti q w w t qwwt wen ti wenti w t wt"
+  },
+  {
+    "id": "jira-notif",
+    "appId": "jira",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "前往通知",
+      "en": "Go to Notifications"
+    },
+    "description": {
+      "zh": "快速跳转至通知",
+      "en": "Go to Notifications (G then N)"
+    },
+    "windows": "G N",
+    "mac": "G N",
+    "linux": "G N",
+    "keywords": [
+      "通知",
+      "notifications"
+    ],
+    "pinyin": "qian wang tong zhi qianwangtongzhi q w t z qwtz tong zhi tongzhi t z tz"
+  },
+  {
+    "id": "jira-actions",
+    "appId": "jira",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "操作菜单",
+      "en": "Actions Menu"
+    },
+    "description": {
+      "zh": "打开更多操作菜单",
+      "en": "Open the more actions menu"
+    },
+    "windows": ".",
+    "mac": ".",
+    "linux": ".",
+    "keywords": [
+      "操作",
+      "actions",
+      "菜单",
+      "menu"
+    ],
+    "pinyin": "cao zuo cai dan caozuocaidan c z c d czcd cao zuo   cai dan caozuo caidan c z   c d cz cd"
+  },
+  {
+    "id": "jira-close",
+    "appId": "jira",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "关闭",
+      "en": "Close"
+    },
+    "description": {
+      "zh": "关闭当前弹窗/面板",
+      "en": "Close the current dialog/panel"
+    },
+    "windows": "Esc",
+    "mac": "Esc",
+    "linux": "Esc",
+    "keywords": [
+      "关闭",
+      "close",
+      "退出",
+      "esc"
+    ],
+    "pinyin": "guan bi guanbi g b gb guan bi   tui chu guanbi tuichu g b   t c gb tc"
+  }
+]

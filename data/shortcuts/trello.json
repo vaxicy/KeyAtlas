@@ -1,0 +1,358 @@
+[
+  {
+    "id": "trello-shortcuts",
+    "appId": "trello",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "显示快捷键",
+      "en": "Show Shortcuts"
+    },
+    "description": {
+      "zh": "打开快捷键帮助面板",
+      "en": "Open the keyboard shortcuts help"
+    },
+    "windows": "?",
+    "mac": "?",
+    "linux": "?",
+    "keywords": [
+      "快捷键",
+      "shortcuts",
+      "帮助",
+      "help"
+    ],
+    "pinyin": "xian shi kuai jie jian xianshikuaijiejian x s k j j xskjj kuai jie jian   bang zhu kuaijiejian bangzhu k j j   b z kjj bz"
+  },
+  {
+    "id": "trello-search",
+    "appId": "trello",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "搜索",
+      "en": "Search"
+    },
+    "description": {
+      "zh": "聚焦到搜索框",
+      "en": "Focus the search box"
+    },
+    "windows": "/",
+    "mac": "/",
+    "linux": "/",
+    "keywords": [
+      "搜索",
+      "search",
+      "查找",
+      "find"
+    ],
+    "pinyin": "sou suo sousuo s s ss sou suo   cha zhao sousuo chazhao s s   c z ss cz"
+  },
+  {
+    "id": "trello-boards",
+    "appId": "trello",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "返回看板列表",
+      "en": "Back to Boards"
+    },
+    "description": {
+      "zh": "返回看板总览页",
+      "en": "Go back to the boards page"
+    },
+    "windows": "B",
+    "mac": "B",
+    "linux": "B",
+    "keywords": [
+      "看板",
+      "boards",
+      "返回",
+      "back"
+    ],
+    "pinyin": "fan hui kan ban lie biao fanhuikanbanliebiao f h k b l b fhkblb kan ban   fan hui kanban fanhui k b   f h kb fh"
+  },
+  {
+    "id": "trello-filter",
+    "appId": "trello",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "筛选卡片",
+      "en": "Filter Cards"
+    },
+    "description": {
+      "zh": "打开卡片筛选器",
+      "en": "Open the card filter"
+    },
+    "windows": "F",
+    "mac": "F",
+    "linux": "F",
+    "keywords": [
+      "筛选",
+      "filter",
+      "卡片",
+      "card"
+    ],
+    "pinyin": "shai xuan ka pian shaixuankapian s x k p sxkp shai xuan   ka pian shaixuan kapian s x   k p sx kp"
+  },
+  {
+    "id": "trello-clearfilter",
+    "appId": "trello",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "清除筛选",
+      "en": "Clear Filter"
+    },
+    "description": {
+      "zh": "清除当前筛选条件",
+      "en": "Clear the active filter"
+    },
+    "windows": "X",
+    "mac": "X",
+    "linux": "X",
+    "keywords": [
+      "清除",
+      "clear",
+      "筛选",
+      "filter"
+    ],
+    "pinyin": "qing chu shai xuan qingchushaixuan q c s x qcsx qing chu   shai xuan qingchu shaixuan q c   s x qc sx"
+  },
+  {
+    "id": "trello-addcard",
+    "appId": "trello",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "添加卡片",
+      "en": "Add Card"
+    },
+    "description": {
+      "zh": "在当前列表添加卡片",
+      "en": "Add a card to the current list"
+    },
+    "windows": "N",
+    "mac": "N",
+    "linux": "N",
+    "keywords": [
+      "添加",
+      "add",
+      "卡片",
+      "card"
+    ],
+    "pinyin": "tian jia ka pian tianjiakapian t j k p tjkp tian jia   ka pian tianjia kapian t j   k p tj kp"
+  },
+  {
+    "id": "trello-open",
+    "appId": "trello",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "打开卡片",
+      "en": "Open Card"
+    },
+    "description": {
+      "zh": "打开选中的卡片",
+      "en": "Open the selected card"
+    },
+    "windows": "Space",
+    "mac": "Space",
+    "linux": "Space",
+    "keywords": [
+      "打开",
+      "open",
+      "卡片",
+      "card"
+    ],
+    "pinyin": "da kai ka pian dakaikapian d k k p dkkp da kai   ka pian dakai kapian d k   k p dk kp"
+  },
+  {
+    "id": "trello-edit",
+    "appId": "trello",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "编辑标题",
+      "en": "Edit Title"
+    },
+    "description": {
+      "zh": "编辑卡片标题",
+      "en": "Edit the card title"
+    },
+    "windows": "E",
+    "mac": "E",
+    "linux": "E",
+    "keywords": [
+      "编辑",
+      "edit",
+      "标题",
+      "title"
+    ],
+    "pinyin": "bian ji biao ti bianjibiaoti b j b t bjbt bian ji   biao ti bianji biaoti b j   b t bj bt"
+  },
+  {
+    "id": "trello-label",
+    "appId": "trello",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "添加标签",
+      "en": "Add Label"
+    },
+    "description": {
+      "zh": "为卡片添加标签",
+      "en": "Add a label to the card"
+    },
+    "windows": "L",
+    "mac": "L",
+    "linux": "L",
+    "keywords": [
+      "标签",
+      "label"
+    ],
+    "pinyin": "tian jia biao qian tianjiabiaoqian t j b q tjbq biao qian biaoqian b q bq"
+  },
+  {
+    "id": "trello-member",
+    "appId": "trello",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "添加成员",
+      "en": "Add Member"
+    },
+    "description": {
+      "zh": "为卡片添加成员",
+      "en": "Add a member to the card"
+    },
+    "windows": "M",
+    "mac": "M",
+    "linux": "M",
+    "keywords": [
+      "成员",
+      "member"
+    ],
+    "pinyin": "tian jia cheng yuan tianjiachengyuan t j c y tjcy cheng yuan chengyuan c y cy"
+  },
+  {
+    "id": "trello-due",
+    "appId": "trello",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "设置截止日期",
+      "en": "Add Due Date"
+    },
+    "description": {
+      "zh": "为卡片设置截止日期",
+      "en": "Set a due date on the card"
+    },
+    "windows": "D",
+    "mac": "D",
+    "linux": "D",
+    "keywords": [
+      "截止",
+      "due",
+      "日期",
+      "date"
+    ],
+    "pinyin": "she zhi jie zhi ri qi shezhijiezhiriqi s z j z r q szjzrq jie zhi   ri qi jiezhi riqi j z   r q jz rq"
+  },
+  {
+    "id": "trello-left",
+    "appId": "trello",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "卡片左移",
+      "en": "Move Card Left"
+    },
+    "description": {
+      "zh": "把卡片移到左侧列表",
+      "en": "Move the card to the list on the left"
+    },
+    "windows": "[",
+    "mac": "[",
+    "linux": "[",
+    "keywords": [
+      "左移",
+      "left",
+      "卡片",
+      "card"
+    ],
+    "pinyin": "ka pian zuo yi kapianzuoyi k p z y kpzy zuo yi   ka pian zuoyi kapian z y   k p zy kp"
+  },
+  {
+    "id": "trello-right",
+    "appId": "trello",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "卡片右移",
+      "en": "Move Card Right"
+    },
+    "description": {
+      "zh": "把卡片移到右侧列表",
+      "en": "Move the card to the list on the right"
+    },
+    "windows": "]",
+    "mac": "]",
+    "linux": "]",
+    "keywords": [
+      "右移",
+      "right",
+      "卡片",
+      "card"
+    ],
+    "pinyin": "ka pian you yi kapianyouyi k p y y kpyy you yi   ka pian youyi kapian y y   k p yy kp"
+  },
+  {
+    "id": "trello-nav",
+    "appId": "trello",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "导航卡片",
+      "en": "Navigate Cards"
+    },
+    "description": {
+      "zh": "用方向键在卡片间移动",
+      "en": "Move between cards with arrow keys"
+    },
+    "windows": "↑ ↓ ← →",
+    "mac": "↑ ↓ ← →",
+    "linux": "↑ ↓ ← →",
+    "keywords": [
+      "导航",
+      "navigate",
+      "方向键",
+      "arrows"
+    ],
+    "pinyin": "dao hang ka pian daohangkapian d h k p dhkp dao hang   fang xiang jian daohang fangxiangjian d h   f x j dh fxj"
+  },
+  {
+    "id": "trello-close",
+    "appId": "trello",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "关闭",
+      "en": "Close"
+    },
+    "description": {
+      "zh": "关闭当前弹窗",
+      "en": "Close the current dialog"
+    },
+    "windows": "Esc",
+    "mac": "Esc",
+    "linux": "Esc",
+    "keywords": [
+      "关闭",
+      "close",
+      "退出",
+      "esc"
+    ],
+    "pinyin": "guan bi guanbi g b gb guan bi   tui chu guanbi tuichu g b   t c gb tc"
+  }
+]

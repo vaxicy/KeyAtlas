@@ -1,0 +1,662 @@
+[
+  {
+    "id": "logicpro-play",
+    "appId": "logicpro",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "播放/停止",
+      "en": "Play/Stop"
+    },
+    "description": {
+      "zh": "播放或停止播放",
+      "en": "Play or stop playback"
+    },
+    "windows": "—",
+    "mac": "Space",
+    "linux": "—",
+    "keywords": [
+      "播放",
+      "play",
+      "停止",
+      "stop"
+    ],
+    "pinyin": "bo fang / ting zhi bofang/tingzhi b f / t z bf/tz bo fang   ting zhi bofang tingzhi b f   t z bf tz"
+  },
+  {
+    "id": "logicpro-record",
+    "appId": "logicpro",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "录音",
+      "en": "Record"
+    },
+    "description": {
+      "zh": "开始/停止录音",
+      "en": "Start or stop recording"
+    },
+    "windows": "—",
+    "mac": "*",
+    "linux": "—",
+    "keywords": [
+      "录音",
+      "record"
+    ],
+    "pinyin": "lu yin luyin l y ly lu yin luyin l y ly"
+  },
+  {
+    "id": "logicpro-begin",
+    "appId": "logicpro",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "回到开头",
+      "en": "Go to Beginning"
+    },
+    "description": {
+      "zh": "将播放头移到工程开头",
+      "en": "Move the playhead to the project start"
+    },
+    "windows": "—",
+    "mac": "Home",
+    "linux": "—",
+    "keywords": [
+      "开头",
+      "beginning",
+      "起始"
+    ],
+    "pinyin": "hui dao kai tou huidaokaitou h d k t hdkt kai tou   qi shi kaitou qishi k t   q s kt qs"
+  },
+  {
+    "id": "logicpro-end",
+    "appId": "logicpro",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "跳到结尾",
+      "en": "Go to End"
+    },
+    "description": {
+      "zh": "将播放头移到工程结尾",
+      "en": "Move the playhead to the project end"
+    },
+    "windows": "—",
+    "mac": "End",
+    "linux": "—",
+    "keywords": [
+      "结尾",
+      "end"
+    ],
+    "pinyin": "tiao dao jie wei tiaodaojiewei t d j w tdjw jie wei jiewei j w jw"
+  },
+  {
+    "id": "logicpro-cycle",
+    "appId": "logicpro",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "循环（Cycle）",
+      "en": "Cycle"
+    },
+    "description": {
+      "zh": "开启/关闭循环播放区域",
+      "en": "Toggle the cycle/loop region"
+    },
+    "windows": "—",
+    "mac": "⌘ U",
+    "linux": "—",
+    "keywords": [
+      "循环",
+      "cycle",
+      "loop"
+    ],
+    "pinyin": "xun huan （ c y c l e ） xunhuan（cycle） x h （ c y c l e ） xh（cycle） xun huan xunhuan x h xh"
+  },
+  {
+    "id": "logicpro-fwdbar",
+    "appId": "logicpro",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "前进一小节",
+      "en": "Move Forward One Bar"
+    },
+    "description": {
+      "zh": "播放头前进一个小节",
+      "en": "Move the playhead forward one bar"
+    },
+    "windows": "—",
+    "mac": "⌘ →",
+    "linux": "—",
+    "keywords": [
+      "前进",
+      "forward",
+      "小节",
+      "bar"
+    ],
+    "pinyin": "qian jin yi xiao jie qianjinyixiaojie q j y x j qjyxj qian jin   xiao jie qianjin xiaojie q j   x j qj xj"
+  },
+  {
+    "id": "logicpro-backbar",
+    "appId": "logicpro",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "后退一小节",
+      "en": "Move Back One Bar"
+    },
+    "description": {
+      "zh": "播放头后退一个小节",
+      "en": "Move the playhead back one bar"
+    },
+    "windows": "—",
+    "mac": "⌘ ←",
+    "linux": "—",
+    "keywords": [
+      "后退",
+      "back",
+      "小节",
+      "bar"
+    ],
+    "pinyin": "hou tui yi xiao jie houtuiyixiaojie h t y x j htyxj hou tui   xiao jie houtui xiaojie h t   x j ht xj"
+  },
+  {
+    "id": "logicpro-zoomin",
+    "appId": "logicpro",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "放大",
+      "en": "Zoom In"
+    },
+    "description": {
+      "zh": "放大时间线视图",
+      "en": "Zoom in the timeline"
+    },
+    "windows": "—",
+    "mac": "⌘ +",
+    "linux": "—",
+    "keywords": [
+      "放大",
+      "zoom in"
+    ],
+    "pinyin": "fang da fangda f d fd fang da fangda f d fd"
+  },
+  {
+    "id": "logicpro-zoomout",
+    "appId": "logicpro",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "缩小",
+      "en": "Zoom Out"
+    },
+    "description": {
+      "zh": "缩小时间线视图",
+      "en": "Zoom out the timeline"
+    },
+    "windows": "—",
+    "mac": "⌘ -",
+    "linux": "—",
+    "keywords": [
+      "缩小",
+      "zoom out"
+    ],
+    "pinyin": "suo xiao suoxiao s x sx suo xiao suoxiao s x sx"
+  },
+  {
+    "id": "logicpro-newtrack",
+    "appId": "logicpro",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "新建轨道",
+      "en": "New Track"
+    },
+    "description": {
+      "zh": "新建一条轨道",
+      "en": "Create a new track"
+    },
+    "windows": "—",
+    "mac": "⌘ T",
+    "linux": "—",
+    "keywords": [
+      "新建",
+      "new",
+      "轨道",
+      "track"
+    ],
+    "pinyin": "xin jian gui dao xinjianguidao x j g d xjgd xin jian   gui dao xinjian guidao x j   g d xj gd"
+  },
+  {
+    "id": "logicpro-newaudio",
+    "appId": "logicpro",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "新建音频轨道",
+      "en": "New Audio Track"
+    },
+    "description": {
+      "zh": "新建一条音频轨道",
+      "en": "Create a new audio track"
+    },
+    "windows": "—",
+    "mac": "⌥ ⌘ A",
+    "linux": "—",
+    "keywords": [
+      "音频",
+      "audio",
+      "轨道",
+      "track"
+    ],
+    "pinyin": "xin jian yin pin gui dao xinjianyinpinguidao x j y p g d xjypgd yin pin   gui dao yinpin guidao y p   g d yp gd"
+  },
+  {
+    "id": "logicpro-library",
+    "appId": "logicpro",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "打开素材库",
+      "en": "Open Library"
+    },
+    "description": {
+      "zh": "打开左侧素材库面板",
+      "en": "Open the Library pane"
+    },
+    "windows": "—",
+    "mac": "⌘ L",
+    "linux": "—",
+    "keywords": [
+      "素材库",
+      "library",
+      "面板",
+      "pane"
+    ],
+    "pinyin": "da kai su cai ku dakaisucaiku d k s c k dksck su cai ku   mian ban sucaiku mianban s c k   m b sck mb"
+  },
+  {
+    "id": "logicpro-inspector",
+    "appId": "logicpro",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "打开检查器",
+      "en": "Open Inspector"
+    },
+    "description": {
+      "zh": "打开右侧检查器",
+      "en": "Open the Inspector"
+    },
+    "windows": "—",
+    "mac": "⌘ I",
+    "linux": "—",
+    "keywords": [
+      "检查器",
+      "inspector"
+    ],
+    "pinyin": "da kai jian cha qi dakaijianchaqi d k j c q dkjcq jian cha qi jianchaqi j c q jcq"
+  },
+  {
+    "id": "logicpro-smart",
+    "appId": "logicpro",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "智能控制",
+      "en": "Smart Controls"
+    },
+    "description": {
+      "zh": "显示/隐藏智能控制",
+      "en": "Show/hide Smart Controls"
+    },
+    "windows": "—",
+    "mac": "B",
+    "linux": "—",
+    "keywords": [
+      "智能控制",
+      "smart controls"
+    ],
+    "pinyin": "zhi neng kong zhi zhinengkongzhi z n k z znkz zhi neng kong zhi zhinengkongzhi z n k z znkz"
+  },
+  {
+    "id": "logicpro-mixer",
+    "appId": "logicpro",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "打开混音器",
+      "en": "Open Mixer"
+    },
+    "description": {
+      "zh": "打开混音器窗口",
+      "en": "Open the Mixer window"
+    },
+    "windows": "—",
+    "mac": "⌘ 2",
+    "linux": "—",
+    "keywords": [
+      "混音器",
+      "mixer"
+    ],
+    "pinyin": "da kai hun yin qi dakaihunyinqi d k h y q dkhyq hun yin qi hunyinqi h y q hyq"
+  },
+  {
+    "id": "logicpro-pianoroll",
+    "appId": "logicpro",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "钢琴卷帘",
+      "en": "Piano Roll"
+    },
+    "description": {
+      "zh": "打开钢琴卷帘编辑器",
+      "en": "Open the Piano Roll editor"
+    },
+    "windows": "—",
+    "mac": "⌘ 5",
+    "linux": "—",
+    "keywords": [
+      "钢琴卷帘",
+      "piano roll"
+    ],
+    "pinyin": "gang qin juan lian gangqinjuanlian g q j l gqjl gang qin juan lian gangqinjuanlian g q j l gqjl"
+  },
+  {
+    "id": "logicpro-score",
+    "appId": "logicpro",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "五线谱编辑器",
+      "en": "Score Editor"
+    },
+    "description": {
+      "zh": "打开五线谱编辑器",
+      "en": "Open the Score editor"
+    },
+    "windows": "—",
+    "mac": "⌘ 6",
+    "linux": "—",
+    "keywords": [
+      "五线谱",
+      "score"
+    ],
+    "pinyin": "wu xian pu bian ji qi wuxianpubianjiqi w x p b j q wxpbjq wu xian pu wuxianpu w x p wxp"
+  },
+  {
+    "id": "logicpro-event",
+    "appId": "logicpro",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "事件列表",
+      "en": "Event List"
+    },
+    "description": {
+      "zh": "打开事件列表编辑器",
+      "en": "Open the Event List editor"
+    },
+    "windows": "—",
+    "mac": "⌘ 7",
+    "linux": "—",
+    "keywords": [
+      "事件",
+      "event",
+      "列表",
+      "list"
+    ],
+    "pinyin": "shi jian lie biao shijianliebiao s j l b sjlb shi jian   lie biao shijian liebiao s j   l b sj lb"
+  },
+  {
+    "id": "logicpro-step",
+    "appId": "logicpro",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "步进编辑器",
+      "en": "Step Editor"
+    },
+    "description": {
+      "zh": "打开步进编辑器",
+      "en": "Open the Step editor"
+    },
+    "windows": "—",
+    "mac": "⌘ 8",
+    "linux": "—",
+    "keywords": [
+      "步进",
+      "step",
+      "编辑器",
+      "editor"
+    ],
+    "pinyin": "bu jin bian ji qi bujinbianjiqi b j b j q bjbjq bu jin   bian ji qi bujin bianjiqi b j   b j q bj bjq"
+  },
+  {
+    "id": "logicpro-media",
+    "appId": "logicpro",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "媒体浏览器",
+      "en": "Media Browser"
+    },
+    "description": {
+      "zh": "打开媒体浏览器",
+      "en": "Open the Media Browser"
+    },
+    "windows": "—",
+    "mac": "⌘ 1",
+    "linux": "—",
+    "keywords": [
+      "媒体",
+      "media",
+      "浏览器",
+      "browser"
+    ],
+    "pinyin": "mei ti liu lan qi meitiliulanqi m t l l q mtllq mei ti   liu lan qi meiti liulanqi m t   l l q mt llq"
+  },
+  {
+    "id": "logicpro-mute",
+    "appId": "logicpro",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "静音",
+      "en": "Mute"
+    },
+    "description": {
+      "zh": "静音选中的轨道/区域",
+      "en": "Mute the selected track/region"
+    },
+    "windows": "—",
+    "mac": "M",
+    "linux": "—",
+    "keywords": [
+      "静音",
+      "mute"
+    ],
+    "pinyin": "jing yin jingyin j y jy jing yin jingyin j y jy"
+  },
+  {
+    "id": "logicpro-solo",
+    "appId": "logicpro",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "独奏",
+      "en": "Solo"
+    },
+    "description": {
+      "zh": "独奏选中的轨道",
+      "en": "Solo the selected track"
+    },
+    "windows": "—",
+    "mac": "S",
+    "linux": "—",
+    "keywords": [
+      "独奏",
+      "solo"
+    ],
+    "pinyin": "du zou duzou d z dz du zou duzou d z dz"
+  },
+  {
+    "id": "logicpro-copy",
+    "appId": "logicpro",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "复制",
+      "en": "Copy"
+    },
+    "description": {
+      "zh": "复制选中内容",
+      "en": "Copy the selection"
+    },
+    "windows": "—",
+    "mac": "⌘ C",
+    "linux": "—",
+    "keywords": [
+      "复制",
+      "copy"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "logicpro-paste",
+    "appId": "logicpro",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "粘贴",
+      "en": "Paste"
+    },
+    "description": {
+      "zh": "粘贴内容",
+      "en": "Paste the clipboard"
+    },
+    "windows": "—",
+    "mac": "⌘ V",
+    "linux": "—",
+    "keywords": [
+      "粘贴",
+      "paste"
+    ],
+    "pinyin": "nian tie niantie n t nt nian tie niantie n t nt"
+  },
+  {
+    "id": "logicpro-undo",
+    "appId": "logicpro",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销上一步",
+      "en": "Undo the last action"
+    },
+    "windows": "—",
+    "mac": "⌘ Z",
+    "linux": "—",
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "logicpro-redo",
+    "appId": "logicpro",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "重做操作",
+      "en": "Redo the action"
+    },
+    "windows": "—",
+    "mac": "⌘ ⇧ Z",
+    "linux": "—",
+    "keywords": [
+      "重做",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "logicpro-save",
+    "appId": "logicpro",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "保存",
+      "en": "Save"
+    },
+    "description": {
+      "zh": "保存工程",
+      "en": "Save the project"
+    },
+    "windows": "—",
+    "mac": "⌘ S",
+    "linux": "—",
+    "keywords": [
+      "保存",
+      "save"
+    ],
+    "pinyin": "bao cun baocun b c bc bao cun baocun b c bc"
+  },
+  {
+    "id": "logicpro-selectall",
+    "appId": "logicpro",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "全选",
+      "en": "Select All"
+    },
+    "description": {
+      "zh": "选中所有内容",
+      "en": "Select everything"
+    },
+    "windows": "—",
+    "mac": "⌘ A",
+    "linux": "—",
+    "keywords": [
+      "全选",
+      "select all"
+    ],
+    "pinyin": "quan xuan quanxuan q x qx quan xuan quanxuan q x qx"
+  },
+  {
+    "id": "logicpro-keycmds",
+    "appId": "logicpro",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "打开键命令",
+      "en": "Open Key Commands"
+    },
+    "description": {
+      "zh": "打开键命令窗口",
+      "en": "Open the Key Commands window"
+    },
+    "windows": "—",
+    "mac": "⌥ K",
+    "linux": "—",
+    "keywords": [
+      "键命令",
+      "key commands",
+      "快捷键",
+      "shortcuts"
+    ],
+    "pinyin": "da kai jian ming ling dakaijianmingling d k j m l dkjml jian ming ling   kuai jie jian jianmingling kuaijiejian j m l   k j j jml kjj"
+  }
+]

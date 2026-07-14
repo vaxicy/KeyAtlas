@@ -1,0 +1,911 @@
+[
+  {
+    "id": "maya-select",
+    "appId": "maya",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "选择工具",
+      "en": "Select Tool"
+    },
+    "description": {
+      "zh": "选择对象",
+      "en": "Select objects"
+    },
+    "windows": "Q",
+    "mac": "Q",
+    "linux": "—",
+    "keywords": [
+      "选择",
+      "select",
+      "工具",
+      "tool"
+    ],
+    "pinyin": "xuan ze gong ju xuanzegongju x z g j xzgj xuan ze   gong ju xuanze gongju x z   g j xz gj"
+  },
+  {
+    "id": "maya-move",
+    "appId": "maya",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "移动工具",
+      "en": "Move Tool"
+    },
+    "description": {
+      "zh": "移动对象",
+      "en": "Move objects"
+    },
+    "windows": "W",
+    "mac": "W",
+    "linux": "—",
+    "keywords": [
+      "移动",
+      "move"
+    ],
+    "pinyin": "yi dong gong ju yidonggongju y d g j ydgj yi dong yidong y d yd"
+  },
+  {
+    "id": "maya-rotate",
+    "appId": "maya",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "旋转工具",
+      "en": "Rotate Tool"
+    },
+    "description": {
+      "zh": "旋转对象",
+      "en": "Rotate objects"
+    },
+    "windows": "E",
+    "mac": "E",
+    "linux": "—",
+    "keywords": [
+      "旋转",
+      "rotate"
+    ],
+    "pinyin": "xuan zhuan gong ju xuanzhuangongju x z g j xzgj xuan zhuan xuanzhuan x z xz"
+  },
+  {
+    "id": "maya-scale",
+    "appId": "maya",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "缩放工具",
+      "en": "Scale Tool"
+    },
+    "description": {
+      "zh": "缩放对象",
+      "en": "Scale objects"
+    },
+    "windows": "R",
+    "mac": "R",
+    "linux": "—",
+    "keywords": [
+      "缩放",
+      "scale"
+    ],
+    "pinyin": "suo fang gong ju suofanggongju s f g j sfgj suo fang suofang s f sf"
+  },
+  {
+    "id": "maya-manip",
+    "appId": "maya",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "显示操纵器",
+      "en": "Show Manipulator Tool"
+    },
+    "description": {
+      "zh": "显示最后使用的操纵器",
+      "en": "Show the last used manipulator"
+    },
+    "windows": "T",
+    "mac": "T",
+    "linux": "—",
+    "keywords": [
+      "操纵器",
+      "manipulator"
+    ],
+    "pinyin": "xian shi cao zong qi xianshicaozongqi x s c z q xsczq cao zong qi caozongqi c z q czq"
+  },
+  {
+    "id": "maya-softsel",
+    "appId": "maya",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "软选择（按住）",
+      "en": "Soft Select (hold)"
+    },
+    "description": {
+      "zh": "按住以启用软选择",
+      "en": "Hold to enable soft selection"
+    },
+    "windows": "B",
+    "mac": "B",
+    "linux": "—",
+    "keywords": [
+      "软选择",
+      "soft select"
+    ],
+    "pinyin": "ruan xuan ze （ an zhu ） ruanxuanze（anzhu） r x z （ a z ） rxz（az） ruan xuan ze ruanxuanze r x z rxz"
+  },
+  {
+    "id": "maya-undo",
+    "appId": "maya",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销上一步",
+      "en": "Undo the last action"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "—",
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "maya-redo",
+    "appId": "maya",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "重做操作",
+      "en": "Redo the action"
+    },
+    "windows": "Ctrl + Y",
+    "mac": "⌘ Y",
+    "linux": "—",
+    "keywords": [
+      "重做",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "maya-repeat",
+    "appId": "maya",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "重复上一操作",
+      "en": "Repeat Last Action"
+    },
+    "description": {
+      "zh": "重复上一次执行的命令",
+      "en": "Repeat the last command"
+    },
+    "windows": "G",
+    "mac": "G",
+    "linux": "—",
+    "keywords": [
+      "重复",
+      "repeat"
+    ],
+    "pinyin": "chong fu shang yi cao zuo chongfushangyicaozuo c f s y c z cfsycz chong fu chongfu c f cf"
+  },
+  {
+    "id": "maya-framesel",
+    "appId": "maya",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "框选到选中",
+      "en": "Frame Selected"
+    },
+    "description": {
+      "zh": "将视图聚焦到选中对象",
+      "en": "Frame the view around selection"
+    },
+    "windows": "F",
+    "mac": "F",
+    "linux": "—",
+    "keywords": [
+      "聚焦",
+      "frame",
+      "选中"
+    ],
+    "pinyin": "kuang xuan dao xuan zhong kuangxuandaoxuanzhong k x d x z kxdxz ju jiao   xuan zhong jujiao xuanzhong j j   x z jj xz"
+  },
+  {
+    "id": "maya-frameall",
+    "appId": "maya",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "框选全部",
+      "en": "Frame All"
+    },
+    "description": {
+      "zh": "将视图框选到所有对象",
+      "en": "Frame the view around all objects"
+    },
+    "windows": "A",
+    "mac": "A",
+    "linux": "—",
+    "keywords": [
+      "全部",
+      "all",
+      "聚焦",
+      "frame"
+    ],
+    "pinyin": "kuang xuan quan bu kuangxuanquanbu k x q b kxqb quan bu   ju jiao quanbu jujiao q b   j j qb jj"
+  },
+  {
+    "id": "maya-hotbox",
+    "appId": "maya",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "热盒（按住）",
+      "en": "Hotbox (hold)"
+    },
+    "description": {
+      "zh": "按住显示热盒菜单",
+      "en": "Hold to show the hotbox menu"
+    },
+    "windows": "Space",
+    "mac": "Space",
+    "linux": "—",
+    "keywords": [
+      "热盒",
+      "hotbox",
+      "菜单",
+      "menu"
+    ],
+    "pinyin": "re he （ an zhu ） rehe（anzhu） r h （ a z ） rh（az） re he   cai dan rehe caidan r h   c d rh cd"
+  },
+  {
+    "id": "maya-dup",
+    "appId": "maya",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "复制",
+      "en": "Duplicate"
+    },
+    "description": {
+      "zh": "复制选中的对象",
+      "en": "Duplicate the selected objects"
+    },
+    "windows": "Ctrl + D",
+    "mac": "⌘ D",
+    "linux": "—",
+    "keywords": [
+      "复制",
+      "duplicate"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "maya-dupspecial",
+    "appId": "maya",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "特殊复制",
+      "en": "Duplicate Special"
+    },
+    "description": {
+      "zh": "带偏移/阵列地复制",
+      "en": "Duplicate with options (offset/array)"
+    },
+    "windows": "Shift + D",
+    "mac": "⇧ D",
+    "linux": "—",
+    "keywords": [
+      "特殊复制",
+      "duplicate special"
+    ],
+    "pinyin": "te shu fu zhi teshufuzhi t s f z tsfz te shu fu zhi teshufuzhi t s f z tsfz"
+  },
+  {
+    "id": "maya-delete",
+    "appId": "maya",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "删除",
+      "en": "Delete"
+    },
+    "description": {
+      "zh": "删除选中的对象",
+      "en": "Delete the selected objects"
+    },
+    "windows": "Del",
+    "mac": "Del",
+    "linux": "—",
+    "keywords": [
+      "删除",
+      "delete"
+    ],
+    "pinyin": "shan chu shanchu s c sc shan chu shanchu s c sc"
+  },
+  {
+    "id": "maya-group",
+    "appId": "maya",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "编组",
+      "en": "Group"
+    },
+    "description": {
+      "zh": "将选中对象编为一组",
+      "en": "Group the selected objects"
+    },
+    "windows": "Ctrl + G",
+    "mac": "⌘ G",
+    "linux": "—",
+    "keywords": [
+      "编组",
+      "group"
+    ],
+    "pinyin": "bian zu bianzu b z bz bian zu bianzu b z bz"
+  },
+  {
+    "id": "maya-ungroup",
+    "appId": "maya",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "解组",
+      "en": "Ungroup"
+    },
+    "description": {
+      "zh": "解散选中的组",
+      "en": "Ungroup the selected group"
+    },
+    "windows": "Shift + G",
+    "mac": "⇧ G",
+    "linux": "—",
+    "keywords": [
+      "解组",
+      "ungroup"
+    ],
+    "pinyin": "jie zu jiezu j z jz jie zu jiezu j z jz"
+  },
+  {
+    "id": "maya-parent",
+    "appId": "maya",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "父子绑定",
+      "en": "Parent"
+    },
+    "description": {
+      "zh": "将选中对象设为父子层级",
+      "en": "Parent the selected objects"
+    },
+    "windows": "P",
+    "mac": "P",
+    "linux": "—",
+    "keywords": [
+      "父子",
+      "parent"
+    ],
+    "pinyin": "fu zi bang ding fuzibangding f z b d fzbd fu zi fuzi f z fz"
+  },
+  {
+    "id": "maya-unparent",
+    "appId": "maya",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "解除父子",
+      "en": "Unparent"
+    },
+    "description": {
+      "zh": "解除选中对象的父子关系",
+      "en": "Unparent the selected objects"
+    },
+    "windows": "Shift + P",
+    "mac": "⇧ P",
+    "linux": "—",
+    "keywords": [
+      "解除父子",
+      "unparent"
+    ],
+    "pinyin": "jie chu fu zi jiechufuzi j c f z jcfz jie chu fu zi jiechufuzi j c f z jcfz"
+  },
+  {
+    "id": "maya-hidesel",
+    "appId": "maya",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "隐藏选中",
+      "en": "Hide Selected"
+    },
+    "description": {
+      "zh": "隐藏选中的对象",
+      "en": "Hide the selected objects"
+    },
+    "windows": "Ctrl + H",
+    "mac": "⌘ H",
+    "linux": "—",
+    "keywords": [
+      "隐藏",
+      "hide"
+    ],
+    "pinyin": "yin cang xuan zhong yincangxuanzhong y c x z ycxz yin cang yincang y c yc"
+  },
+  {
+    "id": "maya-showlast",
+    "appId": "maya",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "显示上一次隐藏",
+      "en": "Show Last Hidden"
+    },
+    "description": {
+      "zh": "显示最近隐藏的对象",
+      "en": "Show the most recently hidden objects"
+    },
+    "windows": "Shift + H",
+    "mac": "⇧ H",
+    "linux": "—",
+    "keywords": [
+      "显示",
+      "show",
+      "隐藏",
+      "hidden"
+    ],
+    "pinyin": "xian shi shang yi ci yin cang xianshishangyiciyincang x s s y c y c xssycyc xian shi   yin cang xianshi yincang x s   y c xs yc"
+  },
+  {
+    "id": "maya-hideunsel",
+    "appId": "maya",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "隐藏未选中",
+      "en": "Hide Unselected"
+    },
+    "description": {
+      "zh": "隐藏除选中外的所有对象",
+      "en": "Hide all objects except the selection"
+    },
+    "windows": "Ctrl + Shift + H",
+    "mac": "⌘ ⇧ H",
+    "linux": "—",
+    "keywords": [
+      "隐藏",
+      "hide",
+      "未选中"
+    ],
+    "pinyin": "yin cang wei xuan zhong yincangweixuanzhong y c w x z ycwxz yin cang   wei xuan zhong yincang weixuanzhong y c   w x z yc wxz"
+  },
+  {
+    "id": "maya-wire",
+    "appId": "maya",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "线框显示",
+      "en": "Wireframe Display"
+    },
+    "description": {
+      "zh": "以线框模式显示",
+      "en": "Display as wireframe"
+    },
+    "windows": "4",
+    "mac": "4",
+    "linux": "—",
+    "keywords": [
+      "线框",
+      "wireframe"
+    ],
+    "pinyin": "xian kuang xian shi xiankuangxianshi x k x s xkxs xian kuang xiankuang x k xk"
+  },
+  {
+    "id": "maya-shaded",
+    "appId": "maya",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "着色显示",
+      "en": "Shaded Display"
+    },
+    "description": {
+      "zh": "以着色模式显示",
+      "en": "Display as shaded"
+    },
+    "windows": "5",
+    "mac": "5",
+    "linux": "—",
+    "keywords": [
+      "着色",
+      "shaded"
+    ],
+    "pinyin": "zhuo se xian shi zhuosexianshi z s x s zsxs zhuo se zhuose z s zs"
+  },
+  {
+    "id": "maya-textured",
+    "appId": "maya",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "纹理显示",
+      "en": "Textured Display"
+    },
+    "description": {
+      "zh": "以纹理模式显示",
+      "en": "Display with textures"
+    },
+    "windows": "6",
+    "mac": "6",
+    "linux": "—",
+    "keywords": [
+      "纹理",
+      "textured"
+    ],
+    "pinyin": "wen li xian shi wenlixianshi w l x s wlxs wen li wenli w l wl"
+  },
+  {
+    "id": "maya-lighting",
+    "appId": "maya",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "灯光显示",
+      "en": "Lighting Display"
+    },
+    "description": {
+      "zh": "以灯光模式显示",
+      "en": "Display with lighting"
+    },
+    "windows": "7",
+    "mac": "7",
+    "linux": "—",
+    "keywords": [
+      "灯光",
+      "lighting"
+    ],
+    "pinyin": "deng guang xian shi dengguangxianshi d g x s dgxs deng guang dengguang d g dg"
+  },
+  {
+    "id": "maya-objcomp",
+    "appId": "maya",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "对象/组件模式",
+      "en": "Object/Component Mode"
+    },
+    "description": {
+      "zh": "切换对象与组件选择模式",
+      "en": "Toggle object vs component selection"
+    },
+    "windows": "F8",
+    "mac": "F8",
+    "linux": "—",
+    "keywords": [
+      "组件",
+      "component",
+      "对象",
+      "object"
+    ],
+    "pinyin": "dui xiang / zu jian mo shi duixiang/zujianmoshi d x / z j m s dx/zjms zu jian   dui xiang zujian duixiang z j   d x zj dx"
+  },
+  {
+    "id": "maya-vertex",
+    "appId": "maya",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "顶点模式",
+      "en": "Vertex Mode"
+    },
+    "description": {
+      "zh": "进入顶点选择模式",
+      "en": "Enter vertex selection mode"
+    },
+    "windows": "F9",
+    "mac": "F9",
+    "linux": "—",
+    "keywords": [
+      "顶点",
+      "vertex"
+    ],
+    "pinyin": "ding dian mo shi dingdianmoshi d d m s ddms ding dian dingdian d d dd"
+  },
+  {
+    "id": "maya-edge",
+    "appId": "maya",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "边模式",
+      "en": "Edge Mode"
+    },
+    "description": {
+      "zh": "进入边选择模式",
+      "en": "Enter edge selection mode"
+    },
+    "windows": "F10",
+    "mac": "F10",
+    "linux": "—",
+    "keywords": [
+      "边",
+      "edge"
+    ],
+    "pinyin": "bian mo shi bianmoshi b m s bms bian bian b b"
+  },
+  {
+    "id": "maya-face",
+    "appId": "maya",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "面模式",
+      "en": "Face Mode"
+    },
+    "description": {
+      "zh": "进入面选择模式",
+      "en": "Enter face selection mode"
+    },
+    "windows": "F11",
+    "mac": "F11",
+    "linux": "—",
+    "keywords": [
+      "面",
+      "face"
+    ],
+    "pinyin": "mian mo shi mianmoshi m m s mms mian mian m m"
+  },
+  {
+    "id": "maya-uv",
+    "appId": "maya",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "UV 点模式",
+      "en": "UV Point Mode"
+    },
+    "description": {
+      "zh": "进入 UV 点选择模式",
+      "en": "Enter UV point selection mode"
+    },
+    "windows": "F12",
+    "mac": "F12",
+    "linux": "—",
+    "keywords": [
+      "uv",
+      "点",
+      "point"
+    ],
+    "pinyin": "u v   dian mo shi uv dianmoshi u v   d m s uv dms dian dian d d"
+  },
+  {
+    "id": "maya-play",
+    "appId": "maya",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "播放/暂停",
+      "en": "Play/Pause"
+    },
+    "description": {
+      "zh": "播放或暂停动画",
+      "en": "Play or pause the animation"
+    },
+    "windows": "Alt + V",
+    "mac": "⌥ V",
+    "linux": "—",
+    "keywords": [
+      "播放",
+      "play"
+    ],
+    "pinyin": "bo fang / zan ting bofang/zanting b f / z t bf/zt bo fang bofang b f bf"
+  },
+  {
+    "id": "maya-attr",
+    "appId": "maya",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "属性编辑器",
+      "en": "Attribute Editor"
+    },
+    "description": {
+      "zh": "打开属性编辑器",
+      "en": "Open the Attribute Editor"
+    },
+    "windows": "Ctrl + A",
+    "mac": "⌘ A",
+    "linux": "—",
+    "keywords": [
+      "属性",
+      "attribute",
+      "编辑器",
+      "editor"
+    ],
+    "pinyin": "shu xing bian ji qi shuxingbianjiqi s x b j q sxbjq shu xing   bian ji qi shuxing bianjiqi s x   b j q sx bjq"
+  },
+  {
+    "id": "maya-setkey",
+    "appId": "maya",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "设置关键帧",
+      "en": "Set Key"
+    },
+    "description": {
+      "zh": "为选中属性设置关键帧",
+      "en": "Set a keyframe on selected attributes"
+    },
+    "windows": "S",
+    "mac": "S",
+    "linux": "—",
+    "keywords": [
+      "关键帧",
+      "keyframe",
+      "动画",
+      "animation"
+    ],
+    "pinyin": "she zhi guan jian zhen shezhiguanjianzhen s z g j z szgjz guan jian zhen   dong hua guanjianzhen donghua g j z   d h gjz dh"
+  },
+  {
+    "id": "maya-snapgrid",
+    "appId": "maya",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "吸附到网格（按住）",
+      "en": "Snap to Grid (hold)"
+    },
+    "description": {
+      "zh": "按住以吸附到网格",
+      "en": "Hold to snap to the grid"
+    },
+    "windows": "X",
+    "mac": "X",
+    "linux": "—",
+    "keywords": [
+      "吸附",
+      "snap",
+      "网格",
+      "grid"
+    ],
+    "pinyin": "xi fu dao wang ge （ an zhu ） xifudaowangge（anzhu） x f d w g （ a z ） xfdwg（az） xi fu   wang ge xifu wangge x f   w g xf wg"
+  },
+  {
+    "id": "maya-snapcurve",
+    "appId": "maya",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "吸附到曲线（按住）",
+      "en": "Snap to Curves (hold)"
+    },
+    "description": {
+      "zh": "按住以吸附到曲线",
+      "en": "Hold to snap to curves"
+    },
+    "windows": "C",
+    "mac": "C",
+    "linux": "—",
+    "keywords": [
+      "吸附",
+      "snap",
+      "曲线",
+      "curve"
+    ],
+    "pinyin": "xi fu dao qu xian （ an zhu ） xifudaoquxian（anzhu） x f d q x （ a z ） xfdqx（az） xi fu   qu xian xifu quxian x f   q x xf qx"
+  },
+  {
+    "id": "maya-snappoint",
+    "appId": "maya",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "吸附到点（按住）",
+      "en": "Snap to Points (hold)"
+    },
+    "description": {
+      "zh": "按住以吸附到顶点",
+      "en": "Hold to snap to points"
+    },
+    "windows": "V",
+    "mac": "V",
+    "linux": "—",
+    "keywords": [
+      "吸附",
+      "snap",
+      "点",
+      "point"
+    ],
+    "pinyin": "xi fu dao dian （ an zhu ） xifudaodian（anzhu） x f d d （ a z ） xfdd（az） xi fu   dian xifu dian x f   d xf d"
+  },
+  {
+    "id": "maya-movepivot",
+    "appId": "maya",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "移动轴心（按住）",
+      "en": "Move Pivot (hold)"
+    },
+    "description": {
+      "zh": "按住以移动对象轴心",
+      "en": "Hold to move the object pivot"
+    },
+    "windows": "D",
+    "mac": "D",
+    "linux": "—",
+    "keywords": [
+      "轴心",
+      "pivot",
+      "移动",
+      "move"
+    ],
+    "pinyin": "yi dong zhou xin （ an zhu ） yidongzhouxin（anzhu） y d z x （ a z ） ydzx（az） zhou xin   yi dong zhouxin yidong z x   y d zx yd"
+  },
+  {
+    "id": "maya-menu-anim",
+    "appId": "maya",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "切换到动画菜单",
+      "en": "Animation Menu"
+    },
+    "description": {
+      "zh": "切换顶部菜单到动画模块",
+      "en": "Switch top menu to Animation"
+    },
+    "windows": "F2",
+    "mac": "F2",
+    "linux": "—",
+    "keywords": [
+      "动画",
+      "animation",
+      "菜单",
+      "menu"
+    ],
+    "pinyin": "qie huan dao dong hua cai dan qiehuandaodonghuacaidan q h d d h c d qhddhcd dong hua   cai dan donghua caidan d h   c d dh cd"
+  },
+  {
+    "id": "maya-menu-model",
+    "appId": "maya",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "切换到建模菜单",
+      "en": "Modeling Menu"
+    },
+    "description": {
+      "zh": "切换顶部菜单到建模模块",
+      "en": "Switch top menu to Modeling"
+    },
+    "windows": "F3",
+    "mac": "F3",
+    "linux": "—",
+    "keywords": [
+      "建模",
+      "modeling",
+      "菜单",
+      "menu"
+    ],
+    "pinyin": "qie huan dao jian mo cai dan qiehuandaojianmocaidan q h d j m c d qhdjmcd jian mo   cai dan jianmo caidan j m   c d jm cd"
+  }
+]

@@ -1,0 +1,433 @@
+[
+  {
+    "id": "pt-play",
+    "appId": "protools",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "播放/停止",
+      "en": "Play / Stop"
+    },
+    "description": {
+      "zh": "切换播放与停止",
+      "en": "Toggle play and stop"
+    },
+    "windows": "Space",
+    "mac": "Space",
+    "linux": "—",
+    "keywords": [
+      "播放",
+      "play",
+      "stop"
+    ],
+    "pinyin": "bo fang / ting zhi bofang/tingzhi b f / t z bf/tz bo fang bofang b f bf"
+  },
+  {
+    "id": "pt-record",
+    "appId": "protools",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "录音",
+      "en": "Record"
+    },
+    "description": {
+      "zh": "开始/停止录音",
+      "en": "Start/stop recording"
+    },
+    "windows": "R",
+    "mac": "R",
+    "linux": "—",
+    "keywords": [
+      "录音",
+      "record"
+    ],
+    "pinyin": "lu yin luyin l y ly lu yin luyin l y ly"
+  },
+  {
+    "id": "pt-return-start",
+    "appId": "protools",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "回到起点",
+      "en": "Return to Start"
+    },
+    "description": {
+      "zh": "播放头回到开头",
+      "en": "Return playhead to start"
+    },
+    "windows": "Enter",
+    "mac": "Enter",
+    "linux": "—",
+    "keywords": [
+      "回到起点",
+      "return",
+      "start"
+    ],
+    "pinyin": "hui dao qi dian huidaoqidian h d q d hdqd hui dao qi dian huidaoqidian h d q d hdqd"
+  },
+  {
+    "id": "pt-slip",
+    "appId": "protools",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "滑动工具",
+      "en": "Slip Tool"
+    },
+    "description": {
+      "zh": "切换滑动编辑模式",
+      "en": "Switch to slip edit mode"
+    },
+    "windows": "T",
+    "mac": "T",
+    "linux": "—",
+    "keywords": [
+      "滑动",
+      "slip",
+      "tool"
+    ],
+    "pinyin": "hua dong gong ju huadonggongju h d g j hdgj hua dong huadong h d hd"
+  },
+  {
+    "id": "pt-trim",
+    "appId": "protools",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "修剪工具",
+      "en": "Trim Tool"
+    },
+    "description": {
+      "zh": "切换修剪工具",
+      "en": "Switch to trim tool"
+    },
+    "windows": "B",
+    "mac": "B",
+    "linux": "—",
+    "keywords": [
+      "修剪",
+      "trim",
+      "tool"
+    ],
+    "pinyin": "xiu jian gong ju xiujiangongju x j g j xjgj xiu jian xiujian x j xj"
+  },
+  {
+    "id": "pt-shuffle",
+    "appId": "protools",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "洗牌工具",
+      "en": "Shuffle Tool"
+    },
+    "description": {
+      "zh": "切换洗牌编辑模式",
+      "en": "Switch to shuffle edit mode"
+    },
+    "windows": "U",
+    "mac": "U",
+    "linux": "—",
+    "keywords": [
+      "洗牌",
+      "shuffle",
+      "tool"
+    ],
+    "pinyin": "xi pai gong ju xipaigongju x p g j xpgj xi pai xipai x p xp"
+  },
+  {
+    "id": "pt-grid",
+    "appId": "protools",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "网格工具",
+      "en": "Grid Tool"
+    },
+    "description": {
+      "zh": "切换网格编辑模式",
+      "en": "Switch to grid edit mode"
+    },
+    "windows": "R",
+    "mac": "R",
+    "linux": "—",
+    "keywords": [
+      "网格",
+      "grid",
+      "tool"
+    ],
+    "pinyin": "wang ge gong ju wanggegongju w g g j wggj wang ge wangge w g wg"
+  },
+  {
+    "id": "pt-zoom",
+    "appId": "protools",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "缩放工具",
+      "en": "Zoom Tool"
+    },
+    "description": {
+      "zh": "切换缩放工具",
+      "en": "Switch to zoom tool"
+    },
+    "windows": "W",
+    "mac": "W",
+    "linux": "—",
+    "keywords": [
+      "缩放",
+      "zoom",
+      "tool"
+    ],
+    "pinyin": "suo fang gong ju suofanggongju s f g j sfgj suo fang suofang s f sf"
+  },
+  {
+    "id": "pt-spot",
+    "appId": "protools",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "定位工具",
+      "en": "Spot Tool"
+    },
+    "description": {
+      "zh": "切换定位编辑模式",
+      "en": "Switch to spot edit mode"
+    },
+    "windows": "P",
+    "mac": "P",
+    "linux": "—",
+    "keywords": [
+      "定位",
+      "spot",
+      "tool"
+    ],
+    "pinyin": "ding wei gong ju dingweigongju d w g j dwgj ding wei dingwei d w dw"
+  },
+  {
+    "id": "pt-trim-f",
+    "appId": "protools",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "修剪工具（功能键）",
+      "en": "Trim (F6)"
+    },
+    "description": {
+      "zh": "功能键 F6 切换修剪",
+      "en": "F6 switches to trim"
+    },
+    "windows": "F6",
+    "mac": "F6",
+    "linux": "—",
+    "keywords": [
+      "修剪",
+      "trim",
+      "f6"
+    ],
+    "pinyin": "xiu jian gong ju （ gong neng jian ） xiujiangongju（gongnengjian） x j g j （ g n j ） xjgj（gnj） xiu jian xiujian x j xj"
+  },
+  {
+    "id": "pt-selector-f",
+    "appId": "protools",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "选择工具（功能键）",
+      "en": "Selector (F7)"
+    },
+    "description": {
+      "zh": "功能键 F7 切换选择",
+      "en": "F7 switches to selector"
+    },
+    "windows": "F7",
+    "mac": "F7",
+    "linux": "—",
+    "keywords": [
+      "选择",
+      "selector",
+      "f7"
+    ],
+    "pinyin": "xuan ze gong ju （ gong neng jian ） xuanzegongju（gongnengjian） x z g j （ g n j ） xzgj（gnj） xuan ze xuanze x z xz"
+  },
+  {
+    "id": "pt-grabber-f",
+    "appId": "protools",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "抓取工具（功能键）",
+      "en": "Grabber (F8)"
+    },
+    "description": {
+      "zh": "功能键 F8 切换抓取",
+      "en": "F8 switches to grabber"
+    },
+    "windows": "F8",
+    "mac": "F8",
+    "linux": "—",
+    "keywords": [
+      "抓取",
+      "grabber",
+      "f8"
+    ],
+    "pinyin": "zhua qu gong ju （ gong neng jian ） zhuaqugongju（gongnengjian） z q g j （ g n j ） zqgj（gnj） zhua qu zhuaqu z q zq"
+  },
+  {
+    "id": "pt-scrub-f",
+    "appId": "protools",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "擦掠工具（功能键）",
+      "en": "Scrub (F9)"
+    },
+    "description": {
+      "zh": "功能键 F9 切换擦掠",
+      "en": "F9 switches to scrub"
+    },
+    "windows": "F9",
+    "mac": "F9",
+    "linux": "—",
+    "keywords": [
+      "擦掠",
+      "scrub",
+      "f9"
+    ],
+    "pinyin": "ca lüe gong ju （ gong neng jian ） calüegongju（gongnengjian） c l g j （ g n j ） clgj（gnj） ca lüe calüe c l cl"
+  },
+  {
+    "id": "pt-undo",
+    "appId": "protools",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "—",
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "pt-redo",
+    "appId": "protools",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "windows": "Ctrl + Shift + Z",
+    "mac": "⌘ ⇧ Z",
+    "linux": "—",
+    "keywords": [
+      "重做",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "pt-save",
+    "appId": "protools",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "保存",
+      "en": "Save"
+    },
+    "description": {
+      "zh": "保存工程",
+      "en": "Save session"
+    },
+    "windows": "Ctrl + S",
+    "mac": "⌘ S",
+    "linux": "—",
+    "keywords": [
+      "保存",
+      "save"
+    ],
+    "pinyin": "bao cun baocun b c bc bao cun baocun b c bc"
+  },
+  {
+    "id": "pt-duplicate",
+    "appId": "protools",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "复制",
+      "en": "Duplicate"
+    },
+    "description": {
+      "zh": "复制选中片段",
+      "en": "Duplicate selected clip"
+    },
+    "windows": "Ctrl + D",
+    "mac": "⌘ D",
+    "linux": "—",
+    "keywords": [
+      "复制",
+      "duplicate"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "pt-zoom-in",
+    "appId": "protools",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "横向放大",
+      "en": "Zoom In"
+    },
+    "description": {
+      "zh": "放大时间轴",
+      "en": "Zoom in timeline"
+    },
+    "windows": "Ctrl + =",
+    "mac": "⌘ =",
+    "linux": "—",
+    "keywords": [
+      "放大",
+      "zoom in"
+    ],
+    "pinyin": "heng xiang fang da hengxiangfangda h x f d hxfd fang da fangda f d fd"
+  },
+  {
+    "id": "pt-tab",
+    "appId": "protools",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "跳到下一边界",
+      "en": "Tab to Next"
+    },
+    "description": {
+      "zh": "在片段边界间移动",
+      "en": "Move between clip boundaries"
+    },
+    "windows": "Tab",
+    "mac": "Tab",
+    "linux": "—",
+    "keywords": [
+      "跳",
+      "tab",
+      "boundary"
+    ],
+    "pinyin": "tiao dao xia yi bian jie tiaodaoxiayibianjie t d x y b j tdxybj tiao tiao t t"
+  }
+]

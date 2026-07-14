@@ -15,17 +15,17 @@
 
 ## 快捷键数据来源核实状态（2026-07-14 更新）
 
-共 **94 个**应用/系统条目。
+共 **120 个**应用/系统条目。
 
 | 来源 | 数量 | 说明 |
 |------|------|------|
-| `official` | 82 | 对照官方文档/截图逐条核实 |
+| `official` | 83 | 对照官方文档/截图逐条核实 |
 | `community` | 10 | 社区整理版，非官方逐条验证 |
-| `ai` | 2 | AI 专业知识库编写，未经官网逐条核实（git, bilibili） |
+| `ai` | 27 | AI 专业知识库编写，未经官网逐条核实 |
 
-分类分布：系统 3 / 浏览器 5 / 开发 19 / 设计 31 / 效率 25 / 视频 9 / 音频 1 / 其他 1
+分类分布：系统 4 / 浏览器 8 / 开发 25 / 设计 39 / 效率 26 / 视频 9 / 音频 8 / 其他 1
 
-> 分类表 `data/categories.json` 含 8 类：system / browser / development / design / productivity / video / audio / ai / other。audio 分类保留（Ableton Live 唯一成员）。
+> 分类表 `data/categories.json` 含 8 类：system / browser / development / design / productivity / video / audio / ai / other。
 
 ### ✅ 官方核实（82 个）
 
@@ -34,15 +34,30 @@
 **第四批（2026-07-14 联网复核 / 用户截图核验）：**
 - `abletonlive.json`：web_fetch Ableton Live 12 官方手册 Section 41 全表，修正 3 处错误后升级
 - `onenote.json`：对照用户提供的 Microsoft 365 官方截图（OneNote-1.png / OneNote-2.png）完全重写（55 条）
+- `flstudio.json`：web_fetch FL Studio 官方快捷键页（image-line.com）逐条核实（19 条，official）
 
-### ⚠️ 非官方来源标注（12 个）
+### ⚠️ 非官方来源标注（22 个）
 
 | 来源类型 | 应用 |
 |----------|------|
 | `community`（10） | figma, firefox, acrobat, sublimetext, krita, clipstudio, xcode, arc, linear, figjam |
-| `ai`（2） | git, bilibili |
+| `ai`（27） | git, bilibili, logicpro, garageband, reaper, cubase, autocad, fusion360, sketchup, solidworks, substancepainter, houdini, unreal, unity, godot, visualstudio, eclipse, notepadplusplus, 3dsmax, rhino, brave, opera, vivaldi, confluence, studioone, protools, ios |
 
-> **2026-07-14 清理操作**：删除了 8 个无官方文档支持的 AI 应用（Cinema 4D / Maya / ZBrush / Logic Pro / GarageBand / REAPER / Jira / Trello）。这些应用因网络受限无法抓取官方文档，且用户确认不可信则删掉。如后续找到官方文档可重新添加。
+> **2026-07-14 末批**：官方文档补齐 15 个应用（unreal/unity/godot/visualstudio/eclipse/notepadplusplus/3dsmax/rhino/brave/opera/vivaldi/confluence/studioone/protools/ios）。环境网络受限（web 搜索不可用 + 多数官方页 SPA/403/超时），按规则以 AI 知识库编写、标 `ai`，未经官网逐条核实。校验 0 error。建议网络恢复后复核 Pro Tools 工具键、Rhino 功能键、Visual Studio 组合键。
+
+> **2026-07-15 用户截图复核**：用户提供 13 张截图（Apple 官方 GarageBand / 知乎 REAPER / toopoo Fusion 360 / SolidWorks 表格 / SketchUp 文章 / Substance Painter 知乎 / Houdini 知乎 / AutoCAD 官方长表 / Autodesk 页面），对照后大幅补充修正：
+> - **GarageBand**：+Stop(.) / Delete / Escape / Open Project，Apple 官方页核实
+> - **REAPER**：+合并(Ctrl+J) / 垂直缩放(Page Up/Down) / 跳转位置(Ctrl+J)，知乎截图核实
+> - **Fusion 360**：+Sketch/Dimension/Trim/Project/Hole/Joint/As-built/Inspect/ToggleVis/NormalConstruction/ComputeAll 共 12 项，Fit 改 Shift+F
+> - **AutoCAD**：+Arc/Rectangle/Chamfer/Array/Stretch/ZoomAll/Open/Text/MText/Explode/MatchProp/SnapTrack/Grid 共 13 项
+> - **SolidWorks**：+CutExtrude/Fillet/Shell/LinearPattern/CircularPattern/Loft/Revolve/Rib/HoleWizard/Sketch/Measure 共 11 项
+> - **SketchUp**：+Arc/Polygon/Freehand 共 3 项
+> - **Substance Painter**：+Eraser/Fill/LayerAdd 共 3 项
+> - **Houdini**：+NetworkEditor/ParamEditor/DisplayFlag/RenderFlag/Layout 共 5 项
+> - **Logic Pro / Cubase**：大截图超出内存未读入，保持原有数据不变
+> 总快捷键数从 4960 增至 **5013**（+53 条）。校验 0 error。
+> 这 10 个仍标 `source: ai`（截图含社区/知乎内容，非纯官方文档），但已比纯 AI 编写更可靠。
+> 仍为删除状态（无官方文档、用户确认不可信）：Cinema 4D / Maya / ZBrush / Jira / Trello。
 
 ## 技术栈
 - Chrome 扩展（Manifest V3），popup 单页应用。

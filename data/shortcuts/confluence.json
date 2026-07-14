@@ -1,0 +1,292 @@
+[
+  {
+    "id": "conf-shortcut-help",
+    "appId": "confluence",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "快捷键帮助",
+      "en": "Keyboard Shortcut Help"
+    },
+    "description": {
+      "zh": "显示所有快捷键",
+      "en": "Show all keyboard shortcuts"
+    },
+    "windows": "?",
+    "mac": "?",
+    "linux": "?",
+    "keywords": [
+      "快捷键",
+      "shortcut",
+      "help"
+    ],
+    "pinyin": "kuai jie jian bang zhu kuaijiejianbangzhu k j j b z kjjbz kuai jie jian kuaijiejian k j j kjj"
+  },
+  {
+    "id": "conf-create",
+    "appId": "confluence",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "创建页面",
+      "en": "Create Page"
+    },
+    "description": {
+      "zh": "新建页面",
+      "en": "Create a new page"
+    },
+    "windows": "C",
+    "mac": "C",
+    "linux": "C",
+    "keywords": [
+      "创建",
+      "create",
+      "new page"
+    ],
+    "pinyin": "chuang jian ye mian chuangjianyemian c j y m cjym chuang jian chuangjian c j cj"
+  },
+  {
+    "id": "conf-edit",
+    "appId": "confluence",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "编辑",
+      "en": "Edit"
+    },
+    "description": {
+      "zh": "进入编辑模式",
+      "en": "Enter edit mode"
+    },
+    "windows": "E",
+    "mac": "E",
+    "linux": "E",
+    "keywords": [
+      "编辑",
+      "edit"
+    ],
+    "pinyin": "bian ji bianji b j bj bian ji bianji b j bj"
+  },
+  {
+    "id": "conf-save",
+    "appId": "confluence",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "保存",
+      "en": "Save"
+    },
+    "description": {
+      "zh": "保存/发布页面",
+      "en": "Save/publish page"
+    },
+    "windows": "Ctrl + S",
+    "mac": "⌘ S",
+    "linux": "Ctrl + S",
+    "keywords": [
+      "保存",
+      "save",
+      "publish"
+    ],
+    "pinyin": "bao cun baocun b c bc bao cun baocun b c bc"
+  },
+  {
+    "id": "conf-bold",
+    "appId": "confluence",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "加粗",
+      "en": "Bold"
+    },
+    "description": {
+      "zh": "加粗文本",
+      "en": "Bold text"
+    },
+    "windows": "Ctrl + B",
+    "mac": "⌘ B",
+    "linux": "Ctrl + B",
+    "keywords": [
+      "加粗",
+      "bold"
+    ],
+    "pinyin": "jia cu jiacu j c jc jia cu jiacu j c jc"
+  },
+  {
+    "id": "conf-italic",
+    "appId": "confluence",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "斜体",
+      "en": "Italic"
+    },
+    "description": {
+      "zh": "斜体文本",
+      "en": "Italic text"
+    },
+    "windows": "Ctrl + I",
+    "mac": "⌘ I",
+    "linux": "Ctrl + I",
+    "keywords": [
+      "斜体",
+      "italic"
+    ],
+    "pinyin": "xie ti xieti x t xt xie ti xieti x t xt"
+  },
+  {
+    "id": "conf-underline",
+    "appId": "confluence",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "下划线",
+      "en": "Underline"
+    },
+    "description": {
+      "zh": "给文本加下划线",
+      "en": "Underline text"
+    },
+    "windows": "Ctrl + U",
+    "mac": "⌘ U",
+    "linux": "Ctrl + U",
+    "keywords": [
+      "下划线",
+      "underline"
+    ],
+    "pinyin": "xia hua xian xiahuaxian x h x xhx xia hua xian xiahuaxian x h x xhx"
+  },
+  {
+    "id": "conf-link",
+    "appId": "confluence",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "插入链接",
+      "en": "Link"
+    },
+    "description": {
+      "zh": "插入超链接",
+      "en": "Insert hyperlink"
+    },
+    "windows": "Ctrl + K",
+    "mac": "⌘ K",
+    "linux": "Ctrl + K",
+    "keywords": [
+      "链接",
+      "link"
+    ],
+    "pinyin": "cha ru lian jie charulianjie c r l j crlj lian jie lianjie l j lj"
+  },
+  {
+    "id": "conf-find",
+    "appId": "confluence",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "查找",
+      "en": "Find"
+    },
+    "description": {
+      "zh": "在当前页面查找",
+      "en": "Find in current page"
+    },
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
+    "linux": "Ctrl + F",
+    "keywords": [
+      "查找",
+      "find"
+    ],
+    "pinyin": "cha zhao chazhao c z cz cha zhao chazhao c z cz"
+  },
+  {
+    "id": "conf-notifications",
+    "appId": "confluence",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "通知",
+      "en": "Notifications"
+    },
+    "description": {
+      "zh": "打开通知",
+      "en": "Open notifications"
+    },
+    "windows": "N",
+    "mac": "N",
+    "linux": "N",
+    "keywords": [
+      "通知",
+      "notifications"
+    ],
+    "pinyin": "tong zhi tongzhi t z tz tong zhi tongzhi t z tz"
+  },
+  {
+    "id": "conf-go-dashboard",
+    "appId": "confluence",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "前往仪表板",
+      "en": "Go to Dashboard"
+    },
+    "description": {
+      "zh": "跳转到仪表板",
+      "en": "Go to dashboard"
+    },
+    "windows": "G then D",
+    "mac": "G then D",
+    "linux": "G then D",
+    "keywords": [
+      "仪表板",
+      "dashboard"
+    ],
+    "pinyin": "qian wang yi biao ban qianwangyibiaoban q w y b b qwybb yi biao ban yibiaoban y b b ybb"
+  },
+  {
+    "id": "conf-go-space",
+    "appId": "confluence",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "前往空间",
+      "en": "Go to Space"
+    },
+    "description": {
+      "zh": "跳转到空间",
+      "en": "Go to space"
+    },
+    "windows": "G then S",
+    "mac": "G then S",
+    "linux": "G then S",
+    "keywords": [
+      "空间",
+      "space"
+    ],
+    "pinyin": "qian wang kong jian qianwangkongjian q w k j qwkj kong jian kongjian k j kj"
+  },
+  {
+    "id": "conf-close",
+    "appId": "confluence",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "关闭对话框",
+      "en": "Close Dialog"
+    },
+    "description": {
+      "zh": "关闭弹窗/对话框",
+      "en": "Close dialog"
+    },
+    "windows": "Esc",
+    "mac": "Esc",
+    "linux": "Esc",
+    "keywords": [
+      "关闭",
+      "close",
+      "esc"
+    ],
+    "pinyin": "guan bi dui hua kuang guanbiduihuakuang g b d h k gbdhk guan bi guanbi g b gb"
+  }
+]

@@ -1,0 +1,514 @@
+[
+  {
+    "id": "sketchup-line",
+    "appId": "sketchup",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "直线",
+      "en": "Line"
+    },
+    "description": {
+      "zh": "绘制直线",
+      "en": "Draw a line"
+    },
+    "windows": "L",
+    "mac": "L",
+    "linux": "L",
+    "keywords": [
+      "直线",
+      "line"
+    ],
+    "pinyin": "zhi xian zhixian z x zx zhi xian zhixian z x zx"
+  },
+  {
+    "id": "sketchup-rectangle",
+    "appId": "sketchup",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "矩形",
+      "en": "Rectangle"
+    },
+    "description": {
+      "zh": "绘制矩形",
+      "en": "Draw a rectangle"
+    },
+    "windows": "R",
+    "mac": "R",
+    "linux": "R",
+    "keywords": [
+      "矩形",
+      "rectangle"
+    ],
+    "pinyin": "ju xing juxing j x jx ju xing juxing j x jx"
+  },
+  {
+    "id": "sketchup-circle",
+    "appId": "sketchup",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "圆",
+      "en": "Circle"
+    },
+    "description": {
+      "zh": "绘制圆",
+      "en": "Draw a circle"
+    },
+    "windows": "C",
+    "mac": "C",
+    "linux": "C",
+    "keywords": [
+      "圆",
+      "circle"
+    ],
+    "pinyin": "yuan yuan y y yuan yuan y y"
+  },
+  {
+    "id": "sketchup-arc",
+    "appId": "sketchup",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "圆弧",
+      "en": "Arc"
+    },
+    "description": {
+      "zh": "绘制圆弧",
+      "en": "Draw an arc"
+    },
+    "windows": "A",
+    "mac": "A",
+    "linux": "A",
+    "keywords": [
+      "圆弧",
+      "arc"
+    ],
+    "pinyin": "yuan hu yuanhu y h yh yuan hu yuanhu y h yh"
+  },
+  {
+    "id": "sketchup-polygon",
+    "appId": "sketchup",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "多边形",
+      "en": "Polygon"
+    },
+    "description": {
+      "zh": "绘制正多边形",
+      "en": "Draw a regular polygon"
+    },
+    "windows": "P (in drawing)",
+    "mac": "P (in drawing)",
+    "linux": "P (in drawing)",
+    "keywords": [
+      "多边形",
+      "polygon"
+    ],
+    "pinyin": "duo bian xing duobianxing d b x dbx duo bian xing duobianxing d b x dbx"
+  },
+  {
+    "id": "sketchup-pushpull",
+    "appId": "sketchup",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "推拉",
+      "en": "Push/Pull"
+    },
+    "description": {
+      "zh": "推拉面成体",
+      "en": "Push/pull a face"
+    },
+    "windows": "P",
+    "mac": "P",
+    "linux": "P",
+    "keywords": [
+      "推拉",
+      "push",
+      "pull"
+    ],
+    "pinyin": "tui la tuila t l tl tui la tuila t l tl"
+  },
+  {
+    "id": "sketchup-move",
+    "appId": "sketchup",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "移动",
+      "en": "Move"
+    },
+    "description": {
+      "zh": "移动对象",
+      "en": "Move objects"
+    },
+    "windows": "M",
+    "mac": "M",
+    "linux": "M",
+    "keywords": [
+      "移动",
+      "move"
+    ],
+    "pinyin": "yi dong yidong y d yd yi dong yidong y d yd"
+  },
+  {
+    "id": "sketchup-rotate",
+    "appId": "sketchup",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "旋转",
+      "en": "Rotate"
+    },
+    "description": {
+      "zh": "旋转对象",
+      "en": "Rotate objects"
+    },
+    "windows": "Q",
+    "mac": "Q",
+    "linux": "Q",
+    "keywords": [
+      "旋转",
+      "rotate"
+    ],
+    "pinyin": "xuan zhuan xuanzhuan x z xz xuan zhuan xuanzhuan x z xz"
+  },
+  {
+    "id": "sketchup-scale",
+    "appId": "sketchup",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "缩放(工具)",
+      "en": "Scale Tool"
+    },
+    "description": {
+      "zh": "缩放对象大小",
+      "en": "Scale objects"
+    },
+    "windows": "S",
+    "mac": "S",
+    "linux": "S",
+    "keywords": [
+      "缩放",
+      "scale"
+    ],
+    "pinyin": "suo fang ( gong ju ) suofang(gongju) s f ( g j ) sf(gj) suo fang suofang s f sf"
+  },
+  {
+    "id": "sketchup-offset",
+    "appId": "sketchup",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "偏移",
+      "en": "Offset"
+    },
+    "description": {
+      "zh": "偏移复制",
+      "en": "Offset a copy"
+    },
+    "windows": "F",
+    "mac": "F",
+    "linux": "F",
+    "keywords": [
+      "偏移",
+      "offset"
+    ],
+    "pinyin": "pian yi pianyi p y py pian yi pianyi p y py"
+  },
+  {
+    "id": "sketchup-orbit",
+    "appId": "sketchup",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "环绕",
+      "en": "Orbit"
+    },
+    "description": {
+      "zh": "旋转视角",
+      "en": "Orbit the view"
+    },
+    "windows": "O",
+    "mac": "O",
+    "linux": "O",
+    "keywords": [
+      "环绕",
+      "orbit"
+    ],
+    "pinyin": "huan rao huanrao h r hr huan rao huanrao h r hr"
+  },
+  {
+    "id": "sketchup-pan",
+    "appId": "sketchup",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "平移",
+      "en": "Pan"
+    },
+    "description": {
+      "zh": "平移视图",
+      "en": "Pan the view"
+    },
+    "windows": "H",
+    "mac": "H",
+    "linux": "H",
+    "keywords": [
+      "平移",
+      "pan"
+    ],
+    "pinyin": "ping yi pingyi p y py ping yi pingyi p y py"
+  },
+  {
+    "id": "sketchup-zoom",
+    "appId": "sketchup",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "缩放(视图)",
+      "en": "Zoom"
+    },
+    "description": {
+      "zh": "缩放视图",
+      "en": "Zoom the view"
+    },
+    "windows": "Z",
+    "mac": "Z",
+    "linux": "Z",
+    "keywords": [
+      "缩放",
+      "zoom"
+    ],
+    "pinyin": "suo fang ( shi tu ) suofang(shitu) s f ( s t ) sf(st) suo fang suofang s f sf"
+  },
+  {
+    "id": "sketchup-zoom-extents",
+    "appId": "sketchup",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "缩放至全图",
+      "en": "Zoom Extents"
+    },
+    "description": {
+      "zh": "缩放到全部内容",
+      "en": "Zoom to extents"
+    },
+    "windows": "⇧ Z",
+    "mac": "⇧ Z",
+    "linux": "⇧ Z",
+    "keywords": [
+      "缩放",
+      "范围",
+      "zoom extents"
+    ],
+    "pinyin": "suo fang zhi quan tu suofangzhiquantu s f z q t sfzqt suo fang   fan wei suofang fanwei s f   f w sf fw"
+  },
+  {
+    "id": "sketchup-select",
+    "appId": "sketchup",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "选择",
+      "en": "Select"
+    },
+    "description": {
+      "zh": "选择工具",
+      "en": "Select tool"
+    },
+    "windows": "Space",
+    "mac": "Space",
+    "linux": "Space",
+    "keywords": [
+      "选择",
+      "select"
+    ],
+    "pinyin": "xuan ze xuanze x z xz xuan ze xuanze x z xz"
+  },
+  {
+    "id": "sketchup-eraser",
+    "appId": "sketchup",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "橡皮擦",
+      "en": "Eraser"
+    },
+    "description": {
+      "zh": "删除几何体",
+      "en": "Erase geometry"
+    },
+    "windows": "E",
+    "mac": "E",
+    "linux": "E",
+    "keywords": [
+      "橡皮擦",
+      "eraser",
+      "删除"
+    ],
+    "pinyin": "xiang pi ca xiangpica x p c xpc xiang pi ca   shan chu xiangpica shanchu x p c   s c xpc sc"
+  },
+  {
+    "id": "sketchup-tape",
+    "appId": "sketchup",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "卷尺",
+      "en": "Tape Measure"
+    },
+    "description": {
+      "zh": "测量距离",
+      "en": "Measure distance"
+    },
+    "windows": "T",
+    "mac": "T",
+    "linux": "T",
+    "keywords": [
+      "卷尺",
+      "tape",
+      "测量"
+    ],
+    "pinyin": "juan chi juanchi j c jc juan chi   ce liang juanchi celiang j c   c l jc cl"
+  },
+  {
+    "id": "sketchup-dimension",
+    "appId": "sketchup",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "尺寸标注",
+      "en": "Dimension"
+    },
+    "description": {
+      "zh": "添加尺寸标注",
+      "en": "Add dimension"
+    },
+    "windows": "D",
+    "mac": "D",
+    "linux": "D",
+    "keywords": [
+      "标注",
+      "dimension"
+    ],
+    "pinyin": "chi cun biao zhu chicunbiaozhu c c b z ccbz biao zhu biaozhu b z bz"
+  },
+  {
+    "id": "sketchup-paint",
+    "appId": "sketchup",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "颜料桶",
+      "en": "Paint Bucket"
+    },
+    "description": {
+      "zh": "填充材质",
+      "en": "Fill with material"
+    },
+    "windows": "B",
+    "mac": "B",
+    "linux": "B",
+    "keywords": [
+      "颜料桶",
+      "paint",
+      "材质"
+    ],
+    "pinyin": "yan liao tong yanliaotong y l t ylt yan liao tong   cai zhi yanliaotong caizhi y l t   c z ylt cz"
+  },
+  {
+    "id": "sketchup-freehand",
+    "appId": "sketchup",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "自由绘制",
+      "en": "Freehand"
+    },
+    "description": {
+      "zh": "手绘曲线",
+      "en": "Draw freehand curves"
+    },
+    "windows": "Alt + P (in drawing)",
+    "mac": "⌥ P (in drawing)",
+    "linux": "Alt + P (in drawing)",
+    "keywords": [
+      "自由绘制",
+      "freehand",
+      "曲线"
+    ],
+    "pinyin": "zi you hui zhi ziyouhuizhi z y h z zyhz zi you hui zhi   qu xian ziyouhuizhi quxian z y h z   q x zyhz qx"
+  },
+  {
+    "id": "sketchup-undo",
+    "appId": "sketchup",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销上一步",
+      "en": "Undo last action"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "Ctrl + Z",
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "sketchup-redo",
+    "appId": "sketchup",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "重做操作",
+      "en": "Redo action"
+    },
+    "windows": "Ctrl + Y",
+    "mac": "⌘ ⇧ Z",
+    "linux": "Ctrl + Y",
+    "keywords": [
+      "重做",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "sketchup-group",
+    "appId": "sketchup",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "编组",
+      "en": "Group"
+    },
+    "description": {
+      "zh": "将选中内容编组",
+      "en": "Group selection"
+    },
+    "windows": "Ctrl + G",
+    "mac": "⌘ G",
+    "linux": "Ctrl + G",
+    "keywords": [
+      "编组",
+      "group"
+    ],
+    "pinyin": "bian zu bianzu b z bz bian zu bianzu b z bz"
+  }
+]

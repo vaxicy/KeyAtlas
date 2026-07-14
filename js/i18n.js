@@ -65,6 +65,11 @@ const I18N = {
     favExportTitle: "Favorited shortcuts",
     incognitoLabel: "Incognito Mode",
     incognitoHint: "Stop saving recently viewed shortcuts",
+    supportTitle: "Support KeyAtlas",
+    supportDesc: "If KeyAtlas helps you, buy me a coffee.",
+    supportPaypal: "Donate via PayPal",
+    supportWechat: "WeChat QR code",
+    supportWechatHint: "Scan with WeChat to tip",
     legCommand: "Command", legOption: "Option", legShift: "Shift", legCtrl: "Ctrl", legWin: "Win"
   },
   zh: {
@@ -128,6 +133,11 @@ const I18N = {
     favExportTitle: "收藏的快捷键",
     incognitoLabel: "无痕模式",
     incognitoHint: "开启后不记录最近浏览的快捷键",
+    supportTitle: "支持 KeyAtlas",
+    supportDesc: "如果这个工具帮到你，请我喝杯咖啡吧。",
+    supportPaypal: "通过 PayPal 赞赏",
+    supportWechat: "微信赞赏码",
+    supportWechatHint: "用微信扫码赞赏",
     legCommand: "Cmd", legOption: "Option", legShift: "Shift", legCtrl: "Ctrl", legWin: "Win"
   }
 };

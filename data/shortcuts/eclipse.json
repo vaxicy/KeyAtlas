@@ -1,0 +1,424 @@
+[
+  {
+    "id": "eclipse-save",
+    "appId": "eclipse",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "保存",
+      "en": "Save"
+    },
+    "description": {
+      "zh": "保存当前文件",
+      "en": "Save current file"
+    },
+    "windows": "Ctrl + S",
+    "mac": "⌘ S",
+    "linux": "Ctrl + S",
+    "keywords": [
+      "保存",
+      "save"
+    ],
+    "pinyin": "bao cun baocun b c bc bao cun baocun b c bc"
+  },
+  {
+    "id": "eclipse-saveall",
+    "appId": "eclipse",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "全部保存",
+      "en": "Save All"
+    },
+    "description": {
+      "zh": "保存所有文件",
+      "en": "Save all files"
+    },
+    "windows": "Ctrl + Shift + S",
+    "mac": "⌘ ⇧ S",
+    "linux": "Ctrl + Shift + S",
+    "keywords": [
+      "保存全部",
+      "save all"
+    ],
+    "pinyin": "quan bu bao cun quanbubaocun q b b c qbbc bao cun quan bu baocunquanbu b c q b bcqb"
+  },
+  {
+    "id": "eclipse-run",
+    "appId": "eclipse",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "运行",
+      "en": "Run"
+    },
+    "description": {
+      "zh": "运行上次启动配置",
+      "en": "Run last launch config"
+    },
+    "windows": "Ctrl + F11",
+    "mac": "⌘ F11",
+    "linux": "Ctrl + F11",
+    "keywords": [
+      "运行",
+      "run"
+    ],
+    "pinyin": "yun xing yunxing y x yx yun xing yunxing y x yx"
+  },
+  {
+    "id": "eclipse-debug",
+    "appId": "eclipse",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "调试",
+      "en": "Debug"
+    },
+    "description": {
+      "zh": "以调试模式运行",
+      "en": "Debug last launch config"
+    },
+    "windows": "F11",
+    "mac": "F11",
+    "linux": "F11",
+    "keywords": [
+      "调试",
+      "debug"
+    ],
+    "pinyin": "tiao shi tiaoshi t s ts tiao shi tiaoshi t s ts"
+  },
+  {
+    "id": "eclipse-step-over",
+    "appId": "eclipse",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "单步跳过",
+      "en": "Step Over"
+    },
+    "description": {
+      "zh": "单步执行（不进入）",
+      "en": "Step over"
+    },
+    "windows": "F6",
+    "mac": "F6",
+    "linux": "F6",
+    "keywords": [
+      "单步",
+      "step over"
+    ],
+    "pinyin": "dan bu tiao guo danbutiaoguo d b t g dbtg dan bu danbu d b db"
+  },
+  {
+    "id": "eclipse-step-into",
+    "appId": "eclipse",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "单步进入",
+      "en": "Step Into"
+    },
+    "description": {
+      "zh": "进入函数内部",
+      "en": "Step into"
+    },
+    "windows": "F5",
+    "mac": "F5",
+    "linux": "F5",
+    "keywords": [
+      "单步",
+      "step into"
+    ],
+    "pinyin": "dan bu jin ru danbujinru d b j r dbjr dan bu danbu d b db"
+  },
+  {
+    "id": "eclipse-step-return",
+    "appId": "eclipse",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "单步返回",
+      "en": "Step Return"
+    },
+    "description": {
+      "zh": "执行到函数返回",
+      "en": "Step return"
+    },
+    "windows": "F7",
+    "mac": "F7",
+    "linux": "F7",
+    "keywords": [
+      "单步",
+      "step return"
+    ],
+    "pinyin": "dan bu fan hui danbufanhui d b f h dbfh dan bu danbu d b db"
+  },
+  {
+    "id": "eclipse-content-assist",
+    "appId": "eclipse",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "内容辅助",
+      "en": "Content Assist"
+    },
+    "description": {
+      "zh": "触发代码补全",
+      "en": "Trigger code completion"
+    },
+    "windows": "Ctrl + Space",
+    "mac": "⌃ Space",
+    "linux": "Ctrl + Space",
+    "keywords": [
+      "补全",
+      "content assist",
+      "completion"
+    ],
+    "pinyin": "nei rong fu zhu neirongfuzhu n r f z nrfz bu quan buquan b q bq"
+  },
+  {
+    "id": "eclipse-quickfix",
+    "appId": "eclipse",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "快速修复",
+      "en": "Quick Fix"
+    },
+    "description": {
+      "zh": "打开快速修复建议",
+      "en": "Open quick fix proposals"
+    },
+    "windows": "Ctrl + 1",
+    "mac": "⌘ 1",
+    "linux": "Ctrl + 1",
+    "keywords": [
+      "快速修复",
+      "quick fix"
+    ],
+    "pinyin": "kuai su xiu fu kuaisuxiufu k s x f ksxf kuai su xiu fu kuaisuxiufu k s x f ksxf"
+  },
+  {
+    "id": "eclipse-open-type",
+    "appId": "eclipse",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "打开类型",
+      "en": "Open Type"
+    },
+    "description": {
+      "zh": "按名称打开 Java 类型",
+      "en": "Open type by name"
+    },
+    "windows": "Ctrl + Shift + T",
+    "mac": "⌘ ⇧ T",
+    "linux": "Ctrl + Shift + T",
+    "keywords": [
+      "打开类型",
+      "open type"
+    ],
+    "pinyin": "da kai lei xing dakaileixing d k l x dklx da kai lei xing dakaileixing d k l x dklx"
+  },
+  {
+    "id": "eclipse-open-resource",
+    "appId": "eclipse",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "打开资源",
+      "en": "Open Resource"
+    },
+    "description": {
+      "zh": "按名称打开任意资源",
+      "en": "Open any resource by name"
+    },
+    "windows": "Ctrl + Shift + R",
+    "mac": "⌘ ⇧ R",
+    "linux": "Ctrl + Shift + R",
+    "keywords": [
+      "打开资源",
+      "open resource"
+    ],
+    "pinyin": "da kai zi yuan dakaiziyuan d k z y dkzy da kai zi yuan dakaiziyuan d k z y dkzy"
+  },
+  {
+    "id": "eclipse-find",
+    "appId": "eclipse",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "查找",
+      "en": "Find"
+    },
+    "description": {
+      "zh": "在当前文件查找",
+      "en": "Find in current file"
+    },
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
+    "linux": "Ctrl + F",
+    "keywords": [
+      "查找",
+      "find"
+    ],
+    "pinyin": "cha zhao chazhao c z cz cha zhao chazhao c z cz"
+  },
+  {
+    "id": "eclipse-goto-line",
+    "appId": "eclipse",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "转到行",
+      "en": "Go to Line"
+    },
+    "description": {
+      "zh": "跳转到指定行",
+      "en": "Go to line number"
+    },
+    "windows": "Ctrl + L",
+    "mac": "⌘ L",
+    "linux": "Ctrl + L",
+    "keywords": [
+      "行",
+      "line",
+      "goto"
+    ],
+    "pinyin": "zhuan dao xing zhuandaoxing z d x zdx xing xing x x"
+  },
+  {
+    "id": "eclipse-format",
+    "appId": "eclipse",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "格式化",
+      "en": "Format"
+    },
+    "description": {
+      "zh": "格式化选中代码",
+      "en": "Format selected code"
+    },
+    "windows": "Ctrl + Shift + F",
+    "mac": "⌘ ⇧ F",
+    "linux": "Ctrl + Shift + F",
+    "keywords": [
+      "格式化",
+      "format"
+    ],
+    "pinyin": "ge shi hua geshihua g s h gsh ge shi hua geshihua g s h gsh"
+  },
+  {
+    "id": "eclipse-organize-imports",
+    "appId": "eclipse",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "组织导入",
+      "en": "Organize Imports"
+    },
+    "description": {
+      "zh": "自动整理 import 语句",
+      "en": "Organize import statements"
+    },
+    "windows": "Ctrl + Shift + O",
+    "mac": "⌘ ⇧ O",
+    "linux": "Ctrl + Shift + O",
+    "keywords": [
+      "导入",
+      "imports",
+      "organize"
+    ],
+    "pinyin": "zu zhi dao ru zuzhidaoru z z d r zzdr dao ru daoru d r dr"
+  },
+  {
+    "id": "eclipse-rename",
+    "appId": "eclipse",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "重命名",
+      "en": "Rename"
+    },
+    "description": {
+      "zh": "重构重命名符号",
+      "en": "Refactor rename symbol"
+    },
+    "windows": "Alt + Shift + R",
+    "mac": "⌥ ⇧ R",
+    "linux": "Alt + Shift + R",
+    "keywords": [
+      "重命名",
+      "rename",
+      "refactor"
+    ],
+    "pinyin": "zhong ming ming zhongmingming z m m zmm zhong ming ming zhongmingming z m m zmm"
+  },
+  {
+    "id": "eclipse-delete-line",
+    "appId": "eclipse",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "删除行",
+      "en": "Delete Line"
+    },
+    "description": {
+      "zh": "删除当前行",
+      "en": "Delete current line"
+    },
+    "windows": "Ctrl + D",
+    "mac": "⌘ D",
+    "linux": "Ctrl + D",
+    "keywords": [
+      "删除行",
+      "delete line"
+    ],
+    "pinyin": "shan chu xing shanchuxing s c x scx shan chu xing shanchuxing s c x scx"
+  },
+  {
+    "id": "eclipse-quick-outline",
+    "appId": "eclipse",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "快速大纲",
+      "en": "Quick Outline"
+    },
+    "description": {
+      "zh": "显示当前文件大纲",
+      "en": "Show file outline"
+    },
+    "windows": "Ctrl + O",
+    "mac": "⌘ O",
+    "linux": "Ctrl + O",
+    "keywords": [
+      "大纲",
+      "outline"
+    ],
+    "pinyin": "kuai su da gang kuaisudagang k s d g ksdg da gang dagang d g dg"
+  },
+  {
+    "id": "eclipse-maximize",
+    "appId": "eclipse",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "最大化视图",
+      "en": "Maximize"
+    },
+    "description": {
+      "zh": "最大化/还原当前视图",
+      "en": "Maximize/restore view"
+    },
+    "windows": "Ctrl + M",
+    "mac": "⌘ M",
+    "linux": "Ctrl + M",
+    "keywords": [
+      "最大化",
+      "maximize"
+    ],
+    "pinyin": "zui da hua shi tu zuidahuashitu z d h s t zdhst zui da hua zuidahua z d h zdh"
+  }
+]

@@ -27,6 +27,7 @@
   };
 
   const VERSION = "1.0.0";
+  const PAYPAL_URL = "https://www.paypal.com/ncp/payment/BGHTVB7ZG3XPC";
 
   // Cached DOM
   const el = {
@@ -43,6 +44,9 @@
     setTheme: document.getElementById("setTheme"),
     incognitoToggle: document.getElementById("incognitoToggle"),
     aboutVersion: document.getElementById("aboutVersion"),
+    paypalBtn: document.getElementById("paypalBtn"),
+    wechatBtn: document.getElementById("wechatBtn"),
+    wechatLightbox: document.getElementById("wechatLightbox"),
     toast: document.getElementById("toast")
   };
 
@@ -1015,6 +1019,32 @@
         }
       });
     }
+    if (el.paypalBtn) {
+      el.paypalBtn.addEventListener("click", () => window.open(PAYPAL_URL, "_blank", "noopener"));
+    }
+    if (el.wechatBtn && el.wechatLightbox) {
+      const openWechat = () => {
+        el.wechatLightbox.style.display = "flex";
+        el.wechatLightbox.hidden = false;
+        el.wechatLightbox.setAttribute("aria-hidden", "false");
+      };
+      const closeWechat = () => {
+        el.wechatLightbox.style.display = "none";
+        el.wechatLightbox.hidden = true;
+        el.wechatLightbox.setAttribute("aria-hidden", "true");
+      };
+      el.wechatBtn.addEventListener("click", openWechat);
+      // 点击卡片内部不关闭（阻止冒泡到遮罩）
+      el.wechatLightbox.querySelector(".wechat-lightbox-inner").addEventListener("click", (e) => {
+        e.stopPropagation();
+      });
+      // 点遮罩背景 = 关闭
+      el.wechatLightbox.addEventListener("click", () => closeWechat());
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape" && !el.wechatLightbox.hidden) closeWechat();
+      });
+    }
+
 
     el.content.addEventListener("click", onContentClick);
     document.addEventListener("keydown", onKeydown);

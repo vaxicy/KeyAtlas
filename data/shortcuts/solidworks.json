@@ -1,0 +1,625 @@
+[
+  {
+    "id": "solidworks-line",
+    "appId": "solidworks",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "直线",
+      "en": "Line"
+    },
+    "description": {
+      "zh": "绘制直线",
+      "en": "Draw a line"
+    },
+    "windows": "L",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "直线",
+      "line"
+    ],
+    "pinyin": "zhi xian zhixian z x zx zhi xian zhixian z x zx"
+  },
+  {
+    "id": "solidworks-rectangle",
+    "appId": "solidworks",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "矩形",
+      "en": "Rectangle"
+    },
+    "description": {
+      "zh": "绘制矩形",
+      "en": "Draw a rectangle"
+    },
+    "windows": "R",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "矩形",
+      "rectangle"
+    ],
+    "pinyin": "ju xing juxing j x jx ju xing juxing j x jx"
+  },
+  {
+    "id": "solidworks-circle",
+    "appId": "solidworks",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "圆",
+      "en": "Circle"
+    },
+    "description": {
+      "zh": "绘制圆",
+      "en": "Draw a circle"
+    },
+    "windows": "C",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "圆",
+      "circle"
+    ],
+    "pinyin": "yuan yuan y y yuan yuan y y"
+  },
+  {
+    "id": "solidworks-dimension",
+    "appId": "solidworks",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "智能标注",
+      "en": "Smart Dimension"
+    },
+    "description": {
+      "zh": "添加尺寸标注",
+      "en": "Add a dimension"
+    },
+    "windows": "D",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "标注",
+      "dimension",
+      "尺寸"
+    ],
+    "pinyin": "zhi neng biao zhu zhinengbiaozhu z n b z znbz biao zhu   chi cun biaozhu chicun b z   c c bz cc"
+  },
+  {
+    "id": "solidworks-extrude",
+    "appId": "solidworks",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "拉伸凸台",
+      "en": "Extrude Boss/Base"
+    },
+    "description": {
+      "zh": "拉伸生成实体",
+      "en": "Extrude to solid"
+    },
+    "windows": "B",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "拉伸",
+      "extrude",
+      "凸台"
+    ],
+    "pinyin": "la shen tu tai lashentutai l s t t lstt la shen   tu tai lashen tutai l s   t t ls tt"
+  },
+  {
+    "id": "solidworks-cut-extrude",
+    "appId": "solidworks",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "拉伸切除",
+      "en": "Extruded Cut"
+    },
+    "description": {
+      "zh": "拉伸切除材料",
+      "en": "Extrude cut material"
+    },
+    "windows": "E (in sketch)",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "拉伸",
+      "切除",
+      "cut"
+    ],
+    "pinyin": "la shen qie chu lashenqiechu l s q c lsqc la shen   qie chu lashen qiechu l s   q c ls qc"
+  },
+  {
+    "id": "solidworks-fillet",
+    "appId": "solidworks",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "圆角",
+      "en": "Fillet"
+    },
+    "description": {
+      "zh": "添加圆角特征",
+      "en": "Add fillet feature"
+    },
+    "windows": "F",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "圆角",
+      "fillet"
+    ],
+    "pinyin": "yuan jiao yuanjiao y j yj yuan jiao yuanjiao y j yj"
+  },
+  {
+    "id": "solidworks-shell",
+    "appId": "solidworks",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "抽壳",
+      "en": "Shell"
+    },
+    "description": {
+      "zh": "创建抽壳特征",
+      "en": "Create shell feature"
+    },
+    "windows": "Shift + S",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "抽壳",
+      "shell"
+    ],
+    "pinyin": "chou ke chouke c k ck chou ke chouke c k ck"
+  },
+  {
+    "id": "solidworks-pattern-linear",
+    "appId": "solidworks",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "线性阵列",
+      "en": "Linear Pattern"
+    },
+    "description": {
+      "zh": "创建线性阵列",
+      "en": "Create linear pattern"
+    },
+    "windows": "Shift + L",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "阵列",
+      "pattern",
+      "线性"
+    ],
+    "pinyin": "xian xing zhen lie xianxingzhenlie x x z l xxzl zhen lie   xian xing zhenlie xianxing z l   x x zl xx"
+  },
+  {
+    "id": "solidworks-pattern-circular",
+    "appId": "solidworks",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "圆形阵列",
+      "en": "Circular Pattern"
+    },
+    "description": {
+      "zh": "创建圆形阵列",
+      "en": "Create circular pattern"
+    },
+    "windows": "Shift + C",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "圆形阵列",
+      "circular pattern"
+    ],
+    "pinyin": "yuan xing zhen lie yuanxingzhenlie y x z l yxzl yuan xing zhen lie yuanxingzhenlie y x z l yxzl"
+  },
+  {
+    "id": "solidworks-loft",
+    "appId": "solidworks",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "放样",
+      "en": "Loft"
+    },
+    "description": {
+      "zh": "创建放样特征",
+      "en": "Create loft feature"
+    },
+    "windows": "Shift + L (in surfaces)",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "放样",
+      "loft"
+    ],
+    "pinyin": "fang yang fangyang f y fy fang yang fangyang f y fy"
+  },
+  {
+    "id": "solidworks-revolve",
+    "appId": "solidworks",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "旋转凸台",
+      "en": "Revolve Boss/Base"
+    },
+    "description": {
+      "zh": "绕轴旋转生成实体",
+      "en": "Revolve around axis to solid"
+    },
+    "windows": "Shift + B",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "旋转",
+      "revolve",
+      "凸台"
+    ],
+    "pinyin": "xuan zhuan tu tai xuanzhuantutai x z t t xztt xuan zhuan   tu tai xuanzhuan tutai x z   t t xz tt"
+  },
+  {
+    "id": "solidworks-rib",
+    "appId": "solidworks",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "筋",
+      "en": "Rib"
+    },
+    "description": {
+      "zh": "创建筋板特征",
+      "en": "Create rib feature"
+    },
+    "windows": "R (in features)",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "筋",
+      "rib"
+    ],
+    "pinyin": "jin jin j j jin jin j j"
+  },
+  {
+    "id": "solidworks-hole-wizard",
+    "appId": "solidworks",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "异型孔向导",
+      "en": "Hole Wizard"
+    },
+    "description": {
+      "zh": "使用向导创建标准孔",
+      "en": "Create standard hole using wizard"
+    },
+    "windows": "H",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "孔",
+      "hole",
+      "向导"
+    ],
+    "pinyin": "yi xing kong xiang dao yixingkongxiangdao y x k x d yxkxd kong   xiang dao kong xiangdao k   x d k xd"
+  },
+  {
+    "id": "solidworks-sketch",
+    "appId": "solidworks",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "新建草图",
+      "en": "New Sketch"
+    },
+    "description": {
+      "zh": "在选中平面上新建草图",
+      "en": "Create new sketch on selected plane"
+    },
+    "windows": "S",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "草图",
+      "sketch"
+    ],
+    "pinyin": "xin jian cao tu xinjiancaotu x j c t xjct cao tu caotu c t ct"
+  },
+  {
+    "id": "solidworks-rebuild",
+    "appId": "solidworks",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "重建模型",
+      "en": "Rebuild"
+    },
+    "description": {
+      "zh": "重建模型特征",
+      "en": "Rebuild the model"
+    },
+    "windows": "Ctrl + B",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "重建",
+      "rebuild"
+    ],
+    "pinyin": "chong jian mo xing chongjianmoxing c j m x cjmx chong jian chongjian c j cj"
+  },
+  {
+    "id": "solidworks-measure",
+    "appId": "solidworks",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "测量",
+      "en": "Measure"
+    },
+    "description": {
+      "zh": "测量距离、角度等",
+      "en": "Measure distance, angle etc."
+    },
+    "windows": "Shift + G",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "测量",
+      "measure"
+    ],
+    "pinyin": "ce liang celiang c l cl ce liang celiang c l cl"
+  },
+  {
+    "id": "solidworks-zoom-fit",
+    "appId": "solidworks",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "缩放至适配",
+      "en": "Zoom to Fit"
+    },
+    "description": {
+      "zh": "缩放到适配视图",
+      "en": "Zoom to fit view"
+    },
+    "windows": "F",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "缩放",
+      "fit",
+      "适配"
+    ],
+    "pinyin": "suo fang zhi shi pei suofangzhishipei s f z s p sfzsp suo fang   shi pei suofang shipei s f   s p sf sp"
+  },
+  {
+    "id": "solidworks-save",
+    "appId": "solidworks",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "保存",
+      "en": "Save"
+    },
+    "description": {
+      "zh": "保存文档",
+      "en": "Save document"
+    },
+    "windows": "Ctrl + S",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "保存",
+      "save"
+    ],
+    "pinyin": "bao cun baocun b c bc bao cun baocun b c bc"
+  },
+  {
+    "id": "solidworks-undo",
+    "appId": "solidworks",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销上一步",
+      "en": "Undo last action"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "solidworks-redo",
+    "appId": "solidworks",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "重做操作",
+      "en": "Redo action"
+    },
+    "windows": "Ctrl + Y",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "重做",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "solidworks-selectall",
+    "appId": "solidworks",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "全选",
+      "en": "Select All"
+    },
+    "description": {
+      "zh": "选中所有内容",
+      "en": "Select everything"
+    },
+    "windows": "Ctrl + A",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "全选",
+      "select all"
+    ],
+    "pinyin": "quan xuan quanxuan q x qx quan xuan quanxuan q x qx"
+  },
+  {
+    "id": "solidworks-copy",
+    "appId": "solidworks",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "复制",
+      "en": "Copy"
+    },
+    "description": {
+      "zh": "复制对象",
+      "en": "Copy objects"
+    },
+    "windows": "Ctrl + C",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "复制",
+      "copy"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "solidworks-paste",
+    "appId": "solidworks",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "粘贴",
+      "en": "Paste"
+    },
+    "description": {
+      "zh": "粘贴对象",
+      "en": "Paste objects"
+    },
+    "windows": "Ctrl + V",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "粘贴",
+      "paste"
+    ],
+    "pinyin": "nian tie niantie n t nt nian tie niantie n t nt"
+  },
+  {
+    "id": "solidworks-cut",
+    "appId": "solidworks",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "剪切",
+      "en": "Cut"
+    },
+    "description": {
+      "zh": "剪切对象",
+      "en": "Cut objects"
+    },
+    "windows": "Ctrl + X",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "剪切",
+      "cut"
+    ],
+    "pinyin": "jian qie jianqie j q jq jian qie jianqie j q jq"
+  },
+  {
+    "id": "solidworks-delete",
+    "appId": "solidworks",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "删除",
+      "en": "Delete"
+    },
+    "description": {
+      "zh": "删除选中内容",
+      "en": "Delete selection"
+    },
+    "windows": "Delete",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "删除",
+      "delete"
+    ],
+    "pinyin": "shan chu shanchu s c sc shan chu shanchu s c sc"
+  },
+  {
+    "id": "solidworks-new",
+    "appId": "solidworks",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "新建",
+      "en": "New"
+    },
+    "description": {
+      "zh": "新建文档",
+      "en": "New document"
+    },
+    "windows": "Ctrl + N",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "新建",
+      "new"
+    ],
+    "pinyin": "xin jian xinjian x j xj xin jian xinjian x j xj"
+  },
+  {
+    "id": "solidworks-open",
+    "appId": "solidworks",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "打开",
+      "en": "Open"
+    },
+    "description": {
+      "zh": "打开文档",
+      "en": "Open document"
+    },
+    "windows": "Ctrl + O",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "打开",
+      "open"
+    ],
+    "pinyin": "da kai dakai d k dk da kai dakai d k dk"
+  }
+]

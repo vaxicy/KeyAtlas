@@ -1,0 +1,464 @@
+[
+  {
+    "id": "max-select",
+    "appId": "3dsmax",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "选择对象",
+      "en": "Select Object"
+    },
+    "description": {
+      "zh": "进入选择模式",
+      "en": "Enter select mode"
+    },
+    "windows": "Q",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "选择",
+      "select"
+    ],
+    "pinyin": "xuan ze dui xiang xuanzeduixiang x z d x xzdx xuan ze xuanze x z xz"
+  },
+  {
+    "id": "max-move",
+    "appId": "3dsmax",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "移动",
+      "en": "Move"
+    },
+    "description": {
+      "zh": "切换移动 Gizmo",
+      "en": "Switch to move gizmo"
+    },
+    "windows": "W",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "移动",
+      "move"
+    ],
+    "pinyin": "yi dong yidong y d yd yi dong yidong y d yd"
+  },
+  {
+    "id": "max-rotate",
+    "appId": "3dsmax",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "旋转",
+      "en": "Rotate"
+    },
+    "description": {
+      "zh": "切换旋转 Gizmo",
+      "en": "Switch to rotate gizmo"
+    },
+    "windows": "E",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "旋转",
+      "rotate"
+    ],
+    "pinyin": "xuan zhuan xuanzhuan x z xz xuan zhuan xuanzhuan x z xz"
+  },
+  {
+    "id": "max-scale",
+    "appId": "3dsmax",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "缩放",
+      "en": "Scale"
+    },
+    "description": {
+      "zh": "切换缩放 Gizmo",
+      "en": "Switch to scale gizmo"
+    },
+    "windows": "R",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "缩放",
+      "scale"
+    ],
+    "pinyin": "suo fang suofang s f sf suo fang suofang s f sf"
+  },
+  {
+    "id": "max-snap",
+    "appId": "3dsmax",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "捕捉开关",
+      "en": "Snap Toggle"
+    },
+    "description": {
+      "zh": "开启/关闭捕捉",
+      "en": "Toggle snap"
+    },
+    "windows": "S",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "捕捉",
+      "snap"
+    ],
+    "pinyin": "bu zhuo kai guan buzhuokaiguan b z k g bzkg bu zhuo buzhuo b z bz"
+  },
+  {
+    "id": "max-angle-snap",
+    "appId": "3dsmax",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "角度捕捉",
+      "en": "Angle Snap"
+    },
+    "description": {
+      "zh": "开启/关闭角度捕捉",
+      "en": "Toggle angle snap"
+    },
+    "windows": "A",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "角度捕捉",
+      "angle snap"
+    ],
+    "pinyin": "jiao du bu zhuo jiaodubuzhuo j d b z jdbz jiao du bu zhuo jiaodubuzhuo j d b z jdbz"
+  },
+  {
+    "id": "max-persp",
+    "appId": "3dsmax",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "透视视图",
+      "en": "Perspective View"
+    },
+    "description": {
+      "zh": "切换到透视视图",
+      "en": "Switch to perspective view"
+    },
+    "windows": "P",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "透视",
+      "perspective"
+    ],
+    "pinyin": "tou shi shi tu toushishitu t s s t tsst tou shi toushi t s ts"
+  },
+  {
+    "id": "max-top",
+    "appId": "3dsmax",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "顶视图",
+      "en": "Top View"
+    },
+    "description": {
+      "zh": "切换到顶视图",
+      "en": "Switch to top view"
+    },
+    "windows": "T",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "顶视图",
+      "top"
+    ],
+    "pinyin": "ding shi tu dingshitu d s t dst ding shi tu dingshitu d s t dst"
+  },
+  {
+    "id": "max-front",
+    "appId": "3dsmax",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "前视图",
+      "en": "Front View"
+    },
+    "description": {
+      "zh": "切换到前视图",
+      "en": "Switch to front view"
+    },
+    "windows": "F",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "前视图",
+      "front"
+    ],
+    "pinyin": "qian shi tu qianshitu q s t qst qian shi tu qianshitu q s t qst"
+  },
+  {
+    "id": "max-left",
+    "appId": "3dsmax",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "左视图",
+      "en": "Left View"
+    },
+    "description": {
+      "zh": "切换到左视图",
+      "en": "Switch to left view"
+    },
+    "windows": "L",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "左视图",
+      "left"
+    ],
+    "pinyin": "zuo shi tu zuoshitu z s t zst zuo shi tu zuoshitu z s t zst"
+  },
+  {
+    "id": "max-camera",
+    "appId": "3dsmax",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "相机视图",
+      "en": "Camera View"
+    },
+    "description": {
+      "zh": "切换到相机视图",
+      "en": "Switch to camera view"
+    },
+    "windows": "C",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "相机",
+      "camera"
+    ],
+    "pinyin": "xiang ji shi tu xiangjishitu x j s t xjst xiang ji xiangji x j xj"
+  },
+  {
+    "id": "max-grid",
+    "appId": "3dsmax",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "网格显示",
+      "en": "Grid Toggle"
+    },
+    "description": {
+      "zh": "显示/隐藏网格",
+      "en": "Toggle grid"
+    },
+    "windows": "G",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "网格",
+      "grid"
+    ],
+    "pinyin": "wang ge xian shi wanggexianshi w g x s wgxs wang ge wangge w g wg"
+  },
+  {
+    "id": "max-zoom-extents",
+    "appId": "3dsmax",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "缩放全部",
+      "en": "Zoom Extents"
+    },
+    "description": {
+      "zh": "缩放以显示全部对象",
+      "en": "Zoom to fit all"
+    },
+    "windows": "Z",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "缩放",
+      "zoom extents"
+    ],
+    "pinyin": "suo fang quan bu suofangquanbu s f q b sfqb suo fang suofang s f sf"
+  },
+  {
+    "id": "max-max-viewport",
+    "appId": "3dsmax",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "最大化视口",
+      "en": "Maximize Viewport"
+    },
+    "description": {
+      "zh": "最大化/还原当前视口",
+      "en": "Maximize/restore viewport"
+    },
+    "windows": "Alt + W",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "最大化",
+      "maximize viewport"
+    ],
+    "pinyin": "zui da hua shi kou zuidahuashikou z d h s k zdhsk zui da hua zuidahua z d h zdh"
+  },
+  {
+    "id": "max-isolate",
+    "appId": "3dsmax",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "孤立选择",
+      "en": "Isolate Selection"
+    },
+    "description": {
+      "zh": "仅显示选中对象",
+      "en": "Isolate selected objects"
+    },
+    "windows": "Alt + Q",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "孤立",
+      "isolate"
+    ],
+    "pinyin": "gu li xuan ze gulixuanze g l x z glxz gu li guli g l gl"
+  },
+  {
+    "id": "max-material",
+    "appId": "3dsmax",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "材质编辑器",
+      "en": "Material Editor"
+    },
+    "description": {
+      "zh": "打开精简材质编辑器",
+      "en": "Open compact material editor"
+    },
+    "windows": "M",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "材质",
+      "material"
+    ],
+    "pinyin": "cai zhi bian ji qi caizhibianjiqi c z b j q czbjq cai zhi caizhi c z cz"
+  },
+  {
+    "id": "max-select-name",
+    "appId": "3dsmax",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "按名称选择",
+      "en": "Select by Name"
+    },
+    "description": {
+      "zh": "按名称选择对象",
+      "en": "Select objects by name"
+    },
+    "windows": "H",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "选择名称",
+      "select by name"
+    ],
+    "pinyin": "an ming cheng xuan ze anmingchengxuanze a m c x z amcxz xuan ze ming cheng xuanzemingcheng x z m c xzmc"
+  },
+  {
+    "id": "max-render",
+    "appId": "3dsmax",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "渲染",
+      "en": "Render"
+    },
+    "description": {
+      "zh": "渲染当前场景",
+      "en": "Render current scene"
+    },
+    "windows": "Shift + Q",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "渲染",
+      "render"
+    ],
+    "pinyin": "xuan ran xuanran x r xr xuan ran xuanran x r xr"
+  },
+  {
+    "id": "max-render-setup",
+    "appId": "3dsmax",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "渲染设置",
+      "en": "Render Setup"
+    },
+    "description": {
+      "zh": "打开渲染设置",
+      "en": "Open render setup"
+    },
+    "windows": "F10",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "渲染设置",
+      "render setup"
+    ],
+    "pinyin": "xuan ran she zhi xuanranshezhi x r s z xrsz xuan ran she zhi xuanranshezhi x r s z xrsz"
+  },
+  {
+    "id": "max-undo",
+    "appId": "3dsmax",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "max-save",
+    "appId": "3dsmax",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "保存",
+      "en": "Save"
+    },
+    "description": {
+      "zh": "保存场景",
+      "en": "Save scene"
+    },
+    "windows": "Ctrl + S",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "保存",
+      "save"
+    ],
+    "pinyin": "bao cun baocun b c bc bao cun baocun b c bc"
+  }
+]

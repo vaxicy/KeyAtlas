@@ -1,0 +1,400 @@
+[
+  {
+    "id": "vivaldi-new-tab",
+    "appId": "vivaldi",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "新建标签页",
+      "en": "New Tab"
+    },
+    "description": {
+      "zh": "打开新标签页",
+      "en": "Open a new tab"
+    },
+    "windows": "Ctrl + T",
+    "mac": "⌘ T",
+    "linux": "Ctrl + T",
+    "keywords": [
+      "新建标签",
+      "new tab"
+    ],
+    "pinyin": "xin jian biao qian ye xinjianbiaoqianye x j b q y xjbqy xin jian biao qian xinjianbiaoqian x j b q xjbq"
+  },
+  {
+    "id": "vivaldi-new-window",
+    "appId": "vivaldi",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "新建窗口",
+      "en": "New Window"
+    },
+    "description": {
+      "zh": "打开新窗口",
+      "en": "Open a new window"
+    },
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
+    "linux": "Ctrl + N",
+    "keywords": [
+      "新建窗口",
+      "new window"
+    ],
+    "pinyin": "xin jian chuang kou xinjianchuangkou x j c k xjck xin jian chuang kou xinjianchuangkou x j c k xjck"
+  },
+  {
+    "id": "vivaldi-private",
+    "appId": "vivaldi",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "隐身窗口",
+      "en": "Private Window"
+    },
+    "description": {
+      "zh": "打开隐身窗口",
+      "en": "Open private window"
+    },
+    "windows": "Ctrl + Shift + N",
+    "mac": "⌘ ⇧ N",
+    "linux": "Ctrl + Shift + N",
+    "keywords": [
+      "隐身",
+      "private",
+      "incognito"
+    ],
+    "pinyin": "yin shen chuang kou yinshenchuangkou y s c k ysck yin shen yinshen y s ys"
+  },
+  {
+    "id": "vivaldi-close-tab",
+    "appId": "vivaldi",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "关闭标签页",
+      "en": "Close Tab"
+    },
+    "description": {
+      "zh": "关闭当前标签页",
+      "en": "Close current tab"
+    },
+    "windows": "Ctrl + W",
+    "mac": "⌘ W",
+    "linux": "Ctrl + W",
+    "keywords": [
+      "关闭",
+      "close tab"
+    ],
+    "pinyin": "guan bi biao qian ye guanbibiaoqianye g b b q y gbbqy guan bi guanbi g b gb"
+  },
+  {
+    "id": "vivaldi-next-tab",
+    "appId": "vivaldi",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "下一个标签页",
+      "en": "Next Tab"
+    },
+    "description": {
+      "zh": "切换到下一个标签页",
+      "en": "Switch to next tab"
+    },
+    "windows": "Ctrl + Tab",
+    "mac": "⌃ Tab",
+    "linux": "Ctrl + Tab",
+    "keywords": [
+      "下一个标签",
+      "next tab"
+    ],
+    "pinyin": "xia yi ge biao qian ye xiayigebiaoqianye x y g b q y xygbqy xia yi ge biao qian xiayigebiaoqian x y g b q xygbq"
+  },
+  {
+    "id": "vivaldi-prev-tab",
+    "appId": "vivaldi",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "上一个标签页",
+      "en": "Previous Tab"
+    },
+    "description": {
+      "zh": "切换到上一个标签页",
+      "en": "Switch to previous tab"
+    },
+    "windows": "Ctrl + Shift + Tab",
+    "mac": "⌃ ⇧ Tab",
+    "linux": "Ctrl + Shift + Tab",
+    "keywords": [
+      "上一个标签",
+      "previous tab"
+    ],
+    "pinyin": "shang yi ge biao qian ye shangyigebiaoqianye s y g b q y sygbqy shang yi ge biao qian shangyigebiaoqian s y g b q sygbq"
+  },
+  {
+    "id": "vivaldi-switch-tab",
+    "appId": "vivaldi",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "跳转到指定标签",
+      "en": "Switch to Tab N"
+    },
+    "description": {
+      "zh": "跳转到第 1–8 个标签页",
+      "en": "Jump to tab 1–8"
+    },
+    "windows": "Ctrl + 1…8",
+    "mac": "⌘ 1…8",
+    "linux": "Ctrl + 1…8",
+    "keywords": [
+      "跳转标签",
+      "switch tab"
+    ],
+    "pinyin": "tiao zhuan dao zhi ding biao qian tiaozhuandaozhidingbiaoqian t z d z d b q tzdzdbq tiao zhuan biao qian tiaozhuanbiaoqian t z b q tzbq"
+  },
+  {
+    "id": "vivaldi-address",
+    "appId": "vivaldi",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "地址栏",
+      "en": "Address Bar"
+    },
+    "description": {
+      "zh": "聚焦地址栏",
+      "en": "Focus address bar"
+    },
+    "windows": "Ctrl + L",
+    "mac": "⌘ L",
+    "linux": "Ctrl + L",
+    "keywords": [
+      "地址栏",
+      "address bar",
+      "url"
+    ],
+    "pinyin": "di zhi lan dizhilan d z l dzl di zhi lan dizhilan d z l dzl"
+  },
+  {
+    "id": "vivaldi-find",
+    "appId": "vivaldi",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "查找",
+      "en": "Find"
+    },
+    "description": {
+      "zh": "在页面内查找",
+      "en": "Find in page"
+    },
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
+    "linux": "Ctrl + F",
+    "keywords": [
+      "查找",
+      "find"
+    ],
+    "pinyin": "cha zhao chazhao c z cz cha zhao chazhao c z cz"
+  },
+  {
+    "id": "vivaldi-bookmark",
+    "appId": "vivaldi",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "添加书签",
+      "en": "Bookmark"
+    },
+    "description": {
+      "zh": "收藏当前页面",
+      "en": "Bookmark current page"
+    },
+    "windows": "Ctrl + D",
+    "mac": "⌘ D",
+    "linux": "Ctrl + D",
+    "keywords": [
+      "书签",
+      "bookmark"
+    ],
+    "pinyin": "tian jia shu qian tianjiashuqian t j s q tjsq shu qian shuqian s q sq"
+  },
+  {
+    "id": "vivaldi-history",
+    "appId": "vivaldi",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "历史记录",
+      "en": "History"
+    },
+    "description": {
+      "zh": "打开历史记录",
+      "en": "Open history"
+    },
+    "windows": "Ctrl + H",
+    "mac": "⌘ Y",
+    "linux": "Ctrl + H",
+    "keywords": [
+      "历史",
+      "history"
+    ],
+    "pinyin": "li shi ji lu lishijilu l s j l lsjl li shi lishi l s ls"
+  },
+  {
+    "id": "vivaldi-downloads",
+    "appId": "vivaldi",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "下载",
+      "en": "Downloads"
+    },
+    "description": {
+      "zh": "打开下载页",
+      "en": "Open downloads"
+    },
+    "windows": "Ctrl + J",
+    "mac": "⌘ J",
+    "linux": "Ctrl + J",
+    "keywords": [
+      "下载",
+      "downloads"
+    ],
+    "pinyin": "xia zai xiazai x z xz xia zai xiazai x z xz"
+  },
+  {
+    "id": "vivaldi-reopen-tab",
+    "appId": "vivaldi",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "恢复关闭的标签",
+      "en": "Reopen Closed Tab"
+    },
+    "description": {
+      "zh": "重新打开最近关闭的标签",
+      "en": "Reopen last closed tab"
+    },
+    "windows": "Ctrl + Shift + T",
+    "mac": "⌘ ⇧ T",
+    "linux": "Ctrl + Shift + T",
+    "keywords": [
+      "恢复标签",
+      "reopen tab"
+    ],
+    "pinyin": "hui fu guan bi de biao qian huifuguanbidebiaoqian h f g b d b q hfgbdbq hui fu biao qian huifubiaoqian h f b q hfbq"
+  },
+  {
+    "id": "vivaldi-reload",
+    "appId": "vivaldi",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "刷新",
+      "en": "Reload"
+    },
+    "description": {
+      "zh": "重新加载页面",
+      "en": "Reload page"
+    },
+    "windows": "F5 / Ctrl + R",
+    "mac": "⌘ R",
+    "linux": "F5 / Ctrl + R",
+    "keywords": [
+      "刷新",
+      "reload"
+    ],
+    "pinyin": "shua xin shuaxin s x sx shua xin shuaxin s x sx"
+  },
+  {
+    "id": "vivaldi-devtools",
+    "appId": "vivaldi",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "开发者工具",
+      "en": "DevTools"
+    },
+    "description": {
+      "zh": "打开开发者工具",
+      "en": "Open DevTools"
+    },
+    "windows": "F12 / Ctrl + Shift + I",
+    "mac": "⌘ ⌥ I",
+    "linux": "F12 / Ctrl + Shift + I",
+    "keywords": [
+      "开发者工具",
+      "devtools"
+    ],
+    "pinyin": "kai fa zhe gong ju kaifazhegongju k f z g j kfzgj kai fa zhe gong ju kaifazhegongju k f z g j kfzgj"
+  },
+  {
+    "id": "vivaldi-quick-commands",
+    "appId": "vivaldi",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "快速命令",
+      "en": "Quick Commands"
+    },
+    "description": {
+      "zh": "打开快速命令面板",
+      "en": "Open quick commands"
+    },
+    "windows": "Ctrl + E",
+    "mac": "⌘ E",
+    "linux": "Ctrl + E",
+    "keywords": [
+      "快速命令",
+      "quick commands"
+    ],
+    "pinyin": "kuai su ming ling kuaisumingling k s m l ksml kuai su ming ling kuaisumingling k s m l ksml"
+  },
+  {
+    "id": "vivaldi-zoom-in",
+    "appId": "vivaldi",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "放大",
+      "en": "Zoom In"
+    },
+    "description": {
+      "zh": "放大页面",
+      "en": "Zoom in"
+    },
+    "windows": "Ctrl + +",
+    "mac": "⌘ +",
+    "linux": "Ctrl + +",
+    "keywords": [
+      "放大",
+      "zoom in"
+    ],
+    "pinyin": "fang da fangda f d fd fang da fangda f d fd"
+  },
+  {
+    "id": "vivaldi-clear-data",
+    "appId": "vivaldi",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "清除浏览数据",
+      "en": "Clear Browsing Data"
+    },
+    "description": {
+      "zh": "打开清除数据面板",
+      "en": "Open clear data dialog"
+    },
+    "windows": "Ctrl + Shift + Delete",
+    "mac": "⌘ ⇧ Delete",
+    "linux": "Ctrl + Shift + Delete",
+    "keywords": [
+      "清除数据",
+      "clear data"
+    ],
+    "pinyin": "qing chu liu lan shu ju qingchuliulanshuju q c l l s j qcllsj qing chu shu ju qingchushuju q c s j qcsj"
+  }
+]

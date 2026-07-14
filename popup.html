@@ -84,6 +84,26 @@
             <span class="switch-knob"></span>
           </button>
         </div>
+        <div class="setting-block support">
+          <span class="setting-block-label" data-i18n="supportTitle">Support KeyAtlas</span>
+          <p class="support-desc" data-i18n="supportDesc">If KeyAtlas helps you, buy me a coffee.</p>
+          <div class="support-actions">
+            <button id="paypalBtn" class="support-btn paypal" type="button" aria-label="PayPal">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
+                <path d="M19.6 7.1c-.4-1-1.3-1.7-2.4-1.9C15.4 4.9 13.4 4.8 11.3 4.8H6.7c-.8 0-1.5.6-1.6 1.4L3.2 17.1c-.1.5.3.9.8.9h3.2c.6 0 1.1-.4 1.2-1l.5-2.8c.1-.5.6-.9 1.1-.9h1.4c3.5 0 6-1.8 6.8-5.2.3-1.1.2-2.1-.6-3z"/>
+                <path d="M14.5 13.9h-1.8c-.5 0-.9.4-1 .9l-.5 2.7c-.1.5-.5-.9-1 .9H8.2c-.6 0-1.1-.4-1.2-1l-.7-3.5c-.1-.4.2-.8.6-.8h3.8c.7 0 1.3-.5 1.5-1.1l.4-1.2c.1-.4.5-.7 1-.7h3c1.6 0 2.7.4 3.3 1.2.5.7.5 1.6.2 2.6-.6 2-2.2 2.9-4.3 2.9z" opacity=".7"/>
+              </svg>
+              <span data-i18n="supportPaypal">Donate via PayPal</span>
+            </button>
+            <button id="wechatBtn" class="support-btn wechat" type="button" aria-label="WeChat">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
+                <path d="M8.7 3C4.5 3 1 5.9 1 9.4c0 2 1.2 3.8 3 5L3.3 16.6l2.5-1.3c.9.3 1.9.4 3 .4h.6a5.6 5.6 0 0 1-.2-1.5c0-3.2 3.1-5.8 6.9-5.8h.6C15.8 5.2 12.6 3 8.7 3zm-2.4 3.7a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm4.8 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                <path d="M23 14.6c0-2.9-2.9-5.2-6.4-5.2s-6.4 2.3-6.4 5.2 2.9 5.2 6.4 5.2c.7 0 1.4-.1 2-.3l2 1-.5-1.7c1.6-1 2.9-2.4 2.9-4.2zm-8.4-1a.8.8 0 1 1 0 1.6.8.8 0 0 1 0-1.6zm4 0 a.8.8 0 1 1 0 1.6.8.8 0 0 1 0-1.6z"/>
+              </svg>
+              <span data-i18n="supportWechat">WeChat QR code</span>
+            </button>
+          </div>
+        </div>
         <div class="setting-block about">
           <span class="setting-block-label" data-i18n="aboutTitle">About KeyAtlas</span>
           <p class="about-desc" data-i18n="aboutDesc">A fast, offline shortcut search engine for your OS and favorite apps.</p>
@@ -91,6 +111,14 @@
         </div>
       </div>
     </aside>
+
+    <!-- WeChat tip lightbox -->
+    <div id="wechatLightbox" class="wechat-lightbox" hidden aria-hidden="true">
+      <div class="wechat-lightbox-inner">
+        <img src="icons/wechat-tip.png" alt="WeChat" class="wechat-lightbox-img" />
+        <span class="wechat-lightbox-hint" data-i18n="supportWechatHint">Scan with WeChat to tip</span>
+      </div>
+    </div>
 
     <div id="toast" class="toast" hidden></div>
   </div>

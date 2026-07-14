@@ -1,0 +1,517 @@
+[
+  {
+    "id": "garageband-play",
+    "appId": "garageband",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "播放/停止",
+      "en": "Play/Stop"
+    },
+    "description": {
+      "zh": "开始或停止播放",
+      "en": "Start or stop playback"
+    },
+    "windows": "—",
+    "mac": "Space",
+    "linux": "—",
+    "keywords": [
+      "播放",
+      "play",
+      "停止",
+      "stop"
+    ],
+    "pinyin": "bo fang / ting zhi bofang/tingzhi b f / t z bf/tz bo fang   ting zhi bofang tingzhi b f   t z bf tz"
+  },
+  {
+    "id": "garageband-stop",
+    "appId": "garageband",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "停止",
+      "en": "Stop"
+    },
+    "description": {
+      "zh": "停止播放",
+      "en": "Stop playback"
+    },
+    "windows": "—",
+    "mac": ".",
+    "linux": "—",
+    "keywords": [
+      "停止",
+      "stop"
+    ],
+    "pinyin": "ting zhi tingzhi t z tz ting zhi tingzhi t z tz"
+  },
+  {
+    "id": "garageband-record",
+    "appId": "garageband",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "录音",
+      "en": "Record"
+    },
+    "description": {
+      "zh": "开启/关闭录音",
+      "en": "Toggle recording"
+    },
+    "windows": "—",
+    "mac": "R",
+    "linux": "—",
+    "keywords": [
+      "录音",
+      "record"
+    ],
+    "pinyin": "lu yin luyin l y ly lu yin luyin l y ly"
+  },
+  {
+    "id": "garageband-beginning",
+    "appId": "garageband",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "回到开头",
+      "en": "Go to Beginning"
+    },
+    "description": {
+      "zh": "跳到工程开头",
+      "en": "Jump to project start"
+    },
+    "windows": "—",
+    "mac": "Return",
+    "linux": "—",
+    "keywords": [
+      "开头",
+      "beginning"
+    ],
+    "pinyin": "hui dao kai tou huidaokaitou h d k t hdkt kai tou kaitou k t kt"
+  },
+  {
+    "id": "garageband-loop",
+    "appId": "garageband",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "循环浏览器",
+      "en": "Loop Browser"
+    },
+    "description": {
+      "zh": "显示/隐藏循环浏览器",
+      "en": "Show/hide Loop Browser"
+    },
+    "windows": "—",
+    "mac": "O",
+    "linux": "—",
+    "keywords": [
+      "循环",
+      "loop",
+      "浏览器"
+    ],
+    "pinyin": "xun huan liu lan qi xunhuanliulanqi x h l l q xhllq xun huan   liu lan qi xunhuan liulanqi x h   l l q xh llq"
+  },
+  {
+    "id": "garageband-media",
+    "appId": "garageband",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "媒体浏览器",
+      "en": "Media Browser"
+    },
+    "description": {
+      "zh": "显示/隐藏媒体浏览器",
+      "en": "Show/hide Media Browser"
+    },
+    "windows": "—",
+    "mac": "⌘ ⌥ U",
+    "linux": "—",
+    "keywords": [
+      "媒体",
+      "media",
+      "浏览器"
+    ],
+    "pinyin": "mei ti liu lan qi meitiliulanqi m t l l q mtllq mei ti   liu lan qi meiti liulanqi m t   l l q mt llq"
+  },
+  {
+    "id": "garageband-mute",
+    "appId": "garageband",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "静音",
+      "en": "Mute"
+    },
+    "description": {
+      "zh": "静音选中轨道",
+      "en": "Mute selected track"
+    },
+    "windows": "—",
+    "mac": "M",
+    "linux": "—",
+    "keywords": [
+      "静音",
+      "mute"
+    ],
+    "pinyin": "jing yin jingyin j y jy jing yin jingyin j y jy"
+  },
+  {
+    "id": "garageband-solo",
+    "appId": "garageband",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "独奏",
+      "en": "Solo"
+    },
+    "description": {
+      "zh": "独奏选中轨道",
+      "en": "Solo selected track"
+    },
+    "windows": "—",
+    "mac": "S",
+    "linux": "—",
+    "keywords": [
+      "独奏",
+      "solo"
+    ],
+    "pinyin": "du zou duzou d z dz du zou duzou d z dz"
+  },
+  {
+    "id": "garageband-undo",
+    "appId": "garageband",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销上一步",
+      "en": "Undo last action"
+    },
+    "windows": "—",
+    "mac": "⌘ Z",
+    "linux": "—",
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "garageband-redo",
+    "appId": "garageband",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "重做操作",
+      "en": "Redo action"
+    },
+    "windows": "—",
+    "mac": "⌘ ⇧ Z",
+    "linux": "—",
+    "keywords": [
+      "重做",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "garageband-copy",
+    "appId": "garageband",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "复制",
+      "en": "Copy"
+    },
+    "description": {
+      "zh": "复制选中内容",
+      "en": "Copy selection"
+    },
+    "windows": "—",
+    "mac": "⌘ C",
+    "linux": "—",
+    "keywords": [
+      "复制",
+      "copy"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "garageband-paste",
+    "appId": "garageband",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "粘贴",
+      "en": "Paste"
+    },
+    "description": {
+      "zh": "粘贴内容",
+      "en": "Paste clipboard"
+    },
+    "windows": "—",
+    "mac": "⌘ V",
+    "linux": "—",
+    "keywords": [
+      "粘贴",
+      "paste"
+    ],
+    "pinyin": "nian tie niantie n t nt nian tie niantie n t nt"
+  },
+  {
+    "id": "garageband-duplicate",
+    "appId": "garageband",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "复制(副本)",
+      "en": "Duplicate"
+    },
+    "description": {
+      "zh": "创建选中内容的副本",
+      "en": "Create a duplicate of selection"
+    },
+    "windows": "—",
+    "mac": "⌘ D",
+    "linux": "—",
+    "keywords": [
+      "复制",
+      "duplicate"
+    ],
+    "pinyin": "fu zhi ( fu ben ) fuzhi(fuben) f z ( f b ) fz(fb) fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "garageband-selectall",
+    "appId": "garageband",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "全选",
+      "en": "Select All"
+    },
+    "description": {
+      "zh": "选中所有内容",
+      "en": "Select everything"
+    },
+    "windows": "—",
+    "mac": "⌘ A",
+    "linux": "—",
+    "keywords": [
+      "全选",
+      "select all"
+    ],
+    "pinyin": "quan xuan quanxuan q x qx quan xuan quanxuan q x qx"
+  },
+  {
+    "id": "garageband-new-track",
+    "appId": "garageband",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "新建轨道",
+      "en": "New Track"
+    },
+    "description": {
+      "zh": "新建一条轨道",
+      "en": "Create a new track"
+    },
+    "windows": "—",
+    "mac": "⌘ ⌥ N",
+    "linux": "—",
+    "keywords": [
+      "新建",
+      "轨道",
+      "track"
+    ],
+    "pinyin": "xin jian gui dao xinjianguidao x j g d xjgd xin jian   gui dao xinjian guidao x j   g d xj gd"
+  },
+  {
+    "id": "garageband-smart",
+    "appId": "garageband",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "智能控制",
+      "en": "Smart Controls"
+    },
+    "description": {
+      "zh": "显示/隐藏智能控制面板",
+      "en": "Show/hide Smart Controls"
+    },
+    "windows": "—",
+    "mac": "B",
+    "linux": "—",
+    "keywords": [
+      "智能控制",
+      "smart controls"
+    ],
+    "pinyin": "zhi neng kong zhi zhinengkongzhi z n k z znkz zhi neng kong zhi zhinengkongzhi z n k z znkz"
+  },
+  {
+    "id": "garageband-split",
+    "appId": "garageband",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "在播放头处拆分",
+      "en": "Split Region at Playhead"
+    },
+    "description": {
+      "zh": "在播放头位置拆分片段",
+      "en": "Split region at playhead"
+    },
+    "windows": "—",
+    "mac": "⌘ T",
+    "linux": "—",
+    "keywords": [
+      "拆分",
+      "split",
+      "播放头"
+    ],
+    "pinyin": "zai bo fang tou chu chai fen zaibofangtouchuchaifen z b f t c c f zbftccf chai fen   bo fang tou chaifen bofangtou c f   b f t cf bft"
+  },
+  {
+    "id": "garageband-join",
+    "appId": "garageband",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "合并片段",
+      "en": "Join Regions"
+    },
+    "description": {
+      "zh": "合并选中的片段",
+      "en": "Join selected regions"
+    },
+    "windows": "—",
+    "mac": "⌘ J",
+    "linux": "—",
+    "keywords": [
+      "合并",
+      "join"
+    ],
+    "pinyin": "he bing pian duan hebingpianduan h b p d hbpd he bing hebing h b hb"
+  },
+  {
+    "id": "garageband-zoom-in",
+    "appId": "garageband",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "放大",
+      "en": "Zoom In"
+    },
+    "description": {
+      "zh": "放大视图",
+      "en": "Zoom in"
+    },
+    "windows": "—",
+    "mac": "⌘ +",
+    "linux": "—",
+    "keywords": [
+      "放大",
+      "zoom in"
+    ],
+    "pinyin": "fang da fangda f d fd fang da fangda f d fd"
+  },
+  {
+    "id": "garageband-zoom-out",
+    "appId": "garageband",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "缩小",
+      "en": "Zoom Out"
+    },
+    "description": {
+      "zh": "缩小视图",
+      "en": "Zoom out"
+    },
+    "windows": "—",
+    "mac": "⌘ -",
+    "linux": "—",
+    "keywords": [
+      "缩小",
+      "zoom out"
+    ],
+    "pinyin": "suo xiao suoxiao s x sx suo xiao suoxiao s x sx"
+  },
+  {
+    "id": "garageband-delete",
+    "appId": "garageband",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "删除区段",
+      "en": "Delete Region"
+    },
+    "description": {
+      "zh": "删除选中的区段",
+      "en": "Delete selected region"
+    },
+    "windows": "—",
+    "mac": "Delete",
+    "linux": "—",
+    "keywords": [
+      "删除",
+      "delete",
+      "区段"
+    ],
+    "pinyin": "shan chu qu duan shanchuquduan s c q d scqd shan chu   qu duan shanchu quduan s c   q d sc qd"
+  },
+  {
+    "id": "garageband-escape",
+    "appId": "garageband",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "取消对话框",
+      "en": "Cancel Dialog"
+    },
+    "description": {
+      "zh": "取消并退出对话框",
+      "en": "Cancel and exit dialog"
+    },
+    "windows": "—",
+    "mac": "Escape",
+    "linux": "—",
+    "keywords": [
+      "取消",
+      "cancel",
+      "对话框"
+    ],
+    "pinyin": "qu xiao dui hua kuang quxiaoduihuakuang q x d h k qxdhk qu xiao   dui hua kuang quxiao duihuakuang q x   d h k qx dhk"
+  },
+  {
+    "id": "garageband-open-project",
+    "appId": "garageband",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "打开项目",
+      "en": "Open Project"
+    },
+    "description": {
+      "zh": "打开项目文件",
+      "en": "Open project file"
+    },
+    "windows": "—",
+    "mac": "⌘ O",
+    "linux": "—",
+    "keywords": [
+      "打开",
+      "open",
+      "项目"
+    ],
+    "pinyin": "da kai xiang mu dakaixiangmu d k x m dkxm da kai   xiang mu dakai xiangmu d k   x m dk xm"
+  }
+]

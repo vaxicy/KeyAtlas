@@ -1,0 +1,819 @@
+[
+  {
+    "id": "autocad-line",
+    "appId": "autocad",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "直线",
+      "en": "Line"
+    },
+    "description": {
+      "zh": "绘制直线",
+      "en": "Draw a line"
+    },
+    "windows": "L",
+    "mac": "L",
+    "linux": "—",
+    "keywords": [
+      "直线",
+      "line"
+    ],
+    "pinyin": "zhi xian zhixian z x zx zhi xian zhixian z x zx"
+  },
+  {
+    "id": "autocad-circle",
+    "appId": "autocad",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "圆",
+      "en": "Circle"
+    },
+    "description": {
+      "zh": "绘制圆",
+      "en": "Draw a circle"
+    },
+    "windows": "C",
+    "mac": "C",
+    "linux": "—",
+    "keywords": [
+      "圆",
+      "circle"
+    ],
+    "pinyin": "yuan yuan y y yuan yuan y y"
+  },
+  {
+    "id": "autocad-arc",
+    "appId": "autocad",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "圆弧",
+      "en": "Arc"
+    },
+    "description": {
+      "zh": "绘制圆弧",
+      "en": "Draw an arc"
+    },
+    "windows": "A",
+    "mac": "A",
+    "linux": "—",
+    "keywords": [
+      "圆弧",
+      "arc"
+    ],
+    "pinyin": "yuan hu yuanhu y h yh yuan hu yuanhu y h yh"
+  },
+  {
+    "id": "autocad-polyline",
+    "appId": "autocad",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "多段线",
+      "en": "Polyline"
+    },
+    "description": {
+      "zh": "绘制多段线",
+      "en": "Draw a polyline"
+    },
+    "windows": "PL",
+    "mac": "PL",
+    "linux": "—",
+    "keywords": [
+      "多段线",
+      "polyline"
+    ],
+    "pinyin": "duo duan xian duoduanxian d d x ddx duo duan xian duoduanxian d d x ddx"
+  },
+  {
+    "id": "autocad-rectangle",
+    "appId": "autocad",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "矩形",
+      "en": "Rectangle"
+    },
+    "description": {
+      "zh": "绘制矩形",
+      "en": "Draw a rectangle"
+    },
+    "windows": "REC",
+    "mac": "REC",
+    "linux": "—",
+    "keywords": [
+      "矩形",
+      "rectangle"
+    ],
+    "pinyin": "ju xing juxing j x jx ju xing juxing j x jx"
+  },
+  {
+    "id": "autocad-move",
+    "appId": "autocad",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "移动",
+      "en": "Move"
+    },
+    "description": {
+      "zh": "移动对象",
+      "en": "Move objects"
+    },
+    "windows": "M",
+    "mac": "M",
+    "linux": "—",
+    "keywords": [
+      "移动",
+      "move"
+    ],
+    "pinyin": "yi dong yidong y d yd yi dong yidong y d yd"
+  },
+  {
+    "id": "autocad-copy",
+    "appId": "autocad",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "复制",
+      "en": "Copy"
+    },
+    "description": {
+      "zh": "复制对象",
+      "en": "Copy objects"
+    },
+    "windows": "CO",
+    "mac": "CO",
+    "linux": "—",
+    "keywords": [
+      "复制",
+      "copy"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "autocad-rotate",
+    "appId": "autocad",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "旋转",
+      "en": "Rotate"
+    },
+    "description": {
+      "zh": "旋转对象",
+      "en": "Rotate objects"
+    },
+    "windows": "RO",
+    "mac": "RO",
+    "linux": "—",
+    "keywords": [
+      "旋转",
+      "rotate"
+    ],
+    "pinyin": "xuan zhuan xuanzhuan x z xz xuan zhuan xuanzhuan x z xz"
+  },
+  {
+    "id": "autocad-offset",
+    "appId": "autocad",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "偏移",
+      "en": "Offset"
+    },
+    "description": {
+      "zh": "偏移复制对象",
+      "en": "Offset a copy"
+    },
+    "windows": "O",
+    "mac": "O",
+    "linux": "—",
+    "keywords": [
+      "偏移",
+      "offset"
+    ],
+    "pinyin": "pian yi pianyi p y py pian yi pianyi p y py"
+  },
+  {
+    "id": "autocad-trim",
+    "appId": "autocad",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "修剪",
+      "en": "Trim"
+    },
+    "description": {
+      "zh": "修剪对象",
+      "en": "Trim objects"
+    },
+    "windows": "TR",
+    "mac": "TR",
+    "linux": "—",
+    "keywords": [
+      "修剪",
+      "trim"
+    ],
+    "pinyin": "xiu jian xiujian x j xj xiu jian xiujian x j xj"
+  },
+  {
+    "id": "autocad-extend",
+    "appId": "autocad",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "延伸",
+      "en": "Extend"
+    },
+    "description": {
+      "zh": "延伸对象",
+      "en": "Extend objects"
+    },
+    "windows": "EX",
+    "mac": "EX",
+    "linux": "—",
+    "keywords": [
+      "延伸",
+      "extend"
+    ],
+    "pinyin": "yan shen yanshen y s ys yan shen yanshen y s ys"
+  },
+  {
+    "id": "autocad-fillet",
+    "appId": "autocad",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "圆角",
+      "en": "Fillet"
+    },
+    "description": {
+      "zh": "给对象加圆角",
+      "en": "Round corners"
+    },
+    "windows": "F",
+    "mac": "F",
+    "linux": "—",
+    "keywords": [
+      "圆角",
+      "fillet"
+    ],
+    "pinyin": "yuan jiao yuanjiao y j yj yuan jiao yuanjiao y j yj"
+  },
+  {
+    "id": "autocad-chamfer",
+    "appId": "autocad",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "倒角",
+      "en": "Chamfer"
+    },
+    "description": {
+      "zh": "给对象加倒角",
+      "en": "Chamfer edges"
+    },
+    "windows": "CHA",
+    "mac": "CHA",
+    "linux": "—",
+    "keywords": [
+      "倒角",
+      "chamfer"
+    ],
+    "pinyin": "dao jiao daojiao d j dj dao jiao daojiao d j dj"
+  },
+  {
+    "id": "autocad-mirror",
+    "appId": "autocad",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "镜像",
+      "en": "Mirror"
+    },
+    "description": {
+      "zh": "镜像复制对象",
+      "en": "Mirror a copy"
+    },
+    "windows": "MI",
+    "mac": "MI",
+    "linux": "—",
+    "keywords": [
+      "镜像",
+      "mirror"
+    ],
+    "pinyin": "jing xiang jingxiang j x jx jing xiang jingxiang j x jx"
+  },
+  {
+    "id": "autocad-array",
+    "appId": "autocad",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "阵列",
+      "en": "Array"
+    },
+    "description": {
+      "zh": "创建阵列（矩形/环形）",
+      "en": "Create array (rectangular/polar)"
+    },
+    "windows": "AR",
+    "mac": "AR",
+    "linux": "—",
+    "keywords": [
+      "阵列",
+      "array"
+    ],
+    "pinyin": "zhen lie zhenlie z l zl zhen lie zhenlie z l zl"
+  },
+  {
+    "id": "autocad-scale",
+    "appId": "autocad",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "缩放(对象)",
+      "en": "Scale"
+    },
+    "description": {
+      "zh": "按比例缩放对象",
+      "en": "Scale objects"
+    },
+    "windows": "SC",
+    "mac": "SC",
+    "linux": "—",
+    "keywords": [
+      "缩放",
+      "scale"
+    ],
+    "pinyin": "suo fang ( dui xiang ) suofang(duixiang) s f ( d x ) sf(dx) suo fang suofang s f sf"
+  },
+  {
+    "id": "autocad-stretch",
+    "appId": "autocad",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "拉伸",
+      "en": "Stretch"
+    },
+    "description": {
+      "zh": "拉伸对象",
+      "en": "Stretch objects"
+    },
+    "windows": "S",
+    "mac": "S",
+    "linux": "—",
+    "keywords": [
+      "拉伸",
+      "stretch"
+    ],
+    "pinyin": "la shen lashen l s ls la shen lashen l s ls"
+  },
+  {
+    "id": "autocad-erase",
+    "appId": "autocad",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "删除",
+      "en": "Erase"
+    },
+    "description": {
+      "zh": "删除对象",
+      "en": "Erase objects"
+    },
+    "windows": "E",
+    "mac": "E",
+    "linux": "—",
+    "keywords": [
+      "删除",
+      "erase",
+      "delete"
+    ],
+    "pinyin": "shan chu shanchu s c sc shan chu shanchu s c sc"
+  },
+  {
+    "id": "autocad-undo",
+    "appId": "autocad",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销上一步",
+      "en": "Undo last action"
+    },
+    "windows": "U",
+    "mac": "U",
+    "linux": "—",
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "autocad-redo",
+    "appId": "autocad",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "重做操作",
+      "en": "Redo action"
+    },
+    "windows": "Ctrl + Y",
+    "mac": "Ctrl + Y",
+    "linux": "—",
+    "keywords": [
+      "重做",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "autocad-zoom",
+    "appId": "autocad",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "缩放(视图)",
+      "en": "Zoom"
+    },
+    "description": {
+      "zh": "进入缩放模式",
+      "en": "Enter zoom mode"
+    },
+    "windows": "Z",
+    "mac": "Z",
+    "linux": "—",
+    "keywords": [
+      "缩放",
+      "zoom"
+    ],
+    "pinyin": "suo fang ( shi tu ) suofang(shitu) s f ( s t ) sf(st) suo fang suofang s f sf"
+  },
+  {
+    "id": "autocad-zoom-extents",
+    "appId": "autocad",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "缩放至范围",
+      "en": "Zoom Extents"
+    },
+    "description": {
+      "zh": "缩放到全部对象范围",
+      "en": "Zoom to drawing extents"
+    },
+    "windows": "Z → E",
+    "mac": "Z → E",
+    "linux": "—",
+    "keywords": [
+      "缩放",
+      "范围",
+      "zoom extents"
+    ],
+    "pinyin": "suo fang zhi fan wei suofangzhifanwei s f z f w sfzfw suo fang   fan wei suofang fanwei s f   f w sf fw"
+  },
+  {
+    "id": "autocad-zoom-all",
+    "appId": "autocad",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "缩放至全部",
+      "en": "Zoom All"
+    },
+    "description": {
+      "zh": "缩放到绘图界限范围",
+      "en": "Zoom to drawing limits"
+    },
+    "windows": "Z → A",
+    "mac": "Z → A",
+    "linux": "—",
+    "keywords": [
+      "缩放",
+      "zoom all"
+    ],
+    "pinyin": "suo fang zhi quan bu suofangzhiquanbu s f z q b sfzqb suo fang suofang s f sf"
+  },
+  {
+    "id": "autocad-pan",
+    "appId": "autocad",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "平移",
+      "en": "Pan"
+    },
+    "description": {
+      "zh": "平移视图",
+      "en": "Pan the view"
+    },
+    "windows": "P",
+    "mac": "P",
+    "linux": "—",
+    "keywords": [
+      "平移",
+      "pan"
+    ],
+    "pinyin": "ping yi pingyi p y py ping yi pingyi p y py"
+  },
+  {
+    "id": "autocad-save",
+    "appId": "autocad",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "保存",
+      "en": "Save"
+    },
+    "description": {
+      "zh": "保存图形",
+      "en": "Save drawing"
+    },
+    "windows": "Ctrl + S",
+    "mac": "Ctrl + S",
+    "linux": "—",
+    "keywords": [
+      "保存",
+      "save"
+    ],
+    "pinyin": "bao cun baocun b c bc bao cun baocun b c bc"
+  },
+  {
+    "id": "autocad-open",
+    "appId": "autocad",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "打开",
+      "en": "Open"
+    },
+    "description": {
+      "zh": "打开图形文件",
+      "en": "Open drawing file"
+    },
+    "windows": "Ctrl + O",
+    "mac": "Ctrl + O",
+    "linux": "—",
+    "keywords": [
+      "打开",
+      "open"
+    ],
+    "pinyin": "da kai dakai d k dk da kai dakai d k dk"
+  },
+  {
+    "id": "autocad-properties",
+    "appId": "autocad",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "特性面板",
+      "en": "Properties"
+    },
+    "description": {
+      "zh": "打开特性面板",
+      "en": "Open Properties palette"
+    },
+    "windows": "Ctrl + 1",
+    "mac": "Ctrl + 1",
+    "linux": "—",
+    "keywords": [
+      "特性",
+      "properties"
+    ],
+    "pinyin": "te xing mian ban texingmianban t x m b txmb te xing texing t x tx"
+  },
+  {
+    "id": "autocad-hatch",
+    "appId": "autocad",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "填充",
+      "en": "Hatch"
+    },
+    "description": {
+      "zh": "填充图案",
+      "en": "Hatch pattern"
+    },
+    "windows": "H",
+    "mac": "H",
+    "linux": "—",
+    "keywords": [
+      "填充",
+      "hatch"
+    ],
+    "pinyin": "tian chong tianchong t c tc tian chong tianchong t c tc"
+  },
+  {
+    "id": "autocad-dimension",
+    "appId": "autocad",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "标注",
+      "en": "Dimension"
+    },
+    "description": {
+      "zh": "创建标注",
+      "en": "Create dimension"
+    },
+    "windows": "D",
+    "mac": "D",
+    "linux": "—",
+    "keywords": [
+      "标注",
+      "dimension"
+    ],
+    "pinyin": "biao zhu biaozhu b z bz biao zhu biaozhu b z bz"
+  },
+  {
+    "id": "autocad-text",
+    "appId": "autocad",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "文字",
+      "en": "Text"
+    },
+    "description": {
+      "zh": "创建单行文字",
+      "en": "Create single-line text"
+    },
+    "windows": "DT",
+    "mac": "DT",
+    "linux": "—",
+    "keywords": [
+      "文字",
+      "text"
+    ],
+    "pinyin": "wen zi wenzi w z wz wen zi wenzi w z wz"
+  },
+  {
+    "id": "autocad-mtext",
+    "appId": "autocad",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "多行文字",
+      "en": "MText"
+    },
+    "description": {
+      "zh": "创建多行文字",
+      "en": "Create multi-line text"
+    },
+    "windows": "T / MT",
+    "mac": "T / MT",
+    "linux": "—",
+    "keywords": [
+      "多行文字",
+      "mtext"
+    ],
+    "pinyin": "duo hang wen zi duohangwenzi d h w z dhwz duo hang wen zi duohangwenzi d h w z dhwz"
+  },
+  {
+    "id": "autocad-burst",
+    "appId": "autocad",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "分解",
+      "en": "Explode"
+    },
+    "description": {
+      "zh": "分解复合对象为基本单元",
+      "en": "Explode compound objects into basic elements"
+    },
+    "windows": "X",
+    "mac": "X",
+    "linux": "—",
+    "keywords": [
+      "分解",
+      "explode"
+    ],
+    "pinyin": "fen jie fenjie f j fj fen jie fenjie f j fj"
+  },
+  {
+    "id": "autocad-matchprop",
+    "appId": "autocad",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "特性匹配",
+      "en": "Match Properties"
+    },
+    "description": {
+      "zh": "将源对象的特性复制到目标对象",
+      "en": "Copy properties from source object to target"
+    },
+    "windows": "MA",
+    "mac": "MA",
+    "linux": "—",
+    "keywords": [
+      "特性匹配",
+      "matchprop",
+      "格式刷"
+    ],
+    "pinyin": "te xing pi pei texingpipei t x p p txpp te xing pi pei   ge shi shua texingpipei geshishua t x p p   g s s txpp gss"
+  },
+  {
+    "id": "autocad-ortho",
+    "appId": "autocad",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "正交模式",
+      "en": "Ortho"
+    },
+    "description": {
+      "zh": "开启/关闭正交",
+      "en": "Toggle ortho mode"
+    },
+    "windows": "F8",
+    "mac": "F8",
+    "linux": "—",
+    "keywords": [
+      "正交",
+      "ortho"
+    ],
+    "pinyin": "zheng jiao mo shi zhengjiaomoshi z j m s zjms zheng jiao zhengjiao z j zj"
+  },
+  {
+    "id": "autocad-osnap",
+    "appId": "autocad",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "对象捕捉",
+      "en": "Object Snap"
+    },
+    "description": {
+      "zh": "开启/关闭对象捕捉",
+      "en": "Toggle object snap"
+    },
+    "windows": "F3",
+    "mac": "F3",
+    "linux": "—",
+    "keywords": [
+      "对象捕捉",
+      "osnap"
+    ],
+    "pinyin": "dui xiang bu zhuo duixiangbuzhuo d x b z dxbz dui xiang bu zhuo duixiangbuzhuo d x b z dxbz"
+  },
+  {
+    "id": "autocad-snaptrack",
+    "appId": "autocad",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "对象追踪",
+      "en": "Object Snap Tracking"
+    },
+    "description": {
+      "zh": "开启/关闭对象追踪",
+      "en": "Toggle object snap tracking"
+    },
+    "windows": "F11",
+    "mac": "F11",
+    "linux": "—",
+    "keywords": [
+      "对象追踪",
+      "tracking"
+    ],
+    "pinyin": "dui xiang zhui zong duixiangzhuizong d x z z dxzz dui xiang zhui zong duixiangzhuizong d x z z dxzz"
+  },
+  {
+    "id": "autocad-grid",
+    "appId": "autocad",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "网格显示",
+      "en": "Grid Display"
+    },
+    "description": {
+      "zh": "开启/关闭网格",
+      "en": "Toggle grid display"
+    },
+    "windows": "F7",
+    "mac": "F7",
+    "linux": "—",
+    "keywords": [
+      "网格",
+      "grid"
+    ],
+    "pinyin": "wang ge xian shi wanggexianshi w g x s wgxs wang ge wangge w g wg"
+  }
+]

@@ -129,5 +129,5 @@
   { "id": "iterm2",          "name": { "zh": "iTerm2",        "en": "iTerm2" },        "category": "system",       "icon": "🖥️", "type": "software", "file": "iterm2.json", "source": "community" },
   { "id": "kdenlive",        "name": { "zh": "Kdenlive",      "en": "Kdenlive" },      "category": "video",         "icon": "🎞️", "type": "software", "file": "kdenlive.json", "source": "community" },
   { "id": "bitwig",          "name": { "zh": "Bitwig Studio", "en": "Bitwig Studio" }, "category": "audio",         "icon": "🎛️", "type": "software", "file": "bitwig.json", "source": "ai" },
-  { "id": "vegas",           "name": { "zh": "Vegas Pro",     "en": "Vegas Pro" },     "category": "video",         "icon": "🎞️", "type": "software", "file": "vegas.json", "source": "ai" },
+  { "id": "vegas",           "name": { "zh": "Vegas Pro",     "en": "Vegas Pro" },     "category": "video",         "icon": "🎞️", "type": "software", "file": "vegas.json", "source": "ai" }
 ]

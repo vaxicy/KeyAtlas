@@ -521,13 +521,15 @@ html, body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
-  margin: 4px 0 0 10px;
+  margin: 4px auto;
+  max-width: calc(100% - 20px);
 }
 .cat-list {
   display: flex;
   flex-direction: column;
   gap: 6px;
-  margin: 4px 0 0 10px;
+  margin: 4px auto;
+  max-width: calc(100% - 20px);
 }
 .cat-tile {
   background: var(--surface);

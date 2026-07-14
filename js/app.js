@@ -297,13 +297,19 @@
     for (const term of terms) {
       const list = SearchEngine.search(term);
       if (list.length) {
-        // Prefer the OS-level shortcut so Quick Start shows the native key
-        // (e.g. Ctrl+C on Windows, ⌘+C on macOS) as in the product spec.
-        const sys =
-          list.find((s) => {
+        // Prefer the OS-level shortcut matching the user's OS so Quick Start
+        // shows the native key (e.g. Ctrl+C for Windows, ⌘+C for macOS).
+        const preferredAppId = state.os;
+        let sys = list.find((s) => {
+          const a = DataStore.getApp(s.appId);
+          return a && a.type === "system" && s.appId === preferredAppId;
+        });
+        if (!sys) {
+          sys = list.find((s) => {
             const a = DataStore.getApp(s.appId);
             return a && a.type === "system";
           }) || list[0];
+        }
         if (!seen.has(sys.id)) {
           seen.add(sys.id);
           out.push(sys);
@@ -367,7 +373,9 @@
       if (kind === "os") {
         const items = DataStore.shortcuts.filter((s) => {
           const a = DataStore.getApp(s.appId);
-          return a && a.type === "system" && s[id];
+          // Only show shortcuts belonging to this OS app (e.g. os:linux → appId=linux)
+          // so the card label correctly shows the OS name, not a different OS.
+          return a && a.type === "system" && s[id] && s.appId === id;
         });
         const m = OS_META[id] || OS_META.windows;
         el.content.innerHTML = subheadHTML(`${m.icon} ${t[m.key]}`) + listHTML(items);
@@ -952,8 +960,10 @@
     bindSegment(el.setTheme, "theme", pickTheme);
     bindSegment(el.setLang, "lang", pickLang);
 
-    // OS (auto-detect, no manual selector)
-    state.os = detectOS();
+    // OS: default to Windows for display. Only Mac is auto-detected (its keys
+    // differ); Linux shares the same Ctrl-based keys as Windows, so it falls
+    // back to Windows to keep the default view consistent for most users.
+    state.os = detectOS() === "mac" ? "mac" : "windows";
 
     // Load data
     try {

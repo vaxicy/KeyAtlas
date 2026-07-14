@@ -259,8 +259,9 @@ def popup_mock(draw, img, x, y, scale=1.0, lang="zh"):
 
 
 # ── Small Promo Tile (440 × 280) — BILINGUAL ─────────────────
-# FIX v6: Balanced density — popup has real content (cats + shortcut),
-#   not empty like v5, not noisy like v4. Tight but breathable.
+# FIX v8: Clean marketing layout — no icons, just 3 centered text
+#   cards on the left, a compact dot-list + CTA on the right.
+#   Everything strictly centered / aligned with consistent spacing.
 
 def small_promo_bilingual():
     W, H = 440, 280
@@ -268,121 +269,52 @@ def small_promo_bilingual():
     d = ImageDraw.Draw(img)
 
     # ── banner ──
-    bh = 40
-    gradient_rect(img, d, (10, 8, W - 10, 8 + bh), COLORS["grad1"], COLORS["grad2"], radius=12)
-    text(d, (20, 14), "KeyAtlas", fill="white", f=font(15, bold=True))
-    text(d, (20, 31), "快捷键搜索引擎 · Shortcut Search Engine", fill="#e9e7ff", f=font(9))
+    gradient_rect(img, d, (10, 8, W - 10, 48), COLORS["grad1"], COLORS["grad2"], radius=12)
+    text(d, (20, 14), "KeyAtlas", fill="white", f=font(16, bold=True))
+    text(d, (20, 33), "快捷键搜索引擎 · Shortcut Search Engine", fill="#e9e7ff", f=font(10))
 
-    # ── popup mock (medium density) — scale 0.35 = 133 × 189 px ──
-    px, py, sc = 10, 56, 0.35
-    pw, ph = int(380 * sc), int(540 * sc)   # 133 × 189
-
-    # outer shell
-    card(d, (px, py, px + pw, py + ph), radius=int(14 * sc), shadow=False)
-
-    # --- header: logo + brand + tagline ---
-    hx = px + int(14 * sc)
-    hy = py + int(12 * sc)
-    ls = int(24 * sc)                       # logo size
-    gradient_rect(img, d, (hx, hy, hx + ls, hy + ls), COLORS["grad1"], COLORS["grad2"],
-                  radius=int(6 * sc))
-    bn_f = max(9, int(15 * sc))             # brand name font
-    bt_f = max(7, int(9 * sc))              # tagline font
-    text(d, (hx + ls + int(8 * sc), hy + int(1 * sc)), "KeyAtlas", f=font(bn_f, bold=True))
-    text(d, (hx + ls + int(8 * sc), hy + bn_f + int(3 * sc)),
-         "快捷键搜索引擎", fill=COLORS["sub"], f=font(bt_f))
-
-    # --- search bar ---
-    sby = hy + ls + int(8 * sc)
-    sbh = int(26 * sc)
-    card(d, (px + int(12 * sc), sby, px + pw - int(12 * sc), sby + sbh),
-         fill=COLORS["surface"], radius=int(9 * sc), shadow=False)
-    text(d, (px + int(20 * sc), sby + sbh // 2), "搜索快捷键...",
-         fill=COLORS["sub"], f=font(max(8, int(11 * sc))), anchor="lm")
-
-    # --- tabs (4 compressed) ---
-    ty = sby + sbh + int(5 * sc)
-    th = int(20 * sc)
-    tw_t = (pw - int(24 * sc)) // 4
-    tab_labels = ["全部", "收藏", "最近", "系统"]
-    for i, tl in enumerate(tab_labels):
-        tx = px + int(12 * sc) + i * tw_t
-        if i == 0:
-            gradient_rect(img, d, (tx, ty, tx + tw_t - int(4 * sc), ty + th),
-                          COLORS["grad1"], COLORS["grad2"], radius=int(7 * sc))
-            tf_c = "white"
-        else:
-            card(d, (tx, ty, tx + tw_t - int(4 * sc), ty + th),
-                 fill=COLORS["surface"], radius=int(7 * sc), shadow=False)
-            tf_c = COLORS["sub"]
-        text(d, (tx + (tw_t - int(4 * sc)) // 2, ty + th // 2), tl,
-             fill=tf_c, f=font(max(8, int(10 * sc)), bold=(i == 0)), anchor="mm")
-
-    # --- category row (only 1 row × 2 cols — saves space) ---
-    cy = ty + th + int(5 * sc)
-    ch_cat = int(28 * sc)
-    cw_cat = (pw - int(28 * sc)) // 2
-    cat_data = [("设计", "40", COLORS["purple"]), ("开发", "26", COLORS["primary"])]
-    for i, (nm, cnt, clr) in enumerate(cat_data):
-        cx = px + int(14 * sc) + i * (cw_cat + int(6 * sc))
-        card(d, (cx, cy, cx + cw_cat, cy + ch_cat), fill=COLORS["surface"],
-             radius=int(8 * sc), shadow=False)
-        # colored accent bar
-        bar_t = cy + max(3, int(6 * sc))
-        bar_b = cy + ch_cat - max(3, int(6 * sc))
-        if bar_b > bar_t + 2:
-            d.rounded_rectangle((cx + 5, bar_t, cx + 9, bar_b), radius=2, fill=clr)
-        txt_x = cx + int(18 * sc)
-        text(d, (txt_x, cy + int(5 * sc)), nm,
-             f=font(max(8, int(11 * sc)), bold=True))
-        text(d, (txt_x, cy + ch_cat - int(13 * sc)),
-             cnt + "款", fill=COLORS["sub"], f=font(max(7, int(9 * sc))))
-
-    # --- shortcut card (just 1) ---
-    sky = cy + ch_cat + int(5 * sc)
-    sh = int(26 * sc)
-    card(d, (px + int(10 * sc), sky, px + pw - int(10 * sc), sky + sh),
-         fill=COLORS["surface"], radius=int(8 * sc), shadow=False)
-    kw = kbd_badge(d, px + int(14 * sc), sky + int(5 * sc), "Ctrl+S",
-                   sh - int(10 * sc), f=mono(max(8, int(11 * sc))))
-    text(d, (px + int(14 * sc) + kw + int(6 * sc), sky + int(5 * sc)),
-         "保存", f=font(max(8, int(11 * sc)), bold=True))
-    text(d, (px + int(14 * sc) + kw + int(6 * sc), sky + sh - int(13 * sc)),
-         "VS Code", fill=COLORS["sub"], f=font(max(7, int(9 * sc))))
-
-    # --- status bar ---
-    sty = py + ph - int(28 * sc)
-    card(d, (px + int(10 * sc), sty, px + pw - int(10 * sc), py + ph - int(6 * sc)),
-         fill=COLORS["surface"], radius=int(7 * sc), shadow=False)
-    text(d, (px + pw // 2, sty + int(9 * sc)), "129 应用 · 离线可用",
-         fill=COLORS["sub"], f=font(max(7, int(9 * sc))), anchor="mm")
-
-    # ── feature bullets (right side) ──
-    rx = px + pw + 14          # start after popup + gap
-    features = [
-        ("即时搜索", "Instant Search", COLORS["primary"]),
-        ("129 应用 · 离线", "129 Apps · Offline", COLORS["violet"]),
-        ("免费 · 中英双语", "Free · Bilingual EN/中文", COLORS["accent"]),
+    # ── left: 3 feature cards (no icon — centered text only) ──
+    lx = 14
+    lw = 254
+    top = 60
+    mods = [
+        ("即时搜索", "Instant Search"),
+        ("129+ 应用 · 离线可用", "129+ Apps · Offline"),
+        ("中英双语切换", "Bilingual EN / 中文"),
     ]
-    line_h = 40
-    gap = 6
-    for i, (cn, en, clr) in enumerate(features):
-        fy = py + 4 + i * (line_h + gap)
-        if fy + line_h > H - 38:
-            break
-        # colored dot
-        d.ellipse((rx + 4, fy + 12, rx + 18, fy + 26), fill=clr)
-        # text lines
-        text(d, (rx + 28, fy + 3), cn, f=font(11, bold=True))
-        text(d, (rx + 28, fy + 18), en, fill=COLORS["sub"], f=font(9))
+    mh = 58
+    mgap = 11
+    for i, (cn, en) in enumerate(mods):
+        y0 = top + i * (mh + mgap)
+        y1 = y0 + mh
+        card(d, (lx, y0, lx + lw, y1), radius=13, shadow=False)
+        # text block — horizontally & vertically centered in card
+        cx_card = lx + lw // 2
+        text(d, (cx_card, y0 + mh // 2 - 8), cn, f=font(15, bold=True), anchor="mm")
+        text(d, (cx_card, y0 + mh // 2 + 12), en, fill=COLORS["sub"], f=font(10), anchor="mm")
 
-    # ── bottom CTA strip ──
-    cta_y = H - 36
-    cta_h = 30
-    gradient_rect(img, d, (rx - 4, cta_y, W - 10, cta_y + cta_h),
-                  COLORS["grad1"], COLORS["grad2"], radius=14)
-    cta_cx = ((rx - 4) + W - 10) // 2
-    text(d, (cta_cx, cta_y + cta_h // 2), "免费安装 / Free · Install",
+    # ── right: dot-list highlights + CTA ──
+    rx = lx + lw + 18
+    rfeatures = [
+        ("模糊匹配", "Fuzzy match", COLORS["primary"]),
+        ("拼音搜索", "Pinyin search", COLORS["violet"]),
+        ("零追踪", "No tracking", COLORS["purple"]),
+    ]
+    rline = 32
+    for i, (cn, en, clr) in enumerate(rfeatures):
+        fy = top + i * rline
+        # colored dot — vertically centered to text line pair
+        d.ellipse((rx + 3, fy + 7, rx + 17, fy + 21), fill=clr)
+        text(d, (rx + 26, fy + 1), cn, f=font(12, bold=True))
+        text(d, (rx + 26, fy + 16), en, fill=COLORS["sub"], f=font(9))
+
+    # ── CTA button (bottom-right, aligned below dot-list) ──
+    cta_w, cta_h = 148, 34
+    cta_x = rx
+    cta_y = top + 3 * rline + 14
+    gradient_rect(img, d, (cta_x, cta_y, cta_x + cta_w, cta_y + cta_h),
+                  COLORS["grad1"], COLORS["grad2"], radius=17)
+    text(d, (cta_x + cta_w // 2, cta_y + cta_h // 2), "免费安装 / Install",
          fill="white", f=font(12, bold=True), anchor="mm")
 
     img.save(OUT / "promo-small-bilingual-440x280.png")

@@ -1560,5 +1560,75 @@
       "Rotate Reset"
     ],
     "pinyin": "zhong zhi xuan zhuan zhongzhixuanzhuan z z x z zzxz zhong zhi xuan zhuan zhongzhixuanzhuan z z x z zzxz"
+  },
+  {
+    "id": "krita-line",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "画直线",
+      "en": "Draw Straight Line"
+    },
+    "description": {
+      "zh": "按住 L 键并点击鼠标左键画直线",
+      "en": "Hold L and click to draw a straight line"
+    },
+    "windows": "L + 左键",
+    "mac": "L + 左键",
+    "linux": "L + 左键",
+    "keywords": [
+      "直线",
+      "straight line",
+      "画线"
+    ],
+    "pinyin": "hua zhi xian huazhixian h z x hzx zhi xian   hua xian zhixian huaxian z x   h x zx hx"
+  },
+  {
+    "id": "krita-eyedropper",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "吸取颜色（取色器）",
+      "en": "Color Picker (Eyedropper)"
+    },
+    "description": {
+      "zh": "按住 Ctrl 并点击鼠标左键吸取颜色",
+      "en": "Hold Ctrl and click to pick color from canvas"
+    },
+    "windows": "Ctrl + 左键",
+    "mac": "Ctrl + 左键",
+    "linux": "Ctrl + 左键",
+    "keywords": [
+      "取色",
+      "吸色",
+      "eyedropper",
+      "color picker"
+    ],
+    "pinyin": "xi qu yan se （ qu se qi ） xiquyanse（quseqi） x q y s （ q s q ） xqys（qsq） qu se   xi se quse xise q s   x s qs xs"
+  },
+  {
+    "id": "krita-brushsizedrag",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "拖动调整笔刷大小",
+      "en": "Drag to Adjust Brush Size"
+    },
+    "description": {
+      "zh": "按住 Shift 并拖动鼠标左键调整笔刷大小",
+      "en": "Hold Shift and drag left mouse button to adjust brush size"
+    },
+    "windows": "Shift + 左键拖动",
+    "mac": "Shift + 左键拖动",
+    "linux": "Shift + 左键拖动",
+    "keywords": [
+      "笔刷大小",
+      "brush size",
+      "拖动调整"
+    ],
+    "pinyin": "tuo dong tiao zheng bi shua da xiao tuodongtiaozhengbishuadaxiao t d t z b s d x tdtzbsdx bi shua da xiao   tuo dong tiao zheng bishuadaxiao tuodongtiaozheng b s d x   t d t z bsdx tdtz"
   }
 ]

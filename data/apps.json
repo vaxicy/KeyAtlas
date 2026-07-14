@@ -28,7 +28,7 @@
   { "id": "finalcut", "name": { "zh": "Final Cut Pro",    "en": "Final Cut Pro" },  "category": "video",        "icon": "🍏", "type": "software", "file": "finalcut.json", "source": "official" },
   { "id": "obs",      "name": { "zh": "OBS Studio",       "en": "OBS Studio" },     "category": "video",        "icon": "📹", "type": "software", "file": "obs.json", "source": "official" },
   { "id": "edge",     "name": { "zh": "Edge",             "en": "Edge" },           "category": "browser",      "icon": "🌊", "type": "software", "file": "edge.json", "source": "official" },
-  { "id": "firefox",  "name": { "zh": "Firefox",          "en": "Firefox" },        "category": "browser",      "icon": "🦊", "type": "software", "file": "firefox.json", "source": "community" },
+  { "id": "firefox",  "name": { "zh": "Firefox",          "en": "Firefox" },        "category": "browser",      "icon": "🦊", "type": "software", "file": "firefox.json", "source": "official" },
   { "id": "obsidian", "name": { "zh": "Obsidian",         "en": "Obsidian" },       "category": "productivity", "icon": "🔱", "type": "software", "file": "obsidian.json", "source": "official" },
   { "id": "todoist",  "name": { "zh": "Todoist",          "en": "Todoist" },        "category": "productivity", "icon": "✅", "type": "software", "file": "todoist.json", "source": "official" },
   { "id": "cursor",   "name": { "zh": "Cursor",           "en": "Cursor" },         "category": "development",  "icon": "⌨️", "type": "software", "file": "cursor.json", "source": "official" },

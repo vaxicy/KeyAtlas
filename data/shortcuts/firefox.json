@@ -1058,5 +1058,604 @@
       "close window"
     ],
     "pinyin": "guan bi chuang kou guanbichuangkou g b c k gbck guan bi chuang kou guanbichuangkou g b c k gbck"
+  },
+  {
+    "id": "firefox-mute",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "静音/取消静音",
+      "en": "Mute/Unmute"
+    },
+    "description": {
+      "zh": "切换页面音频静音状态",
+      "en": "Toggle page audio mute"
+    },
+    "windows": "M",
+    "mac": "M",
+    "linux": "M",
+    "keywords": [
+      "静音",
+      "mute",
+      "音量"
+    ],
+    "pinyin": "jing yin / qu xiao jing yin jingyin/quxiaojingyin j y / q x j y jy/qxjy jing yin   yin liang jingyin yinliang j y   y l jy yl"
+  },
+  {
+    "id": "firefox-voldown",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "降低音量",
+      "en": "Volume Down"
+    },
+    "description": {
+      "zh": "降低媒体音量",
+      "en": "Decrease media volume"
+    },
+    "windows": "↓",
+    "mac": "↓",
+    "linux": "↓",
+    "keywords": [
+      "降低音量",
+      "volume down",
+      "音量"
+    ],
+    "pinyin": "jiang di yin liang jiangdiyinliang j d y l jdyl jiang di yin liang   yin liang jiangdiyinliang yinliang j d y l   y l jdyl yl"
+  },
+  {
+    "id": "firefox-volup",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "提高音量",
+      "en": "Volume Up"
+    },
+    "description": {
+      "zh": "提高媒体音量",
+      "en": "Increase media volume"
+    },
+    "windows": "↑",
+    "mac": "↑",
+    "linux": "↑",
+    "keywords": [
+      "提高音量",
+      "volume up",
+      "音量"
+    ],
+    "pinyin": "ti gao yin liang tigaoyinliang t g y l tgyl ti gao yin liang   yin liang tigaoyinliang yinliang t g y l   y l tgyl yl"
+  },
+  {
+    "id": "firefox-mediaplay",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "播放/暂停",
+      "en": "Play/Pause"
+    },
+    "description": {
+      "zh": "播放或暂停媒体",
+      "en": "Play or pause media"
+    },
+    "windows": "Space",
+    "mac": "Space",
+    "linux": "Space",
+    "keywords": [
+      "播放",
+      "暂停",
+      "play",
+      "pause"
+    ],
+    "pinyin": "bo fang / zan ting bofang/zanting b f / z t bf/zt bo fang   zan ting bofang zanting b f   z t bf zt"
+  },
+  {
+    "id": "firefox-mediaback",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "后退（媒体）",
+      "en": "Seek Back (Media)"
+    },
+    "description": {
+      "zh": "媒体后退一小段",
+      "en": "Seek back in media"
+    },
+    "windows": "←",
+    "mac": "←",
+    "linux": "←",
+    "keywords": [
+      "后退",
+      "seek back",
+      "媒体"
+    ],
+    "pinyin": "hou tui （ mei ti ） houtui（meiti） h t （ m t ） ht（mt） hou tui   mei ti houtui meiti h t   m t ht mt"
+  },
+  {
+    "id": "firefox-mediaforward",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "快进（媒体）",
+      "en": "Seek Forward (Media)"
+    },
+    "description": {
+      "zh": "媒体快进一小段",
+      "en": "Seek forward in media"
+    },
+    "windows": "→",
+    "mac": "→",
+    "linux": "→",
+    "keywords": [
+      "快进",
+      "seek forward",
+      "媒体"
+    ],
+    "pinyin": "kuai jin （ mei ti ） kuaijin（meiti） k j （ m t ） kj（mt） kuai jin   mei ti kuaijin meiti k j   m t kj mt"
+  },
+  {
+    "id": "firefox-slowdown",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "降低播放速度",
+      "en": "Decrease Playback Speed"
+    },
+    "description": {
+      "zh": "降低媒体播放速度",
+      "en": "Decrease media playback speed"
+    },
+    "windows": "[",
+    "mac": "[",
+    "linux": "[",
+    "keywords": [
+      "降低速度",
+      "slow down",
+      "播放速度"
+    ],
+    "pinyin": "jiang di bo fang su du jiangdibofangsudu j d b f s d jdbfsd jiang di su du   bo fang su du jiangdisudu bofangsudu j d s d   b f s d jdsd bfsd"
+  },
+  {
+    "id": "firefox-speedup",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "提高播放速度",
+      "en": "Increase Playback Speed"
+    },
+    "description": {
+      "zh": "提高媒体播放速度",
+      "en": "Increase media playback speed"
+    },
+    "windows": "]",
+    "mac": "]",
+    "linux": "]",
+    "keywords": [
+      "提高速度",
+      "speed up",
+      "播放速度"
+    ],
+    "pinyin": "ti gao bo fang su du tigaobofangsudu t g b f s d tgbfsd ti gao su du   bo fang su du tigaosudu bofangsudu t g s d   b f s d tgsd bfsd"
+  },
+  {
+    "id": "firefox-seekback10",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "快退 10 秒",
+      "en": "Seek Back 10s"
+    },
+    "description": {
+      "zh": "媒体后退 10 秒",
+      "en": "Seek media back 10 seconds"
+    },
+    "windows": "<",
+    "mac": "<",
+    "linux": "<",
+    "keywords": [
+      "快退",
+      "seek back 10",
+      "媒体"
+    ],
+    "pinyin": "kuai tui   1 0   miao kuaitui 10 miao k t   1 0   m kt 10 m kuai tui   mei ti kuaitui meiti k t   m t kt mt"
+  },
+  {
+    "id": "firefox-seekfwd10",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "快进 10 秒",
+      "en": "Seek Forward 10s"
+    },
+    "description": {
+      "zh": "媒体前进 10 秒",
+      "en": "Seek media forward 10 seconds"
+    },
+    "windows": ">",
+    "mac": ">",
+    "linux": ">",
+    "keywords": [
+      "快进",
+      "seek forward 10",
+      "媒体"
+    ],
+    "pinyin": "kuai jin   1 0   miao kuaijin 10 miao k j   1 0   m kj 10 m kuai jin   mei ti kuaijin meiti k j   m t kj mt"
+  },
+  {
+    "id": "firefox-resetspeed",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "恢复正常播放速度",
+      "en": "Reset Playback Speed"
+    },
+    "description": {
+      "zh": "重置媒体为正常播放速度",
+      "en": "Reset media to normal speed"
+    },
+    "windows": "\\",
+    "mac": "\\",
+    "linux": "\\",
+    "keywords": [
+      "正常速度",
+      "reset speed",
+      "播放速度"
+    ],
+    "pinyin": "hui fu zheng chang bo fang su du huifuzhengchangbofangsudu h f z c b f s d hfzcbfsd zheng chang su du   bo fang su du zhengchangsudu bofangsudu z c s d   b f s d zcsd bfsd"
+  },
+  {
+    "id": "firefox-mediastart",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "跳到开头（媒体）",
+      "en": "Seek to Start (Media)"
+    },
+    "description": {
+      "zh": "跳转到媒体开头",
+      "en": "Seek to beginning of media"
+    },
+    "windows": "Home",
+    "mac": "Home",
+    "linux": "Home",
+    "keywords": [
+      "跳到开头",
+      "seek start",
+      "媒体"
+    ],
+    "pinyin": "tiao dao kai tou （ mei ti ） tiaodaokaitou（meiti） t d k t （ m t ） tdkt（mt） tiao dao kai tou   mei ti tiaodaokaitou meiti t d k t   m t tdkt mt"
+  },
+  {
+    "id": "ffmpeg-mediaend",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "跳到结尾（媒体）",
+      "en": "Seek to End (Media)"
+    },
+    "description": {
+      "zh": "跳转到媒体结尾",
+      "en": "Seek to end of media"
+    },
+    "windows": "End",
+    "mac": "End",
+    "linux": "End",
+    "keywords": [
+      "跳到结尾",
+      "seek end",
+      "媒体"
+    ],
+    "pinyin": "tiao dao jie wei （ mei ti ） tiaodaojiewei（meiti） t d j w （ m t ） tdjw（mt） tiao dao jie wei   mei ti tiaodaojiewei meiti t d j w   m t tdjw mt"
+  },
+  {
+    "id": "firefox-pdfnext",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "PDF 下一页",
+      "en": "PDF Next Page"
+    },
+    "description": {
+      "zh": "PDF 查看器中翻到下一页",
+      "en": "Go to next page in PDF viewer"
+    },
+    "windows": "N / →",
+    "mac": "N / →",
+    "linux": "N / →",
+    "keywords": [
+      "PDF下一页",
+      "PDF next",
+      "PDF"
+    ],
+    "pinyin": "p d f   xia yi ye pdf xiayiye p d f   x y y pdf xyy p d f xia yi ye pdfxiayiye p d f x y y pdfxyy"
+  },
+  {
+    "id": "firefox-pdfprev",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "PDF 上一页",
+      "en": "PDF Previous Page"
+    },
+    "description": {
+      "zh": "PDF 查看器中翻到上一页",
+      "en": "Go to previous page in PDF viewer"
+    },
+    "windows": "P / ←",
+    "mac": "P / ←",
+    "linux": "P / ←",
+    "keywords": [
+      "PDF上一页",
+      "PDF previous",
+      "PDF"
+    ],
+    "pinyin": "p d f   shang yi ye pdf shangyiye p d f   s y y pdf syy p d f shang yi ye pdfshangyiye p d f s y y pdfsyy"
+  },
+  {
+    "id": "firefox-pdfzoomin",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "PDF 放大",
+      "en": "PDF Zoom In"
+    },
+    "description": {
+      "zh": "PDF 查看器中放大",
+      "en": "Zoom in PDF viewer"
+    },
+    "windows": "+ / Ctrl +",
+    "mac": "+ / ⌘ +",
+    "linux": "+ / Ctrl +",
+    "keywords": [
+      "PDF放大",
+      "PDF zoom in",
+      "PDF"
+    ],
+    "pinyin": "p d f   fang da pdf fangda p d f   f d pdf fd p d f fang da pdffangda p d f f d pdffd"
+  },
+  {
+    "id": "firefox-pdfzoomout",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "PDF 缩小",
+      "en": "PDF Zoom Out"
+    },
+    "description": {
+      "zh": "PDF 查看器中缩小",
+      "en": "Zoom out PDF viewer"
+    },
+    "windows": "- / Ctrl -",
+    "mac": "- / ⌘ -",
+    "linux": "- / Ctrl -",
+    "keywords": [
+      "PDF缩小",
+      "PDF zoom out",
+      "PDF"
+    ],
+    "pinyin": "p d f   suo xiao pdf suoxiao p d f   s x pdf sx p d f suo xiao pdfsuoxiao p d f s x pdfsx"
+  },
+  {
+    "id": "firefox-pdffitwidth",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "PDF 适合宽度",
+      "en": "PDF Fit to Width"
+    },
+    "description": {
+      "zh": "PDF 适合页面宽度显示",
+      "en": "Fit PDF to page width"
+    },
+    "windows": "Ctrl Alt R",
+    "mac": "⌘ ⌥ R",
+    "linux": "Ctrl + Alt + R",
+    "keywords": [
+      "PDF适合宽度",
+      "PDF fit width",
+      "PDF"
+    ],
+    "pinyin": "p d f   shi he kuan du pdf shihekuandu p d f   s h k d pdf shkd p d f shi he kuan du pdfshihekuandu p d f s h k d pdfshkd"
+  },
+  {
+    "id": "firefox-pdftool-hand",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "PDF 光标手形工具",
+      "en": "PDF Cursor Hand Tool"
+    },
+    "description": {
+      "zh": "PDF 查看器中使用光标手形工具拖动",
+      "en": "Use hand cursor tool in PDF viewer"
+    },
+    "windows": "S",
+    "mac": "S",
+    "linux": "S",
+    "keywords": [
+      "PDF手形工具",
+      "PDF hand tool",
+      "PDF"
+    ],
+    "pinyin": "p d f   guang biao shou xing gong ju pdf guangbiaoshouxinggongju p d f   g b s x g j pdf gbsxgj p d f shou xing gong ju pdfshouxinggongju p d f s x g j pdfsxgj"
+  },
+  {
+    "id": "firefox-pdftool-select",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "PDF 选择工具",
+      "en": "PDF Selection Tool"
+    },
+    "description": {
+      "zh": "PDF 查看器中使用选择工具选中文本",
+      "en": "Use selection tool in PDF viewer"
+    },
+    "windows": "H",
+    "mac": "H",
+    "linux": "H",
+    "keywords": [
+      "PDF选择工具",
+      "PDF select tool",
+      "PDF"
+    ],
+    "pinyin": "p d f   xuan ze gong ju pdf xuanzegongju p d f   x z g j pdf xzgj p d f xuan ze gong ju pdfxuanzegongju p d f x z g j pdfxzgj"
+  },
+  {
+    "id": "firefox-tabselect-left",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "选择左侧标签",
+      "en": "Select Left Tab"
+    },
+    "description": {
+      "zh": "多标签选择模式中选择左侧标签",
+      "en": "Select tab to the left in multi-select mode"
+    },
+    "windows": "← (Arrow Left)",
+    "mac": "← (Arrow Left)",
+    "linux": "← (Arrow Left)",
+    "keywords": [
+      "选择左标签",
+      "select left tab",
+      "多标签"
+    ],
+    "pinyin": "xuan ze zuo ce biao qian xuanzezuocebiaoqian x z z c b q xzzcbq xuan ze zuo biao qian   duo biao qian xuanzezuobiaoqian duobiaoqian x z z b q   d b q xzzbq dbq"
+  },
+  {
+    "id": "firefox-tabselect-right",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "选择右侧标签",
+      "en": "Select Right Tab"
+    },
+    "description": {
+      "zh": "多标签选择模式中选择右侧标签",
+      "en": "Select tab to the right in multi-select mode"
+    },
+    "windows": "→ (Arrow Right)",
+    "mac": "→ (Arrow Right)",
+    "linux": "→ (Arrow Right)",
+    "keywords": [
+      "选择右标签",
+      "select right tab",
+      "多标签"
+    ],
+    "pinyin": "xuan ze you ce biao qian xuanzeyoucebiaoqian x z y c b q xzycbq xuan ze you biao qian   duo biao qian xuanzeyoubiaoqian duobiaoqian x z y b q   d b q xzybq dbq"
+  },
+  {
+    "id": "firefox-tabmove-left",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "移动选中标签向左",
+      "en": "Move Selected Tab Left"
+    },
+    "description": {
+      "zh": "将当前选中标签向左移动一个位置",
+      "en": "Move currently selected tab one position left"
+    },
+    "windows": "Ctrl + ←",
+    "mac": "⌘ ←",
+    "linux": "Ctrl + ←",
+    "keywords": [
+      "移动标签左移",
+      "move tab left",
+      "多标签"
+    ],
+    "pinyin": "yi dong xuan zhong biao qian xiang zuo yidongxuanzhongbiaoqianxiangzuo y d x z b q x z ydxzbqxz yi dong biao qian zuo yi   duo biao qian yidongbiaoqianzuoyi duobiaoqian y d b q z y   d b q ydbqzy dbq"
+  },
+  {
+    "id": "firefox-tabmove-right",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "移动选中标签向右",
+      "en": "Move Selected Tab Right"
+    },
+    "description": {
+      "zh": "将当前选中标签向右移动一个位置",
+      "en": "Move currently selected tab one position right"
+    },
+    "windows": "Ctrl + →",
+    "mac": "⌘ →",
+    "linux": "Ctrl + →",
+    "keywords": [
+      "移动标签右移",
+      "move tab right",
+      "多标签"
+    ],
+    "pinyin": "yi dong xuan zhong biao qian xiang you yidongxuanzhongbiaoqianxiangyou y d x z b q x y ydxzbqxy yi dong biao qian you yi   duo biao qian yidongbiaoqianyouyi duobiaoqian y d b q y y   d b q ydbqyy dbq"
+  },
+  {
+    "id": "firefox-tabdeselect-others",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": "取消其他标签选择",
+      "en": "Deselect Other Tabs"
+    },
+    "description": {
+      "zh": "只保留当前标签的选择状态，取消其他标签",
+      "en": "Keep only current tab selected, deselect others"
+    },
+    "windows": "Ctrl + Space",
+    "mac": "⌘ Space",
+    "linux": "Ctrl + Space",
+    "keywords": [
+      "取消选择",
+      "deselect tabs",
+      "多标签"
+    ],
+    "pinyin": "qu xiao qi ta biao qian xuan ze quxiaoqitabiaoqianxuanze q x q t b q x z qxqtbqxz qu xiao xuan ze   duo biao qian quxiaoxuanze duobiaoqian q x x z   d b q qxxz dbq"
+  },
+  {
+    "id": "firefox-dotcom",
+    "appId": "firefox",
+    "type": "software",
+    "category": "browser",
+    "name": {
+      "zh": ".com 自动补全",
+      "en": ".com Autocomplete"
+    },
+    "description": {
+      "zh": "在地址栏输入域名后自动补全 .com 后缀",
+      "en": "Autocomplete .com suffix after typing domain in address bar"
+    },
+    "windows": "Ctrl + Enter",
+    "mac": "⌘ Enter",
+    "linux": "Ctrl + Enter",
+    "keywords": [
+      "com补全",
+      "autocomplete",
+      "地址栏"
+    ],
+    "pinyin": ". c o m   zi dong bu quan .com zidongbuquan . c o m   z d b q .com zdbq c o m bu quan   di zhi lan combuquan dizhilan c o m b q   d z l combq dzl"
   }
 ]

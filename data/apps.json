@@ -113,7 +113,7 @@
   { "id": "visualstudio",    "name": { "zh": "Visual Studio", "en": "Visual Studio" }, "category": "development", "icon": "🔷", "type": "software", "file": "visualstudio.json", "source": "ai" },
   { "id": "eclipse",         "name": { "zh": "Eclipse",       "en": "Eclipse" },       "category": "development", "icon": "⚙️", "type": "software", "file": "eclipse.json", "source": "ai" },
   { "id": "notepadplusplus", "name": { "zh": "Notepad++",     "en": "Notepad++" },     "category": "development", "icon": "📋", "type": "software", "file": "notepadplusplus.json", "source": "ai" },
-  { "id": "3dsmax",          "name": { "zh": "3ds Max",       "en": "3ds Max" },       "category": "design",      "icon": "💠", "type": "software", "file": "3dsmax.json", "source": "ai" },
+  { "id": "3dsmax",          "name": { "zh": "3ds Max",       "en": "3ds Max" },       "sortKey": "D",           "category": "design",      "icon": "💠", "type": "software", "file": "3dsmax.json", "source": "ai" },
   { "id": "rhino",           "name": { "zh": "Rhino",         "en": "Rhino" },         "category": "design",      "icon": "🦏", "type": "software", "file": "rhino.json", "source": "ai" },
   { "id": "brave",           "name": { "zh": "Brave",         "en": "Brave" },         "category": "browser",     "icon": "🦁", "type": "software", "file": "brave.json", "source": "ai" },
   { "id": "opera",           "name": { "zh": "Opera",         "en": "Opera" },         "category": "browser",     "icon": "🎭", "type": "software", "file": "opera.json", "source": "ai" },
@@ -127,5 +127,7 @@
   { "id": "asana",           "name": { "zh": "Asana",         "en": "Asana" },         "category": "productivity",  "icon": "✅", "type": "software", "file": "asana.json", "source": "community" },
   { "id": "toonboom",        "name": { "zh": "Toon Boom Harmony", "en": "Toon Boom Harmony" }, "category": "design",     "icon": "🎬", "type": "software", "file": "toonboom.json", "source": "community" },
   { "id": "iterm2",          "name": { "zh": "iTerm2",        "en": "iTerm2" },        "category": "system",       "icon": "🖥️", "type": "software", "file": "iterm2.json", "source": "community" },
-  { "id": "kdenlive",        "name": { "zh": "Kdenlive",      "en": "Kdenlive" },      "category": "video",         "icon": "🎞️", "type": "software", "file": "kdenlive.json", "source": "community" }
+  { "id": "kdenlive",        "name": { "zh": "Kdenlive",      "en": "Kdenlive" },      "category": "video",         "icon": "🎞️", "type": "software", "file": "kdenlive.json", "source": "community" },
+  { "id": "bitwig",          "name": { "zh": "Bitwig Studio", "en": "Bitwig Studio" }, "category": "audio",         "icon": "🎛️", "type": "software", "file": "bitwig.json", "source": "ai" },
+  { "id": "vegas",           "name": { "zh": "Vegas Pro",     "en": "Vegas Pro" },     "category": "video",         "icon": "🎞️", "type": "software", "file": "vegas.json", "source": "ai" },
 ]

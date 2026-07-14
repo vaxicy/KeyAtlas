@@ -15,7 +15,11 @@
     "mac": "⌘ + Shift + A",
     "windows": "Alt + A",
     "linux": "Alt + A",
-    "pinyin": "jing yin / qu xiao jing yin jingyin/quxiaojingyin j y / q x j y jy/qxjy"
+    "pinyin": "jing yin / qu xiao jing yin jingyin/quxiaojingyin j y / q x j y jy/qxjy jing yin / qu xiao jing yin jingyin/quxiaojingyin j y / q x j y jy/qxjy",
+    "keywords": [
+      "静音/取消静音",
+      "Mute / Unmute"
+    ]
   },
   {
     "id": "zoom-start-stop-video",
@@ -32,7 +36,12 @@
     },
     "mac": "⌘ + Shift + V",
     "windows": "Alt + V",
-    "pinyin": "kai qi / guan bi shi pin kaiqi/guanbishipin k q / g b s p kq/gbsp"
+    "pinyin": "kai qi / guan bi shi pin kaiqi/guanbishipin k q / g b s p kq/gbsp kai qi / guan bi shi pin kaiqi/guanbishipin k q / g b s p kq/gbsp",
+    "linux": "Alt + V",
+    "keywords": [
+      "开启/关闭视频",
+      "Start / Stop Video"
+    ]
   },
   {
     "id": "zoom-toggle-fullscreen-gallery",
@@ -49,7 +58,12 @@
     },
     "mac": "⌘ + Shift + F",
     "windows": "Alt + F",
-    "pinyin": "jin ru / tui chu quan ping ( hua lang shi tu ) jinru/tuichuquanping(hualangshitu) j r / t c q p ( h l s t ) jr/tcqp(hlst)"
+    "pinyin": "jin ru / tui chu quan ping ( hua lang shi tu ) jinru/tuichuquanping(hualangshitu) j r / t c q p ( h l s t ) jr/tcqp(hlst) jin ru / tui chu quan ping ( hua lang shi tu ) jinru/tuichuquanping(hualangshitu) j r / t c q p ( h l s t ) jr/tcqp(hlst)",
+    "linux": "Alt + F",
+    "keywords": [
+      "进入/退出全屏(画廊视图)",
+      "Enter / Exit Full Screen (Gallery View)"
+    ]
   },
   {
     "id": "zoom-toggle-fullscreen-speaker",
@@ -66,7 +80,12 @@
     },
     "mac": "⌘ + Shift + H",
     "windows": "Alt + H",
-    "pinyin": "jin ru / tui chu quan ping ( yan jiang zhe shi tu ) jinru/tuichuquanping(yanjiangzheshitu) j r / t c q p ( y j z s t ) jr/tcqp(yjzst)"
+    "pinyin": "jin ru / tui chu quan ping ( yan jiang zhe shi tu ) jinru/tuichuquanping(yanjiangzheshitu) j r / t c q p ( y j z s t ) jr/tcqp(yjzst) jin ru / tui chu quan ping ( yan jiang zhe shi tu ) jinru/tuichuquanping(yanjiangzheshitu) j r / t c q p ( y j z s t ) jr/tcqp(yjzst)",
+    "linux": "Alt + H",
+    "keywords": [
+      "进入/退出全屏(演讲者视图)",
+      "Enter / Exit Full Screen (Speaker View)"
+    ]
   },
   {
     "id": "zoom-mute-all",
@@ -83,7 +102,12 @@
     },
     "mac": "⌘ + Ctrl + M",
     "windows": "Ctrl + M",
-    "pinyin": "quan bu jing yin quanbujingyin q b j y qbjy"
+    "pinyin": "quan bu jing yin quanbujingyin q b j y qbjy quan bu jing yin quanbujingyin q b j y qbjy",
+    "linux": "Ctrl + M",
+    "keywords": [
+      "全部静音",
+      "Mute All Participants"
+    ]
   },
   {
     "id": "zoom-pause-resume-recording",
@@ -100,7 +124,12 @@
     },
     "mac": "⌘ + Shift + P",
     "windows": "Alt + P",
-    "pinyin": "zan ting / ji xu lu zhi zanting/jixuluzhi z t / j x l z zt/jxlz"
+    "pinyin": "zan ting / ji xu lu zhi zanting/jixuluzhi z t / j x l z zt/jxlz zan ting / ji xu lu zhi zanting/jixuluzhi z t / j x l z zt/jxlz",
+    "linux": "Alt + P",
+    "keywords": [
+      "暂停/继续录制",
+      "Pause / Resume Recording"
+    ]
   },
   {
     "id": "zoom-start-stop-recording",
@@ -117,7 +146,12 @@
     },
     "mac": "⌘ + Shift + R",
     "windows": "Alt + R",
-    "pinyin": "kai shi / ting zhi lu zhi kaishi/tingzhiluzhi k s / t z l z ks/tzlz"
+    "pinyin": "kai shi / ting zhi lu zhi kaishi/tingzhiluzhi k s / t z l z ks/tzlz kai shi / ting zhi lu zhi kaishi/tingzhiluzhi k s / t z l z ks/tzlz",
+    "linux": "Alt + R",
+    "keywords": [
+      "开始/停止录制",
+      "Start / Stop Recording"
+    ]
   },
   {
     "id": "zoom-screen-share",
@@ -134,7 +168,12 @@
     },
     "mac": "⌘ + Shift + S",
     "windows": "Alt + S",
-    "pinyin": "kai shi ping mu gong xiang kaishipingmugongxiang k s p m g x kspmgx"
+    "pinyin": "kai shi ping mu gong xiang kaishipingmugongxiang k s p m g x kspmgx kai shi ping mu gong xiang kaishipingmugongxiang k s p m g x kspmgx",
+    "linux": "Alt + S",
+    "keywords": [
+      "开始屏幕共享",
+      "Start Screen Share"
+    ]
   },
   {
     "id": "zoom-toggle-annotation",
@@ -151,7 +190,12 @@
     },
     "mac": "Option + T",
     "windows": "Alt + T",
-    "pinyin": "kai qi / guan bi zhu shi kaiqi/guanbizhushi k q / g b z s kq/gbzs"
+    "pinyin": "kai qi / guan bi zhu shi kaiqi/guanbizhushi k q / g b z s kq/gbzs kai qi / guan bi zhu shi kaiqi/guanbizhushi k q / g b z s kq/gbzs",
+    "linux": "Alt + T",
+    "keywords": [
+      "开启/关闭注释",
+      "Enable / Disable Annotation"
+    ]
   },
   {
     "id": "zoom-new-meeting",
@@ -168,7 +212,12 @@
     },
     "mac": "⌘ + Control + N",
     "windows": "Ctrl + N",
-    "pinyin": "fa qi ji shi hui yi faqijishihuiyi f q j s h y fqjshy"
+    "pinyin": "fa qi ji shi hui yi faqijishihuiyi f q j s h y fqjshy fa qi ji shi hui yi faqijishihuiyi f q j s h y fqjshy",
+    "linux": "Ctrl + N",
+    "keywords": [
+      "发起即时会议",
+      "Start Instant Meeting"
+    ]
   },
   {
     "id": "zoom-schedule-meeting",
@@ -185,7 +234,12 @@
     },
     "mac": "⌘ + Control + S",
     "windows": "Ctrl + S",
-    "pinyin": "an pai hui yi anpaihuiyi a p h y aphy"
+    "pinyin": "an pai hui yi anpaihuiyi a p h y aphy an pai hui yi anpaihuiyi a p h y aphy",
+    "linux": "Ctrl + S",
+    "keywords": [
+      "安排会议",
+      "Schedule Meeting"
+    ]
   },
   {
     "id": "zoom-join-meeting",
@@ -202,7 +256,12 @@
     },
     "mac": "⌘ + Control + J",
     "windows": "Ctrl + J",
-    "pinyin": "jia ru hui yi jiaruhuiyi j r h y jrhy"
+    "pinyin": "jia ru hui yi jiaruhuiyi j r h y jrhy jia ru hui yi jiaruhuiyi j r h y jrhy",
+    "linux": "Ctrl + J",
+    "keywords": [
+      "加入会议",
+      "Join Meeting"
+    ]
   },
   {
     "id": "zoom-pin-video",
@@ -219,7 +278,12 @@
     },
     "mac": "⌘ + P",
     "windows": "Ctrl + P",
-    "pinyin": "gu ding shi pin gudingshipin g d s p gdsp"
+    "pinyin": "gu ding shi pin gudingshipin g d s p gdsp gu ding shi pin gudingshipin g d s p gdsp",
+    "linux": "Ctrl + P",
+    "keywords": [
+      "固定视频",
+      "Pin Video"
+    ]
   },
   {
     "id": "zoom-hide-self-view",
@@ -236,7 +300,12 @@
     },
     "mac": "⌘ + H",
     "windows": "Ctrl + H",
-    "pinyin": "yin cang zi ji de shi tu yincangzijideshitu y c z j d s t yczjdst"
+    "pinyin": "yin cang zi ji de shi tu yincangzijideshitu y c z j d s t yczjdst yin cang zi ji de shi tu yincangzijideshitu y c z j d s t yczjdst",
+    "linux": "Ctrl + H",
+    "keywords": [
+      "隐藏自己的视图",
+      "Hide Self View"
+    ]
   },
   {
     "id": "zoom-show-hide-participants",
@@ -253,7 +322,12 @@
     },
     "mac": "⌘ + U",
     "windows": "Ctrl + U",
-    "pinyin": "xian shi / yin cang can yu zhe mian ban xianshi/yincangcanyuzhemianban x s / y c c y z m b xs/yccyzmb"
+    "pinyin": "xian shi / yin cang can yu zhe mian ban xianshi/yincangcanyuzhemianban x s / y c c y z m b xs/yccyzmb xian shi / yin cang can yu zhe mian ban xianshi/yincangcanyuzhemianban x s / y c c y z m b xs/yccyzmb",
+    "linux": "Ctrl + U",
+    "keywords": [
+      "显示/隐藏参与者面板",
+      "Show / Hide Participants Panel"
+    ]
   },
   {
     "id": "zoom-show-hide-chat",
@@ -270,7 +344,12 @@
     },
     "mac": "⌘ + Shift + H",
     "windows": "Alt + H",
-    "pinyin": "xian shi / yin cang liao tian chuang kou xianshi/yincangliaotianchuangkou x s / y c l t c k xs/ycltck"
+    "pinyin": "xian shi / yin cang liao tian chuang kou xianshi/yincangliaotianchuangkou x s / y c l t c k xs/ycltck xian shi / yin cang liao tian chuang kou xianshi/yincangliaotianchuangkou x s / y c l t c k xs/ycltck",
+    "linux": "Alt + H",
+    "keywords": [
+      "显示/隐藏聊天窗口",
+      "Show / Hide Chat Panel"
+    ]
   },
   {
     "id": "zoom-enter-full-screen",
@@ -287,7 +366,12 @@
     },
     "mac": "⌘ + Shift + F",
     "windows": "Alt + F",
-    "pinyin": "jin ru quan ping jinruquanping j r q p jrqp"
+    "pinyin": "jin ru quan ping jinruquanping j r q p jrqp jin ru quan ping jinruquanping j r q p jrqp",
+    "linux": "Alt + F",
+    "keywords": [
+      "进入全屏",
+      "Enter Full Screen"
+    ]
   },
   {
     "id": "zoom-exit-full-screen",
@@ -304,7 +388,12 @@
     },
     "mac": "Esc",
     "windows": "Esc",
-    "pinyin": "tui chu quan ping tuichuquanping t c q p tcqp"
+    "pinyin": "tui chu quan ping tuichuquanping t c q p tcqp tui chu quan ping tuichuquanping t c q p tcqp",
+    "linux": "Esc",
+    "keywords": [
+      "退出全屏",
+      "Exit Full Screen"
+    ]
   },
   {
     "id": "zoom-toggle-active-speaker",
@@ -322,7 +411,11 @@
     "mac": "⌘ + Shift + W",
     "windows": "Alt + W",
     "linux": "Alt + W",
-    "pinyin": "qie huan huo yue yan jiang zhe shi tu qiehuanhuoyueyanjiangzheshitu q h h y y j z s t qhhyyjzst"
+    "pinyin": "qie huan huo yue yan jiang zhe shi tu qiehuanhuoyueyanjiangzheshitu q h h y y j z s t qhhyyjzst qie huan huo yue yan jiang zhe shi tu qiehuanhuoyueyanjiangzheshitu q h h y y j z s t qhhyyjzst",
+    "keywords": [
+      "切换活跃演讲者视图",
+      "Toggle Active Speaker View"
+    ]
   },
   {
     "id": "zoom-raised-hand",
@@ -340,7 +433,11 @@
     "mac": "⌘ + Option + Y",
     "windows": "Alt + Y",
     "linux": "Alt + Y",
-    "pinyin": "ju shou jushou j s js"
+    "pinyin": "ju shou jushou j s js ju shou jushou j s js",
+    "keywords": [
+      "举手",
+      "Raise Hand"
+    ]
   },
   {
     "id": "zoom-chat-message",
@@ -358,7 +455,11 @@
     "mac": "⌘ + Shift + C",
     "windows": "Alt + C",
     "linux": "Alt + C",
-    "pinyin": "da kai liao tian shu ru kuang dakailiaotianshurukuang d k l t s r k dkltsrk"
+    "pinyin": "da kai liao tian shu ru kuang dakailiaotianshurukuang d k l t s r k dkltsrk da kai liao tian shu ru kuang dakailiaotianshurukuang d k l t s r k dkltsrk",
+    "keywords": [
+      "打开聊天输入框",
+      "Open Chat Input"
+    ]
   },
   {
     "id": "zoom-next-video",
@@ -376,7 +477,11 @@
     "mac": "Control + N",
     "windows": "Page Down",
     "linux": "Page Down",
-    "pinyin": "xia yi ge shi pin ( hua lang ) xiayigeshipin(hualang) x y g s p ( h l ) xygsp(hl)"
+    "pinyin": "xia yi ge shi pin ( hua lang ) xiayigeshipin(hualang) x y g s p ( h l ) xygsp(hl) xia yi ge shi pin ( hua lang ) xiayigeshipin(hualang) x y g s p ( h l ) xygsp(hl)",
+    "keywords": [
+      "下一个视频(画廊)",
+      "Next Video (Gallery)"
+    ]
   },
   {
     "id": "zoom-prev-video",
@@ -394,7 +499,11 @@
     "mac": "Control + P",
     "windows": "Page Up",
     "linux": "Page Up",
-    "pinyin": "shang yi ge shi pin ( hua lang ) shangyigeshipin(hualang) s y g s p ( h l ) sygsp(hl)"
+    "pinyin": "shang yi ge shi pin ( hua lang ) shangyigeshipin(hualang) s y g s p ( h l ) sygsp(hl) shang yi ge shi pin ( hua lang ) shangyigeshipin(hualang) s y g s p ( h l ) sygsp(hl)",
+    "keywords": [
+      "上一个视频(画廊)",
+      "Previous Video (Gallery)"
+    ]
   },
   {
     "id": "zoom-audio-via-phone",
@@ -412,7 +521,11 @@
     "mac": "⌘ + Shift + A",
     "windows": "Alt + A",
     "linux": "Alt + A",
-    "pinyin": "tong guo dian hua jia ru yin pin tongguodianhuajiaruyinpin t g d h j r y p tgdhjryp"
+    "pinyin": "tong guo dian hua jia ru yin pin tongguodianhuajiaruyinpin t g d h j r y p tgdhjryp tong guo dian hua jia ru yin pin tongguodianhuajiaruyinpin t g d h j r y p tgdhjryp",
+    "keywords": [
+      "通过电话加入音频",
+      "Join Audio by Phone"
+    ]
   },
   {
     "id": "zoom-end-meeting",
@@ -430,6 +543,10 @@
     "mac": "⌘ + W",
     "windows": "Ctrl + W / ⌘ + Q",
     "linux": "Ctrl + Q",
-    "pinyin": "jie shu hui yi jieshuhuiyi j s h y jshy"
+    "pinyin": "jie shu hui yi jieshuhuiyi j s h y jshy jie shu hui yi jieshuhuiyi j s h y jshy",
+    "keywords": [
+      "结束会议",
+      "End Meeting"
+    ]
   }
 ]

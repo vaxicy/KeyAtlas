@@ -1,0 +1,715 @@
+[
+  {
+    "id": "bitwig-play---stop",
+    "appId": "bitwig",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "播放 / 停止",
+      "en": "Play / Stop"
+    },
+    "description": {
+      "zh": "播放 / 停止",
+      "en": "Play / Stop"
+    },
+    "windows": "Space",
+    "mac": "Space",
+    "linux": "Space",
+    "keywords": [
+      "播放",
+      "play",
+      "停止",
+      "stop"
+    ],
+    "pinyin": "bo fang   /   ting zhi bofang / tingzhi b f   /   t z bf / tz bo fang   ting zhi bofang tingzhi b f   t z bf tz"
+  },
+  {
+    "id": "bitwig-record",
+    "appId": "bitwig",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "录音",
+      "en": "Record"
+    },
+    "description": {
+      "zh": "录音",
+      "en": "Record"
+    },
+    "windows": "Ctrl + Space",
+    "mac": "⌘ Space",
+    "linux": "Ctrl + Space",
+    "keywords": [
+      "录音",
+      "record",
+      "录制"
+    ],
+    "pinyin": "lu yin luyin l y ly lu yin   lu zhi luyin luzhi l y   l z ly lz"
+  },
+  {
+    "id": "bitwig-toggle-loop",
+    "appId": "bitwig",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "循环播放",
+      "en": "Toggle Loop"
+    },
+    "description": {
+      "zh": "循环播放",
+      "en": "Toggle Loop"
+    },
+    "windows": "Ctrl + L",
+    "mac": "⌘ L",
+    "linux": "Ctrl + L",
+    "keywords": [
+      "循环",
+      "loop",
+      "循环播放"
+    ],
+    "pinyin": "xun huan bo fang xunhuanbofang x h b f xhbf xun huan   xun huan bo fang xunhuan xunhuanbofang x h   x h b f xh xhbf"
+  },
+  {
+    "id": "bitwig-undo",
+    "appId": "bitwig",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "Ctrl + Z",
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "bitwig-redo",
+    "appId": "bitwig",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "windows": "Ctrl + Shift + Z",
+    "mac": "⌘ Shift Z",
+    "linux": "Ctrl + Shift + Z",
+    "keywords": [
+      "重做",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "bitwig-save",
+    "appId": "bitwig",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "保存",
+      "en": "Save"
+    },
+    "description": {
+      "zh": "保存",
+      "en": "Save"
+    },
+    "windows": "Ctrl + S",
+    "mac": "⌘ S",
+    "linux": "Ctrl + S",
+    "keywords": [
+      "保存",
+      "save"
+    ],
+    "pinyin": "bao cun baocun b c bc bao cun baocun b c bc"
+  },
+  {
+    "id": "bitwig-save-as",
+    "appId": "bitwig",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "另存为",
+      "en": "Save As"
+    },
+    "description": {
+      "zh": "另存为",
+      "en": "Save As"
+    },
+    "windows": "Ctrl + Shift + S",
+    "mac": "⌘ Shift S",
+    "linux": "Ctrl + Shift + S",
+    "keywords": [
+      "另存为",
+      "save as"
+    ],
+    "pinyin": "ling cun wei lingcunwei l c w lcw ling cun wei lingcunwei l c w lcw"
+  },
+  {
+    "id": "bitwig-new-project",
+    "appId": "bitwig",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "新建工程",
+      "en": "New Project"
+    },
+    "description": {
+      "zh": "新建工程",
+      "en": "New Project"
+    },
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
+    "linux": "Ctrl + N",
+    "keywords": [
+      "新建",
+      "new"
+    ],
+    "pinyin": "xin jian gong cheng xinjiangongcheng x j g c xjgc xin jian xinjian x j xj"
+  },
+  {
+    "id": "bitwig-open",
+    "appId": "bitwig",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "打开",
+      "en": "Open"
+    },
+    "description": {
+      "zh": "打开",
+      "en": "Open"
+    },
+    "windows": "Ctrl + O",
+    "mac": "⌘ O",
+    "linux": "Ctrl + O",
+    "keywords": [
+      "打开",
+      "open"
+    ],
+    "pinyin": "da kai dakai d k dk da kai dakai d k dk"
+  },
+  {
+    "id": "bitwig-cut",
+    "appId": "bitwig",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "剪切",
+      "en": "Cut"
+    },
+    "description": {
+      "zh": "剪切",
+      "en": "Cut"
+    },
+    "windows": "Ctrl + X",
+    "mac": "⌘ X",
+    "linux": "Ctrl + X",
+    "keywords": [
+      "剪切",
+      "cut"
+    ],
+    "pinyin": "jian qie jianqie j q jq jian qie jianqie j q jq"
+  },
+  {
+    "id": "bitwig-copy",
+    "appId": "bitwig",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "复制",
+      "en": "Copy"
+    },
+    "description": {
+      "zh": "复制",
+      "en": "Copy"
+    },
+    "windows": "Ctrl + C",
+    "mac": "⌘ C",
+    "linux": "Ctrl + C",
+    "keywords": [
+      "复制",
+      "copy"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "bitwig-paste",
+    "appId": "bitwig",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "粘贴",
+      "en": "Paste"
+    },
+    "description": {
+      "zh": "粘贴",
+      "en": "Paste"
+    },
+    "windows": "Ctrl + V",
+    "mac": "⌘ V",
+    "linux": "Ctrl + V",
+    "keywords": [
+      "粘贴",
+      "paste"
+    ],
+    "pinyin": "nian tie niantie n t nt nian tie niantie n t nt"
+  },
+  {
+    "id": "bitwig-select-all",
+    "appId": "bitwig",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "全选",
+      "en": "Select All"
+    },
+    "description": {
+      "zh": "全选",
+      "en": "Select All"
+    },
+    "windows": "Ctrl + A",
+    "mac": "⌘ A",
+    "linux": "Ctrl + A",
+    "keywords": [
+      "全选",
+      "select all"
+    ],
+    "pinyin": "quan xuan quanxuan q x qx quan xuan quanxuan q x qx"
+  },
+  {
+    "id": "bitwig-duplicate",
+    "appId": "bitwig",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "复制副本",
+      "en": "Duplicate"
+    },
+    "description": {
+      "zh": "复制副本",
+      "en": "Duplicate"
+    },
+    "windows": "Ctrl + D",
+    "mac": "⌘ D",
+    "linux": "Ctrl + D",
+    "keywords": [
+      "复制",
+      "duplicate",
+      "副本"
+    ],
+    "pinyin": "fu zhi fu ben fuzhifuben f z f b fzfb fu zhi   fu ben fuzhi fuben f z   f b fz fb"
+  },
+  {
+    "id": "bitwig-delete",
+    "appId": "bitwig",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "删除所选",
+      "en": "Delete"
+    },
+    "description": {
+      "zh": "删除所选",
+      "en": "Delete"
+    },
+    "windows": "Delete",
+    "mac": "Delete",
+    "linux": "Delete",
+    "keywords": [
+      "删除",
+      "delete"
+    ],
+    "pinyin": "shan chu suo xuan shanchusuoxuan s c s x scsx shan chu shanchu s c sc"
+  },
+  {
+    "id": "bitwig-split-at-playhead",
+    "appId": "bitwig",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "在播放头处拆分",
+      "en": "Split at Playhead"
+    },
+    "description": {
+      "zh": "在播放头处拆分",
+      "en": "Split at Playhead"
+    },
+    "windows": "Ctrl + E",
+    "mac": "⌘ E",
+    "linux": "Ctrl + E",
+    "keywords": [
+      "拆分",
+      "split",
+      "切割"
+    ],
+    "pinyin": "zai bo fang tou chu chai fen zaibofangtouchuchaifen z b f t c c f zbftccf chai fen   qie ge chaifen qiege c f   q g cf qg"
+  },
+  {
+    "id": "bitwig-quantize",
+    "appId": "bitwig",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "量化",
+      "en": "Quantize"
+    },
+    "description": {
+      "zh": "量化",
+      "en": "Quantize"
+    },
+    "windows": "Ctrl + U",
+    "mac": "⌘ U",
+    "linux": "Ctrl + U",
+    "keywords": [
+      "量化",
+      "quantize"
+    ],
+    "pinyin": "liang hua lianghua l h lh liang hua lianghua l h lh"
+  },
+  {
+    "id": "bitwig-zoom-in",
+    "appId": "bitwig",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "放大视图",
+      "en": "Zoom In"
+    },
+    "description": {
+      "zh": "放大视图",
+      "en": "Zoom In"
+    },
+    "windows": "Ctrl + +",
+    "mac": "⌘ +",
+    "linux": "Ctrl + +",
+    "keywords": [
+      "放大",
+      "zoom in"
+    ],
+    "pinyin": "fang da shi tu fangdashitu f d s t fdst fang da fangda f d fd"
+  },
+  {
+    "id": "bitwig-zoom-out",
+    "appId": "bitwig",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "缩小视图",
+      "en": "Zoom Out"
+    },
+    "description": {
+      "zh": "缩小视图",
+      "en": "Zoom Out"
+    },
+    "windows": "Ctrl + -",
+    "mac": "⌘ -",
+    "linux": "Ctrl + -",
+    "keywords": [
+      "缩小",
+      "zoom out"
+    ],
+    "pinyin": "suo xiao shi tu suoxiaoshitu s x s t sxst suo xiao suoxiao s x sx"
+  },
+  {
+    "id": "bitwig-zoom-to-fit",
+    "appId": "bitwig",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "缩放适配",
+      "en": "Zoom to Fit"
+    },
+    "description": {
+      "zh": "缩放适配",
+      "en": "Zoom to Fit"
+    },
+    "windows": "Ctrl + 0",
+    "mac": "⌘ 0",
+    "linux": "Ctrl + 0",
+    "keywords": [
+      "适配",
+      "fit",
+      "缩放"
+    ],
+    "pinyin": "suo fang shi pei suofangshipei s f s p sfsp shi pei   suo fang shipei suofang s p   s f sp sf"
+  },
+  {
+    "id": "bitwig-show---hide-browser",
+    "appId": "bitwig",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "显示 / 隐藏浏览器",
+      "en": "Show / Hide Browser"
+    },
+    "description": {
+      "zh": "显示 / 隐藏浏览器",
+      "en": "Show / Hide Browser"
+    },
+    "windows": "B",
+    "mac": "B",
+    "linux": "B",
+    "keywords": [
+      "浏览器",
+      "browser"
+    ],
+    "pinyin": "xian shi   /   yin cang liu lan qi xianshi / yincangliulanqi x s   /   y c l l q xs / ycllq liu lan qi liulanqi l l q llq"
+  },
+  {
+    "id": "bitwig-show---hide-mixer",
+    "appId": "bitwig",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "显示 / 隐藏混音器",
+      "en": "Show / Hide Mixer"
+    },
+    "description": {
+      "zh": "显示 / 隐藏混音器",
+      "en": "Show / Hide Mixer"
+    },
+    "windows": "F3",
+    "mac": "F3",
+    "linux": "F3",
+    "keywords": [
+      "混音器",
+      "mixer"
+    ],
+    "pinyin": "xian shi   /   yin cang hun yin qi xianshi / yincanghunyinqi x s   /   y c h y q xs / ychyq hun yin qi hunyinqi h y q hyq"
+  },
+  {
+    "id": "bitwig-add-audio-track",
+    "appId": "bitwig",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "添加音频轨道",
+      "en": "Add Audio Track"
+    },
+    "description": {
+      "zh": "添加音频轨道",
+      "en": "Add Audio Track"
+    },
+    "windows": "Ctrl + T",
+    "mac": "⌘ T",
+    "linux": "Ctrl + T",
+    "keywords": [
+      "音频轨道",
+      "audio track"
+    ],
+    "pinyin": "tian jia yin pin gui dao tianjiayinpinguidao t j y p g d tjypgd yin pin gui dao yinpinguidao y p g d ypgd"
+  },
+  {
+    "id": "bitwig-add-instrument-track",
+    "appId": "bitwig",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "添加乐器轨道",
+      "en": "Add Instrument Track"
+    },
+    "description": {
+      "zh": "添加乐器轨道",
+      "en": "Add Instrument Track"
+    },
+    "windows": "Ctrl + Shift + T",
+    "mac": "⌘ Shift T",
+    "linux": "Ctrl + Shift + T",
+    "keywords": [
+      "乐器轨道",
+      "instrument track"
+    ],
+    "pinyin": "tian jia yue qi gui dao tianjiayueqiguidao t j y q g d tjyqgd yue qi gui dao yueqiguidao y q g d yqgd"
+  },
+  {
+    "id": "bitwig-solo-selected",
+    "appId": "bitwig",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "独奏所选",
+      "en": "Solo Selected"
+    },
+    "description": {
+      "zh": "独奏所选",
+      "en": "Solo Selected"
+    },
+    "windows": "Ctrl + Alt + S",
+    "mac": "⌘ Option S",
+    "linux": "Ctrl + Alt + S",
+    "keywords": [
+      "独奏",
+      "solo"
+    ],
+    "pinyin": "du zou suo xuan duzousuoxuan d z s x dzsx du zou duzou d z dz"
+  },
+  {
+    "id": "bitwig-toggle-metronome",
+    "appId": "bitwig",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "切换节拍器",
+      "en": "Toggle Metronome"
+    },
+    "description": {
+      "zh": "切换节拍器",
+      "en": "Toggle Metronome"
+    },
+    "windows": "Ctrl + Shift + M",
+    "mac": "⌘ Shift M",
+    "linux": "Ctrl + Shift + M",
+    "keywords": [
+      "节拍器",
+      "metronome",
+      "咔哒"
+    ],
+    "pinyin": "qie huan jie pai qi qiehuanjiepaiqi q h j p q qhjpq jie pai qi   ka da jiepaiqi kada j p q   k d jpq kd"
+  },
+  {
+    "id": "bitwig-preferences",
+    "appId": "bitwig",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "偏好设置",
+      "en": "Preferences"
+    },
+    "description": {
+      "zh": "偏好设置",
+      "en": "Preferences"
+    },
+    "windows": "Ctrl + ,",
+    "mac": "⌘ ,",
+    "linux": "Ctrl + ,",
+    "keywords": [
+      "偏好",
+      "preferences",
+      "设置"
+    ],
+    "pinyin": "pian hao she zhi pianhaoshezhi p h s z phsz pian hao   she zhi pianhao shezhi p h   s z ph sz"
+  },
+  {
+    "id": "bitwig-fullscreen",
+    "appId": "bitwig",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "全屏",
+      "en": "Fullscreen"
+    },
+    "description": {
+      "zh": "全屏",
+      "en": "Fullscreen"
+    },
+    "windows": "F11",
+    "mac": "F11",
+    "linux": "F11",
+    "keywords": [
+      "全屏",
+      "fullscreen"
+    ],
+    "pinyin": "quan ping quanping q p qp quan ping quanping q p qp"
+  },
+  {
+    "id": "bitwig-go-to-start",
+    "appId": "bitwig",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "跳到工程开头",
+      "en": "Go to Start"
+    },
+    "description": {
+      "zh": "跳到工程开头",
+      "en": "Go to Start"
+    },
+    "windows": "Home",
+    "mac": "Home",
+    "linux": "Home",
+    "keywords": [
+      "开头",
+      "start"
+    ],
+    "pinyin": "tiao dao gong cheng kai tou tiaodaogongchengkaitou t d g c k t tdgckt kai tou kaitou k t kt"
+  },
+  {
+    "id": "bitwig-go-to-end",
+    "appId": "bitwig",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "跳到工程结尾",
+      "en": "Go to End"
+    },
+    "description": {
+      "zh": "跳到工程结尾",
+      "en": "Go to End"
+    },
+    "windows": "End",
+    "mac": "End",
+    "linux": "End",
+    "keywords": [
+      "结尾",
+      "end"
+    ],
+    "pinyin": "tiao dao gong cheng jie wei tiaodaogongchengjiewei t d g c j w tdgcjw jie wei jiewei j w jw"
+  },
+  {
+    "id": "bitwig-previous-track",
+    "appId": "bitwig",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "上一轨道",
+      "en": "Previous Track"
+    },
+    "description": {
+      "zh": "上一轨道",
+      "en": "Previous Track"
+    },
+    "windows": "Up",
+    "mac": "Up",
+    "linux": "Up",
+    "keywords": [
+      "上一轨道",
+      "previous track"
+    ],
+    "pinyin": "shang yi gui dao shangyiguidao s y g d sygd shang yi gui dao shangyiguidao s y g d sygd"
+  },
+  {
+    "id": "bitwig-next-track",
+    "appId": "bitwig",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "zh": "下一轨道",
+      "en": "Next Track"
+    },
+    "description": {
+      "zh": "下一轨道",
+      "en": "Next Track"
+    },
+    "windows": "Down",
+    "mac": "Down",
+    "linux": "Down",
+    "keywords": [
+      "下一轨道",
+      "next track"
+    ],
+    "pinyin": "xia yi gui dao xiayiguidao x y g d xygd xia yi gui dao xiayiguidao x y g d xygd"
+  }
+]

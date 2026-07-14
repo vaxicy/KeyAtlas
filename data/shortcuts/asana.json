@@ -14,7 +14,12 @@
     },
     "mac": "Enter",
     "windows": "Enter",
-    "pinyin": "da kai ren wu xiang qing dakairenwuxiangqing d k r w x q dkrwxq"
+    "pinyin": "da kai ren wu xiang qing dakairenwuxiangqing d k r w x q dkrwxq da kai ren wu xiang qing dakairenwuxiangqing d k r w x q dkrwxq",
+    "linux": "Enter",
+    "keywords": [
+      "打开任务详情",
+      "Open Task Detail"
+    ]
   },
   {
     "id": "asana-open-subtask-detail",
@@ -31,7 +36,12 @@
     },
     "mac": "→",
     "windows": "→",
-    "pinyin": "da kai zi ren wu xiang qing dakaizirenwuxiangqing d k z r w x q dkzrwxq"
+    "pinyin": "da kai zi ren wu xiang qing dakaizirenwuxiangqing d k z r w x q dkzrwxq da kai zi ren wu xiang qing dakaizirenwuxiangqing d k z r w x q dkzrwxq",
+    "linux": "→",
+    "keywords": [
+      "打开子任务详情",
+      "Open Subtask Detail"
+    ]
   },
   {
     "id": "asana-move-task-project",
@@ -48,7 +58,12 @@
     },
     "mac": "Tab",
     "windows": "Tab",
-    "pinyin": "yi dong ren wu dao qi ta xiang mu yidongrenwudaoqitaxiangmu y d r w d q t x m ydrwdqtxm"
+    "pinyin": "yi dong ren wu dao qi ta xiang mu yidongrenwudaoqitaxiangmu y d r w d q t x m ydrwdqtxm yi dong ren wu dao qi ta xiang mu yidongrenwudaoqitaxiangmu y d r w d q t x m ydrwdqtxm",
+    "linux": "Tab",
+    "keywords": [
+      "移动任务到其他项目",
+      "Move Task to Another Project"
+    ]
   },
   {
     "id": "asana-copy-task",
@@ -65,7 +80,12 @@
     },
     "mac": "⌘ + D",
     "windows": "Ctrl + D",
-    "pinyin": "fu zhi ren wu fuzhirenwu f z r w fzrw"
+    "pinyin": "fu zhi ren wu fuzhirenwu f z r w fzrw fu zhi ren wu fuzhirenwu f z r w fzrw",
+    "linux": "Ctrl + D",
+    "keywords": [
+      "复制任务",
+      "Duplicate Task"
+    ]
   },
   {
     "id": "asana-inbox-open-task",
@@ -82,7 +102,12 @@
     },
     "mac": "Enter",
     "windows": "Enter",
-    "pinyin": "shi jian bo zhong da kai ren wu shijianbozhongdakairenwu s j b z d k r w sjbzdkrw"
+    "pinyin": "shi jian bo zhong da kai ren wu shijianbozhongdakairenwu s j b z d k r w sjbzdkrw shi jian bo zhong da kai ren wu shijianbozhongdakairenwu s j b z d k r w sjbzdkrw",
+    "linux": "Enter",
+    "keywords": [
+      "事件簿中打开任务",
+      "Open Task in Inbox"
+    ]
   },
   {
     "id": "asana-inbox-move-task",
@@ -99,7 +124,12 @@
     },
     "mac": "Tab",
     "windows": "Tab",
-    "pinyin": "shi jian bo zhong yi dong ren wu shijianbozhongyidongrenwu s j b z y d r w sjbzydrw"
+    "pinyin": "shi jian bo zhong yi dong ren wu shijianbozhongyidongrenwu s j b z y d r w sjbzydrw shi jian bo zhong yi dong ren wu shijianbozhongyidongrenwu s j b z y d r w sjbzydrw",
+    "linux": "Tab",
+    "keywords": [
+      "事件簿中移动任务",
+      "Move Task in Inbox"
+    ]
   },
   {
     "id": "asana-inbox-subtask",
@@ -116,7 +146,12 @@
     },
     "mac": "→",
     "windows": "→",
-    "pinyin": "shi jian bo zhong zhan kai zi ren wu shijianbozhongzhankaizirenwu s j b z z k z r w sjbzzkzrw"
+    "pinyin": "shi jian bo zhong zhan kai zi ren wu shijianbozhongzhankaizirenwu s j b z z k z r w sjbzzkzrw shi jian bo zhong zhan kai zi ren wu shijianbozhongzhankaizirenwu s j b z z k z r w sjbzzkzrw",
+    "linux": "→",
+    "keywords": [
+      "事件簿中展开子任务",
+      "Expand Subtask in Inbox"
+    ]
   },
   {
     "id": "asina-inbox-project",
@@ -133,7 +168,12 @@
     },
     "mac": "Shift + Enter",
     "windows": "Shift + Enter",
-    "pinyin": "shi jian bo zhong cha kan xiang mu shijianbozhongchakanxiangmu s j b z c k x m sjbzckxm"
+    "pinyin": "shi jian bo zhong cha kan xiang mu shijianbozhongchakanxiangmu s j b z c k x m sjbzckxm shi jian bo zhong cha kan xiang mu shijianbozhongchakanxiangmu s j b z c k x m sjbzckxm",
+    "linux": "Shift + Enter",
+    "keywords": [
+      "事件簿中查看项目",
+      "View Project in Inbox"
+    ]
   },
   {
     "id": "asana-assign-to-me",
@@ -150,7 +190,12 @@
     },
     "mac": "A",
     "windows": "A",
-    "pinyin": "fen pei ji zi ji fenpeijiziji f p j z j fpjzj"
+    "pinyin": "fen pei ji zi ji fenpeijiziji f p j z j fpjzj fen pei ji zi ji fenpeijiziji f p j z j fpjzj",
+    "linux": "A",
+    "keywords": [
+      "分配给自己",
+      "Assign to Me"
+    ]
   },
   {
     "id": "asana-mark-complete",
@@ -167,7 +212,12 @@
     },
     "mac": "C",
     "windows": "C",
-    "pinyin": "biao ji wan cheng biaojiwancheng b j w c bjwc"
+    "pinyin": "biao ji wan cheng biaojiwancheng b j w c bjwc biao ji wan cheng biaojiwancheng b j w c bjwc",
+    "linux": "C",
+    "keywords": [
+      "标记完成",
+      "Mark Complete"
+    ]
   },
   {
     "id": "asana-set-due-date",
@@ -184,7 +234,12 @@
     },
     "mac": "D",
     "windows": "D",
-    "pinyin": "she ding jie zhi ri qi shedingjiezhiriqi s d j z r q sdjzrq"
+    "pinyin": "she ding jie zhi ri qi shedingjiezhiriqi s d j z r q sdjzrq she ding jie zhi ri qi shedingjiezhiriqi s d j z r q sdjzrq",
+    "linux": "D",
+    "keywords": [
+      "设定截止日期",
+      "Set Due Date"
+    ]
   },
   {
     "id": "asana-delete-task",
@@ -201,7 +256,12 @@
     },
     "mac": "Backspace",
     "windows": "Backspace",
-    "pinyin": "shan chu ren wu shanchurenwu s c r w scrw"
+    "pinyin": "shan chu ren wu shanchurenwu s c r w scrw shan chu ren wu shanchurenwu s c r w scrw",
+    "linux": "Backspace",
+    "keywords": [
+      "删除任务",
+      "Delete Task"
+    ]
   },
   {
     "id": "asana-like-task",
@@ -218,7 +278,12 @@
     },
     "mac": "F",
     "windows": "F",
-    "pinyin": "xi huan ren wu ( xin xing ) xihuanrenwu(xinxing) x h r w ( x x ) xhrw(xx)"
+    "pinyin": "xi huan ren wu ( xin xing ) xihuanrenwu(xinxing) x h r w ( x x ) xhrw(xx) xi huan ren wu ( xin xing ) xihuanrenwu(xinxing) x h r w ( x x ) xhrw(xx)",
+    "linux": "F",
+    "keywords": [
+      "喜欢任务(心形)",
+      "Like Task (Heart)"
+    ]
   },
   {
     "id": "asana-go-back",
@@ -235,7 +300,12 @@
     },
     "mac": "[",
     "windows": "[",
-    "pinyin": "fan hui fanhui f h fh"
+    "pinyin": "fan hui fanhui f h fh fan hui fanhui f h fh",
+    "linux": "[",
+    "keywords": [
+      "返回",
+      "Go Back"
+    ]
   },
   {
     "id": "asana-search",
@@ -252,7 +322,12 @@
     },
     "mac": "/",
     "windows": "/",
-    "pinyin": "sou suo sousuo s s ss"
+    "pinyin": "sou suo sousuo s s ss sou suo sousuo s s ss",
+    "linux": "/",
+    "keywords": [
+      "搜索",
+      "Search"
+    ]
   },
   {
     "id": "asana-my-workspace",
@@ -269,7 +344,12 @@
     },
     "mac": "G then W",
     "windows": "G then W",
-    "pinyin": "wo de gong zuo qu wodegongzuoqu w d g z q wdgzq"
+    "pinyin": "wo de gong zuo qu wodegongzuoqu w d g z q wdgzq wo de gong zuo qu wodegongzuoqu w d g z q wdgzq",
+    "linux": "G then W",
+    "keywords": [
+      "我的工作区",
+      "My Workspace"
+    ]
   },
   {
     "id": "asana-browse-projects",
@@ -286,7 +366,12 @@
     },
     "mac": "G then P",
     "windows": "G then P",
-    "pinyin": "liu lan xiang mu liulanxiangmu l l x m llxm"
+    "pinyin": "liu lan xiang mu liulanxiangmu l l x m llxm liu lan xiang mu liulanxiangmu l l x m llxm",
+    "linux": "G then P",
+    "keywords": [
+      "浏览项目",
+      "Browse Projects"
+    ]
   },
   {
     "id": "asana-main-nav-sidebar",
@@ -303,7 +388,12 @@
     },
     "mac": "G then S",
     "windows": "G then S",
-    "pinyin": "zhu dao hang / ce bian lan zhudaohang/cebianlan z d h / c b l zdh/cbl"
+    "pinyin": "zhu dao hang / ce bian lan zhudaohang/cebianlan z d h / c b l zdh/cbl zhu dao hang / ce bian lan zhudaohang/cebianlan z d h / c b l zdh/cbl",
+    "linux": "G then S",
+    "keywords": [
+      "主导航/侧边栏",
+      "Main Nav / Sidebar"
+    ]
   },
   {
     "id": "asana-go-my-tasks",
@@ -320,7 +410,12 @@
     },
     "mac": "G then M",
     "windows": "G then M",
-    "pinyin": "wo de ren wu woderenwu w d r w wdrw"
+    "pinyin": "wo de ren wu woderenwu w d r w wdrw wo de ren wu woderenwu w d r w wdrw",
+    "linux": "G then M",
+    "keywords": [
+      "我的任务",
+      "Go to My Tasks"
+    ]
   },
   {
     "id": "asana-go-inbox",
@@ -337,7 +432,12 @@
     },
     "mac": "G then I",
     "windows": "G then I",
-    "pinyin": "shou jian xiang shoujianxiang s j x sjx"
+    "pinyin": "shou jian xiang shoujianxiang s j x sjx shou jian xiang shoujianxiang s j x sjx",
+    "linux": "G then I",
+    "keywords": [
+      "收件箱",
+      "Go to Inbox"
+    ]
   },
   {
     "id": "asana-select-all",
@@ -354,7 +454,12 @@
     },
     "mac": "⌘ + A",
     "windows": "Ctrl + A",
-    "pinyin": "quan xuan quanxuan q x qx"
+    "pinyin": "quan xuan quanxuan q x qx quan xuan quanxuan q x qx",
+    "linux": "Ctrl + A",
+    "keywords": [
+      "全选",
+      "Select All"
+    ]
   },
   {
     "id": "asana-select-up",
@@ -371,7 +476,12 @@
     },
     "mac": "Shift + ↑",
     "windows": "Shift + ↑",
-    "pinyin": "xiang shang xuan ze xiangshangxuanze x s x z xsxz"
+    "pinyin": "xiang shang xuan ze xiangshangxuanze x s x z xsxz xiang shang xuan ze xiangshangxuanze x s x z xsxz",
+    "linux": "Shift + ↑",
+    "keywords": [
+      "向上选择",
+      "Select Upward"
+    ]
   },
   {
     "id": "asana-select-down",
@@ -388,7 +498,12 @@
     },
     "mac": "Shift + ↓",
     "windows": "Shift + ↓",
-    "pinyin": "xiang xia xuan ze xiangxiaxuanze x x x z xxxz"
+    "pinyin": "xiang xia xuan ze xiangxiaxuanze x x x z xxxz xiang xia xuan ze xiangxiaxuanze x x x z xxxz",
+    "linux": "Shift + ↓",
+    "keywords": [
+      "向下选择",
+      "Select Downward"
+    ]
   },
   {
     "id": "asana-move-between-projects",
@@ -405,7 +520,12 @@
     },
     "mac": "Tab",
     "windows": "Tab",
-    "pinyin": "kua xiang mu yi dong ren wu kuaxiangmuyidongrenwu k x m y d r w kxmydrw"
+    "pinyin": "kua xiang mu yi dong ren wu kuaxiangmuyidongrenwu k x m y d r w kxmydrw kua xiang mu yi dong ren wu kuaxiangmuyidongrenwu k x m y d r w kxmydrw",
+    "linux": "Tab",
+    "keywords": [
+      "跨项目移动任务",
+      "Move Task Between Projects"
+    ]
   },
   {
     "id": "asana-add-to-multiple-projects",
@@ -422,7 +542,12 @@
     },
     "mac": "⌘ + Tab",
     "windows": "Ctrl + Tab",
-    "pinyin": "tian jia dao duo ge xiang mu tianjiadaoduogexiangmu t j d d g x m tjddgxm"
+    "pinyin": "tian jia dao duo ge xiang mu tianjiadaoduogexiangmu t j d d g x m tjddgxm tian jia dao duo ge xiang mu tianjiadaoduogexiangmu t j d d g x m tjddgxm",
+    "linux": "Ctrl + Tab",
+    "keywords": [
+      "添加到多个项目",
+      "Add to Multiple Projects"
+    ]
   },
   {
     "id": "asana-copy-across-projects",
@@ -439,7 +564,12 @@
     },
     "mac": "⌘ + D",
     "windows": "Ctrl + D",
-    "pinyin": "kua xiang mu fu zhi ren wu kuaxiangmufuzhirenwu k x m f z r w kxmfzrw"
+    "pinyin": "kua xiang mu fu zhi ren wu kuaxiangmufuzhirenwu k x m f z r w kxmfzrw kua xiang mu fu zhi ren wu kuaxiangmufuzhirenwu k x m f z r w kxmfzrw",
+    "linux": "Ctrl + D",
+    "keywords": [
+      "跨项目复制任务",
+      "Copy Task Across Projects"
+    ]
   },
   {
     "id": "asana-remove-from-project",
@@ -456,6 +586,11 @@
     },
     "mac": "⌘ + Delete",
     "windows": "Ctrl + Delete",
-    "pinyin": "cong xiang mu zhong yi chu ren wu congxiangmuzhongyichurenwu c x m z y c r w cxmzycrw"
+    "pinyin": "cong xiang mu zhong yi chu ren wu congxiangmuzhongyichurenwu c x m z y c r w cxmzycrw cong xiang mu zhong yi chu ren wu congxiangmuzhongyichurenwu c x m z y c r w cxmzycrw",
+    "linux": "Ctrl + Delete",
+    "keywords": [
+      "从项目中移除任务",
+      "Remove Task from Project"
+    ]
   }
 ]

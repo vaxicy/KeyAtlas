@@ -14,7 +14,12 @@
     },
     "windows": "Space + 拖动 / 鼠标中键",
     "mac": "Space + 拖动 / 鼠标中键",
-    "pinyin": "ping yi hua bu pingyihuabu p y h b pyhb"
+    "pinyin": "ping yi hua bu pingyihuabu p y h b pyhb ping yi hua bu pingyihuabu p y h b pyhb",
+    "linux": "Space + 拖动 / 鼠标中键",
+    "keywords": [
+      "平移画布",
+      "Pan Canvas"
+    ]
   },
   {
     "id": "toonboom-rotate-canvas",
@@ -31,7 +36,12 @@
     },
     "windows": "Ctrl + Alt + 拖动",
     "mac": "⌘ + Option + 拖动",
-    "pinyin": "xuan zhuan hua bu xuanzhuanhuabu x z h b xzhb"
+    "pinyin": "xuan zhuan hua bu xuanzhuanhuabu x z h b xzhb xuan zhuan hua bu xuanzhuanhuabu x z h b xzhb",
+    "linux": "Ctrl + Alt + 拖动",
+    "keywords": [
+      "旋转画布",
+      "Rotate Canvas"
+    ]
   },
   {
     "id": "toonboom-reset-view",
@@ -48,7 +58,12 @@
     },
     "windows": "Shift + X",
     "mac": "Shift + X",
-    "pinyin": "shi tu fu wei shitufuwei s t f w stfw"
+    "pinyin": "shi tu fu wei shitufuwei s t f w stfw shi tu fu wei shitufuwei s t f w stfw",
+    "linux": "Shift + X",
+    "keywords": [
+      "视图复位",
+      "Reset View"
+    ]
   },
   {
     "id": "toonboom-zoom-out",
@@ -65,7 +80,12 @@
     },
     "windows": "1",
     "mac": "1",
-    "pinyin": "suo xiao shi tu suoxiaoshitu s x s t sxst"
+    "pinyin": "suo xiao shi tu suoxiaoshitu s x s t sxst suo xiao shi tu suoxiaoshitu s x s t sxst",
+    "linux": "1",
+    "keywords": [
+      "缩小视图",
+      "Zoom Out"
+    ]
   },
   {
     "id": "toonboom-zoom-in",
@@ -82,7 +102,12 @@
     },
     "windows": "2",
     "mac": "2",
-    "pinyin": "fang da shi tu fangdashitu f d s t fdst"
+    "pinyin": "fang da shi tu fangdashitu f d s t fdst fang da shi tu fangdashitu f d s t fdst",
+    "linux": "2",
+    "keywords": [
+      "放大视图",
+      "Zoom In"
+    ]
   },
   {
     "id": "toonboom-lasso-tool",
@@ -99,7 +124,12 @@
     },
     "windows": "Alt (临时套索) / Ctrl (临时选择)",
     "mac": "Option (临时套索) / ⌘ (临时选择)",
-    "pinyin": "tao suo / xuan ze gong ju taosuo/xuanzegongju t s / x z g j ts/xzgj"
+    "pinyin": "tao suo / xuan ze gong ju taosuo/xuanzegongju t s / x z g j ts/xzgj tao suo / xuan ze gong ju taosuo/xuanzegongju t s / x z g j ts/xzgj",
+    "linux": "Alt (临时套索) / Ctrl (临时选择)",
+    "keywords": [
+      "套索/选择工具",
+      "Lasso / Select Tool"
+    ]
   },
   {
     "id": "toonboom-brush-tool",
@@ -116,7 +146,12 @@
     },
     "windows": "Alt + B / Alt + N",
     "mac": "Option + B / Option + N",
-    "pinyin": "hua bi / qian bi gong ju huabi/qianbigongju h b / q b g j hb/qbgj"
+    "pinyin": "hua bi / qian bi gong ju huabi/qianbigongju h b / q b g j hb/qbgj hua bi / qian bi gong ju huabi/qianbigongju h b / q b g j hb/qbgj",
+    "linux": "Alt + B / Alt + N",
+    "keywords": [
+      "画笔/铅笔工具",
+      "Brush / Pencil Tool"
+    ]
   },
   {
     "id": "toonboom-brush-size-decrease",
@@ -133,7 +168,12 @@
     },
     "windows": "[",
     "mac": "[",
-    "pinyin": "suo xiao bi shua suoxiaobishua s x b s sxbs"
+    "pinyin": "suo xiao bi shua suoxiaobishua s x b s sxbs suo xiao bi shua suoxiaobishua s x b s sxbs",
+    "linux": "[",
+    "keywords": [
+      "缩小笔刷",
+      "Decrease Brush Size"
+    ]
   },
   {
     "id": "toonboom-brush-size-increase",
@@ -150,7 +190,12 @@
     },
     "windows": "]",
     "mac": "]",
-    "pinyin": "fang da bi shua fangdabishua f d b s fdbs"
+    "pinyin": "fang da bi shua fangdabishua f d b s fdbs fang da bi shua fangdabishua f d b s fdbs",
+    "linux": "]",
+    "keywords": [
+      "放大笔刷",
+      "Increase Brush Size"
+    ]
   },
   {
     "id": "toonboom-paint-bucket",
@@ -167,7 +212,12 @@
     },
     "windows": "Alt + T / Alt + C",
     "mac": "Option + T / Option + C",
-    "pinyin": "zi dong tian chong ( you qi tong / qie ge gong ju ) zidongtianchong(youqitong/qiegegongju) z d t c ( y q t / q g g j ) zdtc(yqt/qggj)"
+    "pinyin": "zi dong tian chong ( you qi tong / qie ge gong ju ) zidongtianchong(youqitong/qiegegongju) z d t c ( y q t / q g g j ) zdtc(yqt/qggj) zi dong tian chong ( you qi tong / qie ge gong ju ) zidongtianchong(youqitong/qiegegongju) z d t c ( y q t / q g g j ) zdtc(yqt/qggj)",
+    "linux": "Alt + T / Alt + C",
+    "keywords": [
+      "自动填充(油漆桶/切割工具)",
+      "Auto Fill (Paint Bucket / Cutter)"
+    ]
   },
   {
     "id": "toonboom-play-pause",
@@ -184,7 +234,12 @@
     },
     "windows": "空格",
     "mac": "空格",
-    "pinyin": "bo fang / zan ting bofang/zanting b f / z t bf/zt"
+    "pinyin": "bo fang / zan ting bofang/zanting b f / z t bf/zt bo fang / zan ting bofang/zanting b f / z t bf/zt",
+    "linux": "空格",
+    "keywords": [
+      "播放/暂停",
+      "Play / Pause"
+    ]
   },
   {
     "id": "toonboom-prev-frame",
@@ -201,7 +256,12 @@
     },
     "windows": ",",
     "mac": ",",
-    "pinyin": "shang yi zhen shangyizhen s y z syz"
+    "pinyin": "shang yi zhen shangyizhen s y z syz shang yi zhen shangyizhen s y z syz",
+    "linux": ",",
+    "keywords": [
+      "上一帧",
+      "Previous Frame"
+    ]
   },
   {
     "id": "toonboom-next-frame",
@@ -218,7 +278,12 @@
     },
     "windows": ".",
     "mac": ".",
-    "pinyin": "xia yi zhen xiayizhen x y z xyz"
+    "pinyin": "xia yi zhen xiayizhen x y z xyz xia yi zhen xiayizhen x y z xyz",
+    "linux": ".",
+    "keywords": [
+      "下一帧",
+      "Next Frame"
+    ]
   },
   {
     "id": "toonboom-add-keyframe",
@@ -235,7 +300,12 @@
     },
     "windows": "F6",
     "mac": "F6",
-    "pinyin": "tian jia guan jian zhen tianjiaguanjianzhen t j g j z tjgjz"
+    "pinyin": "tian jia guan jian zhen tianjiaguanjianzhen t j g j z tjgjz tian jia guan jian zhen tianjiaguanjianzhen t j g j z tjgjz",
+    "linux": "F6",
+    "keywords": [
+      "添加关键帧",
+      "Add Keyframe"
+    ]
   },
   {
     "id": "toonboom-clear-keyframe",
@@ -252,7 +322,12 @@
     },
     "windows": "F7",
     "mac": "F7",
-    "pinyin": "qing chu guan jian zhen qingchuguanjianzhen q c g j z qcgjz"
+    "pinyin": "qing chu guan jian zhen qingchuguanjianzhen q c g j z qcgjz qing chu guan jian zhen qingchuguanjianzhen q c g j z qcgjz",
+    "linux": "F7",
+    "keywords": [
+      "清除关键帧",
+      "Clear Keyframe"
+    ]
   },
   {
     "id": "toonboom-expand-collapse-layer",
@@ -269,6 +344,11 @@
     },
     "windows": "Ctrl + I",
     "mac": "⌘ + I",
-    "pinyin": "zhan kai / zhe die tu ceng zhankai/zhedietuceng z k / z d t c zk/zdtc"
+    "pinyin": "zhan kai / zhe die tu ceng zhankai/zhedietuceng z k / z d t c zk/zdtc zhan kai / zhe die tu ceng zhankai/zhedietuceng z k / z d t c zk/zdtc",
+    "linux": "Ctrl + I",
+    "keywords": [
+      "展开/折叠图层",
+      "Expand / Collapse Layer"
+    ]
   }
 ]

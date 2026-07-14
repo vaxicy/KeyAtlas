@@ -1,0 +1,625 @@
+[
+  {
+    "id": "vegas-new",
+    "appId": "vegas",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "新建",
+      "en": "New"
+    },
+    "description": {
+      "zh": "新建",
+      "en": "New"
+    },
+    "windows": "Ctrl + N",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "新建",
+      "new"
+    ],
+    "pinyin": "xin jian xinjian x j xj xin jian xinjian x j xj"
+  },
+  {
+    "id": "vegas-open",
+    "appId": "vegas",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "打开",
+      "en": "Open"
+    },
+    "description": {
+      "zh": "打开",
+      "en": "Open"
+    },
+    "windows": "Ctrl + O",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "打开",
+      "open"
+    ],
+    "pinyin": "da kai dakai d k dk da kai dakai d k dk"
+  },
+  {
+    "id": "vegas-save",
+    "appId": "vegas",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "保存",
+      "en": "Save"
+    },
+    "description": {
+      "zh": "保存",
+      "en": "Save"
+    },
+    "windows": "Ctrl + S",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "保存",
+      "save"
+    ],
+    "pinyin": "bao cun baocun b c bc bao cun baocun b c bc"
+  },
+  {
+    "id": "vegas-save-as",
+    "appId": "vegas",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "另存为",
+      "en": "Save As"
+    },
+    "description": {
+      "zh": "另存为",
+      "en": "Save As"
+    },
+    "windows": "Ctrl + Shift + S",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "另存为",
+      "save as"
+    ],
+    "pinyin": "ling cun wei lingcunwei l c w lcw ling cun wei lingcunwei l c w lcw"
+  },
+  {
+    "id": "vegas-undo",
+    "appId": "vegas",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "vegas-redo",
+    "appId": "vegas",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "windows": "Ctrl + Shift + Z",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "重做",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "vegas-cut",
+    "appId": "vegas",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "剪切",
+      "en": "Cut"
+    },
+    "description": {
+      "zh": "剪切",
+      "en": "Cut"
+    },
+    "windows": "Ctrl + X",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "剪切",
+      "cut"
+    ],
+    "pinyin": "jian qie jianqie j q jq jian qie jianqie j q jq"
+  },
+  {
+    "id": "vegas-copy",
+    "appId": "vegas",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "复制",
+      "en": "Copy"
+    },
+    "description": {
+      "zh": "复制",
+      "en": "Copy"
+    },
+    "windows": "Ctrl + C",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "复制",
+      "copy"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "vegas-paste",
+    "appId": "vegas",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "粘贴",
+      "en": "Paste"
+    },
+    "description": {
+      "zh": "粘贴",
+      "en": "Paste"
+    },
+    "windows": "Ctrl + V",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "粘贴",
+      "paste"
+    ],
+    "pinyin": "nian tie niantie n t nt nian tie niantie n t nt"
+  },
+  {
+    "id": "vegas-delete",
+    "appId": "vegas",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "删除",
+      "en": "Delete"
+    },
+    "description": {
+      "zh": "删除",
+      "en": "Delete"
+    },
+    "windows": "Delete",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "删除",
+      "delete"
+    ],
+    "pinyin": "shan chu shanchu s c sc shan chu shanchu s c sc"
+  },
+  {
+    "id": "vegas-select-all",
+    "appId": "vegas",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "全选",
+      "en": "Select All"
+    },
+    "description": {
+      "zh": "全选",
+      "en": "Select All"
+    },
+    "windows": "Ctrl + A",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "全选",
+      "select all"
+    ],
+    "pinyin": "quan xuan quanxuan q x qx quan xuan quanxuan q x qx"
+  },
+  {
+    "id": "vegas-play---pause",
+    "appId": "vegas",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "播放 / 暂停",
+      "en": "Play / Pause"
+    },
+    "description": {
+      "zh": "播放 / 暂停",
+      "en": "Play / Pause"
+    },
+    "windows": "Space",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "播放",
+      "play",
+      "暂停",
+      "pause"
+    ],
+    "pinyin": "bo fang   /   zan ting bofang / zanting b f   /   z t bf / zt bo fang   zan ting bofang zanting b f   z t bf zt"
+  },
+  {
+    "id": "vegas-split-at-cursor",
+    "appId": "vegas",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "在光标处拆分",
+      "en": "Split at Cursor"
+    },
+    "description": {
+      "zh": "在光标处拆分",
+      "en": "Split at Cursor"
+    },
+    "windows": "S",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "拆分",
+      "split",
+      "切割"
+    ],
+    "pinyin": "zai guang biao chu chai fen zaiguangbiaochuchaifen z g b c c f zgbccf chai fen   qie ge chaifen qiege c f   q g cf qg"
+  },
+  {
+    "id": "vegas-zoom-in",
+    "appId": "vegas",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "放大时间轴",
+      "en": "Zoom In"
+    },
+    "description": {
+      "zh": "放大时间轴",
+      "en": "Zoom In"
+    },
+    "windows": "Ctrl + +",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "放大",
+      "zoom in"
+    ],
+    "pinyin": "fang da shi jian zhou fangdashijianzhou f d s j z fdsjz fang da fangda f d fd"
+  },
+  {
+    "id": "vegas-zoom-out",
+    "appId": "vegas",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "缩小时间轴",
+      "en": "Zoom Out"
+    },
+    "description": {
+      "zh": "缩小时间轴",
+      "en": "Zoom Out"
+    },
+    "windows": "Ctrl + -",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "缩小",
+      "zoom out"
+    ],
+    "pinyin": "suo xiao shi jian zhou suoxiaoshijianzhou s x s j z sxsjz suo xiao suoxiao s x sx"
+  },
+  {
+    "id": "vegas-zoom-to-fit",
+    "appId": "vegas",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "缩放适配",
+      "en": "Zoom to Fit"
+    },
+    "description": {
+      "zh": "缩放适配",
+      "en": "Zoom to Fit"
+    },
+    "windows": "Ctrl + \\",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "适配",
+      "fit",
+      "缩放"
+    ],
+    "pinyin": "suo fang shi pei suofangshipei s f s p sfsp shi pei   suo fang shipei suofang s p   s f sp sf"
+  },
+  {
+    "id": "vegas-mute",
+    "appId": "vegas",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "静音",
+      "en": "Mute"
+    },
+    "description": {
+      "zh": "静音",
+      "en": "Mute"
+    },
+    "windows": "M",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "静音",
+      "mute"
+    ],
+    "pinyin": "jing yin jingyin j y jy jing yin jingyin j y jy"
+  },
+  {
+    "id": "vegas-render---export",
+    "appId": "vegas",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "渲染 / 导出",
+      "en": "Render / Export"
+    },
+    "description": {
+      "zh": "渲染 / 导出",
+      "en": "Render / Export"
+    },
+    "windows": "Ctrl + M",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "渲染",
+      "render",
+      "导出",
+      "export"
+    ],
+    "pinyin": "xuan ran   /   dao chu xuanran / daochu x r   /   d c xr / dc xuan ran   dao chu xuanran daochu x r   d c xr dc"
+  },
+  {
+    "id": "vegas-project-properties",
+    "appId": "vegas",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "工程属性",
+      "en": "Project Properties"
+    },
+    "description": {
+      "zh": "工程属性",
+      "en": "Project Properties"
+    },
+    "windows": "Alt + Enter",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "工程属性",
+      "project properties"
+    ],
+    "pinyin": "gong cheng shu xing gongchengshuxing g c s x gcsx gong cheng shu xing gongchengshuxing g c s x gcsx"
+  },
+  {
+    "id": "vegas-preferences",
+    "appId": "vegas",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "偏好设置",
+      "en": "Preferences"
+    },
+    "description": {
+      "zh": "偏好设置",
+      "en": "Preferences"
+    },
+    "windows": "Ctrl + Shift + P",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "偏好",
+      "preferences",
+      "设置"
+    ],
+    "pinyin": "pian hao she zhi pianhaoshezhi p h s z phsz pian hao   she zhi pianhao shezhi p h   s z ph sz"
+  },
+  {
+    "id": "vegas-mark-in",
+    "appId": "vegas",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "标记入点",
+      "en": "Mark In"
+    },
+    "description": {
+      "zh": "标记入点",
+      "en": "Mark In"
+    },
+    "windows": "I",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "入点",
+      "mark in"
+    ],
+    "pinyin": "biao ji ru dian biaojirudian b j r d bjrd ru dian rudian r d rd"
+  },
+  {
+    "id": "vegas-mark-out",
+    "appId": "vegas",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "标记出点",
+      "en": "Mark Out"
+    },
+    "description": {
+      "zh": "标记出点",
+      "en": "Mark Out"
+    },
+    "windows": "O",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "出点",
+      "mark out"
+    ],
+    "pinyin": "biao ji chu dian biaojichudian b j c d bjcd chu dian chudian c d cd"
+  },
+  {
+    "id": "vegas-go-to-start",
+    "appId": "vegas",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "跳到开头",
+      "en": "Go to Start"
+    },
+    "description": {
+      "zh": "跳到开头",
+      "en": "Go to Start"
+    },
+    "windows": "Home",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "开头",
+      "start"
+    ],
+    "pinyin": "tiao dao kai tou tiaodaokaitou t d k t tdkt kai tou kaitou k t kt"
+  },
+  {
+    "id": "vegas-go-to-end",
+    "appId": "vegas",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "跳到结尾",
+      "en": "Go to End"
+    },
+    "description": {
+      "zh": "跳到结尾",
+      "en": "Go to End"
+    },
+    "windows": "End",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "结尾",
+      "end"
+    ],
+    "pinyin": "tiao dao jie wei tiaodaojiewei t d j w tdjw jie wei jiewei j w jw"
+  },
+  {
+    "id": "vegas-group",
+    "appId": "vegas",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "编组",
+      "en": "Group"
+    },
+    "description": {
+      "zh": "编组",
+      "en": "Group"
+    },
+    "windows": "G",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "编组",
+      "group"
+    ],
+    "pinyin": "bian zu bianzu b z bz bian zu bianzu b z bz"
+  },
+  {
+    "id": "vegas-ungroup",
+    "appId": "vegas",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "取消编组",
+      "en": "Ungroup"
+    },
+    "description": {
+      "zh": "取消编组",
+      "en": "Ungroup"
+    },
+    "windows": "U",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "取消编组",
+      "ungroup"
+    ],
+    "pinyin": "qu xiao bian zu quxiaobianzu q x b z qxbz qu xiao bian zu quxiaobianzu q x b z qxbz"
+  },
+  {
+    "id": "vegas-insert-video-track",
+    "appId": "vegas",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "插入视频轨道",
+      "en": "Insert Video Track"
+    },
+    "description": {
+      "zh": "插入视频轨道",
+      "en": "Insert Video Track"
+    },
+    "windows": "Ctrl + Shift + Q",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "视频轨道",
+      "video track"
+    ],
+    "pinyin": "cha ru shi pin gui dao charushipinguidao c r s p g d crspgd shi pin gui dao shipinguidao s p g d spgd"
+  },
+  {
+    "id": "vegas-insert-audio-track",
+    "appId": "vegas",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "插入音频轨道",
+      "en": "Insert Audio Track"
+    },
+    "description": {
+      "zh": "插入音频轨道",
+      "en": "Insert Audio Track"
+    },
+    "windows": "Ctrl + Shift + A",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "音频轨道",
+      "audio track"
+    ],
+    "pinyin": "cha ru yin pin gui dao charuyinpinguidao c r y p g d crypgd yin pin gui dao yinpinguidao y p g d ypgd"
+  }
+]

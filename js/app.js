@@ -23,7 +23,9 @@
   const OS_META = {
     windows: { icon: "🪟", key: "os_windows" },
     mac: { icon: "🍎", key: "os_mac" },
-    linux: { icon: "🐧", key: "os_linux" }
+    linux: { icon: "🐧", key: "os_linux" },
+    chromeos: { icon: "🖥️", key: "os_chromeos" },
+    ios: { icon: "📱", key: "os_ios" }
   };
 
   const VERSION = "1.0.0";
@@ -412,10 +414,15 @@
 
     // Group views
     if (state.catView === "system") {
-      const tiles = ["windows", "mac", "linux"]
-        .map((id) => {
-          const m = OS_META[id];
-          return `<div class="cat-tile" data-drill="os:${id}"><span class="cat-emoji">${m.icon}</span><div class="cat-info"><span class="cat-name">${t[m.key]}</span></div></div>`;
+      const sysApps = DataStore.apps.filter((a) => a.type === "system");
+      const tiles = sysApps
+        .map((a) => {
+          // 三大桌面 OS 走 os: 下钻（按平台字段过滤），其余系统应用（ChromeOS/iOS）走 app: 下钻（显示全部快捷键）
+          const isPlatformOS = ["windows", "mac", "linux"].includes(a.id);
+          const drill = isPlatformOS ? `os:${a.id}` : `app:${a.id}`;
+          const m = OS_META[a.id] || { icon: a.icon, key: null };
+          const label = m.key ? t[m.key] : i18n.pick(a.name);
+          return `<div class="cat-tile" data-drill="${drill}"><span class="cat-emoji">${m.icon || a.icon}</span><div class="cat-info"><span class="cat-name">${label}</span></div></div>`;
         })
         .join("");
       el.content.innerHTML = subheadHTML(t.grpSystem) + `<div class="cat-list">${tiles}</div>`;

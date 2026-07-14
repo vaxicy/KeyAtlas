@@ -2,6 +2,7 @@
   { "id": "windows",  "name": { "zh": "Windows",        "en": "Windows" },        "category": "system",       "icon": "🪟", "type": "system", "file": "windows.json", "source": "official" },
   { "id": "macos",    "name": { "zh": "macOS",          "en": "macOS" },          "category": "system",       "icon": "🍎", "type": "system", "file": "macos.json", "source": "official" },
   { "id": "linux",    "name": { "zh": "Linux",          "en": "Linux" },          "category": "system",       "icon": "🐧", "type": "system", "file": "linux.json", "source": "official" },
+  { "id": "chromeos", "name": { "zh": "ChromeOS",       "en": "ChromeOS" },       "category": "system",       "icon": "🖥️", "type": "system", "file": "chromeos.json", "source": "official" },
   { "id": "chrome",   "name": { "zh": "Chrome",         "en": "Chrome" },         "category": "browser",      "icon": "🌐", "type": "software", "popular": true, "file": "chrome.json", "source": "official" },
   { "id": "devtools", "name": { "zh": "Chrome DevTools","en": "Chrome DevTools" },"category": "development",   "icon": "🛠️", "type": "software", "file": "devtools.json", "source": "official" },
   { "id": "figma",    "name": { "zh": "Figma",          "en": "Figma" },          "category": "design",       "icon": "🎨", "type": "software", "popular": true, "file": "figma.json", "source": "community" },

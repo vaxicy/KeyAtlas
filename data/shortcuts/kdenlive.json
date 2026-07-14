@@ -1,0 +1,1109 @@
+[
+  {
+    "id": "kdenlive-new-project",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "新建项目",
+      "en": "New Project"
+    },
+    "shortcut": {
+      "mac": "⌘ + N",
+      "windows": "Ctrl + N",
+      "linux": "Ctrl + N"
+    },
+    "pinyin": "xin jian xiang mu xinjianxiangmu x j x m xjxm"
+  },
+  {
+    "id": "kdenlive-open",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "打开…",
+      "en": "Open…"
+    },
+    "shortcut": {
+      "mac": "⌘ + O",
+      "windows": "Ctrl + O",
+      "linux": "Ctrl + O"
+    },
+    "pinyin": "da kai … dakai… d k … dk…"
+  },
+  {
+    "id": "kdenlive-save",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "保存",
+      "en": "Save"
+    },
+    "shortcut": {
+      "mac": "⌘ + S",
+      "windows": "Ctrl + S",
+      "linux": "Ctrl + S"
+    },
+    "pinyin": "bao cun baocun b c bc"
+  },
+  {
+    "id": "kdenlive-save-as",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "另存为…",
+      "en": "Save As…"
+    },
+    "shortcut": {
+      "mac": "⌘ + Shift + S",
+      "windows": "Ctrl + Shift + S",
+      "linux": "Ctrl + Shift + S"
+    },
+    "pinyin": "ling cun wei … lingcunwei… l c w … lcw…"
+  },
+  {
+    "id": "kdenlive-close",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "关闭",
+      "en": "Close"
+    },
+    "shortcut": {
+      "mac": "",
+      "windows": "Ctrl + Q",
+      "linux": "Ctrl + Q"
+    },
+    "pinyin": "guan bi guanbi g b gb"
+  },
+  {
+    "id": "kdenlive-undo",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "撤销 / 撤回",
+      "en": "Undo"
+    },
+    "shortcut": {
+      "mac": "⌘ + Z",
+      "windows": "Ctrl + Z",
+      "linux": "Ctrl + Z"
+    },
+    "pinyin": "che xiao   /   che hui chexiao / chehui c x   /   c h cx / ch"
+  },
+  {
+    "id": "kdenlive-redo",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "shortcut": {
+      "mac": "⌘ + Y",
+      "windows": "Ctrl + Y",
+      "linux": "Ctrl + Y"
+    },
+    "pinyin": "zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "kdenlive-cut",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "剪切",
+      "en": "Cut"
+    },
+    "shortcut": {
+      "mac": "⌘ + X",
+      "windows": "Ctrl + X",
+      "linux": "Ctrl + X"
+    },
+    "pinyin": "jian qie jianqie j q jq"
+  },
+  {
+    "id": "kdenlive-copy",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "复制",
+      "en": "Copy"
+    },
+    "shortcut": {
+      "mac": "⌘ + C",
+      "windows": "Ctrl + C",
+      "linux": "Ctrl + C"
+    },
+    "pinyin": "fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "kdenlive-paste",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "粘贴 / 插入",
+      "en": "Paste / Paste Insert"
+    },
+    "shortcut": {
+      "mac": "⌘ + V",
+      "windows": "Ctrl + V",
+      "linux": "Ctrl + V"
+    },
+    "pinyin": "nian tie   /   cha ru niantie / charu n t   /   c r nt / cr"
+  },
+  {
+    "id": "kdenlive-paste-insert",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "选择性粘贴 / 粘贴插入",
+      "en": "Paste Insert (Ripple)"
+    },
+    "shortcut": {
+      "mac": "⌘ + Shift + V",
+      "windows": "Ctrl + Shift + V",
+      "linux": "Ctrl + Shift + V"
+    },
+    "pinyin": "xuan ze xing nian tie   /   nian tie cha ru xuanzexingniantie / niantiecharu x z x n t   /   n t c r xzxnt / ntcr"
+  },
+  {
+    "id": "kdenlive-select-all",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "全选",
+      "en": "Select All"
+    },
+    "shortcut": {
+      "mac": "⌘ + A",
+      "windows": "Ctrl + A",
+      "linux": "Ctrl + A"
+    },
+    "pinyin": "quan xuan quanxuan q x qx"
+  },
+  {
+    "id": "kdenlive-fullscreen",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "全屏模式",
+      "en": "Fullscreen Mode"
+    },
+    "shortcut": {
+      "mac": "F11",
+      "windows": "F11",
+      "linux": "F11"
+    },
+    "pinyin": "quan ping mo shi quanpingmoshi q p m s qpms"
+  },
+  {
+    "id": "kdenlive-toggle-zoom",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "切换全屏幕或缩放",
+      "en": "Toggle Fullscreen/Zoom"
+    },
+    "shortcut": {
+      "mac": "⌘ + Shift + /",
+      "windows": "Ctrl + Shift + /",
+      "linux": "Ctrl + Shift + /"
+    },
+    "pinyin": "qie huan quan ping mu huo suo fang qiehuanquanpingmuhuosuofang q h q p m h s f qhqpmhsf"
+  },
+  {
+    "id": "kdenlive-delete",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "删除所选",
+      "en": "Delete Selection"
+    },
+    "shortcut": {
+      "mac": "Delete",
+      "windows": "Delete",
+      "linux": "Delete"
+    },
+    "pinyin": "shan chu suo xuan shanchusuoxuan s c s x scsx"
+  },
+  {
+    "id": "kdenlive-play-pause",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "播放 / 暂停",
+      "en": "Play / Pause"
+    },
+    "shortcut": {
+      "mac": "Space / K",
+      "windows": "Space / K",
+      "linux": "Space / K"
+    },
+    "pinyin": "bo fang   /   zan ting bofang / zanting b f   /   z t bf / zt"
+  },
+  {
+    "id": "kdenlive-stop",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "停止",
+      "en": "Stop"
+    },
+    "shortcut": {
+      "mac": ".",
+      "windows": ".",
+      "linux": "."
+    },
+    "pinyin": "ting zhi tingzhi t z tz"
+  },
+  {
+    "id": "kdenlive-rewind",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "快退",
+      "en": "Rewind"
+    },
+    "shortcut": {
+      "mac": "J / ←",
+      "windows": "J / ←",
+      "linux": "J / ←"
+    },
+    "pinyin": "kuai tui kuaitui k t kt"
+  },
+  {
+    "id": "kdenlive-forward",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "快进",
+      "en": "Fast Forward"
+    },
+    "shortcut": {
+      "mac": "L / →",
+      "windows": "L / →",
+      "linux": "L / →"
+    },
+    "pinyin": "kuai jin kuaijin k j kj"
+  },
+  {
+    "id": "kdenlive-go-start",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "跳转到开始",
+      "en": "Go to Start of Project"
+    },
+    "shortcut": {
+      "mac": "Home",
+      "windows": "Home",
+      "linux": "Home"
+    },
+    "pinyin": "tiao zhuan dao kai shi tiaozhuandaokaishi t z d k s tzdks"
+  },
+  {
+    "id": "kdenlive-go-end",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "跳转到结尾",
+      "en": "Go to End of Project"
+    },
+    "shortcut": {
+      "mac": "End",
+      "windows": "End",
+      "linux": "End"
+    },
+    "pinyin": "tiao zhuan dao jie wei tiaozhuandaojiewei t z d j w tzdjw"
+  },
+  {
+    "id": "kdenlive-prev-frame",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "上一帧",
+      "en": "Previous Frame"
+    },
+    "shortcut": {
+      "mac": "←",
+      "windows": "Left",
+      "linux": "Left"
+    },
+    "pinyin": "shang yi zhen shangyizhen s y z syz"
+  },
+  {
+    "id": "kdenlive-next-frame",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "下一帧",
+      "en": "Next Frame"
+    },
+    "shortcut": {
+      "mac": "→",
+      "windows": "Right",
+      "linux": "Right"
+    },
+    "pinyin": "xia yi zhen xiayizhen x y z xyz"
+  },
+  {
+    "id": "kdenlive-prev-clip",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "上一剪辑",
+      "en": "Previous Clip on Timeline"
+    },
+    "shortcut": {
+      "mac": "Page Up",
+      "windows": "Page Up",
+      "linux": "Page Up"
+    },
+    "pinyin": "shang yi jian ji shangyijianji s y j j syjj"
+  },
+  {
+    "id": "kdenlive-next-clip",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "下一剪辑",
+      "en": "Next Clip on Timeline"
+    },
+    "shortcut": {
+      "mac": "Page Down",
+      "windows": "Page Down",
+      "linux": "Page Down"
+    },
+    "pinyin": "xia yi jian ji xiayijianji x y j j xyjj"
+  },
+  {
+    "id": "kdenlive-jump-prev-edit",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "跳到上一个编辑点",
+      "en": "Jump to Last Edit Point"
+    },
+    "shortcut": {
+      "mac": "Shift + ←",
+      "windows": "Shift + Left",
+      "linux": "Shift + Left"
+    },
+    "pinyin": "tiao dao shang yi ge bian ji dian tiaodaoshangyigebianjidian t d s y g b j d tdsygbjd"
+  },
+  {
+    "id": "kdenlive-jump-next-edit",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "跳到下一个编辑点",
+      "en": "Jump to Next Edit Point"
+    },
+    "shortcut": {
+      "mac": "Shift + →",
+      "windows": "Shift + Right",
+      "linux": "Shift + Right"
+    },
+    "pinyin": "tiao dao xia yi ge bian ji dian tiaodaoxiayigebianjidian t d x y g b j d tdxygbjd"
+  },
+  {
+    "id": "kdenlive-zoom-timeline",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "u7f29放时间轴 (+/-)",
+      "en": "Zoom Timeline (+/-)"
+    },
+    "keywords": [
+      "按住 Ctrl+滚轮 或 +/- 键缩放时间轴视图"
+    ],
+    "shortcut": {
+      "mac": "+ / -",
+      "windows": "+ / -",
+      "linux": "+ / -"
+    },
+    "pinyin": "u 7 f 2 9 fang shi jian zhou   ( + / - ) u7f29fangshijianzhou (+/-) u 7 f 2 9 f s j z   ( + / - ) u7f29fsjz (+/-) an zhu   c t r l + gun lun   huo   + / -   jian suo fang shi jian zhou shi tu anzhu ctrl+gunlun huo +/- jiansuofangshijianzhoushitu a z   c t r l + g l   h   + / -   j s f s j z s t az ctrl+gl h +/- jsfsjzst"
+  },
+  {
+    "id": "kdenlive-import",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "导入文件",
+      "en": "Import Files"
+    },
+    "shortcut": {
+      "mac": "⌘ + I",
+      "windows": "Ctrl + I",
+      "linux": "Ctrl + I"
+    },
+    "pinyin": "dao ru wen jian daoruwenjian d r w j drwj"
+  },
+  {
+    "id": "kdenlive-add-to-track",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "添加素材到当前轨道",
+      "en": "Add Clip to Current Track at Cursor"
+    },
+    "shortcut": {
+      "mac": "I",
+      "windows": "I",
+      "linux": "I"
+    },
+    "pinyin": "tian jia su cai dao dang qian gui dao tianjiasucaidaodangqianguidao t j s c d d q g d tjscddqgd"
+  },
+  {
+    "id": "kdenlive-split",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "分割（在时间轴指针处）",
+      "en": "Split at Playhead"
+    },
+    "shortcut": {
+      "mac": "S",
+      "windows": "S",
+      "linux": "S"
+    },
+    "pinyin": "fen ge （ zai shi jian zhou zhi zhen chu ） fenge（zaishijianzhouzhizhenchu） f g （ z s j z z z c ） fg（zsjzzzc）"
+  },
+  {
+    "id": "kdenlive-ripple-delete",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "波涛删除（无间隙）",
+      "en": "Ripple Delete (No Gap)"
+    },
+    "shortcut": {
+      "mac": "X",
+      "windows": "X",
+      "linux": "X"
+    },
+    "pinyin": "bo tao shan chu （ wu jian xi ） botaoshanchu（wujianxi） b t s c （ w j x ） btsc（wjx）"
+  },
+  {
+    "id": "kdenlive-extract-audio-video",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "提取音频 / 视频轨道",
+      "en": "Extract Audio / Video Track"
+    },
+    "shortcut": {
+      "mac": "E",
+      "windows": "E",
+      "linux": "E"
+    },
+    "pinyin": "ti qu yin pin   /   shi pin gui dao tiquyinpin / shipinguidao t q y p   /   s p g d tqyp / spgd"
+  },
+  {
+    "id": "kdenlive-lift",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "提升（提取并留空隙）",
+      "en": "Lift (Extract & Leave Gap)"
+    },
+    "shortcut": {
+      "mac": "Shift + E",
+      "windows": "Shift + E",
+      "linux": "Shift + E"
+    },
+    "pinyin": "ti sheng （ ti qu bing liu kong xi ） tisheng（tiqubingliukongxi） t s （ t q b l k x ） ts（tqblkx）"
+  },
+  {
+    "id": "kdenlive-relink",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "重新链接片段",
+      "en": "Relink Clip"
+    },
+    "shortcut": {
+      "mac": "Shift + R",
+      "windows": "Shift + R",
+      "linux": "Shift + R"
+    },
+    "pinyin": "chong xin lian jie pian duan chongxinlianjiepianduan c x l j p d cxljpd"
+  },
+  {
+    "id": "kdenlive-group",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "组选 / 取消组选",
+      "en": "Group / Ungroup Clips"
+    },
+    "shortcut": {
+      "mac": "⌘ + G / ⌘ + Shift + G",
+      "windows": "Ctrl + G / Ctrl + Shift + G",
+      "linux": "Ctrl + G / Ctrl + Shift + G"
+    },
+    "pinyin": "zu xuan   /   qu xiao zu xuan zuxuan / quxiaozuxuan z x   /   q x z x zx / qxzx"
+  },
+  {
+    "id": "kdenlive-snap",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "吸附开关",
+      "en": "Toggle Snapping"
+    },
+    "shortcut": {
+      "mac": "N",
+      "windows": "N",
+      "linux": "N"
+    },
+    "pinyin": "xi fu kai guan xifukaiguan x f k g xfkg"
+  },
+  {
+    "id": "kdenlive-marker",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "添加标记",
+      "en": "Add Marker"
+    },
+    "shortcut": {
+      "mac": "M",
+      "windows": "M",
+      "linux": "M"
+    },
+    "pinyin": "tian jia biao ji tianjiabiaoji t j b j tjbj"
+  },
+  {
+    "id": "kdenlive-render-zone",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "添加区域渲染",
+      "en": "Add Render Zone"
+    },
+    "shortcut": {
+      "mac": "B",
+      "windows": "B",
+      "linux": "B"
+    },
+    "pinyin": "tian jia qu yu xuan ran tianjiaquyuxuanran t j q y x r tjqyxr"
+  },
+  {
+    "id": "kdenlive-toggle-vtrack1",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "切换视频轨道 1 可见性",
+      "en": "Toggle Video Track 1 Visibility"
+    },
+    "shortcut": {
+      "mac": "1",
+      "windows": "1",
+      "linux": "1"
+    },
+    "pinyin": "qie huan shi pin gui dao   1   ke jian xing qiehuanshipinguidao 1 kejianxing q h s p g d   1   k j x qhspgd 1 kjx"
+  },
+  {
+    "id": "kdenlive-toggle-vtrack2",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "切换视频轨道 2 可见性",
+      "en": "Toggle Video Track 2 Visibility"
+    },
+    "shortcut": {
+      "mac": "2",
+      "windows": "2",
+      "linux": "2"
+    },
+    "pinyin": "qie huan shi pin gui dao   2   ke jian xing qiehuanshipinguidao 2 kejianxing q h s p g d   2   k j x qhspgd 2 kjx"
+  },
+  {
+    "id": "kdenlive-toggle-vtrack3",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "切换视频轨道 3 可见性",
+      "en": "Toggle Video Track 3 Visibility"
+    },
+    "shortcut": {
+      "mac": "3",
+      "windows": "3",
+      "linux": "3"
+    },
+    "pinyin": "qie huan shi pin gui dao   3   ke jian xing qiehuanshipinguidao 3 kejianxing q h s p g d   3   k j x qhspgd 3 kjx"
+  },
+  {
+    "id": "kdenlive-toggle-vtrack4",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "切换视频轨道 4 可见性",
+      "en": "Toggle Video Track 4 Visibility"
+    },
+    "shortcut": {
+      "mac": "4",
+      "windows": "4",
+      "linux": "4"
+    },
+    "pinyin": "qie huan shi pin gui dao   4   ke jian xing qiehuanshipinguidao 4 kejianxing q h s p g d   4   k j x qhspgd 4 kjx"
+  },
+  {
+    "id": "kdenlive-toggle-vtrack5",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "切换视频轨道 5 可见性",
+      "en": "Toggle Video Track 5 Visibility"
+    },
+    "shortcut": {
+      "mac": "5",
+      "windows": "5",
+      "linux": "5"
+    },
+    "pinyin": "qie huan shi pin gui dao   5   ke jian xing qiehuanshipinguidao 5 kejianxing q h s p g d   5   k j x qhspgd 5 kjx"
+  },
+  {
+    "id": "kdenlive-toggle-vtrack6",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "切换视频轨道 6 可见性",
+      "en": "Toggle Video Track 6 Visibility"
+    },
+    "shortcut": {
+      "mac": "6",
+      "windows": "6",
+      "linux": "6"
+    },
+    "pinyin": "qie huan shi pin gui dao   6   ke jian xing qiehuanshipinguidao 6 kejianxing q h s p g d   6   k j x qhspgd 6 kjx"
+  },
+  {
+    "id": "kdenlive-toggle-vtrack7",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "切换视频轨道 7 可见性",
+      "en": "Toggle Video Track 7 Visibility"
+    },
+    "shortcut": {
+      "mac": "7",
+      "windows": "7",
+      "linux": "7"
+    },
+    "pinyin": "qie huan shi pin gui dao   7   ke jian xing qiehuanshipinguidao 7 kejianxing q h s p g d   7   k j x qhspgd 7 kjx"
+  },
+  {
+    "id": "kdenlive-toggle-vtrack8",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "切换视频轨道 8 可见性",
+      "en": "Toggle Video Track 8 Visibility"
+    },
+    "shortcut": {
+      "mac": "8",
+      "windows": "8",
+      "linux": "8"
+    },
+    "pinyin": "qie huan shi pin gui dao   8   ke jian xing qiehuanshipinguidao 8 kejianxing q h s p g d   8   k j x qhspgd 8 kjx"
+  },
+  {
+    "id": "kdenlive-toggle-vtrack9",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "切换视频轨道 9 可见性",
+      "en": "Toggle Video Track 9 Visibility"
+    },
+    "shortcut": {
+      "mac": "9",
+      "windows": "9",
+      "linux": "9"
+    },
+    "pinyin": "qie huan shi pin gui dao   9   ke jian xing qiehuanshipinguidao 9 kejianxing q h s p g d   9   k j x qhspgd 9 kjx"
+  },
+  {
+    "id": "kdenlive-lock-tracks",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "切换所有轨道锁定状态",
+      "en": "Toggle Lock All Tracks"
+    },
+    "shortcut": {
+      "mac": "Shift + L",
+      "windows": "Shift + L",
+      "linux": "Shift + L"
+    },
+    "pinyin": "qie huan suo you gui dao suo ding zhuang tai qiehuansuoyouguidaosuodingzhuangtai q h s y g d s d z t qhsygdsdzt"
+  },
+  {
+    "id": "kdenlive-move-clip",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "移动剪辑（拖拽）",
+      "en": "Move Clip (Drag)"
+    },
+    "shortcut": {
+      "mac": "Mouse Drag",
+      "windows": "Mouse Drag",
+      "linux": "Mouse Drag"
+    },
+    "pinyin": "yi dong jian ji （ tuo zhuai ） yidongjianji（tuozhuai） y d j j （ t z ） ydjj（tz）"
+  },
+  {
+    "id": "kdenlive-trim-clip",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "修剪剪辑边缘",
+      "en": "Trim Clip Edge"
+    },
+    "shortcut": {
+      "mac": "Drag Edge",
+      "windows": "Drag Edge",
+      "linux": "Drag Edge"
+    },
+    "pinyin": "xiu jian jian ji bian yuan xiujianjianjibianyuan x j j j b y xjjjby"
+  },
+  {
+    "id": "kdenlive-subtitle-track",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "创建新 subtitle 轨道",
+      "en": "Create New Subtitle Track"
+    },
+    "shortcut": {
+      "mac": "⌘ + Shift + S",
+      "windows": "Ctrl + Shift + S",
+      "linux": "Ctrl + Shift + S"
+    },
+    "pinyin": "chuang jian xin   s u b t i t l e   gui dao chuangjianxin subtitle guidao c j x   s u b t i t l e   g d cjx subtitle gd"
+  },
+  {
+    "id": "kdenlive-clip-to-top",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "将一个剪辑移到最顶层",
+      "en": "Bring Clip to Top Layer"
+    },
+    "shortcut": {
+      "mac": "Home (on clip)",
+      "windows": "Home (on clip)",
+      "linux": "Home (on clip)"
+    },
+    "pinyin": "jiang yi ge jian ji yi dao zui ding ceng jiangyigejianjiyidaozuidingceng j y g j j y d z d c jygjjydzdc"
+  },
+  {
+    "id": "kdenlive-clip-to-bottom",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "将一个剪辑移到最底层",
+      "en": "Send Clip to Bottom Layer"
+    },
+    "shortcut": {
+      "mac": "End (on clip)",
+      "windows": "End (on clip)",
+      "linux": "End (on clip)"
+    },
+    "pinyin": "jiang yi ge jian ji yi dao zui di ceng jiangyigejianjiyidaozuidiceng j y g j j y d z d c jygjjydzdc"
+  },
+  {
+    "id": "kdenlive-zoom-in",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "放大时间轴",
+      "en": "Zoom In Timeline"
+    },
+    "shortcut": {
+      "mac": "=",
+      "windows": "=",
+      "linux": "="
+    },
+    "pinyin": "fang da shi jian zhou fangdashijianzhou f d s j z fdsjz"
+  },
+  {
+    "id": "kdenlive-zoom-out",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "缩小时间轴",
+      "en": "Zoom Out Timeline"
+    },
+    "shortcut": {
+      "mac": "-",
+      "windows": "-",
+      "linux": "-"
+    },
+    "pinyin": "suo xiao shi jian zhou suoxiaoshijianzhou s x s j z sxsjz"
+  },
+  {
+    "id": "kdenlive-fit-zoom",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "适配缩放（显示全部）",
+      "en": "Fit Zoom (Show All)"
+    },
+    "shortcut": {
+      "mac": "⌘ + 0",
+      "windows": "Ctrl + 0",
+      "linux": "Ctrl + 0"
+    },
+    "pinyin": "shi pei suo fang （ xian shi quan bu ） shipeisuofang（xianshiquanbu） s p s f （ x s q b ） spsf（xsqb）"
+  },
+  {
+    "id": "kdenlive-scroll-playhead",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "时间轴滚动到播放头位置",
+      "en": "Scroll Timeline to Playhead"
+    },
+    "shortcut": {
+      "mac": "⌘ + Shift + P",
+      "windows": "Ctrl + Shift + P",
+      "linux": "Ctrl + Shift + P"
+    },
+    "pinyin": "shi jian zhou gun dong dao bo fang tou wei zhi shijianzhougundongdaobofangtouweizhi s j z g d d b f t w z sjzgddbftwz"
+  },
+  {
+    "id": "kdenlive-insert-blank",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "插入空白轨道",
+      "en": "Insert Blank Track"
+    },
+    "shortcut": {
+      "mac": "U",
+      "windows": "U",
+      "linux": "U"
+    },
+    "pinyin": "cha ru kong bai gui dao charukongbaiguidao c r k b g d crkbgd"
+  },
+  {
+    "id": "kdenlive-remove-blank",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "删除空白轨道",
+      "en": "Remove Blank Track"
+    },
+    "shortcut": {
+      "mac": "Shift + U",
+      "windows": "Shift + U",
+      "linux": "Shift + U"
+    },
+    "pinyin": "shan chu kong bai gui dao shanchukongbaiguidao s c k b g d sckbgd"
+  },
+  {
+    "id": "kdenlive-render-zone",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "Timeline 渲染区域开始/结束",
+      "en": "Timeline Render Zone Start/End"
+    },
+    "shortcut": {
+      "mac": "[ / ]",
+      "windows": "[ / ]",
+      "linux": "[ / ]"
+    },
+    "pinyin": "t i m e l i n e   xuan ran qu yu kai shi / jie shu timeline xuanranquyukaishi/jieshu t i m e l i n e   x r q y k s / j s timeline xrqyks/js"
+  },
+  {
+    "id": "kdenlive-title-text",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "添加文本",
+      "en": "Add Text"
+    },
+    "shortcut": {
+      "mac": "T",
+      "windows": "T",
+      "linux": "T"
+    },
+    "pinyin": "tian jia wen ben tianjiawenben t j w b tjwb"
+  },
+  {
+    "id": "kdenlive-title-rect",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "添加矩形",
+      "en": "Add Rectangle"
+    },
+    "shortcut": {
+      "mac": "R (in title editor)",
+      "windows": "R (in title editor)",
+      "linux": "R (in title editor)"
+    },
+    "pinyin": "tian jia ju xing tianjiajuxing t j j x tjjx"
+  },
+  {
+    "id": "kdenlive-title-image",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "添加图像",
+      "en": "Add Image"
+    },
+    "shortcut": {
+      "mac": "I (in title editor)",
+      "windows": "I (in title editor)",
+      "linux": "I (in title editor)"
+    },
+    "pinyin": "tian jia tu xiang tianjiatuxiang t j t x tjtx"
+  },
+  {
+    "id": "kdenlive-title-select",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "选择工具",
+      "en": "Selection Tool"
+    },
+    "shortcut": {
+      "mac": "V",
+      "windows": "V",
+      "linux": "V"
+    },
+    "pinyin": "xuan ze gong ju xuanzegongju x z g j xzgj"
+  },
+  {
+    "id": "kdenlive-title-properties",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "显示/隐藏属性面板",
+      "en": "Show/Hide Properties Panel"
+    },
+    "shortcut": {
+      "mac": "⌘ + Return",
+      "windows": "Ctrl + Return",
+      "linux": "Ctrl + Return"
+    },
+    "pinyin": "xian shi / yin cang shu xing mian ban xianshi/yincangshuxingmianban x s / y c s x m b xs/ycsxmb"
+  },
+  {
+    "id": "kdenlive-render-dialog",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "打开渲染对话框",
+      "en": "Open Render Dialog"
+    },
+    "shortcut": {
+      "mac": "⌘ + Return",
+      "windows": "Ctrl + Return",
+      "linux": "Ctrl + Return"
+    },
+    "pinyin": "da kai xuan ran dui hua kuang dakaixuanranduihuakuang d k x r d h k dkxrdhk"
+  },
+  {
+    "id": "kdenlive-config-shortcuts",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "配置快捷键",
+      "en": "Configure Shortcuts"
+    },
+    "shortcut": {
+      "mac": "⌘ + Shift + K",
+      "windows": "Ctrl + Shift + K",
+      "linux": "Ctrl + Shift + K"
+    },
+    "pinyin": "pei zhi kuai jie jian peizhikuaijiejian p z k j j pzkjj"
+  },
+  {
+    "id": "kdenlive-config-settings",
+    "appId": "kdenlive",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "配置 Kdenlive 设置",
+      "en": "Configure Settings"
+    },
+    "shortcut": {
+      "mac": "⌘ + ,",
+      "windows": "Ctrl + ,",
+      "linux": "Ctrl + ,"
+    },
+    "pinyin": "pei zhi   k d e n l i v e   she zhi peizhi kdenlive shezhi p z   k d e n l i v e   s z pz kdenlive sz"
+  }
+]

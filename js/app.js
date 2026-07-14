@@ -95,8 +95,15 @@
   }
 
   /* ---------- Key rendering ---------- */
+  // Resolve the effective OS for key display.
+  // When drilling into "os:mac" / "os:linux" category, show that OS's keys;
+  // otherwise fall back to filterOS > auto-detected state.os.
+  function effectiveOS() {
+    if (state.catDrill && state.catDrill.startsWith("os:")) return state.catDrill.split(":")[1];
+    return (state.filterOS && state.filterOS !== "all") ? state.filterOS : state.os;
+  }
   function keyForOS(s) {
-    const p = state.filterOS && state.filterOS !== "all" ? state.filterOS : state.os;
+    const p = effectiveOS();
     return s[p] || s.windows || s.mac || s.linux || "—";
   }
   function renderKeys(combo) {
@@ -143,12 +150,18 @@
   /* ---------- Shortcut card ---------- */
   // Returns the platform tag(s) for a card. A shortcut covering all three OSes
   // shows a single "通用/Universal" badge; two OSes show both; one shows that one.
-  function platformTagsHTML(s) {
+  function platformTagsHTML(s, overrideOS) {
     const t = i18n.t;
+    const ctx = overrideOS || null;
     const present = ["windows", "mac", "linux"].filter((p) => {
       const v = s[p];
       return v && v !== "—";
     });
+    // When viewing inside a specific OS drill-down, highlight that OS as the primary tag
+    if (ctx && present.includes(ctx)) {
+      const m = OS_META[ctx];
+      return `<span class="card-os">${m.icon} ${t[m.key]}</span>`;
+    }
     if (present.length >= 3) {
       return `<span class="card-os card-os-universal">🌐 ${t.os_universal}</span>`;
     }
@@ -173,7 +186,7 @@
     const t = i18n.t;
     // System shortcuts already carry the OS in their app label, so we skip the
     // redundant OS tag there; software shortcuts show which OS the key is for.
-    const osTag = isSystem ? "" : platformTagsHTML(s);
+    const osTag = isSystem ? "" : platformTagsHTML(s, state.catDrill && state.catDrill.startsWith("os:") ? state.catDrill.split(":")[1] : null);
     const delBtn = opts.del
       ? `<button class="del-btn" data-del="${s.id}" title="${t.removeRecentOne}" aria-label="${t.removeRecentOne}">🗑️</button>`
       : "";

@@ -467,7 +467,7 @@
       "en": "Type hierarchy (Ctrl + H)"
     },
     "windows": "Ctrl + H",
-    "mac": "Ctrl + H",
+    "mac": "⌘ H",
     "linux": "Ctrl + H",
     "keywords": [
       "类型层级",
@@ -563,7 +563,7 @@
       "en": "Override methods (Ctrl + O)"
     },
     "windows": "Ctrl + O",
-    "mac": "Ctrl + O",
+    "mac": "⌘ O",
     "linux": "Ctrl + O",
     "keywords": [
       "重写方法",
@@ -587,7 +587,7 @@
       "en": "Implement methods (Ctrl + I)"
     },
     "windows": "Ctrl + I",
-    "mac": "Ctrl + I",
+    "mac": "⌘ I",
     "linux": "Ctrl + I",
     "keywords": [
       "实现方法",

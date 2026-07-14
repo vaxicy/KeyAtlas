@@ -1,0 +1,478 @@
+[
+  {
+    "id": "keynote-play",
+    "appId": "keynote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "播放幻灯片",
+      "en": "Play slideshow"
+    },
+    "description": {
+      "zh": "从当前幻灯片开始放映",
+      "en": "Start the slideshow from the current slide"
+    },
+    "windows": "—",
+    "mac": "⌘ Return",
+    "linux": "—",
+    "keywords": [
+      "播放",
+      "play",
+      "放映",
+      "幻灯片"
+    ],
+    "pinyin": "bo fang huan deng pian bofanghuandengpian b f h d p bfhdp bo fang   fang ying   huan deng pian bofang fangying huandengpian b f   f y   h d p bf fy hdp"
+  },
+  {
+    "id": "keynote-next",
+    "appId": "keynote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "下一页/下一个动画",
+      "en": "Next"
+    },
+    "description": {
+      "zh": "前进到下一页或下一个构件动画",
+      "en": "Advance to the next slide or build"
+    },
+    "windows": "—",
+    "mac": "→",
+    "linux": "—",
+    "keywords": [
+      "下一页",
+      "next",
+      "前进"
+    ],
+    "pinyin": "xia yi ye / xia yi ge dong hua xiayiye/xiayigedonghua x y y / x y g d h xyy/xygdh xia yi ye   qian jin xiayiye qianjin x y y   q j xyy qj"
+  },
+  {
+    "id": "keynote-prev",
+    "appId": "keynote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "上一页",
+      "en": "Previous"
+    },
+    "description": {
+      "zh": "返回上一页",
+      "en": "Go back to the previous slide"
+    },
+    "windows": "—",
+    "mac": "←",
+    "linux": "—",
+    "keywords": [
+      "上一页",
+      "prev",
+      "后退"
+    ],
+    "pinyin": "shang yi ye shangyiye s y y syy shang yi ye   hou tui shangyiye houtui s y y   h t syy ht"
+  },
+  {
+    "id": "keynote-exit",
+    "appId": "keynote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "退出放映",
+      "en": "Exit slideshow"
+    },
+    "description": {
+      "zh": "退出幻灯片放映",
+      "en": "Exit the slideshow"
+    },
+    "windows": "—",
+    "mac": "Esc",
+    "linux": "—",
+    "keywords": [
+      "退出",
+      "exit",
+      "结束"
+    ],
+    "pinyin": "tui chu fang ying tuichufangying t c f y tcfy tui chu   jie shu tuichu jieshu t c   j s tc js"
+  },
+  {
+    "id": "keynote-black",
+    "appId": "keynote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "黑屏",
+      "en": "Black screen"
+    },
+    "description": {
+      "zh": "放映时切换为黑屏",
+      "en": "Toggle a black screen during playback"
+    },
+    "windows": "—",
+    "mac": "B",
+    "linux": "—",
+    "keywords": [
+      "黑屏",
+      "black",
+      "暂停"
+    ],
+    "pinyin": "hei ping heiping h p hp hei ping   zan ting heiping zanting h p   z t hp zt"
+  },
+  {
+    "id": "keynote-white",
+    "appId": "keynote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "白屏",
+      "en": "White screen"
+    },
+    "description": {
+      "zh": "放映时切换为白屏",
+      "en": "Toggle a white screen during playback"
+    },
+    "windows": "—",
+    "mac": "W",
+    "linux": "—",
+    "keywords": [
+      "白屏",
+      "white",
+      "暂停"
+    ],
+    "pinyin": "bai ping baiping b p bp bai ping   zan ting baiping zanting b p   z t bp zt"
+  },
+  {
+    "id": "keynote-copy",
+    "appId": "keynote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "复制",
+      "en": "Copy"
+    },
+    "description": {
+      "zh": "复制选中的内容",
+      "en": "Copy the selection"
+    },
+    "windows": "—",
+    "mac": "⌘ C",
+    "linux": "—",
+    "keywords": [
+      "复制",
+      "copy"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "keynote-cut",
+    "appId": "keynote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "剪切",
+      "en": "Cut"
+    },
+    "description": {
+      "zh": "剪切选中的内容",
+      "en": "Cut the selection"
+    },
+    "windows": "—",
+    "mac": "⌘ X",
+    "linux": "—",
+    "keywords": [
+      "剪切",
+      "cut"
+    ],
+    "pinyin": "jian qie jianqie j q jq jian qie jianqie j q jq"
+  },
+  {
+    "id": "keynote-paste",
+    "appId": "keynote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "粘贴",
+      "en": "Paste"
+    },
+    "description": {
+      "zh": "粘贴内容",
+      "en": "Paste the content"
+    },
+    "windows": "—",
+    "mac": "⌘ V",
+    "linux": "—",
+    "keywords": [
+      "粘贴",
+      "paste"
+    ],
+    "pinyin": "nian tie niantie n t nt nian tie niantie n t nt"
+  },
+  {
+    "id": "keynote-undo",
+    "appId": "keynote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销上一步操作",
+      "en": "Undo the last action"
+    },
+    "windows": "—",
+    "mac": "⌘ Z",
+    "linux": "—",
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "keynote-redo",
+    "appId": "keynote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "重做被撤销的操作",
+      "en": "Redo the undone action"
+    },
+    "windows": "—",
+    "mac": "⌘ ⇧ Z",
+    "linux": "—",
+    "keywords": [
+      "重做",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "keynote-select-all",
+    "appId": "keynote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "全选",
+      "en": "Select all"
+    },
+    "description": {
+      "zh": "选中全部对象",
+      "en": "Select everything"
+    },
+    "windows": "—",
+    "mac": "⌘ A",
+    "linux": "—",
+    "keywords": [
+      "全选",
+      "select all"
+    ],
+    "pinyin": "quan xuan quanxuan q x qx quan xuan quanxuan q x qx"
+  },
+  {
+    "id": "keynote-save",
+    "appId": "keynote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "保存",
+      "en": "Save"
+    },
+    "description": {
+      "zh": "保存演示文稿",
+      "en": "Save the presentation"
+    },
+    "windows": "—",
+    "mac": "⌘ S",
+    "linux": "—",
+    "keywords": [
+      "保存",
+      "save"
+    ],
+    "pinyin": "bao cun baocun b c bc bao cun baocun b c bc"
+  },
+  {
+    "id": "keynote-new",
+    "appId": "keynote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "新建",
+      "en": "New"
+    },
+    "description": {
+      "zh": "新建演示文稿",
+      "en": "Create a new presentation"
+    },
+    "windows": "—",
+    "mac": "⌘ N",
+    "linux": "—",
+    "keywords": [
+      "新建",
+      "new"
+    ],
+    "pinyin": "xin jian xinjian x j xj xin jian xinjian x j xj"
+  },
+  {
+    "id": "keynote-find",
+    "appId": "keynote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "查找",
+      "en": "Find"
+    },
+    "description": {
+      "zh": "在演示文稿中查找",
+      "en": "Find in the presentation"
+    },
+    "windows": "—",
+    "mac": "⌘ F",
+    "linux": "—",
+    "keywords": [
+      "查找",
+      "find",
+      "搜索"
+    ],
+    "pinyin": "cha zhao chazhao c z cz cha zhao   sou suo chazhao sousuo c z   s s cz ss"
+  },
+  {
+    "id": "keynote-bold",
+    "appId": "keynote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "加粗",
+      "en": "Bold"
+    },
+    "description": {
+      "zh": "将文字加粗",
+      "en": "Make text bold"
+    },
+    "windows": "—",
+    "mac": "⌘ B",
+    "linux": "—",
+    "keywords": [
+      "加粗",
+      "bold",
+      "字体"
+    ],
+    "pinyin": "jia cu jiacu j c jc jia cu   zi ti jiacu ziti j c   z t jc zt"
+  },
+  {
+    "id": "keynote-italic",
+    "appId": "keynote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "斜体",
+      "en": "Italic"
+    },
+    "description": {
+      "zh": "将文字设为斜体",
+      "en": "Make text italic"
+    },
+    "windows": "—",
+    "mac": "⌘ I",
+    "linux": "—",
+    "keywords": [
+      "斜体",
+      "italic",
+      "字体"
+    ],
+    "pinyin": "xie ti xieti x t xt xie ti   zi ti xieti ziti x t   z t xt zt"
+  },
+  {
+    "id": "keynote-zoom-in",
+    "appId": "keynote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "放大",
+      "en": "Zoom in"
+    },
+    "description": {
+      "zh": "放大视图",
+      "en": "Zoom in"
+    },
+    "windows": "—",
+    "mac": "⌘ +",
+    "linux": "—",
+    "keywords": [
+      "放大",
+      "zoom",
+      "视图"
+    ],
+    "pinyin": "fang da fangda f d fd fang da   shi tu fangda shitu f d   s t fd st"
+  },
+  {
+    "id": "keynote-zoom-out",
+    "appId": "keynote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "缩小",
+      "en": "Zoom out"
+    },
+    "description": {
+      "zh": "缩小视图",
+      "en": "Zoom out"
+    },
+    "windows": "—",
+    "mac": "⌘ -",
+    "linux": "—",
+    "keywords": [
+      "缩小",
+      "zoom",
+      "视图"
+    ],
+    "pinyin": "suo xiao suoxiao s x sx suo xiao   shi tu suoxiao shitu s x   s t sx st"
+  },
+  {
+    "id": "keynote-copy-style",
+    "appId": "keynote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "拷贝样式",
+      "en": "Copy style"
+    },
+    "description": {
+      "zh": "拷贝所选对象的样式",
+      "en": "Copy the style of the selection"
+    },
+    "windows": "—",
+    "mac": "⌘ ⇧ C",
+    "linux": "—",
+    "keywords": [
+      "样式",
+      "style",
+      "拷贝"
+    ],
+    "pinyin": "kao bei yang shi kaobeiyangshi k b y s kbys yang shi   kao bei yangshi kaobei y s   k b ys kb"
+  },
+  {
+    "id": "keynote-paste-style",
+    "appId": "keynote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "粘贴样式",
+      "en": "Paste style"
+    },
+    "description": {
+      "zh": "将样式粘贴到所选对象",
+      "en": "Paste the style onto the selection"
+    },
+    "windows": "—",
+    "mac": "⌘ ⌥ ⇧ V",
+    "linux": "—",
+    "keywords": [
+      "样式",
+      "style",
+      "粘贴"
+    ],
+    "pinyin": "nian tie yang shi niantieyangshi n t y s ntys yang shi   nian tie yangshi niantie y s   n t ys nt"
+  }
+]

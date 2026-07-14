@@ -1,0 +1,1358 @@
+[
+  {
+    "id": "helix-move-left",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "向左移动",
+      "en": "Move left"
+    },
+    "description": {
+      "zh": "Normal 模式：光标左移一个字符",
+      "en": "Normal mode: move cursor left one character"
+    },
+    "windows": "h",
+    "mac": "h",
+    "linux": "h",
+    "keywords": [
+      "左移",
+      "left",
+      "光标",
+      "move"
+    ],
+    "pinyin": "xiang zuo yi dong xiangzuoyidong x z y d xzyd zuo yi   guang biao zuoyi guangbiao z y   g b zy gb"
+  },
+  {
+    "id": "helix-move-down",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "向下移动",
+      "en": "Move down"
+    },
+    "description": {
+      "zh": "Normal 模式：光标下移一行（视觉行）",
+      "en": "Normal mode: move cursor down one visual line"
+    },
+    "windows": "j",
+    "mac": "j",
+    "linux": "j",
+    "keywords": [
+      "下移",
+      "down",
+      "光标",
+      "move"
+    ],
+    "pinyin": "xiang xia yi dong xiangxiayidong x x y d xxyd xia yi   guang biao xiayi guangbiao x y   g b xy gb"
+  },
+  {
+    "id": "helix-move-up",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "向上移动",
+      "en": "Move up"
+    },
+    "description": {
+      "zh": "Normal 模式：光标上移一行（视觉行）",
+      "en": "Normal mode: move cursor up one visual line"
+    },
+    "windows": "k",
+    "mac": "k",
+    "linux": "k",
+    "keywords": [
+      "上移",
+      "up",
+      "光标",
+      "move"
+    ],
+    "pinyin": "xiang shang yi dong xiangshangyidong x s y d xsyd shang yi   guang biao shangyi guangbiao s y   g b sy gb"
+  },
+  {
+    "id": "helix-move-right",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "向右移动",
+      "en": "Move right"
+    },
+    "description": {
+      "zh": "Normal 模式：光标右移一个字符",
+      "en": "Normal mode: move cursor right one character"
+    },
+    "windows": "l",
+    "mac": "l",
+    "linux": "l",
+    "keywords": [
+      "右移",
+      "right",
+      "光标",
+      "move"
+    ],
+    "pinyin": "xiang you yi dong xiangyouyidong x y y d xyyd you yi   guang biao youyi guangbiao y y   g b yy gb"
+  },
+  {
+    "id": "helix-next-word",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "下一个单词开头",
+      "en": "Next word start"
+    },
+    "description": {
+      "zh": "Normal 模式：跳到下一个单词开头",
+      "en": "Normal mode: jump to next word start"
+    },
+    "windows": "w",
+    "mac": "w",
+    "linux": "w",
+    "keywords": [
+      "单词",
+      "word",
+      "下一个",
+      "next"
+    ],
+    "pinyin": "xia yi ge dan ci kai tou xiayigedancikaitou x y g d c k t xygdckt dan ci   xia yi ge danci xiayige d c   x y g dc xyg"
+  },
+  {
+    "id": "helix-prev-word",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "上一个单词开头",
+      "en": "Previous word start"
+    },
+    "description": {
+      "zh": "Normal 模式：跳到上一个单词开头",
+      "en": "Normal mode: jump to previous word start"
+    },
+    "windows": "b",
+    "mac": "b",
+    "linux": "b",
+    "keywords": [
+      "单词",
+      "word",
+      "上一个",
+      "previous"
+    ],
+    "pinyin": "shang yi ge dan ci kai tou shangyigedancikaitou s y g d c k t sygdckt dan ci   shang yi ge danci shangyige d c   s y g dc syg"
+  },
+  {
+    "id": "helix-next-word-end",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "下一个单词结尾",
+      "en": "Next word end"
+    },
+    "description": {
+      "zh": "Normal 模式：跳到下一个单词结尾",
+      "en": "Normal mode: jump to next word end"
+    },
+    "windows": "e",
+    "mac": "e",
+    "linux": "e",
+    "keywords": [
+      "单词结尾",
+      "word end",
+      "下一个"
+    ],
+    "pinyin": "xia yi ge dan ci jie wei xiayigedancijiewei x y g d c j w xygdcjw dan ci jie wei   xia yi ge dancijiewei xiayige d c j w   x y g dcjw xyg"
+  },
+  {
+    "id": "helix-goto-line",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "跳转到行",
+      "en": "Go to line"
+    },
+    "description": {
+      "zh": "Normal 模式：跳转到指定行号",
+      "en": "Normal mode: go to line number"
+    },
+    "windows": "G",
+    "mac": "G",
+    "linux": "G",
+    "keywords": [
+      "跳转",
+      "goto",
+      "行号",
+      "line"
+    ],
+    "pinyin": "tiao zhuan dao xing tiaozhuandaoxing t z d x tzdx tiao zhuan   hang hao tiaozhuan hanghao t z   h h tz hh"
+  },
+  {
+    "id": "helix-goto-file-start",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "文件开头",
+      "en": "Go to file start"
+    },
+    "description": {
+      "zh": "Normal 模式：跳转到文件开头",
+      "en": "Normal mode: go to beginning of file"
+    },
+    "windows": "g g",
+    "mac": "g g",
+    "linux": "g g",
+    "keywords": [
+      "文件开头",
+      "top",
+      "start",
+      "first"
+    ],
+    "pinyin": "wen jian kai tou wenjiankaitou w j k t wjkt wen jian kai tou wenjiankaitou w j k t wjkt"
+  },
+  {
+    "id": "helix-goto-file-end",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "文件结尾",
+      "en": "Go to file end"
+    },
+    "description": {
+      "zh": "Normal 模式：跳转到文件结尾",
+      "en": "Normal mode: go to end of file"
+    },
+    "windows": "g e",
+    "mac": "g e",
+    "linux": "g e",
+    "keywords": [
+      "文件结尾",
+      "bottom",
+      "end",
+      "last"
+    ],
+    "pinyin": "wen jian jie wei wenjianjiewei w j j w wjjw wen jian jie wei wenjianjiewei w j j w wjjw"
+  },
+  {
+    "id": "helix-page-down",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "向下翻页",
+      "en": "Page down"
+    },
+    "description": {
+      "zh": "Normal 模式：向下翻一页",
+      "en": "Normal mode: scroll down one page"
+    },
+    "windows": "Ctrl + f",
+    "mac": "Ctrl + f",
+    "linux": "Ctrl + f",
+    "keywords": [
+      "翻页",
+      "page down",
+      "下一页",
+      "scroll"
+    ],
+    "pinyin": "xiang xia fan ye xiangxiafanye x x f y xxfy fan ye   xia yi ye fanye xiayiye f y   x y y fy xyy"
+  },
+  {
+    "id": "helix-page-up",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "向上翻页",
+      "en": "Page up"
+    },
+    "description": {
+      "zh": "Normal 模式：向上翻一页",
+      "en": "Normal mode: scroll up one page"
+    },
+    "windows": "Ctrl + b",
+    "mac": "Ctrl + b",
+    "linux": "Ctrl + b",
+    "keywords": [
+      "翻页",
+      "page up",
+      "上一页",
+      "scroll"
+    ],
+    "pinyin": "xiang shang fan ye xiangshangfanye x s f y xsfy fan ye   shang yi ye fanye shangyiye f y   s y y fy syy"
+  },
+  {
+    "id": "helix-half-page-down",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "向下半页",
+      "en": "Half page down"
+    },
+    "description": {
+      "zh": "Normal 模式：光标和视图向下半页",
+      "en": "Normal mode: cursor and view half page down"
+    },
+    "windows": "Ctrl + d",
+    "mac": "Ctrl + d",
+    "linux": "Ctrl + d",
+    "keywords": [
+      "半页",
+      "half page",
+      "scroll"
+    ],
+    "pinyin": "xiang xia ban ye xiangxiabanye x x b y xxby ban ye banye b y by"
+  },
+  {
+    "id": "helix-half-page-up",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "向上半页",
+      "en": "Half page up"
+    },
+    "description": {
+      "zh": "Normal 模式：光标和视图向上半页",
+      "en": "Normal mode: cursor and view half page up"
+    },
+    "windows": "Ctrl + u",
+    "mac": "Ctrl + u",
+    "linux": "Ctrl + u",
+    "keywords": [
+      "半页",
+      "half page",
+      "scroll"
+    ],
+    "pinyin": "xiang shang ban ye xiangshangbanye x s b y xsby ban ye banye b y by"
+  },
+  {
+    "id": "helix-insert-before",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "光标前插入",
+      "en": "Insert before"
+    },
+    "description": {
+      "zh": "Normal 模式：在当前选择前进入插入模式",
+      "en": "Normal mode: enter insert mode before selection"
+    },
+    "windows": "i",
+    "mac": "i",
+    "linux": "i",
+    "keywords": [
+      "插入",
+      "insert",
+      "编辑"
+    ],
+    "pinyin": "guang biao qian cha ru guangbiaoqiancharu g b q c r gbqcr cha ru   bian ji charu bianji c r   b j cr bj"
+  },
+  {
+    "id": "helix-insert-after",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "光标后插入",
+      "en": "Insert after"
+    },
+    "description": {
+      "zh": "Normal 模式：在当前选择后进入插入模式",
+      "en": "Normal mode: enter insert mode after selection"
+    },
+    "windows": "a",
+    "mac": "a",
+    "linux": "a",
+    "keywords": [
+      "插入",
+      "insert",
+      "append",
+      "编辑"
+    ],
+    "pinyin": "guang biao hou cha ru guangbiaohoucharu g b h c r gbhcr cha ru   bian ji charu bianji c r   b j cr bj"
+  },
+  {
+    "id": "helix-insert-line-start",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "行首插入",
+      "en": "Insert at line start"
+    },
+    "description": {
+      "zh": "Normal 模式：在行首进入插入模式",
+      "en": "Normal mode: insert at the beginning of the line"
+    },
+    "windows": "I",
+    "mac": "I",
+    "linux": "I",
+    "keywords": [
+      "行首",
+      "插入",
+      "insert"
+    ],
+    "pinyin": "hang shou cha ru hangshoucharu h s c r hscr hang shou   cha ru hangshou charu h s   c r hs cr"
+  },
+  {
+    "id": "helix-insert-line-end",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "行尾插入",
+      "en": "Insert at line end"
+    },
+    "description": {
+      "zh": "Normal 模式：在行尾进入插入模式",
+      "en": "Normal mode: insert at the end of the line"
+    },
+    "windows": "A",
+    "mac": "A",
+    "linux": "A",
+    "keywords": [
+      "行尾",
+      "插入",
+      "append line"
+    ],
+    "pinyin": "hang wei cha ru hangweicharu h w c r hwcr hang wei   cha ru hangwei charu h w   c r hw cr"
+  },
+  {
+    "id": "helix-open-below",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "下方新建行",
+      "en": "Open below"
+    },
+    "description": {
+      "zh": "Normal 模式：在下方新建一行并进入插入模式",
+      "en": "Normal mode: open a new line below"
+    },
+    "windows": "o",
+    "mac": "o",
+    "linux": "o",
+    "keywords": [
+      "新建行",
+      "open",
+      "新行",
+      "below"
+    ],
+    "pinyin": "xia fang xin jian hang xiafangxinjianhang x f x j h xfxjh xin jian hang   xin xing xinjianhang xinxing x j h   x x xjh xx"
+  },
+  {
+    "id": "helix-open-above",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "上方新建行",
+      "en": "Open above"
+    },
+    "description": {
+      "zh": "Normal 模式：在上方新建一行并进入插入模式",
+      "en": "Normal mode: open a new line above"
+    },
+    "windows": "O",
+    "mac": "O",
+    "linux": "O",
+    "keywords": [
+      "新建行",
+      "open",
+      "新行",
+      "above"
+    ],
+    "pinyin": "shang fang xin jian hang shangfangxinjianhang s f x j h sfxjh xin jian hang   xin xing xinjianhang xinxing x j h   x x xjh xx"
+  },
+  {
+    "id": "helix-undo",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "Normal 模式：撤销上一次更改",
+      "en": "Normal mode: undo the last change"
+    },
+    "windows": "u",
+    "mac": "u",
+    "linux": "u",
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "helix-redo",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "Normal 模式：重做被撤销的更改",
+      "en": "Normal mode: redo the undone change"
+    },
+    "windows": "U",
+    "mac": "U",
+    "linux": "U",
+    "keywords": [
+      "重做",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "helix-yank",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "复制（Yank）",
+      "en": "Yank"
+    },
+    "description": {
+      "zh": "Normal 模式：复制选中内容到寄存器",
+      "en": "Normal mode: yank selection to register"
+    },
+    "windows": "y",
+    "mac": "y",
+    "linux": "y",
+    "keywords": [
+      "复制",
+      "yank",
+      "copy"
+    ],
+    "pinyin": "fu zhi （ y a n k ） fuzhi（yank） f z （ y a n k ） fz（yank） fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "helix-paste-after",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "粘贴到后面",
+      "en": "Paste after"
+    },
+    "description": {
+      "zh": "Normal 模式：在光标后粘贴",
+      "en": "Normal mode: paste after selection"
+    },
+    "windows": "p",
+    "mac": "p",
+    "linux": "p",
+    "keywords": [
+      "粘贴",
+      "paste",
+      "after"
+    ],
+    "pinyin": "nian tie dao hou mian niantiedaohoumian n t d h m ntdhm nian tie niantie n t nt"
+  },
+  {
+    "id": "helix-paste-before",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "粘贴到前面",
+      "en": "Paste before"
+    },
+    "description": {
+      "zh": "Normal 模式：在光标前粘贴",
+      "en": "Normal mode: paste before selection"
+    },
+    "windows": "P",
+    "mac": "P",
+    "linux": "P",
+    "keywords": [
+      "粘贴",
+      "paste",
+      "before"
+    ],
+    "pinyin": "nian tie dao qian mian niantiedaoqianmian n t d q m ntdqm nian tie niantie n t nt"
+  },
+  {
+    "id": "helix-delete",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "删除并复制",
+      "en": "Delete (cut)"
+    },
+    "description": {
+      "zh": "Normal 模式：删除选中内容并存入寄存器",
+      "en": "Normal mode: delete selection and store in register"
+    },
+    "windows": "d",
+    "mac": "d",
+    "linux": "d",
+    "keywords": [
+      "删除",
+      "delete",
+      "cut",
+      "剪切"
+    ],
+    "pinyin": "shan chu bing fu zhi shanchubingfuzhi s c b f z scbfz shan chu   jian qie shanchu jianqie s c   j q sc jq"
+  },
+  {
+    "id": "helix-change",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "修改",
+      "en": "Change"
+    },
+    "description": {
+      "zh": "Normal 模式：删除选中内容并进入插入模式",
+      "en": "Normal mode: delete selection and enter insert mode"
+    },
+    "windows": "c",
+    "mac": "c",
+    "linux": "c",
+    "keywords": [
+      "修改",
+      "change",
+      "替换",
+      "replace"
+    ],
+    "pinyin": "xiu gai xiugai x g xg xiu gai   ti huan xiugai tihuan x g   t h xg th"
+  },
+  {
+    "id": "helix-replace-char",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "替换字符",
+      "en": "Replace char"
+    },
+    "description": {
+      "zh": "Normal 模式：替换当前字符",
+      "en": "Normal mode: replace a single character"
+    },
+    "windows": "r",
+    "mac": "r",
+    "linux": "r",
+    "keywords": [
+      "替换",
+      "replace",
+      "字符"
+    ],
+    "pinyin": "ti huan zi fu tihuanzifu t h z f thzf ti huan   zi fu tihuan zifu t h   z f th zf"
+  },
+  {
+    "id": "helix-indent",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "增加缩进",
+      "en": "Indent"
+    },
+    "description": {
+      "zh": "Normal 模式：增加选中行的缩进",
+      "en": "Normal mode: indent selected lines"
+    },
+    "windows": ">",
+    "mac": ">",
+    "linux": ">",
+    "keywords": [
+      "缩进",
+      "indent",
+      "tab"
+    ],
+    "pinyin": "zeng jia suo jin zengjiasuojin z j s j zjsj suo jin suojin s j sj"
+  },
+  {
+    "id": "helix-unindent",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "减少缩进",
+      "en": "Unindent"
+    },
+    "description": {
+      "zh": "Normal 模式：减少选中行的缩进",
+      "en": "Normal mode: unindent selected lines"
+    },
+    "windows": "<",
+    "mac": "<",
+    "linux": "<",
+    "keywords": [
+      "缩进",
+      "unindent",
+      "减少缩进"
+    ],
+    "pinyin": "jian shao suo jin jianshaosuojin j s s j jssj suo jin   jian shao suo jin suojin jianshaosuojin s j   j s s j sj jssj"
+  },
+  {
+    "id": "helix-format",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "格式化代码",
+      "en": "Format"
+    },
+    "description": {
+      "zh": "Normal 模式：LSP 格式化选中内容",
+      "en": "Normal mode: format selection via LSP"
+    },
+    "windows": "=",
+    "mac": "=",
+    "linux": "=",
+    "keywords": [
+      "格式化",
+      "format",
+      "缩进",
+      "prettier"
+    ],
+    "pinyin": "ge shi hua dai ma geshihuadaima g s h d m gshdm ge shi hua   suo jin geshihua suojin g s h   s j gsh sj"
+  },
+  {
+    "id": "helix-select-line",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "选中当前行",
+      "en": "Select line"
+    },
+    "description": {
+      "zh": "Normal 模式：选中当前行，重复按下扩展多行",
+      "en": "Normal mode: select current line, repeat to extend"
+    },
+    "windows": "x",
+    "mac": "x",
+    "linux": "x",
+    "keywords": [
+      "选中",
+      "select",
+      "行",
+      "line"
+    ],
+    "pinyin": "xuan zhong dang qian xing xuanzhongdangqianxing x z d q x xzdqx xuan zhong   xing xuanzhong xing x z   x xz x"
+  },
+  {
+    "id": "helix-join-lines",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "合并行",
+      "en": "Join lines"
+    },
+    "description": {
+      "zh": "Normal 模式：将选中的行合并为一行",
+      "en": "Normal mode: join selected lines"
+    },
+    "windows": "J",
+    "mac": "J",
+    "linux": "J",
+    "keywords": [
+      "合并",
+      "join",
+      "行"
+    ],
+    "pinyin": "he bing xing hebingxing h b x hbx he bing   xing hebing xing h b   x hb x"
+  },
+  {
+    "id": "helix-toggle-comment",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "切换注释",
+      "en": "Toggle comment"
+    },
+    "description": {
+      "zh": "Normal 模式：切换选中行的注释",
+      "en": "Normal mode: toggle line comments"
+    },
+    "windows": "Ctrl + c",
+    "mac": "Ctrl + c",
+    "linux": "Ctrl + c",
+    "keywords": [
+      "注释",
+      "comment",
+      "切换"
+    ],
+    "pinyin": "qie huan zhu shi qiehuanzhushi q h z s qhzs zhu shi   qie huan zhushi qiehuan z s   q h zs qh"
+  },
+  {
+    "id": "helix-search-forward",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "正向搜索",
+      "en": "Search forward"
+    },
+    "description": {
+      "zh": "Normal 模式：正则搜索",
+      "en": "Normal mode: search for regex pattern"
+    },
+    "windows": "/",
+    "mac": "/",
+    "linux": "/",
+    "keywords": [
+      "搜索",
+      "search",
+      "查找",
+      "find"
+    ],
+    "pinyin": "zheng xiang sou suo zhengxiangsousuo z x s s zxss sou suo   cha zhao sousuo chazhao s s   c z ss cz"
+  },
+  {
+    "id": "helix-search-backward",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "反向搜索",
+      "en": "Search backward"
+    },
+    "description": {
+      "zh": "Normal 模式：反向正则搜索",
+      "en": "Normal mode: search previous regex pattern"
+    },
+    "windows": "?",
+    "mac": "?",
+    "linux": "?",
+    "keywords": [
+      "搜索",
+      "search",
+      "反向",
+      "previous"
+    ],
+    "pinyin": "fan xiang sou suo fanxiangsousuo f x s s fxss sou suo   fan xiang sousuo fanxiang s s   f x ss fx"
+  },
+  {
+    "id": "helix-search-next",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "下一个搜索结果",
+      "en": "Next match"
+    },
+    "description": {
+      "zh": "Normal 模式：跳转到下一个匹配项",
+      "en": "Normal mode: go to next search match"
+    },
+    "windows": "n",
+    "mac": "n",
+    "linux": "n",
+    "keywords": [
+      "搜索",
+      "search",
+      "下一个",
+      "next"
+    ],
+    "pinyin": "xia yi ge sou suo jie guo xiayigesousuojieguo x y g s s j g xygssjg sou suo   xia yi ge sousuo xiayige s s   x y g ss xyg"
+  },
+  {
+    "id": "helix-search-prev",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "上一个搜索结果",
+      "en": "Previous match"
+    },
+    "description": {
+      "zh": "Normal 模式：跳转到上一个匹配项",
+      "en": "Normal mode: go to previous search match"
+    },
+    "windows": "N",
+    "mac": "N",
+    "linux": "N",
+    "keywords": [
+      "搜索",
+      "search",
+      "上一个",
+      "previous"
+    ],
+    "pinyin": "shang yi ge sou suo jie guo shangyigesousuojieguo s y g s s j g sygssjg sou suo   shang yi ge sousuo shangyige s s   s y g ss syg"
+  },
+  {
+    "id": "helix-file-picker",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "文件选择器",
+      "en": "File picker"
+    },
+    "description": {
+      "zh": "Space 模式：打开文件模糊搜索",
+      "en": "Space mode: open file fuzzy picker"
+    },
+    "windows": "Space f",
+    "mac": "Space f",
+    "linux": "Space f",
+    "keywords": [
+      "文件",
+      "file",
+      "打开",
+      "open",
+      "选择器"
+    ],
+    "pinyin": "wen jian xuan ze qi wenjianxuanzeqi w j x z q wjxzq wen jian   da kai   xuan ze qi wenjian dakai xuanzeqi w j   d k   x z q wj dk xzq"
+  },
+  {
+    "id": "helix-buffer-picker",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "缓冲区选择器",
+      "en": "Buffer picker"
+    },
+    "description": {
+      "zh": "Space 模式：打开缓冲区切换列表",
+      "en": "Space mode: open buffer list"
+    },
+    "windows": "Space b",
+    "mac": "Space b",
+    "linux": "Space b",
+    "keywords": [
+      "缓冲区",
+      "buffer",
+      "切换",
+      "switch"
+    ],
+    "pinyin": "huan chong qu xuan ze qi huanchongquxuanzeqi h c q x z q hcqxzq huan chong qu   qie huan huanchongqu qiehuan h c q   q h hcq qh"
+  },
+  {
+    "id": "helix-command-palette",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "命令面板",
+      "en": "Command palette"
+    },
+    "description": {
+      "zh": "Space 模式：打开命令面板",
+      "en": "Space mode: open command palette"
+    },
+    "windows": "Space ?",
+    "mac": "Space ?",
+    "linux": "Space ?",
+    "keywords": [
+      "命令",
+      "command",
+      "面板",
+      "palette"
+    ],
+    "pinyin": "ming ling mian ban minglingmianban m l m b mlmb ming ling   mian ban mingling mianban m l   m b ml mb"
+  },
+  {
+    "id": "helix-hover",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "悬停文档",
+      "en": "Hover docs"
+    },
+    "description": {
+      "zh": "Space 模式：显示光标下符号的 LSP 文档",
+      "en": "Space mode: show LSP hover documentation"
+    },
+    "windows": "Space k",
+    "mac": "Space k",
+    "linux": "Space k",
+    "keywords": [
+      "文档",
+      "docs",
+      "hover",
+      "提示",
+      "tooltip"
+    ],
+    "pinyin": "xuan ting wen dang xuantingwendang x t w d xtwd wen dang   ti shi wendang tishi w d   t s wd ts"
+  },
+  {
+    "id": "helix-goto-definition",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "跳转到定义",
+      "en": "Go to definition"
+    },
+    "description": {
+      "zh": "Goto 模式：LSP 跳转到定义",
+      "en": "Goto mode: LSP go to definition"
+    },
+    "windows": "g d",
+    "mac": "g d",
+    "linux": "g d",
+    "keywords": [
+      "定义",
+      "definition",
+      "跳转",
+      "goto"
+    ],
+    "pinyin": "tiao zhuan dao ding yi tiaozhuandaodingyi t z d d y tzddy ding yi   tiao zhuan dingyi tiaozhuan d y   t z dy tz"
+  },
+  {
+    "id": "helix-goto-references",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "跳转到引用",
+      "en": "Go to references"
+    },
+    "description": {
+      "zh": "Goto 模式：LSP 跳转到引用",
+      "en": "Goto mode: LSP go to references"
+    },
+    "windows": "g r",
+    "mac": "g r",
+    "linux": "g r",
+    "keywords": [
+      "引用",
+      "references",
+      "跳转",
+      "goto"
+    ],
+    "pinyin": "tiao zhuan dao yin yong tiaozhuandaoyinyong t z d y y tzdyy yin yong   tiao zhuan yinyong tiaozhuan y y   t z yy tz"
+  },
+  {
+    "id": "helix-rename-symbol",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "重命名符号",
+      "en": "Rename symbol"
+    },
+    "description": {
+      "zh": "Space 模式：LSP 重命名符号",
+      "en": "Space mode: LSP rename symbol"
+    },
+    "windows": "Space r",
+    "mac": "Space r",
+    "linux": "Space r",
+    "keywords": [
+      "重命名",
+      "rename",
+      "符号",
+      "symbol"
+    ],
+    "pinyin": "zhong ming ming fu hao zhongmingmingfuhao z m m f h zmmfh zhong ming ming   fu hao zhongmingming fuhao z m m   f h zmm fh"
+  },
+  {
+    "id": "helix-code-action",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "代码操作",
+      "en": "Code action"
+    },
+    "description": {
+      "zh": "Space 模式：应用 LSP 代码操作",
+      "en": "Space mode: apply LSP code action"
+    },
+    "windows": "Space a",
+    "mac": "Space a",
+    "linux": "Space a",
+    "keywords": [
+      "代码操作",
+      "code action",
+      "修复",
+      "fix"
+    ],
+    "pinyin": "dai ma cao zuo daimacaozuo d m c z dmcz dai ma cao zuo   xiu fu daimacaozuo xiufu d m c z   x f dmcz xf"
+  },
+  {
+    "id": "helix-global-search",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "全局搜索",
+      "en": "Global search"
+    },
+    "description": {
+      "zh": "Space 模式：在工作区全局搜索",
+      "en": "Space mode: search across workspace folder"
+    },
+    "windows": "Space /",
+    "mac": "Space /",
+    "linux": "Space /",
+    "keywords": [
+      "全局",
+      "global",
+      "搜索",
+      "search",
+      "工作区"
+    ],
+    "pinyin": "quan ju sou suo quanjusousuo q j s s qjss quan ju   sou suo   gong zuo qu quanju sousuo gongzuoqu q j   s s   g z q qj ss gzq"
+  },
+  {
+    "id": "helix-vsplit",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "垂直分割",
+      "en": "Vertical split"
+    },
+    "description": {
+      "zh": "Window 模式：垂直分割窗口",
+      "en": "Window mode: split vertically to the right"
+    },
+    "windows": "Ctrl + w v",
+    "mac": "Ctrl + w v",
+    "linux": "Ctrl + w v",
+    "keywords": [
+      "分割",
+      "split",
+      "垂直",
+      "vertical"
+    ],
+    "pinyin": "chui zhi fen ge chuizhifenge c z f g czfg fen ge   chui zhi fenge chuizhi f g   c z fg cz"
+  },
+  {
+    "id": "helix-hsplit",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "水平分割",
+      "en": "Horizontal split"
+    },
+    "description": {
+      "zh": "Window 模式：水平分割窗口",
+      "en": "Window mode: split horizontally to the bottom"
+    },
+    "windows": "Ctrl + w s",
+    "mac": "Ctrl + w s",
+    "linux": "Ctrl + w s",
+    "keywords": [
+      "分割",
+      "split",
+      "水平",
+      "horizontal"
+    ],
+    "pinyin": "shui ping fen ge shuipingfenge s p f g spfg fen ge   shui ping fenge shuiping f g   s p fg sp"
+  },
+  {
+    "id": "helix-close-window",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "关闭窗口",
+      "en": "Close window"
+    },
+    "description": {
+      "zh": "Window 模式：关闭当前分割窗口",
+      "en": "Window mode: close current split window"
+    },
+    "windows": "Ctrl + w q",
+    "mac": "Ctrl + w q",
+    "linux": "Ctrl + w q",
+    "keywords": [
+      "关闭",
+      "close",
+      "窗口",
+      "window"
+    ],
+    "pinyin": "guan bi chuang kou guanbichuangkou g b c k gbck guan bi   chuang kou guanbi chuangkou g b   c k gb ck"
+  },
+  {
+    "id": "helix-expand-selection",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "扩展选择",
+      "en": "Expand selection"
+    },
+    "description": {
+      "zh": "Normal 模式：扩展到父级语法树节点",
+      "en": "Normal mode: expand selection to parent syntax node"
+    },
+    "windows": "Alt + o",
+    "mac": "Alt + o",
+    "linux": "Alt + o",
+    "keywords": [
+      "扩展",
+      "expand",
+      "选择",
+      "selection",
+      "语法树"
+    ],
+    "pinyin": "kuo zhan xuan ze kuozhanxuanze k z x z kzxz kuo zhan   xuan ze   yu fa shu kuozhan xuanze yufashu k z   x z   y f s kz xz yfs"
+  },
+  {
+    "id": "helix-shrink-selection",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "缩小选择",
+      "en": "Shrink selection"
+    },
+    "description": {
+      "zh": "Normal 模式：缩小到子级语法树节点",
+      "en": "Normal mode: shrink selection to child syntax node"
+    },
+    "windows": "Alt + i",
+    "mac": "Alt + i",
+    "linux": "Alt + i",
+    "keywords": [
+      "缩小",
+      "shrink",
+      "选择",
+      "selection"
+    ],
+    "pinyin": "suo xiao xuan ze suoxiaoxuanze s x x z sxxz suo xiao   xuan ze suoxiao xuanze s x   x z sx xz"
+  },
+  {
+    "id": "helix-select-all",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "全选",
+      "en": "Select all"
+    },
+    "description": {
+      "zh": "Normal 模式：选中整个文件",
+      "en": "Normal mode: select entire file"
+    },
+    "windows": "%",
+    "mac": "%",
+    "linux": "%",
+    "keywords": [
+      "全选",
+      "select all",
+      "整个文件",
+      "全部"
+    ],
+    "pinyin": "quan xuan quanxuan q x qx quan xuan   zheng ge wen jian   quan bu quanxuan zhenggewenjian quanbu q x   z g w j   q b qx zgwj qb"
+  },
+  {
+    "id": "helix-next-diagnostic",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "下一个诊断",
+      "en": "Next diagnostic"
+    },
+    "description": {
+      "zh": "Normal 模式：跳转到下一个 LSP 诊断",
+      "en": "Normal mode: go to next LSP diagnostic"
+    },
+    "windows": "] d",
+    "mac": "] d",
+    "linux": "] d",
+    "keywords": [
+      "诊断",
+      "diagnostic",
+      "错误",
+      "error",
+      "下一个"
+    ],
+    "pinyin": "xia yi ge zhen duan xiayigezhenduan x y g z d xygzd zhen duan   cuo wu   xia yi ge zhenduan cuowu xiayige z d   c w   x y g zd cw xyg"
+  },
+  {
+    "id": "helix-prev-diagnostic",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "上一个诊断",
+      "en": "Previous diagnostic"
+    },
+    "description": {
+      "zh": "Normal 模式：跳转到上一个 LSP 诊断",
+      "en": "Normal mode: go to previous LSP diagnostic"
+    },
+    "windows": "[ d",
+    "mac": "[ d",
+    "linux": "[ d",
+    "keywords": [
+      "诊断",
+      "diagnostic",
+      "错误",
+      "error",
+      "上一个"
+    ],
+    "pinyin": "shang yi ge zhen duan shangyigezhenduan s y g z d sygzd zhen duan   cuo wu   shang yi ge zhenduan cuowu shangyige z d   c w   s y g zd cw syg"
+  },
+  {
+    "id": "helix-case-switch",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "切换大小写",
+      "en": "Toggle case"
+    },
+    "description": {
+      "zh": "Normal 模式：切换选中内容的大小写",
+      "en": "Normal mode: switch case of selection"
+    },
+    "windows": "~",
+    "mac": "~",
+    "linux": "~",
+    "keywords": [
+      "大小写",
+      "case",
+      "切换",
+      "toggle"
+    ],
+    "pinyin": "qie huan da xiao xie qiehuandaxiaoxie q h d x x qhdxx da xiao xie   qie huan daxiaoxie qiehuan d x x   q h dxx qh"
+  },
+  {
+    "id": "helix-copy-selection-down",
+    "appId": "helix",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "向下复制光标",
+      "en": "Copy cursor below"
+    },
+    "description": {
+      "zh": "Normal 模式：在下一行添加光标",
+      "en": "Normal mode: copy selection onto next line"
+    },
+    "windows": "C",
+    "mac": "C",
+    "linux": "C",
+    "keywords": [
+      "多光标",
+      "multi-cursor",
+      "复制",
+      "copy"
+    ],
+    "pinyin": "xiang xia fu zhi guang biao xiangxiafuzhiguangbiao x x f z g b xxfzgb duo guang biao   fu zhi duoguangbiao fuzhi d g b   f z dgb fz"
+  }
+]

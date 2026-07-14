@@ -8,9 +8,6 @@
   { "id": "photoshop","name": { "zh": "Photoshop",      "en": "Photoshop" },      "category": "design",       "icon": "🖼️", "type": "software", "popular": true, "file": "photoshop.json", "source": "official" },
   { "id": "illustrator","name": { "zh": "Illustrator",  "en": "Illustrator" },    "category": "design",       "icon": "✒️", "type": "software", "file": "illustrator.json", "source": "official" },
   { "id": "blender",  "name": { "zh": "Blender",        "en": "Blender" },        "category": "design",       "icon": "🧊", "type": "software", "file": "blender.json", "source": "official" },
-  { "id": "cinema4d", "name": { "zh": "Cinema 4D",      "en": "Cinema 4D" },      "category": "design",       "icon": "🟦", "type": "software", "file": "cinema4d.json", "source": "ai" },
-  { "id": "maya",     "name": { "zh": "Maya",           "en": "Maya" },           "category": "design",       "icon": "🪄", "type": "software", "file": "maya.json", "source": "ai" },
-  { "id": "zbrush",   "name": { "zh": "ZBrush",         "en": "ZBrush" },         "category": "design",       "icon": "🗿", "type": "software", "file": "zbrush.json", "source": "ai" },
   { "id": "vscode",   "name": { "zh": "VS Code",        "en": "VS Code" },        "category": "development",   "icon": "💻", "type": "software", "popular": true, "file": "vscode.json", "source": "official" },
   { "id": "git",      "name": { "zh": "Git",            "en": "Git" },            "category": "development",   "icon": "🔀", "type": "software", "file": "git.json", "source": "ai" },
   { "id": "github",   "name": { "zh": "GitHub",         "en": "GitHub" },         "category": "development",   "icon": "🐙", "type": "software", "file": "github.json", "source": "official" },
@@ -48,9 +45,7 @@
   { "id": "keynote", "name": { "zh": "Keynote", "en": "Keynote" }, "category": "productivity", "icon": "▶️", "type": "software", "file": "keynote.json", "source": "official" },
   { "id": "pages", "name": { "zh": "Pages", "en": "Pages" }, "category": "productivity", "icon": "📃", "type": "software", "file": "pages.json", "source": "official" },
   { "id": "numbers", "name": { "zh": "Numbers", "en": "Numbers" }, "category": "productivity", "icon": "🔢", "type": "software", "file": "numbers.json", "source": "official" },
-  { "id": "jira", "name": { "zh": "Jira", "en": "Jira" }, "category": "productivity", "icon": "📋", "type": "software", "file": "jira.json", "source": "ai" },
-  { "id": "trello", "name": { "zh": "Trello", "en": "Trello" }, "category": "productivity", "icon": "🗂️", "type": "software", "file": "trello.json", "source": "ai" },
-  { "id": "onenote", "name": { "zh": "OneNote", "en": "OneNote" }, "category": "productivity", "icon": "📓", "type": "software", "file": "onenote.json", "source": "ai" },
+  { "id": "onenote", "name": { "zh": "OneNote", "en": "OneNote" }, "category": "productivity", "icon": "📓", "type": "software", "file": "onenote.json", "source": "official" },
   { "id": "sketch", "name": { "zh": "Sketch", "en": "Sketch" }, "category": "design", "icon": "💎", "type": "software", "file": "sketch.json", "source": "official" },
   { "id": "framer", "name": { "zh": "Framer", "en": "Framer" }, "category": "design", "icon": "🧩", "type": "software", "file": "framer.json", "source": "official" },
   { "id": "canva", "name": { "zh": "Canva", "en": "Canva" }, "category": "design", "icon": "🎯", "type": "software", "file": "canva.json", "source": "official" },
@@ -98,8 +93,5 @@
   { "id": "arc", "name": { "zh": "Arc", "en": "Arc" }, "category": "browser", "icon": "🔵", "type": "software", "file": "arc.json", "source": "community" },
   { "id": "linear", "name": { "zh": "Linear", "en": "Linear" }, "category": "productivity", "icon": "📐", "type": "software", "file": "linear.json", "source": "community" },
   { "id": "figjam", "name": { "zh": "FigJam", "en": "FigJam" }, "category": "design", "icon": "🟡", "type": "software", "file": "figjam.json", "source": "community" },
-  { "id": "logicpro", "name": { "zh": "Logic Pro", "en": "Logic Pro" }, "category": "audio", "icon": "🎹", "type": "software", "file": "logicpro.json", "source": "ai" },
-  { "id": "abletonlive", "name": { "zh": "Ableton Live", "en": "Ableton Live" }, "category": "audio", "icon": "🎛️", "type": "software", "file": "abletonlive.json", "source": "ai" },
-  { "id": "garageband", "name": { "zh": "GarageBand", "en": "GarageBand" }, "category": "audio", "icon": "🎸", "type": "software", "file": "garageband.json", "source": "ai" },
-  { "id": "reaper", "name": { "zh": "REAPER", "en": "REAPER" }, "category": "audio", "icon": "🎚️", "type": "software", "file": "reaper.json", "source": "ai" }
+  { "id": "abletonlive", "name": { "zh": "Ableton Live", "en": "Ableton Live" }, "category": "audio", "icon": "🎛️", "type": "software", "file": "abletonlive.json", "source": "official" }
 ]

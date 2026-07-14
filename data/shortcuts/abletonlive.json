@@ -322,8 +322,8 @@
       "zh": "新建一条 MIDI 轨道",
       "en": "Create a new MIDI track"
     },
-    "windows": "Ctrl + Shift + M",
-    "mac": "⌘ ⇧ M",
+    "windows": "Ctrl + Shift + T",
+    "mac": "⌘ ⇧ T",
     "linux": "—",
     "keywords": [
       "midi",
@@ -452,21 +452,21 @@
     "type": "software",
     "category": "audio",
     "name": {
-      "zh": "详情视图",
-      "en": "Toggle Detail View"
+      "zh": "设备视图",
+      "en": "Device View"
     },
     "description": {
-      "zh": "显示/隐藏详情视图",
-      "en": "Show/hide the Detail View"
+      "zh": "显示/隐藏设备视图",
+      "en": "Show/hide the Device View"
     },
-    "windows": "Ctrl + Alt + D",
-    "mac": "⌘ ⌥ D",
+    "windows": "Ctrl + Alt + 4",
+    "mac": "⌘ ⌥ 4",
     "linux": "—",
     "keywords": [
       "详情",
       "detail"
     ],
-    "pinyin": "xiang qing shi tu xiangqingshitu x q s t xqst xiang qing xiangqing x q xq"
+    "pinyin": "she bei shi tu shebeishitu s b s t sbst xiang qing xiangqing x q xq"
   },
   {
     "id": "ableton-capture",
@@ -504,8 +504,8 @@
       "zh": "开启/关闭节拍器",
       "en": "Toggle the metronome"
     },
-    "windows": "Ctrl + M",
-    "mac": "⌘ M",
+    "windows": "O",
+    "mac": "O",
     "linux": "—",
     "keywords": [
       "节拍器",

@@ -15,66 +15,34 @@
 
 ## 快捷键数据来源核实状态（2026-07-14 更新）
 
-共 **102 个**应用/系统条目。
+共 **94 个**应用/系统条目。
 
 | 来源 | 数量 | 说明 |
 |------|------|------|
-| `official` | 80 | 对照官方文档/截图逐条核实 |
+| `official` | 82 | 对照官方文档/截图逐条核实 |
 | `community` | 10 | 社区整理版，非官方逐条验证 |
-| `ai` | 12 | AI 专业知识库编写，未经官网逐条核实（见下方） |
+| `ai` | 2 | AI 专业知识库编写，未经官网逐条核实（git, bilibili） |
 
-分类分布：系统 3 / 浏览器 5 / 开发 19 / 设计 34 / 效率 27 / 视频 9 / 音频 4 / 其他 1
+分类分布：系统 3 / 浏览器 5 / 开发 19 / 设计 31 / 效率 25 / 视频 9 / 音频 1 / 其他 1
 
-> 分类表 `data/categories.json` 含 8 类：system / browser / development / design / productivity / video / audio / ai / other。
+> 分类表 `data/categories.json` 含 8 类：system / browser / development / design / productivity / video / audio / ai / other。audio 分类保留（Ableton Live 唯一成员）。
 
-### ✅ 官方核实（79 个）
+### ✅ 官方核实（82 个）
 
-**第一批（原 34 个，2026-07-13 逐条核实）：**
-- `photoshop.json` / `illustrator.json`：用户给的官方截图
-- `davinci.json`：用户给的 Google 整理版截图
-- `premiere.json`（75 条）/ `afterfx.json`（85 条）：对照官方截图重写
-- `lightroom.json`（65 条）/ `xd.json`（55 条）/ `indesign.json`（79 条）：对照官方截图重写
-- `acrobat.json`（42 条）/ `audition.json`（52 条）：对照截图重写
-- `vscode.json`（49 条）：对照微软官方 Windows 快捷键截图重写
-- `excel.json`（60 条）/ `word.json`（60 条）/ `powerpoint.json`（60 条）：对照微软支持页核实
-- `finalcut.json`（66 条）：对照 Apple 官方支持页截图核实
-- `edge.json`（38 条）：对照微软官方双平台截图重写
-- `notion.json`（42 条）：对照 Notion 官方帮助页核实
-- `chrome.json`（40 条）：对照 Chrome 官方中文帮助页核实
-- `github.json`（24 条）：对照 GitHub 官方快捷键页补全
-- `todoist.json` / `chatgpt.json`：对照官方文档修正
-- `macos.json` / `linux.json` / `capcut.json`：去重 + 修正
-- `windows.json`（89 条）：对照微软官方支持页逐条确认
-- `devtools.json`（27 条）：对照 Chrome DevTools 官方页
-- `obsidian.json`（31 条）：对照 Obsidian 官方 Hotkeys 页
-- `cursor.json`（31 条）：对照 Cursor 官方文档
-- `blender.json`（23 条）：去重合并为标准键位
-- `obs.json`：对照 OBS 官方页重写
+**第一~三批（同前，79 个）：**（photoshop / illustrator / davinci / premiere / afterfx / lightroom / xd / indesign / acrobat / audition / vscode / excel / word / powerpoint / finalcut / edge / notion / chrome / github / todoist / chatgpt / macos / linux / capcut / windows / devtools / obsidian / cursor / blender / obs + gimp / inkscape / procreate / safari / androidstudio / spotify / raycast / audacity / teams / alfred / sketch / framer / canva / miro / mural / axure / invision / zeplin / principle / protopie / whimsical / lucidchart / abstract / jsdesign / mastergo / affinityphoto / affinitydesigner / affinitypublisher / intellij / webstorm / slack / outlook / gmail / googledocs / googlesheets / googleslides / feishu / dingtalk / wecom + pycharm / goland / clion / phpstorm / rider + vim / neovim / emacs / helix + keynote / pages / numbers）
 
-**第二批（2026-07-14 web_fetch 官方文档）：**
-- `gimp.json` / `inkscape.json` / `procreate.json` / `safari.json` / `androidstudio.json`
-- `spotify.json` / `raycast.json` / `audacity.json` / `teams.json` / `alfred.json`
-- `sketch.json` / `framer.json` / `canva.json` / `miro.json` / `mural.json` / `axure.json`
-- `invision.json` / `zeplin.json` / `principle.json` / `protopie.json` / `whimsical.json`
-- `lucidchart.json` / `abstract.json` / `jsdesign.json` / `mastergo.json`
-- `affinityphoto.json` / `affinitydesigner.json` / `affinitypublisher.json`
-- `intellij.json` / `webstorm.json` / `slack.json`
-- `outlook.json` / `gmail.json` / `googledocs.json` / `googlesheets.json` / `googleslides.json`
-- `feishu.json` / `dingtalk.json` / `wecom.json`
+**第四批（2026-07-14 联网复核 / 用户截图核验）：**
+- `abletonlive.json`：web_fetch Ableton Live 12 官方手册 Section 41 全表，修正 3 处错误后升级
+- `onenote.json`：对照用户提供的 Microsoft 365 官方截图（OneNote-1.png / OneNote-2.png）完全重写（55 条）
 
-**第三批（2026-07-14 web_fetch 官方文档核实）：**
-- `pycharm.json` / `goland.json` / `clion.json` / `phpstorm.json` / `rider.json`（JetBrains 全家桶）
-- `vim.json` / `neovim.json` / `emacs.json` / `helix.json`（vimhelp.org / neovim doc / GNU 参考卡 / Helix 官方 keymap）
-- `keynote.json` / `pages.json` / `numbers.json`（Apple iWork 标准，Mac-only）
-
-### ⚠️ 非官方来源标注（22 个）
+### ⚠️ 非官方来源标注（12 个）
 
 | 来源类型 | 应用 |
 |----------|------|
 | `community`（10） | figma, firefox, acrobat, sublimetext, krita, clipstudio, xcode, arc, linear, figjam |
-| `ai`（12） | git, bilibili, **cinema4d, maya, zbrush, logicpro, abletonlive, garageband, reaper, jira, trello, onenote** |
+| `ai`（2） | git, bilibili |
 
-> `ai` 来源的应用（含 2026-07-14 新增的 10 个：Cinema 4D / Maya / ZBrush / Logic Pro / Ableton Live / GarageBand / REAPER / Jira / Trello / OneNote）由 AI 专业知识库编写，**未经官网逐条核实**（当时网络受限，官方正文页全部超时/仅返回目录）。键位大概率正确但建议后续 web_fetch 官方页复核。Logic Pro / GarageBand 为 Mac 独占（windows/linux 设为 "—"）。
+> **2026-07-14 清理操作**：删除了 8 个无官方文档支持的 AI 应用（Cinema 4D / Maya / ZBrush / Logic Pro / GarageBand / REAPER / Jira / Trello）。这些应用因网络受限无法抓取官方文档，且用户确认不可信则删掉。如后续找到官方文档可重新添加。
 
 ## 技术栈
 - Chrome 扩展（Manifest V3），popup 单页应用。

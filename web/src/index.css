@@ -219,3 +219,83 @@ body {
   background: #eef2ff;
 }
 [data-theme="dark"] .ka-back:hover { background: rgba(67,56,202,.15); }
+
+/* ===== Toast ===== */
+@keyframes ka-toast-in {
+  from { opacity: 0; transform: translateY(12px) scale(0.96); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+.ka-toast { animation: ka-toast-in 0.22s cubic-bezier(0.16, 1, 0.3, 1); }
+
+/* ===== Page transition ===== */
+.ka-page { animation: ka-page-in 0.28s ease; }
+@keyframes ka-page-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ===== Skeleton loading ===== */
+@keyframes ka-shimmer {
+  0% { background-position: -400px 0; }
+  100% { background-position: 400px 0; }
+}
+.ka-skeleton {
+  background: linear-gradient(90deg, var(--surface-2-color) 25%, var(--border-color) 50%, var(--surface-2-color) 75%);
+  background-size: 800px 100%;
+  animation: ka-shimmer 1.4s infinite linear;
+  border-radius: 8px;
+}
+.ka-skeleton-card {
+  background: var(--surface-color);
+  border: 1px solid var(--border-color);
+  borderRadius: 12px;
+  padding: 16px;
+}
+
+/* ===== Empty state illustration ===== */
+.ka-empty {
+  text-align: center;
+  padding: 56px 20px;
+  color: var(--sub-color);
+}
+.ka-empty svg { opacity: 0.7; margin-bottom: 12px; }
+.ka-empty p:first-of-type { font-size: 18px; font-weight: 600; color: var(--text-color); margin-bottom: 4px; }
+.ka-empty p:last-of-type { font-size: 14px; }
+
+/* ===== Platform compare popover ===== */
+.ka-compare-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 0;
+  border-top: 1px solid var(--border-color);
+}
+.ka-compare-row:first-of-type { border-top: none; }
+.ka-compare-label {
+  width: 64px;
+  flex-shrink: 0;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--sub-color);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* ===== Focus reset: mouse click must not leave visible focus ===== */
+:focus:not(:focus-visible) {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: inherit !important;
+}
+
+/* ===== ShortcutCard: pure CSS hover (no JS state) ===== */
+.shortcut-card {
+  /* base styles via inline — only hover/focus in CSS */
+}
+.shortcut-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,.08);
+  border-color: #c7d2fe;
+}
+.shortcut-card:hover .sc-copy-btn {
+  opacity: 1;
+}

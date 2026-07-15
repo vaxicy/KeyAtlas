@@ -7,6 +7,8 @@ import type { AllData } from '../types';
 import SearchBar from '../components/SearchBar';
 import ShortcutCard from '../components/ShortcutCard';
 import AppCard from '../components/AppCard';
+import { SkeletonGrid } from '../components/Skeleton';
+import EmptyState from '../components/EmptyState';
 
 // Bilingual popular search terms shown when the query is empty.
 const HOT_TERMS: { zh: string; en: string }[] = [
@@ -21,6 +23,25 @@ const HOT_TERMS: { zh: string; en: string }[] = [
 ];
 
 const RECOMMENDED_APP_IDS = ['vscode', 'figma', 'photoshop', 'chrome', 'excel', 'notion'];
+const RECENT_KEY = 'keyatlas-recent-searches';
+
+type PlatformFilter = 'all' | 'windows' | 'mac' | 'linux';
+
+function loadRecent(): string[] {
+  try {
+    const raw = localStorage.getItem(RECENT_KEY);
+    if (!raw) return [];
+    const arr = JSON.parse(raw);
+    return Array.isArray(arr) ? arr.slice(0, 8) : [];
+  } catch { return []; }
+}
+
+function saveRecent(term: string) {
+  if (!term.trim()) return;
+  const cur = loadRecent().filter(x => x !== term);
+  const next = [term, ...cur].slice(0, 8);
+  try { localStorage.setItem(RECENT_KEY, JSON.stringify(next)); } catch {}
+}
 
 export default function SearchPage() {
   const [searchParams] = useSearchParams();
@@ -30,6 +51,8 @@ export default function SearchPage() {
   const [data, setData] = useState<AllData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [platform, setPlatform] = useState<PlatformFilter>('all');
+  const [recent, setRecent] = useState<string[]>([]);
   useLangState();
   const lang = getLang();
 
@@ -40,8 +63,17 @@ export default function SearchPage() {
     loadData()
       .then(d => { if (alive) { setData(d); setLoading(false); } })
       .catch(err => { if (alive) { setError(err?.message || 'Failed to load data'); setLoading(false); } });
+    setRecent(loadRecent());
     return () => { alive = false; };
   }, []);
+
+  // Save search term to recent history
+  useEffect(() => {
+    if (q) {
+      saveRecent(q);
+      setRecent(loadRecent());
+    }
+  }, [q]);
 
   // Compute results reactively from q + data
   const results = useMemo(() => {
@@ -54,12 +86,20 @@ export default function SearchPage() {
     }
   }, [q, data]);
 
+  // Filter by platform
+  const filteredResults = useMemo(() => {
+    if (platform === 'all') return results;
+    return results.filter(r => {
+      const item = r.item as any;
+      return r.type === 'shortcut' && item[platform];
+    });
+  }, [results, platform]);
+
   const recommendedApps = useMemo(() => {
     if (!data) return [];
     const byId = RECOMMENDED_APP_IDS
       .map(id => data.apps.find(a => a.id === id))
       .filter(Boolean) as AllData['apps'];
-    // Fallback: fill with popular apps if some ids missing
     if (byId.length < RECOMMENDED_APP_IDS.length) {
       const extra = data.apps.filter(a => a.popular && !byId.find(b => b.id === a.id));
       return [...byId, ...extra].slice(0, 6);
@@ -71,9 +111,67 @@ export default function SearchPage() {
     data ? data.shortcuts.filter(s => s.appId === appId).length : 0;
 
   const resultLabel = () => {
-    const key = results.length === 1 ? 'resultForOne' : 'resultsFor';
-    return t(key, { count: String(results.length) });
+    const key = filteredResults.length === 1 ? 'resultForOne' : 'resultsFor';
+    return t(key, { count: String(filteredResults.length) });
   };
+
+  const platformPills: { key: PlatformFilter; label: string }[] = [
+    { key: 'all', label: t('platformAll') },
+    { key: 'windows', label: t('platformWindows') },
+    { key: 'mac', label: t('platformMac') },
+    { key: 'linux', label: t('platformLinux') },
+  ];
+
+  const renderTermChips = (terms: string[], onClear?: () => void) => (
+    <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, alignItems: 'center' }}>
+      {terms.map(term => (
+        <button
+          key={term}
+          onClick={() => navigate(`/search?q=${encodeURIComponent(term)}`)}
+          style={{
+            padding: '7px 16px',
+            borderRadius: 9999,
+            border: '1px solid var(--border-color)',
+            background: 'var(--surface-2-color)',
+            color: 'var(--text-color)',
+            fontSize: 14,
+            fontWeight: 500,
+            cursor: 'pointer',
+            transition: 'all 0.15s ease',
+          }}
+          onMouseEnter={e => {
+            e.currentTarget.style.borderColor = '#a5b4fc';
+            e.currentTarget.style.color = '#4f46e5';
+            e.currentTarget.style.background = '#eef2ff';
+          }}
+          onMouseLeave={e => {
+            e.currentTarget.style.borderColor = 'var(--border-color)';
+            e.currentTarget.style.color = 'var(--text-color)';
+            e.currentTarget.style.background = 'var(--surface-2-color)';
+          }}
+        >
+          {term}
+        </button>
+      ))}
+      {onClear && (
+        <button
+          onClick={onClear}
+          style={{
+            padding: '7px 12px',
+            borderRadius: 9999,
+            border: 'none',
+            background: 'transparent',
+            color: 'var(--sub-color)',
+            fontSize: 13,
+            fontWeight: 500,
+            cursor: 'pointer',
+          }}
+        >
+          {t('clearRecent')}
+        </button>
+      )}
+    </div>
+  );
 
   return (
     <div style={{ maxWidth: 1024, margin: '0 auto', padding: '32px 20px 48px' }}>
@@ -81,8 +179,8 @@ export default function SearchPage() {
 
       {/* Loading */}
       {loading && (
-        <div style={{ marginTop: 64, textAlign: 'center', color: 'var(--sub-color)' }}>
-          <p style={{ fontSize: 16 }}>{t('loading')}</p>
+        <div style={{ marginTop: 24 }}>
+          <SkeletonGrid count={6} />
         </div>
       )}
 
@@ -94,45 +192,22 @@ export default function SearchPage() {
         </div>
       )}
 
-      {/* Empty query — show hot searches + recommended apps */}
+      {/* Empty query — show recent + hot searches + recommended apps */}
       {!loading && !error && !q && (
         <div style={{ marginTop: 32 }}>
+          {recent.length > 0 && (
+            <section style={{ marginBottom: 32 }}>
+              <h2 className="section-title">{t('recentSearches')}</h2>
+              {renderTermChips(recent, () => {
+                localStorage.removeItem(RECENT_KEY);
+                setRecent([]);
+              })}
+            </section>
+          )}
+
           <section style={{ marginBottom: 32 }}>
             <h2 className="section-title">{t('hotSearches')}</h2>
-            <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
-              {HOT_TERMS.map(term => {
-                const label = lang === 'zh' ? term.zh : term.en;
-                return (
-                  <button
-                    key={term.en}
-                    onClick={() => navigate(`/search?q=${encodeURIComponent(label)}`)}
-                    style={{
-                      padding: '7px 16px',
-                      borderRadius: 9999,
-                      border: '1px solid var(--border-color)',
-                      background: 'var(--surface-2-color)',
-                      color: 'var(--text-color)',
-                      fontSize: 14,
-                      fontWeight: 500,
-                      cursor: 'pointer',
-                      transition: 'all 0.15s ease',
-                    }}
-                    onMouseEnter={e => {
-                      e.currentTarget.style.borderColor = '#a5b4fc';
-                      e.currentTarget.style.color = '#4f46e5';
-                      e.currentTarget.style.background = '#eef2ff';
-                    }}
-                    onMouseLeave={e => {
-                      e.currentTarget.style.borderColor = 'var(--border-color)';
-                      e.currentTarget.style.color = 'var(--text-color)';
-                      e.currentTarget.style.background = 'var(--surface-2-color)';
-                    }}
-                  >
-                    {label}
-                  </button>
-                );
-              })}
-            </div>
+            {renderTermChips(HOT_TERMS.map(term => lang === 'zh' ? term.zh : term.en))}
           </section>
 
           {recommendedApps.length > 0 && (
@@ -153,12 +228,38 @@ export default function SearchPage() {
       )}
 
       {/* Results */}
-      {!loading && !error && q && results.length > 0 && (
+      {!loading && !error && q && filteredResults.length > 0 && (
         <div style={{ marginTop: 24, display: 'flex', flexDirection: 'column', gap: 12 }}>
-          <p style={{ fontSize: 14, color: 'var(--sub-color)', marginBottom: 12 }}>
+          {/* Platform filter */}
+          <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
+            {platformPills.map(p => {
+              const active = platform === p.key;
+              return (
+                <button
+                  key={p.key}
+                  onClick={() => setPlatform(p.key)}
+                  style={{
+                    padding: '5px 14px',
+                    borderRadius: 9999,
+                    fontSize: 13,
+                    fontWeight: 600,
+                    cursor: 'pointer',
+                    transition: 'all .15s ease',
+                    border: active ? '1px solid transparent' : '1px solid var(--border-color)',
+                    background: active ? '#6366f1' : 'var(--surface-2-color)',
+                    color: active ? '#ffffff' : 'var(--sub-color)',
+                  }}
+                >
+                  {p.label}
+                </button>
+              );
+            })}
+          </div>
+
+          <p style={{ fontSize: 14, color: 'var(--sub-color)', marginBottom: 4 }}>
             {resultLabel()} “<strong>{q}</strong>”
           </p>
-          {results.map(r => (
+          {filteredResults.map(r => (
             r.type === 'shortcut'
               ? <ShortcutCard key={`${(r.item as any).appId}-${(r.item as any).id}`} shortcut={r.item as any} showCopy />
               : <AppCard key={(r.item as any).id} app={r.item as any} shortcutCount={shortcutCountFor((r.item as any).id)} />
@@ -167,49 +268,23 @@ export default function SearchPage() {
       )}
 
       {/* No results — still show recommended apps as fallback */}
-      {!loading && !error && q && results.length === 0 && (
+      {!loading && !error && q && filteredResults.length === 0 && (
         <div style={{ marginTop: 32 }}>
-          <div style={{ textAlign: 'center', color: 'var(--sub-color)', marginBottom: 32 }}>
-            <p style={{ fontSize: 18, fontWeight: 500 }}>{t('noResults')}</p>
-            <p style={{ marginTop: 4, fontSize: 14 }}>{t('tryDifferent')}</p>
-          </div>
+          <EmptyState title={t('noResults')} desc={t('tryDifferent')} />
+
+          {recent.length > 0 && (
+            <section style={{ marginBottom: 32, marginTop: 24 }}>
+              <h2 className="section-title">{t('recentSearches')}</h2>
+              {renderTermChips(recent, () => {
+                localStorage.removeItem(RECENT_KEY);
+                setRecent([]);
+              })}
+            </section>
+          )}
 
           <section style={{ marginBottom: 32 }}>
             <h2 className="section-title">{t('hotSearches')}</h2>
-            <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
-              {HOT_TERMS.map(term => {
-                const label = lang === 'zh' ? term.zh : term.en;
-                return (
-                  <button
-                    key={term.en}
-                    onClick={() => navigate(`/search?q=${encodeURIComponent(label)}`)}
-                    style={{
-                      padding: '7px 16px',
-                      borderRadius: 9999,
-                      border: '1px solid var(--border-color)',
-                      background: 'var(--surface-2-color)',
-                      color: 'var(--text-color)',
-                      fontSize: 14,
-                      fontWeight: 500,
-                      cursor: 'pointer',
-                      transition: 'all 0.15s ease',
-                    }}
-                    onMouseEnter={e => {
-                      e.currentTarget.style.borderColor = '#a5b4fc';
-                      e.currentTarget.style.color = '#4f46e5';
-                      e.currentTarget.style.background = '#eef2ff';
-                    }}
-                    onMouseLeave={e => {
-                      e.currentTarget.style.borderColor = 'var(--border-color)';
-                      e.currentTarget.style.color = 'var(--text-color)';
-                      e.currentTarget.style.background = 'var(--surface-2-color)';
-                    }}
-                  >
-                    {label}
-                  </button>
-                );
-              })}
-            </div>
+            {renderTermChips(HOT_TERMS.map(term => lang === 'zh' ? term.zh : term.en))}
           </section>
 
           {recommendedApps.length > 0 && (

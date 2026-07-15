@@ -4,6 +4,8 @@ import { t, getCategoryName, useLangState } from '../i18n';
 import { loadData, getCategories, getShortcutsByAppId } from '../data';
 import SearchBar from '../components/SearchBar';
 import ShortcutCard from '../components/ShortcutCard';
+import AppIcon from '../components/AppIcon';
+import { SkeletonGrid } from '../components/Skeleton';
 import type { AllData } from '../types';
 
 const POPULAR_APP_IDS = ['chrome', 'vscode', 'figma', 'photoshop', 'windows', 'excel', 'notion', 'discord'];
@@ -25,8 +27,13 @@ export default function Home() {
   }, []);
 
   if (!data) return (
-    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '50vh', color: 'var(--sub-color)' }}>
-      {t('loading')}
+    <div style={{ maxWidth: 1024, margin: '0 auto', padding: '32px 20px 48px' }}>
+      <div style={{ textAlign: 'center', marginBottom: 40, height: 220 }}>
+        <div className="ka-skeleton" style={{ width: 240, height: 44, margin: '0 auto 10px' }} />
+        <div className="ka-skeleton" style={{ width: 320, height: 20, margin: '0 auto 28px' }} />
+        <div className="ka-skeleton" style={{ width: '100%', maxWidth: 560, height: 48, margin: '0 auto' }} />
+      </div>
+      <SkeletonGrid count={5} />
     </div>
   );
 
@@ -137,19 +144,7 @@ export default function Home() {
             >
               <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
                 {/* Icon placeholder */}
-                <span style={{
-                  fontSize: 26,
-                  flexShrink: 0,
-                  width: 44,
-                  height: 44,
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  background: 'var(--surface-2-color)',
-                  borderRadius: 10,
-                }}>
-                  {app.icon || '⌨️'}
-                </span>
+                <AppIcon name={lang === 'zh' && app.name?.zh ? app.name.zh : app.name.en} icon={app.icon} size={44} />
                 <div style={{ minWidth: 0, flex: 1 }}>
                   <h3 className="app-card-title" style={{
                     fontWeight: 600,

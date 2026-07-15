@@ -3,6 +3,8 @@ import { useParams, Link, useNavigate } from 'react-router-dom';
 import { t, getCategoryName, useLangState } from '../i18n';
 import { loadData, getAppById, getShortcutsByAppId } from '../data';
 import ShortcutCard from '../components/ShortcutCard';
+import AppIcon from '../components/AppIcon';
+import { SkeletonGrid } from '../components/Skeleton';
 
 type PlatformFilter = 'all' | 'windows' | 'mac' | 'linux';
 
@@ -21,8 +23,8 @@ export default function AppDetail() {
   }, [appId]);
 
   if (!data) return (
-    <div style={{ maxWidth: 1024, margin: '0 auto', padding: '80px 20px', display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '50vh', color: 'var(--sub-color)' }}>
-      {t('loading')}
+    <div style={{ maxWidth: 1024, margin: '0 auto', padding: '32px 20px 48px' }}>
+      <SkeletonGrid count={6} />
     </div>
   );
   if (!app) return (
@@ -59,7 +61,7 @@ export default function AppDetail() {
     <div style={{ maxWidth: 1024, margin: '0 auto', padding: '32px 20px 48px' }}>
       {/* Back button */}
       <button className="ka-back" onClick={() => navigate(-1)} style={{ marginBottom: 20 }}>
-        <svg width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
           <polyline points="15 18 9 12 15 6" />
         </svg>
         {t('back')}
@@ -68,19 +70,7 @@ export default function AppDetail() {
       {/* App header */}
       <div style={{ marginBottom: 32 }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 16, marginBottom: 16 }}>
-          <span style={{
-            fontSize: 32,
-            width: 56,
-            height: 56,
-            flexShrink: 0,
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            background: 'var(--surface-2-color)',
-            borderRadius: 16,
-          }}>
-            {app.icon}
-          </span>
+          <AppIcon name={app.name.en} icon={app.icon} size={56} />
           <div>
             <h1 style={{ fontSize: 'clamp(1.5rem, 3vw, 1.9rem)', fontWeight: 800, letterSpacing: '-0.02em' }}>{app.name.en}</h1>
             <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginTop: 4, flexWrap: 'wrap' }}>

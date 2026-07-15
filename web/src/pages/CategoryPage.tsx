@@ -3,6 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { t, getCategoryName, useLangState } from '../i18n';
 import { loadData, getAppsByCategory, getShortcutsByAppId } from '../data';
 import AppCard from '../components/AppCard';
+import { SkeletonGrid } from '../components/Skeleton';
 
 export default function CategoryPage() {
   const { categoryId } = useParams<{ categoryId: string }>();
@@ -13,8 +14,8 @@ export default function CategoryPage() {
   useEffect(() => { loadData().then(setData); }, []);
 
   if (!data) return (
-    <div style={{ maxWidth: 1024, margin: '0 auto', padding: '80px 20px', display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '50vh', color: 'var(--sub-color)' }}>
-      {t('loading')}
+    <div style={{ maxWidth: 1024, margin: '0 auto', padding: '32px 20px 48px' }}>
+      <SkeletonGrid count={6} />
     </div>
   );
 
@@ -25,7 +26,7 @@ export default function CategoryPage() {
     <div style={{ maxWidth: 1024, margin: '0 auto', padding: '32px 20px 48px' }}>
       {/* Back button */}
       <button className="ka-back" onClick={() => navigate(-1)} style={{ marginBottom: 20 }}>
-        <svg width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
           <polyline points="15 18 9 12 15 6" />
         </svg>
         {t('back')}

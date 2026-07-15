@@ -6,7 +6,8 @@ const headerStyle: React.CSSProperties = {
   top: 0,
   zIndex: 50,
   backdropFilter: 'blur(20px)',
-  background: 'rgba(248, 249, 251, 0.8)',
+  WebkitBackdropFilter: 'blur(20px)',
+  background: 'color-mix(in srgb, var(--bg-color) 80%, transparent)',
   borderBottom: '1px solid var(--border-color)',
 };
 const brandLinkStyle: React.CSSProperties = {

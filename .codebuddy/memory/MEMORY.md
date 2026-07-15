@@ -40,10 +40,12 @@
 
 | 来源类型 | 应用 |
 |----------|------|
-| `community`（10） | figma, firefox, acrobat, sublimetext, krita, clipstudio, xcode, arc, linear, figjam |
+| `community`（13） | figma, firefox, acrobat, sublimetext, krita, clipstudio, xcode, arc, linear, figjam, discord, zoom, postman |
 | `ai`（27） | git, bilibili, logicpro, garageband, reaper, cubase, autocad, fusion360, sketchup, solidworks, substancepainter, houdini, unreal, unity, godot, visualstudio, eclipse, notepadplusplus, 3dsmax, rhino, brave, opera, vivaldi, confluence, studioone, protools, ios |
 
 > **2026-07-14 末批**：官方文档补齐 15 个应用（unreal/unity/godot/visualstudio/eclipse/notepadplusplus/3dsmax/rhino/brave/opera/vivaldi/confluence/studioone/protools/ios）。环境网络受限（web 搜索不可用 + 多数官方页 SPA/403/超时），按规则以 AI 知识库编写、标 `ai`，未经官网逐条核实。校验 0 error。建议网络恢复后复核 Pro Tools 工具键、Rhino 功能键、Visual Studio 组合键。
+
+> **2026-07-15 联网抓取批（6 个）**：用户要求补「有官方文档支持」的高价值应用。逐个尝试官方页均失败——Discord 官方 403、Zoom/Figma/Linear JS 渲染、Postman/Figma 404 改版、Xcode 官方存档仅目录页。转用社区整理源（tutorialtactic 的 Discord/Figma、shortcutref 的 Zoom/Postman/Linear、idevebi + Apple archive 的 Xcode），按规则统一标 `community`（非官方逐条核实）。其中 discord/zoom/postman 为新增（之前缺失），figma/linear/xcode 维持原 community。数据文件已存在（discord 26 / zoom 30 / postman 19 / figma 68 / linear 35 / xcode 41 条），apps.json 三处 source 由 official 降为 community，已跑 `npm run gen:pinyin` 校验通过。
 
 > **2026-07-15 用户截图复核**：用户提供 13 张截图（Apple 官方 GarageBand / 知乎 REAPER / toopoo Fusion 360 / SolidWorks 表格 / SketchUp 文章 / Substance Painter 知乎 / Houdini 知乎 / AutoCAD 官方长表 / Autodesk 页面），对照后大幅补充修正：
 > - **GarageBand**：+Stop(.) / Delete / Escape / Open Project，Apple 官方页核实

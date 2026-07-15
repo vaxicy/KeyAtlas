@@ -1,0 +1,298 @@
+[
+  {
+    "id": "qq-extract-msg",
+    "appId": "qq",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "提取消息",
+      "en": "Extract Messages"
+    },
+    "description": {
+      "zh": "打开消息列表提取并查看消息",
+      "en": "Open the message list to extract and view messages"
+    },
+    "windows": "Ctrl + Alt + Z",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "提取",
+      "消息",
+      "extract",
+      "message"
+    ],
+    "pinyin": "ti qu xiao xi tiquxiaoxi t q x x tqxx ti qu   xiao xi tiqu xiaoxi t q   x x tq xx"
+  },
+  {
+    "id": "qq-screenshot",
+    "appId": "qq",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "截图",
+      "en": "Screenshot"
+    },
+    "description": {
+      "zh": "使用 QQ 自带工具截图",
+      "en": "Capture a screenshot with QQ's built-in tool"
+    },
+    "windows": "Ctrl + Alt + A",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "截图",
+      "screenshot",
+      "capture"
+    ],
+    "pinyin": "jie tu jietu j t jt jie tu jietu j t jt"
+  },
+  {
+    "id": "qq-lock",
+    "appId": "qq",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "锁定 QQ",
+      "en": "Lock QQ"
+    },
+    "description": {
+      "zh": "锁定 QQ 保护隐私",
+      "en": "Lock QQ to protect your privacy"
+    },
+    "windows": "Ctrl + Alt + L",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "锁定",
+      "lock"
+    ],
+    "pinyin": "suo ding   q q suoding qq s d   q q sd qq suo ding suoding s d sd"
+  },
+  {
+    "id": "qq-send",
+    "appId": "qq",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "发送消息",
+      "en": "Send Message"
+    },
+    "description": {
+      "zh": "在聊天窗口发送当前消息",
+      "en": "Send the current message in the chat window"
+    },
+    "windows": "Ctrl + Enter",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "发送",
+      "send",
+      "message"
+    ],
+    "pinyin": "fa song xiao xi fasongxiaoxi f s x x fsxx fa song fasong f s fs"
+  },
+  {
+    "id": "qq-send-alt",
+    "appId": "qq",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "发送消息（备用）",
+      "en": "Send Message (Alt)"
+    },
+    "description": {
+      "zh": "与 Ctrl+Enter 等效的发送快捷键",
+      "en": "Alternative send shortcut equivalent to Ctrl+Enter"
+    },
+    "windows": "Alt + S",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "发送",
+      "send"
+    ],
+    "pinyin": "fa song xiao xi （ bei yong ） fasongxiaoxi（beiyong） f s x x （ b y ） fsxx（by） fa song fasong f s fs"
+  },
+  {
+    "id": "qq-find",
+    "appId": "qq",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "查找联系人/群",
+      "en": "Find Contacts"
+    },
+    "description": {
+      "zh": "搜索联系人或群聊",
+      "en": "Search for contacts or groups"
+    },
+    "windows": "Ctrl + F",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "查找",
+      "搜索",
+      "find",
+      "search"
+    ],
+    "pinyin": "cha zhao lian xi ren / qun chazhaolianxiren/qun c z l x r / q czlxr/q cha zhao   sou suo chazhao sousuo c z   s s cz ss"
+  },
+  {
+    "id": "qq-new-msg",
+    "appId": "qq",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "新消息窗口",
+      "en": "New Message Window"
+    },
+    "description": {
+      "zh": "打开一个新的消息窗口",
+      "en": "Open a new message window"
+    },
+    "windows": "Ctrl + N",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "新消息",
+      "new",
+      "message"
+    ],
+    "pinyin": "xin xiao xi chuang kou xinxiaoxichuangkou x x x c k xxxck xin xiao xi xinxiaoxi x x x xxx"
+  },
+  {
+    "id": "qq-close-win",
+    "appId": "qq",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "关闭当前窗口",
+      "en": "Close Current Window"
+    },
+    "description": {
+      "zh": "关闭当前聊天窗口",
+      "en": "Close the current chat window"
+    },
+    "windows": "Alt + C",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "关闭",
+      "close",
+      "window"
+    ],
+    "pinyin": "guan bi dang qian chuang kou guanbidangqianchuangkou g b d q c k gbdqck guan bi guanbi g b gb"
+  },
+  {
+    "id": "qq-chat-history",
+    "appId": "qq",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "聊天记录",
+      "en": "Chat History"
+    },
+    "description": {
+      "zh": "打开当前会话的聊天记录",
+      "en": "Open chat history for the current conversation"
+    },
+    "windows": "Alt + H",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "聊天记录",
+      "history"
+    ],
+    "pinyin": "liao tian ji lu liaotianjilu l t j l ltjl liao tian ji lu liaotianjilu l t j l ltjl"
+  },
+  {
+    "id": "qq-switch-session",
+    "appId": "qq",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "切换会话",
+      "en": "Switch Session"
+    },
+    "description": {
+      "zh": "在多个会话之间切换",
+      "en": "Switch between multiple conversations"
+    },
+    "windows": "Ctrl + Tab",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "切换",
+      "switch",
+      "session"
+    ],
+    "pinyin": "qie huan hui hua qiehuanhuihua q h h h qhhh qie huan qiehuan q h qh"
+  },
+  {
+    "id": "qq-close-all",
+    "appId": "qq",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "关闭所有窗口",
+      "en": "Close All Windows"
+    },
+    "description": {
+      "zh": "关闭所有已打开的聊天窗口",
+      "en": "Close all open chat windows"
+    },
+    "windows": "Ctrl + Alt + W",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "关闭全部",
+      "close all"
+    ],
+    "pinyin": "guan bi suo you chuang kou guanbisuoyouchuangkou g b s y c k gbsyck guan bi quan bu guanbiquanbu g b q b gbqb"
+  },
+  {
+    "id": "qq-mode",
+    "appId": "qq",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "切换消息模式",
+      "en": "Toggle Message Mode"
+    },
+    "description": {
+      "zh": "在消息模式间切换",
+      "en": "Toggle between message modes"
+    },
+    "windows": "Alt + T",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "模式",
+      "mode"
+    ],
+    "pinyin": "qie huan xiao xi mo shi qiehuanxiaoximoshi q h x x m s qhxxms mo shi moshi m s ms"
+  },
+  {
+    "id": "qq-reply",
+    "appId": "qq",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "回复/发送",
+      "en": "Reply / Send"
+    },
+    "description": {
+      "zh": "在聊天中回复或发送消息",
+      "en": "Reply or send a message in chat"
+    },
+    "windows": "Enter",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "回复",
+      "reply",
+      "enter"
+    ],
+    "pinyin": "hui fu / fa song huifu/fasong h f / f s hf/fs hui fu huifu h f hf"
+  }
+]

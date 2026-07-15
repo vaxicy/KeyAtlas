@@ -1,0 +1,661 @@
+[
+  {
+    "id": "wt-new-tab",
+    "appId": "windowsterminal",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "新建标签页",
+      "en": "New Tab"
+    },
+    "description": {
+      "zh": "打开一个新标签页",
+      "en": "Open a new tab"
+    },
+    "windows": "Ctrl + Shift + T",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "新建",
+      "标签",
+      "new tab"
+    ],
+    "pinyin": "xin jian biao qian ye xinjianbiaoqianye x j b q y xjbqy xin jian   biao qian xinjian biaoqian x j   b q xj bq"
+  },
+  {
+    "id": "wt-new-window",
+    "appId": "windowsterminal",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "新建窗口",
+      "en": "New Window"
+    },
+    "description": {
+      "zh": "打开一个新窗口",
+      "en": "Open a new window"
+    },
+    "windows": "Ctrl + Shift + N",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "新建",
+      "窗口",
+      "new window"
+    ],
+    "pinyin": "xin jian chuang kou xinjianchuangkou x j c k xjck xin jian   chuang kou xinjian chuangkou x j   c k xj ck"
+  },
+  {
+    "id": "wt-close-pane",
+    "appId": "windowsterminal",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "关闭窗格",
+      "en": "Close Pane"
+    },
+    "description": {
+      "zh": "关闭当前窗格（无分屏时关闭标签）",
+      "en": "Close the current pane (or tab if no split)"
+    },
+    "windows": "Ctrl + Shift + W",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "关闭",
+      "窗格",
+      "close pane"
+    ],
+    "pinyin": "guan bi chuang ge guanbichuangge g b c g gbcg guan bi   chuang ge guanbi chuangge g b   c g gb cg"
+  },
+  {
+    "id": "wt-duplicate-pane",
+    "appId": "windowsterminal",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "复制并分屏（自动）",
+      "en": "Duplicate Pane (Auto)"
+    },
+    "description": {
+      "zh": "复制当前配置并自动分屏",
+      "en": "Duplicate the current profile and split automatically"
+    },
+    "windows": "Alt + Shift + D",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "分屏",
+      "复制",
+      "split",
+      "pane"
+    ],
+    "pinyin": "fu zhi bing fen ping （ zi dong ） fuzhibingfenping（zidong） f z b f p （ z d ） fzbfp（zd） fen ping   fu zhi fenping fuzhi f p   f z fp fz"
+  },
+  {
+    "id": "wt-split-down",
+    "appId": "windowsterminal",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "向下分屏",
+      "en": "Split Pane Down"
+    },
+    "description": {
+      "zh": "在当前窗格下方分屏",
+      "en": "Split the current pane downward"
+    },
+    "windows": "Alt + Shift + -",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "分屏",
+      "split"
+    ],
+    "pinyin": "xiang xia fen ping xiangxiafenping x x f p xxfp fen ping fenping f p fp"
+  },
+  {
+    "id": "wt-split-right",
+    "appId": "windowsterminal",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "向右分屏",
+      "en": "Split Pane Right"
+    },
+    "description": {
+      "zh": "在当前窗格右侧分屏",
+      "en": "Split the current pane to the right"
+    },
+    "windows": "Alt + Shift + +",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "分屏",
+      "split"
+    ],
+    "pinyin": "xiang you fen ping xiangyoufenping x y f p xyfp fen ping fenping f p fp"
+  },
+  {
+    "id": "wt-next-tab",
+    "appId": "windowsterminal",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "下一个标签",
+      "en": "Next Tab"
+    },
+    "description": {
+      "zh": "切换到右侧标签",
+      "en": "Switch to the tab on the right"
+    },
+    "windows": "Ctrl + Tab",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "下一个",
+      "标签",
+      "next tab"
+    ],
+    "pinyin": "xia yi ge biao qian xiayigebiaoqian x y g b q xygbq xia yi ge   biao qian xiayige biaoqian x y g   b q xyg bq"
+  },
+  {
+    "id": "wt-prev-tab",
+    "appId": "windowsterminal",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "上一个标签",
+      "en": "Previous Tab"
+    },
+    "description": {
+      "zh": "切换到左侧标签",
+      "en": "Switch to the tab on the left"
+    },
+    "windows": "Ctrl + Shift + Tab",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "上一个",
+      "标签",
+      "previous tab"
+    ],
+    "pinyin": "shang yi ge biao qian shangyigebiaoqian s y g b q sygbq shang yi ge   biao qian shangyige biaoqian s y g   b q syg bq"
+  },
+  {
+    "id": "wt-switch-tab1",
+    "appId": "windowsterminal",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "切换到标签 1",
+      "en": "Switch to Tab 1"
+    },
+    "description": {
+      "zh": "直接跳转到第 1 个标签",
+      "en": "Jump directly to the first tab"
+    },
+    "windows": "Ctrl + Alt + 1",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "标签",
+      "tab 1"
+    ],
+    "pinyin": "qie huan dao biao qian   1 qiehuandaobiaoqian 1 q h d b q   1 qhdbq 1 biao qian biaoqian b q bq"
+  },
+  {
+    "id": "wt-copy",
+    "appId": "windowsterminal",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "复制",
+      "en": "Copy"
+    },
+    "description": {
+      "zh": "复制选中内容到剪贴板",
+      "en": "Copy the selection to the clipboard"
+    },
+    "windows": "Ctrl + Shift + C",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "复制",
+      "copy"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "wt-paste",
+    "appId": "windowsterminal",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "粘贴",
+      "en": "Paste"
+    },
+    "description": {
+      "zh": "从剪贴板粘贴内容",
+      "en": "Paste content from the clipboard"
+    },
+    "windows": "Ctrl + Shift + V",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "粘贴",
+      "paste"
+    ],
+    "pinyin": "nian tie niantie n t nt nian tie niantie n t nt"
+  },
+  {
+    "id": "wt-find",
+    "appId": "windowsterminal",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "查找",
+      "en": "Find"
+    },
+    "description": {
+      "zh": "打开查找对话框",
+      "en": "Open the search dialog"
+    },
+    "windows": "Ctrl + Shift + F",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "查找",
+      "find",
+      "search"
+    ],
+    "pinyin": "cha zhao chazhao c z cz cha zhao chazhao c z cz"
+  },
+  {
+    "id": "wt-select-all",
+    "appId": "windowsterminal",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "全选",
+      "en": "Select All"
+    },
+    "description": {
+      "zh": "选中缓冲区全部内容",
+      "en": "Select all content in the buffer"
+    },
+    "windows": "Ctrl + Shift + A",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "全选",
+      "select all"
+    ],
+    "pinyin": "quan xuan quanxuan q x qx quan xuan quanxuan q x qx"
+  },
+  {
+    "id": "wt-close-window",
+    "appId": "windowsterminal",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "关闭窗口",
+      "en": "Close Window"
+    },
+    "description": {
+      "zh": "关闭当前终端窗口",
+      "en": "Close the current terminal window"
+    },
+    "windows": "Alt + F4",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "关闭",
+      "窗口",
+      "close window"
+    ],
+    "pinyin": "guan bi chuang kou guanbichuangkou g b c k gbck guan bi   chuang kou guanbi chuangkou g b   c k gb ck"
+  },
+  {
+    "id": "wt-fullscreen",
+    "appId": "windowsterminal",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "切换全屏",
+      "en": "Toggle Fullscreen"
+    },
+    "description": {
+      "zh": "进入或退出全屏模式",
+      "en": "Enter or exit fullscreen mode"
+    },
+    "windows": "Alt + Enter",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "全屏",
+      "fullscreen"
+    ],
+    "pinyin": "qie huan quan ping qiehuanquanping q h q p qhqp quan ping quanping q p qp"
+  },
+  {
+    "id": "wt-font-up",
+    "appId": "windowsterminal",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "增大字体",
+      "en": "Increase Font Size"
+    },
+    "description": {
+      "zh": "放大终端字号",
+      "en": "Increase the terminal font size"
+    },
+    "windows": "Ctrl + +",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "字体",
+      "放大",
+      "font"
+    ],
+    "pinyin": "zeng da zi ti zengdaziti z d z t zdzt zi ti   fang da ziti fangda z t   f d zt fd"
+  },
+  {
+    "id": "wt-font-down",
+    "appId": "windowsterminal",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "减小字体",
+      "en": "Decrease Font Size"
+    },
+    "description": {
+      "zh": "缩小终端字号",
+      "en": "Decrease the terminal font size"
+    },
+    "windows": "Ctrl + -",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "字体",
+      "缩小",
+      "font"
+    ],
+    "pinyin": "jian xiao zi ti jianxiaoziti j x z t jxzt zi ti   suo xiao ziti suoxiao z t   s x zt sx"
+  },
+  {
+    "id": "wt-font-reset",
+    "appId": "windowsterminal",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "重置字体",
+      "en": "Reset Font Size"
+    },
+    "description": {
+      "zh": "恢复默认字号",
+      "en": "Reset the font size to default"
+    },
+    "windows": "Ctrl + 0",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "字体",
+      "重置",
+      "font reset"
+    ],
+    "pinyin": "zhong zhi zi ti zhongzhiziti z z z t zzzt zi ti   zhong zhi ziti zhongzhi z t   z z zt zz"
+  },
+  {
+    "id": "wt-scroll-up-page",
+    "appId": "windowsterminal",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "向上翻页",
+      "en": "Scroll Up a Page"
+    },
+    "description": {
+      "zh": "向上滚动一整页",
+      "en": "Scroll up a full page"
+    },
+    "windows": "Ctrl + Shift + PgUp",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "滚动",
+      "翻页",
+      "scroll"
+    ],
+    "pinyin": "xiang shang fan ye xiangshangfanye x s f y xsfy gun dong   fan ye gundong fanye g d   f y gd fy"
+  },
+  {
+    "id": "wt-scroll-down-page",
+    "appId": "windowsterminal",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "向下翻页",
+      "en": "Scroll Down a Page"
+    },
+    "description": {
+      "zh": "向下滚动一整页",
+      "en": "Scroll down a full page"
+    },
+    "windows": "Ctrl + Shift + PgDn",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "滚动",
+      "翻页",
+      "scroll"
+    ],
+    "pinyin": "xiang xia fan ye xiangxiafanye x x f y xxfy gun dong   fan ye gundong fanye g d   f y gd fy"
+  },
+  {
+    "id": "wt-scroll-top",
+    "appId": "windowsterminal",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "滚动到顶部",
+      "en": "Scroll to Top"
+    },
+    "description": {
+      "zh": "滚动到缓冲区最上方",
+      "en": "Scroll to the top of the buffer"
+    },
+    "windows": "Ctrl + Shift + Home",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "滚动",
+      "顶部",
+      "scroll top"
+    ],
+    "pinyin": "gun dong dao ding bu gundongdaodingbu g d d d b gdddb gun dong   ding bu gundong dingbu g d   d b gd db"
+  },
+  {
+    "id": "wt-scroll-bottom",
+    "appId": "windowsterminal",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "滚动到底部",
+      "en": "Scroll to Bottom"
+    },
+    "description": {
+      "zh": "滚动到缓冲区最下方",
+      "en": "Scroll to the bottom of the buffer"
+    },
+    "windows": "Ctrl + Shift + End",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "滚动",
+      "底部",
+      "scroll bottom"
+    ],
+    "pinyin": "gun dong dao di bu gundongdaodibu g d d d b gdddb gun dong   di bu gundong dibu g d   d b gd db"
+  },
+  {
+    "id": "wt-move-focus-down",
+    "appId": "windowsterminal",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "焦点下移窗格",
+      "en": "Move Focus Down"
+    },
+    "description": {
+      "zh": "将焦点移动到下方窗格",
+      "en": "Move focus to the pane below"
+    },
+    "windows": "Alt + Down",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "焦点",
+      "窗格",
+      "focus"
+    ],
+    "pinyin": "jiao dian xia yi chuang ge jiaodianxiayichuangge j d x y c g jdxycg jiao dian   chuang ge jiaodian chuangge j d   c g jd cg"
+  },
+  {
+    "id": "wt-move-focus-up",
+    "appId": "windowsterminal",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "焦点上移窗格",
+      "en": "Move Focus Up"
+    },
+    "description": {
+      "zh": "将焦点移动到上方窗格",
+      "en": "Move focus to the pane above"
+    },
+    "windows": "Alt + Up",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "焦点",
+      "窗格",
+      "focus"
+    ],
+    "pinyin": "jiao dian shang yi chuang ge jiaodianshangyichuangge j d s y c g jdsycg jiao dian   chuang ge jiaodian chuangge j d   c g jd cg"
+  },
+  {
+    "id": "wt-move-focus-left",
+    "appId": "windowsterminal",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "焦点左移窗格",
+      "en": "Move Focus Left"
+    },
+    "description": {
+      "zh": "将焦点移动到左侧窗格",
+      "en": "Move focus to the pane on the left"
+    },
+    "windows": "Alt + Left",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "焦点",
+      "窗格",
+      "focus"
+    ],
+    "pinyin": "jiao dian zuo yi chuang ge jiaodianzuoyichuangge j d z y c g jdzycg jiao dian   chuang ge jiaodian chuangge j d   c g jd cg"
+  },
+  {
+    "id": "wt-move-focus-right",
+    "appId": "windowsterminal",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "焦点右移窗格",
+      "en": "Move Focus Right"
+    },
+    "description": {
+      "zh": "将焦点移动到右侧窗格",
+      "en": "Move focus to the pane on the right"
+    },
+    "windows": "Alt + Right",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "焦点",
+      "窗格",
+      "focus"
+    ],
+    "pinyin": "jiao dian you yi chuang ge jiaodianyouyichuangge j d y y c g jdyycg jiao dian   chuang ge jiaodian chuangge j d   c g jd cg"
+  },
+  {
+    "id": "wt-resize-down",
+    "appId": "windowsterminal",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "调整窗格大小（下）",
+      "en": "Resize Pane Down"
+    },
+    "description": {
+      "zh": "向下调整当前窗格大小",
+      "en": "Resize the current pane downward"
+    },
+    "windows": "Alt + Shift + Down",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "调整",
+      "窗格",
+      "resize"
+    ],
+    "pinyin": "tiao zheng chuang ge da xiao （ xia ） tiaozhengchuanggedaxiao（xia） t z c g d x （ x ） tzcgdx（x） tiao zheng   chuang ge tiaozheng chuangge t z   c g tz cg"
+  },
+  {
+    "id": "wt-mark-mode",
+    "appId": "windowsterminal",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "标记模式",
+      "en": "Mark Mode"
+    },
+    "description": {
+      "zh": "切换标记模式以键盘选择",
+      "en": "Toggle mark mode for keyboard selection"
+    },
+    "windows": "Ctrl + Shift + M",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "标记",
+      "mark mode"
+    ],
+    "pinyin": "biao ji mo shi biaojimoshi b j m s bjms biao ji biaoji b j bj"
+  },
+  {
+    "id": "wt-open-settings",
+    "appId": "windowsterminal",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "打开设置",
+      "en": "Open Settings"
+    },
+    "description": {
+      "zh": "打开设置界面",
+      "en": "Open the settings UI"
+    },
+    "windows": "Ctrl + ,",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "设置",
+      "settings"
+    ],
+    "pinyin": "da kai she zhi dakaishezhi d k s z dksz she zhi shezhi s z sz"
+  }
+]

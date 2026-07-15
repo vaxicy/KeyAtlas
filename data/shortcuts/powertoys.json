@@ -1,0 +1,187 @@
+[
+  {
+    "id": "pt-color-picker",
+    "appId": "powertoys",
+    "type": "software",
+    "category": "system",
+    "name": {
+      "zh": "颜色选取器",
+      "en": "Color Picker"
+    },
+    "description": {
+      "zh": "从屏幕任意位置取色",
+      "en": "Pick a color from anywhere on the screen"
+    },
+    "windows": "Win + Shift + C",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "取色",
+      "颜色",
+      "color picker"
+    ],
+    "pinyin": "yan se xuan qu qi yansexuanquqi y s x q q ysxqq qu se   yan se quse yanse q s   y s qs ys"
+  },
+  {
+    "id": "pt-fancyzones",
+    "appId": "powertoys",
+    "type": "software",
+    "category": "system",
+    "name": {
+      "zh": "FancyZones 布局编辑器",
+      "en": "FancyZones Editor"
+    },
+    "description": {
+      "zh": "打开窗口布局编辑器",
+      "en": "Open the window layout editor"
+    },
+    "windows": "Win + Shift + `",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "布局",
+      "窗口",
+      "fancyzones",
+      "layout"
+    ],
+    "pinyin": "f a n c y z o n e s   bu ju bian ji qi fancyzones bujubianjiqi f a n c y z o n e s   b j b j q fancyzones bjbjq bu ju   chuang kou buju chuangkou b j   c k bj ck"
+  },
+  {
+    "id": "pt-shortcut-guide",
+    "appId": "powertoys",
+    "type": "software",
+    "category": "system",
+    "name": {
+      "zh": "快捷键指南",
+      "en": "Shortcut Guide"
+    },
+    "description": {
+      "zh": "长按显示 Windows 与应用快捷键",
+      "en": "Show Windows and app shortcuts overlay"
+    },
+    "windows": "Win + Shift + ?",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "快捷键",
+      "指南",
+      "shortcut guide"
+    ],
+    "pinyin": "kuai jie jian zhi nan kuaijiejianzhinan k j j z n kjjzn kuai jie jian   zhi nan kuaijiejian zhinan k j j   z n kjj zn"
+  },
+  {
+    "id": "pt-text-extractor",
+    "appId": "powertoys",
+    "type": "software",
+    "category": "system",
+    "name": {
+      "zh": "文本提取器",
+      "en": "Text Extractor"
+    },
+    "description": {
+      "zh": "用 OCR 从屏幕复制文字",
+      "en": "Copy text from anywhere using OCR"
+    },
+    "windows": "Win + Shift + T",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "文本",
+      "OCR",
+      "text extractor"
+    ],
+    "pinyin": "wen ben ti qu qi wenbentiquqi w b t q q wbtqq wen ben wenben w b wb"
+  },
+  {
+    "id": "pt-screen-ruler",
+    "appId": "powertoys",
+    "type": "software",
+    "category": "system",
+    "name": {
+      "zh": "屏幕标尺",
+      "en": "Screen Ruler"
+    },
+    "description": {
+      "zh": "测量屏幕上像素尺寸",
+      "en": "Measure pixel dimensions on screen"
+    },
+    "windows": "Win + Ctrl + Shift + M",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "标尺",
+      "测量",
+      "screen ruler"
+    ],
+    "pinyin": "ping mu biao chi pingmubiaochi p m b c pmbc biao chi   ce liang biaochi celiang b c   c l bc cl"
+  },
+  {
+    "id": "pt-always-on-top",
+    "appId": "powertoys",
+    "type": "software",
+    "category": "system",
+    "name": {
+      "zh": "置顶窗口",
+      "en": "Always On Top"
+    },
+    "description": {
+      "zh": "将当前窗口固定到最上层",
+      "en": "Pin the active window above others"
+    },
+    "windows": "Win + Ctrl + T",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "置顶",
+      "always on top"
+    ],
+    "pinyin": "zhi ding chuang kou zhidingchuangkou z d c k zdck zhi ding zhiding z d zd"
+  },
+  {
+    "id": "pt-peek",
+    "appId": "powertoys",
+    "type": "software",
+    "category": "system",
+    "name": {
+      "zh": "文件预览 (Peek)",
+      "en": "Peek"
+    },
+    "description": {
+      "zh": "在文件资源管理器中预览选中文件",
+      "en": "Preview a selected file in File Explorer"
+    },
+    "windows": "Space",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "预览",
+      "peek",
+      "preview"
+    ],
+    "pinyin": "wen jian yu lan   ( p e e k ) wenjianyulan (peek) w j y l   ( p e e k ) wjyl (peek) yu lan yulan y l yl"
+  },
+  {
+    "id": "pt-run",
+    "appId": "powertoys",
+    "type": "software",
+    "category": "system",
+    "name": {
+      "zh": "PowerToys Run",
+      "en": "PowerToys Run"
+    },
+    "description": {
+      "zh": "快速启动器，搜索并打开应用",
+      "en": "Quick launcher to search and open apps"
+    },
+    "windows": "Alt + Space",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "启动器",
+      "搜索",
+      "run",
+      "launcher"
+    ],
+    "pinyin": "p o w e r t o y s   r u n powertoys run p o w e r t o y s   r u n powertoys run qi dong qi   sou suo qidongqi sousuo q d q   s s qdq ss"
+  }
+]

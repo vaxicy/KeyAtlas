@@ -1,0 +1,144 @@
+[
+  {
+    "id": "steam-overlay",
+    "appId": "steam",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "打开社区叠加界面",
+      "en": "Open Community Overlay"
+    },
+    "description": {
+      "zh": "游戏中打开 Steam 好友与聊天叠加层",
+      "en": "Open the Steam friends and chat overlay while in-game"
+    },
+    "windows": "Shift + Tab",
+    "mac": "Shift + Tab",
+    "linux": "Shift + Tab",
+    "keywords": [
+      "叠加",
+      "好友",
+      "聊天",
+      "overlay",
+      "friends",
+      "chat"
+    ],
+    "pinyin": "da kai she qu die jia jie mian dakaishequdiejiajiemian d k s q d j j m dksqdjjm die jia   hao you   liao tian diejia haoyou liaotian d j   h y   l t dj hy lt"
+  },
+  {
+    "id": "steam-screenshot",
+    "appId": "steam",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "截图",
+      "en": "Take Screenshot"
+    },
+    "description": {
+      "zh": "在游戏中截取屏幕并保存到 Steam",
+      "en": "Capture the screen while in-game and save to Steam"
+    },
+    "windows": "F12",
+    "mac": "F12",
+    "linux": "F12",
+    "keywords": [
+      "截图",
+      "screenshot",
+      "capture"
+    ],
+    "pinyin": "jie tu jietu j t jt jie tu jietu j t jt"
+  },
+  {
+    "id": "steam-store-search",
+    "appId": "steam",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "搜索游戏",
+      "en": "Search Games"
+    },
+    "description": {
+      "zh": "在商店标签页搜索游戏",
+      "en": "Search for a game in the Store tab"
+    },
+    "windows": "Ctrl + F",
+    "mac": "Cmd + F",
+    "linux": "Ctrl + F",
+    "keywords": [
+      "搜索",
+      "商店",
+      "search",
+      "store"
+    ],
+    "pinyin": "sou suo you xi sousuoyouxi s s y x ssyx sou suo   shang dian sousuo shangdian s s   s d ss sd"
+  },
+  {
+    "id": "steam-store-nav",
+    "appId": "steam",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "搜索框与列表间导航",
+      "en": "Navigate Search/List"
+    },
+    "description": {
+      "zh": "在搜索框与游戏列表之间切换焦点",
+      "en": "Move focus between the search bar and game list"
+    },
+    "windows": "Tab",
+    "mac": "Tab",
+    "linux": "Tab",
+    "keywords": [
+      "导航",
+      "tab",
+      "navigate"
+    ],
+    "pinyin": "sou suo kuang yu lie biao jian dao hang sousuokuangyuliebiaojiandaohang s s k y l b j d h sskylbjdh dao hang daohang d h dh"
+  },
+  {
+    "id": "steam-store-clear",
+    "appId": "steam",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "清除搜索筛选",
+      "en": "Clear Search Filter"
+    },
+    "description": {
+      "zh": "清空当前搜索筛选条件",
+      "en": "Clear the current search filter"
+    },
+    "windows": "Esc",
+    "mac": "Esc",
+    "linux": "Esc",
+    "keywords": [
+      "清除",
+      "筛选",
+      "clear",
+      "filter"
+    ],
+    "pinyin": "qing chu sou suo shai xuan qingchusousuoshaixuan q c s s s x qcsssx qing chu   shai xuan qingchu shaixuan q c   s x qc sx"
+  },
+  {
+    "id": "steam-store-back",
+    "appId": "steam",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "返回上一页",
+      "en": "Go Back"
+    },
+    "description": {
+      "zh": "在商店中返回上一页",
+      "en": "Go back to the previous page in the Store"
+    },
+    "windows": "Alt + Left",
+    "mac": "Cmd + Left",
+    "linux": "Alt + Left",
+    "keywords": [
+      "返回",
+      "back"
+    ],
+    "pinyin": "fan hui shang yi ye fanhuishangyiye f h s y y fhsyy fan hui fanhui f h fh"
+  }
+]

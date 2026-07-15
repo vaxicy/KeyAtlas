@@ -1,0 +1,565 @@
+[
+  {
+    "id": "tv-open-indicator",
+    "appId": "tradingview",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "打开指标/加载布局",
+      "en": "Open Indicator"
+    },
+    "description": {
+      "zh": "打开指标或加载图表布局",
+      "en": "Open an indicator or load a chart layout"
+    },
+    "windows": ".",
+    "mac": ".",
+    "linux": ".",
+    "keywords": [
+      "指标",
+      "布局",
+      "indicator"
+    ],
+    "pinyin": "da kai zhi biao / jia zai bu ju dakaizhibiao/jiazaibuju d k z b / j z b j dkzb/jzbj zhi biao   bu ju zhibiao buju z b   b j zb bj"
+  },
+  {
+    "id": "tv-store-layout",
+    "appId": "tradingview",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "保存图表布局",
+      "en": "Store Layout"
+    },
+    "description": {
+      "zh": "保存当前图表布局",
+      "en": "Save the current chart layout"
+    },
+    "windows": "Ctrl + S",
+    "mac": "Cmd + S",
+    "linux": "Ctrl + S",
+    "keywords": [
+      "保存",
+      "布局",
+      "layout"
+    ],
+    "pinyin": "bao cun tu biao bu ju baocuntubiaobuju b c t b b j bctbbj bao cun   bu ju baocun buju b c   b j bc bj"
+  },
+  {
+    "id": "tv-undo",
+    "appId": "tradingview",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销上一步操作",
+      "en": "Undo the last action"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "Cmd + Z",
+    "linux": "Ctrl + Z",
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "tv-redo",
+    "appId": "tradingview",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "重做被撤销的操作",
+      "en": "Redo the undone action"
+    },
+    "windows": "Ctrl + Y",
+    "mac": "Cmd + Y",
+    "linux": "Ctrl + Y",
+    "keywords": [
+      "重做",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "tv-change-symbol",
+    "appId": "tradingview",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "切换品种",
+      "en": "Change Symbol"
+    },
+    "description": {
+      "zh": "双击 Shift 切换交易品种",
+      "en": "Double-Shift to change the symbol"
+    },
+    "windows": "Double + Shift",
+    "mac": "Double + Shift",
+    "linux": "Double + Shift",
+    "keywords": [
+      "品种",
+      "symbol"
+    ],
+    "pinyin": "qie huan pin zhong qiehuanpinzhong q h p z qhpz pin zhong pinzhong p z pz"
+  },
+  {
+    "id": "tv-change-interval",
+    "appId": "tradingview",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "切换周期",
+      "en": "Change Interval"
+    },
+    "description": {
+      "zh": "切换图表时间周期",
+      "en": "Change the chart time interval"
+    },
+    "windows": ",",
+    "mac": ",",
+    "linux": ",",
+    "keywords": [
+      "周期",
+      "interval"
+    ],
+    "pinyin": "qie huan zhou qi qiehuanzhouqi q h z q qhzq zhou qi zhouqi z q zq"
+  },
+  {
+    "id": "tv-move-left",
+    "appId": "tradingview",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "图表左移",
+      "en": "Move Bars Left"
+    },
+    "description": {
+      "zh": "将图表向左移动一根 K 线",
+      "en": "Move the chart one bar to the left"
+    },
+    "windows": "Left",
+    "mac": "Left",
+    "linux": "Left",
+    "keywords": [
+      "移动",
+      "左",
+      "move"
+    ],
+    "pinyin": "tu biao zuo yi tubiaozuoyi t b z y tbzy yi dong   zuo yidong zuo y d   z yd z"
+  },
+  {
+    "id": "tv-move-right",
+    "appId": "tradingview",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "图表右移",
+      "en": "Move Bars Right"
+    },
+    "description": {
+      "zh": "将图表向右移动一根 K 线",
+      "en": "Move the chart one bar to the right"
+    },
+    "windows": "Right",
+    "mac": "Right",
+    "linux": "Right",
+    "keywords": [
+      "移动",
+      "右",
+      "move"
+    ],
+    "pinyin": "tu biao you yi tubiaoyouyi t b y y tbyy yi dong   you yidong you y d   y yd y"
+  },
+  {
+    "id": "tv-move-left-fast",
+    "appId": "tradingview",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "快速左移",
+      "en": "Move Left Fast"
+    },
+    "description": {
+      "zh": "快速向左移动图表",
+      "en": "Move the chart left quickly"
+    },
+    "windows": "Ctrl + Left",
+    "mac": "Cmd + Left",
+    "linux": "Ctrl + Left",
+    "keywords": [
+      "移动",
+      "快速",
+      "move"
+    ],
+    "pinyin": "kuai su zuo yi kuaisuzuoyi k s z y kszy yi dong   kuai su yidong kuaisu y d   k s yd ks"
+  },
+  {
+    "id": "tv-move-right-fast",
+    "appId": "tradingview",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "快速右移",
+      "en": "Move Right Fast"
+    },
+    "description": {
+      "zh": "快速向右移动图表",
+      "en": "Move the chart right quickly"
+    },
+    "windows": "Ctrl + Right",
+    "mac": "Cmd + Right",
+    "linux": "Ctrl + Right",
+    "keywords": [
+      "移动",
+      "快速",
+      "move"
+    ],
+    "pinyin": "kuai su you yi kuaisuyouyi k s y y ksyy yi dong   kuai su yidong kuaisu y d   k s yd ks"
+  },
+  {
+    "id": "tv-maximize",
+    "appId": "tradingview",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "最大化图表",
+      "en": "Maximize Chart"
+    },
+    "description": {
+      "zh": "最大化当前图表窗格",
+      "en": "Maximize the current chart pane"
+    },
+    "windows": "Alt + Enter",
+    "mac": "Alt + Enter",
+    "linux": "Alt + Enter",
+    "keywords": [
+      "最大化",
+      "图表",
+      "maximize"
+    ],
+    "pinyin": "zui da hua tu biao zuidahuatubiao z d h t b zdhtb zui da hua   tu biao zuidahua tubiao z d h   t b zdh tb"
+  },
+  {
+    "id": "tv-jump-time",
+    "appId": "tradingview",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "跳转到时间",
+      "en": "Jump to Time"
+    },
+    "description": {
+      "zh": "跳转到指定时间位置",
+      "en": "Jump to a specific time position"
+    },
+    "windows": "Alt + G",
+    "mac": "Alt + G",
+    "linux": "Alt + G",
+    "keywords": [
+      "跳转",
+      "时间",
+      "jump time"
+    ],
+    "pinyin": "tiao zhuan dao shi jian tiaozhuandaoshijian t z d s j tzdsj tiao zhuan   shi jian tiaozhuan shijian t z   s j tz sj"
+  },
+  {
+    "id": "tv-save-snapshot",
+    "appId": "tradingview",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "保存快照",
+      "en": "Save Snapshot"
+    },
+    "description": {
+      "zh": "保存图表快照",
+      "en": "Save a chart snapshot"
+    },
+    "windows": "Alt + S",
+    "mac": "Alt + S",
+    "linux": "Alt + S",
+    "keywords": [
+      "快照",
+      "snapshot"
+    ],
+    "pinyin": "bao cun kuai zhao baocunkuaizhao b c k z bckz kuai zhao kuaizhao k z kz"
+  },
+  {
+    "id": "tv-reset-chart",
+    "appId": "tradingview",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "重置图表",
+      "en": "Reset Chart"
+    },
+    "description": {
+      "zh": "重置图表到默认状态",
+      "en": "Reset the chart to its default state"
+    },
+    "windows": "Alt + R",
+    "mac": "Alt + R",
+    "linux": "Alt + R",
+    "keywords": [
+      "重置",
+      "图表",
+      "reset"
+    ],
+    "pinyin": "zhong zhi tu biao zhongzhitubiao z z t b zztb zhong zhi   tu biao zhongzhi tubiao z z   t b zz tb"
+  },
+  {
+    "id": "tv-log-scale",
+    "appId": "tradingview",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "切换对数坐标",
+      "en": "Toggle Log Scale"
+    },
+    "description": {
+      "zh": "在对数/线性坐标间切换",
+      "en": "Toggle between log and linear scale"
+    },
+    "windows": "Alt + L",
+    "mac": "Alt + L",
+    "linux": "Alt + L",
+    "keywords": [
+      "对数",
+      "坐标",
+      "log scale"
+    ],
+    "pinyin": "qie huan dui shu zuo biao qiehuanduishuzuobiao q h d s z b qhdszb dui shu   zuo biao duishu zuobiao d s   z b ds zb"
+  },
+  {
+    "id": "tv-pct-scale",
+    "appId": "tradingview",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "切换百分比坐标",
+      "en": "Toggle Percentage Scale"
+    },
+    "description": {
+      "zh": "在百分比坐标间切换",
+      "en": "Toggle percentage scale"
+    },
+    "windows": "Alt + P",
+    "mac": "Alt + P",
+    "linux": "Alt + P",
+    "keywords": [
+      "百分比",
+      "坐标",
+      "percentage"
+    ],
+    "pinyin": "qie huan bai fen bi zuo biao qiehuanbaifenbizuobiao q h b f b z b qhbfbzb bai fen bi   zuo biao baifenbi zuobiao b f b   z b bfb zb"
+  },
+  {
+    "id": "tv-trend-line",
+    "appId": "tradingview",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "趋势线",
+      "en": "Trend Line"
+    },
+    "description": {
+      "zh": "激活趋势线绘制工具",
+      "en": "Activate the trend line tool"
+    },
+    "windows": "Alt + T",
+    "mac": "Alt + T",
+    "linux": "Alt + T",
+    "keywords": [
+      "趋势线",
+      "trend line"
+    ],
+    "pinyin": "qu shi xian qushixian q s x qsx qu shi xian qushixian q s x qsx"
+  },
+  {
+    "id": "tv-hline",
+    "appId": "tradingview",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "水平线",
+      "en": "Horizontal Line"
+    },
+    "description": {
+      "zh": "激活水平线绘制工具",
+      "en": "Activate the horizontal line tool"
+    },
+    "windows": "Alt + H",
+    "mac": "Alt + H",
+    "linux": "Alt + H",
+    "keywords": [
+      "水平线",
+      "hline"
+    ],
+    "pinyin": "shui ping xian shuipingxian s p x spx shui ping xian shuipingxian s p x spx"
+  },
+  {
+    "id": "tv-vline",
+    "appId": "tradingview",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "垂直线",
+      "en": "Vertical Line"
+    },
+    "description": {
+      "zh": "激活垂直线绘制工具",
+      "en": "Activate the vertical line tool"
+    },
+    "windows": "Alt + V",
+    "mac": "Alt + V",
+    "linux": "Alt + V",
+    "keywords": [
+      "垂直线",
+      "vline"
+    ],
+    "pinyin": "chui zhi xian chuizhixian c z x czx chui zhi xian chuizhixian c z x czx"
+  },
+  {
+    "id": "tv-crosshair",
+    "appId": "tradingview",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "十字光标",
+      "en": "Crosshair"
+    },
+    "description": {
+      "zh": "激活十字光标工具",
+      "en": "Activate the crosshair tool"
+    },
+    "windows": "Alt + C",
+    "mac": "Alt + C",
+    "linux": "Alt + C",
+    "keywords": [
+      "十字光标",
+      "crosshair"
+    ],
+    "pinyin": "shi zi guang biao shiziguangbiao s z g b szgb shi zi guang biao shiziguangbiao s z g b szgb"
+  },
+  {
+    "id": "tv-fib",
+    "appId": "tradingview",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "斐波那契回调",
+      "en": "Fib Retracement"
+    },
+    "description": {
+      "zh": "激活斐波那契回调工具",
+      "en": "Activate the Fibonacci retracement tool"
+    },
+    "windows": "Alt + F",
+    "mac": "Alt + F",
+    "linux": "Alt + F",
+    "keywords": [
+      "斐波那契",
+      "fib"
+    ],
+    "pinyin": "fei bo na qi hui tiao feibonaqihuitiao f b n q h t fbnqht fei bo na qi feibonaqi f b n q fbnq"
+  },
+  {
+    "id": "tv-add-watch",
+    "appId": "tradingview",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "加入自选",
+      "en": "Add to Watchlist"
+    },
+    "description": {
+      "zh": "将当前品种加入自选列表",
+      "en": "Add the current symbol to the watchlist"
+    },
+    "windows": "Alt + W",
+    "mac": "Alt + W",
+    "linux": "Alt + W",
+    "keywords": [
+      "自选",
+      "watchlist"
+    ],
+    "pinyin": "jia ru zi xuan jiaruzixuan j r z x jrzx zi xuan zixuan z x zx"
+  },
+  {
+    "id": "tv-next-symbol",
+    "appId": "tradingview",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "下一品种",
+      "en": "Next Symbol"
+    },
+    "description": {
+      "zh": "切换到下一个品种",
+      "en": "Switch to the next symbol"
+    },
+    "windows": "Down + Space",
+    "mac": "Down + Space",
+    "linux": "Down + Space",
+    "keywords": [
+      "下一个",
+      "品种",
+      "next symbol"
+    ],
+    "pinyin": "xia yi pin zhong xiayipinzhong x y p z xypz xia yi ge   pin zhong xiayige pinzhong x y g   p z xyg pz"
+  },
+  {
+    "id": "tv-prev-symbol",
+    "appId": "tradingview",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "上一品种",
+      "en": "Previous Symbol"
+    },
+    "description": {
+      "zh": "切换到上一个品种",
+      "en": "Switch to the previous symbol"
+    },
+    "windows": "Shift + Space",
+    "mac": "Shift + Space",
+    "linux": "Shift + Space",
+    "keywords": [
+      "上一个",
+      "品种",
+      "previous symbol"
+    ],
+    "pinyin": "shang yi pin zhong shangyipinzhong s y p z sypz shang yi ge   pin zhong shangyige pinzhong s y g   p z syg pz"
+  },
+  {
+    "id": "tv-select-all",
+    "appId": "tradingview",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "全选",
+      "en": "Select All"
+    },
+    "description": {
+      "zh": "在自选列表中全选",
+      "en": "Select all symbols in the watchlist"
+    },
+    "windows": "Ctrl + A",
+    "mac": "Cmd + A",
+    "linux": "Ctrl + A",
+    "keywords": [
+      "全选",
+      "select all"
+    ],
+    "pinyin": "quan xuan quanxuan q x qx quan xuan quanxuan q x qx"
+  }
+]

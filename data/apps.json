@@ -125,7 +125,7 @@
   { "id": "zoom",            "name": { "zh": "Zoom",          "en": "Zoom" },          "category": "productivity",  "icon": "📹", "type": "software", "file": "zoom.json", "source": "official" },
   { "id": "asana",           "name": { "zh": "Asana",         "en": "Asana" },         "category": "productivity",  "icon": "✅", "type": "software", "file": "asana.json", "source": "community" },
   { "id": "toonboom",        "name": { "zh": "Toon Boom Harmony", "en": "Toon Boom Harmony" }, "category": "design",     "icon": "🎬", "type": "software", "file": "toonboom.json", "source": "community" },
-  { "id": "iterm2",          "name": { "zh": "iTerm2",        "en": "iTerm2" },        "category": "system",       "icon": "🖥️", "type": "software", "file": "iterm2.json", "source": "community" },
+  { "id": "iterm2",          "name": { "zh": "iTerm2",        "en": "iTerm2" },        "category": "development",   "icon": "🖥️", "type": "software", "file": "iterm2.json", "source": "official" },
   { "id": "kdenlive",        "name": { "zh": "Kdenlive",      "en": "Kdenlive" },      "category": "video",         "icon": "🎞️", "type": "software", "file": "kdenlive.json", "source": "community" },
   { "id": "bitwig",          "name": { "zh": "Bitwig Studio", "en": "Bitwig Studio" }, "category": "audio",         "icon": "🎛️", "type": "software", "file": "bitwig.json", "source": "ai" },
   { "id": "vegas",           "name": { "zh": "Vegas Pro",     "en": "Vegas Pro" },     "category": "video",         "icon": "🎞️", "type": "software", "file": "vegas.json", "source": "ai" },
@@ -133,5 +133,18 @@
   { "id": "telegram",        "name": { "zh": "Telegram",      "en": "Telegram" },      "category": "productivity",  "icon": "✈️", "type": "software", "popular": true, "file": "telegram.json", "source": "official" },
   { "id": "matlab",          "name": { "zh": "MATLAB",        "en": "MATLAB" },        "category": "development",   "icon": "🧮", "type": "software", "popular": true, "file": "matlab.json", "source": "official" },
   { "id": "ticktick",        "name": { "zh": "TickTick",      "en": "TickTick" },      "category": "productivity",  "icon": "☑️", "type": "software", "file": "ticktick.json", "source": "official" },
-  { "id": "docker",          "name": { "zh": "Docker Desktop","en": "Docker Desktop" }, "category": "development",   "icon": "🐳", "type": "software", "popular": true, "file": "docker.json", "source": "community" }
+  { "id": "docker",          "name": { "zh": "Docker Desktop","en": "Docker Desktop" }, "category": "development",   "icon": "🐳", "type": "software", "popular": true, "file": "docker.json", "source": "community" },
+  { "id": "steam",           "name": { "zh": "Steam",          "en": "Steam" },          "category": "other",         "icon": "🎮", "type": "software", "file": "steam.json", "source": "community" },
+  { "id": "qq",              "name": { "zh": "QQ",             "en": "QQ" },             "category": "productivity",  "icon": "🐧", "type": "software", "file": "qq.json", "source": "community" },
+  { "id": "xunlei",          "name": { "zh": "迅雷",            "en": "Xunlei" },         "category": "productivity",  "icon": "⚡", "type": "software", "sortKey": "Xunlei", "file": "xunlei.json", "source": "community" },
+  { "id": "whatsapp",        "name": { "zh": "WhatsApp",       "en": "WhatsApp" },       "category": "productivity",  "icon": "💬", "type": "software", "file": "whatsapp.json", "source": "community" },
+  { "id": "windowsterminal", "name": { "zh": "Windows 终端",   "en": "Windows Terminal" },"category": "development",  "icon": "🖥️", "type": "software", "file": "windowsterminal.json", "source": "official" },
+  { "id": "powertoys",       "name": { "zh": "PowerToys",      "en": "PowerToys" },      "category": "system",        "icon": "🛠️", "type": "software", "file": "powertoys.json", "source": "official" },
+  { "id": "snipaste",        "name": { "zh": "Snipaste",       "en": "Snipaste" },       "category": "productivity",  "icon": "✂️", "type": "software", "file": "snipaste.json", "source": "official" },
+  { "id": "vlc",             "name": { "zh": "VLC",            "en": "VLC" },            "category": "video",         "icon": "🎬", "type": "software", "file": "vlc.json", "source": "official" },
+  { "id": "sharex",          "name": { "zh": "ShareX",         "en": "ShareX" },         "category": "productivity",  "icon": "📸", "type": "software", "file": "sharex.json", "source": "community" },
+  { "id": "tmux",            "name": { "zh": "tmux",           "en": "tmux" },           "category": "development",   "icon": "⌨️", "type": "software", "file": "tmux.json", "source": "official" },
+  { "id": "tradingview",     "name": { "zh": "TradingView",    "en": "TradingView" },    "category": "other",         "icon": "📈", "type": "software", "file": "tradingview.json", "source": "community" },
+  { "id": "googlemeet",      "name": { "zh": "Google Meet",    "en": "Google Meet" },    "category": "productivity",  "icon": "📹", "type": "software", "file": "googlemeet.json", "source": "community" },
+  { "id": "skype",           "name": { "zh": "Skype",          "en": "Skype" },          "category": "productivity",  "icon": "📞", "type": "software", "file": "skype.json", "source": "community" }
 ]

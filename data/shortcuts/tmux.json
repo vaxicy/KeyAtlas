@@ -1,0 +1,369 @@
+[
+  {
+    "id": "tmux-detach",
+    "appId": "tmux",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "脱离会话",
+      "en": "Detach Session"
+    },
+    "description": {
+      "zh": "脱离当前会话（会话在后台继续）",
+      "en": "Detach from the session (keeps running in background)"
+    },
+    "windows": "Ctrl + B, D",
+    "mac": "Ctrl + B, D",
+    "linux": "Ctrl + B, D",
+    "keywords": [
+      "脱离",
+      "detach",
+      "session"
+    ],
+    "pinyin": "tuo li hui hua tuolihuihua t l h h tlhh tuo li tuoli t l tl"
+  },
+  {
+    "id": "tmux-new-window",
+    "appId": "tmux",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "新建窗口",
+      "en": "New Window"
+    },
+    "description": {
+      "zh": "在当前会话中新建窗口",
+      "en": "Create a new window in the session"
+    },
+    "windows": "Ctrl + B, C",
+    "mac": "Ctrl + B, C",
+    "linux": "Ctrl + B, C",
+    "keywords": [
+      "新建",
+      "窗口",
+      "new window"
+    ],
+    "pinyin": "xin jian chuang kou xinjianchuangkou x j c k xjck xin jian   chuang kou xinjian chuangkou x j   c k xj ck"
+  },
+  {
+    "id": "tmux-rename-window",
+    "appId": "tmux",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "重命名窗口",
+      "en": "Rename Window"
+    },
+    "description": {
+      "zh": "重命名当前窗口",
+      "en": "Rename the current window"
+    },
+    "windows": "Ctrl + B, ,",
+    "mac": "Ctrl + B, ,",
+    "linux": "Ctrl + B, ,",
+    "keywords": [
+      "重命名",
+      "窗口",
+      "rename"
+    ],
+    "pinyin": "zhong ming ming chuang kou zhongmingmingchuangkou z m m c k zmmck zhong ming ming   chuang kou zhongmingming chuangkou z m m   c k zmm ck"
+  },
+  {
+    "id": "tmux-next-window",
+    "appId": "tmux",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "下一个窗口",
+      "en": "Next Window"
+    },
+    "description": {
+      "zh": "切换到下一个窗口",
+      "en": "Switch to the next window"
+    },
+    "windows": "Ctrl + B, N",
+    "mac": "Ctrl + B, N",
+    "linux": "Ctrl + B, N",
+    "keywords": [
+      "下一个",
+      "窗口",
+      "next window"
+    ],
+    "pinyin": "xia yi ge chuang kou xiayigechuangkou x y g c k xygck xia yi ge   chuang kou xiayige chuangkou x y g   c k xyg ck"
+  },
+  {
+    "id": "tmux-prev-window",
+    "appId": "tmux",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "上一个窗口",
+      "en": "Previous Window"
+    },
+    "description": {
+      "zh": "切换到上一个窗口",
+      "en": "Switch to the previous window"
+    },
+    "windows": "Ctrl + B, P",
+    "mac": "Ctrl + B, P",
+    "linux": "Ctrl + B, P",
+    "keywords": [
+      "上一个",
+      "窗口",
+      "previous window"
+    ],
+    "pinyin": "shang yi ge chuang kou shangyigechuangkou s y g c k sygck shang yi ge   chuang kou shangyige chuangkou s y g   c k syg ck"
+  },
+  {
+    "id": "tmux-last-window",
+    "appId": "tmux",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "切换上一个窗口",
+      "en": "Last Window"
+    },
+    "description": {
+      "zh": "在当前与上一个窗口间切换",
+      "en": "Toggle between current and previous window"
+    },
+    "windows": "Ctrl + B, L",
+    "mac": "Ctrl + B, L",
+    "linux": "Ctrl + B, L",
+    "keywords": [
+      "上一个",
+      "窗口",
+      "last window"
+    ],
+    "pinyin": "qie huan shang yi ge chuang kou qiehuanshangyigechuangkou q h s y g c k qhsygck shang yi ge   chuang kou shangyige chuangkou s y g   c k syg ck"
+  },
+  {
+    "id": "tmux-window-list",
+    "appId": "tmux",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "窗口列表",
+      "en": "Window List"
+    },
+    "description": {
+      "zh": "打开交互式窗口列表",
+      "en": "Open the interactive window list"
+    },
+    "windows": "Ctrl + B, W",
+    "mac": "Ctrl + B, W",
+    "linux": "Ctrl + B, W",
+    "keywords": [
+      "窗口",
+      "列表",
+      "window list"
+    ],
+    "pinyin": "chuang kou lie biao chuangkouliebiao c k l b cklb chuang kou   lie biao chuangkou liebiao c k   l b ck lb"
+  },
+  {
+    "id": "tmux-split-h",
+    "appId": "tmux",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "水平分屏",
+      "en": "Split Pane Horizontal"
+    },
+    "description": {
+      "zh": "将当前窗格水平分割",
+      "en": "Split the current pane horizontally"
+    },
+    "windows": "Ctrl + B, %",
+    "mac": "Ctrl + B, %",
+    "linux": "Ctrl + B, %",
+    "keywords": [
+      "分屏",
+      "水平",
+      "split"
+    ],
+    "pinyin": "shui ping fen ping shuipingfenping s p f p spfp fen ping   shui ping fenping shuiping f p   s p fp sp"
+  },
+  {
+    "id": "tmux-split-v",
+    "appId": "tmux",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "垂直分屏",
+      "en": "Split Pane Vertical"
+    },
+    "description": {
+      "zh": "将当前窗格垂直分割",
+      "en": "Split the current pane vertically"
+    },
+    "windows": "Ctrl + B, \"",
+    "mac": "Ctrl + B, \"",
+    "linux": "Ctrl + B, \"",
+    "keywords": [
+      "分屏",
+      "垂直",
+      "split"
+    ],
+    "pinyin": "chui zhi fen ping chuizhifenping c z f p czfp fen ping   chui zhi fenping chuizhi f p   c z fp cz"
+  },
+  {
+    "id": "tmux-pane-nav",
+    "appId": "tmux",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "导航窗格",
+      "en": "Navigate Panes"
+    },
+    "description": {
+      "zh": "用方向键在窗格间移动",
+      "en": "Move between panes with arrow keys"
+    },
+    "windows": "Ctrl + B, Arrows",
+    "mac": "Ctrl + B, Arrows",
+    "linux": "Ctrl + B, Arrows",
+    "keywords": [
+      "导航",
+      "窗格",
+      "navigate"
+    ],
+    "pinyin": "dao hang chuang ge daohangchuangge d h c g dhcg dao hang   chuang ge daohang chuangge d h   c g dh cg"
+  },
+  {
+    "id": "tmux-pane-zoom",
+    "appId": "tmux",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "窗格缩放",
+      "en": "Toggle Pane Zoom"
+    },
+    "description": {
+      "zh": "放大当前窗格至全屏或还原",
+      "en": "Zoom the current pane to full size or restore"
+    },
+    "windows": "Ctrl + B, Z",
+    "mac": "Ctrl + B, Z",
+    "linux": "Ctrl + B, Z",
+    "keywords": [
+      "缩放",
+      "窗格",
+      "zoom"
+    ],
+    "pinyin": "chuang ge suo fang chuanggesuofang c g s f cgsf suo fang   chuang ge suofang chuangge s f   c g sf cg"
+  },
+  {
+    "id": "tmux-kill-pane",
+    "appId": "tmux",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "关闭窗格",
+      "en": "Kill Pane"
+    },
+    "description": {
+      "zh": "关闭当前窗格",
+      "en": "Close the current pane"
+    },
+    "windows": "Ctrl + B, X",
+    "mac": "Ctrl + B, X",
+    "linux": "Ctrl + B, X",
+    "keywords": [
+      "关闭",
+      "窗格",
+      "kill"
+    ],
+    "pinyin": "guan bi chuang ge guanbichuangge g b c g gbcg guan bi   chuang ge guanbi chuangge g b   c g gb cg"
+  },
+  {
+    "id": "tmux-copy-mode",
+    "appId": "tmux",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "复制模式/滚动",
+      "en": "Copy Mode"
+    },
+    "description": {
+      "zh": "进入复制模式并滚动缓冲区",
+      "en": "Enter copy mode and scroll the buffer"
+    },
+    "windows": "Ctrl + B, [",
+    "mac": "Ctrl + B, [",
+    "linux": "Ctrl + B, [",
+    "keywords": [
+      "复制",
+      "滚动",
+      "copy mode"
+    ],
+    "pinyin": "fu zhi mo shi / gun dong fuzhimoshi/gundong f z m s / g d fzms/gd fu zhi   gun dong fuzhi gundong f z   g d fz gd"
+  },
+  {
+    "id": "tmux-paste",
+    "appId": "tmux",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "粘贴",
+      "en": "Paste"
+    },
+    "description": {
+      "zh": "粘贴缓冲区内容",
+      "en": "Paste the buffer contents"
+    },
+    "windows": "Ctrl + B, ]",
+    "mac": "Ctrl + B, ]",
+    "linux": "Ctrl + B, ]",
+    "keywords": [
+      "粘贴",
+      "paste"
+    ],
+    "pinyin": "nian tie niantie n t nt nian tie niantie n t nt"
+  },
+  {
+    "id": "tmux-session-list",
+    "appId": "tmux",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "会话列表",
+      "en": "Session List"
+    },
+    "description": {
+      "zh": "打开交互式会话列表",
+      "en": "Open the interactive session list"
+    },
+    "windows": "Ctrl + B, S",
+    "mac": "Ctrl + B, S",
+    "linux": "Ctrl + B, S",
+    "keywords": [
+      "会话",
+      "列表",
+      "session list"
+    ],
+    "pinyin": "hui hua lie biao huihualiebiao h h l b hhlb hui hua   lie biao huihua liebiao h h   l b hh lb"
+  },
+  {
+    "id": "tmux-rename-session",
+    "appId": "tmux",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "重命名会话",
+      "en": "Rename Session"
+    },
+    "description": {
+      "zh": "重命名当前会话",
+      "en": "Rename the current session"
+    },
+    "windows": "Ctrl + B, $",
+    "mac": "Ctrl + B, $",
+    "linux": "Ctrl + B, $",
+    "keywords": [
+      "重命名",
+      "会话",
+      "rename"
+    ],
+    "pinyin": "zhong ming ming hui hua zhongmingminghuihua z m m h h zmmhh zhong ming ming   hui hua zhongmingming huihua z m m   h h zmm hh"
+  }
+]

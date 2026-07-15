@@ -105,6 +105,7 @@ html, body {
 }
 .icon-btn:hover { color: var(--primary); }
 .icon-btn.active { color: var(--primary); background: var(--primary-soft); }
+.header-actions { display: flex; align-items: center; gap: 4px; }
 
 /* ---- Search bar (core entry) ---- */
 .searchbar {

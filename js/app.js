@@ -39,6 +39,7 @@
     clearSearch: document.getElementById("clearSearch"),
     tabs: document.getElementById("tabs"),
     // settings overlay
+    webBtn: document.getElementById("webBtn"),
     settingsBtn: document.getElementById("settingsBtn"),
     settingsPanel: document.getElementById("settingsPanel"),
     settingsBackdrop: document.getElementById("settingsBackdrop"),
@@ -73,6 +74,8 @@
     el.searchInput.placeholder = t.searchPlaceholder;
     el.settingsBtn.title = t.settings;
     el.settingsBtn.setAttribute("aria-label", t.settings);
+    el.webBtn.title = t.openWeb;
+    el.webBtn.setAttribute("aria-label", t.openWeb);
     document.documentElement.lang = i18n.lang;
     if (el.aboutVersion) el.aboutVersion.textContent = i18n.format(t.aboutVersion, { n: VERSION });
   }
@@ -1143,6 +1146,9 @@
     });
 
     // settings overlay
+    el.webBtn.addEventListener("click", () => {
+      chrome.tabs.create({ url: "https://master.keyatlas.pages.dev" });
+    });
     el.settingsBtn.addEventListener("click", openSettings);
     el.closeSettings.addEventListener("click", closeSettings);
     el.settingsBackdrop.addEventListener("click", closeSettings);

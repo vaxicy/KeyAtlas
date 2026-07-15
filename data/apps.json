@@ -121,12 +121,17 @@
   { "id": "studioone",       "name": { "zh": "Studio One",    "en": "Studio One" },    "category": "audio",       "icon": "🎚️", "type": "software", "file": "studioone.json", "source": "ai" },
   { "id": "protools",        "name": { "zh": "Pro Tools",     "en": "Pro Tools" },     "category": "audio",       "icon": "🎞️", "type": "software", "file": "protools.json", "source": "ai" },
   { "id": "ios",             "name": { "zh": "iOS / iPadOS",  "en": "iOS / iPadOS" },  "category": "system",      "icon": "📱", "type": "system", "file": "ios.json", "source": "ai" },
-  { "id": "postman",         "name": { "zh": "Postman",       "en": "Postman" },       "category": "development",   "icon": "📮", "type": "software", "file": "postman.json", "source": "community" },
-  { "id": "zoom",            "name": { "zh": "Zoom",          "en": "Zoom" },          "category": "productivity",  "icon": "📹", "type": "software", "file": "zoom.json", "source": "community" },
+  { "id": "postman",         "name": { "zh": "Postman",       "en": "Postman" },       "category": "development",   "icon": "📮", "type": "software", "file": "postman.json", "source": "official" },
+  { "id": "zoom",            "name": { "zh": "Zoom",          "en": "Zoom" },          "category": "productivity",  "icon": "📹", "type": "software", "file": "zoom.json", "source": "official" },
   { "id": "asana",           "name": { "zh": "Asana",         "en": "Asana" },         "category": "productivity",  "icon": "✅", "type": "software", "file": "asana.json", "source": "community" },
   { "id": "toonboom",        "name": { "zh": "Toon Boom Harmony", "en": "Toon Boom Harmony" }, "category": "design",     "icon": "🎬", "type": "software", "file": "toonboom.json", "source": "community" },
   { "id": "iterm2",          "name": { "zh": "iTerm2",        "en": "iTerm2" },        "category": "system",       "icon": "🖥️", "type": "software", "file": "iterm2.json", "source": "community" },
   { "id": "kdenlive",        "name": { "zh": "Kdenlive",      "en": "Kdenlive" },      "category": "video",         "icon": "🎞️", "type": "software", "file": "kdenlive.json", "source": "community" },
   { "id": "bitwig",          "name": { "zh": "Bitwig Studio", "en": "Bitwig Studio" }, "category": "audio",         "icon": "🎛️", "type": "software", "file": "bitwig.json", "source": "ai" },
-  { "id": "vegas",           "name": { "zh": "Vegas Pro",     "en": "Vegas Pro" },     "category": "video",         "icon": "🎞️", "type": "software", "file": "vegas.json", "source": "ai" }
+  { "id": "vegas",           "name": { "zh": "Vegas Pro",     "en": "Vegas Pro" },     "category": "video",         "icon": "🎞️", "type": "software", "file": "vegas.json", "source": "ai" },
+  { "id": "discord",         "name": { "zh": "Discord",       "en": "Discord" },       "category": "productivity",  "icon": "💬", "type": "software", "popular": true, "file": "discord.json", "source": "official" },
+  { "id": "telegram",        "name": { "zh": "Telegram",      "en": "Telegram" },      "category": "productivity",  "icon": "✈️", "type": "software", "popular": true, "file": "telegram.json", "source": "official" },
+  { "id": "matlab",          "name": { "zh": "MATLAB",        "en": "MATLAB" },        "category": "development",   "icon": "🧮", "type": "software", "popular": true, "file": "matlab.json", "source": "official" },
+  { "id": "ticktick",        "name": { "zh": "TickTick",      "en": "TickTick" },      "category": "productivity",  "icon": "☑️", "type": "software", "file": "ticktick.json", "source": "official" },
+  { "id": "docker",          "name": { "zh": "Docker Desktop","en": "Docker Desktop" }, "category": "development",   "icon": "🐳", "type": "software", "popular": true, "file": "docker.json", "source": "community" }
 ]

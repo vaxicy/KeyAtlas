@@ -1,0 +1,215 @@
+[
+  {
+    "id": "ticktick-global-add",
+    "appId": "ticktick",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "全局添加任务",
+      "en": "Global Add Task"
+    },
+    "description": {
+      "zh": "从任意位置打开添加任务栏",
+      "en": "Open the add-task bar from anywhere"
+    },
+    "windows": "Shift + Alt + A",
+    "mac": "Shift + Alt + A",
+    "linux": "Shift + Alt + A",
+    "keywords": [
+      "添加",
+      "任务",
+      "add",
+      "task",
+      "global"
+    ],
+    "pinyin": "quan ju tian jia ren wu quanjutianjiarenwu q j t j r w qjtjrw tian jia   ren wu tianjia renwu t j   r w tj rw"
+  },
+  {
+    "id": "ticktick-create",
+    "appId": "ticktick",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "创建任务",
+      "en": "Create Task"
+    },
+    "description": {
+      "zh": "在输入框中创建任务",
+      "en": "Create a task from the input bar"
+    },
+    "windows": "Enter",
+    "mac": "Enter",
+    "linux": "Enter",
+    "keywords": [
+      "创建",
+      "任务",
+      "create",
+      "task"
+    ],
+    "pinyin": "chuang jian ren wu chuangjianrenwu c j r w cjrw chuang jian   ren wu chuangjian renwu c j   r w cj rw"
+  },
+  {
+    "id": "ticktick-desc",
+    "appId": "ticktick",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "添加任务描述",
+      "en": "Add Description"
+    },
+    "description": {
+      "zh": "在添加任务时换行写描述",
+      "en": "Add a description while adding a task"
+    },
+    "windows": "Shift + Enter",
+    "mac": "Shift + Enter",
+    "linux": "Shift + Enter",
+    "keywords": [
+      "描述",
+      "任务",
+      "description",
+      "task"
+    ],
+    "pinyin": "tian jia ren wu miao shu tianjiarenwumiaoshu t j r w m s tjrwms miao shu   ren wu miaoshu renwu m s   r w ms rw"
+  },
+  {
+    "id": "ticktick-save",
+    "appId": "ticktick",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "保存任务",
+      "en": "Save Task"
+    },
+    "description": {
+      "zh": "输入描述后保存任务",
+      "en": "Save the task after typing a description"
+    },
+    "windows": "Ctrl + Enter",
+    "mac": "⌘ + Enter",
+    "linux": "Ctrl + Enter",
+    "keywords": [
+      "保存",
+      "任务",
+      "save",
+      "task"
+    ],
+    "pinyin": "bao cun ren wu baocunrenwu b c r w bcrw bao cun   ren wu baocun renwu b c   r w bc rw"
+  },
+  {
+    "id": "ticktick-copy",
+    "appId": "ticktick",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "复制",
+      "en": "Copy"
+    },
+    "description": {
+      "zh": "复制内容以粘贴到任务中",
+      "en": "Copy content to paste into tasks"
+    },
+    "windows": "Ctrl + C",
+    "mac": "⌘ + C",
+    "linux": "Ctrl + C",
+    "keywords": [
+      "复制",
+      "copy"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "ticktick-paste",
+    "appId": "ticktick",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "粘贴",
+      "en": "Paste"
+    },
+    "description": {
+      "zh": "将图片等内容直接粘贴到任务",
+      "en": "Paste images directly into task details"
+    },
+    "windows": "Ctrl + V",
+    "mac": "⌘ + V",
+    "linux": "Ctrl + V",
+    "keywords": [
+      "粘贴",
+      "paste"
+    ],
+    "pinyin": "nian tie niantie n t nt nian tie niantie n t nt"
+  },
+  {
+    "id": "ticktick-multiselect",
+    "appId": "ticktick",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "多选任务",
+      "en": "Multi-select Tasks"
+    },
+    "description": {
+      "zh": "按住修饰键点击进行批量选择",
+      "en": "Hold modifier and click for bulk selection"
+    },
+    "windows": "Ctrl / Shift + Click",
+    "mac": "⌘ + Click",
+    "linux": "Ctrl / Shift + Click",
+    "keywords": [
+      "多选",
+      "批量",
+      "multi",
+      "select"
+    ],
+    "pinyin": "duo xuan ren wu duoxuanrenwu d x r w dxrw duo xuan   pi liang duoxuan piliang d x   p l dx pl"
+  },
+  {
+    "id": "ticktick-slash",
+    "appId": "ticktick",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "斜杠菜单",
+      "en": "Slash Menu"
+    },
+    "description": {
+      "zh": "快速插入样式/列表/附件/子任务",
+      "en": "Quick insert styles, lists, attachments, subtasks"
+    },
+    "windows": "/",
+    "mac": "/",
+    "linux": "/",
+    "keywords": [
+      "斜杠",
+      "菜单",
+      "slash",
+      "menu"
+    ],
+    "pinyin": "xie gang cai dan xiegangcaidan x g c d xgcd xie gang   cai dan xiegang caidan x g   c d xg cd"
+  },
+  {
+    "id": "ticktick-command",
+    "appId": "ticktick",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "命令菜单",
+      "en": "Command Menu"
+    },
+    "description": {
+      "zh": "打开命令菜单快速导航",
+      "en": "Open the command menu to navigate quickly"
+    },
+    "windows": "Ctrl + K",
+    "mac": "⌘ + K",
+    "linux": "Ctrl + K",
+    "keywords": [
+      "命令",
+      "菜单",
+      "command",
+      "menu"
+    ],
+    "pinyin": "ming ling cai dan minglingcaidan m l c d mlcd ming ling   cai dan mingling caidan m l   c d ml cd"
+  }
+]

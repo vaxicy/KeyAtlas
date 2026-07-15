@@ -9,7 +9,8 @@ export interface Shortcut {
   mac?: string | null;
   linux?: string | null;
   keywords?: string[];
-  pinyin?: string[];
+  /** Pinyin index — data ships it as a single space-joined string, older data may use array. */
+  pinyin?: string | string[];
 }
 
 export interface App {

@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { t, getCategoryName, useLangState } from '../i18n';
+import { t, getCategoryName, useLangState, getLang } from '../i18n';
 import type { App } from '../types';
 
 interface Props {
@@ -9,6 +9,8 @@ interface Props {
 
 export default function AppCard({ app, shortcutCount }: Props) {
   useLangState(); // subscribe to re-render on language change
+  const lang = getLang();
+  const displayName = lang === 'zh' && app.name?.zh ? app.name.zh : app.name.en;
   return (
     <Link to={`/apps/${app.id}`} className="app-card">
       <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
@@ -34,7 +36,7 @@ export default function AppCard({ app, shortcutCount }: Props) {
             whiteSpace: 'nowrap',
             transition: 'color 0.15s',
           }}>
-            {app.name.en}
+            {displayName}
           </h3>
           <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginTop: 2 }}>
             <span style={{ fontSize: 12, color: 'var(--sub-color)', textTransform: 'capitalize' }}>

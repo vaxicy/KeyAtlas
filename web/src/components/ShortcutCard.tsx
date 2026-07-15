@@ -8,6 +8,7 @@ interface Props {
   shortcut: ShortcutType;
   appName?: string;
   showCopy?: boolean;
+  platform?: 'windows' | 'mac' | 'linux';
 }
 
 function parseKeys(raw?: string | null): string[] {
@@ -28,12 +29,13 @@ const cardHoverStyle: React.CSSProperties = {
   borderColor: '#c7d2fe',
 };
 
-export default function ShortcutCard({ shortcut, appName, showCopy = true }: Props) {
+export default function ShortcutCard({ shortcut, appName, showCopy = true, platform }: Props) {
   const [copied, setCopied] = useState(false);
   const [hovered, setHovered] = useState(false);
   const [lang] = useLangState();
   const winKeys = parseKeys(shortcut.windows);
   const macKeys = parseKeys(shortcut.mac);
+  const linuxKeys = parseKeys(shortcut.linux);
 
   const handleCopy = useCallback(async () => {
     const text = winKeys.join(' + ') || macKeys.join(' + ');
@@ -42,7 +44,11 @@ export default function ShortcutCard({ shortcut, appName, showCopy = true }: Pro
     setTimeout(() => setCopied(false), 1500);
   }, [winKeys, macKeys]);
 
-  const displayKeys = winKeys.length > 0 ? winKeys : macKeys;
+  const displayKeys =
+    platform === 'mac' ? macKeys
+    : platform === 'linux' ? linuxKeys
+    : platform === 'windows' ? winKeys
+    : (winKeys.length > 0 ? winKeys : macKeys);
   const name = lang === 'zh' && shortcut.name?.zh ? shortcut.name.zh : shortcut.name.en;
   const desc = lang === 'zh' && shortcut.description?.zh ? shortcut.description.zh : shortcut.description.en;
   const isOfficial = (shortcut as any).source === 'official';
@@ -114,13 +120,16 @@ export default function ShortcutCard({ shortcut, appName, showCopy = true }: Pro
         </div>
 
         {/* Right: keys */}
-        <div style={{ flexShrink: 0, display: 'flex', alignItems: 'center', gap: 8 }}>
-          <KeyBadge keys={displayKeys} onCopy={showCopy ? handleCopy : undefined} />
+        <div style={{ flexShrink: 0, display: 'flex', alignItems: 'center', gap: 8, minWidth: 0 }}>
+          <div style={{ minWidth: 0, maxWidth: 'min(60vw, 480px)', display: 'flex', justifyContent: 'flex-end' }}>
+            <KeyBadge keys={displayKeys} onCopy={showCopy ? handleCopy : undefined} />
+          </div>
           {showCopy && (
             <button
               onClick={handleCopy}
               title={copied ? t('copied') : t('copy')}
               style={{
+                flexShrink: 0,
                 padding: 8,
                 borderRadius: 8,
                 border: 'none',

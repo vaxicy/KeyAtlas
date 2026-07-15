@@ -72,9 +72,9 @@
       if (t[key] != null) node.textContent = t[key];
     });
     el.searchInput.placeholder = t.searchPlaceholder;
-    el.settingsBtn.title = t.settings;
+    el.settingsBtn.setAttribute("data-tooltip", t.settings);
     el.settingsBtn.setAttribute("aria-label", t.settings);
-    el.webBtn.title = t.openWeb;
+    el.webBtn.setAttribute("data-tooltip", t.openWeb);
     el.webBtn.setAttribute("aria-label", t.openWeb);
     document.documentElement.lang = i18n.lang;
     if (el.aboutVersion) el.aboutVersion.textContent = i18n.format(t.aboutVersion, { n: VERSION });

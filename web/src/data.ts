@@ -1,33 +1,96 @@
 import type { AllData, App, Shortcut } from './types';
 
-const CACHE_KEY = 'keyatlas-data';
+// Bump this whenever data schema/content changes to invalidate stale localStorage caches.
+const DATA_VERSION = 'v2';
+const CACHE_KEY = `keyatlas-data-${DATA_VERSION}`;
 
 let cachedData: AllData | null = null;
+let inflight: Promise<AllData> | null = null;
+
+/** Validate that a parsed object is complete, non-empty data. */
+function isValidData(d: any): d is AllData {
+  return !!d
+    && Array.isArray(d.apps) && d.apps.length > 0
+    && Array.isArray(d.shortcuts) && d.shortcuts.length > 0;
+}
+
+/** Remove any old-version caches so they don't linger in localStorage. */
+function clearStaleCaches() {
+  try {
+    for (let i = localStorage.length - 1; i >= 0; i--) {
+      const k = localStorage.key(i);
+      if (k && k.startsWith('keyatlas-data') && k !== CACHE_KEY) {
+        localStorage.removeItem(k);
+      }
+    }
+  } catch {}
+}
+
+/** Fetch JSON with timeout + one retry. */
+async function fetchData(): Promise<AllData> {
+  const attempt = async (): Promise<AllData> => {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), 15000);
+    try {
+      const res = await fetch('/data/all.json', {
+        signal: controller.signal,
+        cache: 'no-cache',
+      });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+      if (!isValidData(data)) throw new Error('Data is empty or malformed');
+      return data;
+    } finally {
+      clearTimeout(timer);
+    }
+  };
+
+  try {
+    return await attempt();
+  } catch (e) {
+    // Retry once on failure (network hiccup / truncated response)
+    return await attempt();
+  }
+}
 
 export async function loadData(): Promise<AllData> {
   if (cachedData) return cachedData;
+  if (inflight) return inflight;
 
-  // Try cache first
-  try {
-    const cached = localStorage.getItem(CACHE_KEY);
-    if (cached) {
-      cachedData = JSON.parse(cached);
-      return cachedData!;
+  inflight = (async () => {
+    clearStaleCaches();
+
+    // Try localStorage cache first — but validate it.
+    try {
+      const cached = localStorage.getItem(CACHE_KEY);
+      if (cached) {
+        const parsed = JSON.parse(cached);
+        if (isValidData(parsed)) {
+          cachedData = parsed;
+          return cachedData!;
+        }
+        localStorage.removeItem(CACHE_KEY); // drop corrupted cache
+      }
+    } catch {
+      try { localStorage.removeItem(CACHE_KEY); } catch {}
     }
-  } catch {}
 
-  // Fetch from public/data/all.json
-  const res = await fetch('/data/all.json');
-  if (!res.ok) throw new Error(`Failed to load data: ${res.status}`);
-  const data: AllData = await res.json();
-  cachedData = data;
+    // Fetch fresh
+    const data = await fetchData();
+    cachedData = data;
 
-  // Cache to localStorage
+    try {
+      localStorage.setItem(CACHE_KEY, JSON.stringify(data));
+    } catch {}
+
+    return data;
+  })();
+
   try {
-    localStorage.setItem(CACHE_KEY, JSON.stringify(data));
-  } catch {}
-
-  return data;
+    return await inflight;
+  } finally {
+    inflight = null;
+  }
 }
 
 export function getAppById(data: AllData, id: string): App | undefined {

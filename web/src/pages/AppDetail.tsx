@@ -152,7 +152,7 @@ export default function AppDetail() {
       {/* Shortcuts list */}
       <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
         {shortcuts.map(s => (
-          <ShortcutCard key={s.id} shortcut={s} showCopy />
+          <ShortcutCard key={s.id} shortcut={s} showCopy platform={platform === 'all' ? undefined : platform} />
         ))}
 
         {shortcuts.length === 0 && (

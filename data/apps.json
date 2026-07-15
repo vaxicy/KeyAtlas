@@ -146,5 +146,11 @@
   { "id": "tmux",            "name": { "zh": "tmux",           "en": "tmux" },           "category": "development",   "icon": "⌨️", "type": "software", "file": "tmux.json", "source": "official" },
   { "id": "tradingview",     "name": { "zh": "TradingView",    "en": "TradingView" },    "category": "other",         "icon": "📈", "type": "software", "file": "tradingview.json", "source": "community" },
   { "id": "googlemeet",      "name": { "zh": "Google Meet",    "en": "Google Meet" },    "category": "productivity",  "icon": "📹", "type": "software", "file": "googlemeet.json", "source": "community" },
-  { "id": "skype",           "name": { "zh": "Skype",          "en": "Skype" },          "category": "productivity",  "icon": "📞", "type": "software", "file": "skype.json", "source": "community" }
+  { "id": "skype",           "name": { "zh": "Skype",          "en": "Skype" },          "category": "productivity",  "icon": "📞", "type": "software", "file": "skype.json", "source": "community" },
+  { "id": "airtable",        "name": { "zh": "Airtable",       "en": "Airtable" },       "category": "productivity",  "icon": "🗃️", "type": "software", "popular": true, "file": "airtable.json", "source": "official" },
+  { "id": "webflow",         "name": { "zh": "Webflow",        "en": "Webflow" },        "category": "design",        "icon": "🌐", "type": "software", "file": "webflow.json", "source": "community" },
+  { "id": "midjourney",      "name": { "zh": "Midjourney",     "en": "Midjourney" },     "category": "ai",            "icon": "🖼️", "type": "software", "popular": true, "file": "midjourney.json", "source": "community" },
+  { "id": "clickup",         "name": { "zh": "ClickUp",        "en": "ClickUp" },        "category": "productivity",  "icon": "📋", "type": "software", "file": "clickup.json", "source": "community" },
+  { "id": "datagrip",        "name": { "zh": "DataGrip",       "en": "DataGrip" },       "category": "development",   "icon": "🗄️", "type": "software", "file": "datagrip.json", "source": "community" },
+  { "id": "rubymine",        "name": { "zh": "RubyMine",       "en": "RubyMine" },       "category": "development",   "icon": "💎", "type": "software", "file": "rubymine.json", "source": "community" }
 ]

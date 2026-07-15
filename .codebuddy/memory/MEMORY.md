@@ -36,11 +36,19 @@
 - `onenote.json`：对照用户提供的 Microsoft 365 官方截图（OneNote-1.png / OneNote-2.png）完全重写（55 条）
 - `flstudio.json`：web_fetch FL Studio 官方快捷键页（image-line.com）逐条核实（19 条，official）
 
+**第五批（2026-07-15 联网抓取，用户点名的高价值应用）**
+- `airtable.json`：web_fetch 官方 support.airtable.com 逐条核实（34 条，**official**）。
+- `webflow.json`：官方帮助中心 403 拦截，转 shortcutref（引官方），26 条，**community**。
+- `datagrip.json` / `rubymine.json`：JetBrains 官方页只给 Windows/Linux 且不完整，转 shortcutref/keycombiner（均引官方 JetBrains keymap），32 / 79 条，**community**。
+- `clickup.json`：官方 403，转 tutorialtactic 社区，33 条，**community**。
+- `midjourney.json`：官方 Editor 页 403，转 shortcut-tools 社区（命令式：/imagine 等斜杠命令 + U/V 按钮 + 参数），15 条，**community**。
+- 6 文件由 `scripts/import-batch-20260715.js` 生成后已删除脚本；`apps.json` 注册 6 条（airtable=official，其余=community）；`npm run gen:pinyin` 校验通过（6192 条）。
+
 ### ⚠️ 非官方来源标注（22 个）
 
 | 来源类型 | 应用 |
 |----------|------|
-| `community`（13） | figma, firefox, acrobat, sublimetext, krita, clipstudio, xcode, arc, linear, figjam, discord, zoom, postman |
+| `community`（18） | figma, firefox, acrobat, sublimetext, krita, clipstudio, xcode, arc, linear, figjam, discord, zoom, postman, webflow, midjourney, clickup, datagrip, rubymine |
 | `ai`（27） | git, bilibili, logicpro, garageband, reaper, cubase, autocad, fusion360, sketchup, solidworks, substancepainter, houdini, unreal, unity, godot, visualstudio, eclipse, notepadplusplus, 3dsmax, rhino, brave, opera, vivaldi, confluence, studioone, protools, ios |
 
 > **2026-07-14 末批**：官方文档补齐 15 个应用（unreal/unity/godot/visualstudio/eclipse/notepadplusplus/3dsmax/rhino/brave/opera/vivaldi/confluence/studioone/protools/ios）。环境网络受限（web 搜索不可用 + 多数官方页 SPA/403/超时），按规则以 AI 知识库编写、标 `ai`，未经官网逐条核实。校验 0 error。建议网络恢复后复核 Pro Tools 工具键、Rhino 功能键、Visual Studio 组合键。

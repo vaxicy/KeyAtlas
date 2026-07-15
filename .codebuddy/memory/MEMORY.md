@@ -61,6 +61,7 @@
 
 ## 技术栈
 - Chrome 扩展（Manifest V3），popup 单页应用。
+- **预览方式**：可直接在 `chrome://extensions` 开启开发者模式 → 加载已解压的扩展程序，指向项目根目录预览，无需打包。
 - 构建：`npm run gen:pinyin`（依赖 `pinyin-pro`）生成 pinyin 字段。
 - 入口：`popup.html` + `js/app.js`（渲染/分组/排序）+ `js/search.js`（搜索排序）+ `css/style.css`。
 - 双语：`_locales/zh`、`_locales/en` + JS 内 `I18N` 对象；动态文本走翻译对象，禁止硬编码。

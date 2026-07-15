@@ -73,6 +73,7 @@
           <div class="segmented" id="setTheme">
             <button data-theme="light" data-i18n="themeLight">Light</button>
             <button data-theme="dark" data-i18n="themeDark">Dark</button>
+            <button data-theme="system" data-i18n="themeSystem">System</button>
           </div>
         </div>
         <div class="setting-block setting-block-row">
@@ -118,6 +119,12 @@
         <img src="icons/wechat-tip.png" alt="WeChat" class="wechat-lightbox-img" />
         <span class="wechat-lightbox-hint" data-i18n="supportWechatHint">Scan with WeChat to tip</span>
       </div>
+    </div>
+
+    <!-- Detail drawer (slides up, keeps list behind) -->
+    <div id="detailDrawer" class="detail-drawer" hidden aria-hidden="true">
+      <div class="detail-drawer-backdrop" data-backdrop="1"></div>
+      <div class="detail-drawer-panel" id="detailPanel" role="dialog" aria-modal="true"></div>
     </div>
 
     <div id="toast" class="toast" hidden></div>

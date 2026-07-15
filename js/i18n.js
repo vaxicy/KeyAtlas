@@ -72,7 +72,13 @@ const I18N = {
     supportPaypal: "Donate via PayPal",
     supportWechat: "WeChat QR code",
     supportWechatHint: "Scan with WeChat to tip",
-    legCommand: "Command", legOption: "Option", legShift: "Shift", legCtrl: "Ctrl", legWin: "Win"
+    legCommand: "Command", legOption: "Option", legShift: "Shift", legCtrl: "Ctrl", legWin: "Win",
+    copyTitle: "Copy shortcut",
+    themeSystem: "System",
+    copiedOS: "Copied {os} keys",
+    showAllPlatforms: "Show all platforms",
+    noKey: "No key for this platform",
+    atHint: 'Type @ to jump straight to an app'
   },
   zh: {
     appName: "KeyAtlas",
@@ -142,7 +148,13 @@ const I18N = {
     supportPaypal: "通过 PayPal 赞赏",
     supportWechat: "微信赞赏码",
     supportWechatHint: "用微信扫码赞赏",
-    legCommand: "Cmd", legOption: "Option", legShift: "Shift", legCtrl: "Ctrl", legWin: "Win"
+    legCommand: "Cmd", legOption: "Option", legShift: "Shift", legCtrl: "Ctrl", legWin: "Win",
+    copyTitle: "复制快捷键",
+    themeSystem: "跟随系统",
+    copiedOS: "已复制 {os} 快捷键",
+    showAllPlatforms: "显示全部平台",
+    noKey: "该平台无可用快捷键",
+    atHint: "输入 @ 可直接跳到某个软件"
   }
 };
 

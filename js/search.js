@@ -113,10 +113,14 @@ const SearchEngine = {
     return total;
   },
 
-  /** Software shortcuts rank above system shortcuts (0 = software, 1 = system). */
+  /**
+   * System / OS-level shortcuts rank first (0), software second (1).
+   * For a shortcut search engine, the global OS key (e.g. ⌘/Ctrl+C) is
+   * usually what the user wants, so it should surface above app-specific keys.
+   */
   _typeRank(s) {
     const app = DataStore.getApp(s.appId);
-    return app && app.type === "software" ? 0 : 1;
+    return app && app.type === "system" ? 0 : 1;
   },
 
   _appName(s) {

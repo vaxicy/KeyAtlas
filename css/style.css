@@ -5,7 +5,7 @@
   --surface-2: #f0f2f5;
   --border: #e5e8ec;
   --text: #1a1d21;
-  --sub: #5a6675;
+  --sub: #444e5c;
   --primary: #6366f1;
   --primary-strong: #4F46E5;
   --primary-soft: #ede9fe;
@@ -26,7 +26,7 @@
   --surface-2: #22262e;
   --border: #2b303a;
   --text: #eef1f5;
-  --sub: #98a2b3;
+  --sub: #aab2c0;
   --primary: #818cf8;
   --primary-strong: #6366f1;
   --primary-soft: #26243a;
@@ -336,7 +336,7 @@ html, body {
 }
 .card-app {
   font-size: 10px;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--sub);
   background: var(--surface-2);
   border-radius: 5px;
@@ -377,7 +377,7 @@ html, body {
   align-items: center;
   gap: 3px;
   font-size: 10px;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--sub);
   background: var(--surface-2);
   border-radius: 5px;
@@ -421,7 +421,7 @@ html, body {
   display: inline-flex;
   align-items: center;
   font-size: 11px;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--sub);
   background: var(--surface-2);
   border: 1px dashed var(--border);
@@ -436,19 +436,20 @@ html, body {
 
 .star-btn {
   border: none;
-  background: transparent;
+  background: var(--surface-2);
   cursor: pointer;
   color: var(--sub);
-  padding: 4px;
+  padding: 5px;
+  border-radius: 50%;
   flex-shrink: 0;
   display: inline-flex;
-  transition: color .15s, transform .12s;
+  transition: color .15s, background .15s, transform .12s;
 }
 .star-btn:hover { transform: scale(1.15); }
 .star-btn.active { color: var(--accent); }
 
 /* ---- Detail view ---- */
-.detail-body { padding: 4px 2px 4px 12px; }
+.detail-body { padding: 6px 16px 12px 16px; }
 .detail-head {
   display: flex;
   align-items: center;
@@ -811,8 +812,8 @@ html, body {
   left: 50%;
   bottom: 18px;
   transform: translateX(-50%) translateY(10px);
-  background: var(--text);
-  color: var(--bg);
+  background: linear-gradient(135deg, var(--primary) 0%, #6d28d9 100%);
+  color: #fff;
   font-size: 12px;
   font-weight: 600;
   padding: 8px 16px;
@@ -913,4 +914,62 @@ html, body {
   font-weight: 700;
   color: var(--sub);
   margin: 10px 0 6px 10px;
+}
+
+/* ---- Card copy button (copy key without opening detail) ---- */
+.copy-btn {
+  border: none;
+  background: var(--surface-2);
+  color: var(--sub);
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 8px;
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: color .15s, background .15s, transform .12s;
+}
+.copy-btn:hover { color: var(--primary); background: var(--primary-soft); }
+.copy-btn:active { transform: scale(.9); }
+
+/* ---- Detail drawer (slides up, keeps list behind) ---- */
+.detail-drawer {
+  position: absolute;
+  inset: 0;
+  z-index: 55;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.detail-drawer[hidden] { display: none; }
+.detail-drawer-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(16, 24, 40, .35);
+  opacity: 0;
+  transition: opacity .2s;
+}
+.detail-drawer.open .detail-drawer-backdrop { opacity: 1; }
+.detail-drawer-panel {
+  position: relative;
+  max-height: 86%;
+  background: var(--surface);
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  box-shadow: 0 -8px 24px rgba(16, 24, 40, .18);
+  overflow-y: auto;
+  padding: 4px 0 12px;
+  transform: translateY(100%);
+  transition: transform .22s ease;
+}
+.detail-drawer.open .detail-drawer-panel { transform: translateY(0); }
+
+/* focus rings for new controls */
+.copy-btn:focus-visible,
+.detail-copy:focus-visible,
+.detail-drawer .star-btn:focus-visible,
+.detail-drawer-backdrop:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
 }

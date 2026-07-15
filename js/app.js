@@ -30,6 +30,7 @@
 
   const VERSION = "1.0.0";
   const PAYPAL_URL = "https://www.paypal.com/ncp/payment/BGHTVB7ZG3XPC";
+  let currentTheme = "light";
 
   // Cached DOM
   const el = {
@@ -49,7 +50,9 @@
     paypalBtn: document.getElementById("paypalBtn"),
     wechatBtn: document.getElementById("wechatBtn"),
     wechatLightbox: document.getElementById("wechatLightbox"),
-    toast: document.getElementById("toast")
+    toast: document.getElementById("toast"),
+    detailDrawer: document.getElementById("detailDrawer"),
+    detailPanel: document.getElementById("detailPanel")
   };
 
   /* ---------- OS detection ---------- */
@@ -210,6 +213,12 @@
         </div>
         <div class="card-keys">${renderKeys(keyForOS(s))}</div>
         ${delBtn}
+        <button class="copy-btn" data-copycard="${s.id}" title="${t.copyTitle}" aria-label="${t.copyTitle}">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="9" y="9" width="11" height="11" rx="2"></rect>
+            <path d="M5 15V5a2 2 0 0 1 2-2h10"></path>
+          </svg>
+        </button>
         <button class="star-btn ${fav ? "active" : ""}" data-star="${s.id}"
           title="${fav ? t.removeFav : t.addFav}" aria-label="${fav ? t.removeFav : t.addFav}">
           <svg viewBox="0 0 24 24" width="18" height="18" fill="${fav ? "currentColor" : "none"}"
@@ -259,7 +268,7 @@
   /* ---------- Renderers per tab ---------- */
   function render() {
     clearActiveCard();
-    if (state.detail) return renderDetail(state.detail);
+    if (state.detail) closeDetail();
     if (state.tab === "search") return renderSearch();
     if (state.tab === "categories") return renderCategories();
     if (state.tab === "favorites") return renderFavorites();
@@ -273,9 +282,35 @@
       renderHomepage();
       return;
     }
-    let results = SearchEngine.search(q);
-    if (state.filterOS && state.filterOS !== "all") {
-      results = results.filter((s) => {
+    // "@keyword" jumps straight to the matching app's shortcuts (less drilling).
+    if (q.startsWith("@")) {
+      const term = q.slice(1).trim();
+      if (term) {
+        const matched = DataStore.apps.filter((a) => {
+          const n = i18n.pick(a.name).toLowerCase();
+          return n.includes(term) || (a.name.en || "").toLowerCase().includes(term) || (a.name.zh || "").toLowerCase().includes(term);
+        });
+        if (matched.length) {
+          const groups = matched
+            .map((a) => {
+              const items = DataStore.getShortcutsByApp(a.id);
+              if (!items.length) return "";
+              return `<div class="section-title">${a.icon || ""} ${escapeHTML(i18n.pick(a.name))}</div>` +
+                items.map((s) => cardHTML(s, "")).join("");
+            })
+            .join("");
+          if (groups) {
+            el.content.innerHTML = osFilterBarHTML() + groups;
+            return;
+          }
+        }
+      }
+    }
+    const baseResults = SearchEngine.search(q);
+    let results = baseResults;
+    const filteredOut = state.filterOS && state.filterOS !== "all";
+    if (filteredOut) {
+      results = baseResults.filter((s) => {
         const v = s[state.filterOS];
         return v && v !== "—";
       });
@@ -284,10 +319,14 @@
       const chips = exampleChips()
         .map((e) => `<button class="pill pill-ghost" data-example="${escapeHTML(e.term)}">${escapeHTML(e.label)}</button>`)
         .join("");
+      const resetBtn = filteredOut && baseResults.length
+        ? `<div class="suggest" style="margin-top:14px"><button class="empty-action" data-resetfilter="1">${t.showAllPlatforms}</button></div>`
+        : "";
       el.content.innerHTML =
         osFilterBarHTML() +
         emptyHTML("🤔", i18n.format(t.noResultsQuery, { q }), t.noResultsHint) +
-        `<div class="suggest"><div class="suggest-title">${t.suggestTitle}</div><div class="pills">${chips}</div></div>`;
+        `<div class="suggest"><div class="suggest-title">${t.suggestTitle}</div><div class="pills">${chips}</div></div>` +
+        resetBtn;
       return;
     }
     el.content.innerHTML = osFilterBarHTML() + listHTML(results, q);
@@ -577,7 +616,7 @@
           </button>
         </div>`;
     }).join("");
-    el.content.innerHTML = `
+    el.detailPanel.innerHTML = `
       ${subheadHTML(i18n.pick(s.name))}
       <div class="detail-body">
         <div class="detail-head">
@@ -660,13 +699,34 @@
     const star = e.target.closest("[data-star]");
     if (star) {
       e.stopPropagation();
-      const id = star.dataset.star;
-      const nowFav = await store.toggleFavorite(id);
-      if (nowFav) state.favSet.add(id);
-      else state.favSet.delete(id);
-      toast(nowFav ? i18n.t.addFav : i18n.t.removeFav);
-      if (state.tab === "favorites") renderFavorites();
-      else render();
+      await toggleFav(star);
+      // Only re-render when not in the detail drawer and favorites needs to
+      // add/remove the card; otherwise the in-place update keeps list context.
+      if (!state.detail && state.tab === "favorites") renderFavorites();
+      return;
+    }
+
+    // Card copy button: copy the key for the current display OS directly.
+    const copyCard = e.target.closest("[data-copycard]");
+    if (copyCard) {
+      e.stopPropagation();
+      const s = DataStore.getShortcut(copyCard.dataset.copycard);
+      if (s) {
+        const raw = keyForOS(s);
+        if (!raw || raw === "—") toast(i18n.t.noKey);
+        else {
+          copyToClipboard(raw);
+          toast(i18n.format(i18n.t.copiedOS, { os: i18n.t[OS_META[effectiveOS()].key] }));
+        }
+      }
+      return;
+    }
+
+    // OS filter removed every result: let the user jump back to all platforms.
+    const resetFilter = e.target.closest("[data-resetfilter]");
+    if (resetFilter) {
+      state.filterOS = "all";
+      renderSearch();
       return;
     }
 
@@ -767,6 +827,25 @@
     }
   }
 
+  async function onDrawerClick(e) {
+    if (e.target.closest("[data-backdrop]") || e.target.closest("[data-back]")) {
+      closeDetail();
+      return;
+    }
+    const copyBtn = e.target.closest("[data-copy]");
+    if (copyBtn && state.detail) {
+      const s = DataStore.getShortcut(state.detail);
+      if (s) copyOS(s, copyBtn.dataset.copy);
+      return;
+    }
+    const star = e.target.closest("[data-star]");
+    if (star) {
+      e.stopPropagation();
+      await toggleFav(star);
+      return;
+    }
+  }
+
   function copyToClipboard(text) {
     try {
       navigator.clipboard.writeText(text);
@@ -782,9 +861,9 @@
 
   function copyOS(s, platform) {
     const raw = s[platform] || "—";
-    if (raw === "—") return;
+    if (raw === "—") { toast(i18n.t.noKey); return; }
     copyToClipboard(raw);
-    toast(i18n.t.copied);
+    toast(i18n.format(i18n.t.copiedOS, { os: i18n.t[OS_META[platform].key] }));
   }
 
   /* ---------- Export (Markdown) ---------- */
@@ -841,12 +920,50 @@
   function showDetail(id) {
     state.detail = id;
     if (!state.incognito) store.pushRecent(id);
-    render();
+    renderDetail(id);
+    openDetailDrawer();
+  }
+
+  function openDetailDrawer() {
+    el.detailDrawer.hidden = false;
+    el.detailDrawer.setAttribute("aria-hidden", "false");
+    requestAnimationFrame(() => el.detailDrawer.classList.add("open"));
   }
 
   function closeDetail() {
+    if (!state.detail && el.detailDrawer.hidden) return;
     state.detail = null;
-    render();
+    el.detailDrawer.classList.remove("open");
+    el.detailDrawer.setAttribute("aria-hidden", "true");
+    setTimeout(() => { el.detailDrawer.hidden = true; }, 220);
+    // Return focus to the search box so the user can keep querying (Item 3).
+    if (state.tab === "search") {
+      el.searchInput.focus();
+      if (state.activeIdx >= 0) setActiveCard(state.activeIdx);
+    }
+  }
+
+  // Toggle favorite for a star button; update every matching star in place
+  // (drawer + list) without a full re-render so list scroll/context is kept.
+  async function toggleFav(btn) {
+    const id = btn.dataset.star;
+    const nowFav = await store.toggleFavorite(id);
+    if (nowFav) state.favSet.add(id);
+    else state.favSet.delete(id);
+    toast(nowFav ? i18n.t.addFav : i18n.t.removeFav);
+    updateStarButtons(id, nowFav);
+    return nowFav;
+  }
+
+  function updateStarButtons(id, nowFav) {
+    document.querySelectorAll(`[data-star="${id}"]`).forEach((b) => {
+      b.classList.toggle("active", nowFav);
+      const svg = b.querySelector("svg");
+      if (svg) svg.setAttribute("fill", nowFav ? "currentColor" : "none");
+      const label = nowFav ? i18n.t.removeFav : i18n.t.addFav;
+      b.title = label;
+      b.setAttribute("aria-label", label);
+    });
   }
 
   function onKeydown(e) {
@@ -905,8 +1022,16 @@
     );
   }
 
+  function resolveTheme(theme) {
+    if (theme === "system") {
+      return window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    }
+    return theme;
+  }
+
   function applyTheme(theme) {
-    document.documentElement.setAttribute("data-theme", theme);
+    currentTheme = theme;
+    document.documentElement.setAttribute("data-theme", resolveTheme(theme));
     setActiveSegment(el.setTheme, "theme", theme);
   }
 
@@ -960,6 +1085,13 @@
     // theme
     const theme = await store.getTheme();
     applyTheme(theme);
+    // Live-follow the OS color scheme while "System" is selected.
+    if (window.matchMedia) {
+      const mq = window.matchMedia("(prefers-color-scheme: dark)");
+      const onScheme = () => { if (currentTheme === "system") applyTheme("system"); };
+      if (mq.addEventListener) mq.addEventListener("change", onScheme);
+      else if (mq.addListener) mq.addListener(onScheme);
+    }
 
     // incognito mode
     state.incognito = await store.getIncognito();
@@ -971,9 +1103,8 @@
     bindSegment(el.setTheme, "theme", pickTheme);
     bindSegment(el.setLang, "lang", pickLang);
 
-    // OS: default to Windows for display. Only Mac is auto-detected (its keys
-    // differ); Linux shares the same Ctrl-based keys as Windows, so it falls
-    // back to Windows to keep the default view consistent for most users.
+    // Default display OS: auto-detect (mac shows mac keys, others show Windows
+    // keys; Linux shares the same Ctrl-based keys as Windows).
     state.os = detectOS() === "mac" ? "mac" : "windows";
 
     // Load data
@@ -1054,6 +1185,7 @@
 
 
     el.content.addEventListener("click", onContentClick);
+    el.detailDrawer.addEventListener("click", onDrawerClick);
     document.addEventListener("keydown", onKeydown);
 
     // Omnibox / deep-link: ?q= pre-fills the search.

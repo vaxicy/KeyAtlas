@@ -139,7 +139,7 @@
   { "id": "xunlei",          "name": { "zh": "迅雷",            "en": "Xunlei" },         "category": "productivity",  "icon": "⚡", "type": "software", "sortKey": "Xunlei", "file": "xunlei.json", "source": "community" },
   { "id": "whatsapp",        "name": { "zh": "WhatsApp",       "en": "WhatsApp" },       "category": "productivity",  "icon": "💬", "type": "software", "file": "whatsapp.json", "source": "community" },
   { "id": "windowsterminal", "name": { "zh": "Windows 终端",   "en": "Windows Terminal" },"category": "development",  "icon": "🖥️", "type": "software", "file": "windowsterminal.json", "source": "official" },
-  { "id": "powertoys",       "name": { "zh": "PowerToys",      "en": "PowerToys" },      "category": "system",        "icon": "🛠️", "type": "software", "file": "powertoys.json", "source": "official" },
+  { "id": "powertoys",       "name": { "zh": "PowerToys",      "en": "PowerToys" },      "category": "productivity",  "icon": "🛠️", "type": "software", "file": "powertoys.json", "source": "official" },
   { "id": "snipaste",        "name": { "zh": "Snipaste",       "en": "Snipaste" },       "category": "productivity",  "icon": "✂️", "type": "software", "file": "snipaste.json", "source": "official" },
   { "id": "vlc",             "name": { "zh": "VLC",            "en": "VLC" },            "category": "video",         "icon": "🎬", "type": "software", "file": "vlc.json", "source": "official" },
   { "id": "sharex",          "name": { "zh": "ShareX",         "en": "ShareX" },         "category": "productivity",  "icon": "📸", "type": "software", "file": "sharex.json", "source": "community" },

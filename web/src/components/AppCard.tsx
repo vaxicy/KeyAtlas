@@ -9,12 +9,13 @@ interface Props {
 }
 
 export default function AppCard({ app, shortcutCount }: Props) {
-  useLangState(); // subscribe to re-render on language change
+  useLangState();
   const lang = getLang();
   const displayName = lang === 'zh' && app.name?.zh ? app.name.zh : app.name.en;
+
   return (
     <Link to={`/apps/${app.id}`} className="app-card">
-      <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
+      <div className="app-card-inner">
         <AppIcon name={displayName} icon={app.icon} size={40} />
         <div style={{ minWidth: 0, flex: 1 }}>
           <h3 className="app-card-title" style={{
@@ -27,17 +28,12 @@ export default function AppCard({ app, shortcutCount }: Props) {
           }}>
             {displayName}
           </h3>
-          <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginTop: 2 }}>
-            <span style={{ fontSize: 12, color: 'var(--sub-color)', textTransform: 'capitalize' }}>
-              {getCategoryName(app.category)}
-            </span>
+          <div className="app-card-meta">
+            <span className="ka-meta-pill">{getCategoryName(app.category)}</span>
             {shortcutCount != null && (
-              <>
-                <span style={{ fontSize: 12, color: 'var(--border-color)' }}>·</span>
-                <span style={{ fontSize: 12, color: 'var(--sub-color)' }}>
-                  {t('shortcutsCount', { count: String(shortcutCount) })}
-                </span>
-              </>
+              <span className="ka-meta-pill ka-muted-pill">
+                {t('shortcutsCount', { count: String(shortcutCount) })}
+              </span>
             )}
           </div>
         </div>

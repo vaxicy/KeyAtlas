@@ -1,44 +1,30 @@
 import type { AllData, App, Shortcut } from './types';
 
-// Bump this whenever data schema/content changes to invalidate stale localStorage caches.
-const DATA_VERSION = 'v2';
-const CACHE_KEY = `keyatlas-data-${DATA_VERSION}`;
+let cachedApps: App[] | null = null;
+let cachedSearchData: AllData | null = null;
+let appsInflight: Promise<App[]> | null = null;
+let searchInflight: Promise<AllData> | null = null;
+const shortcutCache = new Map<string, Shortcut[]>();
+const shortcutInflight = new Map<string, Promise<Shortcut[]>>();
 
-let cachedData: AllData | null = null;
-let inflight: Promise<AllData> | null = null;
-
-/** Validate that a parsed object is complete, non-empty data. */
-function isValidData(d: any): d is AllData {
-  return !!d
-    && Array.isArray(d.apps) && d.apps.length > 0
-    && Array.isArray(d.shortcuts) && d.shortcuts.length > 0;
+function isValidApps(d: any): d is App[] {
+  return Array.isArray(d) && d.length > 0;
 }
 
-/** Remove any old-version caches so they don't linger in localStorage. */
-function clearStaleCaches() {
-  try {
-    for (let i = localStorage.length - 1; i >= 0; i--) {
-      const k = localStorage.key(i);
-      if (k && k.startsWith('keyatlas-data') && k !== CACHE_KEY) {
-        localStorage.removeItem(k);
-      }
-    }
-  } catch {}
+function isValidShortcuts(d: any): d is Shortcut[] {
+  return Array.isArray(d);
 }
 
-/** Fetch JSON with timeout + one retry. */
-async function fetchData(): Promise<AllData> {
-  const attempt = async (): Promise<AllData> => {
+/** Fetch JSON with timeout + one retry. Browser/CDN cache handles persistence. */
+async function fetchJson<T>(url: string, validate: (value: any) => value is T): Promise<T> {
+  const attempt = async (): Promise<T> => {
     const controller = new AbortController();
     const timer = setTimeout(() => controller.abort(), 15000);
     try {
-      const res = await fetch('/data/all.json', {
-        signal: controller.signal,
-        cache: 'no-cache',
-      });
+      const res = await fetch(url, { signal: controller.signal });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
-      if (!isValidData(data)) throw new Error('Data is empty or malformed');
+      if (!validate(data)) throw new Error(`${url} is empty or malformed`);
       return data;
     } finally {
       clearTimeout(timer);
@@ -47,53 +33,69 @@ async function fetchData(): Promise<AllData> {
 
   try {
     return await attempt();
-  } catch (e) {
-    // Retry once on failure (network hiccup / truncated response)
+  } catch {
     return await attempt();
   }
 }
 
-export async function loadData(): Promise<AllData> {
-  if (cachedData) return cachedData;
-  if (inflight) return inflight;
+export async function loadApps(): Promise<App[]> {
+  if (cachedApps) return cachedApps;
+  if (appsInflight) return appsInflight;
 
-  inflight = (async () => {
-    clearStaleCaches();
+  appsInflight = fetchJson('/data/apps.json', isValidApps).then(apps => {
+    cachedApps = apps;
+    return apps;
+  }).finally(() => {
+    appsInflight = null;
+  });
 
-    // Try localStorage cache first — but validate it.
-    try {
-      const cached = localStorage.getItem(CACHE_KEY);
-      if (cached) {
-        const parsed = JSON.parse(cached);
-        if (isValidData(parsed)) {
-          cachedData = parsed;
-          return cachedData!;
-        }
-        localStorage.removeItem(CACHE_KEY); // drop corrupted cache
-      }
-    } catch {
-      try { localStorage.removeItem(CACHE_KEY); } catch {}
-    }
-
-    // Fetch fresh
-    const data = await fetchData();
-    cachedData = data;
-
-    try {
-      localStorage.setItem(CACHE_KEY, JSON.stringify(data));
-    } catch {}
-
-    return data;
-  })();
-
-  try {
-    return await inflight;
-  } finally {
-    inflight = null;
-  }
+  return appsInflight;
 }
 
-export function getAppById(data: AllData, id: string): App | undefined {
+export async function loadAppShortcuts(appId: string): Promise<Shortcut[]> {
+  const cached = shortcutCache.get(appId);
+  if (cached) return cached;
+
+  const existing = shortcutInflight.get(appId);
+  if (existing) return existing;
+
+  const promise = fetchJson(`/data/shortcuts/${encodeURIComponent(appId)}.json`, isValidShortcuts)
+    .then(shortcuts => {
+      shortcutCache.set(appId, shortcuts);
+      return shortcuts;
+    })
+    .finally(() => {
+      shortcutInflight.delete(appId);
+    });
+  shortcutInflight.set(appId, promise);
+  return promise;
+}
+
+export async function loadSearchData(): Promise<AllData> {
+  if (cachedSearchData) return cachedSearchData;
+  if (searchInflight) return searchInflight;
+
+  searchInflight = (async () => {
+    const [apps, searchData] = await Promise.all([
+      loadApps(),
+      fetchJson<{ shortcuts: Shortcut[] }>('/data/search.json', (d): d is { shortcuts: Shortcut[] } => (
+        !!d && isValidShortcuts(d.shortcuts) && d.shortcuts.length > 0
+      )),
+    ]);
+    cachedSearchData = { apps, shortcuts: searchData.shortcuts };
+    return cachedSearchData;
+  })().finally(() => {
+    searchInflight = null;
+  });
+
+  return searchInflight;
+}
+
+export async function loadData(): Promise<AllData> {
+  return loadSearchData();
+}
+
+export function getAppById(data: Pick<AllData, 'apps'>, id: string): App | undefined {
   return data.apps.find(a => a.id === id);
 }
 
@@ -101,11 +103,11 @@ export function getShortcutsByAppId(data: AllData, appId: string): Shortcut[] {
   return data.shortcuts.filter(s => s.appId === appId);
 }
 
-export function getAppsByCategory(data: AllData, category: string): App[] {
+export function getAppsByCategory(data: Pick<AllData, 'apps'>, category: string): App[] {
   return data.apps.filter(a => a.category === category);
 }
 
-export function getPopularApps(data: AllData): App[] {
+export function getPopularApps(data: Pick<AllData, 'apps'>): App[] {
   return data.apps.filter(a => a.popular).slice(0, 8);
 }
 
@@ -115,7 +117,7 @@ export interface CategoryInfo {
   count: number;
 }
 
-export function getCategories(data: AllData): CategoryInfo[] {
+export function getCategories(data: Pick<AllData, 'apps'>): CategoryInfo[] {
   const map = new Map<string, number>();
   for (const app of data.apps) {
     map.set(app.category, (map.get(app.category) || 0) + 1);

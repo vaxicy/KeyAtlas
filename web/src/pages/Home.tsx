@@ -1,185 +1,141 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { t, getCategoryName, useLangState } from '../i18n';
-import { loadData, getCategories, getShortcutsByAppId } from '../data';
+import { t, getCategoryName, useLangState, getLang } from '../i18n';
+import { loadApps, loadAppShortcuts, getCategories } from '../data';
 import SearchBar from '../components/SearchBar';
 import ShortcutCard from '../components/ShortcutCard';
-import AppIcon from '../components/AppIcon';
+import AppCard from '../components/AppCard';
 import { SkeletonGrid } from '../components/Skeleton';
-import type { AllData } from '../types';
+import type { App, Shortcut } from '../types';
+import { usePageMeta } from '../seo';
+import { getFavoriteApps, getRecentApps } from '../webStorage';
 
-const POPULAR_APP_IDS = ['chrome', 'vscode', 'figma', 'photoshop', 'windows', 'excel', 'notion', 'discord'];
+const POPULAR_APP_IDS = ['chrome', 'vscode', 'figma', 'photoshop', 'windows', 'excel', 'notion', 'discord', 'cursor'];
+const POPULAR_APP_LIMIT = 9;
 
 export default function Home() {
-  const [data, setData] = useState<AllData | null>(null);
-  const [quickShortcuts, setQuickShortcuts] = useState<any[]>([]);
+  const [apps, setApps] = useState<App[] | null>(null);
+  const [quickShortcuts, setQuickShortcuts] = useState<Shortcut[]>([]);
   const navigate = useNavigate();
-  const [lang] = useLangState(); // reactive — triggers re-render on lang change
+  useLangState();
+  const lang = getLang();
+  usePageMeta(t('metaHomeTitle'), t('metaHomeDesc'), '/');
 
   useEffect(() => {
-    loadData().then(d => {
-      setData(d);
-      const windowsShortcuts = d.shortcuts.filter(s =>
-        s.appId === 'windows' && s.type === 'shortcut'
-      ).slice(0, 6);
-      setQuickShortcuts(windowsShortcuts);
-    });
+    loadApps().then(setApps);
+    loadAppShortcuts('windows').then(shortcuts => {
+      setQuickShortcuts(shortcuts.filter(shortcut => shortcut.type === 'shortcut').slice(0, 6));
+    }).catch(() => setQuickShortcuts([]));
   }, []);
 
-  if (!data) return (
-    <div style={{ maxWidth: 1024, margin: '0 auto', padding: '32px 20px 48px' }}>
+  if (!apps) return (
+    <div className="page-shell page-shell-padded">
       <div style={{ textAlign: 'center', marginBottom: 40, height: 220 }}>
-        <div className="ka-skeleton" style={{ width: 240, height: 44, margin: '0 auto 10px' }} />
-        <div className="ka-skeleton" style={{ width: 320, height: 20, margin: '0 auto 28px' }} />
-        <div className="ka-skeleton" style={{ width: '100%', maxWidth: 560, height: 48, margin: '0 auto' }} />
+        <div className="ka-skeleton" style={{ width: 220, height: 40, margin: '0 auto 10px' }} />
+        <div className="ka-skeleton" style={{ width: 300, height: 18, margin: '0 auto 26px' }} />
+        <div className="ka-skeleton" style={{ width: '100%', maxWidth: 560, height: 52, margin: '0 auto' }} />
       </div>
       <SkeletonGrid count={5} />
     </div>
   );
 
   const popularApps = POPULAR_APP_IDS
-    .map(id => data.apps.find(a => a.id === id))
-    .filter(Boolean) as NonNullable<ReturnType<typeof data.apps.find>>[];
-  const remaining = data.apps
-    .filter(a => a.popular && !popularApps.find(p => p.id === a.id))
-    .slice(0, 8 - popularApps.length);
-  const allPopular = [...popularApps, ...remaining];
-
-  const categories = getCategories(data);
+    .map(id => apps.find(app => app.id === id))
+    .filter(Boolean) as App[];
+  const remaining = apps
+    .filter(app => app.popular && !popularApps.find(popular => popular.id === app.id))
+    .slice(0, Math.max(0, POPULAR_APP_LIMIT - popularApps.length));
+  const allPopular = [...popularApps, ...remaining].slice(0, POPULAR_APP_LIMIT);
+  const categories = getCategories({ apps });
+  const totalShortcuts = apps.reduce((sum, app) => sum + (app.shortcutCount || 0), 0);
+  const favoriteApps = getFavoriteApps(apps, 6);
+  const recentApps = getRecentApps(apps, 6);
 
   return (
-    <div style={{ maxWidth: 1024, margin: '0 auto', padding: '32px 20px 48px' }}>
-      {/* Hero */}
-      <div style={{ textAlign: 'center', marginBottom: 40 }}>
+    <div className="page-shell page-shell-padded">
+      <div style={{ textAlign: 'center', marginBottom: 34 }}>
         <h1 style={{
-          fontSize: 'clamp(2.2rem, 5vw, 3.2rem)',
+          fontSize: 'clamp(2rem, 4vw, 2.7rem)',
           fontWeight: 800,
-          letterSpacing: '-0.02em',
-          marginBottom: 10,
-          background: 'linear-gradient(135deg, #4f46e5, #7c3aed)',
-          WebkitBackgroundClip: 'text',
-          WebkitTextFillColor: 'transparent',
+          marginBottom: 8,
+          color: 'var(--text-color)',
         }}>
           KeyAtlas
         </h1>
-        <p style={{ fontSize: 17, color: 'var(--sub-color)', marginBottom: 28 }}>
+        <p style={{ fontSize: 15, color: 'var(--sub-color)', marginBottom: 24, fontWeight: 500 }}>
           {t('tagline')}
         </p>
         <SearchBar size="large" autoFocus />
+        <div className="ka-stat-row">
+          <span className="ka-stat-pill">{apps.length} apps</span>
+          <span className="ka-stat-pill">{totalShortcuts} shortcuts</span>
+          <span className="ka-stat-pill">{lang === 'zh' ? '官方 / 社区来源' : 'Official / community sources'}</span>
+          <span className="ka-stat-pill">{lang === 'zh' ? '更新于 2026-07-17' : 'Updated 2026-07-17'}</span>
+        </div>
       </div>
 
-      {/* Quick Start */}
-      {quickShortcuts.length > 0 && (
+      {favoriteApps.length > 0 && (
         <section style={{ marginBottom: 36 }}>
-          <h2 className="section-title">{t('quickStart')}</h2>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
-            {quickShortcuts.map(s => (
-              <ShortcutCard key={s.id} shortcut={s}
-                appName={data.apps.find(a => a.id === s.appId)?.name.en} showCopy />
+          <h2 className="section-title">{lang === 'zh' ? '收藏应用' : 'Favorite Apps'}</h2>
+          <div className="ka-fluid-grid">
+            {favoriteApps.map(app => (
+              <AppCard key={app.id} app={app} shortcutCount={app.shortcutCount || 0} />
             ))}
           </div>
         </section>
       )}
 
-      {/* Categories (primary navigation) */}
-      <section style={{
-        marginBottom: 36,
-        background: 'var(--surface-color)',
-        border: '1px solid var(--border-color)',
-        borderRadius: 16,
-        padding: '24px 24px 20px',
-      }}>
+      {recentApps.length > 0 && (
+        <section style={{ marginBottom: 36 }}>
+          <h2 className="section-title">{lang === 'zh' ? '最近查看' : 'Recently Viewed'}</h2>
+          <div className="ka-fluid-grid">
+            {recentApps.map(app => (
+              <AppCard key={app.id} app={app} shortcutCount={app.shortcutCount || 0} />
+            ))}
+          </div>
+        </section>
+      )}
+
+      {quickShortcuts.length > 0 && (
+        <section style={{ marginBottom: 36 }}>
+          <h2 className="section-title">{t('quickStart')}</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
+            {quickShortcuts.map(shortcut => (
+              <ShortcutCard
+                key={shortcut.id}
+                shortcut={shortcut}
+                appName={apps.find(app => app.id === shortcut.appId)?.name.en}
+                showCopy
+              />
+            ))}
+          </div>
+        </section>
+      )}
+
+      <section style={{ marginBottom: 36 }}>
         <h2 className="section-title">{t('popularCategories')}</h2>
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
-          {categories.map(cat => (
+          {categories.map(category => (
             <button
-              key={cat.id}
-              onClick={() => navigate(`/category/${cat.id}`)}
-              style={{
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: 4,
-                padding: '6px 16px',
-                borderRadius: 9999,
-                border: '1px solid var(--border-color)',
-                background: 'var(--surface-2-color)',
-                color: 'var(--text-color)',
-                fontSize: 14,
-                fontWeight: 600,
-                cursor: 'pointer',
-                transition: 'all 0.15s ease',
-                whiteSpace: 'nowrap',
-              }}
-              onMouseEnter={e => {
-                e.currentTarget.style.borderColor = '#a5b4fc';
-                e.currentTarget.style.color = '#4f46e5';
-                e.currentTarget.style.background = '#eef2ff';
-              }}
-              onMouseLeave={e => {
-                e.currentTarget.style.borderColor = 'var(--border-color)';
-                e.currentTarget.style.color = 'var(--text-color)';
-                e.currentTarget.style.background = 'var(--surface-2-color)';
-              }}
+              key={category.id}
+              onClick={() => navigate(`/category/${category.id}`)}
+              className="ka-chip"
             >
-              {getCategoryName(cat.id)}
-              <span style={{ fontSize: 12, fontWeight: 400, color: 'var(--sub-color)' }}>({cat.count})</span>
+              {getCategoryName(category.id)}
+              <span className="count">({category.count})</span>
             </button>
           ))}
         </div>
       </section>
 
-      {/* Popular Apps */}
       <section style={{ marginBottom: 24 }}>
         <h2 className="section-title">{t('popularApps')}</h2>
-        <div style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))',
-          gap: 12,
-        }}>
+        <div className="ka-centered-grid">
           {allPopular.map(app => (
-            <a key={app.id}
-              href={`/apps/${app.id}`}
-              onClick={e => { e.preventDefault(); navigate(`/apps/${app.id}`); }}
-              className="app-card-link"
-            >
-              <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
-                {/* Icon placeholder */}
-                <AppIcon name={lang === 'zh' && app.name?.zh ? app.name.zh : app.name.en} icon={app.icon} size={44} />
-                <div style={{ minWidth: 0, flex: 1 }}>
-                  <h3 className="app-card-title" style={{
-                    fontWeight: 600,
-                    color: 'var(--text-color)',
-                    overflow: 'hidden',
-                    textOverflow: 'ellipsis',
-                    whiteSpace: 'nowrap',
-                    transition: 'color 0.15s',
-                  }}>
-                    {lang === 'zh' && app.name?.zh ? app.name.zh : app.name.en}
-                  </h3>
-                  <p style={{
-                    fontSize: 12,
-                    color: 'var(--sub-color)',
-                    marginTop: 3,
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: 6,
-                  }}>
-                    <span>{getCategoryName(app.category)}</span>
-                    <span>·</span>
-                    <span>{t('shortcutsCount', { count: String(getShortcutsByAppId(data, app.id).length) })}</span>
-                  </p>
-                </div>
-                <svg style={{ flexShrink: 0, color: 'var(--sub-color)' }} width="16" height="16"
-                  fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <polyline points="9 18 15 12 9 6"/>
-                </svg>
-              </div>
-            </a>
+            <AppCard key={app.id} app={app} shortcutCount={app.shortcutCount || 0} />
           ))}
         </div>
       </section>
     </div>
   );
 }
-
-

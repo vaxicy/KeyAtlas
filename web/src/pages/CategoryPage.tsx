@@ -1,29 +1,35 @@
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { t, getCategoryName, useLangState } from '../i18n';
-import { loadData, getAppsByCategory, getShortcutsByAppId } from '../data';
+import { loadApps, getAppsByCategory } from '../data';
 import AppCard from '../components/AppCard';
 import { SkeletonGrid } from '../components/Skeleton';
+import type { App } from '../types';
+import { usePageMeta } from '../seo';
 
 export default function CategoryPage() {
   const { categoryId } = useParams<{ categoryId: string }>();
   const navigate = useNavigate();
-  const [data, setData] = useState<any>(null);
+  const [allApps, setAllApps] = useState<App[] | null>(null);
   useLangState(); // subscribe to re-render on language change
+  const catName = categoryId ? getCategoryName(categoryId) : t('popularCategories');
+  usePageMeta(
+    t('metaCategoryTitle', { category: catName }),
+    t('metaCategoryDesc', { category: catName }),
+    categoryId ? `/category/${categoryId}` : '/'
+  );
 
-  useEffect(() => { loadData().then(setData); }, []);
+  useEffect(() => { loadApps().then(setAllApps); }, []);
 
-  if (!data) return (
-    <div style={{ maxWidth: 1024, margin: '0 auto', padding: '32px 20px 48px' }}>
+  if (!allApps) return (
+    <div className="page-shell page-shell-padded">
       <SkeletonGrid count={6} />
     </div>
   );
 
-  const apps = getAppsByCategory(data, categoryId!);
-  const catName = getCategoryName(categoryId!);
-
+  const apps = getAppsByCategory({ apps: allApps }, categoryId!);
   return (
-    <div style={{ maxWidth: 1024, margin: '0 auto', padding: '32px 20px 48px' }}>
+    <div className="page-shell page-shell-padded">
       {/* Back button */}
       <button className="ka-back" onClick={() => navigate(-1)} style={{ marginBottom: 20 }}>
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
@@ -37,14 +43,10 @@ export default function CategoryPage() {
         <p style={{ marginTop: 4, color: 'var(--sub-color)' }}>{apps.length} apps</p>
       </div>
 
-      <div style={{
-        display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fill, minmax(240px, 1fr))',
-        gap: 12,
-      }}>
+      <div className="ka-fluid-grid">
         {apps.map(app => (
           <AppCard key={app.id} app={app}
-            shortcutCount={getShortcutsByAppId(data, app.id).length} />
+            shortcutCount={app.shortcutCount || 0} />
         ))}
       </div>
 

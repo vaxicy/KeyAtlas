@@ -1,9 +1,9 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { t, useLangState, getLang } from '../i18n';
-import { loadData } from '../data';
-import { suggest, type Suggestion } from '../search';
-import type { AllData } from '../types';
+import { loadApps } from '../data';
+import { suggestApps, type Suggestion } from '../search';
+import type { App } from '../types';
 
 interface Props {
   defaultValue?: string;
@@ -15,10 +15,11 @@ const inputStyle: React.CSSProperties = {
   width: '100%',
   background: 'var(--surface-color)',
   border: '1px solid var(--border-color)',
-  borderRadius: 12,
+  borderRadius: 'var(--radius)',
   color: 'var(--text-color)',
   outline: 'none',
-  transition: 'all 0.15s ease',
+  boxShadow: 'var(--shadow)',
+  transition: 'border-color .15s ease, box-shadow .15s ease',
 };
 
 export default function SearchBar({ defaultValue = '', size = 'default', autoFocus }: Props) {
@@ -27,16 +28,16 @@ export default function SearchBar({ defaultValue = '', size = 'default', autoFoc
   const isLarge = size === 'large';
 
   const [value, setValue] = useState(defaultValue);
-  const [data, setData] = useState<AllData | null>(null);
+  const [apps, setApps] = useState<App[] | null>(null);
   const [suggestions, setSuggestions] = useState<Suggestion[]>([]);
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState(-1); // highlighted suggestion index
   const wrapRef = useRef<HTMLDivElement>(null);
   const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  // Lazy-load data for suggestions
+  // Lazy-load the small app catalog for suggestions. Full shortcut data loads only on search pages.
   useEffect(() => {
-    loadData().then(setData).catch(() => {});
+    loadApps().then(setApps).catch(() => {});
   }, []);
 
   // Keep input in sync when navigating between searches (defaultValue changes)
@@ -56,9 +57,9 @@ export default function SearchBar({ defaultValue = '', size = 'default', autoFoc
   }, []);
 
   const computeSuggestions = useCallback((q: string) => {
-    if (!data || !q.trim()) { setSuggestions([]); return; }
-    setSuggestions(suggest(q, data, 8));
-  }, [data]);
+    if (!apps || !q.trim()) { setSuggestions([]); return; }
+    setSuggestions(suggestApps(q, apps, 8));
+  }, [apps]);
 
   const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const v = e.target.value;
@@ -142,7 +143,7 @@ export default function SearchBar({ defaultValue = '', size = 'default', autoFoc
             }}
             onBlur={e => {
               e.currentTarget.style.borderColor = 'var(--border-color)';
-              e.currentTarget.style.boxShadow = isLarge ? '0 4px 16px rgba(0,0,0,.08)' : 'none';
+              e.currentTarget.style.boxShadow = 'var(--shadow)';
             }}
             style={{
               ...inputStyle,
@@ -152,7 +153,6 @@ export default function SearchBar({ defaultValue = '', size = 'default', autoFoc
               paddingBottom: isLarge ? 16 : 10,
               fontSize: isLarge ? 16 : 14,
               fontWeight: isLarge ? 500 : 400,
-              boxShadow: isLarge ? '0 4px 16px rgba(0,0,0,.08)' : undefined,
             }}
           />
         </div>
@@ -173,8 +173,8 @@ export default function SearchBar({ defaultValue = '', size = 'default', autoFoc
             listStyle: 'none',
             background: 'var(--surface-color)',
             border: '1px solid var(--border-color)',
-            borderRadius: 12,
-            boxShadow: '0 12px 32px rgba(0,0,0,.14)',
+            borderRadius: 'var(--radius)',
+            boxShadow: 'var(--shadow-lg)',
             zIndex: 50,
             maxHeight: 360,
             overflowY: 'auto',

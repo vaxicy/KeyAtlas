@@ -1,8 +1,9 @@
 import { useState, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import { t, useLangState } from '../i18n';
-import { useToast } from './Toast';
+import { useToast } from './ToastContext';
 import KeyBadge from './KeyBadge';
+import Highlight from './Highlight';
 import type { Shortcut as ShortcutType } from '../types';
 
 interface Props {
@@ -10,6 +11,7 @@ interface Props {
   appName?: string;
   showCopy?: boolean;
   platform?: 'windows' | 'mac' | 'linux';
+  query?: string;
 }
 
 function parseKeys(raw?: string | null): string[] {
@@ -20,10 +22,11 @@ function parseKeys(raw?: string | null): string[] {
 const cardStyle: React.CSSProperties = {
   background: 'var(--surface-color)',
   border: '1px solid var(--border-color)',
-  borderRadius: 12,
+  borderRadius: 'var(--radius-sm)',
   padding: 16,
   cursor: 'pointer',
-  transition: 'box-shadow 0.2s ease, border-color 0.2s ease',
+  boxShadow: 'var(--shadow)',
+  transition: 'transform .12s, box-shadow .12s, border-color .12s',
   outline: 'none',
 };
 /* ── Copy button (no tooltip — Toast handles feedback) ── */
@@ -58,7 +61,7 @@ function CopyButton({ copied, onCopy }: { copied: boolean; onCopy: (e?: React.Mo
   );
 }
 
-export default function ShortcutCard({ shortcut, appName, showCopy = true, platform }: Props) {
+export default function ShortcutCard({ shortcut, appName, showCopy = true, platform, query }: Props) {
   const [copied, setCopied] = useState(false);
   const [expanded, setExpanded] = useState(false);
   const [lang] = useLangState();
@@ -99,10 +102,12 @@ export default function ShortcutCard({ shortcut, appName, showCopy = true, platf
       className="shortcut-card"
       style={cardStyle}
       role="button"
+      tabIndex={0}
       aria-label={t('copy') + ': ' + name}
       onClick={() => setExpanded(v => !v)}
       onKeyDown={e => {
         if (e.key === 'Enter') { e.preventDefault(); handleCopy(); }
+        if (e.key === ' ') { e.preventDefault(); setExpanded(v => !v); }
       }}
     >
       <div style={{ display: 'flex', alignItems: 'flex-start', gap: 12 }}>
@@ -115,25 +120,14 @@ export default function ShortcutCard({ shortcut, appName, showCopy = true, platf
               overflow: 'hidden',
               textOverflow: 'ellipsis',
               whiteSpace: 'nowrap',
-            }}>
-              {name}
+              }}>
+              <Highlight text={name} query={query} />
             </h3>
             {appName && (
               <Link to={`/apps/${shortcut.appId}`}
                 onClick={e => e.stopPropagation()}
-                style={{
-                  fontSize: 10,
-                  fontWeight: 700,
-                  textTransform: 'uppercase',
-                  letterSpacing: '0.05em',
-                  padding: '2px 8px',
-                  borderRadius: 6,
-                  background: 'var(--surface-2-color)',
-                  color: 'var(--sub-color)',
-                  textDecoration: 'none',
-                  whiteSpace: 'nowrap',
-                  flexShrink: 0,
-                }}
+                className="ka-meta-pill ka-muted-pill"
+                style={{ textDecoration: 'none', flexShrink: 0 }}
                 onMouseEnter={e => (e.currentTarget.style.color = '#4f46e5')}
                 onMouseLeave={e => (e.currentTarget.style.color = 'var(--sub-color)')}
               >
@@ -149,19 +143,10 @@ export default function ShortcutCard({ shortcut, appName, showCopy = true, platf
             WebkitBoxOrient: 'vertical',
             overflow: 'hidden',
           }}>
-            {desc}
+            <Highlight text={desc} query={query} />
           </p>
           <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginTop: 8 }}>
-            <span style={{
-              fontSize: 10,
-              fontWeight: 700,
-              textTransform: 'uppercase',
-              letterSpacing: '0.05em',
-              padding: '2px 8px',
-              borderRadius: 6,
-              background: isOfficial ? '#eef2ff' : '#f1f3f5',
-              color: isOfficial ? '#4338ca' : 'var(--sub-color)',
-            }}>
+            <span className={isOfficial ? 'ka-meta-pill' : 'ka-meta-pill ka-muted-pill'}>
               {isOfficial ? t('sourceOfficial') : t('sourceCommunity')}
             </span>
           </div>

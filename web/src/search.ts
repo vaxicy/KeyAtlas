@@ -40,12 +40,12 @@ export function search(query: string, data: AllData, limit = 50): SearchResult[]
 
     // Exact match
     if (fields.some(f => f === q)) score += 100;
+    // Key combo matches should rank above regular text contains.
+    else if (isKeyCombo && [s.windows, s.mac, s.linux].some(f => normalizeCombo(f).includes(normalizeCombo(q)))) score += 80;
     // Contains match
     else if (fields.some(f => f.includes(q))) score += 50;
     // Pinyin match against pre-computed pinyin fields in data
     else if (pinyinArr.some(p => p.includes(q) || q.includes(p))) score += 35;
-    // Key combo partial match
-    else if (isKeyCombo && fields.some(f => f.includes(q))) score += 60;
     // Partial fuzzy (each char of query appears in order somewhere in field)
     else {
       const bestField = fields.reduce((best, field) => {
@@ -100,6 +100,32 @@ export interface Suggestion {
   appId: string;      // navigation target
 }
 
+export function suggestApps(query: string, apps: App[], limit = 8): Suggestion[] {
+  const q = query.trim().toLowerCase();
+  if (!q || !Array.isArray(apps)) return [];
+
+  const scored: Array<{ app: App; score: number }> = [];
+  for (const app of apps) {
+    const fields = [app.name?.en, app.name?.zh, app.id].map(f => (f || '').toLowerCase());
+    let score = 0;
+    if (fields.some(f => f === q)) score = 100;
+    else if (fields.some(f => f.startsWith(q))) score = 80;
+    else if (fields.some(f => f.includes(q))) score = 60;
+    else score = Math.max(...fields.map(f => fuzzyScore(q, f))) * 20;
+    if (score > 0) scored.push({ app, score });
+  }
+
+  return scored
+    .sort((a, b) => b.score - a.score)
+    .slice(0, limit)
+    .map(({ app }) => ({
+      type: 'app',
+      label: app.name?.zh || app.name?.en || app.id,
+      sub: app.name?.en,
+      appId: app.id,
+    }));
+}
+
 /** Lightweight suggestions for the search input dropdown. */
 export function suggest(query: string, data: AllData, limit = 8): Suggestion[] {
   const q = query.trim().toLowerCase();
@@ -144,6 +170,19 @@ export function suggest(query: string, data: AllData, limit = 8): Suggestion[] {
   }
 
   return out.slice(0, limit);
+}
+
+function normalizeCombo(value?: string | null): string {
+  return (value || '')
+    .toLowerCase()
+    .replace(/\s+/g, '')
+    .replace(/command/g, 'cmd')
+    .replace(/control/g, 'ctrl')
+    .replace(/option/g, 'alt')
+    .replace(/⌘/g, 'cmd')
+    .replace(/⌃/g, 'ctrl')
+    .replace(/⌥/g, 'alt')
+    .replace(/⇧/g, 'shift');
 }
 
 /** Simple fuzzy scoring */

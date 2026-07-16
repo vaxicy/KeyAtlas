@@ -16,10 +16,18 @@ export default function Layout() {
         padding: '32px 0',
         marginTop: 'auto',
       }}>
-        <div style={{ maxWidth: 1024, margin: '0 auto', padding: '0 20px', textAlign: 'center' }}>
+        <div className="page-shell" style={{ textAlign: 'center' }}>
           <p style={{ fontSize: 14, fontWeight: 600, color: 'var(--text-color)' }}>{t('appName')}</p>
           <p style={{ fontSize: 13, color: 'var(--sub-color)', marginTop: 4 }}>
             {t('footerBuiltWith')}
+          </p>
+          <p style={{ fontSize: 13, color: 'var(--sub-color)', marginTop: 10 }}>
+            <a
+              href="mailto:huangzero2004@gmail.com?subject=KeyAtlas%20feedback"
+              style={{ color: 'var(--primary-strong-color)', fontWeight: 700, textDecoration: 'none' }}
+            >
+              Report missing shortcut / Suggest an app
+            </a>
           </p>
         </div>
       </footer>

@@ -1,7 +1,7 @@
 import { useState, useEffect, useMemo } from 'react';
 import { useSearchParams, useNavigate } from 'react-router-dom';
 import { t, useLangState, getLang } from '../i18n';
-import { loadData } from '../data';
+import { loadSearchData } from '../data';
 import { search } from '../search';
 import type { AllData } from '../types';
 import SearchBar from '../components/SearchBar';
@@ -9,8 +9,8 @@ import ShortcutCard from '../components/ShortcutCard';
 import AppCard from '../components/AppCard';
 import { SkeletonGrid } from '../components/Skeleton';
 import EmptyState from '../components/EmptyState';
+import { usePageMeta } from '../seo';
 
-// Bilingual popular search terms shown when the query is empty.
 const HOT_TERMS: { zh: string; en: string }[] = [
   { zh: '复制', en: 'copy' },
   { zh: '粘贴', en: 'paste' },
@@ -33,21 +33,23 @@ function loadRecent(): string[] {
     if (!raw) return [];
     const arr = JSON.parse(raw);
     return Array.isArray(arr) ? arr.slice(0, 8) : [];
-  } catch { return []; }
+  } catch {
+    return [];
+  }
 }
 
 function saveRecent(term: string) {
   if (!term.trim()) return;
-  const cur = loadRecent().filter(x => x !== term);
-  const next = [term, ...cur].slice(0, 8);
-  try { localStorage.setItem(RECENT_KEY, JSON.stringify(next)); } catch {}
+  const current = loadRecent().filter(item => item !== term);
+  try {
+    localStorage.setItem(RECENT_KEY, JSON.stringify([term, ...current].slice(0, 8)));
+  } catch {}
 }
 
 export default function SearchPage() {
   const [searchParams] = useSearchParams();
   const navigate = useNavigate();
   const q = (searchParams.get('q') || '').trim();
-
   const [data, setData] = useState<AllData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -56,64 +58,54 @@ export default function SearchPage() {
   useLangState();
   const lang = getLang();
 
-  // Load data once
+  usePageMeta(
+    q ? `${q} - ${t('navSearch')} - KeyAtlas` : `${t('navSearch')} - KeyAtlas`,
+    t('metaHomeDesc'),
+    q ? `/search?q=${encodeURIComponent(q)}` : '/search'
+  );
+
   useEffect(() => {
     let alive = true;
     setLoading(true);
-    loadData()
-      .then(d => { if (alive) { setData(d); setLoading(false); } })
+    loadSearchData()
+      .then(result => { if (alive) { setData(result); setLoading(false); } })
       .catch(err => { if (alive) { setError(err?.message || 'Failed to load data'); setLoading(false); } });
     setRecent(loadRecent());
     return () => { alive = false; };
   }, []);
 
-  // Save search term to recent history
   useEffect(() => {
-    if (q) {
-      saveRecent(q);
-      setRecent(loadRecent());
-    }
+    if (!q) return;
+    saveRecent(q);
+    setRecent(loadRecent());
   }, [q]);
 
-  // Compute results reactively from q + data
   const results = useMemo(() => {
     if (!data || !q) return [];
     try {
       return search(q, data, 40);
-    } catch (err) {
-      console.error('Search error:', err);
+    } catch {
       return [];
     }
   }, [q, data]);
 
-  // Filter by platform
   const filteredResults = useMemo(() => {
     if (platform === 'all') return results;
-    return results.filter(r => {
-      const item = r.item as any;
-      return r.type === 'shortcut' && item[platform];
-    });
+    return results.filter(result => result.type === 'shortcut' && (result.item as any)[platform]);
   }, [results, platform]);
 
   const recommendedApps = useMemo(() => {
     if (!data) return [];
     const byId = RECOMMENDED_APP_IDS
-      .map(id => data.apps.find(a => a.id === id))
+      .map(id => data.apps.find(app => app.id === id))
       .filter(Boolean) as AllData['apps'];
-    if (byId.length < RECOMMENDED_APP_IDS.length) {
-      const extra = data.apps.filter(a => a.popular && !byId.find(b => b.id === a.id));
-      return [...byId, ...extra].slice(0, 6);
-    }
-    return byId;
+    if (byId.length >= RECOMMENDED_APP_IDS.length) return byId;
+    const extra = data.apps.filter(app => app.popular && !byId.find(item => item.id === app.id));
+    return [...byId, ...extra].slice(0, 6);
   }, [data]);
 
   const shortcutCountFor = (appId: string) =>
-    data ? data.shortcuts.filter(s => s.appId === appId).length : 0;
-
-  const resultLabel = () => {
-    const key = filteredResults.length === 1 ? 'resultForOne' : 'resultsFor';
-    return t(key, { count: String(filteredResults.length) });
-  };
+    data?.apps.find(app => app.id === appId)?.shortcutCount || 0;
 
   const platformPills: { key: PlatformFilter; label: string }[] = [
     { key: 'all', label: t('platformAll') },
@@ -125,31 +117,7 @@ export default function SearchPage() {
   const renderTermChips = (terms: string[], onClear?: () => void) => (
     <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, alignItems: 'center' }}>
       {terms.map(term => (
-        <button
-          key={term}
-          onClick={() => navigate(`/search?q=${encodeURIComponent(term)}`)}
-          style={{
-            padding: '7px 16px',
-            borderRadius: 9999,
-            border: '1px solid var(--border-color)',
-            background: 'var(--surface-2-color)',
-            color: 'var(--text-color)',
-            fontSize: 14,
-            fontWeight: 500,
-            cursor: 'pointer',
-            transition: 'all 0.15s ease',
-          }}
-          onMouseEnter={e => {
-            e.currentTarget.style.borderColor = '#a5b4fc';
-            e.currentTarget.style.color = '#4f46e5';
-            e.currentTarget.style.background = '#eef2ff';
-          }}
-          onMouseLeave={e => {
-            e.currentTarget.style.borderColor = 'var(--border-color)';
-            e.currentTarget.style.color = 'var(--text-color)';
-            e.currentTarget.style.background = 'var(--surface-2-color)';
-          }}
-        >
+        <button key={term} onClick={() => navigate(`/search?q=${encodeURIComponent(term)}`)} className="ka-chip">
           {term}
         </button>
       ))}
@@ -163,7 +131,7 @@ export default function SearchPage() {
             background: 'transparent',
             color: 'var(--sub-color)',
             fontSize: 13,
-            fontWeight: 500,
+            fontWeight: 600,
             cursor: 'pointer',
           }}
         >
@@ -173,18 +141,31 @@ export default function SearchPage() {
     </div>
   );
 
+  const renderRecommended = () => recommendedApps.length > 0 && (
+    <section>
+      <h2 className="section-title">{t('recommendedApps')}</h2>
+      <div style={{
+        display: 'grid',
+        gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))',
+        gap: 12,
+      }}>
+        {recommendedApps.map(app => (
+          <AppCard key={app.id} app={app} shortcutCount={shortcutCountFor(app.id)} />
+        ))}
+      </div>
+    </section>
+  );
+
   return (
-    <div style={{ maxWidth: 1024, margin: '0 auto', padding: '32px 20px 48px' }}>
+    <div className="page-shell page-shell-padded">
       <SearchBar defaultValue={q} autoFocus />
 
-      {/* Loading */}
       {loading && (
         <div style={{ marginTop: 24 }}>
           <SkeletonGrid count={6} />
         </div>
       )}
 
-      {/* Error */}
       {!loading && error && (
         <div style={{ marginTop: 64, textAlign: 'center', color: '#e5484d' }}>
           <p style={{ fontSize: 16, fontWeight: 600 }}>{t('noResults')}</p>
@@ -192,7 +173,6 @@ export default function SearchPage() {
         </div>
       )}
 
-      {/* Empty query — show recent + hot searches + recommended apps */}
       {!loading && !error && !q && (
         <div style={{ marginTop: 32 }}>
           {recent.length > 0 && (
@@ -204,74 +184,41 @@ export default function SearchPage() {
               })}
             </section>
           )}
-
           <section style={{ marginBottom: 32 }}>
             <h2 className="section-title">{t('hotSearches')}</h2>
             {renderTermChips(HOT_TERMS.map(term => lang === 'zh' ? term.zh : term.en))}
           </section>
-
-          {recommendedApps.length > 0 && (
-            <section>
-              <h2 className="section-title">{t('recommendedApps')}</h2>
-              <div style={{
-                display: 'grid',
-                gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))',
-                gap: 12,
-              }}>
-                {recommendedApps.map(app => (
-                  <AppCard key={app.id} app={app} shortcutCount={shortcutCountFor(app.id)} />
-                ))}
-              </div>
-            </section>
-          )}
+          {renderRecommended()}
         </div>
       )}
 
-      {/* Results */}
       {!loading && !error && q && filteredResults.length > 0 && (
         <div style={{ marginTop: 24, display: 'flex', flexDirection: 'column', gap: 12 }}>
-          {/* Platform filter */}
-          <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
-            {platformPills.map(p => {
-              const active = platform === p.key;
-              return (
-                <button
-                  key={p.key}
-                  onClick={() => setPlatform(p.key)}
-                  style={{
-                    padding: '5px 14px',
-                    borderRadius: 9999,
-                    fontSize: 13,
-                    fontWeight: 600,
-                    cursor: 'pointer',
-                    transition: 'all .15s ease',
-                    border: active ? '1px solid transparent' : '1px solid var(--border-color)',
-                    background: active ? '#6366f1' : 'var(--surface-2-color)',
-                    color: active ? '#ffffff' : 'var(--sub-color)',
-                  }}
-                >
-                  {p.label}
-                </button>
-              );
-            })}
+          <div className="ka-segmented" style={{ alignSelf: 'flex-start' }}>
+            {platformPills.map(item => (
+              <button
+                key={item.key}
+                onClick={() => setPlatform(item.key)}
+                className={`ka-segmented-btn${platform === item.key ? ' active' : ''}`}
+              >
+                {item.label}
+              </button>
+            ))}
           </div>
-
           <p style={{ fontSize: 14, color: 'var(--sub-color)', marginBottom: 4 }}>
-            {resultLabel()} “<strong>{q}</strong>”
+            {t(filteredResults.length === 1 ? 'resultForOne' : 'resultsFor', { count: String(filteredResults.length) })} <strong>{q}</strong>
           </p>
-          {filteredResults.map(r => (
-            r.type === 'shortcut'
-              ? <ShortcutCard key={`${(r.item as any).appId}-${(r.item as any).id}`} shortcut={r.item as any} showCopy />
-              : <AppCard key={(r.item as any).id} app={r.item as any} shortcutCount={shortcutCountFor((r.item as any).id)} />
+          {filteredResults.map(result => (
+            result.type === 'shortcut'
+              ? <ShortcutCard key={`${(result.item as any).appId}-${(result.item as any).id}`} shortcut={result.item as any} showCopy query={q} />
+              : <AppCard key={(result.item as any).id} app={result.item as any} shortcutCount={shortcutCountFor((result.item as any).id)} />
           ))}
         </div>
       )}
 
-      {/* No results — still show recommended apps as fallback */}
       {!loading && !error && q && filteredResults.length === 0 && (
         <div style={{ marginTop: 32 }}>
           <EmptyState title={t('noResults')} desc={t('tryDifferent')} />
-
           {recent.length > 0 && (
             <section style={{ marginBottom: 32, marginTop: 24 }}>
               <h2 className="section-title">{t('recentSearches')}</h2>
@@ -281,26 +228,11 @@ export default function SearchPage() {
               })}
             </section>
           )}
-
           <section style={{ marginBottom: 32 }}>
             <h2 className="section-title">{t('hotSearches')}</h2>
             {renderTermChips(HOT_TERMS.map(term => lang === 'zh' ? term.zh : term.en))}
           </section>
-
-          {recommendedApps.length > 0 && (
-            <section>
-              <h2 className="section-title">{t('recommendedApps')}</h2>
-              <div style={{
-                display: 'grid',
-                gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))',
-                gap: 12,
-              }}>
-                {recommendedApps.map(app => (
-                  <AppCard key={app.id} app={app} shortcutCount={shortcutCountFor(app.id)} />
-                ))}
-              </div>
-            </section>
-          )}
+          {renderRecommended()}
         </div>
       )}
     </div>

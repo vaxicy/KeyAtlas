@@ -22,6 +22,7 @@ export interface App {
   popular?: boolean;
   file: string;
   source: string;
+  shortcutCount?: number;
 }
 
 export interface AllData {

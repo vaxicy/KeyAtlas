@@ -47,6 +47,16 @@ export function getRecentApps(apps: App[], limit = 6): App[] {
     .slice(0, limit) as App[];
 }
 
+export function clearRecentApps() {
+  try {
+    localStorage.removeItem(RECENT_APPS_KEY);
+  } catch {}
+}
+
+export function removeRecentApp(appId: string) {
+  writeArray(RECENT_APPS_KEY, readArray(RECENT_APPS_KEY).filter(id => id !== appId));
+}
+
 export function getFavoriteApps(apps: App[], limit = 6): App[] {
   return getFavoriteAppIds()
     .map(id => apps.find(app => app.id === id))

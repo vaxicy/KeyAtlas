@@ -76,3 +76,10 @@
 - 构建：`npm run gen:pinyin`（依赖 `pinyin-pro`）生成 pinyin 字段。
 - 入口：`popup.html` + `js/app.js`（渲染/分组/排序）+ `js/search.js`（搜索排序）+ `css/style.css`。
 - 双语：`_locales/zh`、`_locales/en` + JS 内 `I18N` 对象；动态文本走翻译对象，禁止硬编码。
+
+### Web 端（Cloudflare Pages，Vite + React + TS）
+- 源码 `web/src/`，构建在 `web/` 下 `npm run build`（tsc -b && vite build && node scripts/gen-static-pages.ts）。
+- **数据架构（codex 2026-07-17 改）**：原单一 `web/public/data/all.json` 已拆分为 `web/public/data/shortcuts/<id>.json`（153 个应用各一文件）+ `apps.json` + `search.json`。改 shortcut 数据后需重新 `npm run build` 才会重新生成静态页与 `all.json` 等价产物。
+- 静态 SEO 页由 `web/scripts/gen-static-pages.ts` 在 build 时生成（153 apps + 9 categories），输出到 `web/dist`。
+- 部署：`cd web && npx wrangler pages deploy dist --project-name keyatlas`，免费子域 `keyatlas.pages.dev`（用户决定暂不上自定义域名）。
+- **前端 hover/focus 视觉一律用纯 CSS**（见全局 user rule `hover-use-css-not-js-RULE.md`），禁止用 JS state 切换 inline style。

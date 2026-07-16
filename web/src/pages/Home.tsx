@@ -8,7 +8,7 @@ import AppCard from '../components/AppCard';
 import { SkeletonGrid } from '../components/Skeleton';
 import type { App, Shortcut } from '../types';
 import { usePageMeta } from '../seo';
-import { getFavoriteApps, getRecentApps } from '../webStorage';
+import { clearRecentApps, getFavoriteApps, getRecentApps, removeRecentApp } from '../webStorage';
 
 const POPULAR_APP_IDS = ['chrome', 'vscode', 'figma', 'photoshop', 'windows', 'excel', 'notion', 'discord', 'cursor'];
 const POPULAR_APP_LIMIT = 9;
@@ -16,6 +16,7 @@ const POPULAR_APP_LIMIT = 9;
 export default function Home() {
   const [apps, setApps] = useState<App[] | null>(null);
   const [quickShortcuts, setQuickShortcuts] = useState<Shortcut[]>([]);
+  const [recentVersion, setRecentVersion] = useState(0);
   const navigate = useNavigate();
   useLangState();
   const lang = getLang();
@@ -49,7 +50,7 @@ export default function Home() {
   const categories = getCategories({ apps });
   const totalShortcuts = apps.reduce((sum, app) => sum + (app.shortcutCount || 0), 0);
   const favoriteApps = getFavoriteApps(apps, 6);
-  const recentApps = getRecentApps(apps, 6);
+  const recentApps = recentVersion >= 0 ? getRecentApps(apps, 6) : [];
 
   return (
     <div className="page-shell page-shell-padded">
@@ -87,10 +88,40 @@ export default function Home() {
 
       {recentApps.length > 0 && (
         <section style={{ marginBottom: 36 }}>
-          <h2 className="section-title">{lang === 'zh' ? '最近查看' : 'Recently Viewed'}</h2>
+          <div className="section-title-row">
+            <h2 className="section-title">{lang === 'zh' ? '最近查看' : 'Recently Viewed'}</h2>
+            <div className="section-actions">
+              <button
+                type="button"
+                className="ka-text-action"
+                onClick={() => {
+                  clearRecentApps();
+                  setRecentVersion(version => version + 1);
+                }}
+              >
+                {lang === 'zh' ? '清空' : 'Clear'}
+              </button>
+            </div>
+          </div>
           <div className="ka-fluid-grid">
             {recentApps.map(app => (
-              <AppCard key={app.id} app={app} shortcutCount={app.shortcutCount || 0} />
+              <div key={app.id} className="recent-card-wrap">
+                <AppCard app={app} shortcutCount={app.shortcutCount || 0} hideArrow />
+                <button
+                  type="button"
+                  className="recent-remove-btn"
+                  aria-label={lang === 'zh' ? `移除 ${app.name.zh || app.name.en}` : `Remove ${app.name.en}`}
+                  onClick={() => {
+                    removeRecentApp(app.id);
+                    setRecentVersion(version => version + 1);
+                  }}
+                >
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18" />
+                    <line x1="6" y1="6" x2="18" y2="18" />
+                  </svg>
+                </button>
+              </div>
             ))}
           </div>
         </section>

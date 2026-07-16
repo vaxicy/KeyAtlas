@@ -445,7 +445,6 @@ body {
   cursor: pointer;
   transition: color .15s, background .15s, border-color .15s;
 }
-.ka-text-action:hover,
 .ka-text-action:hover {
   color: var(--primary-strong-color);
   border-color: var(--primary-color);

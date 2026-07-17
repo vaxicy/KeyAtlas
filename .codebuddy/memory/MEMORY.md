@@ -99,3 +99,10 @@
   cd web && npx wrangler pages deploy dist --project-name keyatlas --branch=main --commit-dirty=true
   ```
 - 不带 `--branch=main` 只会部署到预览分支（`master.keyatlas.pages.dev`），用户访问的生产域名不会更新！
+
+### 网页端-扩展端语言同步约定（2026-07-17 确认）
+- **两端默认语言检测均为 `navigator.language`（浏览器语言 = 第一语言）**，仅当用户显式更改后才用 localStorage 存储值。
+- **网页端语言跟随扩展端**：因扩展与网页不同源、无法共享 localStorage，采用「打开链接带 `?lang=`」方案——
+  - 扩展 `js/app.js` 打开网页版时：`chrome.tabs.create({ url: \`https://keyatlas.pages.dev/?lang=${i18n.lang}\` })`。
+  - 网页端 `web/src/i18n.ts` `detectLang()` 读到有效 `?lang=` 时写回 `localStorage('keyatlas-lang')`，使跟随持久化。
+- 限制：仅在「从扩展打开网页」时跟随；用户直接在浏览器访问 `keyatlas.pages.dev` 仍按网页自身逻辑（浏览器语言 / 网页端已存设置）。跨源无法做到扩展改语言后已打开网页实时自动同步（需 chrome.runtime 通信，过重，不采用）。

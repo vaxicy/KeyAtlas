@@ -19,6 +19,12 @@ const brandLinkStyle: React.CSSProperties = {
 
 export default function Header() {
   const [lang, setLang] = useLangState();
+  const t = lang === 'en'
+    ? (s: string) => s
+    : (s: string) => {
+        const map: Record<string, string> = { tagline: '快捷键搜索引擎' };
+        return map[s] ?? s;
+      };
 
   return (
     <header style={headerStyle}>
@@ -41,7 +47,7 @@ export default function Header() {
               KeyAtlas
             </span>
             <span style={{ fontSize: 11, color: 'var(--sub-color)', fontWeight: 500 }}>
-              Shortcut Search Engine
+              {t('tagline')}
             </span>
           </div>
         </Link>

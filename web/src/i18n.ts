@@ -167,7 +167,10 @@ function detectLang(): Lang {
   const params = new URLSearchParams(window.location.search);
   if (params.has('lang')) {
     const l = params.get('lang');
-    if (l === 'zh' || l === 'en') return l;
+    if (l === 'zh' || l === 'en') {
+      localStorage.setItem('keyatlas-lang', l);
+      return l;
+    }
   }
   const stored = localStorage.getItem('keyatlas-lang');
   if (stored === 'zh' || stored === 'en') return stored;

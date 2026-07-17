@@ -1187,7 +1187,7 @@
 
     // settings overlay
     el.webBtn.addEventListener("click", () => {
-      chrome.tabs.create({ url: "https://keyatlas.pages.dev" });
+      chrome.tabs.create({ url: `https://keyatlas.pages.dev/?lang=${i18n.lang}` });
     });
     el.settingsBtn.addEventListener("click", openSettings);
     el.closeSettings.addEventListener("click", closeSettings);

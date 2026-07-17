@@ -17,10 +17,12 @@ export default function Layout() {
         marginTop: 'auto',
       }}>
         <div className="page-shell" style={{ textAlign: 'center' }}>
-          <p style={{ fontSize: 14, fontWeight: 600, color: 'var(--text-color)' }}>{t('appName')}</p>
-          <p style={{ fontSize: 13, color: 'var(--sub-color)', marginTop: 4 }}>
-            {t('footerBuiltWith')}
-          </p>
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 4 }}>
+            <p style={{ fontSize: 14, fontWeight: 600, color: 'var(--text-color)', margin: 0 }}>{t('appName')}</p>
+            <p style={{ fontSize: 13, color: 'var(--sub-color)', margin: 0 }}>
+              {t('footerBuiltWith')}
+            </p>
+          </div>
           <p style={{ fontSize: 13, color: 'var(--sub-color)', marginTop: 10 }}>
             <a
               href="mailto:huangzero2004@gmail.com?subject=KeyAtlas%20feedback"

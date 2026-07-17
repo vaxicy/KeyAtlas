@@ -28,7 +28,7 @@
     ios: { icon: "📱", key: "os_ios" }
   };
 
-  const VERSION = "1.0.0";
+  const VERSION = "1.1.0";
   const PAYPAL_URL = "https://www.paypal.com/ncp/payment/BGHTVB7ZG3XPC";
   let currentTheme = "light";
 

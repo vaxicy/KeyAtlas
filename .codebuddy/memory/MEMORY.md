@@ -83,3 +83,19 @@
 - 静态 SEO 页由 `web/scripts/gen-static-pages.ts` 在 build 时生成（153 apps + 9 categories），输出到 `web/dist`。
 - 部署：`cd web && npx wrangler pages deploy dist --project-name keyatlas`，免费子域 `keyatlas.pages.dev`（用户决定暂不上自定义域名）。
 - **前端 hover/focus 视觉一律用纯 CSS**（见全局 user rule `hover-use-css-not-js-RULE.md`），禁止用 JS state 切换 inline style。
+
+### 版本号同步规则（2026-07-17 确认）
+- **更新版本号时必须同步修改以下 4 处**，缺一不可：
+  1. `manifest.json` → `"version": "x.y.z"`（Chrome 商店识别）
+  2. `package.json` → `"version": "x.y.z"`（npm 包版本）
+  3. `js/app.js` → `const VERSION = "x.y.z";`（扩展内「关于」弹窗引用此常量显示版本号）
+  4. `popup.html` → `<span id="aboutVersion">Version x.y.z</span>`（关于弹窗 fallback 文本，与 app.js VERSION 保持一致）
+- 当前版本：**1.1.0**（2026-07-17 升级，用于首次上架 Chrome 商店）
+
+### 自动部署规则
+- **每次代码改动后必须自动 deploy 到 Cloudflare Pages**，否则用户在网页端看不到最新改动。
+- **生产域名是 `keyatlas.pages.dev`**，部署命令必须带 `--branch=main`：
+  ```
+  cd web && npx wrangler pages deploy dist --project-name keyatlas --branch=main --commit-dirty=true
+  ```
+- 不带 `--branch=main` 只会部署到预览分支（`master.keyatlas.pages.dev`），用户访问的生产域名不会更新！

@@ -26,7 +26,7 @@ export default function Layout() {
               href="mailto:huangzero2004@gmail.com?subject=KeyAtlas%20feedback"
               style={{ color: 'var(--primary-strong-color)', fontWeight: 700, textDecoration: 'none' }}
             >
-              Report missing shortcut / Suggest an app
+              {t('footerReport')}
             </a>
           </p>
         </div>

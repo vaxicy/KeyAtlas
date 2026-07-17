@@ -80,8 +80,8 @@ export default function Home() {
         </p>
         <SearchBar size="large" autoFocus />
         <div className="ka-stat-row">
-          <span className="ka-stat-pill">{apps.length} apps</span>
-          <span className="ka-stat-pill">{totalShortcuts} shortcuts</span>
+          <span className="ka-stat-pill">{t('statApps', { count: String(apps.length) })}</span>
+          <span className="ka-stat-pill">{t('statShortcuts', { count: String(totalShortcuts) })}</span>
           <span className="ka-stat-pill">{lang === 'zh' ? '官方 / 社区来源' : 'Official / community sources'}</span>
           <span className="ka-stat-pill">{lang === 'zh' ? '更新于 2026-07-17' : 'Updated 2026-07-17'}</span>
         </div>

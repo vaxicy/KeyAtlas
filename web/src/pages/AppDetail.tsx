@@ -159,7 +159,7 @@ export default function AppDetail() {
         <button
           className={`favorite-btn${favorite ? ' active' : ''}`}
           onClick={() => appId && setFavorite(toggleFavoriteApp(appId))}
-          aria-label={favorite ? 'Remove favorite' : 'Add favorite'}
+          aria-label={favorite ? t('removeFavorite') : t('addFavorite')}
         >
           <svg width="18" height="18" viewBox="0 0 24 24" fill={favorite ? 'currentColor' : 'none'} stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
             <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
@@ -198,10 +198,10 @@ export default function AppDetail() {
 
         <div className="ka-segmented">
           <button onClick={() => updateParam('view', 'cards', 'cards')} className={`ka-segmented-btn${viewMode === 'cards' ? ' active' : ''}`}>
-            Cards
+            {t('viewCards')}
           </button>
           <button onClick={() => updateParam('view', 'compare', 'cards')} className={`ka-segmented-btn${viewMode === 'compare' ? ' active' : ''}`}>
-            Compare
+            {t('viewCompare')}
           </button>
         </div>
       </div>
@@ -214,10 +214,10 @@ export default function AppDetail() {
       ) : viewMode === 'compare' ? (
         <div className="compare-table">
           <div className="compare-head">
-            <span>Action</span>
-            <span>Windows</span>
-            <span>macOS</span>
-            <span>Linux</span>
+            <span>{t('compareAction')}</span>
+            <span>{t('platformWindows')}</span>
+            <span>{t('platformMac')}</span>
+            <span>{t('platformLinux')}</span>
           </div>
           {filteredShortcuts.map(shortcut => (
             <div className="compare-row" key={shortcut.id}>

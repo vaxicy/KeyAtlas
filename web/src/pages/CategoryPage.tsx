@@ -5,7 +5,8 @@ import { loadApps, getAppsByCategory } from '../data';
 import AppCard from '../components/AppCard';
 import { SkeletonGrid } from '../components/Skeleton';
 import type { App } from '../types';
-import { usePageMeta } from '../seo';
+import { useJsonLd, usePageMeta } from '../seo';
+import NotFound from './NotFound';
 
 export default function CategoryPage() {
   const { categoryId } = useParams<{ categoryId: string }>();
@@ -18,6 +19,18 @@ export default function CategoryPage() {
     t('metaCategoryDesc', { category: catName }),
     categoryId ? `/category/${categoryId}` : '/'
   );
+  useJsonLd({
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: t('metaCategoryTitle', { category: catName }),
+    description: t('metaCategoryDesc', { category: catName }),
+    url: categoryId ? `https://keyatlas.pages.dev/category/${categoryId}` : 'https://keyatlas.pages.dev',
+    isPartOf: {
+      '@type': 'WebSite',
+      name: 'KeyAtlas',
+      url: 'https://keyatlas.pages.dev',
+    },
+  });
 
   useEffect(() => { loadApps().then(setAllApps); }, []);
 
@@ -28,6 +41,8 @@ export default function CategoryPage() {
   );
 
   const apps = getAppsByCategory({ apps: allApps }, categoryId!);
+  if (!apps.length) return <NotFound />;
+
   return (
     <div className="page-shell page-shell-padded">
       {/* Back button */}
@@ -50,11 +65,6 @@ export default function CategoryPage() {
         ))}
       </div>
 
-      {apps.length === 0 && (
-        <div style={{ textAlign: 'center', padding: '64px 0', color: 'var(--sub-color)' }}>
-          <p>{t('noResults')}</p>
-        </div>
-      )}
     </div>
   );
 }

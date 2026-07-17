@@ -12,12 +12,21 @@ const KEYS = {
 
 const RECENT_LIMIT = 50;
 
-const hasChrome = typeof chrome !== "undefined" && chrome.storage && chrome.storage.local;
+const chromeStorage =
+  typeof chrome !== "undefined" && chrome.storage
+    ? (chrome.storage.sync || chrome.storage.local)
+    : null;
 
 function get(key) {
   return new Promise((resolve) => {
-    if (hasChrome) {
-      chrome.storage.local.get([key], (res) => resolve(res[key]));
+    if (chromeStorage) {
+      chromeStorage.get([key], (res) => {
+        if (chrome.runtime?.lastError && chrome.storage?.local && chromeStorage !== chrome.storage.local) {
+          chrome.storage.local.get([key], (fallback) => resolve(fallback[key]));
+          return;
+        }
+        resolve(res[key]);
+      });
     } else {
       try {
         const raw = localStorage.getItem(key);
@@ -31,8 +40,14 @@ function get(key) {
 
 function set(key, value) {
   return new Promise((resolve) => {
-    if (hasChrome) {
-      chrome.storage.local.set({ [key]: value }, () => resolve());
+    if (chromeStorage) {
+      chromeStorage.set({ [key]: value }, () => {
+        if (chrome.runtime?.lastError && chrome.storage?.local && chromeStorage !== chrome.storage.local) {
+          chrome.storage.local.set({ [key]: value }, () => resolve());
+          return;
+        }
+        resolve();
+      });
     } else {
       try {
         localStorage.setItem(key, JSON.stringify(value));

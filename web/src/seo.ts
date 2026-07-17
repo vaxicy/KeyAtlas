@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { getLang } from './i18n';
 
-const SITE_URL = 'https://keyatlas.app';
+const SITE_URL = 'https://keyatlas.pages.dev';
 
 function upsertMeta(selector: string, createAttrs: Record<string, string>, content: string) {
   let el = document.head.querySelector<HTMLMetaElement>(selector);
@@ -36,4 +36,18 @@ export function usePageMeta(title: string, description: string, path: string) {
     upsertMeta('meta[name="twitter:card"]', { name: 'twitter:card' }, 'summary');
     upsertCanonical(url);
   }, [title, description, path]);
+}
+
+export function useJsonLd(data: Record<string, unknown>) {
+  useEffect(() => {
+    const id = 'keyatlas-jsonld';
+    let el = document.getElementById(id) as HTMLScriptElement | null;
+    if (!el) {
+      el = document.createElement('script');
+      el.id = id;
+      el.type = 'application/ld+json';
+      document.head.appendChild(el);
+    }
+    el.textContent = JSON.stringify(data);
+  }, [data]);
 }

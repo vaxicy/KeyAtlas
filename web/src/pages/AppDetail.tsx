@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo } from 'react';
-import { useParams, Link, useNavigate, useSearchParams } from 'react-router-dom';
+import { useParams, useNavigate, useSearchParams } from 'react-router-dom';
 import { t, getCategoryName, useLangState, getLang } from '../i18n';
 import { loadApps, loadAppShortcuts, getAppById } from '../data';
 import ShortcutCard from '../components/ShortcutCard';
@@ -8,8 +8,9 @@ import KeyBadge from '../components/KeyBadge';
 import Highlight from '../components/Highlight';
 import { SkeletonGrid } from '../components/Skeleton';
 import type { App, Shortcut } from '../types';
-import { usePageMeta } from '../seo';
+import { useJsonLd, usePageMeta } from '../seo';
 import { isFavoriteApp, recordRecentApp, toggleFavoriteApp } from '../webStorage';
+import NotFound from './NotFound';
 
 type PlatformFilter = 'all' | 'windows' | 'mac' | 'linux';
 type ViewMode = 'cards' | 'compare';
@@ -74,6 +75,20 @@ export default function AppDetail() {
     app ? t('metaAppDesc', { app: app.name.en, count: String(app.shortcutCount || 0) }) : t('metaHomeDesc'),
     appId ? `/apps/${appId}` : '/'
   );
+  useJsonLd({
+    '@context': 'https://schema.org',
+    '@type': 'SoftwareApplication',
+    name: app?.name.en || appId || 'KeyAtlas app',
+    applicationCategory: app ? getCategoryName(app.category) : undefined,
+    url: appId ? `https://keyatlas.pages.dev/apps/${appId}` : 'https://keyatlas.pages.dev',
+    operatingSystem: 'Windows, macOS, Linux',
+    description: app ? t('metaAppDesc', { app: app.name.en, count: String(app.shortcutCount || 0) }) : t('metaHomeDesc'),
+    isPartOf: {
+      '@type': 'WebSite',
+      name: 'KeyAtlas',
+      url: 'https://keyatlas.pages.dev',
+    },
+  });
 
   const updateParam = (key: string, value: string, defaultValue: string) => {
     const next = new URLSearchParams(searchParams);
@@ -102,12 +117,7 @@ export default function AppDetail() {
     </div>
   );
 
-  if (!app) return (
-    <div className="page-shell" style={{ padding: '80px 0', textAlign: 'center' }}>
-      <h1 style={{ fontSize: 24, fontWeight: 700, marginBottom: 8 }}>App not found</h1>
-      <Link to="/" style={{ color: 'var(--primary-strong-color)' }}>{t('goBack')}</Link>
-    </div>
-  );
+  if (!app) return <NotFound />;
 
   const filteredShortcuts = appShortcuts
     .filter(shortcut => platform === 'all' || shortcut[platform])

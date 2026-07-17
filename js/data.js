@@ -9,26 +9,33 @@ const DataStore = {
   apps: [],
   shortcuts: [],
   byId: new Map(),
+  appShortcutCache: new Map(),
   loaded: false,
 
   async load() {
     if (this.loaded) return;
 
-    const [categories, apps] = await Promise.all([
+    const [categories, apps, searchData] = await Promise.all([
       fetchJSON("data/categories.json"),
-      fetchJSON("data/apps.json")
+      fetchJSON("data/apps.json"),
+      fetchJSON("data/search.json")
     ]);
     this.categories = categories || [];
     this.apps = apps || [];
-
-    const files = this.apps.map((a) => `data/shortcuts/${a.file}`);
-    const results = await Promise.all(
-      files.map((f) => fetchJSON(f).catch(() => []))
-    );
-
-    this.shortcuts = results.flat().filter(Boolean);
+    this.shortcuts = Array.isArray(searchData?.shortcuts) ? searchData.shortcuts : [];
     this.byId = new Map(this.shortcuts.map((s) => [s.id, s]));
     this.loaded = true;
+  },
+
+  async loadAppShortcuts(appId) {
+    if (this.appShortcutCache.has(appId)) return this.appShortcutCache.get(appId);
+    const app = this.getApp(appId);
+    if (!app || !app.file) return [];
+    const items = await fetchJSON(`data/shortcuts/${app.file}`).catch(() => []);
+    const shortcuts = Array.isArray(items) ? items : [];
+    this.appShortcutCache.set(appId, shortcuts);
+    for (const s of shortcuts) this.byId.set(s.id, s);
+    return shortcuts;
   },
 
   getShortcut(id) {
@@ -44,7 +51,7 @@ const DataStore = {
     return this.categories.find((c) => c.id === id);
   },
   getShortcutsByApp(appId) {
-    return this.shortcuts.filter((s) => s.appId === appId);
+    return this.appShortcutCache.get(appId) || this.shortcuts.filter((s) => s.appId === appId);
   },
   getShortcutsByCategory(catId) {
     return this.shortcuts.filter((s) => s.category === catId);

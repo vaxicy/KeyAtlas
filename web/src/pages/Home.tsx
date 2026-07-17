@@ -7,7 +7,7 @@ import ShortcutCard from '../components/ShortcutCard';
 import AppCard from '../components/AppCard';
 import { SkeletonGrid } from '../components/Skeleton';
 import type { App, Shortcut } from '../types';
-import { usePageMeta } from '../seo';
+import { useJsonLd, usePageMeta } from '../seo';
 import { clearRecentApps, getFavoriteApps, getRecentApps, removeRecentApp } from '../webStorage';
 
 const POPULAR_APP_IDS = ['chrome', 'vscode', 'figma', 'photoshop', 'windows', 'excel', 'notion', 'discord', 'cursor'];
@@ -21,6 +21,18 @@ export default function Home() {
   useLangState();
   const lang = getLang();
   usePageMeta(t('metaHomeTitle'), t('metaHomeDesc'), '/');
+  useJsonLd({
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'KeyAtlas',
+    url: 'https://keyatlas.pages.dev',
+    description: t('metaHomeDesc'),
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: 'https://keyatlas.pages.dev/search?q={search_term_string}',
+      'query-input': 'required name=search_term_string',
+    },
+  });
 
   useEffect(() => {
     loadApps().then(setApps);

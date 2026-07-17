@@ -43,11 +43,16 @@
 
 /* ---- Keyboard focus ring (a11y) ---- */
 .tab:focus-visible,
+.card:focus-visible,
 .icon-btn:focus-visible,
 .pill:focus-visible,
 .chip:focus-visible,
 .segmented button:focus-visible,
 .star-btn:focus-visible,
+.copy-btn:focus-visible,
+.del-btn:focus-visible,
+.switch:focus-visible,
+.support-btn:focus-visible,
 .link-btn:focus-visible,
 .empty-action:focus-visible,
 .clear-btn:focus-visible,

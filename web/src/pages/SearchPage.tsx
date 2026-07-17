@@ -9,7 +9,7 @@ import ShortcutCard from '../components/ShortcutCard';
 import AppCard from '../components/AppCard';
 import { SkeletonGrid } from '../components/Skeleton';
 import EmptyState from '../components/EmptyState';
-import { usePageMeta } from '../seo';
+import { useJsonLd, usePageMeta } from '../seo';
 
 const HOT_TERMS: { zh: string; en: string }[] = [
   { zh: '复制', en: 'copy' },
@@ -63,6 +63,18 @@ export default function SearchPage() {
     t('metaHomeDesc'),
     q ? `/search?q=${encodeURIComponent(q)}` : '/search'
   );
+  useJsonLd({
+    '@context': 'https://schema.org',
+    '@type': 'SearchResultsPage',
+    name: q ? `${q} - ${t('navSearch')} - KeyAtlas` : `${t('navSearch')} - KeyAtlas`,
+    description: t('metaHomeDesc'),
+    url: q ? `https://keyatlas.pages.dev/search?q=${encodeURIComponent(q)}` : 'https://keyatlas.pages.dev/search',
+    isPartOf: {
+      '@type': 'WebSite',
+      name: 'KeyAtlas',
+      url: 'https://keyatlas.pages.dev',
+    },
+  });
 
   useEffect(() => {
     let alive = true;

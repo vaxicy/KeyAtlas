@@ -2,6 +2,7 @@ import type { App } from './types';
 
 const FAVORITES_KEY = 'keyatlas-web-favorite-apps';
 const RECENT_APPS_KEY = 'keyatlas-web-recent-apps';
+const RECENT_LIMIT = 50;
 
 function readArray(key: string): string[] {
   try {
@@ -36,7 +37,7 @@ export function toggleFavoriteApp(appId: string): boolean {
 }
 
 export function recordRecentApp(appId: string) {
-  const next = [appId, ...readArray(RECENT_APPS_KEY).filter(id => id !== appId)].slice(0, 6);
+  const next = [appId, ...readArray(RECENT_APPS_KEY).filter(id => id !== appId)].slice(0, RECENT_LIMIT);
   writeArray(RECENT_APPS_KEY, next);
 }
 

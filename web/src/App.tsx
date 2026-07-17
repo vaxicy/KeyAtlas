@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import AppDetail from './pages/AppDetail';
 import SearchPage from './pages/SearchPage';
 import CategoryPage from './pages/CategoryPage';
+import NotFound from './pages/NotFound';
 
 function AnimatedRoutes() {
   const location = useLocation();
@@ -17,6 +18,7 @@ function AnimatedRoutes() {
           <Route path="/search" element={<ErrorBoundary><SearchPage /></ErrorBoundary>} />
           <Route path="/apps/:appId" element={<AppDetail />} />
           <Route path="/category/:categoryId" element={<CategoryPage />} />
+          <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
     </div>

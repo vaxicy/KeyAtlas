@@ -203,7 +203,7 @@
       ? `<button class="del-btn" data-del="${s.id}" title="${t.removeRecentOne}" aria-label="${t.removeRecentOne}">🗑️</button>`
       : "";
     return `
-      <div class="card" data-id="${s.id}">
+      <div class="card" data-id="${s.id}" role="button" tabindex="0" aria-label="${escapeHTML(i18n.pick(s.name))}">
         <div class="card-main">
           <div class="card-title-row">
             <span class="card-title">${highlight(i18n.pick(s.name), q)}</span>
@@ -651,6 +651,7 @@
     if (idx >= cards.length) idx = cards.length - 1;
     state.activeIdx = idx;
     cards.forEach((c, i) => c.classList.toggle("card-active", i === idx));
+    cards[idx].focus({ preventScroll: true });
     cards[idx].scrollIntoView({ block: "nearest", behavior: "smooth" });
   }
   function clearActiveCard() {
@@ -675,11 +676,12 @@
     render();
   }
 
-  function gotoApp(id) {
+  async function gotoApp(id) {
     state.tab = "categories";
     state.catView = null;
     state.catDrill = "app:" + id;
     syncTabs();
+    await DataStore.loadAppShortcuts(id);
     render();
   }
 
@@ -774,7 +776,7 @@
     // Homepage: popular app -> open its shortcuts under Categories
     const appPill = e.target.closest("[data-app]");
     if (appPill) {
-      gotoApp(appPill.dataset.app);
+      await gotoApp(appPill.dataset.app);
       return;
     }
 
@@ -802,6 +804,9 @@
     const drill = e.target.closest("[data-drill]");
     if (drill) {
       state.catDrill = drill.dataset.drill;
+      if (state.catDrill.startsWith("app:")) {
+        await DataStore.loadAppShortcuts(state.catDrill.split(":")[1]);
+      }
       render();
       return;
     }
@@ -930,7 +935,11 @@
   function openDetailDrawer() {
     el.detailDrawer.hidden = false;
     el.detailDrawer.setAttribute("aria-hidden", "false");
-    requestAnimationFrame(() => el.detailDrawer.classList.add("open"));
+    requestAnimationFrame(() => {
+      el.detailDrawer.classList.add("open");
+      const focusTarget = el.detailPanel.querySelector("button");
+      if (focusTarget) focusTarget.focus();
+    });
   }
 
   function closeDetail() {
@@ -973,6 +982,21 @@
     // Settings overlay open: only Esc closes it
     if (!el.settingsPanel.hidden) {
       if (e.key === "Escape") closeSettings();
+      if (e.key === "Tab") {
+        const focusables = Array.from(el.settingsPanel.querySelectorAll("button, [href], input, select, textarea, [tabindex]:not([tabindex='-1'])"))
+          .filter((node) => !node.disabled && node.offsetParent !== null);
+        if (focusables.length) {
+          const first = focusables[0];
+          const last = focusables[focusables.length - 1];
+          if (e.shiftKey && document.activeElement === first) {
+            e.preventDefault();
+            last.focus();
+          } else if (!e.shiftKey && document.activeElement === last) {
+            e.preventDefault();
+            first.focus();
+          }
+        }
+      }
       return;
     }
     // Detail view: Enter copies current-OS key, Esc returns to list
@@ -984,6 +1008,20 @@
       } else if (e.key === "Escape") {
         e.preventDefault();
         closeDetail();
+      } else if (e.key === "Tab") {
+        const focusables = Array.from(el.detailPanel.querySelectorAll("button, [href], input, select, textarea, [tabindex]:not([tabindex='-1'])"))
+          .filter((node) => !node.disabled && node.offsetParent !== null);
+        if (focusables.length) {
+          const first = focusables[0];
+          const last = focusables[focusables.length - 1];
+          if (e.shiftKey && document.activeElement === first) {
+            e.preventDefault();
+            last.focus();
+          } else if (!e.shiftKey && document.activeElement === last) {
+            e.preventDefault();
+            first.focus();
+          }
+        }
       }
       return;
     }
@@ -1067,6 +1105,7 @@
     requestAnimationFrame(() => {
       el.settingsBackdrop.classList.add("show");
       el.settingsPanel.classList.add("open");
+      el.closeSettings.focus();
     });
   }
   function closeSettings() {
@@ -1076,6 +1115,7 @@
     setTimeout(() => {
       el.settingsBackdrop.hidden = true;
       el.settingsPanel.hidden = true;
+      el.settingsBtn.focus();
     }, 220);
   }
 
@@ -1147,7 +1187,7 @@
 
     // settings overlay
     el.webBtn.addEventListener("click", () => {
-      chrome.tabs.create({ url: "https://master.keyatlas.pages.dev" });
+      chrome.tabs.create({ url: "https://keyatlas.pages.dev" });
     });
     el.settingsBtn.addEventListener("click", openSettings);
     el.closeSettings.addEventListener("click", closeSettings);

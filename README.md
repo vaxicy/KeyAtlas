@@ -8,7 +8,7 @@
 
 [English](#) · [中文](#)
 
-[![Chrome Web Store](https://img.shields.io/badge/Chrome-4285F4?logo=google-chrome&logoColor=fff)](#)
+[![Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-4285F4?logo=google-chrome&logoColor=fff)](https://chrome.google.com/webstore/detail/keyatlas/bkiplkbfihgaoodnhbpegjanncojhikn)
 [![Manifest V3](https://img.shields.io/badge/MV3-FF5722)](#)
 [![License: Non-Commercial](https://img.shields.io/badge/License-Non--Commercial-red)](#)
 
@@ -219,7 +219,7 @@ For commercial use, please contact the author.
 **vaxicy**
 
 - GitHub: [@vaxicy](https://github.com/vaxicy)
-- LinkedIn: [丽霖 黄](https://www.linkedin.com/in/%E4%B8%BD%E9%9C%96-%E9%BB%84-7b7794373/)
+- Chrome Web Store: [KeyAtlas](https://chrome.google.com/webstore/detail/keyatlas/bkiplkbfihgaoodnhbpegjanncojhikn)
 
 ---
 

@@ -87,7 +87,7 @@ Shortcut data is sourced from official documentation where available, community 
 ## Install
 
 ### Chrome Web Store
-*(Coming soon)*
+👉 [**Install from Chrome Web Store**](https://chrome.google.com/webstore/detail/keyatlas/bkiplkbfihgaoodnhbpegjanncojhikn)
 
 ### Developer Mode (Manual Load)
 1. Clone or download this repository.

@@ -1,5 +1,4 @@
-优化图例布局：恢复 3 列居中并统一间距
+优化图例布局：flex 居中两行并缩小
 
-- 图例改回 justify-items: center，消除整体偏左
-- 容器加左右 padding 14px 使左右边距与列距一致；列距 14px、行距 10px
-- 图标收小到 20px、圆角 4px、去阴影；item 内 gap 收为 4px
+- 图例从 3 列 grid 改为 flex wrap 居中（3+2，第二行自然居中）
+- 缩小：badge 18px、字号 9px、item 内 gap 3px、列距 12px 行距 8px

@@ -173,30 +173,42 @@ html, body {
 
 /* ---- Key symbol legend (bottom of search results) ---- */
 .key-legend {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-items: center;
-  gap: 6px 8px;
-  margin-top: 16px;
-  padding-bottom: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px 12px;
+  margin-top: 14px;
+  padding-top: 10px;
+  border-top: 1px dashed var(--line);
   font-size: 10px;
-  line-height: 1.5;
+  line-height: 1.3;
   color: var(--sub);
 }
-.key-legend .leg-item { white-space: nowrap; }
+.key-legend .leg-item {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  white-space: nowrap;
+}
 .key-legend .leg-sym {
-  display: inline-block;
-  min-width: 18px;
-  padding: 1px 4px;
-  margin-right: 3px;
-  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 28px;
+  height: 28px;
+  padding: 0 6px;
+  font-size: 13px;
   font-weight: 700;
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   color: var(--text);
   background: var(--surface);
   border: 1px solid var(--border);
-  border-radius: 4px;
+  border-radius: 6px;
+  box-shadow: 0 1px 0 var(--border);
 }
+/* lightly group Mac modifiers (1st three) from generic/Win keys */
+.key-legend .leg-item:nth-child(3) { margin-right: 6px; }
 .search-icon { color: var(--sub); flex-shrink: 0; }
 #searchInput {
   flex: 1;

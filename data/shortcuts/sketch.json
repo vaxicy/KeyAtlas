@@ -12,9 +12,9 @@
       "zh": "打开命令栏搜索并执行命令",
       "en": "Open the command bar to search and run commands"
     },
-    "windows": "⌘K",
+    "windows": "—",
     "mac": "⌘K",
-    "linux": "⌘K",
+    "linux": "—",
     "keywords": [
       "命令",
       "搜索",
@@ -37,9 +37,9 @@
       "zh": "打开 Sketch 设置",
       "en": "Open Sketch settings"
     },
-    "windows": "⌘,",
+    "windows": "—",
     "mac": "⌘,",
-    "linux": "⌘,",
+    "linux": "—",
     "keywords": [
       "设置",
       "settings",
@@ -60,9 +60,9 @@
       "zh": "打开原型预览窗口",
       "en": "Open the prototype preview window"
     },
-    "windows": "⌘P",
+    "windows": "—",
     "mac": "⌘P",
-    "linux": "⌘P",
+    "linux": "—",
     "keywords": [
       "预览",
       "原型",
@@ -84,9 +84,9 @@
       "zh": "运行上次使用的脚本",
       "en": "Run a script"
     },
-    "windows": "⌃⇧K",
+    "windows": "—",
     "mac": "⌃⇧K",
-    "linux": "⌃⇧K",
+    "linux": "—",
     "keywords": [
       "脚本",
       "script",
@@ -107,9 +107,9 @@
       "zh": "新建一个文档",
       "en": "Create a new document"
     },
-    "windows": "⌘N",
+    "windows": "—",
     "mac": "⌘N",
-    "linux": "⌘N",
+    "linux": "—",
     "keywords": [
       "新建",
       "文档",
@@ -131,9 +131,9 @@
       "zh": "打开工作区或本地文档",
       "en": "Open a workspace or local document"
     },
-    "windows": "⌘O",
+    "windows": "—",
     "mac": "⌘O",
-    "linux": "⌘O",
+    "linux": "—",
     "keywords": [
       "打开",
       "文档",
@@ -154,9 +154,9 @@
       "zh": "关闭当前文档",
       "en": "Close the current document"
     },
-    "windows": "⌘W",
+    "windows": "—",
     "mac": "⌘W",
-    "linux": "⌘W",
+    "linux": "—",
     "keywords": [
       "关闭",
       "close"
@@ -176,9 +176,9 @@
       "zh": "保存文档（自动保存开启时创建版本）",
       "en": "Save the document"
     },
-    "windows": "⌘S",
+    "windows": "—",
     "mac": "⌘S",
-    "linux": "⌘S",
+    "linux": "—",
     "keywords": [
       "保存",
       "save"
@@ -198,9 +198,9 @@
       "zh": "为工作区文档创建一个版本",
       "en": "Create a version of the workspace document"
     },
-    "windows": "⌃⌘S",
+    "windows": "—",
     "mac": "⌃⌘S",
-    "linux": "⌃⌘S",
+    "linux": "—",
     "keywords": [
       "版本",
       "保存",
@@ -221,9 +221,9 @@
       "zh": "在当前文档新建页面",
       "en": "Create a new page"
     },
-    "windows": "⇧⌘N",
+    "windows": "—",
     "mac": "⇧⌘N",
-    "linux": "⇧⌘N",
+    "linux": "—",
     "keywords": [
       "新建",
       "页面",
@@ -244,9 +244,9 @@
       "zh": "切换到画布视图",
       "en": "Switch to the Canvas view"
     },
-    "windows": "⌃1",
+    "windows": "—",
     "mac": "⌃1",
-    "linux": "⌃1",
+    "linux": "—",
     "keywords": [
       "画布",
       "视图",
@@ -268,9 +268,9 @@
       "zh": "切换到组件视图",
       "en": "Switch to the Components view"
     },
-    "windows": "⌃2",
+    "windows": "—",
     "mac": "⌃2",
-    "linux": "⌃2",
+    "linux": "—",
     "keywords": [
       "组件",
       "视图",
@@ -291,9 +291,9 @@
       "zh": "切换界面（隐藏/显示面板）",
       "en": "Toggle the interface on or off"
     },
-    "windows": "⌘.",
+    "windows": "—",
     "mac": "⌘.",
-    "linux": "⌘.",
+    "linux": "—",
     "keywords": [
       "界面",
       "隐藏",
@@ -314,9 +314,9 @@
       "zh": "切换全屏模式",
       "en": "Toggle full screen"
     },
-    "windows": "⌃⌘F",
+    "windows": "—",
     "mac": "⌃⌘F",
-    "linux": "⌃⌘F",
+    "linux": "—",
     "keywords": [
       "全屏",
       "fullscreen"
@@ -336,9 +336,9 @@
       "zh": "放大画布",
       "en": "Zoom in on the canvas"
     },
-    "windows": "⌘+",
+    "windows": "—",
     "mac": "⌘+",
-    "linux": "⌘+",
+    "linux": "—",
     "keywords": [
       "放大",
       "缩放",
@@ -359,9 +359,9 @@
       "zh": "缩小画布",
       "en": "Zoom out on the canvas"
     },
-    "windows": "⌘-",
+    "windows": "—",
     "mac": "⌘-",
-    "linux": "⌘-",
+    "linux": "—",
     "keywords": [
       "缩小",
       "缩放",
@@ -382,9 +382,9 @@
       "zh": "将画布缩放到 100%",
       "en": "Zoom to 100% on the canvas"
     },
-    "windows": "⌘0",
+    "windows": "—",
     "mac": "⌘0",
-    "linux": "⌘0",
+    "linux": "—",
     "keywords": [
       "缩放",
       "100",
@@ -405,9 +405,9 @@
       "zh": "缩放以适配画布中所有图层",
       "en": "Zoom to fit all layers in the canvas"
     },
-    "windows": "⌘1",
+    "windows": "—",
     "mac": "⌘1",
-    "linux": "⌘1",
+    "linux": "—",
     "keywords": [
       "适应",
       "缩放",
@@ -429,9 +429,9 @@
       "zh": "缩放以适配当前所选图层",
       "en": "Zoom to fit the current selection"
     },
-    "windows": "⌘2",
+    "windows": "—",
     "mac": "⌘2",
-    "linux": "⌘2",
+    "linux": "—",
     "keywords": [
       "适应",
       "所选",
@@ -453,9 +453,9 @@
       "zh": "将所选图层在画布中居中",
       "en": "Center the selection in the canvas"
     },
-    "windows": "⌘3",
+    "windows": "—",
     "mac": "⌘3",
-    "linux": "⌘3",
+    "linux": "—",
     "keywords": [
       "居中",
       "所选",
@@ -476,9 +476,9 @@
       "zh": "切换标尺显示",
       "en": "Show or hide rulers"
     },
-    "windows": "⌃R",
+    "windows": "—",
     "mac": "⌃R",
-    "linux": "⌃R",
+    "linux": "—",
     "keywords": [
       "标尺",
       "rulers"
@@ -498,9 +498,9 @@
       "zh": "切换网格显示",
       "en": "Show or hide the grid"
     },
-    "windows": "⌃G",
+    "windows": "—",
     "mac": "⌃G",
-    "linux": "⌃G",
+    "linux": "—",
     "keywords": [
       "网格",
       "grid"
@@ -520,9 +520,9 @@
       "zh": "切换像素网格显示",
       "en": "Show or hide the pixel grid"
     },
-    "windows": "⌃X",
+    "windows": "—",
     "mac": "⌃X",
-    "linux": "⌃X",
+    "linux": "—",
     "keywords": [
       "像素",
       "网格",
@@ -544,9 +544,9 @@
       "zh": "在画布插入评论",
       "en": "Insert a comment on the canvas"
     },
-    "windows": "N",
+    "windows": "—",
     "mac": "N",
-    "linux": "N",
+    "linux": "—",
     "keywords": [
       "评论",
       "comment"
@@ -566,9 +566,9 @@
       "zh": "提交当前评论",
       "en": "Submit the current comment"
     },
-    "windows": "⌘⏎",
+    "windows": "—",
     "mac": "⌘⏎",
-    "linux": "⌘⏎",
+    "linux": "—",
     "keywords": [
       "提交",
       "评论",
@@ -589,9 +589,9 @@
       "zh": "插入一个画框（Frame）",
       "en": "Insert a frame"
     },
-    "windows": "F",
+    "windows": "—",
     "mac": "F",
-    "linux": "F",
+    "linux": "—",
     "keywords": [
       "画框",
       "frame"
@@ -611,9 +611,9 @@
       "zh": "插入图形",
       "en": "Insert a graphic"
     },
-    "windows": "G",
+    "windows": "—",
     "mac": "G",
-    "linux": "G",
+    "linux": "—",
     "keywords": [
       "图形",
       "graphic"
@@ -633,9 +633,9 @@
       "zh": "插入矩形",
       "en": "Insert a rectangle"
     },
-    "windows": "R",
+    "windows": "—",
     "mac": "R",
-    "linux": "R",
+    "linux": "—",
     "keywords": [
       "矩形",
       "rectangle"
@@ -655,9 +655,9 @@
       "zh": "插入椭圆",
       "en": "Insert an oval"
     },
-    "windows": "O",
+    "windows": "—",
     "mac": "O",
-    "linux": "O",
+    "linux": "—",
     "keywords": [
       "椭圆",
       "oval",
@@ -678,9 +678,9 @@
       "zh": "插入线条",
       "en": "Insert a line"
     },
-    "windows": "L",
+    "windows": "—",
     "mac": "L",
-    "linux": "L",
+    "linux": "—",
     "keywords": [
       "线",
       "line"
@@ -700,9 +700,9 @@
       "zh": "使用矢量工具绘制路径",
       "en": "Use the vector tool"
     },
-    "windows": "V",
+    "windows": "—",
     "mac": "V",
-    "linux": "V",
+    "linux": "—",
     "keywords": [
       "矢量",
       "vector",
@@ -723,9 +723,9 @@
       "zh": "使用铅笔自由绘制",
       "en": "Use the pencil tool"
     },
-    "windows": "P",
+    "windows": "—",
     "mac": "P",
-    "linux": "P",
+    "linux": "—",
     "keywords": [
       "铅笔",
       "pencil"
@@ -745,9 +745,9 @@
       "zh": "插入文本图层",
       "en": "Insert a text layer"
     },
-    "windows": "T",
+    "windows": "—",
     "mac": "T",
-    "linux": "T",
+    "linux": "—",
     "keywords": [
       "文本",
       "文字",
@@ -768,9 +768,9 @@
       "zh": "插入一个符号（Symbol）",
       "en": "Insert a symbol"
     },
-    "windows": "Y",
+    "windows": "—",
     "mac": "Y",
-    "linux": "Y",
+    "linux": "—",
     "keywords": [
       "符号",
       "组件",
@@ -791,9 +791,9 @@
       "zh": "使用选框工具选择图层",
       "en": "Select layers with the marquee tool"
     },
-    "windows": "X",
+    "windows": "—",
     "mac": "X",
-    "linux": "X",
+    "linux": "—",
     "keywords": [
       "框选",
       "选择",
@@ -815,9 +815,9 @@
       "zh": "进入所选容器内部",
       "en": "Dive deeper into the selected container"
     },
-    "windows": "⏎",
+    "windows": "—",
     "mac": "⏎",
-    "linux": "⏎",
+    "linux": "—",
     "keywords": [
       "进入",
       "容器",
@@ -838,9 +838,9 @@
       "zh": "选择当前图层的父容器",
       "en": "Select the parent container"
     },
-    "windows": "Esc",
+    "windows": "—",
     "mac": "Esc",
-    "linux": "Esc",
+    "linux": "—",
     "keywords": [
       "父容器",
       "选择",
@@ -861,9 +861,9 @@
       "zh": "选择所有图层（不含隐藏/锁定）",
       "en": "Select all layers except hidden or locked"
     },
-    "windows": "⌘A",
+    "windows": "—",
     "mac": "⌘A",
-    "linux": "⌘A",
+    "linux": "—",
     "keywords": [
       "全选",
       "select",
@@ -884,9 +884,9 @@
       "zh": "按名称查找图层",
       "en": "Find a layer by name"
     },
-    "windows": "⌥⌘F",
+    "windows": "—",
     "mac": "⌥⌘F",
-    "linux": "⌥⌘F",
+    "linux": "—",
     "keywords": [
       "查找",
       "图层",
@@ -908,9 +908,9 @@
       "zh": "撤销上一步操作",
       "en": "Undo the last action"
     },
-    "windows": "⌘Z",
+    "windows": "—",
     "mac": "⌘Z",
-    "linux": "⌘Z",
+    "linux": "—",
     "keywords": [
       "撤销",
       "undo"
@@ -930,9 +930,9 @@
       "zh": "重做被撤销的操作",
       "en": "Redo the undone action"
     },
-    "windows": "⇧⌘Z",
+    "windows": "—",
     "mac": "⇧⌘Z",
-    "linux": "⇧⌘Z",
+    "linux": "—",
     "keywords": [
       "重做",
       "redo"
@@ -952,9 +952,9 @@
       "zh": "复制所选图层",
       "en": "Copy the selection"
     },
-    "windows": "⌘C",
+    "windows": "—",
     "mac": "⌘C",
-    "linux": "⌘C",
+    "linux": "—",
     "keywords": [
       "复制",
       "copy"
@@ -974,9 +974,9 @@
       "zh": "粘贴剪贴板内容",
       "en": "Paste from the clipboard"
     },
-    "windows": "⌘V",
+    "windows": "—",
     "mac": "⌘V",
-    "linux": "⌘V",
+    "linux": "—",
     "keywords": [
       "粘贴",
       "paste"
@@ -996,9 +996,9 @@
       "zh": "粘贴并覆盖所选图层位置",
       "en": "Paste over the selection"
     },
-    "windows": "⇧⌘V",
+    "windows": "—",
     "mac": "⇧⌘V",
-    "linux": "⇧⌘V",
+    "linux": "—",
     "keywords": [
       "粘贴",
       "原位",
@@ -1019,9 +1019,9 @@
       "zh": "复制所选图层",
       "en": "Duplicate the selection"
     },
-    "windows": "⌘D",
+    "windows": "—",
     "mac": "⌘D",
-    "linux": "⌘D",
+    "linux": "—",
     "keywords": [
       "复制",
       "duplicate"
@@ -1041,9 +1041,9 @@
       "zh": "重命名所选图层",
       "en": "Rename the selected layer(s)"
     },
-    "windows": "⌘R",
+    "windows": "—",
     "mac": "⌘R",
-    "linux": "⌘R",
+    "linux": "—",
     "keywords": [
       "重命名",
       "图层",
@@ -1064,9 +1064,9 @@
       "zh": "删除所选图层",
       "en": "Delete the selected layer"
     },
-    "windows": "⌫",
+    "windows": "—",
     "mac": "⌫",
-    "linux": "⌫",
+    "linux": "—",
     "keywords": [
       "删除",
       "图层",
@@ -1087,9 +1087,9 @@
       "zh": "切换图层隐藏状态",
       "en": "Hide or show the selected layer"
     },
-    "windows": "⇧⌘H",
+    "windows": "—",
     "mac": "⇧⌘H",
-    "linux": "⇧⌘H",
+    "linux": "—",
     "keywords": [
       "隐藏",
       "显示",
@@ -1111,9 +1111,9 @@
       "zh": "切换图层锁定状态",
       "en": "Lock or unlock the selected layer"
     },
-    "windows": "⇧⌘L",
+    "windows": "—",
     "mac": "⇧⌘L",
-    "linux": "⇧⌘L",
+    "linux": "—",
     "keywords": [
       "锁定",
       "图层",
@@ -1134,9 +1134,9 @@
       "zh": "将所选编组到一个画框",
       "en": "Group the selection in a frame"
     },
-    "windows": "⌘F",
+    "windows": "—",
     "mac": "⌘F",
-    "linux": "⌘F",
+    "linux": "—",
     "keywords": [
       "编组",
       "画框",
@@ -1157,9 +1157,9 @@
       "zh": "解除容器的编组",
       "en": "Ungroup the selected container"
     },
-    "windows": "⇧⌘G",
+    "windows": "—",
     "mac": "⇧⌘G",
-    "linux": "⇧⌘G",
+    "linux": "—",
     "keywords": [
       "解组",
       "ungroup"
@@ -1179,9 +1179,9 @@
       "zh": "将所选上移一层",
       "en": "Bring the selection forward"
     },
-    "windows": "⌘]",
+    "windows": "—",
     "mac": "⌘]",
-    "linux": "⌘]",
+    "linux": "—",
     "keywords": [
       "上移",
       "图层",
@@ -1203,9 +1203,9 @@
       "zh": "将所选置于最顶层",
       "en": "Bring the selection to the front"
     },
-    "windows": "⌥⌘]",
+    "windows": "—",
     "mac": "⌥⌘]",
-    "linux": "⌥⌘]",
+    "linux": "—",
     "keywords": [
       "顶层",
       "bring",
@@ -1226,9 +1226,9 @@
       "zh": "将所选下移一层",
       "en": "Send the selection backward"
     },
-    "windows": "⌘[",
+    "windows": "—",
     "mac": "⌘[",
-    "linux": "⌘[",
+    "linux": "—",
     "keywords": [
       "下移",
       "图层",
@@ -1250,9 +1250,9 @@
       "zh": "将所选置于最底层",
       "en": "Send the selection to the back"
     },
-    "windows": "⌥⌘[",
+    "windows": "—",
     "mac": "⌥⌘[",
-    "linux": "⌥⌘[",
+    "linux": "—",
     "keywords": [
       "底层",
       "send",
@@ -1273,9 +1273,9 @@
       "zh": "将所选左对齐",
       "en": "Align the selection to the left"
     },
-    "windows": "⌃⌘←",
+    "windows": "—",
     "mac": "⌃⌘←",
-    "linux": "⌃⌘←",
+    "linux": "—",
     "keywords": [
       "对齐",
       "左",
@@ -1297,9 +1297,9 @@
       "zh": "将所选右对齐",
       "en": "Align the selection to the right"
     },
-    "windows": "⌃⌘→",
+    "windows": "—",
     "mac": "⌃⌘→",
-    "linux": "⌃⌘→",
+    "linux": "—",
     "keywords": [
       "对齐",
       "右",
@@ -1321,9 +1321,9 @@
       "zh": "将所选顶对齐",
       "en": "Align the selection to the top"
     },
-    "windows": "⌃⌘↑",
+    "windows": "—",
     "mac": "⌃⌘↑",
-    "linux": "⌃⌘↑",
+    "linux": "—",
     "keywords": [
       "对齐",
       "顶",
@@ -1345,9 +1345,9 @@
       "zh": "将所选底对齐",
       "en": "Align the selection to the bottom"
     },
-    "windows": "⌃⌘↓",
+    "windows": "—",
     "mac": "⌃⌘↓",
-    "linux": "⌃⌘↓",
+    "linux": "—",
     "keywords": [
       "对齐",
       "底",
@@ -1369,9 +1369,9 @@
       "zh": "切换文本加粗",
       "en": "Toggle bold text"
     },
-    "windows": "⌘B",
+    "windows": "—",
     "mac": "⌘B",
-    "linux": "⌘B",
+    "linux": "—",
     "keywords": [
       "加粗",
       "粗体",
@@ -1392,9 +1392,9 @@
       "zh": "切换文本斜体",
       "en": "Toggle italic text"
     },
-    "windows": "⌘I",
+    "windows": "—",
     "mac": "⌘I",
-    "linux": "⌘I",
+    "linux": "—",
     "keywords": [
       "斜体",
       "italic"
@@ -1414,9 +1414,9 @@
       "zh": "切换文本下划线",
       "en": "Toggle underlined text"
     },
-    "windows": "⌘U",
+    "windows": "—",
     "mac": "⌘U",
-    "linux": "⌘U",
+    "linux": "—",
     "keywords": [
       "下划线",
       "underline"
@@ -1436,9 +1436,9 @@
       "zh": "增大所选文本字号",
       "en": "Increase the font size"
     },
-    "windows": "⌥⌘=",
+    "windows": "—",
     "mac": "⌥⌘=",
-    "linux": "⌥⌘=",
+    "linux": "—",
     "keywords": [
       "字号",
       "增大",
@@ -1460,9 +1460,9 @@
       "zh": "减小所选文本字号",
       "en": "Decrease the font size"
     },
-    "windows": "⌥⌘-",
+    "windows": "—",
     "mac": "⌥⌘-",
-    "linux": "⌥⌘-",
+    "linux": "—",
     "keywords": [
       "字号",
       "减小",
@@ -1484,9 +1484,9 @@
       "zh": "将所选创建为符号",
       "en": "Create a symbol from the selection"
     },
-    "windows": "⌘Y",
+    "windows": "—",
     "mac": "⌘Y",
-    "linux": "⌘Y",
+    "linux": "—",
     "keywords": [
       "符号",
       "组件",
@@ -1508,9 +1508,9 @@
       "zh": "将所选标记为可导出并导出",
       "en": "Mark as exportable and export the selection"
     },
-    "windows": "⌘E",
+    "windows": "—",
     "mac": "⌘E",
-    "linux": "⌘E",
+    "linux": "—",
     "keywords": [
       "导出",
       "export"
@@ -1530,9 +1530,9 @@
       "zh": "剪切所选图层到剪贴板",
       "en": "Cut the selection to clipboard"
     },
-    "windows": "⌘X",
+    "windows": "—",
     "mac": "⌘X",
-    "linux": "⌘X",
+    "linux": "—",
     "keywords": [
       "剪切",
       "cut"
@@ -1552,9 +1552,9 @@
       "zh": "将文档另存为新文件",
       "en": "Save the document as a new file"
     },
-    "windows": "⇧⌘S",
+    "windows": "—",
     "mac": "⇧⌘S",
-    "linux": "⇧⌘S",
+    "linux": "—",
     "keywords": [
       "另存为",
       "保存",
@@ -1575,9 +1575,9 @@
       "zh": "打开查找和替换面板",
       "en": "Open find and replace panel"
     },
-    "windows": "⌥⌘H",
+    "windows": "—",
     "mac": "⌥⌘H",
-    "linux": "⌥⌘H",
+    "linux": "—",
     "keywords": [
       "替换",
       "查找",
@@ -1599,9 +1599,9 @@
       "zh": "将所选图层从画板中移除（不删除，与删除共用 Del/Backspace）",
       "en": "Remove layer from artboard without deleting (shares Del/Backspace with Delete)"
     },
-    "windows": "Del / Backspace（同删除）",
+    "windows": "—",
     "mac": "⌫（同删除）",
-    "linux": "Del / Backspace（同删除）",
+    "linux": "—",
     "keywords": [
       "移除",
       "画板",

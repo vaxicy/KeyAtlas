@@ -7,7 +7,8 @@ const KEYS = {
   favorites: "keyatlas_favorites",
   recent: "keyatlas_recent",
   theme: "keyatlas_theme",
-  incognito: "keyatlas_incognito"
+  incognito: "keyatlas_incognito",
+  os: "keyatlas_os"
 };
 
 const RECENT_LIMIT = 50;
@@ -102,6 +103,12 @@ const store = {
   },
   async setIncognito(val) {
     await set(KEYS.incognito, Boolean(val));
+  },
+  async getOS() {
+    return await get(KEYS.os);
+  },
+  async setOS(os) {
+    await set(KEYS.os, os);
   }
 };
 

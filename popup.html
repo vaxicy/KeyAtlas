@@ -87,6 +87,14 @@
             <button data-theme="system" data-i18n="themeSystem">System</button>
           </div>
         </div>
+        <div class="setting-block">
+          <span class="setting-block-label" data-i18n="osLabel">Your OS</span>
+          <div class="segmented" id="setOSPref">
+            <button data-os="windows">🪟 <span data-i18n="os_windows">Windows</span></button>
+            <button data-os="mac">🍎 <span data-i18n="os_mac">macOS</span></button>
+            <button data-os="linux">🐧 <span data-i18n="os_linux">Linux</span></button>
+          </div>
+        </div>
         <div class="setting-block setting-block-row">
           <div class="setting-block-text">
             <span class="setting-block-label" data-i18n="incognitoLabel">Incognito Mode</span>
@@ -119,9 +127,6 @@
         <div class="setting-block about">
           <span class="setting-block-label" data-i18n="aboutTitle">About KeyAtlas</span>
           <p class="about-desc" data-i18n="aboutDesc">A fast, offline shortcut search engine for your OS and favorite apps.</p>
-          <span class="about-version" id="aboutVersion">Version 1.1.0</span>
-        </div>
-        <div class="setting-block feedback">
           <button id="feedbackBtn" class="feedback-link" data-i18n="feedback">Report an issue</button>
         </div>
       </div>

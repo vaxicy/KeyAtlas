@@ -10,10 +10,15 @@
       /* 在样式生效前定好主题，避免深色模式用户看到白色闪屏 */
       (function () {
         try {
-          var m = localStorage.getItem('keyatlas-theme') || 'system';
-          var dark = m === 'dark' || (m === 'system' &&
-            window.matchMedia('(prefers-color-scheme: dark)').matches);
-          document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
+          var params = new URLSearchParams(window.location.search);
+          var urlTheme = params.get('theme');
+          var stored = localStorage.getItem('keyatlas-theme');
+          var mode = (urlTheme === 'dark' || urlTheme === 'light') ? urlTheme
+                    : (stored === 'dark' ? 'dark' : 'light');
+          if (urlTheme === 'dark' || urlTheme === 'light') {
+            localStorage.setItem('keyatlas-theme', mode);
+          }
+          document.documentElement.setAttribute('data-theme', mode);
         } catch (e) {
           document.documentElement.setAttribute('data-theme', 'light');
         }

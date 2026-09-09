@@ -28,7 +28,6 @@
     ios: { icon: "📱", key: "os_ios" }
   };
 
-  const VERSION = "1.1.0";
   const PAYPAL_URL = "https://www.paypal.com/ncp/payment/BGHTVB7ZG3XPC";
   let currentTheme = "light";
 
@@ -46,8 +45,8 @@
     closeSettings: document.getElementById("closeSettings"),
     setLang: document.getElementById("setLang"),
     setTheme: document.getElementById("setTheme"),
+    setOSPref: document.getElementById("setOSPref"),
     incognitoToggle: document.getElementById("incognitoToggle"),
-    aboutVersion: document.getElementById("aboutVersion"),
     paypalBtn: document.getElementById("paypalBtn"),
     wechatBtn: document.getElementById("wechatBtn"),
     feedbackBtn: document.getElementById("feedbackBtn"),
@@ -78,7 +77,6 @@
     el.webBtn.setAttribute("data-tooltip", t.openWeb);
     el.webBtn.setAttribute("aria-label", t.openWeb);
     document.documentElement.lang = i18n.lang;
-    if (el.aboutVersion) el.aboutVersion.textContent = i18n.format(t.aboutVersion, { n: VERSION });
   }
   function renderKeyLegend() {
     const t = i18n.t;
@@ -1099,6 +1097,18 @@
     render();
   }
 
+  // Fall back to auto-detect when no OS preference has been set yet.
+  function resolveDisplayOS(pref) {
+    return pref || (detectOS() === "mac" ? "mac" : "windows");
+  }
+
+  function pickOS(pref) {
+    state.os = pref;
+    store.setOS(pref);
+    setActiveSegment(el.setOSPref, "os", pref);
+    render();
+  }
+
   /* ---------- Settings overlay ---------- */
   function openSettings() {
     el.settingsBackdrop.hidden = false;
@@ -1146,10 +1156,19 @@
     // segmented bindings (settings panel)
     bindSegment(el.setTheme, "theme", pickTheme);
     bindSegment(el.setLang, "lang", pickLang);
+    bindSegment(el.setOSPref, "os", pickOS);
 
-    // Default display OS: auto-detect (mac shows mac keys, others show Windows
-    // keys; Linux shares the same Ctrl-based keys as Windows).
-    state.os = detectOS() === "mac" ? "mac" : "windows";
+    // Default display OS: persisted preference, falling back to auto-detect
+    // (mac shows mac keys, others show Windows keys; Linux shares the same
+    // Ctrl-based keys as Windows). Stored "auto" from a previous version is
+    // normalized to the detected concrete OS.
+    let osPref = await store.getOS();
+    if (!osPref || osPref === "auto") {
+      osPref = resolveDisplayOS();
+      await store.setOS(osPref);
+    }
+    state.os = osPref;
+    setActiveSegment(el.setOSPref, "os", osPref);
 
     // Load data
     try {
@@ -1188,7 +1207,8 @@
 
     // settings overlay
     el.webBtn.addEventListener("click", () => {
-      chrome.tabs.create({ url: `https://keyatlas.pages.dev/?lang=${i18n.lang}` });
+      const effectiveTheme = resolveTheme(currentTheme);
+      chrome.tabs.create({ url: `https://keyatlas.pages.dev/?lang=${i18n.lang}&theme=${effectiveTheme}` });
     });
     el.settingsBtn.addEventListener("click", openSettings);
     el.closeSettings.addEventListener("click", closeSettings);

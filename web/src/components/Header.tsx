@@ -24,20 +24,17 @@ const actionsStyle: React.CSSProperties = {
 };
 
 const THEME_ICON: Record<ThemeMode, string> = {
-  system: '🖥️',
   light: '☀️',
   dark: '🌙',
 };
-const THEME_LABEL: Record<ThemeMode, 'themeSystem' | 'themeLight' | 'themeDark'> = {
-  system: 'themeSystem',
+const THEME_LABEL: Record<ThemeMode, 'themeLight' | 'themeDark'> = {
   light: 'themeLight',
   dark: 'themeDark',
 };
-/** 三态循环：跟随系统 → 浅色 → 深色 → 跟随系统 */
+/** 二态循环：浅色 ↔ 深色 */
 const NEXT_THEME: Record<ThemeMode, ThemeMode> = {
-  system: 'light',
   light: 'dark',
-  dark: 'system',
+  dark: 'light',
 };
 
 export default function Header() {

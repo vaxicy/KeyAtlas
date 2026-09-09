@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
-import { useLangState } from '../i18n';
+import { useLangState, t } from '../i18n';
+import { useThemeState, type ThemeMode } from '../theme';
 
 const headerStyle: React.CSSProperties = {
   position: 'sticky',
@@ -16,15 +17,34 @@ const brandLinkStyle: React.CSSProperties = {
   gap: 10,
   textDecoration: 'none',
 };
+const actionsStyle: React.CSSProperties = {
+  display: 'flex',
+  alignItems: 'center',
+  gap: 8,
+};
+
+const THEME_ICON: Record<ThemeMode, string> = {
+  system: '🖥️',
+  light: '☀️',
+  dark: '🌙',
+};
+const THEME_LABEL: Record<ThemeMode, 'themeSystem' | 'themeLight' | 'themeDark'> = {
+  system: 'themeSystem',
+  light: 'themeLight',
+  dark: 'themeDark',
+};
+/** 三态循环：跟随系统 → 浅色 → 深色 → 跟随系统 */
+const NEXT_THEME: Record<ThemeMode, ThemeMode> = {
+  system: 'light',
+  light: 'dark',
+  dark: 'system',
+};
 
 export default function Header() {
   const [lang, setLang] = useLangState();
-  const t = lang === 'en'
-    ? (s: string) => s
-    : (s: string) => {
-        const map: Record<string, string> = { tagline: '快捷键搜索引擎' };
-        return map[s] ?? s;
-      };
+  const [themeMode, setThemeMode] = useThemeState();
+
+  const themeHint = `${t('themeLabel')}: ${t(THEME_LABEL[themeMode])}`;
 
   return (
     <header style={headerStyle}>
@@ -52,26 +72,26 @@ export default function Header() {
           </div>
         </Link>
 
-        {/* Right actions — lang toggle only */}
-        <button
-          onClick={() => setLang(lang === 'en' ? 'zh' : 'en')}
-          style={{
-            padding: '5px 12px',
-            fontSize: 13,
-            fontWeight: 600,
-            borderRadius: 9,
-            background: 'var(--surface-color)',
-            color: 'var(--sub-color)',
-            border: 'none',
-            cursor: 'pointer',
-            boxShadow: 'var(--shadow)',
-            transition: 'color .15s, background .15s, box-shadow .15s',
-          }}
-          onMouseEnter={e => { e.currentTarget.style.color = 'var(--primary-strong-color)'; e.currentTarget.style.background = 'var(--primary-soft-color)'; }}
-          onMouseLeave={e => { e.currentTarget.style.color = 'var(--sub-color)'; e.currentTarget.style.background = 'var(--surface-color)'; }}
-        >
-          {lang === 'en' ? '中文' : 'EN'}
-        </button>
+        {/* Right actions — theme + language */}
+        <div style={actionsStyle}>
+          <button
+            className="theme-toggle"
+            onClick={() => setThemeMode(NEXT_THEME[themeMode])}
+            title={themeHint}
+            aria-label={themeHint}
+          >
+            <span aria-hidden="true">{THEME_ICON[themeMode]}</span>
+            <span>{t(THEME_LABEL[themeMode])}</span>
+          </button>
+          <button
+            className="theme-toggle"
+            onClick={() => setLang(lang === 'en' ? 'zh' : 'en')}
+            title={t('langLabel')}
+            aria-label={t('langLabel')}
+          >
+            {lang === 'en' ? '中文' : 'EN'}
+          </button>
+        </div>
       </div>
     </header>
   );

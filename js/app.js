@@ -1112,11 +1112,9 @@
     el.settingsBackdrop.classList.remove("show");
     el.settingsPanel.classList.remove("open");
     el.settingsPanel.setAttribute("aria-hidden", "true");
-    setTimeout(() => {
-      el.settingsBackdrop.hidden = true;
-      el.settingsPanel.hidden = true;
-      el.settingsBtn.focus();
-    }, 220);
+    el.settingsBackdrop.hidden = true;
+    el.settingsPanel.hidden = true;
+    el.settingsBtn.focus();
   }
 
   /* ---------- Init ---------- */

@@ -708,10 +708,8 @@ html, body {
   inset: 0;
   background: rgba(16, 24, 40, 0.35);
   z-index: 40;
-  opacity: 0;
-  transition: opacity .2s;
+  opacity: 1;
 }
-.settings-backdrop.show { opacity: 1; }
 .settings-panel {
   position: absolute;
   top: 0;
@@ -726,10 +724,7 @@ html, body {
   z-index: 50;
   display: flex;
   flex-direction: column;
-  transform: translateX(100%);
-  transition: transform .22s ease;
 }
-.settings-panel.open { transform: translateX(0); }
 .settings-head {
   display: flex;
   align-items: center;

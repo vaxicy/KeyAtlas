@@ -89,7 +89,7 @@
       { sym: "⊞", word: t.legWin },
     ];
     return items
-      .map((it) => `<span class="leg-item"><span class="leg-sym">${it.sym}</span><span class="leg-word">${escapeHTML(it.word)}</span></span>`)
+      .map((it) => `<span class="leg-item"><span class="leg-sym">${it.sym}</span>= ${escapeHTML(it.word)}</span>`)
       .join("");
   }
 

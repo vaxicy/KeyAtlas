@@ -1,0 +1,465 @@
+[
+  {
+    "id": "gcal-new-event",
+    "appId": "googlecalendar",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "New event",
+      "zh": "新建事件"
+    },
+    "description": {
+      "en": "Create event",
+      "zh": "创建事件"
+    },
+    "windows": "C",
+    "mac": "C",
+    "linux": "C",
+    "keywords": [
+      "new",
+      "event",
+      "事件"
+    ],
+    "pinyin": "xin jian shi jian xinjianshijian x j s j xjsj shi jian shijian s j sj"
+  },
+  {
+    "id": "gcal-new-task",
+    "appId": "googlecalendar",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "New task",
+      "zh": "新建任务"
+    },
+    "description": {
+      "en": "Create task",
+      "zh": "创建任务"
+    },
+    "windows": "Shift + T",
+    "mac": "Shift + T",
+    "linux": "Shift + T",
+    "keywords": [
+      "task",
+      "任务"
+    ],
+    "pinyin": "xin jian ren wu xinjianrenwu x j r w xjrw ren wu renwu r w rw"
+  },
+  {
+    "id": "gcal-search",
+    "appId": "googlecalendar",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Search",
+      "zh": "搜索"
+    },
+    "description": {
+      "en": "Search calendar",
+      "zh": "搜索日历"
+    },
+    "windows": "/",
+    "mac": "/",
+    "linux": "/",
+    "keywords": [
+      "search",
+      "搜索"
+    ],
+    "pinyin": "sou suo sousuo s s ss sou suo sousuo s s ss"
+  },
+  {
+    "id": "gcal-today",
+    "appId": "googlecalendar",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Today",
+      "zh": "今天"
+    },
+    "description": {
+      "en": "Go to today",
+      "zh": "回到今天"
+    },
+    "windows": "T",
+    "mac": "T",
+    "linux": "T",
+    "keywords": [
+      "today",
+      "今天"
+    ],
+    "pinyin": "jin tian jintian j t jt jin tian jintian j t jt"
+  },
+  {
+    "id": "gcal-day",
+    "appId": "googlecalendar",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Day view",
+      "zh": "日视图"
+    },
+    "description": {
+      "en": "Day view",
+      "zh": "日视图"
+    },
+    "windows": "D",
+    "mac": "D",
+    "linux": "D",
+    "keywords": [
+      "day",
+      "日"
+    ],
+    "pinyin": "ri shi tu rishitu r s t rst ri ri r r"
+  },
+  {
+    "id": "gcal-week",
+    "appId": "googlecalendar",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Week view",
+      "zh": "周视图"
+    },
+    "description": {
+      "en": "Week view",
+      "zh": "周视图"
+    },
+    "windows": "W",
+    "mac": "W",
+    "linux": "W",
+    "keywords": [
+      "week",
+      "周"
+    ],
+    "pinyin": "zhou shi tu zhoushitu z s t zst zhou zhou z z"
+  },
+  {
+    "id": "gcal-month",
+    "appId": "googlecalendar",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Month view",
+      "zh": "月视图"
+    },
+    "description": {
+      "en": "Month view",
+      "zh": "月视图"
+    },
+    "windows": "M",
+    "mac": "M",
+    "linux": "M",
+    "keywords": [
+      "month",
+      "月"
+    ],
+    "pinyin": "yue shi tu yueshitu y s t yst yue yue y y"
+  },
+  {
+    "id": "gcal-agenda",
+    "appId": "googlecalendar",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Agenda",
+      "zh": "议程"
+    },
+    "description": {
+      "en": "Agenda view",
+      "zh": "议程视图"
+    },
+    "windows": "A",
+    "mac": "A",
+    "linux": "A",
+    "keywords": [
+      "agenda",
+      "议程"
+    ],
+    "pinyin": "yi cheng yicheng y c yc yi cheng yicheng y c yc"
+  },
+  {
+    "id": "gcal-year",
+    "appId": "googlecalendar",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Year view",
+      "zh": "年视图"
+    },
+    "description": {
+      "en": "Year view",
+      "zh": "年视图"
+    },
+    "windows": "Y",
+    "mac": "Y",
+    "linux": "Y",
+    "keywords": [
+      "year",
+      "年"
+    ],
+    "pinyin": "nian shi tu nianshitu n s t nst nian nian n n"
+  },
+  {
+    "id": "gcal-next",
+    "appId": "googlecalendar",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Next period",
+      "zh": "下一周期"
+    },
+    "description": {
+      "en": "Next time period",
+      "zh": "下一时间段"
+    },
+    "windows": "Ctrl + →",
+    "mac": "Ctrl + →",
+    "linux": "Ctrl + →",
+    "keywords": [
+      "next",
+      "下一"
+    ],
+    "pinyin": "xia yi zhou qi xiayizhouqi x y z q xyzq xia yi xiayi x y xy"
+  },
+  {
+    "id": "gcal-prev",
+    "appId": "googlecalendar",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Prev period",
+      "zh": "上一周期"
+    },
+    "description": {
+      "en": "Prev time period",
+      "zh": "上一时间段"
+    },
+    "windows": "Ctrl + ←",
+    "mac": "Ctrl + ←",
+    "linux": "Ctrl + ←",
+    "keywords": [
+      "prev",
+      "上一"
+    ],
+    "pinyin": "shang yi zhou qi shangyizhouqi s y z q syzq shang yi shangyi s y sy"
+  },
+  {
+    "id": "gcal-refresh",
+    "appId": "googlecalendar",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Refresh",
+      "zh": "刷新"
+    },
+    "description": {
+      "en": "Refresh calendar",
+      "zh": "刷新日历"
+    },
+    "windows": "Ctrl + R",
+    "mac": "Ctrl + R",
+    "linux": "Ctrl + R",
+    "keywords": [
+      "refresh",
+      "刷新"
+    ],
+    "pinyin": "shua xin shuaxin s x sx shua xin shuaxin s x sx"
+  },
+  {
+    "id": "gcal-settings",
+    "appId": "googlecalendar",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Settings",
+      "zh": "设置"
+    },
+    "description": {
+      "en": "Open settings",
+      "zh": "打开设置"
+    },
+    "windows": "S",
+    "mac": "S",
+    "linux": "S",
+    "keywords": [
+      "settings",
+      "设置"
+    ],
+    "pinyin": "she zhi shezhi s z sz she zhi shezhi s z sz"
+  },
+  {
+    "id": "gcal-help",
+    "appId": "googlecalendar",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Help",
+      "zh": "帮助"
+    },
+    "description": {
+      "en": "Keyboard shortcuts help",
+      "zh": "快捷键帮助"
+    },
+    "windows": "?",
+    "mac": "?",
+    "linux": "?",
+    "keywords": [
+      "help",
+      "快捷键"
+    ],
+    "pinyin": "bang zhu bangzhu b z bz kuai jie jian kuaijiejian k j j kjj"
+  },
+  {
+    "id": "gcal-print",
+    "appId": "googlecalendar",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Print",
+      "zh": "打印"
+    },
+    "description": {
+      "en": "Print calendar",
+      "zh": "打印日历"
+    },
+    "windows": "Ctrl + P",
+    "mac": "Ctrl + P",
+    "linux": "Ctrl + P",
+    "keywords": [
+      "print",
+      "打印"
+    ],
+    "pinyin": "da yin dayin d y dy da yin dayin d y dy"
+  },
+  {
+    "id": "gcal-fullscreen",
+    "appId": "googlecalendar",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Fullscreen",
+      "zh": "全屏"
+    },
+    "description": {
+      "en": "Toggle fullscreen",
+      "zh": "切换全屏"
+    },
+    "windows": "F",
+    "mac": "F",
+    "linux": "F",
+    "keywords": [
+      "fullscreen",
+      "全屏"
+    ],
+    "pinyin": "quan ping quanping q p qp quan ping quanping q p qp"
+  },
+  {
+    "id": "gcal-sidebar",
+    "appId": "googlecalendar",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Sidebar",
+      "zh": "侧栏"
+    },
+    "description": {
+      "en": "Toggle sidebar",
+      "zh": "切换侧栏"
+    },
+    "windows": "Ctrl + \\",
+    "mac": "Ctrl + \\",
+    "linux": "Ctrl + \\",
+    "keywords": [
+      "sidebar",
+      "侧栏"
+    ],
+    "pinyin": "ce lan celan c l cl ce lan celan c l cl"
+  },
+  {
+    "id": "gcal-my-calendars",
+    "appId": "googlecalendar",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "My calendars",
+      "zh": "我的日历"
+    },
+    "description": {
+      "en": "Toggle my calendars",
+      "zh": "切换我的日历"
+    },
+    "windows": "Ctrl + Shift + O",
+    "mac": "Ctrl + Shift + O",
+    "linux": "Ctrl + Shift + O",
+    "keywords": [
+      "calendars",
+      "日历"
+    ],
+    "pinyin": "wo de ri li woderili w d r l wdrl ri li rili r l rl"
+  },
+  {
+    "id": "gcal-create",
+    "appId": "googlecalendar",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Create",
+      "zh": "创建"
+    },
+    "description": {
+      "en": "Open create",
+      "zh": "打开创建"
+    },
+    "windows": "K",
+    "mac": "K",
+    "linux": "K",
+    "keywords": [
+      "create",
+      "创建"
+    ],
+    "pinyin": "chuang jian chuangjian c j cj chuang jian chuangjian c j cj"
+  },
+  {
+    "id": "gcal-nav-up",
+    "appId": "googlecalendar",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Page up",
+      "zh": "上翻"
+    },
+    "description": {
+      "en": "Move up weeks",
+      "zh": "上移周"
+    },
+    "windows": "P",
+    "mac": "P",
+    "linux": "P",
+    "keywords": [
+      "up",
+      "上翻"
+    ],
+    "pinyin": "shang fan shangfan s f sf shang fan shangfan s f sf"
+  },
+  {
+    "id": "gcal-nav-down",
+    "appId": "googlecalendar",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Page down",
+      "zh": "下翻"
+    },
+    "description": {
+      "en": "Move down weeks",
+      "zh": "下移周"
+    },
+    "windows": "N",
+    "mac": "N",
+    "linux": "N",
+    "keywords": [
+      "down",
+      "下翻"
+    ],
+    "pinyin": "xia fan xiafan x f xf xia fan xiafan x f xf"
+  }
+]

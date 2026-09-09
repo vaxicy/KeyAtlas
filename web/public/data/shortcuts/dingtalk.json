@@ -1,1 +1,265 @@
-[{"id":"dingtalk-screenshot","appId":"dingtalk","type":"software","category":"productivity","name":{"zh":"截图（全局）","en":"Screenshot (global)"},"description":{"zh":"全局唤起截图功能（系统级，焦点不在钉钉也生效）","en":"Launch screenshot globally, works even when DingTalk is not focused"},"windows":"Ctrl + Shift + A","mac":"⌘ ⇧ A","linux":"Ctrl + Shift + A","keywords":["截图","screenshot","capture"],"pinyin":"jie tu （ quan ju ） jietu（quanju） j t （ q j ） jt（qj） jie tu jietu j t jt"},{"id":"dingtalk-search","appId":"dingtalk","type":"software","category":"productivity","name":{"zh":"搜索 / 查找","en":"Search / Find"},"description":{"zh":"在钉钉内搜索或查找内容","en":"Search or find content inside DingTalk"},"windows":"Ctrl + Shift + F","mac":"⌘ ⇧ F","linux":"Ctrl + Shift + F","keywords":["搜索","查找","search","find"],"pinyin":"sou suo   /   cha zhao sousuo / chazhao s s   /   c z ss / cz sou suo   cha zhao sousuo chazhao s s   c z ss cz"},{"id":"dingtalk-jump-unread","appId":"dingtalk","type":"software","category":"productivity","name":{"zh":"跳转到未读会话","en":"Jump to unread conversation"},"description":{"zh":"跳转到下一个未读会话","en":"Jump to the next unread conversation"},"windows":"Ctrl + G","mac":"⌘ G","linux":"Ctrl + G","keywords":["未读","跳转","unread","jump"],"pinyin":"tiao zhuan dao wei du hui hua tiaozhuandaoweiduhuihua t z d w d h h tzdwdhh wei du   tiao zhuan weidu tiaozhuan w d   t z wd tz"},{"id":"dingtalk-prev-conversation","appId":"dingtalk","type":"software","category":"productivity","name":{"zh":"切换到上一个会话","en":"Previous conversation"},"description":{"zh":"切换到上一个会话","en":"Switch to the previous conversation"},"windows":"Ctrl + ↑","mac":"⌘ ↑","linux":"Ctrl + ↑","keywords":["会话","上一个","conversation","previous"],"pinyin":"qie huan dao shang yi ge hui hua qiehuandaoshangyigehuihua q h d s y g h h qhdsyghh hui hua   shang yi ge huihua shangyige h h   s y g hh syg"},{"id":"dingtalk-next-conversation","appId":"dingtalk","type":"software","category":"productivity","name":{"zh":"切换到下一个会话","en":"Next conversation"},"description":{"zh":"切换到下一个会话","en":"Switch to the next conversation"},"windows":"Ctrl + ↓","mac":"⌘ ↓","linux":"Ctrl + ↓","keywords":["会话","下一个","conversation","next"],"pinyin":"qie huan dao xia yi ge hui hua qiehuandaoxiayigehuihua q h d x y g h h qhdxyghh hui hua   xia yi ge huihua xiayige h h   x y g hh xyg"},{"id":"dingtalk-open-ding","appId":"dingtalk","type":"software","category":"productivity","name":{"zh":"打开 DING","en":"Open DING"},"description":{"zh":"全局打开 DING 提醒界面","en":"Open the DING reminder interface globally"},"windows":"Ctrl + Shift + D","mac":"⌘ ⇧ D","linux":"Ctrl + Shift + D","keywords":["DING","提醒","reminder"],"pinyin":"da kai   d i n g dakai ding d k   d i n g dk ding ti xing tixing t x tx"},{"id":"dingtalk-switch-chat","appId":"dingtalk","type":"software","category":"productivity","name":{"zh":"切换聊天窗口","en":"Switch chat window"},"description":{"zh":"在不同聊天窗口之间快速切换","en":"Quickly switch between chat windows"},"windows":"Ctrl + Tab","mac":"⌃ Tab","linux":"Ctrl + Tab","keywords":["切换","聊天","switch","chat","tab"],"pinyin":"qie huan liao tian chuang kou qiehuanliaotianchuangkou q h l t c k qhltck qie huan   liao tian qiehuan liaotian q h   l t qh lt"},{"id":"dingtalk-new-chat","appId":"dingtalk","type":"software","category":"productivity","name":{"zh":"新建会话","en":"New conversation"},"description":{"zh":"发起新的聊天会话","en":"Start a new chat conversation"},"windows":"Ctrl + N","mac":"⌘ N","linux":"Ctrl + N","keywords":["新建","会话","new","chat"],"pinyin":"xin jian hui hua xinjianhuihua x j h h xjhh xin jian   hui hua xinjian huihua x j   h h xj hh"},{"id":"dingtalk-send-message","appId":"dingtalk","type":"software","category":"productivity","name":{"zh":"发送消息","en":"Send message"},"description":{"zh":"发送消息（可在设置中切换回车或组合键发送）","en":"Send message (configurable: Enter or shortcut in settings)"},"windows":"Enter 或 Ctrl + Enter","mac":"Enter 或 ⌘ Enter","linux":"Enter 或 Ctrl + Enter","keywords":["发送","消息","send","message"],"pinyin":"fa song xiao xi fasongxiaoxi f s x x fsxx fa song   xiao xi fasong xiaoxi f s   x x fs xx"},{"id":"dingtalk-close-chat","appId":"dingtalk","type":"software","category":"productivity","name":{"zh":"关闭聊天","en":"Close chat"},"description":{"zh":"关闭当前聊天窗口","en":"Close the current chat window"},"windows":"Ctrl + W","mac":"⌘ W","linux":"Ctrl + W","keywords":["关闭","聊天","close","chat"],"pinyin":"guan bi liao tian guanbiliaotian g b l t gblt guan bi   liao tian guanbi liaotian g b   l t gb lt"},{"id":"dingtalk-jump-tab","appId":"dingtalk","type":"software","category":"productivity","name":{"zh":"切换标签页","en":"Switch tab"},"description":{"zh":"跳转到导航栏指定数字标签页","en":"Jump to the tab at the given number position"},"windows":"Ctrl + 1~9","mac":"⌘ 1~9","linux":"Ctrl + 1~9","keywords":["标签页","切换","tab","jump"],"pinyin":"qie huan biao qian ye qiehuanbiaoqianye q h b q y qhbqy biao qian ye   qie huan biaoqianye qiehuan b q y   q h bqy qh"}]
+[
+  {
+    "id": "dingtalk-screenshot",
+    "appId": "dingtalk",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "截图（全局）",
+      "en": "Screenshot (global)"
+    },
+    "description": {
+      "zh": "全局唤起截图功能（系统级，焦点不在钉钉也生效）",
+      "en": "Launch screenshot globally, works even when DingTalk is not focused"
+    },
+    "windows": "Ctrl + Shift + A",
+    "mac": "⌘ ⇧ A",
+    "linux": "Ctrl + Shift + A",
+    "keywords": [
+      "截图",
+      "screenshot",
+      "capture"
+    ],
+    "pinyin": "jie tu （ quan ju ） jietu（quanju） j t （ q j ） jt（qj） jie tu jietu j t jt"
+  },
+  {
+    "id": "dingtalk-search",
+    "appId": "dingtalk",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "搜索 / 查找",
+      "en": "Search / Find"
+    },
+    "description": {
+      "zh": "在钉钉内搜索或查找内容",
+      "en": "Search or find content inside DingTalk"
+    },
+    "windows": "Ctrl + Shift + F",
+    "mac": "⌘ ⇧ F",
+    "linux": "Ctrl + Shift + F",
+    "keywords": [
+      "搜索",
+      "查找",
+      "search",
+      "find"
+    ],
+    "pinyin": "sou suo   /   cha zhao sousuo / chazhao s s   /   c z ss / cz sou suo   cha zhao sousuo chazhao s s   c z ss cz"
+  },
+  {
+    "id": "dingtalk-jump-unread",
+    "appId": "dingtalk",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "跳转到未读会话",
+      "en": "Jump to unread conversation"
+    },
+    "description": {
+      "zh": "跳转到下一个未读会话",
+      "en": "Jump to the next unread conversation"
+    },
+    "windows": "Ctrl + G",
+    "mac": "⌘ G",
+    "linux": "Ctrl + G",
+    "keywords": [
+      "未读",
+      "跳转",
+      "unread",
+      "jump"
+    ],
+    "pinyin": "tiao zhuan dao wei du hui hua tiaozhuandaoweiduhuihua t z d w d h h tzdwdhh wei du   tiao zhuan weidu tiaozhuan w d   t z wd tz"
+  },
+  {
+    "id": "dingtalk-prev-conversation",
+    "appId": "dingtalk",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "切换到上一个会话",
+      "en": "Previous conversation"
+    },
+    "description": {
+      "zh": "切换到上一个会话",
+      "en": "Switch to the previous conversation"
+    },
+    "windows": "Ctrl + ↑",
+    "mac": "⌘ ↑",
+    "linux": "Ctrl + ↑",
+    "keywords": [
+      "会话",
+      "上一个",
+      "conversation",
+      "previous"
+    ],
+    "pinyin": "qie huan dao shang yi ge hui hua qiehuandaoshangyigehuihua q h d s y g h h qhdsyghh hui hua   shang yi ge huihua shangyige h h   s y g hh syg"
+  },
+  {
+    "id": "dingtalk-next-conversation",
+    "appId": "dingtalk",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "切换到下一个会话",
+      "en": "Next conversation"
+    },
+    "description": {
+      "zh": "切换到下一个会话",
+      "en": "Switch to the next conversation"
+    },
+    "windows": "Ctrl + ↓",
+    "mac": "⌘ ↓",
+    "linux": "Ctrl + ↓",
+    "keywords": [
+      "会话",
+      "下一个",
+      "conversation",
+      "next"
+    ],
+    "pinyin": "qie huan dao xia yi ge hui hua qiehuandaoxiayigehuihua q h d x y g h h qhdxyghh hui hua   xia yi ge huihua xiayige h h   x y g hh xyg"
+  },
+  {
+    "id": "dingtalk-open-ding",
+    "appId": "dingtalk",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "打开 DING",
+      "en": "Open DING"
+    },
+    "description": {
+      "zh": "全局打开 DING 提醒界面",
+      "en": "Open the DING reminder interface globally"
+    },
+    "windows": "Ctrl + Shift + D",
+    "mac": "⌘ ⇧ D",
+    "linux": "Ctrl + Shift + D",
+    "keywords": [
+      "DING",
+      "提醒",
+      "reminder"
+    ],
+    "pinyin": "da kai   d i n g dakai ding d k   d i n g dk ding ti xing tixing t x tx"
+  },
+  {
+    "id": "dingtalk-switch-chat",
+    "appId": "dingtalk",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "切换聊天窗口",
+      "en": "Switch chat window"
+    },
+    "description": {
+      "zh": "在不同聊天窗口之间快速切换",
+      "en": "Quickly switch between chat windows"
+    },
+    "windows": "Ctrl + Tab",
+    "mac": "⌃ Tab",
+    "linux": "Ctrl + Tab",
+    "keywords": [
+      "切换",
+      "聊天",
+      "switch",
+      "chat",
+      "tab"
+    ],
+    "pinyin": "qie huan liao tian chuang kou qiehuanliaotianchuangkou q h l t c k qhltck qie huan   liao tian qiehuan liaotian q h   l t qh lt"
+  },
+  {
+    "id": "dingtalk-new-chat",
+    "appId": "dingtalk",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "新建会话",
+      "en": "New conversation"
+    },
+    "description": {
+      "zh": "发起新的聊天会话",
+      "en": "Start a new chat conversation"
+    },
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
+    "linux": "Ctrl + N",
+    "keywords": [
+      "新建",
+      "会话",
+      "new",
+      "chat"
+    ],
+    "pinyin": "xin jian hui hua xinjianhuihua x j h h xjhh xin jian   hui hua xinjian huihua x j   h h xj hh"
+  },
+  {
+    "id": "dingtalk-send-message",
+    "appId": "dingtalk",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "发送消息",
+      "en": "Send message"
+    },
+    "description": {
+      "zh": "发送消息（可在设置中切换回车或组合键发送）",
+      "en": "Send message (configurable: Enter or shortcut in settings)"
+    },
+    "windows": "Enter 或 Ctrl + Enter",
+    "mac": "Enter 或 ⌘ Enter",
+    "linux": "Enter 或 Ctrl + Enter",
+    "keywords": [
+      "发送",
+      "消息",
+      "send",
+      "message"
+    ],
+    "pinyin": "fa song xiao xi fasongxiaoxi f s x x fsxx fa song   xiao xi fasong xiaoxi f s   x x fs xx"
+  },
+  {
+    "id": "dingtalk-close-chat",
+    "appId": "dingtalk",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "关闭聊天",
+      "en": "Close chat"
+    },
+    "description": {
+      "zh": "关闭当前聊天窗口",
+      "en": "Close the current chat window"
+    },
+    "windows": "Ctrl + W",
+    "mac": "⌘ W",
+    "linux": "Ctrl + W",
+    "keywords": [
+      "关闭",
+      "聊天",
+      "close",
+      "chat"
+    ],
+    "pinyin": "guan bi liao tian guanbiliaotian g b l t gblt guan bi   liao tian guanbi liaotian g b   l t gb lt"
+  },
+  {
+    "id": "dingtalk-jump-tab",
+    "appId": "dingtalk",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "切换标签页",
+      "en": "Switch tab"
+    },
+    "description": {
+      "zh": "跳转到导航栏指定数字标签页",
+      "en": "Jump to the tab at the given number position"
+    },
+    "windows": "Ctrl + 1~9",
+    "mac": "⌘ 1~9",
+    "linux": "Ctrl + 1~9",
+    "keywords": [
+      "标签页",
+      "切换",
+      "tab",
+      "jump"
+    ],
+    "pinyin": "qie huan biao qian ye qiehuanbiaoqianye q h b q y qhbqy biao qian ye   qie huan biaoqianye qiehuan b q y   q h bqy qh"
+  }
+]

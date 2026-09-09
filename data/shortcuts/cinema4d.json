@@ -1,0 +1,730 @@
+[
+  {
+    "id": "c4d-move",
+    "appId": "cinema4d",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Move",
+      "zh": "移动"
+    },
+    "description": {
+      "en": "Move tool",
+      "zh": "移动工具"
+    },
+    "windows": "E",
+    "mac": "E",
+    "linux": "E",
+    "keywords": [
+      "move",
+      "移动"
+    ],
+    "pinyin": "yi dong yidong y d yd yi dong yidong y d yd"
+  },
+  {
+    "id": "c4d-scale",
+    "appId": "cinema4d",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Scale",
+      "zh": "缩放"
+    },
+    "description": {
+      "en": "Scale tool",
+      "zh": "缩放工具"
+    },
+    "windows": "T",
+    "mac": "T",
+    "linux": "T",
+    "keywords": [
+      "scale",
+      "缩放"
+    ],
+    "pinyin": "suo fang suofang s f sf suo fang suofang s f sf"
+  },
+  {
+    "id": "c4d-rotate",
+    "appId": "cinema4d",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Rotate",
+      "zh": "旋转"
+    },
+    "description": {
+      "en": "Rotate tool",
+      "zh": "旋转工具"
+    },
+    "windows": "R",
+    "mac": "R",
+    "linux": "R",
+    "keywords": [
+      "rotate",
+      "旋转"
+    ],
+    "pinyin": "xuan zhuan xuanzhuan x z xz xuan zhuan xuanzhuan x z xz"
+  },
+  {
+    "id": "c4d-live-select",
+    "appId": "cinema4d",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Live selection",
+      "zh": "实时选择"
+    },
+    "description": {
+      "en": "Live selection tool",
+      "zh": "实时选择工具"
+    },
+    "windows": "9",
+    "mac": "9",
+    "linux": "9",
+    "keywords": [
+      "select",
+      "选择"
+    ],
+    "pinyin": "shi shi xuan ze shishixuanze s s x z ssxz xuan ze xuanze x z xz"
+  },
+  {
+    "id": "c4d-rectangle",
+    "appId": "cinema4d",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Rectangle select",
+      "zh": "矩形选择"
+    },
+    "description": {
+      "en": "Rectangle selection",
+      "zh": "矩形选择"
+    },
+    "windows": "8",
+    "mac": "8",
+    "linux": "8",
+    "keywords": [
+      "rectangle",
+      "矩形"
+    ],
+    "pinyin": "ju xing xuan ze juxingxuanze j x x z jxxz ju xing juxing j x jx"
+  },
+  {
+    "id": "c4d-polygon",
+    "appId": "cinema4d",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Polygon",
+      "zh": "多边形"
+    },
+    "description": {
+      "en": "Polygon mode",
+      "zh": "多边形模式"
+    },
+    "windows": "4",
+    "mac": "4",
+    "linux": "4",
+    "keywords": [
+      "polygon",
+      "多边形"
+    ],
+    "pinyin": "duo bian xing duobianxing d b x dbx duo bian xing duobianxing d b x dbx"
+  },
+  {
+    "id": "c4d-edge",
+    "appId": "cinema4d",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Edge",
+      "zh": "边"
+    },
+    "description": {
+      "en": "Edge mode",
+      "zh": "边模式"
+    },
+    "windows": "3",
+    "mac": "3",
+    "linux": "3",
+    "keywords": [
+      "edge",
+      "边"
+    ],
+    "pinyin": "bian bian b b bian bian b b"
+  },
+  {
+    "id": "c4d-point",
+    "appId": "cinema4d",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Point",
+      "zh": "点"
+    },
+    "description": {
+      "en": "Point mode",
+      "zh": "点模式"
+    },
+    "windows": "2",
+    "mac": "2",
+    "linux": "2",
+    "keywords": [
+      "point",
+      "点"
+    ],
+    "pinyin": "dian dian d d dian dian d d"
+  },
+  {
+    "id": "c4d-frame-selected",
+    "appId": "cinema4d",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Frame selected",
+      "zh": "居中选中"
+    },
+    "description": {
+      "en": "Frame selected object",
+      "zh": "居中选中对象"
+    },
+    "windows": "H",
+    "mac": "H",
+    "linux": "H",
+    "keywords": [
+      "frame",
+      "居中"
+    ],
+    "pinyin": "ju zhong xuan zhong juzhongxuanzhong j z x z jzxz ju zhong juzhong j z jz"
+  },
+  {
+    "id": "c4d-frame-all",
+    "appId": "cinema4d",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Frame all",
+      "zh": "显示全部"
+    },
+    "description": {
+      "en": "Frame all objects",
+      "zh": "显示全部对象"
+    },
+    "windows": "F",
+    "mac": "F",
+    "linux": "F",
+    "keywords": [
+      "frame",
+      "all",
+      "全部"
+    ],
+    "pinyin": "xian shi quan bu xianshiquanbu x s q b xsqb quan bu quanbu q b qb"
+  },
+  {
+    "id": "c4d-extrude",
+    "appId": "cinema4d",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Extrude",
+      "zh": "挤出"
+    },
+    "description": {
+      "en": "Extrude object",
+      "zh": "挤出对象"
+    },
+    "windows": "Caps",
+    "mac": "Caps",
+    "linux": "Caps",
+    "keywords": [
+      "extrude",
+      "挤出"
+    ],
+    "pinyin": "ji chu jichu j c jc ji chu jichu j c jc"
+  },
+  {
+    "id": "c4d-bevel",
+    "appId": "cinema4d",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Bevel",
+      "zh": "倒角"
+    },
+    "description": {
+      "en": "Bevel object",
+      "zh": "倒角对象"
+    },
+    "windows": "Caps",
+    "mac": "Caps",
+    "linux": "Caps",
+    "keywords": [
+      "bevel",
+      "倒角"
+    ],
+    "pinyin": "dao jiao daojiao d j dj dao jiao daojiao d j dj"
+  },
+  {
+    "id": "c4d-loop",
+    "appId": "cinema4d",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Loop cut",
+      "zh": "循环切"
+    },
+    "description": {
+      "en": "Loop selection",
+      "zh": "循环选择"
+    },
+    "windows": "U L",
+    "mac": "U L",
+    "linux": "U L",
+    "keywords": [
+      "loop",
+      "循环"
+    ],
+    "pinyin": "xun huan qie xunhuanqie x h q xhq xun huan xunhuan x h xh"
+  },
+  {
+    "id": "c4d-ring",
+    "appId": "cinema4d",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Ring select",
+      "zh": "环形选择"
+    },
+    "description": {
+      "en": "Ring selection",
+      "zh": "环形选择"
+    },
+    "windows": "U B",
+    "mac": "U B",
+    "linux": "U B",
+    "keywords": [
+      "ring",
+      "环形"
+    ],
+    "pinyin": "huan xing xuan ze huanxingxuanze h x x z hxxz huan xing huanxing h x hx"
+  },
+  {
+    "id": "c4d-knife",
+    "appId": "cinema4d",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Knife",
+      "zh": "切刀"
+    },
+    "description": {
+      "en": "Knife tool",
+      "zh": "切刀工具"
+    },
+    "windows": "K",
+    "mac": "K",
+    "linux": "K",
+    "keywords": [
+      "knife",
+      "切刀"
+    ],
+    "pinyin": "qie dao qiedao q d qd qie dao qiedao q d qd"
+  },
+  {
+    "id": "c4d-undo",
+    "appId": "cinema4d",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Undo",
+      "zh": "撤销"
+    },
+    "description": {
+      "en": "Undo",
+      "zh": "撤销"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "Ctrl + Z",
+    "linux": "Ctrl + Z",
+    "keywords": [
+      "undo",
+      "撤销"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "c4d-redo",
+    "appId": "cinema4d",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Redo",
+      "zh": "重做"
+    },
+    "description": {
+      "en": "Redo",
+      "zh": "重做"
+    },
+    "windows": "Ctrl + Y",
+    "mac": "Ctrl + Y",
+    "linux": "Ctrl + Y",
+    "keywords": [
+      "redo",
+      "重做"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "c4d-render",
+    "appId": "cinema4d",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Render",
+      "zh": "渲染"
+    },
+    "description": {
+      "en": "Render view",
+      "zh": "渲染视图"
+    },
+    "windows": "Ctrl + R",
+    "mac": "Ctrl + R",
+    "linux": "Ctrl + R",
+    "keywords": [
+      "render",
+      "渲染"
+    ],
+    "pinyin": "xuan ran xuanran x r xr xuan ran xuanran x r xr"
+  },
+  {
+    "id": "c4d-render-pv",
+    "appId": "cinema4d",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Render PV",
+      "zh": "渲染图片查看器"
+    },
+    "description": {
+      "en": "Render to picture viewer",
+      "zh": "渲染到图片查看器"
+    },
+    "windows": "Shift + R",
+    "mac": "Shift + R",
+    "linux": "Shift + R",
+    "keywords": [
+      "render",
+      "picture",
+      "图片"
+    ],
+    "pinyin": "xuan ran tu pian cha kan qi xuanrantupianchakanqi x r t p c k q xrtpckq tu pian tupian t p tp"
+  },
+  {
+    "id": "c4d-editable",
+    "appId": "cinema4d",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Make editable",
+      "zh": "转为可编辑"
+    },
+    "description": {
+      "en": "Make object editable",
+      "zh": "对象转可编辑"
+    },
+    "windows": "C",
+    "mac": "C",
+    "linux": "C",
+    "keywords": [
+      "editable",
+      "可编辑"
+    ],
+    "pinyin": "zhuan wei ke bian ji zhuanweikebianji z w k b j zwkbj ke bian ji kebianji k b j kbj"
+  },
+  {
+    "id": "c4d-duplicate",
+    "appId": "cinema4d",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Duplicate",
+      "zh": "复制"
+    },
+    "description": {
+      "en": "Duplicate object",
+      "zh": "复制对象"
+    },
+    "windows": "Ctrl + Drag",
+    "mac": "Ctrl + Drag",
+    "linux": "Ctrl + Drag",
+    "keywords": [
+      "duplicate",
+      "复制"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "c4d-group",
+    "appId": "cinema4d",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Group",
+      "zh": "编组"
+    },
+    "description": {
+      "en": "Group objects",
+      "zh": "编组对象"
+    },
+    "windows": "Ctrl + G",
+    "mac": "Ctrl + G",
+    "linux": "Ctrl + G",
+    "keywords": [
+      "group",
+      "编组"
+    ],
+    "pinyin": "bian zu bianzu b z bz bian zu bianzu b z bz"
+  },
+  {
+    "id": "c4d-ungroup",
+    "appId": "cinema4d",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Ungroup",
+      "zh": "解组"
+    },
+    "description": {
+      "en": "Ungroup objects",
+      "zh": "解组对象"
+    },
+    "windows": "Shift + G",
+    "mac": "Shift + G",
+    "linux": "Shift + G",
+    "keywords": [
+      "ungroup",
+      "解组"
+    ],
+    "pinyin": "jie zu jiezu j z jz jie zu jiezu j z jz"
+  },
+  {
+    "id": "c4d-hide",
+    "appId": "cinema4d",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Hide",
+      "zh": "隐藏"
+    },
+    "description": {
+      "en": "Hide selected",
+      "zh": "隐藏选中"
+    },
+    "windows": "Ctrl + Shift + H",
+    "mac": "Ctrl + Shift + H",
+    "linux": "Ctrl + Shift + H",
+    "keywords": [
+      "hide",
+      "隐藏"
+    ],
+    "pinyin": "yin cang yincang y c yc yin cang yincang y c yc"
+  },
+  {
+    "id": "c4d-show",
+    "appId": "cinema4d",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Show",
+      "zh": "显示"
+    },
+    "description": {
+      "en": "Show all",
+      "zh": "显示全部"
+    },
+    "windows": "Ctrl + Shift + H? ",
+    "mac": "Ctrl + Shift + H? ",
+    "linux": "Ctrl + Shift + H? ",
+    "keywords": [
+      "show",
+      "显示"
+    ],
+    "pinyin": "xian shi xianshi x s xs xian shi xianshi x s xs"
+  },
+  {
+    "id": "c4d-keyframe",
+    "appId": "cinema4d",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Keyframe",
+      "zh": "关键帧"
+    },
+    "description": {
+      "en": "Set keyframe",
+      "zh": "设置关键帧"
+    },
+    "windows": "Ctrl + Click (attr)",
+    "mac": "Ctrl + Click (attr)",
+    "linux": "Ctrl + Click (attr)",
+    "keywords": [
+      "keyframe",
+      "关键帧"
+    ],
+    "pinyin": "guan jian zhen guanjianzhen g j z gjz guan jian zhen guanjianzhen g j z gjz"
+  },
+  {
+    "id": "c4d-play",
+    "appId": "cinema4d",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Play",
+      "zh": "播放"
+    },
+    "description": {
+      "en": "Play timeline",
+      "zh": "播放时间线"
+    },
+    "windows": "F8",
+    "mac": "F8",
+    "linux": "F8",
+    "keywords": [
+      "play",
+      "播放"
+    ],
+    "pinyin": "bo fang bofang b f bf bo fang bofang b f bf"
+  },
+  {
+    "id": "c4d-stop",
+    "appId": "cinema4d",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Stop",
+      "zh": "停止"
+    },
+    "description": {
+      "en": "Stop playback",
+      "zh": "停止播放"
+    },
+    "windows": "F9",
+    "mac": "F9",
+    "linux": "F9",
+    "keywords": [
+      "stop",
+      "停止"
+    ],
+    "pinyin": "ting zhi tingzhi t z tz ting zhi tingzhi t z tz"
+  },
+  {
+    "id": "c4d-autokey",
+    "appId": "cinema4d",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Autokey",
+      "zh": "自动关键帧"
+    },
+    "description": {
+      "en": "Toggle auto key",
+      "zh": "切换自动关键帧"
+    },
+    "windows": "Ctrl + F8? ",
+    "mac": "Ctrl + F8? ",
+    "linux": "Ctrl + F8? ",
+    "keywords": [
+      "autokey",
+      "自动"
+    ],
+    "pinyin": "zi dong guan jian zhen zidongguanjianzhen z d g j z zdgjz zi dong zidong z d zd"
+  },
+  {
+    "id": "c4d-timeline",
+    "appId": "cinema4d",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Timeline",
+      "zh": "时间线"
+    },
+    "description": {
+      "en": "Toggle timeline",
+      "zh": "切换时间线"
+    },
+    "windows": "Shift + F3",
+    "mac": "Shift + F3",
+    "linux": "Shift + F3",
+    "keywords": [
+      "timeline",
+      "时间线"
+    ],
+    "pinyin": "shi jian xian shijianxian s j x sjx shi jian xian shijianxian s j x sjx"
+  },
+  {
+    "id": "c4d-coords",
+    "appId": "cinema4d",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Coords",
+      "zh": "坐标"
+    },
+    "description": {
+      "en": "Toggle coordinates manager",
+      "zh": "切换坐标管理器"
+    },
+    "windows": "Shift + F3? ",
+    "mac": "Shift + F3? ",
+    "linux": "Shift + F3? ",
+    "keywords": [
+      "coords",
+      "坐标"
+    ],
+    "pinyin": "zuo biao zuobiao z b zb zuo biao zuobiao z b zb"
+  },
+  {
+    "id": "c4d-objects",
+    "appId": "cinema4d",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Objects",
+      "zh": "对象"
+    },
+    "description": {
+      "en": "Toggle objects manager",
+      "zh": "切换对象管理器"
+    },
+    "windows": "Shift + F1",
+    "mac": "Shift + F1",
+    "linux": "Shift + F1",
+    "keywords": [
+      "objects",
+      "对象"
+    ],
+    "pinyin": "dui xiang duixiang d x dx dui xiang duixiang d x dx"
+  },
+  {
+    "id": "c4d-attributes",
+    "appId": "cinema4d",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Attributes",
+      "zh": "属性"
+    },
+    "description": {
+      "en": "Toggle attributes",
+      "zh": "切换属性"
+    },
+    "windows": "Shift + F2",
+    "mac": "Shift + F2",
+    "linux": "Shift + F2",
+    "keywords": [
+      "attributes",
+      "属性"
+    ],
+    "pinyin": "shu xing shuxing s x sx shu xing shuxing s x sx"
+  }
+]

@@ -1,1 +1,904 @@
-[{"id":"xcode-build","appId":"xcode","type":"software","category":"development","name":{"zh":"构建","en":"Build"},"description":{"zh":"构建","en":"Build"},"windows":"—","mac":"⌘ B","linux":"—","keywords":["构建","Build"],"pinyin":"gou jian goujian g j gj gou jian goujian g j gj"},{"id":"xcode-run","appId":"xcode","type":"software","category":"development","name":{"zh":"运行","en":"Run"},"description":{"zh":"运行","en":"Run"},"windows":"—","mac":"⌘ R","linux":"—","keywords":["运行","Run"],"pinyin":"yun xing yunxing y x yx yun xing yunxing y x yx"},{"id":"xcode-test","appId":"xcode","type":"software","category":"development","name":{"zh":"测试","en":"Test"},"description":{"zh":"测试","en":"Test"},"windows":"—","mac":"⌘ U","linux":"—","keywords":["测试","Test"],"pinyin":"ce shi ceshi c s cs ce shi ceshi c s cs"},{"id":"xcode-stop","appId":"xcode","type":"software","category":"development","name":{"zh":"停止","en":"Stop"},"description":{"zh":"停止","en":"Stop"},"windows":"—","mac":"⌘ .","linux":"—","keywords":["停止","Stop"],"pinyin":"ting zhi tingzhi t z tz ting zhi tingzhi t z tz"},{"id":"xcode-buildanalyze","appId":"xcode","type":"software","category":"development","name":{"zh":"构建并分析","en":"Build and Analyze"},"description":{"zh":"构建并分析","en":"Build and Analyze"},"windows":"—","mac":"⌘ ⇧ B","linux":"—","keywords":["构建并分析","Build and Analyze"],"pinyin":"gou jian bing fen xi goujianbingfenxi g j b f x gjbfx gou jian bing fen xi goujianbingfenxi g j b f x gjbfx"},{"id":"xcode-profile","appId":"xcode","type":"software","category":"development","name":{"zh":"性能分析（Instruments）","en":"Profile (Instruments)"},"description":{"zh":"性能分析（Instruments）","en":"Profile (Instruments)"},"windows":"—","mac":"⌘ I","linux":"—","keywords":["性能分析（Instruments）","Profile (Instruments)"],"pinyin":"xing neng fen xi （ i n s t r u m e n t s ） xingnengfenxi（instruments） x n f x （ i n s t r u m e n t s ） xnfx（instruments） xing neng fen xi （ i n s t r u m e n t s ） xingnengfenxi（instruments） x n f x （ i n s t r u m e n t s ） xnfx（instruments）"},{"id":"xcode-clean","appId":"xcode","type":"software","category":"development","name":{"zh":"清理构建文件夹","en":"Clean Build Folder"},"description":{"zh":"清理构建文件夹","en":"Clean Build Folder"},"windows":"—","mac":"⌘ ⌥ ⇧ K","linux":"—","keywords":["清理构建文件夹","Clean Build Folder"],"pinyin":"qing li gou jian wen jian jia qingligoujianwenjianjia q l g j w j j qlgjwjj qing li gou jian wen jian jia qingligoujianwenjianjia q l g j w j j qlgjwjj"},{"id":"xcode-openquickly","appId":"xcode","type":"software","category":"development","name":{"zh":"快速打开","en":"Open Quickly"},"description":{"zh":"快速打开","en":"Open Quickly"},"windows":"—","mac":"⌘ ⇧ O","linux":"—","keywords":["快速打开","Open Quickly"],"pinyin":"kuai su da kai kuaisudakai k s d k ksdk kuai su da kai kuaisudakai k s d k ksdk"},{"id":"xcode-gotodef","appId":"xcode","type":"software","category":"development","name":{"zh":"跳转到定义","en":"Go to Definition"},"description":{"zh":"跳转到定义","en":"Go to Definition"},"windows":"—","mac":"⌃ ⌘ click","linux":"—","keywords":["跳转到定义","Go to Definition"],"pinyin":"tiao zhuan dao ding yi tiaozhuandaodingyi t z d d y tzddy tiao zhuan dao ding yi tiaozhuandaodingyi t z d d y tzddy"},{"id":"xcode-navback","appId":"xcode","type":"software","category":"development","name":{"zh":"导航后退","en":"Navigate Back"},"description":{"zh":"导航后退","en":"Navigate Back"},"windows":"—","mac":"⌃ ⌘ ←","linux":"—","keywords":["导航后退","Navigate Back"],"pinyin":"dao hang hou tui daohanghoutui d h h t dhht dao hang hou tui daohanghoutui d h h t dhht"},{"id":"xcode-navforward","appId":"xcode","type":"software","category":"development","name":{"zh":"导航前进","en":"Navigate Forward"},"description":{"zh":"导航前进","en":"Navigate Forward"},"windows":"—","mac":"⌃ ⌘ →","linux":"—","keywords":["导航前进","Navigate Forward"],"pinyin":"dao hang qian jin daohangqianjin d h q j dhqj dao hang qian jin daohangqianjin d h q j dhqj"},{"id":"xcode-jumptoline","appId":"xcode","type":"software","category":"development","name":{"zh":"跳转到行","en":"Jump to Line"},"description":{"zh":"跳转到行","en":"Jump to Line"},"windows":"—","mac":"⌘ L","linux":"—","keywords":["跳转到行","Jump to Line"],"pinyin":"tiao zhuan dao xing tiaozhuandaoxing t z d x tzdx tiao zhuan dao xing tiaozhuandaoxing t z d x tzdx"},{"id":"xcode-findproj","appId":"xcode","type":"software","category":"development","name":{"zh":"在项目中查找","en":"Find in Project"},"description":{"zh":"在项目中查找","en":"Find in Project"},"windows":"—","mac":"⌘ ⇧ F","linux":"—","keywords":["在项目中查找","Find in Project"],"pinyin":"zai xiang mu zhong cha zhao zaixiangmuzhongchazhao z x m z c z zxmzcz zai xiang mu zhong cha zhao zaixiangmuzhongchazhao z x m z c z zxmzcz"},{"id":"xcode-findfile","appId":"xcode","type":"software","category":"development","name":{"zh":"在文件中查找","en":"Find in File"},"description":{"zh":"在文件中查找","en":"Find in File"},"windows":"—","mac":"⌘ F","linux":"—","keywords":["在文件中查找","Find in File"],"pinyin":"zai wen jian zhong cha zhao zaiwenjianzhongchazhao z w j z c z zwjzcz zai wen jian zhong cha zhao zaiwenjianzhongchazhao z w j z c z zwjzcz"},{"id":"xcode-findnext","appId":"xcode","type":"software","category":"development","name":{"zh":"查找下一个","en":"Find Next"},"description":{"zh":"查找下一个","en":"Find Next"},"windows":"—","mac":"⌘ G","linux":"—","keywords":["查找下一个","Find Next"],"pinyin":"cha zhao xia yi ge chazhaoxiayige c z x y g czxyg cha zhao xia yi ge chazhaoxiayige c z x y g czxyg"},{"id":"xcode-findprev","appId":"xcode","type":"software","category":"development","name":{"zh":"查找上一个","en":"Find Previous"},"description":{"zh":"查找上一个","en":"Find Previous"},"windows":"—","mac":"⌘ ⇧ G","linux":"—","keywords":["查找上一个","Find Previous"],"pinyin":"cha zhao shang yi ge chazhaoshangyige c z s y g czsyg cha zhao shang yi ge chazhaoshangyige c z s y g czsyg"},{"id":"xcode-switchheader","appId":"xcode","type":"software","category":"development","name":{"zh":"切换头文件/源文件","en":"Switch Header/Source"},"description":{"zh":"切换头文件/源文件","en":"Switch Header/Source"},"windows":"—","mac":"⌃ ⌘ ↑","linux":"—","keywords":["切换头文件/源文件","Switch Header/Source"],"pinyin":"qie huan tou wen jian / yuan wen jian qiehuantouwenjian/yuanwenjian q h t w j / y w j qhtwj/ywj qie huan tou wen jian / yuan wen jian qiehuantouwenjian/yuanwenjian q h t w j / y w j qhtwj/ywj"},{"id":"xcode-callers","appId":"xcode","type":"software","category":"development","name":{"zh":"显示调用者","en":"Show Callers"},"description":{"zh":"显示调用者","en":"Show Callers"},"windows":"—","mac":"⌃ 1","linux":"—","keywords":["显示调用者","Show Callers"],"pinyin":"xian shi diao yong zhe xianshidiaoyongzhe x s d y z xsdyz xian shi diao yong zhe xianshidiaoyongzhe x s d y z xsdyz"},{"id":"xcode-comment","appId":"xcode","type":"software","category":"development","name":{"zh":"注释/取消注释","en":"Comment / Uncomment"},"description":{"zh":"注释/取消注释","en":"Comment / Uncomment"},"windows":"—","mac":"⌘ /","linux":"—","keywords":["注释/取消注释","Comment / Uncomment"],"pinyin":"zhu shi / qu xiao zhu shi zhushi/quxiaozhushi z s / q x z s zs/qxzs zhu shi / qu xiao zhu shi zhushi/quxiaozhushi z s / q x z s zs/qxzs"},{"id":"xcode-reindent","appId":"xcode","type":"software","category":"development","name":{"zh":"重新缩进选区","en":"Re-indent Selection"},"description":{"zh":"重新缩进选区","en":"Re-indent Selection"},"windows":"—","mac":"⌃ I","linux":"—","keywords":["重新缩进选区","Re-indent Selection"],"pinyin":"chong xin suo jin xuan qu chongxinsuojinxuanqu c x s j x q cxsjxq chong xin suo jin xuan qu chongxinsuojinxuanqu c x s j x q cxsjxq"},{"id":"xcode-completions","appId":"xcode","type":"software","category":"development","name":{"zh":"显示补全","en":"Show Completions"},"description":{"zh":"显示补全","en":"Show Completions"},"windows":"—","mac":"Esc","linux":"—","keywords":["显示补全","Show Completions"],"pinyin":"xian shi bu quan xianshibuquan x s b q xsbq xian shi bu quan xianshibuquan x s b q xsbq"},{"id":"xcode-quickhelp","appId":"xcode","type":"software","category":"development","name":{"zh":"显示快速帮助","en":"Show Quick Help"},"description":{"zh":"显示快速帮助","en":"Show Quick Help"},"windows":"—","mac":"⌥ click","linux":"—","keywords":["显示快速帮助","Show Quick Help"],"pinyin":"xian shi kuai su bang zhu xianshikuaisubangzhu x s k s b z xsksbz xian shi kuai su bang zhu xianshikuaisubangzhu x s k s b z xsksbz"},{"id":"xcode-assistant","appId":"xcode","type":"software","category":"development","name":{"zh":"在辅助编辑器中打开","en":"Open in Assistant Editor"},"description":{"zh":"在辅助编辑器中打开","en":"Open in Assistant Editor"},"windows":"—","mac":"⌥ click","linux":"—","keywords":["在辅助编辑器中打开","Open in Assistant Editor"],"pinyin":"zai fu zhu bian ji qi zhong da kai zaifuzhubianjiqizhongdakai z f z b j q z d k zfzbjqzdk zai fu zhu bian ji qi zhong da kai zaifuzhubianjiqizhongdakai z f z b j q z d k zfzbjqzdk"},{"id":"xcode-fold","appId":"xcode","type":"software","category":"development","name":{"zh":"折叠方法","en":"Fold Method"},"description":{"zh":"折叠方法","en":"Fold Method"},"windows":"—","mac":"⌘ ⌥ ←","linux":"—","keywords":["折叠方法","Fold Method"],"pinyin":"zhe die fang fa zhediefangfa z d f f zdff zhe die fang fa zhediefangfa z d f f zdff"},{"id":"xcode-unfold","appId":"xcode","type":"software","category":"development","name":{"zh":"展开方法","en":"Unfold Method"},"description":{"zh":"展开方法","en":"Unfold Method"},"windows":"—","mac":"⌘ ⌥ →","linux":"—","keywords":["展开方法","Unfold Method"],"pinyin":"zhan kai fang fa zhankaifangfa z k f f zkff zhan kai fang fa zhankaifangfa z k f f zkff"},{"id":"xcode-foldall","appId":"xcode","type":"software","category":"development","name":{"zh":"折叠全部方法","en":"Fold All Methods"},"description":{"zh":"折叠全部方法","en":"Fold All Methods"},"windows":"—","mac":"⌘ ⌥ ⇧ ←","linux":"—","keywords":["折叠全部方法","Fold All Methods"],"pinyin":"zhe die quan bu fang fa zhediequanbufangfa z d q b f f zdqbff zhe die quan bu fang fa zhediequanbufangfa z d q b f f zdqbff"},{"id":"xcode-unfoldall","appId":"xcode","type":"software","category":"development","name":{"zh":"展开全部方法","en":"Unfold All Methods"},"description":{"zh":"展开全部方法","en":"Unfold All Methods"},"windows":"—","mac":"⌘ ⌥ ⇧ →","linux":"—","keywords":["展开全部方法","Unfold All Methods"],"pinyin":"zhan kai quan bu fang fa zhankaiquanbufangfa z k q b f f zkqbff zhan kai quan bu fang fa zhankaiquanbufangfa z k q b f f zkqbff"},{"id":"xcode-navhide","appId":"xcode","type":"software","category":"development","name":{"zh":"隐藏/显示导航器","en":"Hide/Show Navigator"},"description":{"zh":"隐藏/显示导航器","en":"Hide/Show Navigator"},"windows":"—","mac":"⌘ 0","linux":"—","keywords":["隐藏/显示导航器","Hide/Show Navigator"],"pinyin":"yin cang / xian shi dao hang qi yincang/xianshidaohangqi y c / x s d h q yc/xsdhq yin cang / xian shi dao hang qi yincang/xianshidaohangqi y c / x s d h q yc/xsdhq"},{"id":"xcode-navtab","appId":"xcode","type":"software","category":"development","name":{"zh":"导航器标签 1-9","en":"Navigator Tab 1-9"},"description":{"zh":"导航器标签 1-9","en":"Navigator Tab 1-9"},"windows":"—","mac":"⌘ 1 – ⌘ 9","linux":"—","keywords":["导航器标签 1-9","Navigator Tab 1-9"],"pinyin":"dao hang qi biao qian   1 - 9 daohangqibiaoqian 1-9 d h q b q   1 - 9 dhqbq 1-9 dao hang qi biao qian   1 - 9 daohangqibiaoqian 1-9 d h q b q   1 - 9 dhqbq 1-9"},{"id":"xcode-inspectorhide","appId":"xcode","type":"software","category":"development","name":{"zh":"隐藏/显示检查器","en":"Hide/Show Inspector"},"description":{"zh":"隐藏/显示检查器","en":"Hide/Show Inspector"},"windows":"—","mac":"⌘ ⌥ 0","linux":"—","keywords":["隐藏/显示检查器","Hide/Show Inspector"],"pinyin":"yin cang / xian shi jian cha qi yincang/xianshijianchaqi y c / x s j c q yc/xsjcq yin cang / xian shi jian cha qi yincang/xianshijianchaqi y c / x s j c q yc/xsjcq"},{"id":"xcode-debugarea","appId":"xcode","type":"software","category":"development","name":{"zh":"显示/隐藏调试区","en":"Show/Hide Debug Area"},"description":{"zh":"显示/隐藏调试区","en":"Show/Hide Debug Area"},"windows":"—","mac":"⌘ ⇧ Y","linux":"—","keywords":["显示/隐藏调试区","Show/Hide Debug Area"],"pinyin":"xian shi / yin cang tiao shi qu xianshi/yincangtiaoshiqu x s / y c t s q xs/yctsq xian shi / yin cang tiao shi qu xianshi/yincangtiaoshiqu x s / y c t s q xs/yctsq"},{"id":"xcode-console","appId":"xcode","type":"software","category":"development","name":{"zh":"激活控制台","en":"Activate Console"},"description":{"zh":"激活控制台","en":"Activate Console"},"windows":"—","mac":"⌘ ⇧ C","linux":"—","keywords":["激活控制台","Activate Console"],"pinyin":"ji huo kong zhi tai jihuokongzhitai j h k z t jhkzt ji huo kong zhi tai jihuokongzhitai j h k z t jhkzt"},{"id":"xcode-clearconsole","appId":"xcode","type":"software","category":"development","name":{"zh":"清空控制台","en":"Clear Console"},"description":{"zh":"清空控制台","en":"Clear Console"},"windows":"—","mac":"⌘ K","linux":"—","keywords":["清空控制台","Clear Console"],"pinyin":"qing kong kong zhi tai qingkongkongzhitai q k k z t qkkzt qing kong kong zhi tai qingkongkongzhitai q k k z t qkkzt"},{"id":"xcode-standardeditor","appId":"xcode","type":"software","category":"development","name":{"zh":"显示标准编辑器","en":"Show Standard Editor"},"description":{"zh":"显示标准编辑器","en":"Show Standard Editor"},"windows":"—","mac":"⌘ ↩","linux":"—","keywords":["显示标准编辑器","Show Standard Editor"],"pinyin":"xian shi biao zhun bian ji qi xianshibiaozhunbianjiqi x s b z b j q xsbzbjq xian shi biao zhun bian ji qi xianshibiaozhunbianjiqi x s b z b j q xsbzbjq"},{"id":"xcode-versioneditor","appId":"xcode","type":"software","category":"development","name":{"zh":"显示版本编辑器","en":"Show Version Editor"},"description":{"zh":"显示版本编辑器","en":"Show Version Editor"},"windows":"—","mac":"⌘ ⌥ ⇧ ↩","linux":"—","keywords":["显示版本编辑器","Show Version Editor"],"pinyin":"xian shi ban ben bian ji qi xianshibanbenbianjiqi x s b b b j q xsbbbjq xian shi ban ben bian ji qi xianshibanbenbianjiqi x s b b b j q xsbbbjq"},{"id":"xcode-breakpoint","appId":"xcode","type":"software","category":"development","name":{"zh":"添加断点","en":"Add Breakpoint"},"description":{"zh":"添加断点","en":"Add Breakpoint"},"windows":"—","mac":"⌘ \\","linux":"—","keywords":["添加断点","Add Breakpoint"],"pinyin":"tian jia duan dian tianjiaduandian t j d d tjdd tian jia duan dian tianjiaduandian t j d d tjdd"},{"id":"xcode-stepover","appId":"xcode","type":"software","category":"development","name":{"zh":"单步跳过","en":"Step Over"},"description":{"zh":"单步跳过","en":"Step Over"},"windows":"—","mac":"F6","linux":"—","keywords":["单步跳过","Step Over"],"pinyin":"dan bu tiao guo danbutiaoguo d b t g dbtg dan bu tiao guo danbutiaoguo d b t g dbtg"},{"id":"xcode-stepinto","appId":"xcode","type":"software","category":"development","name":{"zh":"单步进入","en":"Step Into"},"description":{"zh":"单步进入","en":"Step Into"},"windows":"—","mac":"F7","linux":"—","keywords":["单步进入","Step Into"],"pinyin":"dan bu jin ru danbujinru d b j r dbjr dan bu jin ru danbujinru d b j r dbjr"},{"id":"xcode-stepout","appId":"xcode","type":"software","category":"development","name":{"zh":"单步跳出","en":"Step Out"},"description":{"zh":"单步跳出","en":"Step Out"},"windows":"—","mac":"F8","linux":"—","keywords":["单步跳出","Step Out"],"pinyin":"dan bu tiao chu danbutiaochu d b t c dbtc dan bu tiao chu danbutiaochu d b t c dbtc"},{"id":"xcode-continue","appId":"xcode","type":"software","category":"development","name":{"zh":"继续","en":"Continue"},"description":{"zh":"继续","en":"Continue"},"windows":"—","mac":"⌃ ⌘ Y","linux":"—","keywords":["继续","Continue"],"pinyin":"ji xu jixu j x jx ji xu jixu j x jx"},{"id":"xcode-memgraph","appId":"xcode","type":"software","category":"development","name":{"zh":"调试内存图","en":"Debug Memory Graph"},"description":{"zh":"调试内存图","en":"Debug Memory Graph"},"windows":"—","mac":"⌘ ⇧ M","linux":"—","keywords":["调试内存图","Debug Memory Graph"],"pinyin":"tiao shi nei cun tu tiaoshineicuntu t s n c t tsnct tiao shi nei cun tu tiaoshineicuntu t s n c t tsnct"}]
+[
+  {
+    "id": "xcode-build",
+    "appId": "xcode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "构建",
+      "en": "Build"
+    },
+    "description": {
+      "zh": "构建",
+      "en": "Build"
+    },
+    "windows": "—",
+    "mac": "⌘ B",
+    "linux": "—",
+    "keywords": [
+      "构建",
+      "Build"
+    ],
+    "pinyin": "gou jian goujian g j gj gou jian goujian g j gj"
+  },
+  {
+    "id": "xcode-run",
+    "appId": "xcode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "运行",
+      "en": "Run"
+    },
+    "description": {
+      "zh": "运行",
+      "en": "Run"
+    },
+    "windows": "—",
+    "mac": "⌘ R",
+    "linux": "—",
+    "keywords": [
+      "运行",
+      "Run"
+    ],
+    "pinyin": "yun xing yunxing y x yx yun xing yunxing y x yx"
+  },
+  {
+    "id": "xcode-test",
+    "appId": "xcode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "测试",
+      "en": "Test"
+    },
+    "description": {
+      "zh": "测试",
+      "en": "Test"
+    },
+    "windows": "—",
+    "mac": "⌘ U",
+    "linux": "—",
+    "keywords": [
+      "测试",
+      "Test"
+    ],
+    "pinyin": "ce shi ceshi c s cs ce shi ceshi c s cs"
+  },
+  {
+    "id": "xcode-stop",
+    "appId": "xcode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "停止",
+      "en": "Stop"
+    },
+    "description": {
+      "zh": "停止",
+      "en": "Stop"
+    },
+    "windows": "—",
+    "mac": "⌘ .",
+    "linux": "—",
+    "keywords": [
+      "停止",
+      "Stop"
+    ],
+    "pinyin": "ting zhi tingzhi t z tz ting zhi tingzhi t z tz"
+  },
+  {
+    "id": "xcode-buildanalyze",
+    "appId": "xcode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "构建并分析",
+      "en": "Build and Analyze"
+    },
+    "description": {
+      "zh": "构建并分析",
+      "en": "Build and Analyze"
+    },
+    "windows": "—",
+    "mac": "⌘ ⇧ B",
+    "linux": "—",
+    "keywords": [
+      "构建并分析",
+      "Build and Analyze"
+    ],
+    "pinyin": "gou jian bing fen xi goujianbingfenxi g j b f x gjbfx gou jian bing fen xi goujianbingfenxi g j b f x gjbfx"
+  },
+  {
+    "id": "xcode-profile",
+    "appId": "xcode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "性能分析（Instruments）",
+      "en": "Profile (Instruments)"
+    },
+    "description": {
+      "zh": "性能分析（Instruments）",
+      "en": "Profile (Instruments)"
+    },
+    "windows": "—",
+    "mac": "⌘ I",
+    "linux": "—",
+    "keywords": [
+      "性能分析（Instruments）",
+      "Profile (Instruments)"
+    ],
+    "pinyin": "xing neng fen xi （ i n s t r u m e n t s ） xingnengfenxi（instruments） x n f x （ i n s t r u m e n t s ） xnfx（instruments） xing neng fen xi （ i n s t r u m e n t s ） xingnengfenxi（instruments） x n f x （ i n s t r u m e n t s ） xnfx（instruments）"
+  },
+  {
+    "id": "xcode-clean",
+    "appId": "xcode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "清理构建文件夹",
+      "en": "Clean Build Folder"
+    },
+    "description": {
+      "zh": "清理构建文件夹",
+      "en": "Clean Build Folder"
+    },
+    "windows": "—",
+    "mac": "⌘ ⌥ ⇧ K",
+    "linux": "—",
+    "keywords": [
+      "清理构建文件夹",
+      "Clean Build Folder"
+    ],
+    "pinyin": "qing li gou jian wen jian jia qingligoujianwenjianjia q l g j w j j qlgjwjj qing li gou jian wen jian jia qingligoujianwenjianjia q l g j w j j qlgjwjj"
+  },
+  {
+    "id": "xcode-openquickly",
+    "appId": "xcode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "快速打开",
+      "en": "Open Quickly"
+    },
+    "description": {
+      "zh": "快速打开",
+      "en": "Open Quickly"
+    },
+    "windows": "—",
+    "mac": "⌘ ⇧ O",
+    "linux": "—",
+    "keywords": [
+      "快速打开",
+      "Open Quickly"
+    ],
+    "pinyin": "kuai su da kai kuaisudakai k s d k ksdk kuai su da kai kuaisudakai k s d k ksdk"
+  },
+  {
+    "id": "xcode-gotodef",
+    "appId": "xcode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "跳转到定义",
+      "en": "Go to Definition"
+    },
+    "description": {
+      "zh": "跳转到定义",
+      "en": "Go to Definition"
+    },
+    "windows": "—",
+    "mac": "⌃ ⌘ click",
+    "linux": "—",
+    "keywords": [
+      "跳转到定义",
+      "Go to Definition"
+    ],
+    "pinyin": "tiao zhuan dao ding yi tiaozhuandaodingyi t z d d y tzddy tiao zhuan dao ding yi tiaozhuandaodingyi t z d d y tzddy"
+  },
+  {
+    "id": "xcode-navback",
+    "appId": "xcode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "导航后退",
+      "en": "Navigate Back"
+    },
+    "description": {
+      "zh": "导航后退",
+      "en": "Navigate Back"
+    },
+    "windows": "—",
+    "mac": "⌃ ⌘ ←",
+    "linux": "—",
+    "keywords": [
+      "导航后退",
+      "Navigate Back"
+    ],
+    "pinyin": "dao hang hou tui daohanghoutui d h h t dhht dao hang hou tui daohanghoutui d h h t dhht"
+  },
+  {
+    "id": "xcode-navforward",
+    "appId": "xcode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "导航前进",
+      "en": "Navigate Forward"
+    },
+    "description": {
+      "zh": "导航前进",
+      "en": "Navigate Forward"
+    },
+    "windows": "—",
+    "mac": "⌃ ⌘ →",
+    "linux": "—",
+    "keywords": [
+      "导航前进",
+      "Navigate Forward"
+    ],
+    "pinyin": "dao hang qian jin daohangqianjin d h q j dhqj dao hang qian jin daohangqianjin d h q j dhqj"
+  },
+  {
+    "id": "xcode-jumptoline",
+    "appId": "xcode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "跳转到行",
+      "en": "Jump to Line"
+    },
+    "description": {
+      "zh": "跳转到行",
+      "en": "Jump to Line"
+    },
+    "windows": "—",
+    "mac": "⌘ L",
+    "linux": "—",
+    "keywords": [
+      "跳转到行",
+      "Jump to Line"
+    ],
+    "pinyin": "tiao zhuan dao xing tiaozhuandaoxing t z d x tzdx tiao zhuan dao xing tiaozhuandaoxing t z d x tzdx"
+  },
+  {
+    "id": "xcode-findproj",
+    "appId": "xcode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "在项目中查找",
+      "en": "Find in Project"
+    },
+    "description": {
+      "zh": "在项目中查找",
+      "en": "Find in Project"
+    },
+    "windows": "—",
+    "mac": "⌘ ⇧ F",
+    "linux": "—",
+    "keywords": [
+      "在项目中查找",
+      "Find in Project"
+    ],
+    "pinyin": "zai xiang mu zhong cha zhao zaixiangmuzhongchazhao z x m z c z zxmzcz zai xiang mu zhong cha zhao zaixiangmuzhongchazhao z x m z c z zxmzcz"
+  },
+  {
+    "id": "xcode-findfile",
+    "appId": "xcode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "在文件中查找",
+      "en": "Find in File"
+    },
+    "description": {
+      "zh": "在文件中查找",
+      "en": "Find in File"
+    },
+    "windows": "—",
+    "mac": "⌘ F",
+    "linux": "—",
+    "keywords": [
+      "在文件中查找",
+      "Find in File"
+    ],
+    "pinyin": "zai wen jian zhong cha zhao zaiwenjianzhongchazhao z w j z c z zwjzcz zai wen jian zhong cha zhao zaiwenjianzhongchazhao z w j z c z zwjzcz"
+  },
+  {
+    "id": "xcode-findnext",
+    "appId": "xcode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "查找下一个",
+      "en": "Find Next"
+    },
+    "description": {
+      "zh": "查找下一个",
+      "en": "Find Next"
+    },
+    "windows": "—",
+    "mac": "⌘ G",
+    "linux": "—",
+    "keywords": [
+      "查找下一个",
+      "Find Next"
+    ],
+    "pinyin": "cha zhao xia yi ge chazhaoxiayige c z x y g czxyg cha zhao xia yi ge chazhaoxiayige c z x y g czxyg"
+  },
+  {
+    "id": "xcode-findprev",
+    "appId": "xcode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "查找上一个",
+      "en": "Find Previous"
+    },
+    "description": {
+      "zh": "查找上一个",
+      "en": "Find Previous"
+    },
+    "windows": "—",
+    "mac": "⌘ ⇧ G",
+    "linux": "—",
+    "keywords": [
+      "查找上一个",
+      "Find Previous"
+    ],
+    "pinyin": "cha zhao shang yi ge chazhaoshangyige c z s y g czsyg cha zhao shang yi ge chazhaoshangyige c z s y g czsyg"
+  },
+  {
+    "id": "xcode-switchheader",
+    "appId": "xcode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "切换头文件/源文件",
+      "en": "Switch Header/Source"
+    },
+    "description": {
+      "zh": "切换头文件/源文件",
+      "en": "Switch Header/Source"
+    },
+    "windows": "—",
+    "mac": "⌃ ⌘ ↑",
+    "linux": "—",
+    "keywords": [
+      "切换头文件/源文件",
+      "Switch Header/Source"
+    ],
+    "pinyin": "qie huan tou wen jian / yuan wen jian qiehuantouwenjian/yuanwenjian q h t w j / y w j qhtwj/ywj qie huan tou wen jian / yuan wen jian qiehuantouwenjian/yuanwenjian q h t w j / y w j qhtwj/ywj"
+  },
+  {
+    "id": "xcode-callers",
+    "appId": "xcode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "显示调用者",
+      "en": "Show Callers"
+    },
+    "description": {
+      "zh": "显示调用者",
+      "en": "Show Callers"
+    },
+    "windows": "—",
+    "mac": "⌃ 1",
+    "linux": "—",
+    "keywords": [
+      "显示调用者",
+      "Show Callers"
+    ],
+    "pinyin": "xian shi diao yong zhe xianshidiaoyongzhe x s d y z xsdyz xian shi diao yong zhe xianshidiaoyongzhe x s d y z xsdyz"
+  },
+  {
+    "id": "xcode-comment",
+    "appId": "xcode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "注释/取消注释",
+      "en": "Comment / Uncomment"
+    },
+    "description": {
+      "zh": "注释/取消注释",
+      "en": "Comment / Uncomment"
+    },
+    "windows": "—",
+    "mac": "⌘ /",
+    "linux": "—",
+    "keywords": [
+      "注释/取消注释",
+      "Comment / Uncomment"
+    ],
+    "pinyin": "zhu shi / qu xiao zhu shi zhushi/quxiaozhushi z s / q x z s zs/qxzs zhu shi / qu xiao zhu shi zhushi/quxiaozhushi z s / q x z s zs/qxzs"
+  },
+  {
+    "id": "xcode-reindent",
+    "appId": "xcode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "重新缩进选区",
+      "en": "Re-indent Selection"
+    },
+    "description": {
+      "zh": "重新缩进选区",
+      "en": "Re-indent Selection"
+    },
+    "windows": "—",
+    "mac": "⌃ I",
+    "linux": "—",
+    "keywords": [
+      "重新缩进选区",
+      "Re-indent Selection"
+    ],
+    "pinyin": "chong xin suo jin xuan qu chongxinsuojinxuanqu c x s j x q cxsjxq chong xin suo jin xuan qu chongxinsuojinxuanqu c x s j x q cxsjxq"
+  },
+  {
+    "id": "xcode-completions",
+    "appId": "xcode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "显示补全",
+      "en": "Show Completions"
+    },
+    "description": {
+      "zh": "显示补全",
+      "en": "Show Completions"
+    },
+    "windows": "—",
+    "mac": "Esc",
+    "linux": "—",
+    "keywords": [
+      "显示补全",
+      "Show Completions"
+    ],
+    "pinyin": "xian shi bu quan xianshibuquan x s b q xsbq xian shi bu quan xianshibuquan x s b q xsbq"
+  },
+  {
+    "id": "xcode-quickhelp",
+    "appId": "xcode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "显示快速帮助",
+      "en": "Show Quick Help"
+    },
+    "description": {
+      "zh": "显示快速帮助",
+      "en": "Show Quick Help"
+    },
+    "windows": "—",
+    "mac": "⌥ click",
+    "linux": "—",
+    "keywords": [
+      "显示快速帮助",
+      "Show Quick Help"
+    ],
+    "pinyin": "xian shi kuai su bang zhu xianshikuaisubangzhu x s k s b z xsksbz xian shi kuai su bang zhu xianshikuaisubangzhu x s k s b z xsksbz"
+  },
+  {
+    "id": "xcode-assistant",
+    "appId": "xcode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "在辅助编辑器中打开",
+      "en": "Open in Assistant Editor"
+    },
+    "description": {
+      "zh": "在辅助编辑器中打开",
+      "en": "Open in Assistant Editor"
+    },
+    "windows": "—",
+    "mac": "⌥ click",
+    "linux": "—",
+    "keywords": [
+      "在辅助编辑器中打开",
+      "Open in Assistant Editor"
+    ],
+    "pinyin": "zai fu zhu bian ji qi zhong da kai zaifuzhubianjiqizhongdakai z f z b j q z d k zfzbjqzdk zai fu zhu bian ji qi zhong da kai zaifuzhubianjiqizhongdakai z f z b j q z d k zfzbjqzdk"
+  },
+  {
+    "id": "xcode-fold",
+    "appId": "xcode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "折叠方法",
+      "en": "Fold Method"
+    },
+    "description": {
+      "zh": "折叠方法",
+      "en": "Fold Method"
+    },
+    "windows": "—",
+    "mac": "⌘ ⌥ ←",
+    "linux": "—",
+    "keywords": [
+      "折叠方法",
+      "Fold Method"
+    ],
+    "pinyin": "zhe die fang fa zhediefangfa z d f f zdff zhe die fang fa zhediefangfa z d f f zdff"
+  },
+  {
+    "id": "xcode-unfold",
+    "appId": "xcode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "展开方法",
+      "en": "Unfold Method"
+    },
+    "description": {
+      "zh": "展开方法",
+      "en": "Unfold Method"
+    },
+    "windows": "—",
+    "mac": "⌘ ⌥ →",
+    "linux": "—",
+    "keywords": [
+      "展开方法",
+      "Unfold Method"
+    ],
+    "pinyin": "zhan kai fang fa zhankaifangfa z k f f zkff zhan kai fang fa zhankaifangfa z k f f zkff"
+  },
+  {
+    "id": "xcode-foldall",
+    "appId": "xcode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "折叠全部方法",
+      "en": "Fold All Methods"
+    },
+    "description": {
+      "zh": "折叠全部方法",
+      "en": "Fold All Methods"
+    },
+    "windows": "—",
+    "mac": "⌘ ⌥ ⇧ ←",
+    "linux": "—",
+    "keywords": [
+      "折叠全部方法",
+      "Fold All Methods"
+    ],
+    "pinyin": "zhe die quan bu fang fa zhediequanbufangfa z d q b f f zdqbff zhe die quan bu fang fa zhediequanbufangfa z d q b f f zdqbff"
+  },
+  {
+    "id": "xcode-unfoldall",
+    "appId": "xcode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "展开全部方法",
+      "en": "Unfold All Methods"
+    },
+    "description": {
+      "zh": "展开全部方法",
+      "en": "Unfold All Methods"
+    },
+    "windows": "—",
+    "mac": "⌘ ⌥ ⇧ →",
+    "linux": "—",
+    "keywords": [
+      "展开全部方法",
+      "Unfold All Methods"
+    ],
+    "pinyin": "zhan kai quan bu fang fa zhankaiquanbufangfa z k q b f f zkqbff zhan kai quan bu fang fa zhankaiquanbufangfa z k q b f f zkqbff"
+  },
+  {
+    "id": "xcode-navhide",
+    "appId": "xcode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "隐藏/显示导航器",
+      "en": "Hide/Show Navigator"
+    },
+    "description": {
+      "zh": "隐藏/显示导航器",
+      "en": "Hide/Show Navigator"
+    },
+    "windows": "—",
+    "mac": "⌘ 0",
+    "linux": "—",
+    "keywords": [
+      "隐藏/显示导航器",
+      "Hide/Show Navigator"
+    ],
+    "pinyin": "yin cang / xian shi dao hang qi yincang/xianshidaohangqi y c / x s d h q yc/xsdhq yin cang / xian shi dao hang qi yincang/xianshidaohangqi y c / x s d h q yc/xsdhq"
+  },
+  {
+    "id": "xcode-navtab",
+    "appId": "xcode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "导航器标签 1-9",
+      "en": "Navigator Tab 1-9"
+    },
+    "description": {
+      "zh": "导航器标签 1-9",
+      "en": "Navigator Tab 1-9"
+    },
+    "windows": "—",
+    "mac": "⌘ 1 – ⌘ 9",
+    "linux": "—",
+    "keywords": [
+      "导航器标签 1-9",
+      "Navigator Tab 1-9"
+    ],
+    "pinyin": "dao hang qi biao qian   1 - 9 daohangqibiaoqian 1-9 d h q b q   1 - 9 dhqbq 1-9 dao hang qi biao qian   1 - 9 daohangqibiaoqian 1-9 d h q b q   1 - 9 dhqbq 1-9"
+  },
+  {
+    "id": "xcode-inspectorhide",
+    "appId": "xcode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "隐藏/显示检查器",
+      "en": "Hide/Show Inspector"
+    },
+    "description": {
+      "zh": "隐藏/显示检查器",
+      "en": "Hide/Show Inspector"
+    },
+    "windows": "—",
+    "mac": "⌘ ⌥ 0",
+    "linux": "—",
+    "keywords": [
+      "隐藏/显示检查器",
+      "Hide/Show Inspector"
+    ],
+    "pinyin": "yin cang / xian shi jian cha qi yincang/xianshijianchaqi y c / x s j c q yc/xsjcq yin cang / xian shi jian cha qi yincang/xianshijianchaqi y c / x s j c q yc/xsjcq"
+  },
+  {
+    "id": "xcode-debugarea",
+    "appId": "xcode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "显示/隐藏调试区",
+      "en": "Show/Hide Debug Area"
+    },
+    "description": {
+      "zh": "显示/隐藏调试区",
+      "en": "Show/Hide Debug Area"
+    },
+    "windows": "—",
+    "mac": "⌘ ⇧ Y",
+    "linux": "—",
+    "keywords": [
+      "显示/隐藏调试区",
+      "Show/Hide Debug Area"
+    ],
+    "pinyin": "xian shi / yin cang tiao shi qu xianshi/yincangtiaoshiqu x s / y c t s q xs/yctsq xian shi / yin cang tiao shi qu xianshi/yincangtiaoshiqu x s / y c t s q xs/yctsq"
+  },
+  {
+    "id": "xcode-console",
+    "appId": "xcode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "激活控制台",
+      "en": "Activate Console"
+    },
+    "description": {
+      "zh": "激活控制台",
+      "en": "Activate Console"
+    },
+    "windows": "—",
+    "mac": "⌘ ⇧ C",
+    "linux": "—",
+    "keywords": [
+      "激活控制台",
+      "Activate Console"
+    ],
+    "pinyin": "ji huo kong zhi tai jihuokongzhitai j h k z t jhkzt ji huo kong zhi tai jihuokongzhitai j h k z t jhkzt"
+  },
+  {
+    "id": "xcode-clearconsole",
+    "appId": "xcode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "清空控制台",
+      "en": "Clear Console"
+    },
+    "description": {
+      "zh": "清空控制台",
+      "en": "Clear Console"
+    },
+    "windows": "—",
+    "mac": "⌘ K",
+    "linux": "—",
+    "keywords": [
+      "清空控制台",
+      "Clear Console"
+    ],
+    "pinyin": "qing kong kong zhi tai qingkongkongzhitai q k k z t qkkzt qing kong kong zhi tai qingkongkongzhitai q k k z t qkkzt"
+  },
+  {
+    "id": "xcode-standardeditor",
+    "appId": "xcode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "显示标准编辑器",
+      "en": "Show Standard Editor"
+    },
+    "description": {
+      "zh": "显示标准编辑器",
+      "en": "Show Standard Editor"
+    },
+    "windows": "—",
+    "mac": "⌘ ↩",
+    "linux": "—",
+    "keywords": [
+      "显示标准编辑器",
+      "Show Standard Editor"
+    ],
+    "pinyin": "xian shi biao zhun bian ji qi xianshibiaozhunbianjiqi x s b z b j q xsbzbjq xian shi biao zhun bian ji qi xianshibiaozhunbianjiqi x s b z b j q xsbzbjq"
+  },
+  {
+    "id": "xcode-versioneditor",
+    "appId": "xcode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "显示版本编辑器",
+      "en": "Show Version Editor"
+    },
+    "description": {
+      "zh": "显示版本编辑器",
+      "en": "Show Version Editor"
+    },
+    "windows": "—",
+    "mac": "⌘ ⌥ ⇧ ↩",
+    "linux": "—",
+    "keywords": [
+      "显示版本编辑器",
+      "Show Version Editor"
+    ],
+    "pinyin": "xian shi ban ben bian ji qi xianshibanbenbianjiqi x s b b b j q xsbbbjq xian shi ban ben bian ji qi xianshibanbenbianjiqi x s b b b j q xsbbbjq"
+  },
+  {
+    "id": "xcode-breakpoint",
+    "appId": "xcode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "添加断点",
+      "en": "Add Breakpoint"
+    },
+    "description": {
+      "zh": "添加断点",
+      "en": "Add Breakpoint"
+    },
+    "windows": "—",
+    "mac": "⌘ \\",
+    "linux": "—",
+    "keywords": [
+      "添加断点",
+      "Add Breakpoint"
+    ],
+    "pinyin": "tian jia duan dian tianjiaduandian t j d d tjdd tian jia duan dian tianjiaduandian t j d d tjdd"
+  },
+  {
+    "id": "xcode-stepover",
+    "appId": "xcode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "单步跳过",
+      "en": "Step Over"
+    },
+    "description": {
+      "zh": "单步跳过",
+      "en": "Step Over"
+    },
+    "windows": "—",
+    "mac": "F6",
+    "linux": "—",
+    "keywords": [
+      "单步跳过",
+      "Step Over"
+    ],
+    "pinyin": "dan bu tiao guo danbutiaoguo d b t g dbtg dan bu tiao guo danbutiaoguo d b t g dbtg"
+  },
+  {
+    "id": "xcode-stepinto",
+    "appId": "xcode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "单步进入",
+      "en": "Step Into"
+    },
+    "description": {
+      "zh": "单步进入",
+      "en": "Step Into"
+    },
+    "windows": "—",
+    "mac": "F7",
+    "linux": "—",
+    "keywords": [
+      "单步进入",
+      "Step Into"
+    ],
+    "pinyin": "dan bu jin ru danbujinru d b j r dbjr dan bu jin ru danbujinru d b j r dbjr"
+  },
+  {
+    "id": "xcode-stepout",
+    "appId": "xcode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "单步跳出",
+      "en": "Step Out"
+    },
+    "description": {
+      "zh": "单步跳出",
+      "en": "Step Out"
+    },
+    "windows": "—",
+    "mac": "F8",
+    "linux": "—",
+    "keywords": [
+      "单步跳出",
+      "Step Out"
+    ],
+    "pinyin": "dan bu tiao chu danbutiaochu d b t c dbtc dan bu tiao chu danbutiaochu d b t c dbtc"
+  },
+  {
+    "id": "xcode-continue",
+    "appId": "xcode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "继续",
+      "en": "Continue"
+    },
+    "description": {
+      "zh": "继续",
+      "en": "Continue"
+    },
+    "windows": "—",
+    "mac": "⌃ ⌘ Y",
+    "linux": "—",
+    "keywords": [
+      "继续",
+      "Continue"
+    ],
+    "pinyin": "ji xu jixu j x jx ji xu jixu j x jx"
+  },
+  {
+    "id": "xcode-memgraph",
+    "appId": "xcode",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "调试内存图",
+      "en": "Debug Memory Graph"
+    },
+    "description": {
+      "zh": "调试内存图",
+      "en": "Debug Memory Graph"
+    },
+    "windows": "—",
+    "mac": "⌘ ⇧ M",
+    "linux": "—",
+    "keywords": [
+      "调试内存图",
+      "Debug Memory Graph"
+    ],
+    "pinyin": "tiao shi nei cun tu tiaoshineicuntu t s n c t tsnct tiao shi nei cun tu tiaoshineicuntu t s n c t tsnct"
+  }
+]

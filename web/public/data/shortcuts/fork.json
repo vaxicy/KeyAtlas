@@ -1,0 +1,561 @@
+[
+  {
+    "id": "fork-commit",
+    "appId": "fork",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Commit",
+      "zh": "提交"
+    },
+    "description": {
+      "en": "Commit changes",
+      "zh": "提交更改"
+    },
+    "windows": "Ctrl + Enter",
+    "mac": "⌘ ↩",
+    "linux": "Ctrl + Enter",
+    "keywords": [
+      "commit",
+      "提交"
+    ],
+    "pinyin": "ti jiao tijiao t j tj ti jiao tijiao t j tj"
+  },
+  {
+    "id": "fork-stage",
+    "appId": "fork",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Stage",
+      "zh": "暂存"
+    },
+    "description": {
+      "en": "Stage selection",
+      "zh": "暂存选中"
+    },
+    "windows": "Ctrl + Alt + S",
+    "mac": "⌥ ⌘ S",
+    "linux": "Ctrl + Alt + S",
+    "keywords": [
+      "stage",
+      "暂存"
+    ],
+    "pinyin": "zan cun zancun z c zc zan cun zancun z c zc"
+  },
+  {
+    "id": "fork-unstage",
+    "appId": "fork",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Unstage",
+      "zh": "取消暂存"
+    },
+    "description": {
+      "en": "Unstage selection",
+      "zh": "取消暂存"
+    },
+    "windows": "Ctrl + Alt + U",
+    "mac": "⌥ ⌘ U",
+    "linux": "Ctrl + Alt + U",
+    "keywords": [
+      "unstage",
+      "取消暂存"
+    ],
+    "pinyin": "qu xiao zan cun quxiaozancun q x z c qxzc qu xiao zan cun quxiaozancun q x z c qxzc"
+  },
+  {
+    "id": "fork-push",
+    "appId": "fork",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Push",
+      "zh": "推送"
+    },
+    "description": {
+      "en": "Push to remote",
+      "zh": "推送到远程"
+    },
+    "windows": "Ctrl + Alt + P",
+    "mac": "⌥ ⌘ P",
+    "linux": "Ctrl + Alt + P",
+    "keywords": [
+      "push",
+      "推送"
+    ],
+    "pinyin": "tui song tuisong t s ts tui song tuisong t s ts"
+  },
+  {
+    "id": "fork-pull",
+    "appId": "fork",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Pull",
+      "zh": "拉取"
+    },
+    "description": {
+      "en": "Pull from remote",
+      "zh": "从远程拉取"
+    },
+    "windows": "Ctrl + Alt + K",
+    "mac": "⌥ ⌘ K",
+    "linux": "Ctrl + Alt + K",
+    "keywords": [
+      "pull",
+      "拉取"
+    ],
+    "pinyin": "la qu laqu l q lq la qu laqu l q lq"
+  },
+  {
+    "id": "fork-fetch",
+    "appId": "fork",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Fetch",
+      "zh": "获取"
+    },
+    "description": {
+      "en": "Fetch from remote",
+      "zh": "从远程获取"
+    },
+    "windows": "Ctrl + Alt + F",
+    "mac": "⌥ ⌘ F",
+    "linux": "Ctrl + Alt + F",
+    "keywords": [
+      "fetch",
+      "获取"
+    ],
+    "pinyin": "huo qu huoqu h q hq huo qu huoqu h q hq"
+  },
+  {
+    "id": "fork-new-branch",
+    "appId": "fork",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "New branch",
+      "zh": "新建分支"
+    },
+    "description": {
+      "en": "Create a branch",
+      "zh": "新建分支"
+    },
+    "windows": "Ctrl + Shift + N",
+    "mac": "⇧ ⌘ N",
+    "linux": "Ctrl + Shift + N",
+    "keywords": [
+      "branch",
+      "分支"
+    ],
+    "pinyin": "xin jian fen zhi xinjianfenzhi x j f z xjfz fen zhi fenzhi f z fz"
+  },
+  {
+    "id": "fork-merge",
+    "appId": "fork",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Merge",
+      "zh": "合并"
+    },
+    "description": {
+      "en": "Merge a branch",
+      "zh": "合并分支"
+    },
+    "windows": "Ctrl + Alt + M",
+    "mac": "⌥ ⌘ M",
+    "linux": "Ctrl + Alt + M",
+    "keywords": [
+      "merge",
+      "合并"
+    ],
+    "pinyin": "he bing hebing h b hb he bing hebing h b hb"
+  },
+  {
+    "id": "fork-rebase",
+    "appId": "fork",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Rebase",
+      "zh": "变基"
+    },
+    "description": {
+      "en": "Rebase a branch",
+      "zh": "变基分支"
+    },
+    "windows": "Ctrl + Alt + R",
+    "mac": "⌥ ⌘ R",
+    "linux": "Ctrl + Alt + R",
+    "keywords": [
+      "rebase",
+      "变基"
+    ],
+    "pinyin": "bian ji bianji b j bj bian ji bianji b j bj"
+  },
+  {
+    "id": "fork-stash",
+    "appId": "fork",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Stash",
+      "zh": "贮藏"
+    },
+    "description": {
+      "en": "Stash changes",
+      "zh": "贮藏更改"
+    },
+    "windows": "Ctrl + Alt + H",
+    "mac": "⌥ ⌘ H",
+    "linux": "Ctrl + Alt + H",
+    "keywords": [
+      "stash",
+      "贮藏"
+    ],
+    "pinyin": "zhu cang zhucang z c zc zhu cang zhucang z c zc"
+  },
+  {
+    "id": "fork-amend",
+    "appId": "fork",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Amend",
+      "zh": "修正提交"
+    },
+    "description": {
+      "en": "Amend last commit",
+      "zh": "修正上次提交"
+    },
+    "windows": "Ctrl + Alt + A",
+    "mac": "⌥ ⌘ A",
+    "linux": "Ctrl + Alt + A",
+    "keywords": [
+      "amend",
+      "修正"
+    ],
+    "pinyin": "xiu zheng ti jiao xiuzhengtijiao x z t j xztj xiu zheng xiuzheng x z xz"
+  },
+  {
+    "id": "fork-preferences",
+    "appId": "fork",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Preferences",
+      "zh": "偏好设置"
+    },
+    "description": {
+      "en": "Open preferences",
+      "zh": "打开偏好设置"
+    },
+    "windows": "Ctrl + ,",
+    "mac": "⌘ ,",
+    "linux": "Ctrl + ,",
+    "keywords": [
+      "preferences",
+      "设置"
+    ],
+    "pinyin": "pian hao she zhi pianhaoshezhi p h s z phsz she zhi shezhi s z sz"
+  },
+  {
+    "id": "fork-find",
+    "appId": "fork",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Find",
+      "zh": "查找"
+    },
+    "description": {
+      "en": "Find in repository",
+      "zh": "在仓库查找"
+    },
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
+    "linux": "Ctrl + F",
+    "keywords": [
+      "find",
+      "查找"
+    ],
+    "pinyin": "cha zhao chazhao c z cz cha zhao chazhao c z cz"
+  },
+  {
+    "id": "fork-new-tab",
+    "appId": "fork",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "New tab",
+      "zh": "新标签"
+    },
+    "description": {
+      "en": "Open new tab",
+      "zh": "打开新标签"
+    },
+    "windows": "Ctrl + T",
+    "mac": "⌘ T",
+    "linux": "Ctrl + T",
+    "keywords": [
+      "tab",
+      "标签"
+    ],
+    "pinyin": "xin biao qian xinbiaoqian x b q xbq biao qian biaoqian b q bq"
+  },
+  {
+    "id": "fork-close-tab",
+    "appId": "fork",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Close tab",
+      "zh": "关闭标签"
+    },
+    "description": {
+      "en": "Close current tab",
+      "zh": "关闭当前标签"
+    },
+    "windows": "Ctrl + W",
+    "mac": "⌘ W",
+    "linux": "Ctrl + W",
+    "keywords": [
+      "close",
+      "tab",
+      "关闭"
+    ],
+    "pinyin": "guan bi biao qian guanbibiaoqian g b b q gbbq guan bi guanbi g b gb"
+  },
+  {
+    "id": "fork-next-tab",
+    "appId": "fork",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Next tab",
+      "zh": "下一标签"
+    },
+    "description": {
+      "en": "Next tab",
+      "zh": "下一标签"
+    },
+    "windows": "Ctrl + Tab",
+    "mac": "⌃ Tab",
+    "linux": "Ctrl + Tab",
+    "keywords": [
+      "next",
+      "tab",
+      "标签"
+    ],
+    "pinyin": "xia yi biao qian xiayibiaoqian x y b q xybq biao qian biaoqian b q bq"
+  },
+  {
+    "id": "fork-prev-tab",
+    "appId": "fork",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Prev tab",
+      "zh": "上一标签"
+    },
+    "description": {
+      "en": "Previous tab",
+      "zh": "上一标签"
+    },
+    "windows": "Ctrl + Shift + Tab",
+    "mac": "⇧ ⌃ Tab",
+    "linux": "Ctrl + Shift + Tab",
+    "keywords": [
+      "prev",
+      "tab",
+      "标签"
+    ],
+    "pinyin": "shang yi biao qian shangyibiaoqian s y b q sybq biao qian biaoqian b q bq"
+  },
+  {
+    "id": "fork-refresh",
+    "appId": "fork",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Refresh",
+      "zh": "刷新"
+    },
+    "description": {
+      "en": "Refresh repository",
+      "zh": "刷新仓库"
+    },
+    "windows": "Ctrl + R",
+    "mac": "⌘ R",
+    "linux": "Ctrl + R",
+    "keywords": [
+      "refresh",
+      "刷新"
+    ],
+    "pinyin": "shua xin shuaxin s x sx shua xin shuaxin s x sx"
+  },
+  {
+    "id": "fork-view-commits",
+    "appId": "fork",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Commits view",
+      "zh": "提交视图"
+    },
+    "description": {
+      "en": "Show commits view",
+      "zh": "显示提交视图"
+    },
+    "windows": "Ctrl + 1",
+    "mac": "⌘ 1",
+    "linux": "Ctrl + 1",
+    "keywords": [
+      "commits",
+      "view",
+      "提交"
+    ],
+    "pinyin": "ti jiao shi tu tijiaoshitu t j s t tjst ti jiao tijiao t j tj"
+  },
+  {
+    "id": "fork-view-branches",
+    "appId": "fork",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Branches view",
+      "zh": "分支视图"
+    },
+    "description": {
+      "en": "Show branches view",
+      "zh": "显示分支视图"
+    },
+    "windows": "Ctrl + 2",
+    "mac": "⌘ 2",
+    "linux": "Ctrl + 2",
+    "keywords": [
+      "branches",
+      "view",
+      "分支"
+    ],
+    "pinyin": "fen zhi shi tu fenzhishitu f z s t fzst fen zhi fenzhi f z fz"
+  },
+  {
+    "id": "fork-view-remotes",
+    "appId": "fork",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Remotes view",
+      "zh": "远程视图"
+    },
+    "description": {
+      "en": "Show remotes view",
+      "zh": "显示远程视图"
+    },
+    "windows": "Ctrl + 3",
+    "mac": "⌘ 3",
+    "linux": "Ctrl + 3",
+    "keywords": [
+      "remotes",
+      "view",
+      "远程"
+    ],
+    "pinyin": "yuan cheng shi tu yuanchengshitu y c s t ycst yuan cheng yuancheng y c yc"
+  },
+  {
+    "id": "fork-view-stashes",
+    "appId": "fork",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Stashes view",
+      "zh": "贮藏视图"
+    },
+    "description": {
+      "en": "Show stashes view",
+      "zh": "显示贮藏视图"
+    },
+    "windows": "Ctrl + 4",
+    "mac": "⌘ 4",
+    "linux": "Ctrl + 4",
+    "keywords": [
+      "stashes",
+      "view",
+      "贮藏"
+    ],
+    "pinyin": "zhu cang shi tu zhucangshitu z c s t zcst zhu cang zhucang z c zc"
+  },
+  {
+    "id": "fork-view-tags",
+    "appId": "fork",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Tags view",
+      "zh": "标签视图"
+    },
+    "description": {
+      "en": "Show tags view",
+      "zh": "显示标签视图"
+    },
+    "windows": "Ctrl + 5",
+    "mac": "⌘ 5",
+    "linux": "Ctrl + 5",
+    "keywords": [
+      "tags",
+      "view",
+      "标签"
+    ],
+    "pinyin": "biao qian shi tu biaoqianshitu b q s t bqst biao qian biaoqian b q bq"
+  },
+  {
+    "id": "fork-editor",
+    "appId": "fork",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Open in editor",
+      "zh": "在编辑器打开"
+    },
+    "description": {
+      "en": "Open file in editor",
+      "zh": "在编辑器打开文件"
+    },
+    "windows": "Ctrl + Alt + O",
+    "mac": "⌥ ⌘ O",
+    "linux": "Ctrl + Alt + O",
+    "keywords": [
+      "editor",
+      "打开"
+    ],
+    "pinyin": "zai bian ji qi da kai zaibianjiqidakai z b j q d k zbjqdk da kai dakai d k dk"
+  },
+  {
+    "id": "fork-resolve",
+    "appId": "fork",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Resolve conflicts",
+      "zh": "解决冲突"
+    },
+    "description": {
+      "en": "Open merge conflict tool",
+      "zh": "打开冲突解决"
+    },
+    "windows": "Ctrl + Alt + E",
+    "mac": "⌥ ⌘ E",
+    "linux": "Ctrl + Alt + E",
+    "keywords": [
+      "resolve",
+      "conflict",
+      "冲突"
+    ],
+    "pinyin": "jie jue chong tu jiejuechongtu j j c t jjct chong tu chongtu c t ct"
+  }
+]

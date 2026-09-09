@@ -1,1 +1,50 @@
-[{"id":"deepseek-send","appId":"deepseek","type":"software","category":"ai","name":{"zh":"发送消息","en":"Send Message"},"description":{"zh":"在对话框按 Enter 直接发送（原生默认）","en":"Press Enter to send immediately (native default)"},"windows":"Enter","mac":"Enter","linux":"Enter","keywords":["发送","send","回车","消息"],"pinyin":"fa song xiao xi fasongxiaoxi f s x x fsxx fa song   hui che   xiao xi fasong huiche xiaoxi f s   h c   x x fs hc xx"},{"id":"deepseek-newline","appId":"deepseek","type":"software","category":"ai","name":{"zh":"换行（不发送）","en":"New Line"},"description":{"zh":"在网页端插入换行而不发送（唯一换行方式）","en":"Insert a newline without sending (only way in the web app)"},"windows":"Shift + Enter","mac":"Shift + Enter","linux":"Shift + Enter","keywords":["换行","newline","回车","发送"],"pinyin":"huan hang （ bu fa song ） huanhang（bufasong） h h （ b f s ） hh（bfs） huan hang   hui che   fa song huanhang huiche fasong h h   h c   f s hh hc fs"}]
+[
+  {
+    "id": "deepseek-send",
+    "appId": "deepseek",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "发送消息",
+      "en": "Send Message"
+    },
+    "description": {
+      "zh": "在对话框按 Enter 直接发送（原生默认）",
+      "en": "Press Enter to send immediately (native default)"
+    },
+    "windows": "Enter",
+    "mac": "Enter",
+    "linux": "Enter",
+    "keywords": [
+      "发送",
+      "send",
+      "回车",
+      "消息"
+    ],
+    "pinyin": "fa song xiao xi fasongxiaoxi f s x x fsxx fa song   hui che   xiao xi fasong huiche xiaoxi f s   h c   x x fs hc xx"
+  },
+  {
+    "id": "deepseek-newline",
+    "appId": "deepseek",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "换行（不发送）",
+      "en": "New Line"
+    },
+    "description": {
+      "zh": "在网页端插入换行而不发送（唯一换行方式）",
+      "en": "Insert a newline without sending (only way in the web app)"
+    },
+    "windows": "Shift + Enter",
+    "mac": "Shift + Enter",
+    "linux": "Shift + Enter",
+    "keywords": [
+      "换行",
+      "newline",
+      "回车",
+      "发送"
+    ],
+    "pinyin": "huan hang （ bu fa song ） huanhang（bufasong） h h （ b f s ） hh（bfs） huan hang   hui che   fa song huanhang huiche fasong h h   h c   f s hh hc fs"
+  }
+]

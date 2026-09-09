@@ -1,0 +1,267 @@
+[
+  {
+    "id": "kimi-new-chat",
+    "appId": "kimi",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "New chat",
+      "zh": "新对话"
+    },
+    "description": {
+      "en": "New conversation",
+      "zh": "新对话"
+    },
+    "windows": "Ctrl + Shift + O",
+    "mac": "Ctrl + Shift + O",
+    "linux": "Ctrl + Shift + O",
+    "keywords": [
+      "new",
+      "chat",
+      "对话"
+    ],
+    "pinyin": "xin dui hua xinduihua x d h xdh dui hua duihua d h dh"
+  },
+  {
+    "id": "kimi-send",
+    "appId": "kimi",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Send",
+      "zh": "发送"
+    },
+    "description": {
+      "en": "Send message",
+      "zh": "发送消息"
+    },
+    "windows": "Enter",
+    "mac": "Enter",
+    "linux": "Enter",
+    "keywords": [
+      "send",
+      "发送"
+    ],
+    "pinyin": "fa song fasong f s fs fa song fasong f s fs"
+  },
+  {
+    "id": "kimi-clear",
+    "appId": "kimi",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Clear",
+      "zh": "清空"
+    },
+    "description": {
+      "en": "Clear context",
+      "zh": "清空上下文"
+    },
+    "windows": "Ctrl + Shift + Delete",
+    "mac": "Ctrl + Shift + Delete",
+    "linux": "Ctrl + Shift + Delete",
+    "keywords": [
+      "clear",
+      "清空"
+    ],
+    "pinyin": "qing kong qingkong q k qk qing kong qingkong q k qk"
+  },
+  {
+    "id": "kimi-search",
+    "appId": "kimi",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Search",
+      "zh": "搜索"
+    },
+    "description": {
+      "en": "Search",
+      "zh": "搜索"
+    },
+    "windows": "Ctrl + F",
+    "mac": "Ctrl + F",
+    "linux": "Ctrl + F",
+    "keywords": [
+      "search",
+      "搜索"
+    ],
+    "pinyin": "sou suo sousuo s s ss sou suo sousuo s s ss"
+  },
+  {
+    "id": "kimi-copy",
+    "appId": "kimi",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Copy",
+      "zh": "复制"
+    },
+    "description": {
+      "en": "Copy reply",
+      "zh": "复制回复"
+    },
+    "windows": "Ctrl + C",
+    "mac": "Ctrl + C",
+    "linux": "Ctrl + C",
+    "keywords": [
+      "copy",
+      "复制"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "kimi-settings",
+    "appId": "kimi",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Settings",
+      "zh": "设置"
+    },
+    "description": {
+      "en": "Settings",
+      "zh": "设置"
+    },
+    "windows": "Ctrl + ,",
+    "mac": "Ctrl + ,",
+    "linux": "Ctrl + ,",
+    "keywords": [
+      "settings",
+      "设置"
+    ],
+    "pinyin": "she zhi shezhi s z sz she zhi shezhi s z sz"
+  },
+  {
+    "id": "kimi-sidebar",
+    "appId": "kimi",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Sidebar",
+      "zh": "侧栏"
+    },
+    "description": {
+      "en": "Toggle sidebar",
+      "zh": "切换侧栏"
+    },
+    "windows": "Ctrl + \\",
+    "mac": "Ctrl + \\",
+    "linux": "Ctrl + \\",
+    "keywords": [
+      "sidebar",
+      "侧栏"
+    ],
+    "pinyin": "ce lan celan c l cl ce lan celan c l cl"
+  },
+  {
+    "id": "kimi-fullscreen",
+    "appId": "kimi",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Fullscreen",
+      "zh": "全屏"
+    },
+    "description": {
+      "en": "Fullscreen",
+      "zh": "全屏"
+    },
+    "windows": "F",
+    "mac": "F",
+    "linux": "F",
+    "keywords": [
+      "fullscreen",
+      "全屏"
+    ],
+    "pinyin": "quan ping quanping q p qp quan ping quanping q p qp"
+  },
+  {
+    "id": "kimi-help",
+    "appId": "kimi",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Help",
+      "zh": "帮助"
+    },
+    "description": {
+      "en": "Shortcuts help",
+      "zh": "快捷键帮助"
+    },
+    "windows": "Ctrl + /",
+    "mac": "Ctrl + /",
+    "linux": "Ctrl + /",
+    "keywords": [
+      "help",
+      "快捷键"
+    ],
+    "pinyin": "bang zhu bangzhu b z bz kuai jie jian kuaijiejian k j j kjj"
+  },
+  {
+    "id": "kimi-upload",
+    "appId": "kimi",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Upload",
+      "zh": "上传"
+    },
+    "description": {
+      "en": "Upload file",
+      "zh": "上传文件"
+    },
+    "windows": "Ctrl + Shift + U",
+    "mac": "Ctrl + Shift + U",
+    "linux": "Ctrl + Shift + U",
+    "keywords": [
+      "upload",
+      "上传"
+    ],
+    "pinyin": "shang chuan shangchuan s c sc shang chuan shangchuan s c sc"
+  },
+  {
+    "id": "kimi-export",
+    "appId": "kimi",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Export",
+      "zh": "导出"
+    },
+    "description": {
+      "en": "Export chat",
+      "zh": "导出对话"
+    },
+    "windows": "Ctrl + Shift + E",
+    "mac": "Ctrl + Shift + E",
+    "linux": "Ctrl + Shift + E",
+    "keywords": [
+      "export",
+      "导出"
+    ],
+    "pinyin": "dao chu daochu d c dc dao chu daochu d c dc"
+  },
+  {
+    "id": "kimi-theme",
+    "appId": "kimi",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Theme",
+      "zh": "主题"
+    },
+    "description": {
+      "en": "Toggle theme",
+      "zh": "切换主题"
+    },
+    "windows": "Ctrl + Shift + T",
+    "mac": "Ctrl + Shift + T",
+    "linux": "Ctrl + Shift + T",
+    "keywords": [
+      "theme",
+      "主题"
+    ],
+    "pinyin": "zhu ti zhuti z t zt zhu ti zhuti z t zt"
+  }
+]

@@ -1,1 +1,777 @@
-[{"id":"notion-newpage","appId":"notion","type":"software","category":"productivity","name":{"zh":"新建页面","en":"New Page"},"description":{"zh":"创建一个新页面","en":"Create a new page"},"windows":"Ctrl + N","mac":"⌘ N","linux":"Ctrl + N","keywords":["新建","new page"],"pinyin":"xin jian ye mian xinjianyemian x j y m xjym xin jian xinjian x j xj"},{"id":"notion-search","appId":"notion","type":"software","category":"productivity","name":{"zh":"搜索（查找并替换）","en":"Search (Find & Replace)"},"description":{"zh":"打开全局搜索 / 查找替换","en":"Open global search / Find & Replace"},"windows":"Ctrl + P","mac":"⌘ P","linux":"Ctrl + P","keywords":["搜索","search","查找","find"],"pinyin":"sou suo （ cha zhao bing ti huan ） sousuo（chazhaobingtihuan） s s （ c z b t h ） ss（czbth） sou suo   cha zhao sousuo chazhao s s   c z ss cz"},{"id":"notion-slash-menu","appId":"notion","type":"software","category":"productivity","name":{"zh":"命令菜单（斜杠菜单）","en":"Slash Command Menu"},"description":{"zh":"输入斜杠打开块类型选择菜单","en":"Open slash command menu to insert blocks"},"windows":" / ","mac":" / ","linux":" / ","keywords":["命令","command","slash","斜杠","块菜单"],"pinyin":"ming ling cai dan （ xie gang cai dan ） minglingcaidan（xiegangcaidan） m l c d （ x g c d ） mlcd（xgcd） ming ling   xie gang   kuai cai dan mingling xiegang kuaicaidan m l   x g   k c d ml xg kcd"},{"id":"notion-bold","appId":"notion","type":"software","category":"productivity","name":{"zh":"加粗","en":"Bold"},"description":{"zh":"将选中文字加粗","en":"Make selected text bold"},"windows":"Ctrl + B","mac":"⌘ B","linux":"Ctrl + B","keywords":["加粗","bold"],"pinyin":"jia cu jiacu j c jc jia cu jiacu j c jc"},{"id":"notion-italic","appId":"notion","type":"software","category":"productivity","name":{"zh":"斜体","en":"Italic"},"description":{"zh":"将选中文字变为斜体","en":"Make selected text italic"},"windows":"Ctrl + I","mac":"⌘ I","linux":"Ctrl + I","keywords":["斜体","italic"],"pinyin":"xie ti xieti x t xt xie ti xieti x t xt"},{"id":"notion-underline","appId":"notion","type":"software","category":"productivity","name":{"zh":"下划线","en":"Underline"},"description":{"zh":"为文字添加下划线","en":"Underline text"},"windows":"Ctrl + U","mac":"⌘ U","linux":"Ctrl + U","keywords":["下划线","underline"],"pinyin":"xia hua xian xiahuaxian x h x xhx xia hua xian xiahuaxian x h x xhx"},{"id":"notion-strikethrough","appId":"notion","type":"software","category":"productivity","name":{"zh":"删除线","en":"Strikethrough"},"description":{"zh":"为文字添加删除线","en":"Strikethrough text"},"windows":"Ctrl + Shift + S","mac":"⌘ ⇧ S","linux":"Ctrl + Shift + S","keywords":["删除线","strikethrough","划掉"],"pinyin":"shan chu xian shanchuxian s c x scx shan chu xian   hua diao shanchuxian huadiao s c x   h d scx hd"},{"id":"notion-code-text","appId":"notion","type":"software","category":"productivity","name":{"zh":"行内代码","en":"Inline Code"},"description":{"zh":"将文字转为等宽行内代码格式","en":"Format text as inline code (monospace)"},"windows":"Ctrl + E","mac":"⌘ E","linux":"Ctrl + E","keywords":["代码","code","行内代码","inline code"],"pinyin":"xing nei dai ma xingneidaima x n d m xndm dai ma   xing nei dai ma daima xingneidaima d m   x n d m dm xndm"},{"id":"notion-link","appId":"notion","type":"software","category":"productivity","name":{"zh":"插入链接","en":"Add Link"},"description":{"zh":"为选中文字添加超链接","en":"Add hyperlink to selected text"},"windows":"Ctrl + K","mac":"⌘ K","linux":"Ctrl + K","keywords":["链接","link","超链接"],"pinyin":"cha ru lian jie charulianjie c r l j crlj lian jie   chao lian jie lianjie chaolianjie l j   c l j lj clj"},{"id":"notion-heading1","appId":"notion","type":"software","category":"productivity","name":{"zh":"一级标题","en":"Heading 1"},"description":{"zh":"将当前块设为一级标题","en":"Turn block into Heading 1"},"windows":"Ctrl + 1","mac":"⌘ 1","linux":"Ctrl + 1","keywords":["标题","h1","heading","一级标题"],"pinyin":"yi ji biao ti yijibiaoti y j b t yjbt biao ti   yi ji biao ti biaoti yijibiaoti b t   y j b t bt yjbt"},{"id":"notion-heading2","appId":"notion","type":"software","category":"productivity","name":{"zh":"二级标题","en":"Heading 2"},"description":{"zh":"将当前块设为二级标题","en":"Turn block into Heading 2"},"windows":"Ctrl + 2","mac":"⌘ 2","linux":"Ctrl + 2","keywords":["标题","h2","heading","二级标题"],"pinyin":"er ji biao ti erjibiaoti e j b t ejbt biao ti   er ji biao ti biaoti erjibiaoti b t   e j b t bt ejbt"},{"id":"notion-heading3","appId":"notion","type":"software","category":"productivity","name":{"zh":"三级标题","en":"Heading 3"},"description":{"zh":"将当前块设为三级标题","en":"Turn block into Heading 3"},"windows":"Ctrl + 3","mac":"⌘ 3","linux":"Ctrl + 3","keywords":["标题","h3","heading","三级标题"],"pinyin":"san ji biao ti sanjibiaoti s j b t sjbt biao ti   san ji biao ti biaoti sanjibiaoti b t   s j b t bt sjbt"},{"id":"notion-bullet-list","appId":"notion","type":"software","category":"productivity","name":{"zh":"无序列表（项目符号）","en":"Bullet List"},"description":{"zh":"创建项目符号列表","en":"Create bullet list"},"windows":"Ctrl + 8","mac":"⌘ 8","linux":"Ctrl + 8","keywords":["列表","bullet","项目符号","无序列表"],"pinyin":"wu xu lie biao （ xiang mu fu hao ） wuxuliebiao（xiangmufuhao） w x l b （ x m f h ） wxlb（xmfh） lie biao   xiang mu fu hao   wu xu lie biao liebiao xiangmufuhao wuxuliebiao l b   x m f h   w x l b lb xmfh wxlb"},{"id":"notion-numbered-list","appId":"notion","type":"software","category":"productivity","name":{"zh":"有序列表（编号列表）","en":"Numbered List"},"description":{"zh":"创建编号列表","en":"Create numbered list"},"windows":"Ctrl + 7","mac":"⌘ 7","linux":"Ctrl + 7","keywords":["编号","number","有序列表","编号列表"],"pinyin":"you xu lie biao （ bian hao lie biao ） youxuliebiao（bianhaoliebiao） y x l b （ b h l b ） yxlb（bhlb） bian hao   you xu lie biao   bian hao lie biao bianhao youxuliebiao bianhaoliebiao b h   y x l b   b h l b bh yxlb bhlb"},{"id":"notion-todo","appId":"notion","type":"software","category":"productivity","name":{"zh":"待办事项（复选框）","en":"To-do Checkbox"},"description":{"zh":"创建带复选框的待办列表项","en":"Create to-do item with checkbox"},"windows":"Ctrl + Enter","mac":"⌘ Enter","linux":"Ctrl + Enter","keywords":["待办","todo","checkbox","复选框","清单"],"pinyin":"dai ban shi xiang （ fu xuan kuang ） daibanshixiang（fuxuankuang） d b s x （ f x k ） dbsx（fxk） dai ban   fu xuan kuang   qing dan daiban fuxuankuang qingdan d b   f x k   q d db fxk qd"},{"id":"notion-toggle-list","appId":"notion","type":"software","category":"productivity","name":{"zh":"折叠列表（Toggle）","en":"Toggle List"},"description":{"zh":"创建可展开/折叠的列表","en":"Create toggle list (expandable/collapsible)"},"windows":"Ctrl + Shift + 7","mac":"⌘ ⇧ 7","linux":"Ctrl + Shift + 7","keywords":["折叠","toggle","折叠列表","可展开"],"pinyin":"zhe die lie biao （ t o g g l e ） zhedieliebiao（toggle） z d l b （ t o g g l e ） zdlb（toggle） zhe die   zhe die lie biao   ke zhan kai zhedie zhedieliebiao kezhankai z d   z d l b   k z k zd zdlb kzk"},{"id":"notion-quote","appId":"notion","type":"software","category":"productivity","name":{"zh":"引用","en":"Quote Block"},"description":{"zh":"创建引用块","en":"Create quote block"},"windows":"Ctrl + Shift + B","mac":"⌘ ⇧ B","linux":"Ctrl + Shift + B","keywords":["引用","quote","引文"],"pinyin":"yin yong yinyong y y yy yin yong   yin wen yinyong yinwen y y   y w yy yw"},{"id":"notion-divider","appId":"notion","type":"software","category":"productivity","name":{"zh":"分隔线","en":"Divider Line"},"description":{"zh":"插入水平分隔线","en":"Insert horizontal divider line"},"windows":"---","mac":"---","linux":"---","keywords":["分隔线","divider","分割线","横线"],"pinyin":"fen ge xian fengexian f g x fgx fen ge xian   fen ge xian   heng xian fengexian fengexian hengxian f g x   f g x   h x fgx fgx hx"},{"id":"notion-code-block","appId":"notion","type":"software","category":"productivity","name":{"zh":"代码块","en":"Code Block"},"description":{"zh":"插入代码块（支持语法高亮）","en":"Insert code block with syntax highlighting"},"windows":"Ctrl + Shift + 6","mac":"⌘ ⇧ 6","linux":"Ctrl + Shift + 6","keywords":["代码","code block","代码块"],"pinyin":"dai ma kuai daimakuai d m k dmk dai ma   dai ma kuai daima daimakuai d m   d m k dm dmk"},{"id":"notion-table","appId":"notion","type":"software","category":"productivity","name":{"zh":"表格","en":"Table"},"description":{"zh":"在当前位置插入表格","en":"Insert table at current position"},"windows":"","mac":"","linux":"","keywords":["表格","table"],"pinyin":"biao ge biaoge b g bg biao ge biaoge b g bg"},{"id":"notion-callout","appId":"notion","type":"software","category":"productivity","name":{"zh":"标注/提示框","en":"Callout Block"},"description":{"zh":"创建带图标的标注块","en":"Create callout with icon"},"windows":"","mac":"","linux":"","keywords":["callout","标注","提示框"],"pinyin":"biao zhu / ti shi kuang biaozhu/tishikuang b z / t s k bz/tsk biao zhu   ti shi kuang biaozhu tishikuang b z   t s k bz tsk"},{"id":"notion-equation","appId":"notion","type":"software","category":"productivity","name":{"zh":"公式（LaTeX）","en":"Equation (LaTeX)"},"description":{"zh":"插入数学公式块（支持 LaTeX）","en":"Insert equation block with LaTeX support"},"windows":"","mac":"","linux":"","keywords":["公式","equation","latex","数学公式"],"pinyin":"gong shi （ l a t e x ） gongshi（latex） g s （ l a t e x ） gs（latex） gong shi   shu xue gong shi gongshi shuxuegongshi g s   s x g s gs sxgs"},{"id":"notion-database-full-page","appId":"notion","type":"software","category":"productivity","name":{"zh":"全页数据库","en":"Full-Page Database"},"description":{"zh":"创建一个全页数据库视图","en":"Create a full-page database view"},"windows":" / full 或 / database","mac":" / full 或 / database","linux":" / full 或 / database","keywords":["数据库","database","表格视图","全页数据库"],"pinyin":"quan ye shu ju ku quanyeshujuku q y s j k qysjk shu ju ku   biao ge shi tu   quan ye shu ju ku shujuku biaogeshitu quanyeshujuku s j k   b g s t   q y s j k sjk bgst qysjk"},{"id":"notion-database-inline","appId":"notion","type":"software","category":"productivity","name":{"zh":"内联数据库","en":"Inline Database"},"description":{"zh":"在当前页面中嵌入数据库","en":"Embed database inline in page"},"windows":" / inline 或 / board 或 / table","mac":" / inline 或 / board 或 / table","linux":" / inline 或 / board 或 / table","keywords":["内联数据库","inline database","看板","board"],"pinyin":"nei lian shu ju ku neilianshujuku n l s j k nlsjk nei lian shu ju ku   kan ban neilianshujuku kanban n l s j k   k b nlsjk kb"},{"id":"notion-sidebar-toggle","appId":"notion","type":"software","category":"productivity","name":{"zh":"切换侧边栏","en":"Toggle Sidebar"},"description":{"zh":"显示或隐藏左侧边栏","en":"Show or hide left sidebar"},"windows":"Ctrl + \\","mac":"⌘ \\","linux":"Ctrl + \\","keywords":["侧边栏","sidebar","导航栏"],"pinyin":"qie huan ce bian lan qiehuancebianlan q h c b l qhcbl ce bian lan   dao hang lan cebianlan daohanglan c b l   d h l cbl dhl"},{"id":"notion-back","appId":"notion","type":"software","category":"productivity","name":{"zh":"返回上一页","en":"Go Back"},"description":{"zh":"回到上一个访问的页面","en":"Go back to previously visited page"},"windows":"Alt + ←","mac":"⌘ [","linux":"Alt + ←","keywords":["后退","back","返回"],"pinyin":"fan hui shang yi ye fanhuishangyiye f h s y y fhsyy hou tui   fan hui houtui fanhui h t   f h ht fh"},{"id":"notion-new-link","appId":"notion","type":"software","category":"productivity","name":{"zh":"创建链接到该页面","en":"Create Link to This Page"},"description":{"zh":"复制指向当前页面的链接","en":"Copy link to current page"},"windows":"Ctrl + Shift + V","mac":"⌘ ⇧ V","linux":"Ctrl + Shift + V","keywords":["链接","link","复制链接","paste as link"],"pinyin":"chuang jian lian jie dao gai ye mian chuangjianlianjiedaogaiyemian c j l j d g y m cjljdgym lian jie   fu zhi lian jie lianjie fuzhilianjie l j   f z l j lj fzlj"},{"id":"notion-copy-link-original","appId":"notion","type":"software","category":"productivity","name":{"zh":"复制原始页面的链接","en":"Copy Link to Original Page"},"description":{"zh":"复制同步块的原始来源链接","en":"Copy original source URL for synced block"},"windows":"Ctrl + Shift + Alt + V","mac":"⌘ ⇧ ⌥ V","linux":"Ctrl + Shift + Alt + V","keywords":["原始链接","original link","来源链接"],"pinyin":"fu zhi yuan shi ye mian de lian jie fuzhiyuanshiyemiandelianjie f z y s y m d l j fzysymdlj yuan shi lian jie   lai yuan lian jie yuanshilianjie laiyuanlianjie y s l j   l y l j yslj lylj"},{"id":"notion-delete-block","appId":"notion","type":"software","category":"productivity","name":{"zh":"删除块","en":"Delete Block"},"description":{"zh":"删除当前选中的内容块","en":"Delete currently selected block"},"windows":"Ctrl + Shift + Delete","mac":"⌘ ⇧ Delete","linux":"Ctrl + Shift + Delete","keywords":["删除","delete","删块"],"pinyin":"shan chu kuai shanchukuai s c k sck shan chu   shan kuai shanchu shankuai s c   s k sc sk"},{"id":"notion-duplicate-block","appId":"notion","type":"software","category":"productivity","name":{"zh":"复制块","en":"Duplicate Block"},"description":{"zh":"复制当前选中的内容块","en":"Duplicate currently selected block"},"windows":"Ctrl + D","mac":"⌘ D","linux":"Ctrl + D","keywords":["复制","duplicate","复制块","重复"],"pinyin":"fu zhi kuai fuzhikuai f z k fzk fu zhi   fu zhi kuai   chong fu fuzhi fuzhikuai chongfu f z   f z k   c f fz fzk cf"},{"id":"notion-dark-mode","appId":"notion","type":"software","category":"productivity","name":{"zh":"切换深色模式","en":"Toggle Dark Mode"},"description":{"zh":"在明暗主题之间切换","en":"Switch between light and dark mode"},"windows":"Ctrl + Shift + L","mac":"⌘ ⇧ L","linux":"Ctrl + Shift + L","keywords":["深色","dark mode","主题","theme"],"pinyin":"qie huan shen se mo shi qiehuanshensemoshi q h s s m s qhssms shen se   zhu ti shense zhuti s s   z t ss zt"},{"id":"notion-comment","appId":"notion","type":"software","category":"productivity","name":{"zh":"添加评论","en":"Add Comment"},"description":{"zh":"对选中内容添加评论","en":"Add comment on selection"},"windows":"Ctrl + Shift + M","mac":"⌘ ⇧ M","linux":"Ctrl + Shift + M","keywords":["评论","comment","备注","annotation"],"pinyin":"tian jia ping lun tianjiapinglun t j p l tjpl ping lun   bei zhu pinglun beizhu p l   b z pl bz"},{"id":"notion-color-bg","appId":"notion","type":"software","category":"productivity","name":{"zh":"更改背景颜色","en":"Change Background Color"},"description":{"zh":"更改当前块的背景颜色","en":"Change background color of current block"},"windows":"Ctrl + Shift + H","mac":"⌘ ⇧ H","linux":"Ctrl + Shift + H","keywords":["颜色","color","背景色","background"],"pinyin":"geng gai bei jing yan se genggaibeijingyanse g g b j y s ggbjys yan se   bei jing se yanse beijingse y s   b j s ys bjs"}]
+[
+  {
+    "id": "notion-newpage",
+    "appId": "notion",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "新建页面",
+      "en": "New Page"
+    },
+    "description": {
+      "zh": "创建一个新页面",
+      "en": "Create a new page"
+    },
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
+    "linux": "Ctrl + N",
+    "keywords": [
+      "新建",
+      "new page"
+    ],
+    "pinyin": "xin jian ye mian xinjianyemian x j y m xjym xin jian xinjian x j xj"
+  },
+  {
+    "id": "notion-search",
+    "appId": "notion",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "搜索（查找并替换）",
+      "en": "Search (Find & Replace)"
+    },
+    "description": {
+      "zh": "打开全局搜索 / 查找替换",
+      "en": "Open global search / Find & Replace"
+    },
+    "windows": "Ctrl + P",
+    "mac": "⌘ P",
+    "linux": "Ctrl + P",
+    "keywords": [
+      "搜索",
+      "search",
+      "查找",
+      "find"
+    ],
+    "pinyin": "sou suo （ cha zhao bing ti huan ） sousuo（chazhaobingtihuan） s s （ c z b t h ） ss（czbth） sou suo   cha zhao sousuo chazhao s s   c z ss cz"
+  },
+  {
+    "id": "notion-slash-menu",
+    "appId": "notion",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "命令菜单（斜杠菜单）",
+      "en": "Slash Command Menu"
+    },
+    "description": {
+      "zh": "输入斜杠打开块类型选择菜单",
+      "en": "Open slash command menu to insert blocks"
+    },
+    "windows": " / ",
+    "mac": " / ",
+    "linux": " / ",
+    "keywords": [
+      "命令",
+      "command",
+      "slash",
+      "斜杠",
+      "块菜单"
+    ],
+    "pinyin": "ming ling cai dan （ xie gang cai dan ） minglingcaidan（xiegangcaidan） m l c d （ x g c d ） mlcd（xgcd） ming ling   xie gang   kuai cai dan mingling xiegang kuaicaidan m l   x g   k c d ml xg kcd"
+  },
+  {
+    "id": "notion-bold",
+    "appId": "notion",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "加粗",
+      "en": "Bold"
+    },
+    "description": {
+      "zh": "将选中文字加粗",
+      "en": "Make selected text bold"
+    },
+    "windows": "Ctrl + B",
+    "mac": "⌘ B",
+    "linux": "Ctrl + B",
+    "keywords": [
+      "加粗",
+      "bold"
+    ],
+    "pinyin": "jia cu jiacu j c jc jia cu jiacu j c jc"
+  },
+  {
+    "id": "notion-italic",
+    "appId": "notion",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "斜体",
+      "en": "Italic"
+    },
+    "description": {
+      "zh": "将选中文字变为斜体",
+      "en": "Make selected text italic"
+    },
+    "windows": "Ctrl + I",
+    "mac": "⌘ I",
+    "linux": "Ctrl + I",
+    "keywords": [
+      "斜体",
+      "italic"
+    ],
+    "pinyin": "xie ti xieti x t xt xie ti xieti x t xt"
+  },
+  {
+    "id": "notion-underline",
+    "appId": "notion",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "下划线",
+      "en": "Underline"
+    },
+    "description": {
+      "zh": "为文字添加下划线",
+      "en": "Underline text"
+    },
+    "windows": "Ctrl + U",
+    "mac": "⌘ U",
+    "linux": "Ctrl + U",
+    "keywords": [
+      "下划线",
+      "underline"
+    ],
+    "pinyin": "xia hua xian xiahuaxian x h x xhx xia hua xian xiahuaxian x h x xhx"
+  },
+  {
+    "id": "notion-strikethrough",
+    "appId": "notion",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "删除线",
+      "en": "Strikethrough"
+    },
+    "description": {
+      "zh": "为文字添加删除线",
+      "en": "Strikethrough text"
+    },
+    "windows": "Ctrl + Shift + S",
+    "mac": "⌘ ⇧ S",
+    "linux": "Ctrl + Shift + S",
+    "keywords": [
+      "删除线",
+      "strikethrough",
+      "划掉"
+    ],
+    "pinyin": "shan chu xian shanchuxian s c x scx shan chu xian   hua diao shanchuxian huadiao s c x   h d scx hd"
+  },
+  {
+    "id": "notion-code-text",
+    "appId": "notion",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "行内代码",
+      "en": "Inline Code"
+    },
+    "description": {
+      "zh": "将文字转为等宽行内代码格式",
+      "en": "Format text as inline code (monospace)"
+    },
+    "windows": "Ctrl + E",
+    "mac": "⌘ E",
+    "linux": "Ctrl + E",
+    "keywords": [
+      "代码",
+      "code",
+      "行内代码",
+      "inline code"
+    ],
+    "pinyin": "xing nei dai ma xingneidaima x n d m xndm dai ma   xing nei dai ma daima xingneidaima d m   x n d m dm xndm"
+  },
+  {
+    "id": "notion-link",
+    "appId": "notion",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "插入链接",
+      "en": "Add Link"
+    },
+    "description": {
+      "zh": "为选中文字添加超链接",
+      "en": "Add hyperlink to selected text"
+    },
+    "windows": "Ctrl + K",
+    "mac": "⌘ K",
+    "linux": "Ctrl + K",
+    "keywords": [
+      "链接",
+      "link",
+      "超链接"
+    ],
+    "pinyin": "cha ru lian jie charulianjie c r l j crlj lian jie   chao lian jie lianjie chaolianjie l j   c l j lj clj"
+  },
+  {
+    "id": "notion-heading1",
+    "appId": "notion",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "一级标题",
+      "en": "Heading 1"
+    },
+    "description": {
+      "zh": "将当前块设为一级标题",
+      "en": "Turn block into Heading 1"
+    },
+    "windows": "Ctrl + 1",
+    "mac": "⌘ 1",
+    "linux": "Ctrl + 1",
+    "keywords": [
+      "标题",
+      "h1",
+      "heading",
+      "一级标题"
+    ],
+    "pinyin": "yi ji biao ti yijibiaoti y j b t yjbt biao ti   yi ji biao ti biaoti yijibiaoti b t   y j b t bt yjbt"
+  },
+  {
+    "id": "notion-heading2",
+    "appId": "notion",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "二级标题",
+      "en": "Heading 2"
+    },
+    "description": {
+      "zh": "将当前块设为二级标题",
+      "en": "Turn block into Heading 2"
+    },
+    "windows": "Ctrl + 2",
+    "mac": "⌘ 2",
+    "linux": "Ctrl + 2",
+    "keywords": [
+      "标题",
+      "h2",
+      "heading",
+      "二级标题"
+    ],
+    "pinyin": "er ji biao ti erjibiaoti e j b t ejbt biao ti   er ji biao ti biaoti erjibiaoti b t   e j b t bt ejbt"
+  },
+  {
+    "id": "notion-heading3",
+    "appId": "notion",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "三级标题",
+      "en": "Heading 3"
+    },
+    "description": {
+      "zh": "将当前块设为三级标题",
+      "en": "Turn block into Heading 3"
+    },
+    "windows": "Ctrl + 3",
+    "mac": "⌘ 3",
+    "linux": "Ctrl + 3",
+    "keywords": [
+      "标题",
+      "h3",
+      "heading",
+      "三级标题"
+    ],
+    "pinyin": "san ji biao ti sanjibiaoti s j b t sjbt biao ti   san ji biao ti biaoti sanjibiaoti b t   s j b t bt sjbt"
+  },
+  {
+    "id": "notion-bullet-list",
+    "appId": "notion",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "无序列表（项目符号）",
+      "en": "Bullet List"
+    },
+    "description": {
+      "zh": "创建项目符号列表",
+      "en": "Create bullet list"
+    },
+    "windows": "Ctrl + 8",
+    "mac": "⌘ 8",
+    "linux": "Ctrl + 8",
+    "keywords": [
+      "列表",
+      "bullet",
+      "项目符号",
+      "无序列表"
+    ],
+    "pinyin": "wu xu lie biao （ xiang mu fu hao ） wuxuliebiao（xiangmufuhao） w x l b （ x m f h ） wxlb（xmfh） lie biao   xiang mu fu hao   wu xu lie biao liebiao xiangmufuhao wuxuliebiao l b   x m f h   w x l b lb xmfh wxlb"
+  },
+  {
+    "id": "notion-numbered-list",
+    "appId": "notion",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "有序列表（编号列表）",
+      "en": "Numbered List"
+    },
+    "description": {
+      "zh": "创建编号列表",
+      "en": "Create numbered list"
+    },
+    "windows": "Ctrl + 7",
+    "mac": "⌘ 7",
+    "linux": "Ctrl + 7",
+    "keywords": [
+      "编号",
+      "number",
+      "有序列表",
+      "编号列表"
+    ],
+    "pinyin": "you xu lie biao （ bian hao lie biao ） youxuliebiao（bianhaoliebiao） y x l b （ b h l b ） yxlb（bhlb） bian hao   you xu lie biao   bian hao lie biao bianhao youxuliebiao bianhaoliebiao b h   y x l b   b h l b bh yxlb bhlb"
+  },
+  {
+    "id": "notion-todo",
+    "appId": "notion",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "待办事项（复选框）",
+      "en": "To-do Checkbox"
+    },
+    "description": {
+      "zh": "创建带复选框的待办列表项",
+      "en": "Create to-do item with checkbox"
+    },
+    "windows": "Ctrl + Enter",
+    "mac": "⌘ Enter",
+    "linux": "Ctrl + Enter",
+    "keywords": [
+      "待办",
+      "todo",
+      "checkbox",
+      "复选框",
+      "清单"
+    ],
+    "pinyin": "dai ban shi xiang （ fu xuan kuang ） daibanshixiang（fuxuankuang） d b s x （ f x k ） dbsx（fxk） dai ban   fu xuan kuang   qing dan daiban fuxuankuang qingdan d b   f x k   q d db fxk qd"
+  },
+  {
+    "id": "notion-toggle-list",
+    "appId": "notion",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "折叠列表（Toggle）",
+      "en": "Toggle List"
+    },
+    "description": {
+      "zh": "创建可展开/折叠的列表",
+      "en": "Create toggle list (expandable/collapsible)"
+    },
+    "windows": "Ctrl + Shift + 7",
+    "mac": "⌘ ⇧ 7",
+    "linux": "Ctrl + Shift + 7",
+    "keywords": [
+      "折叠",
+      "toggle",
+      "折叠列表",
+      "可展开"
+    ],
+    "pinyin": "zhe die lie biao （ t o g g l e ） zhedieliebiao（toggle） z d l b （ t o g g l e ） zdlb（toggle） zhe die   zhe die lie biao   ke zhan kai zhedie zhedieliebiao kezhankai z d   z d l b   k z k zd zdlb kzk"
+  },
+  {
+    "id": "notion-quote",
+    "appId": "notion",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "引用",
+      "en": "Quote Block"
+    },
+    "description": {
+      "zh": "创建引用块",
+      "en": "Create quote block"
+    },
+    "windows": "Ctrl + Shift + B",
+    "mac": "⌘ ⇧ B",
+    "linux": "Ctrl + Shift + B",
+    "keywords": [
+      "引用",
+      "quote",
+      "引文"
+    ],
+    "pinyin": "yin yong yinyong y y yy yin yong   yin wen yinyong yinwen y y   y w yy yw"
+  },
+  {
+    "id": "notion-divider",
+    "appId": "notion",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "分隔线",
+      "en": "Divider Line"
+    },
+    "description": {
+      "zh": "插入水平分隔线",
+      "en": "Insert horizontal divider line"
+    },
+    "windows": "---",
+    "mac": "---",
+    "linux": "---",
+    "keywords": [
+      "分隔线",
+      "divider",
+      "分割线",
+      "横线"
+    ],
+    "pinyin": "fen ge xian fengexian f g x fgx fen ge xian   fen ge xian   heng xian fengexian fengexian hengxian f g x   f g x   h x fgx fgx hx"
+  },
+  {
+    "id": "notion-code-block",
+    "appId": "notion",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "代码块",
+      "en": "Code Block"
+    },
+    "description": {
+      "zh": "插入代码块（支持语法高亮）",
+      "en": "Insert code block with syntax highlighting"
+    },
+    "windows": "Ctrl + Shift + 6",
+    "mac": "⌘ ⇧ 6",
+    "linux": "Ctrl + Shift + 6",
+    "keywords": [
+      "代码",
+      "code block",
+      "代码块"
+    ],
+    "pinyin": "dai ma kuai daimakuai d m k dmk dai ma   dai ma kuai daima daimakuai d m   d m k dm dmk"
+  },
+  {
+    "id": "notion-table",
+    "appId": "notion",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "表格",
+      "en": "Table"
+    },
+    "description": {
+      "zh": "在当前位置插入表格",
+      "en": "Insert table at current position"
+    },
+    "windows": "",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "表格",
+      "table"
+    ],
+    "pinyin": "biao ge biaoge b g bg biao ge biaoge b g bg"
+  },
+  {
+    "id": "notion-callout",
+    "appId": "notion",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "标注/提示框",
+      "en": "Callout Block"
+    },
+    "description": {
+      "zh": "创建带图标的标注块",
+      "en": "Create callout with icon"
+    },
+    "windows": "",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "callout",
+      "标注",
+      "提示框"
+    ],
+    "pinyin": "biao zhu / ti shi kuang biaozhu/tishikuang b z / t s k bz/tsk biao zhu   ti shi kuang biaozhu tishikuang b z   t s k bz tsk"
+  },
+  {
+    "id": "notion-equation",
+    "appId": "notion",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "公式（LaTeX）",
+      "en": "Equation (LaTeX)"
+    },
+    "description": {
+      "zh": "插入数学公式块（支持 LaTeX）",
+      "en": "Insert equation block with LaTeX support"
+    },
+    "windows": "",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "公式",
+      "equation",
+      "latex",
+      "数学公式"
+    ],
+    "pinyin": "gong shi （ l a t e x ） gongshi（latex） g s （ l a t e x ） gs（latex） gong shi   shu xue gong shi gongshi shuxuegongshi g s   s x g s gs sxgs"
+  },
+  {
+    "id": "notion-database-full-page",
+    "appId": "notion",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "全页数据库",
+      "en": "Full-Page Database"
+    },
+    "description": {
+      "zh": "创建一个全页数据库视图",
+      "en": "Create a full-page database view"
+    },
+    "windows": " / full 或 / database",
+    "mac": " / full 或 / database",
+    "linux": " / full 或 / database",
+    "keywords": [
+      "数据库",
+      "database",
+      "表格视图",
+      "全页数据库"
+    ],
+    "pinyin": "quan ye shu ju ku quanyeshujuku q y s j k qysjk shu ju ku   biao ge shi tu   quan ye shu ju ku shujuku biaogeshitu quanyeshujuku s j k   b g s t   q y s j k sjk bgst qysjk"
+  },
+  {
+    "id": "notion-database-inline",
+    "appId": "notion",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "内联数据库",
+      "en": "Inline Database"
+    },
+    "description": {
+      "zh": "在当前页面中嵌入数据库",
+      "en": "Embed database inline in page"
+    },
+    "windows": " / inline 或 / board 或 / table",
+    "mac": " / inline 或 / board 或 / table",
+    "linux": " / inline 或 / board 或 / table",
+    "keywords": [
+      "内联数据库",
+      "inline database",
+      "看板",
+      "board"
+    ],
+    "pinyin": "nei lian shu ju ku neilianshujuku n l s j k nlsjk nei lian shu ju ku   kan ban neilianshujuku kanban n l s j k   k b nlsjk kb"
+  },
+  {
+    "id": "notion-sidebar-toggle",
+    "appId": "notion",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "切换侧边栏",
+      "en": "Toggle Sidebar"
+    },
+    "description": {
+      "zh": "显示或隐藏左侧边栏",
+      "en": "Show or hide left sidebar"
+    },
+    "windows": "Ctrl + \\",
+    "mac": "⌘ \\",
+    "linux": "Ctrl + \\",
+    "keywords": [
+      "侧边栏",
+      "sidebar",
+      "导航栏"
+    ],
+    "pinyin": "qie huan ce bian lan qiehuancebianlan q h c b l qhcbl ce bian lan   dao hang lan cebianlan daohanglan c b l   d h l cbl dhl"
+  },
+  {
+    "id": "notion-back",
+    "appId": "notion",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "返回上一页",
+      "en": "Go Back"
+    },
+    "description": {
+      "zh": "回到上一个访问的页面",
+      "en": "Go back to previously visited page"
+    },
+    "windows": "Alt + ←",
+    "mac": "⌘ [",
+    "linux": "Alt + ←",
+    "keywords": [
+      "后退",
+      "back",
+      "返回"
+    ],
+    "pinyin": "fan hui shang yi ye fanhuishangyiye f h s y y fhsyy hou tui   fan hui houtui fanhui h t   f h ht fh"
+  },
+  {
+    "id": "notion-new-link",
+    "appId": "notion",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "创建链接到该页面",
+      "en": "Create Link to This Page"
+    },
+    "description": {
+      "zh": "复制指向当前页面的链接",
+      "en": "Copy link to current page"
+    },
+    "windows": "Ctrl + Shift + V",
+    "mac": "⌘ ⇧ V",
+    "linux": "Ctrl + Shift + V",
+    "keywords": [
+      "链接",
+      "link",
+      "复制链接",
+      "paste as link"
+    ],
+    "pinyin": "chuang jian lian jie dao gai ye mian chuangjianlianjiedaogaiyemian c j l j d g y m cjljdgym lian jie   fu zhi lian jie lianjie fuzhilianjie l j   f z l j lj fzlj"
+  },
+  {
+    "id": "notion-copy-link-original",
+    "appId": "notion",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "复制原始页面的链接",
+      "en": "Copy Link to Original Page"
+    },
+    "description": {
+      "zh": "复制同步块的原始来源链接",
+      "en": "Copy original source URL for synced block"
+    },
+    "windows": "Ctrl + Shift + Alt + V",
+    "mac": "⌘ ⇧ ⌥ V",
+    "linux": "Ctrl + Shift + Alt + V",
+    "keywords": [
+      "原始链接",
+      "original link",
+      "来源链接"
+    ],
+    "pinyin": "fu zhi yuan shi ye mian de lian jie fuzhiyuanshiyemiandelianjie f z y s y m d l j fzysymdlj yuan shi lian jie   lai yuan lian jie yuanshilianjie laiyuanlianjie y s l j   l y l j yslj lylj"
+  },
+  {
+    "id": "notion-delete-block",
+    "appId": "notion",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "删除块",
+      "en": "Delete Block"
+    },
+    "description": {
+      "zh": "删除当前选中的内容块",
+      "en": "Delete currently selected block"
+    },
+    "windows": "Ctrl + Shift + Delete",
+    "mac": "⌘ ⇧ Delete",
+    "linux": "Ctrl + Shift + Delete",
+    "keywords": [
+      "删除",
+      "delete",
+      "删块"
+    ],
+    "pinyin": "shan chu kuai shanchukuai s c k sck shan chu   shan kuai shanchu shankuai s c   s k sc sk"
+  },
+  {
+    "id": "notion-duplicate-block",
+    "appId": "notion",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "复制块",
+      "en": "Duplicate Block"
+    },
+    "description": {
+      "zh": "复制当前选中的内容块",
+      "en": "Duplicate currently selected block"
+    },
+    "windows": "Ctrl + D",
+    "mac": "⌘ D",
+    "linux": "Ctrl + D",
+    "keywords": [
+      "复制",
+      "duplicate",
+      "复制块",
+      "重复"
+    ],
+    "pinyin": "fu zhi kuai fuzhikuai f z k fzk fu zhi   fu zhi kuai   chong fu fuzhi fuzhikuai chongfu f z   f z k   c f fz fzk cf"
+  },
+  {
+    "id": "notion-dark-mode",
+    "appId": "notion",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "切换深色模式",
+      "en": "Toggle Dark Mode"
+    },
+    "description": {
+      "zh": "在明暗主题之间切换",
+      "en": "Switch between light and dark mode"
+    },
+    "windows": "Ctrl + Shift + L",
+    "mac": "⌘ ⇧ L",
+    "linux": "Ctrl + Shift + L",
+    "keywords": [
+      "深色",
+      "dark mode",
+      "主题",
+      "theme"
+    ],
+    "pinyin": "qie huan shen se mo shi qiehuanshensemoshi q h s s m s qhssms shen se   zhu ti shense zhuti s s   z t ss zt"
+  },
+  {
+    "id": "notion-comment",
+    "appId": "notion",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "添加评论",
+      "en": "Add Comment"
+    },
+    "description": {
+      "zh": "对选中内容添加评论",
+      "en": "Add comment on selection"
+    },
+    "windows": "Ctrl + Shift + M",
+    "mac": "⌘ ⇧ M",
+    "linux": "Ctrl + Shift + M",
+    "keywords": [
+      "评论",
+      "comment",
+      "备注",
+      "annotation"
+    ],
+    "pinyin": "tian jia ping lun tianjiapinglun t j p l tjpl ping lun   bei zhu pinglun beizhu p l   b z pl bz"
+  },
+  {
+    "id": "notion-color-bg",
+    "appId": "notion",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "更改背景颜色",
+      "en": "Change Background Color"
+    },
+    "description": {
+      "zh": "更改当前块的背景颜色",
+      "en": "Change background color of current block"
+    },
+    "windows": "Ctrl + Shift + H",
+    "mac": "⌘ ⇧ H",
+    "linux": "Ctrl + Shift + H",
+    "keywords": [
+      "颜色",
+      "color",
+      "背景色",
+      "background"
+    ],
+    "pinyin": "geng gai bei jing yan se genggaibeijingyanse g g b j y s ggbjys yan se   bei jing se yanse beijingse y s   b j s ys bjs"
+  }
+]

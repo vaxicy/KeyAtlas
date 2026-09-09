@@ -1,0 +1,575 @@
+[
+  {
+    "id": "lumafusion-new",
+    "appId": "lumafusion",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "New project",
+      "zh": "新建项目"
+    },
+    "description": {
+      "en": "New project",
+      "zh": "新建项目"
+    },
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
+    "linux": "—",
+    "keywords": [
+      "new",
+      "project",
+      "项目"
+    ],
+    "pinyin": "xin jian xiang mu xinjianxiangmu x j x m xjxm xiang mu xiangmu x m xm"
+  },
+  {
+    "id": "lumafusion-import",
+    "appId": "lumafusion",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Import",
+      "zh": "导入"
+    },
+    "description": {
+      "en": "Import media",
+      "zh": "导入媒体"
+    },
+    "windows": "Ctrl + I",
+    "mac": "⌘ I",
+    "linux": "—",
+    "keywords": [
+      "import",
+      "导入"
+    ],
+    "pinyin": "dao ru daoru d r dr dao ru daoru d r dr"
+  },
+  {
+    "id": "lumafusion-play",
+    "appId": "lumafusion",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Play",
+      "zh": "播放"
+    },
+    "description": {
+      "en": "Play/pause",
+      "zh": "播放/暂停"
+    },
+    "windows": "Space",
+    "mac": "Space",
+    "linux": "—",
+    "keywords": [
+      "play",
+      "播放"
+    ],
+    "pinyin": "bo fang bofang b f bf bo fang bofang b f bf"
+  },
+  {
+    "id": "lumafusion-pause",
+    "appId": "lumafusion",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Pause",
+      "zh": "暂停"
+    },
+    "description": {
+      "en": "Pause",
+      "zh": "暂停"
+    },
+    "windows": "Space",
+    "mac": "Space",
+    "linux": "—",
+    "keywords": [
+      "pause",
+      "暂停"
+    ],
+    "pinyin": "zan ting zanting z t zt zan ting zanting z t zt"
+  },
+  {
+    "id": "lumafusion-split",
+    "appId": "lumafusion",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Split",
+      "zh": "分割"
+    },
+    "description": {
+      "en": "Split clip",
+      "zh": "分割片段"
+    },
+    "windows": "S",
+    "mac": "S",
+    "linux": "—",
+    "keywords": [
+      "split",
+      "分割"
+    ],
+    "pinyin": "fen ge fenge f g fg fen ge fenge f g fg"
+  },
+  {
+    "id": "lumafusion-trim",
+    "appId": "lumafusion",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Trim",
+      "zh": "修剪"
+    },
+    "description": {
+      "en": "Trim clip",
+      "zh": "修剪片段"
+    },
+    "windows": "T",
+    "mac": "T",
+    "linux": "—",
+    "keywords": [
+      "trim",
+      "修剪"
+    ],
+    "pinyin": "xiu jian xiujian x j xj xiu jian xiujian x j xj"
+  },
+  {
+    "id": "lumafusion-cut",
+    "appId": "lumafusion",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Cut",
+      "zh": "剪切"
+    },
+    "description": {
+      "en": "Cut",
+      "zh": "剪切"
+    },
+    "windows": "Ctrl + X",
+    "mac": "⌘ X",
+    "linux": "—",
+    "keywords": [
+      "cut",
+      "剪切"
+    ],
+    "pinyin": "jian qie jianqie j q jq jian qie jianqie j q jq"
+  },
+  {
+    "id": "lumafusion-copy",
+    "appId": "lumafusion",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Copy",
+      "zh": "复制"
+    },
+    "description": {
+      "en": "Copy",
+      "zh": "复制"
+    },
+    "windows": "Ctrl + C",
+    "mac": "⌘ C",
+    "linux": "—",
+    "keywords": [
+      "copy",
+      "复制"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "lumafusion-paste",
+    "appId": "lumafusion",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Paste",
+      "zh": "粘贴"
+    },
+    "description": {
+      "en": "Paste",
+      "zh": "粘贴"
+    },
+    "windows": "Ctrl + V",
+    "mac": "⌘ V",
+    "linux": "—",
+    "keywords": [
+      "paste",
+      "粘贴"
+    ],
+    "pinyin": "nian tie niantie n t nt nian tie niantie n t nt"
+  },
+  {
+    "id": "lumafusion-delete",
+    "appId": "lumafusion",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Delete",
+      "zh": "删除"
+    },
+    "description": {
+      "en": "Delete clip",
+      "zh": "删除片段"
+    },
+    "windows": "Delete",
+    "mac": "Delete",
+    "linux": "—",
+    "keywords": [
+      "delete",
+      "删除"
+    ],
+    "pinyin": "shan chu shanchu s c sc shan chu shanchu s c sc"
+  },
+  {
+    "id": "lumafusion-zoom",
+    "appId": "lumafusion",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Zoom",
+      "zh": "缩放"
+    },
+    "description": {
+      "en": "Zoom timeline",
+      "zh": "缩放时间线"
+    },
+    "windows": "Ctrl + =",
+    "mac": "⌘ =",
+    "linux": "—",
+    "keywords": [
+      "zoom",
+      "缩放"
+    ],
+    "pinyin": "suo fang suofang s f sf suo fang suofang s f sf"
+  },
+  {
+    "id": "lumafusion-fit",
+    "appId": "lumafusion",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Fit",
+      "zh": "适应"
+    },
+    "description": {
+      "en": "Fit to window",
+      "zh": "适应窗口"
+    },
+    "windows": "Shift + 1",
+    "mac": "Shift + 1",
+    "linux": "—",
+    "keywords": [
+      "fit",
+      "适应"
+    ],
+    "pinyin": "shi ying shiying s y sy shi ying shiying s y sy"
+  },
+  {
+    "id": "lumafusion-undo",
+    "appId": "lumafusion",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Undo",
+      "zh": "撤销"
+    },
+    "description": {
+      "en": "Undo",
+      "zh": "撤销"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "—",
+    "keywords": [
+      "undo",
+      "撤销"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "lumafusion-redo",
+    "appId": "lumafusion",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Redo",
+      "zh": "重做"
+    },
+    "description": {
+      "en": "Redo",
+      "zh": "重做"
+    },
+    "windows": "Ctrl + Y",
+    "mac": "⇧ ⌘ Z",
+    "linux": "—",
+    "keywords": [
+      "redo",
+      "重做"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "lumafusion-title",
+    "appId": "lumafusion",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Title",
+      "zh": "标题"
+    },
+    "description": {
+      "en": "Add title",
+      "zh": "添加标题"
+    },
+    "windows": "T? ",
+    "mac": "T? ",
+    "linux": "—",
+    "keywords": [
+      "title",
+      "标题"
+    ],
+    "pinyin": "biao ti biaoti b t bt biao ti biaoti b t bt"
+  },
+  {
+    "id": "lumafusion-transition",
+    "appId": "lumafusion",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Transition",
+      "zh": "转场"
+    },
+    "description": {
+      "en": "Add transition",
+      "zh": "添加转场"
+    },
+    "windows": "Ctrl + T",
+    "mac": "⌘ T",
+    "linux": "—",
+    "keywords": [
+      "transition",
+      "转场"
+    ],
+    "pinyin": "zhuan chang zhuanchang z c zc zhuan chang zhuanchang z c zc"
+  },
+  {
+    "id": "lumafusion-color",
+    "appId": "lumafusion",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Color",
+      "zh": "调色"
+    },
+    "description": {
+      "en": "Color panel",
+      "zh": "调色面板"
+    },
+    "windows": "C",
+    "mac": "C",
+    "linux": "—",
+    "keywords": [
+      "color",
+      "调色"
+    ],
+    "pinyin": "tiao se tiaose t s ts tiao se tiaose t s ts"
+  },
+  {
+    "id": "lumafusion-audio",
+    "appId": "lumafusion",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Audio",
+      "zh": "音频"
+    },
+    "description": {
+      "en": "Audio mixer",
+      "zh": "音频混音"
+    },
+    "windows": "A",
+    "mac": "A",
+    "linux": "—",
+    "keywords": [
+      "audio",
+      "音频"
+    ],
+    "pinyin": "yin pin yinpin y p yp yin pin yinpin y p yp"
+  },
+  {
+    "id": "lumafusion-record",
+    "appId": "lumafusion",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Record",
+      "zh": "录制"
+    },
+    "description": {
+      "en": "Voiceover record",
+      "zh": "旁白录制"
+    },
+    "windows": "R",
+    "mac": "R",
+    "linux": "—",
+    "keywords": [
+      "record",
+      "录制"
+    ],
+    "pinyin": "lu zhi luzhi l z lz lu zhi luzhi l z lz"
+  },
+  {
+    "id": "lumafusion-export",
+    "appId": "lumafusion",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Export",
+      "zh": "导出"
+    },
+    "description": {
+      "en": "Export project",
+      "zh": "导出项目"
+    },
+    "windows": "Ctrl + E",
+    "mac": "⌘ E",
+    "linux": "—",
+    "keywords": [
+      "export",
+      "导出"
+    ],
+    "pinyin": "dao chu daochu d c dc dao chu daochu d c dc"
+  },
+  {
+    "id": "lumafusion-fullscreen",
+    "appId": "lumafusion",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Fullscreen",
+      "zh": "全屏"
+    },
+    "description": {
+      "en": "Fullscreen",
+      "zh": "全屏"
+    },
+    "windows": "F11",
+    "mac": "⌃ ⌘ F",
+    "linux": "—",
+    "keywords": [
+      "fullscreen",
+      "全屏"
+    ],
+    "pinyin": "quan ping quanping q p qp quan ping quanping q p qp"
+  },
+  {
+    "id": "lumafusion-snap",
+    "appId": "lumafusion",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Snap",
+      "zh": "吸附"
+    },
+    "description": {
+      "en": "Toggle snapping",
+      "zh": "切换吸附"
+    },
+    "windows": "N",
+    "mac": "N",
+    "linux": "—",
+    "keywords": [
+      "snap",
+      "吸附"
+    ],
+    "pinyin": "xi fu xifu x f xf xi fu xifu x f xf"
+  },
+  {
+    "id": "lumafusion-lock",
+    "appId": "lumafusion",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Lock",
+      "zh": "锁定"
+    },
+    "description": {
+      "en": "Lock track",
+      "zh": "锁定轨道"
+    },
+    "windows": "L",
+    "mac": "L",
+    "linux": "—",
+    "keywords": [
+      "lock",
+      "锁定"
+    ],
+    "pinyin": "suo ding suoding s d sd suo ding suoding s d sd"
+  },
+  {
+    "id": "lumafusion-group",
+    "appId": "lumafusion",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Group",
+      "zh": "编组"
+    },
+    "description": {
+      "en": "Group clips",
+      "zh": "编组片段"
+    },
+    "windows": "Ctrl + G",
+    "mac": "⌘ G",
+    "linux": "—",
+    "keywords": [
+      "group",
+      "编组"
+    ],
+    "pinyin": "bian zu bianzu b z bz bian zu bianzu b z bz"
+  },
+  {
+    "id": "lumafusion-marker",
+    "appId": "lumafusion",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Marker",
+      "zh": "标记"
+    },
+    "description": {
+      "en": "Add marker",
+      "zh": "添加标记"
+    },
+    "windows": "M",
+    "mac": "M",
+    "linux": "—",
+    "keywords": [
+      "marker",
+      "标记"
+    ],
+    "pinyin": "biao ji biaoji b j bj biao ji biaoji b j bj"
+  },
+  {
+    "id": "lumafusion-speed",
+    "appId": "lumafusion",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Speed",
+      "zh": "速度"
+    },
+    "description": {
+      "en": "Speed control",
+      "zh": "速度控制"
+    },
+    "windows": "Ctrl + Shift + S",
+    "mac": "⌥ ⌘ S",
+    "linux": "—",
+    "keywords": [
+      "speed",
+      "速度"
+    ],
+    "pinyin": "su du sudu s d sd su du sudu s d sd"
+  }
+]

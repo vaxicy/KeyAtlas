@@ -1,1 +1,1462 @@
-[{"id":"feishu-search","appId":"feishu","type":"software","category":"productivity","name":{"zh":"飞书搜索","en":"Search in Feishu"},"description":{"zh":"打开飞书全局搜索面板","en":"Open the Feishu global search panel"},"windows":"Ctrl + K","mac":"⌘ K","linux":"Ctrl + K","keywords":["搜索","查找","search","find"],"pinyin":"fei shu sou suo feishusousuo f s s s fsss sou suo   cha zhao sousuo chazhao s s   c z ss cz"},{"id":"feishu-search-in-page","appId":"feishu","type":"software","category":"productivity","name":{"zh":"页面内搜索","en":"Search in current page"},"description":{"zh":"在当前页面内通过关键词查找","en":"Find text within the current page"},"windows":"Ctrl + F","mac":"⌘ F","linux":"Ctrl + F","keywords":["搜索","查找","search","find","页面"],"pinyin":"ye mian nei sou suo yemianneisousuo y m n s s ymnss sou suo   cha zhao   ye mian sousuo chazhao yemian s s   c z   y m ss cz ym"},{"id":"feishu-send-message","appId":"feishu","type":"software","category":"productivity","name":{"zh":"发送消息","en":"Send message"},"description":{"zh":"发送当前输入框消息（可在设置中切换回车或组合键发送）","en":"Send the message in the input box (configurable: Enter or shortcut)"},"windows":"Enter 或 Ctrl + Enter","mac":"Enter 或 ⌘ Enter","linux":"Enter 或 Ctrl + Enter","keywords":["发送","消息","send","message"],"pinyin":"fa song xiao xi fasongxiaoxi f s x x fsxx fa song   xiao xi fasong xiaoxi f s   x x fs xx"},{"id":"feishu-prev-group","appId":"feishu","type":"software","category":"productivity","name":{"zh":"上一个消息分组","en":"Previous message group"},"description":{"zh":"切换至上一个消息分组","en":"Switch to the previous message group"},"windows":"Ctrl + ↑","mac":"⌘ ↑","linux":"Ctrl + ↑","keywords":["分组","上一个","group","previous"],"pinyin":"shang yi ge xiao xi fen zu shangyigexiaoxifenzu s y g x x f z sygxxfz fen zu   shang yi ge fenzu shangyige f z   s y g fz syg"},{"id":"feishu-next-group","appId":"feishu","type":"software","category":"productivity","name":{"zh":"下一个消息分组","en":"Next message group"},"description":{"zh":"切换至下一个消息分组","en":"Switch to the next message group"},"windows":"Ctrl + ↓","mac":"⌘ ↓","linux":"Ctrl + ↓","keywords":["分组","下一个","group","next"],"pinyin":"xia yi ge xiao xi fen zu xiayigexiaoxifenzu x y g x x f z xygxxfz fen zu   xia yi ge fenzu xiayige f z   x y g fz xyg"},{"id":"feishu-toggle-group","appId":"feishu","type":"software","category":"productivity","name":{"zh":"展开/隐藏消息分组","en":"Expand/collapse message groups"},"description":{"zh":"展开或隐藏消息功能中的分组栏","en":"Expand or collapse the group sidebar in messages"},"windows":"Ctrl + G","mac":"⌘ G","linux":"Ctrl + G","keywords":["分组","展开","隐藏","group","expand"],"pinyin":"zhan kai / yin cang xiao xi fen zu zhankai/yincangxiaoxifenzu z k / y c x x f z zk/ycxxfz fen zu   zhan kai   yin cang fenzu zhankai yincang f z   z k   y c fz zk yc"},{"id":"feishu-prev-unread","appId":"feishu","type":"software","category":"productivity","name":{"zh":"上一个未读会话","en":"Previous unread conversation"},"description":{"zh":"切换至上一个未读会话","en":"Jump to the previous unread conversation"},"windows":"Ctrl + Shift + ↑","mac":"⌘ ⇧ ↑","linux":"Ctrl + Shift + ↑","keywords":["未读","上一个","unread","previous"],"pinyin":"shang yi ge wei du hui hua shangyigeweiduhuihua s y g w d h h sygwdhh wei du   shang yi ge weidu shangyige w d   s y g wd syg"},{"id":"feishu-next-unread","appId":"feishu","type":"software","category":"productivity","name":{"zh":"下一个未读会话","en":"Next unread conversation"},"description":{"zh":"切换至下一个未读会话","en":"Jump to the next unread conversation"},"windows":"Ctrl + Shift + ↓","mac":"⌘ ⇧ ↓","linux":"Ctrl + Shift + ↓","keywords":["未读","下一个","unread","next"],"pinyin":"xia yi ge wei du hui hua xiayigeweiduhuihua x y g w d h h xygwdhh wei du   xia yi ge weidu xiayige w d   x y g wd xyg"},{"id":"feishu-complete-conversation","appId":"feishu","type":"software","category":"productivity","name":{"zh":"完成当前会话","en":"Mark conversation as done"},"description":{"zh":"将当前会话移至“已完成”分组","en":"Move the current conversation to the Done group"},"windows":"Ctrl + D","mac":"⌘ D","linux":"Ctrl + D","keywords":["完成","会话","done","conversation"],"pinyin":"wan cheng dang qian hui hua wanchengdangqianhuihua w c d q h h wcdqhh wan cheng   hui hua wancheng huihua w c   h h wc hh"},{"id":"feishu-save-media","appId":"feishu","type":"software","category":"productivity","name":{"zh":"保存图片或视频","en":"Save image or video"},"description":{"zh":"保存正在浏览的图片或视频","en":"Save the image or video being viewed"},"windows":"Ctrl + S","mac":"⌘ S","linux":"Ctrl + S","keywords":["保存","图片","视频","save","image","video"],"pinyin":"bao cun tu pian huo shi pin baocuntupianhuoshipin b c t p h s p bctphsp bao cun   tu pian   shi pin baocun tupian shipin b c   t p   s p bc tp sp"},{"id":"feishu-zoom-in-image","appId":"feishu","type":"software","category":"productivity","name":{"zh":"放大图片（查看器内）","en":"Zoom in image (viewer)"},"description":{"zh":"在图片查看器中放大图片尺寸","en":"Zoom in on an image in the viewer"},"windows":"Ctrl + =","mac":"⌘ =","linux":"Ctrl + =","keywords":["放大","图片","zoom","image"],"pinyin":"fang da tu pian （ cha kan qi nei ） fangdatupian（chakanqinei） f d t p （ c k q n ） fdtp（ckqn） fang da   tu pian fangda tupian f d   t p fd tp"},{"id":"feishu-zoom-out-image","appId":"feishu","type":"software","category":"productivity","name":{"zh":"缩小图片（查看器内）","en":"Zoom out image (viewer)"},"description":{"zh":"在图片查看器中缩小图片尺寸","en":"Zoom out on an image in the viewer"},"windows":"Ctrl + -","mac":"⌘ -","linux":"Ctrl + -","keywords":["缩小","图片","zoom","image"],"pinyin":"suo xiao tu pian （ cha kan qi nei ） suoxiaotupian（chakanqinei） s x t p （ c k q n ） sxtp（ckqn） suo xiao   tu pian suoxiao tupian s x   t p sx tp"},{"id":"feishu-toggle-mic","appId":"feishu","type":"software","category":"productivity","name":{"zh":"开/关麦克风（会议）","en":"Mute/unmute mic (meeting)"},"description":{"zh":"会议中快速打开或关闭麦克风","en":"Quickly turn the microphone on or off in a meeting"},"windows":"Ctrl + Shift + D","mac":"⌘ ⇧ D","linux":"Ctrl + Shift + D","keywords":["麦克风","会议","静音","mic","meeting","mute"],"pinyin":"kai / guan mai ke feng （ hui yi ） kai/guanmaikefeng（huiyi） k / g m k f （ h y ） k/gmkf（hy） mai ke feng   hui yi   jing yin maikefeng huiyi jingyin m k f   h y   j y mkf hy jy"},{"id":"feishu-toggle-camera","appId":"feishu","type":"software","category":"productivity","name":{"zh":"开/关摄像头（会议）","en":"Start/stop camera (meeting)"},"description":{"zh":"会议中快速打开或关闭摄像头","en":"Quickly turn the camera on or off in a meeting"},"windows":"Ctrl + Shift + V","mac":"⌘ ⇧ V","linux":"Ctrl + Shift + V","keywords":["摄像头","会议","camera","meeting"],"pinyin":"kai / guan she xiang tou （ hui yi ） kai/guanshexiangtou（huiyi） k / g s x t （ h y ） k/gsxt（hy） she xiang tou   hui yi shexiangtou huiyi s x t   h y sxt hy"},{"id":"feishu-meeting-fullscreen","appId":"feishu","type":"software","category":"productivity","name":{"zh":"会议窗口全屏","en":"Meeting fullscreen"},"description":{"zh":"会议窗口进入或退出全屏","en":"Enter or exit fullscreen for the meeting window"},"windows":"Ctrl + Shift + F","mac":"⌘ ⇧ F","linux":"Ctrl + Shift + F","keywords":["会议","全屏","meeting","fullscreen"],"pinyin":"hui yi chuang kou quan ping huiyichuangkouquanping h y c k q p hyckqp hui yi   quan ping huiyi quanping h y   q p hy qp"},{"id":"feishu-meeting-minimize","appId":"feishu","type":"software","category":"productivity","name":{"zh":"会议窗口最小化","en":"Minimize meeting"},"description":{"zh":"会议窗口最小化或恢复","en":"Minimize or restore the meeting window"},"windows":"Ctrl + Shift + M","mac":"⌘ ⇧ M","linux":"Ctrl + Shift + M","keywords":["会议","最小化","meeting","minimize"],"pinyin":"hui yi chuang kou zui xiao hua huiyichuangkouzuixiaohua h y c k z x h hyckzxh hui yi   zui xiao hua huiyi zuixiaohua h y   z x h hy zxh"},{"id":"feishu-screenshot","appId":"feishu","type":"software","category":"productivity","name":{"zh":"截图","en":"Screenshot"},"description":{"zh":"调起截图功能","en":"Launch the screenshot tool"},"windows":"Ctrl + Shift + A","mac":"⌘ ⇧ A","linux":"Ctrl + Shift + A","keywords":["截图","screenshot","capture"],"pinyin":"jie tu jietu j t jt jie tu jietu j t jt"},{"id":"feishu-screen-record","appId":"feishu","type":"software","category":"productivity","name":{"zh":"录屏","en":"Screen recording"},"description":{"zh":"调起录屏功能","en":"Launch the screen recording tool"},"windows":"Alt + Shift + R","mac":"⌥ ⇧ R","linux":"Alt + Shift + R","keywords":["录屏","录制","record","screen"],"pinyin":"lu ping luping l p lp lu ping   lu zhi luping luzhi l p   l z lp lz"},{"id":"feishu-prev-tab","appId":"feishu","type":"software","category":"productivity","name":{"zh":"上一个活跃标签页","en":"Previous active tab"},"description":{"zh":"跳转左侧导航栏上一个打开的标签页","en":"Jump to the previous open tab in the sidebar"},"windows":"Ctrl + `","mac":"⌃ `","linux":"Ctrl + `","keywords":["标签页","上一个","tab","previous"],"pinyin":"shang yi ge huo yue biao qian ye shangyigehuoyuebiaoqianye s y g h y b q y syghybqy biao qian ye   shang yi ge biaoqianye shangyige b q y   s y g bqy syg"},{"id":"feishu-next-tab","appId":"feishu","type":"software","category":"productivity","name":{"zh":"后一个历史浏览页面","en":"Next tab in history"},"description":{"zh":"唤起快捷切换器并向后选","en":"Open the tab switcher and move forward"},"windows":"Ctrl + Tab","mac":"⌃ Tab","linux":"Ctrl + Tab","keywords":["标签页","切换","tab","next"],"pinyin":"hou yi ge li shi liu lan ye mian houyigelishiliulanyemian h y g l s l l y m hyglsllym biao qian ye   qie huan biaoqianye qiehuan b q y   q h bqy qh"},{"id":"feishu-prev-tab-history","appId":"feishu","type":"software","category":"productivity","name":{"zh":"前一个历史浏览页面","en":"Previous tab in history"},"description":{"zh":"唤起快捷切换器并向前选","en":"Open the tab switcher and move backward"},"windows":"Ctrl + Shift + Tab","mac":"⌃ ⇧ Tab","linux":"Ctrl + Shift + Tab","keywords":["标签页","切换","tab","previous"],"pinyin":"qian yi ge li shi liu lan ye mian qianyigelishiliulanyemian q y g l s l l y m qyglsllym biao qian ye   qie huan biaoqianye qiehuan b q y   q h bqy qh"},{"id":"feishu-history","appId":"feishu","type":"software","category":"productivity","name":{"zh":"打开历史记录","en":"Open history"},"description":{"zh":"打开历史记录详情页","en":"Open the browsing history page"},"windows":"Ctrl + H","mac":"⌘ Y","linux":"Ctrl + H","keywords":["历史","记录","history"],"pinyin":"da kai li shi ji lu dakailishijilu d k l s j l dklsjl li shi   ji lu lishi jilu l s   j l ls jl"},{"id":"feishu-back","appId":"feishu","type":"software","category":"productivity","name":{"zh":"后退","en":"Back"},"description":{"zh":"标签页内后退","en":"Go back within the tab"},"windows":"Ctrl + ←","mac":"⌘ ←","linux":"Ctrl + ←","keywords":["后退","back"],"pinyin":"hou tui houtui h t ht hou tui houtui h t ht"},{"id":"feishu-forward","appId":"feishu","type":"software","category":"productivity","name":{"zh":"前进","en":"Forward"},"description":{"zh":"标签页内前进","en":"Go forward within the tab"},"windows":"Ctrl + →","mac":"⌘ →","linux":"Ctrl + →","keywords":["前进","forward"],"pinyin":"qian jin qianjin q j qj qian jin qianjin q j qj"},{"id":"feishu-reload","appId":"feishu","type":"software","category":"productivity","name":{"zh":"重新加载当前页面","en":"Reload page"},"description":{"zh":"重新加载当前页面","en":"Reload the current page"},"windows":"F5","mac":"⌘ R","linux":"F5","keywords":["刷新","重新加载","reload","refresh"],"pinyin":"chong xin jia zai dang qian ye mian chongxinjiazaidangqianyemian c x j z d q y m cxjzdqym shua xin   chong xin jia zai shuaxin chongxinjiazai s x   c x j z sx cxjz"},{"id":"feishu-copy-link","appId":"feishu","type":"software","category":"productivity","name":{"zh":"复制当前页面链接","en":"Copy page link"},"description":{"zh":"复制当前页面的链接","en":"Copy the link of the current page"},"windows":"Ctrl + Shift + C","mac":"⌘ ⇧ C","linux":"Ctrl + Shift + C","keywords":["复制","链接","copy","link"],"pinyin":"fu zhi dang qian ye mian lian jie fuzhidangqianyemianlianjie f z d q y m l j fzdqymlj fu zhi   lian jie fuzhi lianjie f z   l j fz lj"},{"id":"feishu-close-page","appId":"feishu","type":"software","category":"productivity","name":{"zh":"关闭当前页面","en":"Close current page"},"description":{"zh":"关闭标签页或窗口","en":"Close the current tab or window"},"windows":"Ctrl + W","mac":"⌘ W","linux":"Ctrl + W","keywords":["关闭","标签页","close","tab"],"pinyin":"guan bi dang qian ye mian guanbidangqianyemian g b d q y m gbdqym guan bi   biao qian ye guanbi biaoqianye g b   b q y gb bqy"},{"id":"feishu-jump-tab-1-8","appId":"feishu","type":"software","category":"productivity","name":{"zh":"跳转到指定标签页","en":"Jump to tab 1-8"},"description":{"zh":"跳转导航栏指定数字标签","en":"Jump to the tab at the given number position"},"windows":"Ctrl + 1~8","mac":"⌘ 1~8","linux":"Ctrl + 1~8","keywords":["跳转","标签页","tab","jump"],"pinyin":"tiao zhuan dao zhi ding biao qian ye tiaozhuandaozhidingbiaoqianye t z d z d b q y tzdzdbqy tiao zhuan   biao qian ye tiaozhuan biaoqianye t z   b q y tz bqy"},{"id":"feishu-jump-tab-9","appId":"feishu","type":"software","category":"productivity","name":{"zh":"跳转到最后一个标签页","en":"Jump to last tab"},"description":{"zh":"跳转导航栏最后一个标签","en":"Jump to the last tab in the sidebar"},"windows":"Ctrl + 9","mac":"⌘ 9","linux":"Ctrl + 9","keywords":["跳转","最后","tab","last"],"pinyin":"tiao zhuan dao zui hou yi ge biao qian ye tiaozhuandaozuihouyigebiaoqianye t z d z h y g b q y tzdzhygbqy tiao zhuan   zui hou tiaozhuan zuihou t z   z h tz zh"},{"id":"feishu-reopen-tab","appId":"feishu","type":"software","category":"productivity","name":{"zh":"重新打开关闭的标签页","en":"Reopen closed tab"},"description":{"zh":"按关闭顺序恢复标签页","en":"Reopen a recently closed tab in order"},"windows":"Ctrl + Shift + T","mac":"⌘ ⇧ T","linux":"Ctrl + Shift + T","keywords":["重新打开","恢复","reopen","restore","tab"],"pinyin":"chong xin da kai guan bi de biao qian ye chongxindakaiguanbidebiaoqianye c x d k g b d b q y cxdkgbdbqy chong xin da kai   hui fu chongxindakai huifu c x d k   h f cxdk hf"},{"id":"feishu-settings","appId":"feishu","type":"software","category":"productivity","name":{"zh":"打开设置","en":"Open settings"},"description":{"zh":"打开飞书设置","en":"Open Feishu settings"},"windows":"Ctrl + ,","mac":"⌘ ,","linux":"Ctrl + ,","keywords":["设置","settings"],"pinyin":"da kai she zhi dakaishezhi d k s z dksz she zhi shezhi s z sz"},{"id":"feishu-show-shortcuts","appId":"feishu","type":"software","category":"productivity","name":{"zh":"查看快捷键","en":"Show shortcuts"},"description":{"zh":"打开快捷键设置面板","en":"Open the shortcuts settings panel"},"windows":"Ctrl / ","mac":"⌘ / ","linux":"Ctrl / ","keywords":["快捷键","shortcuts","help"],"pinyin":"cha kan kuai jie jian chakankuaijiejian c k k j j ckkjj kuai jie jian kuaijiejian k j j kjj"},{"id":"feishu-set-status","appId":"feishu","type":"software","category":"productivity","name":{"zh":"设置飞书状态","en":"Set status"},"description":{"zh":"打开状态设置面板","en":"Open the status settings panel"},"windows":"Ctrl + Shift + Y","mac":"⌘ ⇧ Y","linux":"Ctrl + Shift + Y","keywords":["状态","status"],"pinyin":"she zhi fei shu zhuang tai shezhifeishuzhuangtai s z f s z t szfszt zhuang tai zhuangtai z t zt"},{"id":"feishu-new-task","appId":"feishu","type":"software","category":"productivity","name":{"zh":"新建任务","en":"New task"},"description":{"zh":"在任务中心新建任务","en":"Create a new task in the task center"},"windows":"Ctrl + N","mac":"⌘ N","linux":"Ctrl + N","keywords":["新建","任务","task","new"],"pinyin":"xin jian ren wu xinjianrenwu x j r w xjrw xin jian   ren wu xinjian renwu x j   r w xj rw"},{"id":"feishu-help","appId":"feishu","type":"software","category":"productivity","name":{"zh":"打开帮助与客服","en":"Open help & support"},"description":{"zh":"打开帮助与客服页","en":"Open the help and support page"},"windows":"F1","mac":"Fn F1","linux":"F1","keywords":["帮助","客服","help","support"],"pinyin":"da kai bang zhu yu ke fu dakaibangzhuyukefu d k b z y k f dkbzykf bang zhu   ke fu bangzhu kefu b z   k f bz kf"},{"id":"feishu-show-hide","appId":"feishu","type":"software","category":"productivity","name":{"zh":"显示/隐藏飞书","en":"Show/hide Feishu"},"description":{"zh":"快速显示或隐藏飞书入口","en":"Quickly show or hide the Feishu window"},"windows":"Ctrl + Shift + W","mac":"⌘ ⇧ W","linux":"Ctrl + Shift + W","keywords":["显示","隐藏","show","hide"],"pinyin":"xian shi / yin cang fei shu xianshi/yincangfeishu x s / y c f s xs/ycfs xian shi   yin cang xianshi yincang x s   y c xs yc"},{"id":"feishu-zoom-in-window","appId":"feishu","type":"software","category":"productivity","name":{"zh":"放大窗口","en":"Zoom in window"},"description":{"zh":"放大飞书窗口缩放比例","en":"Increase the Feishu window zoom level"},"windows":"Ctrl + = / Ctrl ++","mac":"⌘ = / ⌘ +","linux":"Ctrl + =","keywords":["放大","窗口","zoom","window"],"pinyin":"fang da chuang kou fangdachuangkou f d c k fdck fang da   chuang kou fangda chuangkou f d   c k fd ck"},{"id":"feishu-zoom-out-window","appId":"feishu","type":"software","category":"productivity","name":{"zh":"缩小窗口","en":"Zoom out window"},"description":{"zh":"缩小飞书窗口缩放比例（与图片查看器缩放共用 Ctrl+- ）","en":"Decrease the Feishu window zoom level (shares Ctrl+- with image viewer)"},"windows":"Ctrl + -","mac":"⌘ -","linux":"Ctrl + -","keywords":["缩小","窗口","zoom","window"],"pinyin":"suo xiao chuang kou suoxiaochuangkou s x c k sxck suo xiao   chuang kou suoxiao chuangkou s x   c k sx ck"},{"id":"feishu-zoom-reset","appId":"feishu","type":"software","category":"productivity","name":{"zh":"窗口缩放至 100%","en":"Reset window zoom"},"description":{"zh":"窗口缩放恢复默认","en":"Reset the window zoom to default"},"windows":"Ctrl + 0","mac":"⌘ 0","linux":"Ctrl + 0","keywords":["缩放","100","zoom","reset"],"pinyin":"chuang kou suo fang zhi   1 0 0 % chuangkousuofangzhi 100% c k s f z   1 0 0 % cksfz 100% suo fang suofang s f sf"},{"id":"feishu-app-fullscreen","appId":"feishu","type":"software","category":"productivity","name":{"zh":"进入/退出全屏","en":"Enter/exit fullscreen"},"description":{"zh":"飞书窗口全屏切换","en":"Toggle Feishu window fullscreen"},"windows":"F11","mac":"⌘ ⌃ F","linux":"F11","keywords":["全屏","fullscreen"],"pinyin":"jin ru / tui chu quan ping jinru/tuichuquanping j r / t c q p jr/tcqp quan ping quanping q p qp"},{"id":"feishu-doc-bold","appId":"feishu","type":"software","category":"productivity","name":{"zh":"加粗（文档）","en":"Bold (doc)"},"description":{"zh":"飞书文档中将选中文字加粗","en":"Make text bold in Feishu Doc"},"windows":"Ctrl + B","mac":"⌘ B","linux":"Ctrl + B","keywords":["加粗","bold","文档"],"pinyin":"jia cu （ wen dang ） jiacu（wendang） j c （ w d ） jc（wd） jia cu   wen dang jiacu wendang j c   w d jc wd"},{"id":"feishu-doc-italic","appId":"feishu","type":"software","category":"productivity","name":{"zh":"斜体（文档）","en":"Italic (doc)"},"description":{"zh":"飞书文档中将选中文字设为斜体","en":"Make text italic in Feishu Doc"},"windows":"Ctrl + I","mac":"⌘ I","linux":"Ctrl + I","keywords":["斜体","italic","文档"],"pinyin":"xie ti （ wen dang ） xieti（wendang） x t （ w d ） xt（wd） xie ti   wen dang xieti wendang x t   w d xt wd"},{"id":"feishu-doc-underline","appId":"feishu","type":"software","category":"productivity","name":{"zh":"下划线（文档）","en":"Underline (doc)"},"description":{"zh":"飞书文档中为选中文字添加下划线","en":"Underline text in Feishu Doc"},"windows":"Ctrl + U","mac":"⌘ U","linux":"Ctrl + U","keywords":["下划线","underline","文档"],"pinyin":"xia hua xian （ wen dang ） xiahuaxian（wendang） x h x （ w d ） xhx（wd） xia hua xian   wen dang xiahuaxian wendang x h x   w d xhx wd"},{"id":"feishu-doc-strike","appId":"feishu","type":"software","category":"productivity","name":{"zh":"删除线（文档）","en":"Strikethrough (doc)"},"description":{"zh":"飞书文档中为选中文字添加删除线","en":"Strikethrough text in Feishu Doc"},"windows":"Ctrl + Shift + X","mac":"⌘ ⇧ X","linux":"Ctrl + Shift + X","keywords":["删除线","strikethrough","文档"],"pinyin":"shan chu xian （ wen dang ） shanchuxian（wendang） s c x （ w d ） scx（wd） shan chu xian   wen dang shanchuxian wendang s c x   w d scx wd"},{"id":"feishu-doc-heading1","appId":"feishu","type":"software","category":"productivity","name":{"zh":"标题一（文档）","en":"Heading 1 (doc)"},"description":{"zh":"飞书文档中将当前行设为标题一","en":"Set current line to heading 1 in Feishu Doc"},"windows":"Ctrl + Alt + 1","mac":"⌘ ⌥ 1","linux":"Ctrl + Alt + 1","keywords":["标题","heading","文档"],"pinyin":"biao ti yi （ wen dang ） biaotiyi（wendang） b t y （ w d ） bty（wd） biao ti   wen dang biaoti wendang b t   w d bt wd"},{"id":"feishu-doc-heading2","appId":"feishu","type":"software","category":"productivity","name":{"zh":"标题二（文档）","en":"Heading 2 (doc)"},"description":{"zh":"飞书文档中将当前行设为标题二","en":"Set current line to heading 2 in Feishu Doc"},"windows":"Ctrl + Alt + 2","mac":"⌘ ⌥ 2","linux":"Ctrl + Alt + 2","keywords":["标题","heading","文档"],"pinyin":"biao ti er （ wen dang ） biaotier（wendang） b t e （ w d ） bte（wd） biao ti   wen dang biaoti wendang b t   w d bt wd"},{"id":"feishu-doc-heading3","appId":"feishu","type":"software","category":"productivity","name":{"zh":"标题三（文档）","en":"Heading 3 (doc)"},"description":{"zh":"飞书文档中将当前行设为标题三","en":"Set current line to heading 3 in Feishu Doc"},"windows":"Ctrl + Alt + 3","mac":"⌘ ⌥ 3","linux":"Ctrl + Alt + 3","keywords":["标题","heading","文档"],"pinyin":"biao ti san （ wen dang ） biaotisan（wendang） b t s （ w d ） bts（wd） biao ti   wen dang biaoti wendang b t   w d bt wd"},{"id":"feishu-doc-link","appId":"feishu","type":"software","category":"productivity","name":{"zh":"插入链接（文档）","en":"Insert link (doc)"},"description":{"zh":"飞书文档中插入超链接","en":"Insert hyperlink in Feishu Doc"},"windows":"Ctrl + K","mac":"⌘ K","linux":"Ctrl + K","keywords":["链接","link","文档"],"pinyin":"cha ru lian jie （ wen dang ） charulianjie（wendang） c r l j （ w d ） crlj（wd） lian jie   wen dang lianjie wendang l j   w d lj wd"},{"id":"feishu-doc-code","appId":"feishu","type":"software","category":"productivity","name":{"zh":"代码块（文档）","en":"Code block (doc)"},"description":{"zh":"飞书文档中插入代码块","en":"Insert code block in Feishu Doc"},"windows":"Ctrl + Alt + C","mac":"⌘ ⌥ C","linux":"Ctrl + Alt + C","keywords":["代码","code","文档"],"pinyin":"dai ma kuai （ wen dang ） daimakuai（wendang） d m k （ w d ） dmk（wd） dai ma   wen dang daima wendang d m   w d dm wd"},{"id":"feishu-doc-divider","appId":"feishu","type":"software","category":"productivity","name":{"zh":"分割线（文档）","en":"Divider (doc)"},"description":{"zh":"飞书文档中插入分割线","en":"Insert divider in Feishu Doc"},"windows":"Ctrl + Enter","mac":"⌘ Enter","linux":"Ctrl + Enter","keywords":["分割线","divider","文档"],"pinyin":"fen ge xian （ wen dang ） fengexian（wendang） f g x （ w d ） fgx（wd） fen ge xian   wen dang fengexian wendang f g x   w d fgx wd"},{"id":"feishu-doc-bulleted","appId":"feishu","type":"software","category":"productivity","name":{"zh":"项目符号列表（文档）","en":"Bulleted list (doc)"},"description":{"zh":"飞书文档中切换项目符号列表","en":"Toggle bulleted list in Feishu Doc"},"windows":"Ctrl + Shift + 8","mac":"⌘ ⇧ 8","linux":"Ctrl + Shift + 8","keywords":["列表","项目符号","文档"],"pinyin":"xiang mu fu hao lie biao （ wen dang ） xiangmufuhaoliebiao（wendang） x m f h l b （ w d ） xmfhlb（wd） lie biao   xiang mu fu hao   wen dang liebiao xiangmufuhao wendang l b   x m f h   w d lb xmfh wd"},{"id":"feishu-doc-numbered","appId":"feishu","type":"software","category":"productivity","name":{"zh":"编号列表（文档）","en":"Numbered list (doc)"},"description":{"zh":"飞书文档中切换编号列表","en":"Toggle numbered list in Feishu Doc"},"windows":"Ctrl + Shift + 7","mac":"⌘ ⇧ 7","linux":"Ctrl + Shift + 7","keywords":["列表","编号","文档"],"pinyin":"bian hao lie biao （ wen dang ） bianhaoliebiao（wendang） b h l b （ w d ） bhlb（wd） lie biao   bian hao   wen dang liebiao bianhao wendang l b   b h   w d lb bh wd"},{"id":"feishu-doc-indent","appId":"feishu","type":"software","category":"productivity","name":{"zh":"增加缩进（文档）","en":"Increase indent (doc)"},"description":{"zh":"飞书文档中增加段落缩进","en":"Increase indent in Feishu Doc"},"windows":"Ctrl + ]","mac":"⌘ ]","linux":"Ctrl + ]","keywords":["缩进","indent","文档"],"pinyin":"zeng jia suo jin （ wen dang ） zengjiasuojin（wendang） z j s j （ w d ） zjsj（wd） suo jin   wen dang suojin wendang s j   w d sj wd"},{"id":"feishu-doc-outdent","appId":"feishu","type":"software","category":"productivity","name":{"zh":"减少缩进（文档）","en":"Decrease indent (doc)"},"description":{"zh":"飞书文档中减少段落缩进","en":"Decrease indent in Feishu Doc"},"windows":"Ctrl + [","mac":"⌘ [","linux":"Ctrl + [","keywords":["缩进","indent","文档"],"pinyin":"jian shao suo jin （ wen dang ） jianshaosuojin（wendang） j s s j （ w d ） jssj（wd） suo jin   wen dang suojin wendang s j   w d sj wd"},{"id":"feishu-doc-undo","appId":"feishu","type":"software","category":"productivity","name":{"zh":"撤销（文档）","en":"Undo (doc)"},"description":{"zh":"飞书文档中撤销上一步操作","en":"Undo in Feishu Doc"},"windows":"Ctrl + Z","mac":"⌘ Z","linux":"Ctrl + Z","keywords":["撤销","undo","文档"],"pinyin":"che xiao （ wen dang ） chexiao（wendang） c x （ w d ） cx（wd） che xiao   wen dang chexiao wendang c x   w d cx wd"},{"id":"feishu-doc-redo","appId":"feishu","type":"software","category":"productivity","name":{"zh":"重做（文档）","en":"Redo (doc)"},"description":{"zh":"飞书文档中重做已撤销操作","en":"Redo in Feishu Doc"},"windows":"Ctrl + Y","mac":"⌘ Y","linux":"Ctrl + Y","keywords":["重做","redo","文档"],"pinyin":"zhong zuo （ wen dang ） zhongzuo（wendang） z z （ w d ） zz（wd） zhong zuo   wen dang zhongzuo wendang z z   w d zz wd"},{"id":"feishu-doc-select-all","appId":"feishu","type":"software","category":"productivity","name":{"zh":"全选（文档）","en":"Select all (doc)"},"description":{"zh":"飞书文档中选中全部内容","en":"Select all content in Feishu Doc"},"windows":"Ctrl + A","mac":"⌘ A","linux":"Ctrl + A","keywords":["全选","select","文档"],"pinyin":"quan xuan （ wen dang ） quanxuan（wendang） q x （ w d ） qx（wd） quan xuan   wen dang quanxuan wendang q x   w d qx wd"},{"id":"feishu-doc-find","appId":"feishu","type":"software","category":"productivity","name":{"zh":"查找（文档）","en":"Find (doc)"},"description":{"zh":"飞书文档中打开查找栏","en":"Open find bar in Feishu Doc"},"windows":"Ctrl + F","mac":"⌘ F","linux":"Ctrl + F","keywords":["查找","find","文档"],"pinyin":"cha zhao （ wen dang ） chazhao（wendang） c z （ w d ） cz（wd） cha zhao   wen dang chazhao wendang c z   w d cz wd"},{"id":"feishu-sheet-edit-cell","appId":"feishu","type":"software","category":"productivity","name":{"zh":"编辑单元格（表格）","en":"Edit cell (sheet)"},"description":{"zh":"飞书表格中进入单元格编辑模式","en":"Enter edit mode in Feishu Sheet"},"windows":"F2","mac":"F2","linux":"F2","keywords":["编辑","单元格","表格"],"pinyin":"bian ji dan yuan ge （ biao ge ） bianjidanyuange（biaoge） b j d y g （ b g ） bjdyg（bg） bian ji   dan yuan ge   biao ge bianji danyuange biaoge b j   d y g   b g bj dyg bg"},{"id":"feishu-sheet-date","appId":"feishu","type":"software","category":"productivity","name":{"zh":"插入日期（表格）","en":"Insert date (sheet)"},"description":{"zh":"飞书表格中插入当前日期","en":"Insert today's date in Feishu Sheet"},"windows":"Ctrl + ;","mac":"⌘ ;","linux":"Ctrl + ;","keywords":["日期","date","表格"],"pinyin":"cha ru ri qi （ biao ge ） charuriqi（biaoge） c r r q （ b g ） crrq（bg） ri qi   biao ge riqi biaoge r q   b g rq bg"},{"id":"feishu-sheet-bold","appId":"feishu","type":"software","category":"productivity","name":{"zh":"加粗（表格）","en":"Bold (sheet)"},"description":{"zh":"飞书表格中将选中内容加粗","en":"Make selection bold in Feishu Sheet"},"windows":"Ctrl + B","mac":"⌘ B","linux":"Ctrl + B","keywords":["加粗","bold","表格"],"pinyin":"jia cu （ biao ge ） jiacu（biaoge） j c （ b g ） jc（bg） jia cu   biao ge jiacu biaoge j c   b g jc bg"},{"id":"feishu-sheet-italic","appId":"feishu","type":"software","category":"productivity","name":{"zh":"斜体（表格）","en":"Italic (sheet)"},"description":{"zh":"飞书表格中将选中内容设为斜体","en":"Make selection italic in Feishu Sheet"},"windows":"Ctrl + I","mac":"⌘ I","linux":"Ctrl + I","keywords":["斜体","italic","表格"],"pinyin":"xie ti （ biao ge ） xieti（biaoge） x t （ b g ） xt（bg） xie ti   biao ge xieti biaoge x t   b g xt bg"}]
+[
+  {
+    "id": "feishu-search",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "飞书搜索",
+      "en": "Search in Feishu"
+    },
+    "description": {
+      "zh": "打开飞书全局搜索面板",
+      "en": "Open the Feishu global search panel"
+    },
+    "windows": "Ctrl + K",
+    "mac": "⌘ K",
+    "linux": "Ctrl + K",
+    "keywords": [
+      "搜索",
+      "查找",
+      "search",
+      "find"
+    ],
+    "pinyin": "fei shu sou suo feishusousuo f s s s fsss sou suo   cha zhao sousuo chazhao s s   c z ss cz"
+  },
+  {
+    "id": "feishu-search-in-page",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "页面内搜索",
+      "en": "Search in current page"
+    },
+    "description": {
+      "zh": "在当前页面内通过关键词查找",
+      "en": "Find text within the current page"
+    },
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
+    "linux": "Ctrl + F",
+    "keywords": [
+      "搜索",
+      "查找",
+      "search",
+      "find",
+      "页面"
+    ],
+    "pinyin": "ye mian nei sou suo yemianneisousuo y m n s s ymnss sou suo   cha zhao   ye mian sousuo chazhao yemian s s   c z   y m ss cz ym"
+  },
+  {
+    "id": "feishu-send-message",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "发送消息",
+      "en": "Send message"
+    },
+    "description": {
+      "zh": "发送当前输入框消息（可在设置中切换回车或组合键发送）",
+      "en": "Send the message in the input box (configurable: Enter or shortcut)"
+    },
+    "windows": "Enter 或 Ctrl + Enter",
+    "mac": "Enter 或 ⌘ Enter",
+    "linux": "Enter 或 Ctrl + Enter",
+    "keywords": [
+      "发送",
+      "消息",
+      "send",
+      "message"
+    ],
+    "pinyin": "fa song xiao xi fasongxiaoxi f s x x fsxx fa song   xiao xi fasong xiaoxi f s   x x fs xx"
+  },
+  {
+    "id": "feishu-prev-group",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "上一个消息分组",
+      "en": "Previous message group"
+    },
+    "description": {
+      "zh": "切换至上一个消息分组",
+      "en": "Switch to the previous message group"
+    },
+    "windows": "Ctrl + ↑",
+    "mac": "⌘ ↑",
+    "linux": "Ctrl + ↑",
+    "keywords": [
+      "分组",
+      "上一个",
+      "group",
+      "previous"
+    ],
+    "pinyin": "shang yi ge xiao xi fen zu shangyigexiaoxifenzu s y g x x f z sygxxfz fen zu   shang yi ge fenzu shangyige f z   s y g fz syg"
+  },
+  {
+    "id": "feishu-next-group",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "下一个消息分组",
+      "en": "Next message group"
+    },
+    "description": {
+      "zh": "切换至下一个消息分组",
+      "en": "Switch to the next message group"
+    },
+    "windows": "Ctrl + ↓",
+    "mac": "⌘ ↓",
+    "linux": "Ctrl + ↓",
+    "keywords": [
+      "分组",
+      "下一个",
+      "group",
+      "next"
+    ],
+    "pinyin": "xia yi ge xiao xi fen zu xiayigexiaoxifenzu x y g x x f z xygxxfz fen zu   xia yi ge fenzu xiayige f z   x y g fz xyg"
+  },
+  {
+    "id": "feishu-toggle-group",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "展开/隐藏消息分组",
+      "en": "Expand/collapse message groups"
+    },
+    "description": {
+      "zh": "展开或隐藏消息功能中的分组栏",
+      "en": "Expand or collapse the group sidebar in messages"
+    },
+    "windows": "Ctrl + G",
+    "mac": "⌘ G",
+    "linux": "Ctrl + G",
+    "keywords": [
+      "分组",
+      "展开",
+      "隐藏",
+      "group",
+      "expand"
+    ],
+    "pinyin": "zhan kai / yin cang xiao xi fen zu zhankai/yincangxiaoxifenzu z k / y c x x f z zk/ycxxfz fen zu   zhan kai   yin cang fenzu zhankai yincang f z   z k   y c fz zk yc"
+  },
+  {
+    "id": "feishu-prev-unread",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "上一个未读会话",
+      "en": "Previous unread conversation"
+    },
+    "description": {
+      "zh": "切换至上一个未读会话",
+      "en": "Jump to the previous unread conversation"
+    },
+    "windows": "Ctrl + Shift + ↑",
+    "mac": "⌘ ⇧ ↑",
+    "linux": "Ctrl + Shift + ↑",
+    "keywords": [
+      "未读",
+      "上一个",
+      "unread",
+      "previous"
+    ],
+    "pinyin": "shang yi ge wei du hui hua shangyigeweiduhuihua s y g w d h h sygwdhh wei du   shang yi ge weidu shangyige w d   s y g wd syg"
+  },
+  {
+    "id": "feishu-next-unread",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "下一个未读会话",
+      "en": "Next unread conversation"
+    },
+    "description": {
+      "zh": "切换至下一个未读会话",
+      "en": "Jump to the next unread conversation"
+    },
+    "windows": "Ctrl + Shift + ↓",
+    "mac": "⌘ ⇧ ↓",
+    "linux": "Ctrl + Shift + ↓",
+    "keywords": [
+      "未读",
+      "下一个",
+      "unread",
+      "next"
+    ],
+    "pinyin": "xia yi ge wei du hui hua xiayigeweiduhuihua x y g w d h h xygwdhh wei du   xia yi ge weidu xiayige w d   x y g wd xyg"
+  },
+  {
+    "id": "feishu-complete-conversation",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "完成当前会话",
+      "en": "Mark conversation as done"
+    },
+    "description": {
+      "zh": "将当前会话移至“已完成”分组",
+      "en": "Move the current conversation to the Done group"
+    },
+    "windows": "Ctrl + D",
+    "mac": "⌘ D",
+    "linux": "Ctrl + D",
+    "keywords": [
+      "完成",
+      "会话",
+      "done",
+      "conversation"
+    ],
+    "pinyin": "wan cheng dang qian hui hua wanchengdangqianhuihua w c d q h h wcdqhh wan cheng   hui hua wancheng huihua w c   h h wc hh"
+  },
+  {
+    "id": "feishu-save-media",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "保存图片或视频",
+      "en": "Save image or video"
+    },
+    "description": {
+      "zh": "保存正在浏览的图片或视频",
+      "en": "Save the image or video being viewed"
+    },
+    "windows": "Ctrl + S",
+    "mac": "⌘ S",
+    "linux": "Ctrl + S",
+    "keywords": [
+      "保存",
+      "图片",
+      "视频",
+      "save",
+      "image",
+      "video"
+    ],
+    "pinyin": "bao cun tu pian huo shi pin baocuntupianhuoshipin b c t p h s p bctphsp bao cun   tu pian   shi pin baocun tupian shipin b c   t p   s p bc tp sp"
+  },
+  {
+    "id": "feishu-zoom-in-image",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "放大图片（查看器内）",
+      "en": "Zoom in image (viewer)"
+    },
+    "description": {
+      "zh": "在图片查看器中放大图片尺寸",
+      "en": "Zoom in on an image in the viewer"
+    },
+    "windows": "Ctrl + =",
+    "mac": "⌘ =",
+    "linux": "Ctrl + =",
+    "keywords": [
+      "放大",
+      "图片",
+      "zoom",
+      "image"
+    ],
+    "pinyin": "fang da tu pian （ cha kan qi nei ） fangdatupian（chakanqinei） f d t p （ c k q n ） fdtp（ckqn） fang da   tu pian fangda tupian f d   t p fd tp"
+  },
+  {
+    "id": "feishu-zoom-out-image",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "缩小图片（查看器内）",
+      "en": "Zoom out image (viewer)"
+    },
+    "description": {
+      "zh": "在图片查看器中缩小图片尺寸",
+      "en": "Zoom out on an image in the viewer"
+    },
+    "windows": "Ctrl + -",
+    "mac": "⌘ -",
+    "linux": "Ctrl + -",
+    "keywords": [
+      "缩小",
+      "图片",
+      "zoom",
+      "image"
+    ],
+    "pinyin": "suo xiao tu pian （ cha kan qi nei ） suoxiaotupian（chakanqinei） s x t p （ c k q n ） sxtp（ckqn） suo xiao   tu pian suoxiao tupian s x   t p sx tp"
+  },
+  {
+    "id": "feishu-toggle-mic",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "开/关麦克风（会议）",
+      "en": "Mute/unmute mic (meeting)"
+    },
+    "description": {
+      "zh": "会议中快速打开或关闭麦克风",
+      "en": "Quickly turn the microphone on or off in a meeting"
+    },
+    "windows": "Ctrl + Shift + D",
+    "mac": "⌘ ⇧ D",
+    "linux": "Ctrl + Shift + D",
+    "keywords": [
+      "麦克风",
+      "会议",
+      "静音",
+      "mic",
+      "meeting",
+      "mute"
+    ],
+    "pinyin": "kai / guan mai ke feng （ hui yi ） kai/guanmaikefeng（huiyi） k / g m k f （ h y ） k/gmkf（hy） mai ke feng   hui yi   jing yin maikefeng huiyi jingyin m k f   h y   j y mkf hy jy"
+  },
+  {
+    "id": "feishu-toggle-camera",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "开/关摄像头（会议）",
+      "en": "Start/stop camera (meeting)"
+    },
+    "description": {
+      "zh": "会议中快速打开或关闭摄像头",
+      "en": "Quickly turn the camera on or off in a meeting"
+    },
+    "windows": "Ctrl + Shift + V",
+    "mac": "⌘ ⇧ V",
+    "linux": "Ctrl + Shift + V",
+    "keywords": [
+      "摄像头",
+      "会议",
+      "camera",
+      "meeting"
+    ],
+    "pinyin": "kai / guan she xiang tou （ hui yi ） kai/guanshexiangtou（huiyi） k / g s x t （ h y ） k/gsxt（hy） she xiang tou   hui yi shexiangtou huiyi s x t   h y sxt hy"
+  },
+  {
+    "id": "feishu-meeting-fullscreen",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "会议窗口全屏",
+      "en": "Meeting fullscreen"
+    },
+    "description": {
+      "zh": "会议窗口进入或退出全屏",
+      "en": "Enter or exit fullscreen for the meeting window"
+    },
+    "windows": "Ctrl + Shift + F",
+    "mac": "⌘ ⇧ F",
+    "linux": "Ctrl + Shift + F",
+    "keywords": [
+      "会议",
+      "全屏",
+      "meeting",
+      "fullscreen"
+    ],
+    "pinyin": "hui yi chuang kou quan ping huiyichuangkouquanping h y c k q p hyckqp hui yi   quan ping huiyi quanping h y   q p hy qp"
+  },
+  {
+    "id": "feishu-meeting-minimize",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "会议窗口最小化",
+      "en": "Minimize meeting"
+    },
+    "description": {
+      "zh": "会议窗口最小化或恢复",
+      "en": "Minimize or restore the meeting window"
+    },
+    "windows": "Ctrl + Shift + M",
+    "mac": "⌘ ⇧ M",
+    "linux": "Ctrl + Shift + M",
+    "keywords": [
+      "会议",
+      "最小化",
+      "meeting",
+      "minimize"
+    ],
+    "pinyin": "hui yi chuang kou zui xiao hua huiyichuangkouzuixiaohua h y c k z x h hyckzxh hui yi   zui xiao hua huiyi zuixiaohua h y   z x h hy zxh"
+  },
+  {
+    "id": "feishu-screenshot",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "截图",
+      "en": "Screenshot"
+    },
+    "description": {
+      "zh": "调起截图功能",
+      "en": "Launch the screenshot tool"
+    },
+    "windows": "Ctrl + Shift + A",
+    "mac": "⌘ ⇧ A",
+    "linux": "Ctrl + Shift + A",
+    "keywords": [
+      "截图",
+      "screenshot",
+      "capture"
+    ],
+    "pinyin": "jie tu jietu j t jt jie tu jietu j t jt"
+  },
+  {
+    "id": "feishu-screen-record",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "录屏",
+      "en": "Screen recording"
+    },
+    "description": {
+      "zh": "调起录屏功能",
+      "en": "Launch the screen recording tool"
+    },
+    "windows": "Alt + Shift + R",
+    "mac": "⌥ ⇧ R",
+    "linux": "Alt + Shift + R",
+    "keywords": [
+      "录屏",
+      "录制",
+      "record",
+      "screen"
+    ],
+    "pinyin": "lu ping luping l p lp lu ping   lu zhi luping luzhi l p   l z lp lz"
+  },
+  {
+    "id": "feishu-prev-tab",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "上一个活跃标签页",
+      "en": "Previous active tab"
+    },
+    "description": {
+      "zh": "跳转左侧导航栏上一个打开的标签页",
+      "en": "Jump to the previous open tab in the sidebar"
+    },
+    "windows": "Ctrl + `",
+    "mac": "⌃ `",
+    "linux": "Ctrl + `",
+    "keywords": [
+      "标签页",
+      "上一个",
+      "tab",
+      "previous"
+    ],
+    "pinyin": "shang yi ge huo yue biao qian ye shangyigehuoyuebiaoqianye s y g h y b q y syghybqy biao qian ye   shang yi ge biaoqianye shangyige b q y   s y g bqy syg"
+  },
+  {
+    "id": "feishu-next-tab",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "后一个历史浏览页面",
+      "en": "Next tab in history"
+    },
+    "description": {
+      "zh": "唤起快捷切换器并向后选",
+      "en": "Open the tab switcher and move forward"
+    },
+    "windows": "Ctrl + Tab",
+    "mac": "⌃ Tab",
+    "linux": "Ctrl + Tab",
+    "keywords": [
+      "标签页",
+      "切换",
+      "tab",
+      "next"
+    ],
+    "pinyin": "hou yi ge li shi liu lan ye mian houyigelishiliulanyemian h y g l s l l y m hyglsllym biao qian ye   qie huan biaoqianye qiehuan b q y   q h bqy qh"
+  },
+  {
+    "id": "feishu-prev-tab-history",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "前一个历史浏览页面",
+      "en": "Previous tab in history"
+    },
+    "description": {
+      "zh": "唤起快捷切换器并向前选",
+      "en": "Open the tab switcher and move backward"
+    },
+    "windows": "Ctrl + Shift + Tab",
+    "mac": "⌃ ⇧ Tab",
+    "linux": "Ctrl + Shift + Tab",
+    "keywords": [
+      "标签页",
+      "切换",
+      "tab",
+      "previous"
+    ],
+    "pinyin": "qian yi ge li shi liu lan ye mian qianyigelishiliulanyemian q y g l s l l y m qyglsllym biao qian ye   qie huan biaoqianye qiehuan b q y   q h bqy qh"
+  },
+  {
+    "id": "feishu-history",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "打开历史记录",
+      "en": "Open history"
+    },
+    "description": {
+      "zh": "打开历史记录详情页",
+      "en": "Open the browsing history page"
+    },
+    "windows": "Ctrl + H",
+    "mac": "⌘ Y",
+    "linux": "Ctrl + H",
+    "keywords": [
+      "历史",
+      "记录",
+      "history"
+    ],
+    "pinyin": "da kai li shi ji lu dakailishijilu d k l s j l dklsjl li shi   ji lu lishi jilu l s   j l ls jl"
+  },
+  {
+    "id": "feishu-back",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "后退",
+      "en": "Back"
+    },
+    "description": {
+      "zh": "标签页内后退",
+      "en": "Go back within the tab"
+    },
+    "windows": "Ctrl + ←",
+    "mac": "⌘ ←",
+    "linux": "Ctrl + ←",
+    "keywords": [
+      "后退",
+      "back"
+    ],
+    "pinyin": "hou tui houtui h t ht hou tui houtui h t ht"
+  },
+  {
+    "id": "feishu-forward",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "前进",
+      "en": "Forward"
+    },
+    "description": {
+      "zh": "标签页内前进",
+      "en": "Go forward within the tab"
+    },
+    "windows": "Ctrl + →",
+    "mac": "⌘ →",
+    "linux": "Ctrl + →",
+    "keywords": [
+      "前进",
+      "forward"
+    ],
+    "pinyin": "qian jin qianjin q j qj qian jin qianjin q j qj"
+  },
+  {
+    "id": "feishu-reload",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "重新加载当前页面",
+      "en": "Reload page"
+    },
+    "description": {
+      "zh": "重新加载当前页面",
+      "en": "Reload the current page"
+    },
+    "windows": "F5",
+    "mac": "⌘ R",
+    "linux": "F5",
+    "keywords": [
+      "刷新",
+      "重新加载",
+      "reload",
+      "refresh"
+    ],
+    "pinyin": "chong xin jia zai dang qian ye mian chongxinjiazaidangqianyemian c x j z d q y m cxjzdqym shua xin   chong xin jia zai shuaxin chongxinjiazai s x   c x j z sx cxjz"
+  },
+  {
+    "id": "feishu-copy-link",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "复制当前页面链接",
+      "en": "Copy page link"
+    },
+    "description": {
+      "zh": "复制当前页面的链接",
+      "en": "Copy the link of the current page"
+    },
+    "windows": "Ctrl + Shift + C",
+    "mac": "⌘ ⇧ C",
+    "linux": "Ctrl + Shift + C",
+    "keywords": [
+      "复制",
+      "链接",
+      "copy",
+      "link"
+    ],
+    "pinyin": "fu zhi dang qian ye mian lian jie fuzhidangqianyemianlianjie f z d q y m l j fzdqymlj fu zhi   lian jie fuzhi lianjie f z   l j fz lj"
+  },
+  {
+    "id": "feishu-close-page",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "关闭当前页面",
+      "en": "Close current page"
+    },
+    "description": {
+      "zh": "关闭标签页或窗口",
+      "en": "Close the current tab or window"
+    },
+    "windows": "Ctrl + W",
+    "mac": "⌘ W",
+    "linux": "Ctrl + W",
+    "keywords": [
+      "关闭",
+      "标签页",
+      "close",
+      "tab"
+    ],
+    "pinyin": "guan bi dang qian ye mian guanbidangqianyemian g b d q y m gbdqym guan bi   biao qian ye guanbi biaoqianye g b   b q y gb bqy"
+  },
+  {
+    "id": "feishu-jump-tab-1-8",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "跳转到指定标签页",
+      "en": "Jump to tab 1-8"
+    },
+    "description": {
+      "zh": "跳转导航栏指定数字标签",
+      "en": "Jump to the tab at the given number position"
+    },
+    "windows": "Ctrl + 1~8",
+    "mac": "⌘ 1~8",
+    "linux": "Ctrl + 1~8",
+    "keywords": [
+      "跳转",
+      "标签页",
+      "tab",
+      "jump"
+    ],
+    "pinyin": "tiao zhuan dao zhi ding biao qian ye tiaozhuandaozhidingbiaoqianye t z d z d b q y tzdzdbqy tiao zhuan   biao qian ye tiaozhuan biaoqianye t z   b q y tz bqy"
+  },
+  {
+    "id": "feishu-jump-tab-9",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "跳转到最后一个标签页",
+      "en": "Jump to last tab"
+    },
+    "description": {
+      "zh": "跳转导航栏最后一个标签",
+      "en": "Jump to the last tab in the sidebar"
+    },
+    "windows": "Ctrl + 9",
+    "mac": "⌘ 9",
+    "linux": "Ctrl + 9",
+    "keywords": [
+      "跳转",
+      "最后",
+      "tab",
+      "last"
+    ],
+    "pinyin": "tiao zhuan dao zui hou yi ge biao qian ye tiaozhuandaozuihouyigebiaoqianye t z d z h y g b q y tzdzhygbqy tiao zhuan   zui hou tiaozhuan zuihou t z   z h tz zh"
+  },
+  {
+    "id": "feishu-reopen-tab",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "重新打开关闭的标签页",
+      "en": "Reopen closed tab"
+    },
+    "description": {
+      "zh": "按关闭顺序恢复标签页",
+      "en": "Reopen a recently closed tab in order"
+    },
+    "windows": "Ctrl + Shift + T",
+    "mac": "⌘ ⇧ T",
+    "linux": "Ctrl + Shift + T",
+    "keywords": [
+      "重新打开",
+      "恢复",
+      "reopen",
+      "restore",
+      "tab"
+    ],
+    "pinyin": "chong xin da kai guan bi de biao qian ye chongxindakaiguanbidebiaoqianye c x d k g b d b q y cxdkgbdbqy chong xin da kai   hui fu chongxindakai huifu c x d k   h f cxdk hf"
+  },
+  {
+    "id": "feishu-settings",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "打开设置",
+      "en": "Open settings"
+    },
+    "description": {
+      "zh": "打开飞书设置",
+      "en": "Open Feishu settings"
+    },
+    "windows": "Ctrl + ,",
+    "mac": "⌘ ,",
+    "linux": "Ctrl + ,",
+    "keywords": [
+      "设置",
+      "settings"
+    ],
+    "pinyin": "da kai she zhi dakaishezhi d k s z dksz she zhi shezhi s z sz"
+  },
+  {
+    "id": "feishu-show-shortcuts",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "查看快捷键",
+      "en": "Show shortcuts"
+    },
+    "description": {
+      "zh": "打开快捷键设置面板",
+      "en": "Open the shortcuts settings panel"
+    },
+    "windows": "Ctrl / ",
+    "mac": "⌘ / ",
+    "linux": "Ctrl / ",
+    "keywords": [
+      "快捷键",
+      "shortcuts",
+      "help"
+    ],
+    "pinyin": "cha kan kuai jie jian chakankuaijiejian c k k j j ckkjj kuai jie jian kuaijiejian k j j kjj"
+  },
+  {
+    "id": "feishu-set-status",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "设置飞书状态",
+      "en": "Set status"
+    },
+    "description": {
+      "zh": "打开状态设置面板",
+      "en": "Open the status settings panel"
+    },
+    "windows": "Ctrl + Shift + Y",
+    "mac": "⌘ ⇧ Y",
+    "linux": "Ctrl + Shift + Y",
+    "keywords": [
+      "状态",
+      "status"
+    ],
+    "pinyin": "she zhi fei shu zhuang tai shezhifeishuzhuangtai s z f s z t szfszt zhuang tai zhuangtai z t zt"
+  },
+  {
+    "id": "feishu-new-task",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "新建任务",
+      "en": "New task"
+    },
+    "description": {
+      "zh": "在任务中心新建任务",
+      "en": "Create a new task in the task center"
+    },
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
+    "linux": "Ctrl + N",
+    "keywords": [
+      "新建",
+      "任务",
+      "task",
+      "new"
+    ],
+    "pinyin": "xin jian ren wu xinjianrenwu x j r w xjrw xin jian   ren wu xinjian renwu x j   r w xj rw"
+  },
+  {
+    "id": "feishu-help",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "打开帮助与客服",
+      "en": "Open help & support"
+    },
+    "description": {
+      "zh": "打开帮助与客服页",
+      "en": "Open the help and support page"
+    },
+    "windows": "F1",
+    "mac": "Fn F1",
+    "linux": "F1",
+    "keywords": [
+      "帮助",
+      "客服",
+      "help",
+      "support"
+    ],
+    "pinyin": "da kai bang zhu yu ke fu dakaibangzhuyukefu d k b z y k f dkbzykf bang zhu   ke fu bangzhu kefu b z   k f bz kf"
+  },
+  {
+    "id": "feishu-show-hide",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "显示/隐藏飞书",
+      "en": "Show/hide Feishu"
+    },
+    "description": {
+      "zh": "快速显示或隐藏飞书入口",
+      "en": "Quickly show or hide the Feishu window"
+    },
+    "windows": "Ctrl + Shift + W",
+    "mac": "⌘ ⇧ W",
+    "linux": "Ctrl + Shift + W",
+    "keywords": [
+      "显示",
+      "隐藏",
+      "show",
+      "hide"
+    ],
+    "pinyin": "xian shi / yin cang fei shu xianshi/yincangfeishu x s / y c f s xs/ycfs xian shi   yin cang xianshi yincang x s   y c xs yc"
+  },
+  {
+    "id": "feishu-zoom-in-window",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "放大窗口",
+      "en": "Zoom in window"
+    },
+    "description": {
+      "zh": "放大飞书窗口缩放比例",
+      "en": "Increase the Feishu window zoom level"
+    },
+    "windows": "Ctrl + = / Ctrl ++",
+    "mac": "⌘ = / ⌘ +",
+    "linux": "Ctrl + =",
+    "keywords": [
+      "放大",
+      "窗口",
+      "zoom",
+      "window"
+    ],
+    "pinyin": "fang da chuang kou fangdachuangkou f d c k fdck fang da   chuang kou fangda chuangkou f d   c k fd ck"
+  },
+  {
+    "id": "feishu-zoom-out-window",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "缩小窗口",
+      "en": "Zoom out window"
+    },
+    "description": {
+      "zh": "缩小飞书窗口缩放比例（与图片查看器缩放共用 Ctrl+- ）",
+      "en": "Decrease the Feishu window zoom level (shares Ctrl+- with image viewer)"
+    },
+    "windows": "Ctrl + -",
+    "mac": "⌘ -",
+    "linux": "Ctrl + -",
+    "keywords": [
+      "缩小",
+      "窗口",
+      "zoom",
+      "window"
+    ],
+    "pinyin": "suo xiao chuang kou suoxiaochuangkou s x c k sxck suo xiao   chuang kou suoxiao chuangkou s x   c k sx ck"
+  },
+  {
+    "id": "feishu-zoom-reset",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "窗口缩放至 100%",
+      "en": "Reset window zoom"
+    },
+    "description": {
+      "zh": "窗口缩放恢复默认",
+      "en": "Reset the window zoom to default"
+    },
+    "windows": "Ctrl + 0",
+    "mac": "⌘ 0",
+    "linux": "Ctrl + 0",
+    "keywords": [
+      "缩放",
+      "100",
+      "zoom",
+      "reset"
+    ],
+    "pinyin": "chuang kou suo fang zhi   1 0 0 % chuangkousuofangzhi 100% c k s f z   1 0 0 % cksfz 100% suo fang suofang s f sf"
+  },
+  {
+    "id": "feishu-app-fullscreen",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "进入/退出全屏",
+      "en": "Enter/exit fullscreen"
+    },
+    "description": {
+      "zh": "飞书窗口全屏切换",
+      "en": "Toggle Feishu window fullscreen"
+    },
+    "windows": "F11",
+    "mac": "⌘ ⌃ F",
+    "linux": "F11",
+    "keywords": [
+      "全屏",
+      "fullscreen"
+    ],
+    "pinyin": "jin ru / tui chu quan ping jinru/tuichuquanping j r / t c q p jr/tcqp quan ping quanping q p qp"
+  },
+  {
+    "id": "feishu-doc-bold",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "加粗（文档）",
+      "en": "Bold (doc)"
+    },
+    "description": {
+      "zh": "飞书文档中将选中文字加粗",
+      "en": "Make text bold in Feishu Doc"
+    },
+    "windows": "Ctrl + B",
+    "mac": "⌘ B",
+    "linux": "Ctrl + B",
+    "keywords": [
+      "加粗",
+      "bold",
+      "文档"
+    ],
+    "pinyin": "jia cu （ wen dang ） jiacu（wendang） j c （ w d ） jc（wd） jia cu   wen dang jiacu wendang j c   w d jc wd"
+  },
+  {
+    "id": "feishu-doc-italic",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "斜体（文档）",
+      "en": "Italic (doc)"
+    },
+    "description": {
+      "zh": "飞书文档中将选中文字设为斜体",
+      "en": "Make text italic in Feishu Doc"
+    },
+    "windows": "Ctrl + I",
+    "mac": "⌘ I",
+    "linux": "Ctrl + I",
+    "keywords": [
+      "斜体",
+      "italic",
+      "文档"
+    ],
+    "pinyin": "xie ti （ wen dang ） xieti（wendang） x t （ w d ） xt（wd） xie ti   wen dang xieti wendang x t   w d xt wd"
+  },
+  {
+    "id": "feishu-doc-underline",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "下划线（文档）",
+      "en": "Underline (doc)"
+    },
+    "description": {
+      "zh": "飞书文档中为选中文字添加下划线",
+      "en": "Underline text in Feishu Doc"
+    },
+    "windows": "Ctrl + U",
+    "mac": "⌘ U",
+    "linux": "Ctrl + U",
+    "keywords": [
+      "下划线",
+      "underline",
+      "文档"
+    ],
+    "pinyin": "xia hua xian （ wen dang ） xiahuaxian（wendang） x h x （ w d ） xhx（wd） xia hua xian   wen dang xiahuaxian wendang x h x   w d xhx wd"
+  },
+  {
+    "id": "feishu-doc-strike",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "删除线（文档）",
+      "en": "Strikethrough (doc)"
+    },
+    "description": {
+      "zh": "飞书文档中为选中文字添加删除线",
+      "en": "Strikethrough text in Feishu Doc"
+    },
+    "windows": "Ctrl + Shift + X",
+    "mac": "⌘ ⇧ X",
+    "linux": "Ctrl + Shift + X",
+    "keywords": [
+      "删除线",
+      "strikethrough",
+      "文档"
+    ],
+    "pinyin": "shan chu xian （ wen dang ） shanchuxian（wendang） s c x （ w d ） scx（wd） shan chu xian   wen dang shanchuxian wendang s c x   w d scx wd"
+  },
+  {
+    "id": "feishu-doc-heading1",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "标题一（文档）",
+      "en": "Heading 1 (doc)"
+    },
+    "description": {
+      "zh": "飞书文档中将当前行设为标题一",
+      "en": "Set current line to heading 1 in Feishu Doc"
+    },
+    "windows": "Ctrl + Alt + 1",
+    "mac": "⌘ ⌥ 1",
+    "linux": "Ctrl + Alt + 1",
+    "keywords": [
+      "标题",
+      "heading",
+      "文档"
+    ],
+    "pinyin": "biao ti yi （ wen dang ） biaotiyi（wendang） b t y （ w d ） bty（wd） biao ti   wen dang biaoti wendang b t   w d bt wd"
+  },
+  {
+    "id": "feishu-doc-heading2",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "标题二（文档）",
+      "en": "Heading 2 (doc)"
+    },
+    "description": {
+      "zh": "飞书文档中将当前行设为标题二",
+      "en": "Set current line to heading 2 in Feishu Doc"
+    },
+    "windows": "Ctrl + Alt + 2",
+    "mac": "⌘ ⌥ 2",
+    "linux": "Ctrl + Alt + 2",
+    "keywords": [
+      "标题",
+      "heading",
+      "文档"
+    ],
+    "pinyin": "biao ti er （ wen dang ） biaotier（wendang） b t e （ w d ） bte（wd） biao ti   wen dang biaoti wendang b t   w d bt wd"
+  },
+  {
+    "id": "feishu-doc-heading3",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "标题三（文档）",
+      "en": "Heading 3 (doc)"
+    },
+    "description": {
+      "zh": "飞书文档中将当前行设为标题三",
+      "en": "Set current line to heading 3 in Feishu Doc"
+    },
+    "windows": "Ctrl + Alt + 3",
+    "mac": "⌘ ⌥ 3",
+    "linux": "Ctrl + Alt + 3",
+    "keywords": [
+      "标题",
+      "heading",
+      "文档"
+    ],
+    "pinyin": "biao ti san （ wen dang ） biaotisan（wendang） b t s （ w d ） bts（wd） biao ti   wen dang biaoti wendang b t   w d bt wd"
+  },
+  {
+    "id": "feishu-doc-link",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "插入链接（文档）",
+      "en": "Insert link (doc)"
+    },
+    "description": {
+      "zh": "飞书文档中插入超链接",
+      "en": "Insert hyperlink in Feishu Doc"
+    },
+    "windows": "Ctrl + K",
+    "mac": "⌘ K",
+    "linux": "Ctrl + K",
+    "keywords": [
+      "链接",
+      "link",
+      "文档"
+    ],
+    "pinyin": "cha ru lian jie （ wen dang ） charulianjie（wendang） c r l j （ w d ） crlj（wd） lian jie   wen dang lianjie wendang l j   w d lj wd"
+  },
+  {
+    "id": "feishu-doc-code",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "代码块（文档）",
+      "en": "Code block (doc)"
+    },
+    "description": {
+      "zh": "飞书文档中插入代码块",
+      "en": "Insert code block in Feishu Doc"
+    },
+    "windows": "Ctrl + Alt + C",
+    "mac": "⌘ ⌥ C",
+    "linux": "Ctrl + Alt + C",
+    "keywords": [
+      "代码",
+      "code",
+      "文档"
+    ],
+    "pinyin": "dai ma kuai （ wen dang ） daimakuai（wendang） d m k （ w d ） dmk（wd） dai ma   wen dang daima wendang d m   w d dm wd"
+  },
+  {
+    "id": "feishu-doc-divider",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "分割线（文档）",
+      "en": "Divider (doc)"
+    },
+    "description": {
+      "zh": "飞书文档中插入分割线",
+      "en": "Insert divider in Feishu Doc"
+    },
+    "windows": "Ctrl + Enter",
+    "mac": "⌘ Enter",
+    "linux": "Ctrl + Enter",
+    "keywords": [
+      "分割线",
+      "divider",
+      "文档"
+    ],
+    "pinyin": "fen ge xian （ wen dang ） fengexian（wendang） f g x （ w d ） fgx（wd） fen ge xian   wen dang fengexian wendang f g x   w d fgx wd"
+  },
+  {
+    "id": "feishu-doc-bulleted",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "项目符号列表（文档）",
+      "en": "Bulleted list (doc)"
+    },
+    "description": {
+      "zh": "飞书文档中切换项目符号列表",
+      "en": "Toggle bulleted list in Feishu Doc"
+    },
+    "windows": "Ctrl + Shift + 8",
+    "mac": "⌘ ⇧ 8",
+    "linux": "Ctrl + Shift + 8",
+    "keywords": [
+      "列表",
+      "项目符号",
+      "文档"
+    ],
+    "pinyin": "xiang mu fu hao lie biao （ wen dang ） xiangmufuhaoliebiao（wendang） x m f h l b （ w d ） xmfhlb（wd） lie biao   xiang mu fu hao   wen dang liebiao xiangmufuhao wendang l b   x m f h   w d lb xmfh wd"
+  },
+  {
+    "id": "feishu-doc-numbered",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "编号列表（文档）",
+      "en": "Numbered list (doc)"
+    },
+    "description": {
+      "zh": "飞书文档中切换编号列表",
+      "en": "Toggle numbered list in Feishu Doc"
+    },
+    "windows": "Ctrl + Shift + 7",
+    "mac": "⌘ ⇧ 7",
+    "linux": "Ctrl + Shift + 7",
+    "keywords": [
+      "列表",
+      "编号",
+      "文档"
+    ],
+    "pinyin": "bian hao lie biao （ wen dang ） bianhaoliebiao（wendang） b h l b （ w d ） bhlb（wd） lie biao   bian hao   wen dang liebiao bianhao wendang l b   b h   w d lb bh wd"
+  },
+  {
+    "id": "feishu-doc-indent",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "增加缩进（文档）",
+      "en": "Increase indent (doc)"
+    },
+    "description": {
+      "zh": "飞书文档中增加段落缩进",
+      "en": "Increase indent in Feishu Doc"
+    },
+    "windows": "Ctrl + ]",
+    "mac": "⌘ ]",
+    "linux": "Ctrl + ]",
+    "keywords": [
+      "缩进",
+      "indent",
+      "文档"
+    ],
+    "pinyin": "zeng jia suo jin （ wen dang ） zengjiasuojin（wendang） z j s j （ w d ） zjsj（wd） suo jin   wen dang suojin wendang s j   w d sj wd"
+  },
+  {
+    "id": "feishu-doc-outdent",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "减少缩进（文档）",
+      "en": "Decrease indent (doc)"
+    },
+    "description": {
+      "zh": "飞书文档中减少段落缩进",
+      "en": "Decrease indent in Feishu Doc"
+    },
+    "windows": "Ctrl + [",
+    "mac": "⌘ [",
+    "linux": "Ctrl + [",
+    "keywords": [
+      "缩进",
+      "indent",
+      "文档"
+    ],
+    "pinyin": "jian shao suo jin （ wen dang ） jianshaosuojin（wendang） j s s j （ w d ） jssj（wd） suo jin   wen dang suojin wendang s j   w d sj wd"
+  },
+  {
+    "id": "feishu-doc-undo",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "撤销（文档）",
+      "en": "Undo (doc)"
+    },
+    "description": {
+      "zh": "飞书文档中撤销上一步操作",
+      "en": "Undo in Feishu Doc"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "Ctrl + Z",
+    "keywords": [
+      "撤销",
+      "undo",
+      "文档"
+    ],
+    "pinyin": "che xiao （ wen dang ） chexiao（wendang） c x （ w d ） cx（wd） che xiao   wen dang chexiao wendang c x   w d cx wd"
+  },
+  {
+    "id": "feishu-doc-redo",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "重做（文档）",
+      "en": "Redo (doc)"
+    },
+    "description": {
+      "zh": "飞书文档中重做已撤销操作",
+      "en": "Redo in Feishu Doc"
+    },
+    "windows": "Ctrl + Y",
+    "mac": "⌘ Y",
+    "linux": "Ctrl + Y",
+    "keywords": [
+      "重做",
+      "redo",
+      "文档"
+    ],
+    "pinyin": "zhong zuo （ wen dang ） zhongzuo（wendang） z z （ w d ） zz（wd） zhong zuo   wen dang zhongzuo wendang z z   w d zz wd"
+  },
+  {
+    "id": "feishu-doc-select-all",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "全选（文档）",
+      "en": "Select all (doc)"
+    },
+    "description": {
+      "zh": "飞书文档中选中全部内容",
+      "en": "Select all content in Feishu Doc"
+    },
+    "windows": "Ctrl + A",
+    "mac": "⌘ A",
+    "linux": "Ctrl + A",
+    "keywords": [
+      "全选",
+      "select",
+      "文档"
+    ],
+    "pinyin": "quan xuan （ wen dang ） quanxuan（wendang） q x （ w d ） qx（wd） quan xuan   wen dang quanxuan wendang q x   w d qx wd"
+  },
+  {
+    "id": "feishu-doc-find",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "查找（文档）",
+      "en": "Find (doc)"
+    },
+    "description": {
+      "zh": "飞书文档中打开查找栏",
+      "en": "Open find bar in Feishu Doc"
+    },
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
+    "linux": "Ctrl + F",
+    "keywords": [
+      "查找",
+      "find",
+      "文档"
+    ],
+    "pinyin": "cha zhao （ wen dang ） chazhao（wendang） c z （ w d ） cz（wd） cha zhao   wen dang chazhao wendang c z   w d cz wd"
+  },
+  {
+    "id": "feishu-sheet-edit-cell",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "编辑单元格（表格）",
+      "en": "Edit cell (sheet)"
+    },
+    "description": {
+      "zh": "飞书表格中进入单元格编辑模式",
+      "en": "Enter edit mode in Feishu Sheet"
+    },
+    "windows": "F2",
+    "mac": "F2",
+    "linux": "F2",
+    "keywords": [
+      "编辑",
+      "单元格",
+      "表格"
+    ],
+    "pinyin": "bian ji dan yuan ge （ biao ge ） bianjidanyuange（biaoge） b j d y g （ b g ） bjdyg（bg） bian ji   dan yuan ge   biao ge bianji danyuange biaoge b j   d y g   b g bj dyg bg"
+  },
+  {
+    "id": "feishu-sheet-date",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "插入日期（表格）",
+      "en": "Insert date (sheet)"
+    },
+    "description": {
+      "zh": "飞书表格中插入当前日期",
+      "en": "Insert today's date in Feishu Sheet"
+    },
+    "windows": "Ctrl + ;",
+    "mac": "⌘ ;",
+    "linux": "Ctrl + ;",
+    "keywords": [
+      "日期",
+      "date",
+      "表格"
+    ],
+    "pinyin": "cha ru ri qi （ biao ge ） charuriqi（biaoge） c r r q （ b g ） crrq（bg） ri qi   biao ge riqi biaoge r q   b g rq bg"
+  },
+  {
+    "id": "feishu-sheet-bold",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "加粗（表格）",
+      "en": "Bold (sheet)"
+    },
+    "description": {
+      "zh": "飞书表格中将选中内容加粗",
+      "en": "Make selection bold in Feishu Sheet"
+    },
+    "windows": "Ctrl + B",
+    "mac": "⌘ B",
+    "linux": "Ctrl + B",
+    "keywords": [
+      "加粗",
+      "bold",
+      "表格"
+    ],
+    "pinyin": "jia cu （ biao ge ） jiacu（biaoge） j c （ b g ） jc（bg） jia cu   biao ge jiacu biaoge j c   b g jc bg"
+  },
+  {
+    "id": "feishu-sheet-italic",
+    "appId": "feishu",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "斜体（表格）",
+      "en": "Italic (sheet)"
+    },
+    "description": {
+      "zh": "飞书表格中将选中内容设为斜体",
+      "en": "Make selection italic in Feishu Sheet"
+    },
+    "windows": "Ctrl + I",
+    "mac": "⌘ I",
+    "linux": "Ctrl + I",
+    "keywords": [
+      "斜体",
+      "italic",
+      "表格"
+    ],
+    "pinyin": "xie ti （ biao ge ） xieti（biaoge） x t （ b g ） xt（bg） xie ti   biao ge xieti biaoge x t   b g xt bg"
+  }
+]

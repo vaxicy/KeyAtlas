@@ -1,0 +1,642 @@
+[
+  {
+    "id": "fantastical-new-event",
+    "appId": "fantastical",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "New event",
+      "zh": "新建事件"
+    },
+    "description": {
+      "en": "New event",
+      "zh": "新建事件"
+    },
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
+    "linux": "Ctrl + N",
+    "keywords": [
+      "new",
+      "event",
+      "事件"
+    ],
+    "pinyin": "xin jian shi jian xinjianshijian x j s j xjsj shi jian shijian s j sj"
+  },
+  {
+    "id": "fantastical-new-task",
+    "appId": "fantastical",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "New task",
+      "zh": "新建任务"
+    },
+    "description": {
+      "en": "New task",
+      "zh": "新建任务"
+    },
+    "windows": "Ctrl + Alt + N",
+    "mac": "⌥ ⌘ N",
+    "linux": "Ctrl + Alt + N",
+    "keywords": [
+      "new",
+      "task",
+      "任务"
+    ],
+    "pinyin": "xin jian ren wu xinjianrenwu x j r w xjrw ren wu renwu r w rw"
+  },
+  {
+    "id": "fantastical-open",
+    "appId": "fantastical",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Open window",
+      "zh": "打开窗口"
+    },
+    "description": {
+      "en": "Open Fantastical",
+      "zh": "打开 Fantastical"
+    },
+    "windows": "Ctrl + Alt + Space",
+    "mac": "⌥ ⌘ Space",
+    "linux": "Ctrl + Alt + Space",
+    "keywords": [
+      "open",
+      "打开"
+    ],
+    "pinyin": "da kai chuang kou dakaichuangkou d k c k dkck da kai dakai d k dk"
+  },
+  {
+    "id": "fantastical-today",
+    "appId": "fantastical",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Today",
+      "zh": "今天"
+    },
+    "description": {
+      "en": "Go to today",
+      "zh": "回到今天"
+    },
+    "windows": "Ctrl + T",
+    "mac": "⌘ T",
+    "linux": "Ctrl + T",
+    "keywords": [
+      "today",
+      "今天"
+    ],
+    "pinyin": "jin tian jintian j t jt jin tian jintian j t jt"
+  },
+  {
+    "id": "fantastical-day",
+    "appId": "fantastical",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Day view",
+      "zh": "日视图"
+    },
+    "description": {
+      "en": "Day view",
+      "zh": "日视图"
+    },
+    "windows": "Ctrl + 1",
+    "mac": "⌘ 1",
+    "linux": "Ctrl + 1",
+    "keywords": [
+      "day",
+      "日"
+    ],
+    "pinyin": "ri shi tu rishitu r s t rst ri ri r r"
+  },
+  {
+    "id": "fantastical-week",
+    "appId": "fantastical",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Week view",
+      "zh": "周视图"
+    },
+    "description": {
+      "en": "Week view",
+      "zh": "周视图"
+    },
+    "windows": "Ctrl + 2",
+    "mac": "⌘ 2",
+    "linux": "Ctrl + 2",
+    "keywords": [
+      "week",
+      "周"
+    ],
+    "pinyin": "zhou shi tu zhoushitu z s t zst zhou zhou z z"
+  },
+  {
+    "id": "fantastical-month",
+    "appId": "fantastical",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Month view",
+      "zh": "月视图"
+    },
+    "description": {
+      "en": "Month view",
+      "zh": "月视图"
+    },
+    "windows": "Ctrl + 3",
+    "mac": "⌘ 3",
+    "linux": "Ctrl + 3",
+    "keywords": [
+      "month",
+      "月"
+    ],
+    "pinyin": "yue shi tu yueshitu y s t yst yue yue y y"
+  },
+  {
+    "id": "fantastical-year",
+    "appId": "fantastical",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Year view",
+      "zh": "年视图"
+    },
+    "description": {
+      "en": "Year view",
+      "zh": "年视图"
+    },
+    "windows": "Ctrl + 4",
+    "mac": "⌘ 4",
+    "linux": "Ctrl + 4",
+    "keywords": [
+      "year",
+      "年"
+    ],
+    "pinyin": "nian shi tu nianshitu n s t nst nian nian n n"
+  },
+  {
+    "id": "fantastical-list",
+    "appId": "fantastical",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "List view",
+      "zh": "列表视图"
+    },
+    "description": {
+      "en": "List view",
+      "zh": "列表视图"
+    },
+    "windows": "Ctrl + 5",
+    "mac": "⌘ 5",
+    "linux": "Ctrl + 5",
+    "keywords": [
+      "list",
+      "列表"
+    ],
+    "pinyin": "lie biao shi tu liebiaoshitu l b s t lbst lie biao liebiao l b lb"
+  },
+  {
+    "id": "fantastical-search",
+    "appId": "fantastical",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Search",
+      "zh": "搜索"
+    },
+    "description": {
+      "en": "Search",
+      "zh": "搜索"
+    },
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
+    "linux": "Ctrl + F",
+    "keywords": [
+      "search",
+      "搜索"
+    ],
+    "pinyin": "sou suo sousuo s s ss sou suo sousuo s s ss"
+  },
+  {
+    "id": "fantastical-prefs",
+    "appId": "fantastical",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Preferences",
+      "zh": "偏好"
+    },
+    "description": {
+      "en": "Preferences",
+      "zh": "偏好"
+    },
+    "windows": "Ctrl + ,",
+    "mac": "⌘ ,",
+    "linux": "Ctrl + ,",
+    "keywords": [
+      "preferences",
+      "设置"
+    ],
+    "pinyin": "pian hao pianhao p h ph she zhi shezhi s z sz"
+  },
+  {
+    "id": "fantastical-go-date",
+    "appId": "fantastical",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Go to date",
+      "zh": "跳转日期"
+    },
+    "description": {
+      "en": "Go to date",
+      "zh": "跳转日期"
+    },
+    "windows": "Ctrl + G",
+    "mac": "⌘ G",
+    "linux": "Ctrl + G",
+    "keywords": [
+      "date",
+      "日期"
+    ],
+    "pinyin": "tiao zhuan ri qi tiaozhuanriqi t z r q tzrq ri qi riqi r q rq"
+  },
+  {
+    "id": "fantastical-prev",
+    "appId": "fantastical",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Prev period",
+      "zh": "上一周期"
+    },
+    "description": {
+      "en": "Previous period",
+      "zh": "上一周期"
+    },
+    "windows": "Ctrl + [",
+    "mac": "⌘ [",
+    "linux": "Ctrl + [",
+    "keywords": [
+      "prev",
+      "上一"
+    ],
+    "pinyin": "shang yi zhou qi shangyizhouqi s y z q syzq shang yi shangyi s y sy"
+  },
+  {
+    "id": "fantastical-next",
+    "appId": "fantastical",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Next period",
+      "zh": "下一周期"
+    },
+    "description": {
+      "en": "Next period",
+      "zh": "下一周期"
+    },
+    "windows": "Ctrl + ]",
+    "mac": "⌘ ]",
+    "linux": "Ctrl + ]",
+    "keywords": [
+      "next",
+      "下一"
+    ],
+    "pinyin": "xia yi zhou qi xiayizhouqi x y z q xyzq xia yi xiayi x y xy"
+  },
+  {
+    "id": "fantastical-duplicate",
+    "appId": "fantastical",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Duplicate",
+      "zh": "复制"
+    },
+    "description": {
+      "en": "Duplicate event",
+      "zh": "复制事件"
+    },
+    "windows": "Ctrl + D",
+    "mac": "⌘ D",
+    "linux": "Ctrl + D",
+    "keywords": [
+      "duplicate",
+      "复制"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "fantastical-delete",
+    "appId": "fantastical",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Delete",
+      "zh": "删除"
+    },
+    "description": {
+      "en": "Delete event",
+      "zh": "删除事件"
+    },
+    "windows": "Delete",
+    "mac": "⌫",
+    "linux": "Delete",
+    "keywords": [
+      "delete",
+      "删除"
+    ],
+    "pinyin": "shan chu shanchu s c sc shan chu shanchu s c sc"
+  },
+  {
+    "id": "fantastical-edit",
+    "appId": "fantastical",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Edit",
+      "zh": "编辑"
+    },
+    "description": {
+      "en": "Edit event",
+      "zh": "编辑事件"
+    },
+    "windows": "Ctrl + E",
+    "mac": "⌘ E",
+    "linux": "Ctrl + E",
+    "keywords": [
+      "edit",
+      "编辑"
+    ],
+    "pinyin": "bian ji bianji b j bj bian ji bianji b j bj"
+  },
+  {
+    "id": "fantastical-invitees",
+    "appId": "fantastical",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Invitees",
+      "zh": "受邀人"
+    },
+    "description": {
+      "en": "Edit invitees",
+      "zh": "编辑受邀人"
+    },
+    "windows": "Ctrl + Alt + I",
+    "mac": "⌥ ⌘ I",
+    "linux": "Ctrl + Alt + I",
+    "keywords": [
+      "invitees",
+      "受邀"
+    ],
+    "pinyin": "shou yao ren shouyaoren s y r syr shou yao shouyao s y sy"
+  },
+  {
+    "id": "fantastical-fullscreen",
+    "appId": "fantastical",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Fullscreen",
+      "zh": "全屏"
+    },
+    "description": {
+      "en": "Fullscreen",
+      "zh": "全屏"
+    },
+    "windows": "Ctrl + Alt + F",
+    "mac": "⌃ ⌘ F",
+    "linux": "Ctrl + Alt + F",
+    "keywords": [
+      "fullscreen",
+      "全屏"
+    ],
+    "pinyin": "quan ping quanping q p qp quan ping quanping q p qp"
+  },
+  {
+    "id": "fantastical-sidebar",
+    "appId": "fantastical",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Sidebar",
+      "zh": "侧栏"
+    },
+    "description": {
+      "en": "Toggle sidebar",
+      "zh": "切换侧栏"
+    },
+    "windows": "Ctrl + \\",
+    "mac": "⌘ \\",
+    "linux": "Ctrl + \\",
+    "keywords": [
+      "sidebar",
+      "侧栏"
+    ],
+    "pinyin": "ce lan celan c l cl ce lan celan c l cl"
+  },
+  {
+    "id": "fantastical-snooze",
+    "appId": "fantastical",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Snooze",
+      "zh": "稍后"
+    },
+    "description": {
+      "en": "Snooze reminder",
+      "zh": "稍后提醒"
+    },
+    "windows": "Ctrl + Shift + S",
+    "mac": "⌥ ⌘ S",
+    "linux": "Ctrl + Shift + S",
+    "keywords": [
+      "snooze",
+      "稍后"
+    ],
+    "pinyin": "shao hou shaohou s h sh shao hou shaohou s h sh"
+  },
+  {
+    "id": "fantastical-accept",
+    "appId": "fantastical",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Accept",
+      "zh": "接受"
+    },
+    "description": {
+      "en": "Accept invite",
+      "zh": "接受邀请"
+    },
+    "windows": "Ctrl + Shift + A",
+    "mac": "⌥ ⌘ A",
+    "linux": "Ctrl + Shift + A",
+    "keywords": [
+      "accept",
+      "接受"
+    ],
+    "pinyin": "jie shou jieshou j s js jie shou jieshou j s js"
+  },
+  {
+    "id": "fantastical-decline",
+    "appId": "fantastical",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Decline",
+      "zh": "拒绝"
+    },
+    "description": {
+      "en": "Decline invite",
+      "zh": "拒绝邀请"
+    },
+    "windows": "Ctrl + Shift + D",
+    "mac": "⌥ ⌘ D",
+    "linux": "Ctrl + Shift + D",
+    "keywords": [
+      "decline",
+      "拒绝"
+    ],
+    "pinyin": "ju jue jujue j j jj ju jue jujue j j jj"
+  },
+  {
+    "id": "fantastical-video",
+    "appId": "fantastical",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Video call",
+      "zh": "视频"
+    },
+    "description": {
+      "en": "Add video call",
+      "zh": "添加视频通话"
+    },
+    "windows": "Ctrl + Alt + V",
+    "mac": "⌥ ⌘ V",
+    "linux": "Ctrl + Alt + V",
+    "keywords": [
+      "video",
+      "视频"
+    ],
+    "pinyin": "shi pin shipin s p sp shi pin shipin s p sp"
+  },
+  {
+    "id": "fantastical-jump",
+    "appId": "fantastical",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Jump",
+      "zh": "跳转"
+    },
+    "description": {
+      "en": "Jump to date field",
+      "zh": "跳到日期框"
+    },
+    "windows": "Ctrl + J",
+    "mac": "⌘ J",
+    "linux": "Ctrl + J",
+    "keywords": [
+      "jump",
+      "跳转"
+    ],
+    "pinyin": "tiao zhuan tiaozhuan t z tz tiao zhuan tiaozhuan t z tz"
+  },
+  {
+    "id": "fantastical-mini",
+    "appId": "fantastical",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Mini window",
+      "zh": "迷你窗口"
+    },
+    "description": {
+      "en": "Toggle mini window",
+      "zh": "切换迷你窗口"
+    },
+    "windows": "Ctrl + Shift + M",
+    "mac": "⌥ ⌘ M",
+    "linux": "Ctrl + Shift + M",
+    "keywords": [
+      "mini",
+      "迷你"
+    ],
+    "pinyin": "mi ni chuang kou minichuangkou m n c k mnck mi ni mini m n mn"
+  },
+  {
+    "id": "fantastical-print",
+    "appId": "fantastical",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Print",
+      "zh": "打印"
+    },
+    "description": {
+      "en": "Print",
+      "zh": "打印"
+    },
+    "windows": "Ctrl + P",
+    "mac": "⌘ P",
+    "linux": "Ctrl + P",
+    "keywords": [
+      "print",
+      "打印"
+    ],
+    "pinyin": "da yin dayin d y dy da yin dayin d y dy"
+  },
+  {
+    "id": "fantastical-help",
+    "appId": "fantastical",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Help",
+      "zh": "帮助"
+    },
+    "description": {
+      "en": "Keyboard shortcuts",
+      "zh": "快捷键帮助"
+    },
+    "windows": "Ctrl + /",
+    "mac": "⌘ /",
+    "linux": "Ctrl + /",
+    "keywords": [
+      "help",
+      "快捷键"
+    ],
+    "pinyin": "bang zhu bangzhu b z bz kuai jie jian kuaijiejian k j j kjj"
+  },
+  {
+    "id": "fantastical-close",
+    "appId": "fantastical",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Close",
+      "zh": "关闭"
+    },
+    "description": {
+      "en": "Close window",
+      "zh": "关闭窗口"
+    },
+    "windows": "Ctrl + W",
+    "mac": "⌘ W",
+    "linux": "Ctrl + W",
+    "keywords": [
+      "close",
+      "关闭"
+    ],
+    "pinyin": "guan bi guanbi g b gb guan bi guanbi g b gb"
+  }
+]

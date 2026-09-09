@@ -1,190 +1,2804 @@
 [
-  { "id": "windows",  "name": { "zh": "Windows",        "en": "Windows" },        "category": "system",       "icon": "🪟", "type": "system", "file": "windows.json", "source": "official" },
-  { "id": "macos",    "name": { "zh": "macOS",          "en": "macOS" },          "category": "system",       "icon": "🍎", "type": "system", "file": "macos.json", "source": "official" },
-  { "id": "linux",    "name": { "zh": "Linux",          "en": "Linux" },          "category": "system",       "icon": "🐧", "type": "system", "file": "linux.json", "source": "official" },
-  { "id": "chromeos", "name": { "zh": "ChromeOS",       "en": "ChromeOS" },       "category": "system",       "icon": "🖥️", "type": "system", "file": "chromeos.json", "source": "official" },
-  { "id": "chrome",   "name": { "zh": "Chrome",         "en": "Chrome" },         "category": "browser",      "icon": "🌐", "type": "software", "popular": true, "file": "chrome.json", "source": "official" },
-  { "id": "devtools", "name": { "zh": "Chrome DevTools","en": "Chrome DevTools" },"category": "development",   "icon": "🛠️", "type": "software", "file": "devtools.json", "source": "official" },
-  { "id": "figma",    "name": { "zh": "Figma",          "en": "Figma" },          "category": "design",       "icon": "🎨", "type": "software", "popular": true, "file": "figma.json", "source": "community" },
-  { "id": "penpot",         "name": { "zh": "Penpot",         "en": "Penpot" },         "category": "design",       "icon": "🧩", "type": "software", "file": "penpot.json",      "source": "official" },
-  { "id": "excalidraw",     "name": { "zh": "Excalidraw",     "en": "Excalidraw" },     "category": "design",       "icon": "✏️", "type": "software", "file": "excalidraw.json",  "source": "community" },
-  { "id": "tldraw",         "name": { "zh": "tldraw",         "en": "tldraw" },         "category": "design",       "icon": "🩰", "type": "software", "file": "tldraw.json",      "source": "community" },
-  { "id": "pixso",          "name": { "zh": "Pixso",          "en": "Pixso" },          "category": "design",       "icon": "🎯", "type": "software", "file": "pixso.json",       "source": "community" },
-  { "id": "photoshop","name": { "zh": "Photoshop",      "en": "Photoshop" },      "category": "design",       "icon": "🖼️", "type": "software", "popular": true, "file": "photoshop.json", "source": "official" },
-  { "id": "illustrator","name": { "zh": "Illustrator",  "en": "Illustrator" },    "category": "design",       "icon": "✒️", "type": "software", "file": "illustrator.json", "source": "official" },
-  { "id": "blender",  "name": { "zh": "Blender",        "en": "Blender" },        "category": "design",       "icon": "🧊", "type": "software", "file": "blender.json", "source": "official" },
-  { "id": "vscode",   "name": { "zh": "VS Code",        "en": "VS Code" },        "category": "development",   "icon": "💻", "type": "software", "popular": true, "file": "vscode.json", "source": "official" },
-  { "id": "git",      "name": { "zh": "Git",            "en": "Git" },            "category": "development",   "icon": "🔀", "type": "software", "file": "git.json", "source": "ai" },
-  { "id": "github",   "name": { "zh": "GitHub",         "en": "GitHub" },         "category": "development",   "icon": "🐙", "type": "software", "file": "github.json", "source": "official" },
-  { "id": "excel",    "name": { "zh": "Excel",          "en": "Excel" },          "category": "productivity", "icon": "📊", "type": "software", "popular": true, "file": "excel.json", "source": "official" },
-  { "id": "word",     "name": { "zh": "Word",           "en": "Word" },           "category": "productivity", "icon": "📝", "type": "software", "file": "word.json", "source": "official" },
-  { "id": "powerpoint","name": { "zh": "PowerPoint",    "en": "PowerPoint" },     "category": "productivity", "icon": "📽️", "type": "software", "file": "powerpoint.json", "source": "official" },
-  { "id": "notion",   "name": { "zh": "Notion",         "en": "Notion" },         "category": "productivity", "icon": "📒", "type": "software", "file": "notion.json", "source": "official" },
-  { "id": "premiere", "name": { "zh": "Premiere Pro",   "en": "Premiere Pro" },   "category": "video",        "icon": "🎞️", "type": "software", "file": "premiere.json", "source": "official" },
-  { "id": "afterfx",  "name": { "zh": "After Effects",   "en": "After Effects" },  "category": "video",        "icon": "✨", "type": "software", "file": "afterfx.json", "source": "official" },
-  { "id": "lightroom","name": { "zh": "Lightroom",       "en": "Lightroom" },      "category": "design",       "icon": "🌅", "type": "software", "file": "lightroom.json", "source": "official" },
-  { "id": "indesign", "name": { "zh": "InDesign",        "en": "InDesign" },       "category": "design",       "icon": "📰", "type": "software", "file": "indesign.json", "source": "official" },
-  { "id": "xd",       "name": { "zh": "Adobe XD",        "en": "Adobe XD" },       "category": "design",       "icon": "💡", "type": "software", "file": "xd.json", "source": "official" },
-  { "id": "acrobat",  "name": { "zh": "Acrobat",         "en": "Acrobat" },        "category": "productivity", "icon": "📕", "type": "software", "file": "acrobat.json", "source": "community" },
-  { "id": "audition", "name": { "zh": "Audition",        "en": "Audition" },       "category": "video",        "icon": "🎧", "type": "software", "file": "audition.json", "source": "official" },
-  { "id": "bilibili", "name": { "zh": "哔哩哔哩",         "en": "Bilibili" },       "category": "video",        "icon": "📺", "type": "software", "sortKey": "Bilibili", "file": "bilibili.json", "source": "ai" },
-  { "id": "capcut",   "name": { "zh": "剪映",             "en": "CapCut" },         "category": "video",        "icon": "🎬", "type": "software", "sortKey": "Jianying", "file": "capcut.json", "source": "official" },
-  { "id": "davinci",  "name": { "zh": "达芬奇",           "en": "DaVinci Resolve" },"category": "video",        "icon": "🎥", "type": "software", "sortKey": "DaVinci Resolve", "file": "davinci.json", "source": "official" },
-  { "id": "finalcut", "name": { "zh": "Final Cut Pro",    "en": "Final Cut Pro" },  "category": "video",        "icon": "🍏", "type": "software", "file": "finalcut.json", "source": "official" },
-  { "id": "obs",      "name": { "zh": "OBS Studio",       "en": "OBS Studio" },     "category": "video",        "icon": "📹", "type": "software", "file": "obs.json", "source": "official" },
-  { "id": "edge",     "name": { "zh": "Edge",             "en": "Edge" },           "category": "browser",      "icon": "🌊", "type": "software", "file": "edge.json", "source": "official" },
-  { "id": "firefox",  "name": { "zh": "Firefox",          "en": "Firefox" },        "category": "browser",      "icon": "🦊", "type": "software", "file": "firefox.json", "source": "official" },
-  { "id": "obsidian", "name": { "zh": "Obsidian",         "en": "Obsidian" },       "category": "productivity", "icon": "🔱", "type": "software", "file": "obsidian.json", "source": "official" },
-  { "id": "todoist",  "name": { "zh": "Todoist",          "en": "Todoist" },        "category": "productivity", "icon": "✅", "type": "software", "file": "todoist.json", "source": "official" },
-  { "id": "cursor",   "name": { "zh": "Cursor",           "en": "Cursor" },         "category": "development",  "icon": "⌨️", "type": "software", "file": "cursor.json", "source": "official" },
-  { "id": "chatgpt",  "name": { "zh": "ChatGPT",          "en": "ChatGPT" },        "category": "productivity", "icon": "🤖", "type": "software", "file": "chatgpt.json", "source": "official" },
-  { "id": "outlook",    "name": { "zh": "Outlook",      "en": "Outlook" },       "category": "productivity", "icon": "📧", "type": "software", "file": "outlook.json", "source": "official" },
-  { "id": "gmail",      "name": { "zh": "Gmail",        "en": "Gmail" },         "category": "productivity", "icon": "✉️", "type": "software", "file": "gmail.json", "source": "official" },
-  { "id": "googledocs", "name": { "zh": "Google 文档",   "en": "Google Docs" },   "category": "productivity", "icon": "📄", "type": "software", "file": "googledocs.json", "source": "official" },
-  { "id": "googlesheets", "name": { "zh": "Google 表格", "en": "Google Sheets" }, "category": "productivity", "icon": "📊", "type": "software", "file": "googlesheets.json", "source": "official" },
-  { "id": "googleslides", "name": { "zh": "Google 幻灯片", "en": "Google Slides" }, "category": "productivity", "icon": "📽️", "type": "software", "file": "googleslides.json", "source": "official" },
-  { "id": "feishu", "name": { "zh": "飞书", "en": "Feishu (Lark)" }, "category": "productivity", "icon": "📨", "type": "software", "sortKey": "Feishu", "file": "feishu.json", "source": "official" },
-  { "id": "dingtalk", "name": { "zh": "钉钉", "en": "DingTalk" }, "category": "productivity", "icon": "📣", "type": "software", "sortKey": "Dingding", "file": "dingtalk.json", "source": "official" },
-  { "id": "wecom", "name": { "zh": "企业微信", "en": "WeCom" }, "category": "productivity", "icon": "💬", "type": "software", "sortKey": "Qiye", "file": "wecom.json", "source": "official" },
-  { "id": "keynote", "name": { "zh": "Keynote", "en": "Keynote" }, "category": "productivity", "icon": "▶️", "type": "software", "file": "keynote.json", "source": "official" },
-  { "id": "pages", "name": { "zh": "Pages", "en": "Pages" }, "category": "productivity", "icon": "📃", "type": "software", "file": "pages.json", "source": "official" },
-  { "id": "numbers", "name": { "zh": "Numbers", "en": "Numbers" }, "category": "productivity", "icon": "🔢", "type": "software", "file": "numbers.json", "source": "official" },
-  { "id": "onenote", "name": { "zh": "OneNote", "en": "OneNote" }, "category": "productivity", "icon": "📓", "type": "software", "file": "onenote.json", "source": "official" },
-  { "id": "sketch", "name": { "zh": "Sketch", "en": "Sketch" }, "category": "design", "icon": "💎", "type": "software", "file": "sketch.json", "source": "official" },
-  { "id": "framer", "name": { "zh": "Framer", "en": "Framer" }, "category": "design", "icon": "🧩", "type": "software", "file": "framer.json", "source": "official" },
-  { "id": "canva", "name": { "zh": "Canva", "en": "Canva" }, "category": "design", "icon": "🎯", "type": "software", "file": "canva.json", "source": "official" },
-  { "id": "miro", "name": { "zh": "Miro", "en": "Miro" }, "category": "design", "icon": "🗺️", "type": "software", "file": "miro.json", "source": "official" },
-  { "id": "mural", "name": { "zh": "Mural", "en": "Mural" }, "category": "design", "icon": "📋", "type": "software", "file": "mural.json", "source": "official" },
-  { "id": "axure", "name": { "zh": "Axure RP", "en": "Axure RP" }, "category": "design", "icon": "📐", "type": "software", "file": "axure.json", "source": "official" },
-  { "id": "invision", "name": { "zh": "InVision", "en": "InVision" }, "category": "design", "icon": "👁", "type": "software", "file": "invision.json", "source": "official" },
-  { "id": "zeplin", "name": { "zh": "Zeplin", "en": "Zeplin" }, "category": "design", "icon": "📦", "type": "software", "file": "zeplin.json", "source": "official" },
-  { "id": "principle", "name": { "zh": "Principle", "en": "Principle" }, "category": "design", "icon": "🔄", "type": "software", "file": "principle.json", "source": "official" },
-  { "id": "protopie", "name": { "zh": "ProtoPie", "en": "ProtoPie" }, "category": "design", "icon": "📱", "type": "software", "file": "protopie.json", "source": "official" },
-  { "id": "whimsical", "name": { "zh": "Whimsical", "en": "Whimsical" }, "category": "design", "icon": "🕸️", "type": "software", "file": "whimsical.json", "source": "official" },
-  { "id": "lucidchart", "name": { "zh": "Lucidchart", "en": "Lucidchart" }, "category": "design", "icon": "📈", "type": "software", "file": "lucidchart.json", "source": "official" },
-  { "id": "abstract", "name": { "zh": "Abstract", "en": "Abstract" }, "category": "design", "icon": "💠", "type": "software", "file": "abstract.json", "source": "official" },
-  { "id": "jsdesign", "name": { "zh": "即时设计", "en": "JS Design" }, "category": "design", "icon": "⚡", "type": "software", "sortKey": "Jishi", "file": "jsdesign.json", "source": "official" },
-  { "id": "mastergo", "name": { "zh": "MasterGo", "en": "MasterGo" }, "category": "design", "icon": "🏔️", "type": "software", "file": "mastergo.json", "source": "official" },
-  { "id": "affinityphoto", "name": { "zh": "Affinity Photo", "en": "Affinity Photo" }, "category": "design", "icon": "🖼️", "type": "software", "file": "affinityphoto.json", "source": "official" },
-  { "id": "affinitydesigner", "name": { "zh": "Affinity Designer", "en": "Affinity Designer" }, "category": "design", "icon": "🎨", "type": "software", "file": "affinitydesigner.json", "source": "official" },
-  { "id": "affinitypublisher", "name": { "zh": "Affinity Publisher", "en": "Affinity Publisher" }, "category": "design", "icon": "📐", "type": "software", "file": "affinitypublisher.json", "source": "official" },
-  { "id": "inkscape", "name": { "zh": "Inkscape", "en": "Inkscape" }, "category": "design", "icon": "🌀", "type": "software", "file": "inkscape.json", "source": "official" },
-  { "id": "procreate", "name": { "zh": "Procreate", "en": "Procreate" }, "category": "design", "icon": "🎨", "type": "software", "file": "procreate.json", "source": "official" },
-  { "id": "safari", "name": { "zh": "Safari", "en": "Safari" }, "category": "browser", "icon": "🧭", "type": "software", "file": "safari.json", "source": "official" },
-  { "id": "androidstudio", "name": { "zh": "Android Studio", "en": "Android Studio" }, "category": "development", "icon": "🤖", "type": "software", "file": "androidstudio.json", "source": "official" },
-  { "id": "spotify", "name": { "zh": "Spotify", "en": "Spotify" }, "category": "audio", "icon": "🎵", "type": "software", "file": "spotify.json", "source": "official" },
-  { "id": "raycast", "name": { "zh": "Raycast", "en": "Raycast" }, "category": "productivity", "icon": "🚀", "type": "software", "file": "raycast.json", "source": "official" },
-  { "id": "audacity", "name": { "zh": "Audacity", "en": "Audacity" }, "category": "audio", "icon": "🎙️", "type": "software", "file": "audacity.json", "source": "official" },
-  { "id": "teams", "name": { "zh": "Microsoft Teams", "en": "Microsoft Teams" }, "category": "productivity", "icon": "👥", "type": "software", "file": "teams.json", "source": "official" },
-  { "id": "alfred", "name": { "zh": "Alfred", "en": "Alfred" }, "category": "productivity", "icon": "🎩", "type": "software", "file": "alfred.json", "source": "official" },
-  { "id": "gimp", "name": { "zh": "GIMP", "en": "GIMP" }, "category": "design", "icon": "🐘", "type": "software", "file": "gimp.json", "source": "official" },
-  { "id": "intellij", "name": { "zh": "IntelliJ IDEA", "en": "IntelliJ IDEA" }, "category": "development", "icon": "💡", "type": "software", "file": "intellij.json", "source": "official" },
-  { "id": "webstorm", "name": { "zh": "WebStorm", "en": "WebStorm" }, "category": "development", "icon": "💙", "type": "software", "file": "webstorm.json", "source": "official" },
-  { "id": "pycharm", "name": { "zh": "PyCharm", "en": "PyCharm" }, "category": "development", "icon": "🐍", "type": "software", "file": "pycharm.json", "source": "official" },
-  { "id": "goland", "name": { "zh": "GoLand", "en": "GoLand" }, "category": "development", "icon": "🐹", "type": "software", "file": "goland.json", "source": "official" },
-  { "id": "clion", "name": { "zh": "CLion", "en": "CLion" }, "category": "development", "icon": "🔧", "type": "software", "file": "clion.json", "source": "official" },
-  { "id": "phpstorm", "name": { "zh": "PhpStorm", "en": "PhpStorm" }, "category": "development", "icon": "💜", "type": "software", "file": "phpstorm.json", "source": "official" },
-  { "id": "rider", "name": { "zh": "Rider", "en": "Rider" }, "category": "development", "icon": "🏎️", "type": "software", "file": "rider.json", "source": "official" },
-  { "id": "vim", "name": { "zh": "Vim", "en": "Vim" }, "category": "development", "icon": "🟢", "type": "software", "file": "vim.json", "source": "official" },
-  { "id": "neovim", "name": { "zh": "Neovim", "en": "Neovim" }, "category": "development", "icon": "🌙", "type": "software", "file": "neovim.json", "source": "official" },
-  { "id": "emacs", "name": { "zh": "Emacs", "en": "Emacs" }, "category": "development", "icon": "🐂", "type": "software", "file": "emacs.json", "source": "official" },
-  { "id": "helix", "name": { "zh": "Helix", "en": "Helix" }, "category": "development", "icon": "🧬", "type": "software", "file": "helix.json", "source": "official" },
-  { "id": "slack", "name": { "zh": "Slack", "en": "Slack" }, "category": "productivity", "icon": "💬", "type": "software", "file": "slack.json", "source": "official" },
-  { "id": "sublimetext", "name": { "zh": "Sublime Text", "en": "Sublime Text" }, "category": "development", "icon": "📝", "type": "software", "file": "sublimetext.json", "source": "community" },
-  { "id": "krita", "name": { "zh": "Krita", "en": "Krita" }, "category": "design", "icon": "🎨", "type": "software", "file": "krita.json", "source": "community" },
-  { "id": "clipstudio", "name": { "zh": "Clip Studio Paint", "en": "Clip Studio Paint" }, "category": "design", "icon": "🖌️", "type": "software", "file": "clipstudio.json", "source": "community" },
-  { "id": "xcode", "name": { "zh": "Xcode", "en": "Xcode" }, "category": "development", "icon": "🔨", "type": "software", "file": "xcode.json", "source": "community" },
-  { "id": "arc", "name": { "zh": "Arc", "en": "Arc" }, "category": "browser", "icon": "🔵", "type": "software", "file": "arc.json", "source": "community" },
-  { "id": "linear", "name": { "zh": "Linear", "en": "Linear" }, "category": "productivity", "icon": "📐", "type": "software", "file": "linear.json", "source": "community" },
-  { "id": "figjam", "name": { "zh": "FigJam", "en": "FigJam" }, "category": "design", "icon": "🟡", "type": "software", "file": "figjam.json", "source": "community" },
-  { "id": "abletonlive", "name": { "zh": "Ableton Live", "en": "Ableton Live" }, "category": "audio", "icon": "🎛️", "type": "software", "file": "abletonlive.json", "source": "official" },
-  { "id": "flstudio", "name": { "zh": "FL Studio", "en": "FL Studio" }, "category": "audio", "icon": "🎚️", "type": "software", "file": "flstudio.json", "source": "official" },
-  { "id": "logicpro", "name": { "zh": "Logic Pro", "en": "Logic Pro" }, "category": "audio", "icon": "🎹", "type": "software", "file": "logicpro.json", "source": "ai" },
-  { "id": "garageband", "name": { "zh": "GarageBand", "en": "GarageBand" }, "category": "audio", "icon": "🎸", "type": "software", "file": "garageband.json", "source": "ai" },
-  { "id": "reaper", "name": { "zh": "REAPER", "en": "REAPER" }, "category": "audio", "icon": "🎛️", "type": "software", "file": "reaper.json", "source": "ai" },
-  { "id": "cubase", "name": { "zh": "Cubase", "en": "Cubase" }, "category": "audio", "icon": "🎼", "type": "software", "file": "cubase.json", "source": "ai" },
-  { "id": "autocad", "name": { "zh": "AutoCAD", "en": "AutoCAD" }, "category": "design", "icon": "📐", "type": "software", "file": "autocad.json", "source": "ai" },
-  { "id": "fusion360", "name": { "zh": "Fusion 360", "en": "Fusion 360" }, "category": "design", "icon": "🛠️", "type": "software", "file": "fusion360.json", "source": "ai" },
-  { "id": "sketchup", "name": { "zh": "SketchUp", "en": "SketchUp" }, "category": "design", "icon": "🏠", "type": "software", "file": "sketchup.json", "source": "ai" },
-  { "id": "solidworks", "name": { "zh": "SolidWorks", "en": "SolidWorks" }, "category": "design", "icon": "🔩", "type": "software", "file": "solidworks.json", "source": "ai" },
-  { "id": "substancepainter", "name": { "zh": "Substance 3D Painter", "en": "Substance 3D Painter" }, "category": "design", "icon": "🖌️", "type": "software", "file": "substancepainter.json", "source": "ai" },
-  { "id": "houdini", "name": { "zh": "Houdini", "en": "Houdini" }, "category": "design", "icon": "🌪️", "type": "software",     "file": "houdini.json", "source": "ai" },
-
-  { "id": "unreal",          "name": { "zh": "Unreal Engine", "en": "Unreal Engine" }, "category": "development", "icon": "🎮", "type": "software", "file": "unreal.json", "source": "ai" },
-  { "id": "unity",           "name": { "zh": "Unity",         "en": "Unity" },         "category": "development", "icon": "🎲", "type": "software", "file": "unity.json", "source": "ai" },
-  { "id": "godot",           "name": { "zh": "Godot",         "en": "Godot" },         "category": "development", "icon": "🤖", "type": "software", "file": "godot.json", "source": "ai" },
-  { "id": "visualstudio",    "name": { "zh": "Visual Studio", "en": "Visual Studio" }, "category": "development", "icon": "🔷", "type": "software", "file": "visualstudio.json", "source": "ai" },
-  { "id": "eclipse",         "name": { "zh": "Eclipse",       "en": "Eclipse" },       "category": "development", "icon": "⚙️", "type": "software", "file": "eclipse.json", "source": "ai" },
-  { "id": "notepadplusplus", "name": { "zh": "Notepad++",     "en": "Notepad++" },     "category": "development", "icon": "📋", "type": "software", "file": "notepadplusplus.json", "source": "ai" },
-  { "id": "3dsmax",          "name": { "zh": "3ds Max",       "en": "3ds Max" },       "sortKey": "D",           "category": "design",      "icon": "💠", "type": "software", "file": "3dsmax.json", "source": "ai" },
-  { "id": "rhino",           "name": { "zh": "Rhino",         "en": "Rhino" },         "category": "design",      "icon": "🦏", "type": "software", "file": "rhino.json", "source": "ai" },
-  { "id": "brave",           "name": { "zh": "Brave",         "en": "Brave" },         "category": "browser",     "icon": "🦁", "type": "software", "file": "brave.json", "source": "ai" },
-  { "id": "opera",           "name": { "zh": "Opera",         "en": "Opera" },         "category": "browser",     "icon": "🎭", "type": "software", "file": "opera.json", "source": "ai" },
-  { "id": "vivaldi",         "name": { "zh": "Vivaldi",       "en": "Vivaldi" },       "category": "browser",     "icon": "🎻", "type": "software", "file": "vivaldi.json", "source": "ai" },
-  { "id": "confluence",      "name": { "zh": "Confluence",    "en": "Confluence" },    "category": "productivity","icon": "📚", "type": "software", "file": "confluence.json", "source": "ai" },
-  { "id": "studioone",       "name": { "zh": "Studio One",    "en": "Studio One" },    "category": "audio",       "icon": "🎚️", "type": "software", "file": "studioone.json", "source": "ai" },
-  { "id": "protools",        "name": { "zh": "Pro Tools",     "en": "Pro Tools" },     "category": "audio",       "icon": "🎞️", "type": "software", "file": "protools.json", "source": "ai" },
-  { "id": "ios",             "name": { "zh": "iOS / iPadOS",  "en": "iOS / iPadOS" },  "category": "system",      "icon": "📱", "type": "system", "file": "ios.json", "source": "ai" },
-  { "id": "postman",         "name": { "zh": "Postman",       "en": "Postman" },       "category": "development",   "icon": "📮", "type": "software", "file": "postman.json", "source": "community" },
-  { "id": "zoom",            "name": { "zh": "Zoom",          "en": "Zoom" },          "category": "productivity",  "icon": "📹", "type": "software", "file": "zoom.json", "source": "community" },
-  { "id": "asana",           "name": { "zh": "Asana",         "en": "Asana" },         "category": "productivity",  "icon": "✅", "type": "software", "file": "asana.json", "source": "community" },
-  { "id": "toonboom",        "name": { "zh": "Toon Boom Harmony", "en": "Toon Boom Harmony" }, "category": "design",     "icon": "🎬", "type": "software", "file": "toonboom.json", "source": "community" },
-  { "id": "iterm2",          "name": { "zh": "iTerm2",        "en": "iTerm2" },        "category": "development",   "icon": "🖥️", "type": "software", "file": "iterm2.json", "source": "official" },
-  { "id": "kdenlive",        "name": { "zh": "Kdenlive",      "en": "Kdenlive" },      "category": "video",         "icon": "🎞️", "type": "software", "file": "kdenlive.json", "source": "community" },
-  { "id": "bitwig",          "name": { "zh": "Bitwig Studio", "en": "Bitwig Studio" }, "category": "audio",         "icon": "🎛️", "type": "software", "file": "bitwig.json", "source": "ai" },
-  { "id": "vegas",           "name": { "zh": "Vegas Pro",     "en": "Vegas Pro" },     "category": "video",         "icon": "🎞️", "type": "software", "file": "vegas.json", "source": "ai" },
-  { "id": "discord",         "name": { "zh": "Discord",       "en": "Discord" },       "category": "productivity",  "icon": "💬", "type": "software", "popular": true, "file": "discord.json", "source": "community" },
-  { "id": "telegram",        "name": { "zh": "Telegram",      "en": "Telegram" },      "category": "productivity",  "icon": "✈️", "type": "software", "popular": true, "file": "telegram.json", "source": "official" },
-  { "id": "matlab",          "name": { "zh": "MATLAB",        "en": "MATLAB" },        "category": "development",   "icon": "🧮", "type": "software", "popular": true, "file": "matlab.json", "source": "official" },
-  { "id": "ticktick",        "name": { "zh": "TickTick",      "en": "TickTick" },      "category": "productivity",  "icon": "☑️", "type": "software", "file": "ticktick.json", "source": "official" },
-  { "id": "docker",          "name": { "zh": "Docker Desktop","en": "Docker Desktop" }, "category": "development",   "icon": "🐳", "type": "software", "popular": true, "file": "docker.json", "source": "community" },
-  { "id": "steam",           "name": { "zh": "Steam",          "en": "Steam" },          "category": "other",         "icon": "🎮", "type": "software", "file": "steam.json", "source": "community" },
-  { "id": "qq",              "name": { "zh": "QQ",             "en": "QQ" },             "category": "productivity",  "icon": "🐧", "type": "software", "file": "qq.json", "source": "community" },
-  { "id": "xunlei",          "name": { "zh": "迅雷",            "en": "Xunlei" },         "category": "productivity",  "icon": "⚡", "type": "software", "sortKey": "Xunlei", "file": "xunlei.json", "source": "community" },
-  { "id": "whatsapp",        "name": { "zh": "WhatsApp",       "en": "WhatsApp" },       "category": "productivity",  "icon": "💬", "type": "software", "file": "whatsapp.json", "source": "community" },
-  { "id": "windowsterminal", "name": { "zh": "Windows 终端",   "en": "Windows Terminal" },"category": "development",  "icon": "🖥️", "type": "software", "file": "windowsterminal.json", "source": "official" },
-  { "id": "powertoys",       "name": { "zh": "PowerToys",      "en": "PowerToys" },      "category": "productivity",  "icon": "🛠️", "type": "software", "file": "powertoys.json", "source": "official" },
-  { "id": "snipaste",        "name": { "zh": "Snipaste",       "en": "Snipaste" },       "category": "productivity",  "icon": "✂️", "type": "software", "file": "snipaste.json", "source": "official" },
-  { "id": "vlc",             "name": { "zh": "VLC",            "en": "VLC" },            "category": "video",         "icon": "🎬", "type": "software", "file": "vlc.json", "source": "official" },
-  { "id": "sharex",          "name": { "zh": "ShareX",         "en": "ShareX" },         "category": "productivity",  "icon": "📸", "type": "software", "file": "sharex.json", "source": "community" },
-  { "id": "tmux",            "name": { "zh": "tmux",           "en": "tmux" },           "category": "development",   "icon": "⌨️", "type": "software", "file": "tmux.json", "source": "official" },
-  { "id": "tradingview",     "name": { "zh": "TradingView",    "en": "TradingView" },    "category": "other",         "icon": "📈", "type": "software", "file": "tradingview.json", "source": "community" },
-  { "id": "googlemeet",      "name": { "zh": "Google Meet",    "en": "Google Meet" },    "category": "productivity",  "icon": "📹", "type": "software", "file": "googlemeet.json", "source": "community" },
-  { "id": "skype",           "name": { "zh": "Skype",          "en": "Skype" },          "category": "productivity",  "icon": "📞", "type": "software", "file": "skype.json", "source": "community" },
-  { "id": "airtable",        "name": { "zh": "Airtable",       "en": "Airtable" },       "category": "productivity",  "icon": "🗃️", "type": "software", "popular": true, "file": "airtable.json", "source": "official" },
-  { "id": "webflow",         "name": { "zh": "Webflow",        "en": "Webflow" },        "category": "design",        "icon": "🌐", "type": "software", "file": "webflow.json", "source": "community" },
-  { "id": "midjourney",      "name": { "zh": "Midjourney",     "en": "Midjourney" },     "category": "ai",            "icon": "🖼️", "type": "software", "popular": true, "file": "midjourney.json", "source": "community" },
-  { "id": "clickup",         "name": { "zh": "ClickUp",        "en": "ClickUp" },        "category": "productivity",  "icon": "📋", "type": "software", "file": "clickup.json", "source": "community" },
-  { "id": "datagrip",        "name": { "zh": "DataGrip",       "en": "DataGrip" },       "category": "development",   "icon": "🗄️", "type": "software", "file": "datagrip.json", "source": "community" },
-  { "id": "rubymine",        "name": { "zh": "RubyMine",       "en": "RubyMine" },       "category": "development",   "icon": "💎", "type": "software", "file": "rubymine.json", "source": "community" },
-
-  { "id": "githubcopilot", "name": { "zh": "GitHub Copilot", "en": "GitHub Copilot" }, "category": "ai",          "icon": "🤖", "type": "software", "file": "githubcopilot.json", "source": "official" },
-  { "id": "rstudio",      "name": { "zh": "RStudio",        "en": "RStudio" },        "category": "development", "icon": "📊", "type": "software", "file": "rstudio.json",      "source": "official" },
-  { "id": "warp",         "name": { "zh": "Warp",           "en": "Warp" },           "category": "development", "icon": "🚀", "type": "software", "file": "warp.json",         "source": "official" },
-  { "id": "dbeaver",        "name": { "zh": "DBeaver",        "en": "DBeaver" },        "category": "development", "icon": "🐘", "type": "software", "file": "dbeaver.json",      "source": "official" },
-  { "id": "tableplus",      "name": { "zh": "TablePlus",      "en": "TablePlus" },      "category": "development", "icon": "🐬", "type": "software", "file": "tableplus.json",    "source": "official" },
-  { "id": "insomnia",       "name": { "zh": "Insomnia",       "en": "Insomnia" },       "category": "development", "icon": "🌙", "type": "software", "file": "insomnia.json",     "source": "official" },
-  { "id": "gitkraken",      "name": { "zh": "GitKraken",      "en": "GitKraken" },      "category": "development", "icon": "🐙", "type": "software", "file": "gitkraken.json",    "source": "official" },
-  { "id": "claude",         "name": { "zh": "Claude",         "en": "Claude" },         "category": "ai",          "icon": "🧠", "type": "software", "file": "claude.json",         "source": "community" },
-  { "id": "geminicli",     "name": { "zh": "Gemini CLI",     "en": "Gemini CLI" },     "category": "ai",          "icon": "✨", "type": "software", "file": "geminicli.json",     "source": "official" },
-  { "id": "zed",           "name": { "zh": "Zed",           "en": "Zed" },           "category": "development", "icon": "⚡", "type": "software", "file": "zed.json",           "source": "official" },
-  { "id": "jira",          "name": { "zh": "Jira",          "en": "Jira" },          "category": "productivity", "icon": "📋", "type": "software", "file": "jira.json",          "source": "official" },
-  { "id": "trello",        "name": { "zh": "Trello",        "en": "Trello" },        "category": "productivity", "icon": "📌", "type": "software", "file": "trello.json",        "source": "official" },
-  { "id": "maya",          "name": { "zh": "Maya",          "en": "Maya" },          "category": "design",       "icon": "🎬", "type": "software", "file": "maya.json",          "source": "official" },
-  { "id": "nuke",          "name": { "zh": "Nuke",          "en": "Nuke" },          "category": "design",       "icon": "🎞️", "type": "software", "file": "nuke.json",          "source": "official" },
-  { "id": "codex",         "name": { "zh": "Codex CLI",     "en": "Codex CLI" },     "category": "ai",           "icon": "🤖", "type": "software", "file": "codex.json",         "source": "community" },
-  { "id": "substance",     "name": { "zh": "Substance 3D Designer", "en": "Substance 3D Designer" }, "category": "design", "icon": "🧱", "type": "software", "file": "substance.json",     "source": "official" },
-  { "id": "antigravity",   "name": { "zh": "Antigravity CLI", "en": "Antigravity CLI" }, "category": "ai", "icon": "🛰️", "type": "software", "file": "antigravity.json",   "source": "official" },
-  { "id": "windsurf",      "name": { "zh": "Windsurf",      "en": "Windsurf" },      "category": "ai",           "icon": "🏄", "type": "software", "file": "windsurf.json",      "source": "community" },
-  { "id": "deepseek",      "name": { "zh": "DeepSeek",      "en": "DeepSeek" },      "category": "ai",           "icon": "🐋", "type": "software", "file": "deepseek.json",      "source": "community" },
-  { "id": "claude-code",   "name": { "zh": "Claude Code",   "en": "Claude Code" },   "category": "ai",           "icon": "⚡", "type": "software", "file": "claude-code.json",   "source": "official" },
-  { "id": "gemini",        "name": { "zh": "Gemini",        "en": "Gemini" },        "category": "ai",           "icon": "🔮", "type": "software", "file": "gemini.json",        "source": "community" },
-  { "id": "grok",          "name": { "zh": "Grok",          "en": "Grok" },          "category": "ai",           "icon": "🐦", "type": "software", "file": "grok.json",          "source": "community" },
-  { "id": "perplexity",    "name": { "zh": "Perplexity",    "en": "Perplexity" },    "category": "ai",           "icon": "🔎", "type": "software", "file": "perplexity.json",    "source": "community" },
-  { "id": "1password",     "name": { "zh": "1Password",     "en": "1Password" },     "category": "productivity", "icon": "🔐", "type": "software", "file": "1password.json",     "source": "official" },
-  { "id": "bitwarden",     "name": { "zh": "Bitwarden",     "en": "Bitwarden" },     "category": "productivity", "icon": "🔒", "type": "software", "file": "bitwarden.json",     "source": "official" },
-  { "id": "things",        "name": { "zh": "Things",        "en": "Things" },        "category": "productivity", "icon": "🗒️", "type": "software", "file": "things.json",        "source": "official" },
-  { "id": "craft",         "name": { "zh": "Craft",         "en": "Craft" },         "category": "productivity", "icon": "📔", "type": "software", "file": "craft.json",         "source": "official" },
-  { "id": "rectangle",     "name": { "zh": "Rectangle",     "en": "Rectangle" },     "category": "productivity", "icon": "🔲", "type": "software", "file": "rectangle.json",     "source": "community" },
-  { "id": "magnet",        "name": { "zh": "Magnet",        "en": "Magnet" },        "category": "productivity", "icon": "🧲", "type": "software", "file": "magnet.json",        "source": "community" }
+  {
+    "id": "windows",
+    "name": {
+      "zh": "Windows",
+      "en": "Windows"
+    },
+    "category": "system",
+    "icon": "🪟",
+    "type": "system",
+    "file": "windows.json",
+    "source": "official"
+  },
+  {
+    "id": "macos",
+    "name": {
+      "zh": "macOS",
+      "en": "macOS"
+    },
+    "category": "system",
+    "icon": "🍎",
+    "type": "system",
+    "file": "macos.json",
+    "source": "official"
+  },
+  {
+    "id": "linux",
+    "name": {
+      "zh": "Linux",
+      "en": "Linux"
+    },
+    "category": "system",
+    "icon": "🐧",
+    "type": "system",
+    "file": "linux.json",
+    "source": "official"
+  },
+  {
+    "id": "chromeos",
+    "name": {
+      "zh": "ChromeOS",
+      "en": "ChromeOS"
+    },
+    "category": "system",
+    "icon": "🖥️",
+    "type": "system",
+    "file": "chromeos.json",
+    "source": "official"
+  },
+  {
+    "id": "chrome",
+    "name": {
+      "zh": "Chrome",
+      "en": "Chrome"
+    },
+    "category": "browser",
+    "icon": "🌐",
+    "type": "software",
+    "popular": true,
+    "file": "chrome.json",
+    "source": "official"
+  },
+  {
+    "id": "devtools",
+    "name": {
+      "zh": "Chrome DevTools",
+      "en": "Chrome DevTools"
+    },
+    "category": "development",
+    "icon": "🛠️",
+    "type": "software",
+    "file": "devtools.json",
+    "source": "official"
+  },
+  {
+    "id": "figma",
+    "name": {
+      "zh": "Figma",
+      "en": "Figma"
+    },
+    "category": "design",
+    "icon": "🎨",
+    "type": "software",
+    "popular": true,
+    "file": "figma.json",
+    "source": "community"
+  },
+  {
+    "id": "penpot",
+    "name": {
+      "zh": "Penpot",
+      "en": "Penpot"
+    },
+    "category": "design",
+    "icon": "🧩",
+    "type": "software",
+    "file": "penpot.json",
+    "source": "official"
+  },
+  {
+    "id": "excalidraw",
+    "name": {
+      "zh": "Excalidraw",
+      "en": "Excalidraw"
+    },
+    "category": "design",
+    "icon": "✏️",
+    "type": "software",
+    "file": "excalidraw.json",
+    "source": "community"
+  },
+  {
+    "id": "tldraw",
+    "name": {
+      "zh": "tldraw",
+      "en": "tldraw"
+    },
+    "category": "design",
+    "icon": "🩰",
+    "type": "software",
+    "file": "tldraw.json",
+    "source": "community"
+  },
+  {
+    "id": "pixso",
+    "name": {
+      "zh": "Pixso",
+      "en": "Pixso"
+    },
+    "category": "design",
+    "icon": "🎯",
+    "type": "software",
+    "file": "pixso.json",
+    "source": "community"
+  },
+  {
+    "id": "photoshop",
+    "name": {
+      "zh": "Photoshop",
+      "en": "Photoshop"
+    },
+    "category": "design",
+    "icon": "🖼️",
+    "type": "software",
+    "popular": true,
+    "file": "photoshop.json",
+    "source": "official"
+  },
+  {
+    "id": "illustrator",
+    "name": {
+      "zh": "Illustrator",
+      "en": "Illustrator"
+    },
+    "category": "design",
+    "icon": "✒️",
+    "type": "software",
+    "file": "illustrator.json",
+    "source": "official"
+  },
+  {
+    "id": "blender",
+    "name": {
+      "zh": "Blender",
+      "en": "Blender"
+    },
+    "category": "design",
+    "icon": "🧊",
+    "type": "software",
+    "file": "blender.json",
+    "source": "official"
+  },
+  {
+    "id": "vscode",
+    "name": {
+      "zh": "VS Code",
+      "en": "VS Code"
+    },
+    "category": "development",
+    "icon": "💻",
+    "type": "software",
+    "popular": true,
+    "file": "vscode.json",
+    "source": "official"
+  },
+  {
+    "id": "git",
+    "name": {
+      "zh": "Git",
+      "en": "Git"
+    },
+    "category": "development",
+    "icon": "🔀",
+    "type": "software",
+    "file": "git.json",
+    "source": "ai"
+  },
+  {
+    "id": "github",
+    "name": {
+      "zh": "GitHub",
+      "en": "GitHub"
+    },
+    "category": "development",
+    "icon": "🐙",
+    "type": "software",
+    "file": "github.json",
+    "source": "official"
+  },
+  {
+    "id": "excel",
+    "name": {
+      "zh": "Excel",
+      "en": "Excel"
+    },
+    "category": "productivity",
+    "icon": "📊",
+    "type": "software",
+    "popular": true,
+    "file": "excel.json",
+    "source": "official"
+  },
+  {
+    "id": "word",
+    "name": {
+      "zh": "Word",
+      "en": "Word"
+    },
+    "category": "productivity",
+    "icon": "📝",
+    "type": "software",
+    "file": "word.json",
+    "source": "official"
+  },
+  {
+    "id": "powerpoint",
+    "name": {
+      "zh": "PowerPoint",
+      "en": "PowerPoint"
+    },
+    "category": "productivity",
+    "icon": "📽️",
+    "type": "software",
+    "file": "powerpoint.json",
+    "source": "official"
+  },
+  {
+    "id": "notion",
+    "name": {
+      "zh": "Notion",
+      "en": "Notion"
+    },
+    "category": "productivity",
+    "icon": "📒",
+    "type": "software",
+    "file": "notion.json",
+    "source": "official"
+  },
+  {
+    "id": "premiere",
+    "name": {
+      "zh": "Premiere Pro",
+      "en": "Premiere Pro"
+    },
+    "category": "video",
+    "icon": "🎞️",
+    "type": "software",
+    "file": "premiere.json",
+    "source": "official"
+  },
+  {
+    "id": "afterfx",
+    "name": {
+      "zh": "After Effects",
+      "en": "After Effects"
+    },
+    "category": "video",
+    "icon": "✨",
+    "type": "software",
+    "file": "afterfx.json",
+    "source": "official"
+  },
+  {
+    "id": "lightroom",
+    "name": {
+      "zh": "Lightroom",
+      "en": "Lightroom"
+    },
+    "category": "design",
+    "icon": "🌅",
+    "type": "software",
+    "file": "lightroom.json",
+    "source": "official"
+  },
+  {
+    "id": "indesign",
+    "name": {
+      "zh": "InDesign",
+      "en": "InDesign"
+    },
+    "category": "design",
+    "icon": "📰",
+    "type": "software",
+    "file": "indesign.json",
+    "source": "official"
+  },
+  {
+    "id": "xd",
+    "name": {
+      "zh": "Adobe XD",
+      "en": "Adobe XD"
+    },
+    "category": "design",
+    "icon": "💡",
+    "type": "software",
+    "file": "xd.json",
+    "source": "official"
+  },
+  {
+    "id": "acrobat",
+    "name": {
+      "zh": "Acrobat",
+      "en": "Acrobat"
+    },
+    "category": "productivity",
+    "icon": "📕",
+    "type": "software",
+    "file": "acrobat.json",
+    "source": "community"
+  },
+  {
+    "id": "audition",
+    "name": {
+      "zh": "Audition",
+      "en": "Audition"
+    },
+    "category": "video",
+    "icon": "🎧",
+    "type": "software",
+    "file": "audition.json",
+    "source": "official"
+  },
+  {
+    "id": "bilibili",
+    "name": {
+      "zh": "哔哩哔哩",
+      "en": "Bilibili"
+    },
+    "category": "video",
+    "icon": "📺",
+    "type": "software",
+    "sortKey": "Bilibili",
+    "file": "bilibili.json",
+    "source": "ai"
+  },
+  {
+    "id": "capcut",
+    "name": {
+      "zh": "剪映",
+      "en": "CapCut"
+    },
+    "category": "video",
+    "icon": "🎬",
+    "type": "software",
+    "sortKey": "Jianying",
+    "file": "capcut.json",
+    "source": "official"
+  },
+  {
+    "id": "davinci",
+    "name": {
+      "zh": "达芬奇",
+      "en": "DaVinci Resolve"
+    },
+    "category": "video",
+    "icon": "🎥",
+    "type": "software",
+    "sortKey": "DaVinci Resolve",
+    "file": "davinci.json",
+    "source": "official"
+  },
+  {
+    "id": "finalcut",
+    "name": {
+      "zh": "Final Cut Pro",
+      "en": "Final Cut Pro"
+    },
+    "category": "video",
+    "icon": "🍏",
+    "type": "software",
+    "file": "finalcut.json",
+    "source": "official"
+  },
+  {
+    "id": "obs",
+    "name": {
+      "zh": "OBS Studio",
+      "en": "OBS Studio"
+    },
+    "category": "video",
+    "icon": "📹",
+    "type": "software",
+    "file": "obs.json",
+    "source": "official"
+  },
+  {
+    "id": "edge",
+    "name": {
+      "zh": "Edge",
+      "en": "Edge"
+    },
+    "category": "browser",
+    "icon": "🌊",
+    "type": "software",
+    "file": "edge.json",
+    "source": "official"
+  },
+  {
+    "id": "firefox",
+    "name": {
+      "zh": "Firefox",
+      "en": "Firefox"
+    },
+    "category": "browser",
+    "icon": "🦊",
+    "type": "software",
+    "file": "firefox.json",
+    "source": "official"
+  },
+  {
+    "id": "obsidian",
+    "name": {
+      "zh": "Obsidian",
+      "en": "Obsidian"
+    },
+    "category": "productivity",
+    "icon": "🔱",
+    "type": "software",
+    "file": "obsidian.json",
+    "source": "official"
+  },
+  {
+    "id": "todoist",
+    "name": {
+      "zh": "Todoist",
+      "en": "Todoist"
+    },
+    "category": "productivity",
+    "icon": "✅",
+    "type": "software",
+    "file": "todoist.json",
+    "source": "official"
+  },
+  {
+    "id": "cursor",
+    "name": {
+      "zh": "Cursor",
+      "en": "Cursor"
+    },
+    "category": "development",
+    "icon": "⌨️",
+    "type": "software",
+    "file": "cursor.json",
+    "source": "official"
+  },
+  {
+    "id": "chatgpt",
+    "name": {
+      "zh": "ChatGPT",
+      "en": "ChatGPT"
+    },
+    "category": "productivity",
+    "icon": "🤖",
+    "type": "software",
+    "file": "chatgpt.json",
+    "source": "official"
+  },
+  {
+    "id": "outlook",
+    "name": {
+      "zh": "Outlook",
+      "en": "Outlook"
+    },
+    "category": "productivity",
+    "icon": "📧",
+    "type": "software",
+    "file": "outlook.json",
+    "source": "official"
+  },
+  {
+    "id": "gmail",
+    "name": {
+      "zh": "Gmail",
+      "en": "Gmail"
+    },
+    "category": "productivity",
+    "icon": "✉️",
+    "type": "software",
+    "file": "gmail.json",
+    "source": "official"
+  },
+  {
+    "id": "googledocs",
+    "name": {
+      "zh": "Google 文档",
+      "en": "Google Docs"
+    },
+    "category": "productivity",
+    "icon": "📄",
+    "type": "software",
+    "file": "googledocs.json",
+    "source": "official"
+  },
+  {
+    "id": "googlesheets",
+    "name": {
+      "zh": "Google 表格",
+      "en": "Google Sheets"
+    },
+    "category": "productivity",
+    "icon": "📊",
+    "type": "software",
+    "file": "googlesheets.json",
+    "source": "official"
+  },
+  {
+    "id": "googleslides",
+    "name": {
+      "zh": "Google 幻灯片",
+      "en": "Google Slides"
+    },
+    "category": "productivity",
+    "icon": "📽️",
+    "type": "software",
+    "file": "googleslides.json",
+    "source": "official"
+  },
+  {
+    "id": "feishu",
+    "name": {
+      "zh": "飞书",
+      "en": "Feishu (Lark)"
+    },
+    "category": "productivity",
+    "icon": "📨",
+    "type": "software",
+    "sortKey": "Feishu",
+    "file": "feishu.json",
+    "source": "official"
+  },
+  {
+    "id": "dingtalk",
+    "name": {
+      "zh": "钉钉",
+      "en": "DingTalk"
+    },
+    "category": "productivity",
+    "icon": "📣",
+    "type": "software",
+    "sortKey": "Dingding",
+    "file": "dingtalk.json",
+    "source": "official"
+  },
+  {
+    "id": "wecom",
+    "name": {
+      "zh": "企业微信",
+      "en": "WeCom"
+    },
+    "category": "productivity",
+    "icon": "💬",
+    "type": "software",
+    "sortKey": "Qiye",
+    "file": "wecom.json",
+    "source": "official"
+  },
+  {
+    "id": "keynote",
+    "name": {
+      "zh": "Keynote",
+      "en": "Keynote"
+    },
+    "category": "productivity",
+    "icon": "▶️",
+    "type": "software",
+    "file": "keynote.json",
+    "source": "official"
+  },
+  {
+    "id": "pages",
+    "name": {
+      "zh": "Pages",
+      "en": "Pages"
+    },
+    "category": "productivity",
+    "icon": "📃",
+    "type": "software",
+    "file": "pages.json",
+    "source": "official"
+  },
+  {
+    "id": "numbers",
+    "name": {
+      "zh": "Numbers",
+      "en": "Numbers"
+    },
+    "category": "productivity",
+    "icon": "🔢",
+    "type": "software",
+    "file": "numbers.json",
+    "source": "official"
+  },
+  {
+    "id": "onenote",
+    "name": {
+      "zh": "OneNote",
+      "en": "OneNote"
+    },
+    "category": "productivity",
+    "icon": "📓",
+    "type": "software",
+    "file": "onenote.json",
+    "source": "official"
+  },
+  {
+    "id": "sketch",
+    "name": {
+      "zh": "Sketch",
+      "en": "Sketch"
+    },
+    "category": "design",
+    "icon": "💎",
+    "type": "software",
+    "file": "sketch.json",
+    "source": "official"
+  },
+  {
+    "id": "framer",
+    "name": {
+      "zh": "Framer",
+      "en": "Framer"
+    },
+    "category": "design",
+    "icon": "🧩",
+    "type": "software",
+    "file": "framer.json",
+    "source": "official"
+  },
+  {
+    "id": "canva",
+    "name": {
+      "zh": "Canva",
+      "en": "Canva"
+    },
+    "category": "design",
+    "icon": "🎯",
+    "type": "software",
+    "file": "canva.json",
+    "source": "official"
+  },
+  {
+    "id": "miro",
+    "name": {
+      "zh": "Miro",
+      "en": "Miro"
+    },
+    "category": "design",
+    "icon": "🗺️",
+    "type": "software",
+    "file": "miro.json",
+    "source": "official"
+  },
+  {
+    "id": "mural",
+    "name": {
+      "zh": "Mural",
+      "en": "Mural"
+    },
+    "category": "design",
+    "icon": "📋",
+    "type": "software",
+    "file": "mural.json",
+    "source": "official"
+  },
+  {
+    "id": "axure",
+    "name": {
+      "zh": "Axure RP",
+      "en": "Axure RP"
+    },
+    "category": "design",
+    "icon": "📐",
+    "type": "software",
+    "file": "axure.json",
+    "source": "official"
+  },
+  {
+    "id": "invision",
+    "name": {
+      "zh": "InVision",
+      "en": "InVision"
+    },
+    "category": "design",
+    "icon": "👁",
+    "type": "software",
+    "file": "invision.json",
+    "source": "official"
+  },
+  {
+    "id": "zeplin",
+    "name": {
+      "zh": "Zeplin",
+      "en": "Zeplin"
+    },
+    "category": "design",
+    "icon": "📦",
+    "type": "software",
+    "file": "zeplin.json",
+    "source": "official"
+  },
+  {
+    "id": "principle",
+    "name": {
+      "zh": "Principle",
+      "en": "Principle"
+    },
+    "category": "design",
+    "icon": "🔄",
+    "type": "software",
+    "file": "principle.json",
+    "source": "official"
+  },
+  {
+    "id": "protopie",
+    "name": {
+      "zh": "ProtoPie",
+      "en": "ProtoPie"
+    },
+    "category": "design",
+    "icon": "📱",
+    "type": "software",
+    "file": "protopie.json",
+    "source": "official"
+  },
+  {
+    "id": "whimsical",
+    "name": {
+      "zh": "Whimsical",
+      "en": "Whimsical"
+    },
+    "category": "design",
+    "icon": "🕸️",
+    "type": "software",
+    "file": "whimsical.json",
+    "source": "official"
+  },
+  {
+    "id": "lucidchart",
+    "name": {
+      "zh": "Lucidchart",
+      "en": "Lucidchart"
+    },
+    "category": "design",
+    "icon": "📈",
+    "type": "software",
+    "file": "lucidchart.json",
+    "source": "official"
+  },
+  {
+    "id": "abstract",
+    "name": {
+      "zh": "Abstract",
+      "en": "Abstract"
+    },
+    "category": "design",
+    "icon": "💠",
+    "type": "software",
+    "file": "abstract.json",
+    "source": "official"
+  },
+  {
+    "id": "jsdesign",
+    "name": {
+      "zh": "即时设计",
+      "en": "JS Design"
+    },
+    "category": "design",
+    "icon": "⚡",
+    "type": "software",
+    "sortKey": "Jishi",
+    "file": "jsdesign.json",
+    "source": "official"
+  },
+  {
+    "id": "mastergo",
+    "name": {
+      "zh": "MasterGo",
+      "en": "MasterGo"
+    },
+    "category": "design",
+    "icon": "🏔️",
+    "type": "software",
+    "file": "mastergo.json",
+    "source": "official"
+  },
+  {
+    "id": "affinityphoto",
+    "name": {
+      "zh": "Affinity Photo",
+      "en": "Affinity Photo"
+    },
+    "category": "design",
+    "icon": "🖼️",
+    "type": "software",
+    "file": "affinityphoto.json",
+    "source": "official"
+  },
+  {
+    "id": "affinitydesigner",
+    "name": {
+      "zh": "Affinity Designer",
+      "en": "Affinity Designer"
+    },
+    "category": "design",
+    "icon": "🎨",
+    "type": "software",
+    "file": "affinitydesigner.json",
+    "source": "official"
+  },
+  {
+    "id": "affinitypublisher",
+    "name": {
+      "zh": "Affinity Publisher",
+      "en": "Affinity Publisher"
+    },
+    "category": "design",
+    "icon": "📐",
+    "type": "software",
+    "file": "affinitypublisher.json",
+    "source": "official"
+  },
+  {
+    "id": "inkscape",
+    "name": {
+      "zh": "Inkscape",
+      "en": "Inkscape"
+    },
+    "category": "design",
+    "icon": "🌀",
+    "type": "software",
+    "file": "inkscape.json",
+    "source": "official"
+  },
+  {
+    "id": "procreate",
+    "name": {
+      "zh": "Procreate",
+      "en": "Procreate"
+    },
+    "category": "design",
+    "icon": "🎨",
+    "type": "software",
+    "file": "procreate.json",
+    "source": "official"
+  },
+  {
+    "id": "safari",
+    "name": {
+      "zh": "Safari",
+      "en": "Safari"
+    },
+    "category": "browser",
+    "icon": "🧭",
+    "type": "software",
+    "file": "safari.json",
+    "source": "official"
+  },
+  {
+    "id": "androidstudio",
+    "name": {
+      "zh": "Android Studio",
+      "en": "Android Studio"
+    },
+    "category": "development",
+    "icon": "🤖",
+    "type": "software",
+    "file": "androidstudio.json",
+    "source": "official"
+  },
+  {
+    "id": "spotify",
+    "name": {
+      "zh": "Spotify",
+      "en": "Spotify"
+    },
+    "category": "audio",
+    "icon": "🎵",
+    "type": "software",
+    "file": "spotify.json",
+    "source": "official"
+  },
+  {
+    "id": "raycast",
+    "name": {
+      "zh": "Raycast",
+      "en": "Raycast"
+    },
+    "category": "productivity",
+    "icon": "🚀",
+    "type": "software",
+    "file": "raycast.json",
+    "source": "official"
+  },
+  {
+    "id": "audacity",
+    "name": {
+      "zh": "Audacity",
+      "en": "Audacity"
+    },
+    "category": "audio",
+    "icon": "🎙️",
+    "type": "software",
+    "file": "audacity.json",
+    "source": "official"
+  },
+  {
+    "id": "teams",
+    "name": {
+      "zh": "Microsoft Teams",
+      "en": "Microsoft Teams"
+    },
+    "category": "productivity",
+    "icon": "👥",
+    "type": "software",
+    "file": "teams.json",
+    "source": "official"
+  },
+  {
+    "id": "alfred",
+    "name": {
+      "zh": "Alfred",
+      "en": "Alfred"
+    },
+    "category": "productivity",
+    "icon": "🎩",
+    "type": "software",
+    "file": "alfred.json",
+    "source": "official"
+  },
+  {
+    "id": "gimp",
+    "name": {
+      "zh": "GIMP",
+      "en": "GIMP"
+    },
+    "category": "design",
+    "icon": "🐘",
+    "type": "software",
+    "file": "gimp.json",
+    "source": "official"
+  },
+  {
+    "id": "intellij",
+    "name": {
+      "zh": "IntelliJ IDEA",
+      "en": "IntelliJ IDEA"
+    },
+    "category": "development",
+    "icon": "💡",
+    "type": "software",
+    "file": "intellij.json",
+    "source": "official"
+  },
+  {
+    "id": "webstorm",
+    "name": {
+      "zh": "WebStorm",
+      "en": "WebStorm"
+    },
+    "category": "development",
+    "icon": "💙",
+    "type": "software",
+    "file": "webstorm.json",
+    "source": "official"
+  },
+  {
+    "id": "pycharm",
+    "name": {
+      "zh": "PyCharm",
+      "en": "PyCharm"
+    },
+    "category": "development",
+    "icon": "🐍",
+    "type": "software",
+    "file": "pycharm.json",
+    "source": "official"
+  },
+  {
+    "id": "goland",
+    "name": {
+      "zh": "GoLand",
+      "en": "GoLand"
+    },
+    "category": "development",
+    "icon": "🐹",
+    "type": "software",
+    "file": "goland.json",
+    "source": "official"
+  },
+  {
+    "id": "clion",
+    "name": {
+      "zh": "CLion",
+      "en": "CLion"
+    },
+    "category": "development",
+    "icon": "🔧",
+    "type": "software",
+    "file": "clion.json",
+    "source": "official"
+  },
+  {
+    "id": "phpstorm",
+    "name": {
+      "zh": "PhpStorm",
+      "en": "PhpStorm"
+    },
+    "category": "development",
+    "icon": "💜",
+    "type": "software",
+    "file": "phpstorm.json",
+    "source": "official"
+  },
+  {
+    "id": "rider",
+    "name": {
+      "zh": "Rider",
+      "en": "Rider"
+    },
+    "category": "development",
+    "icon": "🏎️",
+    "type": "software",
+    "file": "rider.json",
+    "source": "official"
+  },
+  {
+    "id": "vim",
+    "name": {
+      "zh": "Vim",
+      "en": "Vim"
+    },
+    "category": "development",
+    "icon": "🟢",
+    "type": "software",
+    "file": "vim.json",
+    "source": "official"
+  },
+  {
+    "id": "neovim",
+    "name": {
+      "zh": "Neovim",
+      "en": "Neovim"
+    },
+    "category": "development",
+    "icon": "🌙",
+    "type": "software",
+    "file": "neovim.json",
+    "source": "official"
+  },
+  {
+    "id": "emacs",
+    "name": {
+      "zh": "Emacs",
+      "en": "Emacs"
+    },
+    "category": "development",
+    "icon": "🐂",
+    "type": "software",
+    "file": "emacs.json",
+    "source": "official"
+  },
+  {
+    "id": "helix",
+    "name": {
+      "zh": "Helix",
+      "en": "Helix"
+    },
+    "category": "development",
+    "icon": "🧬",
+    "type": "software",
+    "file": "helix.json",
+    "source": "official"
+  },
+  {
+    "id": "slack",
+    "name": {
+      "zh": "Slack",
+      "en": "Slack"
+    },
+    "category": "productivity",
+    "icon": "💬",
+    "type": "software",
+    "file": "slack.json",
+    "source": "official"
+  },
+  {
+    "id": "sublimetext",
+    "name": {
+      "zh": "Sublime Text",
+      "en": "Sublime Text"
+    },
+    "category": "development",
+    "icon": "📝",
+    "type": "software",
+    "file": "sublimetext.json",
+    "source": "community"
+  },
+  {
+    "id": "krita",
+    "name": {
+      "zh": "Krita",
+      "en": "Krita"
+    },
+    "category": "design",
+    "icon": "🎨",
+    "type": "software",
+    "file": "krita.json",
+    "source": "community"
+  },
+  {
+    "id": "clipstudio",
+    "name": {
+      "zh": "Clip Studio Paint",
+      "en": "Clip Studio Paint"
+    },
+    "category": "design",
+    "icon": "🖌️",
+    "type": "software",
+    "file": "clipstudio.json",
+    "source": "community"
+  },
+  {
+    "id": "xcode",
+    "name": {
+      "zh": "Xcode",
+      "en": "Xcode"
+    },
+    "category": "development",
+    "icon": "🔨",
+    "type": "software",
+    "file": "xcode.json",
+    "source": "community"
+  },
+  {
+    "id": "arc",
+    "name": {
+      "zh": "Arc",
+      "en": "Arc"
+    },
+    "category": "browser",
+    "icon": "🔵",
+    "type": "software",
+    "file": "arc.json",
+    "source": "community"
+  },
+  {
+    "id": "linear",
+    "name": {
+      "zh": "Linear",
+      "en": "Linear"
+    },
+    "category": "productivity",
+    "icon": "📐",
+    "type": "software",
+    "file": "linear.json",
+    "source": "community"
+  },
+  {
+    "id": "figjam",
+    "name": {
+      "zh": "FigJam",
+      "en": "FigJam"
+    },
+    "category": "design",
+    "icon": "🟡",
+    "type": "software",
+    "file": "figjam.json",
+    "source": "community"
+  },
+  {
+    "id": "abletonlive",
+    "name": {
+      "zh": "Ableton Live",
+      "en": "Ableton Live"
+    },
+    "category": "audio",
+    "icon": "🎛️",
+    "type": "software",
+    "file": "abletonlive.json",
+    "source": "official"
+  },
+  {
+    "id": "flstudio",
+    "name": {
+      "zh": "FL Studio",
+      "en": "FL Studio"
+    },
+    "category": "audio",
+    "icon": "🎚️",
+    "type": "software",
+    "file": "flstudio.json",
+    "source": "official"
+  },
+  {
+    "id": "logicpro",
+    "name": {
+      "zh": "Logic Pro",
+      "en": "Logic Pro"
+    },
+    "category": "audio",
+    "icon": "🎹",
+    "type": "software",
+    "file": "logicpro.json",
+    "source": "ai"
+  },
+  {
+    "id": "garageband",
+    "name": {
+      "zh": "GarageBand",
+      "en": "GarageBand"
+    },
+    "category": "audio",
+    "icon": "🎸",
+    "type": "software",
+    "file": "garageband.json",
+    "source": "ai"
+  },
+  {
+    "id": "reaper",
+    "name": {
+      "zh": "REAPER",
+      "en": "REAPER"
+    },
+    "category": "audio",
+    "icon": "🎛️",
+    "type": "software",
+    "file": "reaper.json",
+    "source": "ai"
+  },
+  {
+    "id": "cubase",
+    "name": {
+      "zh": "Cubase",
+      "en": "Cubase"
+    },
+    "category": "audio",
+    "icon": "🎼",
+    "type": "software",
+    "file": "cubase.json",
+    "source": "ai"
+  },
+  {
+    "id": "autocad",
+    "name": {
+      "zh": "AutoCAD",
+      "en": "AutoCAD"
+    },
+    "category": "design",
+    "icon": "📐",
+    "type": "software",
+    "file": "autocad.json",
+    "source": "ai"
+  },
+  {
+    "id": "fusion360",
+    "name": {
+      "zh": "Fusion 360",
+      "en": "Fusion 360"
+    },
+    "category": "design",
+    "icon": "🛠️",
+    "type": "software",
+    "file": "fusion360.json",
+    "source": "ai"
+  },
+  {
+    "id": "sketchup",
+    "name": {
+      "zh": "SketchUp",
+      "en": "SketchUp"
+    },
+    "category": "design",
+    "icon": "🏠",
+    "type": "software",
+    "file": "sketchup.json",
+    "source": "ai"
+  },
+  {
+    "id": "solidworks",
+    "name": {
+      "zh": "SolidWorks",
+      "en": "SolidWorks"
+    },
+    "category": "design",
+    "icon": "🔩",
+    "type": "software",
+    "file": "solidworks.json",
+    "source": "ai"
+  },
+  {
+    "id": "substancepainter",
+    "name": {
+      "zh": "Substance 3D Painter",
+      "en": "Substance 3D Painter"
+    },
+    "category": "design",
+    "icon": "🖌️",
+    "type": "software",
+    "file": "substancepainter.json",
+    "source": "ai"
+  },
+  {
+    "id": "houdini",
+    "name": {
+      "zh": "Houdini",
+      "en": "Houdini"
+    },
+    "category": "design",
+    "icon": "🌪️",
+    "type": "software",
+    "file": "houdini.json",
+    "source": "ai"
+  },
+  {
+    "id": "unreal",
+    "name": {
+      "zh": "Unreal Engine",
+      "en": "Unreal Engine"
+    },
+    "category": "development",
+    "icon": "🎮",
+    "type": "software",
+    "file": "unreal.json",
+    "source": "ai"
+  },
+  {
+    "id": "unity",
+    "name": {
+      "zh": "Unity",
+      "en": "Unity"
+    },
+    "category": "development",
+    "icon": "🎲",
+    "type": "software",
+    "file": "unity.json",
+    "source": "ai"
+  },
+  {
+    "id": "godot",
+    "name": {
+      "zh": "Godot",
+      "en": "Godot"
+    },
+    "category": "development",
+    "icon": "🤖",
+    "type": "software",
+    "file": "godot.json",
+    "source": "ai"
+  },
+  {
+    "id": "visualstudio",
+    "name": {
+      "zh": "Visual Studio",
+      "en": "Visual Studio"
+    },
+    "category": "development",
+    "icon": "🔷",
+    "type": "software",
+    "file": "visualstudio.json",
+    "source": "ai"
+  },
+  {
+    "id": "eclipse",
+    "name": {
+      "zh": "Eclipse",
+      "en": "Eclipse"
+    },
+    "category": "development",
+    "icon": "⚙️",
+    "type": "software",
+    "file": "eclipse.json",
+    "source": "ai"
+  },
+  {
+    "id": "notepadplusplus",
+    "name": {
+      "zh": "Notepad++",
+      "en": "Notepad++"
+    },
+    "category": "development",
+    "icon": "📋",
+    "type": "software",
+    "file": "notepadplusplus.json",
+    "source": "ai"
+  },
+  {
+    "id": "3dsmax",
+    "name": {
+      "zh": "3ds Max",
+      "en": "3ds Max"
+    },
+    "sortKey": "D",
+    "category": "design",
+    "icon": "💠",
+    "type": "software",
+    "file": "3dsmax.json",
+    "source": "ai"
+  },
+  {
+    "id": "rhino",
+    "name": {
+      "zh": "Rhino",
+      "en": "Rhino"
+    },
+    "category": "design",
+    "icon": "🦏",
+    "type": "software",
+    "file": "rhino.json",
+    "source": "ai"
+  },
+  {
+    "id": "brave",
+    "name": {
+      "zh": "Brave",
+      "en": "Brave"
+    },
+    "category": "browser",
+    "icon": "🦁",
+    "type": "software",
+    "file": "brave.json",
+    "source": "ai"
+  },
+  {
+    "id": "opera",
+    "name": {
+      "zh": "Opera",
+      "en": "Opera"
+    },
+    "category": "browser",
+    "icon": "🎭",
+    "type": "software",
+    "file": "opera.json",
+    "source": "ai"
+  },
+  {
+    "id": "vivaldi",
+    "name": {
+      "zh": "Vivaldi",
+      "en": "Vivaldi"
+    },
+    "category": "browser",
+    "icon": "🎻",
+    "type": "software",
+    "file": "vivaldi.json",
+    "source": "ai"
+  },
+  {
+    "id": "confluence",
+    "name": {
+      "zh": "Confluence",
+      "en": "Confluence"
+    },
+    "category": "productivity",
+    "icon": "📚",
+    "type": "software",
+    "file": "confluence.json",
+    "source": "ai"
+  },
+  {
+    "id": "studioone",
+    "name": {
+      "zh": "Studio One",
+      "en": "Studio One"
+    },
+    "category": "audio",
+    "icon": "🎚️",
+    "type": "software",
+    "file": "studioone.json",
+    "source": "ai"
+  },
+  {
+    "id": "protools",
+    "name": {
+      "zh": "Pro Tools",
+      "en": "Pro Tools"
+    },
+    "category": "audio",
+    "icon": "🎞️",
+    "type": "software",
+    "file": "protools.json",
+    "source": "ai"
+  },
+  {
+    "id": "ios",
+    "name": {
+      "zh": "iOS / iPadOS",
+      "en": "iOS / iPadOS"
+    },
+    "category": "system",
+    "icon": "📱",
+    "type": "system",
+    "file": "ios.json",
+    "source": "ai"
+  },
+  {
+    "id": "postman",
+    "name": {
+      "zh": "Postman",
+      "en": "Postman"
+    },
+    "category": "development",
+    "icon": "📮",
+    "type": "software",
+    "file": "postman.json",
+    "source": "community"
+  },
+  {
+    "id": "zoom",
+    "name": {
+      "zh": "Zoom",
+      "en": "Zoom"
+    },
+    "category": "productivity",
+    "icon": "📹",
+    "type": "software",
+    "file": "zoom.json",
+    "source": "community"
+  },
+  {
+    "id": "asana",
+    "name": {
+      "zh": "Asana",
+      "en": "Asana"
+    },
+    "category": "productivity",
+    "icon": "✅",
+    "type": "software",
+    "file": "asana.json",
+    "source": "community"
+  },
+  {
+    "id": "toonboom",
+    "name": {
+      "zh": "Toon Boom Harmony",
+      "en": "Toon Boom Harmony"
+    },
+    "category": "design",
+    "icon": "🎬",
+    "type": "software",
+    "file": "toonboom.json",
+    "source": "community"
+  },
+  {
+    "id": "iterm2",
+    "name": {
+      "zh": "iTerm2",
+      "en": "iTerm2"
+    },
+    "category": "development",
+    "icon": "🖥️",
+    "type": "software",
+    "file": "iterm2.json",
+    "source": "official"
+  },
+  {
+    "id": "kdenlive",
+    "name": {
+      "zh": "Kdenlive",
+      "en": "Kdenlive"
+    },
+    "category": "video",
+    "icon": "🎞️",
+    "type": "software",
+    "file": "kdenlive.json",
+    "source": "community"
+  },
+  {
+    "id": "bitwig",
+    "name": {
+      "zh": "Bitwig Studio",
+      "en": "Bitwig Studio"
+    },
+    "category": "audio",
+    "icon": "🎛️",
+    "type": "software",
+    "file": "bitwig.json",
+    "source": "ai"
+  },
+  {
+    "id": "vegas",
+    "name": {
+      "zh": "Vegas Pro",
+      "en": "Vegas Pro"
+    },
+    "category": "video",
+    "icon": "🎞️",
+    "type": "software",
+    "file": "vegas.json",
+    "source": "ai"
+  },
+  {
+    "id": "discord",
+    "name": {
+      "zh": "Discord",
+      "en": "Discord"
+    },
+    "category": "productivity",
+    "icon": "💬",
+    "type": "software",
+    "popular": true,
+    "file": "discord.json",
+    "source": "community"
+  },
+  {
+    "id": "telegram",
+    "name": {
+      "zh": "Telegram",
+      "en": "Telegram"
+    },
+    "category": "productivity",
+    "icon": "✈️",
+    "type": "software",
+    "popular": true,
+    "file": "telegram.json",
+    "source": "official"
+  },
+  {
+    "id": "matlab",
+    "name": {
+      "zh": "MATLAB",
+      "en": "MATLAB"
+    },
+    "category": "development",
+    "icon": "🧮",
+    "type": "software",
+    "popular": true,
+    "file": "matlab.json",
+    "source": "official"
+  },
+  {
+    "id": "ticktick",
+    "name": {
+      "zh": "TickTick",
+      "en": "TickTick"
+    },
+    "category": "productivity",
+    "icon": "☑️",
+    "type": "software",
+    "file": "ticktick.json",
+    "source": "official"
+  },
+  {
+    "id": "docker",
+    "name": {
+      "zh": "Docker Desktop",
+      "en": "Docker Desktop"
+    },
+    "category": "development",
+    "icon": "🐳",
+    "type": "software",
+    "popular": true,
+    "file": "docker.json",
+    "source": "community"
+  },
+  {
+    "id": "steam",
+    "name": {
+      "zh": "Steam",
+      "en": "Steam"
+    },
+    "category": "other",
+    "icon": "🎮",
+    "type": "software",
+    "file": "steam.json",
+    "source": "community"
+  },
+  {
+    "id": "qq",
+    "name": {
+      "zh": "QQ",
+      "en": "QQ"
+    },
+    "category": "productivity",
+    "icon": "🐧",
+    "type": "software",
+    "file": "qq.json",
+    "source": "community"
+  },
+  {
+    "id": "xunlei",
+    "name": {
+      "zh": "迅雷",
+      "en": "Xunlei"
+    },
+    "category": "productivity",
+    "icon": "⚡",
+    "type": "software",
+    "sortKey": "Xunlei",
+    "file": "xunlei.json",
+    "source": "community"
+  },
+  {
+    "id": "whatsapp",
+    "name": {
+      "zh": "WhatsApp",
+      "en": "WhatsApp"
+    },
+    "category": "productivity",
+    "icon": "💬",
+    "type": "software",
+    "file": "whatsapp.json",
+    "source": "community"
+  },
+  {
+    "id": "windowsterminal",
+    "name": {
+      "zh": "Windows 终端",
+      "en": "Windows Terminal"
+    },
+    "category": "development",
+    "icon": "🖥️",
+    "type": "software",
+    "file": "windowsterminal.json",
+    "source": "official"
+  },
+  {
+    "id": "powertoys",
+    "name": {
+      "zh": "PowerToys",
+      "en": "PowerToys"
+    },
+    "category": "productivity",
+    "icon": "🛠️",
+    "type": "software",
+    "file": "powertoys.json",
+    "source": "official"
+  },
+  {
+    "id": "snipaste",
+    "name": {
+      "zh": "Snipaste",
+      "en": "Snipaste"
+    },
+    "category": "productivity",
+    "icon": "✂️",
+    "type": "software",
+    "file": "snipaste.json",
+    "source": "official"
+  },
+  {
+    "id": "vlc",
+    "name": {
+      "zh": "VLC",
+      "en": "VLC"
+    },
+    "category": "video",
+    "icon": "🎬",
+    "type": "software",
+    "file": "vlc.json",
+    "source": "official"
+  },
+  {
+    "id": "sharex",
+    "name": {
+      "zh": "ShareX",
+      "en": "ShareX"
+    },
+    "category": "productivity",
+    "icon": "📸",
+    "type": "software",
+    "file": "sharex.json",
+    "source": "community"
+  },
+  {
+    "id": "tmux",
+    "name": {
+      "zh": "tmux",
+      "en": "tmux"
+    },
+    "category": "development",
+    "icon": "⌨️",
+    "type": "software",
+    "file": "tmux.json",
+    "source": "official"
+  },
+  {
+    "id": "tradingview",
+    "name": {
+      "zh": "TradingView",
+      "en": "TradingView"
+    },
+    "category": "other",
+    "icon": "📈",
+    "type": "software",
+    "file": "tradingview.json",
+    "source": "community"
+  },
+  {
+    "id": "googlemeet",
+    "name": {
+      "zh": "Google Meet",
+      "en": "Google Meet"
+    },
+    "category": "productivity",
+    "icon": "📹",
+    "type": "software",
+    "file": "googlemeet.json",
+    "source": "community"
+  },
+  {
+    "id": "skype",
+    "name": {
+      "zh": "Skype",
+      "en": "Skype"
+    },
+    "category": "productivity",
+    "icon": "📞",
+    "type": "software",
+    "file": "skype.json",
+    "source": "community"
+  },
+  {
+    "id": "airtable",
+    "name": {
+      "zh": "Airtable",
+      "en": "Airtable"
+    },
+    "category": "productivity",
+    "icon": "🗃️",
+    "type": "software",
+    "popular": true,
+    "file": "airtable.json",
+    "source": "official"
+  },
+  {
+    "id": "webflow",
+    "name": {
+      "zh": "Webflow",
+      "en": "Webflow"
+    },
+    "category": "design",
+    "icon": "🌐",
+    "type": "software",
+    "file": "webflow.json",
+    "source": "community"
+  },
+  {
+    "id": "midjourney",
+    "name": {
+      "zh": "Midjourney",
+      "en": "Midjourney"
+    },
+    "category": "ai",
+    "icon": "🖼️",
+    "type": "software",
+    "popular": true,
+    "file": "midjourney.json",
+    "source": "community"
+  },
+  {
+    "id": "clickup",
+    "name": {
+      "zh": "ClickUp",
+      "en": "ClickUp"
+    },
+    "category": "productivity",
+    "icon": "📋",
+    "type": "software",
+    "file": "clickup.json",
+    "source": "community"
+  },
+  {
+    "id": "datagrip",
+    "name": {
+      "zh": "DataGrip",
+      "en": "DataGrip"
+    },
+    "category": "development",
+    "icon": "🗄️",
+    "type": "software",
+    "file": "datagrip.json",
+    "source": "community"
+  },
+  {
+    "id": "rubymine",
+    "name": {
+      "zh": "RubyMine",
+      "en": "RubyMine"
+    },
+    "category": "development",
+    "icon": "💎",
+    "type": "software",
+    "file": "rubymine.json",
+    "source": "community"
+  },
+  {
+    "id": "githubcopilot",
+    "name": {
+      "zh": "GitHub Copilot",
+      "en": "GitHub Copilot"
+    },
+    "category": "ai",
+    "icon": "🤖",
+    "type": "software",
+    "file": "githubcopilot.json",
+    "source": "official"
+  },
+  {
+    "id": "rstudio",
+    "name": {
+      "zh": "RStudio",
+      "en": "RStudio"
+    },
+    "category": "development",
+    "icon": "📊",
+    "type": "software",
+    "file": "rstudio.json",
+    "source": "official"
+  },
+  {
+    "id": "warp",
+    "name": {
+      "zh": "Warp",
+      "en": "Warp"
+    },
+    "category": "development",
+    "icon": "🚀",
+    "type": "software",
+    "file": "warp.json",
+    "source": "official"
+  },
+  {
+    "id": "dbeaver",
+    "name": {
+      "zh": "DBeaver",
+      "en": "DBeaver"
+    },
+    "category": "development",
+    "icon": "🐘",
+    "type": "software",
+    "file": "dbeaver.json",
+    "source": "official"
+  },
+  {
+    "id": "tableplus",
+    "name": {
+      "zh": "TablePlus",
+      "en": "TablePlus"
+    },
+    "category": "development",
+    "icon": "🐬",
+    "type": "software",
+    "file": "tableplus.json",
+    "source": "official"
+  },
+  {
+    "id": "insomnia",
+    "name": {
+      "zh": "Insomnia",
+      "en": "Insomnia"
+    },
+    "category": "development",
+    "icon": "🌙",
+    "type": "software",
+    "file": "insomnia.json",
+    "source": "official"
+  },
+  {
+    "id": "gitkraken",
+    "name": {
+      "zh": "GitKraken",
+      "en": "GitKraken"
+    },
+    "category": "development",
+    "icon": "🐙",
+    "type": "software",
+    "file": "gitkraken.json",
+    "source": "official"
+  },
+  {
+    "id": "claude",
+    "name": {
+      "zh": "Claude",
+      "en": "Claude"
+    },
+    "category": "ai",
+    "icon": "🧠",
+    "type": "software",
+    "file": "claude.json",
+    "source": "community"
+  },
+  {
+    "id": "geminicli",
+    "name": {
+      "zh": "Gemini CLI",
+      "en": "Gemini CLI"
+    },
+    "category": "ai",
+    "icon": "✨",
+    "type": "software",
+    "file": "geminicli.json",
+    "source": "official"
+  },
+  {
+    "id": "zed",
+    "name": {
+      "zh": "Zed",
+      "en": "Zed"
+    },
+    "category": "development",
+    "icon": "⚡",
+    "type": "software",
+    "file": "zed.json",
+    "source": "official"
+  },
+  {
+    "id": "jira",
+    "name": {
+      "zh": "Jira",
+      "en": "Jira"
+    },
+    "category": "productivity",
+    "icon": "📋",
+    "type": "software",
+    "file": "jira.json",
+    "source": "official"
+  },
+  {
+    "id": "trello",
+    "name": {
+      "zh": "Trello",
+      "en": "Trello"
+    },
+    "category": "productivity",
+    "icon": "📌",
+    "type": "software",
+    "file": "trello.json",
+    "source": "official"
+  },
+  {
+    "id": "maya",
+    "name": {
+      "zh": "Maya",
+      "en": "Maya"
+    },
+    "category": "design",
+    "icon": "🎬",
+    "type": "software",
+    "file": "maya.json",
+    "source": "official"
+  },
+  {
+    "id": "nuke",
+    "name": {
+      "zh": "Nuke",
+      "en": "Nuke"
+    },
+    "category": "design",
+    "icon": "🎞️",
+    "type": "software",
+    "file": "nuke.json",
+    "source": "official"
+  },
+  {
+    "id": "codex",
+    "name": {
+      "zh": "Codex CLI",
+      "en": "Codex CLI"
+    },
+    "category": "ai",
+    "icon": "🤖",
+    "type": "software",
+    "file": "codex.json",
+    "source": "community"
+  },
+  {
+    "id": "substance",
+    "name": {
+      "zh": "Substance 3D Designer",
+      "en": "Substance 3D Designer"
+    },
+    "category": "design",
+    "icon": "🧱",
+    "type": "software",
+    "file": "substance.json",
+    "source": "official"
+  },
+  {
+    "id": "antigravity",
+    "name": {
+      "zh": "Antigravity CLI",
+      "en": "Antigravity CLI"
+    },
+    "category": "ai",
+    "icon": "🛰️",
+    "type": "software",
+    "file": "antigravity.json",
+    "source": "official"
+  },
+  {
+    "id": "windsurf",
+    "name": {
+      "zh": "Windsurf",
+      "en": "Windsurf"
+    },
+    "category": "ai",
+    "icon": "🏄",
+    "type": "software",
+    "file": "windsurf.json",
+    "source": "community"
+  },
+  {
+    "id": "deepseek",
+    "name": {
+      "zh": "DeepSeek",
+      "en": "DeepSeek"
+    },
+    "category": "ai",
+    "icon": "🐋",
+    "type": "software",
+    "file": "deepseek.json",
+    "source": "community"
+  },
+  {
+    "id": "claude-code",
+    "name": {
+      "zh": "Claude Code",
+      "en": "Claude Code"
+    },
+    "category": "ai",
+    "icon": "⚡",
+    "type": "software",
+    "file": "claude-code.json",
+    "source": "official"
+  },
+  {
+    "id": "gemini",
+    "name": {
+      "zh": "Gemini",
+      "en": "Gemini"
+    },
+    "category": "ai",
+    "icon": "🔮",
+    "type": "software",
+    "file": "gemini.json",
+    "source": "community"
+  },
+  {
+    "id": "grok",
+    "name": {
+      "zh": "Grok",
+      "en": "Grok"
+    },
+    "category": "ai",
+    "icon": "🐦",
+    "type": "software",
+    "file": "grok.json",
+    "source": "community"
+  },
+  {
+    "id": "perplexity",
+    "name": {
+      "zh": "Perplexity",
+      "en": "Perplexity"
+    },
+    "category": "ai",
+    "icon": "🔎",
+    "type": "software",
+    "file": "perplexity.json",
+    "source": "community"
+  },
+  {
+    "id": "1password",
+    "name": {
+      "zh": "1Password",
+      "en": "1Password"
+    },
+    "category": "productivity",
+    "icon": "🔐",
+    "type": "software",
+    "file": "1password.json",
+    "source": "official"
+  },
+  {
+    "id": "bitwarden",
+    "name": {
+      "zh": "Bitwarden",
+      "en": "Bitwarden"
+    },
+    "category": "productivity",
+    "icon": "🔒",
+    "type": "software",
+    "file": "bitwarden.json",
+    "source": "official"
+  },
+  {
+    "id": "things",
+    "name": {
+      "zh": "Things",
+      "en": "Things"
+    },
+    "category": "productivity",
+    "icon": "🗒️",
+    "type": "software",
+    "file": "things.json",
+    "source": "official"
+  },
+  {
+    "id": "craft",
+    "name": {
+      "zh": "Craft",
+      "en": "Craft"
+    },
+    "category": "productivity",
+    "icon": "📔",
+    "type": "software",
+    "file": "craft.json",
+    "source": "official"
+  },
+  {
+    "id": "rectangle",
+    "name": {
+      "zh": "Rectangle",
+      "en": "Rectangle"
+    },
+    "category": "productivity",
+    "icon": "🔲",
+    "type": "software",
+    "file": "rectangle.json",
+    "source": "community"
+  },
+  {
+    "id": "magnet",
+    "name": {
+      "zh": "Magnet",
+      "en": "Magnet"
+    },
+    "category": "productivity",
+    "icon": "🧲",
+    "type": "software",
+    "file": "magnet.json",
+    "source": "community"
+  },
+  {
+    "id": "powershell",
+    "name": {
+      "en": "PowerShell",
+      "zh": "PowerShell"
+    },
+    "category": "development",
+    "icon": "💿",
+    "type": "software",
+    "file": "powershell.json",
+    "source": "official",
+    "popular": true
+  },
+  {
+    "id": "bash",
+    "name": {
+      "en": "Bash",
+      "zh": "Bash"
+    },
+    "category": "development",
+    "icon": "🐚",
+    "type": "software",
+    "file": "bash.json",
+    "source": "official",
+    "popular": true
+  },
+  {
+    "id": "kubectl",
+    "name": {
+      "en": "kubectl",
+      "zh": "kubectl"
+    },
+    "category": "development",
+    "icon": "☸️",
+    "type": "software",
+    "file": "kubectl.json",
+    "source": "official",
+    "popular": true
+  },
+  {
+    "id": "terraform",
+    "name": {
+      "en": "Terraform",
+      "zh": "Terraform"
+    },
+    "category": "development",
+    "icon": "🏗️",
+    "type": "software",
+    "file": "terraform.json",
+    "source": "official",
+    "popular": true
+  },
+  {
+    "id": "awscli",
+    "name": {
+      "en": "AWS CLI",
+      "zh": "AWS CLI"
+    },
+    "category": "development",
+    "icon": "☁️",
+    "type": "software",
+    "file": "awscli.json",
+    "source": "official",
+    "popular": true
+  },
+  {
+    "id": "homebrew",
+    "name": {
+      "en": "Homebrew",
+      "zh": "Homebrew"
+    },
+    "category": "development",
+    "icon": "🍺",
+    "type": "software",
+    "file": "homebrew.json",
+    "source": "official",
+    "popular": true
+  },
+  {
+    "id": "sourcetree",
+    "name": {
+      "en": "Sourcetree",
+      "zh": "Sourcetree"
+    },
+    "category": "development",
+    "icon": "🌳",
+    "type": "software",
+    "file": "sourcetree.json",
+    "source": "community",
+    "popular": false
+  },
+  {
+    "id": "fork",
+    "name": {
+      "en": "Fork",
+      "zh": "Fork"
+    },
+    "category": "development",
+    "icon": "🍴",
+    "type": "software",
+    "file": "fork.json",
+    "source": "community",
+    "popular": false
+  },
+  {
+    "id": "gittower",
+    "name": {
+      "en": "Tower",
+      "zh": "Tower"
+    },
+    "category": "development",
+    "icon": "🗼",
+    "type": "software",
+    "file": "gittower.json",
+    "source": "community",
+    "popular": false
+  },
+  {
+    "id": "zbrush",
+    "name": {
+      "en": "ZBrush",
+      "zh": "ZBrush"
+    },
+    "category": "design",
+    "icon": "🧱",
+    "type": "software",
+    "file": "zbrush.json",
+    "source": "community",
+    "popular": false
+  },
+  {
+    "id": "cinema4d",
+    "name": {
+      "en": "Cinema 4D",
+      "zh": "Cinema 4D"
+    },
+    "category": "design",
+    "icon": "🎞️",
+    "type": "software",
+    "file": "cinema4d.json",
+    "source": "community",
+    "popular": false
+  },
+  {
+    "id": "lunacy",
+    "name": {
+      "en": "Lunacy",
+      "zh": "Lunacy"
+    },
+    "category": "design",
+    "icon": "🌙",
+    "type": "software",
+    "file": "lunacy.json",
+    "source": "official",
+    "popular": false
+  },
+  {
+    "id": "balsamiq",
+    "name": {
+      "en": "Balsamiq",
+      "zh": "Balsamiq"
+    },
+    "category": "design",
+    "icon": "✏️",
+    "type": "software",
+    "file": "balsamiq.json",
+    "source": "official",
+    "popular": false
+  },
+  {
+    "id": "marvel",
+    "name": {
+      "en": "Marvel",
+      "zh": "Marvel"
+    },
+    "category": "design",
+    "icon": "🌀",
+    "type": "software",
+    "file": "marvel.json",
+    "source": "ai",
+    "popular": false
+  },
+  {
+    "id": "motion",
+    "name": {
+      "en": "Motion",
+      "zh": "Motion"
+    },
+    "category": "design",
+    "icon": "✨",
+    "type": "software",
+    "file": "motion.json",
+    "source": "official",
+    "popular": false
+  },
+  {
+    "id": "storybook",
+    "name": {
+      "en": "Storybook",
+      "zh": "Storybook"
+    },
+    "category": "design",
+    "icon": "📖",
+    "type": "software",
+    "file": "storybook.json",
+    "source": "official",
+    "popular": false
+  },
+  {
+    "id": "evernote",
+    "name": {
+      "en": "Evernote",
+      "zh": "Evernote"
+    },
+    "category": "productivity",
+    "icon": "📔",
+    "type": "software",
+    "file": "evernote.json",
+    "source": "community",
+    "popular": true
+  },
+  {
+    "id": "microsofttodo",
+    "name": {
+      "en": "Microsoft To Do",
+      "zh": "Microsoft To Do"
+    },
+    "category": "productivity",
+    "icon": "✅",
+    "type": "software",
+    "file": "microsofttodo.json",
+    "source": "official",
+    "popular": true
+  },
+  {
+    "id": "googlecalendar",
+    "name": {
+      "en": "Google Calendar",
+      "zh": "Google 日历"
+    },
+    "category": "productivity",
+    "icon": "📅",
+    "type": "software",
+    "file": "googlecalendar.json",
+    "source": "community",
+    "popular": true
+  },
+  {
+    "id": "bear",
+    "name": {
+      "en": "Bear",
+      "zh": "Bear"
+    },
+    "category": "productivity",
+    "icon": "🐻",
+    "type": "software",
+    "file": "bear.json",
+    "source": "community",
+    "popular": false
+  },
+  {
+    "id": "fantastical",
+    "name": {
+      "en": "Fantastical",
+      "zh": "Fantastical"
+    },
+    "category": "productivity",
+    "icon": "📆",
+    "type": "software",
+    "file": "fantastical.json",
+    "source": "community",
+    "popular": false
+  },
+  {
+    "id": "spark",
+    "name": {
+      "en": "Spark",
+      "zh": "Spark"
+    },
+    "category": "productivity",
+    "icon": "✉️",
+    "type": "software",
+    "file": "spark.json",
+    "source": "official",
+    "popular": false
+  },
+  {
+    "id": "simplenote",
+    "name": {
+      "en": "Simplenote",
+      "zh": "Simplenote"
+    },
+    "category": "productivity",
+    "icon": "🗒️",
+    "type": "software",
+    "file": "simplenote.json",
+    "source": "community",
+    "popular": false
+  },
+  {
+    "id": "applenotes",
+    "name": {
+      "en": "Apple Notes",
+      "zh": "Apple 备忘录"
+    },
+    "category": "productivity",
+    "icon": "📝",
+    "type": "software",
+    "file": "applenotes.json",
+    "source": "official",
+    "popular": false
+  },
+  {
+    "id": "googlekeep",
+    "name": {
+      "en": "Google Keep",
+      "zh": "Google Keep"
+    },
+    "category": "productivity",
+    "icon": "📌",
+    "type": "software",
+    "file": "googlekeep.json",
+    "source": "community",
+    "popular": false
+  },
+  {
+    "id": "ollama",
+    "name": {
+      "en": "Ollama",
+      "zh": "Ollama"
+    },
+    "category": "ai",
+    "icon": "🦙",
+    "type": "software",
+    "file": "ollama.json",
+    "source": "official",
+    "popular": true
+  },
+  {
+    "id": "lmstudio",
+    "name": {
+      "en": "LM Studio",
+      "zh": "LM Studio"
+    },
+    "category": "ai",
+    "icon": "🧪",
+    "type": "software",
+    "file": "lmstudio.json",
+    "source": "community",
+    "popular": true
+  },
+  {
+    "id": "poe",
+    "name": {
+      "en": "Poe",
+      "zh": "Poe"
+    },
+    "category": "ai",
+    "icon": "💬",
+    "type": "software",
+    "file": "poe.json",
+    "source": "community",
+    "popular": true
+  },
+  {
+    "id": "qwen",
+    "name": {
+      "en": "Qwen",
+      "zh": "通义千问"
+    },
+    "category": "ai",
+    "icon": "🌟",
+    "type": "software",
+    "file": "qwen.json",
+    "source": "community",
+    "popular": true,
+    "sortKey": "Tongyi"
+  },
+  {
+    "id": "kimi",
+    "name": {
+      "en": "Kimi",
+      "zh": "Kimi"
+    },
+    "category": "ai",
+    "icon": "🌀",
+    "type": "software",
+    "file": "kimi.json",
+    "source": "community",
+    "popular": true
+  },
+  {
+    "id": "doubao",
+    "name": {
+      "en": "Doubao",
+      "zh": "豆包"
+    },
+    "category": "ai",
+    "icon": "🌱",
+    "type": "software",
+    "file": "doubao.json",
+    "source": "community",
+    "popular": true,
+    "sortKey": "Doubao"
+  },
+  {
+    "id": "mistral",
+    "name": {
+      "en": "Mistral",
+      "zh": "Mistral"
+    },
+    "category": "ai",
+    "icon": "🌬️",
+    "type": "software",
+    "file": "mistral.json",
+    "source": "community",
+    "popular": false
+  },
+  {
+    "id": "huggingchat",
+    "name": {
+      "en": "HuggingChat",
+      "zh": "HuggingChat"
+    },
+    "category": "ai",
+    "icon": "🤗",
+    "type": "software",
+    "file": "huggingchat.json",
+    "source": "community",
+    "popular": false
+  },
+  {
+    "id": "filmora",
+    "name": {
+      "en": "Filmora",
+      "zh": "Filmora"
+    },
+    "category": "video",
+    "icon": "🎬",
+    "type": "software",
+    "file": "filmora.json",
+    "source": "official",
+    "popular": true
+  },
+  {
+    "id": "mediaencoder",
+    "name": {
+      "en": "Media Encoder",
+      "zh": "Media Encoder"
+    },
+    "category": "video",
+    "icon": "🔄",
+    "type": "software",
+    "file": "mediaencoder.json",
+    "source": "official",
+    "popular": false
+  },
+  {
+    "id": "shotcut",
+    "name": {
+      "en": "Shotcut",
+      "zh": "Shotcut"
+    },
+    "category": "video",
+    "icon": "✂️",
+    "type": "software",
+    "file": "shotcut.json",
+    "source": "official",
+    "popular": false
+  },
+  {
+    "id": "lumafusion",
+    "name": {
+      "en": "LumaFusion",
+      "zh": "LumaFusion"
+    },
+    "category": "video",
+    "icon": "📱",
+    "type": "software",
+    "file": "lumafusion.json",
+    "source": "community",
+    "popular": false
+  },
+  {
+    "id": "rekordbox",
+    "name": {
+      "en": "rekordbox",
+      "zh": "rekordbox"
+    },
+    "category": "audio",
+    "icon": "🎧",
+    "type": "software",
+    "file": "rekordbox.json",
+    "source": "community",
+    "popular": false
+  },
+  {
+    "id": "traktor",
+    "name": {
+      "en": "Traktor",
+      "zh": "Traktor"
+    },
+    "category": "audio",
+    "icon": "🎚️",
+    "type": "software",
+    "file": "traktor.json",
+    "source": "community",
+    "popular": false
+  },
+  {
+    "id": "wechat",
+    "name": {
+      "en": "WeChat",
+      "zh": "微信"
+    },
+    "category": "productivity",
+    "icon": "💬",
+    "type": "software",
+    "file": "wechat.json",
+    "source": "community",
+    "popular": true,
+    "sortKey": "Weixin"
+  },
+  {
+    "id": "youtube",
+    "name": {
+      "en": "YouTube",
+      "zh": "YouTube"
+    },
+    "category": "video",
+    "icon": "📺",
+    "type": "software",
+    "file": "youtube.json",
+    "source": "official",
+    "popular": true
+  },
+  {
+    "id": "tiktok",
+    "name": {
+      "en": "TikTok",
+      "zh": "抖音"
+    },
+    "category": "other",
+    "icon": "🎵",
+    "type": "software",
+    "file": "tiktok.json",
+    "source": "community",
+    "popular": false,
+    "sortKey": "Douyin"
+  }
 ]

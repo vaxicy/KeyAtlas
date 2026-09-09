@@ -1,1 +1,195 @@
-[{"id":"githubcopilot-accept","appId":"githubcopilot","type":"software","category":"ai","name":{"zh":"接受内联建议","en":"Accept an Inline Suggestion"},"description":{"zh":"接受 Copilot 当前显示的代码建议（VS Code / JetBrains 通用）","en":"Accept the inline suggestion currently shown by Copilot"},"windows":"Tab","mac":"Tab","linux":"Tab","keywords":["接受","accept","建议","suggestion","补全"],"pinyin":"jie shou nei lian jian yi jieshouneilianjianyi j s n l j y jsnljy jie shou   jian yi   bu quan jieshou jianyi buquan j s   j y   b q js jy bq"},{"id":"githubcopilot-dismiss","appId":"githubcopilot","type":"software","category":"ai","name":{"zh":"关闭内联建议","en":"Dismiss an Inline Suggestion"},"description":{"zh":"隐藏当前的内联建议","en":"Hide the current inline suggestion"},"windows":"Esc","mac":"Esc","linux":"Esc","keywords":["关闭","dismiss","隐藏","取消","esc"],"pinyin":"guan bi nei lian jian yi guanbineilianjianyi g b n l j y gbnljy guan bi   yin cang   qu xiao guanbi yincang quxiao g b   y c   q x gb yc qx"},{"id":"githubcopilot-next","appId":"githubcopilot","type":"software","category":"ai","name":{"zh":"显示下一个建议","en":"Show Next Inline Suggestion"},"description":{"zh":"在多个候选建议之间切换到下一个","en":"Cycle to the next inline suggestion"},"windows":"Alt + ]","mac":"⌥ ]","linux":"Alt + ]","keywords":["下一个","next","建议","切换"],"pinyin":"xian shi xia yi ge jian yi xianshixiayigejianyi x s x y g j y xsxygjy xia yi ge   jian yi   qie huan xiayige jianyi qiehuan x y g   j y   q h xyg jy qh"},{"id":"githubcopilot-prev","appId":"githubcopilot","type":"software","category":"ai","name":{"zh":"显示上一个建议","en":"Show Previous Inline Suggestion"},"description":{"zh":"在多个候选建议之间切换到上一个","en":"Cycle to the previous inline suggestion"},"windows":"Alt + [","mac":"⌥ [","linux":"Alt + [","keywords":["上一个","previous","建议","切换"],"pinyin":"xian shi shang yi ge jian yi xianshishangyigejianyi x s s y g j y xssygjy shang yi ge   jian yi   qie huan shangyige jianyi qiehuan s y g   j y   q h syg jy qh"},{"id":"githubcopilot-trigger","appId":"githubcopilot","type":"software","category":"ai","name":{"zh":"触发内联建议","en":"Trigger Inline Suggestion"},"description":{"zh":"手动请求 Copilot 在当前位置生成建议","en":"Manually request a Copilot suggestion at the cursor"},"windows":"Alt + \\","mac":"⌥ \\","linux":"Alt + \\","keywords":["触发","trigger","生成","建议"],"pinyin":"chu fa nei lian jian yi chufaneilianjianyi c f n l j y cfnljy chu fa   sheng cheng   jian yi chufa shengcheng jianyi c f   s c   j y cf sc jy"},{"id":"githubcopilot-openpanel","appId":"githubcopilot","type":"software","category":"ai","name":{"zh":"打开 Copilot 面板（更多建议）","en":"Open GitHub Copilot Panel"},"description":{"zh":"在独立面板中查看多个备选建议（VS Code）","en":"Open additional suggestions in a separate pane (VS Code)"},"windows":"Ctrl + Enter","mac":"Ctrl + Return","linux":"Ctrl + Enter","keywords":["面板","panel","更多建议","打开"],"pinyin":"da kai   c o p i l o t   mian ban （ geng duo jian yi ） dakai copilot mianban（gengduojianyi） d k   c o p i l o t   m b （ g d j y ） dk copilot mb（gdjy） mian ban   geng duo jian yi   da kai mianban gengduojianyi dakai m b   g d j y   d k mb gdjy dk"},{"id":"githubcopilot-nextword-vs","appId":"githubcopilot","type":"software","category":"ai","name":{"zh":"接受建议的下一个词（Visual Studio）","en":"Accept Next Word of Suggestion (Visual Studio)"},"description":{"zh":"Visual Studio 中逐词接受建议；上一个词用 Alt + ,","en":"Accept the next word of the suggestion in Visual Studio; Alt+, for previous"},"windows":"Alt + .","mac":"—","linux":"—","keywords":["下一个词","next word","visual studio","逐词"],"pinyin":"jie shou jian yi de xia yi ge ci （ v i s u a l   s t u d i o ） jieshoujianyidexiayigeci（visual studio） j s j y d x y g c （ v i s u a l   s t u d i o ） jsjydxygc（visual studio） xia yi ge ci   zhu ci xiayigeci zhuci x y g c   z c xygc zc"},{"id":"githubcopilot-eclipse-trigger","appId":"githubcopilot","type":"software","category":"ai","name":{"zh":"触发建议（Eclipse）","en":"Trigger Inline Suggestion (Eclipse)"},"description":{"zh":"Eclipse 中手动触发 Copilot 建议","en":"Manually trigger a Copilot suggestion in Eclipse"},"windows":"Alt + Ctrl + /","mac":"⌥ ⌘ /","linux":"Alt + Ctrl + /","keywords":["eclipse","触发","trigger"],"pinyin":"chu fa jian yi （ e c l i p s e ） chufajianyi（eclipse） c f j y （ e c l i p s e ） cfjy（eclipse） chu fa chufa c f cf"}]
+[
+  {
+    "id": "githubcopilot-accept",
+    "appId": "githubcopilot",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "接受内联建议",
+      "en": "Accept an Inline Suggestion"
+    },
+    "description": {
+      "zh": "接受 Copilot 当前显示的代码建议（VS Code / JetBrains 通用）",
+      "en": "Accept the inline suggestion currently shown by Copilot"
+    },
+    "windows": "Tab",
+    "mac": "Tab",
+    "linux": "Tab",
+    "keywords": [
+      "接受",
+      "accept",
+      "建议",
+      "suggestion",
+      "补全"
+    ],
+    "pinyin": "jie shou nei lian jian yi jieshouneilianjianyi j s n l j y jsnljy jie shou   jian yi   bu quan jieshou jianyi buquan j s   j y   b q js jy bq"
+  },
+  {
+    "id": "githubcopilot-dismiss",
+    "appId": "githubcopilot",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "关闭内联建议",
+      "en": "Dismiss an Inline Suggestion"
+    },
+    "description": {
+      "zh": "隐藏当前的内联建议",
+      "en": "Hide the current inline suggestion"
+    },
+    "windows": "Esc",
+    "mac": "Esc",
+    "linux": "Esc",
+    "keywords": [
+      "关闭",
+      "dismiss",
+      "隐藏",
+      "取消",
+      "esc"
+    ],
+    "pinyin": "guan bi nei lian jian yi guanbineilianjianyi g b n l j y gbnljy guan bi   yin cang   qu xiao guanbi yincang quxiao g b   y c   q x gb yc qx"
+  },
+  {
+    "id": "githubcopilot-next",
+    "appId": "githubcopilot",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "显示下一个建议",
+      "en": "Show Next Inline Suggestion"
+    },
+    "description": {
+      "zh": "在多个候选建议之间切换到下一个",
+      "en": "Cycle to the next inline suggestion"
+    },
+    "windows": "Alt + ]",
+    "mac": "⌥ ]",
+    "linux": "Alt + ]",
+    "keywords": [
+      "下一个",
+      "next",
+      "建议",
+      "切换"
+    ],
+    "pinyin": "xian shi xia yi ge jian yi xianshixiayigejianyi x s x y g j y xsxygjy xia yi ge   jian yi   qie huan xiayige jianyi qiehuan x y g   j y   q h xyg jy qh"
+  },
+  {
+    "id": "githubcopilot-prev",
+    "appId": "githubcopilot",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "显示上一个建议",
+      "en": "Show Previous Inline Suggestion"
+    },
+    "description": {
+      "zh": "在多个候选建议之间切换到上一个",
+      "en": "Cycle to the previous inline suggestion"
+    },
+    "windows": "Alt + [",
+    "mac": "⌥ [",
+    "linux": "Alt + [",
+    "keywords": [
+      "上一个",
+      "previous",
+      "建议",
+      "切换"
+    ],
+    "pinyin": "xian shi shang yi ge jian yi xianshishangyigejianyi x s s y g j y xssygjy shang yi ge   jian yi   qie huan shangyige jianyi qiehuan s y g   j y   q h syg jy qh"
+  },
+  {
+    "id": "githubcopilot-trigger",
+    "appId": "githubcopilot",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "触发内联建议",
+      "en": "Trigger Inline Suggestion"
+    },
+    "description": {
+      "zh": "手动请求 Copilot 在当前位置生成建议",
+      "en": "Manually request a Copilot suggestion at the cursor"
+    },
+    "windows": "Alt + \\",
+    "mac": "⌥ \\",
+    "linux": "Alt + \\",
+    "keywords": [
+      "触发",
+      "trigger",
+      "生成",
+      "建议"
+    ],
+    "pinyin": "chu fa nei lian jian yi chufaneilianjianyi c f n l j y cfnljy chu fa   sheng cheng   jian yi chufa shengcheng jianyi c f   s c   j y cf sc jy"
+  },
+  {
+    "id": "githubcopilot-openpanel",
+    "appId": "githubcopilot",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "打开 Copilot 面板（更多建议）",
+      "en": "Open GitHub Copilot Panel"
+    },
+    "description": {
+      "zh": "在独立面板中查看多个备选建议（VS Code）",
+      "en": "Open additional suggestions in a separate pane (VS Code)"
+    },
+    "windows": "Ctrl + Enter",
+    "mac": "Ctrl + Return",
+    "linux": "Ctrl + Enter",
+    "keywords": [
+      "面板",
+      "panel",
+      "更多建议",
+      "打开"
+    ],
+    "pinyin": "da kai   c o p i l o t   mian ban （ geng duo jian yi ） dakai copilot mianban（gengduojianyi） d k   c o p i l o t   m b （ g d j y ） dk copilot mb（gdjy） mian ban   geng duo jian yi   da kai mianban gengduojianyi dakai m b   g d j y   d k mb gdjy dk"
+  },
+  {
+    "id": "githubcopilot-nextword-vs",
+    "appId": "githubcopilot",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "接受建议的下一个词（Visual Studio）",
+      "en": "Accept Next Word of Suggestion (Visual Studio)"
+    },
+    "description": {
+      "zh": "Visual Studio 中逐词接受建议；上一个词用 Alt + ,",
+      "en": "Accept the next word of the suggestion in Visual Studio; Alt+, for previous"
+    },
+    "windows": "Alt + .",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "下一个词",
+      "next word",
+      "visual studio",
+      "逐词"
+    ],
+    "pinyin": "jie shou jian yi de xia yi ge ci （ v i s u a l   s t u d i o ） jieshoujianyidexiayigeci（visual studio） j s j y d x y g c （ v i s u a l   s t u d i o ） jsjydxygc（visual studio） xia yi ge ci   zhu ci xiayigeci zhuci x y g c   z c xygc zc"
+  },
+  {
+    "id": "githubcopilot-eclipse-trigger",
+    "appId": "githubcopilot",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "触发建议（Eclipse）",
+      "en": "Trigger Inline Suggestion (Eclipse)"
+    },
+    "description": {
+      "zh": "Eclipse 中手动触发 Copilot 建议",
+      "en": "Manually trigger a Copilot suggestion in Eclipse"
+    },
+    "windows": "Alt + Ctrl + /",
+    "mac": "⌥ ⌘ /",
+    "linux": "Alt + Ctrl + /",
+    "keywords": [
+      "eclipse",
+      "触发",
+      "trigger"
+    ],
+    "pinyin": "chu fa jian yi （ e c l i p s e ） chufajianyi（eclipse） c f j y （ e c l i p s e ） cfjy（eclipse） chu fa chufa c f cf"
+  }
+]

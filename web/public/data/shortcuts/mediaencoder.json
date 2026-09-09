@@ -1,0 +1,533 @@
+[
+  {
+    "id": "me-new-queue",
+    "appId": "mediaencoder",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "New queue",
+      "zh": "新建队列"
+    },
+    "description": {
+      "en": "New encode queue",
+      "zh": "新建编码队列"
+    },
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
+    "linux": "—",
+    "keywords": [
+      "new",
+      "queue",
+      "队列"
+    ],
+    "pinyin": "xin jian dui lie xinjianduilie x j d l xjdl dui lie duilie d l dl"
+  },
+  {
+    "id": "me-add-source",
+    "appId": "mediaencoder",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Add source",
+      "zh": "添加源"
+    },
+    "description": {
+      "en": "Add source to queue",
+      "zh": "添加源到队列"
+    },
+    "windows": "Ctrl + I",
+    "mac": "⌘ I",
+    "linux": "—",
+    "keywords": [
+      "add",
+      "source",
+      "源"
+    ],
+    "pinyin": "tian jia yuan tianjiayuan t j y tjy yuan yuan y y"
+  },
+  {
+    "id": "me-export",
+    "appId": "mediaencoder",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Export",
+      "zh": "导出"
+    },
+    "description": {
+      "en": "Export settings",
+      "zh": "导出设置"
+    },
+    "windows": "Ctrl + M",
+    "mac": "⌘ M",
+    "linux": "—",
+    "keywords": [
+      "export",
+      "导出"
+    ],
+    "pinyin": "dao chu daochu d c dc dao chu daochu d c dc"
+  },
+  {
+    "id": "me-render",
+    "appId": "mediaencoder",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Render",
+      "zh": "渲染"
+    },
+    "description": {
+      "en": "Start render queue",
+      "zh": "开始渲染队列"
+    },
+    "windows": "Ctrl + Enter",
+    "mac": "⌘ Enter",
+    "linux": "—",
+    "keywords": [
+      "render",
+      "渲染"
+    ],
+    "pinyin": "xuan ran xuanran x r xr xuan ran xuanran x r xr"
+  },
+  {
+    "id": "me-play",
+    "appId": "mediaencoder",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Play",
+      "zh": "播放"
+    },
+    "description": {
+      "en": "Play preview",
+      "zh": "播放预览"
+    },
+    "windows": "Space",
+    "mac": "Space",
+    "linux": "—",
+    "keywords": [
+      "play",
+      "播放"
+    ],
+    "pinyin": "bo fang bofang b f bf bo fang bofang b f bf"
+  },
+  {
+    "id": "me-pause",
+    "appId": "mediaencoder",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Pause",
+      "zh": "暂停"
+    },
+    "description": {
+      "en": "Pause preview",
+      "zh": "暂停预览"
+    },
+    "windows": "Space",
+    "mac": "Space",
+    "linux": "—",
+    "keywords": [
+      "pause",
+      "暂停"
+    ],
+    "pinyin": "zan ting zanting z t zt zan ting zanting z t zt"
+  },
+  {
+    "id": "me-prev",
+    "appId": "mediaencoder",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Prev",
+      "zh": "上一"
+    },
+    "description": {
+      "en": "Previous item",
+      "zh": "上一项目"
+    },
+    "windows": "↑",
+    "mac": "↑",
+    "linux": "—",
+    "keywords": [
+      "prev",
+      "上一"
+    ],
+    "pinyin": "shang yi shangyi s y sy shang yi shangyi s y sy"
+  },
+  {
+    "id": "me-next",
+    "appId": "mediaencoder",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Next",
+      "zh": "下一"
+    },
+    "description": {
+      "en": "Next item",
+      "zh": "下一项目"
+    },
+    "windows": "↓",
+    "mac": "↓",
+    "linux": "—",
+    "keywords": [
+      "next",
+      "下一"
+    ],
+    "pinyin": "xia yi xiayi x y xy xia yi xiayi x y xy"
+  },
+  {
+    "id": "me-loop",
+    "appId": "mediaencoder",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Loop",
+      "zh": "循环"
+    },
+    "description": {
+      "en": "Loop playback",
+      "zh": "循环播放"
+    },
+    "windows": "Ctrl + L",
+    "mac": "⌘ L",
+    "linux": "—",
+    "keywords": [
+      "loop",
+      "循环"
+    ],
+    "pinyin": "xun huan xunhuan x h xh xun huan xunhuan x h xh"
+  },
+  {
+    "id": "me-settings",
+    "appId": "mediaencoder",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Settings",
+      "zh": "设置"
+    },
+    "description": {
+      "en": "Queue settings",
+      "zh": "队列设置"
+    },
+    "windows": "Ctrl + K",
+    "mac": "⌘ K",
+    "linux": "—",
+    "keywords": [
+      "settings",
+      "设置"
+    ],
+    "pinyin": "she zhi shezhi s z sz she zhi shezhi s z sz"
+  },
+  {
+    "id": "me-preset",
+    "appId": "mediaencoder",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Preset",
+      "zh": "预设"
+    },
+    "description": {
+      "en": "Open preset",
+      "zh": "打开预设"
+    },
+    "windows": "Ctrl + P",
+    "mac": "⌘ P",
+    "linux": "—",
+    "keywords": [
+      "preset",
+      "预设"
+    ],
+    "pinyin": "yu she yushe y s ys yu she yushe y s ys"
+  },
+  {
+    "id": "me-duplicate",
+    "appId": "mediaencoder",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Duplicate",
+      "zh": "复制"
+    },
+    "description": {
+      "en": "Duplicate item",
+      "zh": "复制项目"
+    },
+    "windows": "Ctrl + D",
+    "mac": "⌘ D",
+    "linux": "—",
+    "keywords": [
+      "duplicate",
+      "复制"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "me-remove",
+    "appId": "mediaencoder",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Remove",
+      "zh": "移除"
+    },
+    "description": {
+      "en": "Remove from queue",
+      "zh": "移出队列"
+    },
+    "windows": "Delete",
+    "mac": "Delete",
+    "linux": "—",
+    "keywords": [
+      "remove",
+      "移除"
+    ],
+    "pinyin": "yi chu yichu y c yc yi chu yichu y c yc"
+  },
+  {
+    "id": "me-undo",
+    "appId": "mediaencoder",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Undo",
+      "zh": "撤销"
+    },
+    "description": {
+      "en": "Undo",
+      "zh": "撤销"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "—",
+    "keywords": [
+      "undo",
+      "撤销"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "me-redo",
+    "appId": "mediaencoder",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Redo",
+      "zh": "重做"
+    },
+    "description": {
+      "en": "Redo",
+      "zh": "重做"
+    },
+    "windows": "Ctrl + Y",
+    "mac": "⇧ ⌘ Z",
+    "linux": "—",
+    "keywords": [
+      "redo",
+      "重做"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "me-zoom",
+    "appId": "mediaencoder",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Zoom",
+      "zh": "缩放"
+    },
+    "description": {
+      "en": "Zoom UI",
+      "zh": "缩放界面"
+    },
+    "windows": "Ctrl + =",
+    "mac": "⌘ =",
+    "linux": "—",
+    "keywords": [
+      "zoom",
+      "缩放"
+    ],
+    "pinyin": "suo fang suofang s f sf suo fang suofang s f sf"
+  },
+  {
+    "id": "me-fit",
+    "appId": "mediaencoder",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Fit",
+      "zh": "适应"
+    },
+    "description": {
+      "en": "Fit to screen",
+      "zh": "适应屏幕"
+    },
+    "windows": "Shift + 1",
+    "mac": "Shift + 1",
+    "linux": "—",
+    "keywords": [
+      "fit",
+      "适应"
+    ],
+    "pinyin": "shi ying shiying s y sy shi ying shiying s y sy"
+  },
+  {
+    "id": "me-fullscreen",
+    "appId": "mediaencoder",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Fullscreen",
+      "zh": "全屏"
+    },
+    "description": {
+      "en": "Fullscreen",
+      "zh": "全屏"
+    },
+    "windows": "F11",
+    "mac": "⌃ ⌘ F",
+    "linux": "—",
+    "keywords": [
+      "fullscreen",
+      "全屏"
+    ],
+    "pinyin": "quan ping quanping q p qp quan ping quanping q p qp"
+  },
+  {
+    "id": "me-watch",
+    "appId": "mediaencoder",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Watch folder",
+      "zh": "监视文件夹"
+    },
+    "description": {
+      "en": "Toggle watch folder",
+      "zh": "切换监视文件夹"
+    },
+    "windows": "Ctrl + W",
+    "mac": "⌘ W",
+    "linux": "—",
+    "keywords": [
+      "watch",
+      "folder",
+      "监视"
+    ],
+    "pinyin": "jian shi wen jian jia jianshiwenjianjia j s w j j jswjj jian shi jianshi j s js"
+  },
+  {
+    "id": "me-ingest",
+    "appId": "mediaencoder",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Ingest",
+      "zh": "摄取"
+    },
+    "description": {
+      "en": "Ingest preset",
+      "zh": "摄取预设"
+    },
+    "windows": "Ctrl + Shift + I",
+    "mac": "⌥ ⌘ I",
+    "linux": "—",
+    "keywords": [
+      "ingest",
+      "摄取"
+    ],
+    "pinyin": "she qu shequ s q sq she qu shequ s q sq"
+  },
+  {
+    "id": "me-conform",
+    "appId": "mediaencoder",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Conform",
+      "zh": "整合"
+    },
+    "description": {
+      "en": "Conform settings",
+      "zh": "整合设置"
+    },
+    "windows": "Ctrl + Shift + C",
+    "mac": "⌥ ⌘ C",
+    "linux": "—",
+    "keywords": [
+      "conform",
+      "整合"
+    ],
+    "pinyin": "zheng he zhenghe z h zh zheng he zhenghe z h zh"
+  },
+  {
+    "id": "me-metadata",
+    "appId": "mediaencoder",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Metadata",
+      "zh": "元数据"
+    },
+    "description": {
+      "en": "Edit metadata",
+      "zh": "编辑元数据"
+    },
+    "windows": "Ctrl + Shift + M",
+    "mac": "⌥ ⌘ M",
+    "linux": "—",
+    "keywords": [
+      "metadata",
+      "元数据"
+    ],
+    "pinyin": "yuan shu ju yuanshuju y s j ysj yuan shu ju yuanshuju y s j ysj"
+  },
+  {
+    "id": "me-report",
+    "appId": "mediaencoder",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Report",
+      "zh": "报告"
+    },
+    "description": {
+      "en": "Generate report",
+      "zh": "生成报告"
+    },
+    "windows": "Ctrl + Shift + R",
+    "mac": "⌥ ⌘ R",
+    "linux": "—",
+    "keywords": [
+      "report",
+      "报告"
+    ],
+    "pinyin": "bao gao baogao b g bg bao gao baogao b g bg"
+  },
+  {
+    "id": "me-help",
+    "appId": "mediaencoder",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Help",
+      "zh": "帮助"
+    },
+    "description": {
+      "en": "Help",
+      "zh": "帮助"
+    },
+    "windows": "F1",
+    "mac": "F1",
+    "linux": "—",
+    "keywords": [
+      "help",
+      "帮助"
+    ],
+    "pinyin": "bang zhu bangzhu b z bz bang zhu bangzhu b z bz"
+  }
+]

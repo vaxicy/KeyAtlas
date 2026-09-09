@@ -1,1 +1,580 @@
-[{"id":"webflow-toggle-navigator","appId":"webflow","type":"software","category":"design","name":{"en":"Toggle Navigator","zh":"切换导航器"},"description":{"en":"Show/hide the navigator panel","zh":"显示或隐藏导航器面板"},"windows":"Z","mac":"Z","linux":"Z","keywords":["navigator","导航"],"pinyin":"qie huan dao hang qi qiehuandaohangqi q h d h q qhdhq dao hang daohang d h dh"},{"id":"webflow-toggle-layers-panel","appId":"webflow","type":"software","category":"design","name":{"en":"Toggle Layers Panel","zh":"切换图层面板"},"description":{"en":"Show/hide the layers panel","zh":"显示或隐藏图层面板"},"windows":"E","mac":"E","linux":"E","keywords":["layers","图层"],"pinyin":"qie huan tu ceng mian ban qiehuantucengmianban q h t c m b qhtcmb tu ceng tuceng t c tc"},{"id":"webflow-toggle-style-panel","appId":"webflow","type":"software","category":"design","name":{"en":"Toggle Style Panel","zh":"切换样式面板"},"description":{"en":"Show/hide the style panel","zh":"显示或隐藏样式面板"},"windows":"S","mac":"S","linux":"S","keywords":["style","样式"],"pinyin":"qie huan yang shi mian ban qiehuanyangshimianban q h y s m b qhysmb yang shi yangshi y s ys"},{"id":"webflow-toggle-settings-panel","appId":"webflow","type":"software","category":"design","name":{"en":"Toggle Settings Panel","zh":"切换设置面板"},"description":{"en":"Show/hide the settings panel","zh":"显示或隐藏设置面板"},"windows":"D","mac":"D","linux":"D","keywords":["settings","设置"],"pinyin":"qie huan she zhi mian ban qiehuanshezhimianban q h s z m b qhszmb she zhi shezhi s z sz"},{"id":"webflow-preview-mode","appId":"webflow","type":"software","category":"design","name":{"en":"Preview Mode","zh":"预览模式"},"description":{"en":"Enter preview mode","zh":"进入预览模式"},"windows":"Ctrl+Shift+P","mac":"Cmd+Shift+P","linux":"Ctrl+Shift+P","keywords":["preview","预览"],"pinyin":"yu lan mo shi yulanmoshi y l m s ylms yu lan yulan y l yl"},{"id":"webflow-zoom-in","appId":"webflow","type":"software","category":"design","name":{"en":"Zoom In","zh":"放大"},"description":{"en":"Zoom in the canvas","zh":"画布放大"},"windows":"Ctrl+=","mac":"Cmd+=","linux":"Ctrl+=","keywords":["zoom","放大"],"pinyin":"fang da fangda f d fd fang da fangda f d fd"},{"id":"webflow-zoom-out","appId":"webflow","type":"software","category":"design","name":{"en":"Zoom Out","zh":"缩小"},"description":{"en":"Zoom out the canvas","zh":"画布缩小"},"windows":"Ctrl+-","mac":"Cmd+-","linux":"Ctrl+-","keywords":["zoom","缩小"],"pinyin":"suo xiao suoxiao s x sx suo xiao suoxiao s x sx"},{"id":"webflow-zoom-to-fit","appId":"webflow","type":"software","category":"design","name":{"en":"Zoom to Fit","zh":"缩放至适应"},"description":{"en":"Zoom to fit the canvas","zh":"缩放以适应画布"},"windows":"Ctrl+0","mac":"Cmd+0","linux":"Ctrl+0","keywords":["zoom","fit","适应"],"pinyin":"suo fang zhi shi ying suofangzhishiying s f z s y sfzsy shi ying shiying s y sy"},{"id":"webflow-toggle-responsive-breakpoint","appId":"webflow","type":"software","category":"design","name":{"en":"Toggle Responsive Breakpoint","zh":"切换响应式断点"},"description":{"en":"Cycle responsive breakpoints 1-5","zh":"切换响应式断点 1-5"},"windows":"Ctrl+Shift+1","mac":"Cmd+Shift+1","linux":"Ctrl+Shift+1","keywords":["breakpoint","响应式"],"pinyin":"qie huan xiang ying shi duan dian qiehuanxiangyingshiduandian q h x y s d d qhxysdd xiang ying shi xiangyingshi x y s xys"},{"id":"webflow-add-element","appId":"webflow","type":"software","category":"design","name":{"en":"Add Element","zh":"添加元素"},"description":{"en":"Open the add-element menu","zh":"打开添加元素菜单"},"windows":"A","mac":"A","linux":"A","keywords":["add","element","元素"],"pinyin":"tian jia yuan su tianjiayuansu t j y s tjys yuan su yuansu y s ys"},{"id":"webflow-select-all","appId":"webflow","type":"software","category":"design","name":{"en":"Select All","zh":"全选"},"description":{"en":"Select all elements","zh":"选择所有元素"},"windows":"Ctrl+A","mac":"Cmd+A","linux":"Ctrl+A","keywords":["select all","全选"],"pinyin":"quan xuan quanxuan q x qx quan xuan quanxuan q x qx"},{"id":"webflow-deselect","appId":"webflow","type":"software","category":"design","name":{"en":"Deselect","zh":"取消选择"},"description":{"en":"Deselect current selection","zh":"取消当前选择"},"windows":"Esc","mac":"Esc","linux":"Esc","keywords":["deselect","取消选择"],"pinyin":"qu xiao xuan ze quxiaoxuanze q x x z qxxz qu xiao xuan ze quxiaoxuanze q x x z qxxz"},{"id":"webflow-duplicate-element","appId":"webflow","type":"software","category":"design","name":{"en":"Duplicate Element","zh":"复制元素"},"description":{"en":"Duplicate the selected element","zh":"复制所选元素"},"windows":"Ctrl+D","mac":"Cmd+D","linux":"Ctrl+D","keywords":["duplicate","复制"],"pinyin":"fu zhi yuan su fuzhiyuansu f z y s fzys fu zhi fuzhi f z fz"},{"id":"webflow-delete-element","appId":"webflow","type":"software","category":"design","name":{"en":"Delete Element","zh":"删除元素"},"description":{"en":"Delete the selected element","zh":"删除所选元素"},"windows":"Delete","mac":"Backspace","linux":"Delete","keywords":["delete","删除"],"pinyin":"shan chu yuan su shanchuyuansu s c y s scys shan chu shanchu s c sc"},{"id":"webflow-copy","appId":"webflow","type":"software","category":"design","name":{"en":"Copy","zh":"复制"},"description":{"en":"Copy selection","zh":"复制所选内容"},"windows":"Ctrl+C","mac":"Cmd+C","linux":"Ctrl+C","keywords":["copy","复制"],"pinyin":"fu zhi fuzhi f z fz fu zhi fuzhi f z fz"},{"id":"webflow-paste","appId":"webflow","type":"software","category":"design","name":{"en":"Paste","zh":"粘贴"},"description":{"en":"Paste from clipboard","zh":"从剪贴板粘贴"},"windows":"Ctrl+V","mac":"Cmd+V","linux":"Ctrl+V","keywords":["paste","粘贴"],"pinyin":"nian tie niantie n t nt nian tie niantie n t nt"},{"id":"webflow-cut","appId":"webflow","type":"software","category":"design","name":{"en":"Cut","zh":"剪切"},"description":{"en":"Cut selection","zh":"剪切所选内容"},"windows":"Ctrl+X","mac":"Cmd+X","linux":"Ctrl+X","keywords":["cut","剪切"],"pinyin":"jian qie jianqie j q jq jian qie jianqie j q jq"},{"id":"webflow-wrap-in-div","appId":"webflow","type":"software","category":"design","name":{"en":"Wrap in Div","zh":"包裹为 Div"},"description":{"en":"Wrap selection in a div","zh":"将所选内容包裹为 div"},"windows":"Ctrl+Shift+G","mac":"Cmd+Shift+G","linux":"Ctrl+Shift+G","keywords":["wrap","div","包裹"],"pinyin":"bao guo wei   d i v baoguowei div b g w   d i v bgw div bao guo baoguo b g bg"},{"id":"webflow-bold","appId":"webflow","type":"software","category":"design","name":{"en":"Bold","zh":"加粗"},"description":{"en":"Bold text","zh":"加粗文本"},"windows":"Ctrl+B","mac":"Cmd+B","linux":"Ctrl+B","keywords":["bold","加粗","字体"],"pinyin":"jia cu jiacu j c jc jia cu   zi ti jiacu ziti j c   z t jc zt"},{"id":"webflow-italic","appId":"webflow","type":"software","category":"design","name":{"en":"Italic","zh":"斜体"},"description":{"en":"Italicize text","zh":"文本斜体"},"windows":"Ctrl+I","mac":"Cmd+I","linux":"Ctrl+I","keywords":["italic","斜体","字体"],"pinyin":"xie ti xieti x t xt xie ti   zi ti xieti ziti x t   z t xt zt"},{"id":"webflow-underline","appId":"webflow","type":"software","category":"design","name":{"en":"Underline","zh":"下划线"},"description":{"en":"Underline text","zh":"文本下划线"},"windows":"Ctrl+U","mac":"Cmd+U","linux":"Ctrl+U","keywords":["underline","下划线","字体"],"pinyin":"xia hua xian xiahuaxian x h x xhx xia hua xian   zi ti xiahuaxian ziti x h x   z t xhx zt"},{"id":"webflow-increase-font-size","appId":"webflow","type":"software","category":"design","name":{"en":"Increase Font Size","zh":"增大字号"},"description":{"en":"Increase font size","zh":"增大字号"},"windows":"Ctrl+Shift+.","mac":"Cmd+Shift+.","linux":"Ctrl+Shift+.","keywords":["font size","字号"],"pinyin":"zeng da zi hao zengdazihao z d z h zdzh zi hao zihao z h zh"},{"id":"webflow-decrease-font-size","appId":"webflow","type":"software","category":"design","name":{"en":"Decrease Font Size","zh":"减小字号"},"description":{"en":"Decrease font size","zh":"减小字号"},"windows":"Ctrl+Shift+,","mac":"Cmd+Shift+,","linux":"Ctrl+Shift+,","keywords":["font size","字号"],"pinyin":"jian xiao zi hao jianxiaozihao j x z h jxzh zi hao zihao z h zh"},{"id":"webflow-undo","appId":"webflow","type":"software","category":"design","name":{"en":"Undo","zh":"撤销"},"description":{"en":"Undo last action","zh":"撤销上一步"},"windows":"Ctrl+Z","mac":"Cmd+Z","linux":"Ctrl+Z","keywords":["undo","撤销"],"pinyin":"che xiao chexiao c x cx che xiao chexiao c x cx"},{"id":"webflow-redo","appId":"webflow","type":"software","category":"design","name":{"en":"Redo","zh":"重做"},"description":{"en":"Redo last action","zh":"重做上一步"},"windows":"Ctrl+Shift+Z","mac":"Cmd+Shift+Z","linux":"Ctrl+Shift+Z","keywords":["redo","重做"],"pinyin":"zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"},{"id":"webflow-save","appId":"webflow","type":"software","category":"design","name":{"en":"Save","zh":"保存"},"description":{"en":"Save the project","zh":"保存项目"},"windows":"Ctrl+S","mac":"Cmd+S","linux":"Ctrl+S","keywords":["save","保存"],"pinyin":"bao cun baocun b c bc bao cun baocun b c bc"}]
+[
+  {
+    "id": "webflow-toggle-navigator",
+    "appId": "webflow",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Toggle Navigator",
+      "zh": "切换导航器"
+    },
+    "description": {
+      "en": "Show/hide the navigator panel",
+      "zh": "显示或隐藏导航器面板"
+    },
+    "windows": "Z",
+    "mac": "Z",
+    "linux": "Z",
+    "keywords": [
+      "navigator",
+      "导航"
+    ],
+    "pinyin": "qie huan dao hang qi qiehuandaohangqi q h d h q qhdhq dao hang daohang d h dh"
+  },
+  {
+    "id": "webflow-toggle-layers-panel",
+    "appId": "webflow",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Toggle Layers Panel",
+      "zh": "切换图层面板"
+    },
+    "description": {
+      "en": "Show/hide the layers panel",
+      "zh": "显示或隐藏图层面板"
+    },
+    "windows": "E",
+    "mac": "E",
+    "linux": "E",
+    "keywords": [
+      "layers",
+      "图层"
+    ],
+    "pinyin": "qie huan tu ceng mian ban qiehuantucengmianban q h t c m b qhtcmb tu ceng tuceng t c tc"
+  },
+  {
+    "id": "webflow-toggle-style-panel",
+    "appId": "webflow",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Toggle Style Panel",
+      "zh": "切换样式面板"
+    },
+    "description": {
+      "en": "Show/hide the style panel",
+      "zh": "显示或隐藏样式面板"
+    },
+    "windows": "S",
+    "mac": "S",
+    "linux": "S",
+    "keywords": [
+      "style",
+      "样式"
+    ],
+    "pinyin": "qie huan yang shi mian ban qiehuanyangshimianban q h y s m b qhysmb yang shi yangshi y s ys"
+  },
+  {
+    "id": "webflow-toggle-settings-panel",
+    "appId": "webflow",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Toggle Settings Panel",
+      "zh": "切换设置面板"
+    },
+    "description": {
+      "en": "Show/hide the settings panel",
+      "zh": "显示或隐藏设置面板"
+    },
+    "windows": "D",
+    "mac": "D",
+    "linux": "D",
+    "keywords": [
+      "settings",
+      "设置"
+    ],
+    "pinyin": "qie huan she zhi mian ban qiehuanshezhimianban q h s z m b qhszmb she zhi shezhi s z sz"
+  },
+  {
+    "id": "webflow-preview-mode",
+    "appId": "webflow",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Preview Mode",
+      "zh": "预览模式"
+    },
+    "description": {
+      "en": "Enter preview mode",
+      "zh": "进入预览模式"
+    },
+    "windows": "Ctrl+Shift+P",
+    "mac": "Cmd+Shift+P",
+    "linux": "Ctrl+Shift+P",
+    "keywords": [
+      "preview",
+      "预览"
+    ],
+    "pinyin": "yu lan mo shi yulanmoshi y l m s ylms yu lan yulan y l yl"
+  },
+  {
+    "id": "webflow-zoom-in",
+    "appId": "webflow",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Zoom In",
+      "zh": "放大"
+    },
+    "description": {
+      "en": "Zoom in the canvas",
+      "zh": "画布放大"
+    },
+    "windows": "Ctrl+=",
+    "mac": "Cmd+=",
+    "linux": "Ctrl+=",
+    "keywords": [
+      "zoom",
+      "放大"
+    ],
+    "pinyin": "fang da fangda f d fd fang da fangda f d fd"
+  },
+  {
+    "id": "webflow-zoom-out",
+    "appId": "webflow",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Zoom Out",
+      "zh": "缩小"
+    },
+    "description": {
+      "en": "Zoom out the canvas",
+      "zh": "画布缩小"
+    },
+    "windows": "Ctrl+-",
+    "mac": "Cmd+-",
+    "linux": "Ctrl+-",
+    "keywords": [
+      "zoom",
+      "缩小"
+    ],
+    "pinyin": "suo xiao suoxiao s x sx suo xiao suoxiao s x sx"
+  },
+  {
+    "id": "webflow-zoom-to-fit",
+    "appId": "webflow",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Zoom to Fit",
+      "zh": "缩放至适应"
+    },
+    "description": {
+      "en": "Zoom to fit the canvas",
+      "zh": "缩放以适应画布"
+    },
+    "windows": "Ctrl+0",
+    "mac": "Cmd+0",
+    "linux": "Ctrl+0",
+    "keywords": [
+      "zoom",
+      "fit",
+      "适应"
+    ],
+    "pinyin": "suo fang zhi shi ying suofangzhishiying s f z s y sfzsy shi ying shiying s y sy"
+  },
+  {
+    "id": "webflow-toggle-responsive-breakpoint",
+    "appId": "webflow",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Toggle Responsive Breakpoint",
+      "zh": "切换响应式断点"
+    },
+    "description": {
+      "en": "Cycle responsive breakpoints 1-5",
+      "zh": "切换响应式断点 1-5"
+    },
+    "windows": "Ctrl+Shift+1",
+    "mac": "Cmd+Shift+1",
+    "linux": "Ctrl+Shift+1",
+    "keywords": [
+      "breakpoint",
+      "响应式"
+    ],
+    "pinyin": "qie huan xiang ying shi duan dian qiehuanxiangyingshiduandian q h x y s d d qhxysdd xiang ying shi xiangyingshi x y s xys"
+  },
+  {
+    "id": "webflow-add-element",
+    "appId": "webflow",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Add Element",
+      "zh": "添加元素"
+    },
+    "description": {
+      "en": "Open the add-element menu",
+      "zh": "打开添加元素菜单"
+    },
+    "windows": "A",
+    "mac": "A",
+    "linux": "A",
+    "keywords": [
+      "add",
+      "element",
+      "元素"
+    ],
+    "pinyin": "tian jia yuan su tianjiayuansu t j y s tjys yuan su yuansu y s ys"
+  },
+  {
+    "id": "webflow-select-all",
+    "appId": "webflow",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Select All",
+      "zh": "全选"
+    },
+    "description": {
+      "en": "Select all elements",
+      "zh": "选择所有元素"
+    },
+    "windows": "Ctrl+A",
+    "mac": "Cmd+A",
+    "linux": "Ctrl+A",
+    "keywords": [
+      "select all",
+      "全选"
+    ],
+    "pinyin": "quan xuan quanxuan q x qx quan xuan quanxuan q x qx"
+  },
+  {
+    "id": "webflow-deselect",
+    "appId": "webflow",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Deselect",
+      "zh": "取消选择"
+    },
+    "description": {
+      "en": "Deselect current selection",
+      "zh": "取消当前选择"
+    },
+    "windows": "Esc",
+    "mac": "Esc",
+    "linux": "Esc",
+    "keywords": [
+      "deselect",
+      "取消选择"
+    ],
+    "pinyin": "qu xiao xuan ze quxiaoxuanze q x x z qxxz qu xiao xuan ze quxiaoxuanze q x x z qxxz"
+  },
+  {
+    "id": "webflow-duplicate-element",
+    "appId": "webflow",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Duplicate Element",
+      "zh": "复制元素"
+    },
+    "description": {
+      "en": "Duplicate the selected element",
+      "zh": "复制所选元素"
+    },
+    "windows": "Ctrl+D",
+    "mac": "Cmd+D",
+    "linux": "Ctrl+D",
+    "keywords": [
+      "duplicate",
+      "复制"
+    ],
+    "pinyin": "fu zhi yuan su fuzhiyuansu f z y s fzys fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "webflow-delete-element",
+    "appId": "webflow",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Delete Element",
+      "zh": "删除元素"
+    },
+    "description": {
+      "en": "Delete the selected element",
+      "zh": "删除所选元素"
+    },
+    "windows": "Delete",
+    "mac": "Backspace",
+    "linux": "Delete",
+    "keywords": [
+      "delete",
+      "删除"
+    ],
+    "pinyin": "shan chu yuan su shanchuyuansu s c y s scys shan chu shanchu s c sc"
+  },
+  {
+    "id": "webflow-copy",
+    "appId": "webflow",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Copy",
+      "zh": "复制"
+    },
+    "description": {
+      "en": "Copy selection",
+      "zh": "复制所选内容"
+    },
+    "windows": "Ctrl+C",
+    "mac": "Cmd+C",
+    "linux": "Ctrl+C",
+    "keywords": [
+      "copy",
+      "复制"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "webflow-paste",
+    "appId": "webflow",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Paste",
+      "zh": "粘贴"
+    },
+    "description": {
+      "en": "Paste from clipboard",
+      "zh": "从剪贴板粘贴"
+    },
+    "windows": "Ctrl+V",
+    "mac": "Cmd+V",
+    "linux": "Ctrl+V",
+    "keywords": [
+      "paste",
+      "粘贴"
+    ],
+    "pinyin": "nian tie niantie n t nt nian tie niantie n t nt"
+  },
+  {
+    "id": "webflow-cut",
+    "appId": "webflow",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Cut",
+      "zh": "剪切"
+    },
+    "description": {
+      "en": "Cut selection",
+      "zh": "剪切所选内容"
+    },
+    "windows": "Ctrl+X",
+    "mac": "Cmd+X",
+    "linux": "Ctrl+X",
+    "keywords": [
+      "cut",
+      "剪切"
+    ],
+    "pinyin": "jian qie jianqie j q jq jian qie jianqie j q jq"
+  },
+  {
+    "id": "webflow-wrap-in-div",
+    "appId": "webflow",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Wrap in Div",
+      "zh": "包裹为 Div"
+    },
+    "description": {
+      "en": "Wrap selection in a div",
+      "zh": "将所选内容包裹为 div"
+    },
+    "windows": "Ctrl+Shift+G",
+    "mac": "Cmd+Shift+G",
+    "linux": "Ctrl+Shift+G",
+    "keywords": [
+      "wrap",
+      "div",
+      "包裹"
+    ],
+    "pinyin": "bao guo wei   d i v baoguowei div b g w   d i v bgw div bao guo baoguo b g bg"
+  },
+  {
+    "id": "webflow-bold",
+    "appId": "webflow",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Bold",
+      "zh": "加粗"
+    },
+    "description": {
+      "en": "Bold text",
+      "zh": "加粗文本"
+    },
+    "windows": "Ctrl+B",
+    "mac": "Cmd+B",
+    "linux": "Ctrl+B",
+    "keywords": [
+      "bold",
+      "加粗",
+      "字体"
+    ],
+    "pinyin": "jia cu jiacu j c jc jia cu   zi ti jiacu ziti j c   z t jc zt"
+  },
+  {
+    "id": "webflow-italic",
+    "appId": "webflow",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Italic",
+      "zh": "斜体"
+    },
+    "description": {
+      "en": "Italicize text",
+      "zh": "文本斜体"
+    },
+    "windows": "Ctrl+I",
+    "mac": "Cmd+I",
+    "linux": "Ctrl+I",
+    "keywords": [
+      "italic",
+      "斜体",
+      "字体"
+    ],
+    "pinyin": "xie ti xieti x t xt xie ti   zi ti xieti ziti x t   z t xt zt"
+  },
+  {
+    "id": "webflow-underline",
+    "appId": "webflow",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Underline",
+      "zh": "下划线"
+    },
+    "description": {
+      "en": "Underline text",
+      "zh": "文本下划线"
+    },
+    "windows": "Ctrl+U",
+    "mac": "Cmd+U",
+    "linux": "Ctrl+U",
+    "keywords": [
+      "underline",
+      "下划线",
+      "字体"
+    ],
+    "pinyin": "xia hua xian xiahuaxian x h x xhx xia hua xian   zi ti xiahuaxian ziti x h x   z t xhx zt"
+  },
+  {
+    "id": "webflow-increase-font-size",
+    "appId": "webflow",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Increase Font Size",
+      "zh": "增大字号"
+    },
+    "description": {
+      "en": "Increase font size",
+      "zh": "增大字号"
+    },
+    "windows": "Ctrl+Shift+.",
+    "mac": "Cmd+Shift+.",
+    "linux": "Ctrl+Shift+.",
+    "keywords": [
+      "font size",
+      "字号"
+    ],
+    "pinyin": "zeng da zi hao zengdazihao z d z h zdzh zi hao zihao z h zh"
+  },
+  {
+    "id": "webflow-decrease-font-size",
+    "appId": "webflow",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Decrease Font Size",
+      "zh": "减小字号"
+    },
+    "description": {
+      "en": "Decrease font size",
+      "zh": "减小字号"
+    },
+    "windows": "Ctrl+Shift+,",
+    "mac": "Cmd+Shift+,",
+    "linux": "Ctrl+Shift+,",
+    "keywords": [
+      "font size",
+      "字号"
+    ],
+    "pinyin": "jian xiao zi hao jianxiaozihao j x z h jxzh zi hao zihao z h zh"
+  },
+  {
+    "id": "webflow-undo",
+    "appId": "webflow",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Undo",
+      "zh": "撤销"
+    },
+    "description": {
+      "en": "Undo last action",
+      "zh": "撤销上一步"
+    },
+    "windows": "Ctrl+Z",
+    "mac": "Cmd+Z",
+    "linux": "Ctrl+Z",
+    "keywords": [
+      "undo",
+      "撤销"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "webflow-redo",
+    "appId": "webflow",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Redo",
+      "zh": "重做"
+    },
+    "description": {
+      "en": "Redo last action",
+      "zh": "重做上一步"
+    },
+    "windows": "Ctrl+Shift+Z",
+    "mac": "Cmd+Shift+Z",
+    "linux": "Ctrl+Shift+Z",
+    "keywords": [
+      "redo",
+      "重做"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "webflow-save",
+    "appId": "webflow",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Save",
+      "zh": "保存"
+    },
+    "description": {
+      "en": "Save the project",
+      "zh": "保存项目"
+    },
+    "windows": "Ctrl+S",
+    "mac": "Cmd+S",
+    "linux": "Ctrl+S",
+    "keywords": [
+      "save",
+      "保存"
+    ],
+    "pinyin": "bao cun baocun b c bc bao cun baocun b c bc"
+  }
+]

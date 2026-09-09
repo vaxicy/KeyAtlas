@@ -1,0 +1,540 @@
+[
+  {
+    "id": "sourcetree-commit",
+    "appId": "sourcetree",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Commit",
+      "zh": "提交"
+    },
+    "description": {
+      "en": "Commit changes",
+      "zh": "提交更改"
+    },
+    "windows": "Ctrl + Alt + C",
+    "mac": "⌥ ⌘ C",
+    "linux": "Ctrl + Alt + C",
+    "keywords": [
+      "commit",
+      "提交"
+    ],
+    "pinyin": "ti jiao tijiao t j tj ti jiao tijiao t j tj"
+  },
+  {
+    "id": "sourcetree-push",
+    "appId": "sourcetree",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Push",
+      "zh": "推送"
+    },
+    "description": {
+      "en": "Push to remote",
+      "zh": "推送到远程"
+    },
+    "windows": "Ctrl + Alt + P",
+    "mac": "⌥ ⌘ P",
+    "linux": "Ctrl + Alt + P",
+    "keywords": [
+      "push",
+      "推送"
+    ],
+    "pinyin": "tui song tuisong t s ts tui song tuisong t s ts"
+  },
+  {
+    "id": "sourcetree-pull",
+    "appId": "sourcetree",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Pull",
+      "zh": "拉取"
+    },
+    "description": {
+      "en": "Pull from remote",
+      "zh": "从远程拉取"
+    },
+    "windows": "Ctrl + Alt + D",
+    "mac": "⌥ ⌘ D",
+    "linux": "Ctrl + Alt + D",
+    "keywords": [
+      "pull",
+      "拉取"
+    ],
+    "pinyin": "la qu laqu l q lq la qu laqu l q lq"
+  },
+  {
+    "id": "sourcetree-fetch",
+    "appId": "sourcetree",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Fetch",
+      "zh": "获取"
+    },
+    "description": {
+      "en": "Fetch from remote",
+      "zh": "从远程获取"
+    },
+    "windows": "Ctrl + Alt + L",
+    "mac": "⌥ ⌘ L",
+    "linux": "Ctrl + Alt + L",
+    "keywords": [
+      "fetch",
+      "获取"
+    ],
+    "pinyin": "huo qu huoqu h q hq huo qu huoqu h q hq"
+  },
+  {
+    "id": "sourcetree-refresh",
+    "appId": "sourcetree",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Refresh",
+      "zh": "刷新"
+    },
+    "description": {
+      "en": "Refresh repository",
+      "zh": "刷新仓库"
+    },
+    "windows": "F5",
+    "mac": "F5",
+    "linux": "F5",
+    "keywords": [
+      "refresh",
+      "刷新"
+    ],
+    "pinyin": "shua xin shuaxin s x sx shua xin shuaxin s x sx"
+  },
+  {
+    "id": "sourcetree-find",
+    "appId": "sourcetree",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Find",
+      "zh": "查找"
+    },
+    "description": {
+      "en": "Find in repository",
+      "zh": "在仓库查找"
+    },
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
+    "linux": "Ctrl + F",
+    "keywords": [
+      "find",
+      "查找"
+    ],
+    "pinyin": "cha zhao chazhao c z cz cha zhao chazhao c z cz"
+  },
+  {
+    "id": "sourcetree-new-repo",
+    "appId": "sourcetree",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "New repo",
+      "zh": "新建仓库"
+    },
+    "description": {
+      "en": "Create a new repository",
+      "zh": "新建仓库"
+    },
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
+    "linux": "Ctrl + N",
+    "keywords": [
+      "new",
+      "repo",
+      "仓库"
+    ],
+    "pinyin": "xin jian cang ku xinjiancangku x j c k xjck cang ku cangku c k ck"
+  },
+  {
+    "id": "sourcetree-clone",
+    "appId": "sourcetree",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Clone",
+      "zh": "克隆"
+    },
+    "description": {
+      "en": "Clone a repository",
+      "zh": "克隆仓库"
+    },
+    "windows": "Ctrl + Alt + N",
+    "mac": "⌥ ⌘ N",
+    "linux": "Ctrl + Alt + N",
+    "keywords": [
+      "clone",
+      "克隆"
+    ],
+    "pinyin": "ke long kelong k l kl ke long kelong k l kl"
+  },
+  {
+    "id": "sourcetree-stage",
+    "appId": "sourcetree",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Stage",
+      "zh": "暂存"
+    },
+    "description": {
+      "en": "Stage selected file",
+      "zh": "暂存选中文件"
+    },
+    "windows": "Ctrl + Alt + S",
+    "mac": "⌥ ⌘ S",
+    "linux": "Ctrl + Alt + S",
+    "keywords": [
+      "stage",
+      "暂存"
+    ],
+    "pinyin": "zan cun zancun z c zc zan cun zancun z c zc"
+  },
+  {
+    "id": "sourcetree-unstage",
+    "appId": "sourcetree",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Unstage",
+      "zh": "取消暂存"
+    },
+    "description": {
+      "en": "Unstage selected file",
+      "zh": "取消暂存"
+    },
+    "windows": "Ctrl + Alt + U",
+    "mac": "⌥ ⌘ U",
+    "linux": "Ctrl + Alt + U",
+    "keywords": [
+      "unstage",
+      "取消暂存"
+    ],
+    "pinyin": "qu xiao zan cun quxiaozancun q x z c qxzc qu xiao zan cun quxiaozancun q x z c qxzc"
+  },
+  {
+    "id": "sourcetree-stage-all",
+    "appId": "sourcetree",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Stage all",
+      "zh": "暂存全部"
+    },
+    "description": {
+      "en": "Stage all files",
+      "zh": "暂存所有文件"
+    },
+    "windows": "Ctrl + Alt + A",
+    "mac": "⌥ ⌘ A",
+    "linux": "Ctrl + Alt + A",
+    "keywords": [
+      "stage",
+      "all",
+      "暂存"
+    ],
+    "pinyin": "zan cun quan bu zancunquanbu z c q b zcqb zan cun zancun z c zc"
+  },
+  {
+    "id": "sourcetree-discard",
+    "appId": "sourcetree",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Discard",
+      "zh": "丢弃"
+    },
+    "description": {
+      "en": "Discard changes",
+      "zh": "丢弃更改"
+    },
+    "windows": "Ctrl + Alt + Z",
+    "mac": "⌥ ⌘ Z",
+    "linux": "Ctrl + Alt + Z",
+    "keywords": [
+      "discard",
+      "丢弃"
+    ],
+    "pinyin": "diu qi diuqi d q dq diu qi diuqi d q dq"
+  },
+  {
+    "id": "sourcetree-new-branch",
+    "appId": "sourcetree",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "New branch",
+      "zh": "新建分支"
+    },
+    "description": {
+      "en": "Create a branch",
+      "zh": "新建分支"
+    },
+    "windows": "Ctrl + Shift + B",
+    "mac": "⇧ ⌘ B",
+    "linux": "Ctrl + Shift + B",
+    "keywords": [
+      "branch",
+      "分支"
+    ],
+    "pinyin": "xin jian fen zhi xinjianfenzhi x j f z xjfz fen zhi fenzhi f z fz"
+  },
+  {
+    "id": "sourcetree-switch-branch",
+    "appId": "sourcetree",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Switch branch",
+      "zh": "切换分支"
+    },
+    "description": {
+      "en": "Switch to next branch",
+      "zh": "切换分支"
+    },
+    "windows": "Ctrl + Tab",
+    "mac": "⌃ Tab",
+    "linux": "Ctrl + Tab",
+    "keywords": [
+      "switch",
+      "branch",
+      "切换"
+    ],
+    "pinyin": "qie huan fen zhi qiehuanfenzhi q h f z qhfz qie huan qiehuan q h qh"
+  },
+  {
+    "id": "sourcetree-file-status",
+    "appId": "sourcetree",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "File status",
+      "zh": "文件状态"
+    },
+    "description": {
+      "en": "Show file status view",
+      "zh": "显示文件状态"
+    },
+    "windows": "Ctrl + 1",
+    "mac": "⌘ 1",
+    "linux": "Ctrl + 1",
+    "keywords": [
+      "status",
+      "文件",
+      "view"
+    ],
+    "pinyin": "wen jian zhuang tai wenjianzhuangtai w j z t wjzt wen jian wenjian w j wj"
+  },
+  {
+    "id": "sourcetree-log",
+    "appId": "sourcetree",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "History",
+      "zh": "历史"
+    },
+    "description": {
+      "en": "Show history/log view",
+      "zh": "显示历史视图"
+    },
+    "windows": "Ctrl + 2",
+    "mac": "⌘ 2",
+    "linux": "Ctrl + 2",
+    "keywords": [
+      "log",
+      "history",
+      "历史"
+    ],
+    "pinyin": "li shi lishi l s ls li shi lishi l s ls"
+  },
+  {
+    "id": "sourcetree-blame",
+    "appId": "sourcetree",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Blame",
+      "zh": "追溯"
+    },
+    "description": {
+      "en": "Show blame view",
+      "zh": "显示追溯"
+    },
+    "windows": "Ctrl + Alt + B",
+    "mac": "⌥ ⌘ B",
+    "linux": "Ctrl + Alt + B",
+    "keywords": [
+      "blame",
+      "追溯"
+    ],
+    "pinyin": "zhui su zhuisu z s zs zhui su zhuisu z s zs"
+  },
+  {
+    "id": "sourcetree-terminal",
+    "appId": "sourcetree",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Terminal",
+      "zh": "终端"
+    },
+    "description": {
+      "en": "Open terminal at repo",
+      "zh": "在仓库打开终端"
+    },
+    "windows": "Ctrl + Alt + T",
+    "mac": "⌥ ⌘ T",
+    "linux": "Ctrl + Alt + T",
+    "keywords": [
+      "terminal",
+      "终端"
+    ],
+    "pinyin": "zhong duan zhongduan z d zd zhong duan zhongduan z d zd"
+  },
+  {
+    "id": "sourcetree-settings",
+    "appId": "sourcetree",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Settings",
+      "zh": "设置"
+    },
+    "description": {
+      "en": "Open settings",
+      "zh": "打开设置"
+    },
+    "windows": "Ctrl + ,",
+    "mac": "⌘ ,",
+    "linux": "Ctrl + ,",
+    "keywords": [
+      "settings",
+      "设置"
+    ],
+    "pinyin": "she zhi shezhi s z sz she zhi shezhi s z sz"
+  },
+  {
+    "id": "sourcetree-close-tab",
+    "appId": "sourcetree",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Close tab",
+      "zh": "关闭标签"
+    },
+    "description": {
+      "en": "Close current tab",
+      "zh": "关闭当前标签"
+    },
+    "windows": "Ctrl + W",
+    "mac": "⌘ W",
+    "linux": "Ctrl + W",
+    "keywords": [
+      "close",
+      "tab",
+      "关闭"
+    ],
+    "pinyin": "guan bi biao qian guanbibiaoqian g b b q gbbq guan bi guanbi g b gb"
+  },
+  {
+    "id": "sourcetree-next-tab",
+    "appId": "sourcetree",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Next tab",
+      "zh": "下一标签"
+    },
+    "description": {
+      "en": "Next tab",
+      "zh": "下一标签"
+    },
+    "windows": "Ctrl + ]",
+    "mac": "⌘ ]",
+    "linux": "Ctrl + ]",
+    "keywords": [
+      "next",
+      "tab",
+      "标签"
+    ],
+    "pinyin": "xia yi biao qian xiayibiaoqian x y b q xybq biao qian biaoqian b q bq"
+  },
+  {
+    "id": "sourcetree-prev-tab",
+    "appId": "sourcetree",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Prev tab",
+      "zh": "上一标签"
+    },
+    "description": {
+      "en": "Previous tab",
+      "zh": "上一标签"
+    },
+    "windows": "Ctrl + [",
+    "mac": "⌘ [",
+    "linux": "Ctrl + [",
+    "keywords": [
+      "prev",
+      "tab",
+      "标签"
+    ],
+    "pinyin": "shang yi biao qian shangyibiaoqian s y b q sybq biao qian biaoqian b q bq"
+  },
+  {
+    "id": "sourcetree-finder",
+    "appId": "sourcetree",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Show in Finder",
+      "zh": "在文件管理器显示"
+    },
+    "description": {
+      "en": "Reveal in file manager",
+      "zh": "在文件管理器显示"
+    },
+    "windows": "Ctrl + R",
+    "mac": "⌘ R",
+    "linux": "Ctrl + R",
+    "keywords": [
+      "finder",
+      "reveal",
+      "显示"
+    ],
+    "pinyin": "zai wen jian guan li qi xian shi zaiwenjianguanliqixianshi z w j g l q x s zwjglqxs xian shi xianshi x s xs"
+  },
+  {
+    "id": "sourcetree-resolve",
+    "appId": "sourcetree",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Resolve conflicts",
+      "zh": "解决冲突"
+    },
+    "description": {
+      "en": "Open conflict resolver",
+      "zh": "打开冲突解决"
+    },
+    "windows": "Ctrl + Alt + E",
+    "mac": "⌥ ⌘ E",
+    "linux": "Ctrl + Alt + E",
+    "keywords": [
+      "resolve",
+      "conflict",
+      "冲突"
+    ],
+    "pinyin": "jie jue chong tu jiejuechongtu j j c t jjct chong tu chongtu c t ct"
+  }
+]

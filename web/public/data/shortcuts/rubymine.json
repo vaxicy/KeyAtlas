@@ -1,1 +1,1748 @@
-[{"id":"rubymine-basic-completion","appId":"rubymine","type":"software","category":"development","name":{"en":"Basic Completion","zh":"基础补全"},"description":{"en":"Basic code completion","zh":"基础代码补全"},"windows":"Ctrl+Space","mac":"Control+Space","linux":"Ctrl+Space","keywords":["completion","补全"],"pinyin":"ji chu bu quan jichubuquan j c b q jcbq bu quan buquan b q bq"},{"id":"rubymine-complete-statement","appId":"rubymine","type":"software","category":"development","name":{"en":"Complete Statement","zh":"完成语句"},"description":{"en":"Complete the current statement","zh":"完成当前语句"},"windows":"Ctrl+Shift+Enter","mac":"Shift+Cmd+Enter","linux":"Ctrl+Shift+Enter","keywords":["complete","完成"],"pinyin":"wan cheng yu ju wanchengyuju w c y j wcyj wan cheng wancheng w c wc"},{"id":"rubymine-parameter-info","appId":"rubymine","type":"software","category":"development","name":{"en":"Parameter Info","zh":"参数信息"},"description":{"en":"Show parameter info","zh":"显示参数信息"},"windows":"Ctrl+P","mac":"Cmd+P","linux":"Ctrl+P","keywords":["parameter","参数"],"pinyin":"can shu xin xi canshuxinxi c s x x csxx can shu canshu c s cs"},{"id":"rubymine-quick-documentation","appId":"rubymine","type":"software","category":"development","name":{"en":"Quick Documentation","zh":"快速文档"},"description":{"en":"Quick documentation lookup","zh":"快速文档查询"},"windows":"Ctrl+Q","mac":"Ctrl+J","linux":"Ctrl+Q","keywords":["documentation","文档"],"pinyin":"kuai su wen dang kuaisuwendang k s w d kswd wen dang wendang w d wd"},{"id":"rubymine-generate-code","appId":"rubymine","type":"software","category":"development","name":{"en":"Generate Code","zh":"生成代码"},"description":{"en":"Generate code (Rails generators)","zh":"生成代码（Rails 生成器）"},"windows":"Alt+Insert","mac":"Cmd+N","linux":"Alt+Insert","keywords":["generate","生成"],"pinyin":"sheng cheng dai ma shengchengdaima s c d m scdm sheng cheng shengcheng s c sc"},{"id":"rubymine-override-methods","appId":"rubymine","type":"software","category":"development","name":{"en":"Override Methods","zh":"重写方法"},"description":{"en":"Override methods","zh":"重写方法"},"windows":"Ctrl+O","mac":"Cmd+O","linux":"Ctrl+O","keywords":["override","重写"],"pinyin":"zhong xie fang fa zhongxiefangfa z x f f zxff zhong xie zhongxie z x zx"},{"id":"rubymine-surround-with","appId":"rubymine","type":"software","category":"development","name":{"en":"Surround With","zh":"包围"},"description":{"en":"Surround with template","zh":"用模板包围"},"windows":"Ctrl+Alt+T","mac":"Option+Cmd+T","linux":"Ctrl+Alt+T","keywords":["surround","包围"],"pinyin":"bao wei baowei b w bw bao wei baowei b w bw"},{"id":"rubymine-line-comment","appId":"rubymine","type":"software","category":"development","name":{"en":"Line Comment","zh":"行注释"},"description":{"en":"Comment with line/block comment","zh":"行/块注释"},"windows":"Ctrl+/","mac":"Cmd+/","linux":"Ctrl+/","keywords":["comment","注释"],"pinyin":"xing zhu shi xingzhushi x z s xzs zhu shi zhushi z s zs"},{"id":"rubymine-extend-selection","appId":"rubymine","type":"software","category":"development","name":{"en":"Extend Selection","zh":"扩大选择"},"description":{"en":"Select increasing code blocks","zh":"选择越来越大的代码块"},"windows":"Ctrl+W","mac":"Option+Up","linux":"Ctrl+W","keywords":["selection","选择"],"pinyin":"kuo da xuan ze kuodaxuanze k d x z kdxz xuan ze xuanze x z xz"},{"id":"rubymine-shrink-selection","appId":"rubymine","type":"software","category":"development","name":{"en":"Shrink Selection","zh":"缩小选择"},"description":{"en":"Decrease selection","zh":"缩小选择"},"windows":"Ctrl+Shift+W","mac":"Option+Down","linux":"Ctrl+Shift+W","keywords":["selection","选择"],"pinyin":"suo xiao xuan ze suoxiaoxuanze s x x z sxxz xuan ze xuanze x z xz"},{"id":"rubymine-show-intentions","appId":"rubymine","type":"software","category":"development","name":{"en":"Show Intentions","zh":"显示意图"},"description":{"en":"Show intention actions","zh":"显示意图操作"},"windows":"Alt+Enter","mac":"Option+Enter","linux":"Alt+Enter","keywords":["intention","意图"],"pinyin":"xian shi yi tu xianshiyitu x s y t xsyt yi tu yitu y t yt"},{"id":"rubymine-reformat-code","appId":"rubymine","type":"software","category":"development","name":{"en":"Reformat Code","zh":"格式化代码"},"description":{"en":"Reformat code","zh":"格式化代码"},"windows":"Ctrl+Alt+L","mac":"Option+Cmd+L","linux":"Ctrl+Alt+L","keywords":["reformat","格式化"],"pinyin":"ge shi hua dai ma geshihuadaima g s h d m gshdm ge shi hua geshihua g s h gsh"},{"id":"rubymine-auto-indent","appId":"rubymine","type":"software","category":"development","name":{"en":"Auto-indent","zh":"自动缩进"},"description":{"en":"Auto-indent lines","zh":"自动缩进行"},"windows":"Ctrl+Alt+I","mac":"Ctrl+Alt+I","linux":"Ctrl+Alt+I","keywords":["indent","缩进"],"pinyin":"zi dong suo jin zidongsuojin z d s j zdsj suo jin suojin s j sj"},{"id":"rubymine-paste-from-history","appId":"rubymine","type":"software","category":"development","name":{"en":"Paste from History","zh":"从历史粘贴"},"description":{"en":"Paste from buffer history","zh":"从缓冲区历史粘贴"},"windows":"Ctrl+Shift+V","mac":"Shift+Cmd+V","linux":"Ctrl+Shift+V","keywords":["paste","粘贴","历史"],"pinyin":"cong li shi nian tie conglishiniantie c l s n t clsnt nian tie   li shi niantie lishi n t   l s nt ls"},{"id":"rubymine-duplicate-line","appId":"rubymine","type":"software","category":"development","name":{"en":"Duplicate Line","zh":"复制行"},"description":{"en":"Duplicate current line","zh":"复制当前行"},"windows":"Ctrl+D","mac":"Cmd+D","linux":"Ctrl+D","keywords":["duplicate","复制"],"pinyin":"fu zhi xing fuzhixing f z x fzx fu zhi fuzhi f z fz"},{"id":"rubymine-delete-line","appId":"rubymine","type":"software","category":"development","name":{"en":"Delete Line","zh":"删除行"},"description":{"en":"Delete line at caret","zh":"删除光标所在行"},"windows":"Ctrl+Y","mac":"Cmd+Backspace","linux":"Ctrl+Y","keywords":["delete","删除"],"pinyin":"shan chu xing shanchuxing s c x scx shan chu shanchu s c sc"},{"id":"rubymine-start-new-line","appId":"rubymine","type":"software","category":"development","name":{"en":"Start New Line","zh":"新行"},"description":{"en":"Start a new line","zh":"开始新行"},"windows":"Shift+Enter","mac":"Shift+Enter","linux":"Shift+Enter","keywords":["new line","新行"],"pinyin":"xin xing xinxing x x xx xin xing xinxing x x xx"},{"id":"rubymine-toggle-case","appId":"rubymine","type":"software","category":"development","name":{"en":"Toggle Case","zh":"切换大小写"},"description":{"en":"Toggle case of word","zh":"切换单词大小写"},"windows":"Ctrl+Shift+U","mac":"Shift+Cmd+U","linux":"Ctrl+Shift+U","keywords":["case","大小写"],"pinyin":"qie huan da xiao xie qiehuandaxiaoxie q h d x x qhdxx da xiao xie daxiaoxie d x x dxx"},{"id":"rubymine-toggle-camel-snake","appId":"rubymine","type":"software","category":"development","name":{"en":"Toggle Camel/Snake","zh":"切换命名风格"},"description":{"en":"Toggle Camel/Snake case","zh":"切换驼峰/蛇形命名"},"windows":"Alt+Shift+U","mac":"Alt+Shift+U","linux":"Alt+Shift+U","keywords":["case","命名"],"pinyin":"qie huan ming ming feng ge qiehuanmingmingfengge q h m m f g qhmmfg ming ming mingming m m mm"},{"id":"rubymine-find-action","appId":"rubymine","type":"software","category":"development","name":{"en":"Find Action","zh":"查找操作"},"description":{"en":"Find any action","zh":"查找任意操作"},"windows":"Ctrl+Shift+A","mac":"Shift+Cmd+A","linux":"Ctrl+Shift+A","keywords":["find action","查找操作"],"pinyin":"cha zhao cao zuo chazhaocaozuo c z c z czcz cha zhao cao zuo chazhaocaozuo c z c z czcz"},{"id":"rubymine-search-everywhere","appId":"rubymine","type":"software","category":"development","name":{"en":"Search Everywhere","zh":"全局搜索"},"description":{"en":"Search everywhere","zh":"全局搜索"},"windows":"Shift Shift","mac":"Shift Shift","linux":"Shift Shift","keywords":["search","搜索"],"pinyin":"quan ju sou suo quanjusousuo q j s s qjss sou suo sousuo s s ss"},{"id":"rubymine-synchronize","appId":"rubymine","type":"software","category":"development","name":{"en":"Synchronize","zh":"同步"},"description":{"en":"Synchronize files","zh":"同步文件"},"windows":"Ctrl+Alt+Y","mac":"Option+Cmd+Y","linux":"Ctrl+Alt+Y","keywords":["sync","同步"],"pinyin":"tong bu tongbu t b tb tong bu tongbu t b tb"},{"id":"rubymine-maximize-editor","appId":"rubymine","type":"software","category":"development","name":{"en":"Maximize Editor","zh":"最大化编辑器"},"description":{"en":"Toggle maximizing editor","zh":"切换编辑器最大化"},"windows":"Ctrl+Shift+F12","mac":"Shift+Cmd+F12","linux":"Ctrl+Shift+F12","keywords":["maximize","最大化"],"pinyin":"zui da hua bian ji qi zuidahuabianjiqi z d h b j q zdhbjq zui da hua zuidahua z d h zdh"},{"id":"rubymine-hide-active-window","appId":"rubymine","type":"software","category":"development","name":{"en":"Hide Active Window","zh":"隐藏活动窗口"},"description":{"en":"Hide active/last window","zh":"隐藏活动/上一个窗口"},"windows":"Shift+Esc","mac":"Shift+Esc","linux":"Shift+Esc","keywords":["hide","隐藏"],"pinyin":"yin cang huo dong chuang kou yincanghuodongchuangkou y c h d c k ychdck yin cang yincang y c yc"},{"id":"rubymine-close-tab","appId":"rubymine","type":"software","category":"development","name":{"en":"Close Tab","zh":"关闭标签页"},"description":{"en":"Close active editor tab","zh":"关闭活动编辑器标签页"},"windows":"Ctrl+F4","mac":"Cmd+W","linux":"Ctrl+F4","keywords":["close","关闭"],"pinyin":"guan bi biao qian ye guanbibiaoqianye g b b q y gbbqy guan bi guanbi g b gb"},{"id":"rubymine-switch-tabs","appId":"rubymine","type":"software","category":"development","name":{"en":"Switch Tabs","zh":"切换标签页"},"description":{"en":"Switch between tabs","zh":"在标签页间切换"},"windows":"Ctrl+Tab","mac":"Ctrl+Tab","linux":"Ctrl+Tab","keywords":["tab","标签页"],"pinyin":"qie huan biao qian ye qiehuanbiaoqianye q h b q y qhbqy biao qian ye biaoqianye b q y bqy"},{"id":"rubymine-show-project-window","appId":"rubymine","type":"software","category":"development","name":{"en":"Show Project Window","zh":"显示项目窗口"},"description":{"en":"Show Project tool window","zh":"显示项目工具窗口"},"windows":"Alt+1","mac":"Cmd+1","linux":"Alt+1","keywords":["project","项目"],"pinyin":"xian shi xiang mu chuang kou xianshixiangmuchuangkou x s x m c k xsxmck xiang mu xiangmu x m xm"},{"id":"rubymine-show-run-window","appId":"rubymine","type":"software","category":"development","name":{"en":"Show Run Window","zh":"显示运行窗口"},"description":{"en":"Show Run tool window","zh":"显示运行工具窗口"},"windows":"Alt+4","mac":"Cmd+4","linux":"Alt+4","keywords":["run","运行"],"pinyin":"xian shi yun xing chuang kou xianshiyunxingchuangkou x s y x c k xsyxck yun xing yunxing y x yx"},{"id":"rubymine-show-debug-window","appId":"rubymine","type":"software","category":"development","name":{"en":"Show Debug Window","zh":"显示调试窗口"},"description":{"en":"Show Debug tool window","zh":"显示调试工具窗口"},"windows":"Alt+5","mac":"Cmd+5","linux":"Alt+5","keywords":["debug","调试"],"pinyin":"xian shi tiao shi chuang kou xianshitiaoshichuangkou x s t s c k xstsck tiao shi tiaoshi t s ts"},{"id":"rubymine-show-terminal","appId":"rubymine","type":"software","category":"development","name":{"en":"Show Terminal","zh":"显示终端"},"description":{"en":"Show Terminal tool window","zh":"显示终端工具窗口"},"windows":"Alt+F12","mac":"Alt+F12","linux":"Alt+F12","keywords":["terminal","终端"],"pinyin":"xian shi zhong duan xianshizhongduan x s z d xszd zhong duan zhongduan z d zd"},{"id":"rubymine-go-to-class","appId":"rubymine","type":"software","category":"development","name":{"en":"Go to Class","zh":"跳转到类"},"description":{"en":"Go to a class","zh":"跳转到类"},"windows":"Ctrl+N","mac":"Cmd+O","linux":"Ctrl+N","keywords":["class","类"],"pinyin":"tiao zhuan dao lei tiaozhuandaolei t z d l tzdl lei lei l l"},{"id":"rubymine-go-to-file","appId":"rubymine","type":"software","category":"development","name":{"en":"Go to File","zh":"跳转到文件"},"description":{"en":"Go to a file","zh":"跳转到文件"},"windows":"Ctrl+Shift+N","mac":"Shift+Cmd+O","linux":"Ctrl+Shift+N","keywords":["file","文件"],"pinyin":"tiao zhuan dao wen jian tiaozhuandaowenjian t z d w j tzdwj wen jian wenjian w j wj"},{"id":"rubymine-go-to-symbol","appId":"rubymine","type":"software","category":"development","name":{"en":"Go to Symbol","zh":"跳转到符号"},"description":{"en":"Go to a symbol","zh":"跳转到符号"},"windows":"Ctrl+Alt+Shift+N","mac":"Option+Cmd+O","linux":"Ctrl+Alt+Shift+N","keywords":["symbol","符号"],"pinyin":"tiao zhuan dao fu hao tiaozhuandaofuhao t z d f h tzdfh fu hao fuhao f h fh"},{"id":"rubymine-next-editor-tab","appId":"rubymine","type":"software","category":"development","name":{"en":"Next Editor Tab","zh":"下一编辑器标签"},"description":{"en":"Go to next/previous editor tab","zh":"上一/下一编辑器标签"},"windows":"Alt+Right","mac":"Shift+Cmd+]","linux":"Alt+Right","keywords":["tab","标签页"],"pinyin":"xia yi bian ji qi biao qian xiayibianjiqibiaoqian x y b j q b q xybjqbq biao qian ye biaoqianye b q y bqy"},{"id":"rubymine-go-to-line","appId":"rubymine","type":"software","category":"development","name":{"en":"Go to Line","zh":"跳转到行"},"description":{"en":"Go to a line number","zh":"跳转到行号"},"windows":"Ctrl+G","mac":"Cmd+L","linux":"Ctrl+G","keywords":["line","行"],"pinyin":"tiao zhuan dao xing tiaozhuandaoxing t z d x tzdx xing xing x x"},{"id":"rubymine-recent-files","appId":"rubymine","type":"software","category":"development","name":{"en":"Recent Files","zh":"最近文件"},"description":{"en":"Recent files popup","zh":"最近文件弹窗"},"windows":"Ctrl+E","mac":"Cmd+E","linux":"Ctrl+E","keywords":["recent","最近文件"],"pinyin":"zui jin wen jian zuijinwenjian z j w j zjwj zui jin wen jian zuijinwenjian z j w j zjwj"},{"id":"rubymine-navigate-back","appId":"rubymine","type":"software","category":"development","name":{"en":"Navigate Back","zh":"向后导航"},"description":{"en":"Navigate back/forward","zh":"向后/向前导航"},"windows":"Ctrl+Alt+Left","mac":"Option+Cmd+Left","linux":"Ctrl+Alt+Left","keywords":["navigate","导航"],"pinyin":"xiang hou dao hang xianghoudaohang x h d h xhdh dao hang daohang d h dh"},{"id":"rubymine-last-edit-location","appId":"rubymine","type":"software","category":"development","name":{"en":"Last Edit Location","zh":"上次编辑位置"},"description":{"en":"Go to last edit location","zh":"跳到上次编辑位置"},"windows":"Ctrl+Shift+Backspace","mac":"Shift+Cmd+Backspace","linux":"Ctrl+Shift+Backspace","keywords":["edit","编辑"],"pinyin":"shang ci bian ji wei zhi shangcibianjiweizhi s c b j w z scbjwz bian ji bianji b j bj"},{"id":"rubymine-go-to-declaration","appId":"rubymine","type":"software","category":"development","name":{"en":"Go to Declaration","zh":"跳转到声明"},"description":{"en":"Go to declaration","zh":"跳转到声明"},"windows":"Ctrl+B","mac":"Cmd+B","linux":"Ctrl+B","keywords":["declaration","声明"],"pinyin":"tiao zhuan dao sheng ming tiaozhuandaoshengming t z d s m tzdsm sheng ming shengming s m sm"},{"id":"rubymine-quick-definition","appId":"rubymine","type":"software","category":"development","name":{"en":"Quick Definition","zh":"快速定义"},"description":{"en":"Quick definition lookup","zh":"快速定义查询"},"windows":"Ctrl+Shift+I","mac":"Option+Space","linux":"Ctrl+Shift+I","keywords":["definition","定义"],"pinyin":"kuai su ding yi kuaisudingyi k s d y ksdy ding yi dingyi d y dy"},{"id":"rubymine-go-to-super","appId":"rubymine","type":"software","category":"development","name":{"en":"Go to Super","zh":"跳转到父类"},"description":{"en":"Go to super method/class","zh":"跳转到父类方法/类"},"windows":"Ctrl+U","mac":"Cmd+U","linux":"Ctrl+U","keywords":["super","父类"],"pinyin":"tiao zhuan dao fu lei tiaozhuandaofulei t z d f l tzdfl fu lei fulei f l fl"},{"id":"rubymine-next-method","appId":"rubymine","type":"software","category":"development","name":{"en":"Next Method","zh":"下一方法"},"description":{"en":"Go to next/previous method","zh":"上一/下一方法"},"windows":"Alt+Down","mac":"Ctrl+Down","linux":"Alt+Down","keywords":["method","方法"],"pinyin":"xia yi fang fa xiayifangfa x y f f xyff fang fa fangfa f f ff"},{"id":"rubymine-file-structure","appId":"rubymine","type":"software","category":"development","name":{"en":"File Structure","zh":"文件结构"},"description":{"en":"File structure popup","zh":"文件结构弹窗"},"windows":"Ctrl+F12","mac":"Cmd+F12","linux":"Ctrl+F12","keywords":["structure","结构"],"pinyin":"wen jian jie gou wenjianjiegou w j j g wjjg jie gou jiegou j g jg"},{"id":"rubymine-type-hierarchy","appId":"rubymine","type":"software","category":"development","name":{"en":"Type Hierarchy","zh":"类型层级"},"description":{"en":"Show type hierarchy","zh":"显示类型层级"},"windows":"Ctrl+H","mac":"Ctrl+H","linux":"Ctrl+H","keywords":["hierarchy","层级"],"pinyin":"lei xing ceng ji leixingcengji l x c j lxcj ceng ji cengji c j cj"},{"id":"rubymine-next-error","appId":"rubymine","type":"software","category":"development","name":{"en":"Next Error","zh":"下一错误"},"description":{"en":"Go to next highlighted error","zh":"跳到下一处高亮错误"},"windows":"F2","mac":"F2","linux":"F2","keywords":["error","错误"],"pinyin":"xia yi cuo wu xiayicuowu x y c w xycw cuo wu cuowu c w cw"},{"id":"rubymine-toggle-bookmark","appId":"rubymine","type":"software","category":"development","name":{"en":"Toggle Bookmark","zh":"切换书签"},"description":{"en":"Toggle bookmark","zh":"切换书签"},"windows":"F11","mac":"F3","linux":"F11","keywords":["bookmark","书签"],"pinyin":"qie huan shu qian qiehuanshuqian q h s q qhsq shu qian shuqian s q sq"},{"id":"rubymine-show-bookmarks","appId":"rubymine","type":"software","category":"development","name":{"en":"Show Bookmarks","zh":"显示书签"},"description":{"en":"Show bookmarks","zh":"显示书签"},"windows":"Shift+F11","mac":"Cmd+F3","linux":"Shift+F11","keywords":["bookmark","书签"],"pinyin":"xian shi shu qian xianshishuqian x s s q xssq shu qian shuqian s q sq"},{"id":"rubymine-rails-model-view","appId":"rubymine","type":"software","category":"development","name":{"en":"Rails Model/View","zh":"Rails 模型/视图"},"description":{"en":"Navigate to Rails MVC","zh":"导航到 Rails MVC"},"windows":"Ctrl+Alt+Shift+N","mac":"Cmd+Up","linux":"Ctrl+Alt+Shift+N","keywords":["rails","mvc"],"pinyin":"r a i l s   mo xing / shi tu rails moxing/shitu r a i l s   m x / s t rails mx/st"},{"id":"rubymine-run-rails-generator","appId":"rubymine","type":"software","category":"development","name":{"en":"Run Rails Generator","zh":"运行 Rails 生成器"},"description":{"en":"Run a Rails generator","zh":"运行 Rails 生成器"},"windows":"Ctrl+Alt+G","mac":"Option+Cmd+G","linux":"Ctrl+Alt+G","keywords":["rails","generator","生成器"],"pinyin":"yun xing   r a i l s   sheng cheng qi yunxing rails shengchengqi y x   r a i l s   s c q yx rails scq sheng cheng qi shengchengqi s c q scq"},{"id":"rubymine-run-anything","appId":"rubymine","type":"software","category":"development","name":{"en":"Run Anything","zh":"运行任意"},"description":{"en":"Run Anything popup","zh":"运行任意弹窗"},"windows":"Ctrl Ctrl","mac":"Ctrl Ctrl","linux":"Ctrl Ctrl","keywords":["run","运行"],"pinyin":"yun xing ren yi yunxingrenyi y x r y yxry yun xing yunxing y x yx"},{"id":"rubymine-run","appId":"rubymine","type":"software","category":"development","name":{"en":"Run","zh":"运行"},"description":{"en":"Run configuration","zh":"运行配置"},"windows":"Shift+F10","mac":"Ctrl+R","linux":"Shift+F10","keywords":["run","运行"],"pinyin":"yun xing yunxing y x yx yun xing yunxing y x yx"},{"id":"rubymine-debug","appId":"rubymine","type":"software","category":"development","name":{"en":"Debug","zh":"调试"},"description":{"en":"Debug configuration","zh":"调试配置"},"windows":"Shift+F9","mac":"Ctrl+D","linux":"Shift+F9","keywords":["debug","调试"],"pinyin":"tiao shi tiaoshi t s ts tiao shi tiaoshi t s ts"},{"id":"rubymine-run-context","appId":"rubymine","type":"software","category":"development","name":{"en":"Run Context","zh":"运行上下文"},"description":{"en":"Run context config from editor","zh":"从编辑器运行上下文配置"},"windows":"Ctrl+Shift+F10","mac":"Ctrl+Shift+R","linux":"Ctrl+Shift+F10","keywords":["run","运行","上下文"],"pinyin":"yun xing shang xia wen yunxingshangxiawen y x s x w yxsxw yun xing   shang xia wen yunxing shangxiawen y x   s x w yx sxw"},{"id":"rubymine-run-rake-task","appId":"rubymine","type":"software","category":"development","name":{"en":"Run Rake Task","zh":"运行 Rake 任务"},"description":{"en":"Run a rake task","zh":"运行 rake 任务"},"windows":"Ctrl+Alt+R","mac":"Option+R","linux":"Ctrl+Alt+R","keywords":["rake","任务"],"pinyin":"yun xing   r a k e   ren wu yunxing rake renwu y x   r a k e   r w yx rake rw ren wu renwu r w rw"},{"id":"rubymine-step-over","appId":"rubymine","type":"software","category":"development","name":{"en":"Step Over","zh":"单步跳过"},"description":{"en":"Step over","zh":"单步跳过"},"windows":"F8","mac":"F8","linux":"F8","keywords":["step","单步"],"pinyin":"dan bu tiao guo danbutiaoguo d b t g dbtg dan bu danbu d b db"},{"id":"rubymine-step-into","appId":"rubymine","type":"software","category":"development","name":{"en":"Step Into","zh":"单步进入"},"description":{"en":"Step into","zh":"单步进入"},"windows":"F7","mac":"F7","linux":"F7","keywords":["step","单步"],"pinyin":"dan bu jin ru danbujinru d b j r dbjr dan bu danbu d b db"},{"id":"rubymine-step-out","appId":"rubymine","type":"software","category":"development","name":{"en":"Step Out","zh":"单步跳出"},"description":{"en":"Step out","zh":"单步跳出"},"windows":"Shift+F8","mac":"Shift+F8","linux":"Shift+F8","keywords":["step","单步"],"pinyin":"dan bu tiao chu danbutiaochu d b t c dbtc dan bu danbu d b db"},{"id":"rubymine-resume-program","appId":"rubymine","type":"software","category":"development","name":{"en":"Resume Program","zh":"恢复程序"},"description":{"en":"Resume program","zh":"恢复程序"},"windows":"F9","mac":"Option+Cmd+R","linux":"F9","keywords":["resume","恢复"],"pinyin":"hui fu cheng xu huifuchengxu h f c x hfcx hui fu huifu h f hf"},{"id":"rubymine-toggle-breakpoint","appId":"rubymine","type":"software","category":"development","name":{"en":"Toggle Breakpoint","zh":"切换断点"},"description":{"en":"Toggle a breakpoint","zh":"切换断点"},"windows":"Ctrl+F8","mac":"Cmd+F8","linux":"Ctrl+F8","keywords":["breakpoint","断点"],"pinyin":"qie huan duan dian qiehuanduandian q h d d qhdd duan dian duandian d d dd"},{"id":"rubymine-view-breakpoints","appId":"rubymine","type":"software","category":"development","name":{"en":"View Breakpoints","zh":"查看断点"},"description":{"en":"View breakpoints","zh":"查看断点"},"windows":"Ctrl+Shift+F8","mac":"Shift+Cmd+F8","linux":"Ctrl+Shift+F8","keywords":["breakpoint","断点"],"pinyin":"cha kan duan dian chakanduandian c k d d ckdd duan dian duandian d d dd"},{"id":"rubymine-surround-live-template","appId":"rubymine","type":"software","category":"development","name":{"en":"Surround Live Template","zh":"包围实时模板"},"description":{"en":"Surround with live template","zh":"用实时模板包围"},"windows":"Ctrl+Alt+J","mac":"Option+Cmd+J","linux":"Ctrl+Alt+J","keywords":["template","模板"],"pinyin":"bao wei shi shi mu ban baoweishishimuban b w s s m b bwssmb mu ban muban m b mb"},{"id":"rubymine-insert-live-template","appId":"rubymine","type":"software","category":"development","name":{"en":"Insert Live Template","zh":"插入实时模板"},"description":{"en":"Insert live template","zh":"插入实时模板"},"windows":"Ctrl+J","mac":"Cmd+J","linux":"Ctrl+J","keywords":["template","模板"],"pinyin":"cha ru shi shi mu ban charushishimuban c r s s m b crssmb mu ban muban m b mb"},{"id":"rubymine-refactor-copy","appId":"rubymine","type":"software","category":"development","name":{"en":"Refactor Copy","zh":"重构-复制"},"description":{"en":"Copy refactoring","zh":"复制重构"},"windows":"F5","mac":"F5","linux":"F5","keywords":["refactor","重构"],"pinyin":"zhong gou - fu zhi zhonggou-fuzhi z g - f z zg-fz zhong gou zhonggou z g zg"},{"id":"rubymine-refactor-move","appId":"rubymine","type":"software","category":"development","name":{"en":"Refactor Move","zh":"重构-移动"},"description":{"en":"Move refactoring","zh":"移动重构"},"windows":"F6","mac":"F6","linux":"F6","keywords":["refactor","重构"],"pinyin":"zhong gou - yi dong zhonggou-yidong z g - y d zg-yd zhong gou zhonggou z g zg"},{"id":"rubymine-rename","appId":"rubymine","type":"software","category":"development","name":{"en":"Rename","zh":"重命名"},"description":{"en":"Rename refactoring","zh":"重命名重构"},"windows":"Shift+F6","mac":"Shift+F6","linux":"Shift+F6","keywords":["rename","重命名"],"pinyin":"zhong ming ming zhongmingming z m m zmm zhong ming ming zhongmingming z m m zmm"},{"id":"rubymine-extract-variable","appId":"rubymine","type":"software","category":"development","name":{"en":"Extract Variable","zh":"提取变量"},"description":{"en":"Extract variable","zh":"提取变量"},"windows":"Ctrl+Alt+V","mac":"Option+Cmd+V","linux":"Ctrl+Alt+V","keywords":["extract","提取","变量"],"pinyin":"ti qu bian liang tiqubianliang t q b l tqbl ti qu   bian liang tiqu bianliang t q   b l tq bl"},{"id":"rubymine-extract-constant","appId":"rubymine","type":"software","category":"development","name":{"en":"Extract Constant","zh":"提取常量"},"description":{"en":"Extract constant","zh":"提取常量"},"windows":"Ctrl+Alt+C","mac":"Option+Cmd+C","linux":"Ctrl+Alt+C","keywords":["extract","提取","常量"],"pinyin":"ti qu chang liang tiquchangliang t q c l tqcl ti qu   chang liang tiqu changliang t q   c l tq cl"},{"id":"rubymine-extract-field","appId":"rubymine","type":"software","category":"development","name":{"en":"Extract Field","zh":"提取字段"},"description":{"en":"Extract field","zh":"提取字段"},"windows":"Ctrl+Alt+F","mac":"Option+Cmd+F","linux":"Ctrl+Alt+F","keywords":["extract","提取","字段"],"pinyin":"ti qu zi duan tiquziduan t q z d tqzd ti qu   zi duan tiqu ziduan t q   z d tq zd"},{"id":"rubymine-extract-method","appId":"rubymine","type":"software","category":"development","name":{"en":"Extract Method","zh":"提取方法"},"description":{"en":"Extract method","zh":"提取方法"},"windows":"Ctrl+Alt+M","mac":"Option+Cmd+M","linux":"Ctrl+Alt+M","keywords":["extract","提取","方法"],"pinyin":"ti qu fang fa tiqufangfa t q f f tqff ti qu   fang fa tiqu fangfa t q   f f tq ff"},{"id":"rubymine-extract-parameter","appId":"rubymine","type":"software","category":"development","name":{"en":"Extract Parameter","zh":"提取参数"},"description":{"en":"Extract parameter","zh":"提取参数"},"windows":"Ctrl+Alt+P","mac":"Option+Cmd+P","linux":"Ctrl+Alt+P","keywords":["extract","提取","参数"],"pinyin":"ti qu can shu tiqucanshu t q c s tqcs ti qu   can shu tiqu canshu t q   c s tq cs"},{"id":"rubymine-inline","appId":"rubymine","type":"software","category":"development","name":{"en":"Inline","zh":"内联"},"description":{"en":"Inline refactoring","zh":"内联重构"},"windows":"Ctrl+Alt+N","mac":"Option+Cmd+N","linux":"Ctrl+Alt+N","keywords":["inline","内联"],"pinyin":"nei lian neilian n l nl nei lian neilian n l nl"},{"id":"rubymine-refactor-this","appId":"rubymine","type":"software","category":"development","name":{"en":"Refactor This","zh":"重构此"},"description":{"en":"Refactor quick list","zh":"重构快捷列表"},"windows":"Ctrl+Alt+Shift+T","mac":"Ctrl+T","linux":"Ctrl+Alt+Shift+T","keywords":["refactor","重构"],"pinyin":"zhong gou ci zhonggouci z g c zgc zhong gou zhonggou z g zg"},{"id":"rubymine-find-usages","appId":"rubymine","type":"software","category":"development","name":{"en":"Find Usages","zh":"查找用法"},"description":{"en":"Find usages","zh":"查找用法"},"windows":"Alt+F7","mac":"Option+F7","linux":"Alt+F7","keywords":["usages","用法"],"pinyin":"cha zhao yong fa chazhaoyongfa c z y f czyf yong fa yongfa y f yf"},{"id":"rubymine-find-in-path","appId":"rubymine","type":"software","category":"development","name":{"en":"Find in Path","zh":"路径中查找"},"description":{"en":"Find in path","zh":"在路径中查找"},"windows":"Ctrl+Shift+F","mac":"Shift+Cmd+F","linux":"Ctrl+Shift+F","keywords":["find","查找"],"pinyin":"lu jing zhong cha zhao lujingzhongchazhao l j z c z ljzcz cha zhao chazhao c z cz"},{"id":"rubymine-replace-in-path","appId":"rubymine","type":"software","category":"development","name":{"en":"Replace in Path","zh":"路径中替换"},"description":{"en":"Replace in path","zh":"在路径中替换"},"windows":"Ctrl+Shift+R","mac":"Shift+Cmd+R","linux":"Ctrl+Shift+R","keywords":["replace","替换"],"pinyin":"lu jing zhong ti huan lujingzhongtihuan l j z t h ljzth ti huan tihuan t h th"},{"id":"rubymine-commit-to-vcs","appId":"rubymine","type":"software","category":"development","name":{"en":"Commit to VCS","zh":"提交到 VCS"},"description":{"en":"Commit project to VCS","zh":"将项目提交到 VCS"},"windows":"Ctrl+K","mac":"Cmd+K","linux":"Ctrl+K","keywords":["commit","提交"],"pinyin":"ti jiao dao   v c s tijiaodao vcs t j d   v c s tjd vcs ti jiao tijiao t j tj"},{"id":"rubymine-update-from-vcs","appId":"rubymine","type":"software","category":"development","name":{"en":"Update from VCS","zh":"从 VCS 更新"},"description":{"en":"Update project from VCS","zh":"从 VCS 更新项目"},"windows":"Ctrl+T","mac":"Cmd+T","linux":"Ctrl+T","keywords":["update","更新"],"pinyin":"cong   v c s   geng xin cong vcs gengxin c   v c s   g x c vcs gx geng xin gengxin g x gx"},{"id":"rubymine-recent-changes","appId":"rubymine","type":"software","category":"development","name":{"en":"Recent Changes","zh":"最近更改"},"description":{"en":"View recent changes","zh":"查看最近更改"},"windows":"Ctrl+Shift+E","mac":"Option+Shift+C","linux":"Ctrl+Shift+E","keywords":["changes","更改"],"pinyin":"zui jin geng gai zuijingenggai z j g g zjgg geng gai genggai g g gg"},{"id":"rubymine-vcs-operations","appId":"rubymine","type":"software","category":"development","name":{"en":"VCS Operations","zh":"VCS 操作"},"description":{"en":"VCS operations popup","zh":"VCS 操作弹窗"},"windows":"Alt+`","mac":"Ctrl+V","linux":"Alt+`","keywords":["vcs","操作"],"pinyin":"v c s   cao zuo vcs caozuo v c s   c z vcs cz cao zuo caozuo c z cz"}]
+[
+  {
+    "id": "rubymine-basic-completion",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Basic Completion",
+      "zh": "基础补全"
+    },
+    "description": {
+      "en": "Basic code completion",
+      "zh": "基础代码补全"
+    },
+    "windows": "Ctrl+Space",
+    "mac": "Control+Space",
+    "linux": "Ctrl+Space",
+    "keywords": [
+      "completion",
+      "补全"
+    ],
+    "pinyin": "ji chu bu quan jichubuquan j c b q jcbq bu quan buquan b q bq"
+  },
+  {
+    "id": "rubymine-complete-statement",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Complete Statement",
+      "zh": "完成语句"
+    },
+    "description": {
+      "en": "Complete the current statement",
+      "zh": "完成当前语句"
+    },
+    "windows": "Ctrl+Shift+Enter",
+    "mac": "Shift+Cmd+Enter",
+    "linux": "Ctrl+Shift+Enter",
+    "keywords": [
+      "complete",
+      "完成"
+    ],
+    "pinyin": "wan cheng yu ju wanchengyuju w c y j wcyj wan cheng wancheng w c wc"
+  },
+  {
+    "id": "rubymine-parameter-info",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Parameter Info",
+      "zh": "参数信息"
+    },
+    "description": {
+      "en": "Show parameter info",
+      "zh": "显示参数信息"
+    },
+    "windows": "Ctrl+P",
+    "mac": "Cmd+P",
+    "linux": "Ctrl+P",
+    "keywords": [
+      "parameter",
+      "参数"
+    ],
+    "pinyin": "can shu xin xi canshuxinxi c s x x csxx can shu canshu c s cs"
+  },
+  {
+    "id": "rubymine-quick-documentation",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Quick Documentation",
+      "zh": "快速文档"
+    },
+    "description": {
+      "en": "Quick documentation lookup",
+      "zh": "快速文档查询"
+    },
+    "windows": "Ctrl+Q",
+    "mac": "Ctrl+J",
+    "linux": "Ctrl+Q",
+    "keywords": [
+      "documentation",
+      "文档"
+    ],
+    "pinyin": "kuai su wen dang kuaisuwendang k s w d kswd wen dang wendang w d wd"
+  },
+  {
+    "id": "rubymine-generate-code",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Generate Code",
+      "zh": "生成代码"
+    },
+    "description": {
+      "en": "Generate code (Rails generators)",
+      "zh": "生成代码（Rails 生成器）"
+    },
+    "windows": "Alt+Insert",
+    "mac": "Cmd+N",
+    "linux": "Alt+Insert",
+    "keywords": [
+      "generate",
+      "生成"
+    ],
+    "pinyin": "sheng cheng dai ma shengchengdaima s c d m scdm sheng cheng shengcheng s c sc"
+  },
+  {
+    "id": "rubymine-override-methods",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Override Methods",
+      "zh": "重写方法"
+    },
+    "description": {
+      "en": "Override methods",
+      "zh": "重写方法"
+    },
+    "windows": "Ctrl+O",
+    "mac": "Cmd+O",
+    "linux": "Ctrl+O",
+    "keywords": [
+      "override",
+      "重写"
+    ],
+    "pinyin": "zhong xie fang fa zhongxiefangfa z x f f zxff zhong xie zhongxie z x zx"
+  },
+  {
+    "id": "rubymine-surround-with",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Surround With",
+      "zh": "包围"
+    },
+    "description": {
+      "en": "Surround with template",
+      "zh": "用模板包围"
+    },
+    "windows": "Ctrl+Alt+T",
+    "mac": "Option+Cmd+T",
+    "linux": "Ctrl+Alt+T",
+    "keywords": [
+      "surround",
+      "包围"
+    ],
+    "pinyin": "bao wei baowei b w bw bao wei baowei b w bw"
+  },
+  {
+    "id": "rubymine-line-comment",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Line Comment",
+      "zh": "行注释"
+    },
+    "description": {
+      "en": "Comment with line/block comment",
+      "zh": "行/块注释"
+    },
+    "windows": "Ctrl+/",
+    "mac": "Cmd+/",
+    "linux": "Ctrl+/",
+    "keywords": [
+      "comment",
+      "注释"
+    ],
+    "pinyin": "xing zhu shi xingzhushi x z s xzs zhu shi zhushi z s zs"
+  },
+  {
+    "id": "rubymine-extend-selection",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Extend Selection",
+      "zh": "扩大选择"
+    },
+    "description": {
+      "en": "Select increasing code blocks",
+      "zh": "选择越来越大的代码块"
+    },
+    "windows": "Ctrl+W",
+    "mac": "Option+Up",
+    "linux": "Ctrl+W",
+    "keywords": [
+      "selection",
+      "选择"
+    ],
+    "pinyin": "kuo da xuan ze kuodaxuanze k d x z kdxz xuan ze xuanze x z xz"
+  },
+  {
+    "id": "rubymine-shrink-selection",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Shrink Selection",
+      "zh": "缩小选择"
+    },
+    "description": {
+      "en": "Decrease selection",
+      "zh": "缩小选择"
+    },
+    "windows": "Ctrl+Shift+W",
+    "mac": "Option+Down",
+    "linux": "Ctrl+Shift+W",
+    "keywords": [
+      "selection",
+      "选择"
+    ],
+    "pinyin": "suo xiao xuan ze suoxiaoxuanze s x x z sxxz xuan ze xuanze x z xz"
+  },
+  {
+    "id": "rubymine-show-intentions",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Show Intentions",
+      "zh": "显示意图"
+    },
+    "description": {
+      "en": "Show intention actions",
+      "zh": "显示意图操作"
+    },
+    "windows": "Alt+Enter",
+    "mac": "Option+Enter",
+    "linux": "Alt+Enter",
+    "keywords": [
+      "intention",
+      "意图"
+    ],
+    "pinyin": "xian shi yi tu xianshiyitu x s y t xsyt yi tu yitu y t yt"
+  },
+  {
+    "id": "rubymine-reformat-code",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Reformat Code",
+      "zh": "格式化代码"
+    },
+    "description": {
+      "en": "Reformat code",
+      "zh": "格式化代码"
+    },
+    "windows": "Ctrl+Alt+L",
+    "mac": "Option+Cmd+L",
+    "linux": "Ctrl+Alt+L",
+    "keywords": [
+      "reformat",
+      "格式化"
+    ],
+    "pinyin": "ge shi hua dai ma geshihuadaima g s h d m gshdm ge shi hua geshihua g s h gsh"
+  },
+  {
+    "id": "rubymine-auto-indent",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Auto-indent",
+      "zh": "自动缩进"
+    },
+    "description": {
+      "en": "Auto-indent lines",
+      "zh": "自动缩进行"
+    },
+    "windows": "Ctrl+Alt+I",
+    "mac": "Ctrl+Alt+I",
+    "linux": "Ctrl+Alt+I",
+    "keywords": [
+      "indent",
+      "缩进"
+    ],
+    "pinyin": "zi dong suo jin zidongsuojin z d s j zdsj suo jin suojin s j sj"
+  },
+  {
+    "id": "rubymine-paste-from-history",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Paste from History",
+      "zh": "从历史粘贴"
+    },
+    "description": {
+      "en": "Paste from buffer history",
+      "zh": "从缓冲区历史粘贴"
+    },
+    "windows": "Ctrl+Shift+V",
+    "mac": "Shift+Cmd+V",
+    "linux": "Ctrl+Shift+V",
+    "keywords": [
+      "paste",
+      "粘贴",
+      "历史"
+    ],
+    "pinyin": "cong li shi nian tie conglishiniantie c l s n t clsnt nian tie   li shi niantie lishi n t   l s nt ls"
+  },
+  {
+    "id": "rubymine-duplicate-line",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Duplicate Line",
+      "zh": "复制行"
+    },
+    "description": {
+      "en": "Duplicate current line",
+      "zh": "复制当前行"
+    },
+    "windows": "Ctrl+D",
+    "mac": "Cmd+D",
+    "linux": "Ctrl+D",
+    "keywords": [
+      "duplicate",
+      "复制"
+    ],
+    "pinyin": "fu zhi xing fuzhixing f z x fzx fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "rubymine-delete-line",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Delete Line",
+      "zh": "删除行"
+    },
+    "description": {
+      "en": "Delete line at caret",
+      "zh": "删除光标所在行"
+    },
+    "windows": "Ctrl+Y",
+    "mac": "Cmd+Backspace",
+    "linux": "Ctrl+Y",
+    "keywords": [
+      "delete",
+      "删除"
+    ],
+    "pinyin": "shan chu xing shanchuxing s c x scx shan chu shanchu s c sc"
+  },
+  {
+    "id": "rubymine-start-new-line",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Start New Line",
+      "zh": "新行"
+    },
+    "description": {
+      "en": "Start a new line",
+      "zh": "开始新行"
+    },
+    "windows": "Shift+Enter",
+    "mac": "Shift+Enter",
+    "linux": "Shift+Enter",
+    "keywords": [
+      "new line",
+      "新行"
+    ],
+    "pinyin": "xin xing xinxing x x xx xin xing xinxing x x xx"
+  },
+  {
+    "id": "rubymine-toggle-case",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Toggle Case",
+      "zh": "切换大小写"
+    },
+    "description": {
+      "en": "Toggle case of word",
+      "zh": "切换单词大小写"
+    },
+    "windows": "Ctrl+Shift+U",
+    "mac": "Shift+Cmd+U",
+    "linux": "Ctrl+Shift+U",
+    "keywords": [
+      "case",
+      "大小写"
+    ],
+    "pinyin": "qie huan da xiao xie qiehuandaxiaoxie q h d x x qhdxx da xiao xie daxiaoxie d x x dxx"
+  },
+  {
+    "id": "rubymine-toggle-camel-snake",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Toggle Camel/Snake",
+      "zh": "切换命名风格"
+    },
+    "description": {
+      "en": "Toggle Camel/Snake case",
+      "zh": "切换驼峰/蛇形命名"
+    },
+    "windows": "Alt+Shift+U",
+    "mac": "Alt+Shift+U",
+    "linux": "Alt+Shift+U",
+    "keywords": [
+      "case",
+      "命名"
+    ],
+    "pinyin": "qie huan ming ming feng ge qiehuanmingmingfengge q h m m f g qhmmfg ming ming mingming m m mm"
+  },
+  {
+    "id": "rubymine-find-action",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Find Action",
+      "zh": "查找操作"
+    },
+    "description": {
+      "en": "Find any action",
+      "zh": "查找任意操作"
+    },
+    "windows": "Ctrl+Shift+A",
+    "mac": "Shift+Cmd+A",
+    "linux": "Ctrl+Shift+A",
+    "keywords": [
+      "find action",
+      "查找操作"
+    ],
+    "pinyin": "cha zhao cao zuo chazhaocaozuo c z c z czcz cha zhao cao zuo chazhaocaozuo c z c z czcz"
+  },
+  {
+    "id": "rubymine-search-everywhere",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Search Everywhere",
+      "zh": "全局搜索"
+    },
+    "description": {
+      "en": "Search everywhere",
+      "zh": "全局搜索"
+    },
+    "windows": "Shift Shift",
+    "mac": "Shift Shift",
+    "linux": "Shift Shift",
+    "keywords": [
+      "search",
+      "搜索"
+    ],
+    "pinyin": "quan ju sou suo quanjusousuo q j s s qjss sou suo sousuo s s ss"
+  },
+  {
+    "id": "rubymine-synchronize",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Synchronize",
+      "zh": "同步"
+    },
+    "description": {
+      "en": "Synchronize files",
+      "zh": "同步文件"
+    },
+    "windows": "Ctrl+Alt+Y",
+    "mac": "Option+Cmd+Y",
+    "linux": "Ctrl+Alt+Y",
+    "keywords": [
+      "sync",
+      "同步"
+    ],
+    "pinyin": "tong bu tongbu t b tb tong bu tongbu t b tb"
+  },
+  {
+    "id": "rubymine-maximize-editor",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Maximize Editor",
+      "zh": "最大化编辑器"
+    },
+    "description": {
+      "en": "Toggle maximizing editor",
+      "zh": "切换编辑器最大化"
+    },
+    "windows": "Ctrl+Shift+F12",
+    "mac": "Shift+Cmd+F12",
+    "linux": "Ctrl+Shift+F12",
+    "keywords": [
+      "maximize",
+      "最大化"
+    ],
+    "pinyin": "zui da hua bian ji qi zuidahuabianjiqi z d h b j q zdhbjq zui da hua zuidahua z d h zdh"
+  },
+  {
+    "id": "rubymine-hide-active-window",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Hide Active Window",
+      "zh": "隐藏活动窗口"
+    },
+    "description": {
+      "en": "Hide active/last window",
+      "zh": "隐藏活动/上一个窗口"
+    },
+    "windows": "Shift+Esc",
+    "mac": "Shift+Esc",
+    "linux": "Shift+Esc",
+    "keywords": [
+      "hide",
+      "隐藏"
+    ],
+    "pinyin": "yin cang huo dong chuang kou yincanghuodongchuangkou y c h d c k ychdck yin cang yincang y c yc"
+  },
+  {
+    "id": "rubymine-close-tab",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Close Tab",
+      "zh": "关闭标签页"
+    },
+    "description": {
+      "en": "Close active editor tab",
+      "zh": "关闭活动编辑器标签页"
+    },
+    "windows": "Ctrl+F4",
+    "mac": "Cmd+W",
+    "linux": "Ctrl+F4",
+    "keywords": [
+      "close",
+      "关闭"
+    ],
+    "pinyin": "guan bi biao qian ye guanbibiaoqianye g b b q y gbbqy guan bi guanbi g b gb"
+  },
+  {
+    "id": "rubymine-switch-tabs",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Switch Tabs",
+      "zh": "切换标签页"
+    },
+    "description": {
+      "en": "Switch between tabs",
+      "zh": "在标签页间切换"
+    },
+    "windows": "Ctrl+Tab",
+    "mac": "Ctrl+Tab",
+    "linux": "Ctrl+Tab",
+    "keywords": [
+      "tab",
+      "标签页"
+    ],
+    "pinyin": "qie huan biao qian ye qiehuanbiaoqianye q h b q y qhbqy biao qian ye biaoqianye b q y bqy"
+  },
+  {
+    "id": "rubymine-show-project-window",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Show Project Window",
+      "zh": "显示项目窗口"
+    },
+    "description": {
+      "en": "Show Project tool window",
+      "zh": "显示项目工具窗口"
+    },
+    "windows": "Alt+1",
+    "mac": "Cmd+1",
+    "linux": "Alt+1",
+    "keywords": [
+      "project",
+      "项目"
+    ],
+    "pinyin": "xian shi xiang mu chuang kou xianshixiangmuchuangkou x s x m c k xsxmck xiang mu xiangmu x m xm"
+  },
+  {
+    "id": "rubymine-show-run-window",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Show Run Window",
+      "zh": "显示运行窗口"
+    },
+    "description": {
+      "en": "Show Run tool window",
+      "zh": "显示运行工具窗口"
+    },
+    "windows": "Alt+4",
+    "mac": "Cmd+4",
+    "linux": "Alt+4",
+    "keywords": [
+      "run",
+      "运行"
+    ],
+    "pinyin": "xian shi yun xing chuang kou xianshiyunxingchuangkou x s y x c k xsyxck yun xing yunxing y x yx"
+  },
+  {
+    "id": "rubymine-show-debug-window",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Show Debug Window",
+      "zh": "显示调试窗口"
+    },
+    "description": {
+      "en": "Show Debug tool window",
+      "zh": "显示调试工具窗口"
+    },
+    "windows": "Alt+5",
+    "mac": "Cmd+5",
+    "linux": "Alt+5",
+    "keywords": [
+      "debug",
+      "调试"
+    ],
+    "pinyin": "xian shi tiao shi chuang kou xianshitiaoshichuangkou x s t s c k xstsck tiao shi tiaoshi t s ts"
+  },
+  {
+    "id": "rubymine-show-terminal",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Show Terminal",
+      "zh": "显示终端"
+    },
+    "description": {
+      "en": "Show Terminal tool window",
+      "zh": "显示终端工具窗口"
+    },
+    "windows": "Alt+F12",
+    "mac": "Alt+F12",
+    "linux": "Alt+F12",
+    "keywords": [
+      "terminal",
+      "终端"
+    ],
+    "pinyin": "xian shi zhong duan xianshizhongduan x s z d xszd zhong duan zhongduan z d zd"
+  },
+  {
+    "id": "rubymine-go-to-class",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Go to Class",
+      "zh": "跳转到类"
+    },
+    "description": {
+      "en": "Go to a class",
+      "zh": "跳转到类"
+    },
+    "windows": "Ctrl+N",
+    "mac": "Cmd+O",
+    "linux": "Ctrl+N",
+    "keywords": [
+      "class",
+      "类"
+    ],
+    "pinyin": "tiao zhuan dao lei tiaozhuandaolei t z d l tzdl lei lei l l"
+  },
+  {
+    "id": "rubymine-go-to-file",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Go to File",
+      "zh": "跳转到文件"
+    },
+    "description": {
+      "en": "Go to a file",
+      "zh": "跳转到文件"
+    },
+    "windows": "Ctrl+Shift+N",
+    "mac": "Shift+Cmd+O",
+    "linux": "Ctrl+Shift+N",
+    "keywords": [
+      "file",
+      "文件"
+    ],
+    "pinyin": "tiao zhuan dao wen jian tiaozhuandaowenjian t z d w j tzdwj wen jian wenjian w j wj"
+  },
+  {
+    "id": "rubymine-go-to-symbol",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Go to Symbol",
+      "zh": "跳转到符号"
+    },
+    "description": {
+      "en": "Go to a symbol",
+      "zh": "跳转到符号"
+    },
+    "windows": "Ctrl+Alt+Shift+N",
+    "mac": "Option+Cmd+O",
+    "linux": "Ctrl+Alt+Shift+N",
+    "keywords": [
+      "symbol",
+      "符号"
+    ],
+    "pinyin": "tiao zhuan dao fu hao tiaozhuandaofuhao t z d f h tzdfh fu hao fuhao f h fh"
+  },
+  {
+    "id": "rubymine-next-editor-tab",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Next Editor Tab",
+      "zh": "下一编辑器标签"
+    },
+    "description": {
+      "en": "Go to next/previous editor tab",
+      "zh": "上一/下一编辑器标签"
+    },
+    "windows": "Alt+Right",
+    "mac": "Shift+Cmd+]",
+    "linux": "Alt+Right",
+    "keywords": [
+      "tab",
+      "标签页"
+    ],
+    "pinyin": "xia yi bian ji qi biao qian xiayibianjiqibiaoqian x y b j q b q xybjqbq biao qian ye biaoqianye b q y bqy"
+  },
+  {
+    "id": "rubymine-go-to-line",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Go to Line",
+      "zh": "跳转到行"
+    },
+    "description": {
+      "en": "Go to a line number",
+      "zh": "跳转到行号"
+    },
+    "windows": "Ctrl+G",
+    "mac": "Cmd+L",
+    "linux": "Ctrl+G",
+    "keywords": [
+      "line",
+      "行"
+    ],
+    "pinyin": "tiao zhuan dao xing tiaozhuandaoxing t z d x tzdx xing xing x x"
+  },
+  {
+    "id": "rubymine-recent-files",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Recent Files",
+      "zh": "最近文件"
+    },
+    "description": {
+      "en": "Recent files popup",
+      "zh": "最近文件弹窗"
+    },
+    "windows": "Ctrl+E",
+    "mac": "Cmd+E",
+    "linux": "Ctrl+E",
+    "keywords": [
+      "recent",
+      "最近文件"
+    ],
+    "pinyin": "zui jin wen jian zuijinwenjian z j w j zjwj zui jin wen jian zuijinwenjian z j w j zjwj"
+  },
+  {
+    "id": "rubymine-navigate-back",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Navigate Back",
+      "zh": "向后导航"
+    },
+    "description": {
+      "en": "Navigate back/forward",
+      "zh": "向后/向前导航"
+    },
+    "windows": "Ctrl+Alt+Left",
+    "mac": "Option+Cmd+Left",
+    "linux": "Ctrl+Alt+Left",
+    "keywords": [
+      "navigate",
+      "导航"
+    ],
+    "pinyin": "xiang hou dao hang xianghoudaohang x h d h xhdh dao hang daohang d h dh"
+  },
+  {
+    "id": "rubymine-last-edit-location",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Last Edit Location",
+      "zh": "上次编辑位置"
+    },
+    "description": {
+      "en": "Go to last edit location",
+      "zh": "跳到上次编辑位置"
+    },
+    "windows": "Ctrl+Shift+Backspace",
+    "mac": "Shift+Cmd+Backspace",
+    "linux": "Ctrl+Shift+Backspace",
+    "keywords": [
+      "edit",
+      "编辑"
+    ],
+    "pinyin": "shang ci bian ji wei zhi shangcibianjiweizhi s c b j w z scbjwz bian ji bianji b j bj"
+  },
+  {
+    "id": "rubymine-go-to-declaration",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Go to Declaration",
+      "zh": "跳转到声明"
+    },
+    "description": {
+      "en": "Go to declaration",
+      "zh": "跳转到声明"
+    },
+    "windows": "Ctrl+B",
+    "mac": "Cmd+B",
+    "linux": "Ctrl+B",
+    "keywords": [
+      "declaration",
+      "声明"
+    ],
+    "pinyin": "tiao zhuan dao sheng ming tiaozhuandaoshengming t z d s m tzdsm sheng ming shengming s m sm"
+  },
+  {
+    "id": "rubymine-quick-definition",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Quick Definition",
+      "zh": "快速定义"
+    },
+    "description": {
+      "en": "Quick definition lookup",
+      "zh": "快速定义查询"
+    },
+    "windows": "Ctrl+Shift+I",
+    "mac": "Option+Space",
+    "linux": "Ctrl+Shift+I",
+    "keywords": [
+      "definition",
+      "定义"
+    ],
+    "pinyin": "kuai su ding yi kuaisudingyi k s d y ksdy ding yi dingyi d y dy"
+  },
+  {
+    "id": "rubymine-go-to-super",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Go to Super",
+      "zh": "跳转到父类"
+    },
+    "description": {
+      "en": "Go to super method/class",
+      "zh": "跳转到父类方法/类"
+    },
+    "windows": "Ctrl+U",
+    "mac": "Cmd+U",
+    "linux": "Ctrl+U",
+    "keywords": [
+      "super",
+      "父类"
+    ],
+    "pinyin": "tiao zhuan dao fu lei tiaozhuandaofulei t z d f l tzdfl fu lei fulei f l fl"
+  },
+  {
+    "id": "rubymine-next-method",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Next Method",
+      "zh": "下一方法"
+    },
+    "description": {
+      "en": "Go to next/previous method",
+      "zh": "上一/下一方法"
+    },
+    "windows": "Alt+Down",
+    "mac": "Ctrl+Down",
+    "linux": "Alt+Down",
+    "keywords": [
+      "method",
+      "方法"
+    ],
+    "pinyin": "xia yi fang fa xiayifangfa x y f f xyff fang fa fangfa f f ff"
+  },
+  {
+    "id": "rubymine-file-structure",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "File Structure",
+      "zh": "文件结构"
+    },
+    "description": {
+      "en": "File structure popup",
+      "zh": "文件结构弹窗"
+    },
+    "windows": "Ctrl+F12",
+    "mac": "Cmd+F12",
+    "linux": "Ctrl+F12",
+    "keywords": [
+      "structure",
+      "结构"
+    ],
+    "pinyin": "wen jian jie gou wenjianjiegou w j j g wjjg jie gou jiegou j g jg"
+  },
+  {
+    "id": "rubymine-type-hierarchy",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Type Hierarchy",
+      "zh": "类型层级"
+    },
+    "description": {
+      "en": "Show type hierarchy",
+      "zh": "显示类型层级"
+    },
+    "windows": "Ctrl+H",
+    "mac": "Ctrl+H",
+    "linux": "Ctrl+H",
+    "keywords": [
+      "hierarchy",
+      "层级"
+    ],
+    "pinyin": "lei xing ceng ji leixingcengji l x c j lxcj ceng ji cengji c j cj"
+  },
+  {
+    "id": "rubymine-next-error",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Next Error",
+      "zh": "下一错误"
+    },
+    "description": {
+      "en": "Go to next highlighted error",
+      "zh": "跳到下一处高亮错误"
+    },
+    "windows": "F2",
+    "mac": "F2",
+    "linux": "F2",
+    "keywords": [
+      "error",
+      "错误"
+    ],
+    "pinyin": "xia yi cuo wu xiayicuowu x y c w xycw cuo wu cuowu c w cw"
+  },
+  {
+    "id": "rubymine-toggle-bookmark",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Toggle Bookmark",
+      "zh": "切换书签"
+    },
+    "description": {
+      "en": "Toggle bookmark",
+      "zh": "切换书签"
+    },
+    "windows": "F11",
+    "mac": "F3",
+    "linux": "F11",
+    "keywords": [
+      "bookmark",
+      "书签"
+    ],
+    "pinyin": "qie huan shu qian qiehuanshuqian q h s q qhsq shu qian shuqian s q sq"
+  },
+  {
+    "id": "rubymine-show-bookmarks",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Show Bookmarks",
+      "zh": "显示书签"
+    },
+    "description": {
+      "en": "Show bookmarks",
+      "zh": "显示书签"
+    },
+    "windows": "Shift+F11",
+    "mac": "Cmd+F3",
+    "linux": "Shift+F11",
+    "keywords": [
+      "bookmark",
+      "书签"
+    ],
+    "pinyin": "xian shi shu qian xianshishuqian x s s q xssq shu qian shuqian s q sq"
+  },
+  {
+    "id": "rubymine-rails-model-view",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Rails Model/View",
+      "zh": "Rails 模型/视图"
+    },
+    "description": {
+      "en": "Navigate to Rails MVC",
+      "zh": "导航到 Rails MVC"
+    },
+    "windows": "Ctrl+Alt+Shift+N",
+    "mac": "Cmd+Up",
+    "linux": "Ctrl+Alt+Shift+N",
+    "keywords": [
+      "rails",
+      "mvc"
+    ],
+    "pinyin": "r a i l s   mo xing / shi tu rails moxing/shitu r a i l s   m x / s t rails mx/st"
+  },
+  {
+    "id": "rubymine-run-rails-generator",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Run Rails Generator",
+      "zh": "运行 Rails 生成器"
+    },
+    "description": {
+      "en": "Run a Rails generator",
+      "zh": "运行 Rails 生成器"
+    },
+    "windows": "Ctrl+Alt+G",
+    "mac": "Option+Cmd+G",
+    "linux": "Ctrl+Alt+G",
+    "keywords": [
+      "rails",
+      "generator",
+      "生成器"
+    ],
+    "pinyin": "yun xing   r a i l s   sheng cheng qi yunxing rails shengchengqi y x   r a i l s   s c q yx rails scq sheng cheng qi shengchengqi s c q scq"
+  },
+  {
+    "id": "rubymine-run-anything",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Run Anything",
+      "zh": "运行任意"
+    },
+    "description": {
+      "en": "Run Anything popup",
+      "zh": "运行任意弹窗"
+    },
+    "windows": "Ctrl Ctrl",
+    "mac": "Ctrl Ctrl",
+    "linux": "Ctrl Ctrl",
+    "keywords": [
+      "run",
+      "运行"
+    ],
+    "pinyin": "yun xing ren yi yunxingrenyi y x r y yxry yun xing yunxing y x yx"
+  },
+  {
+    "id": "rubymine-run",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Run",
+      "zh": "运行"
+    },
+    "description": {
+      "en": "Run configuration",
+      "zh": "运行配置"
+    },
+    "windows": "Shift+F10",
+    "mac": "Ctrl+R",
+    "linux": "Shift+F10",
+    "keywords": [
+      "run",
+      "运行"
+    ],
+    "pinyin": "yun xing yunxing y x yx yun xing yunxing y x yx"
+  },
+  {
+    "id": "rubymine-debug",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Debug",
+      "zh": "调试"
+    },
+    "description": {
+      "en": "Debug configuration",
+      "zh": "调试配置"
+    },
+    "windows": "Shift+F9",
+    "mac": "Ctrl+D",
+    "linux": "Shift+F9",
+    "keywords": [
+      "debug",
+      "调试"
+    ],
+    "pinyin": "tiao shi tiaoshi t s ts tiao shi tiaoshi t s ts"
+  },
+  {
+    "id": "rubymine-run-context",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Run Context",
+      "zh": "运行上下文"
+    },
+    "description": {
+      "en": "Run context config from editor",
+      "zh": "从编辑器运行上下文配置"
+    },
+    "windows": "Ctrl+Shift+F10",
+    "mac": "Ctrl+Shift+R",
+    "linux": "Ctrl+Shift+F10",
+    "keywords": [
+      "run",
+      "运行",
+      "上下文"
+    ],
+    "pinyin": "yun xing shang xia wen yunxingshangxiawen y x s x w yxsxw yun xing   shang xia wen yunxing shangxiawen y x   s x w yx sxw"
+  },
+  {
+    "id": "rubymine-run-rake-task",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Run Rake Task",
+      "zh": "运行 Rake 任务"
+    },
+    "description": {
+      "en": "Run a rake task",
+      "zh": "运行 rake 任务"
+    },
+    "windows": "Ctrl+Alt+R",
+    "mac": "Option+R",
+    "linux": "Ctrl+Alt+R",
+    "keywords": [
+      "rake",
+      "任务"
+    ],
+    "pinyin": "yun xing   r a k e   ren wu yunxing rake renwu y x   r a k e   r w yx rake rw ren wu renwu r w rw"
+  },
+  {
+    "id": "rubymine-step-over",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Step Over",
+      "zh": "单步跳过"
+    },
+    "description": {
+      "en": "Step over",
+      "zh": "单步跳过"
+    },
+    "windows": "F8",
+    "mac": "F8",
+    "linux": "F8",
+    "keywords": [
+      "step",
+      "单步"
+    ],
+    "pinyin": "dan bu tiao guo danbutiaoguo d b t g dbtg dan bu danbu d b db"
+  },
+  {
+    "id": "rubymine-step-into",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Step Into",
+      "zh": "单步进入"
+    },
+    "description": {
+      "en": "Step into",
+      "zh": "单步进入"
+    },
+    "windows": "F7",
+    "mac": "F7",
+    "linux": "F7",
+    "keywords": [
+      "step",
+      "单步"
+    ],
+    "pinyin": "dan bu jin ru danbujinru d b j r dbjr dan bu danbu d b db"
+  },
+  {
+    "id": "rubymine-step-out",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Step Out",
+      "zh": "单步跳出"
+    },
+    "description": {
+      "en": "Step out",
+      "zh": "单步跳出"
+    },
+    "windows": "Shift+F8",
+    "mac": "Shift+F8",
+    "linux": "Shift+F8",
+    "keywords": [
+      "step",
+      "单步"
+    ],
+    "pinyin": "dan bu tiao chu danbutiaochu d b t c dbtc dan bu danbu d b db"
+  },
+  {
+    "id": "rubymine-resume-program",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Resume Program",
+      "zh": "恢复程序"
+    },
+    "description": {
+      "en": "Resume program",
+      "zh": "恢复程序"
+    },
+    "windows": "F9",
+    "mac": "Option+Cmd+R",
+    "linux": "F9",
+    "keywords": [
+      "resume",
+      "恢复"
+    ],
+    "pinyin": "hui fu cheng xu huifuchengxu h f c x hfcx hui fu huifu h f hf"
+  },
+  {
+    "id": "rubymine-toggle-breakpoint",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Toggle Breakpoint",
+      "zh": "切换断点"
+    },
+    "description": {
+      "en": "Toggle a breakpoint",
+      "zh": "切换断点"
+    },
+    "windows": "Ctrl+F8",
+    "mac": "Cmd+F8",
+    "linux": "Ctrl+F8",
+    "keywords": [
+      "breakpoint",
+      "断点"
+    ],
+    "pinyin": "qie huan duan dian qiehuanduandian q h d d qhdd duan dian duandian d d dd"
+  },
+  {
+    "id": "rubymine-view-breakpoints",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "View Breakpoints",
+      "zh": "查看断点"
+    },
+    "description": {
+      "en": "View breakpoints",
+      "zh": "查看断点"
+    },
+    "windows": "Ctrl+Shift+F8",
+    "mac": "Shift+Cmd+F8",
+    "linux": "Ctrl+Shift+F8",
+    "keywords": [
+      "breakpoint",
+      "断点"
+    ],
+    "pinyin": "cha kan duan dian chakanduandian c k d d ckdd duan dian duandian d d dd"
+  },
+  {
+    "id": "rubymine-surround-live-template",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Surround Live Template",
+      "zh": "包围实时模板"
+    },
+    "description": {
+      "en": "Surround with live template",
+      "zh": "用实时模板包围"
+    },
+    "windows": "Ctrl+Alt+J",
+    "mac": "Option+Cmd+J",
+    "linux": "Ctrl+Alt+J",
+    "keywords": [
+      "template",
+      "模板"
+    ],
+    "pinyin": "bao wei shi shi mu ban baoweishishimuban b w s s m b bwssmb mu ban muban m b mb"
+  },
+  {
+    "id": "rubymine-insert-live-template",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Insert Live Template",
+      "zh": "插入实时模板"
+    },
+    "description": {
+      "en": "Insert live template",
+      "zh": "插入实时模板"
+    },
+    "windows": "Ctrl+J",
+    "mac": "Cmd+J",
+    "linux": "Ctrl+J",
+    "keywords": [
+      "template",
+      "模板"
+    ],
+    "pinyin": "cha ru shi shi mu ban charushishimuban c r s s m b crssmb mu ban muban m b mb"
+  },
+  {
+    "id": "rubymine-refactor-copy",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Refactor Copy",
+      "zh": "重构-复制"
+    },
+    "description": {
+      "en": "Copy refactoring",
+      "zh": "复制重构"
+    },
+    "windows": "F5",
+    "mac": "F5",
+    "linux": "F5",
+    "keywords": [
+      "refactor",
+      "重构"
+    ],
+    "pinyin": "zhong gou - fu zhi zhonggou-fuzhi z g - f z zg-fz zhong gou zhonggou z g zg"
+  },
+  {
+    "id": "rubymine-refactor-move",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Refactor Move",
+      "zh": "重构-移动"
+    },
+    "description": {
+      "en": "Move refactoring",
+      "zh": "移动重构"
+    },
+    "windows": "F6",
+    "mac": "F6",
+    "linux": "F6",
+    "keywords": [
+      "refactor",
+      "重构"
+    ],
+    "pinyin": "zhong gou - yi dong zhonggou-yidong z g - y d zg-yd zhong gou zhonggou z g zg"
+  },
+  {
+    "id": "rubymine-rename",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Rename",
+      "zh": "重命名"
+    },
+    "description": {
+      "en": "Rename refactoring",
+      "zh": "重命名重构"
+    },
+    "windows": "Shift+F6",
+    "mac": "Shift+F6",
+    "linux": "Shift+F6",
+    "keywords": [
+      "rename",
+      "重命名"
+    ],
+    "pinyin": "zhong ming ming zhongmingming z m m zmm zhong ming ming zhongmingming z m m zmm"
+  },
+  {
+    "id": "rubymine-extract-variable",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Extract Variable",
+      "zh": "提取变量"
+    },
+    "description": {
+      "en": "Extract variable",
+      "zh": "提取变量"
+    },
+    "windows": "Ctrl+Alt+V",
+    "mac": "Option+Cmd+V",
+    "linux": "Ctrl+Alt+V",
+    "keywords": [
+      "extract",
+      "提取",
+      "变量"
+    ],
+    "pinyin": "ti qu bian liang tiqubianliang t q b l tqbl ti qu   bian liang tiqu bianliang t q   b l tq bl"
+  },
+  {
+    "id": "rubymine-extract-constant",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Extract Constant",
+      "zh": "提取常量"
+    },
+    "description": {
+      "en": "Extract constant",
+      "zh": "提取常量"
+    },
+    "windows": "Ctrl+Alt+C",
+    "mac": "Option+Cmd+C",
+    "linux": "Ctrl+Alt+C",
+    "keywords": [
+      "extract",
+      "提取",
+      "常量"
+    ],
+    "pinyin": "ti qu chang liang tiquchangliang t q c l tqcl ti qu   chang liang tiqu changliang t q   c l tq cl"
+  },
+  {
+    "id": "rubymine-extract-field",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Extract Field",
+      "zh": "提取字段"
+    },
+    "description": {
+      "en": "Extract field",
+      "zh": "提取字段"
+    },
+    "windows": "Ctrl+Alt+F",
+    "mac": "Option+Cmd+F",
+    "linux": "Ctrl+Alt+F",
+    "keywords": [
+      "extract",
+      "提取",
+      "字段"
+    ],
+    "pinyin": "ti qu zi duan tiquziduan t q z d tqzd ti qu   zi duan tiqu ziduan t q   z d tq zd"
+  },
+  {
+    "id": "rubymine-extract-method",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Extract Method",
+      "zh": "提取方法"
+    },
+    "description": {
+      "en": "Extract method",
+      "zh": "提取方法"
+    },
+    "windows": "Ctrl+Alt+M",
+    "mac": "Option+Cmd+M",
+    "linux": "Ctrl+Alt+M",
+    "keywords": [
+      "extract",
+      "提取",
+      "方法"
+    ],
+    "pinyin": "ti qu fang fa tiqufangfa t q f f tqff ti qu   fang fa tiqu fangfa t q   f f tq ff"
+  },
+  {
+    "id": "rubymine-extract-parameter",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Extract Parameter",
+      "zh": "提取参数"
+    },
+    "description": {
+      "en": "Extract parameter",
+      "zh": "提取参数"
+    },
+    "windows": "Ctrl+Alt+P",
+    "mac": "Option+Cmd+P",
+    "linux": "Ctrl+Alt+P",
+    "keywords": [
+      "extract",
+      "提取",
+      "参数"
+    ],
+    "pinyin": "ti qu can shu tiqucanshu t q c s tqcs ti qu   can shu tiqu canshu t q   c s tq cs"
+  },
+  {
+    "id": "rubymine-inline",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Inline",
+      "zh": "内联"
+    },
+    "description": {
+      "en": "Inline refactoring",
+      "zh": "内联重构"
+    },
+    "windows": "Ctrl+Alt+N",
+    "mac": "Option+Cmd+N",
+    "linux": "Ctrl+Alt+N",
+    "keywords": [
+      "inline",
+      "内联"
+    ],
+    "pinyin": "nei lian neilian n l nl nei lian neilian n l nl"
+  },
+  {
+    "id": "rubymine-refactor-this",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Refactor This",
+      "zh": "重构此"
+    },
+    "description": {
+      "en": "Refactor quick list",
+      "zh": "重构快捷列表"
+    },
+    "windows": "Ctrl+Alt+Shift+T",
+    "mac": "Ctrl+T",
+    "linux": "Ctrl+Alt+Shift+T",
+    "keywords": [
+      "refactor",
+      "重构"
+    ],
+    "pinyin": "zhong gou ci zhonggouci z g c zgc zhong gou zhonggou z g zg"
+  },
+  {
+    "id": "rubymine-find-usages",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Find Usages",
+      "zh": "查找用法"
+    },
+    "description": {
+      "en": "Find usages",
+      "zh": "查找用法"
+    },
+    "windows": "Alt+F7",
+    "mac": "Option+F7",
+    "linux": "Alt+F7",
+    "keywords": [
+      "usages",
+      "用法"
+    ],
+    "pinyin": "cha zhao yong fa chazhaoyongfa c z y f czyf yong fa yongfa y f yf"
+  },
+  {
+    "id": "rubymine-find-in-path",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Find in Path",
+      "zh": "路径中查找"
+    },
+    "description": {
+      "en": "Find in path",
+      "zh": "在路径中查找"
+    },
+    "windows": "Ctrl+Shift+F",
+    "mac": "Shift+Cmd+F",
+    "linux": "Ctrl+Shift+F",
+    "keywords": [
+      "find",
+      "查找"
+    ],
+    "pinyin": "lu jing zhong cha zhao lujingzhongchazhao l j z c z ljzcz cha zhao chazhao c z cz"
+  },
+  {
+    "id": "rubymine-replace-in-path",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Replace in Path",
+      "zh": "路径中替换"
+    },
+    "description": {
+      "en": "Replace in path",
+      "zh": "在路径中替换"
+    },
+    "windows": "Ctrl+Shift+R",
+    "mac": "Shift+Cmd+R",
+    "linux": "Ctrl+Shift+R",
+    "keywords": [
+      "replace",
+      "替换"
+    ],
+    "pinyin": "lu jing zhong ti huan lujingzhongtihuan l j z t h ljzth ti huan tihuan t h th"
+  },
+  {
+    "id": "rubymine-commit-to-vcs",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Commit to VCS",
+      "zh": "提交到 VCS"
+    },
+    "description": {
+      "en": "Commit project to VCS",
+      "zh": "将项目提交到 VCS"
+    },
+    "windows": "Ctrl+K",
+    "mac": "Cmd+K",
+    "linux": "Ctrl+K",
+    "keywords": [
+      "commit",
+      "提交"
+    ],
+    "pinyin": "ti jiao dao   v c s tijiaodao vcs t j d   v c s tjd vcs ti jiao tijiao t j tj"
+  },
+  {
+    "id": "rubymine-update-from-vcs",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Update from VCS",
+      "zh": "从 VCS 更新"
+    },
+    "description": {
+      "en": "Update project from VCS",
+      "zh": "从 VCS 更新项目"
+    },
+    "windows": "Ctrl+T",
+    "mac": "Cmd+T",
+    "linux": "Ctrl+T",
+    "keywords": [
+      "update",
+      "更新"
+    ],
+    "pinyin": "cong   v c s   geng xin cong vcs gengxin c   v c s   g x c vcs gx geng xin gengxin g x gx"
+  },
+  {
+    "id": "rubymine-recent-changes",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Recent Changes",
+      "zh": "最近更改"
+    },
+    "description": {
+      "en": "View recent changes",
+      "zh": "查看最近更改"
+    },
+    "windows": "Ctrl+Shift+E",
+    "mac": "Option+Shift+C",
+    "linux": "Ctrl+Shift+E",
+    "keywords": [
+      "changes",
+      "更改"
+    ],
+    "pinyin": "zui jin geng gai zuijingenggai z j g g zjgg geng gai genggai g g gg"
+  },
+  {
+    "id": "rubymine-vcs-operations",
+    "appId": "rubymine",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "VCS Operations",
+      "zh": "VCS 操作"
+    },
+    "description": {
+      "en": "VCS operations popup",
+      "zh": "VCS 操作弹窗"
+    },
+    "windows": "Alt+`",
+    "mac": "Ctrl+V",
+    "linux": "Alt+`",
+    "keywords": [
+      "vcs",
+      "操作"
+    ],
+    "pinyin": "v c s   cao zuo vcs caozuo v c s   c z vcs cz cao zuo caozuo c z cz"
+  }
+]

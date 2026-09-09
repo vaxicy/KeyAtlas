@@ -1,0 +1,223 @@
+[
+  {
+    "id": "huggingchat-new-chat",
+    "appId": "huggingchat",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "New chat",
+      "zh": "新对话"
+    },
+    "description": {
+      "en": "New conversation",
+      "zh": "新对话"
+    },
+    "windows": "Ctrl + Shift + O",
+    "mac": "Ctrl + Shift + O",
+    "linux": "Ctrl + Shift + O",
+    "keywords": [
+      "new",
+      "chat",
+      "对话"
+    ],
+    "pinyin": "xin dui hua xinduihua x d h xdh dui hua duihua d h dh"
+  },
+  {
+    "id": "huggingchat-send",
+    "appId": "huggingchat",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Send",
+      "zh": "发送"
+    },
+    "description": {
+      "en": "Send message",
+      "zh": "发送消息"
+    },
+    "windows": "Enter",
+    "mac": "Enter",
+    "linux": "Enter",
+    "keywords": [
+      "send",
+      "发送"
+    ],
+    "pinyin": "fa song fasong f s fs fa song fasong f s fs"
+  },
+  {
+    "id": "huggingchat-copy",
+    "appId": "huggingchat",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Copy",
+      "zh": "复制"
+    },
+    "description": {
+      "en": "Copy reply",
+      "zh": "复制回复"
+    },
+    "windows": "Ctrl + C",
+    "mac": "Ctrl + C",
+    "linux": "Ctrl + C",
+    "keywords": [
+      "copy",
+      "复制"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "huggingchat-settings",
+    "appId": "huggingchat",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Settings",
+      "zh": "设置"
+    },
+    "description": {
+      "en": "Settings",
+      "zh": "设置"
+    },
+    "windows": "Ctrl + ,",
+    "mac": "Ctrl + ,",
+    "linux": "Ctrl + ,",
+    "keywords": [
+      "settings",
+      "设置"
+    ],
+    "pinyin": "she zhi shezhi s z sz she zhi shezhi s z sz"
+  },
+  {
+    "id": "huggingchat-model",
+    "appId": "huggingchat",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Model",
+      "zh": "模型"
+    },
+    "description": {
+      "en": "Select model",
+      "zh": "选择模型"
+    },
+    "windows": "Ctrl + Shift + M",
+    "mac": "Ctrl + Shift + M",
+    "linux": "Ctrl + Shift + M",
+    "keywords": [
+      "model",
+      "模型"
+    ],
+    "pinyin": "mo xing moxing m x mx mo xing moxing m x mx"
+  },
+  {
+    "id": "huggingchat-sidebar",
+    "appId": "huggingchat",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Sidebar",
+      "zh": "侧栏"
+    },
+    "description": {
+      "en": "Toggle sidebar",
+      "zh": "切换侧栏"
+    },
+    "windows": "Ctrl + \\",
+    "mac": "Ctrl + \\",
+    "linux": "Ctrl + \\",
+    "keywords": [
+      "sidebar",
+      "侧栏"
+    ],
+    "pinyin": "ce lan celan c l cl ce lan celan c l cl"
+  },
+  {
+    "id": "huggingchat-fullscreen",
+    "appId": "huggingchat",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Fullscreen",
+      "zh": "全屏"
+    },
+    "description": {
+      "en": "Fullscreen",
+      "zh": "全屏"
+    },
+    "windows": "F",
+    "mac": "F",
+    "linux": "F",
+    "keywords": [
+      "fullscreen",
+      "全屏"
+    ],
+    "pinyin": "quan ping quanping q p qp quan ping quanping q p qp"
+  },
+  {
+    "id": "huggingchat-help",
+    "appId": "huggingchat",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Help",
+      "zh": "帮助"
+    },
+    "description": {
+      "en": "Shortcuts help",
+      "zh": "快捷键帮助"
+    },
+    "windows": "Ctrl + /",
+    "mac": "Ctrl + /",
+    "linux": "Ctrl + /",
+    "keywords": [
+      "help",
+      "快捷键"
+    ],
+    "pinyin": "bang zhu bangzhu b z bz kuai jie jian kuaijiejian k j j kjj"
+  },
+  {
+    "id": "huggingchat-theme",
+    "appId": "huggingchat",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Theme",
+      "zh": "主题"
+    },
+    "description": {
+      "en": "Toggle theme",
+      "zh": "切换主题"
+    },
+    "windows": "Ctrl + Shift + T",
+    "mac": "Ctrl + Shift + T",
+    "linux": "Ctrl + Shift + T",
+    "keywords": [
+      "theme",
+      "主题"
+    ],
+    "pinyin": "zhu ti zhuti z t zt zhu ti zhuti z t zt"
+  },
+  {
+    "id": "huggingchat-share",
+    "appId": "huggingchat",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Share",
+      "zh": "共享"
+    },
+    "description": {
+      "en": "Share conversation",
+      "zh": "共享对话"
+    },
+    "windows": "Ctrl + Shift + S",
+    "mac": "Ctrl + Shift + S",
+    "linux": "Ctrl + Shift + S",
+    "keywords": [
+      "share",
+      "共享"
+    ],
+    "pinyin": "gong xiang gongxiang g x gx gong xiang gongxiang g x gx"
+  }
+]

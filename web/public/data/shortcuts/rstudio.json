@@ -1,1 +1,840 @@
-[{"id":"rstudio-console-focus","appId":"rstudio","type":"software","category":"development","name":{"zh":"光标移到控制台","en":"Move Cursor to Console"},"description":{"zh":"将输入焦点切换到 Console 面板","en":"Move focus to the Console pane"},"windows":"Ctrl + 2","mac":"⌃ 2","linux":"Ctrl + 2","keywords":["控制台","console","焦点","切换"],"pinyin":"guang biao yi dao kong zhi tai guangbiaoyidaokongzhitai g b y d k z t gbydkzt kong zhi tai   jiao dian   qie huan kongzhitai jiaodian qiehuan k z t   j d   q h kzt jd qh"},{"id":"rstudio-console-clear","appId":"rstudio","type":"software","category":"development","name":{"zh":"清空控制台","en":"Clear Console"},"description":{"zh":"清除控制台中的所有输出","en":"Clear all console output"},"windows":"Ctrl + L","mac":"⌃ L","linux":"Ctrl + L","keywords":["清空","clear","控制台","清屏"],"pinyin":"qing kong kong zhi tai qingkongkongzhitai q k k z t qkkzt qing kong   kong zhi tai   qing ping qingkong kongzhitai qingping q k   k z t   q p qk kzt qp"},{"id":"rstudio-interrupt","appId":"rstudio","type":"software","category":"development","name":{"zh":"中断正在执行的命令","en":"Interrupt Currently Executing Command"},"description":{"zh":"停止当前正在运行的 R 命令","en":"Stop the currently running R command"},"windows":"Esc","mac":"Esc","linux":"Esc","keywords":["中断","interrupt","停止","esc"],"pinyin":"zhong duan zheng zai zhi xing de ming ling zhongduanzhengzaizhixingdemingling z d z z z x d m l zdzzzxdml zhong duan   ting zhi zhongduan tingzhi z d   t z zd tz"},{"id":"rstudio-source-focus","appId":"rstudio","type":"software","category":"development","name":{"zh":"光标移到源码编辑器","en":"Move Cursor to Source Editor"},"description":{"zh":"将输入焦点切换到 Source 编辑区","en":"Move focus to the Source editor"},"windows":"Ctrl + 1","mac":"⌃ 1","linux":"Ctrl + 1","keywords":["源码","source","编辑器","焦点"],"pinyin":"guang biao yi dao yuan ma bian ji qi guangbiaoyidaoyuanmabianjiqi g b y d y m b j q gbydymbjq yuan ma   bian ji qi   jiao dian yuanma bianjiqi jiaodian y m   b j q   j d ym bjq jd"},{"id":"rstudio-run-line","appId":"rstudio","type":"software","category":"development","name":{"zh":"运行当前行 / 所选代码","en":"Run Current Line / Selection"},"description":{"zh":"执行光标所在行或选中的代码","en":"Execute the current line or selected code"},"windows":"Ctrl + Enter","mac":"⌘ Return","linux":"Ctrl + Enter","keywords":["运行","run","执行","当前行","选中"],"pinyin":"yun hang dang qian xing   /   suo xuan dai ma yunhangdangqianxing / suoxuandaima y h d q x   /   s x d m yhdqx / sxdm yun xing   zhi xing   dang qian xing   xuan zhong yunxing zhixing dangqianxing xuanzhong y x   z x   d q x   x z yx zx dqx xz"},{"id":"rstudio-run-line-stay","appId":"rstudio","type":"software","category":"development","name":{"zh":"运行当前行并保持光标位置","en":"Run Current Line (Retain Cursor Position)"},"description":{"zh":"执行当前行但光标不跳到下一行","en":"Run the line without advancing the cursor"},"windows":"Alt + Enter","mac":"⌥ Return","linux":"Alt + Enter","keywords":["运行","run","保持光标","不跳转"],"pinyin":"yun hang dang qian xing bing bao chi guang biao wei zhi yunhangdangqianxingbingbaochiguangbiaoweizhi y h d q x b b c g b w z yhdqxbbcgbwz yun xing   bao chi guang biao   bu tiao zhuan yunxing baochiguangbiao butiaozhuan y x   b c g b   b t z yx bcgb btz"},{"id":"rstudio-run-all","appId":"rstudio","type":"software","category":"development","name":{"zh":"运行整个文档","en":"Run Current Document"},"description":{"zh":"从头到尾执行当前文档的全部代码","en":"Execute the entire current document"},"windows":"Ctrl + Alt + R","mac":"⌥ ⌘ R","linux":"Ctrl + Alt + R","keywords":["运行全部","run all","整个文档","执行"],"pinyin":"yun xing zheng ge wen dang yunxingzhenggewendang y x z g w d yxzgwd yun xing quan bu   zheng ge wen dang   zhi xing yunxingquanbu zhenggewendang zhixing y x q b   z g w d   z x yxqb zgwd zx"},{"id":"rstudio-source-doc","appId":"rstudio","type":"software","category":"development","name":{"zh":"Source 当前文档","en":"Source the Current Document"},"description":{"zh":"以 source() 方式运行当前文档","en":"Source the active document"},"windows":"Ctrl + Shift + S","mac":"⇧ ⌘ S","linux":"Ctrl + Shift + S","keywords":["source","运行文档","source()"],"pinyin":"s o u r c e   dang qian wen dang source dangqianwendang s o u r c e   d q w d source dqwd yun xing wen dang yunxingwendang y x w d yxwd"},{"id":"rstudio-save","appId":"rstudio","type":"software","category":"development","name":{"zh":"保存当前文档","en":"Save Active Document"},"description":{"zh":"保存正在编辑的文件","en":"Save the active document"},"windows":"Ctrl + S","mac":"⌘ S","linux":"Ctrl + S","keywords":["保存","save","文件"],"pinyin":"bao cun dang qian wen dang baocundangqianwendang b c d q w d bcdqwd bao cun   wen jian baocun wenjian b c   w j bc wj"},{"id":"rstudio-open","appId":"rstudio","type":"software","category":"development","name":{"zh":"打开文档","en":"Open Document"},"description":{"zh":"打开已有文件","en":"Open an existing document"},"windows":"Ctrl + O","mac":"⌘ O","linux":"Ctrl + O","keywords":["打开","open","文档","文件"],"pinyin":"da kai wen dang dakaiwendang d k w d dkwd da kai   wen dang   wen jian dakai wendang wenjian d k   w d   w j dk wd wj"},{"id":"rstudio-gotofile","appId":"rstudio","type":"software","category":"development","name":{"zh":"跳转到文件 / 函数","en":"Go to File / Function"},"description":{"zh":"按名称快速定位文件或函数","en":"Quickly jump to a file or function by name"},"windows":"Ctrl + .","mac":"⌃ .","linux":"Ctrl + .","keywords":["跳转","goto","文件","函数","搜索"],"pinyin":"tiao zhuan dao wen jian   /   han shu tiaozhuandaowenjian / hanshu t z d w j   /   h s tzdwj / hs tiao zhuan   wen jian   han shu   sou suo tiaozhuan wenjian hanshu sousuo t z   w j   h s   s s tz wj hs ss"},{"id":"rstudio-insertchunk","appId":"rstudio","type":"software","category":"development","name":{"zh":"插入代码块","en":"Insert Chunk"},"description":{"zh":"在 R Markdown / Sweave 文档中插入代码块","en":"Insert a code chunk (R Markdown / Sweave)"},"windows":"Ctrl + Alt + I","mac":"⌘ ⌥ I","linux":"Ctrl + Alt + I","keywords":["代码块","chunk","插入","rmarkdown"],"pinyin":"cha ru dai ma kuai charudaimakuai c r d m k crdmk dai ma kuai   cha ru daimakuai charu d m k   c r dmk cr"},{"id":"rstudio-gotoline","appId":"rstudio","type":"software","category":"development","name":{"zh":"跳转到指定行","en":"Go to Line"},"description":{"zh":"跳到文档中的指定行号","en":"Jump to a specific line number"},"windows":"Shift + Alt + G","mac":"⌥ ⇧ ⌘ G","linux":"Shift + Alt + G","keywords":["跳转到行","go to line","行号"],"pinyin":"tiao zhuan dao zhi ding xing tiaozhuandaozhidingxing t z d z d x tzdzdx tiao zhuan dao xing   hang hao tiaozhuandaoxing hanghao t z d x   h h tzdx hh"},{"id":"rstudio-comment","appId":"rstudio","type":"software","category":"development","name":{"zh":"注释 / 取消注释","en":"Comment / Uncomment Current Line"},"description":{"zh":"切换当前行或所选区域的注释状态","en":"Toggle comment on the current line or selection"},"windows":"Ctrl + Shift + C","mac":"⇧ ⌘ C","linux":"Ctrl + Shift + C","keywords":["注释","comment","取消注释"],"pinyin":"zhu shi   /   qu xiao zhu shi zhushi / quxiaozhushi z s   /   q x z s zs / qxzs zhu shi   qu xiao zhu shi zhushi quxiaozhushi z s   q x z s zs qxzs"},{"id":"rstudio-reindent","appId":"rstudio","type":"software","category":"development","name":{"zh":"重新缩进","en":"Reindent Lines"},"description":{"zh":"按规则重新格式化所选代码的缩进","en":"Reformat the indentation of selected lines"},"windows":"Ctrl + I","mac":"⌘ I","linux":"Ctrl + I","keywords":["缩进","indent","格式化","reformat"],"pinyin":"chong xin suo jin chongxinsuojin c x s j cxsj suo jin   ge shi hua suojin geshihua s j   g s h sj gsh"},{"id":"rstudio-assign","appId":"rstudio","type":"software","category":"development","name":{"zh":"插入赋值符 <-","en":"Insert Assignment Operator"},"description":{"zh":"在光标处插入 R 的赋值运算符 <-","en":"Insert the R assignment operator <-"},"windows":"Alt + -","mac":"⌥ -","linux":"Alt + -","keywords":["赋值","assign","运算符","<-"],"pinyin":"cha ru fu zhi fu   < - charufuzhifu <- c r f z f   < - crfzf <- fu zhi   yun suan fu fuzhi yunsuanfu f z   y s f fz ysf"},{"id":"rstudio-pipe","appId":"rstudio","type":"software","category":"development","name":{"zh":"插入管道符 %>%（|>)","en":"Insert Pipe Operator"},"description":{"zh":"插入 magrittr / 原生管道运算符","en":"Insert the pipe operator"},"windows":"Ctrl + Shift + M","mac":"⇧ ⌘ M","linux":"Ctrl + Shift + M","keywords":["管道","pipe","%>%","|>","运算符"],"pinyin":"cha ru guan dao fu   % > % （ | > ) charuguandaofu %>%（|>) c r g d f   % > % （ | > ) crgdf %>%（|>) guan dao   yun suan fu guandao yunsuanfu g d   y s f gd ysf"},{"id":"rstudio-help","appId":"rstudio","type":"software","category":"development","name":{"zh":"显示光标处函数的帮助","en":"Show Help for Function at Cursor"},"description":{"zh":"打开光标所在函数的帮助文档","en":"Open help for the function under the cursor"},"windows":"F1","mac":"F1","linux":"F1","keywords":["帮助","help","文档","函数"],"pinyin":"xian shi guang biao chu han shu de bang zhu xianshiguangbiaochuhanshudebangzhu x s g b c h s d b z xsgbchsdbz bang zhu   wen dang   han shu bangzhu wendang hanshu b z   w d   h s bz wd hs"},{"id":"rstudio-movelines","appId":"rstudio","type":"software","category":"development","name":{"zh":"上下移动行","en":"Move Lines Up / Down"},"description":{"zh":"将当前行或所选行上移 / 下移","en":"Move the current or selected lines up or down"},"windows":"Alt + ↑ / ↓","mac":"⌥ ↑ / ↓","linux":"Alt + ↑ / ↓","keywords":["移动行","move line","上移","下移"],"pinyin":"shang xia yi dong xing shangxiayidongxing s x y d x sxydx yi dong xing   shang yi   xia yi yidongxing shangyi xiayi y d x   s y   x y ydx sy xy"},{"id":"rstudio-copylines","appId":"rstudio","type":"software","category":"development","name":{"zh":"向上 / 向下复制行","en":"Copy Lines Up / Down"},"description":{"zh":"向上或向下复制当前行","en":"Duplicate the current line up or down"},"windows":"Shift + Alt + ↑ / ↓","mac":"⌘ ⌥ ↑ / ↓","linux":"Shift + Alt + ↑ / ↓","keywords":["复制行","duplicate","copy line"],"pinyin":"xiang shang   /   xiang xia fu zhi xing xiangshang / xiangxiafuzhixing x s   /   x x f z x xs / xxfzx fu zhi xing fuzhixing f z x fzx"},{"id":"rstudio-multicursor","appId":"rstudio","type":"software","category":"development","name":{"zh":"在上方 / 下方添加光标","en":"Add Cursor Above / Below"},"description":{"zh":"多光标编辑：在上方或下方新增光标","en":"Add an additional cursor above or below"},"windows":"Ctrl + Alt + ↑ / ↓","mac":"⌃ ⌥ ↑ / ↓","linux":"Ctrl + Alt + ↑ / ↓","keywords":["多光标","multi cursor","光标","编辑"],"pinyin":"zai shang fang   /   xia fang tian jia guang biao zaishangfang / xiafangtianjiaguangbiao z s f   /   x f t j g b zsf / xftjgb duo guang biao   guang biao   bian ji duoguangbiao guangbiao bianji d g b   g b   b j dgb gb bj"},{"id":"rstudio-find","appId":"rstudio","type":"software","category":"development","name":{"zh":"查找与替换","en":"Find and Replace"},"description":{"zh":"在当前文档中查找并替换文本","en":"Find and replace text in the current document"},"windows":"Ctrl + F","mac":"⌘ F","linux":"Ctrl + F","keywords":["查找","find","替换","replace","搜索"],"pinyin":"cha zhao yu ti huan chazhaoyutihuan c z y t h czyth cha zhao   ti huan   sou suo chazhao tihuan sousuo c z   t h   s s cz th ss"},{"id":"rstudio-findinfiles","appId":"rstudio","type":"software","category":"development","name":{"zh":"在文件中查找","en":"Find in Files"},"description":{"zh":"跨项目文件全局搜索","en":"Search across all project files"},"windows":"Ctrl + Shift + F","mac":"⇧ ⌘ F","linux":"Ctrl + Shift + F","keywords":["全局搜索","find in files","查找"],"pinyin":"zai wen jian zhong cha zhao zaiwenjianzhongchazhao z w j z c z zwjzcz quan ju sou suo   cha zhao quanjusousuo chazhao q j s s   c z qjss cz"},{"id":"rstudio-commandpalette","appId":"rstudio","type":"software","category":"development","name":{"zh":"显示命令面板","en":"Show Command Palette"},"description":{"zh":"打开可搜索所有命令的命令面板","en":"Open the searchable command palette"},"windows":"Ctrl + Shift + P","mac":"⇧ ⌘ P","linux":"Ctrl + Shift + P","keywords":["命令面板","command palette","命令"],"pinyin":"xian shi ming ling mian ban xianshiminglingmianban x s m l m b xsmlmb ming ling mian ban   ming ling minglingmianban mingling m l m b   m l mlmb ml"},{"id":"rstudio-shortcuthelp","appId":"rstudio","type":"software","category":"development","name":{"zh":"显示快捷键速查","en":"Show Keyboard Shortcut Reference"},"description":{"zh":"打开 RStudio 快捷键参考面板","en":"Open the keyboard shortcut quick reference"},"windows":"Alt + Shift + K","mac":"⌥ ⇧ K","linux":"Alt + Shift + K","keywords":["快捷键","shortcuts","速查","帮助"],"pinyin":"xian shi kuai jie jian su cha xianshikuaijiejiansucha x s k j j s c xskjjsc kuai jie jian   su cha   bang zhu kuaijiejian sucha bangzhu k j j   s c   b z kjj sc bz"},{"id":"rstudio-showplots","appId":"rstudio","type":"software","category":"development","name":{"zh":"显示绘图面板","en":"Show Plots"},"description":{"zh":"切换到 Plots 绘图面板","en":"Switch to the Plots pane"},"windows":"Ctrl + 6","mac":"⌃ 6","linux":"Ctrl + 6","keywords":["绘图","plots","图形","面板"],"pinyin":"xian shi hui tu mian ban xianshihuitumianban x s h t m b xshtmb hui tu   tu xing   mian ban huitu tuxing mianban h t   t x   m b ht tx mb"},{"id":"rstudio-showenv","appId":"rstudio","type":"software","category":"development","name":{"zh":"显示环境面板","en":"Show Environment"},"description":{"zh":"切换到 Environment 变量面板","en":"Switch to the Environment pane"},"windows":"Ctrl + 8","mac":"⌃ 8","linux":"Ctrl + 8","keywords":["环境","environment","变量","面板"],"pinyin":"xian shi huan jing mian ban xianshihuanjingmianban x s h j m b xshjmb huan jing   bian liang   mian ban huanjing bianliang mianban h j   b l   m b hj bl mb"},{"id":"rstudio-build-check","appId":"rstudio","type":"software","category":"development","name":{"zh":"检查 R 包","en":"Check Package"},"description":{"zh":"运行 R CMD check 检查包","en":"Run R CMD check on the package"},"windows":"Ctrl + Shift + E","mac":"⇧ ⌘ E","linux":"Ctrl + Shift + E","keywords":["检查包","check","R CMD check","构建"],"pinyin":"jian cha   r   bao jiancha r bao j c   r   b jc r b jian cha bao   gou jian jianchabao goujian j c b   g j jcb gj"},{"id":"rstudio-build-install","appId":"rstudio","type":"software","category":"development","name":{"zh":"安装并重启","en":"Install and Restart"},"description":{"zh":"重新构建安装当前包并重启 R","en":"Rebuild, install the package and restart R"},"windows":"Ctrl + Shift + B","mac":"⇧ ⌘ B","linux":"Ctrl + Shift + B","keywords":["安装","install","重启","构建","build"],"pinyin":"an zhuang bing chong qi anzhuangbingchongqi a z b c q azbcq an zhuang   chong qi   gou jian anzhuang chongqi goujian a z   c q   g j az cq gj"},{"id":"rstudio-debug-breakpoint","appId":"rstudio","type":"software","category":"development","name":{"zh":"切换断点","en":"Toggle Breakpoint"},"description":{"zh":"在当前行设置或取消断点","en":"Set or remove a breakpoint on the current line"},"windows":"Shift + F9","mac":"⇧ F9","linux":"Shift + F9","keywords":["断点","breakpoint","调试","debug"],"pinyin":"qie huan duan dian qiehuanduandian q h d d qhdd duan dian   tiao shi duandian tiaoshi d d   t s dd ts"},{"id":"rstudio-debug-continue","appId":"rstudio","type":"software","category":"development","name":{"zh":"继续调试","en":"Continue Debugging"},"description":{"zh":"从断点处继续运行程序","en":"Continue execution from a breakpoint"},"windows":"Shift + F5","mac":"⇧ F5","linux":"Shift + F5","keywords":["继续","continue","调试","debug"],"pinyin":"ji xu tiao shi jixutiaoshi j x t s jxts ji xu   tiao shi jixu tiaoshi j x   t s jx ts"},{"id":"rstudio-git-commit","appId":"rstudio","type":"software","category":"development","name":{"zh":"提交更改","en":"Commit Changes"},"description":{"zh":"打开 Git 提交窗口","en":"Open the Git commit dialog"},"windows":"Ctrl + Alt + M","mac":"⌃ ⌥ M","linux":"Ctrl + Alt + M","keywords":["提交","commit","git","版本控制"],"pinyin":"ti jiao geng gai tijiaogenggai t j g g tjgg ti jiao   ban ben kong zhi tijiao banbenkongzhi t j   b b k z tj bbkz"},{"id":"rstudio-git-diff","appId":"rstudio","type":"software","category":"development","name":{"zh":"查看当前文档差异","en":"Diff Active Source Document"},"description":{"zh":"查看当前文件的 Git 差异","en":"Show the Git diff for the active document"},"windows":"Ctrl + Alt + D","mac":"⌃ ⌥ D","linux":"Ctrl + Alt + D","keywords":["差异","diff","git","对比"],"pinyin":"cha kan dang qian wen dang cha yi chakandangqianwendangchayi c k d q w d c y ckdqwdcy cha yi   dui bi chayi duibi c y   d b cy db"},{"id":"rstudio-restart","appId":"rstudio","type":"software","category":"development","name":{"zh":"重启 R 会话","en":"Restart R Session"},"description":{"zh":"重新启动 R 解释器会话","en":"Restart the R session"},"windows":"Ctrl + Shift + F10","mac":"⇧ ⌘ 0","linux":"Ctrl + Shift + F10","keywords":["重启","restart","会话","session"],"pinyin":"chong qi   r   hui hua chongqi r huihua c q   r   h h cq r hh chong qi   hui hua chongqi huihua c q   h h cq hh"},{"id":"rstudio-newterminal","appId":"rstudio","type":"software","category":"development","name":{"zh":"新建终端","en":"New Terminal"},"description":{"zh":"在 Terminal 面板新建一个终端会话","en":"Create a new terminal session"},"windows":"Shift + Alt + R","mac":"⌥ ⇧ R","linux":"Shift + Alt + R","keywords":["终端","terminal","新建","shell"],"pinyin":"xin jian zhong duan xinjianzhongduan x j z d xjzd zhong duan   xin jian zhongduan xinjian z d   x j zd xj"}]
+[
+  {
+    "id": "rstudio-console-focus",
+    "appId": "rstudio",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "光标移到控制台",
+      "en": "Move Cursor to Console"
+    },
+    "description": {
+      "zh": "将输入焦点切换到 Console 面板",
+      "en": "Move focus to the Console pane"
+    },
+    "windows": "Ctrl + 2",
+    "mac": "⌃ 2",
+    "linux": "Ctrl + 2",
+    "keywords": [
+      "控制台",
+      "console",
+      "焦点",
+      "切换"
+    ],
+    "pinyin": "guang biao yi dao kong zhi tai guangbiaoyidaokongzhitai g b y d k z t gbydkzt kong zhi tai   jiao dian   qie huan kongzhitai jiaodian qiehuan k z t   j d   q h kzt jd qh"
+  },
+  {
+    "id": "rstudio-console-clear",
+    "appId": "rstudio",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "清空控制台",
+      "en": "Clear Console"
+    },
+    "description": {
+      "zh": "清除控制台中的所有输出",
+      "en": "Clear all console output"
+    },
+    "windows": "Ctrl + L",
+    "mac": "⌃ L",
+    "linux": "Ctrl + L",
+    "keywords": [
+      "清空",
+      "clear",
+      "控制台",
+      "清屏"
+    ],
+    "pinyin": "qing kong kong zhi tai qingkongkongzhitai q k k z t qkkzt qing kong   kong zhi tai   qing ping qingkong kongzhitai qingping q k   k z t   q p qk kzt qp"
+  },
+  {
+    "id": "rstudio-interrupt",
+    "appId": "rstudio",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "中断正在执行的命令",
+      "en": "Interrupt Currently Executing Command"
+    },
+    "description": {
+      "zh": "停止当前正在运行的 R 命令",
+      "en": "Stop the currently running R command"
+    },
+    "windows": "Esc",
+    "mac": "Esc",
+    "linux": "Esc",
+    "keywords": [
+      "中断",
+      "interrupt",
+      "停止",
+      "esc"
+    ],
+    "pinyin": "zhong duan zheng zai zhi xing de ming ling zhongduanzhengzaizhixingdemingling z d z z z x d m l zdzzzxdml zhong duan   ting zhi zhongduan tingzhi z d   t z zd tz"
+  },
+  {
+    "id": "rstudio-source-focus",
+    "appId": "rstudio",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "光标移到源码编辑器",
+      "en": "Move Cursor to Source Editor"
+    },
+    "description": {
+      "zh": "将输入焦点切换到 Source 编辑区",
+      "en": "Move focus to the Source editor"
+    },
+    "windows": "Ctrl + 1",
+    "mac": "⌃ 1",
+    "linux": "Ctrl + 1",
+    "keywords": [
+      "源码",
+      "source",
+      "编辑器",
+      "焦点"
+    ],
+    "pinyin": "guang biao yi dao yuan ma bian ji qi guangbiaoyidaoyuanmabianjiqi g b y d y m b j q gbydymbjq yuan ma   bian ji qi   jiao dian yuanma bianjiqi jiaodian y m   b j q   j d ym bjq jd"
+  },
+  {
+    "id": "rstudio-run-line",
+    "appId": "rstudio",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "运行当前行 / 所选代码",
+      "en": "Run Current Line / Selection"
+    },
+    "description": {
+      "zh": "执行光标所在行或选中的代码",
+      "en": "Execute the current line or selected code"
+    },
+    "windows": "Ctrl + Enter",
+    "mac": "⌘ Return",
+    "linux": "Ctrl + Enter",
+    "keywords": [
+      "运行",
+      "run",
+      "执行",
+      "当前行",
+      "选中"
+    ],
+    "pinyin": "yun hang dang qian xing   /   suo xuan dai ma yunhangdangqianxing / suoxuandaima y h d q x   /   s x d m yhdqx / sxdm yun xing   zhi xing   dang qian xing   xuan zhong yunxing zhixing dangqianxing xuanzhong y x   z x   d q x   x z yx zx dqx xz"
+  },
+  {
+    "id": "rstudio-run-line-stay",
+    "appId": "rstudio",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "运行当前行并保持光标位置",
+      "en": "Run Current Line (Retain Cursor Position)"
+    },
+    "description": {
+      "zh": "执行当前行但光标不跳到下一行",
+      "en": "Run the line without advancing the cursor"
+    },
+    "windows": "Alt + Enter",
+    "mac": "⌥ Return",
+    "linux": "Alt + Enter",
+    "keywords": [
+      "运行",
+      "run",
+      "保持光标",
+      "不跳转"
+    ],
+    "pinyin": "yun hang dang qian xing bing bao chi guang biao wei zhi yunhangdangqianxingbingbaochiguangbiaoweizhi y h d q x b b c g b w z yhdqxbbcgbwz yun xing   bao chi guang biao   bu tiao zhuan yunxing baochiguangbiao butiaozhuan y x   b c g b   b t z yx bcgb btz"
+  },
+  {
+    "id": "rstudio-run-all",
+    "appId": "rstudio",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "运行整个文档",
+      "en": "Run Current Document"
+    },
+    "description": {
+      "zh": "从头到尾执行当前文档的全部代码",
+      "en": "Execute the entire current document"
+    },
+    "windows": "Ctrl + Alt + R",
+    "mac": "⌥ ⌘ R",
+    "linux": "Ctrl + Alt + R",
+    "keywords": [
+      "运行全部",
+      "run all",
+      "整个文档",
+      "执行"
+    ],
+    "pinyin": "yun xing zheng ge wen dang yunxingzhenggewendang y x z g w d yxzgwd yun xing quan bu   zheng ge wen dang   zhi xing yunxingquanbu zhenggewendang zhixing y x q b   z g w d   z x yxqb zgwd zx"
+  },
+  {
+    "id": "rstudio-source-doc",
+    "appId": "rstudio",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "Source 当前文档",
+      "en": "Source the Current Document"
+    },
+    "description": {
+      "zh": "以 source() 方式运行当前文档",
+      "en": "Source the active document"
+    },
+    "windows": "Ctrl + Shift + S",
+    "mac": "⇧ ⌘ S",
+    "linux": "Ctrl + Shift + S",
+    "keywords": [
+      "source",
+      "运行文档",
+      "source()"
+    ],
+    "pinyin": "s o u r c e   dang qian wen dang source dangqianwendang s o u r c e   d q w d source dqwd yun xing wen dang yunxingwendang y x w d yxwd"
+  },
+  {
+    "id": "rstudio-save",
+    "appId": "rstudio",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "保存当前文档",
+      "en": "Save Active Document"
+    },
+    "description": {
+      "zh": "保存正在编辑的文件",
+      "en": "Save the active document"
+    },
+    "windows": "Ctrl + S",
+    "mac": "⌘ S",
+    "linux": "Ctrl + S",
+    "keywords": [
+      "保存",
+      "save",
+      "文件"
+    ],
+    "pinyin": "bao cun dang qian wen dang baocundangqianwendang b c d q w d bcdqwd bao cun   wen jian baocun wenjian b c   w j bc wj"
+  },
+  {
+    "id": "rstudio-open",
+    "appId": "rstudio",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "打开文档",
+      "en": "Open Document"
+    },
+    "description": {
+      "zh": "打开已有文件",
+      "en": "Open an existing document"
+    },
+    "windows": "Ctrl + O",
+    "mac": "⌘ O",
+    "linux": "Ctrl + O",
+    "keywords": [
+      "打开",
+      "open",
+      "文档",
+      "文件"
+    ],
+    "pinyin": "da kai wen dang dakaiwendang d k w d dkwd da kai   wen dang   wen jian dakai wendang wenjian d k   w d   w j dk wd wj"
+  },
+  {
+    "id": "rstudio-gotofile",
+    "appId": "rstudio",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "跳转到文件 / 函数",
+      "en": "Go to File / Function"
+    },
+    "description": {
+      "zh": "按名称快速定位文件或函数",
+      "en": "Quickly jump to a file or function by name"
+    },
+    "windows": "Ctrl + .",
+    "mac": "⌃ .",
+    "linux": "Ctrl + .",
+    "keywords": [
+      "跳转",
+      "goto",
+      "文件",
+      "函数",
+      "搜索"
+    ],
+    "pinyin": "tiao zhuan dao wen jian   /   han shu tiaozhuandaowenjian / hanshu t z d w j   /   h s tzdwj / hs tiao zhuan   wen jian   han shu   sou suo tiaozhuan wenjian hanshu sousuo t z   w j   h s   s s tz wj hs ss"
+  },
+  {
+    "id": "rstudio-insertchunk",
+    "appId": "rstudio",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "插入代码块",
+      "en": "Insert Chunk"
+    },
+    "description": {
+      "zh": "在 R Markdown / Sweave 文档中插入代码块",
+      "en": "Insert a code chunk (R Markdown / Sweave)"
+    },
+    "windows": "Ctrl + Alt + I",
+    "mac": "⌘ ⌥ I",
+    "linux": "Ctrl + Alt + I",
+    "keywords": [
+      "代码块",
+      "chunk",
+      "插入",
+      "rmarkdown"
+    ],
+    "pinyin": "cha ru dai ma kuai charudaimakuai c r d m k crdmk dai ma kuai   cha ru daimakuai charu d m k   c r dmk cr"
+  },
+  {
+    "id": "rstudio-gotoline",
+    "appId": "rstudio",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "跳转到指定行",
+      "en": "Go to Line"
+    },
+    "description": {
+      "zh": "跳到文档中的指定行号",
+      "en": "Jump to a specific line number"
+    },
+    "windows": "Shift + Alt + G",
+    "mac": "⌥ ⇧ ⌘ G",
+    "linux": "Shift + Alt + G",
+    "keywords": [
+      "跳转到行",
+      "go to line",
+      "行号"
+    ],
+    "pinyin": "tiao zhuan dao zhi ding xing tiaozhuandaozhidingxing t z d z d x tzdzdx tiao zhuan dao xing   hang hao tiaozhuandaoxing hanghao t z d x   h h tzdx hh"
+  },
+  {
+    "id": "rstudio-comment",
+    "appId": "rstudio",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "注释 / 取消注释",
+      "en": "Comment / Uncomment Current Line"
+    },
+    "description": {
+      "zh": "切换当前行或所选区域的注释状态",
+      "en": "Toggle comment on the current line or selection"
+    },
+    "windows": "Ctrl + Shift + C",
+    "mac": "⇧ ⌘ C",
+    "linux": "Ctrl + Shift + C",
+    "keywords": [
+      "注释",
+      "comment",
+      "取消注释"
+    ],
+    "pinyin": "zhu shi   /   qu xiao zhu shi zhushi / quxiaozhushi z s   /   q x z s zs / qxzs zhu shi   qu xiao zhu shi zhushi quxiaozhushi z s   q x z s zs qxzs"
+  },
+  {
+    "id": "rstudio-reindent",
+    "appId": "rstudio",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "重新缩进",
+      "en": "Reindent Lines"
+    },
+    "description": {
+      "zh": "按规则重新格式化所选代码的缩进",
+      "en": "Reformat the indentation of selected lines"
+    },
+    "windows": "Ctrl + I",
+    "mac": "⌘ I",
+    "linux": "Ctrl + I",
+    "keywords": [
+      "缩进",
+      "indent",
+      "格式化",
+      "reformat"
+    ],
+    "pinyin": "chong xin suo jin chongxinsuojin c x s j cxsj suo jin   ge shi hua suojin geshihua s j   g s h sj gsh"
+  },
+  {
+    "id": "rstudio-assign",
+    "appId": "rstudio",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "插入赋值符 <-",
+      "en": "Insert Assignment Operator"
+    },
+    "description": {
+      "zh": "在光标处插入 R 的赋值运算符 <-",
+      "en": "Insert the R assignment operator <-"
+    },
+    "windows": "Alt + -",
+    "mac": "⌥ -",
+    "linux": "Alt + -",
+    "keywords": [
+      "赋值",
+      "assign",
+      "运算符",
+      "<-"
+    ],
+    "pinyin": "cha ru fu zhi fu   < - charufuzhifu <- c r f z f   < - crfzf <- fu zhi   yun suan fu fuzhi yunsuanfu f z   y s f fz ysf"
+  },
+  {
+    "id": "rstudio-pipe",
+    "appId": "rstudio",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "插入管道符 %>%（|>)",
+      "en": "Insert Pipe Operator"
+    },
+    "description": {
+      "zh": "插入 magrittr / 原生管道运算符",
+      "en": "Insert the pipe operator"
+    },
+    "windows": "Ctrl + Shift + M",
+    "mac": "⇧ ⌘ M",
+    "linux": "Ctrl + Shift + M",
+    "keywords": [
+      "管道",
+      "pipe",
+      "%>%",
+      "|>",
+      "运算符"
+    ],
+    "pinyin": "cha ru guan dao fu   % > % （ | > ) charuguandaofu %>%（|>) c r g d f   % > % （ | > ) crgdf %>%（|>) guan dao   yun suan fu guandao yunsuanfu g d   y s f gd ysf"
+  },
+  {
+    "id": "rstudio-help",
+    "appId": "rstudio",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "显示光标处函数的帮助",
+      "en": "Show Help for Function at Cursor"
+    },
+    "description": {
+      "zh": "打开光标所在函数的帮助文档",
+      "en": "Open help for the function under the cursor"
+    },
+    "windows": "F1",
+    "mac": "F1",
+    "linux": "F1",
+    "keywords": [
+      "帮助",
+      "help",
+      "文档",
+      "函数"
+    ],
+    "pinyin": "xian shi guang biao chu han shu de bang zhu xianshiguangbiaochuhanshudebangzhu x s g b c h s d b z xsgbchsdbz bang zhu   wen dang   han shu bangzhu wendang hanshu b z   w d   h s bz wd hs"
+  },
+  {
+    "id": "rstudio-movelines",
+    "appId": "rstudio",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "上下移动行",
+      "en": "Move Lines Up / Down"
+    },
+    "description": {
+      "zh": "将当前行或所选行上移 / 下移",
+      "en": "Move the current or selected lines up or down"
+    },
+    "windows": "Alt + ↑ / ↓",
+    "mac": "⌥ ↑ / ↓",
+    "linux": "Alt + ↑ / ↓",
+    "keywords": [
+      "移动行",
+      "move line",
+      "上移",
+      "下移"
+    ],
+    "pinyin": "shang xia yi dong xing shangxiayidongxing s x y d x sxydx yi dong xing   shang yi   xia yi yidongxing shangyi xiayi y d x   s y   x y ydx sy xy"
+  },
+  {
+    "id": "rstudio-copylines",
+    "appId": "rstudio",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "向上 / 向下复制行",
+      "en": "Copy Lines Up / Down"
+    },
+    "description": {
+      "zh": "向上或向下复制当前行",
+      "en": "Duplicate the current line up or down"
+    },
+    "windows": "Shift + Alt + ↑ / ↓",
+    "mac": "⌘ ⌥ ↑ / ↓",
+    "linux": "Shift + Alt + ↑ / ↓",
+    "keywords": [
+      "复制行",
+      "duplicate",
+      "copy line"
+    ],
+    "pinyin": "xiang shang   /   xiang xia fu zhi xing xiangshang / xiangxiafuzhixing x s   /   x x f z x xs / xxfzx fu zhi xing fuzhixing f z x fzx"
+  },
+  {
+    "id": "rstudio-multicursor",
+    "appId": "rstudio",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "在上方 / 下方添加光标",
+      "en": "Add Cursor Above / Below"
+    },
+    "description": {
+      "zh": "多光标编辑：在上方或下方新增光标",
+      "en": "Add an additional cursor above or below"
+    },
+    "windows": "Ctrl + Alt + ↑ / ↓",
+    "mac": "⌃ ⌥ ↑ / ↓",
+    "linux": "Ctrl + Alt + ↑ / ↓",
+    "keywords": [
+      "多光标",
+      "multi cursor",
+      "光标",
+      "编辑"
+    ],
+    "pinyin": "zai shang fang   /   xia fang tian jia guang biao zaishangfang / xiafangtianjiaguangbiao z s f   /   x f t j g b zsf / xftjgb duo guang biao   guang biao   bian ji duoguangbiao guangbiao bianji d g b   g b   b j dgb gb bj"
+  },
+  {
+    "id": "rstudio-find",
+    "appId": "rstudio",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "查找与替换",
+      "en": "Find and Replace"
+    },
+    "description": {
+      "zh": "在当前文档中查找并替换文本",
+      "en": "Find and replace text in the current document"
+    },
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
+    "linux": "Ctrl + F",
+    "keywords": [
+      "查找",
+      "find",
+      "替换",
+      "replace",
+      "搜索"
+    ],
+    "pinyin": "cha zhao yu ti huan chazhaoyutihuan c z y t h czyth cha zhao   ti huan   sou suo chazhao tihuan sousuo c z   t h   s s cz th ss"
+  },
+  {
+    "id": "rstudio-findinfiles",
+    "appId": "rstudio",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "在文件中查找",
+      "en": "Find in Files"
+    },
+    "description": {
+      "zh": "跨项目文件全局搜索",
+      "en": "Search across all project files"
+    },
+    "windows": "Ctrl + Shift + F",
+    "mac": "⇧ ⌘ F",
+    "linux": "Ctrl + Shift + F",
+    "keywords": [
+      "全局搜索",
+      "find in files",
+      "查找"
+    ],
+    "pinyin": "zai wen jian zhong cha zhao zaiwenjianzhongchazhao z w j z c z zwjzcz quan ju sou suo   cha zhao quanjusousuo chazhao q j s s   c z qjss cz"
+  },
+  {
+    "id": "rstudio-commandpalette",
+    "appId": "rstudio",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "显示命令面板",
+      "en": "Show Command Palette"
+    },
+    "description": {
+      "zh": "打开可搜索所有命令的命令面板",
+      "en": "Open the searchable command palette"
+    },
+    "windows": "Ctrl + Shift + P",
+    "mac": "⇧ ⌘ P",
+    "linux": "Ctrl + Shift + P",
+    "keywords": [
+      "命令面板",
+      "command palette",
+      "命令"
+    ],
+    "pinyin": "xian shi ming ling mian ban xianshiminglingmianban x s m l m b xsmlmb ming ling mian ban   ming ling minglingmianban mingling m l m b   m l mlmb ml"
+  },
+  {
+    "id": "rstudio-shortcuthelp",
+    "appId": "rstudio",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "显示快捷键速查",
+      "en": "Show Keyboard Shortcut Reference"
+    },
+    "description": {
+      "zh": "打开 RStudio 快捷键参考面板",
+      "en": "Open the keyboard shortcut quick reference"
+    },
+    "windows": "Alt + Shift + K",
+    "mac": "⌥ ⇧ K",
+    "linux": "Alt + Shift + K",
+    "keywords": [
+      "快捷键",
+      "shortcuts",
+      "速查",
+      "帮助"
+    ],
+    "pinyin": "xian shi kuai jie jian su cha xianshikuaijiejiansucha x s k j j s c xskjjsc kuai jie jian   su cha   bang zhu kuaijiejian sucha bangzhu k j j   s c   b z kjj sc bz"
+  },
+  {
+    "id": "rstudio-showplots",
+    "appId": "rstudio",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "显示绘图面板",
+      "en": "Show Plots"
+    },
+    "description": {
+      "zh": "切换到 Plots 绘图面板",
+      "en": "Switch to the Plots pane"
+    },
+    "windows": "Ctrl + 6",
+    "mac": "⌃ 6",
+    "linux": "Ctrl + 6",
+    "keywords": [
+      "绘图",
+      "plots",
+      "图形",
+      "面板"
+    ],
+    "pinyin": "xian shi hui tu mian ban xianshihuitumianban x s h t m b xshtmb hui tu   tu xing   mian ban huitu tuxing mianban h t   t x   m b ht tx mb"
+  },
+  {
+    "id": "rstudio-showenv",
+    "appId": "rstudio",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "显示环境面板",
+      "en": "Show Environment"
+    },
+    "description": {
+      "zh": "切换到 Environment 变量面板",
+      "en": "Switch to the Environment pane"
+    },
+    "windows": "Ctrl + 8",
+    "mac": "⌃ 8",
+    "linux": "Ctrl + 8",
+    "keywords": [
+      "环境",
+      "environment",
+      "变量",
+      "面板"
+    ],
+    "pinyin": "xian shi huan jing mian ban xianshihuanjingmianban x s h j m b xshjmb huan jing   bian liang   mian ban huanjing bianliang mianban h j   b l   m b hj bl mb"
+  },
+  {
+    "id": "rstudio-build-check",
+    "appId": "rstudio",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "检查 R 包",
+      "en": "Check Package"
+    },
+    "description": {
+      "zh": "运行 R CMD check 检查包",
+      "en": "Run R CMD check on the package"
+    },
+    "windows": "Ctrl + Shift + E",
+    "mac": "⇧ ⌘ E",
+    "linux": "Ctrl + Shift + E",
+    "keywords": [
+      "检查包",
+      "check",
+      "R CMD check",
+      "构建"
+    ],
+    "pinyin": "jian cha   r   bao jiancha r bao j c   r   b jc r b jian cha bao   gou jian jianchabao goujian j c b   g j jcb gj"
+  },
+  {
+    "id": "rstudio-build-install",
+    "appId": "rstudio",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "安装并重启",
+      "en": "Install and Restart"
+    },
+    "description": {
+      "zh": "重新构建安装当前包并重启 R",
+      "en": "Rebuild, install the package and restart R"
+    },
+    "windows": "Ctrl + Shift + B",
+    "mac": "⇧ ⌘ B",
+    "linux": "Ctrl + Shift + B",
+    "keywords": [
+      "安装",
+      "install",
+      "重启",
+      "构建",
+      "build"
+    ],
+    "pinyin": "an zhuang bing chong qi anzhuangbingchongqi a z b c q azbcq an zhuang   chong qi   gou jian anzhuang chongqi goujian a z   c q   g j az cq gj"
+  },
+  {
+    "id": "rstudio-debug-breakpoint",
+    "appId": "rstudio",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "切换断点",
+      "en": "Toggle Breakpoint"
+    },
+    "description": {
+      "zh": "在当前行设置或取消断点",
+      "en": "Set or remove a breakpoint on the current line"
+    },
+    "windows": "Shift + F9",
+    "mac": "⇧ F9",
+    "linux": "Shift + F9",
+    "keywords": [
+      "断点",
+      "breakpoint",
+      "调试",
+      "debug"
+    ],
+    "pinyin": "qie huan duan dian qiehuanduandian q h d d qhdd duan dian   tiao shi duandian tiaoshi d d   t s dd ts"
+  },
+  {
+    "id": "rstudio-debug-continue",
+    "appId": "rstudio",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "继续调试",
+      "en": "Continue Debugging"
+    },
+    "description": {
+      "zh": "从断点处继续运行程序",
+      "en": "Continue execution from a breakpoint"
+    },
+    "windows": "Shift + F5",
+    "mac": "⇧ F5",
+    "linux": "Shift + F5",
+    "keywords": [
+      "继续",
+      "continue",
+      "调试",
+      "debug"
+    ],
+    "pinyin": "ji xu tiao shi jixutiaoshi j x t s jxts ji xu   tiao shi jixu tiaoshi j x   t s jx ts"
+  },
+  {
+    "id": "rstudio-git-commit",
+    "appId": "rstudio",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "提交更改",
+      "en": "Commit Changes"
+    },
+    "description": {
+      "zh": "打开 Git 提交窗口",
+      "en": "Open the Git commit dialog"
+    },
+    "windows": "Ctrl + Alt + M",
+    "mac": "⌃ ⌥ M",
+    "linux": "Ctrl + Alt + M",
+    "keywords": [
+      "提交",
+      "commit",
+      "git",
+      "版本控制"
+    ],
+    "pinyin": "ti jiao geng gai tijiaogenggai t j g g tjgg ti jiao   ban ben kong zhi tijiao banbenkongzhi t j   b b k z tj bbkz"
+  },
+  {
+    "id": "rstudio-git-diff",
+    "appId": "rstudio",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "查看当前文档差异",
+      "en": "Diff Active Source Document"
+    },
+    "description": {
+      "zh": "查看当前文件的 Git 差异",
+      "en": "Show the Git diff for the active document"
+    },
+    "windows": "Ctrl + Alt + D",
+    "mac": "⌃ ⌥ D",
+    "linux": "Ctrl + Alt + D",
+    "keywords": [
+      "差异",
+      "diff",
+      "git",
+      "对比"
+    ],
+    "pinyin": "cha kan dang qian wen dang cha yi chakandangqianwendangchayi c k d q w d c y ckdqwdcy cha yi   dui bi chayi duibi c y   d b cy db"
+  },
+  {
+    "id": "rstudio-restart",
+    "appId": "rstudio",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "重启 R 会话",
+      "en": "Restart R Session"
+    },
+    "description": {
+      "zh": "重新启动 R 解释器会话",
+      "en": "Restart the R session"
+    },
+    "windows": "Ctrl + Shift + F10",
+    "mac": "⇧ ⌘ 0",
+    "linux": "Ctrl + Shift + F10",
+    "keywords": [
+      "重启",
+      "restart",
+      "会话",
+      "session"
+    ],
+    "pinyin": "chong qi   r   hui hua chongqi r huihua c q   r   h h cq r hh chong qi   hui hua chongqi huihua c q   h h cq hh"
+  },
+  {
+    "id": "rstudio-newterminal",
+    "appId": "rstudio",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "新建终端",
+      "en": "New Terminal"
+    },
+    "description": {
+      "zh": "在 Terminal 面板新建一个终端会话",
+      "en": "Create a new terminal session"
+    },
+    "windows": "Shift + Alt + R",
+    "mac": "⌥ ⇧ R",
+    "linux": "Shift + Alt + R",
+    "keywords": [
+      "终端",
+      "terminal",
+      "新建",
+      "shell"
+    ],
+    "pinyin": "xin jian zhong duan xinjianzhongduan x j z d xjzd zhong duan   xin jian zhongduan xinjian z d   x j zd xj"
+  }
+]

@@ -1,0 +1,356 @@
+[
+  {
+    "id": "todo-new-task",
+    "appId": "microsofttodo",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "New task",
+      "zh": "新建任务"
+    },
+    "description": {
+      "en": "Add a task",
+      "zh": "添加任务"
+    },
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
+    "linux": "Ctrl + N",
+    "keywords": [
+      "new",
+      "task",
+      "任务"
+    ],
+    "pinyin": "xin jian ren wu xinjianrenwu x j r w xjrw ren wu renwu r w rw"
+  },
+  {
+    "id": "todo-new-list",
+    "appId": "microsofttodo",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "New list",
+      "zh": "新建清单"
+    },
+    "description": {
+      "en": "Create a list",
+      "zh": "创建清单"
+    },
+    "windows": "Ctrl + Shift + N",
+    "mac": "⌘ Shift + N",
+    "linux": "Ctrl + Shift + N",
+    "keywords": [
+      "new",
+      "list",
+      "清单"
+    ],
+    "pinyin": "xin jian qing dan xinjianqingdan x j q d xjqd qing dan qingdan q d qd"
+  },
+  {
+    "id": "todo-complete",
+    "appId": "microsofttodo",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Complete",
+      "zh": "完成任务"
+    },
+    "description": {
+      "en": "Mark task complete",
+      "zh": "标记完成"
+    },
+    "windows": "Ctrl + Enter",
+    "mac": "⌘ Enter",
+    "linux": "Ctrl + Enter",
+    "keywords": [
+      "complete",
+      "完成"
+    ],
+    "pinyin": "wan cheng ren wu wanchengrenwu w c r w wcrw wan cheng wancheng w c wc"
+  },
+  {
+    "id": "todo-details",
+    "appId": "microsofttodo",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Details",
+      "zh": "详情"
+    },
+    "description": {
+      "en": "Open task details",
+      "zh": "打开任务详情"
+    },
+    "windows": "Ctrl + D",
+    "mac": "⌘ D",
+    "linux": "Ctrl + D",
+    "keywords": [
+      "details",
+      "详情"
+    ],
+    "pinyin": "xiang qing xiangqing x q xq xiang qing xiangqing x q xq"
+  },
+  {
+    "id": "todo-delete",
+    "appId": "microsofttodo",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Delete",
+      "zh": "删除"
+    },
+    "description": {
+      "en": "Delete task/list",
+      "zh": "删除任务"
+    },
+    "windows": "Delete",
+    "mac": "Delete",
+    "linux": "Delete",
+    "keywords": [
+      "delete",
+      "删除"
+    ],
+    "pinyin": "shan chu shanchu s c sc shan chu shanchu s c sc"
+  },
+  {
+    "id": "todo-rename",
+    "appId": "microsofttodo",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Rename",
+      "zh": "重命名"
+    },
+    "description": {
+      "en": "Rename list",
+      "zh": "重命名清单"
+    },
+    "windows": "F2",
+    "mac": "F2",
+    "linux": "F2",
+    "keywords": [
+      "rename",
+      "重命名"
+    ],
+    "pinyin": "zhong ming ming zhongmingming z m m zmm zhong ming ming zhongmingming z m m zmm"
+  },
+  {
+    "id": "todo-move-up",
+    "appId": "microsofttodo",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Move up",
+      "zh": "上移"
+    },
+    "description": {
+      "en": "Move task up",
+      "zh": "任务上移"
+    },
+    "windows": "Alt + Shift + Up",
+    "mac": "⌥ ⇧ Up",
+    "linux": "Alt + Shift + Up",
+    "keywords": [
+      "up",
+      "上移"
+    ],
+    "pinyin": "shang yi shangyi s y sy shang yi shangyi s y sy"
+  },
+  {
+    "id": "todo-move-down",
+    "appId": "microsofttodo",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Move down",
+      "zh": "下移"
+    },
+    "description": {
+      "en": "Move task down",
+      "zh": "任务下移"
+    },
+    "windows": "Alt + Shift + Down",
+    "mac": "⌥ ⇧ Down",
+    "linux": "Alt + Shift + Down",
+    "keywords": [
+      "down",
+      "下移"
+    ],
+    "pinyin": "xia yi xiayi x y xy xia yi xiayi x y xy"
+  },
+  {
+    "id": "todo-indent",
+    "appId": "microsofttodo",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Indent",
+      "zh": "缩进"
+    },
+    "description": {
+      "en": "Indent task",
+      "zh": "缩进任务"
+    },
+    "windows": "Tab",
+    "mac": "Tab",
+    "linux": "Tab",
+    "keywords": [
+      "indent",
+      "缩进"
+    ],
+    "pinyin": "suo jin suojin s j sj suo jin suojin s j sj"
+  },
+  {
+    "id": "todo-outdent",
+    "appId": "microsofttodo",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Outdent",
+      "zh": "反缩进"
+    },
+    "description": {
+      "en": "Outdent task",
+      "zh": "反缩进"
+    },
+    "windows": "Shift + Tab",
+    "mac": "Shift + Tab",
+    "linux": "Shift + Tab",
+    "keywords": [
+      "outdent",
+      "反缩进"
+    ],
+    "pinyin": "fan suo jin fansuojin f s j fsj fan suo jin fansuojin f s j fsj"
+  },
+  {
+    "id": "todo-search",
+    "appId": "microsofttodo",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Search",
+      "zh": "搜索"
+    },
+    "description": {
+      "en": "Search tasks",
+      "zh": "搜索任务"
+    },
+    "windows": "Ctrl + E",
+    "mac": "⌘ E",
+    "linux": "Ctrl + E",
+    "keywords": [
+      "search",
+      "搜索"
+    ],
+    "pinyin": "sou suo sousuo s s ss sou suo sousuo s s ss"
+  },
+  {
+    "id": "todo-myday",
+    "appId": "microsofttodo",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "My Day",
+      "zh": "我的一天"
+    },
+    "description": {
+      "en": "Open My Day",
+      "zh": "打开我的一天"
+    },
+    "windows": "Ctrl + G",
+    "mac": "⌘ G",
+    "linux": "Ctrl + G",
+    "keywords": [
+      "myday",
+      "我的一天"
+    ],
+    "pinyin": "wo de yi tian wodeyitian w d y t wdyt wo de yi tian wodeyitian w d y t wdyt"
+  },
+  {
+    "id": "todo-important",
+    "appId": "microsofttodo",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Important",
+      "zh": "重要"
+    },
+    "description": {
+      "en": "Toggle important",
+      "zh": "切换重要"
+    },
+    "windows": "Ctrl + I",
+    "mac": "⌘ I",
+    "linux": "Ctrl + I",
+    "keywords": [
+      "important",
+      "重要"
+    ],
+    "pinyin": "zhong yao zhongyao z y zy zhong yao zhongyao z y zy"
+  },
+  {
+    "id": "todo-print",
+    "appId": "microsofttodo",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Print",
+      "zh": "打印"
+    },
+    "description": {
+      "en": "Print list",
+      "zh": "打印清单"
+    },
+    "windows": "Ctrl + P",
+    "mac": "⌘ P",
+    "linux": "Ctrl + P",
+    "keywords": [
+      "print",
+      "打印"
+    ],
+    "pinyin": "da yin dayin d y dy da yin dayin d y dy"
+  },
+  {
+    "id": "todo-settings",
+    "appId": "microsofttodo",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Settings",
+      "zh": "设置"
+    },
+    "description": {
+      "en": "Open settings",
+      "zh": "打开设置"
+    },
+    "windows": "Ctrl + ,",
+    "mac": "⌘ ,",
+    "linux": "Ctrl + ,",
+    "keywords": [
+      "settings",
+      "设置"
+    ],
+    "pinyin": "she zhi shezhi s z sz she zhi shezhi s z sz"
+  },
+  {
+    "id": "todo-view",
+    "appId": "microsofttodo",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "View",
+      "zh": "视图"
+    },
+    "description": {
+      "en": "Switch view",
+      "zh": "切换视图"
+    },
+    "windows": "Ctrl + 1",
+    "mac": "⌘ 1",
+    "linux": "Ctrl + 1",
+    "keywords": [
+      "view",
+      "视图"
+    ],
+    "pinyin": "shi tu shitu s t st shi tu shitu s t st"
+  }
+]

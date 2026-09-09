@@ -1,1 +1,831 @@
-[{"id":"git-init","appId":"git","type":"software","category":"development","name":{"zh":"初始化仓库","en":"Init Repo"},"description":{"zh":"将当前目录初始化为 Git 仓库","en":"Initialize a Git repository in current directory"},"windows":"git init","mac":"git init","linux":"git init","keywords":["初始化","init","创建仓库"],"pinyin":"chu shi hua cang ku chushihuacangku c s h c k cshck chu shi hua   chuang jian cang ku chushihua chuangjiancangku c s h   c j c k csh cjck"},{"id":"git-clone","appId":"git","type":"software","category":"development","name":{"zh":"克隆仓库","en":"Clone Repo"},"description":{"zh":"克隆远程仓库到本地","en":"Clone remote repository to local"},"windows":"git clone <url>","mac":"git clone <url>","linux":"git clone <url>","keywords":["克隆","clone","下载仓库"],"pinyin":"ke long cang ku kelongcangku k l c k klck ke long   xia zai cang ku kelong xiazaicangku k l   x z c k kl xzck"},{"id":"git-status","appId":"git","type":"software","category":"development","name":{"zh":"查看状态","en":"Status"},"description":{"zh":"查看工作区与暂存区状态","en":"Show working tree and staging area status"},"windows":"git status","mac":"git status","linux":"git status","keywords":["状态","status","查看改动"],"pinyin":"cha kan zhuang tai chakanzhuangtai c k z t ckzt zhuang tai   cha kan gai dong zhuangtai chakangaidong z t   c k g d zt ckgd"},{"id":"git-add-dot","appId":"git","type":"software","category":"development","name":{"zh":"暂存全部改动","en":"Stage All Changes"},"description":{"zh":"将所有改动加入暂存区（含新增文件）","en":"Stage all changes including new files"},"windows":"git add .","mac":"git add .","linux":"git add .","keywords":["暂存全部","add dot","stage all"],"pinyin":"zan cun quan bu gai dong zancunquanbugaidong z c q b g d zcqbgd zan cun quan bu zancunquanbu z c q b zcqb"},{"id":"git-add-file","appId":"git","type":"software","category":"development","name":{"zh":"暂存指定文件","en":"Stage File"},"description":{"zh":"将指定文件添加到暂存区","en":"Add specific file to staging area"},"windows":"git add <file>","mac":"git add <file>","linux":"git add <file>","keywords":["暂存","add","stage"],"pinyin":"zan cun zhi ding wen jian zancunzhidingwenjian z c z d w j zczdwj zan cun zancun z c zc"},{"id":"git-commit-msg","appId":"git","type":"software","category":"development","name":{"zh":"提交(带消息)","en":"Commit with Message"},"description":{"zh":"提交暂存区改动并附带提交信息","en":"Commit staged changes with message"},"windows":"git commit -m \"message\"","mac":"git commit -m \"message\"","linux":"git commit -m \"message\"","keywords":["提交","commit","-m"],"pinyin":"ti jiao ( dai xiao xi ) tijiao(daixiaoxi) t j ( d x x ) tj(dxx) ti jiao tijiao t j tj"},{"id":"git-commit-amend","appId":"git","type":"software","category":"development","name":{"zh":"修改上次提交","en":"Amend Last Commit"},"description":{"zh":"将新改动合并到上一次提交中","en":"Incorporate changes into last commit"},"windows":"git commit --amend","mac":"git commit --amend","linux":"git commit --amend","keywords":["amend","修改提交","追加提交"],"pinyin":"xiu gai shang ci ti jiao xiugaishangcitijiao x g s c t j xgsctj xiu gai ti jiao   zhui jia ti jiao xiugaitijiao zhuijiatijiao x g t j   z j t j xgtj zjtj"},{"id":"git-push","appId":"git","type":"software","category":"development","name":{"zh":"推送到远程","en":"Push to Remote"},"description":{"zh":"推送本地提交到远程仓库","en":"Push local commits to remote repository"},"windows":"git push","mac":"git push","linux":"git push","keywords":["推送","push","上传"],"pinyin":"tui song dao yuan cheng tuisongdaoyuancheng t s d y c tsdyc tui song   shang chuan tuisong shangchuan t s   s c ts sc"},{"id":"git-push-upstream","appId":"git","type":"software","category":"development","name":{"zh":"首次推送(设置上游)","en":"Push with Upstream"},"description":{"zh":"首次推送并设置上游分支关联","en":"First push and set upstream tracking branch"},"windows":"git push -u origin <branch>","mac":"git push -u origin <branch>","linux":"git push -u origin <branch>","keywords":["push -u","upstream","首次推送"],"pinyin":"shou ci tui song ( she zhi shang you ) shoucituisong(shezhishangyou) s c t s ( s z s y ) scts(szsy) shou ci tui song shoucituisong s c t s scts"},{"id":"git-pull","appId":"git","type":"software","category":"development","name":{"zh":"拉取并合并","en":"Pull & Merge"},"description":{"zh":"拉取远程更新并自动合并到当前分支","en":"Fetch and merge remote changes into current branch"},"windows":"git pull","mac":"git pull","linux":"git pull","keywords":["拉取","pull","更新"],"pinyin":"la qu bing he bing laqubinghebing l q b h b lqbhb la qu   geng xin laqu gengxin l q   g x lq gx"},{"id":"git-fetch","appId":"git","type":"software","category":"development","name":{"zh":"获取远程引用","en":"Fetch Remote"},"description":{"zh":"从远程获取最新引用但不合并","en":"Download refs from remote without merging"},"windows":"git fetch","mac":"git fetch","linux":"git fetch","keywords":["获取","fetch","拉取引用"],"pinyin":"huo qu yuan cheng yin yong huoquyuanchengyinyong h q y c y y hqycyy huo qu   la qu yin yong huoqu laquyinyong h q   l q y y hq lqyy"},{"id":"git-branch-list","appId":"git","type":"software","category":"development","name":{"zh":"列出分支","en":"List Branches"},"description":{"zh":"查看所有本地分支","en":"List local branches"},"windows":"git branch","mac":"git branch","linux":"git branch","keywords":["分支列表","branch list","查看分支"],"pinyin":"lie chu fen zhi liechufenzhi l c f z lcfz fen zhi lie biao   cha kan fen zhi fenzhiliebiao chakanfenzhi f z l b   c k f z fzlb ckfz"},{"id":"git-branch-create","appId":"git","type":"software","category":"development","name":{"zh":"创建并切换到新分支","en":"Create & Switch Branch"},"description":{"zh":"创建新分支并立即切换过去","en":"Create new branch and switch to it"},"windows":"git checkout -b <branch-name>","mac":"git checkout -b <branch-name>","linux":"git checkout -b <branch-name>","keywords":["新建分支","create branch","checkout -b"],"pinyin":"chuang jian bing qie huan dao xin fen zhi chuangjianbingqiehuandaoxinfenzhi c j b q h d x f z cjbqhdxfz xin jian fen zhi xinjianfenzhi x j f z xjfz"},{"id":"git-branch-switch","appId":"git","type":"software","category":"development","name":{"zh":"切换分支","en":"Switch Branch"},"description":{"zh":"切换到指定分支","en":"Switch to specified branch"},"windows":"git switch <branch-name> / git checkout <branch-name>","mac":"git switch <branch-name> / git checkout <branch-name>","linux":"git switch <branch-name> / git checkout <branch-name>","keywords":["切换分支","switch","checkout"],"pinyin":"qie huan fen zhi qiehuanfenzhi q h f z qhfz qie huan fen zhi qiehuanfenzhi q h f z qhfz"},{"id":"git-branch-delete","appId":"git","type":"software","category":"development","name":{"zh":"删除分支","en":"Delete Branch"},"description":{"zh":"删除指定本地分支（需先切走）","en":"Delete a local branch (must switch away first)"},"windows":"git branch -d <branch-name>","mac":"git branch -d <branch-name>","linux":"git branch -d <branch-name>","keywords":["删除分支","delete branch","-d"],"pinyin":"shan chu fen zhi shanchufenzhi s c f z scfz shan chu fen zhi shanchufenzhi s c f z scfz"},{"id":"git-merge","appId":"git","type":"software","category":"development","name":{"zh":"合并分支","en":"Merge Branch"},"description":{"zh":"将指定分支合并到当前分支","en":"Merge specified branch into current branch"},"windows":"git merge <branch-name>","mac":"git merge <branch-name>","linux":"git merge <branch-name>","keywords":["合并","merge","合并分支"],"pinyin":"he bing fen zhi hebingfenzhi h b f z hbfz he bing   he bing fen zhi hebing hebingfenzhi h b   h b f z hb hbfz"},{"id":"git-log-oneline","appId":"git","type":"software","category":"development","name":{"zh":"查看精简日志","en":"Compact Log"},"description":{"zh":"以单行格式显示提交历史","en":"Show commit history in one-line format"},"windows":"git log --oneline","mac":"git log --oneline","linux":"git log --oneline","keywords":["日志","log","历史","--oneline"],"pinyin":"cha kan jing jian ri zhi chakanjingjianrizhi c k j j r z ckjjrz ri zhi   li shi rizhi lishi r z   l s rz ls"},{"id":"git-log-graph","appId":"git","type":"software","category":"development","name":{"zh":"查看图形化日志","en":"Graph Log"},"description":{"zh":"以图形方式展示提交历史和分支关系","en":"Display commit history as a graph"},"windows":"git log --graph --oneline --all","mac":"git log --graph --oneline --all","linux":"git log --graph --oneline --all","keywords":["图形日志","log graph","--graph"],"pinyin":"cha kan tu xing hua ri zhi chakantuxinghuarizhi c k t x h r z cktxhrz tu xing ri zhi tuxingrizhi t x r z txrz"},{"id":"git-diff","appId":"git","type":"software","category":"development","name":{"zh":"查看未暂存的差异","en":"Unstaged Diff"},"description":{"zh":"查看工作区与暂存区的差异","en":"Show unstaged differences between working tree and index"},"windows":"git diff","mac":"git diff","linux":"git diff","keywords":["差异","diff","未暂存"],"pinyin":"cha kan wei zan cun de cha yi chakanweizancundechayi c k w z c d c y ckwzcdcy cha yi   wei zan cun chayi weizancun c y   w z c cy wzc"},{"id":"git-diff-staged","appId":"git","type":"software","category":"development","name":{"zh":"查看已暂存的差异","en":"Staged Diff"},"description":{"zh":"查看暂存区与上次提交的差异","en":"Show staged changes vs last commit"},"windows":"git diff --cached","mac":"git diff --cached","linux":"git diff --cached","keywords":["暂存差异","diff staged","--cached"],"pinyin":"cha kan yi zan cun de cha yi chakanyizancundechayi c k y z c d c y ckyzcdcy zan cun cha yi zancunchayi z c c y zccy"},{"id":"git-stash-save","appId":"git","type":"software","category":"development","name":{"zh":"储藏当前改动","en":"Stash Changes"},"description":{"zh":"临时保存未提交的工作进度","en":"Temporarily save uncommitted work"},"windows":"git stash","mac":"git stash","linux":"git stash","keywords":["储藏","stash","暂存工作"],"pinyin":"chu cang dang qian gai dong chucangdangqiangaidong c c d q g d ccdqgd chu cang   zan cun gong zuo chucang zancungongzuo c c   z c g z cc zcgz"},{"id":"git-stash-pop","appId":"git","type":"software","category":"development","name":{"zh":"恢复最近储藏","en":"Pop Stash"},"description":{"zh":"恢复最近一次储藏并删除记录","en":"Restore most recent stash and drop it"},"windows":"git stash pop","mac":"git stash pop","linux":"git stash pop","keywords":["恢复储藏","stash pop","pop"],"pinyin":"hui fu zui jin chu cang huifuzuijinchucang h f z j c c hfzjcc hui fu chu cang huifuchucang h f c c hfcc"},{"id":"git-stash-list","appId":"git","type":"software","category":"development","name":{"zh":"列出储藏列表","en":"List Stashes"},"description":{"zh":"查看所有储藏记录","en":"List all stashed entries"},"windows":"git stash list","mac":"git stash list","linux":"git stash list","keywords":["储藏列表","stash list"],"pinyin":"lie chu chu cang lie biao liechuchucangliebiao l c c c l b lccclb chu cang lie biao chucangliebiao c c l b cclb"},{"id":"git-reset-unstage","appId":"git","type":"software","category":"development","name":{"zh":"撤销暂存(保留改动)","en":"Unstage File"},"description":{"zh":"将文件从暂存区移出但保留本地改动","en":"Remove from staging but keep local changes"},"windows":"git reset HEAD <file> / git restore --staged <file>","mac":"git reset HEAD <file> / git restore --staged <file>","linux":"git reset HEAD <file> / git restore --staged <file>","keywords":["撤销暂存","unstage","reset HEAD"],"pinyin":"che xiao zan cun ( bao liu gai dong ) chexiaozancun(baoliugaidong) c x z c ( b l g d ) cxzc(blgd) che xiao zan cun chexiaozancun c x z c cxzc"},{"id":"git-reset-hard","appId":"git","type":"software","category":"development","name":{"zh":"硬重置(丢弃改动)","en":"Hard Reset (Discard)"},"description":{"zh":"丢弃所有本地改动回到上次提交状态（危险操作）","en":"Discard all local changes, revert to last commit (dangerous!)"},"windows":"git reset --hard","mac":"git reset --hard","linux":"git reset --hard","keywords":["硬重置","reset hard","丢弃改动","危险"],"pinyin":"ying zhong zhi ( diu qi gai dong ) yingzhongzhi(diuqigaidong) y z z ( d q g d ) yzz(dqgd) ying zhong zhi   diu qi gai dong   wei xian yingzhongzhi diuqigaidong weixian y z z   d q g d   w x yzz dqgd wx"},{"id":"git-revert-commit","appId":"git","type":"software","category":"development","name":{"zh":"撤销某次提交(安全)","en":"Revert Commit (Safe)"},"description":{"zh":"创建新提交来撤销指定提交的效果（不改变历史）","en":"Create new commit that undoes effects of given commit (safe, preserves history)"},"windows":"git revert <commit-hash>","mac":"git revert <commit-hash>","linux":"git revert <commit-hash>","keywords":["revert","撤销提交","安全回退"],"pinyin":"che xiao mou ci ti jiao ( an quan ) chexiaomoucitijiao(anquan) c x m c t j ( a q ) cxmctj(aq) che xiao ti jiao   an quan hui tui chexiaotijiao anquanhuitui c x t j   a q h t cxtj aqht"},{"id":"git-cherry-pick","appId":"git","type":"software","category":"development","name":{"zh":"摘取指定提交","en":"Cherry-Pick Commit"},"description":{"zh":"将其他分支的某个提交应用到当前分支","en":"Apply changes from a specific commit onto current branch"},"windows":"git cherry-pick <commit-hash>","mac":"git cherry-pick <commit-hash>","linux":"git cherry-pick <commit-hash>","keywords":["cherry-pick","摘取提交","移植"],"pinyin":"zhai qu zhi ding ti jiao zhaiquzhidingtijiao z q z d t j zqzdtj zhai qu ti jiao   yi zhi zhaiqutijiao yizhi z q t j   y z zqtj yz"},{"id":"git-rebase","appId":"git","type":"software","category":"development","name":{"zh":"变基(整理提交历史)","en":"Rebase"},"description":{"zh":"将当前分支的提交重新应用到目标分支顶端（线性历史）","en":"Reapply commits on top of another base tip (linear history)"},"windows":"git rebase <base-branch>","mac":"git rebase <base-branch>","linux":"git rebase <base-branch>","keywords":["变基","rebase","整理历史"],"pinyin":"bian ji ( zheng li ti jiao li shi ) bianji(zhenglitijiaolishi) b j ( z l t j l s ) bj(zltjls) bian ji   zheng li li shi bianji zhenglilishi b j   z l l s bj zlls"},{"id":"git-rebase-abort","appId":"git","type":"software","category":"development","name":{"zh":"中止变基","en":"Abort Rebase"},"description":{"zh":"取消正在进行的变基操作并恢复原状","en":"Cancel ongoing rebase and restore original state"},"windows":"git rebase --abort","mac":"git rebase --abort","linux":"git rebase --abort","keywords":["中止变基","rebase abort","取消 rebase"],"pinyin":"zhong zhi bian ji zhongzhibianji z z b j zzbj zhong zhi bian ji   qu xiao   r e b a s e zhongzhibianji quxiao rebase z z b j   q x   r e b a s e zzbj qx rebase"},{"id":"git-tag-create","appId":"git","type":"software","category":"development","name":{"zh":"打标签","en":"Create Tag"},"description":{"zh":"为当前提交创建标签（通常用于版本号）","en":"Create tag for current commit (usually for version numbers)"},"windows":"git tag <tag-name>","mac":"git tag <tag-name>","linux":"git tag <tag-name>","keywords":["标签","tag","版本号"],"pinyin":"da biao qian dabiaoqian d b q dbq biao qian   ban ben hao biaoqian banbenhao b q   b b h bq bbh"},{"id":"git-tag-list","appId":"git","type":"software","category":"development","name":{"zh":"列出标签","en":"List Tags"},"description":{"zh":"查看所有标签","en":"List all tags"},"windows":"git tag","mac":"git tag","linux":"git tag","keywords":["标签列表","tag list","列出标签"],"pinyin":"lie chu biao qian liechubiaoqian l c b q lcbq biao qian lie biao   lie chu biao qian biaoqianliebiao liechubiaoqian b q l b   l c b q bqlb lcbq"},{"id":"git-remote-add","appId":"git","type":"software","category":"development","name":{"zh":"添加远程仓库","en":"Add Remote"},"description":{"zh":"关联一个远程仓库地址","en":"Associate a remote repository URL"},"windows":"git remote add origin <url>","mac":"git remote add origin <url>","linux":"git remote add origin <url>","keywords":["remote","远程","origin"],"pinyin":"tian jia yuan cheng cang ku tianjiayuanchengcangku t j y c c k tjycck yuan cheng yuancheng y c yc"},{"id":"git-remote-remove","appId":"git","type":"software","category":"development","name":{"zh":"移除远程仓库","en":"Remove Remote"},"description":{"zh":"解除远程仓库关联","en":"Remove a remote repository association"},"windows":"git remote remove <name>","mac":"git remote remove <name>","linux":"git remote remove <name>","keywords":["remove remote","移除远程"],"pinyin":"yi chu yuan cheng cang ku yichuyuanchengcangku y c y c c k ycycck yi chu yuan cheng yichuyuancheng y c y c ycyc"},{"id":"git-clean","appId":"git","type":"software","category":"development","name":{"zh":"清理未跟踪文件","en":"Clean Untracked Files"},"description":{"zh":"删除未被跟踪的文件或目录（谨慎使用）","en":"Remove untracked files or directories (use with caution)"},"windows":"git clean -fd","mac":"git clean -fd","linux":"git clean -fd","keywords":["clean","清理","删除未跟踪"],"pinyin":"qing li wei gen zong wen jian qingliweigenzongwenjian q l w g z w j qlwgzwj qing li   shan chu wei gen zong qingli shanchuweigenzong q l   s c w g z ql scwgz"},{"id":"git-show","appId":"git","type":"software","category":"development","name":{"zh":"查看提交详情","en":"Show Commit Details"},"description":{"zh":"查看某次提交的详细信息和改动内容","en":"Show details and content of a specific commit"},"windows":"git show <commit-hash>","mac":"git show <commit-hash>","linux":"git show <commit-hash>","keywords":["show","提交详情","查看提交"],"pinyin":"cha kan ti jiao xiang qing chakantijiaoxiangqing c k t j x q cktjxq ti jiao xiang qing   cha kan ti jiao tijiaoxiangqing chakantijiao t j x q   c k t j tjxq cktj"},{"id":"git-checkout-file","appId":"git","type":"software","category":"development","name":{"zh":"丢弃单个文件改动","en":"Discard File Changes"},"description":{"zh":"将指定文件还原到最后一次提交的状态","en":"Restore a specific file to its last committed state"},"windows":"git checkout -- <file> / git restore <file>","mac":"git checkout -- <file> / git restore <file>","linux":"git checkout -- <file> / git restore <file>","keywords":["丢弃文件","discard","restore","还原文件"],"pinyin":"diu qi dan ge wen jian gai dong diuqidangewenjiangaidong d q d g w j g d dqdgwjgd diu qi wen jian   huan yuan wen jian diuqiwenjian huanyuanwenjian d q w j   h y w j dqwj hywj"}]
+[
+  {
+    "id": "git-init",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "初始化仓库",
+      "en": "Init Repo"
+    },
+    "description": {
+      "zh": "将当前目录初始化为 Git 仓库",
+      "en": "Initialize a Git repository in current directory"
+    },
+    "windows": "git init",
+    "mac": "git init",
+    "linux": "git init",
+    "keywords": [
+      "初始化",
+      "init",
+      "创建仓库"
+    ],
+    "pinyin": "chu shi hua cang ku chushihuacangku c s h c k cshck chu shi hua   chuang jian cang ku chushihua chuangjiancangku c s h   c j c k csh cjck"
+  },
+  {
+    "id": "git-clone",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "克隆仓库",
+      "en": "Clone Repo"
+    },
+    "description": {
+      "zh": "克隆远程仓库到本地",
+      "en": "Clone remote repository to local"
+    },
+    "windows": "git clone <url>",
+    "mac": "git clone <url>",
+    "linux": "git clone <url>",
+    "keywords": [
+      "克隆",
+      "clone",
+      "下载仓库"
+    ],
+    "pinyin": "ke long cang ku kelongcangku k l c k klck ke long   xia zai cang ku kelong xiazaicangku k l   x z c k kl xzck"
+  },
+  {
+    "id": "git-status",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "查看状态",
+      "en": "Status"
+    },
+    "description": {
+      "zh": "查看工作区与暂存区状态",
+      "en": "Show working tree and staging area status"
+    },
+    "windows": "git status",
+    "mac": "git status",
+    "linux": "git status",
+    "keywords": [
+      "状态",
+      "status",
+      "查看改动"
+    ],
+    "pinyin": "cha kan zhuang tai chakanzhuangtai c k z t ckzt zhuang tai   cha kan gai dong zhuangtai chakangaidong z t   c k g d zt ckgd"
+  },
+  {
+    "id": "git-add-dot",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "暂存全部改动",
+      "en": "Stage All Changes"
+    },
+    "description": {
+      "zh": "将所有改动加入暂存区（含新增文件）",
+      "en": "Stage all changes including new files"
+    },
+    "windows": "git add .",
+    "mac": "git add .",
+    "linux": "git add .",
+    "keywords": [
+      "暂存全部",
+      "add dot",
+      "stage all"
+    ],
+    "pinyin": "zan cun quan bu gai dong zancunquanbugaidong z c q b g d zcqbgd zan cun quan bu zancunquanbu z c q b zcqb"
+  },
+  {
+    "id": "git-add-file",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "暂存指定文件",
+      "en": "Stage File"
+    },
+    "description": {
+      "zh": "将指定文件添加到暂存区",
+      "en": "Add specific file to staging area"
+    },
+    "windows": "git add <file>",
+    "mac": "git add <file>",
+    "linux": "git add <file>",
+    "keywords": [
+      "暂存",
+      "add",
+      "stage"
+    ],
+    "pinyin": "zan cun zhi ding wen jian zancunzhidingwenjian z c z d w j zczdwj zan cun zancun z c zc"
+  },
+  {
+    "id": "git-commit-msg",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "提交(带消息)",
+      "en": "Commit with Message"
+    },
+    "description": {
+      "zh": "提交暂存区改动并附带提交信息",
+      "en": "Commit staged changes with message"
+    },
+    "windows": "git commit -m \"message\"",
+    "mac": "git commit -m \"message\"",
+    "linux": "git commit -m \"message\"",
+    "keywords": [
+      "提交",
+      "commit",
+      "-m"
+    ],
+    "pinyin": "ti jiao ( dai xiao xi ) tijiao(daixiaoxi) t j ( d x x ) tj(dxx) ti jiao tijiao t j tj"
+  },
+  {
+    "id": "git-commit-amend",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "修改上次提交",
+      "en": "Amend Last Commit"
+    },
+    "description": {
+      "zh": "将新改动合并到上一次提交中",
+      "en": "Incorporate changes into last commit"
+    },
+    "windows": "git commit --amend",
+    "mac": "git commit --amend",
+    "linux": "git commit --amend",
+    "keywords": [
+      "amend",
+      "修改提交",
+      "追加提交"
+    ],
+    "pinyin": "xiu gai shang ci ti jiao xiugaishangcitijiao x g s c t j xgsctj xiu gai ti jiao   zhui jia ti jiao xiugaitijiao zhuijiatijiao x g t j   z j t j xgtj zjtj"
+  },
+  {
+    "id": "git-push",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "推送到远程",
+      "en": "Push to Remote"
+    },
+    "description": {
+      "zh": "推送本地提交到远程仓库",
+      "en": "Push local commits to remote repository"
+    },
+    "windows": "git push",
+    "mac": "git push",
+    "linux": "git push",
+    "keywords": [
+      "推送",
+      "push",
+      "上传"
+    ],
+    "pinyin": "tui song dao yuan cheng tuisongdaoyuancheng t s d y c tsdyc tui song   shang chuan tuisong shangchuan t s   s c ts sc"
+  },
+  {
+    "id": "git-push-upstream",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "首次推送(设置上游)",
+      "en": "Push with Upstream"
+    },
+    "description": {
+      "zh": "首次推送并设置上游分支关联",
+      "en": "First push and set upstream tracking branch"
+    },
+    "windows": "git push -u origin <branch>",
+    "mac": "git push -u origin <branch>",
+    "linux": "git push -u origin <branch>",
+    "keywords": [
+      "push -u",
+      "upstream",
+      "首次推送"
+    ],
+    "pinyin": "shou ci tui song ( she zhi shang you ) shoucituisong(shezhishangyou) s c t s ( s z s y ) scts(szsy) shou ci tui song shoucituisong s c t s scts"
+  },
+  {
+    "id": "git-pull",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "拉取并合并",
+      "en": "Pull & Merge"
+    },
+    "description": {
+      "zh": "拉取远程更新并自动合并到当前分支",
+      "en": "Fetch and merge remote changes into current branch"
+    },
+    "windows": "git pull",
+    "mac": "git pull",
+    "linux": "git pull",
+    "keywords": [
+      "拉取",
+      "pull",
+      "更新"
+    ],
+    "pinyin": "la qu bing he bing laqubinghebing l q b h b lqbhb la qu   geng xin laqu gengxin l q   g x lq gx"
+  },
+  {
+    "id": "git-fetch",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "获取远程引用",
+      "en": "Fetch Remote"
+    },
+    "description": {
+      "zh": "从远程获取最新引用但不合并",
+      "en": "Download refs from remote without merging"
+    },
+    "windows": "git fetch",
+    "mac": "git fetch",
+    "linux": "git fetch",
+    "keywords": [
+      "获取",
+      "fetch",
+      "拉取引用"
+    ],
+    "pinyin": "huo qu yuan cheng yin yong huoquyuanchengyinyong h q y c y y hqycyy huo qu   la qu yin yong huoqu laquyinyong h q   l q y y hq lqyy"
+  },
+  {
+    "id": "git-branch-list",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "列出分支",
+      "en": "List Branches"
+    },
+    "description": {
+      "zh": "查看所有本地分支",
+      "en": "List local branches"
+    },
+    "windows": "git branch",
+    "mac": "git branch",
+    "linux": "git branch",
+    "keywords": [
+      "分支列表",
+      "branch list",
+      "查看分支"
+    ],
+    "pinyin": "lie chu fen zhi liechufenzhi l c f z lcfz fen zhi lie biao   cha kan fen zhi fenzhiliebiao chakanfenzhi f z l b   c k f z fzlb ckfz"
+  },
+  {
+    "id": "git-branch-create",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "创建并切换到新分支",
+      "en": "Create & Switch Branch"
+    },
+    "description": {
+      "zh": "创建新分支并立即切换过去",
+      "en": "Create new branch and switch to it"
+    },
+    "windows": "git checkout -b <branch-name>",
+    "mac": "git checkout -b <branch-name>",
+    "linux": "git checkout -b <branch-name>",
+    "keywords": [
+      "新建分支",
+      "create branch",
+      "checkout -b"
+    ],
+    "pinyin": "chuang jian bing qie huan dao xin fen zhi chuangjianbingqiehuandaoxinfenzhi c j b q h d x f z cjbqhdxfz xin jian fen zhi xinjianfenzhi x j f z xjfz"
+  },
+  {
+    "id": "git-branch-switch",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "切换分支",
+      "en": "Switch Branch"
+    },
+    "description": {
+      "zh": "切换到指定分支",
+      "en": "Switch to specified branch"
+    },
+    "windows": "git switch <branch-name> / git checkout <branch-name>",
+    "mac": "git switch <branch-name> / git checkout <branch-name>",
+    "linux": "git switch <branch-name> / git checkout <branch-name>",
+    "keywords": [
+      "切换分支",
+      "switch",
+      "checkout"
+    ],
+    "pinyin": "qie huan fen zhi qiehuanfenzhi q h f z qhfz qie huan fen zhi qiehuanfenzhi q h f z qhfz"
+  },
+  {
+    "id": "git-branch-delete",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "删除分支",
+      "en": "Delete Branch"
+    },
+    "description": {
+      "zh": "删除指定本地分支（需先切走）",
+      "en": "Delete a local branch (must switch away first)"
+    },
+    "windows": "git branch -d <branch-name>",
+    "mac": "git branch -d <branch-name>",
+    "linux": "git branch -d <branch-name>",
+    "keywords": [
+      "删除分支",
+      "delete branch",
+      "-d"
+    ],
+    "pinyin": "shan chu fen zhi shanchufenzhi s c f z scfz shan chu fen zhi shanchufenzhi s c f z scfz"
+  },
+  {
+    "id": "git-merge",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "合并分支",
+      "en": "Merge Branch"
+    },
+    "description": {
+      "zh": "将指定分支合并到当前分支",
+      "en": "Merge specified branch into current branch"
+    },
+    "windows": "git merge <branch-name>",
+    "mac": "git merge <branch-name>",
+    "linux": "git merge <branch-name>",
+    "keywords": [
+      "合并",
+      "merge",
+      "合并分支"
+    ],
+    "pinyin": "he bing fen zhi hebingfenzhi h b f z hbfz he bing   he bing fen zhi hebing hebingfenzhi h b   h b f z hb hbfz"
+  },
+  {
+    "id": "git-log-oneline",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "查看精简日志",
+      "en": "Compact Log"
+    },
+    "description": {
+      "zh": "以单行格式显示提交历史",
+      "en": "Show commit history in one-line format"
+    },
+    "windows": "git log --oneline",
+    "mac": "git log --oneline",
+    "linux": "git log --oneline",
+    "keywords": [
+      "日志",
+      "log",
+      "历史",
+      "--oneline"
+    ],
+    "pinyin": "cha kan jing jian ri zhi chakanjingjianrizhi c k j j r z ckjjrz ri zhi   li shi rizhi lishi r z   l s rz ls"
+  },
+  {
+    "id": "git-log-graph",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "查看图形化日志",
+      "en": "Graph Log"
+    },
+    "description": {
+      "zh": "以图形方式展示提交历史和分支关系",
+      "en": "Display commit history as a graph"
+    },
+    "windows": "git log --graph --oneline --all",
+    "mac": "git log --graph --oneline --all",
+    "linux": "git log --graph --oneline --all",
+    "keywords": [
+      "图形日志",
+      "log graph",
+      "--graph"
+    ],
+    "pinyin": "cha kan tu xing hua ri zhi chakantuxinghuarizhi c k t x h r z cktxhrz tu xing ri zhi tuxingrizhi t x r z txrz"
+  },
+  {
+    "id": "git-diff",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "查看未暂存的差异",
+      "en": "Unstaged Diff"
+    },
+    "description": {
+      "zh": "查看工作区与暂存区的差异",
+      "en": "Show unstaged differences between working tree and index"
+    },
+    "windows": "git diff",
+    "mac": "git diff",
+    "linux": "git diff",
+    "keywords": [
+      "差异",
+      "diff",
+      "未暂存"
+    ],
+    "pinyin": "cha kan wei zan cun de cha yi chakanweizancundechayi c k w z c d c y ckwzcdcy cha yi   wei zan cun chayi weizancun c y   w z c cy wzc"
+  },
+  {
+    "id": "git-diff-staged",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "查看已暂存的差异",
+      "en": "Staged Diff"
+    },
+    "description": {
+      "zh": "查看暂存区与上次提交的差异",
+      "en": "Show staged changes vs last commit"
+    },
+    "windows": "git diff --cached",
+    "mac": "git diff --cached",
+    "linux": "git diff --cached",
+    "keywords": [
+      "暂存差异",
+      "diff staged",
+      "--cached"
+    ],
+    "pinyin": "cha kan yi zan cun de cha yi chakanyizancundechayi c k y z c d c y ckyzcdcy zan cun cha yi zancunchayi z c c y zccy"
+  },
+  {
+    "id": "git-stash-save",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "储藏当前改动",
+      "en": "Stash Changes"
+    },
+    "description": {
+      "zh": "临时保存未提交的工作进度",
+      "en": "Temporarily save uncommitted work"
+    },
+    "windows": "git stash",
+    "mac": "git stash",
+    "linux": "git stash",
+    "keywords": [
+      "储藏",
+      "stash",
+      "暂存工作"
+    ],
+    "pinyin": "chu cang dang qian gai dong chucangdangqiangaidong c c d q g d ccdqgd chu cang   zan cun gong zuo chucang zancungongzuo c c   z c g z cc zcgz"
+  },
+  {
+    "id": "git-stash-pop",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "恢复最近储藏",
+      "en": "Pop Stash"
+    },
+    "description": {
+      "zh": "恢复最近一次储藏并删除记录",
+      "en": "Restore most recent stash and drop it"
+    },
+    "windows": "git stash pop",
+    "mac": "git stash pop",
+    "linux": "git stash pop",
+    "keywords": [
+      "恢复储藏",
+      "stash pop",
+      "pop"
+    ],
+    "pinyin": "hui fu zui jin chu cang huifuzuijinchucang h f z j c c hfzjcc hui fu chu cang huifuchucang h f c c hfcc"
+  },
+  {
+    "id": "git-stash-list",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "列出储藏列表",
+      "en": "List Stashes"
+    },
+    "description": {
+      "zh": "查看所有储藏记录",
+      "en": "List all stashed entries"
+    },
+    "windows": "git stash list",
+    "mac": "git stash list",
+    "linux": "git stash list",
+    "keywords": [
+      "储藏列表",
+      "stash list"
+    ],
+    "pinyin": "lie chu chu cang lie biao liechuchucangliebiao l c c c l b lccclb chu cang lie biao chucangliebiao c c l b cclb"
+  },
+  {
+    "id": "git-reset-unstage",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "撤销暂存(保留改动)",
+      "en": "Unstage File"
+    },
+    "description": {
+      "zh": "将文件从暂存区移出但保留本地改动",
+      "en": "Remove from staging but keep local changes"
+    },
+    "windows": "git reset HEAD <file> / git restore --staged <file>",
+    "mac": "git reset HEAD <file> / git restore --staged <file>",
+    "linux": "git reset HEAD <file> / git restore --staged <file>",
+    "keywords": [
+      "撤销暂存",
+      "unstage",
+      "reset HEAD"
+    ],
+    "pinyin": "che xiao zan cun ( bao liu gai dong ) chexiaozancun(baoliugaidong) c x z c ( b l g d ) cxzc(blgd) che xiao zan cun chexiaozancun c x z c cxzc"
+  },
+  {
+    "id": "git-reset-hard",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "硬重置(丢弃改动)",
+      "en": "Hard Reset (Discard)"
+    },
+    "description": {
+      "zh": "丢弃所有本地改动回到上次提交状态（危险操作）",
+      "en": "Discard all local changes, revert to last commit (dangerous!)"
+    },
+    "windows": "git reset --hard",
+    "mac": "git reset --hard",
+    "linux": "git reset --hard",
+    "keywords": [
+      "硬重置",
+      "reset hard",
+      "丢弃改动",
+      "危险"
+    ],
+    "pinyin": "ying zhong zhi ( diu qi gai dong ) yingzhongzhi(diuqigaidong) y z z ( d q g d ) yzz(dqgd) ying zhong zhi   diu qi gai dong   wei xian yingzhongzhi diuqigaidong weixian y z z   d q g d   w x yzz dqgd wx"
+  },
+  {
+    "id": "git-revert-commit",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "撤销某次提交(安全)",
+      "en": "Revert Commit (Safe)"
+    },
+    "description": {
+      "zh": "创建新提交来撤销指定提交的效果（不改变历史）",
+      "en": "Create new commit that undoes effects of given commit (safe, preserves history)"
+    },
+    "windows": "git revert <commit-hash>",
+    "mac": "git revert <commit-hash>",
+    "linux": "git revert <commit-hash>",
+    "keywords": [
+      "revert",
+      "撤销提交",
+      "安全回退"
+    ],
+    "pinyin": "che xiao mou ci ti jiao ( an quan ) chexiaomoucitijiao(anquan) c x m c t j ( a q ) cxmctj(aq) che xiao ti jiao   an quan hui tui chexiaotijiao anquanhuitui c x t j   a q h t cxtj aqht"
+  },
+  {
+    "id": "git-cherry-pick",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "摘取指定提交",
+      "en": "Cherry-Pick Commit"
+    },
+    "description": {
+      "zh": "将其他分支的某个提交应用到当前分支",
+      "en": "Apply changes from a specific commit onto current branch"
+    },
+    "windows": "git cherry-pick <commit-hash>",
+    "mac": "git cherry-pick <commit-hash>",
+    "linux": "git cherry-pick <commit-hash>",
+    "keywords": [
+      "cherry-pick",
+      "摘取提交",
+      "移植"
+    ],
+    "pinyin": "zhai qu zhi ding ti jiao zhaiquzhidingtijiao z q z d t j zqzdtj zhai qu ti jiao   yi zhi zhaiqutijiao yizhi z q t j   y z zqtj yz"
+  },
+  {
+    "id": "git-rebase",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "变基(整理提交历史)",
+      "en": "Rebase"
+    },
+    "description": {
+      "zh": "将当前分支的提交重新应用到目标分支顶端（线性历史）",
+      "en": "Reapply commits on top of another base tip (linear history)"
+    },
+    "windows": "git rebase <base-branch>",
+    "mac": "git rebase <base-branch>",
+    "linux": "git rebase <base-branch>",
+    "keywords": [
+      "变基",
+      "rebase",
+      "整理历史"
+    ],
+    "pinyin": "bian ji ( zheng li ti jiao li shi ) bianji(zhenglitijiaolishi) b j ( z l t j l s ) bj(zltjls) bian ji   zheng li li shi bianji zhenglilishi b j   z l l s bj zlls"
+  },
+  {
+    "id": "git-rebase-abort",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "中止变基",
+      "en": "Abort Rebase"
+    },
+    "description": {
+      "zh": "取消正在进行的变基操作并恢复原状",
+      "en": "Cancel ongoing rebase and restore original state"
+    },
+    "windows": "git rebase --abort",
+    "mac": "git rebase --abort",
+    "linux": "git rebase --abort",
+    "keywords": [
+      "中止变基",
+      "rebase abort",
+      "取消 rebase"
+    ],
+    "pinyin": "zhong zhi bian ji zhongzhibianji z z b j zzbj zhong zhi bian ji   qu xiao   r e b a s e zhongzhibianji quxiao rebase z z b j   q x   r e b a s e zzbj qx rebase"
+  },
+  {
+    "id": "git-tag-create",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "打标签",
+      "en": "Create Tag"
+    },
+    "description": {
+      "zh": "为当前提交创建标签（通常用于版本号）",
+      "en": "Create tag for current commit (usually for version numbers)"
+    },
+    "windows": "git tag <tag-name>",
+    "mac": "git tag <tag-name>",
+    "linux": "git tag <tag-name>",
+    "keywords": [
+      "标签",
+      "tag",
+      "版本号"
+    ],
+    "pinyin": "da biao qian dabiaoqian d b q dbq biao qian   ban ben hao biaoqian banbenhao b q   b b h bq bbh"
+  },
+  {
+    "id": "git-tag-list",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "列出标签",
+      "en": "List Tags"
+    },
+    "description": {
+      "zh": "查看所有标签",
+      "en": "List all tags"
+    },
+    "windows": "git tag",
+    "mac": "git tag",
+    "linux": "git tag",
+    "keywords": [
+      "标签列表",
+      "tag list",
+      "列出标签"
+    ],
+    "pinyin": "lie chu biao qian liechubiaoqian l c b q lcbq biao qian lie biao   lie chu biao qian biaoqianliebiao liechubiaoqian b q l b   l c b q bqlb lcbq"
+  },
+  {
+    "id": "git-remote-add",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "添加远程仓库",
+      "en": "Add Remote"
+    },
+    "description": {
+      "zh": "关联一个远程仓库地址",
+      "en": "Associate a remote repository URL"
+    },
+    "windows": "git remote add origin <url>",
+    "mac": "git remote add origin <url>",
+    "linux": "git remote add origin <url>",
+    "keywords": [
+      "remote",
+      "远程",
+      "origin"
+    ],
+    "pinyin": "tian jia yuan cheng cang ku tianjiayuanchengcangku t j y c c k tjycck yuan cheng yuancheng y c yc"
+  },
+  {
+    "id": "git-remote-remove",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "移除远程仓库",
+      "en": "Remove Remote"
+    },
+    "description": {
+      "zh": "解除远程仓库关联",
+      "en": "Remove a remote repository association"
+    },
+    "windows": "git remote remove <name>",
+    "mac": "git remote remove <name>",
+    "linux": "git remote remove <name>",
+    "keywords": [
+      "remove remote",
+      "移除远程"
+    ],
+    "pinyin": "yi chu yuan cheng cang ku yichuyuanchengcangku y c y c c k ycycck yi chu yuan cheng yichuyuancheng y c y c ycyc"
+  },
+  {
+    "id": "git-clean",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "清理未跟踪文件",
+      "en": "Clean Untracked Files"
+    },
+    "description": {
+      "zh": "删除未被跟踪的文件或目录（谨慎使用）",
+      "en": "Remove untracked files or directories (use with caution)"
+    },
+    "windows": "git clean -fd",
+    "mac": "git clean -fd",
+    "linux": "git clean -fd",
+    "keywords": [
+      "clean",
+      "清理",
+      "删除未跟踪"
+    ],
+    "pinyin": "qing li wei gen zong wen jian qingliweigenzongwenjian q l w g z w j qlwgzwj qing li   shan chu wei gen zong qingli shanchuweigenzong q l   s c w g z ql scwgz"
+  },
+  {
+    "id": "git-show",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "查看提交详情",
+      "en": "Show Commit Details"
+    },
+    "description": {
+      "zh": "查看某次提交的详细信息和改动内容",
+      "en": "Show details and content of a specific commit"
+    },
+    "windows": "git show <commit-hash>",
+    "mac": "git show <commit-hash>",
+    "linux": "git show <commit-hash>",
+    "keywords": [
+      "show",
+      "提交详情",
+      "查看提交"
+    ],
+    "pinyin": "cha kan ti jiao xiang qing chakantijiaoxiangqing c k t j x q cktjxq ti jiao xiang qing   cha kan ti jiao tijiaoxiangqing chakantijiao t j x q   c k t j tjxq cktj"
+  },
+  {
+    "id": "git-checkout-file",
+    "appId": "git",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "丢弃单个文件改动",
+      "en": "Discard File Changes"
+    },
+    "description": {
+      "zh": "将指定文件还原到最后一次提交的状态",
+      "en": "Restore a specific file to its last committed state"
+    },
+    "windows": "git checkout -- <file> / git restore <file>",
+    "mac": "git checkout -- <file> / git restore <file>",
+    "linux": "git checkout -- <file> / git restore <file>",
+    "keywords": [
+      "丢弃文件",
+      "discard",
+      "restore",
+      "还原文件"
+    ],
+    "pinyin": "diu qi dan ge wen jian gai dong diuqidangewenjiangaidong d q d g w j g d dqdgwjgd diu qi wen jian   huan yuan wen jian diuqiwenjian huanyuanwenjian d q w j   h y w j dqwj hywj"
+  }
+]

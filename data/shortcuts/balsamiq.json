@@ -1,0 +1,488 @@
+[
+  {
+    "id": "balsamiq-new",
+    "appId": "balsamiq",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "New",
+      "zh": "新建"
+    },
+    "description": {
+      "en": "New wireframe",
+      "zh": "新建线框"
+    },
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
+    "linux": "Ctrl + N",
+    "keywords": [
+      "new",
+      "新建"
+    ],
+    "pinyin": "xin jian xinjian x j xj xin jian xinjian x j xj"
+  },
+  {
+    "id": "balsamiq-open",
+    "appId": "balsamiq",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Open",
+      "zh": "打开"
+    },
+    "description": {
+      "en": "Open project",
+      "zh": "打开项目"
+    },
+    "windows": "Ctrl + O",
+    "mac": "⌘ O",
+    "linux": "Ctrl + O",
+    "keywords": [
+      "open",
+      "打开"
+    ],
+    "pinyin": "da kai dakai d k dk da kai dakai d k dk"
+  },
+  {
+    "id": "balsamiq-save",
+    "appId": "balsamiq",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Save",
+      "zh": "保存"
+    },
+    "description": {
+      "en": "Save project",
+      "zh": "保存项目"
+    },
+    "windows": "Ctrl + S",
+    "mac": "⌘ S",
+    "linux": "Ctrl + S",
+    "keywords": [
+      "save",
+      "保存"
+    ],
+    "pinyin": "bao cun baocun b c bc bao cun baocun b c bc"
+  },
+  {
+    "id": "balsamiq-rectangle",
+    "appId": "balsamiq",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Rectangle",
+      "zh": "矩形"
+    },
+    "description": {
+      "en": "Rectangle control",
+      "zh": "矩形控件"
+    },
+    "windows": "R",
+    "mac": "R",
+    "linux": "R",
+    "keywords": [
+      "rectangle",
+      "矩形"
+    ],
+    "pinyin": "ju xing juxing j x jx ju xing juxing j x jx"
+  },
+  {
+    "id": "balsamiq-text",
+    "appId": "balsamiq",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Text",
+      "zh": "文本"
+    },
+    "description": {
+      "en": "Text control",
+      "zh": "文本控件"
+    },
+    "windows": "T",
+    "mac": "T",
+    "linux": "T",
+    "keywords": [
+      "text",
+      "文本"
+    ],
+    "pinyin": "wen ben wenben w b wb wen ben wenben w b wb"
+  },
+  {
+    "id": "balsamiq-button",
+    "appId": "balsamiq",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Button",
+      "zh": "按钮"
+    },
+    "description": {
+      "en": "Button control",
+      "zh": "按钮控件"
+    },
+    "windows": "B",
+    "mac": "B",
+    "linux": "B",
+    "keywords": [
+      "button",
+      "按钮"
+    ],
+    "pinyin": "an niu anniu a n an an niu anniu a n an"
+  },
+  {
+    "id": "balsamiq-duplicate",
+    "appId": "balsamiq",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Duplicate",
+      "zh": "复制"
+    },
+    "description": {
+      "en": "Duplicate control",
+      "zh": "复制控件"
+    },
+    "windows": "Ctrl + D",
+    "mac": "⌘ D",
+    "linux": "Ctrl + D",
+    "keywords": [
+      "duplicate",
+      "复制"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "balsamiq-group",
+    "appId": "balsamiq",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Group",
+      "zh": "编组"
+    },
+    "description": {
+      "en": "Group controls",
+      "zh": "编组控件"
+    },
+    "windows": "Ctrl + G",
+    "mac": "⌘ G",
+    "linux": "Ctrl + G",
+    "keywords": [
+      "group",
+      "编组"
+    ],
+    "pinyin": "bian zu bianzu b z bz bian zu bianzu b z bz"
+  },
+  {
+    "id": "balsamiq-ungroup",
+    "appId": "balsamiq",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Ungroup",
+      "zh": "解组"
+    },
+    "description": {
+      "en": "Ungroup controls",
+      "zh": "解组控件"
+    },
+    "windows": "Ctrl + Shift + G",
+    "mac": "⌘ Shift + G",
+    "linux": "Ctrl + Shift + G",
+    "keywords": [
+      "ungroup",
+      "解组"
+    ],
+    "pinyin": "jie zu jiezu j z jz jie zu jiezu j z jz"
+  },
+  {
+    "id": "balsamiq-undo",
+    "appId": "balsamiq",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Undo",
+      "zh": "撤销"
+    },
+    "description": {
+      "en": "Undo",
+      "zh": "撤销"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "Ctrl + Z",
+    "keywords": [
+      "undo",
+      "撤销"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "balsamiq-redo",
+    "appId": "balsamiq",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Redo",
+      "zh": "重做"
+    },
+    "description": {
+      "en": "Redo",
+      "zh": "重做"
+    },
+    "windows": "Ctrl + Y",
+    "mac": "⌘ Shift + Z",
+    "linux": "Ctrl + Y",
+    "keywords": [
+      "redo",
+      "重做"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "balsamiq-zoom-in",
+    "appId": "balsamiq",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Zoom in",
+      "zh": "放大"
+    },
+    "description": {
+      "en": "Zoom in",
+      "zh": "放大"
+    },
+    "windows": "Ctrl + =",
+    "mac": "⌘ =",
+    "linux": "Ctrl + =",
+    "keywords": [
+      "zoom",
+      "放大"
+    ],
+    "pinyin": "fang da fangda f d fd fang da fangda f d fd"
+  },
+  {
+    "id": "balsamiq-zoom-out",
+    "appId": "balsamiq",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Zoom out",
+      "zh": "缩小"
+    },
+    "description": {
+      "en": "Zoom out",
+      "zh": "缩小"
+    },
+    "windows": "Ctrl + -",
+    "mac": "⌘ -",
+    "linux": "Ctrl + -",
+    "keywords": [
+      "zoom",
+      "缩小"
+    ],
+    "pinyin": "suo xiao suoxiao s x sx suo xiao suoxiao s x sx"
+  },
+  {
+    "id": "balsamiq-quick-add",
+    "appId": "balsamiq",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Quick add",
+      "zh": "快速添加"
+    },
+    "description": {
+      "en": "Quick add control",
+      "zh": "快速添加控件"
+    },
+    "windows": "Ctrl + F? ",
+    "mac": "⌘ F? ",
+    "linux": "Ctrl + F? ",
+    "keywords": [
+      "quick",
+      "add",
+      "添加"
+    ],
+    "pinyin": "kuai su tian jia kuaisutianjia k s t j kstj tian jia tianjia t j tj"
+  },
+  {
+    "id": "balsamiq-align-l",
+    "appId": "balsamiq",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Align left",
+      "zh": "左对齐"
+    },
+    "description": {
+      "en": "Align left",
+      "zh": "左对齐"
+    },
+    "windows": "Ctrl + Alt + 1",
+    "mac": "⌘ Option + 1",
+    "linux": "Ctrl + Alt + 1",
+    "keywords": [
+      "align",
+      "left",
+      "左"
+    ],
+    "pinyin": "zuo dui qi zuoduiqi z d q zdq zuo zuo z z"
+  },
+  {
+    "id": "balsamiq-front",
+    "appId": "balsamiq",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Bring front",
+      "zh": "置顶"
+    },
+    "description": {
+      "en": "Bring to front",
+      "zh": "置于顶层"
+    },
+    "windows": "Ctrl + Shift + ]",
+    "mac": "⌘ Shift + ]",
+    "linux": "Ctrl + Shift + ]",
+    "keywords": [
+      "front",
+      "置顶"
+    ],
+    "pinyin": "zhi ding zhiding z d zd zhi ding zhiding z d zd"
+  },
+  {
+    "id": "balsamiq-back",
+    "appId": "balsamiq",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Send back",
+      "zh": "置底"
+    },
+    "description": {
+      "en": "Send to back",
+      "zh": "置于底层"
+    },
+    "windows": "Ctrl + Shift + [",
+    "mac": "⌘ Shift + [",
+    "linux": "Ctrl + Shift + [",
+    "keywords": [
+      "back",
+      "置底"
+    ],
+    "pinyin": "zhi di zhidi z d zd zhi di zhidi z d zd"
+  },
+  {
+    "id": "balsamiq-lock",
+    "appId": "balsamiq",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Lock",
+      "zh": "锁定"
+    },
+    "description": {
+      "en": "Lock control",
+      "zh": "锁定控件"
+    },
+    "windows": "Ctrl + L",
+    "mac": "⌘ L",
+    "linux": "Ctrl + L",
+    "keywords": [
+      "lock",
+      "锁定"
+    ],
+    "pinyin": "suo ding suoding s d sd suo ding suoding s d sd"
+  },
+  {
+    "id": "balsamiq-hide",
+    "appId": "balsamiq",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Hide",
+      "zh": "隐藏"
+    },
+    "description": {
+      "en": "Hide control",
+      "zh": "隐藏控件"
+    },
+    "windows": "Ctrl + H",
+    "mac": "⌘ H",
+    "linux": "Ctrl + H",
+    "keywords": [
+      "hide",
+      "隐藏"
+    ],
+    "pinyin": "yin cang yincang y c yc yin cang yincang y c yc"
+  },
+  {
+    "id": "balsamiq-export",
+    "appId": "balsamiq",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Export",
+      "zh": "导出"
+    },
+    "description": {
+      "en": "Export wireframe",
+      "zh": "导出线框"
+    },
+    "windows": "Ctrl + E",
+    "mac": "⌘ E",
+    "linux": "Ctrl + E",
+    "keywords": [
+      "export",
+      "导出"
+    ],
+    "pinyin": "dao chu daochu d c dc dao chu daochu d c dc"
+  },
+  {
+    "id": "balsamiq-presentation",
+    "appId": "balsamiq",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Present",
+      "zh": "演示"
+    },
+    "description": {
+      "en": "Start presentation",
+      "zh": "开始演示"
+    },
+    "windows": "Ctrl + Enter",
+    "mac": "⌘ Enter",
+    "linux": "Ctrl + Enter",
+    "keywords": [
+      "present",
+      "演示"
+    ],
+    "pinyin": "yan shi yanshi y s ys yan shi yanshi y s ys"
+  },
+  {
+    "id": "balsamiq-fullscreen",
+    "appId": "balsamiq",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Fullscreen",
+      "zh": "全屏"
+    },
+    "description": {
+      "en": "Toggle fullscreen",
+      "zh": "切换全屏"
+    },
+    "windows": "F11",
+    "mac": "F11",
+    "linux": "F11",
+    "keywords": [
+      "fullscreen",
+      "全屏"
+    ],
+    "pinyin": "quan ping quanping q p qp quan ping quanping q p qp"
+  }
+]

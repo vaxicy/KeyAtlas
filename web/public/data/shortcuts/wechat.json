@@ -1,0 +1,642 @@
+[
+  {
+    "id": "wechat-send",
+    "appId": "wechat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Send",
+      "zh": "发送"
+    },
+    "description": {
+      "en": "Send message",
+      "zh": "发送消息"
+    },
+    "windows": "Enter",
+    "mac": "Enter",
+    "linux": "—",
+    "keywords": [
+      "send",
+      "发送"
+    ],
+    "pinyin": "fa song fasong f s fs fa song fasong f s fs"
+  },
+  {
+    "id": "wechat-screenshot",
+    "appId": "wechat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Screenshot",
+      "zh": "截图"
+    },
+    "description": {
+      "en": "Capture screenshot",
+      "zh": "截图"
+    },
+    "windows": "Alt + A",
+    "mac": "⌘ ⌃ A",
+    "linux": "—",
+    "keywords": [
+      "screenshot",
+      "截图"
+    ],
+    "pinyin": "jie tu jietu j t jt jie tu jietu j t jt"
+  },
+  {
+    "id": "wechat-search",
+    "appId": "wechat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Search",
+      "zh": "搜索"
+    },
+    "description": {
+      "en": "Search chats",
+      "zh": "搜索聊天"
+    },
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
+    "linux": "—",
+    "keywords": [
+      "search",
+      "搜索"
+    ],
+    "pinyin": "sou suo sousuo s s ss sou suo sousuo s s ss"
+  },
+  {
+    "id": "wechat-emoji",
+    "appId": "wechat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Emoji",
+      "zh": "表情"
+    },
+    "description": {
+      "en": "Open emoji panel",
+      "zh": "打开表情面板"
+    },
+    "windows": "Ctrl + E",
+    "mac": "⌘ E",
+    "linux": "—",
+    "keywords": [
+      "emoji",
+      "表情"
+    ],
+    "pinyin": "biao qing biaoqing b q bq biao qing biaoqing b q bq"
+  },
+  {
+    "id": "wechat-new-chat",
+    "appId": "wechat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "New chat",
+      "zh": "新聊天"
+    },
+    "description": {
+      "en": "New chat",
+      "zh": "新聊天"
+    },
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
+    "linux": "—",
+    "keywords": [
+      "new",
+      "chat",
+      "聊天"
+    ],
+    "pinyin": "xin liao tian xinliaotian x l t xlt liao tian liaotian l t lt"
+  },
+  {
+    "id": "wechat-switch-chat",
+    "appId": "wechat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Switch chat",
+      "zh": "切换聊天"
+    },
+    "description": {
+      "en": "Switch conversation",
+      "zh": "切换会话"
+    },
+    "windows": "Ctrl + Tab",
+    "mac": "⌘ Tab",
+    "linux": "—",
+    "keywords": [
+      "switch",
+      "chat",
+      "切换"
+    ],
+    "pinyin": "qie huan liao tian qiehuanliaotian q h l t qhlt qie huan qiehuan q h qh"
+  },
+  {
+    "id": "wechat-settings",
+    "appId": "wechat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Settings",
+      "zh": "设置"
+    },
+    "description": {
+      "en": "Open settings",
+      "zh": "打开设置"
+    },
+    "windows": "Ctrl + ,",
+    "mac": "⌘ ,",
+    "linux": "—",
+    "keywords": [
+      "settings",
+      "设置"
+    ],
+    "pinyin": "she zhi shezhi s z sz she zhi shezhi s z sz"
+  },
+  {
+    "id": "wechat-zoom",
+    "appId": "wechat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Zoom",
+      "zh": "缩放"
+    },
+    "description": {
+      "en": "Zoom UI",
+      "zh": "缩放界面"
+    },
+    "windows": "Ctrl + =",
+    "mac": "⌘ =",
+    "linux": "—",
+    "keywords": [
+      "zoom",
+      "缩放"
+    ],
+    "pinyin": "suo fang suofang s f sf suo fang suofang s f sf"
+  },
+  {
+    "id": "wechat-bold",
+    "appId": "wechat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Bold",
+      "zh": "加粗"
+    },
+    "description": {
+      "en": "Bold",
+      "zh": "加粗"
+    },
+    "windows": "Ctrl + B",
+    "mac": "⌘ B",
+    "linux": "—",
+    "keywords": [
+      "bold",
+      "加粗"
+    ],
+    "pinyin": "jia cu jiacu j c jc jia cu jiacu j c jc"
+  },
+  {
+    "id": "wechat-italic",
+    "appId": "wechat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Italic",
+      "zh": "斜体"
+    },
+    "description": {
+      "en": "Italic",
+      "zh": "斜体"
+    },
+    "windows": "Ctrl + I",
+    "mac": "⌘ I",
+    "linux": "—",
+    "keywords": [
+      "italic",
+      "斜体"
+    ],
+    "pinyin": "xie ti xieti x t xt xie ti xieti x t xt"
+  },
+  {
+    "id": "wechat-strike",
+    "appId": "wechat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Strikethrough",
+      "zh": "删除线"
+    },
+    "description": {
+      "en": "Strikethrough",
+      "zh": "删除线"
+    },
+    "windows": "Ctrl + T",
+    "mac": "⌘ T",
+    "linux": "—",
+    "keywords": [
+      "strike",
+      "删除线"
+    ],
+    "pinyin": "shan chu xian shanchuxian s c x scx shan chu xian shanchuxian s c x scx"
+  },
+  {
+    "id": "wechat-code",
+    "appId": "wechat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Code",
+      "zh": "代码"
+    },
+    "description": {
+      "en": "Inline code",
+      "zh": "行内代码"
+    },
+    "windows": "Ctrl + Shift + C",
+    "mac": "⌥ ⌘ C",
+    "linux": "—",
+    "keywords": [
+      "code",
+      "代码"
+    ],
+    "pinyin": "dai ma daima d m dm dai ma daima d m dm"
+  },
+  {
+    "id": "wechat-quote",
+    "appId": "wechat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Quote",
+      "zh": "引用"
+    },
+    "description": {
+      "en": "Quote message",
+      "zh": "引用消息"
+    },
+    "windows": "Ctrl + Shift + T",
+    "mac": "⌥ ⌘ T",
+    "linux": "—",
+    "keywords": [
+      "quote",
+      "引用"
+    ],
+    "pinyin": "yin yong yinyong y y yy yin yong yinyong y y yy"
+  },
+  {
+    "id": "wechat-minimize",
+    "appId": "wechat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Minimize",
+      "zh": "最小化"
+    },
+    "description": {
+      "en": "Minimize window",
+      "zh": "最小化窗口"
+    },
+    "windows": "Ctrl + M",
+    "mac": "⌘ M",
+    "linux": "—",
+    "keywords": [
+      "minimize",
+      "最小化"
+    ],
+    "pinyin": "zui xiao hua zuixiaohua z x h zxh zui xiao hua zuixiaohua z x h zxh"
+  },
+  {
+    "id": "wechat-close",
+    "appId": "wechat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Close",
+      "zh": "关闭"
+    },
+    "description": {
+      "en": "Close chat",
+      "zh": "关闭聊天"
+    },
+    "windows": "Ctrl + W",
+    "mac": "⌘ W",
+    "linux": "—",
+    "keywords": [
+      "close",
+      "关闭"
+    ],
+    "pinyin": "guan bi guanbi g b gb guan bi guanbi g b gb"
+  },
+  {
+    "id": "wechat-refresh",
+    "appId": "wechat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Refresh",
+      "zh": "刷新"
+    },
+    "description": {
+      "en": "Refresh",
+      "zh": "刷新"
+    },
+    "windows": "F5",
+    "mac": "F5",
+    "linux": "—",
+    "keywords": [
+      "refresh",
+      "刷新"
+    ],
+    "pinyin": "shua xin shuaxin s x sx shua xin shuaxin s x sx"
+  },
+  {
+    "id": "wechat-scan",
+    "appId": "wechat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Scan",
+      "zh": "扫一扫"
+    },
+    "description": {
+      "en": "Open scan",
+      "zh": "打开扫一扫"
+    },
+    "windows": "Ctrl + Shift + S",
+    "mac": "⌥ ⌘ S",
+    "linux": "—",
+    "keywords": [
+      "scan",
+      "扫一扫"
+    ],
+    "pinyin": "sao yi sao saoyisao s y s sys sao yi sao saoyisao s y s sys"
+  },
+  {
+    "id": "wechat-moments",
+    "appId": "wechat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Moments",
+      "zh": "朋友圈"
+    },
+    "description": {
+      "en": "Open moments",
+      "zh": "打开朋友圈"
+    },
+    "windows": "Ctrl + Shift + M",
+    "mac": "⌥ ⌘ M",
+    "linux": "—",
+    "keywords": [
+      "moments",
+      "朋友圈"
+    ],
+    "pinyin": "peng you quan pengyouquan p y q pyq peng you quan pengyouquan p y q pyq"
+  },
+  {
+    "id": "wechat-contacts",
+    "appId": "wechat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Contacts",
+      "zh": "通讯录"
+    },
+    "description": {
+      "en": "Open contacts",
+      "zh": "打开通讯录"
+    },
+    "windows": "Ctrl + Shift + C",
+    "mac": "⌥ ⌘ C",
+    "linux": "—",
+    "keywords": [
+      "contacts",
+      "通讯录"
+    ],
+    "pinyin": "tong xun lu tongxunlu t x l txl tong xun lu tongxunlu t x l txl"
+  },
+  {
+    "id": "wechat-favorites",
+    "appId": "wechat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Favorites",
+      "zh": "收藏"
+    },
+    "description": {
+      "en": "Open favorites",
+      "zh": "打开收藏"
+    },
+    "windows": "Ctrl + Shift + F",
+    "mac": "⌥ ⌘ F",
+    "linux": "—",
+    "keywords": [
+      "favorites",
+      "收藏"
+    ],
+    "pinyin": "shou cang shoucang s c sc shou cang shoucang s c sc"
+  },
+  {
+    "id": "wechat-translate",
+    "appId": "wechat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Translate",
+      "zh": "翻译"
+    },
+    "description": {
+      "en": "Translate message",
+      "zh": "翻译消息"
+    },
+    "windows": "Ctrl + Shift + T? ",
+    "mac": "⌥ ⌘ T? ",
+    "linux": "—",
+    "keywords": [
+      "translate",
+      "翻译"
+    ],
+    "pinyin": "fan yi fanyi f y fy fan yi fanyi f y fy"
+  },
+  {
+    "id": "wechat-markdown",
+    "appId": "wechat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Markdown",
+      "zh": "Markdown"
+    },
+    "description": {
+      "en": "Toggle markdown",
+      "zh": "切换 Markdown"
+    },
+    "windows": "Ctrl + Shift + M? ",
+    "mac": "⌥ ⌘ M? ",
+    "linux": "—",
+    "keywords": [
+      "markdown",
+      "md"
+    ],
+    "pinyin": "m a r k d o w n markdown m a r k d o w n markdown"
+  },
+  {
+    "id": "wechat-copy",
+    "appId": "wechat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Copy",
+      "zh": "复制"
+    },
+    "description": {
+      "en": "Copy",
+      "zh": "复制"
+    },
+    "windows": "Ctrl + C",
+    "mac": "⌘ C",
+    "linux": "—",
+    "keywords": [
+      "copy",
+      "复制"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "wechat-paste",
+    "appId": "wechat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Paste",
+      "zh": "粘贴"
+    },
+    "description": {
+      "en": "Paste",
+      "zh": "粘贴"
+    },
+    "windows": "Ctrl + V",
+    "mac": "⌘ V",
+    "linux": "—",
+    "keywords": [
+      "paste",
+      "粘贴"
+    ],
+    "pinyin": "nian tie niantie n t nt nian tie niantie n t nt"
+  },
+  {
+    "id": "wechat-undo",
+    "appId": "wechat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Undo",
+      "zh": "撤销"
+    },
+    "description": {
+      "en": "Undo",
+      "zh": "撤销"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "—",
+    "keywords": [
+      "undo",
+      "撤销"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "wechat-redo",
+    "appId": "wechat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Redo",
+      "zh": "重做"
+    },
+    "description": {
+      "en": "Redo",
+      "zh": "重做"
+    },
+    "windows": "Ctrl + Y",
+    "mac": "⇧ ⌘ Z",
+    "linux": "—",
+    "keywords": [
+      "redo",
+      "重做"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "wechat-fullscreen",
+    "appId": "wechat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Fullscreen",
+      "zh": "全屏"
+    },
+    "description": {
+      "en": "Fullscreen",
+      "zh": "全屏"
+    },
+    "windows": "F11",
+    "mac": "⌃ ⌘ F",
+    "linux": "—",
+    "keywords": [
+      "fullscreen",
+      "全屏"
+    ],
+    "pinyin": "quan ping quanping q p qp quan ping quanping q p qp"
+  },
+  {
+    "id": "wechat-lock",
+    "appId": "wechat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Lock",
+      "zh": "锁屏"
+    },
+    "description": {
+      "en": "Lock WeChat",
+      "zh": "锁定微信"
+    },
+    "windows": "Ctrl + L",
+    "mac": "⌘ ⌃ L",
+    "linux": "—",
+    "keywords": [
+      "lock",
+      "锁屏"
+    ],
+    "pinyin": "suo ping suoping s p sp suo ping suoping s p sp"
+  },
+  {
+    "id": "wechat-help",
+    "appId": "wechat",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Help",
+      "zh": "帮助"
+    },
+    "description": {
+      "en": "Shortcuts help",
+      "zh": "快捷键帮助"
+    },
+    "windows": "Ctrl + /",
+    "mac": "⌘ /",
+    "linux": "—",
+    "keywords": [
+      "help",
+      "快捷键"
+    ],
+    "pinyin": "bang zhu bangzhu b z bz kuai jie jian kuaijiejian k j j kjj"
+  }
+]

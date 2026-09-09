@@ -1,1 +1,173 @@
-[{"id":"wecom-screenshot","appId":"wecom","type":"software","category":"productivity","name":{"zh":"截屏（全局）","en":"Screenshot (global)"},"description":{"zh":"全局截屏（系统级，可在设置中自定义）","en":"Capture screen globally, customizable in settings"},"windows":"Ctrl + Alt + A","mac":"⇧ ⌘ A","linux":"Ctrl + Alt + A","keywords":["截图","截屏","screenshot","capture"],"pinyin":"jie ping （ quan ju ） jieping（quanju） j p （ q j ） jp（qj） jie tu   jie ping jietu jieping j t   j p jt jp"},{"id":"wecom-search","appId":"wecom","type":"software","category":"productivity","name":{"zh":"搜索消息","en":"Search messages"},"description":{"zh":"在聊天中搜索消息记录","en":"Search message history in chats"},"windows":"Ctrl + F","mac":"⌘ F","linux":"Ctrl + F","keywords":["搜索","查找","search","find","消息"],"pinyin":"sou suo xiao xi sousuoxiaoxi s s x x ssxx sou suo   cha zhao   xiao xi sousuo chazhao xiaoxi s s   c z   x x ss cz xx"},{"id":"wecom-new-chat","appId":"wecom","type":"software","category":"productivity","name":{"zh":"新建聊天窗口","en":"New chat window"},"description":{"zh":"发起新的聊天会话","en":"Start a new chat conversation"},"windows":"Ctrl + N","mac":"⌘ N","linux":"Ctrl + N","keywords":["新建","会话","聊天","new","chat"],"pinyin":"xin jian liao tian chuang kou xinjianliaotianchuangkou x j l t c k xjltck xin jian   hui hua   liao tian xinjian huihua liaotian x j   h h   l t xj hh lt"},{"id":"wecom-send-message","appId":"wecom","type":"software","category":"productivity","name":{"zh":"发送消息","en":"Send message"},"description":{"zh":"发送消息（可在设置中切换回车或 Ctrl+Enter 发送）","en":"Send message (configurable: Enter or Ctrl+Enter in settings)"},"windows":"Enter 或 Ctrl + Enter","mac":"Enter 或 ⌘ Enter","linux":"Enter 或 Ctrl + Enter","keywords":["发送","消息","send","message"],"pinyin":"fa song xiao xi fasongxiaoxi f s x x fsxx fa song   xiao xi fasong xiaoxi f s   x x fs xx"},{"id":"wecom-switch-chat","appId":"wecom","type":"software","category":"productivity","name":{"zh":"切换聊天窗口","en":"Switch chat window"},"description":{"zh":"在不同聊天窗口之间快速切换","en":"Quickly switch between chat windows"},"windows":"Ctrl + Tab","mac":"⌃ Tab","linux":"Ctrl + Tab","keywords":["切换","聊天","switch","chat","tab"],"pinyin":"qie huan liao tian chuang kou qiehuanliaotianchuangkou q h l t c k qhltck qie huan   liao tian qiehuan liaotian q h   l t qh lt"},{"id":"wecom-jump-tab","appId":"wecom","type":"software","category":"productivity","name":{"zh":"切换标签页","en":"Switch tab"},"description":{"zh":"跳转到导航栏指定数字标签页","en":"Jump to the tab at the given number position"},"windows":"Ctrl + 1~9","mac":"⌘ 1~9","linux":"Ctrl + 1~9","keywords":["标签页","切换","tab","jump"],"pinyin":"qie huan biao qian ye qiehuanbiaoqianye q h b q y qhbqy biao qian ye   qie huan biaoqianye qiehuan b q y   q h bqy qh"},{"id":"wecom-close-chat","appId":"wecom","type":"software","category":"productivity","name":{"zh":"关闭聊天","en":"Close chat"},"description":{"zh":"关闭当前聊天窗口","en":"Close the current chat window"},"windows":"Ctrl + W","mac":"⌘ W","linux":"Ctrl + W","keywords":["关闭","聊天","close","chat"],"pinyin":"guan bi liao tian guanbiliaotian g b l t gblt guan bi   liao tian guanbi liaotian g b   l t gb lt"}]
+[
+  {
+    "id": "wecom-screenshot",
+    "appId": "wecom",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "截屏（全局）",
+      "en": "Screenshot (global)"
+    },
+    "description": {
+      "zh": "全局截屏（系统级，可在设置中自定义）",
+      "en": "Capture screen globally, customizable in settings"
+    },
+    "windows": "Ctrl + Alt + A",
+    "mac": "⇧ ⌘ A",
+    "linux": "Ctrl + Alt + A",
+    "keywords": [
+      "截图",
+      "截屏",
+      "screenshot",
+      "capture"
+    ],
+    "pinyin": "jie ping （ quan ju ） jieping（quanju） j p （ q j ） jp（qj） jie tu   jie ping jietu jieping j t   j p jt jp"
+  },
+  {
+    "id": "wecom-search",
+    "appId": "wecom",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "搜索消息",
+      "en": "Search messages"
+    },
+    "description": {
+      "zh": "在聊天中搜索消息记录",
+      "en": "Search message history in chats"
+    },
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
+    "linux": "Ctrl + F",
+    "keywords": [
+      "搜索",
+      "查找",
+      "search",
+      "find",
+      "消息"
+    ],
+    "pinyin": "sou suo xiao xi sousuoxiaoxi s s x x ssxx sou suo   cha zhao   xiao xi sousuo chazhao xiaoxi s s   c z   x x ss cz xx"
+  },
+  {
+    "id": "wecom-new-chat",
+    "appId": "wecom",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "新建聊天窗口",
+      "en": "New chat window"
+    },
+    "description": {
+      "zh": "发起新的聊天会话",
+      "en": "Start a new chat conversation"
+    },
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
+    "linux": "Ctrl + N",
+    "keywords": [
+      "新建",
+      "会话",
+      "聊天",
+      "new",
+      "chat"
+    ],
+    "pinyin": "xin jian liao tian chuang kou xinjianliaotianchuangkou x j l t c k xjltck xin jian   hui hua   liao tian xinjian huihua liaotian x j   h h   l t xj hh lt"
+  },
+  {
+    "id": "wecom-send-message",
+    "appId": "wecom",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "发送消息",
+      "en": "Send message"
+    },
+    "description": {
+      "zh": "发送消息（可在设置中切换回车或 Ctrl+Enter 发送）",
+      "en": "Send message (configurable: Enter or Ctrl+Enter in settings)"
+    },
+    "windows": "Enter 或 Ctrl + Enter",
+    "mac": "Enter 或 ⌘ Enter",
+    "linux": "Enter 或 Ctrl + Enter",
+    "keywords": [
+      "发送",
+      "消息",
+      "send",
+      "message"
+    ],
+    "pinyin": "fa song xiao xi fasongxiaoxi f s x x fsxx fa song   xiao xi fasong xiaoxi f s   x x fs xx"
+  },
+  {
+    "id": "wecom-switch-chat",
+    "appId": "wecom",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "切换聊天窗口",
+      "en": "Switch chat window"
+    },
+    "description": {
+      "zh": "在不同聊天窗口之间快速切换",
+      "en": "Quickly switch between chat windows"
+    },
+    "windows": "Ctrl + Tab",
+    "mac": "⌃ Tab",
+    "linux": "Ctrl + Tab",
+    "keywords": [
+      "切换",
+      "聊天",
+      "switch",
+      "chat",
+      "tab"
+    ],
+    "pinyin": "qie huan liao tian chuang kou qiehuanliaotianchuangkou q h l t c k qhltck qie huan   liao tian qiehuan liaotian q h   l t qh lt"
+  },
+  {
+    "id": "wecom-jump-tab",
+    "appId": "wecom",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "切换标签页",
+      "en": "Switch tab"
+    },
+    "description": {
+      "zh": "跳转到导航栏指定数字标签页",
+      "en": "Jump to the tab at the given number position"
+    },
+    "windows": "Ctrl + 1~9",
+    "mac": "⌘ 1~9",
+    "linux": "Ctrl + 1~9",
+    "keywords": [
+      "标签页",
+      "切换",
+      "tab",
+      "jump"
+    ],
+    "pinyin": "qie huan biao qian ye qiehuanbiaoqianye q h b q y qhbqy biao qian ye   qie huan biaoqianye qiehuan b q y   q h bqy qh"
+  },
+  {
+    "id": "wecom-close-chat",
+    "appId": "wecom",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "关闭聊天",
+      "en": "Close chat"
+    },
+    "description": {
+      "zh": "关闭当前聊天窗口",
+      "en": "Close the current chat window"
+    },
+    "windows": "Ctrl + W",
+    "mac": "⌘ W",
+    "linux": "Ctrl + W",
+    "keywords": [
+      "关闭",
+      "聊天",
+      "close",
+      "chat"
+    ],
+    "pinyin": "guan bi liao tian guanbiliaotian g b l t gblt guan bi   liao tian guanbi liaotian g b   l t gb lt"
+  }
+]

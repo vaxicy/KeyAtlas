@@ -1,0 +1,552 @@
+[
+  {
+    "id": "motion-new",
+    "appId": "motion",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "New project",
+      "zh": "新建项目"
+    },
+    "description": {
+      "en": "New Motion project",
+      "zh": "新建 Motion 项目"
+    },
+    "windows": "⌘ N",
+    "mac": "⌘ N",
+    "linux": "—",
+    "keywords": [
+      "new",
+      "新建"
+    ],
+    "pinyin": "xin jian xiang mu xinjianxiangmu x j x m xjxm xin jian xinjian x j xj"
+  },
+  {
+    "id": "motion-play",
+    "appId": "motion",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Play",
+      "zh": "播放"
+    },
+    "description": {
+      "en": "Play timeline",
+      "zh": "播放时间线"
+    },
+    "windows": "Space",
+    "mac": "Space",
+    "linux": "—",
+    "keywords": [
+      "play",
+      "播放"
+    ],
+    "pinyin": "bo fang bofang b f bf bo fang bofang b f bf"
+  },
+  {
+    "id": "motion-stop",
+    "appId": "motion",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Stop",
+      "zh": "停止"
+    },
+    "description": {
+      "en": "Stop playback",
+      "zh": "停止播放"
+    },
+    "windows": "Space",
+    "mac": "Space",
+    "linux": "—",
+    "keywords": [
+      "stop",
+      "停止"
+    ],
+    "pinyin": "ting zhi tingzhi t z tz ting zhi tingzhi t z tz"
+  },
+  {
+    "id": "motion-render",
+    "appId": "motion",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Render",
+      "zh": "渲染"
+    },
+    "description": {
+      "en": "Render movie",
+      "zh": "渲染影片"
+    },
+    "windows": "⌘ R",
+    "mac": "⌘ R",
+    "linux": "—",
+    "keywords": [
+      "render",
+      "渲染"
+    ],
+    "pinyin": "xuan ran xuanran x r xr xuan ran xuanran x r xr"
+  },
+  {
+    "id": "motion-export",
+    "appId": "motion",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Export",
+      "zh": "导出"
+    },
+    "description": {
+      "en": "Export movie",
+      "zh": "导出影片"
+    },
+    "windows": "⌘ E",
+    "mac": "⌘ E",
+    "linux": "—",
+    "keywords": [
+      "export",
+      "导出"
+    ],
+    "pinyin": "dao chu daochu d c dc dao chu daochu d c dc"
+  },
+  {
+    "id": "motion-behavior",
+    "appId": "motion",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Add behavior",
+      "zh": "添加行为"
+    },
+    "description": {
+      "en": "Add behavior to object",
+      "zh": "添加行为到对象"
+    },
+    "windows": "⌘ 4",
+    "mac": "⌘ 4",
+    "linux": "—",
+    "keywords": [
+      "behavior",
+      "行为"
+    ],
+    "pinyin": "tian jia xing wei tianjiaxingwei t j x w tjxw xing wei xingwei x w xw"
+  },
+  {
+    "id": "motion-keyframe",
+    "appId": "motion",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Keyframe",
+      "zh": "关键帧"
+    },
+    "description": {
+      "en": "Add keyframe",
+      "zh": "添加关键帧"
+    },
+    "windows": "⌥ K",
+    "mac": "⌥ K",
+    "linux": "—",
+    "keywords": [
+      "keyframe",
+      "关键帧"
+    ],
+    "pinyin": "guan jian zhen guanjianzhen g j z gjz guan jian zhen guanjianzhen g j z gjz"
+  },
+  {
+    "id": "motion-group",
+    "appId": "motion",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Group",
+      "zh": "编组"
+    },
+    "description": {
+      "en": "Group layers",
+      "zh": "编组图层"
+    },
+    "windows": "⌘ G",
+    "mac": "⌘ G",
+    "linux": "—",
+    "keywords": [
+      "group",
+      "编组"
+    ],
+    "pinyin": "bian zu bianzu b z bz bian zu bianzu b z bz"
+  },
+  {
+    "id": "motion-ungroup",
+    "appId": "motion",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Ungroup",
+      "zh": "解组"
+    },
+    "description": {
+      "en": "Ungroup layers",
+      "zh": "解组图层"
+    },
+    "windows": "⌘ Shift + G",
+    "mac": "⌘ Shift + G",
+    "linux": "—",
+    "keywords": [
+      "ungroup",
+      "解组"
+    ],
+    "pinyin": "jie zu jiezu j z jz jie zu jiezu j z jz"
+  },
+  {
+    "id": "motion-mask",
+    "appId": "motion",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Mask",
+      "zh": "蒙版"
+    },
+    "description": {
+      "en": "Add mask",
+      "zh": "添加蒙版"
+    },
+    "windows": "⌘ Shift + M",
+    "mac": "⌘ Shift + M",
+    "linux": "—",
+    "keywords": [
+      "mask",
+      "蒙版"
+    ],
+    "pinyin": "meng ban mengban m b mb meng ban mengban m b mb"
+  },
+  {
+    "id": "motion-shape",
+    "appId": "motion",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Shape",
+      "zh": "形状"
+    },
+    "description": {
+      "en": "Add shape",
+      "zh": "添加形状"
+    },
+    "windows": "⌘ 1? ",
+    "mac": "⌘ 1? ",
+    "linux": "—",
+    "keywords": [
+      "shape",
+      "形状"
+    ],
+    "pinyin": "xing zhuang xingzhuang x z xz xing zhuang xingzhuang x z xz"
+  },
+  {
+    "id": "motion-text",
+    "appId": "motion",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Text",
+      "zh": "文本"
+    },
+    "description": {
+      "en": "Add text",
+      "zh": "添加文本"
+    },
+    "windows": "⌘ T",
+    "mac": "⌘ T",
+    "linux": "—",
+    "keywords": [
+      "text",
+      "文本"
+    ],
+    "pinyin": "wen ben wenben w b wb wen ben wenben w b wb"
+  },
+  {
+    "id": "motion-duplicate",
+    "appId": "motion",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Duplicate",
+      "zh": "复制"
+    },
+    "description": {
+      "en": "Duplicate layer",
+      "zh": "复制图层"
+    },
+    "windows": "⌘ D",
+    "mac": "⌘ D",
+    "linux": "—",
+    "keywords": [
+      "duplicate",
+      "复制"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "motion-undo",
+    "appId": "motion",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Undo",
+      "zh": "撤销"
+    },
+    "description": {
+      "en": "Undo",
+      "zh": "撤销"
+    },
+    "windows": "⌘ Z",
+    "mac": "⌘ Z",
+    "linux": "—",
+    "keywords": [
+      "undo",
+      "撤销"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "motion-redo",
+    "appId": "motion",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Redo",
+      "zh": "重做"
+    },
+    "description": {
+      "en": "Redo",
+      "zh": "重做"
+    },
+    "windows": "⌘ Shift + Z",
+    "mac": "⌘ Shift + Z",
+    "linux": "—",
+    "keywords": [
+      "redo",
+      "重做"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "motion-zoom-in",
+    "appId": "motion",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Zoom in",
+      "zh": "放大"
+    },
+    "description": {
+      "en": "Zoom in canvas",
+      "zh": "放大画布"
+    },
+    "windows": "⌘ =",
+    "mac": "⌘ =",
+    "linux": "—",
+    "keywords": [
+      "zoom",
+      "放大"
+    ],
+    "pinyin": "fang da fangda f d fd fang da fangda f d fd"
+  },
+  {
+    "id": "motion-zoom-out",
+    "appId": "motion",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Zoom out",
+      "zh": "缩小"
+    },
+    "description": {
+      "en": "Zoom out canvas",
+      "zh": "缩小画布"
+    },
+    "windows": "⌘ -",
+    "mac": "⌘ -",
+    "linux": "—",
+    "keywords": [
+      "zoom",
+      "缩小"
+    ],
+    "pinyin": "suo xiao suoxiao s x sx suo xiao suoxiao s x sx"
+  },
+  {
+    "id": "motion-fit",
+    "appId": "motion",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Fit",
+      "zh": "适应"
+    },
+    "description": {
+      "en": "Fit to window",
+      "zh": "适应窗口"
+    },
+    "windows": "Shift + 1",
+    "mac": "Shift + 1",
+    "linux": "—",
+    "keywords": [
+      "fit",
+      "适应"
+    ],
+    "pinyin": "shi ying shiying s y sy shi ying shiying s y sy"
+  },
+  {
+    "id": "motion-fullscreen",
+    "appId": "motion",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Fullscreen",
+      "zh": "全屏"
+    },
+    "description": {
+      "en": "Toggle fullscreen",
+      "zh": "切换全屏"
+    },
+    "windows": "⌃ ⌘ F",
+    "mac": "⌃ ⌘ F",
+    "linux": "—",
+    "keywords": [
+      "fullscreen",
+      "全屏"
+    ],
+    "pinyin": "quan ping quanping q p qp quan ping quanping q p qp"
+  },
+  {
+    "id": "motion-library",
+    "appId": "motion",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Library",
+      "zh": "资源库"
+    },
+    "description": {
+      "en": "Toggle library",
+      "zh": "切换资源库"
+    },
+    "windows": "⌘ L",
+    "mac": "⌘ L",
+    "linux": "—",
+    "keywords": [
+      "library",
+      "资源库"
+    ],
+    "pinyin": "zi yuan ku ziyuanku z y k zyk zi yuan ku ziyuanku z y k zyk"
+  },
+  {
+    "id": "motion-inspector",
+    "appId": "motion",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Inspector",
+      "zh": "检查器"
+    },
+    "description": {
+      "en": "Toggle inspector",
+      "zh": "切换检查器"
+    },
+    "windows": "⌘ 3",
+    "mac": "⌘ 3",
+    "linux": "—",
+    "keywords": [
+      "inspector",
+      "检查器"
+    ],
+    "pinyin": "jian cha qi jianchaqi j c q jcq jian cha qi jianchaqi j c q jcq"
+  },
+  {
+    "id": "motion-timeline",
+    "appId": "motion",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Timeline",
+      "zh": "时间线"
+    },
+    "description": {
+      "en": "Toggle timeline",
+      "zh": "切换时间线"
+    },
+    "windows": "⌘ 2",
+    "mac": "⌘ 2",
+    "linux": "—",
+    "keywords": [
+      "timeline",
+      "时间线"
+    ],
+    "pinyin": "shi jian xian shijianxian s j x sjx shi jian xian shijianxian s j x sjx"
+  },
+  {
+    "id": "motion-layers",
+    "appId": "motion",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Layers",
+      "zh": "图层"
+    },
+    "description": {
+      "en": "Toggle layers list",
+      "zh": "切换图层列表"
+    },
+    "windows": "⌘ 4? ",
+    "mac": "⌘ 4? ",
+    "linux": "—",
+    "keywords": [
+      "layers",
+      "图层"
+    ],
+    "pinyin": "tu ceng tuceng t c tc tu ceng tuceng t c tc"
+  },
+  {
+    "id": "motion-snap",
+    "appId": "motion",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Snap",
+      "zh": "吸附"
+    },
+    "description": {
+      "en": "Toggle snapping",
+      "zh": "切换吸附"
+    },
+    "windows": "⌘ '",
+    "mac": "⌘ '",
+    "linux": "—",
+    "keywords": [
+      "snap",
+      "吸附"
+    ],
+    "pinyin": "xi fu xifu x f xf xi fu xifu x f xf"
+  },
+  {
+    "id": "motion-preview",
+    "appId": "motion",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Preview",
+      "zh": "预览"
+    },
+    "description": {
+      "en": "Play preview",
+      "zh": "播放预览"
+    },
+    "windows": "Space",
+    "mac": "Space",
+    "linux": "—",
+    "keywords": [
+      "preview",
+      "预览"
+    ],
+    "pinyin": "yu lan yulan y l yl yu lan yulan y l yl"
+  }
+]

@@ -1,1 +1,1003 @@
-[{"id":"nuke-zoom-out","appId":"nuke","type":"software","category":"design","name":{"zh":"节点图缩小","en":"Zoom Out (Node Graph)"},"description":{"zh":"在节点图中缩小视图","en":"Zoom out in the node graph"},"windows":"-","mac":"-","linux":"-","keywords":["缩小","zoom","节点图","node graph"],"pinyin":"jie dian tu suo xiao jiediantusuoxiao j d t s x jdtsx suo xiao   jie dian tu suoxiao jiediantu s x   j d t sx jdt"},{"id":"nuke-zoom-in","appId":"nuke","type":"software","category":"design","name":{"zh":"节点图放大","en":"Zoom In (Node Graph)"},"description":{"zh":"在节点图中放大视图","en":"Zoom in in the node graph"},"windows":"+","mac":"+","linux":"+","keywords":["放大","zoom","节点图"],"pinyin":"jie dian tu fang da jiediantufangda j d t f d jdtfd fang da   jie dian tu fangda jiediantu f d   j d t fd jdt"},{"id":"nuke-fit-nodes","appId":"nuke","type":"software","category":"design","name":{"zh":"适配节点到视图","en":"Fit Nodes to View"},"description":{"zh":"将选中节点适配到面板（未选中时适配全部）","en":"Frame selected nodes to the panel (all if none selected)"},"windows":"F","mac":"F","linux":"F","keywords":["适配","fit","框显","节点"],"pinyin":"shi pei jie dian dao shi tu shipeijiediandaoshitu s p j d d s t spjddst shi pei   kuang xian   jie dian shipei kuangxian jiedian s p   k x   j d sp kx jd"},{"id":"nuke-fit-all-nodes","appId":"nuke","type":"software","category":"design","name":{"zh":"适配全部节点","en":"Fit All Nodes"},"description":{"zh":"中键单击适配所有节点到面板","en":"Middle-mouse click to frame all nodes"},"windows":"中键单击","mac":"中键单击","linux":"中键单击","keywords":["适配","fit all","节点"],"pinyin":"shi pei quan bu jie dian shipeiquanbujiedian s p q b j d spqbjd shi pei   jie dian shipei jiedian s p   j d sp jd"},{"id":"nuke-pan-graph","appId":"nuke","type":"software","category":"design","name":{"zh":"平移节点图","en":"Pan Node Graph"},"description":{"zh":"中键拖动或 Alt+左键拖动平移节点图","en":"Pan the node graph (MMB drag or Alt+LMB drag)"},"windows":"中键拖动 / Alt + 左键拖动","mac":"中键拖动 / ⌥ + 左键拖动","linux":"中键拖动 / Alt + 左键拖动","keywords":["平移","pan","节点图"],"pinyin":"ping yi jie dian tu pingyijiediantu p y j d t pyjdt ping yi   jie dian tu pingyi jiediantu p y   j d t py jdt"},{"id":"nuke-snap-grid","appId":"nuke","type":"software","category":"design","name":{"zh":"所有节点吸附网格","en":"Snap All Nodes to Grid"},"description":{"zh":"将所有节点对齐到网格","en":"Snap all nodes to the grid"},"windows":"\\","mac":"\\","linux":"\\","keywords":["吸附","snap","网格","grid"],"pinyin":"suo you jie dian xi fu wang ge suoyoujiedianxifuwangge s y j d x f w g syjdxfwg xi fu   wang ge xifu wangge x f   w g xf wg"},{"id":"nuke-select-all","appId":"nuke","type":"software","category":"design","name":{"zh":"全选节点","en":"Select All Nodes"},"description":{"zh":"选择所有节点","en":"Select all nodes"},"windows":"Ctrl + A","mac":"⌘ A","linux":"Ctrl + A","keywords":["全选","select all","节点"],"pinyin":"quan xuan jie dian quanxuanjiedian q x j d qxjd quan xuan   jie dian quanxuan jiedian q x   j d qx jd"},{"id":"nuke-deselect-all","appId":"nuke","type":"software","category":"design","name":{"zh":"取消全选","en":"Deselect All"},"description":{"zh":"取消所有选择","en":"Deselect everything"},"windows":"Ctrl + Shift + A","mac":"⌘ ⇧ A","linux":"Ctrl + Shift + A","keywords":["取消选择","deselect","全选"],"pinyin":"qu xiao quan xuan quxiaoquanxuan q x q x qxqx qu xiao xuan ze   quan xuan quxiaoxuanze quanxuan q x x z   q x qxxz qx"},{"id":"nuke-delete-node","appId":"nuke","type":"software","category":"design","name":{"zh":"删除所选节点","en":"Delete Selected Nodes"},"description":{"zh":"删除选中的节点","en":"Delete the selected nodes"},"windows":"Backspace / Delete","mac":"Backspace / Delete","linux":"Backspace / Delete","keywords":["删除","delete","节点"],"pinyin":"shan chu suo xuan jie dian shanchusuoxuanjiedian s c s x j d scsxjd shan chu   jie dian shanchu jiedian s c   j d sc jd"},{"id":"nuke-duplicate-node","appId":"nuke","type":"software","category":"design","name":{"zh":"复制节点","en":"Duplicate Node"},"description":{"zh":"复制所选节点","en":"Duplicate the selected node(s)"},"windows":"Alt + C","mac":"⌥ C","linux":"Alt + C","keywords":["复制","duplicate","节点"],"pinyin":"fu zhi jie dian fuzhijiedian f z j d fzjd fu zhi   jie dian fuzhi jiedian f z   j d fz jd"},{"id":"nuke-clone-node","appId":"nuke","type":"software","category":"design","name":{"zh":"克隆节点","en":"Clone Node"},"description":{"zh":"克隆所选节点","en":"Clone the selected node(s)"},"windows":"Alt + K","mac":"⌥ K","linux":"Alt + K","keywords":["克隆","clone","节点"],"pinyin":"ke long jie dian kelongjiedian k l j d kljd ke long   jie dian kelong jiedian k l   j d kl jd"},{"id":"nuke-insert-transform","appId":"nuke","type":"software","category":"design","name":{"zh":"插入 Transform 节点","en":"Insert Transform Node"},"description":{"zh":"在下游插入 Transform 节点","en":"Insert a Transform node"},"windows":"T","mac":"T","linux":"T","keywords":["transform","节点","插入"],"pinyin":"cha ru   t r a n s f o r m   jie dian charu transform jiedian c r   t r a n s f o r m   j d cr transform jd jie dian   cha ru jiedian charu j d   c r jd cr"},{"id":"nuke-insert-merge","appId":"nuke","type":"software","category":"design","name":{"zh":"插入 Merge 节点","en":"Insert Merge Node"},"description":{"zh":"插入 Merge 节点","en":"Insert a Merge node"},"windows":"M","mac":"M","linux":"M","keywords":["merge","节点","插入"],"pinyin":"cha ru   m e r g e   jie dian charu merge jiedian c r   m e r g e   j d cr merge jd jie dian   cha ru jiedian charu j d   c r jd cr"},{"id":"nuke-move-upstream","appId":"nuke","type":"software","category":"design","name":{"zh":"节点上移一级","en":"Move Node Upstream"},"description":{"zh":"将选中节点向上游移动一级","en":"Move selected node upstream one level"},"windows":"Ctrl + ↑","mac":"⌘ ↑","linux":"Ctrl + ↑","keywords":["上游","upstream","移动","节点"],"pinyin":"jie dian shang yi yi ji jiedianshangyiyiji j d s y y j jdsyyj shang you   yi dong   jie dian shangyou yidong jiedian s y   y d   j d sy yd jd"},{"id":"nuke-move-downstream","appId":"nuke","type":"software","category":"design","name":{"zh":"节点下移一级","en":"Move Node Downstream"},"description":{"zh":"将选中节点向下游移动一级","en":"Move selected node downstream one level"},"windows":"Ctrl + ↓","mac":"⌘ ↓","linux":"Ctrl + ↓","keywords":["下游","downstream","移动","节点"],"pinyin":"jie dian xia yi yi ji jiedianxiayiyiji j d x y y j jdxyyj xia you   yi dong   jie dian xiayou yidong jiedian x y   y d   j d xy yd jd"},{"id":"nuke-play-reverse","appId":"nuke","type":"software","category":"design","name":{"zh":"反向播放","en":"Play Backward"},"description":{"zh":"在时间轴/视图中倒放","en":"Play backward"},"windows":"J","mac":"J","linux":"J","keywords":["播放","play","倒放","时间轴"],"pinyin":"fan xiang bo fang fanxiangbofang f x b f fxbf bo fang   dao fang   shi jian zhou bofang daofang shijianzhou b f   d f   s j z bf df sjz"},{"id":"nuke-pause","appId":"nuke","type":"software","category":"design","name":{"zh":"暂停","en":"Pause"},"description":{"zh":"暂停播放","en":"Pause playback"},"windows":"K","mac":"K","linux":"K","keywords":["暂停","pause","播放"],"pinyin":"zan ting zanting z t zt zan ting   bo fang zanting bofang z t   b f zt bf"},{"id":"nuke-play-forward","appId":"nuke","type":"software","category":"design","name":{"zh":"正向播放","en":"Play Forward"},"description":{"zh":"在时间轴/视图中正放","en":"Play forward"},"windows":"L","mac":"L","linux":"L","keywords":["播放","play","正放","时间轴"],"pinyin":"zheng xiang bo fang zhengxiangbofang z x b f zxbf bo fang   zheng fang   shi jian zhou bofang zhengfang shijianzhou b f   z f   s j z bf zf sjz"},{"id":"nuke-go-start","appId":"nuke","type":"software","category":"design","name":{"zh":"跳到开头","en":"Go to Start"},"description":{"zh":"跳到时间轴开头","en":"Go to the start of the timeline"},"windows":"Home","mac":"Home","linux":"Home","keywords":["开头","start","时间轴"],"pinyin":"tiao dao kai tou tiaodaokaitou t d k t tdkt kai tou   shi jian zhou kaitou shijianzhou k t   s j z kt sjz"},{"id":"nuke-go-end","appId":"nuke","type":"software","category":"design","name":{"zh":"跳到结尾","en":"Go to End"},"description":{"zh":"跳到时间轴结尾","en":"Go to the end of the timeline"},"windows":"End","mac":"End","linux":"End","keywords":["结尾","end","时间轴"],"pinyin":"tiao dao jie wei tiaodaojiewei t d j w tdjw jie wei   shi jian zhou jiewei shijianzhou j w   s j z jw sjz"},{"id":"nuke-step-back","appId":"nuke","type":"software","category":"design","name":{"zh":"后退一帧","en":"Step Back One Frame"},"description":{"zh":"后退一帧","en":"Step backward one frame"},"windows":"←","mac":"←","linux":"←","keywords":["帧","step","后退","时间轴"],"pinyin":"hou tui yi zhen houtuiyizhen h t y z htyz zhen   hou tui   shi jian zhou zhen houtui shijianzhou z   h t   s j z z ht sjz"},{"id":"nuke-step-forward","appId":"nuke","type":"software","category":"design","name":{"zh":"前进一帧","en":"Step Forward One Frame"},"description":{"zh":"前进一帧","en":"Step forward one frame"},"windows":"→","mac":"→","linux":"→","keywords":["帧","step","前进","时间轴"],"pinyin":"qian jin yi zhen qianjinyizhen q j y z qjyz zhen   qian jin   shi jian zhou zhen qianjin shijianzhou z   q j   s j z z qj sjz"},{"id":"nuke-mark-in","appId":"nuke","type":"software","category":"design","name":{"zh":"标记入点","en":"Mark In Point"},"description":{"zh":"设置入点","en":"Mark the In point"},"windows":"I","mac":"I","linux":"I","keywords":["入点","in point","标记","时间轴"],"pinyin":"biao ji ru dian biaojirudian b j r d bjrd ru dian   biao ji   shi jian zhou rudian biaoji shijianzhou r d   b j   s j z rd bj sjz"},{"id":"nuke-mark-out","appId":"nuke","type":"software","category":"design","name":{"zh":"标记出点","en":"Mark Out Point"},"description":{"zh":"设置出点","en":"Mark the Out point"},"windows":"O","mac":"O","linux":"O","keywords":["出点","out point","标记","时间轴"],"pinyin":"biao ji chu dian biaojichudian b j c d bjcd chu dian   biao ji   shi jian zhou chudian biaoji shijianzhou c d   b j   s j z cd bj sjz"},{"id":"nuke-zoom-fill","appId":"nuke","type":"software","category":"design","name":{"zh":"缩放填充视图","en":"Zoom to Fill"},"description":{"zh":"将视图缩放填充","en":"Zoom to fill the viewer"},"windows":"H","mac":"H","linux":"H","keywords":["缩放","zoom","填充","视图"],"pinyin":"suo fang tian chong shi tu suofangtianchongshitu s f t c s t sftcst suo fang   tian chong   shi tu suofang tianchong shitu s f   t c   s t sf tc st"},{"id":"nuke-toggle-floating-viewer","appId":"nuke","type":"software","category":"design","name":{"zh":"切换浮动视图","en":"Toggle Floating Viewers"},"description":{"zh":"切换浮动视图显示","en":"Toggle floating viewers"},"windows":"`","mac":"`","linux":"`","keywords":["浮动","floating","视图","viewer"],"pinyin":"qie huan fu dong shi tu qiehuanfudongshitu q h f d s t qhfdst fu dong   shi tu fudong shitu f d   s t fd st"},{"id":"nuke-cut","appId":"nuke","type":"software","category":"design","name":{"zh":"剪切","en":"Cut"},"description":{"zh":"剪切所选","en":"Cut the selection"},"windows":"Ctrl + X","mac":"⌘ X","linux":"Ctrl + X","keywords":["剪切","cut"],"pinyin":"jian qie jianqie j q jq jian qie jianqie j q jq"},{"id":"nuke-copy","appId":"nuke","type":"software","category":"design","name":{"zh":"复制","en":"Copy"},"description":{"zh":"复制所选","en":"Copy the selection"},"windows":"Ctrl + C","mac":"⌘ C","linux":"Ctrl + C","keywords":["复制","copy"],"pinyin":"fu zhi fuzhi f z fz fu zhi fuzhi f z fz"},{"id":"nuke-paste","appId":"nuke","type":"software","category":"design","name":{"zh":"粘贴","en":"Paste"},"description":{"zh":"粘贴","en":"Paste"},"windows":"Ctrl + V","mac":"⌘ V","linux":"Ctrl + V","keywords":["粘贴","paste"],"pinyin":"nian tie niantie n t nt nian tie niantie n t nt"},{"id":"nuke-color-picker","appId":"nuke","type":"software","category":"design","name":{"zh":"吸管取色","en":"Color Picker"},"description":{"zh":"Ctrl+左键拾取单像素颜色","en":"Ctrl+LMB picks a single pixel color"},"windows":"Ctrl + 左键","mac":"⌘ 左键","linux":"Ctrl + 左键","keywords":["吸管","color picker","取色"],"pinyin":"xi guan qu se xiguanquse x g q s xgqs xi guan   qu se xiguan quse x g   q s xg qs"},{"id":"nuke-toggle-alpha","appId":"nuke","type":"software","category":"design","name":{"zh":"切换 Alpha 通道","en":"Toggle Alpha Channel"},"description":{"zh":"在 Alpha 与 RGB 间切换","en":"Toggle Alpha/RGB display"},"windows":"A","mac":"A","linux":"A","keywords":["通道","alpha","通道切换"],"pinyin":"qie huan   a l p h a   tong dao qiehuan alpha tongdao q h   a l p h a   t d qh alpha td tong dao   tong dao qie huan tongdao tongdaoqiehuan t d   t d q h td tdqh"},{"id":"nuke-toggle-red","appId":"nuke","type":"software","category":"design","name":{"zh":"切换红色通道","en":"Toggle Red Channel"},"description":{"zh":"在红色通道与 RGB 间切换","en":"Toggle Red/RGB display"},"windows":"R","mac":"R","linux":"R","keywords":["通道","red","红色"],"pinyin":"qie huan hong se tong dao qiehuanhongsetongdao q h h s t d qhhstd tong dao   hong se tongdao hongse t d   h s td hs"},{"id":"nuke-toggle-green","appId":"nuke","type":"software","category":"design","name":{"zh":"切换绿色通道","en":"Toggle Green Channel"},"description":{"zh":"在绿色通道与 RGB 间切换","en":"Toggle Green/RGB display"},"windows":"G","mac":"G","linux":"G","keywords":["通道","green","绿色"],"pinyin":"qie huan lü se tong dao qiehuanlüsetongdao q h l s t d qhlstd tong dao   lü se tongdao lüse t d   l s td ls"},{"id":"nuke-toggle-blue","appId":"nuke","type":"software","category":"design","name":{"zh":"切换蓝色通道","en":"Toggle Blue Channel"},"description":{"zh":"在蓝色通道与 RGB 间切换","en":"Toggle Blue/RGB display"},"windows":"B","mac":"B","linux":"B","keywords":["通道","blue","蓝色"],"pinyin":"qie huan lan se tong dao qiehuanlansetongdao q h l s t d qhlstd tong dao   lan se tongdao lanse t d   l s td ls"},{"id":"nuke-toggle-luma","appId":"nuke","type":"software","category":"design","name":{"zh":"切换亮度通道","en":"Toggle Luma Channel"},"description":{"zh":"在亮度与 RGB 间切换","en":"Toggle Luma/RGB display"},"windows":"Y","mac":"Y","linux":"Y","keywords":["通道","luma","亮度"],"pinyin":"qie huan liang du tong dao qiehuanliangdutongdao q h l d t d qhldtd tong dao   liang du tongdao liangdu t d   l d td ld"},{"id":"nuke-toggle-matte","appId":"nuke","type":"software","category":"design","name":{"zh":"切换遮罩通道","en":"Toggle Matte Channel"},"description":{"zh":"在遮罩与 RGB 间切换","en":"Toggle Matte/RGB display"},"windows":"M","mac":"M","linux":"M","keywords":["通道","matte","遮罩"],"pinyin":"qie huan zhe zhao tong dao qiehuanzhezhaotongdao q h z z t d qhzztd tong dao   zhe zhao tongdao zhezhao t d   z z td zz"},{"id":"nuke-viewer-settings","appId":"nuke","type":"software","category":"design","name":{"zh":"视图设置","en":"Viewer Settings"},"description":{"zh":"打开视图设置面板","en":"Open the viewer settings panel"},"windows":"S","mac":"S","linux":"S","keywords":["设置","settings","视图"],"pinyin":"shi tu she zhi shitushezhi s t s z stsz she zhi   shi tu shezhi shitu s z   s t sz st"},{"id":"nuke-pause-refresh","appId":"nuke","type":"software","category":"design","name":{"zh":"暂停视图刷新","en":"Pause Viewer Refresh"},"description":{"zh":"暂停/恢复视图刷新","en":"Pause/resume viewer refreshing"},"windows":"P","mac":"P","linux":"P","keywords":["暂停","pause","刷新","视图"],"pinyin":"zan ting shi tu shua xin zantingshitushuaxin z t s t s x ztstsx zan ting   shua xin   shi tu zanting shuaxin shitu z t   s x   s t zt sx st"},{"id":"nuke-toggle-proxy","appId":"nuke","type":"software","category":"design","name":{"zh":"切换代理模式","en":"Toggle Proxy"},"description":{"zh":"开启/关闭代理显示","en":"Toggle proxy display"},"windows":"Ctrl + P","mac":"⌘ P","linux":"Ctrl + P","keywords":["代理","proxy","显示"],"pinyin":"qie huan dai li mo shi qiehuandailimoshi q h d l m s qhdlms dai li   xian shi daili xianshi d l   x s dl xs"},{"id":"nuke-search-node","appId":"nuke","type":"software","category":"design","name":{"zh":"按名称搜索节点","en":"Search Node by Name"},"description":{"zh":"在属性面板按节点名称/类搜索","en":"Search by node name/class"},"windows":"/","mac":"/","linux":"/","keywords":["搜索","search","节点"],"pinyin":"an ming cheng sou suo jie dian anmingchengsousuojiedian a m c s s j d amcssjd sou suo   jie dian sousuo jiedian s s   j d ss jd"},{"id":"nuke-render-all","appId":"nuke","type":"software","category":"design","name":{"zh":"渲染所有合成","en":"Render All Comp Containers"},"description":{"zh":"渲染所有 Comp 容器","en":"Render all Comp containers"},"windows":"F5","mac":"F5","linux":"F5","keywords":["渲染","render","合成"],"pinyin":"xuan ran suo you he cheng xuanransuoyouhecheng x r s y h c xrsyhc xuan ran   he cheng xuanran hecheng x r   h c xr hc"},{"id":"nuke-render-selected","appId":"nuke","type":"software","category":"design","name":{"zh":"渲染选中合成","en":"Render Selected Comp Containers"},"description":{"zh":"渲染选中的 Comp 容器","en":"Render selected Comp containers"},"windows":"F7","mac":"F7","linux":"F7","keywords":["渲染","render","合成","选中"],"pinyin":"xuan ran xuan zhong he cheng xuanranxuanzhonghecheng x r x z h c xrxzhc xuan ran   he cheng   xuan zhong xuanran hecheng xuanzhong x r   h c   x z xr hc xz"},{"id":"nuke-import-files","appId":"nuke","type":"software","category":"design","name":{"zh":"导入文件","en":"Import Files"},"description":{"zh":"打开导入文件对话框","en":"Open the import files dialog"},"windows":"Ctrl + I","mac":"⌘ I","linux":"Ctrl + I","keywords":["导入","import","文件"],"pinyin":"dao ru wen jian daoruwenjian d r w j drwj dao ru   wen jian daoru wenjian d r   w j dr wj"}]
+[
+  {
+    "id": "nuke-zoom-out",
+    "appId": "nuke",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "节点图缩小",
+      "en": "Zoom Out (Node Graph)"
+    },
+    "description": {
+      "zh": "在节点图中缩小视图",
+      "en": "Zoom out in the node graph"
+    },
+    "windows": "-",
+    "mac": "-",
+    "linux": "-",
+    "keywords": [
+      "缩小",
+      "zoom",
+      "节点图",
+      "node graph"
+    ],
+    "pinyin": "jie dian tu suo xiao jiediantusuoxiao j d t s x jdtsx suo xiao   jie dian tu suoxiao jiediantu s x   j d t sx jdt"
+  },
+  {
+    "id": "nuke-zoom-in",
+    "appId": "nuke",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "节点图放大",
+      "en": "Zoom In (Node Graph)"
+    },
+    "description": {
+      "zh": "在节点图中放大视图",
+      "en": "Zoom in in the node graph"
+    },
+    "windows": "+",
+    "mac": "+",
+    "linux": "+",
+    "keywords": [
+      "放大",
+      "zoom",
+      "节点图"
+    ],
+    "pinyin": "jie dian tu fang da jiediantufangda j d t f d jdtfd fang da   jie dian tu fangda jiediantu f d   j d t fd jdt"
+  },
+  {
+    "id": "nuke-fit-nodes",
+    "appId": "nuke",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "适配节点到视图",
+      "en": "Fit Nodes to View"
+    },
+    "description": {
+      "zh": "将选中节点适配到面板（未选中时适配全部）",
+      "en": "Frame selected nodes to the panel (all if none selected)"
+    },
+    "windows": "F",
+    "mac": "F",
+    "linux": "F",
+    "keywords": [
+      "适配",
+      "fit",
+      "框显",
+      "节点"
+    ],
+    "pinyin": "shi pei jie dian dao shi tu shipeijiediandaoshitu s p j d d s t spjddst shi pei   kuang xian   jie dian shipei kuangxian jiedian s p   k x   j d sp kx jd"
+  },
+  {
+    "id": "nuke-fit-all-nodes",
+    "appId": "nuke",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "适配全部节点",
+      "en": "Fit All Nodes"
+    },
+    "description": {
+      "zh": "中键单击适配所有节点到面板",
+      "en": "Middle-mouse click to frame all nodes"
+    },
+    "windows": "中键单击",
+    "mac": "中键单击",
+    "linux": "中键单击",
+    "keywords": [
+      "适配",
+      "fit all",
+      "节点"
+    ],
+    "pinyin": "shi pei quan bu jie dian shipeiquanbujiedian s p q b j d spqbjd shi pei   jie dian shipei jiedian s p   j d sp jd"
+  },
+  {
+    "id": "nuke-pan-graph",
+    "appId": "nuke",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "平移节点图",
+      "en": "Pan Node Graph"
+    },
+    "description": {
+      "zh": "中键拖动或 Alt+左键拖动平移节点图",
+      "en": "Pan the node graph (MMB drag or Alt+LMB drag)"
+    },
+    "windows": "中键拖动 / Alt + 左键拖动",
+    "mac": "中键拖动 / ⌥ + 左键拖动",
+    "linux": "中键拖动 / Alt + 左键拖动",
+    "keywords": [
+      "平移",
+      "pan",
+      "节点图"
+    ],
+    "pinyin": "ping yi jie dian tu pingyijiediantu p y j d t pyjdt ping yi   jie dian tu pingyi jiediantu p y   j d t py jdt"
+  },
+  {
+    "id": "nuke-snap-grid",
+    "appId": "nuke",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "所有节点吸附网格",
+      "en": "Snap All Nodes to Grid"
+    },
+    "description": {
+      "zh": "将所有节点对齐到网格",
+      "en": "Snap all nodes to the grid"
+    },
+    "windows": "\\",
+    "mac": "\\",
+    "linux": "\\",
+    "keywords": [
+      "吸附",
+      "snap",
+      "网格",
+      "grid"
+    ],
+    "pinyin": "suo you jie dian xi fu wang ge suoyoujiedianxifuwangge s y j d x f w g syjdxfwg xi fu   wang ge xifu wangge x f   w g xf wg"
+  },
+  {
+    "id": "nuke-select-all",
+    "appId": "nuke",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "全选节点",
+      "en": "Select All Nodes"
+    },
+    "description": {
+      "zh": "选择所有节点",
+      "en": "Select all nodes"
+    },
+    "windows": "Ctrl + A",
+    "mac": "⌘ A",
+    "linux": "Ctrl + A",
+    "keywords": [
+      "全选",
+      "select all",
+      "节点"
+    ],
+    "pinyin": "quan xuan jie dian quanxuanjiedian q x j d qxjd quan xuan   jie dian quanxuan jiedian q x   j d qx jd"
+  },
+  {
+    "id": "nuke-deselect-all",
+    "appId": "nuke",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "取消全选",
+      "en": "Deselect All"
+    },
+    "description": {
+      "zh": "取消所有选择",
+      "en": "Deselect everything"
+    },
+    "windows": "Ctrl + Shift + A",
+    "mac": "⌘ ⇧ A",
+    "linux": "Ctrl + Shift + A",
+    "keywords": [
+      "取消选择",
+      "deselect",
+      "全选"
+    ],
+    "pinyin": "qu xiao quan xuan quxiaoquanxuan q x q x qxqx qu xiao xuan ze   quan xuan quxiaoxuanze quanxuan q x x z   q x qxxz qx"
+  },
+  {
+    "id": "nuke-delete-node",
+    "appId": "nuke",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "删除所选节点",
+      "en": "Delete Selected Nodes"
+    },
+    "description": {
+      "zh": "删除选中的节点",
+      "en": "Delete the selected nodes"
+    },
+    "windows": "Backspace / Delete",
+    "mac": "Backspace / Delete",
+    "linux": "Backspace / Delete",
+    "keywords": [
+      "删除",
+      "delete",
+      "节点"
+    ],
+    "pinyin": "shan chu suo xuan jie dian shanchusuoxuanjiedian s c s x j d scsxjd shan chu   jie dian shanchu jiedian s c   j d sc jd"
+  },
+  {
+    "id": "nuke-duplicate-node",
+    "appId": "nuke",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "复制节点",
+      "en": "Duplicate Node"
+    },
+    "description": {
+      "zh": "复制所选节点",
+      "en": "Duplicate the selected node(s)"
+    },
+    "windows": "Alt + C",
+    "mac": "⌥ C",
+    "linux": "Alt + C",
+    "keywords": [
+      "复制",
+      "duplicate",
+      "节点"
+    ],
+    "pinyin": "fu zhi jie dian fuzhijiedian f z j d fzjd fu zhi   jie dian fuzhi jiedian f z   j d fz jd"
+  },
+  {
+    "id": "nuke-clone-node",
+    "appId": "nuke",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "克隆节点",
+      "en": "Clone Node"
+    },
+    "description": {
+      "zh": "克隆所选节点",
+      "en": "Clone the selected node(s)"
+    },
+    "windows": "Alt + K",
+    "mac": "⌥ K",
+    "linux": "Alt + K",
+    "keywords": [
+      "克隆",
+      "clone",
+      "节点"
+    ],
+    "pinyin": "ke long jie dian kelongjiedian k l j d kljd ke long   jie dian kelong jiedian k l   j d kl jd"
+  },
+  {
+    "id": "nuke-insert-transform",
+    "appId": "nuke",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "插入 Transform 节点",
+      "en": "Insert Transform Node"
+    },
+    "description": {
+      "zh": "在下游插入 Transform 节点",
+      "en": "Insert a Transform node"
+    },
+    "windows": "T",
+    "mac": "T",
+    "linux": "T",
+    "keywords": [
+      "transform",
+      "节点",
+      "插入"
+    ],
+    "pinyin": "cha ru   t r a n s f o r m   jie dian charu transform jiedian c r   t r a n s f o r m   j d cr transform jd jie dian   cha ru jiedian charu j d   c r jd cr"
+  },
+  {
+    "id": "nuke-insert-merge",
+    "appId": "nuke",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "插入 Merge 节点",
+      "en": "Insert Merge Node"
+    },
+    "description": {
+      "zh": "插入 Merge 节点",
+      "en": "Insert a Merge node"
+    },
+    "windows": "M",
+    "mac": "M",
+    "linux": "M",
+    "keywords": [
+      "merge",
+      "节点",
+      "插入"
+    ],
+    "pinyin": "cha ru   m e r g e   jie dian charu merge jiedian c r   m e r g e   j d cr merge jd jie dian   cha ru jiedian charu j d   c r jd cr"
+  },
+  {
+    "id": "nuke-move-upstream",
+    "appId": "nuke",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "节点上移一级",
+      "en": "Move Node Upstream"
+    },
+    "description": {
+      "zh": "将选中节点向上游移动一级",
+      "en": "Move selected node upstream one level"
+    },
+    "windows": "Ctrl + ↑",
+    "mac": "⌘ ↑",
+    "linux": "Ctrl + ↑",
+    "keywords": [
+      "上游",
+      "upstream",
+      "移动",
+      "节点"
+    ],
+    "pinyin": "jie dian shang yi yi ji jiedianshangyiyiji j d s y y j jdsyyj shang you   yi dong   jie dian shangyou yidong jiedian s y   y d   j d sy yd jd"
+  },
+  {
+    "id": "nuke-move-downstream",
+    "appId": "nuke",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "节点下移一级",
+      "en": "Move Node Downstream"
+    },
+    "description": {
+      "zh": "将选中节点向下游移动一级",
+      "en": "Move selected node downstream one level"
+    },
+    "windows": "Ctrl + ↓",
+    "mac": "⌘ ↓",
+    "linux": "Ctrl + ↓",
+    "keywords": [
+      "下游",
+      "downstream",
+      "移动",
+      "节点"
+    ],
+    "pinyin": "jie dian xia yi yi ji jiedianxiayiyiji j d x y y j jdxyyj xia you   yi dong   jie dian xiayou yidong jiedian x y   y d   j d xy yd jd"
+  },
+  {
+    "id": "nuke-play-reverse",
+    "appId": "nuke",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "反向播放",
+      "en": "Play Backward"
+    },
+    "description": {
+      "zh": "在时间轴/视图中倒放",
+      "en": "Play backward"
+    },
+    "windows": "J",
+    "mac": "J",
+    "linux": "J",
+    "keywords": [
+      "播放",
+      "play",
+      "倒放",
+      "时间轴"
+    ],
+    "pinyin": "fan xiang bo fang fanxiangbofang f x b f fxbf bo fang   dao fang   shi jian zhou bofang daofang shijianzhou b f   d f   s j z bf df sjz"
+  },
+  {
+    "id": "nuke-pause",
+    "appId": "nuke",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "暂停",
+      "en": "Pause"
+    },
+    "description": {
+      "zh": "暂停播放",
+      "en": "Pause playback"
+    },
+    "windows": "K",
+    "mac": "K",
+    "linux": "K",
+    "keywords": [
+      "暂停",
+      "pause",
+      "播放"
+    ],
+    "pinyin": "zan ting zanting z t zt zan ting   bo fang zanting bofang z t   b f zt bf"
+  },
+  {
+    "id": "nuke-play-forward",
+    "appId": "nuke",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "正向播放",
+      "en": "Play Forward"
+    },
+    "description": {
+      "zh": "在时间轴/视图中正放",
+      "en": "Play forward"
+    },
+    "windows": "L",
+    "mac": "L",
+    "linux": "L",
+    "keywords": [
+      "播放",
+      "play",
+      "正放",
+      "时间轴"
+    ],
+    "pinyin": "zheng xiang bo fang zhengxiangbofang z x b f zxbf bo fang   zheng fang   shi jian zhou bofang zhengfang shijianzhou b f   z f   s j z bf zf sjz"
+  },
+  {
+    "id": "nuke-go-start",
+    "appId": "nuke",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "跳到开头",
+      "en": "Go to Start"
+    },
+    "description": {
+      "zh": "跳到时间轴开头",
+      "en": "Go to the start of the timeline"
+    },
+    "windows": "Home",
+    "mac": "Home",
+    "linux": "Home",
+    "keywords": [
+      "开头",
+      "start",
+      "时间轴"
+    ],
+    "pinyin": "tiao dao kai tou tiaodaokaitou t d k t tdkt kai tou   shi jian zhou kaitou shijianzhou k t   s j z kt sjz"
+  },
+  {
+    "id": "nuke-go-end",
+    "appId": "nuke",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "跳到结尾",
+      "en": "Go to End"
+    },
+    "description": {
+      "zh": "跳到时间轴结尾",
+      "en": "Go to the end of the timeline"
+    },
+    "windows": "End",
+    "mac": "End",
+    "linux": "End",
+    "keywords": [
+      "结尾",
+      "end",
+      "时间轴"
+    ],
+    "pinyin": "tiao dao jie wei tiaodaojiewei t d j w tdjw jie wei   shi jian zhou jiewei shijianzhou j w   s j z jw sjz"
+  },
+  {
+    "id": "nuke-step-back",
+    "appId": "nuke",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "后退一帧",
+      "en": "Step Back One Frame"
+    },
+    "description": {
+      "zh": "后退一帧",
+      "en": "Step backward one frame"
+    },
+    "windows": "←",
+    "mac": "←",
+    "linux": "←",
+    "keywords": [
+      "帧",
+      "step",
+      "后退",
+      "时间轴"
+    ],
+    "pinyin": "hou tui yi zhen houtuiyizhen h t y z htyz zhen   hou tui   shi jian zhou zhen houtui shijianzhou z   h t   s j z z ht sjz"
+  },
+  {
+    "id": "nuke-step-forward",
+    "appId": "nuke",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "前进一帧",
+      "en": "Step Forward One Frame"
+    },
+    "description": {
+      "zh": "前进一帧",
+      "en": "Step forward one frame"
+    },
+    "windows": "→",
+    "mac": "→",
+    "linux": "→",
+    "keywords": [
+      "帧",
+      "step",
+      "前进",
+      "时间轴"
+    ],
+    "pinyin": "qian jin yi zhen qianjinyizhen q j y z qjyz zhen   qian jin   shi jian zhou zhen qianjin shijianzhou z   q j   s j z z qj sjz"
+  },
+  {
+    "id": "nuke-mark-in",
+    "appId": "nuke",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "标记入点",
+      "en": "Mark In Point"
+    },
+    "description": {
+      "zh": "设置入点",
+      "en": "Mark the In point"
+    },
+    "windows": "I",
+    "mac": "I",
+    "linux": "I",
+    "keywords": [
+      "入点",
+      "in point",
+      "标记",
+      "时间轴"
+    ],
+    "pinyin": "biao ji ru dian biaojirudian b j r d bjrd ru dian   biao ji   shi jian zhou rudian biaoji shijianzhou r d   b j   s j z rd bj sjz"
+  },
+  {
+    "id": "nuke-mark-out",
+    "appId": "nuke",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "标记出点",
+      "en": "Mark Out Point"
+    },
+    "description": {
+      "zh": "设置出点",
+      "en": "Mark the Out point"
+    },
+    "windows": "O",
+    "mac": "O",
+    "linux": "O",
+    "keywords": [
+      "出点",
+      "out point",
+      "标记",
+      "时间轴"
+    ],
+    "pinyin": "biao ji chu dian biaojichudian b j c d bjcd chu dian   biao ji   shi jian zhou chudian biaoji shijianzhou c d   b j   s j z cd bj sjz"
+  },
+  {
+    "id": "nuke-zoom-fill",
+    "appId": "nuke",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "缩放填充视图",
+      "en": "Zoom to Fill"
+    },
+    "description": {
+      "zh": "将视图缩放填充",
+      "en": "Zoom to fill the viewer"
+    },
+    "windows": "H",
+    "mac": "H",
+    "linux": "H",
+    "keywords": [
+      "缩放",
+      "zoom",
+      "填充",
+      "视图"
+    ],
+    "pinyin": "suo fang tian chong shi tu suofangtianchongshitu s f t c s t sftcst suo fang   tian chong   shi tu suofang tianchong shitu s f   t c   s t sf tc st"
+  },
+  {
+    "id": "nuke-toggle-floating-viewer",
+    "appId": "nuke",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "切换浮动视图",
+      "en": "Toggle Floating Viewers"
+    },
+    "description": {
+      "zh": "切换浮动视图显示",
+      "en": "Toggle floating viewers"
+    },
+    "windows": "`",
+    "mac": "`",
+    "linux": "`",
+    "keywords": [
+      "浮动",
+      "floating",
+      "视图",
+      "viewer"
+    ],
+    "pinyin": "qie huan fu dong shi tu qiehuanfudongshitu q h f d s t qhfdst fu dong   shi tu fudong shitu f d   s t fd st"
+  },
+  {
+    "id": "nuke-cut",
+    "appId": "nuke",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "剪切",
+      "en": "Cut"
+    },
+    "description": {
+      "zh": "剪切所选",
+      "en": "Cut the selection"
+    },
+    "windows": "Ctrl + X",
+    "mac": "⌘ X",
+    "linux": "Ctrl + X",
+    "keywords": [
+      "剪切",
+      "cut"
+    ],
+    "pinyin": "jian qie jianqie j q jq jian qie jianqie j q jq"
+  },
+  {
+    "id": "nuke-copy",
+    "appId": "nuke",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "复制",
+      "en": "Copy"
+    },
+    "description": {
+      "zh": "复制所选",
+      "en": "Copy the selection"
+    },
+    "windows": "Ctrl + C",
+    "mac": "⌘ C",
+    "linux": "Ctrl + C",
+    "keywords": [
+      "复制",
+      "copy"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "nuke-paste",
+    "appId": "nuke",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "粘贴",
+      "en": "Paste"
+    },
+    "description": {
+      "zh": "粘贴",
+      "en": "Paste"
+    },
+    "windows": "Ctrl + V",
+    "mac": "⌘ V",
+    "linux": "Ctrl + V",
+    "keywords": [
+      "粘贴",
+      "paste"
+    ],
+    "pinyin": "nian tie niantie n t nt nian tie niantie n t nt"
+  },
+  {
+    "id": "nuke-color-picker",
+    "appId": "nuke",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "吸管取色",
+      "en": "Color Picker"
+    },
+    "description": {
+      "zh": "Ctrl+左键拾取单像素颜色",
+      "en": "Ctrl+LMB picks a single pixel color"
+    },
+    "windows": "Ctrl + 左键",
+    "mac": "⌘ 左键",
+    "linux": "Ctrl + 左键",
+    "keywords": [
+      "吸管",
+      "color picker",
+      "取色"
+    ],
+    "pinyin": "xi guan qu se xiguanquse x g q s xgqs xi guan   qu se xiguan quse x g   q s xg qs"
+  },
+  {
+    "id": "nuke-toggle-alpha",
+    "appId": "nuke",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "切换 Alpha 通道",
+      "en": "Toggle Alpha Channel"
+    },
+    "description": {
+      "zh": "在 Alpha 与 RGB 间切换",
+      "en": "Toggle Alpha/RGB display"
+    },
+    "windows": "A",
+    "mac": "A",
+    "linux": "A",
+    "keywords": [
+      "通道",
+      "alpha",
+      "通道切换"
+    ],
+    "pinyin": "qie huan   a l p h a   tong dao qiehuan alpha tongdao q h   a l p h a   t d qh alpha td tong dao   tong dao qie huan tongdao tongdaoqiehuan t d   t d q h td tdqh"
+  },
+  {
+    "id": "nuke-toggle-red",
+    "appId": "nuke",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "切换红色通道",
+      "en": "Toggle Red Channel"
+    },
+    "description": {
+      "zh": "在红色通道与 RGB 间切换",
+      "en": "Toggle Red/RGB display"
+    },
+    "windows": "R",
+    "mac": "R",
+    "linux": "R",
+    "keywords": [
+      "通道",
+      "red",
+      "红色"
+    ],
+    "pinyin": "qie huan hong se tong dao qiehuanhongsetongdao q h h s t d qhhstd tong dao   hong se tongdao hongse t d   h s td hs"
+  },
+  {
+    "id": "nuke-toggle-green",
+    "appId": "nuke",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "切换绿色通道",
+      "en": "Toggle Green Channel"
+    },
+    "description": {
+      "zh": "在绿色通道与 RGB 间切换",
+      "en": "Toggle Green/RGB display"
+    },
+    "windows": "G",
+    "mac": "G",
+    "linux": "G",
+    "keywords": [
+      "通道",
+      "green",
+      "绿色"
+    ],
+    "pinyin": "qie huan lü se tong dao qiehuanlüsetongdao q h l s t d qhlstd tong dao   lü se tongdao lüse t d   l s td ls"
+  },
+  {
+    "id": "nuke-toggle-blue",
+    "appId": "nuke",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "切换蓝色通道",
+      "en": "Toggle Blue Channel"
+    },
+    "description": {
+      "zh": "在蓝色通道与 RGB 间切换",
+      "en": "Toggle Blue/RGB display"
+    },
+    "windows": "B",
+    "mac": "B",
+    "linux": "B",
+    "keywords": [
+      "通道",
+      "blue",
+      "蓝色"
+    ],
+    "pinyin": "qie huan lan se tong dao qiehuanlansetongdao q h l s t d qhlstd tong dao   lan se tongdao lanse t d   l s td ls"
+  },
+  {
+    "id": "nuke-toggle-luma",
+    "appId": "nuke",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "切换亮度通道",
+      "en": "Toggle Luma Channel"
+    },
+    "description": {
+      "zh": "在亮度与 RGB 间切换",
+      "en": "Toggle Luma/RGB display"
+    },
+    "windows": "Y",
+    "mac": "Y",
+    "linux": "Y",
+    "keywords": [
+      "通道",
+      "luma",
+      "亮度"
+    ],
+    "pinyin": "qie huan liang du tong dao qiehuanliangdutongdao q h l d t d qhldtd tong dao   liang du tongdao liangdu t d   l d td ld"
+  },
+  {
+    "id": "nuke-toggle-matte",
+    "appId": "nuke",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "切换遮罩通道",
+      "en": "Toggle Matte Channel"
+    },
+    "description": {
+      "zh": "在遮罩与 RGB 间切换",
+      "en": "Toggle Matte/RGB display"
+    },
+    "windows": "M",
+    "mac": "M",
+    "linux": "M",
+    "keywords": [
+      "通道",
+      "matte",
+      "遮罩"
+    ],
+    "pinyin": "qie huan zhe zhao tong dao qiehuanzhezhaotongdao q h z z t d qhzztd tong dao   zhe zhao tongdao zhezhao t d   z z td zz"
+  },
+  {
+    "id": "nuke-viewer-settings",
+    "appId": "nuke",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "视图设置",
+      "en": "Viewer Settings"
+    },
+    "description": {
+      "zh": "打开视图设置面板",
+      "en": "Open the viewer settings panel"
+    },
+    "windows": "S",
+    "mac": "S",
+    "linux": "S",
+    "keywords": [
+      "设置",
+      "settings",
+      "视图"
+    ],
+    "pinyin": "shi tu she zhi shitushezhi s t s z stsz she zhi   shi tu shezhi shitu s z   s t sz st"
+  },
+  {
+    "id": "nuke-pause-refresh",
+    "appId": "nuke",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "暂停视图刷新",
+      "en": "Pause Viewer Refresh"
+    },
+    "description": {
+      "zh": "暂停/恢复视图刷新",
+      "en": "Pause/resume viewer refreshing"
+    },
+    "windows": "P",
+    "mac": "P",
+    "linux": "P",
+    "keywords": [
+      "暂停",
+      "pause",
+      "刷新",
+      "视图"
+    ],
+    "pinyin": "zan ting shi tu shua xin zantingshitushuaxin z t s t s x ztstsx zan ting   shua xin   shi tu zanting shuaxin shitu z t   s x   s t zt sx st"
+  },
+  {
+    "id": "nuke-toggle-proxy",
+    "appId": "nuke",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "切换代理模式",
+      "en": "Toggle Proxy"
+    },
+    "description": {
+      "zh": "开启/关闭代理显示",
+      "en": "Toggle proxy display"
+    },
+    "windows": "Ctrl + P",
+    "mac": "⌘ P",
+    "linux": "Ctrl + P",
+    "keywords": [
+      "代理",
+      "proxy",
+      "显示"
+    ],
+    "pinyin": "qie huan dai li mo shi qiehuandailimoshi q h d l m s qhdlms dai li   xian shi daili xianshi d l   x s dl xs"
+  },
+  {
+    "id": "nuke-search-node",
+    "appId": "nuke",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "按名称搜索节点",
+      "en": "Search Node by Name"
+    },
+    "description": {
+      "zh": "在属性面板按节点名称/类搜索",
+      "en": "Search by node name/class"
+    },
+    "windows": "/",
+    "mac": "/",
+    "linux": "/",
+    "keywords": [
+      "搜索",
+      "search",
+      "节点"
+    ],
+    "pinyin": "an ming cheng sou suo jie dian anmingchengsousuojiedian a m c s s j d amcssjd sou suo   jie dian sousuo jiedian s s   j d ss jd"
+  },
+  {
+    "id": "nuke-render-all",
+    "appId": "nuke",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "渲染所有合成",
+      "en": "Render All Comp Containers"
+    },
+    "description": {
+      "zh": "渲染所有 Comp 容器",
+      "en": "Render all Comp containers"
+    },
+    "windows": "F5",
+    "mac": "F5",
+    "linux": "F5",
+    "keywords": [
+      "渲染",
+      "render",
+      "合成"
+    ],
+    "pinyin": "xuan ran suo you he cheng xuanransuoyouhecheng x r s y h c xrsyhc xuan ran   he cheng xuanran hecheng x r   h c xr hc"
+  },
+  {
+    "id": "nuke-render-selected",
+    "appId": "nuke",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "渲染选中合成",
+      "en": "Render Selected Comp Containers"
+    },
+    "description": {
+      "zh": "渲染选中的 Comp 容器",
+      "en": "Render selected Comp containers"
+    },
+    "windows": "F7",
+    "mac": "F7",
+    "linux": "F7",
+    "keywords": [
+      "渲染",
+      "render",
+      "合成",
+      "选中"
+    ],
+    "pinyin": "xuan ran xuan zhong he cheng xuanranxuanzhonghecheng x r x z h c xrxzhc xuan ran   he cheng   xuan zhong xuanran hecheng xuanzhong x r   h c   x z xr hc xz"
+  },
+  {
+    "id": "nuke-import-files",
+    "appId": "nuke",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "导入文件",
+      "en": "Import Files"
+    },
+    "description": {
+      "zh": "打开导入文件对话框",
+      "en": "Open the import files dialog"
+    },
+    "windows": "Ctrl + I",
+    "mac": "⌘ I",
+    "linux": "Ctrl + I",
+    "keywords": [
+      "导入",
+      "import",
+      "文件"
+    ],
+    "pinyin": "dao ru wen jian daoruwenjian d r w j drwj dao ru   wen jian daoru wenjian d r   w j dr wj"
+  }
+]

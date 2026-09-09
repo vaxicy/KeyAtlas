@@ -1,0 +1,659 @@
+[
+  {
+    "id": "bash-begin-line",
+    "appId": "bash",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Start of line",
+      "zh": "行首"
+    },
+    "description": {
+      "en": "Move to start of line",
+      "zh": "光标到行首"
+    },
+    "windows": "Ctrl + A",
+    "mac": "Ctrl + A",
+    "linux": "Ctrl + A",
+    "keywords": [
+      "行首",
+      "home",
+      "start"
+    ],
+    "pinyin": "hang shou hangshou h s hs hang shou hangshou h s hs"
+  },
+  {
+    "id": "bash-end-line",
+    "appId": "bash",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "End of line",
+      "zh": "行尾"
+    },
+    "description": {
+      "en": "Move to end of line",
+      "zh": "光标到行尾"
+    },
+    "windows": "Ctrl + E",
+    "mac": "Ctrl + E",
+    "linux": "Ctrl + E",
+    "keywords": [
+      "行尾",
+      "end"
+    ],
+    "pinyin": "hang wei hangwei h w hw hang wei hangwei h w hw"
+  },
+  {
+    "id": "bash-forward-char",
+    "appId": "bash",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Forward char",
+      "zh": "前移字符"
+    },
+    "description": {
+      "en": "Move forward one character",
+      "zh": "前移一个字符"
+    },
+    "windows": "Ctrl + F",
+    "mac": "Ctrl + F",
+    "linux": "Ctrl + F",
+    "keywords": [
+      "前移",
+      "forward"
+    ],
+    "pinyin": "qian yi zi fu qianyizifu q y z f qyzf qian yi qianyi q y qy"
+  },
+  {
+    "id": "bash-backward-char",
+    "appId": "bash",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Backward char",
+      "zh": "后移字符"
+    },
+    "description": {
+      "en": "Move back one character",
+      "zh": "后移一个字符"
+    },
+    "windows": "Ctrl + B",
+    "mac": "Ctrl + B",
+    "linux": "Ctrl + B",
+    "keywords": [
+      "后移",
+      "backward"
+    ],
+    "pinyin": "hou yi zi fu houyizifu h y z f hyzf hou yi houyi h y hy"
+  },
+  {
+    "id": "bash-forward-word",
+    "appId": "bash",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Forward word",
+      "zh": "前移单词"
+    },
+    "description": {
+      "en": "Move forward one word",
+      "zh": "前移一个单词"
+    },
+    "windows": "Alt + F",
+    "mac": "Alt + F",
+    "linux": "Alt + F",
+    "keywords": [
+      "单词",
+      "word",
+      "forward"
+    ],
+    "pinyin": "qian yi dan ci qianyidanci q y d c qydc dan ci danci d c dc"
+  },
+  {
+    "id": "bash-backward-word",
+    "appId": "bash",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Backward word",
+      "zh": "后移单词"
+    },
+    "description": {
+      "en": "Move back one word",
+      "zh": "后移一个单词"
+    },
+    "windows": "Alt + B",
+    "mac": "Alt + B",
+    "linux": "Alt + B",
+    "keywords": [
+      "单词",
+      "word",
+      "backward"
+    ],
+    "pinyin": "hou yi dan ci houyidanci h y d c hydc dan ci danci d c dc"
+  },
+  {
+    "id": "bash-delete-char",
+    "appId": "bash",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Delete char",
+      "zh": "删除字符"
+    },
+    "description": {
+      "en": "Delete character at cursor",
+      "zh": "删除光标处字符"
+    },
+    "windows": "Ctrl + D",
+    "mac": "Ctrl + D",
+    "linux": "Ctrl + D",
+    "keywords": [
+      "删除",
+      "delete",
+      "char"
+    ],
+    "pinyin": "shan chu zi fu shanchuzifu s c z f sczf shan chu shanchu s c sc"
+  },
+  {
+    "id": "bash-backspace",
+    "appId": "bash",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Backspace",
+      "zh": "退格"
+    },
+    "description": {
+      "en": "Delete character before cursor",
+      "zh": "删除光标前字符"
+    },
+    "windows": "Ctrl + H",
+    "mac": "Ctrl + H",
+    "linux": "Ctrl + H",
+    "keywords": [
+      "退格",
+      "backspace"
+    ],
+    "pinyin": "tui ge tuige t g tg tui ge tuige t g tg"
+  },
+  {
+    "id": "bash-kill-line",
+    "appId": "bash",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Kill to end",
+      "zh": "删到行尾"
+    },
+    "description": {
+      "en": "Delete from cursor to end of line",
+      "zh": "删除光标到行尾"
+    },
+    "windows": "Ctrl + K",
+    "mac": "Ctrl + K",
+    "linux": "Ctrl + K",
+    "keywords": [
+      "删除",
+      "kill",
+      "line"
+    ],
+    "pinyin": "shan dao hang wei shandaohangwei s d h w sdhw shan chu shanchu s c sc"
+  },
+  {
+    "id": "bash-backward-kill",
+    "appId": "bash",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Kill to start",
+      "zh": "删到行首"
+    },
+    "description": {
+      "en": "Delete from start to cursor",
+      "zh": "删除行首到光标"
+    },
+    "windows": "Ctrl + U",
+    "mac": "Ctrl + U",
+    "linux": "Ctrl + U",
+    "keywords": [
+      "删除",
+      "行首"
+    ],
+    "pinyin": "shan dao hang shou shandaohangshou s d h s sdhs shan chu   hang shou shanchu hangshou s c   h s sc hs"
+  },
+  {
+    "id": "bash-kill-word",
+    "appId": "bash",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Kill word",
+      "zh": "删单词"
+    },
+    "description": {
+      "en": "Delete word forward",
+      "zh": "向前删除单词"
+    },
+    "windows": "Alt + D",
+    "mac": "Alt + D",
+    "linux": "Alt + D",
+    "keywords": [
+      "删除",
+      "word",
+      "kill"
+    ],
+    "pinyin": "shan dan ci shandanci s d c sdc shan chu shanchu s c sc"
+  },
+  {
+    "id": "bash-backward-kill-word",
+    "appId": "bash",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Kill word back",
+      "zh": "后删单词"
+    },
+    "description": {
+      "en": "Delete word backward",
+      "zh": "向后删除单词"
+    },
+    "windows": "Ctrl + W",
+    "mac": "Ctrl + W",
+    "linux": "Ctrl + W",
+    "keywords": [
+      "删除",
+      "word",
+      "backward"
+    ],
+    "pinyin": "hou shan dan ci houshandanci h s d c hsdc shan chu shanchu s c sc"
+  },
+  {
+    "id": "bash-clear",
+    "appId": "bash",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Clear screen",
+      "zh": "清屏"
+    },
+    "description": {
+      "en": "Clear the terminal screen",
+      "zh": "清除终端屏幕"
+    },
+    "windows": "Ctrl + L",
+    "mac": "Ctrl + L",
+    "linux": "Ctrl + L",
+    "keywords": [
+      "清屏",
+      "clear",
+      "screen"
+    ],
+    "pinyin": "qing ping qingping q p qp qing ping qingping q p qp"
+  },
+  {
+    "id": "bash-prev-history",
+    "appId": "bash",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Prev history",
+      "zh": "上条历史"
+    },
+    "description": {
+      "en": "Previous history command",
+      "zh": "上一条历史命令"
+    },
+    "windows": "Ctrl + P",
+    "mac": "Ctrl + P",
+    "linux": "Ctrl + P",
+    "keywords": [
+      "历史",
+      "history",
+      "prev"
+    ],
+    "pinyin": "shang tiao li shi shangtiaolishi s t l s stls li shi lishi l s ls"
+  },
+  {
+    "id": "bash-next-history",
+    "appId": "bash",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Next history",
+      "zh": "下条历史"
+    },
+    "description": {
+      "en": "Next history command",
+      "zh": "下一条历史命令"
+    },
+    "windows": "Ctrl + N",
+    "mac": "Ctrl + N",
+    "linux": "Ctrl + N",
+    "keywords": [
+      "历史",
+      "history",
+      "next"
+    ],
+    "pinyin": "xia tiao li shi xiatiaolishi x t l s xtls li shi lishi l s ls"
+  },
+  {
+    "id": "bash-reverse-search",
+    "appId": "bash",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Reverse search",
+      "zh": "向后搜索"
+    },
+    "description": {
+      "en": "Search history backward",
+      "zh": "向后搜索历史"
+    },
+    "windows": "Ctrl + R",
+    "mac": "Ctrl + R",
+    "linux": "Ctrl + R",
+    "keywords": [
+      "搜索",
+      "history",
+      "search"
+    ],
+    "pinyin": "xiang hou sou suo xianghousousuo x h s s xhss sou suo sousuo s s ss"
+  },
+  {
+    "id": "bash-forward-search",
+    "appId": "bash",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Forward search",
+      "zh": "向前搜索"
+    },
+    "description": {
+      "en": "Search history forward",
+      "zh": "向前搜索历史"
+    },
+    "windows": "Ctrl + S",
+    "mac": "Ctrl + S",
+    "linux": "Ctrl + S",
+    "keywords": [
+      "搜索",
+      "history",
+      "forward"
+    ],
+    "pinyin": "xiang qian sou suo xiangqiansousuo x q s s xqss sou suo sousuo s s ss"
+  },
+  {
+    "id": "bash-yank",
+    "appId": "bash",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Yank",
+      "zh": "粘贴"
+    },
+    "description": {
+      "en": "Paste killed text",
+      "zh": "粘贴剪切的文本"
+    },
+    "windows": "Ctrl + Y",
+    "mac": "Ctrl + Y",
+    "linux": "Ctrl + Y",
+    "keywords": [
+      "粘贴",
+      "yank",
+      "paste"
+    ],
+    "pinyin": "nian tie niantie n t nt nian tie niantie n t nt"
+  },
+  {
+    "id": "bash-transpose",
+    "appId": "bash",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Swap chars",
+      "zh": "交换字符"
+    },
+    "description": {
+      "en": "Swap last two characters",
+      "zh": "交换最后两个字符"
+    },
+    "windows": "Ctrl + T",
+    "mac": "Ctrl + T",
+    "linux": "Ctrl + T",
+    "keywords": [
+      "交换",
+      "swap",
+      "transpose"
+    ],
+    "pinyin": "jiao huan zi fu jiaohuanzifu j h z f jhzf jiao huan jiaohuan j h jh"
+  },
+  {
+    "id": "bash-accept",
+    "appId": "bash",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Accept line",
+      "zh": "执行"
+    },
+    "description": {
+      "en": "Execute the line",
+      "zh": "执行当前行"
+    },
+    "windows": "Enter",
+    "mac": "Enter",
+    "linux": "Enter",
+    "keywords": [
+      "执行",
+      "enter",
+      "run"
+    ],
+    "pinyin": "zhi xing zhixing z x zx zhi xing zhixing z x zx"
+  },
+  {
+    "id": "bash-complete",
+    "appId": "bash",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Complete",
+      "zh": "补全"
+    },
+    "description": {
+      "en": "Tab completion",
+      "zh": "Tab 补全"
+    },
+    "windows": "Tab",
+    "mac": "Tab",
+    "linux": "Tab",
+    "keywords": [
+      "补全",
+      "tab",
+      "complete"
+    ],
+    "pinyin": "bu quan buquan b q bq bu quan buquan b q bq"
+  },
+  {
+    "id": "bash-possible",
+    "appId": "bash",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Possible completions",
+      "zh": "可能补全"
+    },
+    "description": {
+      "en": "List possible completions",
+      "zh": "列出可能补全"
+    },
+    "windows": "Alt + =",
+    "mac": "Alt + =",
+    "linux": "Alt + =",
+    "keywords": [
+      "补全",
+      "possible",
+      "list"
+    ],
+    "pinyin": "ke neng bu quan kenengbuquan k n b q knbq bu quan buquan b q bq"
+  },
+  {
+    "id": "bash-history-expand",
+    "appId": "bash",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "History expand",
+      "zh": "历史展开"
+    },
+    "description": {
+      "en": "Expand history designator",
+      "zh": "展开历史符号"
+    },
+    "windows": "Alt + ^",
+    "mac": "Alt + ^",
+    "linux": "Alt + ^",
+    "keywords": [
+      "历史",
+      "expand"
+    ],
+    "pinyin": "li shi zhan kai lishizhankai l s z k lszk li shi lishi l s ls"
+  },
+  {
+    "id": "bash-capitalize",
+    "appId": "bash",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Capitalize word",
+      "zh": "首字母大写"
+    },
+    "description": {
+      "en": "Capitalize current word",
+      "zh": "当前单词首字母大写"
+    },
+    "windows": "Alt + C",
+    "mac": "Alt + C",
+    "linux": "Alt + C",
+    "keywords": [
+      "大写",
+      "capitalize"
+    ],
+    "pinyin": "shou zi mu da xie shouzimudaxie s z m d x szmdx da xie daxie d x dx"
+  },
+  {
+    "id": "bash-upcase",
+    "appId": "bash",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Uppercase word",
+      "zh": "转大写"
+    },
+    "description": {
+      "en": "Uppercase current word",
+      "zh": "当前单词转大写"
+    },
+    "windows": "Alt + U",
+    "mac": "Alt + U",
+    "linux": "Alt + U",
+    "keywords": [
+      "大写",
+      "uppercase"
+    ],
+    "pinyin": "zhuan da xie zhuandaxie z d x zdx da xie daxie d x dx"
+  },
+  {
+    "id": "bash-downcase",
+    "appId": "bash",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Lowercase word",
+      "zh": "转小写"
+    },
+    "description": {
+      "en": "Lowercase current word",
+      "zh": "当前单词转小写"
+    },
+    "windows": "Alt + L",
+    "mac": "Alt + L",
+    "linux": "Alt + L",
+    "keywords": [
+      "小写",
+      "lowercase"
+    ],
+    "pinyin": "zhuan xiao xie zhuanxiaoxie z x x zxx xiao xie xiaoxie x x xx"
+  },
+  {
+    "id": "bash-quote-insert",
+    "appId": "bash",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Quote insert",
+      "zh": "插入原义"
+    },
+    "description": {
+      "en": "Insert next char literally",
+      "zh": "原义插入下一字符"
+    },
+    "windows": "Ctrl + V",
+    "mac": "Ctrl + V",
+    "linux": "Ctrl + V",
+    "keywords": [
+      "插入",
+      "quote",
+      "literal"
+    ],
+    "pinyin": "cha ru yuan yi charuyuanyi c r y y cryy cha ru charu c r cr"
+  },
+  {
+    "id": "bash-abort",
+    "appId": "bash",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Abort",
+      "zh": "中止"
+    },
+    "description": {
+      "en": "Abort current line",
+      "zh": "中止当前行"
+    },
+    "windows": "Ctrl + G",
+    "mac": "Ctrl + G",
+    "linux": "Ctrl + G",
+    "keywords": [
+      "中止",
+      "abort"
+    ],
+    "pinyin": "zhong zhi zhongzhi z z zz zhong zhi zhongzhi z z zz"
+  },
+  {
+    "id": "bash-suspend",
+    "appId": "bash",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Suspend",
+      "zh": "挂起"
+    },
+    "description": {
+      "en": "Suspend the shell (bg)",
+      "zh": "挂起 shell"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "Ctrl + Z",
+    "linux": "Ctrl + Z",
+    "keywords": [
+      "挂起",
+      "suspend",
+      "bg"
+    ],
+    "pinyin": "gua qi guaqi g q gq gua qi guaqi g q gq"
+  }
+]

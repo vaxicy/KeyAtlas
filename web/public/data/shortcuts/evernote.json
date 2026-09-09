@@ -1,0 +1,710 @@
+[
+  {
+    "id": "evernote-new-note",
+    "appId": "evernote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "New note",
+      "zh": "新建笔记"
+    },
+    "description": {
+      "en": "Create a new note",
+      "zh": "创建新笔记"
+    },
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
+    "linux": "Ctrl + N",
+    "keywords": [
+      "new",
+      "note",
+      "笔记"
+    ],
+    "pinyin": "xin jian bi ji xinjianbiji x j b j xjbj bi ji biji b j bj"
+  },
+  {
+    "id": "evernote-new-window",
+    "appId": "evernote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "New note window",
+      "zh": "新笔记窗口"
+    },
+    "description": {
+      "en": "New note in window",
+      "zh": "新窗口笔记"
+    },
+    "windows": "Ctrl + Alt + N",
+    "mac": "⌃ ⌥ ⌘ N",
+    "linux": "Ctrl + Alt + N",
+    "keywords": [
+      "window",
+      "窗口"
+    ],
+    "pinyin": "xin bi ji chuang kou xinbijichuangkou x b j c k xbjck chuang kou chuangkou c k ck"
+  },
+  {
+    "id": "evernote-new-notebook",
+    "appId": "evernote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "New notebook",
+      "zh": "新建笔记本"
+    },
+    "description": {
+      "en": "Create notebook",
+      "zh": "创建笔记本"
+    },
+    "windows": "Ctrl + Shift + N",
+    "mac": "⇧ ⌘ N",
+    "linux": "Ctrl + Shift + N",
+    "keywords": [
+      "notebook",
+      "笔记本"
+    ],
+    "pinyin": "xin jian bi ji ben xinjianbijiben x j b j b xjbjb bi ji ben bijiben b j b bjb"
+  },
+  {
+    "id": "evernote-quick-note",
+    "appId": "evernote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Quick note",
+      "zh": "快速笔记"
+    },
+    "description": {
+      "en": "Quick capture via helper",
+      "zh": "快速捕获"
+    },
+    "windows": "Ctrl + Alt + H",
+    "mac": "⌃ ⌘ N",
+    "linux": "Ctrl + Alt + H",
+    "keywords": [
+      "quick",
+      "快速"
+    ],
+    "pinyin": "kuai su bi ji kuaisubiji k s b j ksbj kuai su kuaisu k s ks"
+  },
+  {
+    "id": "evernote-screenshot",
+    "appId": "evernote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Screenshot",
+      "zh": "截图"
+    },
+    "description": {
+      "en": "Capture screen to note",
+      "zh": "截图到笔记"
+    },
+    "windows": "Ctrl + Alt + S",
+    "mac": "⌃ ⌘ S",
+    "linux": "Ctrl + Alt + S",
+    "keywords": [
+      "screenshot",
+      "截图"
+    ],
+    "pinyin": "jie tu jietu j t jt jie tu jietu j t jt"
+  },
+  {
+    "id": "evernote-shortcut-drawer",
+    "appId": "evernote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Shortcut drawer",
+      "zh": "快捷键抽屉"
+    },
+    "description": {
+      "en": "View/remap shortcuts",
+      "zh": "查看快捷键"
+    },
+    "windows": "Ctrl + /",
+    "mac": "⌘ /",
+    "linux": "Ctrl + /",
+    "keywords": [
+      "shortcuts",
+      "快捷键"
+    ],
+    "pinyin": "kuai jie jian chou ti kuaijiejianchouti k j j c t kjjct kuai jie jian kuaijiejian k j j kjj"
+  },
+  {
+    "id": "evernote-search",
+    "appId": "evernote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Search",
+      "zh": "搜索"
+    },
+    "description": {
+      "en": "Search notes",
+      "zh": "搜索笔记"
+    },
+    "windows": "Ctrl + Alt + F",
+    "mac": "⌥ ⌘ F",
+    "linux": "Ctrl + Alt + F",
+    "keywords": [
+      "search",
+      "搜索"
+    ],
+    "pinyin": "sou suo sousuo s s ss sou suo sousuo s s ss"
+  },
+  {
+    "id": "evernote-find",
+    "appId": "evernote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Find in note",
+      "zh": "笔记内查找"
+    },
+    "description": {
+      "en": "Find text in note",
+      "zh": "笔记内查找"
+    },
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
+    "linux": "Ctrl + F",
+    "keywords": [
+      "find",
+      "查找"
+    ],
+    "pinyin": "bi ji nei cha zhao bijineichazhao b j n c z bjncz cha zhao chazhao c z cz"
+  },
+  {
+    "id": "evernote-sync",
+    "appId": "evernote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Sync",
+      "zh": "同步"
+    },
+    "description": {
+      "en": "Sync now",
+      "zh": "立即同步"
+    },
+    "windows": "Ctrl + Shift + S",
+    "mac": "⌥ ⌘ S",
+    "linux": "Ctrl + Shift + S",
+    "keywords": [
+      "sync",
+      "同步"
+    ],
+    "pinyin": "tong bu tongbu t b tb tong bu tongbu t b tb"
+  },
+  {
+    "id": "evernote-bold",
+    "appId": "evernote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Bold",
+      "zh": "加粗"
+    },
+    "description": {
+      "en": "Bold text",
+      "zh": "加粗"
+    },
+    "windows": "Ctrl + B",
+    "mac": "⌘ B",
+    "linux": "Ctrl + B",
+    "keywords": [
+      "bold",
+      "加粗"
+    ],
+    "pinyin": "jia cu jiacu j c jc jia cu jiacu j c jc"
+  },
+  {
+    "id": "evernote-italic",
+    "appId": "evernote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Italic",
+      "zh": "斜体"
+    },
+    "description": {
+      "en": "Italic text",
+      "zh": "斜体"
+    },
+    "windows": "Ctrl + I",
+    "mac": "⌘ I",
+    "linux": "Ctrl + I",
+    "keywords": [
+      "italic",
+      "斜体"
+    ],
+    "pinyin": "xie ti xieti x t xt xie ti xieti x t xt"
+  },
+  {
+    "id": "evernote-underline",
+    "appId": "evernote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Underline",
+      "zh": "下划线"
+    },
+    "description": {
+      "en": "Underline text",
+      "zh": "下划线"
+    },
+    "windows": "Ctrl + U",
+    "mac": "⌘ U",
+    "linux": "Ctrl + U",
+    "keywords": [
+      "underline",
+      "下划线"
+    ],
+    "pinyin": "xia hua xian xiahuaxian x h x xhx xia hua xian xiahuaxian x h x xhx"
+  },
+  {
+    "id": "evernote-todo",
+    "appId": "evernote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "To-do",
+      "zh": "待办"
+    },
+    "description": {
+      "en": "Insert to-do checkbox",
+      "zh": "插入待办框"
+    },
+    "windows": "Ctrl + Shift + C",
+    "mac": "⌥ ⌘ C",
+    "linux": "Ctrl + Shift + C",
+    "keywords": [
+      "todo",
+      "待办"
+    ],
+    "pinyin": "dai ban daiban d b db dai ban daiban d b db"
+  },
+  {
+    "id": "evernote-link",
+    "appId": "evernote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Insert link",
+      "zh": "插入链接"
+    },
+    "description": {
+      "en": "Insert hyperlink",
+      "zh": "插入链接"
+    },
+    "windows": "Ctrl + K",
+    "mac": "⌘ K",
+    "linux": "Ctrl + K",
+    "keywords": [
+      "link",
+      "链接"
+    ],
+    "pinyin": "cha ru lian jie charulianjie c r l j crlj lian jie lianjie l j lj"
+  },
+  {
+    "id": "evernote-table",
+    "appId": "evernote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Insert table",
+      "zh": "插入表格"
+    },
+    "description": {
+      "en": "Insert table",
+      "zh": "插入表格"
+    },
+    "windows": "Ctrl + Shift + M",
+    "mac": "⌥ ⌘ M",
+    "linux": "Ctrl + Shift + M",
+    "keywords": [
+      "table",
+      "表格"
+    ],
+    "pinyin": "cha ru biao ge charubiaoge c r b g crbg biao ge biaoge b g bg"
+  },
+  {
+    "id": "evernote-tag",
+    "appId": "evernote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Add tag",
+      "zh": "添加标签"
+    },
+    "description": {
+      "en": "Add tag to note",
+      "zh": "添加标签"
+    },
+    "windows": "Ctrl + Alt + T",
+    "mac": "⌥ ⌘ T",
+    "linux": "Ctrl + Alt + T",
+    "keywords": [
+      "tag",
+      "标签"
+    ],
+    "pinyin": "tian jia biao qian tianjiabiaoqian t j b q tjbq biao qian biaoqian b q bq"
+  },
+  {
+    "id": "evernote-duplicate",
+    "appId": "evernote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Duplicate",
+      "zh": "复制"
+    },
+    "description": {
+      "en": "Duplicate note",
+      "zh": "复制笔记"
+    },
+    "windows": "Ctrl + D",
+    "mac": "⌘ D",
+    "linux": "Ctrl + D",
+    "keywords": [
+      "duplicate",
+      "复制"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "evernote-delete",
+    "appId": "evernote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Delete",
+      "zh": "删除"
+    },
+    "description": {
+      "en": "Delete note",
+      "zh": "删除笔记"
+    },
+    "windows": "Delete",
+    "mac": "Delete",
+    "linux": "Delete",
+    "keywords": [
+      "delete",
+      "删除"
+    ],
+    "pinyin": "shan chu shanchu s c sc shan chu shanchu s c sc"
+  },
+  {
+    "id": "evernote-undo",
+    "appId": "evernote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Undo",
+      "zh": "撤销"
+    },
+    "description": {
+      "en": "Undo",
+      "zh": "撤销"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "Ctrl + Z",
+    "keywords": [
+      "undo",
+      "撤销"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "evernote-redo",
+    "appId": "evernote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Redo",
+      "zh": "重做"
+    },
+    "description": {
+      "en": "Redo",
+      "zh": "重做"
+    },
+    "windows": "Ctrl + Y",
+    "mac": "⇧ ⌘ Z",
+    "linux": "Ctrl + Y",
+    "keywords": [
+      "redo",
+      "重做"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "evernote-print",
+    "appId": "evernote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Print",
+      "zh": "打印"
+    },
+    "description": {
+      "en": "Print note",
+      "zh": "打印笔记"
+    },
+    "windows": "Ctrl + P",
+    "mac": "⌘ P",
+    "linux": "Ctrl + P",
+    "keywords": [
+      "print",
+      "打印"
+    ],
+    "pinyin": "da yin dayin d y dy da yin dayin d y dy"
+  },
+  {
+    "id": "evernote-fullscreen",
+    "appId": "evernote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Fullscreen",
+      "zh": "全屏"
+    },
+    "description": {
+      "en": "Toggle fullscreen",
+      "zh": "切换全屏"
+    },
+    "windows": "F11",
+    "mac": "⌃ ⌘ F",
+    "linux": "F11",
+    "keywords": [
+      "fullscreen",
+      "全屏"
+    ],
+    "pinyin": "quan ping quanping q p qp quan ping quanping q p qp"
+  },
+  {
+    "id": "evernote-note-list",
+    "appId": "evernote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Note list",
+      "zh": "笔记列表"
+    },
+    "description": {
+      "en": "Focus note list",
+      "zh": "聚焦笔记列表"
+    },
+    "windows": "Ctrl + Alt + 1",
+    "mac": "⌥ ⌘ 1",
+    "linux": "Ctrl + Alt + 1",
+    "keywords": [
+      "list",
+      "列表"
+    ],
+    "pinyin": "bi ji lie biao bijiliebiao b j l b bjlb lie biao liebiao l b lb"
+  },
+  {
+    "id": "evernote-tag-view",
+    "appId": "evernote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Tag view",
+      "zh": "标签视图"
+    },
+    "description": {
+      "en": "Focus tag view",
+      "zh": "聚焦标签视图"
+    },
+    "windows": "Ctrl + Alt + 2",
+    "mac": "⌥ ⌘ 2",
+    "linux": "Ctrl + Alt + 2",
+    "keywords": [
+      "tag",
+      "view",
+      "标签"
+    ],
+    "pinyin": "biao qian shi tu biaoqianshitu b q s t bqst biao qian biaoqian b q bq"
+  },
+  {
+    "id": "evernote-attachments",
+    "appId": "evernote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Attachments",
+      "zh": "附件"
+    },
+    "description": {
+      "en": "Show attachments",
+      "zh": "显示附件"
+    },
+    "windows": "Ctrl + Alt + 3",
+    "mac": "⌥ ⌘ 3",
+    "linux": "Ctrl + Alt + 3",
+    "keywords": [
+      "attachments",
+      "附件"
+    ],
+    "pinyin": "fu jian fujian f j fj fu jian fujian f j fj"
+  },
+  {
+    "id": "evernote-left-pane",
+    "appId": "evernote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Left pane",
+      "zh": "左栏"
+    },
+    "description": {
+      "en": "Toggle left pane",
+      "zh": "切换左栏"
+    },
+    "windows": "Ctrl + Alt + Left",
+    "mac": "⌥ ⌘ ←",
+    "linux": "Ctrl + Alt + Left",
+    "keywords": [
+      "left",
+      "pane",
+      "左"
+    ],
+    "pinyin": "zuo lan zuolan z l zl zuo zuo z z"
+  },
+  {
+    "id": "evernote-right-pane",
+    "appId": "evernote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Right pane",
+      "zh": "右栏"
+    },
+    "description": {
+      "en": "Toggle right pane",
+      "zh": "切换右栏"
+    },
+    "windows": "Ctrl + Alt + Right",
+    "mac": "⌥ ⌘ →",
+    "linux": "Ctrl + Alt + Right",
+    "keywords": [
+      "right",
+      "pane",
+      "右"
+    ],
+    "pinyin": "you lan youlan y l yl you you y y"
+  },
+  {
+    "id": "evernote-encrypt",
+    "appId": "evernote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Encrypt",
+      "zh": "加密"
+    },
+    "description": {
+      "en": "Encrypt selection",
+      "zh": "加密选区"
+    },
+    "windows": "Ctrl + Shift + X",
+    "mac": "⌥ ⌘ X",
+    "linux": "Ctrl + Shift + X",
+    "keywords": [
+      "encrypt",
+      "加密"
+    ],
+    "pinyin": "jia mi jiami j m jm jia mi jiami j m jm"
+  },
+  {
+    "id": "evernote-audio",
+    "appId": "evernote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Audio note",
+      "zh": "音频笔记"
+    },
+    "description": {
+      "en": "Record audio note",
+      "zh": "录制音频笔记"
+    },
+    "windows": "Ctrl + Shift + A",
+    "mac": "⌥ ⌘ A",
+    "linux": "Ctrl + Shift + A",
+    "keywords": [
+      "audio",
+      "音频"
+    ],
+    "pinyin": "yin pin bi ji yinpinbiji y p b j ypbj yin pin yinpin y p yp"
+  },
+  {
+    "id": "evernote-pdf",
+    "appId": "evernote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "PDF",
+      "zh": "PDF"
+    },
+    "description": {
+      "en": "Insert PDF",
+      "zh": "插入 PDF"
+    },
+    "windows": "Ctrl + Shift + P",
+    "mac": "⌥ ⌘ P",
+    "linux": "Ctrl + Shift + P",
+    "keywords": [
+      "pdf"
+    ],
+    "pinyin": "p d f pdf p d f pdf"
+  },
+  {
+    "id": "evernote-copy-link",
+    "appId": "evernote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Copy link",
+      "zh": "复制链接"
+    },
+    "description": {
+      "en": "Copy note link",
+      "zh": "复制笔记链接"
+    },
+    "windows": "Ctrl + Alt + L",
+    "mac": "⌥ ⌘ L",
+    "linux": "Ctrl + Alt + L",
+    "keywords": [
+      "copy",
+      "link",
+      "链接"
+    ],
+    "pinyin": "fu zhi lian jie fuzhilianjie f z l j fzlj lian jie lianjie l j lj"
+  },
+  {
+    "id": "evernote-presentation",
+    "appId": "evernote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Present",
+      "zh": "演示"
+    },
+    "description": {
+      "en": "Present note",
+      "zh": "演示笔记"
+    },
+    "windows": "F5",
+    "mac": "F5",
+    "linux": "F5",
+    "keywords": [
+      "present",
+      "演示"
+    ],
+    "pinyin": "yan shi yanshi y s ys yan shi yanshi y s ys"
+  }
+]

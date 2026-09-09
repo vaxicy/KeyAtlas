@@ -1,1 +1,50 @@
-[{"id":"gemini-new-chat","appId":"gemini","type":"software","category":"ai","name":{"zh":"新建对话","en":"New Chat"},"description":{"zh":"在 Gemini 网页端新建对话","en":"Start a new chat in the web app"},"windows":"Ctrl + Shift + O","mac":"⌘ Shift + O","linux":"Ctrl + Shift + O","keywords":["新建","new","对话","chat"],"pinyin":"xin jian dui hua xinjianduihua x j d h xjdh xin jian   dui hua xinjian duihua x j   d h xj dh"},{"id":"gemini-search-conv","appId":"gemini","type":"software","category":"ai","name":{"zh":"搜索对话","en":"Search Conversations"},"description":{"zh":"搜索你的历史对话","en":"Search your conversation history"},"windows":"Ctrl + Shift + K","mac":"⌘ Shift + K","linux":"Ctrl + Shift + K","keywords":["搜索","search","对话","conversation"],"pinyin":"sou suo dui hua sousuoduihua s s d h ssdh sou suo   dui hua sousuo duihua s s   d h ss dh"}]
+[
+  {
+    "id": "gemini-new-chat",
+    "appId": "gemini",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "新建对话",
+      "en": "New Chat"
+    },
+    "description": {
+      "zh": "在 Gemini 网页端新建对话",
+      "en": "Start a new chat in the web app"
+    },
+    "windows": "Ctrl + Shift + O",
+    "mac": "⌘ Shift + O",
+    "linux": "Ctrl + Shift + O",
+    "keywords": [
+      "新建",
+      "new",
+      "对话",
+      "chat"
+    ],
+    "pinyin": "xin jian dui hua xinjianduihua x j d h xjdh xin jian   dui hua xinjian duihua x j   d h xj dh"
+  },
+  {
+    "id": "gemini-search-conv",
+    "appId": "gemini",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "搜索对话",
+      "en": "Search Conversations"
+    },
+    "description": {
+      "zh": "搜索你的历史对话",
+      "en": "Search your conversation history"
+    },
+    "windows": "Ctrl + Shift + K",
+    "mac": "⌘ Shift + K",
+    "linux": "Ctrl + Shift + K",
+    "keywords": [
+      "搜索",
+      "search",
+      "对话",
+      "conversation"
+    ],
+    "pinyin": "sou suo dui hua sousuoduihua s s d h ssdh sou suo   dui hua sousuo duihua s s   d h ss dh"
+  }
+]

@@ -1,1 +1,244 @@
-[{"id":"jira-shortcuts-help","appId":"jira","type":"software","category":"productivity","name":{"zh":"打开快捷键面板","en":"View Keyboard Shortcuts"},"description":{"zh":"打开快捷键对话框；也可通过 帮助 → Keyboard shortcuts 打开","en":"Open the keyboard shortcuts dialog (also via Help → Keyboard shortcuts)"},"windows":"? (Shift + /)","mac":"? (Shift + /)","linux":"? (Shift + /)","keywords":["快捷键","shortcuts","帮助","help","面板"],"pinyin":"da kai kuai jie jian mian ban dakaikuaijiejianmianban d k k j j m b dkkjjmb kuai jie jian   bang zhu   mian ban kuaijiejian bangzhu mianban k j j   b z   m b kjj bz mb"},{"id":"jira-create","appId":"jira","type":"software","category":"productivity","name":{"zh":"创建工作项","en":"Create a Work Item"},"description":{"zh":"快速创建一个新的 issue / 工作项","en":"Create a new work item"},"windows":"C","mac":"C","linux":"C","keywords":["创建","create","新建","issue","工作项"],"pinyin":"chuang jian gong zuo xiang chuangjiangongzuoxiang c j g z x cjgzx chuang jian   xin jian   gong zuo xiang chuangjian xinjian gongzuoxiang c j   x j   g z x cj xj gzx"},{"id":"jira-open","appId":"jira","type":"software","category":"productivity","name":{"zh":"打开选中的工作项","en":"Open Selected Work Item"},"description":{"zh":"打开当前选中的工作项详情","en":"Open the selected work item"},"windows":"O","mac":"O","linux":"O","keywords":["打开","open","工作项","详情"],"pinyin":"da kai xuan zhong de gong zuo xiang dakaixuanzhongdegongzuoxiang d k x z d g z x dkxzdgzx da kai   gong zuo xiang   xiang qing dakai gongzuoxiang xiangqing d k   g z x   x q dk gzx xq"},{"id":"jira-assign","appId":"jira","type":"software","category":"productivity","name":{"zh":"分配给他人","en":"Assign Work Item"},"description":{"zh":"将工作项分配给某个成员","en":"Assign the work item to someone"},"windows":"A","mac":"A","linux":"A","keywords":["分配","assign","指派","负责人"],"pinyin":"fen pei ji ta ren fenpeijitaren f p j t r fpjtr fen pei   zhi pai   fu ze ren fenpei zhipai fuzeren f p   z p   f z r fp zp fzr"},{"id":"jira-assign-me","appId":"jira","type":"software","category":"productivity","name":{"zh":"分配给我自己","en":"Assign to Me"},"description":{"zh":"把工作项指派给自己","en":"Assign the work item to yourself"},"windows":"I","mac":"I","linux":"I","keywords":["分配给我","assign to me","自己","认领"],"pinyin":"fen pei ji wo zi ji fenpeijiwoziji f p j w z j fpjwzj fen pei ji wo   zi ji   ren ling fenpeijiwo ziji renling f p j w   z j   r l fpjw zj rl"},{"id":"jira-comment","appId":"jira","type":"software","category":"productivity","name":{"zh":"添加评论","en":"Add Comment"},"description":{"zh":"快速为当前工作项添加评论","en":"Quickly add a comment to the work item"},"windows":"M","mac":"M","linux":"M","keywords":["评论","comment","留言","回复"],"pinyin":"tian jia ping lun tianjiapinglun t j p l tjpl ping lun   liu yan   hui fu pinglun liuyan huifu p l   l y   h f pl ly hf"},{"id":"jira-nav-down","appId":"jira","type":"software","category":"productivity","name":{"zh":"向下导航","en":"Navigate Down"},"description":{"zh":"在工作项列表中向下移动","en":"Move down through work items"},"windows":"J","mac":"J","linux":"J","keywords":["向下","down","导航","下一个"],"pinyin":"xiang xia dao hang xiangxiadaohang x x d h xxdh xiang xia   dao hang   xia yi ge xiangxia daohang xiayige x x   d h   x y g xx dh xyg"},{"id":"jira-nav-up","appId":"jira","type":"software","category":"productivity","name":{"zh":"向上导航","en":"Navigate Up"},"description":{"zh":"在工作项列表中向上移动","en":"Move up through work items"},"windows":"K","mac":"K","linux":"K","keywords":["向上","up","导航","上一个"],"pinyin":"xiang shang dao hang xiangshangdaohang x s d h xsdh xiang shang   dao hang   shang yi ge xiangshang daohang shangyige x s   d h   s y g xs dh syg"},{"id":"jira-next-column","appId":"jira","type":"software","category":"productivity","name":{"zh":"移到下一列","en":"Go to Next Column"},"description":{"zh":"在看板中跳到右侧相邻列","en":"Jump to the next column on the board"},"windows":"N","mac":"N","linux":"N","keywords":["下一列","next column","看板","右移"],"pinyin":"yi dao xia yi lie yidaoxiayilie y d x y l ydxyl xia yi lie   kan ban   you yi xiayilie kanban youyi x y l   k b   y y xyl kb yy"},{"id":"jira-prev-column","appId":"jira","type":"software","category":"productivity","name":{"zh":"移到上一列","en":"Go to Previous Column"},"description":{"zh":"在看板中跳到左侧相邻列","en":"Jump to the previous column on the board"},"windows":"P","mac":"P","linux":"P","keywords":["上一列","previous column","看板","左移"],"pinyin":"yi dao shang yi lie yidaoshangyilie y d s y l ydsyl shang yi lie   kan ban   zuo yi shangyilie kanban zuoyi s y l   k b   z y syl kb zy"}]
+[
+  {
+    "id": "jira-shortcuts-help",
+    "appId": "jira",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "打开快捷键面板",
+      "en": "View Keyboard Shortcuts"
+    },
+    "description": {
+      "zh": "打开快捷键对话框；也可通过 帮助 → Keyboard shortcuts 打开",
+      "en": "Open the keyboard shortcuts dialog (also via Help → Keyboard shortcuts)"
+    },
+    "windows": "? (Shift + /)",
+    "mac": "? (Shift + /)",
+    "linux": "? (Shift + /)",
+    "keywords": [
+      "快捷键",
+      "shortcuts",
+      "帮助",
+      "help",
+      "面板"
+    ],
+    "pinyin": "da kai kuai jie jian mian ban dakaikuaijiejianmianban d k k j j m b dkkjjmb kuai jie jian   bang zhu   mian ban kuaijiejian bangzhu mianban k j j   b z   m b kjj bz mb"
+  },
+  {
+    "id": "jira-create",
+    "appId": "jira",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "创建工作项",
+      "en": "Create a Work Item"
+    },
+    "description": {
+      "zh": "快速创建一个新的 issue / 工作项",
+      "en": "Create a new work item"
+    },
+    "windows": "C",
+    "mac": "C",
+    "linux": "C",
+    "keywords": [
+      "创建",
+      "create",
+      "新建",
+      "issue",
+      "工作项"
+    ],
+    "pinyin": "chuang jian gong zuo xiang chuangjiangongzuoxiang c j g z x cjgzx chuang jian   xin jian   gong zuo xiang chuangjian xinjian gongzuoxiang c j   x j   g z x cj xj gzx"
+  },
+  {
+    "id": "jira-open",
+    "appId": "jira",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "打开选中的工作项",
+      "en": "Open Selected Work Item"
+    },
+    "description": {
+      "zh": "打开当前选中的工作项详情",
+      "en": "Open the selected work item"
+    },
+    "windows": "O",
+    "mac": "O",
+    "linux": "O",
+    "keywords": [
+      "打开",
+      "open",
+      "工作项",
+      "详情"
+    ],
+    "pinyin": "da kai xuan zhong de gong zuo xiang dakaixuanzhongdegongzuoxiang d k x z d g z x dkxzdgzx da kai   gong zuo xiang   xiang qing dakai gongzuoxiang xiangqing d k   g z x   x q dk gzx xq"
+  },
+  {
+    "id": "jira-assign",
+    "appId": "jira",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "分配给他人",
+      "en": "Assign Work Item"
+    },
+    "description": {
+      "zh": "将工作项分配给某个成员",
+      "en": "Assign the work item to someone"
+    },
+    "windows": "A",
+    "mac": "A",
+    "linux": "A",
+    "keywords": [
+      "分配",
+      "assign",
+      "指派",
+      "负责人"
+    ],
+    "pinyin": "fen pei ji ta ren fenpeijitaren f p j t r fpjtr fen pei   zhi pai   fu ze ren fenpei zhipai fuzeren f p   z p   f z r fp zp fzr"
+  },
+  {
+    "id": "jira-assign-me",
+    "appId": "jira",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "分配给我自己",
+      "en": "Assign to Me"
+    },
+    "description": {
+      "zh": "把工作项指派给自己",
+      "en": "Assign the work item to yourself"
+    },
+    "windows": "I",
+    "mac": "I",
+    "linux": "I",
+    "keywords": [
+      "分配给我",
+      "assign to me",
+      "自己",
+      "认领"
+    ],
+    "pinyin": "fen pei ji wo zi ji fenpeijiwoziji f p j w z j fpjwzj fen pei ji wo   zi ji   ren ling fenpeijiwo ziji renling f p j w   z j   r l fpjw zj rl"
+  },
+  {
+    "id": "jira-comment",
+    "appId": "jira",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "添加评论",
+      "en": "Add Comment"
+    },
+    "description": {
+      "zh": "快速为当前工作项添加评论",
+      "en": "Quickly add a comment to the work item"
+    },
+    "windows": "M",
+    "mac": "M",
+    "linux": "M",
+    "keywords": [
+      "评论",
+      "comment",
+      "留言",
+      "回复"
+    ],
+    "pinyin": "tian jia ping lun tianjiapinglun t j p l tjpl ping lun   liu yan   hui fu pinglun liuyan huifu p l   l y   h f pl ly hf"
+  },
+  {
+    "id": "jira-nav-down",
+    "appId": "jira",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "向下导航",
+      "en": "Navigate Down"
+    },
+    "description": {
+      "zh": "在工作项列表中向下移动",
+      "en": "Move down through work items"
+    },
+    "windows": "J",
+    "mac": "J",
+    "linux": "J",
+    "keywords": [
+      "向下",
+      "down",
+      "导航",
+      "下一个"
+    ],
+    "pinyin": "xiang xia dao hang xiangxiadaohang x x d h xxdh xiang xia   dao hang   xia yi ge xiangxia daohang xiayige x x   d h   x y g xx dh xyg"
+  },
+  {
+    "id": "jira-nav-up",
+    "appId": "jira",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "向上导航",
+      "en": "Navigate Up"
+    },
+    "description": {
+      "zh": "在工作项列表中向上移动",
+      "en": "Move up through work items"
+    },
+    "windows": "K",
+    "mac": "K",
+    "linux": "K",
+    "keywords": [
+      "向上",
+      "up",
+      "导航",
+      "上一个"
+    ],
+    "pinyin": "xiang shang dao hang xiangshangdaohang x s d h xsdh xiang shang   dao hang   shang yi ge xiangshang daohang shangyige x s   d h   s y g xs dh syg"
+  },
+  {
+    "id": "jira-next-column",
+    "appId": "jira",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "移到下一列",
+      "en": "Go to Next Column"
+    },
+    "description": {
+      "zh": "在看板中跳到右侧相邻列",
+      "en": "Jump to the next column on the board"
+    },
+    "windows": "N",
+    "mac": "N",
+    "linux": "N",
+    "keywords": [
+      "下一列",
+      "next column",
+      "看板",
+      "右移"
+    ],
+    "pinyin": "yi dao xia yi lie yidaoxiayilie y d x y l ydxyl xia yi lie   kan ban   you yi xiayilie kanban youyi x y l   k b   y y xyl kb yy"
+  },
+  {
+    "id": "jira-prev-column",
+    "appId": "jira",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "移到上一列",
+      "en": "Go to Previous Column"
+    },
+    "description": {
+      "zh": "在看板中跳到左侧相邻列",
+      "en": "Jump to the previous column on the board"
+    },
+    "windows": "P",
+    "mac": "P",
+    "linux": "P",
+    "keywords": [
+      "上一列",
+      "previous column",
+      "看板",
+      "左移"
+    ],
+    "pinyin": "yi dao shang yi lie yidaoshangyilie y d s y l ydsyl shang yi lie   kan ban   zuo yi shangyilie kanban zuoyi s y l   k b   z y syl kb zy"
+  }
+]

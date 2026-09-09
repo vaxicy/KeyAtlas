@@ -1,1 +1,971 @@
-[{"id":"outlook-new-item","appId":"outlook","type":"software","category":"productivity","name":{"zh":"新建邮件/事件","en":"New message or event"},"description":{"zh":"创建新邮件或日历事件","en":"Create a new message or calendar event"},"windows":"Ctrl + N","mac":"⌘ N","linux":"—","keywords":["新建","new","邮件","mail","事件"],"pinyin":"xin jian you jian / shi jian xinjianyoujian/shijian x j y j / s j xjyj/sj xin jian   you jian   shi jian xinjian youjian shijian x j   y j   s j xj yj sj"},{"id":"outlook-reply","appId":"outlook","type":"software","category":"productivity","name":{"zh":"回复","en":"Reply"},"description":{"zh":"回复邮件","en":"Reply to the message"},"windows":"Ctrl + R","mac":"⌘ R","linux":"—","keywords":["回复","reply","回信"],"pinyin":"hui fu huifu h f hf hui fu   hui xin huifu huixin h f   h x hf hx"},{"id":"outlook-reply-all","appId":"outlook","type":"software","category":"productivity","name":{"zh":"回复全部","en":"Reply all"},"description":{"zh":"回复发件人和所有收件人","en":"Reply to sender and all recipients"},"windows":"Ctrl + Shift + R","mac":"⌘ ⇧ R","linux":"—","keywords":["回复全部","reply all","全体回复"],"pinyin":"hui fu quan bu huifuquanbu h f q b hfqb hui fu quan bu   quan ti hui fu huifuquanbu quantihuifu h f q b   q t h f hfqb qthf"},{"id":"outlook-forward","appId":"outlook","type":"software","category":"productivity","name":{"zh":"转发","en":"Forward"},"description":{"zh":"转发邮件","en":"Forward the message"},"windows":"Ctrl + F","mac":"⌘ F","linux":"—","keywords":["转发","forward","转寄"],"pinyin":"zhuan fa zhuanfa z f zf zhuan fa   zhuan ji zhuanfa zhuanji z f   z j zf zj"},{"id":"outlook-send","appId":"outlook","type":"software","category":"productivity","name":{"zh":"发送","en":"Send"},"description":{"zh":"发送邮件","en":"Send the email message"},"windows":"Ctrl + Enter","mac":"⌘ Enter","linux":"—","keywords":["发送","send","寄出"],"pinyin":"fa song fasong f s fs fa song   ji chu fasong jichu f s   j c fs jc"},{"id":"outlook-open-new-window","appId":"outlook","type":"software","category":"productivity","name":{"zh":"在新窗口打开","en":"Open in new window"},"description":{"zh":"在新窗口打开选中的邮件","en":"Open the selected message in a new window"},"windows":"Shift + Enter","mac":"⇧ Enter","linux":"—","keywords":["新窗口","open","窗口"],"pinyin":"zai xin chuang kou da kai zaixinchuangkoudakai z x c k d k zxckdk xin chuang kou   chuang kou xinchuangkou chuangkou x c k   c k xck ck"},{"id":"outlook-delete","appId":"outlook","type":"software","category":"productivity","name":{"zh":"删除","en":"Delete"},"description":{"zh":"删除邮件或项目","en":"Delete message or item"},"windows":"Delete","mac":"⌫","linux":"Delete","keywords":["删除","delete","移除"],"pinyin":"shan chu shanchu s c sc shan chu   yi chu shanchu yichu s c   y c sc yc"},{"id":"outlook-delete-perm","appId":"outlook","type":"software","category":"productivity","name":{"zh":"永久删除","en":"Permanently delete"},"description":{"zh":"永久删除选中的邮件或项目","en":"Permanently delete the selected message or item"},"windows":"Shift + Delete","mac":"⌘ ⇧ Delete","linux":"Shift + Delete","keywords":["永久删除","delete","彻底删除"],"pinyin":"yong jiu shan chu yongjiushanchu y j s c yjsc yong jiu shan chu   che di shan chu yongjiushanchu chedishanchu y j s c   c d s c yjsc cdsc"},{"id":"outlook-mark-read","appId":"outlook","type":"software","category":"productivity","name":{"zh":"标记为已读","en":"Mark as read"},"description":{"zh":"将选中会话标记为已读","en":"Mark the selected conversation as read"},"windows":"Ctrl + Q","mac":"⌘ Q","linux":"—","keywords":["已读","read","标记"],"pinyin":"biao ji wei yi du biaojiweiyidu b j w y d bjwyd yi du   biao ji yidu biaoji y d   b j yd bj"},{"id":"outlook-mark-unread","appId":"outlook","type":"software","category":"productivity","name":{"zh":"标记为未读","en":"Mark as unread"},"description":{"zh":"将选中会话标记为未读","en":"Mark the selected conversation as unread"},"windows":"Ctrl + U","mac":"⌘ U","linux":"—","keywords":["未读","unread","标记"],"pinyin":"biao ji wei wei du biaojiweiweidu b j w w d bjwwd wei du   biao ji weidu biaoji w d   b j wd bj"},{"id":"outlook-flag","appId":"outlook","type":"software","category":"productivity","name":{"zh":"旗帜标记","en":"Flag / mark complete"},"description":{"zh":"为邮件添加旗帜或标记完成","en":"Flag a message or mark a flagged message as complete"},"windows":"Insert","mac":"—","linux":"Insert","keywords":["旗帜","flag","标记","提醒"],"pinyin":"qi zhi biao ji qizhibiaoji q z b j qzbj qi zhi   biao ji   ti xing qizhi biaoji tixing q z   b j   t x qz bj tx"},{"id":"outlook-next-msg","appId":"outlook","type":"software","category":"productivity","name":{"zh":"下一封邮件","en":"Next message"},"description":{"zh":"转到下一封邮件","en":"Go to the next message"},"windows":"Ctrl + >","mac":"⌘ >","linux":"—","keywords":["下一封","next","下一条"],"pinyin":"xia yi feng you jian xiayifengyoujian x y f y j xyfyj xia yi feng   xia yi tiao xiayifeng xiayitiao x y f   x y t xyf xyt"},{"id":"outlook-prev-msg","appId":"outlook","type":"software","category":"productivity","name":{"zh":"上一封邮件","en":"Previous message"},"description":{"zh":"转到上一封邮件","en":"Go to the previous message"},"windows":"Ctrl + <","mac":"⌘ <","linux":"—","keywords":["上一封","previous","上一条"],"pinyin":"shang yi feng you jian shangyifengyoujian s y f y j syfyj shang yi feng   shang yi tiao shangyifeng shangyitiao s y f   s y t syf syt"},{"id":"outlook-first-msg","appId":"outlook","type":"software","category":"productivity","name":{"zh":"第一封邮件","en":"First message"},"description":{"zh":"转到文件夹中的第一封邮件","en":"Go to the first message in the folder"},"windows":"Home","mac":"⌘ Home","linux":"Home","keywords":["第一封","first","顶部"],"pinyin":"di yi feng you jian diyifengyoujian d y f y j dyfyj di yi feng   ding bu diyifeng dingbu d y f   d b dyf db"},{"id":"outlook-go-mail","appId":"outlook","type":"software","category":"productivity","name":{"zh":"转到邮件","en":"Go to Mail"},"description":{"zh":"切换到邮件视图","en":"Switch to the Mail view"},"windows":"Ctrl + 1","mac":"⌘ 1","linux":"—","keywords":["邮件","mail","视图"],"pinyin":"zhuan dao you jian zhuandaoyoujian z d y j zdyj you jian   shi tu youjian shitu y j   s t yj st"},{"id":"outlook-go-calendar","appId":"outlook","type":"software","category":"productivity","name":{"zh":"转到日历","en":"Go to Calendar"},"description":{"zh":"切换到日历视图","en":"Switch to the Calendar view"},"windows":"Ctrl + 2","mac":"⌘ 2","linux":"—","keywords":["日历","calendar","日程"],"pinyin":"zhuan dao ri li zhuandaorili z d r l zdrl ri li   ri cheng rili richeng r l   r c rl rc"},{"id":"outlook-go-people","appId":"outlook","type":"software","category":"productivity","name":{"zh":"转到联系人","en":"Go to People"},"description":{"zh":"切换到联系人视图","en":"Switch to the People view"},"windows":"Ctrl + 4","mac":"⌘ 4","linux":"—","keywords":["联系人","people","通讯录"],"pinyin":"zhuan dao lian xi ren zhuandaolianxiren z d l x r zdlxr lian xi ren   tong xun lu lianxiren tongxunlu l x r   t x l lxr txl"},{"id":"outlook-go-todo","appId":"outlook","type":"software","category":"productivity","name":{"zh":"转到待办","en":"Go to To Do"},"description":{"zh":"切换到待办视图","en":"Switch to the To Do view"},"windows":"Ctrl + 5","mac":"⌘ 5","linux":"—","keywords":["待办","todo","任务"],"pinyin":"zhuan dao dai ban zhuandaodaiban z d d b zddb dai ban   ren wu daiban renwu d b   r w db rw"},{"id":"outlook-go-folder","appId":"outlook","type":"software","category":"productivity","name":{"zh":"转到文件夹窗格","en":"Go to Folder pane"},"description":{"zh":"转到文件夹窗格","en":"Go to the Folder pane"},"windows":"Ctrl + Y","mac":"⌘ Y","linux":"—","keywords":["文件夹","folder","窗格"],"pinyin":"zhuan dao wen jian jia chuang ge zhuandaowenjianjiachuangge z d w j j c g zdwjjcg wen jian jia   chuang ge wenjianjia chuangge w j j   c g wjj cg"},{"id":"outlook-search","appId":"outlook","type":"software","category":"productivity","name":{"zh":"搜索","en":"Search"},"description":{"zh":"转到搜索框查找邮件","en":"Go to the Search box to find an item"},"windows":"Ctrl + E","mac":"⌘ E","linux":"—","keywords":["搜索","search","查找"],"pinyin":"sou suo sousuo s s ss sou suo   cha zhao sousuo chazhao s s   c z ss cz"},{"id":"outlook-cancel-search","appId":"outlook","type":"software","category":"productivity","name":{"zh":"取消搜索","en":"Cancel search"},"description":{"zh":"取消当前搜索","en":"Cancel a search"},"windows":"Esc","mac":"Esc","linux":"Esc","keywords":["取消","cancel","搜索"],"pinyin":"qu xiao sou suo quxiaosousuo q x s s qxss qu xiao   sou suo quxiao sousuo q x   s s qx ss"},{"id":"outlook-shortcuts-help","appId":"outlook","type":"software","category":"productivity","name":{"zh":"快捷键帮助","en":"Keyboard shortcuts help"},"description":{"zh":"打开键盘快捷键列表","en":"Open the keyboard shortcuts list"},"windows":"?","mac":"?","linux":"?","keywords":["快捷键","shortcuts","帮助","help"],"pinyin":"kuai jie jian bang zhu kuaijiejianbangzhu k j j b z kjjbz kuai jie jian   bang zhu kuaijiejian bangzhu k j j   b z kjj bz"},{"id":"outlook-copy","appId":"outlook","type":"software","category":"productivity","name":{"zh":"复制","en":"Copy"},"description":{"zh":"将选中内容复制到剪贴板","en":"Copy the selection to the clipboard"},"windows":"Ctrl + C","mac":"⌘ C","linux":"Ctrl + C","keywords":["复制","copy"],"pinyin":"fu zhi fuzhi f z fz fu zhi fuzhi f z fz"},{"id":"outlook-cut","appId":"outlook","type":"software","category":"productivity","name":{"zh":"剪切","en":"Cut"},"description":{"zh":"剪切选中的文本","en":"Cut the selected text"},"windows":"Ctrl + X","mac":"⌘ X","linux":"Ctrl + X","keywords":["剪切","cut"],"pinyin":"jian qie jianqie j q jq jian qie jianqie j q jq"},{"id":"outlook-paste","appId":"outlook","type":"software","category":"productivity","name":{"zh":"粘贴","en":"Paste"},"description":{"zh":"从剪贴板粘贴内容","en":"Paste content from the clipboard"},"windows":"Ctrl + V","mac":"⌘ V","linux":"Ctrl + V","keywords":["粘贴","paste"],"pinyin":"nian tie niantie n t nt nian tie niantie n t nt"},{"id":"outlook-undo","appId":"outlook","type":"software","category":"productivity","name":{"zh":"撤销","en":"Undo"},"description":{"zh":"撤销上一步操作","en":"Reverse the most recent action"},"windows":"Ctrl + Z","mac":"⌘ Z","linux":"Ctrl + Z","keywords":["撤销","undo"],"pinyin":"che xiao chexiao c x cx che xiao chexiao c x cx"},{"id":"outlook-redo","appId":"outlook","type":"software","category":"productivity","name":{"zh":"重做","en":"Redo"},"description":{"zh":"重做已撤销的操作","en":"Repeat the most recent action"},"windows":"—","mac":"—","linux":"—","keywords":["重做","redo"],"pinyin":"zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"},{"id":"outlook-bold","appId":"outlook","type":"software","category":"productivity","name":{"zh":"加粗","en":"Bold"},"description":{"zh":"应用加粗格式","en":"Apply bold formatting"},"windows":"Ctrl + B","mac":"⌘ B","linux":"Ctrl + B","keywords":["加粗","bold","粗体"],"pinyin":"jia cu jiacu j c jc jia cu   cu ti jiacu cuti j c   c t jc ct"},{"id":"outlook-italic","appId":"outlook","type":"software","category":"productivity","name":{"zh":"斜体","en":"Italic"},"description":{"zh":"应用斜体格式","en":"Apply italic formatting"},"windows":"Ctrl + I","mac":"⌘ I","linux":"Ctrl + I","keywords":["斜体","italic"],"pinyin":"xie ti xieti x t xt xie ti xieti x t xt"},{"id":"outlook-insert-link","appId":"outlook","type":"software","category":"productivity","name":{"zh":"插入链接","en":"Insert link"},"description":{"zh":"插入超链接","en":"Insert a hyperlink"},"windows":"Ctrl + K","mac":"⌘ K","linux":"Ctrl + K","keywords":["链接","link","超链接"],"pinyin":"cha ru lian jie charulianjie c r l j crlj lian jie   chao lian jie lianjie chaolianjie l j   c l j lj clj"},{"id":"outlook-day-view","appId":"outlook","type":"software","category":"productivity","name":{"zh":"日视图","en":"Day view"},"description":{"zh":"日历切换到日视图","en":"Switch the calendar to Day view"},"windows":"Ctrl + Alt + 1","mac":"⌘ ⌥ 1","linux":"—","keywords":["日视图","day","日历"],"pinyin":"ri shi tu rishitu r s t rst ri shi tu   ri li rishitu rili r s t   r l rst rl"},{"id":"outlook-week-view","appId":"outlook","type":"software","category":"productivity","name":{"zh":"周视图","en":"Week view"},"description":{"zh":"日历切换到周视图","en":"Switch the calendar to Week view"},"windows":"Ctrl + Alt + 2","mac":"⌘ ⌥ 2","linux":"—","keywords":["周视图","week","日历"],"pinyin":"zhou shi tu zhoushitu z s t zst zhou shi tu   ri li zhoushitu rili z s t   r l zst rl"},{"id":"outlook-month-view","appId":"outlook","type":"software","category":"productivity","name":{"zh":"月视图","en":"Month view"},"description":{"zh":"日历切换到月视图","en":"Switch the calendar to Month view"},"windows":"Ctrl + Alt + 4","mac":"⌘ ⌥ 4","linux":"—","keywords":["月视图","month","日历"],"pinyin":"yue shi tu yueshitu y s t yst yue shi tu   ri li yueshitu rili y s t   r l yst rl"},{"id":"outlook-new-contact","appId":"outlook","type":"software","category":"productivity","name":{"zh":"新建联系人","en":"New contact"},"description":{"zh":"创建新联系人","en":"Create a contact"},"windows":"Ctrl + Shift + C","mac":"⌘ ⇧ C","linux":"—","keywords":["联系人","contact","新建"],"pinyin":"xin jian lian xi ren xinjianlianxiren x j l x r xjlxr lian xi ren   xin jian lianxiren xinjian l x r   x j lxr xj"},{"id":"outlook-save-contact","appId":"outlook","type":"software","category":"productivity","name":{"zh":"保存联系人","en":"Save contact"},"description":{"zh":"保存联系人","en":"Save a contact or contact list"},"windows":"Ctrl + S","mac":"⌘ S","linux":"—","keywords":["保存","save","联系人"],"pinyin":"bao cun lian xi ren baocunlianxiren b c l x r bclxr bao cun   lian xi ren baocun lianxiren b c   l x r bc lxr"},{"id":"outlook-select-all-contacts","appId":"outlook","type":"software","category":"productivity","name":{"zh":"全选联系人","en":"Select all contacts"},"description":{"zh":"选中所有联系人或联系人列表","en":"Select all contacts or contact lists"},"windows":"Ctrl + A","mac":"⌘ A","linux":"—","keywords":["全选","select all","联系人"],"pinyin":"quan xuan lian xi ren quanxuanlianxiren q x l x r qxlxr quan xuan   lian xi ren quanxuan lianxiren q x   l x r qx lxr"},{"id":"outlook-print","appId":"outlook","type":"software","category":"productivity","name":{"zh":"打印","en":"Print"},"description":{"zh":"打印当前项目","en":"Print the item"},"windows":"Ctrl + P","mac":"⌘ P","linux":"Ctrl + P","keywords":["打印","print"],"pinyin":"da yin dayin d y dy da yin dayin d y dy"},{"id":"outlook-categorize","appId":"outlook","type":"software","category":"productivity","name":{"zh":"分类","en":"Categorize"},"description":{"zh":"为邮件或项目设置颜色分类","en":"Categorize a message or item with color category"},"windows":"Ctrl + Shift + G","mac":"—","linux":"—","keywords":["分类","categorize","标签","category","颜色"],"pinyin":"fen lei fenlei f l fl fen lei   biao qian   yan se fenlei biaoqian yanse f l   b q   y s fl bq ys"},{"id":"outlook-accept-meeting","appId":"outlook","type":"software","category":"productivity","name":{"zh":"接受会议","en":"Accept meeting"},"description":{"zh":"接受会议邀请","en":"Accept a meeting request"},"windows":"—","mac":"—","linux":"—","keywords":["接受","accept","会议","meeting","邀请"],"pinyin":"jie shou hui yi jieshouhuiyi j s h y jshy jie shou   hui yi   yao qing jieshou huiyi yaoqing j s   h y   y q js hy yq"},{"id":"outlook-decline-meeting","appId":"outlook","type":"software","category":"productivity","name":{"zh":"拒绝会议","en":"Decline meeting"},"description":{"zh":"拒绝会议邀请","en":"Decline a meeting request"},"windows":"—","mac":"—","linux":"—","keywords":["拒绝","decline","会议","meeting"],"pinyin":"ju jue hui yi jujuehuiyi j j h y jjhy ju jue   hui yi jujue huiyi j j   h y jj hy"},{"id":"outlook-toggle-reading-pane","appId":"outlook","type":"software","category":"productivity","name":{"zh":"切换阅读窗格","en":"Toggle reading pane"},"description":{"zh":"切换阅读窗格的显示/隐藏","en":"Toggle the reading pane on/off"},"windows":"Alt + W","mac":"—","linux":"—","keywords":["阅读窗格","reading pane","窗格","pane"],"pinyin":"qie huan yue du chuang ge qiehuanyueduchuangge q h y d c g qhydcg yue du chuang ge   chuang ge yueduchuangge chuangge y d c g   c g ydcg cg"},{"id":"outlook-switch-notes","appId":"outlook","type":"software","category":"productivity","name":{"zh":"转到笔记","en":"Go to Notes"},"description":{"zh":"切换到笔记视图（经典版）","en":"Switch to Notes view (Classic)"},"windows":"Ctrl + Shift + N","mac":"—","linux":"—","keywords":["笔记","notes","视图"],"pinyin":"zhuan dao bi ji zhuandaobiji z d b j zdbj bi ji   shi tu biji shitu b j   s t bj st"}]
+[
+  {
+    "id": "outlook-new-item",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "新建邮件/事件",
+      "en": "New message or event"
+    },
+    "description": {
+      "zh": "创建新邮件或日历事件",
+      "en": "Create a new message or calendar event"
+    },
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
+    "linux": "—",
+    "keywords": [
+      "新建",
+      "new",
+      "邮件",
+      "mail",
+      "事件"
+    ],
+    "pinyin": "xin jian you jian / shi jian xinjianyoujian/shijian x j y j / s j xjyj/sj xin jian   you jian   shi jian xinjian youjian shijian x j   y j   s j xj yj sj"
+  },
+  {
+    "id": "outlook-reply",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "回复",
+      "en": "Reply"
+    },
+    "description": {
+      "zh": "回复邮件",
+      "en": "Reply to the message"
+    },
+    "windows": "Ctrl + R",
+    "mac": "⌘ R",
+    "linux": "—",
+    "keywords": [
+      "回复",
+      "reply",
+      "回信"
+    ],
+    "pinyin": "hui fu huifu h f hf hui fu   hui xin huifu huixin h f   h x hf hx"
+  },
+  {
+    "id": "outlook-reply-all",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "回复全部",
+      "en": "Reply all"
+    },
+    "description": {
+      "zh": "回复发件人和所有收件人",
+      "en": "Reply to sender and all recipients"
+    },
+    "windows": "Ctrl + Shift + R",
+    "mac": "⌘ ⇧ R",
+    "linux": "—",
+    "keywords": [
+      "回复全部",
+      "reply all",
+      "全体回复"
+    ],
+    "pinyin": "hui fu quan bu huifuquanbu h f q b hfqb hui fu quan bu   quan ti hui fu huifuquanbu quantihuifu h f q b   q t h f hfqb qthf"
+  },
+  {
+    "id": "outlook-forward",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "转发",
+      "en": "Forward"
+    },
+    "description": {
+      "zh": "转发邮件",
+      "en": "Forward the message"
+    },
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
+    "linux": "—",
+    "keywords": [
+      "转发",
+      "forward",
+      "转寄"
+    ],
+    "pinyin": "zhuan fa zhuanfa z f zf zhuan fa   zhuan ji zhuanfa zhuanji z f   z j zf zj"
+  },
+  {
+    "id": "outlook-send",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "发送",
+      "en": "Send"
+    },
+    "description": {
+      "zh": "发送邮件",
+      "en": "Send the email message"
+    },
+    "windows": "Ctrl + Enter",
+    "mac": "⌘ Enter",
+    "linux": "—",
+    "keywords": [
+      "发送",
+      "send",
+      "寄出"
+    ],
+    "pinyin": "fa song fasong f s fs fa song   ji chu fasong jichu f s   j c fs jc"
+  },
+  {
+    "id": "outlook-open-new-window",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "在新窗口打开",
+      "en": "Open in new window"
+    },
+    "description": {
+      "zh": "在新窗口打开选中的邮件",
+      "en": "Open the selected message in a new window"
+    },
+    "windows": "Shift + Enter",
+    "mac": "⇧ Enter",
+    "linux": "—",
+    "keywords": [
+      "新窗口",
+      "open",
+      "窗口"
+    ],
+    "pinyin": "zai xin chuang kou da kai zaixinchuangkoudakai z x c k d k zxckdk xin chuang kou   chuang kou xinchuangkou chuangkou x c k   c k xck ck"
+  },
+  {
+    "id": "outlook-delete",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "删除",
+      "en": "Delete"
+    },
+    "description": {
+      "zh": "删除邮件或项目",
+      "en": "Delete message or item"
+    },
+    "windows": "Delete",
+    "mac": "⌫",
+    "linux": "Delete",
+    "keywords": [
+      "删除",
+      "delete",
+      "移除"
+    ],
+    "pinyin": "shan chu shanchu s c sc shan chu   yi chu shanchu yichu s c   y c sc yc"
+  },
+  {
+    "id": "outlook-delete-perm",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "永久删除",
+      "en": "Permanently delete"
+    },
+    "description": {
+      "zh": "永久删除选中的邮件或项目",
+      "en": "Permanently delete the selected message or item"
+    },
+    "windows": "Shift + Delete",
+    "mac": "⌘ ⇧ Delete",
+    "linux": "Shift + Delete",
+    "keywords": [
+      "永久删除",
+      "delete",
+      "彻底删除"
+    ],
+    "pinyin": "yong jiu shan chu yongjiushanchu y j s c yjsc yong jiu shan chu   che di shan chu yongjiushanchu chedishanchu y j s c   c d s c yjsc cdsc"
+  },
+  {
+    "id": "outlook-mark-read",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "标记为已读",
+      "en": "Mark as read"
+    },
+    "description": {
+      "zh": "将选中会话标记为已读",
+      "en": "Mark the selected conversation as read"
+    },
+    "windows": "Ctrl + Q",
+    "mac": "⌘ Q",
+    "linux": "—",
+    "keywords": [
+      "已读",
+      "read",
+      "标记"
+    ],
+    "pinyin": "biao ji wei yi du biaojiweiyidu b j w y d bjwyd yi du   biao ji yidu biaoji y d   b j yd bj"
+  },
+  {
+    "id": "outlook-mark-unread",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "标记为未读",
+      "en": "Mark as unread"
+    },
+    "description": {
+      "zh": "将选中会话标记为未读",
+      "en": "Mark the selected conversation as unread"
+    },
+    "windows": "Ctrl + U",
+    "mac": "⌘ U",
+    "linux": "—",
+    "keywords": [
+      "未读",
+      "unread",
+      "标记"
+    ],
+    "pinyin": "biao ji wei wei du biaojiweiweidu b j w w d bjwwd wei du   biao ji weidu biaoji w d   b j wd bj"
+  },
+  {
+    "id": "outlook-flag",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "旗帜标记",
+      "en": "Flag / mark complete"
+    },
+    "description": {
+      "zh": "为邮件添加旗帜或标记完成",
+      "en": "Flag a message or mark a flagged message as complete"
+    },
+    "windows": "Insert",
+    "mac": "—",
+    "linux": "Insert",
+    "keywords": [
+      "旗帜",
+      "flag",
+      "标记",
+      "提醒"
+    ],
+    "pinyin": "qi zhi biao ji qizhibiaoji q z b j qzbj qi zhi   biao ji   ti xing qizhi biaoji tixing q z   b j   t x qz bj tx"
+  },
+  {
+    "id": "outlook-next-msg",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "下一封邮件",
+      "en": "Next message"
+    },
+    "description": {
+      "zh": "转到下一封邮件",
+      "en": "Go to the next message"
+    },
+    "windows": "Ctrl + >",
+    "mac": "⌘ >",
+    "linux": "—",
+    "keywords": [
+      "下一封",
+      "next",
+      "下一条"
+    ],
+    "pinyin": "xia yi feng you jian xiayifengyoujian x y f y j xyfyj xia yi feng   xia yi tiao xiayifeng xiayitiao x y f   x y t xyf xyt"
+  },
+  {
+    "id": "outlook-prev-msg",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "上一封邮件",
+      "en": "Previous message"
+    },
+    "description": {
+      "zh": "转到上一封邮件",
+      "en": "Go to the previous message"
+    },
+    "windows": "Ctrl + <",
+    "mac": "⌘ <",
+    "linux": "—",
+    "keywords": [
+      "上一封",
+      "previous",
+      "上一条"
+    ],
+    "pinyin": "shang yi feng you jian shangyifengyoujian s y f y j syfyj shang yi feng   shang yi tiao shangyifeng shangyitiao s y f   s y t syf syt"
+  },
+  {
+    "id": "outlook-first-msg",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "第一封邮件",
+      "en": "First message"
+    },
+    "description": {
+      "zh": "转到文件夹中的第一封邮件",
+      "en": "Go to the first message in the folder"
+    },
+    "windows": "Home",
+    "mac": "⌘ Home",
+    "linux": "Home",
+    "keywords": [
+      "第一封",
+      "first",
+      "顶部"
+    ],
+    "pinyin": "di yi feng you jian diyifengyoujian d y f y j dyfyj di yi feng   ding bu diyifeng dingbu d y f   d b dyf db"
+  },
+  {
+    "id": "outlook-go-mail",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "转到邮件",
+      "en": "Go to Mail"
+    },
+    "description": {
+      "zh": "切换到邮件视图",
+      "en": "Switch to the Mail view"
+    },
+    "windows": "Ctrl + 1",
+    "mac": "⌘ 1",
+    "linux": "—",
+    "keywords": [
+      "邮件",
+      "mail",
+      "视图"
+    ],
+    "pinyin": "zhuan dao you jian zhuandaoyoujian z d y j zdyj you jian   shi tu youjian shitu y j   s t yj st"
+  },
+  {
+    "id": "outlook-go-calendar",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "转到日历",
+      "en": "Go to Calendar"
+    },
+    "description": {
+      "zh": "切换到日历视图",
+      "en": "Switch to the Calendar view"
+    },
+    "windows": "Ctrl + 2",
+    "mac": "⌘ 2",
+    "linux": "—",
+    "keywords": [
+      "日历",
+      "calendar",
+      "日程"
+    ],
+    "pinyin": "zhuan dao ri li zhuandaorili z d r l zdrl ri li   ri cheng rili richeng r l   r c rl rc"
+  },
+  {
+    "id": "outlook-go-people",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "转到联系人",
+      "en": "Go to People"
+    },
+    "description": {
+      "zh": "切换到联系人视图",
+      "en": "Switch to the People view"
+    },
+    "windows": "Ctrl + 4",
+    "mac": "⌘ 4",
+    "linux": "—",
+    "keywords": [
+      "联系人",
+      "people",
+      "通讯录"
+    ],
+    "pinyin": "zhuan dao lian xi ren zhuandaolianxiren z d l x r zdlxr lian xi ren   tong xun lu lianxiren tongxunlu l x r   t x l lxr txl"
+  },
+  {
+    "id": "outlook-go-todo",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "转到待办",
+      "en": "Go to To Do"
+    },
+    "description": {
+      "zh": "切换到待办视图",
+      "en": "Switch to the To Do view"
+    },
+    "windows": "Ctrl + 5",
+    "mac": "⌘ 5",
+    "linux": "—",
+    "keywords": [
+      "待办",
+      "todo",
+      "任务"
+    ],
+    "pinyin": "zhuan dao dai ban zhuandaodaiban z d d b zddb dai ban   ren wu daiban renwu d b   r w db rw"
+  },
+  {
+    "id": "outlook-go-folder",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "转到文件夹窗格",
+      "en": "Go to Folder pane"
+    },
+    "description": {
+      "zh": "转到文件夹窗格",
+      "en": "Go to the Folder pane"
+    },
+    "windows": "Ctrl + Y",
+    "mac": "⌘ Y",
+    "linux": "—",
+    "keywords": [
+      "文件夹",
+      "folder",
+      "窗格"
+    ],
+    "pinyin": "zhuan dao wen jian jia chuang ge zhuandaowenjianjiachuangge z d w j j c g zdwjjcg wen jian jia   chuang ge wenjianjia chuangge w j j   c g wjj cg"
+  },
+  {
+    "id": "outlook-search",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "搜索",
+      "en": "Search"
+    },
+    "description": {
+      "zh": "转到搜索框查找邮件",
+      "en": "Go to the Search box to find an item"
+    },
+    "windows": "Ctrl + E",
+    "mac": "⌘ E",
+    "linux": "—",
+    "keywords": [
+      "搜索",
+      "search",
+      "查找"
+    ],
+    "pinyin": "sou suo sousuo s s ss sou suo   cha zhao sousuo chazhao s s   c z ss cz"
+  },
+  {
+    "id": "outlook-cancel-search",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "取消搜索",
+      "en": "Cancel search"
+    },
+    "description": {
+      "zh": "取消当前搜索",
+      "en": "Cancel a search"
+    },
+    "windows": "Esc",
+    "mac": "Esc",
+    "linux": "Esc",
+    "keywords": [
+      "取消",
+      "cancel",
+      "搜索"
+    ],
+    "pinyin": "qu xiao sou suo quxiaosousuo q x s s qxss qu xiao   sou suo quxiao sousuo q x   s s qx ss"
+  },
+  {
+    "id": "outlook-shortcuts-help",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "快捷键帮助",
+      "en": "Keyboard shortcuts help"
+    },
+    "description": {
+      "zh": "打开键盘快捷键列表",
+      "en": "Open the keyboard shortcuts list"
+    },
+    "windows": "?",
+    "mac": "?",
+    "linux": "?",
+    "keywords": [
+      "快捷键",
+      "shortcuts",
+      "帮助",
+      "help"
+    ],
+    "pinyin": "kuai jie jian bang zhu kuaijiejianbangzhu k j j b z kjjbz kuai jie jian   bang zhu kuaijiejian bangzhu k j j   b z kjj bz"
+  },
+  {
+    "id": "outlook-copy",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "复制",
+      "en": "Copy"
+    },
+    "description": {
+      "zh": "将选中内容复制到剪贴板",
+      "en": "Copy the selection to the clipboard"
+    },
+    "windows": "Ctrl + C",
+    "mac": "⌘ C",
+    "linux": "Ctrl + C",
+    "keywords": [
+      "复制",
+      "copy"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "outlook-cut",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "剪切",
+      "en": "Cut"
+    },
+    "description": {
+      "zh": "剪切选中的文本",
+      "en": "Cut the selected text"
+    },
+    "windows": "Ctrl + X",
+    "mac": "⌘ X",
+    "linux": "Ctrl + X",
+    "keywords": [
+      "剪切",
+      "cut"
+    ],
+    "pinyin": "jian qie jianqie j q jq jian qie jianqie j q jq"
+  },
+  {
+    "id": "outlook-paste",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "粘贴",
+      "en": "Paste"
+    },
+    "description": {
+      "zh": "从剪贴板粘贴内容",
+      "en": "Paste content from the clipboard"
+    },
+    "windows": "Ctrl + V",
+    "mac": "⌘ V",
+    "linux": "Ctrl + V",
+    "keywords": [
+      "粘贴",
+      "paste"
+    ],
+    "pinyin": "nian tie niantie n t nt nian tie niantie n t nt"
+  },
+  {
+    "id": "outlook-undo",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销上一步操作",
+      "en": "Reverse the most recent action"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "Ctrl + Z",
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "outlook-redo",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "重做已撤销的操作",
+      "en": "Repeat the most recent action"
+    },
+    "windows": "—",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "重做",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "outlook-bold",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "加粗",
+      "en": "Bold"
+    },
+    "description": {
+      "zh": "应用加粗格式",
+      "en": "Apply bold formatting"
+    },
+    "windows": "Ctrl + B",
+    "mac": "⌘ B",
+    "linux": "Ctrl + B",
+    "keywords": [
+      "加粗",
+      "bold",
+      "粗体"
+    ],
+    "pinyin": "jia cu jiacu j c jc jia cu   cu ti jiacu cuti j c   c t jc ct"
+  },
+  {
+    "id": "outlook-italic",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "斜体",
+      "en": "Italic"
+    },
+    "description": {
+      "zh": "应用斜体格式",
+      "en": "Apply italic formatting"
+    },
+    "windows": "Ctrl + I",
+    "mac": "⌘ I",
+    "linux": "Ctrl + I",
+    "keywords": [
+      "斜体",
+      "italic"
+    ],
+    "pinyin": "xie ti xieti x t xt xie ti xieti x t xt"
+  },
+  {
+    "id": "outlook-insert-link",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "插入链接",
+      "en": "Insert link"
+    },
+    "description": {
+      "zh": "插入超链接",
+      "en": "Insert a hyperlink"
+    },
+    "windows": "Ctrl + K",
+    "mac": "⌘ K",
+    "linux": "Ctrl + K",
+    "keywords": [
+      "链接",
+      "link",
+      "超链接"
+    ],
+    "pinyin": "cha ru lian jie charulianjie c r l j crlj lian jie   chao lian jie lianjie chaolianjie l j   c l j lj clj"
+  },
+  {
+    "id": "outlook-day-view",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "日视图",
+      "en": "Day view"
+    },
+    "description": {
+      "zh": "日历切换到日视图",
+      "en": "Switch the calendar to Day view"
+    },
+    "windows": "Ctrl + Alt + 1",
+    "mac": "⌘ ⌥ 1",
+    "linux": "—",
+    "keywords": [
+      "日视图",
+      "day",
+      "日历"
+    ],
+    "pinyin": "ri shi tu rishitu r s t rst ri shi tu   ri li rishitu rili r s t   r l rst rl"
+  },
+  {
+    "id": "outlook-week-view",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "周视图",
+      "en": "Week view"
+    },
+    "description": {
+      "zh": "日历切换到周视图",
+      "en": "Switch the calendar to Week view"
+    },
+    "windows": "Ctrl + Alt + 2",
+    "mac": "⌘ ⌥ 2",
+    "linux": "—",
+    "keywords": [
+      "周视图",
+      "week",
+      "日历"
+    ],
+    "pinyin": "zhou shi tu zhoushitu z s t zst zhou shi tu   ri li zhoushitu rili z s t   r l zst rl"
+  },
+  {
+    "id": "outlook-month-view",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "月视图",
+      "en": "Month view"
+    },
+    "description": {
+      "zh": "日历切换到月视图",
+      "en": "Switch the calendar to Month view"
+    },
+    "windows": "Ctrl + Alt + 4",
+    "mac": "⌘ ⌥ 4",
+    "linux": "—",
+    "keywords": [
+      "月视图",
+      "month",
+      "日历"
+    ],
+    "pinyin": "yue shi tu yueshitu y s t yst yue shi tu   ri li yueshitu rili y s t   r l yst rl"
+  },
+  {
+    "id": "outlook-new-contact",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "新建联系人",
+      "en": "New contact"
+    },
+    "description": {
+      "zh": "创建新联系人",
+      "en": "Create a contact"
+    },
+    "windows": "Ctrl + Shift + C",
+    "mac": "⌘ ⇧ C",
+    "linux": "—",
+    "keywords": [
+      "联系人",
+      "contact",
+      "新建"
+    ],
+    "pinyin": "xin jian lian xi ren xinjianlianxiren x j l x r xjlxr lian xi ren   xin jian lianxiren xinjian l x r   x j lxr xj"
+  },
+  {
+    "id": "outlook-save-contact",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "保存联系人",
+      "en": "Save contact"
+    },
+    "description": {
+      "zh": "保存联系人",
+      "en": "Save a contact or contact list"
+    },
+    "windows": "Ctrl + S",
+    "mac": "⌘ S",
+    "linux": "—",
+    "keywords": [
+      "保存",
+      "save",
+      "联系人"
+    ],
+    "pinyin": "bao cun lian xi ren baocunlianxiren b c l x r bclxr bao cun   lian xi ren baocun lianxiren b c   l x r bc lxr"
+  },
+  {
+    "id": "outlook-select-all-contacts",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "全选联系人",
+      "en": "Select all contacts"
+    },
+    "description": {
+      "zh": "选中所有联系人或联系人列表",
+      "en": "Select all contacts or contact lists"
+    },
+    "windows": "Ctrl + A",
+    "mac": "⌘ A",
+    "linux": "—",
+    "keywords": [
+      "全选",
+      "select all",
+      "联系人"
+    ],
+    "pinyin": "quan xuan lian xi ren quanxuanlianxiren q x l x r qxlxr quan xuan   lian xi ren quanxuan lianxiren q x   l x r qx lxr"
+  },
+  {
+    "id": "outlook-print",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "打印",
+      "en": "Print"
+    },
+    "description": {
+      "zh": "打印当前项目",
+      "en": "Print the item"
+    },
+    "windows": "Ctrl + P",
+    "mac": "⌘ P",
+    "linux": "Ctrl + P",
+    "keywords": [
+      "打印",
+      "print"
+    ],
+    "pinyin": "da yin dayin d y dy da yin dayin d y dy"
+  },
+  {
+    "id": "outlook-categorize",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "分类",
+      "en": "Categorize"
+    },
+    "description": {
+      "zh": "为邮件或项目设置颜色分类",
+      "en": "Categorize a message or item with color category"
+    },
+    "windows": "Ctrl + Shift + G",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "分类",
+      "categorize",
+      "标签",
+      "category",
+      "颜色"
+    ],
+    "pinyin": "fen lei fenlei f l fl fen lei   biao qian   yan se fenlei biaoqian yanse f l   b q   y s fl bq ys"
+  },
+  {
+    "id": "outlook-accept-meeting",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "接受会议",
+      "en": "Accept meeting"
+    },
+    "description": {
+      "zh": "接受会议邀请",
+      "en": "Accept a meeting request"
+    },
+    "windows": "—",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "接受",
+      "accept",
+      "会议",
+      "meeting",
+      "邀请"
+    ],
+    "pinyin": "jie shou hui yi jieshouhuiyi j s h y jshy jie shou   hui yi   yao qing jieshou huiyi yaoqing j s   h y   y q js hy yq"
+  },
+  {
+    "id": "outlook-decline-meeting",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "拒绝会议",
+      "en": "Decline meeting"
+    },
+    "description": {
+      "zh": "拒绝会议邀请",
+      "en": "Decline a meeting request"
+    },
+    "windows": "—",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "拒绝",
+      "decline",
+      "会议",
+      "meeting"
+    ],
+    "pinyin": "ju jue hui yi jujuehuiyi j j h y jjhy ju jue   hui yi jujue huiyi j j   h y jj hy"
+  },
+  {
+    "id": "outlook-toggle-reading-pane",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "切换阅读窗格",
+      "en": "Toggle reading pane"
+    },
+    "description": {
+      "zh": "切换阅读窗格的显示/隐藏",
+      "en": "Toggle the reading pane on/off"
+    },
+    "windows": "Alt + W",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "阅读窗格",
+      "reading pane",
+      "窗格",
+      "pane"
+    ],
+    "pinyin": "qie huan yue du chuang ge qiehuanyueduchuangge q h y d c g qhydcg yue du chuang ge   chuang ge yueduchuangge chuangge y d c g   c g ydcg cg"
+  },
+  {
+    "id": "outlook-switch-notes",
+    "appId": "outlook",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "转到笔记",
+      "en": "Go to Notes"
+    },
+    "description": {
+      "zh": "切换到笔记视图（经典版）",
+      "en": "Switch to Notes view (Classic)"
+    },
+    "windows": "Ctrl + Shift + N",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "笔记",
+      "notes",
+      "视图"
+    ],
+    "pinyin": "zhuan dao bi ji zhuandaobiji z d b j zdbj bi ji   shi tu biji shitu b j   s t bj st"
+  }
+]

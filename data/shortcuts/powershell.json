@@ -1,0 +1,641 @@
+[
+  {
+    "id": "powershell-cancel-copy",
+    "appId": "powershell",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Cancel / Copy",
+      "zh": "取消/复制"
+    },
+    "description": {
+      "en": "Cancel current input; copies selection if any",
+      "zh": "取消当前输入；若已选中文本则复制"
+    },
+    "windows": "Ctrl + C",
+    "mac": "Ctrl + C",
+    "linux": "Ctrl + C",
+    "keywords": [
+      "取消",
+      "复制",
+      "cancel",
+      "copy"
+    ],
+    "pinyin": "qu xiao / fu zhi quxiao/fuzhi q x / f z qx/fz qu xiao   fu zhi quxiao fuzhi q x   f z qx fz"
+  },
+  {
+    "id": "powershell-paste",
+    "appId": "powershell",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Paste",
+      "zh": "粘贴"
+    },
+    "description": {
+      "en": "Paste text from clipboard",
+      "zh": "从剪贴板粘贴文本"
+    },
+    "windows": "Ctrl + V",
+    "mac": "Ctrl + V",
+    "linux": "Ctrl + V",
+    "keywords": [
+      "粘贴",
+      "paste"
+    ],
+    "pinyin": "nian tie niantie n t nt nian tie niantie n t nt"
+  },
+  {
+    "id": "powershell-backspace",
+    "appId": "powershell",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Backspace char",
+      "zh": "删除字符"
+    },
+    "description": {
+      "en": "Delete character before cursor",
+      "zh": "删除光标前字符"
+    },
+    "windows": "Backspace",
+    "mac": "Backspace",
+    "linux": "Backspace",
+    "keywords": [
+      "删除",
+      "backspace"
+    ],
+    "pinyin": "shan chu zi fu shanchuzifu s c z f sczf shan chu shanchu s c sc"
+  },
+  {
+    "id": "powershell-delete-char",
+    "appId": "powershell",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Delete char forward",
+      "zh": "前删字符"
+    },
+    "description": {
+      "en": "Delete character at cursor",
+      "zh": "删除光标处字符"
+    },
+    "windows": "Ctrl + D",
+    "mac": "Ctrl + D",
+    "linux": "Ctrl + D",
+    "keywords": [
+      "删除",
+      "delete",
+      "forward"
+    ],
+    "pinyin": "qian shan zi fu qianshanzifu q s z f qszf shan chu shanchu s c sc"
+  },
+  {
+    "id": "powershell-clear-screen",
+    "appId": "powershell",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Clear screen",
+      "zh": "清屏"
+    },
+    "description": {
+      "en": "Clear the console screen",
+      "zh": "清除控制台屏幕"
+    },
+    "windows": "Ctrl + L",
+    "mac": "Ctrl + L",
+    "linux": "Ctrl + L",
+    "keywords": [
+      "清屏",
+      "clear",
+      "screen"
+    ],
+    "pinyin": "qing ping qingping q p qp qing ping qingping q p qp"
+  },
+  {
+    "id": "powershell-begin-line",
+    "appId": "powershell",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Start of line",
+      "zh": "行首"
+    },
+    "description": {
+      "en": "Move cursor to start of line",
+      "zh": "光标移到行首"
+    },
+    "windows": "Ctrl + Home",
+    "mac": "Ctrl + Home",
+    "linux": "Ctrl + Home",
+    "keywords": [
+      "行首",
+      "home",
+      "start"
+    ],
+    "pinyin": "hang shou hangshou h s hs hang shou hangshou h s hs"
+  },
+  {
+    "id": "powershell-end-line",
+    "appId": "powershell",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "End of line",
+      "zh": "行尾"
+    },
+    "description": {
+      "en": "Move cursor to end of line",
+      "zh": "光标移到行尾"
+    },
+    "windows": "Ctrl + End",
+    "mac": "Ctrl + End",
+    "linux": "Ctrl + End",
+    "keywords": [
+      "行尾",
+      "end"
+    ],
+    "pinyin": "hang wei hangwei h w hw hang wei hangwei h w hw"
+  },
+  {
+    "id": "powershell-left",
+    "appId": "powershell",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Left",
+      "zh": "左移"
+    },
+    "description": {
+      "en": "Move cursor left",
+      "zh": "光标左移"
+    },
+    "windows": "Left",
+    "mac": "Left",
+    "linux": "Left",
+    "keywords": [
+      "左移",
+      "left"
+    ],
+    "pinyin": "zuo yi zuoyi z y zy zuo yi zuoyi z y zy"
+  },
+  {
+    "id": "powershell-right",
+    "appId": "powershell",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Right",
+      "zh": "右移"
+    },
+    "description": {
+      "en": "Move cursor right",
+      "zh": "光标右移"
+    },
+    "windows": "Right",
+    "mac": "Right",
+    "linux": "Right",
+    "keywords": [
+      "右移",
+      "right"
+    ],
+    "pinyin": "you yi youyi y y yy you yi youyi y y yy"
+  },
+  {
+    "id": "powershell-word-left",
+    "appId": "powershell",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Word left",
+      "zh": "左移单词"
+    },
+    "description": {
+      "en": "Move back one word",
+      "zh": "左移一个单词"
+    },
+    "windows": "Ctrl + Left",
+    "mac": "Ctrl + Left",
+    "linux": "Ctrl + Left",
+    "keywords": [
+      "单词",
+      "word",
+      "left"
+    ],
+    "pinyin": "zuo yi dan ci zuoyidanci z y d c zydc dan ci danci d c dc"
+  },
+  {
+    "id": "powershell-word-right",
+    "appId": "powershell",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Word right",
+      "zh": "右移单词"
+    },
+    "description": {
+      "en": "Move forward one word",
+      "zh": "右移一个单词"
+    },
+    "windows": "Ctrl + Right",
+    "mac": "Ctrl + Right",
+    "linux": "Ctrl + Right",
+    "keywords": [
+      "单词",
+      "word",
+      "right"
+    ],
+    "pinyin": "you yi dan ci youyidanci y y d c yydc dan ci danci d c dc"
+  },
+  {
+    "id": "powershell-kill-line",
+    "appId": "powershell",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Delete to end",
+      "zh": "删到行尾"
+    },
+    "description": {
+      "en": "Delete from cursor to end of line",
+      "zh": "删除光标到行尾"
+    },
+    "windows": "Ctrl + K",
+    "mac": "Ctrl + K",
+    "linux": "Ctrl + K",
+    "keywords": [
+      "删除",
+      "kill",
+      "行尾"
+    ],
+    "pinyin": "shan dao hang wei shandaohangwei s d h w sdhw shan chu   hang wei shanchu hangwei s c   h w sc hw"
+  },
+  {
+    "id": "powershell-backward-kill-line",
+    "appId": "powershell",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Delete to start",
+      "zh": "删到行首"
+    },
+    "description": {
+      "en": "Delete from start to cursor",
+      "zh": "删除行首到光标"
+    },
+    "windows": "Ctrl + U",
+    "mac": "Ctrl + U",
+    "linux": "Ctrl + U",
+    "keywords": [
+      "删除",
+      "行首"
+    ],
+    "pinyin": "shan dao hang shou shandaohangshou s d h s sdhs shan chu   hang shou shanchu hangshou s c   h s sc hs"
+  },
+  {
+    "id": "powershell-history-prev",
+    "appId": "powershell",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Previous history",
+      "zh": "上一条历史"
+    },
+    "description": {
+      "en": "Move to previous history item",
+      "zh": "上一条命令历史"
+    },
+    "windows": "Up",
+    "mac": "Up",
+    "linux": "Up",
+    "keywords": [
+      "历史",
+      "history",
+      "prev"
+    ],
+    "pinyin": "shang yi tiao li shi shangyitiaolishi s y t l s sytls li shi lishi l s ls"
+  },
+  {
+    "id": "powershell-history-next",
+    "appId": "powershell",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Next history",
+      "zh": "下一条历史"
+    },
+    "description": {
+      "en": "Move to next history item",
+      "zh": "下一条命令历史"
+    },
+    "windows": "Down",
+    "mac": "Down",
+    "linux": "Down",
+    "keywords": [
+      "历史",
+      "history",
+      "next"
+    ],
+    "pinyin": "xia yi tiao li shi xiayitiaolishi x y t l s xytls li shi lishi l s ls"
+  },
+  {
+    "id": "powershell-search-bwd",
+    "appId": "powershell",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Search history back",
+      "zh": "向后搜历史"
+    },
+    "description": {
+      "en": "Search command history backward",
+      "zh": "向后搜索命令历史"
+    },
+    "windows": "Ctrl + R",
+    "mac": "Ctrl + R",
+    "linux": "Ctrl + R",
+    "keywords": [
+      "搜索",
+      "history",
+      "search"
+    ],
+    "pinyin": "xiang hou sou li shi xianghousoulishi x h s l s xhsls sou suo sousuo s s ss"
+  },
+  {
+    "id": "powershell-search-fwd",
+    "appId": "powershell",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Search history fwd",
+      "zh": "向前搜历史"
+    },
+    "description": {
+      "en": "Search command history forward",
+      "zh": "向前搜索命令历史"
+    },
+    "windows": "Ctrl + S",
+    "mac": "Ctrl + S",
+    "linux": "Ctrl + S",
+    "keywords": [
+      "搜索",
+      "history",
+      "forward"
+    ],
+    "pinyin": "xiang qian sou li shi xiangqiansoulishi x q s l s xqsls sou suo sousuo s s ss"
+  },
+  {
+    "id": "powershell-history-list",
+    "appId": "powershell",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "History list",
+      "zh": "历史列表"
+    },
+    "description": {
+      "en": "Open selectable command history",
+      "zh": "打开命令历史列表"
+    },
+    "windows": "F7",
+    "mac": "F7",
+    "linux": "F7",
+    "keywords": [
+      "历史",
+      "history",
+      "list"
+    ],
+    "pinyin": "li shi lie biao lishiliebiao l s l b lslb li shi lishi l s ls"
+  },
+  {
+    "id": "powershell-history-find",
+    "appId": "powershell",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Find in history",
+      "zh": "查找历史"
+    },
+    "description": {
+      "en": "Find in history by typed text",
+      "zh": "按输入文本查找历史"
+    },
+    "windows": "F8",
+    "mac": "F8",
+    "linux": "F8",
+    "keywords": [
+      "查找",
+      "history",
+      "find"
+    ],
+    "pinyin": "cha zhao li shi chazhaolishi c z l s czls cha zhao chazhao c z cz"
+  },
+  {
+    "id": "powershell-accept",
+    "appId": "powershell",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Execute",
+      "zh": "执行命令"
+    },
+    "description": {
+      "en": "Execute the current command line",
+      "zh": "执行当前命令行"
+    },
+    "windows": "Enter",
+    "mac": "Enter",
+    "linux": "Enter",
+    "keywords": [
+      "执行",
+      "enter",
+      "run"
+    ],
+    "pinyin": "zhi xing ming ling zhixingmingling z x m l zxml zhi xing zhixing z x zx"
+  },
+  {
+    "id": "powershell-complete",
+    "appId": "powershell",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Tab complete",
+      "zh": "补全"
+    },
+    "description": {
+      "en": "Tab completion of cmdlets/paths",
+      "zh": "Tab 补全命令/路径"
+    },
+    "windows": "Tab",
+    "mac": "Tab",
+    "linux": "Tab",
+    "keywords": [
+      "补全",
+      "tab",
+      "complete"
+    ],
+    "pinyin": "bu quan buquan b q bq bu quan buquan b q bq"
+  },
+  {
+    "id": "powershell-select-all",
+    "appId": "powershell",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Select all",
+      "zh": "全选"
+    },
+    "description": {
+      "en": "Select all console text",
+      "zh": "选中全部控制台文本"
+    },
+    "windows": "Ctrl + A",
+    "mac": "Ctrl + A",
+    "linux": "Ctrl + A",
+    "keywords": [
+      "全选",
+      "select",
+      "all"
+    ],
+    "pinyin": "quan xuan quanxuan q x qx quan xuan quanxuan q x qx"
+  },
+  {
+    "id": "powershell-cut-line",
+    "appId": "powershell",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Cut line",
+      "zh": "剪切行"
+    },
+    "description": {
+      "en": "Cut current line to clipboard",
+      "zh": "剪切当前行"
+    },
+    "windows": "Ctrl + X",
+    "mac": "Ctrl + X",
+    "linux": "Ctrl + X",
+    "keywords": [
+      "剪切",
+      "cut",
+      "line"
+    ],
+    "pinyin": "jian qie xing jianqiexing j q x jqx jian qie jianqie j q jq"
+  },
+  {
+    "id": "powershell-yank",
+    "appId": "powershell",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Yank",
+      "zh": "粘贴"
+    },
+    "description": {
+      "en": "Paste cut text",
+      "zh": "粘贴剪切的文本"
+    },
+    "windows": "Ctrl + Y",
+    "mac": "Ctrl + Y",
+    "linux": "Ctrl + Y",
+    "keywords": [
+      "粘贴",
+      "yank",
+      "paste"
+    ],
+    "pinyin": "nian tie niantie n t nt nian tie niantie n t nt"
+  },
+  {
+    "id": "powershell-transpose",
+    "appId": "powershell",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Swap chars",
+      "zh": "交换字符"
+    },
+    "description": {
+      "en": "Swap the last two characters",
+      "zh": "交换最后两个字符"
+    },
+    "windows": "Ctrl + T",
+    "mac": "Ctrl + T",
+    "linux": "Ctrl + T",
+    "keywords": [
+      "交换",
+      "swap",
+      "transpose"
+    ],
+    "pinyin": "jiao huan zi fu jiaohuanzifu j h z f jhzf jiao huan jiaohuan j h jh"
+  },
+  {
+    "id": "powershell-scroll-up",
+    "appId": "powershell",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Scroll up",
+      "zh": "上滚"
+    },
+    "description": {
+      "en": "Scroll console content up",
+      "zh": "控制台内容上滚"
+    },
+    "windows": "Ctrl + Up",
+    "mac": "Ctrl + Up",
+    "linux": "Ctrl + Up",
+    "keywords": [
+      "滚动",
+      "scroll",
+      "up"
+    ],
+    "pinyin": "shang gun shanggun s g sg gun dong gundong g d gd"
+  },
+  {
+    "id": "powershell-scroll-down",
+    "appId": "powershell",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Scroll down",
+      "zh": "下滚"
+    },
+    "description": {
+      "en": "Scroll console content down",
+      "zh": "控制台内容下滚"
+    },
+    "windows": "Ctrl + Down",
+    "mac": "Ctrl + Down",
+    "linux": "Ctrl + Down",
+    "keywords": [
+      "滚动",
+      "scroll",
+      "down"
+    ],
+    "pinyin": "xia gun xiagun x g xg gun dong gundong g d gd"
+  },
+  {
+    "id": "powershell-params",
+    "appId": "powershell",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Param hints",
+      "zh": "参数提示"
+    },
+    "description": {
+      "en": "Show parameter hints for cmdlet",
+      "zh": "显示命令参数提示"
+    },
+    "windows": "Ctrl + Shift + Space",
+    "mac": "Ctrl + Shift + Space",
+    "linux": "Ctrl + Shift + Space",
+    "keywords": [
+      "参数",
+      "parameter",
+      "hint"
+    ],
+    "pinyin": "can shu ti shi canshutishi c s t s csts can shu canshu c s cs"
+  }
+]

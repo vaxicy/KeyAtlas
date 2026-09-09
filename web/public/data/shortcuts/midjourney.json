@@ -1,1 +1,340 @@
-[{"id":"midjourney-imagine","appId":"midjourney","type":"software","category":"ai","name":{"en":"/imagine","zh":"/imagine 生成图像"},"description":{"en":"Generate an image from a text prompt","zh":"根据文本提示生成图像"},"windows":"/imagine","mac":"/imagine","linux":"/imagine","keywords":["imagine","生成","提示词"],"pinyin":"/ i m a g i n e   sheng cheng tu xiang /imagine shengchengtuxiang / i m a g i n e   s c t x /imagine sctx sheng cheng   ti shi ci shengcheng tishici s c   t s c sc tsc"},{"id":"midjourney-describe","appId":"midjourney","type":"software","category":"ai","name":{"en":"/describe","zh":"/describe 描述图像"},"description":{"en":"Describe an uploaded image in text","zh":"用文字描述上传的图像"},"windows":"/describe","mac":"/describe","linux":"/describe","keywords":["describe","描述"],"pinyin":"/ d e s c r i b e   miao shu tu xiang /describe miaoshutuxiang / d e s c r i b e   m s t x /describe mstx miao shu miaoshu m s ms"},{"id":"midjourney-blend","appId":"midjourney","type":"software","category":"ai","name":{"en":"/blend","zh":"/blend 融合图像"},"description":{"en":"Blend 2-5 images together","zh":"将 2-5 张图像融合"},"windows":"/blend","mac":"/blend","linux":"/blend","keywords":["blend","融合"],"pinyin":"/ b l e n d   rong he tu xiang /blend ronghetuxiang / b l e n d   r h t x /blend rhtx rong he ronghe r h rh"},{"id":"midjourney-settings","appId":"midjourney","type":"software","category":"ai","name":{"en":"/settings","zh":"/settings 设置"},"description":{"en":"Configure model version, quality, etc.","zh":"配置模型版本、质量等"},"windows":"/settings","mac":"/settings","linux":"/settings","keywords":["settings","设置"],"pinyin":"/ s e t t i n g s   she zhi /settings shezhi / s e t t i n g s   s z /settings sz she zhi shezhi s z sz"},{"id":"midjourney-info","appId":"midjourney","type":"software","category":"ai","name":{"en":"/info","zh":"/info 账户信息"},"description":{"en":"Check subscription and usage","zh":"查看订阅与使用量"},"windows":"/info","mac":"/info","linux":"/info","keywords":["info","账户"],"pinyin":"/ i n f o   zhang hu xin xi /info zhanghuxinxi / i n f o   z h x x /info zhxx zhang hu zhanghu z h zh"},{"id":"midjourney-upscale-u1-u4","appId":"midjourney","type":"software","category":"ai","name":{"en":"Upscale U1-U4","zh":"放大 U1-U4"},"description":{"en":"Upscale the selected image from the grid","zh":"放大网格中选中的图像"},"windows":"U1 U2 U3 U4","mac":"U1 U2 U3 U4","linux":"U1 U2 U3 U4","keywords":["upscale","放大","vary"],"pinyin":"fang da   u 1 - u 4 fangda u1-u4 f d   u 1 - u 4 fd u1-u4 fang da fangda f d fd"},{"id":"midjourney-variation-v1-v4","appId":"midjourney","type":"software","category":"ai","name":{"en":"Variation V1-V4","zh":"变化 V1-V4"},"description":{"en":"Create a variation of the selected image","zh":"生成选中图像的变化版本"},"windows":"V1 V2 V3 V4","mac":"V1 V2 V3 V4","linux":"V1 V2 V3 V4","keywords":["variation","变化","vary"],"pinyin":"bian hua   v 1 - v 4 bianhua v1-v4 b h   v 1 - v 4 bh v1-v4 bian hua bianhua b h bh"},{"id":"midjourney-ar-16-9","appId":"midjourney","type":"software","category":"ai","name":{"en":"--ar 16:9","zh":"--ar 16:9 宽屏比例"},"description":{"en":"Generate wide landscape images","zh":"生成宽屏横向图像"},"windows":"--ar 16:9","mac":"--ar 16:9","linux":"--ar 16:9","keywords":["aspect ratio","比例","宽屏"],"pinyin":"- - a r   1 6 : 9   kuan ping bi li --ar 16:9 kuanpingbili - - a r   1 6 : 9   k p b l --ar 16:9 kpbl bi li   kuan ping bili kuanping b l   k p bl kp"},{"id":"midjourney-ar-9-16","appId":"midjourney","type":"software","category":"ai","name":{"en":"--ar 9:16","zh":"--ar 9:16 竖屏比例"},"description":{"en":"Generate tall portrait images","zh":"生成竖屏纵向图像"},"windows":"--ar 9:16","mac":"--ar 9:16","linux":"--ar 9:16","keywords":["aspect ratio","比例","竖屏"],"pinyin":"- - a r   9 : 1 6   shu ping bi li --ar 9:16 shupingbili - - a r   9 : 1 6   s p b l --ar 9:16 spbl bi li   shu ping bili shuping b l   s p bl sp"},{"id":"midjourney-style-raw","appId":"midjourney","type":"software","category":"ai","name":{"en":"--style raw","zh":"--style raw 原始风格"},"description":{"en":"Reduce default beautification","zh":"减少默认美化"},"windows":"--style raw","mac":"--style raw","linux":"--style raw","keywords":["style","风格"],"pinyin":"- - s t y l e   r a w   yuan shi feng ge --style raw yuanshifengge - - s t y l e   r a w   y s f g --style raw ysfg feng ge fengge f g fg"},{"id":"midjourney-chaos-0-100","appId":"midjourney","type":"software","category":"ai","name":{"en":"--chaos 0-100","zh":"--chaos 0-100 变化度"},"description":{"en":"Higher values = more diverse results","zh":"值越高结果越多样"},"windows":"--chaos","mac":"--chaos","linux":"--chaos","keywords":["chaos","变化","多样"],"pinyin":"- - c h a o s   0 - 1 0 0   bian hua du --chaos 0-100 bianhuadu - - c h a o s   0 - 1 0 0   b h d --chaos 0-100 bhd bian hua   duo yang bianhua duoyang b h   d y bh dy"},{"id":"midjourney-no-element","appId":"midjourney","type":"software","category":"ai","name":{"en":"--no element","zh":"--no 排除元素"},"description":{"en":"Exclude elements from the image","zh":"从图像中排除元素"},"windows":"--no","mac":"--no","linux":"--no","keywords":["no","排除","负向"],"pinyin":"- - n o   pai chu yuan su --no paichuyuansu - - n o   p c y s --no pcys pai chu   fu xiang paichu fuxiang p c   f x pc fx"},{"id":"midjourney-q-2","appId":"midjourney","type":"software","category":"ai","name":{"en":"--q 2","zh":"--q 2 高质量"},"description":{"en":"Increase rendering quality","zh":"提高渲染质量"},"windows":"--q 2","mac":"--q 2","linux":"--q 2","keywords":["quality","质量"],"pinyin":"- - q   2   gao zhi liang --q 2 gaozhiliang - - q   2   g z l --q 2 gzl zhi liang zhiliang z l zl"},{"id":"midjourney-seed-number","appId":"midjourney","type":"software","category":"ai","name":{"en":"--seed number","zh":"--seed 种子"},"description":{"en":"Fix seed to reproduce composition","zh":"固定种子以复现构图"},"windows":"--seed","mac":"--seed","linux":"--seed","keywords":["seed","种子"],"pinyin":"- - s e e d   zhong zi --seed zhongzi - - s e e d   z z --seed zz zhong zi zhongzi z z zz"},{"id":"midjourney-tile","appId":"midjourney","type":"software","category":"ai","name":{"en":"--tile","zh":"--tile 平铺"},"description":{"en":"Generate seamless tile patterns","zh":"生成无缝平铺图案"},"windows":"--tile","mac":"--tile","linux":"--tile","keywords":["tile","平铺","图案"],"pinyin":"- - t i l e   ping pu --tile pingpu - - t i l e   p p --tile pp ping pu   tu an pingpu tuan p p   t a pp ta"}]
+[
+  {
+    "id": "midjourney-imagine",
+    "appId": "midjourney",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "/imagine",
+      "zh": "/imagine 生成图像"
+    },
+    "description": {
+      "en": "Generate an image from a text prompt",
+      "zh": "根据文本提示生成图像"
+    },
+    "windows": "/imagine",
+    "mac": "/imagine",
+    "linux": "/imagine",
+    "keywords": [
+      "imagine",
+      "生成",
+      "提示词"
+    ],
+    "pinyin": "/ i m a g i n e   sheng cheng tu xiang /imagine shengchengtuxiang / i m a g i n e   s c t x /imagine sctx sheng cheng   ti shi ci shengcheng tishici s c   t s c sc tsc"
+  },
+  {
+    "id": "midjourney-describe",
+    "appId": "midjourney",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "/describe",
+      "zh": "/describe 描述图像"
+    },
+    "description": {
+      "en": "Describe an uploaded image in text",
+      "zh": "用文字描述上传的图像"
+    },
+    "windows": "/describe",
+    "mac": "/describe",
+    "linux": "/describe",
+    "keywords": [
+      "describe",
+      "描述"
+    ],
+    "pinyin": "/ d e s c r i b e   miao shu tu xiang /describe miaoshutuxiang / d e s c r i b e   m s t x /describe mstx miao shu miaoshu m s ms"
+  },
+  {
+    "id": "midjourney-blend",
+    "appId": "midjourney",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "/blend",
+      "zh": "/blend 融合图像"
+    },
+    "description": {
+      "en": "Blend 2-5 images together",
+      "zh": "将 2-5 张图像融合"
+    },
+    "windows": "/blend",
+    "mac": "/blend",
+    "linux": "/blend",
+    "keywords": [
+      "blend",
+      "融合"
+    ],
+    "pinyin": "/ b l e n d   rong he tu xiang /blend ronghetuxiang / b l e n d   r h t x /blend rhtx rong he ronghe r h rh"
+  },
+  {
+    "id": "midjourney-settings",
+    "appId": "midjourney",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "/settings",
+      "zh": "/settings 设置"
+    },
+    "description": {
+      "en": "Configure model version, quality, etc.",
+      "zh": "配置模型版本、质量等"
+    },
+    "windows": "/settings",
+    "mac": "/settings",
+    "linux": "/settings",
+    "keywords": [
+      "settings",
+      "设置"
+    ],
+    "pinyin": "/ s e t t i n g s   she zhi /settings shezhi / s e t t i n g s   s z /settings sz she zhi shezhi s z sz"
+  },
+  {
+    "id": "midjourney-info",
+    "appId": "midjourney",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "/info",
+      "zh": "/info 账户信息"
+    },
+    "description": {
+      "en": "Check subscription and usage",
+      "zh": "查看订阅与使用量"
+    },
+    "windows": "/info",
+    "mac": "/info",
+    "linux": "/info",
+    "keywords": [
+      "info",
+      "账户"
+    ],
+    "pinyin": "/ i n f o   zhang hu xin xi /info zhanghuxinxi / i n f o   z h x x /info zhxx zhang hu zhanghu z h zh"
+  },
+  {
+    "id": "midjourney-upscale-u1-u4",
+    "appId": "midjourney",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Upscale U1-U4",
+      "zh": "放大 U1-U4"
+    },
+    "description": {
+      "en": "Upscale the selected image from the grid",
+      "zh": "放大网格中选中的图像"
+    },
+    "windows": "U1 U2 U3 U4",
+    "mac": "U1 U2 U3 U4",
+    "linux": "U1 U2 U3 U4",
+    "keywords": [
+      "upscale",
+      "放大",
+      "vary"
+    ],
+    "pinyin": "fang da   u 1 - u 4 fangda u1-u4 f d   u 1 - u 4 fd u1-u4 fang da fangda f d fd"
+  },
+  {
+    "id": "midjourney-variation-v1-v4",
+    "appId": "midjourney",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Variation V1-V4",
+      "zh": "变化 V1-V4"
+    },
+    "description": {
+      "en": "Create a variation of the selected image",
+      "zh": "生成选中图像的变化版本"
+    },
+    "windows": "V1 V2 V3 V4",
+    "mac": "V1 V2 V3 V4",
+    "linux": "V1 V2 V3 V4",
+    "keywords": [
+      "variation",
+      "变化",
+      "vary"
+    ],
+    "pinyin": "bian hua   v 1 - v 4 bianhua v1-v4 b h   v 1 - v 4 bh v1-v4 bian hua bianhua b h bh"
+  },
+  {
+    "id": "midjourney-ar-16-9",
+    "appId": "midjourney",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "--ar 16:9",
+      "zh": "--ar 16:9 宽屏比例"
+    },
+    "description": {
+      "en": "Generate wide landscape images",
+      "zh": "生成宽屏横向图像"
+    },
+    "windows": "--ar 16:9",
+    "mac": "--ar 16:9",
+    "linux": "--ar 16:9",
+    "keywords": [
+      "aspect ratio",
+      "比例",
+      "宽屏"
+    ],
+    "pinyin": "- - a r   1 6 : 9   kuan ping bi li --ar 16:9 kuanpingbili - - a r   1 6 : 9   k p b l --ar 16:9 kpbl bi li   kuan ping bili kuanping b l   k p bl kp"
+  },
+  {
+    "id": "midjourney-ar-9-16",
+    "appId": "midjourney",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "--ar 9:16",
+      "zh": "--ar 9:16 竖屏比例"
+    },
+    "description": {
+      "en": "Generate tall portrait images",
+      "zh": "生成竖屏纵向图像"
+    },
+    "windows": "--ar 9:16",
+    "mac": "--ar 9:16",
+    "linux": "--ar 9:16",
+    "keywords": [
+      "aspect ratio",
+      "比例",
+      "竖屏"
+    ],
+    "pinyin": "- - a r   9 : 1 6   shu ping bi li --ar 9:16 shupingbili - - a r   9 : 1 6   s p b l --ar 9:16 spbl bi li   shu ping bili shuping b l   s p bl sp"
+  },
+  {
+    "id": "midjourney-style-raw",
+    "appId": "midjourney",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "--style raw",
+      "zh": "--style raw 原始风格"
+    },
+    "description": {
+      "en": "Reduce default beautification",
+      "zh": "减少默认美化"
+    },
+    "windows": "--style raw",
+    "mac": "--style raw",
+    "linux": "--style raw",
+    "keywords": [
+      "style",
+      "风格"
+    ],
+    "pinyin": "- - s t y l e   r a w   yuan shi feng ge --style raw yuanshifengge - - s t y l e   r a w   y s f g --style raw ysfg feng ge fengge f g fg"
+  },
+  {
+    "id": "midjourney-chaos-0-100",
+    "appId": "midjourney",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "--chaos 0-100",
+      "zh": "--chaos 0-100 变化度"
+    },
+    "description": {
+      "en": "Higher values = more diverse results",
+      "zh": "值越高结果越多样"
+    },
+    "windows": "--chaos",
+    "mac": "--chaos",
+    "linux": "--chaos",
+    "keywords": [
+      "chaos",
+      "变化",
+      "多样"
+    ],
+    "pinyin": "- - c h a o s   0 - 1 0 0   bian hua du --chaos 0-100 bianhuadu - - c h a o s   0 - 1 0 0   b h d --chaos 0-100 bhd bian hua   duo yang bianhua duoyang b h   d y bh dy"
+  },
+  {
+    "id": "midjourney-no-element",
+    "appId": "midjourney",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "--no element",
+      "zh": "--no 排除元素"
+    },
+    "description": {
+      "en": "Exclude elements from the image",
+      "zh": "从图像中排除元素"
+    },
+    "windows": "--no",
+    "mac": "--no",
+    "linux": "--no",
+    "keywords": [
+      "no",
+      "排除",
+      "负向"
+    ],
+    "pinyin": "- - n o   pai chu yuan su --no paichuyuansu - - n o   p c y s --no pcys pai chu   fu xiang paichu fuxiang p c   f x pc fx"
+  },
+  {
+    "id": "midjourney-q-2",
+    "appId": "midjourney",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "--q 2",
+      "zh": "--q 2 高质量"
+    },
+    "description": {
+      "en": "Increase rendering quality",
+      "zh": "提高渲染质量"
+    },
+    "windows": "--q 2",
+    "mac": "--q 2",
+    "linux": "--q 2",
+    "keywords": [
+      "quality",
+      "质量"
+    ],
+    "pinyin": "- - q   2   gao zhi liang --q 2 gaozhiliang - - q   2   g z l --q 2 gzl zhi liang zhiliang z l zl"
+  },
+  {
+    "id": "midjourney-seed-number",
+    "appId": "midjourney",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "--seed number",
+      "zh": "--seed 种子"
+    },
+    "description": {
+      "en": "Fix seed to reproduce composition",
+      "zh": "固定种子以复现构图"
+    },
+    "windows": "--seed",
+    "mac": "--seed",
+    "linux": "--seed",
+    "keywords": [
+      "seed",
+      "种子"
+    ],
+    "pinyin": "- - s e e d   zhong zi --seed zhongzi - - s e e d   z z --seed zz zhong zi zhongzi z z zz"
+  },
+  {
+    "id": "midjourney-tile",
+    "appId": "midjourney",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "--tile",
+      "zh": "--tile 平铺"
+    },
+    "description": {
+      "en": "Generate seamless tile patterns",
+      "zh": "生成无缝平铺图案"
+    },
+    "windows": "--tile",
+    "mac": "--tile",
+    "linux": "--tile",
+    "keywords": [
+      "tile",
+      "平铺",
+      "图案"
+    ],
+    "pinyin": "- - t i l e   ping pu --tile pingpu - - t i l e   p p --tile pp ping pu   tu an pingpu tuan p p   t a pp ta"
+  }
+]

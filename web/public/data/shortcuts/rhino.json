@@ -1,1 +1,401 @@
-[{"id":"rhino-save","appId":"rhino","type":"software","category":"design","name":{"zh":"保存","en":"Save"},"description":{"zh":"保存模型","en":"Save model"},"windows":"Ctrl + S","mac":"⌘ S","linux":"Ctrl + S","keywords":["保存","save"],"pinyin":"bao cun baocun b c bc bao cun baocun b c bc"},{"id":"rhino-undo","appId":"rhino","type":"software","category":"design","name":{"zh":"撤销","en":"Undo"},"description":{"zh":"撤销","en":"Undo"},"windows":"Ctrl + Z","mac":"⌘ Z","linux":"Ctrl + Z","keywords":["撤销","undo"],"pinyin":"che xiao chexiao c x cx che xiao chexiao c x cx"},{"id":"rhino-redo","appId":"rhino","type":"software","category":"design","name":{"zh":"重做","en":"Redo"},"description":{"zh":"重做","en":"Redo"},"windows":"Ctrl + Y","mac":"⌘ Y","linux":"Ctrl + Y","keywords":["重做","redo"],"pinyin":"zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"},{"id":"rhino-select-all","appId":"rhino","type":"software","category":"design","name":{"zh":"全选","en":"Select All"},"description":{"zh":"选中所有对象","en":"Select all objects"},"windows":"Ctrl + A","mac":"⌘ A","linux":"Ctrl + A","keywords":["全选","select all"],"pinyin":"quan xuan quanxuan q x qx quan xuan quanxuan q x qx"},{"id":"rhino-deselect","appId":"rhino","type":"software","category":"design","name":{"zh":"取消全选","en":"Deselect All"},"description":{"zh":"取消所有选择","en":"Deselect all"},"windows":"Ctrl + D","mac":"⌘ D","linux":"Ctrl + D","keywords":["取消选择","deselect"],"pinyin":"qu xiao quan xuan quxiaoquanxuan q x q x qxqx qu xiao xuan ze quxiaoxuanze q x x z qxxz"},{"id":"rhino-new","appId":"rhino","type":"software","category":"design","name":{"zh":"新建","en":"New"},"description":{"zh":"新建模型","en":"New model"},"windows":"Ctrl + N","mac":"⌘ N","linux":"Ctrl + N","keywords":["新建","new"],"pinyin":"xin jian xinjian x j xj xin jian xinjian x j xj"},{"id":"rhino-open","appId":"rhino","type":"software","category":"design","name":{"zh":"打开","en":"Open"},"description":{"zh":"打开模型","en":"Open model"},"windows":"Ctrl + O","mac":"⌘ O","linux":"Ctrl + O","keywords":["打开","open"],"pinyin":"da kai dakai d k dk da kai dakai d k dk"},{"id":"rhino-cancel","appId":"rhino","type":"software","category":"design","name":{"zh":"取消命令","en":"Cancel"},"description":{"zh":"取消当前命令","en":"Cancel current command"},"windows":"Esc","mac":"Esc","linux":"Esc","keywords":["取消","cancel","esc"],"pinyin":"qu xiao ming ling quxiaomingling q x m l qxml qu xiao quxiao q x qx"},{"id":"rhino-repeat","appId":"rhino","type":"software","category":"design","name":{"zh":"重复上条命令","en":"Repeat Last Command"},"description":{"zh":"重复执行上一条命令","en":"Repeat last command"},"windows":"Enter","mac":"Enter","linux":"Enter","keywords":["重复","repeat","enter"],"pinyin":"chong fu shang tiao ming ling chongfushangtiaomingling c f s t m l cfstml chong fu chongfu c f cf"},{"id":"rhino-delete","appId":"rhino","type":"software","category":"design","name":{"zh":"删除","en":"Delete"},"description":{"zh":"删除选中对象","en":"Delete selected objects"},"windows":"Delete","mac":"Delete","linux":"Delete","keywords":["删除","delete"],"pinyin":"shan chu shanchu s c sc shan chu shanchu s c sc"},{"id":"rhino-hide","appId":"rhino","type":"software","category":"design","name":{"zh":"隐藏","en":"Hide"},"description":{"zh":"隐藏选中对象","en":"Hide selected objects"},"windows":"Ctrl + Shift + H","mac":"⌘ ⇧ H","linux":"Ctrl + Shift + H","keywords":["隐藏","hide"],"pinyin":"yin cang yincang y c yc yin cang yincang y c yc"},{"id":"rhino-lock","appId":"rhino","type":"software","category":"design","name":{"zh":"锁定","en":"Lock"},"description":{"zh":"锁定选中对象","en":"Lock selected objects"},"windows":"Ctrl + Shift + L","mac":"⌘ ⇧ L","linux":"Ctrl + Shift + L","keywords":["锁定","lock"],"pinyin":"suo ding suoding s d sd suo ding suoding s d sd"},{"id":"rhino-zoom-extents","appId":"rhino","type":"software","category":"design","name":{"zh":"缩放至全部","en":"Zoom Extents"},"description":{"zh":"缩放以显示全部","en":"Zoom to fit all"},"windows":"Ctrl + E","mac":"⌘ E","linux":"Ctrl + E","keywords":["缩放","zoom extents"],"pinyin":"suo fang zhi quan bu suofangzhiquanbu s f z q b sfzqb suo fang suofang s f sf"},{"id":"rhino-redraw","appId":"rhino","type":"software","category":"design","name":{"zh":"重绘视图","en":"Redraw"},"description":{"zh":"刷新重绘视图","en":"Redraw viewport"},"windows":"F5","mac":"F5","linux":"F5","keywords":["重绘","redraw"],"pinyin":"zhong hui shi tu zhonghuishitu z h s t zhst zhong hui zhonghui z h zh"},{"id":"rhino-ortho","appId":"rhino","type":"software","category":"design","name":{"zh":"正交模式","en":"Ortho"},"description":{"zh":"切换正交约束","en":"Toggle ortho constraint"},"windows":"F8","mac":"F8","linux":"F8","keywords":["正交","ortho"],"pinyin":"zheng jiao mo shi zhengjiaomoshi z j m s zjms zheng jiao zhengjiao z j zj"},{"id":"rhino-help","appId":"rhino","type":"software","category":"design","name":{"zh":"帮助","en":"Help"},"description":{"zh":"打开帮助","en":"Open help"},"windows":"F1","mac":"F1","linux":"F1","keywords":["帮助","help"],"pinyin":"bang zhu bangzhu b z bz bang zhu bangzhu b z bz"},{"id":"rhino-command-history","appId":"rhino","type":"software","category":"design","name":{"zh":"命令历史","en":"Command History"},"description":{"zh":"打开命令历史窗口","en":"Open command history"},"windows":"F2","mac":"F2","linux":"F2","keywords":["命令历史","command history"],"pinyin":"ming ling li shi minglinglishi m l l s mlls ming ling li shi minglinglishi m l l s mlls"},{"id":"rhino-osnap-temp","appId":"rhino","type":"software","category":"design","name":{"zh":"临时关闭捕捉","en":"Temp Disable Osnap"},"description":{"zh":"按住 Ctrl 临时关闭对象捕捉","en":"Hold Ctrl to temporarily disable osnap"},"windows":"Hold Ctrl","mac":"Hold ⌘","linux":"Hold Ctrl","keywords":["捕捉","osnap","临时"],"pinyin":"lin shi guan bi bu zhuo linshiguanbibuzhuo l s g b b z lsgbbz bu zhuo   lin shi buzhuo linshi b z   l s bz ls"}]
+[
+  {
+    "id": "rhino-save",
+    "appId": "rhino",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "保存",
+      "en": "Save"
+    },
+    "description": {
+      "zh": "保存模型",
+      "en": "Save model"
+    },
+    "windows": "Ctrl + S",
+    "mac": "⌘ S",
+    "linux": "Ctrl + S",
+    "keywords": [
+      "保存",
+      "save"
+    ],
+    "pinyin": "bao cun baocun b c bc bao cun baocun b c bc"
+  },
+  {
+    "id": "rhino-undo",
+    "appId": "rhino",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "Ctrl + Z",
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "rhino-redo",
+    "appId": "rhino",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "windows": "Ctrl + Y",
+    "mac": "⌘ Y",
+    "linux": "Ctrl + Y",
+    "keywords": [
+      "重做",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "rhino-select-all",
+    "appId": "rhino",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "全选",
+      "en": "Select All"
+    },
+    "description": {
+      "zh": "选中所有对象",
+      "en": "Select all objects"
+    },
+    "windows": "Ctrl + A",
+    "mac": "⌘ A",
+    "linux": "Ctrl + A",
+    "keywords": [
+      "全选",
+      "select all"
+    ],
+    "pinyin": "quan xuan quanxuan q x qx quan xuan quanxuan q x qx"
+  },
+  {
+    "id": "rhino-deselect",
+    "appId": "rhino",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "取消全选",
+      "en": "Deselect All"
+    },
+    "description": {
+      "zh": "取消所有选择",
+      "en": "Deselect all"
+    },
+    "windows": "Ctrl + D",
+    "mac": "⌘ D",
+    "linux": "Ctrl + D",
+    "keywords": [
+      "取消选择",
+      "deselect"
+    ],
+    "pinyin": "qu xiao quan xuan quxiaoquanxuan q x q x qxqx qu xiao xuan ze quxiaoxuanze q x x z qxxz"
+  },
+  {
+    "id": "rhino-new",
+    "appId": "rhino",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "新建",
+      "en": "New"
+    },
+    "description": {
+      "zh": "新建模型",
+      "en": "New model"
+    },
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
+    "linux": "Ctrl + N",
+    "keywords": [
+      "新建",
+      "new"
+    ],
+    "pinyin": "xin jian xinjian x j xj xin jian xinjian x j xj"
+  },
+  {
+    "id": "rhino-open",
+    "appId": "rhino",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "打开",
+      "en": "Open"
+    },
+    "description": {
+      "zh": "打开模型",
+      "en": "Open model"
+    },
+    "windows": "Ctrl + O",
+    "mac": "⌘ O",
+    "linux": "Ctrl + O",
+    "keywords": [
+      "打开",
+      "open"
+    ],
+    "pinyin": "da kai dakai d k dk da kai dakai d k dk"
+  },
+  {
+    "id": "rhino-cancel",
+    "appId": "rhino",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "取消命令",
+      "en": "Cancel"
+    },
+    "description": {
+      "zh": "取消当前命令",
+      "en": "Cancel current command"
+    },
+    "windows": "Esc",
+    "mac": "Esc",
+    "linux": "Esc",
+    "keywords": [
+      "取消",
+      "cancel",
+      "esc"
+    ],
+    "pinyin": "qu xiao ming ling quxiaomingling q x m l qxml qu xiao quxiao q x qx"
+  },
+  {
+    "id": "rhino-repeat",
+    "appId": "rhino",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "重复上条命令",
+      "en": "Repeat Last Command"
+    },
+    "description": {
+      "zh": "重复执行上一条命令",
+      "en": "Repeat last command"
+    },
+    "windows": "Enter",
+    "mac": "Enter",
+    "linux": "Enter",
+    "keywords": [
+      "重复",
+      "repeat",
+      "enter"
+    ],
+    "pinyin": "chong fu shang tiao ming ling chongfushangtiaomingling c f s t m l cfstml chong fu chongfu c f cf"
+  },
+  {
+    "id": "rhino-delete",
+    "appId": "rhino",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "删除",
+      "en": "Delete"
+    },
+    "description": {
+      "zh": "删除选中对象",
+      "en": "Delete selected objects"
+    },
+    "windows": "Delete",
+    "mac": "Delete",
+    "linux": "Delete",
+    "keywords": [
+      "删除",
+      "delete"
+    ],
+    "pinyin": "shan chu shanchu s c sc shan chu shanchu s c sc"
+  },
+  {
+    "id": "rhino-hide",
+    "appId": "rhino",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "隐藏",
+      "en": "Hide"
+    },
+    "description": {
+      "zh": "隐藏选中对象",
+      "en": "Hide selected objects"
+    },
+    "windows": "Ctrl + Shift + H",
+    "mac": "⌘ ⇧ H",
+    "linux": "Ctrl + Shift + H",
+    "keywords": [
+      "隐藏",
+      "hide"
+    ],
+    "pinyin": "yin cang yincang y c yc yin cang yincang y c yc"
+  },
+  {
+    "id": "rhino-lock",
+    "appId": "rhino",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "锁定",
+      "en": "Lock"
+    },
+    "description": {
+      "zh": "锁定选中对象",
+      "en": "Lock selected objects"
+    },
+    "windows": "Ctrl + Shift + L",
+    "mac": "⌘ ⇧ L",
+    "linux": "Ctrl + Shift + L",
+    "keywords": [
+      "锁定",
+      "lock"
+    ],
+    "pinyin": "suo ding suoding s d sd suo ding suoding s d sd"
+  },
+  {
+    "id": "rhino-zoom-extents",
+    "appId": "rhino",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "缩放至全部",
+      "en": "Zoom Extents"
+    },
+    "description": {
+      "zh": "缩放以显示全部",
+      "en": "Zoom to fit all"
+    },
+    "windows": "Ctrl + E",
+    "mac": "⌘ E",
+    "linux": "Ctrl + E",
+    "keywords": [
+      "缩放",
+      "zoom extents"
+    ],
+    "pinyin": "suo fang zhi quan bu suofangzhiquanbu s f z q b sfzqb suo fang suofang s f sf"
+  },
+  {
+    "id": "rhino-redraw",
+    "appId": "rhino",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "重绘视图",
+      "en": "Redraw"
+    },
+    "description": {
+      "zh": "刷新重绘视图",
+      "en": "Redraw viewport"
+    },
+    "windows": "F5",
+    "mac": "F5",
+    "linux": "F5",
+    "keywords": [
+      "重绘",
+      "redraw"
+    ],
+    "pinyin": "zhong hui shi tu zhonghuishitu z h s t zhst zhong hui zhonghui z h zh"
+  },
+  {
+    "id": "rhino-ortho",
+    "appId": "rhino",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "正交模式",
+      "en": "Ortho"
+    },
+    "description": {
+      "zh": "切换正交约束",
+      "en": "Toggle ortho constraint"
+    },
+    "windows": "F8",
+    "mac": "F8",
+    "linux": "F8",
+    "keywords": [
+      "正交",
+      "ortho"
+    ],
+    "pinyin": "zheng jiao mo shi zhengjiaomoshi z j m s zjms zheng jiao zhengjiao z j zj"
+  },
+  {
+    "id": "rhino-help",
+    "appId": "rhino",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "帮助",
+      "en": "Help"
+    },
+    "description": {
+      "zh": "打开帮助",
+      "en": "Open help"
+    },
+    "windows": "F1",
+    "mac": "F1",
+    "linux": "F1",
+    "keywords": [
+      "帮助",
+      "help"
+    ],
+    "pinyin": "bang zhu bangzhu b z bz bang zhu bangzhu b z bz"
+  },
+  {
+    "id": "rhino-command-history",
+    "appId": "rhino",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "命令历史",
+      "en": "Command History"
+    },
+    "description": {
+      "zh": "打开命令历史窗口",
+      "en": "Open command history"
+    },
+    "windows": "F2",
+    "mac": "F2",
+    "linux": "F2",
+    "keywords": [
+      "命令历史",
+      "command history"
+    ],
+    "pinyin": "ming ling li shi minglinglishi m l l s mlls ming ling li shi minglinglishi m l l s mlls"
+  },
+  {
+    "id": "rhino-osnap-temp",
+    "appId": "rhino",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "临时关闭捕捉",
+      "en": "Temp Disable Osnap"
+    },
+    "description": {
+      "zh": "按住 Ctrl 临时关闭对象捕捉",
+      "en": "Hold Ctrl to temporarily disable osnap"
+    },
+    "windows": "Hold Ctrl",
+    "mac": "Hold ⌘",
+    "linux": "Hold Ctrl",
+    "keywords": [
+      "捕捉",
+      "osnap",
+      "临时"
+    ],
+    "pinyin": "lin shi guan bi bu zhuo linshiguanbibuzhuo l s g b b z lsgbbz bu zhuo   lin shi buzhuo linshi b z   l s bz ls"
+  }
+]

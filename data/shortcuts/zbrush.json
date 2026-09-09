@@ -1,0 +1,886 @@
+[
+  {
+    "id": "zbrush-draw",
+    "appId": "zbrush",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Draw",
+      "zh": "绘制笔刷"
+    },
+    "description": {
+      "en": "Default sculpt brush (add/subtract)",
+      "zh": "默认雕刻笔刷"
+    },
+    "windows": "Q",
+    "mac": "Q",
+    "linux": "Q",
+    "keywords": [
+      "draw",
+      "绘制",
+      "雕刻"
+    ],
+    "pinyin": "hui zhi bi shua huizhibishua h z b s hzbs hui zhi   diao ke huizhi diaoke h z   d k hz dk"
+  },
+  {
+    "id": "zbrush-move",
+    "appId": "zbrush",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Move",
+      "zh": "移动"
+    },
+    "description": {
+      "en": "Move local mesh",
+      "zh": "移动局部网格"
+    },
+    "windows": "W",
+    "mac": "W",
+    "linux": "W",
+    "keywords": [
+      "move",
+      "移动"
+    ],
+    "pinyin": "yi dong yidong y d yd yi dong yidong y d yd"
+  },
+  {
+    "id": "zbrush-scale",
+    "appId": "zbrush",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Scale",
+      "zh": "缩放"
+    },
+    "description": {
+      "en": "Scale selection",
+      "zh": "缩放选区"
+    },
+    "windows": "E",
+    "mac": "E",
+    "linux": "E",
+    "keywords": [
+      "scale",
+      "缩放"
+    ],
+    "pinyin": "suo fang suofang s f sf suo fang suofang s f sf"
+  },
+  {
+    "id": "zbrush-rotate",
+    "appId": "zbrush",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Rotate",
+      "zh": "旋转"
+    },
+    "description": {
+      "en": "Rotate selection",
+      "zh": "旋转选区"
+    },
+    "windows": "R",
+    "mac": "R",
+    "linux": "R",
+    "keywords": [
+      "rotate",
+      "旋转"
+    ],
+    "pinyin": "xuan zhuan xuanzhuan x z xz xuan zhuan xuanzhuan x z xz"
+  },
+  {
+    "id": "zbrush-draw-size",
+    "appId": "zbrush",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Draw size",
+      "zh": "笔刷大小"
+    },
+    "description": {
+      "en": "Set brush size",
+      "zh": "设置笔刷大小"
+    },
+    "windows": "S",
+    "mac": "S",
+    "linux": "S",
+    "keywords": [
+      "size",
+      "笔刷大小"
+    ],
+    "pinyin": "bi shua da xiao bishuadaxiao b s d x bsdx bi shua da xiao bishuadaxiao b s d x bsdx"
+  },
+  {
+    "id": "zbrush-edit",
+    "appId": "zbrush",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Edit mode",
+      "zh": "编辑模式"
+    },
+    "description": {
+      "en": "Toggle edit mode",
+      "zh": "切换编辑模式"
+    },
+    "windows": "T",
+    "mac": "T",
+    "linux": "T",
+    "keywords": [
+      "edit",
+      "编辑"
+    ],
+    "pinyin": "bian ji mo shi bianjimoshi b j m s bjms bian ji bianji b j bj"
+  },
+  {
+    "id": "zbrush-symmetry",
+    "appId": "zbrush",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Symmetry",
+      "zh": "对称"
+    },
+    "description": {
+      "en": "Toggle symmetry",
+      "zh": "切换对称"
+    },
+    "windows": "X",
+    "mac": "X",
+    "linux": "X",
+    "keywords": [
+      "symmetry",
+      "对称"
+    ],
+    "pinyin": "dui chen duichen d c dc dui chen duichen d c dc"
+  },
+  {
+    "id": "zbrush-undo",
+    "appId": "zbrush",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Undo",
+      "zh": "撤销"
+    },
+    "description": {
+      "en": "Undo last action",
+      "zh": "撤销上一步"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "Ctrl + Z",
+    "linux": "Ctrl + Z",
+    "keywords": [
+      "undo",
+      "撤销"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "zbrush-redo",
+    "appId": "zbrush",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Redo",
+      "zh": "重做"
+    },
+    "description": {
+      "en": "Redo action",
+      "zh": "重做操作"
+    },
+    "windows": "Shift + Ctrl + Z",
+    "mac": "Shift + Ctrl + Z",
+    "linux": "Shift + Ctrl + Z",
+    "keywords": [
+      "redo",
+      "重做"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "zbrush-save",
+    "appId": "zbrush",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Save",
+      "zh": "保存"
+    },
+    "description": {
+      "en": "Save project",
+      "zh": "保存项目"
+    },
+    "windows": "Ctrl + S",
+    "mac": "Ctrl + S",
+    "linux": "Ctrl + S",
+    "keywords": [
+      "save",
+      "保存"
+    ],
+    "pinyin": "bao cun baocun b c bc bao cun baocun b c bc"
+  },
+  {
+    "id": "zbrush-load",
+    "appId": "zbrush",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Load",
+      "zh": "加载"
+    },
+    "description": {
+      "en": "Load project",
+      "zh": "加载项目"
+    },
+    "windows": "Ctrl + Shift + O",
+    "mac": "Ctrl + Shift + O",
+    "linux": "Ctrl + Shift + O",
+    "keywords": [
+      "load",
+      "加载"
+    ],
+    "pinyin": "jia zai jiazai j z jz jia zai jiazai j z jz"
+  },
+  {
+    "id": "zbrush-mask",
+    "appId": "zbrush",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Mask",
+      "zh": "遮罩"
+    },
+    "description": {
+      "en": "Mask by dragging",
+      "zh": "拖拽遮罩"
+    },
+    "windows": "Ctrl + Click",
+    "mac": "Ctrl + Click",
+    "linux": "Ctrl + Click",
+    "keywords": [
+      "mask",
+      "遮罩"
+    ],
+    "pinyin": "zhe zhao zhezhao z z zz zhe zhao zhezhao z z zz"
+  },
+  {
+    "id": "zbrush-unmask",
+    "appId": "zbrush",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Unmask",
+      "zh": "取消遮罩"
+    },
+    "description": {
+      "en": "Unmask area",
+      "zh": "取消遮罩"
+    },
+    "windows": "Ctrl + Shift + Click",
+    "mac": "Ctrl + Shift + Click",
+    "linux": "Ctrl + Shift + Click",
+    "keywords": [
+      "unmask",
+      "取消遮罩"
+    ],
+    "pinyin": "qu xiao zhe zhao quxiaozhezhao q x z z qxzz qu xiao zhe zhao quxiaozhezhao q x z z qxzz"
+  },
+  {
+    "id": "zbrush-invert-mask",
+    "appId": "zbrush",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Invert mask",
+      "zh": "反相遮罩"
+    },
+    "description": {
+      "en": "Invert mask",
+      "zh": "反相遮罩"
+    },
+    "windows": "Ctrl + I",
+    "mac": "Ctrl + I",
+    "linux": "Ctrl + I",
+    "keywords": [
+      "invert",
+      "反相"
+    ],
+    "pinyin": "fan xiang zhe zhao fanxiangzhezhao f x z z fxzz fan xiang fanxiang f x fx"
+  },
+  {
+    "id": "zbrush-hide",
+    "appId": "zbrush",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Hide",
+      "zh": "隐藏"
+    },
+    "description": {
+      "en": "Hide mesh part",
+      "zh": "隐藏网格部分"
+    },
+    "windows": "Ctrl + Shift + Click (mesh)",
+    "mac": "Ctrl + Shift + Click (mesh)",
+    "linux": "Ctrl + Shift + Click (mesh)",
+    "keywords": [
+      "hide",
+      "隐藏"
+    ],
+    "pinyin": "yin cang yincang y c yc yin cang yincang y c yc"
+  },
+  {
+    "id": "zbrush-show-all",
+    "appId": "zbrush",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Show all",
+      "zh": "显示全部"
+    },
+    "description": {
+      "en": "Show all hidden",
+      "zh": "显示全部隐藏"
+    },
+    "windows": "Shift + Ctrl + Shift + Click",
+    "mac": "Shift + Ctrl + Shift + Click",
+    "linux": "Shift + Ctrl + Shift + Click",
+    "keywords": [
+      "show",
+      "显示"
+    ],
+    "pinyin": "xian shi quan bu xianshiquanbu x s q b xsqb xian shi xianshi x s xs"
+  },
+  {
+    "id": "zbrush-subtract",
+    "appId": "zbrush",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Subtract",
+      "zh": "减去"
+    },
+    "description": {
+      "en": "Alt + drag to subtract",
+      "zh": "Alt 拖拽减体积"
+    },
+    "windows": "Alt + Drag",
+    "mac": "Alt + Drag",
+    "linux": "Alt + Drag",
+    "keywords": [
+      "subtract",
+      "减去"
+    ],
+    "pinyin": "jian qu jianqu j q jq jian qu jianqu j q jq"
+  },
+  {
+    "id": "zbrush-smooth",
+    "appId": "zbrush",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Smooth",
+      "zh": "平滑"
+    },
+    "description": {
+      "en": "Shift + drag to smooth",
+      "zh": "Shift 拖拽平滑"
+    },
+    "windows": "Shift + Drag",
+    "mac": "Shift + Drag",
+    "linux": "Shift + Drag",
+    "keywords": [
+      "smooth",
+      "平滑"
+    ],
+    "pinyin": "ping hua pinghua p h ph ping hua pinghua p h ph"
+  },
+  {
+    "id": "zbrush-brush-size-dn",
+    "appId": "zbrush",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Brush size down",
+      "zh": "缩小笔刷"
+    },
+    "description": {
+      "en": "Decrease brush size",
+      "zh": "缩小笔刷"
+    },
+    "windows": "[",
+    "mac": "[",
+    "linux": "[",
+    "keywords": [
+      "brush",
+      "size",
+      "小"
+    ],
+    "pinyin": "suo xiao bi shua suoxiaobishua s x b s sxbs xiao xiao x x"
+  },
+  {
+    "id": "zbrush-brush-size-up",
+    "appId": "zbrush",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Brush size up",
+      "zh": "放大笔刷"
+    },
+    "description": {
+      "en": "Increase brush size",
+      "zh": "放大笔刷"
+    },
+    "windows": "]",
+    "mac": "]",
+    "linux": "]",
+    "keywords": [
+      "brush",
+      "size",
+      "大"
+    ],
+    "pinyin": "fang da bi shua fangdabishua f d b s fdbs da da d d"
+  },
+  {
+    "id": "zbrush-select-brush",
+    "appId": "zbrush",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Select brush",
+      "zh": "选择笔刷"
+    },
+    "description": {
+      "en": "Open brush palette",
+      "zh": "打开笔刷面板"
+    },
+    "windows": "B",
+    "mac": "B",
+    "linux": "B",
+    "keywords": [
+      "brush",
+      "选择"
+    ],
+    "pinyin": "xuan ze bi shua xuanzebishua x z b s xzbs xuan ze xuanze x z xz"
+  },
+  {
+    "id": "zbrush-std",
+    "appId": "zbrush",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Standard brush",
+      "zh": "标准笔刷"
+    },
+    "description": {
+      "en": "Standard brush",
+      "zh": "标准笔刷"
+    },
+    "windows": "B",
+    "mac": "B",
+    "linux": "B",
+    "keywords": [
+      "standard",
+      "标准"
+    ],
+    "pinyin": "biao zhun bi shua biaozhunbishua b z b s bzbs biao zhun biaozhun b z bz"
+  },
+  {
+    "id": "zbrush-clay",
+    "appId": "zbrush",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Clay brush",
+      "zh": "黏土笔刷"
+    },
+    "description": {
+      "en": "Clay brush",
+      "zh": "黏土笔刷"
+    },
+    "windows": "B",
+    "mac": "B",
+    "linux": "B",
+    "keywords": [
+      "clay",
+      "黏土"
+    ],
+    "pinyin": "nian tu bi shua niantubishua n t b s ntbs nian tu niantu n t nt"
+  },
+  {
+    "id": "zbrush-dam",
+    "appId": "zbrush",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Dam standard",
+      "zh": "刻痕笔刷"
+    },
+    "description": {
+      "en": "Dam standard brush",
+      "zh": "刻痕笔刷"
+    },
+    "windows": "B",
+    "mac": "B",
+    "linux": "B",
+    "keywords": [
+      "dam",
+      "刻痕"
+    ],
+    "pinyin": "ke hen bi shua kehenbishua k h b s khbs ke hen kehen k h kh"
+  },
+  {
+    "id": "zbrush-crease",
+    "appId": "zbrush",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Crease",
+      "zh": "褶皱"
+    },
+    "description": {
+      "en": "Crease brush",
+      "zh": "褶皱笔刷"
+    },
+    "windows": "B",
+    "mac": "B",
+    "linux": "B",
+    "keywords": [
+      "crease",
+      "褶皱"
+    ],
+    "pinyin": "zhe zhou zhezhou z z zz zhe zhou zhezhou z z zz"
+  },
+  {
+    "id": "zbrush-inflate",
+    "appId": "zbrush",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Inflate",
+      "zh": "膨胀"
+    },
+    "description": {
+      "en": "Inflate brush",
+      "zh": "膨胀笔刷"
+    },
+    "windows": "B",
+    "mac": "B",
+    "linux": "B",
+    "keywords": [
+      "inflate",
+      "膨胀"
+    ],
+    "pinyin": "peng zhang pengzhang p z pz peng zhang pengzhang p z pz"
+  },
+  {
+    "id": "zbrush-pinch",
+    "appId": "zbrush",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Pinch",
+      "zh": "捏合"
+    },
+    "description": {
+      "en": "Pinch brush",
+      "zh": "捏合笔刷"
+    },
+    "windows": "B",
+    "mac": "B",
+    "linux": "B",
+    "keywords": [
+      "pinch",
+      "捏合"
+    ],
+    "pinyin": "nie he niehe n h nh nie he niehe n h nh"
+  },
+  {
+    "id": "zbrush-snakehook",
+    "appId": "zbrush",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "SnakeHook",
+      "zh": "蛇钩"
+    },
+    "description": {
+      "en": "SnakeHook brush",
+      "zh": "蛇钩笔刷"
+    },
+    "windows": "B",
+    "mac": "B",
+    "linux": "B",
+    "keywords": [
+      "snakehook",
+      "蛇钩"
+    ],
+    "pinyin": "she gou shegou s g sg she gou shegou s g sg"
+  },
+  {
+    "id": "zbrush-rotate-view",
+    "appId": "zbrush",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Rotate view",
+      "zh": "旋转视图"
+    },
+    "description": {
+      "en": "Drag empty space to rotate",
+      "zh": "拖空白旋转视图"
+    },
+    "windows": "Drag",
+    "mac": "Drag",
+    "linux": "Drag",
+    "keywords": [
+      "rotate",
+      "view",
+      "视图"
+    ],
+    "pinyin": "xuan zhuan shi tu xuanzhuanshitu x z s t xzst shi tu shitu s t st"
+  },
+  {
+    "id": "zbrush-pan",
+    "appId": "zbrush",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Pan",
+      "zh": "平移"
+    },
+    "description": {
+      "en": "Alt + drag to pan",
+      "zh": "Alt 拖拽平移"
+    },
+    "windows": "Alt + Drag",
+    "mac": "Alt + Drag",
+    "linux": "Alt + Drag",
+    "keywords": [
+      "pan",
+      "平移"
+    ],
+    "pinyin": "ping yi pingyi p y py ping yi pingyi p y py"
+  },
+  {
+    "id": "zbrush-zoom",
+    "appId": "zbrush",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Zoom",
+      "zh": "缩放视图"
+    },
+    "description": {
+      "en": "Scroll to zoom",
+      "zh": "滚轮缩放"
+    },
+    "windows": "Scroll",
+    "mac": "Scroll",
+    "linux": "Scroll",
+    "keywords": [
+      "zoom",
+      "视图"
+    ],
+    "pinyin": "suo fang shi tu suofangshitu s f s t sfst shi tu shitu s t st"
+  },
+  {
+    "id": "zbrush-polygroup",
+    "appId": "zbrush",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "PolyGroup",
+      "zh": "多边形组"
+    },
+    "description": {
+      "en": "Ctrl + W assign group",
+      "zh": "Ctrl+W 分配组"
+    },
+    "windows": "Ctrl + W",
+    "mac": "Ctrl + W",
+    "linux": "Ctrl + W",
+    "keywords": [
+      "polygroup",
+      "组"
+    ],
+    "pinyin": "duo bian xing zu duobianxingzu d b x z dbxz zu zu z z"
+  },
+  {
+    "id": "zbrush-frame",
+    "appId": "zbrush",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Frame",
+      "zh": "居中"
+    },
+    "description": {
+      "en": "Frame model",
+      "zh": "居中模型"
+    },
+    "windows": "F",
+    "mac": "F",
+    "linux": "F",
+    "keywords": [
+      "frame",
+      "居中"
+    ],
+    "pinyin": "ju zhong juzhong j z jz ju zhong juzhong j z jz"
+  },
+  {
+    "id": "zbrush-transpose",
+    "appId": "zbrush",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Transpose",
+      "zh": "变换"
+    },
+    "description": {
+      "en": "Transpose manipulation",
+      "zh": "变换操作"
+    },
+    "windows": "Ctrl + Drag (mask)",
+    "mac": "Ctrl + Drag (mask)",
+    "linux": "Ctrl + Drag (mask)",
+    "keywords": [
+      "transpose",
+      "变换"
+    ],
+    "pinyin": "bian huan bianhuan b h bh bian huan bianhuan b h bh"
+  },
+  {
+    "id": "zbrush-local",
+    "appId": "zbrush",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Local",
+      "zh": "局部"
+    },
+    "description": {
+      "en": "Toggle local symmetry",
+      "zh": "切换局部对称"
+    },
+    "windows": "Ctrl + P",
+    "mac": "Ctrl + P",
+    "linux": "Ctrl + P",
+    "keywords": [
+      "local",
+      "局部"
+    ],
+    "pinyin": "ju bu jubu j b jb ju bu jubu j b jb"
+  },
+  {
+    "id": "zbrush-radial",
+    "appId": "zbrush",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Radial",
+      "zh": "径向"
+    },
+    "description": {
+      "en": "Toggle radial symmetry",
+      "zh": "切换径向对称"
+    },
+    "windows": "Ctrl + W? ",
+    "mac": "Ctrl + W? ",
+    "linux": "Ctrl + W? ",
+    "keywords": [
+      "radial",
+      "径向"
+    ],
+    "pinyin": "jing xiang jingxiang j x jx jing xiang jingxiang j x jx"
+  },
+  {
+    "id": "zbrush-isolate",
+    "appId": "zbrush",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Isolate",
+      "zh": "孤立"
+    },
+    "description": {
+      "en": "Show only selected",
+      "zh": "仅显示选中"
+    },
+    "windows": "Ctrl + Shift + I",
+    "mac": "Ctrl + Shift + I",
+    "linux": "Ctrl + Shift + I",
+    "keywords": [
+      "isolate",
+      "孤立"
+    ],
+    "pinyin": "gu li guli g l gl gu li guli g l gl"
+  },
+  {
+    "id": "zbrush-color",
+    "appId": "zbrush",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Pick color",
+      "zh": "取色"
+    },
+    "description": {
+      "en": "Pick color from canvas",
+      "zh": "从画布取色"
+    },
+    "windows": "C",
+    "mac": "C",
+    "linux": "C",
+    "keywords": [
+      "color",
+      "取色"
+    ],
+    "pinyin": "qu se quse q s qs qu se quse q s qs"
+  },
+  {
+    "id": "zbrush-material",
+    "appId": "zbrush",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Material",
+      "zh": "材质"
+    },
+    "description": {
+      "en": "Pick material",
+      "zh": "选择材质"
+    },
+    "windows": "M",
+    "mac": "M",
+    "linux": "M",
+    "keywords": [
+      "material",
+      "材质"
+    ],
+    "pinyin": "cai zhi caizhi c z cz cai zhi caizhi c z cz"
+  },
+  {
+    "id": "zbrush-texture",
+    "appId": "zbrush",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Texture",
+      "zh": "纹理"
+    },
+    "description": {
+      "en": "Pick texture",
+      "zh": "选择纹理"
+    },
+    "windows": "T? ",
+    "mac": "T? ",
+    "linux": "T? ",
+    "keywords": [
+      "texture",
+      "纹理"
+    ],
+    "pinyin": "wen li wenli w l wl wen li wenli w l wl"
+  }
+]

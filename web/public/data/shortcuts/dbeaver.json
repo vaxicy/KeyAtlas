@@ -1,1 +1,942 @@
-[{"id":"dbeaver-connect-window","appId":"dbeaver","type":"software","category":"development","name":{"zh":"打开连接窗口","en":"Connect to Database"},"description":{"zh":"打开连接数据库窗口","en":"Open connect-to-database window"},"windows":"Ctrl + Shift + D","mac":"⌃ ⇧ D","linux":"Ctrl + Shift + D","keywords":["连接","connect","数据库"],"pinyin":"da kai lian jie chuang kou dakailianjiechuangkou d k l j c k dkljck lian jie   shu ju ku lianjie shujuku l j   s j k lj sjk"},{"id":"dbeaver-new-script","appId":"dbeaver","type":"software","category":"development","name":{"zh":"新建 SQL 脚本","en":"New SQL Script"},"description":{"zh":"在当前连接新建 SQL 脚本","en":"New SQL script"},"windows":"Ctrl + ]","mac":"⌃ ]","linux":"Ctrl + ]","keywords":["新建","脚本","script","sql"],"pinyin":"xin jian   s q l   jiao ben xinjian sql jiaoben x j   s q l   j b xj sql jb xin jian   jiao ben xinjian jiaoben x j   j b xj jb"},{"id":"dbeaver-open-script","appId":"dbeaver","type":"software","category":"development","name":{"zh":"打开 SQL 脚本","en":"Open SQL Script"},"description":{"zh":"打开已有 SQL 脚本","en":"Open existing SQL script"},"windows":"F3","mac":"F3","linux":"F3","keywords":["打开","open","脚本"],"pinyin":"da kai   s q l   jiao ben dakai sql jiaoben d k   s q l   j b dk sql jb da kai   jiao ben dakai jiaoben d k   j b dk jb"},{"id":"dbeaver-object-editor","appId":"dbeaver","type":"software","category":"development","name":{"zh":"打开对象编辑器","en":"Open Object Editor"},"description":{"zh":"打开高亮数据库对象编辑器","en":"Open editor of object"},"windows":"F4","mac":"F4","linux":"F4","keywords":["对象","object","编辑器"],"pinyin":"da kai dui xiang bian ji qi dakaiduixiangbianjiqi d k d x b j q dkdxbjq dui xiang   bian ji qi duixiang bianjiqi d x   b j q dx bjq"},{"id":"dbeaver-commit","appId":"dbeaver","type":"software","category":"development","name":{"zh":"提交更改","en":"Commit"},"description":{"zh":"提交当前会话的更改","en":"Commit changes"},"windows":"Alt + `","mac":"⌃ V","linux":"Alt + `","keywords":["提交","commit"],"pinyin":"ti jiao geng gai tijiaogenggai t j g g tjgg ti jiao tijiao t j tj"},{"id":"dbeaver-rollback","appId":"dbeaver","type":"software","category":"development","name":{"zh":"回滚更改","en":"Rollback"},"description":{"zh":"回滚当前会话的更改","en":"Rollback changes"},"windows":"Ctrl + 0","mac":"⌃ 8","linux":"Ctrl + 0","keywords":["回滚","rollback"],"pinyin":"hui gun geng gai huigungenggai h g g g hggg hui gun huigun h g hg"},{"id":"dbeaver-add-row","appId":"dbeaver","type":"software","category":"development","name":{"zh":"添加行","en":"Add Row"},"description":{"zh":"在结果集中添加新行","en":"Add new row"},"windows":"Alt + Insert","mac":"⌥ Insert","linux":"Alt + Insert","keywords":["添加","行","row","插入"],"pinyin":"tian jia xing tianjiaxing t j x tjx tian jia   xing   cha ru tianjia xing charu t j   x   c r tj x cr"},{"id":"dbeaver-delete-row","appId":"dbeaver","type":"software","category":"development","name":{"zh":"删除行","en":"Delete Row"},"description":{"zh":"删除当前行","en":"Delete current row"},"windows":"Alt + Delete","mac":"⌥ ⌦","linux":"Alt + Delete","keywords":["删除","行","row","delete"],"pinyin":"shan chu xing shanchuxing s c x scx shan chu   xing shanchu xing s c   x sc x"},{"id":"dbeaver-duplicate-row","appId":"dbeaver","type":"software","category":"development","name":{"zh":"复制行","en":"Duplicate Row"},"description":{"zh":"复制上一行值到当前行","en":"Copy row above"},"windows":"Ctrl + D","mac":"⌃ D","linux":"Ctrl + D","keywords":["复制","行","duplicate","row"],"pinyin":"fu zhi xing fuzhixing f z x fzx fu zhi   xing fuzhi xing f z   x fz x"},{"id":"dbeaver-edit-cell","appId":"dbeaver","type":"software","category":"development","name":{"zh":"编辑单元格","en":"Edit Cell"},"description":{"zh":"进入单元格内联编辑","en":"Edit cell inline"},"windows":"Enter","mac":"↩","linux":"Enter","keywords":["编辑","单元格","cell","edit"],"pinyin":"bian ji dan yuan ge bianjidanyuange b j d y g bjdyg bian ji   dan yuan ge bianji danyuange b j   d y g bj dyg"},{"id":"dbeaver-apply","appId":"dbeaver","type":"software","category":"development","name":{"zh":"应用数据更改","en":"Apply Changes"},"description":{"zh":"将结果集更改写入数据库","en":"Apply data changes"},"windows":"Ctrl + S","mac":"⌃ S","linux":"Ctrl + S","keywords":["应用","保存","apply","save"],"pinyin":"ying yong shu ju geng gai yingyongshujugenggai y y s j g g yysjgg ying yong   bao cun yingyong baocun y y   b c yy bc"},{"id":"dbeaver-reject","appId":"dbeaver","type":"software","category":"development","name":{"zh":"取消数据更改","en":"Reject Changes"},"description":{"zh":"放弃结果集的未提交更改","en":"Reject data changes"},"windows":"Ctrl + R","mac":"⌃ R","linux":"Ctrl + R","keywords":["取消","reject","回滚"],"pinyin":"qu xiao shu ju geng gai quxiaoshujugenggai q x s j g g qxsjgg qu xiao   hui gun quxiao huigun q x   h g qx hg"},{"id":"dbeaver-next-row","appId":"dbeaver","type":"software","category":"development","name":{"zh":"下一行","en":"Next Row"},"description":{"zh":"移动到下一行","en":"Move to next row"},"windows":"Ctrl + Alt + →","mac":"⌃ ⌥ →","linux":"Ctrl + Alt + →","keywords":["下一行","next","row"],"pinyin":"xia yi hang xiayihang x y h xyh xia yi hang xiayihang x y h xyh"},{"id":"dbeaver-prev-row","appId":"dbeaver","type":"software","category":"development","name":{"zh":"上一行","en":"Previous Row"},"description":{"zh":"移动到上一行","en":"Move to previous row"},"windows":"Ctrl + Alt + ←","mac":"⌃ ⌥ ←","linux":"Ctrl + Alt + ←","keywords":["上一行","previous","row"],"pinyin":"shang yi hang shangyihang s y h syh shang yi hang shangyihang s y h syh"},{"id":"dbeaver-first-row","appId":"dbeaver","type":"software","category":"development","name":{"zh":"首行","en":"First Row"},"description":{"zh":"跳到结果集首行","en":"Move to first row"},"windows":"Ctrl + Alt + Shift + ←","mac":"⌃ ⌥ ⇧ ←","linux":"Ctrl + Alt + Shift + ←","keywords":["首行","first","row"],"pinyin":"shou xing shouxing s x sx shou xing shouxing s x sx"},{"id":"dbeaver-last-row","appId":"dbeaver","type":"software","category":"development","name":{"zh":"末行","en":"Last Row"},"description":{"zh":"跳到结果集末行","en":"Move to last row"},"windows":"Ctrl + Alt + Shift + →","mac":"⌃ ⌥ ⇧ →","linux":"Ctrl + Alt + Shift + →","keywords":["末行","last","row"],"pinyin":"mo xing moxing m x mx mo xing moxing m x mx"},{"id":"dbeaver-filter","appId":"dbeaver","type":"software","category":"development","name":{"zh":"筛选","en":"Filter"},"description":{"zh":"打开筛选上下文菜单","en":"Filter context menu"},"windows":"F11","mac":"F11","linux":"F11","keywords":["筛选","filter"],"pinyin":"shai xuan shaixuan s x sx shai xuan shaixuan s x sx"},{"id":"dbeaver-go-row","appId":"dbeaver","type":"software","category":"development","name":{"zh":"跳转到行","en":"Go to Row"},"description":{"zh":"跳转到指定行号","en":"Go to row"},"windows":"Ctrl + G","mac":"⌘ G","linux":"Ctrl + G","keywords":["跳转","行","go to row"],"pinyin":"tiao zhuan dao xing tiaozhuandaoxing t z d x tzdx tiao zhuan   xing tiaozhuan xing t z   x tz x"},{"id":"dbeaver-toggle-view","appId":"dbeaver","type":"software","category":"development","name":{"zh":"网格 / 记录视图","en":"Grid/Record View"},"description":{"zh":"切换网格与记录视图","en":"Toggle grid/record"},"windows":"F7","mac":"F7","linux":"F7","keywords":["视图","grid","record"],"pinyin":"wang ge   /   ji lu shi tu wangge / jilushitu w g   /   j l s t wg / jlst shi tu shitu s t st"},{"id":"dbeaver-fetch-all","appId":"dbeaver","type":"software","category":"development","name":{"zh":"获取全部行","en":"Fetch All Rows"},"description":{"zh":"拉取结果集全部行","en":"Fetch all rows"},"windows":"Ctrl + Shift + 7","mac":"⌃ ⇧ 7","linux":"Ctrl + Shift + 7","keywords":["获取","fetch","全部"],"pinyin":"huo qu quan bu xing huoququanbuxing h q q b x hqqbx huo qu   quan bu huoqu quanbu h q   q b hq qb"},{"id":"dbeaver-execute-stmt","appId":"dbeaver","type":"software","category":"development","name":{"zh":"执行 SQL 语句","en":"Execute Statement"},"description":{"zh":"执行光标处或选中的 SQL 语句","en":"Execute SQL statement"},"windows":"Ctrl + Enter","mac":"⌘ ↩","linux":"Ctrl + Enter","keywords":["执行","execute","sql"],"pinyin":"zhi xing   s q l   yu ju zhixing sql yuju z x   s q l   y j zx sql yj zhi xing zhixing z x zx"},{"id":"dbeaver-execute-script","appId":"dbeaver","type":"software","category":"development","name":{"zh":"执行 SQL 脚本","en":"Execute Script"},"description":{"zh":"执行整个 SQL 脚本","en":"Execute SQL script"},"windows":"Alt + X","mac":"⌥ X","linux":"Alt + X","keywords":["执行","脚本","script","execute"],"pinyin":"zhi xing   s q l   jiao ben zhixing sql jiaoben z x   s q l   j b zx sql jb zhi xing   jiao ben zhixing jiaoben z x   j b zx jb"},{"id":"dbeaver-execute-newtab","appId":"dbeaver","type":"software","category":"development","name":{"zh":"新标签执行","en":"Execute in New Tab"},"description":{"zh":"在新结果标签执行语句","en":"Execute in new tab"},"windows":"Ctrl + \\","mac":"⌃ \\","linux":"Ctrl + \\","keywords":["执行","execute","tab"],"pinyin":"xin biao qian zhi xing xinbiaoqianzhixing x b q z x xbqzx zhi xing zhixing z x zx"},{"id":"dbeaver-format","appId":"dbeaver","type":"software","category":"development","name":{"zh":"格式化 SQL","en":"Format SQL"},"description":{"zh":"格式化选中 SQL 文本","en":"Format SQL text"},"windows":"Ctrl + Shift + F","mac":"⌃ ⇧ F","linux":"Ctrl + Shift + F","keywords":["格式化","format","sql"],"pinyin":"ge shi hua   s q l geshihua sql g s h   s q l gsh sql ge shi hua geshihua g s h gsh"},{"id":"dbeaver-comment","appId":"dbeaver","type":"software","category":"development","name":{"zh":"切换注释","en":"Toggle Comment"},"description":{"zh":"注释/取消注释选中行","en":"Toggle line comment"},"windows":"Ctrl + /","mac":"⌃ /","linux":"Ctrl + /","keywords":["注释","comment"],"pinyin":"qie huan zhu shi qiehuanzhushi q h z s qhzs zhu shi zhushi z s zs"},{"id":"dbeaver-explain","appId":"dbeaver","type":"software","category":"development","name":{"zh":"解释执行计划","en":"Explain Execution Plan"},"description":{"zh":"显示 SQL 执行计划","en":"Explain plan"},"windows":"Ctrl + Shift + E","mac":"⌃ ⇧ E","linux":"Ctrl + Shift + E","keywords":["执行计划","explain","plan"],"pinyin":"jie shi zhi xing ji hua jieshizhixingjihua j s z x j h jszxjh zhi xing ji hua zhixingjihua z x j h zxjh"},{"id":"dbeaver-toggle-result","appId":"dbeaver","type":"software","category":"development","name":{"zh":"显示 / 隐藏结果","en":"Toggle Result Panel"},"description":{"zh":"显示或隐藏结果面板","en":"Toggle results panel"},"windows":"Ctrl + T","mac":"⌃ T","linux":"Ctrl + T","keywords":["结果","result","面板"],"pinyin":"xian shi   /   yin cang jie guo xianshi / yincangjieguo x s   /   y c j g xs / ycjg jie guo   mian ban jieguo mianban j g   m b jg mb"},{"id":"dbeaver-max-result","appId":"dbeaver","type":"software","category":"development","name":{"zh":"最大化结果面板","en":"Maximize Result"},"description":{"zh":"最大化/还原结果面板","en":"Maximize results panel"},"windows":"Ctrl + Shift + T","mac":"⌃ ⇧ T","linux":"Ctrl + Shift + T","keywords":["最大化","maximize","result"],"pinyin":"zui da hua jie guo mian ban zuidahuajieguomianban z d h j g m b zdhjgmb zui da hua zuidahua z d h zdh"},{"id":"dbeaver-autocomplete","appId":"dbeaver","type":"software","category":"development","name":{"zh":"自动完成","en":"Auto-complete"},"description":{"zh":"触发代码自动完成","en":"Auto-complete"},"windows":"Ctrl + Space","mac":"⌃ Space","linux":"Ctrl + Space","keywords":["自动完成","autocomplete","补全"],"pinyin":"zi dong wan cheng zidongwancheng z d w c zdwc zi dong wan cheng   bu quan zidongwancheng buquan z d w c   b q zdwc bq"},{"id":"dbeaver-find-editor","appId":"dbeaver","type":"software","category":"development","name":{"zh":"查找替换","en":"Find/Replace"},"description":{"zh":"在编辑器中查找替换","en":"Find and replace"},"windows":"Ctrl + F","mac":"⌘ F","linux":"Ctrl + F","keywords":["查找","替换","find"],"pinyin":"cha zhao ti huan chazhaotihuan c z t h czth cha zhao   ti huan chazhao tihuan c z   t h cz th"},{"id":"dbeaver-undo","appId":"dbeaver","type":"software","category":"development","name":{"zh":"撤销","en":"Undo"},"description":{"zh":"撤销编辑操作","en":"Undo"},"windows":"Ctrl + Z","mac":"⌘ Z","linux":"Ctrl + Z","keywords":["撤销","undo"],"pinyin":"che xiao chexiao c x cx che xiao chexiao c x cx"},{"id":"dbeaver-redo","appId":"dbeaver","type":"software","category":"development","name":{"zh":"重做","en":"Redo"},"description":{"zh":"重做编辑操作","en":"Redo"},"windows":"Ctrl + Y","mac":"⇧ ⌘ Z","linux":"Ctrl + Y","keywords":["重做","redo"],"pinyin":"zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"},{"id":"dbeaver-select-all","appId":"dbeaver","type":"software","category":"development","name":{"zh":"全选","en":"Select All"},"description":{"zh":"全选编辑器内容","en":"Select all"},"windows":"Ctrl + A","mac":"⌘ A","linux":"Ctrl + A","keywords":["全选","select all"],"pinyin":"quan xuan quanxuan q x qx quan xuan quanxuan q x qx"},{"id":"dbeaver-go-line","appId":"dbeaver","type":"software","category":"development","name":{"zh":"跳转行","en":"Go to Line"},"description":{"zh":"跳转到指定行","en":"Go to line"},"windows":"Ctrl + L","mac":"⌘ L","linux":"Ctrl + L","keywords":["跳转","行","go to line"],"pinyin":"tiao zhuan xing tiaozhuanxing t z x tzx tiao zhuan   xing tiaozhuan xing t z   x tz x"},{"id":"dbeaver-next-editor","appId":"dbeaver","type":"software","category":"development","name":{"zh":"下一个编辑器","en":"Next Editor"},"description":{"zh":"切换到下一个编辑器标签","en":"Next editor"},"windows":"Ctrl + F6","mac":"⌘ F6","linux":"Ctrl + F6","keywords":["下一个","编辑器","editor"],"pinyin":"xia yi ge bian ji qi xiayigebianjiqi x y g b j q xygbjq xia yi ge   bian ji qi xiayige bianjiqi x y g   b j q xyg bjq"},{"id":"dbeaver-show-keys","appId":"dbeaver","type":"software","category":"development","name":{"zh":"显示快捷键","en":"Key Assist"},"description":{"zh":"显示所有快捷键列表","en":"Show key assist"},"windows":"Ctrl + Shift + L","mac":"⌃ ⇧ L","linux":"Ctrl + Shift + L","keywords":["快捷键","shortcuts","keys"],"pinyin":"xian shi kuai jie jian xianshikuaijiejian x s k j j xskjj kuai jie jian kuaijiejian k j j kjj"},{"id":"dbeaver-max-view","appId":"dbeaver","type":"software","category":"development","name":{"zh":"最大化视图","en":"Maximize View"},"description":{"zh":"最大化/还原当前视图","en":"Maximize view"},"windows":"Ctrl + M","mac":"⌃ M","linux":"Ctrl + M","keywords":["最大化","maximize","view"],"pinyin":"zui da hua shi tu zuidahuashitu z d h s t zdhst zui da hua zuidahua z d h zdh"},{"id":"dbeaver-fullscreen","appId":"dbeaver","type":"software","category":"development","name":{"zh":"全屏","en":"Full Screen"},"description":{"zh":"切换全屏模式","en":"Toggle full screen"},"windows":"Alt + F11","mac":"⌃ ⌘ F","linux":"Alt + F11","keywords":["全屏","fullscreen"],"pinyin":"quan ping quanping q p qp quan ping quanping q p qp"},{"id":"dbeaver-search","appId":"dbeaver","type":"software","category":"development","name":{"zh":"搜索","en":"Search"},"description":{"zh":"打开搜索对话框","en":"Open search"},"windows":"Ctrl + H","mac":"⌃ H","linux":"Ctrl + H","keywords":["搜索","search"],"pinyin":"sou suo sousuo s s ss sou suo sousuo s s ss"},{"id":"dbeaver-save","appId":"dbeaver","type":"software","category":"development","name":{"zh":"保存文件","en":"Save"},"description":{"zh":"保存当前文件","en":"Save file"},"windows":"Ctrl + S","mac":"⌘ S","linux":"Ctrl + S","keywords":["保存","save"],"pinyin":"bao cun wen jian baocunwenjian b c w j bcwj bao cun baocun b c bc"},{"id":"dbeaver-close-editor","appId":"dbeaver","type":"software","category":"development","name":{"zh":"关闭编辑器","en":"Close Editor"},"description":{"zh":"关闭当前编辑器标签","en":"Close editor"},"windows":"Ctrl + F4","mac":"⌘ W","linux":"Ctrl + F4","keywords":["关闭","close","editor"],"pinyin":"guan bi bian ji qi guanbibianjiqi g b b j q gbbjq guan bi guanbi g b gb"}]
+[
+  {
+    "id": "dbeaver-connect-window",
+    "appId": "dbeaver",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "打开连接窗口",
+      "en": "Connect to Database"
+    },
+    "description": {
+      "zh": "打开连接数据库窗口",
+      "en": "Open connect-to-database window"
+    },
+    "windows": "Ctrl + Shift + D",
+    "mac": "⌃ ⇧ D",
+    "linux": "Ctrl + Shift + D",
+    "keywords": [
+      "连接",
+      "connect",
+      "数据库"
+    ],
+    "pinyin": "da kai lian jie chuang kou dakailianjiechuangkou d k l j c k dkljck lian jie   shu ju ku lianjie shujuku l j   s j k lj sjk"
+  },
+  {
+    "id": "dbeaver-new-script",
+    "appId": "dbeaver",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "新建 SQL 脚本",
+      "en": "New SQL Script"
+    },
+    "description": {
+      "zh": "在当前连接新建 SQL 脚本",
+      "en": "New SQL script"
+    },
+    "windows": "Ctrl + ]",
+    "mac": "⌃ ]",
+    "linux": "Ctrl + ]",
+    "keywords": [
+      "新建",
+      "脚本",
+      "script",
+      "sql"
+    ],
+    "pinyin": "xin jian   s q l   jiao ben xinjian sql jiaoben x j   s q l   j b xj sql jb xin jian   jiao ben xinjian jiaoben x j   j b xj jb"
+  },
+  {
+    "id": "dbeaver-open-script",
+    "appId": "dbeaver",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "打开 SQL 脚本",
+      "en": "Open SQL Script"
+    },
+    "description": {
+      "zh": "打开已有 SQL 脚本",
+      "en": "Open existing SQL script"
+    },
+    "windows": "F3",
+    "mac": "F3",
+    "linux": "F3",
+    "keywords": [
+      "打开",
+      "open",
+      "脚本"
+    ],
+    "pinyin": "da kai   s q l   jiao ben dakai sql jiaoben d k   s q l   j b dk sql jb da kai   jiao ben dakai jiaoben d k   j b dk jb"
+  },
+  {
+    "id": "dbeaver-object-editor",
+    "appId": "dbeaver",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "打开对象编辑器",
+      "en": "Open Object Editor"
+    },
+    "description": {
+      "zh": "打开高亮数据库对象编辑器",
+      "en": "Open editor of object"
+    },
+    "windows": "F4",
+    "mac": "F4",
+    "linux": "F4",
+    "keywords": [
+      "对象",
+      "object",
+      "编辑器"
+    ],
+    "pinyin": "da kai dui xiang bian ji qi dakaiduixiangbianjiqi d k d x b j q dkdxbjq dui xiang   bian ji qi duixiang bianjiqi d x   b j q dx bjq"
+  },
+  {
+    "id": "dbeaver-commit",
+    "appId": "dbeaver",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "提交更改",
+      "en": "Commit"
+    },
+    "description": {
+      "zh": "提交当前会话的更改",
+      "en": "Commit changes"
+    },
+    "windows": "Alt + `",
+    "mac": "⌃ V",
+    "linux": "Alt + `",
+    "keywords": [
+      "提交",
+      "commit"
+    ],
+    "pinyin": "ti jiao geng gai tijiaogenggai t j g g tjgg ti jiao tijiao t j tj"
+  },
+  {
+    "id": "dbeaver-rollback",
+    "appId": "dbeaver",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "回滚更改",
+      "en": "Rollback"
+    },
+    "description": {
+      "zh": "回滚当前会话的更改",
+      "en": "Rollback changes"
+    },
+    "windows": "Ctrl + 0",
+    "mac": "⌃ 8",
+    "linux": "Ctrl + 0",
+    "keywords": [
+      "回滚",
+      "rollback"
+    ],
+    "pinyin": "hui gun geng gai huigungenggai h g g g hggg hui gun huigun h g hg"
+  },
+  {
+    "id": "dbeaver-add-row",
+    "appId": "dbeaver",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "添加行",
+      "en": "Add Row"
+    },
+    "description": {
+      "zh": "在结果集中添加新行",
+      "en": "Add new row"
+    },
+    "windows": "Alt + Insert",
+    "mac": "⌥ Insert",
+    "linux": "Alt + Insert",
+    "keywords": [
+      "添加",
+      "行",
+      "row",
+      "插入"
+    ],
+    "pinyin": "tian jia xing tianjiaxing t j x tjx tian jia   xing   cha ru tianjia xing charu t j   x   c r tj x cr"
+  },
+  {
+    "id": "dbeaver-delete-row",
+    "appId": "dbeaver",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "删除行",
+      "en": "Delete Row"
+    },
+    "description": {
+      "zh": "删除当前行",
+      "en": "Delete current row"
+    },
+    "windows": "Alt + Delete",
+    "mac": "⌥ ⌦",
+    "linux": "Alt + Delete",
+    "keywords": [
+      "删除",
+      "行",
+      "row",
+      "delete"
+    ],
+    "pinyin": "shan chu xing shanchuxing s c x scx shan chu   xing shanchu xing s c   x sc x"
+  },
+  {
+    "id": "dbeaver-duplicate-row",
+    "appId": "dbeaver",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "复制行",
+      "en": "Duplicate Row"
+    },
+    "description": {
+      "zh": "复制上一行值到当前行",
+      "en": "Copy row above"
+    },
+    "windows": "Ctrl + D",
+    "mac": "⌃ D",
+    "linux": "Ctrl + D",
+    "keywords": [
+      "复制",
+      "行",
+      "duplicate",
+      "row"
+    ],
+    "pinyin": "fu zhi xing fuzhixing f z x fzx fu zhi   xing fuzhi xing f z   x fz x"
+  },
+  {
+    "id": "dbeaver-edit-cell",
+    "appId": "dbeaver",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "编辑单元格",
+      "en": "Edit Cell"
+    },
+    "description": {
+      "zh": "进入单元格内联编辑",
+      "en": "Edit cell inline"
+    },
+    "windows": "Enter",
+    "mac": "↩",
+    "linux": "Enter",
+    "keywords": [
+      "编辑",
+      "单元格",
+      "cell",
+      "edit"
+    ],
+    "pinyin": "bian ji dan yuan ge bianjidanyuange b j d y g bjdyg bian ji   dan yuan ge bianji danyuange b j   d y g bj dyg"
+  },
+  {
+    "id": "dbeaver-apply",
+    "appId": "dbeaver",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "应用数据更改",
+      "en": "Apply Changes"
+    },
+    "description": {
+      "zh": "将结果集更改写入数据库",
+      "en": "Apply data changes"
+    },
+    "windows": "Ctrl + S",
+    "mac": "⌃ S",
+    "linux": "Ctrl + S",
+    "keywords": [
+      "应用",
+      "保存",
+      "apply",
+      "save"
+    ],
+    "pinyin": "ying yong shu ju geng gai yingyongshujugenggai y y s j g g yysjgg ying yong   bao cun yingyong baocun y y   b c yy bc"
+  },
+  {
+    "id": "dbeaver-reject",
+    "appId": "dbeaver",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "取消数据更改",
+      "en": "Reject Changes"
+    },
+    "description": {
+      "zh": "放弃结果集的未提交更改",
+      "en": "Reject data changes"
+    },
+    "windows": "Ctrl + R",
+    "mac": "⌃ R",
+    "linux": "Ctrl + R",
+    "keywords": [
+      "取消",
+      "reject",
+      "回滚"
+    ],
+    "pinyin": "qu xiao shu ju geng gai quxiaoshujugenggai q x s j g g qxsjgg qu xiao   hui gun quxiao huigun q x   h g qx hg"
+  },
+  {
+    "id": "dbeaver-next-row",
+    "appId": "dbeaver",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "下一行",
+      "en": "Next Row"
+    },
+    "description": {
+      "zh": "移动到下一行",
+      "en": "Move to next row"
+    },
+    "windows": "Ctrl + Alt + →",
+    "mac": "⌃ ⌥ →",
+    "linux": "Ctrl + Alt + →",
+    "keywords": [
+      "下一行",
+      "next",
+      "row"
+    ],
+    "pinyin": "xia yi hang xiayihang x y h xyh xia yi hang xiayihang x y h xyh"
+  },
+  {
+    "id": "dbeaver-prev-row",
+    "appId": "dbeaver",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "上一行",
+      "en": "Previous Row"
+    },
+    "description": {
+      "zh": "移动到上一行",
+      "en": "Move to previous row"
+    },
+    "windows": "Ctrl + Alt + ←",
+    "mac": "⌃ ⌥ ←",
+    "linux": "Ctrl + Alt + ←",
+    "keywords": [
+      "上一行",
+      "previous",
+      "row"
+    ],
+    "pinyin": "shang yi hang shangyihang s y h syh shang yi hang shangyihang s y h syh"
+  },
+  {
+    "id": "dbeaver-first-row",
+    "appId": "dbeaver",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "首行",
+      "en": "First Row"
+    },
+    "description": {
+      "zh": "跳到结果集首行",
+      "en": "Move to first row"
+    },
+    "windows": "Ctrl + Alt + Shift + ←",
+    "mac": "⌃ ⌥ ⇧ ←",
+    "linux": "Ctrl + Alt + Shift + ←",
+    "keywords": [
+      "首行",
+      "first",
+      "row"
+    ],
+    "pinyin": "shou xing shouxing s x sx shou xing shouxing s x sx"
+  },
+  {
+    "id": "dbeaver-last-row",
+    "appId": "dbeaver",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "末行",
+      "en": "Last Row"
+    },
+    "description": {
+      "zh": "跳到结果集末行",
+      "en": "Move to last row"
+    },
+    "windows": "Ctrl + Alt + Shift + →",
+    "mac": "⌃ ⌥ ⇧ →",
+    "linux": "Ctrl + Alt + Shift + →",
+    "keywords": [
+      "末行",
+      "last",
+      "row"
+    ],
+    "pinyin": "mo xing moxing m x mx mo xing moxing m x mx"
+  },
+  {
+    "id": "dbeaver-filter",
+    "appId": "dbeaver",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "筛选",
+      "en": "Filter"
+    },
+    "description": {
+      "zh": "打开筛选上下文菜单",
+      "en": "Filter context menu"
+    },
+    "windows": "F11",
+    "mac": "F11",
+    "linux": "F11",
+    "keywords": [
+      "筛选",
+      "filter"
+    ],
+    "pinyin": "shai xuan shaixuan s x sx shai xuan shaixuan s x sx"
+  },
+  {
+    "id": "dbeaver-go-row",
+    "appId": "dbeaver",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "跳转到行",
+      "en": "Go to Row"
+    },
+    "description": {
+      "zh": "跳转到指定行号",
+      "en": "Go to row"
+    },
+    "windows": "Ctrl + G",
+    "mac": "⌘ G",
+    "linux": "Ctrl + G",
+    "keywords": [
+      "跳转",
+      "行",
+      "go to row"
+    ],
+    "pinyin": "tiao zhuan dao xing tiaozhuandaoxing t z d x tzdx tiao zhuan   xing tiaozhuan xing t z   x tz x"
+  },
+  {
+    "id": "dbeaver-toggle-view",
+    "appId": "dbeaver",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "网格 / 记录视图",
+      "en": "Grid/Record View"
+    },
+    "description": {
+      "zh": "切换网格与记录视图",
+      "en": "Toggle grid/record"
+    },
+    "windows": "F7",
+    "mac": "F7",
+    "linux": "F7",
+    "keywords": [
+      "视图",
+      "grid",
+      "record"
+    ],
+    "pinyin": "wang ge   /   ji lu shi tu wangge / jilushitu w g   /   j l s t wg / jlst shi tu shitu s t st"
+  },
+  {
+    "id": "dbeaver-fetch-all",
+    "appId": "dbeaver",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "获取全部行",
+      "en": "Fetch All Rows"
+    },
+    "description": {
+      "zh": "拉取结果集全部行",
+      "en": "Fetch all rows"
+    },
+    "windows": "Ctrl + Shift + 7",
+    "mac": "⌃ ⇧ 7",
+    "linux": "Ctrl + Shift + 7",
+    "keywords": [
+      "获取",
+      "fetch",
+      "全部"
+    ],
+    "pinyin": "huo qu quan bu xing huoququanbuxing h q q b x hqqbx huo qu   quan bu huoqu quanbu h q   q b hq qb"
+  },
+  {
+    "id": "dbeaver-execute-stmt",
+    "appId": "dbeaver",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "执行 SQL 语句",
+      "en": "Execute Statement"
+    },
+    "description": {
+      "zh": "执行光标处或选中的 SQL 语句",
+      "en": "Execute SQL statement"
+    },
+    "windows": "Ctrl + Enter",
+    "mac": "⌘ ↩",
+    "linux": "Ctrl + Enter",
+    "keywords": [
+      "执行",
+      "execute",
+      "sql"
+    ],
+    "pinyin": "zhi xing   s q l   yu ju zhixing sql yuju z x   s q l   y j zx sql yj zhi xing zhixing z x zx"
+  },
+  {
+    "id": "dbeaver-execute-script",
+    "appId": "dbeaver",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "执行 SQL 脚本",
+      "en": "Execute Script"
+    },
+    "description": {
+      "zh": "执行整个 SQL 脚本",
+      "en": "Execute SQL script"
+    },
+    "windows": "Alt + X",
+    "mac": "⌥ X",
+    "linux": "Alt + X",
+    "keywords": [
+      "执行",
+      "脚本",
+      "script",
+      "execute"
+    ],
+    "pinyin": "zhi xing   s q l   jiao ben zhixing sql jiaoben z x   s q l   j b zx sql jb zhi xing   jiao ben zhixing jiaoben z x   j b zx jb"
+  },
+  {
+    "id": "dbeaver-execute-newtab",
+    "appId": "dbeaver",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "新标签执行",
+      "en": "Execute in New Tab"
+    },
+    "description": {
+      "zh": "在新结果标签执行语句",
+      "en": "Execute in new tab"
+    },
+    "windows": "Ctrl + \\",
+    "mac": "⌃ \\",
+    "linux": "Ctrl + \\",
+    "keywords": [
+      "执行",
+      "execute",
+      "tab"
+    ],
+    "pinyin": "xin biao qian zhi xing xinbiaoqianzhixing x b q z x xbqzx zhi xing zhixing z x zx"
+  },
+  {
+    "id": "dbeaver-format",
+    "appId": "dbeaver",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "格式化 SQL",
+      "en": "Format SQL"
+    },
+    "description": {
+      "zh": "格式化选中 SQL 文本",
+      "en": "Format SQL text"
+    },
+    "windows": "Ctrl + Shift + F",
+    "mac": "⌃ ⇧ F",
+    "linux": "Ctrl + Shift + F",
+    "keywords": [
+      "格式化",
+      "format",
+      "sql"
+    ],
+    "pinyin": "ge shi hua   s q l geshihua sql g s h   s q l gsh sql ge shi hua geshihua g s h gsh"
+  },
+  {
+    "id": "dbeaver-comment",
+    "appId": "dbeaver",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "切换注释",
+      "en": "Toggle Comment"
+    },
+    "description": {
+      "zh": "注释/取消注释选中行",
+      "en": "Toggle line comment"
+    },
+    "windows": "Ctrl + /",
+    "mac": "⌃ /",
+    "linux": "Ctrl + /",
+    "keywords": [
+      "注释",
+      "comment"
+    ],
+    "pinyin": "qie huan zhu shi qiehuanzhushi q h z s qhzs zhu shi zhushi z s zs"
+  },
+  {
+    "id": "dbeaver-explain",
+    "appId": "dbeaver",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "解释执行计划",
+      "en": "Explain Execution Plan"
+    },
+    "description": {
+      "zh": "显示 SQL 执行计划",
+      "en": "Explain plan"
+    },
+    "windows": "Ctrl + Shift + E",
+    "mac": "⌃ ⇧ E",
+    "linux": "Ctrl + Shift + E",
+    "keywords": [
+      "执行计划",
+      "explain",
+      "plan"
+    ],
+    "pinyin": "jie shi zhi xing ji hua jieshizhixingjihua j s z x j h jszxjh zhi xing ji hua zhixingjihua z x j h zxjh"
+  },
+  {
+    "id": "dbeaver-toggle-result",
+    "appId": "dbeaver",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "显示 / 隐藏结果",
+      "en": "Toggle Result Panel"
+    },
+    "description": {
+      "zh": "显示或隐藏结果面板",
+      "en": "Toggle results panel"
+    },
+    "windows": "Ctrl + T",
+    "mac": "⌃ T",
+    "linux": "Ctrl + T",
+    "keywords": [
+      "结果",
+      "result",
+      "面板"
+    ],
+    "pinyin": "xian shi   /   yin cang jie guo xianshi / yincangjieguo x s   /   y c j g xs / ycjg jie guo   mian ban jieguo mianban j g   m b jg mb"
+  },
+  {
+    "id": "dbeaver-max-result",
+    "appId": "dbeaver",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "最大化结果面板",
+      "en": "Maximize Result"
+    },
+    "description": {
+      "zh": "最大化/还原结果面板",
+      "en": "Maximize results panel"
+    },
+    "windows": "Ctrl + Shift + T",
+    "mac": "⌃ ⇧ T",
+    "linux": "Ctrl + Shift + T",
+    "keywords": [
+      "最大化",
+      "maximize",
+      "result"
+    ],
+    "pinyin": "zui da hua jie guo mian ban zuidahuajieguomianban z d h j g m b zdhjgmb zui da hua zuidahua z d h zdh"
+  },
+  {
+    "id": "dbeaver-autocomplete",
+    "appId": "dbeaver",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "自动完成",
+      "en": "Auto-complete"
+    },
+    "description": {
+      "zh": "触发代码自动完成",
+      "en": "Auto-complete"
+    },
+    "windows": "Ctrl + Space",
+    "mac": "⌃ Space",
+    "linux": "Ctrl + Space",
+    "keywords": [
+      "自动完成",
+      "autocomplete",
+      "补全"
+    ],
+    "pinyin": "zi dong wan cheng zidongwancheng z d w c zdwc zi dong wan cheng   bu quan zidongwancheng buquan z d w c   b q zdwc bq"
+  },
+  {
+    "id": "dbeaver-find-editor",
+    "appId": "dbeaver",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "查找替换",
+      "en": "Find/Replace"
+    },
+    "description": {
+      "zh": "在编辑器中查找替换",
+      "en": "Find and replace"
+    },
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
+    "linux": "Ctrl + F",
+    "keywords": [
+      "查找",
+      "替换",
+      "find"
+    ],
+    "pinyin": "cha zhao ti huan chazhaotihuan c z t h czth cha zhao   ti huan chazhao tihuan c z   t h cz th"
+  },
+  {
+    "id": "dbeaver-undo",
+    "appId": "dbeaver",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销编辑操作",
+      "en": "Undo"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "Ctrl + Z",
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "dbeaver-redo",
+    "appId": "dbeaver",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "重做编辑操作",
+      "en": "Redo"
+    },
+    "windows": "Ctrl + Y",
+    "mac": "⇧ ⌘ Z",
+    "linux": "Ctrl + Y",
+    "keywords": [
+      "重做",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "dbeaver-select-all",
+    "appId": "dbeaver",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "全选",
+      "en": "Select All"
+    },
+    "description": {
+      "zh": "全选编辑器内容",
+      "en": "Select all"
+    },
+    "windows": "Ctrl + A",
+    "mac": "⌘ A",
+    "linux": "Ctrl + A",
+    "keywords": [
+      "全选",
+      "select all"
+    ],
+    "pinyin": "quan xuan quanxuan q x qx quan xuan quanxuan q x qx"
+  },
+  {
+    "id": "dbeaver-go-line",
+    "appId": "dbeaver",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "跳转行",
+      "en": "Go to Line"
+    },
+    "description": {
+      "zh": "跳转到指定行",
+      "en": "Go to line"
+    },
+    "windows": "Ctrl + L",
+    "mac": "⌘ L",
+    "linux": "Ctrl + L",
+    "keywords": [
+      "跳转",
+      "行",
+      "go to line"
+    ],
+    "pinyin": "tiao zhuan xing tiaozhuanxing t z x tzx tiao zhuan   xing tiaozhuan xing t z   x tz x"
+  },
+  {
+    "id": "dbeaver-next-editor",
+    "appId": "dbeaver",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "下一个编辑器",
+      "en": "Next Editor"
+    },
+    "description": {
+      "zh": "切换到下一个编辑器标签",
+      "en": "Next editor"
+    },
+    "windows": "Ctrl + F6",
+    "mac": "⌘ F6",
+    "linux": "Ctrl + F6",
+    "keywords": [
+      "下一个",
+      "编辑器",
+      "editor"
+    ],
+    "pinyin": "xia yi ge bian ji qi xiayigebianjiqi x y g b j q xygbjq xia yi ge   bian ji qi xiayige bianjiqi x y g   b j q xyg bjq"
+  },
+  {
+    "id": "dbeaver-show-keys",
+    "appId": "dbeaver",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "显示快捷键",
+      "en": "Key Assist"
+    },
+    "description": {
+      "zh": "显示所有快捷键列表",
+      "en": "Show key assist"
+    },
+    "windows": "Ctrl + Shift + L",
+    "mac": "⌃ ⇧ L",
+    "linux": "Ctrl + Shift + L",
+    "keywords": [
+      "快捷键",
+      "shortcuts",
+      "keys"
+    ],
+    "pinyin": "xian shi kuai jie jian xianshikuaijiejian x s k j j xskjj kuai jie jian kuaijiejian k j j kjj"
+  },
+  {
+    "id": "dbeaver-max-view",
+    "appId": "dbeaver",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "最大化视图",
+      "en": "Maximize View"
+    },
+    "description": {
+      "zh": "最大化/还原当前视图",
+      "en": "Maximize view"
+    },
+    "windows": "Ctrl + M",
+    "mac": "⌃ M",
+    "linux": "Ctrl + M",
+    "keywords": [
+      "最大化",
+      "maximize",
+      "view"
+    ],
+    "pinyin": "zui da hua shi tu zuidahuashitu z d h s t zdhst zui da hua zuidahua z d h zdh"
+  },
+  {
+    "id": "dbeaver-fullscreen",
+    "appId": "dbeaver",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "全屏",
+      "en": "Full Screen"
+    },
+    "description": {
+      "zh": "切换全屏模式",
+      "en": "Toggle full screen"
+    },
+    "windows": "Alt + F11",
+    "mac": "⌃ ⌘ F",
+    "linux": "Alt + F11",
+    "keywords": [
+      "全屏",
+      "fullscreen"
+    ],
+    "pinyin": "quan ping quanping q p qp quan ping quanping q p qp"
+  },
+  {
+    "id": "dbeaver-search",
+    "appId": "dbeaver",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "搜索",
+      "en": "Search"
+    },
+    "description": {
+      "zh": "打开搜索对话框",
+      "en": "Open search"
+    },
+    "windows": "Ctrl + H",
+    "mac": "⌃ H",
+    "linux": "Ctrl + H",
+    "keywords": [
+      "搜索",
+      "search"
+    ],
+    "pinyin": "sou suo sousuo s s ss sou suo sousuo s s ss"
+  },
+  {
+    "id": "dbeaver-save",
+    "appId": "dbeaver",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "保存文件",
+      "en": "Save"
+    },
+    "description": {
+      "zh": "保存当前文件",
+      "en": "Save file"
+    },
+    "windows": "Ctrl + S",
+    "mac": "⌘ S",
+    "linux": "Ctrl + S",
+    "keywords": [
+      "保存",
+      "save"
+    ],
+    "pinyin": "bao cun wen jian baocunwenjian b c w j bcwj bao cun baocun b c bc"
+  },
+  {
+    "id": "dbeaver-close-editor",
+    "appId": "dbeaver",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "关闭编辑器",
+      "en": "Close Editor"
+    },
+    "description": {
+      "zh": "关闭当前编辑器标签",
+      "en": "Close editor"
+    },
+    "windows": "Ctrl + F4",
+    "mac": "⌘ W",
+    "linux": "Ctrl + F4",
+    "keywords": [
+      "关闭",
+      "close",
+      "editor"
+    ],
+    "pinyin": "guan bi bian ji qi guanbibianjiqi g b b j q gbbjq guan bi guanbi g b gb"
+  }
+]

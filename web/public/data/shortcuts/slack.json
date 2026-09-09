@@ -1,1 +1,1190 @@
-[{"id":"slack-compose","appId":"slack","type":"software","category":"productivity","name":{"zh":"编写新消息","en":"Compose a New Message"},"description":{"zh":"编写新消息","en":"Compose a New Message"},"windows":"Ctrl N","mac":"⌘ N","linux":"Ctrl N","keywords":["编写新消息","Compose a New Message"],"pinyin":"bian xie xin xiao xi bianxiexinxiaoxi b x x x x bxxxx bian xie xin xiao xi bianxiexinxiaoxi b x x x x bxxxx"},{"id":"slack-jumpconv","appId":"slack","type":"software","category":"productivity","name":{"zh":"跳转到会话","en":"Jump to a Conversation"},"description":{"zh":"跳转到会话","en":"Jump to a Conversation"},"windows":"Ctrl K","mac":"⌘ K","linux":"Ctrl K","keywords":["跳转到会话","Jump to a Conversation"],"pinyin":"tiao zhuan dao hui hua tiaozhuandaohuihua t z d h h tzdhh tiao zhuan dao hui hua tiaozhuandaohuihua t z d h h tzdhh"},{"id":"slack-unsend","appId":"slack","type":"software","category":"productivity","name":{"zh":"撤回消息","en":"Unsend a Message"},"description":{"zh":"撤回消息","en":"Unsend a Message"},"windows":"Ctrl Z","mac":"⌘ Z","linux":"Ctrl Z","keywords":["撤回消息","Unsend a Message"],"pinyin":"che hui xiao xi chehuixiaoxi c h x x chxx che hui xiao xi chehuixiaoxi c h x x chxx"},{"id":"slack-status","appId":"slack","type":"software","category":"productivity","name":{"zh":"设置状态","en":"Set Your Status"},"description":{"zh":"设置状态","en":"Set Your Status"},"windows":"Ctrl Shift Y","mac":"⌘ ⇧ Y","linux":"Ctrl Shift Y","keywords":["设置状态","Set Your Status"],"pinyin":"she zhi zhuang tai shezhizhuangtai s z z t szzt she zhi zhuang tai shezhizhuangtai s z z t szzt"},{"id":"slack-prefs","appId":"slack","type":"software","category":"productivity","name":{"zh":"打开偏好设置","en":"Open Preferences"},"description":{"zh":"打开偏好设置","en":"Open Preferences"},"windows":"Ctrl ,","mac":"⌘ ,","linux":"Ctrl ,","keywords":["打开偏好设置","Open Preferences"],"pinyin":"da kai pian hao she zhi dakaipianhaoshezhi d k p h s z dkphsz da kai pian hao she zhi dakaipianhaoshezhi d k p h s z dkphsz"},{"id":"slack-hidesidebar","appId":"slack","type":"software","category":"productivity","name":{"zh":"隐藏右侧栏","en":"Hide the Right Sidebar"},"description":{"zh":"隐藏右侧栏","en":"Hide the Right Sidebar"},"windows":"Ctrl .","mac":"⌘ .","linux":"Ctrl .","keywords":["隐藏右侧栏","Hide the Right Sidebar"],"pinyin":"yin cang you ce lan yincangyoucelan y c y c l ycycl yin cang you ce lan yincangyoucelan y c y c l ycycl"},{"id":"slack-canvas","appId":"slack","type":"software","category":"productivity","name":{"zh":"新建画布","en":"Create a New Canvas"},"description":{"zh":"新建画布","en":"Create a New Canvas"},"windows":"Ctrl Shift N","mac":"⌘ ⇧ N","linux":"Ctrl Shift N","keywords":["新建画布","Create a New Canvas"],"pinyin":"xin jian hua bu xinjianhuabu x j h b xjhb xin jian hua bu xinjianhuabu x j h b xjhb"},{"id":"slack-upload","appId":"slack","type":"software","category":"productivity","name":{"zh":"上传文件","en":"Upload a File"},"description":{"zh":"上传文件","en":"Upload a File"},"windows":"Ctrl O","mac":"⌘ O","linux":"Ctrl O","keywords":["上传文件","Upload a File"],"pinyin":"shang chuan wen jian shangchuanwenjian s c w j scwj shang chuan wen jian shangchuanwenjian s c w j scwj"},{"id":"slack-downloads","appId":"slack","type":"software","category":"productivity","name":{"zh":"查看已下载文件","en":"View All Downloaded Files"},"description":{"zh":"查看已下载文件","en":"View All Downloaded Files"},"windows":"Ctrl Shift J","mac":"⌘ ⇧ J","linux":"Ctrl Shift J","keywords":["查看已下载文件","View All Downloaded Files"],"pinyin":"cha kan yi xia zai wen jian chakanyixiazaiwenjian c k y x z w j ckyxzwj cha kan yi xia zai wen jian chakanyixiazaiwenjian c k y x z w j ckyxzwj"},{"id":"slack-snippet","appId":"slack","type":"software","category":"productivity","name":{"zh":"新建代码片段","en":"Create a New Snippet"},"description":{"zh":"新建代码片段","en":"Create a New Snippet"},"windows":"Ctrl Shift Enter","mac":"⌘ ⇧ Enter","linux":"Ctrl Shift Enter","keywords":["新建代码片段","Create a New Snippet"],"pinyin":"xin jian dai ma pian duan xinjiandaimapianduan x j d m p d xjdmpd xin jian dai ma pian duan xinjiandaimapianduan x j d m p d xjdmpd"},{"id":"slack-search","appId":"slack","type":"software","category":"productivity","name":{"zh":"开始搜索","en":"Start a Search"},"description":{"zh":"开始搜索","en":"Start a Search"},"windows":"Ctrl G","mac":"⌘ G","linux":"Ctrl G","keywords":["开始搜索","Start a Search"],"pinyin":"kai shi sou suo kaishisousuo k s s s ksss kai shi sou suo kaishisousuo k s s s ksss"},{"id":"slack-searchconv","appId":"slack","type":"software","category":"productivity","name":{"zh":"在当前会话中搜索","en":"Search in Current Conversation"},"description":{"zh":"在当前会话中搜索","en":"Search in Current Conversation"},"windows":"Ctrl F","mac":"⌘ F","linux":"Ctrl F","keywords":["在当前会话中搜索","Search in Current Conversation"],"pinyin":"zai dang qian hui hua zhong sou suo zaidangqianhuihuazhongsousuo z d q h h z s s zdqhhzss zai dang qian hui hua zhong sou suo zaidangqianhuihuazhongsousuo z d q h h z s s zdqhhzss"},{"id":"slack-huddle","appId":"slack","type":"software","category":"productivity","name":{"zh":"开始/加入/离开音视频","en":"Start/Join/Leave/End Huddle"},"description":{"zh":"开始/加入/离开音视频","en":"Start/Join/Leave/End Huddle"},"windows":"Ctrl Shift H","mac":"⌘ ⇧ H","linux":"Ctrl Shift H","keywords":["开始/加入/离开音视频","Start/Join/Leave/End Huddle"],"pinyin":"kai shi / jia ru / li kai yin shi pin kaishi/jiaru/likaiyinshipin k s / j r / l k y s p ks/jr/lkysp kai shi / jia ru / li kai yin shi pin kaishi/jiaru/likaiyinshipin k s / j r / l k y s p ks/jr/lkysp"},{"id":"slack-hudlemute","appId":"slack","type":"software","category":"productivity","name":{"zh":"静音音视频","en":"Toggle Mute on Huddle"},"description":{"zh":"静音音视频","en":"Toggle Mute on Huddle"},"windows":"Ctrl Shift Space","mac":"⌘ ⇧ Space","linux":"Ctrl Shift Space","keywords":["静音音视频","Toggle Mute on Huddle"],"pinyin":"jing yin yin shi pin jingyinyinshipin j y y s p jyysp jing yin yin shi pin jingyinyinshipin j y y s p jyysp"},{"id":"slack-help","appId":"slack","type":"software","category":"productivity","name":{"zh":"打开帮助","en":"Open Help"},"description":{"zh":"打开帮助","en":"Open Help"},"windows":"F1","mac":"F1","linux":"F1","keywords":["打开帮助","Open Help"],"pinyin":"da kai bang zhu dakaibangzhu d k b z dkbz da kai bang zhu dakaibangzhu d k b z dkbz"},{"id":"slack-fullscreen","appId":"slack","type":"software","category":"productivity","name":{"zh":"切换全屏","en":"Toggle Full Screen"},"description":{"zh":"切换全屏","en":"Toggle Full Screen"},"windows":"F11","mac":"⌃ ⌘ F","linux":"F11","keywords":["切换全屏","Toggle Full Screen"],"pinyin":"qie huan quan ping qiehuanquanping q h q p qhqp qie huan quan ping qiehuanquanping q h q p qhqp"},{"id":"slack-closewin","appId":"slack","type":"software","category":"productivity","name":{"zh":"关闭窗口","en":"Close Window"},"description":{"zh":"关闭窗口","en":"Close Window"},"windows":"Ctrl W","mac":"⌘ W","linux":"Ctrl W","keywords":["关闭窗口","Close Window"],"pinyin":"guan bi chuang kou guanbichuangkou g b c k gbck guan bi chuang kou guanbichuangkou g b c k gbck"},{"id":"slack-reopenwin","appId":"slack","type":"software","category":"productivity","name":{"zh":"重新打开上次关闭的窗口","en":"Reopen Last Closed Window"},"description":{"zh":"重新打开上次关闭的窗口","en":"Reopen Last Closed Window"},"windows":"Ctrl Shift W","mac":"⌘ ⇧ W","linux":"Ctrl Shift W","keywords":["重新打开上次关闭的窗口","Reopen Last Closed Window"],"pinyin":"chong xin da kai shang ci guan bi de chuang kou chongxindakaishangciguanbidechuangkou c x d k s c g b d c k cxdkscgbdck chong xin da kai shang ci guan bi de chuang kou chongxindakaishangciguanbidechuangkou c x d k s c g b d c k cxdkscgbdck"},{"id":"slack-people","appId":"slack","type":"software","category":"productivity","name":{"zh":"打开人员视图","en":"Open the People View"},"description":{"zh":"打开人员视图","en":"Open the People View"},"windows":"Ctrl Shift E","mac":"⌘ ⇧ E","linux":"Ctrl Shift E","keywords":["打开人员视图","Open the People View"],"pinyin":"da kai ren yuan shi tu dakairenyuanshitu d k r y s t dkryst da kai ren yuan shi tu dakairenyuanshitu d k r y s t dkryst"},{"id":"slack-quit","appId":"slack","type":"software","category":"productivity","name":{"zh":"退出 Slack","en":"Quit Slack"},"description":{"zh":"退出 Slack","en":"Quit Slack"},"windows":"Ctrl Q","mac":"⌘ Q","linux":"Ctrl Q","keywords":["退出 Slack","Quit Slack"],"pinyin":"tui chu   s l a c k tuichu slack t c   s l a c k tc slack tui chu   s l a c k tuichu slack t c   s l a c k tc slack"},{"id":"slack-jumprecent","appId":"slack","type":"software","category":"productivity","name":{"zh":"跳到最近未读","en":"Jump to Most Recent Unread"},"description":{"zh":"跳到最近未读","en":"Jump to Most Recent Unread"},"windows":"Ctrl J","mac":"⌘ J","linux":"Ctrl J","keywords":["跳到最近未读","Jump to Most Recent Unread"],"pinyin":"tiao dao zui jin wei du tiaodaozuijinweidu t d z j w d tdzjwd tiao dao zui jin wei du tiaodaozuijinweidu t d z j w d tdzjwd"},{"id":"slack-prevunread","appId":"slack","type":"software","category":"productivity","name":{"zh":"上一个未读会话","en":"Jump to Previous Unread"},"description":{"zh":"上一个未读会话","en":"Jump to Previous Unread"},"windows":"Alt Shift ↑","mac":"⌥ ⇧ ↑","linux":"Alt Shift ↑","keywords":["上一个未读会话","Jump to Previous Unread"],"pinyin":"shang yi ge wei du hui hua shangyigeweiduhuihua s y g w d h h sygwdhh shang yi ge wei du hui hua shangyigeweiduhuihua s y g w d h h sygwdhh"},{"id":"slack-nextunread","appId":"slack","type":"software","category":"productivity","name":{"zh":"下一个未读会话","en":"Jump to Next Unread"},"description":{"zh":"下一个未读会话","en":"Jump to Next Unread"},"windows":"Alt Shift ↓","mac":"⌥ ⇧ ↓","linux":"Alt Shift ↓","keywords":["下一个未读会话","Jump to Next Unread"],"pinyin":"xia yi ge wei du hui hua xiayigeweiduhuihua x y g w d h h xygwdhh xia yi ge wei du hui hua xiayigeweiduhuihua x y g w d h h xygwdhh"},{"id":"slack-prevchan","appId":"slack","type":"software","category":"productivity","name":{"zh":"上一个频道/私信","en":"Previous Channel/DM"},"description":{"zh":"上一个频道/私信","en":"Previous Channel/DM"},"windows":"Alt ↑","mac":"⌥ ↑","linux":"Alt ↑","keywords":["上一个频道/私信","Previous Channel/DM"],"pinyin":"shang yi ge pin dao / si xin shangyigepindao/sixin s y g p d / s x sygpd/sx shang yi ge pin dao / si xin shangyigepindao/sixin s y g p d / s x sygpd/sx"},{"id":"slack-nextchan","appId":"slack","type":"software","category":"productivity","name":{"zh":"下一个频道/私信","en":"Next Channel/DM"},"description":{"zh":"下一个频道/私信","en":"Next Channel/DM"},"windows":"Alt ↓","mac":"⌥ ↓","linux":"Alt ↓","keywords":["下一个频道/私信","Next Channel/DM"],"pinyin":"xia yi ge pin dao / si xin xiayigepindao/sixin x y g p d / s x xygpd/sx xia yi ge pin dao / si xin xiayigepindao/sixin x y g p d / s x xygpd/sx"},{"id":"slack-back","appId":"slack","type":"software","category":"productivity","name":{"zh":"历史后退","en":"Go Back in History"},"description":{"zh":"历史后退","en":"Go Back in History"},"windows":"Alt ←","mac":"⌘ [","linux":"Alt ←","keywords":["历史后退","Go Back in History"],"pinyin":"li shi hou tui lishihoutui l s h t lsht li shi hou tui lishihoutui l s h t lsht"},{"id":"slack-forward","appId":"slack","type":"software","category":"productivity","name":{"zh":"历史前进","en":"Go Forward in History"},"description":{"zh":"历史前进","en":"Go Forward in History"},"windows":"Alt →","mac":"⌘ ]","linux":"Alt →","keywords":["历史前进","Go Forward in History"],"pinyin":"li shi qian jin lishiqianjin l s q j lsqj li shi qian jin lishiqianjin l s q j lsqj"},{"id":"slack-home","appId":"slack","type":"software","category":"productivity","name":{"zh":"打开主页视图","en":"Open Home View"},"description":{"zh":"打开主页视图","en":"Open Home View"},"windows":"Ctrl Shift 1","mac":"⌘ 1","linux":"Ctrl Shift 1","keywords":["打开主页视图","Open Home View"],"pinyin":"da kai zhu ye shi tu dakaizhuyeshitu d k z y s t dkzyst da kai zhu ye shi tu dakaizhuyeshitu d k z y s t dkzyst"},{"id":"slack-activity","appId":"slack","type":"software","category":"productivity","name":{"zh":"打开动态视图","en":"Open Activity View"},"description":{"zh":"打开动态视图","en":"Open Activity View"},"windows":"Ctrl Shift M","mac":"⌘ ⇧ M","linux":"Ctrl Shift M","keywords":["打开动态视图","Open Activity View"],"pinyin":"da kai dong tai shi tu dakaidongtaishitu d k d t s t dkdtst da kai dong tai shi tu dakaidongtaishitu d k d t s t dkdtst"},{"id":"slack-more","appId":"slack","type":"software","category":"productivity","name":{"zh":"打开更多视图","en":"Open More View"},"description":{"zh":"打开更多视图","en":"Open More View"},"windows":"Ctrl Shift 0","mac":"⌘ 0","linux":"Ctrl Shift 0","keywords":["打开更多视图","Open More View"],"pinyin":"da kai geng duo shi tu dakaigengduoshitu d k g d s t dkgdst da kai geng duo shi tu dakaigengduoshitu d k g d s t dkgdst"},{"id":"slack-threads","appId":"slack","type":"software","category":"productivity","name":{"zh":"打开会话线程视图","en":"Open Threads View"},"description":{"zh":"打开会话线程视图","en":"Open Threads View"},"windows":"Ctrl Shift T","mac":"⌘ ⇧ T","linux":"Ctrl Shift T","keywords":["打开会话线程视图","Open Threads View"],"pinyin":"da kai hui hua xian cheng shi tu dakaihuihuaxianchengshitu d k h h x c s t dkhhxcst da kai hui hua xian cheng shi tu dakaihuihuaxianchengshitu d k h h x c s t dkhhxcst"},{"id":"slack-browsechan","appId":"slack","type":"software","category":"productivity","name":{"zh":"浏览频道","en":"Browse Channels"},"description":{"zh":"浏览频道","en":"Browse Channels"},"windows":"Ctrl Shift L","mac":"⌘ ⇧ L","linux":"Ctrl Shift L","keywords":["浏览频道","Browse Channels"],"pinyin":"liu lan pin dao liulanpindao l l p d llpd liu lan pin dao liulanpindao l l p d llpd"},{"id":"slack-convdetails","appId":"slack","type":"software","category":"productivity","name":{"zh":"打开会话详情","en":"Open Conversation Details"},"description":{"zh":"打开会话详情","en":"Open Conversation Details"},"windows":"Ctrl Shift I","mac":"⌘ ⇧ I","linux":"Ctrl Shift I","keywords":["打开会话详情","Open Conversation Details"],"pinyin":"da kai hui hua xiang qing dakaihuihuaxiangqing d k h h x q dkhhxq da kai hui hua xiang qing dakaihuihuaxiangqing d k h h x q dkhhxq"},{"id":"slack-markread","appId":"slack","type":"software","category":"productivity","name":{"zh":"标记会话全部已读","en":"Mark All in Conversation as Read"},"description":{"zh":"标记会话全部已读","en":"Mark All in Conversation as Read"},"windows":"Esc","mac":"Esc","linux":"Esc","keywords":["标记会话全部已读","Mark All in Conversation as Read"],"pinyin":"biao ji hui hua quan bu yi du biaojihuihuaquanbuyidu b j h h q b y d bjhhqbyd biao ji hui hua quan bu yi du biaojihuihuaquanbuyidu b j h h q b y d bjhhqbyd"},{"id":"slack-markallread","appId":"slack","type":"software","category":"productivity","name":{"zh":"标记全部已读","en":"Mark All Messages as Read"},"description":{"zh":"标记全部已读","en":"Mark All Messages as Read"},"windows":"Shift Esc","mac":"Shift Esc","linux":"Shift Esc","keywords":["标记全部已读","Mark All Messages as Read"],"pinyin":"biao ji quan bu yi du biaojiquanbuyidu b j q b y d bjqbyd biao ji quan bu yi du biaojiquanbuyidu b j q b y d bjqbyd"},{"id":"slack-allunreads","appId":"slack","type":"software","category":"productivity","name":{"zh":"打开全部未读视图","en":"Open All Unreads View"},"description":{"zh":"打开全部未读视图","en":"Open All Unreads View"},"windows":"Ctrl Shift A","mac":"⌘ ⇧ A","linux":"Ctrl Shift A","keywords":["打开全部未读视图","Open All Unreads View"],"pinyin":"da kai quan bu wei du shi tu dakaiquanbuweidushitu d k q b w d s t dkqbwdst da kai quan bu wei du shi tu dakaiquanbuweidushitu d k q b w d s t dkqbwdst"},{"id":"slack-wsswitcher","appId":"slack","type":"software","category":"productivity","name":{"zh":"展开/收起工作区切换器","en":"Expand/Collapse Workspace Switcher"},"description":{"zh":"展开/收起工作区切换器","en":"Expand/Collapse Workspace Switcher"},"windows":"Ctrl Shift S","mac":"⌘ ⇧ S","linux":"Ctrl Shift S","keywords":["展开/收起工作区切换器","Expand/Collapse Workspace Switcher"],"pinyin":"zhan kai / shou qi gong zuo qu qie huan qi zhankai/shouqigongzuoquqiehuanqi z k / s q g z q q h q zk/sqgzqqhq zhan kai / shou qi gong zuo qu qie huan qi zhankai/shouqigongzuoquqiehuanqi z k / s q g z q q h q zk/sqgzqqhq"},{"id":"slack-editmsg","appId":"slack","type":"software","category":"productivity","name":{"zh":"编辑已发消息","en":"Edit a Message You Sent"},"description":{"zh":"编辑已发消息","en":"Edit a Message You Sent"},"windows":"E","mac":"E","linux":"E","keywords":["编辑已发消息","Edit a Message You Sent"],"pinyin":"bian ji yi fa xiao xi bianjiyifaxiaoxi b j y f x x bjyfxx bian ji yi fa xiao xi bianjiyifaxiaoxi b j y f x x bjyfxx"},{"id":"slack-deletemsg","appId":"slack","type":"software","category":"productivity","name":{"zh":"删除已发消息","en":"Delete a Message You Sent"},"description":{"zh":"删除已发消息","en":"Delete a Message You Sent"},"windows":"Delete","mac":"⌫","linux":"Delete","keywords":["删除已发消息","Delete a Message You Sent"],"pinyin":"shan chu yi fa xiao xi shanchuyifaxiaoxi s c y f x x scyfxx shan chu yi fa xiao xi shanchuyifaxiaoxi s c y f x x scyfxx"},{"id":"slack-thread","appId":"slack","type":"software","category":"productivity","name":{"zh":"打开或回复线程","en":"Open or Reply to Thread"},"description":{"zh":"打开或回复线程","en":"Open or Reply to Thread"},"windows":"T","mac":"T","linux":"T","keywords":["打开或回复线程","Open or Reply to Thread"],"pinyin":"da kai huo hui fu xian cheng dakaihuohuifuxiancheng d k h h f x c dkhhfxc da kai huo hui fu xian cheng dakaihuohuifuxiancheng d k h h f x c dkhhfxc"},{"id":"slack-forwardmsg","appId":"slack","type":"software","category":"productivity","name":{"zh":"转发消息","en":"Forward a Message"},"description":{"zh":"转发消息","en":"Forward a Message"},"windows":"F","mac":"F","linux":"F","keywords":["转发消息","Forward a Message"],"pinyin":"zhuan fa xiao xi zhuanfaxiaoxi z f x x zfxx zhuan fa xiao xi zhuanfaxiaoxi z f x x zfxx"},{"id":"slack-pin","appId":"slack","type":"software","category":"productivity","name":{"zh":"固定/取消固定消息","en":"Pin/Unpin a Message"},"description":{"zh":"固定/取消固定消息","en":"Pin/Unpin a Message"},"windows":"P","mac":"P","linux":"P","keywords":["固定/取消固定消息","Pin/Unpin a Message"],"pinyin":"gu ding / qu xiao gu ding xiao xi guding/quxiaogudingxiaoxi g d / q x g d x x gd/qxgdxx gu ding / qu xiao gu ding xiao xi guding/quxiaogudingxiaoxi g d / q x g d x x gd/qxgdxx"},{"id":"slack-save","appId":"slack","type":"software","category":"productivity","name":{"zh":"保存消息","en":"Save a Message"},"description":{"zh":"保存消息","en":"Save a Message"},"windows":"A","mac":"A","linux":"A","keywords":["保存消息","Save a Message"],"pinyin":"bao cun xiao xi baocunxiaoxi b c x x bcxx bao cun xiao xi baocunxiaoxi b c x x bcxx"},{"id":"slack-reminder","appId":"slack","type":"software","category":"productivity","name":{"zh":"创建消息提醒","en":"Create a Reminder About a Message"},"description":{"zh":"创建消息提醒","en":"Create a Reminder About a Message"},"windows":"M","mac":"M","linux":"M","keywords":["创建消息提醒","Create a Reminder About a Message"],"pinyin":"chuang jian xiao xi ti xing chuangjianxiaoxitixing c j x x t x cjxxtx chuang jian xiao xi ti xing chuangjianxiaoxitixing c j x x t x cjxxtx"},{"id":"slack-react","appId":"slack","type":"software","category":"productivity","name":{"zh":"添加表情回应","en":"Add an Emoji Reaction"},"description":{"zh":"添加表情回应","en":"Add an Emoji Reaction"},"windows":"R","mac":"R","linux":"R","keywords":["添加表情回应","Add an Emoji Reaction"],"pinyin":"tian jia biao qing hui ying tianjiabiaoqinghuiying t j b q h y tjbqhy tian jia biao qing hui ying tianjiabiaoqinghuiying t j b q h y tjbqhy"},{"id":"slack-bold","appId":"slack","type":"software","category":"productivity","name":{"zh":"加粗","en":"Bold"},"description":{"zh":"加粗","en":"Bold"},"windows":"Ctrl B","mac":"⌘ B","linux":"Ctrl B","keywords":["加粗","Bold"],"pinyin":"jia cu jiacu j c jc jia cu jiacu j c jc"},{"id":"slack-italic","appId":"slack","type":"software","category":"productivity","name":{"zh":"斜体","en":"Italic"},"description":{"zh":"斜体","en":"Italic"},"windows":"Ctrl I","mac":"⌘ I","linux":"Ctrl I","keywords":["斜体","Italic"],"pinyin":"xie ti xieti x t xt xie ti xieti x t xt"},{"id":"slack-underline","appId":"slack","type":"software","category":"productivity","name":{"zh":"下划线","en":"Underline"},"description":{"zh":"下划线","en":"Underline"},"windows":"Ctrl U","mac":"⌘ U","linux":"Ctrl U","keywords":["下划线","Underline"],"pinyin":"xia hua xian xiahuaxian x h x xhx xia hua xian xiahuaxian x h x xhx"},{"id":"slack-strike","appId":"slack","type":"software","category":"productivity","name":{"zh":"删除线","en":"Strikethrough"},"description":{"zh":"删除线","en":"Strikethrough"},"windows":"Ctrl Shift X","mac":"⌘ ⇧ X","linux":"Ctrl Shift X","keywords":["删除线","Strikethrough"],"pinyin":"shan chu xian shanchuxian s c x scx shan chu xian shanchuxian s c x scx"},{"id":"slack-link","appId":"slack","type":"software","category":"productivity","name":{"zh":"超链接","en":"Hyperlink"},"description":{"zh":"超链接","en":"Hyperlink"},"windows":"Ctrl Shift U","mac":"⌘ ⇧ U","linux":"Ctrl Shift U","keywords":["超链接","Hyperlink"],"pinyin":"chao lian jie chaolianjie c l j clj chao lian jie chaolianjie c l j clj"},{"id":"slack-code","appId":"slack","type":"software","category":"productivity","name":{"zh":"行内代码","en":"Code"},"description":{"zh":"行内代码","en":"Code"},"windows":"Ctrl Shift C","mac":"⌘ ⇧ C","linux":"Ctrl Shift C","keywords":["行内代码","Code"],"pinyin":"xing nei dai ma xingneidaima x n d m xndm xing nei dai ma xingneidaima x n d m xndm"},{"id":"slack-codeblock","appId":"slack","type":"software","category":"productivity","name":{"zh":"代码块","en":"Code Block"},"description":{"zh":"代码块","en":"Code Block"},"windows":"Ctrl Alt Shift C","mac":"⌘ ⌥ ⇧ C","linux":"Ctrl Alt Shift C","keywords":["代码块","Code Block"],"pinyin":"dai ma kuai daimakuai d m k dmk dai ma kuai daimakuai d m k dmk"},{"id":"slack-bullet","appId":"slack","type":"software","category":"productivity","name":{"zh":"项目符号列表","en":"Bulleted List"},"description":{"zh":"项目符号列表","en":"Bulleted List"},"windows":"Ctrl Shift 8","mac":"⌘ ⇧ 8","linux":"Ctrl Shift 8","keywords":["项目符号列表","Bulleted List"],"pinyin":"xiang mu fu hao lie biao xiangmufuhaoliebiao x m f h l b xmfhlb xiang mu fu hao lie biao xiangmufuhaoliebiao x m f h l b xmfhlb"},{"id":"slack-number","appId":"slack","type":"software","category":"productivity","name":{"zh":"编号列表","en":"Numbered List"},"description":{"zh":"编号列表","en":"Numbered List"},"windows":"Ctrl Shift 7","mac":"⌘ ⇧ 7","linux":"Ctrl Shift 7","keywords":["编号列表","Numbered List"],"pinyin":"bian hao lie biao bianhaoliebiao b h l b bhlb bian hao lie biao bianhaoliebiao b h l b bhlb"}]
+[
+  {
+    "id": "slack-compose",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "编写新消息",
+      "en": "Compose a New Message"
+    },
+    "description": {
+      "zh": "编写新消息",
+      "en": "Compose a New Message"
+    },
+    "windows": "Ctrl N",
+    "mac": "⌘ N",
+    "linux": "Ctrl N",
+    "keywords": [
+      "编写新消息",
+      "Compose a New Message"
+    ],
+    "pinyin": "bian xie xin xiao xi bianxiexinxiaoxi b x x x x bxxxx bian xie xin xiao xi bianxiexinxiaoxi b x x x x bxxxx"
+  },
+  {
+    "id": "slack-jumpconv",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "跳转到会话",
+      "en": "Jump to a Conversation"
+    },
+    "description": {
+      "zh": "跳转到会话",
+      "en": "Jump to a Conversation"
+    },
+    "windows": "Ctrl K",
+    "mac": "⌘ K",
+    "linux": "Ctrl K",
+    "keywords": [
+      "跳转到会话",
+      "Jump to a Conversation"
+    ],
+    "pinyin": "tiao zhuan dao hui hua tiaozhuandaohuihua t z d h h tzdhh tiao zhuan dao hui hua tiaozhuandaohuihua t z d h h tzdhh"
+  },
+  {
+    "id": "slack-unsend",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "撤回消息",
+      "en": "Unsend a Message"
+    },
+    "description": {
+      "zh": "撤回消息",
+      "en": "Unsend a Message"
+    },
+    "windows": "Ctrl Z",
+    "mac": "⌘ Z",
+    "linux": "Ctrl Z",
+    "keywords": [
+      "撤回消息",
+      "Unsend a Message"
+    ],
+    "pinyin": "che hui xiao xi chehuixiaoxi c h x x chxx che hui xiao xi chehuixiaoxi c h x x chxx"
+  },
+  {
+    "id": "slack-status",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "设置状态",
+      "en": "Set Your Status"
+    },
+    "description": {
+      "zh": "设置状态",
+      "en": "Set Your Status"
+    },
+    "windows": "Ctrl Shift Y",
+    "mac": "⌘ ⇧ Y",
+    "linux": "Ctrl Shift Y",
+    "keywords": [
+      "设置状态",
+      "Set Your Status"
+    ],
+    "pinyin": "she zhi zhuang tai shezhizhuangtai s z z t szzt she zhi zhuang tai shezhizhuangtai s z z t szzt"
+  },
+  {
+    "id": "slack-prefs",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "打开偏好设置",
+      "en": "Open Preferences"
+    },
+    "description": {
+      "zh": "打开偏好设置",
+      "en": "Open Preferences"
+    },
+    "windows": "Ctrl ,",
+    "mac": "⌘ ,",
+    "linux": "Ctrl ,",
+    "keywords": [
+      "打开偏好设置",
+      "Open Preferences"
+    ],
+    "pinyin": "da kai pian hao she zhi dakaipianhaoshezhi d k p h s z dkphsz da kai pian hao she zhi dakaipianhaoshezhi d k p h s z dkphsz"
+  },
+  {
+    "id": "slack-hidesidebar",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "隐藏右侧栏",
+      "en": "Hide the Right Sidebar"
+    },
+    "description": {
+      "zh": "隐藏右侧栏",
+      "en": "Hide the Right Sidebar"
+    },
+    "windows": "Ctrl .",
+    "mac": "⌘ .",
+    "linux": "Ctrl .",
+    "keywords": [
+      "隐藏右侧栏",
+      "Hide the Right Sidebar"
+    ],
+    "pinyin": "yin cang you ce lan yincangyoucelan y c y c l ycycl yin cang you ce lan yincangyoucelan y c y c l ycycl"
+  },
+  {
+    "id": "slack-canvas",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "新建画布",
+      "en": "Create a New Canvas"
+    },
+    "description": {
+      "zh": "新建画布",
+      "en": "Create a New Canvas"
+    },
+    "windows": "Ctrl Shift N",
+    "mac": "⌘ ⇧ N",
+    "linux": "Ctrl Shift N",
+    "keywords": [
+      "新建画布",
+      "Create a New Canvas"
+    ],
+    "pinyin": "xin jian hua bu xinjianhuabu x j h b xjhb xin jian hua bu xinjianhuabu x j h b xjhb"
+  },
+  {
+    "id": "slack-upload",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "上传文件",
+      "en": "Upload a File"
+    },
+    "description": {
+      "zh": "上传文件",
+      "en": "Upload a File"
+    },
+    "windows": "Ctrl O",
+    "mac": "⌘ O",
+    "linux": "Ctrl O",
+    "keywords": [
+      "上传文件",
+      "Upload a File"
+    ],
+    "pinyin": "shang chuan wen jian shangchuanwenjian s c w j scwj shang chuan wen jian shangchuanwenjian s c w j scwj"
+  },
+  {
+    "id": "slack-downloads",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "查看已下载文件",
+      "en": "View All Downloaded Files"
+    },
+    "description": {
+      "zh": "查看已下载文件",
+      "en": "View All Downloaded Files"
+    },
+    "windows": "Ctrl Shift J",
+    "mac": "⌘ ⇧ J",
+    "linux": "Ctrl Shift J",
+    "keywords": [
+      "查看已下载文件",
+      "View All Downloaded Files"
+    ],
+    "pinyin": "cha kan yi xia zai wen jian chakanyixiazaiwenjian c k y x z w j ckyxzwj cha kan yi xia zai wen jian chakanyixiazaiwenjian c k y x z w j ckyxzwj"
+  },
+  {
+    "id": "slack-snippet",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "新建代码片段",
+      "en": "Create a New Snippet"
+    },
+    "description": {
+      "zh": "新建代码片段",
+      "en": "Create a New Snippet"
+    },
+    "windows": "Ctrl Shift Enter",
+    "mac": "⌘ ⇧ Enter",
+    "linux": "Ctrl Shift Enter",
+    "keywords": [
+      "新建代码片段",
+      "Create a New Snippet"
+    ],
+    "pinyin": "xin jian dai ma pian duan xinjiandaimapianduan x j d m p d xjdmpd xin jian dai ma pian duan xinjiandaimapianduan x j d m p d xjdmpd"
+  },
+  {
+    "id": "slack-search",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "开始搜索",
+      "en": "Start a Search"
+    },
+    "description": {
+      "zh": "开始搜索",
+      "en": "Start a Search"
+    },
+    "windows": "Ctrl G",
+    "mac": "⌘ G",
+    "linux": "Ctrl G",
+    "keywords": [
+      "开始搜索",
+      "Start a Search"
+    ],
+    "pinyin": "kai shi sou suo kaishisousuo k s s s ksss kai shi sou suo kaishisousuo k s s s ksss"
+  },
+  {
+    "id": "slack-searchconv",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "在当前会话中搜索",
+      "en": "Search in Current Conversation"
+    },
+    "description": {
+      "zh": "在当前会话中搜索",
+      "en": "Search in Current Conversation"
+    },
+    "windows": "Ctrl F",
+    "mac": "⌘ F",
+    "linux": "Ctrl F",
+    "keywords": [
+      "在当前会话中搜索",
+      "Search in Current Conversation"
+    ],
+    "pinyin": "zai dang qian hui hua zhong sou suo zaidangqianhuihuazhongsousuo z d q h h z s s zdqhhzss zai dang qian hui hua zhong sou suo zaidangqianhuihuazhongsousuo z d q h h z s s zdqhhzss"
+  },
+  {
+    "id": "slack-huddle",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "开始/加入/离开音视频",
+      "en": "Start/Join/Leave/End Huddle"
+    },
+    "description": {
+      "zh": "开始/加入/离开音视频",
+      "en": "Start/Join/Leave/End Huddle"
+    },
+    "windows": "Ctrl Shift H",
+    "mac": "⌘ ⇧ H",
+    "linux": "Ctrl Shift H",
+    "keywords": [
+      "开始/加入/离开音视频",
+      "Start/Join/Leave/End Huddle"
+    ],
+    "pinyin": "kai shi / jia ru / li kai yin shi pin kaishi/jiaru/likaiyinshipin k s / j r / l k y s p ks/jr/lkysp kai shi / jia ru / li kai yin shi pin kaishi/jiaru/likaiyinshipin k s / j r / l k y s p ks/jr/lkysp"
+  },
+  {
+    "id": "slack-hudlemute",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "静音音视频",
+      "en": "Toggle Mute on Huddle"
+    },
+    "description": {
+      "zh": "静音音视频",
+      "en": "Toggle Mute on Huddle"
+    },
+    "windows": "Ctrl Shift Space",
+    "mac": "⌘ ⇧ Space",
+    "linux": "Ctrl Shift Space",
+    "keywords": [
+      "静音音视频",
+      "Toggle Mute on Huddle"
+    ],
+    "pinyin": "jing yin yin shi pin jingyinyinshipin j y y s p jyysp jing yin yin shi pin jingyinyinshipin j y y s p jyysp"
+  },
+  {
+    "id": "slack-help",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "打开帮助",
+      "en": "Open Help"
+    },
+    "description": {
+      "zh": "打开帮助",
+      "en": "Open Help"
+    },
+    "windows": "F1",
+    "mac": "F1",
+    "linux": "F1",
+    "keywords": [
+      "打开帮助",
+      "Open Help"
+    ],
+    "pinyin": "da kai bang zhu dakaibangzhu d k b z dkbz da kai bang zhu dakaibangzhu d k b z dkbz"
+  },
+  {
+    "id": "slack-fullscreen",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "切换全屏",
+      "en": "Toggle Full Screen"
+    },
+    "description": {
+      "zh": "切换全屏",
+      "en": "Toggle Full Screen"
+    },
+    "windows": "F11",
+    "mac": "⌃ ⌘ F",
+    "linux": "F11",
+    "keywords": [
+      "切换全屏",
+      "Toggle Full Screen"
+    ],
+    "pinyin": "qie huan quan ping qiehuanquanping q h q p qhqp qie huan quan ping qiehuanquanping q h q p qhqp"
+  },
+  {
+    "id": "slack-closewin",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "关闭窗口",
+      "en": "Close Window"
+    },
+    "description": {
+      "zh": "关闭窗口",
+      "en": "Close Window"
+    },
+    "windows": "Ctrl W",
+    "mac": "⌘ W",
+    "linux": "Ctrl W",
+    "keywords": [
+      "关闭窗口",
+      "Close Window"
+    ],
+    "pinyin": "guan bi chuang kou guanbichuangkou g b c k gbck guan bi chuang kou guanbichuangkou g b c k gbck"
+  },
+  {
+    "id": "slack-reopenwin",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "重新打开上次关闭的窗口",
+      "en": "Reopen Last Closed Window"
+    },
+    "description": {
+      "zh": "重新打开上次关闭的窗口",
+      "en": "Reopen Last Closed Window"
+    },
+    "windows": "Ctrl Shift W",
+    "mac": "⌘ ⇧ W",
+    "linux": "Ctrl Shift W",
+    "keywords": [
+      "重新打开上次关闭的窗口",
+      "Reopen Last Closed Window"
+    ],
+    "pinyin": "chong xin da kai shang ci guan bi de chuang kou chongxindakaishangciguanbidechuangkou c x d k s c g b d c k cxdkscgbdck chong xin da kai shang ci guan bi de chuang kou chongxindakaishangciguanbidechuangkou c x d k s c g b d c k cxdkscgbdck"
+  },
+  {
+    "id": "slack-people",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "打开人员视图",
+      "en": "Open the People View"
+    },
+    "description": {
+      "zh": "打开人员视图",
+      "en": "Open the People View"
+    },
+    "windows": "Ctrl Shift E",
+    "mac": "⌘ ⇧ E",
+    "linux": "Ctrl Shift E",
+    "keywords": [
+      "打开人员视图",
+      "Open the People View"
+    ],
+    "pinyin": "da kai ren yuan shi tu dakairenyuanshitu d k r y s t dkryst da kai ren yuan shi tu dakairenyuanshitu d k r y s t dkryst"
+  },
+  {
+    "id": "slack-quit",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "退出 Slack",
+      "en": "Quit Slack"
+    },
+    "description": {
+      "zh": "退出 Slack",
+      "en": "Quit Slack"
+    },
+    "windows": "Ctrl Q",
+    "mac": "⌘ Q",
+    "linux": "Ctrl Q",
+    "keywords": [
+      "退出 Slack",
+      "Quit Slack"
+    ],
+    "pinyin": "tui chu   s l a c k tuichu slack t c   s l a c k tc slack tui chu   s l a c k tuichu slack t c   s l a c k tc slack"
+  },
+  {
+    "id": "slack-jumprecent",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "跳到最近未读",
+      "en": "Jump to Most Recent Unread"
+    },
+    "description": {
+      "zh": "跳到最近未读",
+      "en": "Jump to Most Recent Unread"
+    },
+    "windows": "Ctrl J",
+    "mac": "⌘ J",
+    "linux": "Ctrl J",
+    "keywords": [
+      "跳到最近未读",
+      "Jump to Most Recent Unread"
+    ],
+    "pinyin": "tiao dao zui jin wei du tiaodaozuijinweidu t d z j w d tdzjwd tiao dao zui jin wei du tiaodaozuijinweidu t d z j w d tdzjwd"
+  },
+  {
+    "id": "slack-prevunread",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "上一个未读会话",
+      "en": "Jump to Previous Unread"
+    },
+    "description": {
+      "zh": "上一个未读会话",
+      "en": "Jump to Previous Unread"
+    },
+    "windows": "Alt Shift ↑",
+    "mac": "⌥ ⇧ ↑",
+    "linux": "Alt Shift ↑",
+    "keywords": [
+      "上一个未读会话",
+      "Jump to Previous Unread"
+    ],
+    "pinyin": "shang yi ge wei du hui hua shangyigeweiduhuihua s y g w d h h sygwdhh shang yi ge wei du hui hua shangyigeweiduhuihua s y g w d h h sygwdhh"
+  },
+  {
+    "id": "slack-nextunread",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "下一个未读会话",
+      "en": "Jump to Next Unread"
+    },
+    "description": {
+      "zh": "下一个未读会话",
+      "en": "Jump to Next Unread"
+    },
+    "windows": "Alt Shift ↓",
+    "mac": "⌥ ⇧ ↓",
+    "linux": "Alt Shift ↓",
+    "keywords": [
+      "下一个未读会话",
+      "Jump to Next Unread"
+    ],
+    "pinyin": "xia yi ge wei du hui hua xiayigeweiduhuihua x y g w d h h xygwdhh xia yi ge wei du hui hua xiayigeweiduhuihua x y g w d h h xygwdhh"
+  },
+  {
+    "id": "slack-prevchan",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "上一个频道/私信",
+      "en": "Previous Channel/DM"
+    },
+    "description": {
+      "zh": "上一个频道/私信",
+      "en": "Previous Channel/DM"
+    },
+    "windows": "Alt ↑",
+    "mac": "⌥ ↑",
+    "linux": "Alt ↑",
+    "keywords": [
+      "上一个频道/私信",
+      "Previous Channel/DM"
+    ],
+    "pinyin": "shang yi ge pin dao / si xin shangyigepindao/sixin s y g p d / s x sygpd/sx shang yi ge pin dao / si xin shangyigepindao/sixin s y g p d / s x sygpd/sx"
+  },
+  {
+    "id": "slack-nextchan",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "下一个频道/私信",
+      "en": "Next Channel/DM"
+    },
+    "description": {
+      "zh": "下一个频道/私信",
+      "en": "Next Channel/DM"
+    },
+    "windows": "Alt ↓",
+    "mac": "⌥ ↓",
+    "linux": "Alt ↓",
+    "keywords": [
+      "下一个频道/私信",
+      "Next Channel/DM"
+    ],
+    "pinyin": "xia yi ge pin dao / si xin xiayigepindao/sixin x y g p d / s x xygpd/sx xia yi ge pin dao / si xin xiayigepindao/sixin x y g p d / s x xygpd/sx"
+  },
+  {
+    "id": "slack-back",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "历史后退",
+      "en": "Go Back in History"
+    },
+    "description": {
+      "zh": "历史后退",
+      "en": "Go Back in History"
+    },
+    "windows": "Alt ←",
+    "mac": "⌘ [",
+    "linux": "Alt ←",
+    "keywords": [
+      "历史后退",
+      "Go Back in History"
+    ],
+    "pinyin": "li shi hou tui lishihoutui l s h t lsht li shi hou tui lishihoutui l s h t lsht"
+  },
+  {
+    "id": "slack-forward",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "历史前进",
+      "en": "Go Forward in History"
+    },
+    "description": {
+      "zh": "历史前进",
+      "en": "Go Forward in History"
+    },
+    "windows": "Alt →",
+    "mac": "⌘ ]",
+    "linux": "Alt →",
+    "keywords": [
+      "历史前进",
+      "Go Forward in History"
+    ],
+    "pinyin": "li shi qian jin lishiqianjin l s q j lsqj li shi qian jin lishiqianjin l s q j lsqj"
+  },
+  {
+    "id": "slack-home",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "打开主页视图",
+      "en": "Open Home View"
+    },
+    "description": {
+      "zh": "打开主页视图",
+      "en": "Open Home View"
+    },
+    "windows": "Ctrl Shift 1",
+    "mac": "⌘ 1",
+    "linux": "Ctrl Shift 1",
+    "keywords": [
+      "打开主页视图",
+      "Open Home View"
+    ],
+    "pinyin": "da kai zhu ye shi tu dakaizhuyeshitu d k z y s t dkzyst da kai zhu ye shi tu dakaizhuyeshitu d k z y s t dkzyst"
+  },
+  {
+    "id": "slack-activity",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "打开动态视图",
+      "en": "Open Activity View"
+    },
+    "description": {
+      "zh": "打开动态视图",
+      "en": "Open Activity View"
+    },
+    "windows": "Ctrl Shift M",
+    "mac": "⌘ ⇧ M",
+    "linux": "Ctrl Shift M",
+    "keywords": [
+      "打开动态视图",
+      "Open Activity View"
+    ],
+    "pinyin": "da kai dong tai shi tu dakaidongtaishitu d k d t s t dkdtst da kai dong tai shi tu dakaidongtaishitu d k d t s t dkdtst"
+  },
+  {
+    "id": "slack-more",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "打开更多视图",
+      "en": "Open More View"
+    },
+    "description": {
+      "zh": "打开更多视图",
+      "en": "Open More View"
+    },
+    "windows": "Ctrl Shift 0",
+    "mac": "⌘ 0",
+    "linux": "Ctrl Shift 0",
+    "keywords": [
+      "打开更多视图",
+      "Open More View"
+    ],
+    "pinyin": "da kai geng duo shi tu dakaigengduoshitu d k g d s t dkgdst da kai geng duo shi tu dakaigengduoshitu d k g d s t dkgdst"
+  },
+  {
+    "id": "slack-threads",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "打开会话线程视图",
+      "en": "Open Threads View"
+    },
+    "description": {
+      "zh": "打开会话线程视图",
+      "en": "Open Threads View"
+    },
+    "windows": "Ctrl Shift T",
+    "mac": "⌘ ⇧ T",
+    "linux": "Ctrl Shift T",
+    "keywords": [
+      "打开会话线程视图",
+      "Open Threads View"
+    ],
+    "pinyin": "da kai hui hua xian cheng shi tu dakaihuihuaxianchengshitu d k h h x c s t dkhhxcst da kai hui hua xian cheng shi tu dakaihuihuaxianchengshitu d k h h x c s t dkhhxcst"
+  },
+  {
+    "id": "slack-browsechan",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "浏览频道",
+      "en": "Browse Channels"
+    },
+    "description": {
+      "zh": "浏览频道",
+      "en": "Browse Channels"
+    },
+    "windows": "Ctrl Shift L",
+    "mac": "⌘ ⇧ L",
+    "linux": "Ctrl Shift L",
+    "keywords": [
+      "浏览频道",
+      "Browse Channels"
+    ],
+    "pinyin": "liu lan pin dao liulanpindao l l p d llpd liu lan pin dao liulanpindao l l p d llpd"
+  },
+  {
+    "id": "slack-convdetails",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "打开会话详情",
+      "en": "Open Conversation Details"
+    },
+    "description": {
+      "zh": "打开会话详情",
+      "en": "Open Conversation Details"
+    },
+    "windows": "Ctrl Shift I",
+    "mac": "⌘ ⇧ I",
+    "linux": "Ctrl Shift I",
+    "keywords": [
+      "打开会话详情",
+      "Open Conversation Details"
+    ],
+    "pinyin": "da kai hui hua xiang qing dakaihuihuaxiangqing d k h h x q dkhhxq da kai hui hua xiang qing dakaihuihuaxiangqing d k h h x q dkhhxq"
+  },
+  {
+    "id": "slack-markread",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "标记会话全部已读",
+      "en": "Mark All in Conversation as Read"
+    },
+    "description": {
+      "zh": "标记会话全部已读",
+      "en": "Mark All in Conversation as Read"
+    },
+    "windows": "Esc",
+    "mac": "Esc",
+    "linux": "Esc",
+    "keywords": [
+      "标记会话全部已读",
+      "Mark All in Conversation as Read"
+    ],
+    "pinyin": "biao ji hui hua quan bu yi du biaojihuihuaquanbuyidu b j h h q b y d bjhhqbyd biao ji hui hua quan bu yi du biaojihuihuaquanbuyidu b j h h q b y d bjhhqbyd"
+  },
+  {
+    "id": "slack-markallread",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "标记全部已读",
+      "en": "Mark All Messages as Read"
+    },
+    "description": {
+      "zh": "标记全部已读",
+      "en": "Mark All Messages as Read"
+    },
+    "windows": "Shift Esc",
+    "mac": "Shift Esc",
+    "linux": "Shift Esc",
+    "keywords": [
+      "标记全部已读",
+      "Mark All Messages as Read"
+    ],
+    "pinyin": "biao ji quan bu yi du biaojiquanbuyidu b j q b y d bjqbyd biao ji quan bu yi du biaojiquanbuyidu b j q b y d bjqbyd"
+  },
+  {
+    "id": "slack-allunreads",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "打开全部未读视图",
+      "en": "Open All Unreads View"
+    },
+    "description": {
+      "zh": "打开全部未读视图",
+      "en": "Open All Unreads View"
+    },
+    "windows": "Ctrl Shift A",
+    "mac": "⌘ ⇧ A",
+    "linux": "Ctrl Shift A",
+    "keywords": [
+      "打开全部未读视图",
+      "Open All Unreads View"
+    ],
+    "pinyin": "da kai quan bu wei du shi tu dakaiquanbuweidushitu d k q b w d s t dkqbwdst da kai quan bu wei du shi tu dakaiquanbuweidushitu d k q b w d s t dkqbwdst"
+  },
+  {
+    "id": "slack-wsswitcher",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "展开/收起工作区切换器",
+      "en": "Expand/Collapse Workspace Switcher"
+    },
+    "description": {
+      "zh": "展开/收起工作区切换器",
+      "en": "Expand/Collapse Workspace Switcher"
+    },
+    "windows": "Ctrl Shift S",
+    "mac": "⌘ ⇧ S",
+    "linux": "Ctrl Shift S",
+    "keywords": [
+      "展开/收起工作区切换器",
+      "Expand/Collapse Workspace Switcher"
+    ],
+    "pinyin": "zhan kai / shou qi gong zuo qu qie huan qi zhankai/shouqigongzuoquqiehuanqi z k / s q g z q q h q zk/sqgzqqhq zhan kai / shou qi gong zuo qu qie huan qi zhankai/shouqigongzuoquqiehuanqi z k / s q g z q q h q zk/sqgzqqhq"
+  },
+  {
+    "id": "slack-editmsg",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "编辑已发消息",
+      "en": "Edit a Message You Sent"
+    },
+    "description": {
+      "zh": "编辑已发消息",
+      "en": "Edit a Message You Sent"
+    },
+    "windows": "E",
+    "mac": "E",
+    "linux": "E",
+    "keywords": [
+      "编辑已发消息",
+      "Edit a Message You Sent"
+    ],
+    "pinyin": "bian ji yi fa xiao xi bianjiyifaxiaoxi b j y f x x bjyfxx bian ji yi fa xiao xi bianjiyifaxiaoxi b j y f x x bjyfxx"
+  },
+  {
+    "id": "slack-deletemsg",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "删除已发消息",
+      "en": "Delete a Message You Sent"
+    },
+    "description": {
+      "zh": "删除已发消息",
+      "en": "Delete a Message You Sent"
+    },
+    "windows": "Delete",
+    "mac": "⌫",
+    "linux": "Delete",
+    "keywords": [
+      "删除已发消息",
+      "Delete a Message You Sent"
+    ],
+    "pinyin": "shan chu yi fa xiao xi shanchuyifaxiaoxi s c y f x x scyfxx shan chu yi fa xiao xi shanchuyifaxiaoxi s c y f x x scyfxx"
+  },
+  {
+    "id": "slack-thread",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "打开或回复线程",
+      "en": "Open or Reply to Thread"
+    },
+    "description": {
+      "zh": "打开或回复线程",
+      "en": "Open or Reply to Thread"
+    },
+    "windows": "T",
+    "mac": "T",
+    "linux": "T",
+    "keywords": [
+      "打开或回复线程",
+      "Open or Reply to Thread"
+    ],
+    "pinyin": "da kai huo hui fu xian cheng dakaihuohuifuxiancheng d k h h f x c dkhhfxc da kai huo hui fu xian cheng dakaihuohuifuxiancheng d k h h f x c dkhhfxc"
+  },
+  {
+    "id": "slack-forwardmsg",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "转发消息",
+      "en": "Forward a Message"
+    },
+    "description": {
+      "zh": "转发消息",
+      "en": "Forward a Message"
+    },
+    "windows": "F",
+    "mac": "F",
+    "linux": "F",
+    "keywords": [
+      "转发消息",
+      "Forward a Message"
+    ],
+    "pinyin": "zhuan fa xiao xi zhuanfaxiaoxi z f x x zfxx zhuan fa xiao xi zhuanfaxiaoxi z f x x zfxx"
+  },
+  {
+    "id": "slack-pin",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "固定/取消固定消息",
+      "en": "Pin/Unpin a Message"
+    },
+    "description": {
+      "zh": "固定/取消固定消息",
+      "en": "Pin/Unpin a Message"
+    },
+    "windows": "P",
+    "mac": "P",
+    "linux": "P",
+    "keywords": [
+      "固定/取消固定消息",
+      "Pin/Unpin a Message"
+    ],
+    "pinyin": "gu ding / qu xiao gu ding xiao xi guding/quxiaogudingxiaoxi g d / q x g d x x gd/qxgdxx gu ding / qu xiao gu ding xiao xi guding/quxiaogudingxiaoxi g d / q x g d x x gd/qxgdxx"
+  },
+  {
+    "id": "slack-save",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "保存消息",
+      "en": "Save a Message"
+    },
+    "description": {
+      "zh": "保存消息",
+      "en": "Save a Message"
+    },
+    "windows": "A",
+    "mac": "A",
+    "linux": "A",
+    "keywords": [
+      "保存消息",
+      "Save a Message"
+    ],
+    "pinyin": "bao cun xiao xi baocunxiaoxi b c x x bcxx bao cun xiao xi baocunxiaoxi b c x x bcxx"
+  },
+  {
+    "id": "slack-reminder",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "创建消息提醒",
+      "en": "Create a Reminder About a Message"
+    },
+    "description": {
+      "zh": "创建消息提醒",
+      "en": "Create a Reminder About a Message"
+    },
+    "windows": "M",
+    "mac": "M",
+    "linux": "M",
+    "keywords": [
+      "创建消息提醒",
+      "Create a Reminder About a Message"
+    ],
+    "pinyin": "chuang jian xiao xi ti xing chuangjianxiaoxitixing c j x x t x cjxxtx chuang jian xiao xi ti xing chuangjianxiaoxitixing c j x x t x cjxxtx"
+  },
+  {
+    "id": "slack-react",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "添加表情回应",
+      "en": "Add an Emoji Reaction"
+    },
+    "description": {
+      "zh": "添加表情回应",
+      "en": "Add an Emoji Reaction"
+    },
+    "windows": "R",
+    "mac": "R",
+    "linux": "R",
+    "keywords": [
+      "添加表情回应",
+      "Add an Emoji Reaction"
+    ],
+    "pinyin": "tian jia biao qing hui ying tianjiabiaoqinghuiying t j b q h y tjbqhy tian jia biao qing hui ying tianjiabiaoqinghuiying t j b q h y tjbqhy"
+  },
+  {
+    "id": "slack-bold",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "加粗",
+      "en": "Bold"
+    },
+    "description": {
+      "zh": "加粗",
+      "en": "Bold"
+    },
+    "windows": "Ctrl B",
+    "mac": "⌘ B",
+    "linux": "Ctrl B",
+    "keywords": [
+      "加粗",
+      "Bold"
+    ],
+    "pinyin": "jia cu jiacu j c jc jia cu jiacu j c jc"
+  },
+  {
+    "id": "slack-italic",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "斜体",
+      "en": "Italic"
+    },
+    "description": {
+      "zh": "斜体",
+      "en": "Italic"
+    },
+    "windows": "Ctrl I",
+    "mac": "⌘ I",
+    "linux": "Ctrl I",
+    "keywords": [
+      "斜体",
+      "Italic"
+    ],
+    "pinyin": "xie ti xieti x t xt xie ti xieti x t xt"
+  },
+  {
+    "id": "slack-underline",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "下划线",
+      "en": "Underline"
+    },
+    "description": {
+      "zh": "下划线",
+      "en": "Underline"
+    },
+    "windows": "Ctrl U",
+    "mac": "⌘ U",
+    "linux": "Ctrl U",
+    "keywords": [
+      "下划线",
+      "Underline"
+    ],
+    "pinyin": "xia hua xian xiahuaxian x h x xhx xia hua xian xiahuaxian x h x xhx"
+  },
+  {
+    "id": "slack-strike",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "删除线",
+      "en": "Strikethrough"
+    },
+    "description": {
+      "zh": "删除线",
+      "en": "Strikethrough"
+    },
+    "windows": "Ctrl Shift X",
+    "mac": "⌘ ⇧ X",
+    "linux": "Ctrl Shift X",
+    "keywords": [
+      "删除线",
+      "Strikethrough"
+    ],
+    "pinyin": "shan chu xian shanchuxian s c x scx shan chu xian shanchuxian s c x scx"
+  },
+  {
+    "id": "slack-link",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "超链接",
+      "en": "Hyperlink"
+    },
+    "description": {
+      "zh": "超链接",
+      "en": "Hyperlink"
+    },
+    "windows": "Ctrl Shift U",
+    "mac": "⌘ ⇧ U",
+    "linux": "Ctrl Shift U",
+    "keywords": [
+      "超链接",
+      "Hyperlink"
+    ],
+    "pinyin": "chao lian jie chaolianjie c l j clj chao lian jie chaolianjie c l j clj"
+  },
+  {
+    "id": "slack-code",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "行内代码",
+      "en": "Code"
+    },
+    "description": {
+      "zh": "行内代码",
+      "en": "Code"
+    },
+    "windows": "Ctrl Shift C",
+    "mac": "⌘ ⇧ C",
+    "linux": "Ctrl Shift C",
+    "keywords": [
+      "行内代码",
+      "Code"
+    ],
+    "pinyin": "xing nei dai ma xingneidaima x n d m xndm xing nei dai ma xingneidaima x n d m xndm"
+  },
+  {
+    "id": "slack-codeblock",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "代码块",
+      "en": "Code Block"
+    },
+    "description": {
+      "zh": "代码块",
+      "en": "Code Block"
+    },
+    "windows": "Ctrl Alt Shift C",
+    "mac": "⌘ ⌥ ⇧ C",
+    "linux": "Ctrl Alt Shift C",
+    "keywords": [
+      "代码块",
+      "Code Block"
+    ],
+    "pinyin": "dai ma kuai daimakuai d m k dmk dai ma kuai daimakuai d m k dmk"
+  },
+  {
+    "id": "slack-bullet",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "项目符号列表",
+      "en": "Bulleted List"
+    },
+    "description": {
+      "zh": "项目符号列表",
+      "en": "Bulleted List"
+    },
+    "windows": "Ctrl Shift 8",
+    "mac": "⌘ ⇧ 8",
+    "linux": "Ctrl Shift 8",
+    "keywords": [
+      "项目符号列表",
+      "Bulleted List"
+    ],
+    "pinyin": "xiang mu fu hao lie biao xiangmufuhaoliebiao x m f h l b xmfhlb xiang mu fu hao lie biao xiangmufuhaoliebiao x m f h l b xmfhlb"
+  },
+  {
+    "id": "slack-number",
+    "appId": "slack",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "编号列表",
+      "en": "Numbered List"
+    },
+    "description": {
+      "zh": "编号列表",
+      "en": "Numbered List"
+    },
+    "windows": "Ctrl Shift 7",
+    "mac": "⌘ ⇧ 7",
+    "linux": "Ctrl Shift 7",
+    "keywords": [
+      "编号列表",
+      "Numbered List"
+    ],
+    "pinyin": "bian hao lie biao bianhaoliebiao b h l b bhlb bian hao lie biao bianhaoliebiao b h l b bhlb"
+  }
+]

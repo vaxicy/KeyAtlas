@@ -1,0 +1,447 @@
+[
+  {
+    "id": "lmstudio-new-chat",
+    "appId": "lmstudio",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "New chat",
+      "zh": "新对话"
+    },
+    "description": {
+      "en": "Start a new chat",
+      "zh": "开始新对话"
+    },
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
+    "linux": "Ctrl + N",
+    "keywords": [
+      "new",
+      "chat",
+      "对话"
+    ],
+    "pinyin": "xin dui hua xinduihua x d h xdh dui hua duihua d h dh"
+  },
+  {
+    "id": "lmstudio-send",
+    "appId": "lmstudio",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Send",
+      "zh": "发送"
+    },
+    "description": {
+      "en": "Send message",
+      "zh": "发送消息"
+    },
+    "windows": "Enter",
+    "mac": "Enter",
+    "linux": "Enter",
+    "keywords": [
+      "send",
+      "发送"
+    ],
+    "pinyin": "fa song fasong f s fs fa song fasong f s fs"
+  },
+  {
+    "id": "lmstudio-search",
+    "appId": "lmstudio",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Search",
+      "zh": "搜索"
+    },
+    "description": {
+      "en": "Search models/chats",
+      "zh": "搜索模型/对话"
+    },
+    "windows": "Ctrl + K",
+    "mac": "⌘ K",
+    "linux": "Ctrl + K",
+    "keywords": [
+      "search",
+      "搜索"
+    ],
+    "pinyin": "sou suo sousuo s s ss sou suo sousuo s s ss"
+  },
+  {
+    "id": "lmstudio-models",
+    "appId": "lmstudio",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Models",
+      "zh": "模型"
+    },
+    "description": {
+      "en": "Open models tab",
+      "zh": "打开模型标签"
+    },
+    "windows": "Ctrl + M",
+    "mac": "⌘ M",
+    "linux": "Ctrl + M",
+    "keywords": [
+      "models",
+      "模型"
+    ],
+    "pinyin": "mo xing moxing m x mx mo xing moxing m x mx"
+  },
+  {
+    "id": "lmstudio-local-server",
+    "appId": "lmstudio",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Local server",
+      "zh": "本地服务"
+    },
+    "description": {
+      "en": "Start local server",
+      "zh": "启动本地服务"
+    },
+    "windows": "Ctrl + Shift + L",
+    "mac": "⌥ ⌘ L",
+    "linux": "Ctrl + Shift + L",
+    "keywords": [
+      "server",
+      "本地",
+      "服务"
+    ],
+    "pinyin": "ben di fu wu bendifuwu b d f w bdfw ben di   fu wu bendi fuwu b d   f w bd fw"
+  },
+  {
+    "id": "lmstudio-load",
+    "appId": "lmstudio",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Load model",
+      "zh": "加载模型"
+    },
+    "description": {
+      "en": "Load selected model",
+      "zh": "加载模型"
+    },
+    "windows": "Ctrl + O",
+    "mac": "⌘ O",
+    "linux": "Ctrl + O",
+    "keywords": [
+      "load",
+      "模型"
+    ],
+    "pinyin": "jia zai mo xing jiazaimoxing j z m x jzmx mo xing moxing m x mx"
+  },
+  {
+    "id": "lmstudio-unload",
+    "appId": "lmstudio",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Unload",
+      "zh": "卸载"
+    },
+    "description": {
+      "en": "Unload model",
+      "zh": "卸载模型"
+    },
+    "windows": "Ctrl + U",
+    "mac": "⌘ U",
+    "linux": "Ctrl + U",
+    "keywords": [
+      "unload",
+      "卸载"
+    ],
+    "pinyin": "xie zai xiezai x z xz xie zai xiezai x z xz"
+  },
+  {
+    "id": "lmstudio-sidebar",
+    "appId": "lmstudio",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Sidebar",
+      "zh": "侧栏"
+    },
+    "description": {
+      "en": "Toggle sidebar",
+      "zh": "切换侧栏"
+    },
+    "windows": "Ctrl + \\",
+    "mac": "⌘ \\",
+    "linux": "Ctrl + \\",
+    "keywords": [
+      "sidebar",
+      "侧栏"
+    ],
+    "pinyin": "ce lan celan c l cl ce lan celan c l cl"
+  },
+  {
+    "id": "lmstudio-settings",
+    "appId": "lmstudio",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Settings",
+      "zh": "设置"
+    },
+    "description": {
+      "en": "Open settings",
+      "zh": "打开设置"
+    },
+    "windows": "Ctrl + ,",
+    "mac": "⌘ ,",
+    "linux": "Ctrl + ,",
+    "keywords": [
+      "settings",
+      "设置"
+    ],
+    "pinyin": "she zhi shezhi s z sz she zhi shezhi s z sz"
+  },
+  {
+    "id": "lmstudio-copy",
+    "appId": "lmstudio",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Copy",
+      "zh": "复制"
+    },
+    "description": {
+      "en": "Copy response",
+      "zh": "复制回复"
+    },
+    "windows": "Ctrl + C",
+    "mac": "⌘ C",
+    "linux": "Ctrl + C",
+    "keywords": [
+      "copy",
+      "复制"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "lmstudio-clear",
+    "appId": "lmstudio",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Clear",
+      "zh": "清空"
+    },
+    "description": {
+      "en": "Clear chat",
+      "zh": "清空对话"
+    },
+    "windows": "Ctrl + Shift + Delete",
+    "mac": "⌥ ⌘ Delete",
+    "linux": "Ctrl + Shift + Delete",
+    "keywords": [
+      "clear",
+      "清空"
+    ],
+    "pinyin": "qing kong qingkong q k qk qing kong qingkong q k qk"
+  },
+  {
+    "id": "lmstudio-next",
+    "appId": "lmstudio",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Next chat",
+      "zh": "下一对话"
+    },
+    "description": {
+      "en": "Next chat",
+      "zh": "下一对话"
+    },
+    "windows": "Ctrl + Tab",
+    "mac": "⌃ Tab",
+    "linux": "Ctrl + Tab",
+    "keywords": [
+      "next",
+      "chat",
+      "对话"
+    ],
+    "pinyin": "xia yi dui hua xiayiduihua x y d h xydh dui hua duihua d h dh"
+  },
+  {
+    "id": "lmstudio-prev",
+    "appId": "lmstudio",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Prev chat",
+      "zh": "上一对话"
+    },
+    "description": {
+      "en": "Previous chat",
+      "zh": "上一对话"
+    },
+    "windows": "Ctrl + Shift + Tab",
+    "mac": "⇧ ⌃ Tab",
+    "linux": "Ctrl + Shift + Tab",
+    "keywords": [
+      "prev",
+      "chat",
+      "对话"
+    ],
+    "pinyin": "shang yi dui hua shangyiduihua s y d h sydh dui hua duihua d h dh"
+  },
+  {
+    "id": "lmstudio-fullscreen",
+    "appId": "lmstudio",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Fullscreen",
+      "zh": "全屏"
+    },
+    "description": {
+      "en": "Toggle fullscreen",
+      "zh": "切换全屏"
+    },
+    "windows": "F11",
+    "mac": "⌃ ⌘ F",
+    "linux": "F11",
+    "keywords": [
+      "fullscreen",
+      "全屏"
+    ],
+    "pinyin": "quan ping quanping q p qp quan ping quanping q p qp"
+  },
+  {
+    "id": "lmstudio-dark",
+    "appId": "lmstudio",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Theme",
+      "zh": "主题"
+    },
+    "description": {
+      "en": "Toggle dark mode",
+      "zh": "切换暗色"
+    },
+    "windows": "Ctrl + Shift + T",
+    "mac": "⌥ ⌘ T",
+    "linux": "Ctrl + Shift + T",
+    "keywords": [
+      "theme",
+      "dark",
+      "主题"
+    ],
+    "pinyin": "zhu ti zhuti z t zt zhu ti zhuti z t zt"
+  },
+  {
+    "id": "lmstudio-find",
+    "appId": "lmstudio",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Find",
+      "zh": "查找"
+    },
+    "description": {
+      "en": "Find in chat",
+      "zh": "对话内查找"
+    },
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
+    "linux": "Ctrl + F",
+    "keywords": [
+      "find",
+      "查找"
+    ],
+    "pinyin": "cha zhao chazhao c z cz cha zhao chazhao c z cz"
+  },
+  {
+    "id": "lmstudio-undo",
+    "appId": "lmstudio",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Undo",
+      "zh": "撤销"
+    },
+    "description": {
+      "en": "Undo",
+      "zh": "撤销"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "Ctrl + Z",
+    "keywords": [
+      "undo",
+      "撤销"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "lmstudio-redo",
+    "appId": "lmstudio",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Redo",
+      "zh": "重做"
+    },
+    "description": {
+      "en": "Redo",
+      "zh": "重做"
+    },
+    "windows": "Ctrl + Y",
+    "mac": "⇧ ⌘ Z",
+    "linux": "Ctrl + Y",
+    "keywords": [
+      "redo",
+      "重做"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "lmstudio-help",
+    "appId": "lmstudio",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Help",
+      "zh": "帮助"
+    },
+    "description": {
+      "en": "Keyboard shortcuts",
+      "zh": "快捷键帮助"
+    },
+    "windows": "Ctrl + /",
+    "mac": "⌘ /",
+    "linux": "Ctrl + /",
+    "keywords": [
+      "help",
+      "快捷键"
+    ],
+    "pinyin": "bang zhu bangzhu b z bz kuai jie jian kuaijiejian k j j kjj"
+  },
+  {
+    "id": "lmstudio-preferences",
+    "appId": "lmstudio",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Preferences",
+      "zh": "偏好"
+    },
+    "description": {
+      "en": "Preferences",
+      "zh": "偏好"
+    },
+    "windows": "Ctrl + Shift + P",
+    "mac": "⌥ ⌘ P",
+    "linux": "Ctrl + Shift + P",
+    "keywords": [
+      "preferences",
+      "偏好"
+    ],
+    "pinyin": "pian hao pianhao p h ph pian hao pianhao p h ph"
+  }
+]

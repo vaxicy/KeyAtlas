@@ -1,0 +1,555 @@
+[
+  {
+    "id": "terraform-init",
+    "appId": "terraform",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Init",
+      "zh": "初始化"
+    },
+    "description": {
+      "en": "Initialize working directory",
+      "zh": "初始化工作目录"
+    },
+    "windows": "terraform init",
+    "mac": "terraform init",
+    "linux": "terraform init",
+    "keywords": [
+      "init",
+      "初始化"
+    ],
+    "pinyin": "chu shi hua chushihua c s h csh chu shi hua chushihua c s h csh"
+  },
+  {
+    "id": "terraform-plan",
+    "appId": "terraform",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Plan",
+      "zh": "预览计划"
+    },
+    "description": {
+      "en": "Show execution plan",
+      "zh": "显示执行计划"
+    },
+    "windows": "terraform plan",
+    "mac": "terraform plan",
+    "linux": "terraform plan",
+    "keywords": [
+      "plan",
+      "计划"
+    ],
+    "pinyin": "yu lan ji hua yulanjihua y l j h yljh ji hua jihua j h jh"
+  },
+  {
+    "id": "terraform-apply",
+    "appId": "terraform",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Apply",
+      "zh": "应用"
+    },
+    "description": {
+      "en": "Apply changes",
+      "zh": "应用变更"
+    },
+    "windows": "terraform apply",
+    "mac": "terraform apply",
+    "linux": "terraform apply",
+    "keywords": [
+      "apply",
+      "应用"
+    ],
+    "pinyin": "ying yong yingyong y y yy ying yong yingyong y y yy"
+  },
+  {
+    "id": "terraform-destroy",
+    "appId": "terraform",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Destroy",
+      "zh": "销毁"
+    },
+    "description": {
+      "en": "Destroy infrastructure",
+      "zh": "销毁基础设施"
+    },
+    "windows": "terraform destroy",
+    "mac": "terraform destroy",
+    "linux": "terraform destroy",
+    "keywords": [
+      "destroy",
+      "销毁"
+    ],
+    "pinyin": "xiao hui xiaohui x h xh xiao hui xiaohui x h xh"
+  },
+  {
+    "id": "terraform-fmt",
+    "appId": "terraform",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Format",
+      "zh": "格式化"
+    },
+    "description": {
+      "en": "Rewrite configs to canonical format",
+      "zh": "格式化配置"
+    },
+    "windows": "terraform fmt",
+    "mac": "terraform fmt",
+    "linux": "terraform fmt",
+    "keywords": [
+      "fmt",
+      "格式化"
+    ],
+    "pinyin": "ge shi hua geshihua g s h gsh ge shi hua geshihua g s h gsh"
+  },
+  {
+    "id": "terraform-validate",
+    "appId": "terraform",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Validate",
+      "zh": "校验"
+    },
+    "description": {
+      "en": "Validate config syntax",
+      "zh": "校验配置语法"
+    },
+    "windows": "terraform validate",
+    "mac": "terraform validate",
+    "linux": "terraform validate",
+    "keywords": [
+      "validate",
+      "校验"
+    ],
+    "pinyin": "jiao yan jiaoyan j y jy jiao yan jiaoyan j y jy"
+  },
+  {
+    "id": "terraform-refresh",
+    "appId": "terraform",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Refresh",
+      "zh": "刷新状态"
+    },
+    "description": {
+      "en": "Update state from real resources",
+      "zh": "从真实资源刷新状态"
+    },
+    "windows": "terraform refresh",
+    "mac": "terraform refresh",
+    "linux": "terraform refresh",
+    "keywords": [
+      "refresh",
+      "刷新"
+    ],
+    "pinyin": "shua xin zhuang tai shuaxinzhuangtai s x z t sxzt shua xin shuaxin s x sx"
+  },
+  {
+    "id": "terraform-output",
+    "appId": "terraform",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Output",
+      "zh": "输出"
+    },
+    "description": {
+      "en": "Show output values",
+      "zh": "显示输出值"
+    },
+    "windows": "terraform output",
+    "mac": "terraform output",
+    "linux": "terraform output",
+    "keywords": [
+      "output",
+      "输出"
+    ],
+    "pinyin": "shu chu shuchu s c sc shu chu shuchu s c sc"
+  },
+  {
+    "id": "terraform-state-list",
+    "appId": "terraform",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "State list",
+      "zh": "状态列表"
+    },
+    "description": {
+      "en": "List resources in state",
+      "zh": "列出状态资源"
+    },
+    "windows": "terraform state list",
+    "mac": "terraform state list",
+    "linux": "terraform state list",
+    "keywords": [
+      "state",
+      "状态",
+      "list"
+    ],
+    "pinyin": "zhuang tai lie biao zhuangtailiebiao z t l b ztlb zhuang tai zhuangtai z t zt"
+  },
+  {
+    "id": "terraform-state-show",
+    "appId": "terraform",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "State show",
+      "zh": "查看状态"
+    },
+    "description": {
+      "en": "Show a resource in state",
+      "zh": "显示状态资源"
+    },
+    "windows": "terraform state show <addr>",
+    "mac": "terraform state show <addr>",
+    "linux": "terraform state show <addr>",
+    "keywords": [
+      "state",
+      "show"
+    ],
+    "pinyin": "cha kan zhuang tai chakanzhuangtai c k z t ckzt"
+  },
+  {
+    "id": "terraform-import",
+    "appId": "terraform",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Import",
+      "zh": "导入"
+    },
+    "description": {
+      "en": "Import existing resource",
+      "zh": "导入已有资源"
+    },
+    "windows": "terraform import <addr> <id>",
+    "mac": "terraform import <addr> <id>",
+    "linux": "terraform import <addr> <id>",
+    "keywords": [
+      "import",
+      "导入"
+    ],
+    "pinyin": "dao ru daoru d r dr dao ru daoru d r dr"
+  },
+  {
+    "id": "terraform-workspace-new",
+    "appId": "terraform",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Workspace new",
+      "zh": "新建工作区"
+    },
+    "description": {
+      "en": "Create a workspace",
+      "zh": "创建工作区"
+    },
+    "windows": "terraform workspace new <name>",
+    "mac": "terraform workspace new <name>",
+    "linux": "terraform workspace new <name>",
+    "keywords": [
+      "workspace",
+      "工作区"
+    ],
+    "pinyin": "xin jian gong zuo qu xinjiangongzuoqu x j g z q xjgzq gong zuo qu gongzuoqu g z q gzq"
+  },
+  {
+    "id": "terraform-workspace-list",
+    "appId": "terraform",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Workspace list",
+      "zh": "工作区列表"
+    },
+    "description": {
+      "en": "List workspaces",
+      "zh": "列出工作区"
+    },
+    "windows": "terraform workspace list",
+    "mac": "terraform workspace list",
+    "linux": "terraform workspace list",
+    "keywords": [
+      "workspace",
+      "list"
+    ],
+    "pinyin": "gong zuo qu lie biao gongzuoquliebiao g z q l b gzqlb"
+  },
+  {
+    "id": "terraform-taint",
+    "appId": "terraform",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Taint",
+      "zh": "标记污染"
+    },
+    "description": {
+      "en": "Mark resource for recreation",
+      "zh": "标记资源重建"
+    },
+    "windows": "terraform taint <addr>",
+    "mac": "terraform taint <addr>",
+    "linux": "terraform taint <addr>",
+    "keywords": [
+      "taint",
+      "污染"
+    ],
+    "pinyin": "biao ji wu ran biaojiwuran b j w r bjwr wu ran wuran w r wr"
+  },
+  {
+    "id": "terraform-untaint",
+    "appId": "terraform",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Untaint",
+      "zh": "取消污染"
+    },
+    "description": {
+      "en": "Remove taint mark",
+      "zh": "取消污染标记"
+    },
+    "windows": "terraform untaint <addr>",
+    "mac": "terraform untaint <addr>",
+    "linux": "terraform untaint <addr>",
+    "keywords": [
+      "untaint",
+      "取消"
+    ],
+    "pinyin": "qu xiao wu ran quxiaowuran q x w r qxwr qu xiao quxiao q x qx"
+  },
+  {
+    "id": "terraform-graph",
+    "appId": "terraform",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Graph",
+      "zh": "依赖图"
+    },
+    "description": {
+      "en": "Generate dependency graph",
+      "zh": "生成依赖图"
+    },
+    "windows": "terraform graph",
+    "mac": "terraform graph",
+    "linux": "terraform graph",
+    "keywords": [
+      "graph",
+      "依赖图"
+    ],
+    "pinyin": "yi lai tu yilaitu y l t ylt yi lai tu yilaitu y l t ylt"
+  },
+  {
+    "id": "terraform-show",
+    "appId": "terraform",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Show",
+      "zh": "显示计划"
+    },
+    "description": {
+      "en": "Show plan/state in readable form",
+      "zh": "显示计划/状态"
+    },
+    "windows": "terraform show",
+    "mac": "terraform show",
+    "linux": "terraform show",
+    "keywords": [
+      "show",
+      "显示"
+    ],
+    "pinyin": "xian shi ji hua xianshijihua x s j h xsjh xian shi xianshi x s xs"
+  },
+  {
+    "id": "terraform-console",
+    "appId": "terraform",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Console",
+      "zh": "控制台"
+    },
+    "description": {
+      "en": "Interactive expression console",
+      "zh": "交互式表达式控制台"
+    },
+    "windows": "terraform console",
+    "mac": "terraform console",
+    "linux": "terraform console",
+    "keywords": [
+      "console",
+      "控制台"
+    ],
+    "pinyin": "kong zhi tai kongzhitai k z t kzt kong zhi tai kongzhitai k z t kzt"
+  },
+  {
+    "id": "terraform-providers",
+    "appId": "terraform",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Providers",
+      "zh": "提供商"
+    },
+    "description": {
+      "en": "Show provider requirements",
+      "zh": "显示提供商需求"
+    },
+    "windows": "terraform providers",
+    "mac": "terraform providers",
+    "linux": "terraform providers",
+    "keywords": [
+      "providers",
+      "提供商"
+    ],
+    "pinyin": "ti gong shang tigongshang t g s tgs ti gong shang tigongshang t g s tgs"
+  },
+  {
+    "id": "terraform-force-unlock",
+    "appId": "terraform",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Force unlock",
+      "zh": "强制解锁"
+    },
+    "description": {
+      "en": "Release state lock",
+      "zh": "释放状态锁"
+    },
+    "windows": "terraform force-unlock <lockid>",
+    "mac": "terraform force-unlock <lockid>",
+    "linux": "terraform force-unlock <lockid>",
+    "keywords": [
+      "unlock",
+      "锁"
+    ],
+    "pinyin": "qiang zhi jie suo qiangzhijiesuo q z j s qzjs suo suo s s"
+  },
+  {
+    "id": "terraform-get",
+    "appId": "terraform",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Get modules",
+      "zh": "获取模块"
+    },
+    "description": {
+      "en": "Download modules",
+      "zh": "下载模块"
+    },
+    "windows": "terraform get",
+    "mac": "terraform get",
+    "linux": "terraform get",
+    "keywords": [
+      "get",
+      "modules"
+    ],
+    "pinyin": "huo qu mo kuai huoqumokuai h q m k hqmk"
+  },
+  {
+    "id": "terraform-login",
+    "appId": "terraform",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Login",
+      "zh": "登录"
+    },
+    "description": {
+      "en": "Authenticate to registry",
+      "zh": "登录注册表"
+    },
+    "windows": "terraform login",
+    "mac": "terraform login",
+    "linux": "terraform login",
+    "keywords": [
+      "login",
+      "登录"
+    ],
+    "pinyin": "deng lu denglu d l dl deng lu denglu d l dl"
+  },
+  {
+    "id": "terraform-version",
+    "appId": "terraform",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Version",
+      "zh": "版本"
+    },
+    "description": {
+      "en": "Show Terraform version",
+      "zh": "显示版本"
+    },
+    "windows": "terraform version",
+    "mac": "terraform version",
+    "linux": "terraform version",
+    "keywords": [
+      "version",
+      "版本"
+    ],
+    "pinyin": "ban ben banben b b bb ban ben banben b b bb"
+  },
+  {
+    "id": "terraform-plan-out",
+    "appId": "terraform",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Plan to file",
+      "zh": "计划输出文件"
+    },
+    "description": {
+      "en": "Save plan to file",
+      "zh": "保存计划到文件"
+    },
+    "windows": "terraform plan -out=tfplan",
+    "mac": "terraform plan -out=tfplan",
+    "linux": "terraform plan -out=tfplan",
+    "keywords": [
+      "plan",
+      "out",
+      "文件"
+    ],
+    "pinyin": "ji hua shu chu wen jian jihuashuchuwenjian j h s c w j jhscwj wen jian wenjian w j wj"
+  },
+  {
+    "id": "terraform-apply-plan",
+    "appId": "terraform",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Apply saved plan",
+      "zh": "应用保存计划"
+    },
+    "description": {
+      "en": "Apply a saved plan file",
+      "zh": "应用保存的计划"
+    },
+    "windows": "terraform apply tfplan",
+    "mac": "terraform apply tfplan",
+    "linux": "terraform apply tfplan",
+    "keywords": [
+      "apply",
+      "plan",
+      "文件"
+    ],
+    "pinyin": "ying yong bao cun ji hua yingyongbaocunjihua y y b c j h yybcjh wen jian wenjian w j wj"
+  }
+]

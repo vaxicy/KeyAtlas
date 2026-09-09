@@ -1,0 +1,666 @@
+[
+  {
+    "id": "spark-compose",
+    "appId": "spark",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Compose",
+      "zh": "写邮件"
+    },
+    "description": {
+      "en": "New email",
+      "zh": "写新邮件"
+    },
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
+    "linux": "Ctrl + N",
+    "keywords": [
+      "compose",
+      "写",
+      "邮件"
+    ],
+    "pinyin": "xie you jian xieyoujian x y j xyj xie   you jian xie youjian x   y j x yj"
+  },
+  {
+    "id": "spark-reply",
+    "appId": "spark",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Reply",
+      "zh": "回复"
+    },
+    "description": {
+      "en": "Reply",
+      "zh": "回复"
+    },
+    "windows": "Ctrl + R",
+    "mac": "⌘ R",
+    "linux": "Ctrl + R",
+    "keywords": [
+      "reply",
+      "回复"
+    ],
+    "pinyin": "hui fu huifu h f hf hui fu huifu h f hf"
+  },
+  {
+    "id": "spark-reply-all",
+    "appId": "spark",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Reply all",
+      "zh": "回复全部"
+    },
+    "description": {
+      "en": "Reply all",
+      "zh": "回复全部"
+    },
+    "windows": "Ctrl + Shift + R",
+    "mac": "⇧ ⌘ R",
+    "linux": "Ctrl + Shift + R",
+    "keywords": [
+      "reply",
+      "all",
+      "全部"
+    ],
+    "pinyin": "hui fu quan bu huifuquanbu h f q b hfqb quan bu quanbu q b qb"
+  },
+  {
+    "id": "spark-forward",
+    "appId": "spark",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Forward",
+      "zh": "转发"
+    },
+    "description": {
+      "en": "Forward email",
+      "zh": "转发邮件"
+    },
+    "windows": "Ctrl + Alt + F",
+    "mac": "⌥ ⌘ F",
+    "linux": "Ctrl + Alt + F",
+    "keywords": [
+      "forward",
+      "转发"
+    ],
+    "pinyin": "zhuan fa zhuanfa z f zf zhuan fa zhuanfa z f zf"
+  },
+  {
+    "id": "spark-archive",
+    "appId": "spark",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Archive",
+      "zh": "归档"
+    },
+    "description": {
+      "en": "Archive email",
+      "zh": "归档邮件"
+    },
+    "windows": "E",
+    "mac": "E",
+    "linux": "E",
+    "keywords": [
+      "archive",
+      "归档"
+    ],
+    "pinyin": "gui dang guidang g d gd gui dang guidang g d gd"
+  },
+  {
+    "id": "spark-delete",
+    "appId": "spark",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Delete",
+      "zh": "删除"
+    },
+    "description": {
+      "en": "Delete email",
+      "zh": "删除邮件"
+    },
+    "windows": "Delete",
+    "mac": "⌫",
+    "linux": "Delete",
+    "keywords": [
+      "delete",
+      "删除"
+    ],
+    "pinyin": "shan chu shanchu s c sc shan chu shanchu s c sc"
+  },
+  {
+    "id": "spark-snooze",
+    "appId": "spark",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Snooze",
+      "zh": "稍后"
+    },
+    "description": {
+      "en": "Snooze email",
+      "zh": "稍后处理"
+    },
+    "windows": "S",
+    "mac": "S",
+    "linux": "S",
+    "keywords": [
+      "snooze",
+      "稍后"
+    ],
+    "pinyin": "shao hou shaohou s h sh shao hou shaohou s h sh"
+  },
+  {
+    "id": "spark-move",
+    "appId": "spark",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Move",
+      "zh": "移动"
+    },
+    "description": {
+      "en": "Move to folder",
+      "zh": "移动到文件夹"
+    },
+    "windows": "M",
+    "mac": "M",
+    "linux": "M",
+    "keywords": [
+      "move",
+      "移动"
+    ],
+    "pinyin": "yi dong yidong y d yd yi dong yidong y d yd"
+  },
+  {
+    "id": "spark-search",
+    "appId": "spark",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Search",
+      "zh": "搜索"
+    },
+    "description": {
+      "en": "Search mail",
+      "zh": "搜索邮件"
+    },
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
+    "linux": "Ctrl + F",
+    "keywords": [
+      "search",
+      "搜索"
+    ],
+    "pinyin": "sou suo sousuo s s ss sou suo sousuo s s ss"
+  },
+  {
+    "id": "spark-send",
+    "appId": "spark",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Send",
+      "zh": "发送"
+    },
+    "description": {
+      "en": "Send email",
+      "zh": "发送邮件"
+    },
+    "windows": "Ctrl + Enter",
+    "mac": "⌘ Enter",
+    "linux": "Ctrl + Enter",
+    "keywords": [
+      "send",
+      "发送"
+    ],
+    "pinyin": "fa song fasong f s fs fa song fasong f s fs"
+  },
+  {
+    "id": "spark-smart",
+    "appId": "spark",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Smart inbox",
+      "zh": "智能收件箱"
+    },
+    "description": {
+      "en": "Go to Smart Inbox",
+      "zh": "智能收件箱"
+    },
+    "windows": "G then I",
+    "mac": "G then I",
+    "linux": "G then I",
+    "keywords": [
+      "smart",
+      "inbox",
+      "智能"
+    ],
+    "pinyin": "zhi neng shou jian xiang zhinengshoujianxiang z n s j x znsjx zhi neng zhineng z n zn"
+  },
+  {
+    "id": "spark-next",
+    "appId": "spark",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Next",
+      "zh": "下一封"
+    },
+    "description": {
+      "en": "Next email",
+      "zh": "下一封"
+    },
+    "windows": "Ctrl + ]",
+    "mac": "⌘ ]",
+    "linux": "Ctrl + ]",
+    "keywords": [
+      "next",
+      "下一"
+    ],
+    "pinyin": "xia yi feng xiayifeng x y f xyf xia yi xiayi x y xy"
+  },
+  {
+    "id": "spark-prev",
+    "appId": "spark",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Prev",
+      "zh": "上一封"
+    },
+    "description": {
+      "en": "Previous email",
+      "zh": "上一封"
+    },
+    "windows": "Ctrl + [",
+    "mac": "⌘ [",
+    "linux": "Ctrl + [",
+    "keywords": [
+      "prev",
+      "上一"
+    ],
+    "pinyin": "shang yi feng shangyifeng s y f syf shang yi shangyi s y sy"
+  },
+  {
+    "id": "spark-mark-unread",
+    "appId": "spark",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Mark unread",
+      "zh": "标未读"
+    },
+    "description": {
+      "en": "Mark unread",
+      "zh": "标为未读"
+    },
+    "windows": "U",
+    "mac": "U",
+    "linux": "U",
+    "keywords": [
+      "unread",
+      "未读"
+    ],
+    "pinyin": "biao wei du biaoweidu b w d bwd wei du weidu w d wd"
+  },
+  {
+    "id": "spark-flag",
+    "appId": "spark",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Flag",
+      "zh": "标记"
+    },
+    "description": {
+      "en": "Flag email",
+      "zh": "标记邮件"
+    },
+    "windows": "L",
+    "mac": "L",
+    "linux": "L",
+    "keywords": [
+      "flag",
+      "标记"
+    ],
+    "pinyin": "biao ji biaoji b j bj biao ji biaoji b j bj"
+  },
+  {
+    "id": "spark-pin",
+    "appId": "spark",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Pin",
+      "zh": "置顶"
+    },
+    "description": {
+      "en": "Pin conversation",
+      "zh": "置顶会话"
+    },
+    "windows": "P",
+    "mac": "P",
+    "linux": "P",
+    "keywords": [
+      "pin",
+      "置顶"
+    ],
+    "pinyin": "zhi ding zhiding z d zd zhi ding zhiding z d zd"
+  },
+  {
+    "id": "spark-print",
+    "appId": "spark",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Print",
+      "zh": "打印"
+    },
+    "description": {
+      "en": "Print email",
+      "zh": "打印邮件"
+    },
+    "windows": "Ctrl + P",
+    "mac": "⌘ P",
+    "linux": "Ctrl + P",
+    "keywords": [
+      "print",
+      "打印"
+    ],
+    "pinyin": "da yin dayin d y dy da yin dayin d y dy"
+  },
+  {
+    "id": "spark-settings",
+    "appId": "spark",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Settings",
+      "zh": "设置"
+    },
+    "description": {
+      "en": "Settings",
+      "zh": "设置"
+    },
+    "windows": "Ctrl + ,",
+    "mac": "⌘ ,",
+    "linux": "Ctrl + ,",
+    "keywords": [
+      "settings",
+      "设置"
+    ],
+    "pinyin": "she zhi shezhi s z sz she zhi shezhi s z sz"
+  },
+  {
+    "id": "spark-sidebar",
+    "appId": "spark",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Sidebar",
+      "zh": "侧栏"
+    },
+    "description": {
+      "en": "Toggle sidebar",
+      "zh": "切换侧栏"
+    },
+    "windows": "Ctrl + \\",
+    "mac": "⌘ \\",
+    "linux": "Ctrl + \\",
+    "keywords": [
+      "sidebar",
+      "侧栏"
+    ],
+    "pinyin": "ce lan celan c l cl ce lan celan c l cl"
+  },
+  {
+    "id": "spark-bold",
+    "appId": "spark",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Bold",
+      "zh": "加粗"
+    },
+    "description": {
+      "en": "Bold",
+      "zh": "加粗"
+    },
+    "windows": "Ctrl + B",
+    "mac": "⌘ B",
+    "linux": "Ctrl + B",
+    "keywords": [
+      "bold",
+      "加粗"
+    ],
+    "pinyin": "jia cu jiacu j c jc jia cu jiacu j c jc"
+  },
+  {
+    "id": "spark-italic",
+    "appId": "spark",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Italic",
+      "zh": "斜体"
+    },
+    "description": {
+      "en": "Italic",
+      "zh": "斜体"
+    },
+    "windows": "Ctrl + I",
+    "mac": "⌘ I",
+    "linux": "Ctrl + I",
+    "keywords": [
+      "italic",
+      "斜体"
+    ],
+    "pinyin": "xie ti xieti x t xt xie ti xieti x t xt"
+  },
+  {
+    "id": "spark-undo",
+    "appId": "spark",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Undo",
+      "zh": "撤销"
+    },
+    "description": {
+      "en": "Undo",
+      "zh": "撤销"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "Ctrl + Z",
+    "keywords": [
+      "undo",
+      "撤销"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "spark-redo",
+    "appId": "spark",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Redo",
+      "zh": "重做"
+    },
+    "description": {
+      "en": "Redo",
+      "zh": "重做"
+    },
+    "windows": "Ctrl + Y",
+    "mac": "⇧ ⌘ Z",
+    "linux": "Ctrl + Y",
+    "keywords": [
+      "redo",
+      "重做"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "spark-attach",
+    "appId": "spark",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Attach",
+      "zh": "附件"
+    },
+    "description": {
+      "en": "Attach file",
+      "zh": "添加附件"
+    },
+    "windows": "Ctrl + Shift + A",
+    "mac": "⇧ ⌘ A",
+    "linux": "Ctrl + Shift + A",
+    "keywords": [
+      "attach",
+      "附件"
+    ],
+    "pinyin": "fu jian fujian f j fj fu jian fujian f j fj"
+  },
+  {
+    "id": "spark-done",
+    "appId": "spark",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Done",
+      "zh": "完成"
+    },
+    "description": {
+      "en": "Mark done",
+      "zh": "标记完成"
+    },
+    "windows": "Ctrl + Shift + D",
+    "mac": "⇧ ⌘ D",
+    "linux": "Ctrl + Shift + D",
+    "keywords": [
+      "done",
+      "完成"
+    ],
+    "pinyin": "wan cheng wancheng w c wc wan cheng wancheng w c wc"
+  },
+  {
+    "id": "spark-new-folder",
+    "appId": "spark",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "New folder",
+      "zh": "新建文件夹"
+    },
+    "description": {
+      "en": "New folder",
+      "zh": "新建文件夹"
+    },
+    "windows": "Ctrl + Shift + N",
+    "mac": "⇧ ⌘ N",
+    "linux": "Ctrl + Shift + N",
+    "keywords": [
+      "folder",
+      "文件夹"
+    ],
+    "pinyin": "xin jian wen jian jia xinjianwenjianjia x j w j j xjwjj wen jian jia wenjianjia w j j wjj"
+  },
+  {
+    "id": "spark-select-all",
+    "appId": "spark",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Select all",
+      "zh": "全选"
+    },
+    "description": {
+      "en": "Select all",
+      "zh": "全选"
+    },
+    "windows": "Ctrl + A",
+    "mac": "⌘ A",
+    "linux": "Ctrl + A",
+    "keywords": [
+      "select",
+      "all",
+      "全选"
+    ],
+    "pinyin": "quan xuan quanxuan q x qx quan xuan quanxuan q x qx"
+  },
+  {
+    "id": "spark-help",
+    "appId": "spark",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Help",
+      "zh": "帮助"
+    },
+    "description": {
+      "en": "Shortcuts help",
+      "zh": "快捷键帮助"
+    },
+    "windows": "Ctrl + /",
+    "mac": "⌘ /",
+    "linux": "Ctrl + /",
+    "keywords": [
+      "help",
+      "快捷键"
+    ],
+    "pinyin": "bang zhu bangzhu b z bz kuai jie jian kuaijiejian k j j kjj"
+  },
+  {
+    "id": "spark-close",
+    "appId": "spark",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Close",
+      "zh": "关闭"
+    },
+    "description": {
+      "en": "Close email",
+      "zh": "关闭邮件"
+    },
+    "windows": "Ctrl + W",
+    "mac": "⌘ W",
+    "linux": "Ctrl + W",
+    "keywords": [
+      "close",
+      "关闭"
+    ],
+    "pinyin": "guan bi guanbi g b gb guan bi guanbi g b gb"
+  },
+  {
+    "id": "spark-refresh",
+    "appId": "spark",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Refresh",
+      "zh": "刷新"
+    },
+    "description": {
+      "en": "Refresh inbox",
+      "zh": "刷新收件箱"
+    },
+    "windows": "Ctrl + Shift + U",
+    "mac": "⌥ ⌘ U",
+    "linux": "Ctrl + Shift + U",
+    "keywords": [
+      "refresh",
+      "刷新"
+    ],
+    "pinyin": "shua xin shuaxin s x sx shua xin shuaxin s x sx"
+  }
+]

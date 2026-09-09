@@ -1,0 +1,537 @@
+[
+  {
+    "id": "brew-install",
+    "appId": "homebrew",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Install",
+      "zh": "安装"
+    },
+    "description": {
+      "en": "Install a formula",
+      "zh": "安装软件包"
+    },
+    "windows": "brew install <pkg>",
+    "mac": "brew install <pkg>",
+    "linux": "brew install <pkg>",
+    "keywords": [
+      "install",
+      "安装"
+    ],
+    "pinyin": "an zhuang anzhuang a z az an zhuang anzhuang a z az"
+  },
+  {
+    "id": "brew-uninstall",
+    "appId": "homebrew",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Uninstall",
+      "zh": "卸载"
+    },
+    "description": {
+      "en": "Remove a formula",
+      "zh": "卸载软件包"
+    },
+    "windows": "brew uninstall <pkg>",
+    "mac": "brew uninstall <pkg>",
+    "linux": "brew uninstall <pkg>",
+    "keywords": [
+      "uninstall",
+      "卸载"
+    ],
+    "pinyin": "xie zai xiezai x z xz xie zai xiezai x z xz"
+  },
+  {
+    "id": "brew-update",
+    "appId": "homebrew",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Update",
+      "zh": "更新索引"
+    },
+    "description": {
+      "en": "Update Homebrew itself",
+      "zh": "更新 Homebrew"
+    },
+    "windows": "brew update",
+    "mac": "brew update",
+    "linux": "brew update",
+    "keywords": [
+      "update",
+      "更新"
+    ],
+    "pinyin": "geng xin suo yin gengxinsuoyin g x s y gxsy geng xin gengxin g x gx"
+  },
+  {
+    "id": "brew-upgrade",
+    "appId": "homebrew",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Upgrade",
+      "zh": "升级"
+    },
+    "description": {
+      "en": "Upgrade all/formulae",
+      "zh": "升级软件包"
+    },
+    "windows": "brew upgrade",
+    "mac": "brew upgrade",
+    "linux": "brew upgrade",
+    "keywords": [
+      "upgrade",
+      "升级"
+    ],
+    "pinyin": "sheng ji shengji s j sj sheng ji shengji s j sj"
+  },
+  {
+    "id": "brew-list",
+    "appId": "homebrew",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "List",
+      "zh": "列出"
+    },
+    "description": {
+      "en": "List installed formulae",
+      "zh": "列出已装"
+    },
+    "windows": "brew list",
+    "mac": "brew list",
+    "linux": "brew list",
+    "keywords": [
+      "list",
+      "列出"
+    ],
+    "pinyin": "lie chu liechu l c lc lie chu liechu l c lc"
+  },
+  {
+    "id": "brew-search",
+    "appId": "homebrew",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Search",
+      "zh": "搜索"
+    },
+    "description": {
+      "en": "Search formulae",
+      "zh": "搜索软件包"
+    },
+    "windows": "brew search <term>",
+    "mac": "brew search <term>",
+    "linux": "brew search <term>",
+    "keywords": [
+      "search",
+      "搜索"
+    ],
+    "pinyin": "sou suo sousuo s s ss sou suo sousuo s s ss"
+  },
+  {
+    "id": "brew-info",
+    "appId": "homebrew",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Info",
+      "zh": "信息"
+    },
+    "description": {
+      "en": "Show formula info",
+      "zh": "显示包信息"
+    },
+    "windows": "brew info <pkg>",
+    "mac": "brew info <pkg>",
+    "linux": "brew info <pkg>",
+    "keywords": [
+      "info",
+      "信息"
+    ],
+    "pinyin": "xin xi xinxi x x xx xin xi xinxi x x xx"
+  },
+  {
+    "id": "brew-cleanup",
+    "appId": "homebrew",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Cleanup",
+      "zh": "清理"
+    },
+    "description": {
+      "en": "Remove stale downloads",
+      "zh": "清理下载缓存"
+    },
+    "windows": "brew cleanup",
+    "mac": "brew cleanup",
+    "linux": "brew cleanup",
+    "keywords": [
+      "cleanup",
+      "清理"
+    ],
+    "pinyin": "qing li qingli q l ql qing li qingli q l ql"
+  },
+  {
+    "id": "brew-doctor",
+    "appId": "homebrew",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Doctor",
+      "zh": "诊断"
+    },
+    "description": {
+      "en": "Check system for issues",
+      "zh": "检查系统问题"
+    },
+    "windows": "brew doctor",
+    "mac": "brew doctor",
+    "linux": "brew doctor",
+    "keywords": [
+      "doctor",
+      "诊断"
+    ],
+    "pinyin": "zhen duan zhenduan z d zd zhen duan zhenduan z d zd"
+  },
+  {
+    "id": "brew-outdated",
+    "appId": "homebrew",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Outdated",
+      "zh": "可升级"
+    },
+    "description": {
+      "en": "List outdated formulae",
+      "zh": "列出可升级"
+    },
+    "windows": "brew outdated",
+    "mac": "brew outdated",
+    "linux": "brew outdated",
+    "keywords": [
+      "outdated",
+      "可升级"
+    ],
+    "pinyin": "ke sheng ji keshengji k s j ksj ke sheng ji keshengji k s j ksj"
+  },
+  {
+    "id": "brew-tap",
+    "appId": "homebrew",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Tap",
+      "zh": "添加源"
+    },
+    "description": {
+      "en": "Add a tap (repo)",
+      "zh": "添加第三方源"
+    },
+    "windows": "brew tap <tap>",
+    "mac": "brew tap <tap>",
+    "linux": "brew tap <tap>",
+    "keywords": [
+      "tap",
+      "源"
+    ],
+    "pinyin": "tian jia yuan tianjiayuan t j y tjy yuan yuan y y"
+  },
+  {
+    "id": "brew-untap",
+    "appId": "homebrew",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Untap",
+      "zh": "移除源"
+    },
+    "description": {
+      "en": "Remove a tap",
+      "zh": "移除第三方源"
+    },
+    "windows": "brew untap <tap>",
+    "mac": "brew untap <tap>",
+    "linux": "brew untap <tap>",
+    "keywords": [
+      "untap",
+      "移除源"
+    ],
+    "pinyin": "yi chu yuan yichuyuan y c y ycy yi chu yuan yichuyuan y c y ycy"
+  },
+  {
+    "id": "brew-services-list",
+    "appId": "homebrew",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Services list",
+      "zh": "服务列表"
+    },
+    "description": {
+      "en": "List background services",
+      "zh": "列出后台服务"
+    },
+    "windows": "brew services list",
+    "mac": "brew services list",
+    "linux": "brew services list",
+    "keywords": [
+      "services",
+      "list",
+      "服务"
+    ],
+    "pinyin": "fu wu lie biao fuwuliebiao f w l b fwlb fu wu fuwu f w fw"
+  },
+  {
+    "id": "brew-services-start",
+    "appId": "homebrew",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Services start",
+      "zh": "启动服务"
+    },
+    "description": {
+      "en": "Start a service",
+      "zh": "启动服务"
+    },
+    "windows": "brew services start <svc>",
+    "mac": "brew services start <svc>",
+    "linux": "brew services start <svc>",
+    "keywords": [
+      "services",
+      "start",
+      "启动"
+    ],
+    "pinyin": "qi dong fu wu qidongfuwu q d f w qdfw qi dong qidong q d qd"
+  },
+  {
+    "id": "brew-services-stop",
+    "appId": "homebrew",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Services stop",
+      "zh": "停止服务"
+    },
+    "description": {
+      "en": "Stop a service",
+      "zh": "停止服务"
+    },
+    "windows": "brew services stop <svc>",
+    "mac": "brew services stop <svc>",
+    "linux": "brew services stop <svc>",
+    "keywords": [
+      "services",
+      "stop",
+      "停止"
+    ],
+    "pinyin": "ting zhi fu wu tingzhifuwu t z f w tzfw ting zhi tingzhi t z tz"
+  },
+  {
+    "id": "brew-services-restart",
+    "appId": "homebrew",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Services restart",
+      "zh": "重启服务"
+    },
+    "description": {
+      "en": "Restart a service",
+      "zh": "重启服务"
+    },
+    "windows": "brew services restart <svc>",
+    "mac": "brew services restart <svc>",
+    "linux": "brew services restart <svc>",
+    "keywords": [
+      "services",
+      "restart",
+      "重启"
+    ],
+    "pinyin": "chong qi fu wu chongqifuwu c q f w cqfw chong qi chongqi c q cq"
+  },
+  {
+    "id": "brew-cask-install",
+    "appId": "homebrew",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Cask install",
+      "zh": "安装 App"
+    },
+    "description": {
+      "en": "Install a GUI app (cask)",
+      "zh": "安装图形应用"
+    },
+    "windows": "brew install --cask <app>",
+    "mac": "brew install --cask <app>",
+    "linux": "brew install --cask <app>",
+    "keywords": [
+      "cask",
+      "install",
+      "app"
+    ],
+    "pinyin": "an zhuang   a p p anzhuang app a z   a p p az app"
+  },
+  {
+    "id": "brew-deps",
+    "appId": "homebrew",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Deps",
+      "zh": "依赖"
+    },
+    "description": {
+      "en": "Show dependencies",
+      "zh": "显示依赖"
+    },
+    "windows": "brew deps <pkg>",
+    "mac": "brew deps <pkg>",
+    "linux": "brew deps <pkg>",
+    "keywords": [
+      "deps",
+      "依赖"
+    ],
+    "pinyin": "yi lai yilai y l yl yi lai yilai y l yl"
+  },
+  {
+    "id": "brew-leaves",
+    "appId": "homebrew",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Leaves",
+      "zh": "叶子包"
+    },
+    "description": {
+      "en": "Show installed-on-purpose",
+      "zh": "显示手动安装"
+    },
+    "windows": "brew leaves",
+    "mac": "brew leaves",
+    "linux": "brew leaves",
+    "keywords": [
+      "leaves",
+      "叶子"
+    ],
+    "pinyin": "ye zi bao yezibao y z b yzb ye zi yezi y z yz"
+  },
+  {
+    "id": "brew-bundle",
+    "appId": "homebrew",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Bundle",
+      "zh": "批量装"
+    },
+    "description": {
+      "en": "Install from Brewfile",
+      "zh": "从 Brewfile 安装"
+    },
+    "windows": "brew bundle",
+    "mac": "brew bundle",
+    "linux": "brew bundle",
+    "keywords": [
+      "bundle",
+      "brewfile"
+    ],
+    "pinyin": "pi liang zhuang piliangzhuang p l z plz"
+  },
+  {
+    "id": "brew-desc",
+    "appId": "homebrew",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Desc",
+      "zh": "描述"
+    },
+    "description": {
+      "en": "Search by description",
+      "zh": "按描述搜索"
+    },
+    "windows": "brew desc <term>",
+    "mac": "brew desc <term>",
+    "linux": "brew desc <term>",
+    "keywords": [
+      "desc",
+      "描述",
+      "search"
+    ],
+    "pinyin": "miao shu miaoshu m s ms miao shu miaoshu m s ms"
+  },
+  {
+    "id": "brew-pin",
+    "appId": "homebrew",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Pin",
+      "zh": "固定"
+    },
+    "description": {
+      "en": "Pin a formula version",
+      "zh": "固定版本"
+    },
+    "windows": "brew pin <pkg>",
+    "mac": "brew pin <pkg>",
+    "linux": "brew pin <pkg>",
+    "keywords": [
+      "pin",
+      "固定",
+      "version"
+    ],
+    "pinyin": "gu ding guding g d gd gu ding guding g d gd"
+  },
+  {
+    "id": "brew-unpin",
+    "appId": "homebrew",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Unpin",
+      "zh": "取消固定"
+    },
+    "description": {
+      "en": "Unpin a formula",
+      "zh": "取消固定"
+    },
+    "windows": "brew unpin <pkg>",
+    "mac": "brew unpin <pkg>",
+    "linux": "brew unpin <pkg>",
+    "keywords": [
+      "unpin",
+      "取消固定"
+    ],
+    "pinyin": "qu xiao gu ding quxiaoguding q x g d qxgd qu xiao gu ding quxiaoguding q x g d qxgd"
+  },
+  {
+    "id": "brew-edit",
+    "appId": "homebrew",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Edit",
+      "zh": "编辑"
+    },
+    "description": {
+      "en": "Open formula in editor",
+      "zh": "编辑公式"
+    },
+    "windows": "brew edit <pkg>",
+    "mac": "brew edit <pkg>",
+    "linux": "brew edit <pkg>",
+    "keywords": [
+      "edit",
+      "编辑"
+    ],
+    "pinyin": "bian ji bianji b j bj bian ji bianji b j bj"
+  }
+]

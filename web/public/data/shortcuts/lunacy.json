@@ -1,0 +1,574 @@
+[
+  {
+    "id": "lunacy-new",
+    "appId": "lunacy",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "New file",
+      "zh": "新建文件"
+    },
+    "description": {
+      "en": "Create a new file",
+      "zh": "新建文件"
+    },
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
+    "linux": "Ctrl + N",
+    "keywords": [
+      "new",
+      "新建"
+    ],
+    "pinyin": "xin jian wen jian xinjianwenjian x j w j xjwj xin jian xinjian x j xj"
+  },
+  {
+    "id": "lunacy-open",
+    "appId": "lunacy",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Open",
+      "zh": "打开"
+    },
+    "description": {
+      "en": "Open file",
+      "zh": "打开文件"
+    },
+    "windows": "Ctrl + O",
+    "mac": "⌘ O",
+    "linux": "Ctrl + O",
+    "keywords": [
+      "open",
+      "打开"
+    ],
+    "pinyin": "da kai dakai d k dk da kai dakai d k dk"
+  },
+  {
+    "id": "lunacy-save",
+    "appId": "lunacy",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Save",
+      "zh": "保存"
+    },
+    "description": {
+      "en": "Save file",
+      "zh": "保存文件"
+    },
+    "windows": "Ctrl + S",
+    "mac": "⌘ S",
+    "linux": "Ctrl + S",
+    "keywords": [
+      "save",
+      "保存"
+    ],
+    "pinyin": "bao cun baocun b c bc bao cun baocun b c bc"
+  },
+  {
+    "id": "lunacy-rectangle",
+    "appId": "lunacy",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Rectangle",
+      "zh": "矩形"
+    },
+    "description": {
+      "en": "Rectangle tool",
+      "zh": "矩形工具"
+    },
+    "windows": "R",
+    "mac": "R",
+    "linux": "R",
+    "keywords": [
+      "rectangle",
+      "矩形"
+    ],
+    "pinyin": "ju xing juxing j x jx ju xing juxing j x jx"
+  },
+  {
+    "id": "lunacy-oval",
+    "appId": "lunacy",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Oval",
+      "zh": "椭圆"
+    },
+    "description": {
+      "en": "Oval tool",
+      "zh": "椭圆工具"
+    },
+    "windows": "O",
+    "mac": "O",
+    "linux": "O",
+    "keywords": [
+      "oval",
+      "椭圆"
+    ],
+    "pinyin": "tuo yuan tuoyuan t y ty tuo yuan tuoyuan t y ty"
+  },
+  {
+    "id": "lunacy-line",
+    "appId": "lunacy",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Line",
+      "zh": "直线"
+    },
+    "description": {
+      "en": "Line tool",
+      "zh": "直线工具"
+    },
+    "windows": "L",
+    "mac": "L",
+    "linux": "L",
+    "keywords": [
+      "line",
+      "直线"
+    ],
+    "pinyin": "zhi xian zhixian z x zx zhi xian zhixian z x zx"
+  },
+  {
+    "id": "lunacy-pen",
+    "appId": "lunacy",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Pen",
+      "zh": "钢笔"
+    },
+    "description": {
+      "en": "Pen tool",
+      "zh": "钢笔工具"
+    },
+    "windows": "P",
+    "mac": "P",
+    "linux": "P",
+    "keywords": [
+      "pen",
+      "钢笔"
+    ],
+    "pinyin": "gang bi gangbi g b gb gang bi gangbi g b gb"
+  },
+  {
+    "id": "lunacy-text",
+    "appId": "lunacy",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Text",
+      "zh": "文本"
+    },
+    "description": {
+      "en": "Text tool",
+      "zh": "文本工具"
+    },
+    "windows": "T",
+    "mac": "T",
+    "linux": "T",
+    "keywords": [
+      "text",
+      "文本"
+    ],
+    "pinyin": "wen ben wenben w b wb wen ben wenben w b wb"
+  },
+  {
+    "id": "lunacy-move",
+    "appId": "lunacy",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Move",
+      "zh": "移动"
+    },
+    "description": {
+      "en": "Move/Select tool",
+      "zh": "移动/选择工具"
+    },
+    "windows": "V",
+    "mac": "V",
+    "linux": "V",
+    "keywords": [
+      "move",
+      "选择"
+    ],
+    "pinyin": "yi dong yidong y d yd xuan ze xuanze x z xz"
+  },
+  {
+    "id": "lunacy-duplicate",
+    "appId": "lunacy",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Duplicate",
+      "zh": "复制"
+    },
+    "description": {
+      "en": "Duplicate selection",
+      "zh": "复制选区"
+    },
+    "windows": "Ctrl + D",
+    "mac": "⌘ D",
+    "linux": "Ctrl + D",
+    "keywords": [
+      "duplicate",
+      "复制"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "lunacy-group",
+    "appId": "lunacy",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Group",
+      "zh": "编组"
+    },
+    "description": {
+      "en": "Group objects",
+      "zh": "编组对象"
+    },
+    "windows": "Ctrl + G",
+    "mac": "⌘ G",
+    "linux": "Ctrl + G",
+    "keywords": [
+      "group",
+      "编组"
+    ],
+    "pinyin": "bian zu bianzu b z bz bian zu bianzu b z bz"
+  },
+  {
+    "id": "lunacy-ungroup",
+    "appId": "lunacy",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Ungroup",
+      "zh": "解组"
+    },
+    "description": {
+      "en": "Ungroup objects",
+      "zh": "解组对象"
+    },
+    "windows": "Ctrl + Shift + G",
+    "mac": "⌘ Shift + G",
+    "linux": "Ctrl + Shift + G",
+    "keywords": [
+      "ungroup",
+      "解组"
+    ],
+    "pinyin": "jie zu jiezu j z jz jie zu jiezu j z jz"
+  },
+  {
+    "id": "lunacy-undo",
+    "appId": "lunacy",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Undo",
+      "zh": "撤销"
+    },
+    "description": {
+      "en": "Undo",
+      "zh": "撤销"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "Ctrl + Z",
+    "keywords": [
+      "undo",
+      "撤销"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "lunacy-redo",
+    "appId": "lunacy",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Redo",
+      "zh": "重做"
+    },
+    "description": {
+      "en": "Redo",
+      "zh": "重做"
+    },
+    "windows": "Ctrl + Y",
+    "mac": "⌘ Shift + Z",
+    "linux": "Ctrl + Y",
+    "keywords": [
+      "redo",
+      "重做"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "lunacy-zoom-in",
+    "appId": "lunacy",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Zoom in",
+      "zh": "放大"
+    },
+    "description": {
+      "en": "Zoom in",
+      "zh": "放大"
+    },
+    "windows": "Ctrl + =",
+    "mac": "⌘ =",
+    "linux": "Ctrl + =",
+    "keywords": [
+      "zoom",
+      "放大"
+    ],
+    "pinyin": "fang da fangda f d fd fang da fangda f d fd"
+  },
+  {
+    "id": "lunacy-zoom-out",
+    "appId": "lunacy",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Zoom out",
+      "zh": "缩小"
+    },
+    "description": {
+      "en": "Zoom out",
+      "zh": "缩小"
+    },
+    "windows": "Ctrl + -",
+    "mac": "⌘ -",
+    "linux": "Ctrl + -",
+    "keywords": [
+      "zoom",
+      "缩小"
+    ],
+    "pinyin": "suo xiao suoxiao s x sx suo xiao suoxiao s x sx"
+  },
+  {
+    "id": "lunacy-fit",
+    "appId": "lunacy",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Fit",
+      "zh": "适应"
+    },
+    "description": {
+      "en": "Fit to screen",
+      "zh": "适应屏幕"
+    },
+    "windows": "Shift + 1",
+    "mac": "Shift + 1",
+    "linux": "Shift + 1",
+    "keywords": [
+      "fit",
+      "适应"
+    ],
+    "pinyin": "shi ying shiying s y sy shi ying shiying s y sy"
+  },
+  {
+    "id": "lunacy-export",
+    "appId": "lunacy",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Export",
+      "zh": "导出"
+    },
+    "description": {
+      "en": "Export selection",
+      "zh": "导出选区"
+    },
+    "windows": "Ctrl + E",
+    "mac": "⌘ E",
+    "linux": "Ctrl + E",
+    "keywords": [
+      "export",
+      "导出"
+    ],
+    "pinyin": "dao chu daochu d c dc dao chu daochu d c dc"
+  },
+  {
+    "id": "lunacy-boolean-union",
+    "appId": "lunacy",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Union",
+      "zh": "联合"
+    },
+    "description": {
+      "en": "Boolean union",
+      "zh": "布尔联合"
+    },
+    "windows": "Ctrl + Enter? ",
+    "mac": "⌘ Enter? ",
+    "linux": "Ctrl + Enter? ",
+    "keywords": [
+      "union",
+      "联合"
+    ],
+    "pinyin": "lian he lianhe l h lh lian he lianhe l h lh"
+  },
+  {
+    "id": "lunacy-mask",
+    "appId": "lunacy",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Mask",
+      "zh": "蒙版"
+    },
+    "description": {
+      "en": "Create mask",
+      "zh": "创建蒙版"
+    },
+    "windows": "Ctrl + Shift + M",
+    "mac": "⌘ Shift + M",
+    "linux": "Ctrl + Shift + M",
+    "keywords": [
+      "mask",
+      "蒙版"
+    ],
+    "pinyin": "meng ban mengban m b mb meng ban mengban m b mb"
+  },
+  {
+    "id": "lunacy-prototype",
+    "appId": "lunacy",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Prototype",
+      "zh": "原型"
+    },
+    "description": {
+      "en": "Prototype mode",
+      "zh": "原型模式"
+    },
+    "windows": "Ctrl + P? ",
+    "mac": "⌘ P? ",
+    "linux": "Ctrl + P? ",
+    "keywords": [
+      "prototype",
+      "原型"
+    ],
+    "pinyin": "yuan xing yuanxing y x yx yuan xing yuanxing y x yx"
+  },
+  {
+    "id": "lunacy-copy-style",
+    "appId": "lunacy",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Copy style",
+      "zh": "复制样式"
+    },
+    "description": {
+      "en": "Copy style",
+      "zh": "复制样式"
+    },
+    "windows": "Ctrl + Alt + C",
+    "mac": "⌘ Option + C",
+    "linux": "Ctrl + Alt + C",
+    "keywords": [
+      "style",
+      "复制"
+    ],
+    "pinyin": "fu zhi yang shi fuzhiyangshi f z y s fzys fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "lunacy-paste-style",
+    "appId": "lunacy",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Paste style",
+      "zh": "粘贴样式"
+    },
+    "description": {
+      "en": "Paste style",
+      "zh": "粘贴样式"
+    },
+    "windows": "Ctrl + Alt + V",
+    "mac": "⌘ Option + V",
+    "linux": "Ctrl + Alt + V",
+    "keywords": [
+      "style",
+      "粘贴"
+    ],
+    "pinyin": "nian tie yang shi niantieyangshi n t y s ntys nian tie niantie n t nt"
+  },
+  {
+    "id": "lunacy-show-grid",
+    "appId": "lunacy",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Grid",
+      "zh": "网格"
+    },
+    "description": {
+      "en": "Toggle grid",
+      "zh": "切换网格"
+    },
+    "windows": "Ctrl + '",
+    "mac": "⌘ '",
+    "linux": "Ctrl + '",
+    "keywords": [
+      "grid",
+      "网格"
+    ],
+    "pinyin": "wang ge wangge w g wg wang ge wangge w g wg"
+  },
+  {
+    "id": "lunacy-snap",
+    "appId": "lunacy",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Snap",
+      "zh": "吸附"
+    },
+    "description": {
+      "en": "Toggle snapping",
+      "zh": "切换吸附"
+    },
+    "windows": "Ctrl + Shift + '",
+    "mac": "⌘ Shift + '",
+    "linux": "Ctrl + Shift + '",
+    "keywords": [
+      "snap",
+      "吸附"
+    ],
+    "pinyin": "xi fu xifu x f xf xi fu xifu x f xf"
+  },
+  {
+    "id": "lunacy-hand",
+    "appId": "lunacy",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Hand",
+      "zh": "抓手"
+    },
+    "description": {
+      "en": "Pan canvas",
+      "zh": "平移画布"
+    },
+    "windows": "Space",
+    "mac": "Space",
+    "linux": "Space",
+    "keywords": [
+      "hand",
+      "抓手"
+    ],
+    "pinyin": "zhua shou zhuashou z s zs zhua shou zhuashou z s zs"
+  }
+]

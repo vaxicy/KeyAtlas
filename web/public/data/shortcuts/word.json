@@ -1,1 +1,1212 @@
-[{"id":"word-new","appId":"word","type":"software","category":"productivity","name":{"zh":"新建文档","en":"New Document"},"description":{"zh":"创建新文档","en":"Create a new document"},"windows":"Ctrl + N","mac":"⌘ N","linux":"Ctrl + N","keywords":["新建","new","文档"],"pinyin":"xin jian wen dang xinjianwendang x j w d xjwd xin jian   wen dang xinjian wendang x j   w d xj wd"},{"id":"word-open","appId":"word","type":"software","category":"productivity","name":{"zh":"打开文档","en":"Open Document"},"description":{"zh":"打开已有文档","en":"Open an existing document"},"windows":"Ctrl + O","mac":"⌘ O","linux":"Ctrl + O","keywords":["打开","open"],"pinyin":"da kai wen dang dakaiwendang d k w d dkwd da kai dakai d k dk"},{"id":"word-save","appId":"word","type":"software","category":"productivity","name":{"zh":"保存","en":"Save"},"description":{"zh":"保存当前文档","en":"Save current document"},"windows":"Ctrl + S","mac":"⌘ S","linux":"Ctrl + S","keywords":["保存","save"],"pinyin":"bao cun baocun b c bc bao cun baocun b c bc"},{"id":"word-saveas","appId":"word","type":"software","category":"productivity","name":{"zh":"另存为","en":"Save As"},"description":{"zh":"将文档另存为新文件","en":"Save as a new file"},"windows":"F12","mac":"⌘ ⇧ S","linux":"F12","keywords":["另存为","save as"],"pinyin":"ling cun wei lingcunwei l c w lcw ling cun wei lingcunwei l c w lcw"},{"id":"word-print","appId":"word","type":"software","category":"productivity","name":{"zh":"打印","en":"Print"},"description":{"zh":"打印文档","en":"Print document"},"windows":"Ctrl + P","mac":"⌘ P","linux":"Ctrl + P","keywords":["打印","print"],"pinyin":"da yin dayin d y dy da yin dayin d y dy"},{"id":"word-close","appId":"word","type":"software","category":"productivity","name":{"zh":"关闭文档","en":"Close Document"},"description":{"zh":"关闭当前文档","en":"Close current document"},"windows":"Ctrl + W / Ctrl + F4","mac":"⌘ W","linux":"Ctrl + W","keywords":["关闭","close"],"pinyin":"guan bi wen dang guanbiwendang g b w d gbwd guan bi guanbi g b gb"},{"id":"word-quit","appId":"word","type":"software","category":"productivity","name":{"zh":"退出 Word","en":"Quit Word"},"description":{"zh":"退出应用程序","en":"Quit application"},"windows":"Alt + F4","mac":"⌘ Q","linux":"Alt + F4","keywords":["退出","quit"],"pinyin":"tui chu   w o r d tuichu word t c   w o r d tc word tui chu tuichu t c tc"},{"id":"word-undo","appId":"word","type":"software","category":"productivity","name":{"zh":"撤销","en":"Undo"},"description":{"zh":"撤销上一步操作","en":"Undo last action"},"windows":"Ctrl + Z","mac":"⌘ Z","linux":"Ctrl + Z","keywords":["撤销","undo"],"pinyin":"che xiao chexiao c x cx che xiao chexiao c x cx"},{"id":"word-redo","appId":"word","type":"software","category":"productivity","name":{"zh":"恢复/重做","en":"Redo"},"description":{"zh":"恢复被撤销的操作","en":"Redo undone action"},"windows":"Ctrl + Y","mac":"⌘ Y / ⌘ ⇧ Z","linux":"Ctrl + Y","keywords":["重做","redo","恢复"],"pinyin":"hui fu / zhong zuo huifu/zhongzuo h f / z z hf/zz zhong zuo   hui fu zhongzuo huifu z z   h f zz hf"},{"id":"word-cut","appId":"word","type":"software","category":"productivity","name":{"zh":"剪切","en":"Cut"},"description":{"zh":"剪切选中内容到剪贴板","en":"Cut selection to clipboard"},"windows":"Ctrl + X","mac":"⌘ X","linux":"Ctrl + X","keywords":["剪切","cut"],"pinyin":"jian qie jianqie j q jq jian qie jianqie j q jq"},{"id":"word-copy","appId":"word","type":"software","category":"productivity","name":{"zh":"复制","en":"Copy"},"description":{"zh":"复制选中内容到剪贴板","en":"Copy selection to clipboard"},"windows":"Ctrl + C","mac":"⌘ C","linux":"Ctrl + C","keywords":["复制","copy"],"pinyin":"fu zhi fuzhi f z fz fu zhi fuzhi f z fz"},{"id":"word-paste","appId":"word","type":"software","category":"productivity","name":{"zh":"粘贴","en":"Paste"},"description":{"zh":"粘贴剪贴板内容","en":"Paste from clipboard"},"windows":"Ctrl + V","mac":"⌘ V","linux":"Ctrl + V","keywords":["粘贴","paste"],"pinyin":"nian tie niantie n t nt nian tie niantie n t nt"},{"id":"word-selectall","appId":"word","type":"software","category":"productivity","name":{"zh":"全选","en":"Select All"},"description":{"zh":"选择文档中所有内容","en":"Select everything in document"},"windows":"Ctrl + A","mac":"⌘ A","linux":"Ctrl + A","keywords":["全选","select all"],"pinyin":"quan xuan quanxuan q x qx quan xuan quanxuan q x qx"},{"id":"word-find","appId":"word","type":"software","category":"productivity","name":{"zh":"查找","en":"Find"},"description":{"zh":"在文档中查找文本","en":"Find text in document"},"windows":"Ctrl + F","mac":"⌘ F","linux":"Ctrl + F","keywords":["查找","find"],"pinyin":"cha zhao chazhao c z cz cha zhao chazhao c z cz"},{"id":"word-replace","appId":"word","type":"software","category":"productivity","name":{"zh":"替换","en":"Replace"},"description":{"zh":"查找并替换文本","en":"Find and replace"},"windows":"Ctrl + H","mac":"⌘ H","linux":"Ctrl + H","keywords":["替换","replace"],"pinyin":"ti huan tihuan t h th ti huan tihuan t h th"},{"id":"word-gotonext","appId":"word","type":"software","category":"productivity","name":{"zh":"定位下一处","en":"Go To Next"},"description":{"zh":"跳转到下一个查找结果或页面","en":"Go to next match or page"},"windows":"Ctrl + Page Down","mac":"⌘ ; 然后 G","linux":"Ctrl + Page Down","keywords":["定位","goto","下一个"],"pinyin":"ding wei xia yi chu dingweixiayichu d w x y c dwxyc ding wei   xia yi ge dingwei xiayige d w   x y g dw xyg"},{"id":"word-gotoprev","appId":"word","type":"software","category":"productivity","name":{"zh":"定位上一处","en":"Go To Previous"},"description":{"zh":"跳转到上一个查找结果或页面","en":"Go to previous match or page"},"windows":"Ctrl + Page Up","mac":"⌘ ; 然后 Shift G","linux":"Ctrl + Page Up","keywords":["定位","goto","上一个"],"pinyin":"ding wei shang yi chu dingweishangyichu d w s y c dwsyc ding wei   shang yi ge dingwei shangyige d w   s y g dw syg"},{"id":"word-bold","appId":"word","type":"software","category":"productivity","name":{"zh":"加粗","en":"Bold"},"description":{"zh":"将文字加粗显示","en":"Make text bold"},"windows":"Ctrl + B","mac":"⌘ B","linux":"Ctrl + B","keywords":["加粗","bold"],"pinyin":"jia cu jiacu j c jc jia cu jiacu j c jc"},{"id":"word-italic","appId":"word","type":"software","category":"productivity","name":{"zh":"斜体","en":"Italic"},"description":{"zh":"将文字设为斜体","en":"Make text italic"},"windows":"Ctrl + I","mac":"⌘ I","linux":"Ctrl + I","keywords":["斜体","italic"],"pinyin":"xie ti xieti x t xt xie ti xieti x t xt"},{"id":"word-underline","appId":"word","type":"software","category":"productivity","name":{"zh":"下划线","en":"Underline"},"description":{"zh":"为文字添加下划线","en":"Underline text"},"windows":"Ctrl + U","mac":"⌘ U","linux":"Ctrl + U","keywords":["下划线","underline"],"pinyin":"xia hua xian xiahuaxian x h x xhx xia hua xian xiahuaxian x h x xhx"},{"id":"word-strikethrough","appId":"word","type":"software","category":"productivity","name":{"zh":"删除线","en":"Strikethrough"},"description":{"zh":"为文字添加删除线","en":"Add strikethrough to text"},"windows":"Ctrl + Shift + - (减号)","mac":"⌘ ⇧ X","linux":"Ctrl + Shift + -","keywords":["删除线","strikethrough"],"pinyin":"shan chu xian shanchuxian s c x scx shan chu xian shanchuxian s c x scx"},{"id":"word-subscript","appId":"word","type":"software","category":"productivity","name":{"zh":"下标","en":"Subscript"},"description":{"zh":"设为下标格式","en":"Apply subscript formatting"},"windows":"Ctrl + = (等号)","mac":"⌘ ⇧ = (等号)","linux":"Ctrl + =","keywords":["下标","subscript"],"pinyin":"xia biao xiabiao x b xb xia biao xiabiao x b xb"},{"id":"word-superscript","appId":"word","type":"software","category":"productivity","name":{"zh":"上标","en":"Superscript"},"description":{"zh":"设为上标格式","en":"Apply superscript formatting"},"windows":"Ctrl + Shift + = (等号)","mac":"⌘ ⇧ = (等号)","linux":"Ctrl + Shift + =","keywords":["上标","superscript"],"pinyin":"shang biao shangbiao s b sb shang biao shangbiao s b sb"},{"id":"word-alignleft","appId":"word","type":"software","category":"productivity","name":{"zh":"左对齐","en":"Align Left"},"description":{"zh":"段落左对齐","en":"Align paragraph left"},"windows":"Ctrl + L","mac":"⌘ L","linux":"Ctrl + L","keywords":["左对齐","align left"],"pinyin":"zuo dui qi zuoduiqi z d q zdq zuo dui qi zuoduiqi z d q zdq"},{"id":"word-aligncenter","appId":"word","type":"software","category":"productivity","name":{"zh":"居中对齐","en":"Center Align"},"description":{"zh":"段落居中对齐","en":"Center align paragraph"},"windows":"Ctrl + E","mac":"⌘ E","linux":"Ctrl + E","keywords":["居中","center align"],"pinyin":"ju zhong dui qi juzhongduiqi j z d q jzdq ju zhong juzhong j z jz"},{"id":"word-alignright","appId":"word","type":"software","category":"productivity","name":{"zh":"右对齐","en":"Align Right"},"description":{"zh":"段落右对齐","en":"Align paragraph right"},"windows":"Ctrl + R","mac":"⌘ R","linux":"Ctrl + R","keywords":["右对齐","align right"],"pinyin":"you dui qi youduiqi y d q ydq you dui qi youduiqi y d q ydq"},{"id":"word-justify","appId":"word","type":"software","category":"productivity","name":{"zh":"两端对齐","en":"Justify"},"description":{"zh":"段落两端对齐","en":"Justify paragraph"},"windows":"Ctrl + J","mac":"⌘ J","linux":"Ctrl + J","keywords":["两端对齐","justify"],"pinyin":"liang duan dui qi liangduanduiqi l d d q lddq liang duan dui qi liangduanduiqi l d d q lddq"},{"id":"word-incindent","appId":"word","type":"software","category":"productivity","name":{"zh":"增加缩进","en":"Increase Indent"},"description":{"zh":"增加段落缩进","en":"Increase indent"},"windows":"Ctrl + M","mac":"⌘ M","linux":"Ctrl + M","keywords":["增加缩进","indent"],"pinyin":"zeng jia suo jin zengjiasuojin z j s j zjsj zeng jia suo jin zengjiasuojin z j s j zjsj"},{"id":"word-decindent","appId":"word","type":"software","category":"productivity","name":{"zh":"减少缩进","en":"Decrease Indent"},"description":{"zh":"减少段落缩进","en":"Decrease indent"},"windows":"Ctrl + Shift + M","mac":"⌘ ⇧ M","linux":"Ctrl + Shift + M","keywords":["减少缩进","decrease indent"],"pinyin":"jian shao suo jin jianshaosuojin j s s j jssj jian shao suo jin jianshaosuojin j s s j jssj"},{"id":"word-heading1","appId":"word","type":"software","category":"productivity","name":{"zh":"标题 1","en":"Heading 1"},"description":{"zh":"应用标题 1 样式","en":"Apply Heading 1 style"},"windows":"Ctrl + Alt + 1","mac":"⌘ ⌥ 1","linux":"Ctrl + Alt + 1","keywords":["标题","heading","样式"],"pinyin":"biao ti   1 biaoti 1 b t   1 bt 1 biao ti   yang shi biaoti yangshi b t   y s bt ys"},{"id":"word-heading2","appId":"word","type":"software","category":"productivity","name":{"zh":"标题 2","en":"Heading 2"},"description":{"zh":"应用标题 2 样式","en":"Apply Heading 2 style"},"windows":"Ctrl + Alt + 2","mac":"⌘ ⌥ 2","linux":"Ctrl + Alt + 2","keywords":["标题","heading","样式"],"pinyin":"biao ti   2 biaoti 2 b t   2 bt 2 biao ti   yang shi biaoti yangshi b t   y s bt ys"},{"id":"word-heading3","appId":"word","type":"software","category":"productivity","name":{"zh":"标题 3","en":"Heading 3"},"description":{"zh":"应用标题 3 样式","en":"Apply Heading 3 style"},"windows":"Ctrl + Alt + 3","mac":"⌘ ⌥ 3","linux":"Ctrl + Alt + 3","keywords":["标题","heading","样式"],"pinyin":"biao ti   3 biaoti 3 b t   3 bt 3 biao ti   yang shi biaoti yangshi b t   y s bt ys"},{"id":"word-style-normal","appId":"word","type":"software","category":"productivity","name":{"zh":"正文样式","en":"Normal Style"},"description":{"zh":"应用正文样式","en":"Apply Normal style"},"windows":"Ctrl + Shift + N","mac":"⌘ ⇧ N","linux":"Ctrl + Shift + N","keywords":["正文","normal","样式"],"pinyin":"zheng wen yang shi zhengwenyangshi z w y s zwys zheng wen   yang shi zhengwen yangshi z w   y s zw ys"},{"id":"word-bulletlist","appId":"word","type":"software","category":"productivity","name":{"zh":"项目符号列表","en":"Bullets List"},"description":{"zh":"添加项目符号列表","en":"Add bulleted list"},"windows":"Ctrl + Shift + L","mac":"⌘ ⇧ L","linux":"Ctrl + Shift + L","keywords":["项目符号","bullet","列表"],"pinyin":"xiang mu fu hao lie biao xiangmufuhaoliebiao x m f h l b xmfhlb xiang mu fu hao   lie biao xiangmufuhao liebiao x m f h   l b xmfh lb"},{"id":"word-numberlist","appId":"word","type":"software","category":"productivity","name":{"zh":"编号列表","en":"Numbered List"},"description":{"zh":"添加编号列表","en":"Add numbered list"},"windows":"Ctrl + Shift + L (再次按)","mac":"⌘ ⇧ L (再次按)","linux":"—","keywords":["编号","numbered list"],"pinyin":"bian hao lie biao bianhaoliebiao b h l b bhlb bian hao bianhao b h bh"},{"id":"word-pagebreak","appId":"word","type":"software","category":"productivity","name":{"zh":"分页符","en":"Page Break"},"description":{"zh":"插入分页符","en":"Insert page break"},"windows":"Ctrl + Enter","mac":"⌘ Enter","linux":"Ctrl + Enter","keywords":["分页","page break"],"pinyin":"fen ye fu fenyefu f y f fyf fen ye fenye f y fy"},{"id":"word-linebreak","appId":"word","type":"software","category":"productivity","name":{"zh":"换行符(软回车)","en":"Line Break (Soft Return)"},"description":{"zh":"插入换行符(不分段)","en":"Insert line break without breaking paragraph"},"windows":"Shift + Enter","mac":"⇧ Return","linux":"Shift + Enter","keywords":["换行","line break","软回车"],"pinyin":"huan hang fu ( ruan hui che ) huanhangfu(ruanhuiche) h h f ( r h c ) hhf(rhc) huan hang   ruan hui che huanhang ruanhuiche h h   r h c hh rhc"},{"id":"word-columnbreak","appId":"word","type":"software","category":"productivity","name":{"zh":"分栏符","en":"Column Break"},"description":{"zh":"插入分栏符","en":"Insert column break"},"windows":"Ctrl + Shift + Enter","mac":"⌘ ⇧ Return","linux":"Ctrl + Shift + Enter","keywords":["分栏","column break"],"pinyin":"fen lan fu fenlanfu f l f flf fen lan fenlan f l fl"},{"id":"word-insertlink","appId":"word","type":"software","category":"productivity","name":{"zh":"插入超链接","en":"Insert Hyperlink"},"description":{"zh":"在光标位置插入超链接","en":"Insert hyperlink at cursor position"},"windows":"Ctrl + K","mac":"⌘ K","linux":"Ctrl + K","keywords":["超链接","hyperlink","链接"],"pinyin":"cha ru chao lian jie charuchaolianjie c r c l j crclj chao lian jie   lian jie chaolianjie lianjie c l j   l j clj lj"},{"id":"word-wordcount","appId":"word","type":"software","category":"productivity","name":{"zh":"字数统计","en":"Word Count"},"description":{"zh":"显示字数统计对话框","en":"Show word count dialog"},"windows":"Ctrl + Shift + G","mac":"⌘ ⇧ G","linux":"Ctrl + Shift + G","keywords":["字数","word count","统计"],"pinyin":"zi shu tong ji zishutongji z s t j zstj zi shu   tong ji zishu tongji z s   t j zs tj"},{"id":"word-spellcheck","appId":"word","type":"software","category":"productivity","name":{"zh":"拼写和语法检查","en":"Spelling & Grammar Check"},"description":{"zh":"启动拼写和语法检查","en":"Start spelling and grammar check"},"windows":"F7","mac":"⌘ ;","linux":"F7","keywords":["拼写","spell","语法","grammar"],"pinyin":"pin xie he yu fa jian cha pinxieheyufajiancha p x h y f j c pxhyfjc pin xie   yu fa pinxie yufa p x   y f px yf"},{"id":"word-thesaurus","appId":"word","type":"software","category":"productivity","name":{"zh":"同义词库","en":"Thesaurus"},"description":{"zh":"打开同义词库面板","en":"Open thesaurus pane"},"windows":"Shift + F7","mac":"⌘ ⌥ ⇧ R","linux":"Shift + F7","keywords":["同义词","thesaurus","词库"],"pinyin":"tong yi ci ku tongyiciku t y c k tyck tong yi ci   ci ku tongyici ciku t y c   c k tyc ck"},{"id":"word-fontsizeup","appId":"word","type":"software","category":"productivity","name":{"zh":"增大字号","en":"Increase Font Size"},"description":{"zh":"增大所选文字字号","en":"Increase font size of selected text"},"windows":"Ctrl + Shift + > / Ctrl + ]","mac":"⌘ ⇧ . / ⌘ ]","linux":"Ctrl + Shift + >","keywords":["增大字号","font size","放大字体"],"pinyin":"zeng da zi hao zengdazihao z d z h zdzh zeng da zi hao   fang da zi ti zengdazihao fangdaziti z d z h   f d z t zdzh fdzt"},{"id":"word-fontsizedown","appId":"word","type":"software","category":"productivity","name":{"zh":"减小字号","en":"Decrease Font Size"},"description":{"zh":"减小所选文字字号","en":"Decrease font size of selected text"},"windows":"Ctrl + Shift + [ / Ctrl + <","mac":"⌘ ⇧ , / ⌘ [","linux":"Ctrl + Shift + <","keywords":["减小字号","font size","缩小字体"],"pinyin":"jian xiao zi hao jianxiaozihao j x z h jxzh jian xiao zi hao   suo xiao zi ti jianxiaozihao suoxiaoziti j x z h   s x z t jxzh sxzt"},{"id":"word-clearformatting","appId":"word","type":"software","category":"productivity","name":{"zh":"清除所有格式","en":"Clear All Formatting"},"description":{"zh":"清除所选文本的所有格式","en":"Clear all formatting from selection"},"windows":"Ctrl + Space","mac":"⌘ Space","linux":"Ctrl + Space","keywords":["清除格式","clear formatting"],"pinyin":"qing chu suo you ge shi qingchusuoyougeshi q c s y g s qcsygs qing chu ge shi qingchugeshi q c g s qcgs"},{"id":"word-showhidemarks","appId":"word","type":"software","category":"productivity","name":{"zh":"显示/隐藏编辑标记","en":"Show/Hide Formatting Marks"},"description":{"zh":"切换显示段落标记等编辑符号","en":"Toggle display of paragraph marks and formatting symbols"},"windows":"Ctrl + Shift + 8 (*)","mac":"⌘ ⇧ 8 (*)","linux":"Ctrl + Shift + 8","keywords":["编辑标记","formatting marks","符号"],"pinyin":"xian shi / yin cang bian ji biao ji xianshi/yincangbianjibiaoji x s / y c b j b j xs/ycbjbj bian ji biao ji   fu hao bianjibiaoji fuhao b j b j   f h bjbj fh"},{"id":"word-zoomin","appId":"word","type":"software","category":"productivity","name":{"zh":"放大视图","en":"Zoom In"},"description":{"zh":"放大页面视图比例","en":"Zoom in page view"},"windows":"Ctrl + = / Alt + W Q","mac":"⌘ = / ⌘ ⌥ =","linux":"Ctrl + =","keywords":["放大","zoom in","视图"],"pinyin":"fang da shi tu fangdashitu f d s t fdst fang da   shi tu fangda shitu f d   s t fd st"},{"id":"word-zoomout","appId":"word","type":"software","category":"productivity","name":{"zh":"缩小视图","en":"Zoom Out"},"description":{"zh":"缩小页面视图比例","en":"Zoom out page view"},"windows":"Ctrl + - / Alt + W Q","mac":"⌘ - / ⌘ ⌥ -","linux":"Ctrl + -","keywords":["缩小","zoom out","视图"],"pinyin":"suo xiao shi tu suoxiaoshitu s x s t sxst suo xiao   shi tu suoxiao shitu s x   s t sx st"},{"id":"word-viewreading","appId":"word","type":"software","category":"productivity","name":{"zh":"阅读视图","en":"Reading View"},"description":{"zh":"切换到阅读视图","en":"Switch to reading view"},"windows":"Alt W F","mac":"⌘ ⌥ R","linux":"—","keywords":["阅读视图","reading view"],"pinyin":"yue du shi tu yuedushitu y d s t ydst yue du shi tu yuedushitu y d s t ydst"},{"id":"word-viewprintlayout","appId":"word","type":"software","category":"productivity","name":{"zh":"页面视图(打印布局)","en":"Print Layout View"},"description":{"zh":"切换到页面布局视图","en":"Switch to print layout view"},"windows":"Alt W P","mac":"⌘ ⌥ P","linux":"—","keywords":["页面视图","print layout","打印布局"],"pinyin":"ye mian shi tu ( da yin bu ju ) yemianshitu(dayinbuju) y m s t ( d y b j ) ymst(dybj) ye mian shi tu   da yin bu ju yemianshitu dayinbuju y m s t   d y b j ymst dybj"},{"id":"word-viewweblayout","appId":"word","type":"software","category":"productivity","name":{"zh":"Web 版式视图","en":"Web Layout View"},"description":{"zh":"切换到 Web 版式视图","en":"Switch to web layout view"},"windows":"Alt W W","mac":"⌘ ⌥ I","linux":"—","keywords":["Web版式","web layout"],"pinyin":"w e b   ban shi shi tu web banshishitu w e b   b s s t web bsst w e b ban shi webbanshi w e b b s webbs"},{"id":"word-viewfocus","appId":"word","type":"software","category":"productivity","name":{"zh":"专注视图(沉浸式)","en":"Focus View (Immersive)"},"description":{"zh":"进入沉浸式阅读/写作模式","en":"Enter immersive reading/writing mode"},"windows":"Alt W Z","mac":"⌘ ⌥ Z","linux":"—","keywords":["专注","focus","沉浸式"],"pinyin":"zhuan zhu shi tu ( chen jin shi ) zhuanzhushitu(chenjinshi) z z s t ( c j s ) zzst(cjs) zhuan zhu   chen jin shi zhuanzhu chenjinshi z z   c j s zz cjs"},{"id":"word-mac-insert-endnote","appId":"word","type":"software","category":"productivity","name":{"zh":"插入尾注(Mac)","en":"Insert Endnote (Mac)"},"description":{"zh":"插入尾注(Mac专用快捷键)","en":"Insert endnote (Mac only)"},"windows":"—","mac":"⌘ ⌥ ⇧ E","linux":"—","keywords":["尾注","endnote"],"pinyin":"cha ru wei zhu ( m a c ) charuweizhu(mac) c r w z ( m a c ) crwz(mac) wei zhu weizhu w z wz"},{"id":"word-mac-insert-footnote","appId":"word","type":"software","category":"productivity","name":{"zh":"插入脚注(Mac)","en":"Insert Footnote (Mac)"},"description":{"zh":"插入脚注(Mac专用快捷键)","en":"Insert footnote (Mac only)"},"windows":"—","mac":"⌘ ⌥ F","linux":"—","keywords":["脚注","footnote"],"pinyin":"cha ru jiao zhu ( m a c ) charujiaozhu(mac) c r j z ( m a c ) crjz(mac) jiao zhu jiaozhu j z jz"}]
+[
+  {
+    "id": "word-new",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "新建文档",
+      "en": "New Document"
+    },
+    "description": {
+      "zh": "创建新文档",
+      "en": "Create a new document"
+    },
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
+    "linux": "Ctrl + N",
+    "keywords": [
+      "新建",
+      "new",
+      "文档"
+    ],
+    "pinyin": "xin jian wen dang xinjianwendang x j w d xjwd xin jian   wen dang xinjian wendang x j   w d xj wd"
+  },
+  {
+    "id": "word-open",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "打开文档",
+      "en": "Open Document"
+    },
+    "description": {
+      "zh": "打开已有文档",
+      "en": "Open an existing document"
+    },
+    "windows": "Ctrl + O",
+    "mac": "⌘ O",
+    "linux": "Ctrl + O",
+    "keywords": [
+      "打开",
+      "open"
+    ],
+    "pinyin": "da kai wen dang dakaiwendang d k w d dkwd da kai dakai d k dk"
+  },
+  {
+    "id": "word-save",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "保存",
+      "en": "Save"
+    },
+    "description": {
+      "zh": "保存当前文档",
+      "en": "Save current document"
+    },
+    "windows": "Ctrl + S",
+    "mac": "⌘ S",
+    "linux": "Ctrl + S",
+    "keywords": [
+      "保存",
+      "save"
+    ],
+    "pinyin": "bao cun baocun b c bc bao cun baocun b c bc"
+  },
+  {
+    "id": "word-saveas",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "另存为",
+      "en": "Save As"
+    },
+    "description": {
+      "zh": "将文档另存为新文件",
+      "en": "Save as a new file"
+    },
+    "windows": "F12",
+    "mac": "⌘ ⇧ S",
+    "linux": "F12",
+    "keywords": [
+      "另存为",
+      "save as"
+    ],
+    "pinyin": "ling cun wei lingcunwei l c w lcw ling cun wei lingcunwei l c w lcw"
+  },
+  {
+    "id": "word-print",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "打印",
+      "en": "Print"
+    },
+    "description": {
+      "zh": "打印文档",
+      "en": "Print document"
+    },
+    "windows": "Ctrl + P",
+    "mac": "⌘ P",
+    "linux": "Ctrl + P",
+    "keywords": [
+      "打印",
+      "print"
+    ],
+    "pinyin": "da yin dayin d y dy da yin dayin d y dy"
+  },
+  {
+    "id": "word-close",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "关闭文档",
+      "en": "Close Document"
+    },
+    "description": {
+      "zh": "关闭当前文档",
+      "en": "Close current document"
+    },
+    "windows": "Ctrl + W / Ctrl + F4",
+    "mac": "⌘ W",
+    "linux": "Ctrl + W",
+    "keywords": [
+      "关闭",
+      "close"
+    ],
+    "pinyin": "guan bi wen dang guanbiwendang g b w d gbwd guan bi guanbi g b gb"
+  },
+  {
+    "id": "word-quit",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "退出 Word",
+      "en": "Quit Word"
+    },
+    "description": {
+      "zh": "退出应用程序",
+      "en": "Quit application"
+    },
+    "windows": "Alt + F4",
+    "mac": "⌘ Q",
+    "linux": "Alt + F4",
+    "keywords": [
+      "退出",
+      "quit"
+    ],
+    "pinyin": "tui chu   w o r d tuichu word t c   w o r d tc word tui chu tuichu t c tc"
+  },
+  {
+    "id": "word-undo",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销上一步操作",
+      "en": "Undo last action"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "Ctrl + Z",
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "word-redo",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "恢复/重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "恢复被撤销的操作",
+      "en": "Redo undone action"
+    },
+    "windows": "Ctrl + Y",
+    "mac": "⌘ Y / ⌘ ⇧ Z",
+    "linux": "Ctrl + Y",
+    "keywords": [
+      "重做",
+      "redo",
+      "恢复"
+    ],
+    "pinyin": "hui fu / zhong zuo huifu/zhongzuo h f / z z hf/zz zhong zuo   hui fu zhongzuo huifu z z   h f zz hf"
+  },
+  {
+    "id": "word-cut",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "剪切",
+      "en": "Cut"
+    },
+    "description": {
+      "zh": "剪切选中内容到剪贴板",
+      "en": "Cut selection to clipboard"
+    },
+    "windows": "Ctrl + X",
+    "mac": "⌘ X",
+    "linux": "Ctrl + X",
+    "keywords": [
+      "剪切",
+      "cut"
+    ],
+    "pinyin": "jian qie jianqie j q jq jian qie jianqie j q jq"
+  },
+  {
+    "id": "word-copy",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "复制",
+      "en": "Copy"
+    },
+    "description": {
+      "zh": "复制选中内容到剪贴板",
+      "en": "Copy selection to clipboard"
+    },
+    "windows": "Ctrl + C",
+    "mac": "⌘ C",
+    "linux": "Ctrl + C",
+    "keywords": [
+      "复制",
+      "copy"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "word-paste",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "粘贴",
+      "en": "Paste"
+    },
+    "description": {
+      "zh": "粘贴剪贴板内容",
+      "en": "Paste from clipboard"
+    },
+    "windows": "Ctrl + V",
+    "mac": "⌘ V",
+    "linux": "Ctrl + V",
+    "keywords": [
+      "粘贴",
+      "paste"
+    ],
+    "pinyin": "nian tie niantie n t nt nian tie niantie n t nt"
+  },
+  {
+    "id": "word-selectall",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "全选",
+      "en": "Select All"
+    },
+    "description": {
+      "zh": "选择文档中所有内容",
+      "en": "Select everything in document"
+    },
+    "windows": "Ctrl + A",
+    "mac": "⌘ A",
+    "linux": "Ctrl + A",
+    "keywords": [
+      "全选",
+      "select all"
+    ],
+    "pinyin": "quan xuan quanxuan q x qx quan xuan quanxuan q x qx"
+  },
+  {
+    "id": "word-find",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "查找",
+      "en": "Find"
+    },
+    "description": {
+      "zh": "在文档中查找文本",
+      "en": "Find text in document"
+    },
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
+    "linux": "Ctrl + F",
+    "keywords": [
+      "查找",
+      "find"
+    ],
+    "pinyin": "cha zhao chazhao c z cz cha zhao chazhao c z cz"
+  },
+  {
+    "id": "word-replace",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "替换",
+      "en": "Replace"
+    },
+    "description": {
+      "zh": "查找并替换文本",
+      "en": "Find and replace"
+    },
+    "windows": "Ctrl + H",
+    "mac": "⌘ H",
+    "linux": "Ctrl + H",
+    "keywords": [
+      "替换",
+      "replace"
+    ],
+    "pinyin": "ti huan tihuan t h th ti huan tihuan t h th"
+  },
+  {
+    "id": "word-gotonext",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "定位下一处",
+      "en": "Go To Next"
+    },
+    "description": {
+      "zh": "跳转到下一个查找结果或页面",
+      "en": "Go to next match or page"
+    },
+    "windows": "Ctrl + Page Down",
+    "mac": "⌘ ; 然后 G",
+    "linux": "Ctrl + Page Down",
+    "keywords": [
+      "定位",
+      "goto",
+      "下一个"
+    ],
+    "pinyin": "ding wei xia yi chu dingweixiayichu d w x y c dwxyc ding wei   xia yi ge dingwei xiayige d w   x y g dw xyg"
+  },
+  {
+    "id": "word-gotoprev",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "定位上一处",
+      "en": "Go To Previous"
+    },
+    "description": {
+      "zh": "跳转到上一个查找结果或页面",
+      "en": "Go to previous match or page"
+    },
+    "windows": "Ctrl + Page Up",
+    "mac": "⌘ ; 然后 Shift G",
+    "linux": "Ctrl + Page Up",
+    "keywords": [
+      "定位",
+      "goto",
+      "上一个"
+    ],
+    "pinyin": "ding wei shang yi chu dingweishangyichu d w s y c dwsyc ding wei   shang yi ge dingwei shangyige d w   s y g dw syg"
+  },
+  {
+    "id": "word-bold",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "加粗",
+      "en": "Bold"
+    },
+    "description": {
+      "zh": "将文字加粗显示",
+      "en": "Make text bold"
+    },
+    "windows": "Ctrl + B",
+    "mac": "⌘ B",
+    "linux": "Ctrl + B",
+    "keywords": [
+      "加粗",
+      "bold"
+    ],
+    "pinyin": "jia cu jiacu j c jc jia cu jiacu j c jc"
+  },
+  {
+    "id": "word-italic",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "斜体",
+      "en": "Italic"
+    },
+    "description": {
+      "zh": "将文字设为斜体",
+      "en": "Make text italic"
+    },
+    "windows": "Ctrl + I",
+    "mac": "⌘ I",
+    "linux": "Ctrl + I",
+    "keywords": [
+      "斜体",
+      "italic"
+    ],
+    "pinyin": "xie ti xieti x t xt xie ti xieti x t xt"
+  },
+  {
+    "id": "word-underline",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "下划线",
+      "en": "Underline"
+    },
+    "description": {
+      "zh": "为文字添加下划线",
+      "en": "Underline text"
+    },
+    "windows": "Ctrl + U",
+    "mac": "⌘ U",
+    "linux": "Ctrl + U",
+    "keywords": [
+      "下划线",
+      "underline"
+    ],
+    "pinyin": "xia hua xian xiahuaxian x h x xhx xia hua xian xiahuaxian x h x xhx"
+  },
+  {
+    "id": "word-strikethrough",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "删除线",
+      "en": "Strikethrough"
+    },
+    "description": {
+      "zh": "为文字添加删除线",
+      "en": "Add strikethrough to text"
+    },
+    "windows": "Ctrl + Shift + - (减号)",
+    "mac": "⌘ ⇧ X",
+    "linux": "Ctrl + Shift + -",
+    "keywords": [
+      "删除线",
+      "strikethrough"
+    ],
+    "pinyin": "shan chu xian shanchuxian s c x scx shan chu xian shanchuxian s c x scx"
+  },
+  {
+    "id": "word-subscript",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "下标",
+      "en": "Subscript"
+    },
+    "description": {
+      "zh": "设为下标格式",
+      "en": "Apply subscript formatting"
+    },
+    "windows": "Ctrl + = (等号)",
+    "mac": "⌘ ⇧ = (等号)",
+    "linux": "Ctrl + =",
+    "keywords": [
+      "下标",
+      "subscript"
+    ],
+    "pinyin": "xia biao xiabiao x b xb xia biao xiabiao x b xb"
+  },
+  {
+    "id": "word-superscript",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "上标",
+      "en": "Superscript"
+    },
+    "description": {
+      "zh": "设为上标格式",
+      "en": "Apply superscript formatting"
+    },
+    "windows": "Ctrl + Shift + = (等号)",
+    "mac": "⌘ ⇧ = (等号)",
+    "linux": "Ctrl + Shift + =",
+    "keywords": [
+      "上标",
+      "superscript"
+    ],
+    "pinyin": "shang biao shangbiao s b sb shang biao shangbiao s b sb"
+  },
+  {
+    "id": "word-alignleft",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "左对齐",
+      "en": "Align Left"
+    },
+    "description": {
+      "zh": "段落左对齐",
+      "en": "Align paragraph left"
+    },
+    "windows": "Ctrl + L",
+    "mac": "⌘ L",
+    "linux": "Ctrl + L",
+    "keywords": [
+      "左对齐",
+      "align left"
+    ],
+    "pinyin": "zuo dui qi zuoduiqi z d q zdq zuo dui qi zuoduiqi z d q zdq"
+  },
+  {
+    "id": "word-aligncenter",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "居中对齐",
+      "en": "Center Align"
+    },
+    "description": {
+      "zh": "段落居中对齐",
+      "en": "Center align paragraph"
+    },
+    "windows": "Ctrl + E",
+    "mac": "⌘ E",
+    "linux": "Ctrl + E",
+    "keywords": [
+      "居中",
+      "center align"
+    ],
+    "pinyin": "ju zhong dui qi juzhongduiqi j z d q jzdq ju zhong juzhong j z jz"
+  },
+  {
+    "id": "word-alignright",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "右对齐",
+      "en": "Align Right"
+    },
+    "description": {
+      "zh": "段落右对齐",
+      "en": "Align paragraph right"
+    },
+    "windows": "Ctrl + R",
+    "mac": "⌘ R",
+    "linux": "Ctrl + R",
+    "keywords": [
+      "右对齐",
+      "align right"
+    ],
+    "pinyin": "you dui qi youduiqi y d q ydq you dui qi youduiqi y d q ydq"
+  },
+  {
+    "id": "word-justify",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "两端对齐",
+      "en": "Justify"
+    },
+    "description": {
+      "zh": "段落两端对齐",
+      "en": "Justify paragraph"
+    },
+    "windows": "Ctrl + J",
+    "mac": "⌘ J",
+    "linux": "Ctrl + J",
+    "keywords": [
+      "两端对齐",
+      "justify"
+    ],
+    "pinyin": "liang duan dui qi liangduanduiqi l d d q lddq liang duan dui qi liangduanduiqi l d d q lddq"
+  },
+  {
+    "id": "word-incindent",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "增加缩进",
+      "en": "Increase Indent"
+    },
+    "description": {
+      "zh": "增加段落缩进",
+      "en": "Increase indent"
+    },
+    "windows": "Ctrl + M",
+    "mac": "⌘ M",
+    "linux": "Ctrl + M",
+    "keywords": [
+      "增加缩进",
+      "indent"
+    ],
+    "pinyin": "zeng jia suo jin zengjiasuojin z j s j zjsj zeng jia suo jin zengjiasuojin z j s j zjsj"
+  },
+  {
+    "id": "word-decindent",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "减少缩进",
+      "en": "Decrease Indent"
+    },
+    "description": {
+      "zh": "减少段落缩进",
+      "en": "Decrease indent"
+    },
+    "windows": "Ctrl + Shift + M",
+    "mac": "⌘ ⇧ M",
+    "linux": "Ctrl + Shift + M",
+    "keywords": [
+      "减少缩进",
+      "decrease indent"
+    ],
+    "pinyin": "jian shao suo jin jianshaosuojin j s s j jssj jian shao suo jin jianshaosuojin j s s j jssj"
+  },
+  {
+    "id": "word-heading1",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "标题 1",
+      "en": "Heading 1"
+    },
+    "description": {
+      "zh": "应用标题 1 样式",
+      "en": "Apply Heading 1 style"
+    },
+    "windows": "Ctrl + Alt + 1",
+    "mac": "⌘ ⌥ 1",
+    "linux": "Ctrl + Alt + 1",
+    "keywords": [
+      "标题",
+      "heading",
+      "样式"
+    ],
+    "pinyin": "biao ti   1 biaoti 1 b t   1 bt 1 biao ti   yang shi biaoti yangshi b t   y s bt ys"
+  },
+  {
+    "id": "word-heading2",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "标题 2",
+      "en": "Heading 2"
+    },
+    "description": {
+      "zh": "应用标题 2 样式",
+      "en": "Apply Heading 2 style"
+    },
+    "windows": "Ctrl + Alt + 2",
+    "mac": "⌘ ⌥ 2",
+    "linux": "Ctrl + Alt + 2",
+    "keywords": [
+      "标题",
+      "heading",
+      "样式"
+    ],
+    "pinyin": "biao ti   2 biaoti 2 b t   2 bt 2 biao ti   yang shi biaoti yangshi b t   y s bt ys"
+  },
+  {
+    "id": "word-heading3",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "标题 3",
+      "en": "Heading 3"
+    },
+    "description": {
+      "zh": "应用标题 3 样式",
+      "en": "Apply Heading 3 style"
+    },
+    "windows": "Ctrl + Alt + 3",
+    "mac": "⌘ ⌥ 3",
+    "linux": "Ctrl + Alt + 3",
+    "keywords": [
+      "标题",
+      "heading",
+      "样式"
+    ],
+    "pinyin": "biao ti   3 biaoti 3 b t   3 bt 3 biao ti   yang shi biaoti yangshi b t   y s bt ys"
+  },
+  {
+    "id": "word-style-normal",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "正文样式",
+      "en": "Normal Style"
+    },
+    "description": {
+      "zh": "应用正文样式",
+      "en": "Apply Normal style"
+    },
+    "windows": "Ctrl + Shift + N",
+    "mac": "⌘ ⇧ N",
+    "linux": "Ctrl + Shift + N",
+    "keywords": [
+      "正文",
+      "normal",
+      "样式"
+    ],
+    "pinyin": "zheng wen yang shi zhengwenyangshi z w y s zwys zheng wen   yang shi zhengwen yangshi z w   y s zw ys"
+  },
+  {
+    "id": "word-bulletlist",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "项目符号列表",
+      "en": "Bullets List"
+    },
+    "description": {
+      "zh": "添加项目符号列表",
+      "en": "Add bulleted list"
+    },
+    "windows": "Ctrl + Shift + L",
+    "mac": "⌘ ⇧ L",
+    "linux": "Ctrl + Shift + L",
+    "keywords": [
+      "项目符号",
+      "bullet",
+      "列表"
+    ],
+    "pinyin": "xiang mu fu hao lie biao xiangmufuhaoliebiao x m f h l b xmfhlb xiang mu fu hao   lie biao xiangmufuhao liebiao x m f h   l b xmfh lb"
+  },
+  {
+    "id": "word-numberlist",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "编号列表",
+      "en": "Numbered List"
+    },
+    "description": {
+      "zh": "添加编号列表",
+      "en": "Add numbered list"
+    },
+    "windows": "Ctrl + Shift + L (再次按)",
+    "mac": "⌘ ⇧ L (再次按)",
+    "linux": "—",
+    "keywords": [
+      "编号",
+      "numbered list"
+    ],
+    "pinyin": "bian hao lie biao bianhaoliebiao b h l b bhlb bian hao bianhao b h bh"
+  },
+  {
+    "id": "word-pagebreak",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "分页符",
+      "en": "Page Break"
+    },
+    "description": {
+      "zh": "插入分页符",
+      "en": "Insert page break"
+    },
+    "windows": "Ctrl + Enter",
+    "mac": "⌘ Enter",
+    "linux": "Ctrl + Enter",
+    "keywords": [
+      "分页",
+      "page break"
+    ],
+    "pinyin": "fen ye fu fenyefu f y f fyf fen ye fenye f y fy"
+  },
+  {
+    "id": "word-linebreak",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "换行符(软回车)",
+      "en": "Line Break (Soft Return)"
+    },
+    "description": {
+      "zh": "插入换行符(不分段)",
+      "en": "Insert line break without breaking paragraph"
+    },
+    "windows": "Shift + Enter",
+    "mac": "⇧ Return",
+    "linux": "Shift + Enter",
+    "keywords": [
+      "换行",
+      "line break",
+      "软回车"
+    ],
+    "pinyin": "huan hang fu ( ruan hui che ) huanhangfu(ruanhuiche) h h f ( r h c ) hhf(rhc) huan hang   ruan hui che huanhang ruanhuiche h h   r h c hh rhc"
+  },
+  {
+    "id": "word-columnbreak",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "分栏符",
+      "en": "Column Break"
+    },
+    "description": {
+      "zh": "插入分栏符",
+      "en": "Insert column break"
+    },
+    "windows": "Ctrl + Shift + Enter",
+    "mac": "⌘ ⇧ Return",
+    "linux": "Ctrl + Shift + Enter",
+    "keywords": [
+      "分栏",
+      "column break"
+    ],
+    "pinyin": "fen lan fu fenlanfu f l f flf fen lan fenlan f l fl"
+  },
+  {
+    "id": "word-insertlink",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "插入超链接",
+      "en": "Insert Hyperlink"
+    },
+    "description": {
+      "zh": "在光标位置插入超链接",
+      "en": "Insert hyperlink at cursor position"
+    },
+    "windows": "Ctrl + K",
+    "mac": "⌘ K",
+    "linux": "Ctrl + K",
+    "keywords": [
+      "超链接",
+      "hyperlink",
+      "链接"
+    ],
+    "pinyin": "cha ru chao lian jie charuchaolianjie c r c l j crclj chao lian jie   lian jie chaolianjie lianjie c l j   l j clj lj"
+  },
+  {
+    "id": "word-wordcount",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "字数统计",
+      "en": "Word Count"
+    },
+    "description": {
+      "zh": "显示字数统计对话框",
+      "en": "Show word count dialog"
+    },
+    "windows": "Ctrl + Shift + G",
+    "mac": "⌘ ⇧ G",
+    "linux": "Ctrl + Shift + G",
+    "keywords": [
+      "字数",
+      "word count",
+      "统计"
+    ],
+    "pinyin": "zi shu tong ji zishutongji z s t j zstj zi shu   tong ji zishu tongji z s   t j zs tj"
+  },
+  {
+    "id": "word-spellcheck",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "拼写和语法检查",
+      "en": "Spelling & Grammar Check"
+    },
+    "description": {
+      "zh": "启动拼写和语法检查",
+      "en": "Start spelling and grammar check"
+    },
+    "windows": "F7",
+    "mac": "⌘ ;",
+    "linux": "F7",
+    "keywords": [
+      "拼写",
+      "spell",
+      "语法",
+      "grammar"
+    ],
+    "pinyin": "pin xie he yu fa jian cha pinxieheyufajiancha p x h y f j c pxhyfjc pin xie   yu fa pinxie yufa p x   y f px yf"
+  },
+  {
+    "id": "word-thesaurus",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "同义词库",
+      "en": "Thesaurus"
+    },
+    "description": {
+      "zh": "打开同义词库面板",
+      "en": "Open thesaurus pane"
+    },
+    "windows": "Shift + F7",
+    "mac": "⌘ ⌥ ⇧ R",
+    "linux": "Shift + F7",
+    "keywords": [
+      "同义词",
+      "thesaurus",
+      "词库"
+    ],
+    "pinyin": "tong yi ci ku tongyiciku t y c k tyck tong yi ci   ci ku tongyici ciku t y c   c k tyc ck"
+  },
+  {
+    "id": "word-fontsizeup",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "增大字号",
+      "en": "Increase Font Size"
+    },
+    "description": {
+      "zh": "增大所选文字字号",
+      "en": "Increase font size of selected text"
+    },
+    "windows": "Ctrl + Shift + > / Ctrl + ]",
+    "mac": "⌘ ⇧ . / ⌘ ]",
+    "linux": "Ctrl + Shift + >",
+    "keywords": [
+      "增大字号",
+      "font size",
+      "放大字体"
+    ],
+    "pinyin": "zeng da zi hao zengdazihao z d z h zdzh zeng da zi hao   fang da zi ti zengdazihao fangdaziti z d z h   f d z t zdzh fdzt"
+  },
+  {
+    "id": "word-fontsizedown",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "减小字号",
+      "en": "Decrease Font Size"
+    },
+    "description": {
+      "zh": "减小所选文字字号",
+      "en": "Decrease font size of selected text"
+    },
+    "windows": "Ctrl + Shift + [ / Ctrl + <",
+    "mac": "⌘ ⇧ , / ⌘ [",
+    "linux": "Ctrl + Shift + <",
+    "keywords": [
+      "减小字号",
+      "font size",
+      "缩小字体"
+    ],
+    "pinyin": "jian xiao zi hao jianxiaozihao j x z h jxzh jian xiao zi hao   suo xiao zi ti jianxiaozihao suoxiaoziti j x z h   s x z t jxzh sxzt"
+  },
+  {
+    "id": "word-clearformatting",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "清除所有格式",
+      "en": "Clear All Formatting"
+    },
+    "description": {
+      "zh": "清除所选文本的所有格式",
+      "en": "Clear all formatting from selection"
+    },
+    "windows": "Ctrl + Space",
+    "mac": "⌘ Space",
+    "linux": "Ctrl + Space",
+    "keywords": [
+      "清除格式",
+      "clear formatting"
+    ],
+    "pinyin": "qing chu suo you ge shi qingchusuoyougeshi q c s y g s qcsygs qing chu ge shi qingchugeshi q c g s qcgs"
+  },
+  {
+    "id": "word-showhidemarks",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "显示/隐藏编辑标记",
+      "en": "Show/Hide Formatting Marks"
+    },
+    "description": {
+      "zh": "切换显示段落标记等编辑符号",
+      "en": "Toggle display of paragraph marks and formatting symbols"
+    },
+    "windows": "Ctrl + Shift + 8 (*)",
+    "mac": "⌘ ⇧ 8 (*)",
+    "linux": "Ctrl + Shift + 8",
+    "keywords": [
+      "编辑标记",
+      "formatting marks",
+      "符号"
+    ],
+    "pinyin": "xian shi / yin cang bian ji biao ji xianshi/yincangbianjibiaoji x s / y c b j b j xs/ycbjbj bian ji biao ji   fu hao bianjibiaoji fuhao b j b j   f h bjbj fh"
+  },
+  {
+    "id": "word-zoomin",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "放大视图",
+      "en": "Zoom In"
+    },
+    "description": {
+      "zh": "放大页面视图比例",
+      "en": "Zoom in page view"
+    },
+    "windows": "Ctrl + = / Alt + W Q",
+    "mac": "⌘ = / ⌘ ⌥ =",
+    "linux": "Ctrl + =",
+    "keywords": [
+      "放大",
+      "zoom in",
+      "视图"
+    ],
+    "pinyin": "fang da shi tu fangdashitu f d s t fdst fang da   shi tu fangda shitu f d   s t fd st"
+  },
+  {
+    "id": "word-zoomout",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "缩小视图",
+      "en": "Zoom Out"
+    },
+    "description": {
+      "zh": "缩小页面视图比例",
+      "en": "Zoom out page view"
+    },
+    "windows": "Ctrl + - / Alt + W Q",
+    "mac": "⌘ - / ⌘ ⌥ -",
+    "linux": "Ctrl + -",
+    "keywords": [
+      "缩小",
+      "zoom out",
+      "视图"
+    ],
+    "pinyin": "suo xiao shi tu suoxiaoshitu s x s t sxst suo xiao   shi tu suoxiao shitu s x   s t sx st"
+  },
+  {
+    "id": "word-viewreading",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "阅读视图",
+      "en": "Reading View"
+    },
+    "description": {
+      "zh": "切换到阅读视图",
+      "en": "Switch to reading view"
+    },
+    "windows": "Alt W F",
+    "mac": "⌘ ⌥ R",
+    "linux": "—",
+    "keywords": [
+      "阅读视图",
+      "reading view"
+    ],
+    "pinyin": "yue du shi tu yuedushitu y d s t ydst yue du shi tu yuedushitu y d s t ydst"
+  },
+  {
+    "id": "word-viewprintlayout",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "页面视图(打印布局)",
+      "en": "Print Layout View"
+    },
+    "description": {
+      "zh": "切换到页面布局视图",
+      "en": "Switch to print layout view"
+    },
+    "windows": "Alt W P",
+    "mac": "⌘ ⌥ P",
+    "linux": "—",
+    "keywords": [
+      "页面视图",
+      "print layout",
+      "打印布局"
+    ],
+    "pinyin": "ye mian shi tu ( da yin bu ju ) yemianshitu(dayinbuju) y m s t ( d y b j ) ymst(dybj) ye mian shi tu   da yin bu ju yemianshitu dayinbuju y m s t   d y b j ymst dybj"
+  },
+  {
+    "id": "word-viewweblayout",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "Web 版式视图",
+      "en": "Web Layout View"
+    },
+    "description": {
+      "zh": "切换到 Web 版式视图",
+      "en": "Switch to web layout view"
+    },
+    "windows": "Alt W W",
+    "mac": "⌘ ⌥ I",
+    "linux": "—",
+    "keywords": [
+      "Web版式",
+      "web layout"
+    ],
+    "pinyin": "w e b   ban shi shi tu web banshishitu w e b   b s s t web bsst w e b ban shi webbanshi w e b b s webbs"
+  },
+  {
+    "id": "word-viewfocus",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "专注视图(沉浸式)",
+      "en": "Focus View (Immersive)"
+    },
+    "description": {
+      "zh": "进入沉浸式阅读/写作模式",
+      "en": "Enter immersive reading/writing mode"
+    },
+    "windows": "Alt W Z",
+    "mac": "⌘ ⌥ Z",
+    "linux": "—",
+    "keywords": [
+      "专注",
+      "focus",
+      "沉浸式"
+    ],
+    "pinyin": "zhuan zhu shi tu ( chen jin shi ) zhuanzhushitu(chenjinshi) z z s t ( c j s ) zzst(cjs) zhuan zhu   chen jin shi zhuanzhu chenjinshi z z   c j s zz cjs"
+  },
+  {
+    "id": "word-mac-insert-endnote",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "插入尾注(Mac)",
+      "en": "Insert Endnote (Mac)"
+    },
+    "description": {
+      "zh": "插入尾注(Mac专用快捷键)",
+      "en": "Insert endnote (Mac only)"
+    },
+    "windows": "—",
+    "mac": "⌘ ⌥ ⇧ E",
+    "linux": "—",
+    "keywords": [
+      "尾注",
+      "endnote"
+    ],
+    "pinyin": "cha ru wei zhu ( m a c ) charuweizhu(mac) c r w z ( m a c ) crwz(mac) wei zhu weizhu w z wz"
+  },
+  {
+    "id": "word-mac-insert-footnote",
+    "appId": "word",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "插入脚注(Mac)",
+      "en": "Insert Footnote (Mac)"
+    },
+    "description": {
+      "zh": "插入脚注(Mac专用快捷键)",
+      "en": "Insert footnote (Mac only)"
+    },
+    "windows": "—",
+    "mac": "⌘ ⌥ F",
+    "linux": "—",
+    "keywords": [
+      "脚注",
+      "footnote"
+    ],
+    "pinyin": "cha ru jiao zhu ( m a c ) charujiaozhu(mac) c r j z ( m a c ) crjz(mac) jiao zhu jiaozhu j z jz"
+  }
+]

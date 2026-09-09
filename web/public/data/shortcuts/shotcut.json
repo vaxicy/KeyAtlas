@@ -1,0 +1,711 @@
+[
+  {
+    "id": "shotcut-open",
+    "appId": "shotcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Open",
+      "zh": "打开"
+    },
+    "description": {
+      "en": "Open file",
+      "zh": "打开文件"
+    },
+    "windows": "Ctrl + O",
+    "mac": "Ctrl + O",
+    "linux": "Ctrl + O",
+    "keywords": [
+      "open",
+      "打开"
+    ],
+    "pinyin": "da kai dakai d k dk da kai dakai d k dk"
+  },
+  {
+    "id": "shotcut-new",
+    "appId": "shotcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "New",
+      "zh": "新建"
+    },
+    "description": {
+      "en": "New project",
+      "zh": "新建项目"
+    },
+    "windows": "Ctrl + N",
+    "mac": "Ctrl + N",
+    "linux": "Ctrl + N",
+    "keywords": [
+      "new",
+      "project",
+      "项目"
+    ],
+    "pinyin": "xin jian xinjian x j xj xiang mu xiangmu x m xm"
+  },
+  {
+    "id": "shotcut-save",
+    "appId": "shotcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Save",
+      "zh": "保存"
+    },
+    "description": {
+      "en": "Save project",
+      "zh": "保存项目"
+    },
+    "windows": "Ctrl + S",
+    "mac": "Ctrl + S",
+    "linux": "Ctrl + S",
+    "keywords": [
+      "save",
+      "保存"
+    ],
+    "pinyin": "bao cun baocun b c bc bao cun baocun b c bc"
+  },
+  {
+    "id": "shotcut-export",
+    "appId": "shotcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Export",
+      "zh": "导出"
+    },
+    "description": {
+      "en": "Export video",
+      "zh": "导出视频"
+    },
+    "windows": "Ctrl + E",
+    "mac": "Ctrl + E",
+    "linux": "Ctrl + E",
+    "keywords": [
+      "export",
+      "导出"
+    ],
+    "pinyin": "dao chu daochu d c dc dao chu daochu d c dc"
+  },
+  {
+    "id": "shotcut-undo",
+    "appId": "shotcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Undo",
+      "zh": "撤销"
+    },
+    "description": {
+      "en": "Undo",
+      "zh": "撤销"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "Ctrl + Z",
+    "linux": "Ctrl + Z",
+    "keywords": [
+      "undo",
+      "撤销"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "shotcut-redo",
+    "appId": "shotcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Redo",
+      "zh": "重做"
+    },
+    "description": {
+      "en": "Redo",
+      "zh": "重做"
+    },
+    "windows": "Ctrl + Y",
+    "mac": "Ctrl + Y",
+    "linux": "Ctrl + Y",
+    "keywords": [
+      "redo",
+      "重做"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "shotcut-cut",
+    "appId": "shotcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Cut",
+      "zh": "剪切"
+    },
+    "description": {
+      "en": "Cut",
+      "zh": "剪切"
+    },
+    "windows": "Ctrl + X",
+    "mac": "Ctrl + X",
+    "linux": "Ctrl + X",
+    "keywords": [
+      "cut",
+      "剪切"
+    ],
+    "pinyin": "jian qie jianqie j q jq jian qie jianqie j q jq"
+  },
+  {
+    "id": "shotcut-copy",
+    "appId": "shotcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Copy",
+      "zh": "复制"
+    },
+    "description": {
+      "en": "Copy",
+      "zh": "复制"
+    },
+    "windows": "Ctrl + C",
+    "mac": "Ctrl + C",
+    "linux": "Ctrl + C",
+    "keywords": [
+      "copy",
+      "复制"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "shotcut-paste",
+    "appId": "shotcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Paste",
+      "zh": "粘贴"
+    },
+    "description": {
+      "en": "Paste",
+      "zh": "粘贴"
+    },
+    "windows": "Ctrl + V",
+    "mac": "Ctrl + V",
+    "linux": "Ctrl + V",
+    "keywords": [
+      "paste",
+      "粘贴"
+    ],
+    "pinyin": "nian tie niantie n t nt nian tie niantie n t nt"
+  },
+  {
+    "id": "shotcut-delete",
+    "appId": "shotcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Delete",
+      "zh": "删除"
+    },
+    "description": {
+      "en": "Delete selection",
+      "zh": "删除选区"
+    },
+    "windows": "Delete",
+    "mac": "Delete",
+    "linux": "Delete",
+    "keywords": [
+      "delete",
+      "删除"
+    ],
+    "pinyin": "shan chu shanchu s c sc shan chu shanchu s c sc"
+  },
+  {
+    "id": "shotcut-split",
+    "appId": "shotcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Split",
+      "zh": "分割"
+    },
+    "description": {
+      "en": "Split at playhead",
+      "zh": "播放头分割"
+    },
+    "windows": "S",
+    "mac": "S",
+    "linux": "S",
+    "keywords": [
+      "split",
+      "分割"
+    ],
+    "pinyin": "fen ge fenge f g fg fen ge fenge f g fg"
+  },
+  {
+    "id": "shotcut-play",
+    "appId": "shotcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Play",
+      "zh": "播放"
+    },
+    "description": {
+      "en": "Play/pause",
+      "zh": "播放/暂停"
+    },
+    "windows": "Space",
+    "mac": "Space",
+    "linux": "Space",
+    "keywords": [
+      "play",
+      "播放"
+    ],
+    "pinyin": "bo fang bofang b f bf bo fang bofang b f bf"
+  },
+  {
+    "id": "shotcut-jog-back",
+    "appId": "shotcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Jog back",
+      "zh": "后退"
+    },
+    "description": {
+      "en": "Jog backward",
+      "zh": "后退"
+    },
+    "windows": "J",
+    "mac": "J",
+    "linux": "J",
+    "keywords": [
+      "jog",
+      "back",
+      "后退"
+    ],
+    "pinyin": "hou tui houtui h t ht hou tui houtui h t ht"
+  },
+  {
+    "id": "shotcut-jog-fwd",
+    "appId": "shotcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Jog fwd",
+      "zh": "前进"
+    },
+    "description": {
+      "en": "Jog forward",
+      "zh": "前进"
+    },
+    "windows": "L",
+    "mac": "L",
+    "linux": "L",
+    "keywords": [
+      "jog",
+      "fwd",
+      "前进"
+    ],
+    "pinyin": "qian jin qianjin q j qj qian jin qianjin q j qj"
+  },
+  {
+    "id": "shotcut-prev-frame",
+    "appId": "shotcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Prev frame",
+      "zh": "上一帧"
+    },
+    "description": {
+      "en": "Previous frame",
+      "zh": "上一帧"
+    },
+    "windows": "←",
+    "mac": "←",
+    "linux": "←",
+    "keywords": [
+      "prev",
+      "frame",
+      "帧"
+    ],
+    "pinyin": "shang yi zhen shangyizhen s y z syz zhen zhen z z"
+  },
+  {
+    "id": "shotcut-next-frame",
+    "appId": "shotcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Next frame",
+      "zh": "下一帧"
+    },
+    "description": {
+      "en": "Next frame",
+      "zh": "下一帧"
+    },
+    "windows": "→",
+    "mac": "→",
+    "linux": "→",
+    "keywords": [
+      "next",
+      "frame",
+      "帧"
+    ],
+    "pinyin": "xia yi zhen xiayizhen x y z xyz zhen zhen z z"
+  },
+  {
+    "id": "shotcut-start",
+    "appId": "shotcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Start",
+      "zh": "开头"
+    },
+    "description": {
+      "en": "Go to start",
+      "zh": "到开头"
+    },
+    "windows": "Home",
+    "mac": "Home",
+    "linux": "Home",
+    "keywords": [
+      "start",
+      "开头"
+    ],
+    "pinyin": "kai tou kaitou k t kt kai tou kaitou k t kt"
+  },
+  {
+    "id": "shotcut-end",
+    "appId": "shotcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "End",
+      "zh": "结尾"
+    },
+    "description": {
+      "en": "Go to end",
+      "zh": "到结尾"
+    },
+    "windows": "End",
+    "mac": "End",
+    "linux": "End",
+    "keywords": [
+      "end",
+      "结尾"
+    ],
+    "pinyin": "jie wei jiewei j w jw jie wei jiewei j w jw"
+  },
+  {
+    "id": "shotcut-fullscreen",
+    "appId": "shotcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Fullscreen",
+      "zh": "全屏"
+    },
+    "description": {
+      "en": "Fullscreen",
+      "zh": "全屏"
+    },
+    "windows": "F11",
+    "mac": "F11",
+    "linux": "F11",
+    "keywords": [
+      "fullscreen",
+      "全屏"
+    ],
+    "pinyin": "quan ping quanping q p qp quan ping quanping q p qp"
+  },
+  {
+    "id": "shotcut-filters",
+    "appId": "shotcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Filters",
+      "zh": "滤镜"
+    },
+    "description": {
+      "en": "Open filters",
+      "zh": "打开滤镜"
+    },
+    "windows": "Ctrl + F",
+    "mac": "Ctrl + F",
+    "linux": "Ctrl + F",
+    "keywords": [
+      "filters",
+      "滤镜"
+    ],
+    "pinyin": "lü jing lüjing l j lj lü jing lüjing l j lj"
+  },
+  {
+    "id": "shotcut-properties",
+    "appId": "shotcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Properties",
+      "zh": "属性"
+    },
+    "description": {
+      "en": "Show properties",
+      "zh": "显示属性"
+    },
+    "windows": "Ctrl + P",
+    "mac": "Ctrl + P",
+    "linux": "Ctrl + P",
+    "keywords": [
+      "properties",
+      "属性"
+    ],
+    "pinyin": "shu xing shuxing s x sx shu xing shuxing s x sx"
+  },
+  {
+    "id": "shotcut-playlist",
+    "appId": "shotcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Playlist",
+      "zh": "播放列表"
+    },
+    "description": {
+      "en": "Toggle playlist",
+      "zh": "切换播放列表"
+    },
+    "windows": "Ctrl + L",
+    "mac": "Ctrl + L",
+    "linux": "Ctrl + L",
+    "keywords": [
+      "playlist",
+      "播放列表"
+    ],
+    "pinyin": "bo fang lie biao bofangliebiao b f l b bflb bo fang lie biao bofangliebiao b f l b bflb"
+  },
+  {
+    "id": "shotcut-timeline",
+    "appId": "shotcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Timeline",
+      "zh": "时间线"
+    },
+    "description": {
+      "en": "Toggle timeline",
+      "zh": "切换时间线"
+    },
+    "windows": "Ctrl + T",
+    "mac": "Ctrl + T",
+    "linux": "Ctrl + T",
+    "keywords": [
+      "timeline",
+      "时间线"
+    ],
+    "pinyin": "shi jian xian shijianxian s j x sjx shi jian xian shijianxian s j x sjx"
+  },
+  {
+    "id": "shotcut-source",
+    "appId": "shotcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Source",
+      "zh": "源"
+    },
+    "description": {
+      "en": "Toggle source",
+      "zh": "切换源"
+    },
+    "windows": "Ctrl + 1",
+    "mac": "Ctrl + 1",
+    "linux": "Ctrl + 1",
+    "keywords": [
+      "source",
+      "源"
+    ],
+    "pinyin": "yuan yuan y y yuan yuan y y"
+  },
+  {
+    "id": "shotcut-zoom-in",
+    "appId": "shotcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Zoom in",
+      "zh": "放大"
+    },
+    "description": {
+      "en": "Zoom in",
+      "zh": "放大"
+    },
+    "windows": "Ctrl + =",
+    "mac": "Ctrl + =",
+    "linux": "Ctrl + =",
+    "keywords": [
+      "zoom",
+      "放大"
+    ],
+    "pinyin": "fang da fangda f d fd fang da fangda f d fd"
+  },
+  {
+    "id": "shotcut-zoom-out",
+    "appId": "shotcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Zoom out",
+      "zh": "缩小"
+    },
+    "description": {
+      "en": "Zoom out",
+      "zh": "缩小"
+    },
+    "windows": "Ctrl + -",
+    "mac": "Ctrl + -",
+    "linux": "Ctrl + -",
+    "keywords": [
+      "zoom",
+      "缩小"
+    ],
+    "pinyin": "suo xiao suoxiao s x sx suo xiao suoxiao s x sx"
+  },
+  {
+    "id": "shotcut-snap",
+    "appId": "shotcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Snap",
+      "zh": "吸附"
+    },
+    "description": {
+      "en": "Toggle snapping",
+      "zh": "切换吸附"
+    },
+    "windows": "Alt + S",
+    "mac": "Alt + S",
+    "linux": "Alt + S",
+    "keywords": [
+      "snap",
+      "吸附"
+    ],
+    "pinyin": "xi fu xifu x f xf xi fu xifu x f xf"
+  },
+  {
+    "id": "shotcut-ripple",
+    "appId": "shotcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Ripple",
+      "zh": "波纹"
+    },
+    "description": {
+      "en": "Ripple delete",
+      "zh": "波纹删除"
+    },
+    "windows": "Shift + Delete",
+    "mac": "Shift + Delete",
+    "linux": "Shift + Delete",
+    "keywords": [
+      "ripple",
+      "波纹"
+    ],
+    "pinyin": "bo wen bowen b w bw bo wen bowen b w bw"
+  },
+  {
+    "id": "shotcut-overwrite",
+    "appId": "shotcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Overwrite",
+      "zh": "覆盖"
+    },
+    "description": {
+      "en": "Overwrite mode",
+      "zh": "覆盖模式"
+    },
+    "windows": "A",
+    "mac": "A",
+    "linux": "A",
+    "keywords": [
+      "overwrite",
+      "覆盖"
+    ],
+    "pinyin": "fu gai fugai f g fg fu gai fugai f g fg"
+  },
+  {
+    "id": "shotcut-append",
+    "appId": "shotcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Append",
+      "zh": "追加"
+    },
+    "description": {
+      "en": "Append to playlist",
+      "zh": "追加载列表"
+    },
+    "windows": "B",
+    "mac": "B",
+    "linux": "B",
+    "keywords": [
+      "append",
+      "追加"
+    ],
+    "pinyin": "zhui jia zhuijia z j zj zhui jia zhuijia z j zj"
+  },
+  {
+    "id": "shotcut-marker",
+    "appId": "shotcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Marker",
+      "zh": "标记"
+    },
+    "description": {
+      "en": "Add marker",
+      "zh": "添加标记"
+    },
+    "windows": "M",
+    "mac": "M",
+    "linux": "M",
+    "keywords": [
+      "marker",
+      "标记"
+    ],
+    "pinyin": "biao ji biaoji b j bj biao ji biaoji b j bj"
+  },
+  {
+    "id": "shotcut-help",
+    "appId": "shotcut",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Help",
+      "zh": "帮助"
+    },
+    "description": {
+      "en": "Keyboard help",
+      "zh": "快捷键帮助"
+    },
+    "windows": "F1",
+    "mac": "F1",
+    "linux": "F1",
+    "keywords": [
+      "help",
+      "快捷键"
+    ],
+    "pinyin": "bang zhu bangzhu b z bz kuai jie jian kuaijiejian k j j kjj"
+  }
+]

@@ -1,0 +1,534 @@
+[
+  {
+    "id": "rekordbox-load-a",
+    "appId": "rekordbox",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Load deck A",
+      "zh": "装载A盘"
+    },
+    "description": {
+      "en": "Load track to deck A",
+      "zh": "装载到 A 盘"
+    },
+    "windows": "Ctrl + F9",
+    "mac": "⌘ F9",
+    "linux": "—",
+    "keywords": [
+      "load",
+      "deck",
+      "A"
+    ],
+    "pinyin": "zhuang zai a pan zhuangzaiapan z z a p zzap"
+  },
+  {
+    "id": "rekordbox-load-b",
+    "appId": "rekordbox",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Load deck B",
+      "zh": "装载B盘"
+    },
+    "description": {
+      "en": "Load track to deck B",
+      "zh": "装载到 B 盘"
+    },
+    "windows": "Ctrl + F10",
+    "mac": "⌘ F10",
+    "linux": "—",
+    "keywords": [
+      "load",
+      "deck",
+      "B"
+    ],
+    "pinyin": "zhuang zai b pan zhuangzaibpan z z b p zzbp"
+  },
+  {
+    "id": "rekordbox-play",
+    "appId": "rekordbox",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Play",
+      "zh": "播放"
+    },
+    "description": {
+      "en": "Play/pause deck",
+      "zh": "播放/暂停"
+    },
+    "windows": "Space",
+    "mac": "Space",
+    "linux": "—",
+    "keywords": [
+      "play",
+      "播放"
+    ],
+    "pinyin": "bo fang bofang b f bf bo fang bofang b f bf"
+  },
+  {
+    "id": "rekordbox-cue",
+    "appId": "rekordbox",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Cue",
+      "zh": "叠加点"
+    },
+    "description": {
+      "en": "Set cue",
+      "zh": "设置叠加点"
+    },
+    "windows": "C",
+    "mac": "C",
+    "linux": "—",
+    "keywords": [
+      "cue",
+      "叠加"
+    ],
+    "pinyin": "die jia dian diejiadian d j d djd die jia diejia d j dj"
+  },
+  {
+    "id": "rekordbox-pause",
+    "appId": "rekordbox",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Pause",
+      "zh": "暂停"
+    },
+    "description": {
+      "en": "Pause",
+      "zh": "暂停"
+    },
+    "windows": "Space",
+    "mac": "Space",
+    "linux": "—",
+    "keywords": [
+      "pause",
+      "暂停"
+    ],
+    "pinyin": "zan ting zanting z t zt zan ting zanting z t zt"
+  },
+  {
+    "id": "rekordbox-hotcue",
+    "appId": "rekordbox",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Hot cue",
+      "zh": "热键"
+    },
+    "description": {
+      "en": "Set hot cue",
+      "zh": "设置热键"
+    },
+    "windows": "1-8",
+    "mac": "1-8",
+    "linux": "—",
+    "keywords": [
+      "hotcue",
+      "热键"
+    ],
+    "pinyin": "re jian rejian r j rj re jian rejian r j rj"
+  },
+  {
+    "id": "rekordbox-loop-in",
+    "appId": "rekordbox",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Loop in",
+      "zh": "循环入"
+    },
+    "description": {
+      "en": "Set loop in",
+      "zh": "设置循环入"
+    },
+    "windows": "Ctrl + 1",
+    "mac": "⌘ 1",
+    "linux": "—",
+    "keywords": [
+      "loop",
+      "in",
+      "入"
+    ],
+    "pinyin": "xun huan ru xunhuanru x h r xhr ru ru r r"
+  },
+  {
+    "id": "rekordbox-loop-out",
+    "appId": "rekordbox",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Loop out",
+      "zh": "循环出"
+    },
+    "description": {
+      "en": "Set loop out",
+      "zh": "设置循环出"
+    },
+    "windows": "Ctrl + 2",
+    "mac": "⌘ 2",
+    "linux": "—",
+    "keywords": [
+      "loop",
+      "out",
+      "出"
+    ],
+    "pinyin": "xun huan chu xunhuanchu x h c xhc chu chu c c"
+  },
+  {
+    "id": "rekordbox-loop",
+    "appId": "rekordbox",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Loop",
+      "zh": "循环"
+    },
+    "description": {
+      "en": "Toggle loop",
+      "zh": "切换循环"
+    },
+    "windows": "Ctrl + 3",
+    "mac": "⌘ 3",
+    "linux": "—",
+    "keywords": [
+      "loop",
+      "循环"
+    ],
+    "pinyin": "xun huan xunhuan x h xh xun huan xunhuan x h xh"
+  },
+  {
+    "id": "rekordbox-reload",
+    "appId": "rekordbox",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Reload",
+      "zh": "重载"
+    },
+    "description": {
+      "en": "Reload track",
+      "zh": "重载音轨"
+    },
+    "windows": "Shift + Delete? ",
+    "mac": "⇧ Delete? ",
+    "linux": "—",
+    "keywords": [
+      "reload",
+      "重载"
+    ],
+    "pinyin": "zhong zai zhongzai z z zz zhong zai zhongzai z z zz"
+  },
+  {
+    "id": "rekordbox-sync",
+    "appId": "rekordbox",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Sync",
+      "zh": "同步"
+    },
+    "description": {
+      "en": "Sync tempo",
+      "zh": "同步速度"
+    },
+    "windows": "Shift + Space? ",
+    "mac": "⇧ Space? ",
+    "linux": "—",
+    "keywords": [
+      "sync",
+      "同步"
+    ],
+    "pinyin": "tong bu tongbu t b tb tong bu tongbu t b tb"
+  },
+  {
+    "id": "rekordbox-tempo",
+    "appId": "rekordbox",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Tempo",
+      "zh": "速度"
+    },
+    "description": {
+      "en": "Adjust tempo",
+      "zh": "调整速度"
+    },
+    "windows": "← →",
+    "mac": "← →",
+    "linux": "—",
+    "keywords": [
+      "tempo",
+      "速度"
+    ],
+    "pinyin": "su du sudu s d sd su du sudu s d sd"
+  },
+  {
+    "id": "rekordbox-pitch",
+    "appId": "rekordbox",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Pitch",
+      "zh": "音高"
+    },
+    "description": {
+      "en": "Adjust pitch",
+      "zh": "调整音高"
+    },
+    "windows": "↑ ↓",
+    "mac": "↑ ↓",
+    "linux": "—",
+    "keywords": [
+      "pitch",
+      "音高"
+    ],
+    "pinyin": "yin gao yingao y g yg yin gao yingao y g yg"
+  },
+  {
+    "id": "rekordbox-search",
+    "appId": "rekordbox",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Search",
+      "zh": "搜索"
+    },
+    "description": {
+      "en": "Search browser",
+      "zh": "搜索浏览"
+    },
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
+    "linux": "—",
+    "keywords": [
+      "search",
+      "搜索"
+    ],
+    "pinyin": "sou suo sousuo s s ss sou suo sousuo s s ss"
+  },
+  {
+    "id": "rekordbox-sort",
+    "appId": "rekordbox",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Sort",
+      "zh": "排序"
+    },
+    "description": {
+      "en": "Sort column",
+      "zh": "排序列"
+    },
+    "windows": "Ctrl + T",
+    "mac": "⌘ T",
+    "linux": "—",
+    "keywords": [
+      "sort",
+      "排序"
+    ],
+    "pinyin": "pai xu paixu p x px pai xu paixu p x px"
+  },
+  {
+    "id": "rekordbox-playlist",
+    "appId": "rekordbox",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Playlist",
+      "zh": "播放列表"
+    },
+    "description": {
+      "en": "Open playlist",
+      "zh": "打开播放列表"
+    },
+    "windows": "Tab",
+    "mac": "Tab",
+    "linux": "—",
+    "keywords": [
+      "playlist",
+      "播放列表"
+    ],
+    "pinyin": "bo fang lie biao bofangliebiao b f l b bflb bo fang lie biao bofangliebiao b f l b bflb"
+  },
+  {
+    "id": "rekordbox-master",
+    "appId": "rekordbox",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Master",
+      "zh": "主输出"
+    },
+    "description": {
+      "en": "Master output",
+      "zh": "主输出"
+    },
+    "windows": "F12",
+    "mac": "F12",
+    "linux": "—",
+    "keywords": [
+      "master",
+      "主输出"
+    ],
+    "pinyin": "zhu shu chu zhushuchu z s c zsc zhu shu chu zhushuchu z s c zsc"
+  },
+  {
+    "id": "rekordbox-headphone",
+    "appId": "rekordbox",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Headphone",
+      "zh": "耳机"
+    },
+    "description": {
+      "en": "Cue headphone",
+      "zh": "耳机监听"
+    },
+    "windows": "Ctrl + Space? ",
+    "mac": "⌘ Space? ",
+    "linux": "—",
+    "keywords": [
+      "headphone",
+      "耳机"
+    ],
+    "pinyin": "er ji erji e j ej er ji erji e j ej"
+  },
+  {
+    "id": "rekordbox-record",
+    "appId": "rekordbox",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Record",
+      "zh": "录制"
+    },
+    "description": {
+      "en": "Record mix",
+      "zh": "录制混音"
+    },
+    "windows": "Ctrl + R",
+    "mac": "⌘ R",
+    "linux": "—",
+    "keywords": [
+      "record",
+      "录制"
+    ],
+    "pinyin": "lu zhi luzhi l z lz lu zhi luzhi l z lz"
+  },
+  {
+    "id": "rekordbox-export",
+    "appId": "rekordbox",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Export",
+      "zh": "导出"
+    },
+    "description": {
+      "en": "Export tracks",
+      "zh": "导出音轨"
+    },
+    "windows": "Ctrl + E",
+    "mac": "⌘ E",
+    "linux": "—",
+    "keywords": [
+      "export",
+      "导出"
+    ],
+    "pinyin": "dao chu daochu d c dc dao chu daochu d c dc"
+  },
+  {
+    "id": "rekordbox-fullscreen",
+    "appId": "rekordbox",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Fullscreen",
+      "zh": "全屏"
+    },
+    "description": {
+      "en": "Fullscreen",
+      "zh": "全屏"
+    },
+    "windows": "F11",
+    "mac": "⌃ ⌘ F",
+    "linux": "—",
+    "keywords": [
+      "fullscreen",
+      "全屏"
+    ],
+    "pinyin": "quan ping quanping q p qp quan ping quanping q p qp"
+  },
+  {
+    "id": "rekordbox-zoom",
+    "appId": "rekordbox",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Zoom",
+      "zh": "缩放"
+    },
+    "description": {
+      "en": "Zoom browser",
+      "zh": "缩放浏览"
+    },
+    "windows": "Ctrl + =",
+    "mac": "⌘ =",
+    "linux": "—",
+    "keywords": [
+      "zoom",
+      "缩放"
+    ],
+    "pinyin": "suo fang suofang s f sf suo fang suofang s f sf"
+  },
+  {
+    "id": "rekordbox-help",
+    "appId": "rekordbox",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Help",
+      "zh": "帮助"
+    },
+    "description": {
+      "en": "Shortcuts help",
+      "zh": "快捷键帮助"
+    },
+    "windows": "F1",
+    "mac": "F1",
+    "linux": "—",
+    "keywords": [
+      "help",
+      "快捷键"
+    ],
+    "pinyin": "bang zhu bangzhu b z bz kuai jie jian kuaijiejian k j j kjj"
+  },
+  {
+    "id": "rekordbox-browser",
+    "appId": "rekordbox",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Browser",
+      "zh": "浏览器"
+    },
+    "description": {
+      "en": "Toggle browser",
+      "zh": "切换浏览器"
+    },
+    "windows": "Ctrl + B",
+    "mac": "⌘ B",
+    "linux": "—",
+    "keywords": [
+      "browser",
+      "浏览器"
+    ],
+    "pinyin": "liu lan qi liulanqi l l q llq liu lan qi liulanqi l l q llq"
+  }
+]

@@ -1,1 +1,522 @@
-[{"id":"vlc-fullscreen","appId":"vlc","type":"software","category":"video","name":{"zh":"全屏","en":"Fullscreen"},"description":{"zh":"切换全屏播放","en":"Toggle fullscreen playback"},"windows":"F","mac":"F","linux":"F","keywords":["全屏","fullscreen"],"pinyin":"quan ping quanping q p qp quan ping quanping q p qp"},{"id":"vlc-exit-fullscreen","appId":"vlc","type":"software","category":"video","name":{"zh":"退出全屏","en":"Exit Fullscreen"},"description":{"zh":"退出全屏模式","en":"Exit fullscreen mode"},"windows":"Esc","mac":"Esc","linux":"Esc","keywords":["退出","exit","fullscreen"],"pinyin":"tui chu quan ping tuichuquanping t c q p tcqp tui chu tuichu t c tc"},{"id":"vlc-play-pause","appId":"vlc","type":"software","category":"video","name":{"zh":"播放/暂停","en":"Play / Pause"},"description":{"zh":"播放或暂停当前媒体","en":"Play or pause the current media"},"windows":"Space","mac":"Space","linux":"Space","keywords":["播放","暂停","play","pause"],"pinyin":"bo fang / zan ting bofang/zanting b f / z t bf/zt bo fang   zan ting bofang zanting b f   z t bf zt"},{"id":"vlc-stop","appId":"vlc","type":"software","category":"video","name":{"zh":"停止","en":"Stop"},"description":{"zh":"停止播放","en":"Stop playback"},"windows":"S","mac":"S","linux":"S","keywords":["停止","stop"],"pinyin":"ting zhi tingzhi t z tz ting zhi tingzhi t z tz"},{"id":"vlc-faster","appId":"vlc","type":"software","category":"video","name":{"zh":"加速","en":"Faster"},"description":{"zh":"提高播放速度","en":"Increase playback speed"},"windows":"+","mac":"+","linux":"+","keywords":["加速","faster","speed"],"pinyin":"jia su jiasu j s js jia su jiasu j s js"},{"id":"vlc-slower","appId":"vlc","type":"software","category":"video","name":{"zh":"减速","en":"Slower"},"description":{"zh":"降低播放速度","en":"Decrease playback speed"},"windows":"-","mac":"-","linux":"-","keywords":["减速","slower","speed"],"pinyin":"jian su jiansu j s js jian su jiansu j s js"},{"id":"vlc-normal-rate","appId":"vlc","type":"software","category":"video","name":{"zh":"正常速度","en":"Normal Rate"},"description":{"zh":"恢复默认播放速度","en":"Reset to normal playback speed"},"windows":"=","mac":"=","linux":"=","keywords":["正常","速度","normal rate"],"pinyin":"zheng chang su du zhengchangsudu z c s d zcsd zheng chang   su du zhengchang sudu z c   s d zc sd"},{"id":"vlc-next","appId":"vlc","type":"software","category":"video","name":{"zh":"下一个","en":"Next"},"description":{"zh":"播放下一个媒体","en":"Play the next item"},"windows":"N","mac":"N","linux":"N","keywords":["下一个","next"],"pinyin":"xia yi ge xiayige x y g xyg xia yi ge xiayige x y g xyg"},{"id":"vlc-prev","appId":"vlc","type":"software","category":"video","name":{"zh":"上一个","en":"Previous"},"description":{"zh":"播放上一个媒体","en":"Play the previous item"},"windows":"P","mac":"P","linux":"P","keywords":["上一个","previous"],"pinyin":"shang yi ge shangyige s y g syg shang yi ge shangyige s y g syg"},{"id":"vlc-vol-up","appId":"vlc","type":"software","category":"video","name":{"zh":"音量 +","en":"Volume Up"},"description":{"zh":"增大音量","en":"Increase volume"},"windows":"Ctrl + Up","mac":"Ctrl + Up","linux":"Ctrl + Up","keywords":["音量","volume","up"],"pinyin":"yin liang   + yinliang + y l   + yl + yin liang yinliang y l yl"},{"id":"vlc-vol-down","appId":"vlc","type":"software","category":"video","name":{"zh":"音量 -","en":"Volume Down"},"description":{"zh":"减小音量","en":"Decrease volume"},"windows":"Ctrl + Down","mac":"Ctrl + Down","linux":"Ctrl + Down","keywords":["音量","volume","down"],"pinyin":"yin liang   - yinliang - y l   - yl - yin liang yinliang y l yl"},{"id":"vlc-mute","appId":"vlc","type":"software","category":"video","name":{"zh":"静音","en":"Mute"},"description":{"zh":"切换静音","en":"Toggle mute"},"windows":"M","mac":"M","linux":"M","keywords":["静音","mute"],"pinyin":"jing yin jingyin j y jy jing yin jingyin j y jy"},{"id":"vlc-jump-back","appId":"vlc","type":"software","category":"video","name":{"zh":"快退","en":"Jump Backward"},"description":{"zh":"向后跳转一段时间","en":"Jump backward by a period"},"windows":"Shift + Left","mac":"Shift + Left","linux":"Shift + Left","keywords":["快退","jump","back"],"pinyin":"kuai tui kuaitui k t kt kuai tui kuaitui k t kt"},{"id":"vlc-jump-fwd","appId":"vlc","type":"software","category":"video","name":{"zh":"快进","en":"Jump Forward"},"description":{"zh":"向前跳转一段时间","en":"Jump forward by a period"},"windows":"Shift + Right","mac":"Shift + Right","linux":"Shift + Right","keywords":["快进","jump","forward"],"pinyin":"kuai jin kuaijin k j kj kuai jin kuaijin k j kj"},{"id":"vlc-sub-track","appId":"vlc","type":"software","category":"video","name":{"zh":"下一个字幕轨","en":"Next Subtitle Track"},"description":{"zh":"切换至下一个字幕轨道","en":"Cycle to the next subtitle track"},"windows":"B","mac":"B","linux":"B","keywords":["字幕","subtitle","track"],"pinyin":"xia yi ge zi mu gui xiayigezimugui x y g z m g xygzmg zi mu zimu z m zm"},{"id":"vlc-sub-toggle","appId":"vlc","type":"software","category":"video","name":{"zh":"切换字幕","en":"Toggle Subtitles"},"description":{"zh":"开启或关闭字幕显示","en":"Show or hide subtitles"},"windows":"V","mac":"V","linux":"V","keywords":["字幕","subtitle","toggle"],"pinyin":"qie huan zi mu qiehuanzimu q h z m qhzm zi mu zimu z m zm"},{"id":"vlc-loop","appId":"vlc","type":"software","category":"video","name":{"zh":"循环播放","en":"Loop"},"description":{"zh":"切换循环播放","en":"Toggle loop playback"},"windows":"L","mac":"L","linux":"L","keywords":["循环","loop"],"pinyin":"xun huan bo fang xunhuanbofang x h b f xhbf xun huan xunhuan x h xh"},{"id":"vlc-frame","appId":"vlc","type":"software","category":"video","name":{"zh":"逐帧播放","en":"Frame by Frame"},"description":{"zh":"逐帧向前播放","en":"Play forward one frame at a time"},"windows":"E","mac":"E","linux":"E","keywords":["逐帧","frame"],"pinyin":"zhu zhen bo fang zhuzhenbofang z z b f zzbf zhu zhen zhuzhen z z zz"},{"id":"vlc-time","appId":"vlc","type":"software","category":"video","name":{"zh":"显示时间","en":"Show Time"},"description":{"zh":"在状态栏显示当前时间","en":"Show the current time position"},"windows":"T","mac":"T","linux":"T","keywords":["时间","time","position"],"pinyin":"xian shi shi jian xianshishijian x s s j xssj shi jian shijian s j sj"},{"id":"vlc-snapshot","appId":"vlc","type":"software","category":"video","name":{"zh":"截图","en":"Snapshot"},"description":{"zh":"截取当前视频画面","en":"Capture the current video frame"},"windows":"Shift + S","mac":"Shift + S","linux":"Shift + S","keywords":["截图","snapshot"],"pinyin":"jie tu jietu j t jt jie tu jietu j t jt"},{"id":"vlc-aspect","appId":"vlc","type":"software","category":"video","name":{"zh":"切换宽高比","en":"Cycle Aspect Ratio"},"description":{"zh":"切换画面宽高比","en":"Cycle through aspect ratios"},"windows":"A","mac":"A","linux":"A","keywords":["宽高比","aspect","ratio"],"pinyin":"qie huan kuan gao bi qiehuankuangaobi q h k g b qhkgb kuan gao bi kuangaobi k g b kgb"},{"id":"vlc-faster2","appId":"vlc","type":"software","category":"video","name":{"zh":"加速（备用）","en":"Faster (Alt)"},"description":{"zh":"提高播放速度的另一种方式","en":"Alternative way to increase speed"},"windows":"]","mac":"]","linux":"]","keywords":["加速","faster"],"pinyin":"jia su （ bei yong ） jiasu（beiyong） j s （ b y ） js（by） jia su jiasu j s js"},{"id":"vlc-slower2","appId":"vlc","type":"software","category":"video","name":{"zh":"减速（备用）","en":"Slower (Alt)"},"description":{"zh":"降低播放速度的另一种方式","en":"Alternative way to decrease speed"},"windows":"[","mac":"[","linux":"[","keywords":["减速","slower"],"pinyin":"jian su （ bei yong ） jiansu（beiyong） j s （ b y ） js（by） jian su jiansu j s js"}]
+[
+  {
+    "id": "vlc-fullscreen",
+    "appId": "vlc",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "全屏",
+      "en": "Fullscreen"
+    },
+    "description": {
+      "zh": "切换全屏播放",
+      "en": "Toggle fullscreen playback"
+    },
+    "windows": "F",
+    "mac": "F",
+    "linux": "F",
+    "keywords": [
+      "全屏",
+      "fullscreen"
+    ],
+    "pinyin": "quan ping quanping q p qp quan ping quanping q p qp"
+  },
+  {
+    "id": "vlc-exit-fullscreen",
+    "appId": "vlc",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "退出全屏",
+      "en": "Exit Fullscreen"
+    },
+    "description": {
+      "zh": "退出全屏模式",
+      "en": "Exit fullscreen mode"
+    },
+    "windows": "Esc",
+    "mac": "Esc",
+    "linux": "Esc",
+    "keywords": [
+      "退出",
+      "exit",
+      "fullscreen"
+    ],
+    "pinyin": "tui chu quan ping tuichuquanping t c q p tcqp tui chu tuichu t c tc"
+  },
+  {
+    "id": "vlc-play-pause",
+    "appId": "vlc",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "播放/暂停",
+      "en": "Play / Pause"
+    },
+    "description": {
+      "zh": "播放或暂停当前媒体",
+      "en": "Play or pause the current media"
+    },
+    "windows": "Space",
+    "mac": "Space",
+    "linux": "Space",
+    "keywords": [
+      "播放",
+      "暂停",
+      "play",
+      "pause"
+    ],
+    "pinyin": "bo fang / zan ting bofang/zanting b f / z t bf/zt bo fang   zan ting bofang zanting b f   z t bf zt"
+  },
+  {
+    "id": "vlc-stop",
+    "appId": "vlc",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "停止",
+      "en": "Stop"
+    },
+    "description": {
+      "zh": "停止播放",
+      "en": "Stop playback"
+    },
+    "windows": "S",
+    "mac": "S",
+    "linux": "S",
+    "keywords": [
+      "停止",
+      "stop"
+    ],
+    "pinyin": "ting zhi tingzhi t z tz ting zhi tingzhi t z tz"
+  },
+  {
+    "id": "vlc-faster",
+    "appId": "vlc",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "加速",
+      "en": "Faster"
+    },
+    "description": {
+      "zh": "提高播放速度",
+      "en": "Increase playback speed"
+    },
+    "windows": "+",
+    "mac": "+",
+    "linux": "+",
+    "keywords": [
+      "加速",
+      "faster",
+      "speed"
+    ],
+    "pinyin": "jia su jiasu j s js jia su jiasu j s js"
+  },
+  {
+    "id": "vlc-slower",
+    "appId": "vlc",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "减速",
+      "en": "Slower"
+    },
+    "description": {
+      "zh": "降低播放速度",
+      "en": "Decrease playback speed"
+    },
+    "windows": "-",
+    "mac": "-",
+    "linux": "-",
+    "keywords": [
+      "减速",
+      "slower",
+      "speed"
+    ],
+    "pinyin": "jian su jiansu j s js jian su jiansu j s js"
+  },
+  {
+    "id": "vlc-normal-rate",
+    "appId": "vlc",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "正常速度",
+      "en": "Normal Rate"
+    },
+    "description": {
+      "zh": "恢复默认播放速度",
+      "en": "Reset to normal playback speed"
+    },
+    "windows": "=",
+    "mac": "=",
+    "linux": "=",
+    "keywords": [
+      "正常",
+      "速度",
+      "normal rate"
+    ],
+    "pinyin": "zheng chang su du zhengchangsudu z c s d zcsd zheng chang   su du zhengchang sudu z c   s d zc sd"
+  },
+  {
+    "id": "vlc-next",
+    "appId": "vlc",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "下一个",
+      "en": "Next"
+    },
+    "description": {
+      "zh": "播放下一个媒体",
+      "en": "Play the next item"
+    },
+    "windows": "N",
+    "mac": "N",
+    "linux": "N",
+    "keywords": [
+      "下一个",
+      "next"
+    ],
+    "pinyin": "xia yi ge xiayige x y g xyg xia yi ge xiayige x y g xyg"
+  },
+  {
+    "id": "vlc-prev",
+    "appId": "vlc",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "上一个",
+      "en": "Previous"
+    },
+    "description": {
+      "zh": "播放上一个媒体",
+      "en": "Play the previous item"
+    },
+    "windows": "P",
+    "mac": "P",
+    "linux": "P",
+    "keywords": [
+      "上一个",
+      "previous"
+    ],
+    "pinyin": "shang yi ge shangyige s y g syg shang yi ge shangyige s y g syg"
+  },
+  {
+    "id": "vlc-vol-up",
+    "appId": "vlc",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "音量 +",
+      "en": "Volume Up"
+    },
+    "description": {
+      "zh": "增大音量",
+      "en": "Increase volume"
+    },
+    "windows": "Ctrl + Up",
+    "mac": "Ctrl + Up",
+    "linux": "Ctrl + Up",
+    "keywords": [
+      "音量",
+      "volume",
+      "up"
+    ],
+    "pinyin": "yin liang   + yinliang + y l   + yl + yin liang yinliang y l yl"
+  },
+  {
+    "id": "vlc-vol-down",
+    "appId": "vlc",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "音量 -",
+      "en": "Volume Down"
+    },
+    "description": {
+      "zh": "减小音量",
+      "en": "Decrease volume"
+    },
+    "windows": "Ctrl + Down",
+    "mac": "Ctrl + Down",
+    "linux": "Ctrl + Down",
+    "keywords": [
+      "音量",
+      "volume",
+      "down"
+    ],
+    "pinyin": "yin liang   - yinliang - y l   - yl - yin liang yinliang y l yl"
+  },
+  {
+    "id": "vlc-mute",
+    "appId": "vlc",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "静音",
+      "en": "Mute"
+    },
+    "description": {
+      "zh": "切换静音",
+      "en": "Toggle mute"
+    },
+    "windows": "M",
+    "mac": "M",
+    "linux": "M",
+    "keywords": [
+      "静音",
+      "mute"
+    ],
+    "pinyin": "jing yin jingyin j y jy jing yin jingyin j y jy"
+  },
+  {
+    "id": "vlc-jump-back",
+    "appId": "vlc",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "快退",
+      "en": "Jump Backward"
+    },
+    "description": {
+      "zh": "向后跳转一段时间",
+      "en": "Jump backward by a period"
+    },
+    "windows": "Shift + Left",
+    "mac": "Shift + Left",
+    "linux": "Shift + Left",
+    "keywords": [
+      "快退",
+      "jump",
+      "back"
+    ],
+    "pinyin": "kuai tui kuaitui k t kt kuai tui kuaitui k t kt"
+  },
+  {
+    "id": "vlc-jump-fwd",
+    "appId": "vlc",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "快进",
+      "en": "Jump Forward"
+    },
+    "description": {
+      "zh": "向前跳转一段时间",
+      "en": "Jump forward by a period"
+    },
+    "windows": "Shift + Right",
+    "mac": "Shift + Right",
+    "linux": "Shift + Right",
+    "keywords": [
+      "快进",
+      "jump",
+      "forward"
+    ],
+    "pinyin": "kuai jin kuaijin k j kj kuai jin kuaijin k j kj"
+  },
+  {
+    "id": "vlc-sub-track",
+    "appId": "vlc",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "下一个字幕轨",
+      "en": "Next Subtitle Track"
+    },
+    "description": {
+      "zh": "切换至下一个字幕轨道",
+      "en": "Cycle to the next subtitle track"
+    },
+    "windows": "B",
+    "mac": "B",
+    "linux": "B",
+    "keywords": [
+      "字幕",
+      "subtitle",
+      "track"
+    ],
+    "pinyin": "xia yi ge zi mu gui xiayigezimugui x y g z m g xygzmg zi mu zimu z m zm"
+  },
+  {
+    "id": "vlc-sub-toggle",
+    "appId": "vlc",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "切换字幕",
+      "en": "Toggle Subtitles"
+    },
+    "description": {
+      "zh": "开启或关闭字幕显示",
+      "en": "Show or hide subtitles"
+    },
+    "windows": "V",
+    "mac": "V",
+    "linux": "V",
+    "keywords": [
+      "字幕",
+      "subtitle",
+      "toggle"
+    ],
+    "pinyin": "qie huan zi mu qiehuanzimu q h z m qhzm zi mu zimu z m zm"
+  },
+  {
+    "id": "vlc-loop",
+    "appId": "vlc",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "循环播放",
+      "en": "Loop"
+    },
+    "description": {
+      "zh": "切换循环播放",
+      "en": "Toggle loop playback"
+    },
+    "windows": "L",
+    "mac": "L",
+    "linux": "L",
+    "keywords": [
+      "循环",
+      "loop"
+    ],
+    "pinyin": "xun huan bo fang xunhuanbofang x h b f xhbf xun huan xunhuan x h xh"
+  },
+  {
+    "id": "vlc-frame",
+    "appId": "vlc",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "逐帧播放",
+      "en": "Frame by Frame"
+    },
+    "description": {
+      "zh": "逐帧向前播放",
+      "en": "Play forward one frame at a time"
+    },
+    "windows": "E",
+    "mac": "E",
+    "linux": "E",
+    "keywords": [
+      "逐帧",
+      "frame"
+    ],
+    "pinyin": "zhu zhen bo fang zhuzhenbofang z z b f zzbf zhu zhen zhuzhen z z zz"
+  },
+  {
+    "id": "vlc-time",
+    "appId": "vlc",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "显示时间",
+      "en": "Show Time"
+    },
+    "description": {
+      "zh": "在状态栏显示当前时间",
+      "en": "Show the current time position"
+    },
+    "windows": "T",
+    "mac": "T",
+    "linux": "T",
+    "keywords": [
+      "时间",
+      "time",
+      "position"
+    ],
+    "pinyin": "xian shi shi jian xianshishijian x s s j xssj shi jian shijian s j sj"
+  },
+  {
+    "id": "vlc-snapshot",
+    "appId": "vlc",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "截图",
+      "en": "Snapshot"
+    },
+    "description": {
+      "zh": "截取当前视频画面",
+      "en": "Capture the current video frame"
+    },
+    "windows": "Shift + S",
+    "mac": "Shift + S",
+    "linux": "Shift + S",
+    "keywords": [
+      "截图",
+      "snapshot"
+    ],
+    "pinyin": "jie tu jietu j t jt jie tu jietu j t jt"
+  },
+  {
+    "id": "vlc-aspect",
+    "appId": "vlc",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "切换宽高比",
+      "en": "Cycle Aspect Ratio"
+    },
+    "description": {
+      "zh": "切换画面宽高比",
+      "en": "Cycle through aspect ratios"
+    },
+    "windows": "A",
+    "mac": "A",
+    "linux": "A",
+    "keywords": [
+      "宽高比",
+      "aspect",
+      "ratio"
+    ],
+    "pinyin": "qie huan kuan gao bi qiehuankuangaobi q h k g b qhkgb kuan gao bi kuangaobi k g b kgb"
+  },
+  {
+    "id": "vlc-faster2",
+    "appId": "vlc",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "加速（备用）",
+      "en": "Faster (Alt)"
+    },
+    "description": {
+      "zh": "提高播放速度的另一种方式",
+      "en": "Alternative way to increase speed"
+    },
+    "windows": "]",
+    "mac": "]",
+    "linux": "]",
+    "keywords": [
+      "加速",
+      "faster"
+    ],
+    "pinyin": "jia su （ bei yong ） jiasu（beiyong） j s （ b y ） js（by） jia su jiasu j s js"
+  },
+  {
+    "id": "vlc-slower2",
+    "appId": "vlc",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "zh": "减速（备用）",
+      "en": "Slower (Alt)"
+    },
+    "description": {
+      "zh": "降低播放速度的另一种方式",
+      "en": "Alternative way to decrease speed"
+    },
+    "windows": "[",
+    "mac": "[",
+    "linux": "[",
+    "keywords": [
+      "减速",
+      "slower"
+    ],
+    "pinyin": "jian su （ bei yong ） jiansu（beiyong） j s （ b y ） js（by） jian su jiansu j s js"
+  }
+]

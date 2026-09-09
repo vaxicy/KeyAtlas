@@ -1,1 +1,994 @@
-[{"id":"ray-open","appId":"raycast","type":"software","category":"productivity","name":{"zh":"打开/关闭 Raycast","en":"Open or close Raycast"},"description":{"zh":"打开/关闭 Raycast（⌘ Space）","en":"Open or close Raycast (⌘ Space)"},"windows":"—","mac":"⌘ Space","linux":"—","keywords":["打开/关闭 Raycast","Open or close Raycast","启动器","launcher"],"pinyin":"da kai / guan bi   r a y c a s t dakai/guanbi raycast d k / g b   r a y c a s t dk/gb raycast da kai / guan bi   r a y c a s t   qi dong qi dakai/guanbi raycast qidongqi d k / g b   r a y c a s t   q d q dk/gb raycast qdq"},{"id":"ray-back","appId":"raycast","type":"software","category":"productivity","name":{"zh":"返回/从根搜索关闭窗口","en":"Go back / Close from Root Search"},"description":{"zh":"返回/从根搜索关闭窗口（Esc）","en":"Go back / Close from Root Search (Esc)"},"windows":"—","mac":"Esc","linux":"—","keywords":["返回/从根搜索关闭窗口","Go back / Close from Root Search"],"pinyin":"fan hui / cong gen sou suo guan bi chuang kou fanhui/conggensousuoguanbichuangkou f h / c g s s g b c k fh/cgssgbck fan hui / cong gen sou suo guan bi chuang kou fanhui/conggensousuoguanbichuangkou f h / c g s s g b c k fh/cgssgbck"},{"id":"ray-poproot","appId":"raycast","type":"software","category":"productivity","name":{"zh":"弹出到根视图","en":"Pop to Root"},"description":{"zh":"弹出到根视图（⌘ Esc）","en":"Pop to Root (⌘ Esc)"},"windows":"—","mac":"⌘ Esc","linux":"—","keywords":["弹出到根视图","Pop to Root"],"pinyin":"tan chu dao gen shi tu tanchudaogenshitu t c d g s t tcdgst tan chu dao gen shi tu tanchudaogenshitu t c d g s t tcdgst"},{"id":"ray-close","appId":"raycast","type":"software","category":"productivity","name":{"zh":"关闭 Raycast 窗口","en":"Close Raycast window"},"description":{"zh":"关闭 Raycast 窗口（⌘ W）","en":"Close Raycast window (⌘ W)"},"windows":"—","mac":"⌘ W","linux":"—","keywords":["关闭 Raycast 窗口","Close Raycast window"],"pinyin":"guan bi   r a y c a s t   chuang kou guanbi raycast chuangkou g b   r a y c a s t   c k gb raycast ck guan bi   r a y c a s t   chuang kou guanbi raycast chuangkou g b   r a y c a s t   c k gb raycast ck"},{"id":"ray-settings","appId":"raycast","type":"software","category":"productivity","name":{"zh":"打开设置","en":"Open Settings"},"description":{"zh":"打开设置（⌘ ,）","en":"Open Settings (⌘ ,)"},"windows":"—","mac":"⌘ ,","linux":"—","keywords":["打开设置","Open Settings"],"pinyin":"da kai she zhi dakaishezhi d k s z dksz da kai she zhi dakaishezhi d k s z dksz"},{"id":"ray-guide","appId":"raycast","type":"software","category":"productivity","name":{"zh":"打开用户指南","en":"Open User Guide"},"description":{"zh":"打开用户指南（⌘ ⇧ /）","en":"Open User Guide (⌘ ⇧ /)"},"windows":"—","mac":"⌘ ⇧ /","linux":"—","keywords":["打开用户指南","Open User Guide"],"pinyin":"da kai yong hu zhi nan dakaiyonghuzhinan d k y h z n dkyhzn da kai yong hu zhi nan dakaiyonghuzhinan d k y h z n dkyhzn"},{"id":"ray-updown","appId":"raycast","type":"software","category":"productivity","name":{"zh":"在列表中上下移动","en":"Move up/down in list"},"description":{"zh":"在列表中上下移动（↑ ↓）","en":"Move up/down in list (↑ ↓)"},"windows":"—","mac":"↑ ↓","linux":"—","keywords":["在列表中上下移动","Move up/down in list"],"pinyin":"zai lie biao zhong shang xia yi dong zailiebiaozhongshangxiayidong z l b z s x y d zlbzsxyd zai lie biao zhong shang xia yi dong zailiebiaozhongshangxiayidong z l b z s x y d zlbzsxyd"},{"id":"ray-page","appId":"raycast","type":"software","category":"productivity","name":{"zh":"跳到上一/下一页结果","en":"Jump to prev/next page"},"description":{"zh":"跳到上一/下一页结果（⌥ ↑ / ⌥ ↓）","en":"Jump to prev/next page (⌥ ↑ / ⌥ ↓)"},"windows":"—","mac":"⌥ ↑ / ⌥ ↓","linux":"—","keywords":["跳到上一/下一页结果","Jump to prev/next page"],"pinyin":"tiao dao shang yi / xia yi ye jie guo tiaodaoshangyi/xiayiyejieguo t d s y / x y y j g tdsy/xyyjg tiao dao shang yi / xia yi ye jie guo tiaodaoshangyi/xiayiyejieguo t d s y / x y y j g tdsy/xyyjg"},{"id":"ray-section","appId":"raycast","type":"software","category":"productivity","name":{"zh":"跳到上一/下一分区","en":"Jump to prev/next section"},"description":{"zh":"跳到上一/下一分区（⌘ ↑ / ⌘ ↓）","en":"Jump to prev/next section (⌘ ↑ / ⌘ ↓)"},"windows":"—","mac":"⌘ ↑ / ⌘ ↓","linux":"—","keywords":["跳到上一/下一分区","Jump to prev/next section"],"pinyin":"tiao dao shang yi / xia yi fen qu tiaodaoshangyi/xiayifenqu t d s y / x y f q tdsy/xyfq tiao dao shang yi / xia yi fen qu tiaodaoshangyi/xiayifenqu t d s y / x y f q tdsy/xyfq"},{"id":"ray-run","appId":"raycast","type":"software","category":"productivity","name":{"zh":"运行主操作","en":"Run primary action"},"description":{"zh":"运行主操作（↵）","en":"Run primary action (↵)"},"windows":"—","mac":"↵","linux":"—","keywords":["运行主操作","Run primary action"],"pinyin":"yun xing zhu cao zuo yunxingzhucaozuo y x z c z yxzcz yun xing zhu cao zuo yunxingzhucaozuo y x z c z yxzcz"},{"id":"ray-actionpanel","appId":"raycast","type":"software","category":"productivity","name":{"zh":"打开操作面板","en":"Open Action Panel"},"description":{"zh":"打开操作面板（⌘ K）","en":"Open Action Panel (⌘ K)"},"windows":"—","mac":"⌘ K","linux":"—","keywords":["打开操作面板","Open Action Panel"],"pinyin":"da kai cao zuo mian ban dakaicaozuomianban d k c z m b dkczmb da kai cao zuo mian ban dakaicaozuomianban d k c z m b dkczmb"},{"id":"ray-parent","appId":"raycast","type":"software","category":"productivity","name":{"zh":"导航到父目录","en":"Navigate to parent directory"},"description":{"zh":"导航到父目录（⇧ Tab）","en":"Navigate to parent directory (⇧ Tab)"},"windows":"—","mac":"⇧ Tab","linux":"—","keywords":["导航到父目录","Navigate to parent directory"],"pinyin":"dao hang dao fu mu lu daohangdaofumulu d h d f m l dhdfml dao hang dao fu mu lu daohangdaofumulu d h d f m l dhdfml"},{"id":"ray-fav","appId":"raycast","type":"software","category":"productivity","name":{"zh":"添加到收藏","en":"Add to Favorites"},"description":{"zh":"添加到收藏（⌘ F）","en":"Add to Favorites (⌘ F)"},"windows":"—","mac":"⌘ F","linux":"—","keywords":["添加到收藏","Add to Favorites"],"pinyin":"tian jia dao shou cang tianjiadaoshoucang t j d s c tjdsc tian jia dao shou cang tianjiadaoshoucang t j d s c tjdsc"},{"id":"ray-favmove","appId":"raycast","type":"software","category":"productivity","name":{"zh":"上/下移动收藏项","en":"Move favorite up/down"},"description":{"zh":"上/下移动收藏项（⌘ ⇧ ↑ / ⌘ ⇧ ↓）","en":"Move favorite up/down (⌘ ⇧ ↑ / ⌘ ⇧ ↓)"},"windows":"—","mac":"⌘ ⇧ ↑ / ⌘ ⇧ ↓","linux":"—","keywords":["上/下移动收藏项","Move favorite up/down"],"pinyin":"shang / xia yi dong shou cang xiang shang/xiayidongshoucangxiang s / x y d s c x s/xydscx shang / xia yi dong shou cang xiang shang/xiayidongshoucangxiang s / x y d s c x s/xydscx"},{"id":"ray-cfgcmd","appId":"raycast","type":"software","category":"productivity","name":{"zh":"配置命令","en":"Configure Command"},"description":{"zh":"配置命令（⌘ ,）","en":"Configure Command (⌘ ,)"},"windows":"—","mac":"⌘ ,","linux":"—","keywords":["配置命令","Configure Command"],"pinyin":"pei zhi ming ling peizhimingling p z m l pzml pei zhi ming ling peizhimingling p z m l pzml"},{"id":"ray-cfgext","appId":"raycast","type":"software","category":"productivity","name":{"zh":"配置扩展","en":"Configure Extension"},"description":{"zh":"配置扩展（⌘ ⇧ ,）","en":"Configure Extension (⌘ ⇧ ,)"},"windows":"—","mac":"⌘ ⇧ ,","linux":"—","keywords":["配置扩展","Configure Extension"],"pinyin":"pei zhi kuo zhan peizhikuozhan p z k z pzkz pei zhi kuo zhan peizhikuozhan p z k z pzkz"},{"id":"ray-disable","appId":"raycast","type":"software","category":"productivity","name":{"zh":"禁用命令","en":"Disable Command"},"description":{"zh":"禁用命令（⌘ ⇧ D）","en":"Disable Command (⌘ ⇧ D)"},"windows":"—","mac":"⌘ ⇧ D","linux":"—","keywords":["禁用命令","Disable Command"],"pinyin":"jin yong ming ling jinyongmingling j y m l jyml jin yong ming ling jinyongmingling j y m l jyml"},{"id":"ray-secondary","appId":"raycast","type":"software","category":"productivity","name":{"zh":"执行次要操作","en":"Execute secondary action"},"description":{"zh":"执行次要操作（⌘ ↵）","en":"Execute secondary action (⌘ ↵)"},"windows":"—","mac":"⌘ ↵","linux":"—","keywords":["执行次要操作","Execute secondary action"],"pinyin":"zhi xing ci yao cao zuo zhixingciyaocaozuo z x c y c z zxcycz zhi xing ci yao cao zuo zhixingciyaocaozuo z x c y c z zxcycz"},{"id":"ray-tertiary","appId":"raycast","type":"software","category":"productivity","name":{"zh":"执行第三操作","en":"Execute tertiary action"},"description":{"zh":"执行第三操作（⌘ ⇧ ↵）","en":"Execute tertiary action (⌘ ⇧ ↵)"},"windows":"—","mac":"⌘ ⇧ ↵","linux":"—","keywords":["执行第三操作","Execute tertiary action"],"pinyin":"zhi xing di san cao zuo zhixingdisancaozuo z x d s c z zxdscz zhi xing di san cao zuo zhixingdisancaozuo z x d s c z zxdscz"},{"id":"ray-openitem","appId":"raycast","type":"software","category":"productivity","name":{"zh":"打开项目","en":"Open item"},"description":{"zh":"打开项目（⌘ O）","en":"Open item (⌘ O)"},"windows":"—","mac":"⌘ O","linux":"—","keywords":["打开项目","Open item"],"pinyin":"da kai xiang mu dakaixiangmu d k x m dkxm da kai xiang mu dakaixiangmu d k x m dkxm"},{"id":"ray-reveal","appId":"raycast","type":"software","category":"productivity","name":{"zh":"在 Finder 中显示","en":"Reveal in Finder"},"description":{"zh":"在 Finder 中显示（⌘ ⇧ O）","en":"Reveal in Finder (⌘ ⇧ O)"},"windows":"—","mac":"⌘ ⇧ O","linux":"—","keywords":["在 Finder 中显示","Reveal in Finder"],"pinyin":"zai   f i n d e r   zhong xian shi zai finder zhongxianshi z   f i n d e r   z x s z finder zxs zai   f i n d e r   zhong xian shi zai finder zhongxianshi z   f i n d e r   z x s z finder zxs"},{"id":"ray-openwith","appId":"raycast","type":"software","category":"productivity","name":{"zh":"打开方式","en":"Open With"},"description":{"zh":"打开方式（⌘ ⌥ O）","en":"Open With (⌘ ⌥ O)"},"windows":"—","mac":"⌘ ⌥ O","linux":"—","keywords":["打开方式","Open With"],"pinyin":"da kai fang shi dakaifangshi d k f s dkfs da kai fang shi dakaifangshi d k f s dkfs"},{"id":"ray-quicklook","appId":"raycast","type":"software","category":"productivity","name":{"zh":"切换快速预览","en":"Toggle Quick Look"},"description":{"zh":"切换快速预览（⌘ Y）","en":"Toggle Quick Look (⌘ Y)"},"windows":"—","mac":"⌘ Y","linux":"—","keywords":["切换快速预览","Toggle Quick Look"],"pinyin":"qie huan kuai su yu lan qiehuankuaisuyulan q h k s y l qhksyl qie huan kuai su yu lan qiehuankuaisuyulan q h k s y l qhksyl"},{"id":"ray-edit","appId":"raycast","type":"software","category":"productivity","name":{"zh":"编辑项目","en":"Edit item"},"description":{"zh":"编辑项目（⌘ E）","en":"Edit item (⌘ E)"},"windows":"—","mac":"⌘ E","linux":"—","keywords":["编辑项目","Edit item"],"pinyin":"bian ji xiang mu bianjixiangmu b j x m bjxm bian ji xiang mu bianjixiangmu b j x m bjxm"},{"id":"ray-info","appId":"raycast","type":"software","category":"productivity","name":{"zh":"显示信息","en":"Show info"},"description":{"zh":"显示信息（⌘ I）","en":"Show info (⌘ I)"},"windows":"—","mac":"⌘ I","linux":"—","keywords":["显示信息","Show info"],"pinyin":"xian shi xin xi xianshixinxi x s x x xsxx xian shi xin xi xianshixinxi x s x x xsxx"},{"id":"ray-dup","appId":"raycast","type":"software","category":"productivity","name":{"zh":"复制项目","en":"Duplicate item"},"description":{"zh":"复制项目（⌘ D）","en":"Duplicate item (⌘ D)"},"windows":"—","mac":"⌘ D","linux":"—","keywords":["复制项目","Duplicate item"],"pinyin":"fu zhi xiang mu fuzhixiangmu f z x m fzxm fu zhi xiang mu fuzhixiangmu f z x m fzxm"},{"id":"ray-pin","appId":"raycast","type":"software","category":"productivity","name":{"zh":"固定/取消固定","en":"Pin or unpin"},"description":{"zh":"固定/取消固定（⌘ .）","en":"Pin or unpin (⌘ .)"},"windows":"—","mac":"⌘ .","linux":"—","keywords":["固定/取消固定","Pin or unpin"],"pinyin":"gu ding / qu xiao gu ding guding/quxiaoguding g d / q x g d gd/qxgd gu ding / qu xiao gu ding guding/quxiaoguding g d / q x g d gd/qxgd"},{"id":"ray-hidden","appId":"raycast","type":"software","category":"productivity","name":{"zh":"显示隐藏项目","en":"Show hidden items"},"description":{"zh":"显示隐藏项目（⌘ ⇧ .）","en":"Show hidden items (⌘ ⇧ .)"},"windows":"—","mac":"⌘ ⇧ .","linux":"—","keywords":["显示隐藏项目","Show hidden items"],"pinyin":"xian shi yin cang xiang mu xianshiyincangxiangmu x s y c x m xsycxm xian shi yin cang xiang mu xianshiyincangxiangmu x s y c x m xsycxm"},{"id":"ray-copy","appId":"raycast","type":"software","category":"productivity","name":{"zh":"复制","en":"Copy"},"description":{"zh":"复制（⌘ C）","en":"Copy (⌘ C)"},"windows":"—","mac":"⌘ C","linux":"—","keywords":["复制","Copy"],"pinyin":"fu zhi fuzhi f z fz fu zhi fuzhi f z fz"},{"id":"ray-copy2","appId":"raycast","type":"software","category":"productivity","name":{"zh":"复制次要内容","en":"Copy secondary"},"description":{"zh":"复制次要内容（⌘ ⇧ C）","en":"Copy secondary (⌘ ⇧ C)"},"windows":"—","mac":"⌘ ⇧ C","linux":"—","keywords":["复制次要内容","Copy secondary"],"pinyin":"fu zhi ci yao nei rong fuzhiciyaoneirong f z c y n r fzcynr fu zhi ci yao nei rong fuzhiciyaoneirong f z c y n r fzcynr"},{"id":"ray-paste","appId":"raycast","type":"software","category":"productivity","name":{"zh":"粘贴","en":"Paste"},"description":{"zh":"粘贴（⌘ V）","en":"Paste (⌘ V)"},"windows":"—","mac":"⌘ V","linux":"—","keywords":["粘贴","Paste"],"pinyin":"nian tie niantie n t nt nian tie niantie n t nt"},{"id":"ray-paste2","appId":"raycast","type":"software","category":"productivity","name":{"zh":"粘贴次要内容","en":"Paste secondary"},"description":{"zh":"粘贴次要内容（⌘ ⇧ V）","en":"Paste secondary (⌘ ⇧ V)"},"windows":"—","mac":"⌘ ⇧ V","linux":"—","keywords":["粘贴次要内容","Paste secondary"],"pinyin":"nian tie ci yao nei rong niantieciyaoneirong n t c y n r ntcynr nian tie ci yao nei rong niantieciyaoneirong n t c y n r ntcynr"},{"id":"ray-del","appId":"raycast","type":"software","category":"productivity","name":{"zh":"删除所选项目","en":"Delete selected item"},"description":{"zh":"删除所选项目（⌃ X）","en":"Delete selected item (⌃ X)"},"windows":"—","mac":"⌃ X","linux":"—","keywords":["删除所选项目","Delete selected item"],"pinyin":"shan chu suo xuan xiang mu shanchusuoxuanxiangmu s c s x x m scsxxm shan chu suo xuan xiang mu shanchusuoxuanxiangmu s c s x x m scsxxm"},{"id":"ray-delall","appId":"raycast","type":"software","category":"productivity","name":{"zh":"删除全部","en":"Delete all"},"description":{"zh":"删除全部（⌃ ⇧ X）","en":"Delete all (⌃ ⇧ X)"},"windows":"—","mac":"⌃ ⇧ X","linux":"—","keywords":["删除全部","Delete all"],"pinyin":"shan chu quan bu shanchuquanbu s c q b scqb shan chu quan bu shanchuquanbu s c q b scqb"},{"id":"ray-chatsidebar","appId":"raycast","type":"software","category":"productivity","name":{"zh":"切换聊天历史侧栏","en":"Toggle chat history sidebar"},"description":{"zh":"切换聊天历史侧栏（⌘ ⇧ S）","en":"Toggle chat history sidebar (⌘ ⇧ S)"},"windows":"—","mac":"⌘ ⇧ S","linux":"—","keywords":["切换聊天历史侧栏","Toggle chat history sidebar"],"pinyin":"qie huan liao tian li shi ce lan qiehuanliaotianlishicelan q h l t l s c l qhltlscl qie huan liao tian li shi ce lan qiehuanliaotianlishicelan q h l t l s c l qhltlscl"},{"id":"ray-searchchats","appId":"raycast","type":"software","category":"productivity","name":{"zh":"搜索聊天","en":"Search chats"},"description":{"zh":"搜索聊天（⌘ ⇧ F）","en":"Search chats (⌘ ⇧ F)"},"windows":"—","mac":"⌘ ⇧ F","linux":"—","keywords":["搜索聊天","Search chats"],"pinyin":"sou suo liao tian sousuoliaotian s s l t sslt sou suo liao tian sousuoliaotian s s l t sslt"},{"id":"ray-sendai","appId":"raycast","type":"software","category":"productivity","name":{"zh":"发送到 AI 聊天","en":"Send to AI Chat"},"description":{"zh":"发送到 AI 聊天（⌘ J）","en":"Send to AI Chat (⌘ J)"},"windows":"—","mac":"⌘ J","linux":"—","keywords":["发送到 AI 聊天","Send to AI Chat"],"pinyin":"fa song dao   a i   liao tian fasongdao ai liaotian f s d   a i   l t fsd ai lt fa song dao   a i   liao tian fasongdao ai liaotian f s d   a i   l t fsd ai lt"},{"id":"ray-attach","appId":"raycast","type":"software","category":"productivity","name":{"zh":"添加附件","en":"Add attachment"},"description":{"zh":"添加附件（⌘ ⇧ A）","en":"Add attachment (⌘ ⇧ A)"},"windows":"—","mac":"⌘ ⇧ A","linux":"—","keywords":["添加附件","Add attachment"],"pinyin":"tian jia fu jian tianjiafujian t j f j tjfj tian jia fu jian tianjiafujian t j f j tjfj"},{"id":"ray-branch","appId":"raycast","type":"software","category":"productivity","name":{"zh":"从消息分支聊天","en":"Branch chat"},"description":{"zh":"从消息分支聊天（⌘ ⇧ B）","en":"Branch chat (⌘ ⇧ B)"},"windows":"—","mac":"⌘ ⇧ B","linux":"—","keywords":["从消息分支聊天","Branch chat"],"pinyin":"cong xiao xi fen zhi liao tian congxiaoxifenzhiliaotian c x x f z l t cxxfzlt cong xiao xi fen zhi liao tian congxiaoxifenzhiliaotian c x x f z l t cxxfzlt"},{"id":"ray-aimodel","appId":"raycast","type":"software","category":"productivity","name":{"zh":"切换 AI 模型","en":"Change AI model"},"description":{"zh":"切换 AI 模型（⌘ ⇧ M）","en":"Change AI model (⌘ ⇧ M)"},"windows":"—","mac":"⌘ ⇧ M","linux":"—","keywords":["切换 AI 模型","Change AI model"],"pinyin":"qie huan   a i   mo xing qiehuan ai moxing q h   a i   m x qh ai mx qie huan   a i   mo xing qiehuan ai moxing q h   a i   m x qh ai mx"},{"id":"ray-creativity","appId":"raycast","type":"software","category":"productivity","name":{"zh":"切换创造力级别","en":"Change creativity level"},"description":{"zh":"切换创造力级别（⌘ ⇧ Y）","en":"Change creativity level (⌘ ⇧ Y)"},"windows":"—","mac":"⌘ ⇧ Y","linux":"—","keywords":["切换创造力级别","Change creativity level"],"pinyin":"qie huan chuang zao li ji bie qiehuanchuangzaolijibie q h c z l j b qhczljb qie huan chuang zao li ji bie qiehuanchuangzaolijibie q h c z l j b qhczljb"},{"id":"ray-reasoning","appId":"raycast","type":"software","category":"productivity","name":{"zh":"切换推理强度","en":"Change reasoning effort"},"description":{"zh":"切换推理强度（⌘ ⇧ U）","en":"Change reasoning effort (⌘ ⇧ U)"},"windows":"—","mac":"⌘ ⇧ U","linux":"—","keywords":["切换推理强度","Change reasoning effort"],"pinyin":"qie huan tui li qiang du qiehuantuiliqiangdu q h t l q d qhtlqd qie huan tui li qiang du qiehuantuiliqiangdu q h t l q d qhtlqd"},{"id":"ray-archive","appId":"raycast","type":"software","category":"productivity","name":{"zh":"归档聊天","en":"Archive chat"},"description":{"zh":"归档聊天（⌘ ⌥ A）","en":"Archive chat (⌘ ⌥ A)"},"windows":"—","mac":"⌘ ⌥ A","linux":"—","keywords":["归档聊天","Archive chat"],"pinyin":"gui dang liao tian guidangliaotian g d l t gdlt gui dang liao tian guidangliaotian g d l t gdlt"},{"id":"ray-folder","appId":"raycast","type":"software","category":"productivity","name":{"zh":"创建文件夹","en":"Create folder"},"description":{"zh":"创建文件夹（⌘ ⌃ N）","en":"Create folder (⌘ ⌃ N)"},"windows":"—","mac":"⌘ ⌃ N","linux":"—","keywords":["创建文件夹","Create folder"],"pinyin":"chuang jian wen jian jia chuangjianwenjianjia c j w j j cjwjj chuang jian wen jian jia chuangjianwenjianjia c j w j j cjwjj"},{"id":"ray-moveto","appId":"raycast","type":"software","category":"productivity","name":{"zh":"移动到文件夹","en":"Move to folder"},"description":{"zh":"移动到文件夹（⌘ ⌃ M）","en":"Move to folder (⌘ ⌃ M)"},"windows":"—","mac":"⌘ ⌃ M","linux":"—","keywords":["移动到文件夹","Move to folder"],"pinyin":"yi dong dao wen jian jia yidongdaowenjianjia y d d w j j yddwjj yi dong dao wen jian jia yidongdaowenjianjia y d d w j j yddwjj"}]
+[
+  {
+    "id": "ray-open",
+    "appId": "raycast",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "打开/关闭 Raycast",
+      "en": "Open or close Raycast"
+    },
+    "description": {
+      "zh": "打开/关闭 Raycast（⌘ Space）",
+      "en": "Open or close Raycast (⌘ Space)"
+    },
+    "windows": "—",
+    "mac": "⌘ Space",
+    "linux": "—",
+    "keywords": [
+      "打开/关闭 Raycast",
+      "Open or close Raycast",
+      "启动器",
+      "launcher"
+    ],
+    "pinyin": "da kai / guan bi   r a y c a s t dakai/guanbi raycast d k / g b   r a y c a s t dk/gb raycast da kai / guan bi   r a y c a s t   qi dong qi dakai/guanbi raycast qidongqi d k / g b   r a y c a s t   q d q dk/gb raycast qdq"
+  },
+  {
+    "id": "ray-back",
+    "appId": "raycast",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "返回/从根搜索关闭窗口",
+      "en": "Go back / Close from Root Search"
+    },
+    "description": {
+      "zh": "返回/从根搜索关闭窗口（Esc）",
+      "en": "Go back / Close from Root Search (Esc)"
+    },
+    "windows": "—",
+    "mac": "Esc",
+    "linux": "—",
+    "keywords": [
+      "返回/从根搜索关闭窗口",
+      "Go back / Close from Root Search"
+    ],
+    "pinyin": "fan hui / cong gen sou suo guan bi chuang kou fanhui/conggensousuoguanbichuangkou f h / c g s s g b c k fh/cgssgbck fan hui / cong gen sou suo guan bi chuang kou fanhui/conggensousuoguanbichuangkou f h / c g s s g b c k fh/cgssgbck"
+  },
+  {
+    "id": "ray-poproot",
+    "appId": "raycast",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "弹出到根视图",
+      "en": "Pop to Root"
+    },
+    "description": {
+      "zh": "弹出到根视图（⌘ Esc）",
+      "en": "Pop to Root (⌘ Esc)"
+    },
+    "windows": "—",
+    "mac": "⌘ Esc",
+    "linux": "—",
+    "keywords": [
+      "弹出到根视图",
+      "Pop to Root"
+    ],
+    "pinyin": "tan chu dao gen shi tu tanchudaogenshitu t c d g s t tcdgst tan chu dao gen shi tu tanchudaogenshitu t c d g s t tcdgst"
+  },
+  {
+    "id": "ray-close",
+    "appId": "raycast",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "关闭 Raycast 窗口",
+      "en": "Close Raycast window"
+    },
+    "description": {
+      "zh": "关闭 Raycast 窗口（⌘ W）",
+      "en": "Close Raycast window (⌘ W)"
+    },
+    "windows": "—",
+    "mac": "⌘ W",
+    "linux": "—",
+    "keywords": [
+      "关闭 Raycast 窗口",
+      "Close Raycast window"
+    ],
+    "pinyin": "guan bi   r a y c a s t   chuang kou guanbi raycast chuangkou g b   r a y c a s t   c k gb raycast ck guan bi   r a y c a s t   chuang kou guanbi raycast chuangkou g b   r a y c a s t   c k gb raycast ck"
+  },
+  {
+    "id": "ray-settings",
+    "appId": "raycast",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "打开设置",
+      "en": "Open Settings"
+    },
+    "description": {
+      "zh": "打开设置（⌘ ,）",
+      "en": "Open Settings (⌘ ,)"
+    },
+    "windows": "—",
+    "mac": "⌘ ,",
+    "linux": "—",
+    "keywords": [
+      "打开设置",
+      "Open Settings"
+    ],
+    "pinyin": "da kai she zhi dakaishezhi d k s z dksz da kai she zhi dakaishezhi d k s z dksz"
+  },
+  {
+    "id": "ray-guide",
+    "appId": "raycast",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "打开用户指南",
+      "en": "Open User Guide"
+    },
+    "description": {
+      "zh": "打开用户指南（⌘ ⇧ /）",
+      "en": "Open User Guide (⌘ ⇧ /)"
+    },
+    "windows": "—",
+    "mac": "⌘ ⇧ /",
+    "linux": "—",
+    "keywords": [
+      "打开用户指南",
+      "Open User Guide"
+    ],
+    "pinyin": "da kai yong hu zhi nan dakaiyonghuzhinan d k y h z n dkyhzn da kai yong hu zhi nan dakaiyonghuzhinan d k y h z n dkyhzn"
+  },
+  {
+    "id": "ray-updown",
+    "appId": "raycast",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "在列表中上下移动",
+      "en": "Move up/down in list"
+    },
+    "description": {
+      "zh": "在列表中上下移动（↑ ↓）",
+      "en": "Move up/down in list (↑ ↓)"
+    },
+    "windows": "—",
+    "mac": "↑ ↓",
+    "linux": "—",
+    "keywords": [
+      "在列表中上下移动",
+      "Move up/down in list"
+    ],
+    "pinyin": "zai lie biao zhong shang xia yi dong zailiebiaozhongshangxiayidong z l b z s x y d zlbzsxyd zai lie biao zhong shang xia yi dong zailiebiaozhongshangxiayidong z l b z s x y d zlbzsxyd"
+  },
+  {
+    "id": "ray-page",
+    "appId": "raycast",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "跳到上一/下一页结果",
+      "en": "Jump to prev/next page"
+    },
+    "description": {
+      "zh": "跳到上一/下一页结果（⌥ ↑ / ⌥ ↓）",
+      "en": "Jump to prev/next page (⌥ ↑ / ⌥ ↓)"
+    },
+    "windows": "—",
+    "mac": "⌥ ↑ / ⌥ ↓",
+    "linux": "—",
+    "keywords": [
+      "跳到上一/下一页结果",
+      "Jump to prev/next page"
+    ],
+    "pinyin": "tiao dao shang yi / xia yi ye jie guo tiaodaoshangyi/xiayiyejieguo t d s y / x y y j g tdsy/xyyjg tiao dao shang yi / xia yi ye jie guo tiaodaoshangyi/xiayiyejieguo t d s y / x y y j g tdsy/xyyjg"
+  },
+  {
+    "id": "ray-section",
+    "appId": "raycast",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "跳到上一/下一分区",
+      "en": "Jump to prev/next section"
+    },
+    "description": {
+      "zh": "跳到上一/下一分区（⌘ ↑ / ⌘ ↓）",
+      "en": "Jump to prev/next section (⌘ ↑ / ⌘ ↓)"
+    },
+    "windows": "—",
+    "mac": "⌘ ↑ / ⌘ ↓",
+    "linux": "—",
+    "keywords": [
+      "跳到上一/下一分区",
+      "Jump to prev/next section"
+    ],
+    "pinyin": "tiao dao shang yi / xia yi fen qu tiaodaoshangyi/xiayifenqu t d s y / x y f q tdsy/xyfq tiao dao shang yi / xia yi fen qu tiaodaoshangyi/xiayifenqu t d s y / x y f q tdsy/xyfq"
+  },
+  {
+    "id": "ray-run",
+    "appId": "raycast",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "运行主操作",
+      "en": "Run primary action"
+    },
+    "description": {
+      "zh": "运行主操作（↵）",
+      "en": "Run primary action (↵)"
+    },
+    "windows": "—",
+    "mac": "↵",
+    "linux": "—",
+    "keywords": [
+      "运行主操作",
+      "Run primary action"
+    ],
+    "pinyin": "yun xing zhu cao zuo yunxingzhucaozuo y x z c z yxzcz yun xing zhu cao zuo yunxingzhucaozuo y x z c z yxzcz"
+  },
+  {
+    "id": "ray-actionpanel",
+    "appId": "raycast",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "打开操作面板",
+      "en": "Open Action Panel"
+    },
+    "description": {
+      "zh": "打开操作面板（⌘ K）",
+      "en": "Open Action Panel (⌘ K)"
+    },
+    "windows": "—",
+    "mac": "⌘ K",
+    "linux": "—",
+    "keywords": [
+      "打开操作面板",
+      "Open Action Panel"
+    ],
+    "pinyin": "da kai cao zuo mian ban dakaicaozuomianban d k c z m b dkczmb da kai cao zuo mian ban dakaicaozuomianban d k c z m b dkczmb"
+  },
+  {
+    "id": "ray-parent",
+    "appId": "raycast",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "导航到父目录",
+      "en": "Navigate to parent directory"
+    },
+    "description": {
+      "zh": "导航到父目录（⇧ Tab）",
+      "en": "Navigate to parent directory (⇧ Tab)"
+    },
+    "windows": "—",
+    "mac": "⇧ Tab",
+    "linux": "—",
+    "keywords": [
+      "导航到父目录",
+      "Navigate to parent directory"
+    ],
+    "pinyin": "dao hang dao fu mu lu daohangdaofumulu d h d f m l dhdfml dao hang dao fu mu lu daohangdaofumulu d h d f m l dhdfml"
+  },
+  {
+    "id": "ray-fav",
+    "appId": "raycast",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "添加到收藏",
+      "en": "Add to Favorites"
+    },
+    "description": {
+      "zh": "添加到收藏（⌘ F）",
+      "en": "Add to Favorites (⌘ F)"
+    },
+    "windows": "—",
+    "mac": "⌘ F",
+    "linux": "—",
+    "keywords": [
+      "添加到收藏",
+      "Add to Favorites"
+    ],
+    "pinyin": "tian jia dao shou cang tianjiadaoshoucang t j d s c tjdsc tian jia dao shou cang tianjiadaoshoucang t j d s c tjdsc"
+  },
+  {
+    "id": "ray-favmove",
+    "appId": "raycast",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "上/下移动收藏项",
+      "en": "Move favorite up/down"
+    },
+    "description": {
+      "zh": "上/下移动收藏项（⌘ ⇧ ↑ / ⌘ ⇧ ↓）",
+      "en": "Move favorite up/down (⌘ ⇧ ↑ / ⌘ ⇧ ↓)"
+    },
+    "windows": "—",
+    "mac": "⌘ ⇧ ↑ / ⌘ ⇧ ↓",
+    "linux": "—",
+    "keywords": [
+      "上/下移动收藏项",
+      "Move favorite up/down"
+    ],
+    "pinyin": "shang / xia yi dong shou cang xiang shang/xiayidongshoucangxiang s / x y d s c x s/xydscx shang / xia yi dong shou cang xiang shang/xiayidongshoucangxiang s / x y d s c x s/xydscx"
+  },
+  {
+    "id": "ray-cfgcmd",
+    "appId": "raycast",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "配置命令",
+      "en": "Configure Command"
+    },
+    "description": {
+      "zh": "配置命令（⌘ ,）",
+      "en": "Configure Command (⌘ ,)"
+    },
+    "windows": "—",
+    "mac": "⌘ ,",
+    "linux": "—",
+    "keywords": [
+      "配置命令",
+      "Configure Command"
+    ],
+    "pinyin": "pei zhi ming ling peizhimingling p z m l pzml pei zhi ming ling peizhimingling p z m l pzml"
+  },
+  {
+    "id": "ray-cfgext",
+    "appId": "raycast",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "配置扩展",
+      "en": "Configure Extension"
+    },
+    "description": {
+      "zh": "配置扩展（⌘ ⇧ ,）",
+      "en": "Configure Extension (⌘ ⇧ ,)"
+    },
+    "windows": "—",
+    "mac": "⌘ ⇧ ,",
+    "linux": "—",
+    "keywords": [
+      "配置扩展",
+      "Configure Extension"
+    ],
+    "pinyin": "pei zhi kuo zhan peizhikuozhan p z k z pzkz pei zhi kuo zhan peizhikuozhan p z k z pzkz"
+  },
+  {
+    "id": "ray-disable",
+    "appId": "raycast",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "禁用命令",
+      "en": "Disable Command"
+    },
+    "description": {
+      "zh": "禁用命令（⌘ ⇧ D）",
+      "en": "Disable Command (⌘ ⇧ D)"
+    },
+    "windows": "—",
+    "mac": "⌘ ⇧ D",
+    "linux": "—",
+    "keywords": [
+      "禁用命令",
+      "Disable Command"
+    ],
+    "pinyin": "jin yong ming ling jinyongmingling j y m l jyml jin yong ming ling jinyongmingling j y m l jyml"
+  },
+  {
+    "id": "ray-secondary",
+    "appId": "raycast",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "执行次要操作",
+      "en": "Execute secondary action"
+    },
+    "description": {
+      "zh": "执行次要操作（⌘ ↵）",
+      "en": "Execute secondary action (⌘ ↵)"
+    },
+    "windows": "—",
+    "mac": "⌘ ↵",
+    "linux": "—",
+    "keywords": [
+      "执行次要操作",
+      "Execute secondary action"
+    ],
+    "pinyin": "zhi xing ci yao cao zuo zhixingciyaocaozuo z x c y c z zxcycz zhi xing ci yao cao zuo zhixingciyaocaozuo z x c y c z zxcycz"
+  },
+  {
+    "id": "ray-tertiary",
+    "appId": "raycast",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "执行第三操作",
+      "en": "Execute tertiary action"
+    },
+    "description": {
+      "zh": "执行第三操作（⌘ ⇧ ↵）",
+      "en": "Execute tertiary action (⌘ ⇧ ↵)"
+    },
+    "windows": "—",
+    "mac": "⌘ ⇧ ↵",
+    "linux": "—",
+    "keywords": [
+      "执行第三操作",
+      "Execute tertiary action"
+    ],
+    "pinyin": "zhi xing di san cao zuo zhixingdisancaozuo z x d s c z zxdscz zhi xing di san cao zuo zhixingdisancaozuo z x d s c z zxdscz"
+  },
+  {
+    "id": "ray-openitem",
+    "appId": "raycast",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "打开项目",
+      "en": "Open item"
+    },
+    "description": {
+      "zh": "打开项目（⌘ O）",
+      "en": "Open item (⌘ O)"
+    },
+    "windows": "—",
+    "mac": "⌘ O",
+    "linux": "—",
+    "keywords": [
+      "打开项目",
+      "Open item"
+    ],
+    "pinyin": "da kai xiang mu dakaixiangmu d k x m dkxm da kai xiang mu dakaixiangmu d k x m dkxm"
+  },
+  {
+    "id": "ray-reveal",
+    "appId": "raycast",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "在 Finder 中显示",
+      "en": "Reveal in Finder"
+    },
+    "description": {
+      "zh": "在 Finder 中显示（⌘ ⇧ O）",
+      "en": "Reveal in Finder (⌘ ⇧ O)"
+    },
+    "windows": "—",
+    "mac": "⌘ ⇧ O",
+    "linux": "—",
+    "keywords": [
+      "在 Finder 中显示",
+      "Reveal in Finder"
+    ],
+    "pinyin": "zai   f i n d e r   zhong xian shi zai finder zhongxianshi z   f i n d e r   z x s z finder zxs zai   f i n d e r   zhong xian shi zai finder zhongxianshi z   f i n d e r   z x s z finder zxs"
+  },
+  {
+    "id": "ray-openwith",
+    "appId": "raycast",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "打开方式",
+      "en": "Open With"
+    },
+    "description": {
+      "zh": "打开方式（⌘ ⌥ O）",
+      "en": "Open With (⌘ ⌥ O)"
+    },
+    "windows": "—",
+    "mac": "⌘ ⌥ O",
+    "linux": "—",
+    "keywords": [
+      "打开方式",
+      "Open With"
+    ],
+    "pinyin": "da kai fang shi dakaifangshi d k f s dkfs da kai fang shi dakaifangshi d k f s dkfs"
+  },
+  {
+    "id": "ray-quicklook",
+    "appId": "raycast",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "切换快速预览",
+      "en": "Toggle Quick Look"
+    },
+    "description": {
+      "zh": "切换快速预览（⌘ Y）",
+      "en": "Toggle Quick Look (⌘ Y)"
+    },
+    "windows": "—",
+    "mac": "⌘ Y",
+    "linux": "—",
+    "keywords": [
+      "切换快速预览",
+      "Toggle Quick Look"
+    ],
+    "pinyin": "qie huan kuai su yu lan qiehuankuaisuyulan q h k s y l qhksyl qie huan kuai su yu lan qiehuankuaisuyulan q h k s y l qhksyl"
+  },
+  {
+    "id": "ray-edit",
+    "appId": "raycast",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "编辑项目",
+      "en": "Edit item"
+    },
+    "description": {
+      "zh": "编辑项目（⌘ E）",
+      "en": "Edit item (⌘ E)"
+    },
+    "windows": "—",
+    "mac": "⌘ E",
+    "linux": "—",
+    "keywords": [
+      "编辑项目",
+      "Edit item"
+    ],
+    "pinyin": "bian ji xiang mu bianjixiangmu b j x m bjxm bian ji xiang mu bianjixiangmu b j x m bjxm"
+  },
+  {
+    "id": "ray-info",
+    "appId": "raycast",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "显示信息",
+      "en": "Show info"
+    },
+    "description": {
+      "zh": "显示信息（⌘ I）",
+      "en": "Show info (⌘ I)"
+    },
+    "windows": "—",
+    "mac": "⌘ I",
+    "linux": "—",
+    "keywords": [
+      "显示信息",
+      "Show info"
+    ],
+    "pinyin": "xian shi xin xi xianshixinxi x s x x xsxx xian shi xin xi xianshixinxi x s x x xsxx"
+  },
+  {
+    "id": "ray-dup",
+    "appId": "raycast",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "复制项目",
+      "en": "Duplicate item"
+    },
+    "description": {
+      "zh": "复制项目（⌘ D）",
+      "en": "Duplicate item (⌘ D)"
+    },
+    "windows": "—",
+    "mac": "⌘ D",
+    "linux": "—",
+    "keywords": [
+      "复制项目",
+      "Duplicate item"
+    ],
+    "pinyin": "fu zhi xiang mu fuzhixiangmu f z x m fzxm fu zhi xiang mu fuzhixiangmu f z x m fzxm"
+  },
+  {
+    "id": "ray-pin",
+    "appId": "raycast",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "固定/取消固定",
+      "en": "Pin or unpin"
+    },
+    "description": {
+      "zh": "固定/取消固定（⌘ .）",
+      "en": "Pin or unpin (⌘ .)"
+    },
+    "windows": "—",
+    "mac": "⌘ .",
+    "linux": "—",
+    "keywords": [
+      "固定/取消固定",
+      "Pin or unpin"
+    ],
+    "pinyin": "gu ding / qu xiao gu ding guding/quxiaoguding g d / q x g d gd/qxgd gu ding / qu xiao gu ding guding/quxiaoguding g d / q x g d gd/qxgd"
+  },
+  {
+    "id": "ray-hidden",
+    "appId": "raycast",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "显示隐藏项目",
+      "en": "Show hidden items"
+    },
+    "description": {
+      "zh": "显示隐藏项目（⌘ ⇧ .）",
+      "en": "Show hidden items (⌘ ⇧ .)"
+    },
+    "windows": "—",
+    "mac": "⌘ ⇧ .",
+    "linux": "—",
+    "keywords": [
+      "显示隐藏项目",
+      "Show hidden items"
+    ],
+    "pinyin": "xian shi yin cang xiang mu xianshiyincangxiangmu x s y c x m xsycxm xian shi yin cang xiang mu xianshiyincangxiangmu x s y c x m xsycxm"
+  },
+  {
+    "id": "ray-copy",
+    "appId": "raycast",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "复制",
+      "en": "Copy"
+    },
+    "description": {
+      "zh": "复制（⌘ C）",
+      "en": "Copy (⌘ C)"
+    },
+    "windows": "—",
+    "mac": "⌘ C",
+    "linux": "—",
+    "keywords": [
+      "复制",
+      "Copy"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "ray-copy2",
+    "appId": "raycast",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "复制次要内容",
+      "en": "Copy secondary"
+    },
+    "description": {
+      "zh": "复制次要内容（⌘ ⇧ C）",
+      "en": "Copy secondary (⌘ ⇧ C)"
+    },
+    "windows": "—",
+    "mac": "⌘ ⇧ C",
+    "linux": "—",
+    "keywords": [
+      "复制次要内容",
+      "Copy secondary"
+    ],
+    "pinyin": "fu zhi ci yao nei rong fuzhiciyaoneirong f z c y n r fzcynr fu zhi ci yao nei rong fuzhiciyaoneirong f z c y n r fzcynr"
+  },
+  {
+    "id": "ray-paste",
+    "appId": "raycast",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "粘贴",
+      "en": "Paste"
+    },
+    "description": {
+      "zh": "粘贴（⌘ V）",
+      "en": "Paste (⌘ V)"
+    },
+    "windows": "—",
+    "mac": "⌘ V",
+    "linux": "—",
+    "keywords": [
+      "粘贴",
+      "Paste"
+    ],
+    "pinyin": "nian tie niantie n t nt nian tie niantie n t nt"
+  },
+  {
+    "id": "ray-paste2",
+    "appId": "raycast",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "粘贴次要内容",
+      "en": "Paste secondary"
+    },
+    "description": {
+      "zh": "粘贴次要内容（⌘ ⇧ V）",
+      "en": "Paste secondary (⌘ ⇧ V)"
+    },
+    "windows": "—",
+    "mac": "⌘ ⇧ V",
+    "linux": "—",
+    "keywords": [
+      "粘贴次要内容",
+      "Paste secondary"
+    ],
+    "pinyin": "nian tie ci yao nei rong niantieciyaoneirong n t c y n r ntcynr nian tie ci yao nei rong niantieciyaoneirong n t c y n r ntcynr"
+  },
+  {
+    "id": "ray-del",
+    "appId": "raycast",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "删除所选项目",
+      "en": "Delete selected item"
+    },
+    "description": {
+      "zh": "删除所选项目（⌃ X）",
+      "en": "Delete selected item (⌃ X)"
+    },
+    "windows": "—",
+    "mac": "⌃ X",
+    "linux": "—",
+    "keywords": [
+      "删除所选项目",
+      "Delete selected item"
+    ],
+    "pinyin": "shan chu suo xuan xiang mu shanchusuoxuanxiangmu s c s x x m scsxxm shan chu suo xuan xiang mu shanchusuoxuanxiangmu s c s x x m scsxxm"
+  },
+  {
+    "id": "ray-delall",
+    "appId": "raycast",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "删除全部",
+      "en": "Delete all"
+    },
+    "description": {
+      "zh": "删除全部（⌃ ⇧ X）",
+      "en": "Delete all (⌃ ⇧ X)"
+    },
+    "windows": "—",
+    "mac": "⌃ ⇧ X",
+    "linux": "—",
+    "keywords": [
+      "删除全部",
+      "Delete all"
+    ],
+    "pinyin": "shan chu quan bu shanchuquanbu s c q b scqb shan chu quan bu shanchuquanbu s c q b scqb"
+  },
+  {
+    "id": "ray-chatsidebar",
+    "appId": "raycast",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "切换聊天历史侧栏",
+      "en": "Toggle chat history sidebar"
+    },
+    "description": {
+      "zh": "切换聊天历史侧栏（⌘ ⇧ S）",
+      "en": "Toggle chat history sidebar (⌘ ⇧ S)"
+    },
+    "windows": "—",
+    "mac": "⌘ ⇧ S",
+    "linux": "—",
+    "keywords": [
+      "切换聊天历史侧栏",
+      "Toggle chat history sidebar"
+    ],
+    "pinyin": "qie huan liao tian li shi ce lan qiehuanliaotianlishicelan q h l t l s c l qhltlscl qie huan liao tian li shi ce lan qiehuanliaotianlishicelan q h l t l s c l qhltlscl"
+  },
+  {
+    "id": "ray-searchchats",
+    "appId": "raycast",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "搜索聊天",
+      "en": "Search chats"
+    },
+    "description": {
+      "zh": "搜索聊天（⌘ ⇧ F）",
+      "en": "Search chats (⌘ ⇧ F)"
+    },
+    "windows": "—",
+    "mac": "⌘ ⇧ F",
+    "linux": "—",
+    "keywords": [
+      "搜索聊天",
+      "Search chats"
+    ],
+    "pinyin": "sou suo liao tian sousuoliaotian s s l t sslt sou suo liao tian sousuoliaotian s s l t sslt"
+  },
+  {
+    "id": "ray-sendai",
+    "appId": "raycast",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "发送到 AI 聊天",
+      "en": "Send to AI Chat"
+    },
+    "description": {
+      "zh": "发送到 AI 聊天（⌘ J）",
+      "en": "Send to AI Chat (⌘ J)"
+    },
+    "windows": "—",
+    "mac": "⌘ J",
+    "linux": "—",
+    "keywords": [
+      "发送到 AI 聊天",
+      "Send to AI Chat"
+    ],
+    "pinyin": "fa song dao   a i   liao tian fasongdao ai liaotian f s d   a i   l t fsd ai lt fa song dao   a i   liao tian fasongdao ai liaotian f s d   a i   l t fsd ai lt"
+  },
+  {
+    "id": "ray-attach",
+    "appId": "raycast",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "添加附件",
+      "en": "Add attachment"
+    },
+    "description": {
+      "zh": "添加附件（⌘ ⇧ A）",
+      "en": "Add attachment (⌘ ⇧ A)"
+    },
+    "windows": "—",
+    "mac": "⌘ ⇧ A",
+    "linux": "—",
+    "keywords": [
+      "添加附件",
+      "Add attachment"
+    ],
+    "pinyin": "tian jia fu jian tianjiafujian t j f j tjfj tian jia fu jian tianjiafujian t j f j tjfj"
+  },
+  {
+    "id": "ray-branch",
+    "appId": "raycast",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "从消息分支聊天",
+      "en": "Branch chat"
+    },
+    "description": {
+      "zh": "从消息分支聊天（⌘ ⇧ B）",
+      "en": "Branch chat (⌘ ⇧ B)"
+    },
+    "windows": "—",
+    "mac": "⌘ ⇧ B",
+    "linux": "—",
+    "keywords": [
+      "从消息分支聊天",
+      "Branch chat"
+    ],
+    "pinyin": "cong xiao xi fen zhi liao tian congxiaoxifenzhiliaotian c x x f z l t cxxfzlt cong xiao xi fen zhi liao tian congxiaoxifenzhiliaotian c x x f z l t cxxfzlt"
+  },
+  {
+    "id": "ray-aimodel",
+    "appId": "raycast",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "切换 AI 模型",
+      "en": "Change AI model"
+    },
+    "description": {
+      "zh": "切换 AI 模型（⌘ ⇧ M）",
+      "en": "Change AI model (⌘ ⇧ M)"
+    },
+    "windows": "—",
+    "mac": "⌘ ⇧ M",
+    "linux": "—",
+    "keywords": [
+      "切换 AI 模型",
+      "Change AI model"
+    ],
+    "pinyin": "qie huan   a i   mo xing qiehuan ai moxing q h   a i   m x qh ai mx qie huan   a i   mo xing qiehuan ai moxing q h   a i   m x qh ai mx"
+  },
+  {
+    "id": "ray-creativity",
+    "appId": "raycast",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "切换创造力级别",
+      "en": "Change creativity level"
+    },
+    "description": {
+      "zh": "切换创造力级别（⌘ ⇧ Y）",
+      "en": "Change creativity level (⌘ ⇧ Y)"
+    },
+    "windows": "—",
+    "mac": "⌘ ⇧ Y",
+    "linux": "—",
+    "keywords": [
+      "切换创造力级别",
+      "Change creativity level"
+    ],
+    "pinyin": "qie huan chuang zao li ji bie qiehuanchuangzaolijibie q h c z l j b qhczljb qie huan chuang zao li ji bie qiehuanchuangzaolijibie q h c z l j b qhczljb"
+  },
+  {
+    "id": "ray-reasoning",
+    "appId": "raycast",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "切换推理强度",
+      "en": "Change reasoning effort"
+    },
+    "description": {
+      "zh": "切换推理强度（⌘ ⇧ U）",
+      "en": "Change reasoning effort (⌘ ⇧ U)"
+    },
+    "windows": "—",
+    "mac": "⌘ ⇧ U",
+    "linux": "—",
+    "keywords": [
+      "切换推理强度",
+      "Change reasoning effort"
+    ],
+    "pinyin": "qie huan tui li qiang du qiehuantuiliqiangdu q h t l q d qhtlqd qie huan tui li qiang du qiehuantuiliqiangdu q h t l q d qhtlqd"
+  },
+  {
+    "id": "ray-archive",
+    "appId": "raycast",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "归档聊天",
+      "en": "Archive chat"
+    },
+    "description": {
+      "zh": "归档聊天（⌘ ⌥ A）",
+      "en": "Archive chat (⌘ ⌥ A)"
+    },
+    "windows": "—",
+    "mac": "⌘ ⌥ A",
+    "linux": "—",
+    "keywords": [
+      "归档聊天",
+      "Archive chat"
+    ],
+    "pinyin": "gui dang liao tian guidangliaotian g d l t gdlt gui dang liao tian guidangliaotian g d l t gdlt"
+  },
+  {
+    "id": "ray-folder",
+    "appId": "raycast",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "创建文件夹",
+      "en": "Create folder"
+    },
+    "description": {
+      "zh": "创建文件夹（⌘ ⌃ N）",
+      "en": "Create folder (⌘ ⌃ N)"
+    },
+    "windows": "—",
+    "mac": "⌘ ⌃ N",
+    "linux": "—",
+    "keywords": [
+      "创建文件夹",
+      "Create folder"
+    ],
+    "pinyin": "chuang jian wen jian jia chuangjianwenjianjia c j w j j cjwjj chuang jian wen jian jia chuangjianwenjianjia c j w j j cjwjj"
+  },
+  {
+    "id": "ray-moveto",
+    "appId": "raycast",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "移动到文件夹",
+      "en": "Move to folder"
+    },
+    "description": {
+      "zh": "移动到文件夹（⌘ ⌃ M）",
+      "en": "Move to folder (⌘ ⌃ M)"
+    },
+    "windows": "—",
+    "mac": "⌘ ⌃ M",
+    "linux": "—",
+    "keywords": [
+      "移动到文件夹",
+      "Move to folder"
+    ],
+    "pinyin": "yi dong dao wen jian jia yidongdaowenjianjia y d d w j j yddwjj yi dong dao wen jian jia yidongdaowenjianjia y d d w j j yddwjj"
+  }
+]

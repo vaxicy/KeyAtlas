@@ -1,1 +1,1634 @@
-[{"id":"krita-new","appId":"krita","type":"software","category":"design","name":{"zh":"新建","en":"New"},"description":{"zh":"新建","en":"New"},"windows":"Ctrl N","mac":"Ctrl N","linux":"Ctrl N","keywords":["新建","New"],"pinyin":"xin jian xinjian x j xj xin jian xinjian x j xj"},{"id":"krita-open","appId":"krita","type":"software","category":"design","name":{"zh":"打开","en":"Open"},"description":{"zh":"打开","en":"Open"},"windows":"Ctrl O","mac":"Ctrl O","linux":"Ctrl O","keywords":["打开","Open"],"pinyin":"da kai dakai d k dk da kai dakai d k dk"},{"id":"krita-save","appId":"krita","type":"software","category":"design","name":{"zh":"保存","en":"Save"},"description":{"zh":"保存","en":"Save"},"windows":"Ctrl S","mac":"Ctrl S","linux":"Ctrl S","keywords":["保存","Save"],"pinyin":"bao cun baocun b c bc bao cun baocun b c bc"},{"id":"krita-saveas","appId":"krita","type":"software","category":"design","name":{"zh":"另存为","en":"Save As"},"description":{"zh":"另存为","en":"Save As"},"windows":"Ctrl Shift S","mac":"Ctrl Shift S","linux":"Ctrl Shift S","keywords":["另存为","Save As"],"pinyin":"ling cun wei lingcunwei l c w lcw ling cun wei lingcunwei l c w lcw"},{"id":"krita-saveinc","appId":"krita","type":"software","category":"design","name":{"zh":"增量保存","en":"Save Incremental"},"description":{"zh":"增量保存","en":"Save Incremental"},"windows":"Ctrl Alt S","mac":"Ctrl Alt S","linux":"Ctrl Alt S","keywords":["增量保存","Save Incremental"],"pinyin":"zeng liang bao cun zengliangbaocun z l b c zlbc zeng liang bao cun zengliangbaocun z l b c zlbc"},{"id":"krita-saveincbak","appId":"krita","type":"software","category":"design","name":{"zh":"增量备份","en":"Save Incremental Backup"},"description":{"zh":"增量备份","en":"Save Incremental Backup"},"windows":"F4","mac":"F4","linux":"F4","keywords":["增量备份","Save Incremental Backup"],"pinyin":"zeng liang bei fen zengliangbeifen z l b f zlbf zeng liang bei fen zengliangbeifen z l b f zlbf"},{"id":"krita-close","appId":"krita","type":"software","category":"design","name":{"zh":"关闭","en":"Close"},"description":{"zh":"关闭","en":"Close"},"windows":"Ctrl W","mac":"Ctrl W","linux":"Ctrl W","keywords":["关闭","Close"],"pinyin":"guan bi guanbi g b gb guan bi guanbi g b gb"},{"id":"krita-closeall","appId":"krita","type":"software","category":"design","name":{"zh":"关闭全部","en":"Close All"},"description":{"zh":"关闭全部","en":"Close All"},"windows":"Ctrl Shift W","mac":"Ctrl Shift W","linux":"Ctrl Shift W","keywords":["关闭全部","Close All"],"pinyin":"guan bi quan bu guanbiquanbu g b q b gbqb guan bi quan bu guanbiquanbu g b q b gbqb"},{"id":"krita-quit","appId":"krita","type":"software","category":"design","name":{"zh":"退出","en":"Quit"},"description":{"zh":"退出","en":"Quit"},"windows":"Ctrl Q","mac":"Ctrl Q","linux":"Ctrl Q","keywords":["退出","Quit"],"pinyin":"tui chu tuichu t c tc tui chu tuichu t c tc"},{"id":"krita-undo","appId":"krita","type":"software","category":"design","name":{"zh":"撤销","en":"Undo"},"description":{"zh":"撤销","en":"Undo"},"windows":"Ctrl Z","mac":"Ctrl Z","linux":"Ctrl Z","keywords":["撤销","Undo"],"pinyin":"che xiao chexiao c x cx che xiao chexiao c x cx"},{"id":"krita-redo","appId":"krita","type":"software","category":"design","name":{"zh":"重做","en":"Redo"},"description":{"zh":"重做","en":"Redo"},"windows":"Ctrl Shift Z","mac":"Ctrl Shift Z","linux":"Ctrl Shift Z","keywords":["重做","Redo"],"pinyin":"zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"},{"id":"krita-cut","appId":"krita","type":"software","category":"design","name":{"zh":"剪切","en":"Cut"},"description":{"zh":"剪切","en":"Cut"},"windows":"Ctrl X","mac":"Ctrl X","linux":"Ctrl X","keywords":["剪切","Cut"],"pinyin":"jian qie jianqie j q jq jian qie jianqie j q jq"},{"id":"krita-copy","appId":"krita","type":"software","category":"design","name":{"zh":"复制","en":"Copy"},"description":{"zh":"复制","en":"Copy"},"windows":"Ctrl C","mac":"Ctrl C","linux":"Ctrl C","keywords":["复制","Copy"],"pinyin":"fu zhi fuzhi f z fz fu zhi fuzhi f z fz"},{"id":"krita-copymerged","appId":"krita","type":"software","category":"design","name":{"zh":"合并复制","en":"Copy Merged"},"description":{"zh":"合并复制","en":"Copy Merged"},"windows":"Ctrl Shift C","mac":"Ctrl Shift C","linux":"Ctrl Shift C","keywords":["合并复制","Copy Merged"],"pinyin":"he bing fu zhi hebingfuzhi h b f z hbfz he bing fu zhi hebingfuzhi h b f z hbfz"},{"id":"krita-paste","appId":"krita","type":"software","category":"design","name":{"zh":"粘贴","en":"Paste"},"description":{"zh":"粘贴","en":"Paste"},"windows":"Ctrl V","mac":"Ctrl V","linux":"Ctrl V","keywords":["粘贴","Paste"],"pinyin":"nian tie niantie n t nt nian tie niantie n t nt"},{"id":"krita-pastenew","appId":"krita","type":"software","category":"design","name":{"zh":"粘贴为新图像","en":"Paste into New Image"},"description":{"zh":"粘贴为新图像","en":"Paste into New Image"},"windows":"Ctrl Shift N","mac":"Ctrl Shift N","linux":"Ctrl Shift N","keywords":["粘贴为新图像","Paste into New Image"],"pinyin":"nian tie wei xin tu xiang niantieweixintuxiang n t w x t x ntwxtx nian tie wei xin tu xiang niantieweixintuxiang n t w x t x ntwxtx"},{"id":"krita-pasteref","appId":"krita","type":"software","category":"design","name":{"zh":"粘贴为参考图","en":"Paste as Reference Image"},"description":{"zh":"粘贴为参考图","en":"Paste as Reference Image"},"windows":"Ctrl Shift R","mac":"Ctrl Shift R","linux":"Ctrl Shift R","keywords":["粘贴为参考图","Paste as Reference Image"],"pinyin":"nian tie wei can kao tu niantieweicankaotu n t w c k t ntwckt nian tie wei can kao tu niantieweicankaotu n t w c k t ntwckt"},{"id":"krita-clear","appId":"krita","type":"software","category":"design","name":{"zh":"清除","en":"Clear"},"description":{"zh":"清除","en":"Clear"},"windows":"Delete","mac":"Delete","linux":"Delete","keywords":["清除","Clear"],"pinyin":"qing chu qingchu q c qc qing chu qingchu q c qc"},{"id":"krita-brush","appId":"krita","type":"software","category":"design","name":{"zh":"自由画笔工具","en":"Freehand Brush Tool"},"description":{"zh":"自由画笔工具","en":"Freehand Brush Tool"},"windows":"B","mac":"B","linux":"B","keywords":["自由画笔工具","Freehand Brush Tool"],"pinyin":"zi you hua bi gong ju ziyouhuabigongju z y h b g j zyhbgj zi you hua bi gong ju ziyouhuabigongju z y h b g j zyhbgj"},{"id":"krita-multibrush","appId":"krita","type":"software","category":"design","name":{"zh":"多重画笔工具","en":"Multi-Brush Tool"},"description":{"zh":"多重画笔工具","en":"Multi-Brush Tool"},"windows":"Q","mac":"Q","linux":"Q","keywords":["多重画笔工具","Multi-Brush Tool"],"pinyin":"duo chong hua bi gong ju duochonghuabigongju d c h b g j dchbgj duo chong hua bi gong ju duochonghuabigongju d c h b g j dchbgj"},{"id":"krita-move","appId":"krita","type":"software","category":"design","name":{"zh":"移动工具","en":"Move Tool"},"description":{"zh":"移动工具","en":"Move Tool"},"windows":"T","mac":"T","linux":"T","keywords":["移动工具","Move Tool"],"pinyin":"yi dong gong ju yidonggongju y d g j ydgj yi dong gong ju yidonggongju y d g j ydgj"},{"id":"krita-crop","appId":"krita","type":"software","category":"design","name":{"zh":"裁剪工具","en":"Crop Tool"},"description":{"zh":"裁剪工具","en":"Crop Tool"},"windows":"C","mac":"C","linux":"C","keywords":["裁剪工具","Crop Tool"],"pinyin":"cai jian gong ju caijiangongju c j g j cjgj cai jian gong ju caijiangongju c j g j cjgj"},{"id":"krita-transform","appId":"krita","type":"software","category":"design","name":{"zh":"变换工具","en":"Transform Tool"},"description":{"zh":"变换工具","en":"Transform Tool"},"windows":"Ctrl T","mac":"Ctrl T","linux":"Ctrl T","keywords":["变换工具","Transform Tool"],"pinyin":"bian huan gong ju bianhuangongju b h g j bhgj bian huan gong ju bianhuangongju b h g j bhgj"},{"id":"krita-gradient","appId":"krita","type":"software","category":"design","name":{"zh":"渐变工具","en":"Gradient Tool"},"description":{"zh":"渐变工具","en":"Gradient Tool"},"windows":"G","mac":"G","linux":"G","keywords":["渐变工具","Gradient Tool"],"pinyin":"jian bian gong ju jianbiangongju j b g j jbgj jian bian gong ju jianbiangongju j b g j jbgj"},{"id":"krita-eraser","appId":"krita","type":"software","category":"design","name":{"zh":"橡皮模式","en":"Eraser Mode"},"description":{"zh":"橡皮模式","en":"Eraser Mode"},"windows":"E","mac":"E","linux":"E","keywords":["橡皮模式","Eraser Mode"],"pinyin":"xiang pi mo shi xiangpimoshi x p m s xpms xiang pi mo shi xiangpimoshi x p m s xpms"},{"id":"krita-colorselect","appId":"krita","type":"software","category":"design","name":{"zh":"颜色选择工具","en":"Color Select Tool"},"description":{"zh":"颜色选择工具","en":"Color Select Tool"},"windows":"P","mac":"P","linux":"P","keywords":["颜色选择工具","Color Select Tool"],"pinyin":"yan se xuan ze gong ju yansexuanzegongju y s x z g j ysxzgj yan se xuan ze gong ju yansexuanzegongju y s x z g j ysxzgj"},{"id":"krita-rectselect","appId":"krita","type":"software","category":"design","name":{"zh":"矩形选择工具","en":"Rectangular Select Tool"},"description":{"zh":"矩形选择工具","en":"Rectangular Select Tool"},"windows":"Ctrl R","mac":"Ctrl R","linux":"Ctrl R","keywords":["矩形选择工具","Rectangular Select Tool"],"pinyin":"ju xing xuan ze gong ju juxingxuanzegongju j x x z g j jxxzgj ju xing xuan ze gong ju juxingxuanzegongju j x x z g j jxxzgj"},{"id":"krita-ellipsesel","appId":"krita","type":"software","category":"design","name":{"zh":"椭圆选择工具","en":"Elliptical Select Tool"},"description":{"zh":"椭圆选择工具","en":"Elliptical Select Tool"},"windows":"J","mac":"J","linux":"J","keywords":["椭圆选择工具","Elliptical Select Tool"],"pinyin":"tuo yuan xuan ze gong ju tuoyuanxuanzegongju t y x z g j tyxzgj tuo yuan xuan ze gong ju tuoyuanxuanzegongju t y x z g j tyxzgj"},{"id":"krita-fill","appId":"krita","type":"software","category":"design","name":{"zh":"填充工具","en":"Fill Tool"},"description":{"zh":"填充工具","en":"Fill Tool"},"windows":"F","mac":"F","linux":"F","keywords":["填充工具","Fill Tool"],"pinyin":"tian chong gong ju tianchonggongju t c g j tcgj tian chong gong ju tianchonggongju t c g j tcgj"},{"id":"krita-mirror","appId":"krita","type":"software","category":"design","name":{"zh":"水平镜像工具","en":"Horizontal Mirror Tool"},"description":{"zh":"水平镜像工具","en":"Horizontal Mirror Tool"},"windows":"M","mac":"M","linux":"M","keywords":["水平镜像工具","Horizontal Mirror Tool"],"pinyin":"shui ping jing xiang gong ju shuipingjingxianggongju s p j x g j spjxgj shui ping jing xiang gong ju shuipingjingxianggongju s p j x g j spjxgj"},{"id":"krita-brushsmall","appId":"krita","type":"software","category":"design","name":{"zh":"减小笔刷大小","en":"Decrease Brush Size"},"description":{"zh":"减小笔刷大小","en":"Decrease Brush Size"},"windows":"[","mac":"[","linux":"[","keywords":["减小笔刷大小","Decrease Brush Size"],"pinyin":"jian xiao bi shua da xiao jianxiaobishuadaxiao j x b s d x jxbsdx jian xiao bi shua da xiao jianxiaobishuadaxiao j x b s d x jxbsdx"},{"id":"krita-brushlarge","appId":"krita","type":"software","category":"design","name":{"zh":"增大笔刷大小","en":"Increase Brush Size"},"description":{"zh":"增大笔刷大小","en":"Increase Brush Size"},"windows":"]","mac":"]","linux":"]","keywords":["增大笔刷大小","Increase Brush Size"],"pinyin":"zeng da bi shua da xiao zengdabishuadaxiao z d b s d x zdbsdx zeng da bi shua da xiao zengdabishuadaxiao z d b s d x zdbsdx"},{"id":"krita-brushopacitydown","appId":"krita","type":"software","category":"design","name":{"zh":"减小笔刷不透明度","en":"Decrease Brush Opacity"},"description":{"zh":"减小笔刷不透明度","en":"Decrease Brush Opacity"},"windows":"I","mac":"I","linux":"I","keywords":["减小笔刷不透明度","Decrease Brush Opacity"],"pinyin":"jian xiao bi shua bu tou ming du jianxiaobishuabutoumingdu j x b s b t m d jxbsbtmd jian xiao bi shua bu tou ming du jianxiaobishuabutoumingdu j x b s b t m d jxbsbtmd"},{"id":"krita-brushopacityup","appId":"krita","type":"software","category":"design","name":{"zh":"增大笔刷不透明度","en":"Increase Brush Opacity"},"description":{"zh":"增大笔刷不透明度","en":"Increase Brush Opacity"},"windows":"O","mac":"O","linux":"O","keywords":["增大笔刷不透明度","Increase Brush Opacity"],"pinyin":"zeng da bi shua bu tou ming du zengdabishuabutoumingdu z d b s b t m d zdbsbtmd zeng da bi shua bu tou ming du zengdabishuabutoumingdu z d b s b t m d zdbsbtmd"},{"id":"krita-newlayer","appId":"krita","type":"software","category":"design","name":{"zh":"新建 Paint 图层","en":"New Paint Layer"},"description":{"zh":"新建 Paint 图层","en":"New Paint Layer"},"windows":"Insert","mac":"Insert","linux":"Insert","keywords":["新建 Paint 图层","New Paint Layer"],"pinyin":"xin jian   p a i n t   tu ceng xinjian paint tuceng x j   p a i n t   t c xj paint tc xin jian   p a i n t   tu ceng xinjian paint tuceng x j   p a i n t   t c xj paint tc"},{"id":"krita-renamelayer","appId":"krita","type":"software","category":"design","name":{"zh":"重命名图层","en":"Rename Current Layer"},"description":{"zh":"重命名图层","en":"Rename Current Layer"},"windows":"F2","mac":"F2","linux":"F2","keywords":["重命名图层","Rename Current Layer"],"pinyin":"zhong ming ming tu ceng zhongmingmingtuceng z m m t c zmmtc zhong ming ming tu ceng zhongmingmingtuceng z m m t c zmmtc"},{"id":"krita-prevlayer","appId":"krita","type":"software","category":"design","name":{"zh":"上一个图层","en":"Activate Previous Layer"},"description":{"zh":"上一个图层","en":"Activate Previous Layer"},"windows":"PageDown","mac":"PageDown","linux":"PageDown","keywords":["上一个图层","Activate Previous Layer"],"pinyin":"shang yi ge tu ceng shangyigetuceng s y g t c sygtc shang yi ge tu ceng shangyigetuceng s y g t c sygtc"},{"id":"krita-nextlayer","appId":"krita","type":"software","category":"design","name":{"zh":"下一个图层","en":"Activate Next Layer"},"description":{"zh":"下一个图层","en":"Activate Next Layer"},"windows":"PageUp","mac":"PageUp","linux":"PageUp","keywords":["下一个图层","Activate Next Layer"],"pinyin":"xia yi ge tu ceng xiayigetuceng x y g t c xygtc xia yi ge tu ceng xiayigetuceng x y g t c xygtc"},{"id":"krita-duplayer","appId":"krita","type":"software","category":"design","name":{"zh":"复制图层","en":"Duplicate Layer"},"description":{"zh":"复制图层","en":"Duplicate Layer"},"windows":"Ctrl J","mac":"Ctrl J","linux":"Ctrl J","keywords":["复制图层","Duplicate Layer"],"pinyin":"fu zhi tu ceng fuzhituceng f z t c fztc fu zhi tu ceng fuzhituceng f z t c fztc"},{"id":"krita-mergedown","appId":"krita","type":"software","category":"design","name":{"zh":"向下合并","en":"Merge Down"},"description":{"zh":"向下合并","en":"Merge Down"},"windows":"Ctrl E","mac":"Ctrl E","linux":"Ctrl E","keywords":["向下合并","Merge Down"],"pinyin":"xiang xia he bing xiangxiahebing x x h b xxhb xiang xia he bing xiangxiahebing x x h b xxhb"},{"id":"krita-flatten","appId":"krita","type":"software","category":"design","name":{"zh":"拼合图像","en":"Flatten All"},"description":{"zh":"拼合图像","en":"Flatten All"},"windows":"Ctrl Shift E","mac":"Ctrl Shift E","linux":"Ctrl Shift E","keywords":["拼合图像","Flatten All"],"pinyin":"pin he tu xiang pinhetuxiang p h t x phtx pin he tu xiang pinhetuxiang p h t x phtx"},{"id":"krita-layergroup","appId":"krita","type":"software","category":"design","name":{"zh":"新建图层组","en":"New Layer Group"},"description":{"zh":"新建图层组","en":"New Layer Group"},"windows":"Ctrl G","mac":"Ctrl G","linux":"Ctrl G","keywords":["新建图层组","New Layer Group"],"pinyin":"xin jian tu ceng zu xinjiantucengzu x j t c z xjtcz xin jian tu ceng zu xinjiantucengzu x j t c z xjtcz"},{"id":"krita-removelayer","appId":"krita","type":"software","category":"design","name":{"zh":"删除图层","en":"Remove Layer"},"description":{"zh":"删除图层","en":"Remove Layer"},"windows":"Shift Delete","mac":"Shift Delete","linux":"Shift Delete","keywords":["删除图层","Remove Layer"],"pinyin":"shan chu tu ceng shanchutuceng s c t c sctc shan chu tu ceng shanchutuceng s c t c sctc"},{"id":"krita-fillfg","appId":"krita","type":"software","category":"design","name":{"zh":"用前景色填充","en":"Fill with FG Colour"},"description":{"zh":"用前景色填充","en":"Fill with FG Colour"},"windows":"Shift Backspace","mac":"Shift Backspace","linux":"Shift Backspace","keywords":["用前景色填充","Fill with FG Colour"],"pinyin":"yong qian jing se tian chong yongqianjingsetianchong y q j s t c yqjstc yong qian jing se tian chong yongqianjingsetianchong y q j s t c yqjstc"},{"id":"krita-fillbg","appId":"krita","type":"software","category":"design","name":{"zh":"用背景色填充","en":"Fill with BG Colour"},"description":{"zh":"用背景色填充","en":"Fill with BG Colour"},"windows":"Backspace","mac":"Backspace","linux":"Backspace","keywords":["用背景色填充","Fill with BG Colour"],"pinyin":"yong bei jing se tian chong yongbeijingsetianchong y b j s t c ybjstc yong bei jing se tian chong yongbeijingsetianchong y b j s t c ybjstc"},{"id":"krita-swapcolor","appId":"krita","type":"software","category":"design","name":{"zh":"交换前景/背景色","en":"Switch FG/BG Color"},"description":{"zh":"交换前景/背景色","en":"Switch FG/BG Color"},"windows":"X","mac":"X","linux":"X","keywords":["交换前景/背景色","Switch FG/BG Color"],"pinyin":"jiao huan qian jing / bei jing se jiaohuanqianjing/beijingse j h q j / b j s jhqj/bjs jiao huan qian jing / bei jing se jiaohuanqianjing/beijingse j h q j / b j s jhqj/bjs"},{"id":"krita-resetcolor","appId":"krita","type":"software","category":"design","name":{"zh":"重置为黑/白","en":"Reset Colors to Black/White"},"description":{"zh":"重置为黑/白","en":"Reset Colors to Black/White"},"windows":"D","mac":"D","linux":"D","keywords":["重置为黑/白","Reset Colors to Black/White"],"pinyin":"zhong zhi wei hei / bai zhongzhiweihei/bai z z w h / b zzwh/b zhong zhi wei hei / bai zhongzhiweihei/bai z z w h / b zzwh/b"},{"id":"krita-darken","appId":"krita","type":"software","category":"design","name":{"zh":"加深颜色","en":"Darken Color"},"description":{"zh":"加深颜色","en":"Darken Color"},"windows":"K","mac":"K","linux":"K","keywords":["加深颜色","Darken Color"],"pinyin":"jia shen yan se jiashenyanse j s y s jsys jia shen yan se jiashenyanse j s y s jsys"},{"id":"krita-lighten","appId":"krita","type":"software","category":"design","name":{"zh":"减淡颜色","en":"Lighten Color"},"description":{"zh":"减淡颜色","en":"Lighten Color"},"windows":"L","mac":"L","linux":"L","keywords":["减淡颜色","Lighten Color"],"pinyin":"jian dan yan se jiandanyanse j d y s jdys jian dan yan se jiandanyanse j d y s jdys"},{"id":"krita-desaturate","appId":"krita","type":"software","category":"design","name":{"zh":"去色","en":"Desaturate"},"description":{"zh":"去色","en":"Desaturate"},"windows":"Ctrl Shift U","mac":"Ctrl Shift U","linux":"Ctrl Shift U","keywords":["去色","Desaturate"],"pinyin":"qu se quse q s qs qu se quse q s qs"},{"id":"krita-showcolor","appId":"krita","type":"software","category":"design","name":{"zh":"显示常用颜色","en":"Show Common Color"},"description":{"zh":"显示常用颜色","en":"Show Common Color"},"windows":"C","mac":"C","linux":"C","keywords":["显示常用颜色","Show Common Color"],"pinyin":"xian shi chang yong yan se xianshichangyongyanse x s c y y s xscyys xian shi chang yong yan se xianshichangyongyanse x s c y y s xscyys"},{"id":"krita-colorhistory","appId":"krita","type":"software","category":"design","name":{"zh":"显示颜色历史","en":"Show Color History"},"description":{"zh":"显示颜色历史","en":"Show Color History"},"windows":"H","mac":"H","linux":"H","keywords":["显示颜色历史","Show Color History"],"pinyin":"xian shi yan se li shi xianshiyanselishi x s y s l s xsysls xian shi yan se li shi xianshiyanselishi x s y s l s xsysls"},{"id":"krita-colorbalance","appId":"krita","type":"software","category":"design","name":{"zh":"色彩平衡","en":"Color Balance"},"description":{"zh":"色彩平衡","en":"Color Balance"},"windows":"Ctrl B","mac":"Ctrl B","linux":"Ctrl B","keywords":["色彩平衡","Color Balance"],"pinyin":"se cai ping heng secaipingheng s c p h scph se cai ping heng secaipingheng s c p h scph"},{"id":"krita-hsv","appId":"krita","type":"software","category":"design","name":{"zh":"HSV/HSL 调整","en":"HSV or HSL Adjust"},"description":{"zh":"HSV/HSL 调整","en":"HSV or HSL Adjust"},"windows":"Ctrl U","mac":"Ctrl U","linux":"Ctrl U","keywords":["HSV/HSL 调整","HSV or HSL Adjust"],"pinyin":"h s v / h s l   tiao zheng hsv/hsl tiaozheng h s v / h s l   t z hsv/hsl tz h s v / h s l   tiao zheng hsv/hsl tiaozheng h s v / h s l   t z hsv/hsl tz"},{"id":"krita-levels","appId":"krita","type":"software","category":"design","name":{"zh":"色阶","en":"Levels"},"description":{"zh":"色阶","en":"Levels"},"windows":"Ctrl L","mac":"Ctrl L","linux":"Ctrl L","keywords":["色阶","Levels"],"pinyin":"se jie sejie s j sj se jie sejie s j sj"},{"id":"krita-selectall","appId":"krita","type":"software","category":"design","name":{"zh":"全选","en":"Select All"},"description":{"zh":"全选","en":"Select All"},"windows":"Ctrl A","mac":"Ctrl A","linux":"Ctrl A","keywords":["全选","Select All"],"pinyin":"quan xuan quanxuan q x qx quan xuan quanxuan q x qx"},{"id":"krita-deselect","appId":"krita","type":"software","category":"design","name":{"zh":"取消选择","en":"Deselect"},"description":{"zh":"取消选择","en":"Deselect"},"windows":"Ctrl Shift A","mac":"Ctrl Shift A","linux":"Ctrl Shift A","keywords":["取消选择","Deselect"],"pinyin":"qu xiao xuan ze quxiaoxuanze q x x z qxxz qu xiao xuan ze quxiaoxuanze q x x z qxxz"},{"id":"krita-reselect","appId":"krita","type":"software","category":"design","name":{"zh":"重新选择","en":"Reselect"},"description":{"zh":"重新选择","en":"Reselect"},"windows":"Ctrl Shift D","mac":"Ctrl Shift D","linux":"Ctrl Shift D","keywords":["重新选择","Reselect"],"pinyin":"chong xin xuan ze chongxinxuanze c x x z cxxz chong xin xuan ze chongxinxuanze c x x z cxxz"},{"id":"krita-invertsel","appId":"krita","type":"software","category":"design","name":{"zh":"反选","en":"Invert Selection"},"description":{"zh":"反选","en":"Invert Selection"},"windows":"Ctrl Shift I","mac":"Ctrl Shift I","linux":"Ctrl Shift I","keywords":["反选","Invert Selection"],"pinyin":"fan xuan fanxuan f x fx fan xuan fanxuan f x fx"},{"id":"krita-showsel","appId":"krita","type":"software","category":"design","name":{"zh":"显示/隐藏选区","en":"Show/Hide Selection"},"description":{"zh":"显示/隐藏选区","en":"Show/Hide Selection"},"windows":"Ctrl H","mac":"Ctrl H","linux":"Ctrl H","keywords":["显示/隐藏选区","Show/Hide Selection"],"pinyin":"xian shi / yin cang xuan qu xianshi/yincangxuanqu x s / y c x q xs/ycxq xian shi / yin cang xuan qu xianshi/yincangxuanqu x s / y c x q xs/ycxq"},{"id":"krita-cutsel","appId":"krita","type":"software","category":"design","name":{"zh":"剪切选区到新图层","en":"Cut Selection to New Layer"},"description":{"zh":"剪切选区到新图层","en":"Cut Selection to New Layer"},"windows":"Ctrl Shift J","mac":"Ctrl Shift J","linux":"Ctrl Shift J","keywords":["剪切选区到新图层","Cut Selection to New Layer"],"pinyin":"jian qie xuan qu dao xin tu ceng jianqiexuanqudaoxintuceng j q x q d x t c jqxqdxtc jian qie xuan qu dao xin tu ceng jianqiexuanqudaoxintuceng j q x q d x t c jqxqdxtc"},{"id":"krita-canvasonly","appId":"krita","type":"software","category":"design","name":{"zh":"仅显示画布","en":"Show Canvas Only"},"description":{"zh":"仅显示画布","en":"Show Canvas Only"},"windows":"Tab","mac":"Tab","linux":"Tab","keywords":["仅显示画布","Show Canvas Only"],"pinyin":"jin xian shi hua bu jinxianshihuabu j x s h b jxshb jin xian shi hua bu jinxianshihuabu j x s h b jxshb"},{"id":"krita-fullscreen","appId":"krita","type":"software","category":"design","name":{"zh":"全屏模式","en":"Full-Screen Mode"},"description":{"zh":"全屏模式","en":"Full-Screen Mode"},"windows":"Ctrl Shift F","mac":"Ctrl Shift F","linux":"Ctrl Shift F","keywords":["全屏模式","Full-Screen Mode"],"pinyin":"quan ping mo shi quanpingmoshi q p m s qpms quan ping mo shi quanpingmoshi q p m s qpms"},{"id":"krita-zoomin","appId":"krita","type":"software","category":"design","name":{"zh":"放大","en":"Zoom In"},"description":{"zh":"放大","en":"Zoom In"},"windows":"Ctrl +","mac":"Ctrl +","linux":"Ctrl +","keywords":["放大","Zoom In"],"pinyin":"fang da fangda f d fd fang da fangda f d fd"},{"id":"krita-zoomout","appId":"krita","type":"software","category":"design","name":{"zh":"缩小","en":"Zoom Out"},"description":{"zh":"缩小","en":"Zoom Out"},"windows":"Ctrl -","mac":"Ctrl -","linux":"Ctrl -","keywords":["缩小","Zoom Out"],"pinyin":"suo xiao suoxiao s x sx suo xiao suoxiao s x sx"},{"id":"krita-zoom100","appId":"krita","type":"software","category":"design","name":{"zh":"实际大小","en":"Zoom 1:1"},"description":{"zh":"实际大小","en":"Zoom 1:1"},"windows":"1","mac":"1","linux":"1","keywords":["实际大小","Zoom 1:1"],"pinyin":"shi ji da xiao shijidaxiao s j d x sjdx shi ji da xiao shijidaxiao s j d x sjdx"},{"id":"krita-zoomfit","appId":"krita","type":"software","category":"design","name":{"zh":"适应窗口","en":"Zoom to Fit"},"description":{"zh":"适应窗口","en":"Zoom to Fit"},"windows":"2","mac":"2","linux":"2","keywords":["适应窗口","Zoom to Fit"],"pinyin":"shi ying chuang kou shiyingchuangkou s y c k syck shi ying chuang kou shiyingchuangkou s y c k syck"},{"id":"krita-zoomfitw","appId":"krita","type":"software","category":"design","name":{"zh":"适应宽度","en":"Zoom to Fit Width"},"description":{"zh":"适应宽度","en":"Zoom to Fit Width"},"windows":"3","mac":"3","linux":"3","keywords":["适应宽度","Zoom to Fit Width"],"pinyin":"shi ying kuan du shiyingkuandu s y k d sykd shi ying kuan du shiyingkuandu s y k d sykd"},{"id":"krita-rotateright","appId":"krita","type":"software","category":"design","name":{"zh":"向右旋转","en":"Rotate Right"},"description":{"zh":"向右旋转","en":"Rotate Right"},"windows":"Ctrl ]","mac":"Ctrl ]","linux":"Ctrl ]","keywords":["向右旋转","Rotate Right"],"pinyin":"xiang you xuan zhuan xiangyouxuanzhuan x y x z xyxz xiang you xuan zhuan xiangyouxuanzhuan x y x z xyxz"},{"id":"krita-rotateleft","appId":"krita","type":"software","category":"design","name":{"zh":"向左旋转","en":"Rotate Left"},"description":{"zh":"向左旋转","en":"Rotate Left"},"windows":"Ctrl [","mac":"Ctrl [","linux":"Ctrl [","keywords":["向左旋转","Rotate Left"],"pinyin":"xiang zuo xuan zhuan xiangzuoxuanzhuan x z x z xzxz xiang zuo xuan zhuan xiangzuoxuanzhuan x z x z xzxz"},{"id":"krita-rotatereset","appId":"krita","type":"software","category":"design","name":{"zh":"重置旋转","en":"Rotate Reset"},"description":{"zh":"重置旋转","en":"Rotate Reset"},"windows":"5","mac":"5","linux":"5","keywords":["重置旋转","Rotate Reset"],"pinyin":"zhong zhi xuan zhuan zhongzhixuanzhuan z z x z zzxz zhong zhi xuan zhuan zhongzhixuanzhuan z z x z zzxz"},{"id":"krita-line","appId":"krita","type":"software","category":"design","name":{"zh":"画直线","en":"Draw Straight Line"},"description":{"zh":"按住 L 键并点击鼠标左键画直线","en":"Hold L and click to draw a straight line"},"windows":"L + 左键","mac":"L + 左键","linux":"L + 左键","keywords":["直线","straight line","画线"],"pinyin":"hua zhi xian huazhixian h z x hzx zhi xian   hua xian zhixian huaxian z x   h x zx hx"},{"id":"krita-eyedropper","appId":"krita","type":"software","category":"design","name":{"zh":"吸取颜色（取色器）","en":"Color Picker (Eyedropper)"},"description":{"zh":"按住 Ctrl 并点击鼠标左键吸取颜色","en":"Hold Ctrl and click to pick color from canvas"},"windows":"Ctrl + 左键","mac":"Ctrl + 左键","linux":"Ctrl + 左键","keywords":["取色","吸色","eyedropper","color picker"],"pinyin":"xi qu yan se （ qu se qi ） xiquyanse（quseqi） x q y s （ q s q ） xqys（qsq） qu se   xi se quse xise q s   x s qs xs"},{"id":"krita-brushsizedrag","appId":"krita","type":"software","category":"design","name":{"zh":"拖动调整笔刷大小","en":"Drag to Adjust Brush Size"},"description":{"zh":"按住 Shift 并拖动鼠标左键调整笔刷大小","en":"Hold Shift and drag left mouse button to adjust brush size"},"windows":"Shift + 左键拖动","mac":"Shift + 左键拖动","linux":"Shift + 左键拖动","keywords":["笔刷大小","brush size","拖动调整"],"pinyin":"tuo dong tiao zheng bi shua da xiao tuodongtiaozhengbishuadaxiao t d t z b s d x tdtzbsdx bi shua da xiao   tuo dong tiao zheng bishuadaxiao tuodongtiaozheng b s d x   t d t z bsdx tdtz"}]
+[
+  {
+    "id": "krita-new",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "新建",
+      "en": "New"
+    },
+    "description": {
+      "zh": "新建",
+      "en": "New"
+    },
+    "windows": "Ctrl N",
+    "mac": "Ctrl N",
+    "linux": "Ctrl N",
+    "keywords": [
+      "新建",
+      "New"
+    ],
+    "pinyin": "xin jian xinjian x j xj xin jian xinjian x j xj"
+  },
+  {
+    "id": "krita-open",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "打开",
+      "en": "Open"
+    },
+    "description": {
+      "zh": "打开",
+      "en": "Open"
+    },
+    "windows": "Ctrl O",
+    "mac": "Ctrl O",
+    "linux": "Ctrl O",
+    "keywords": [
+      "打开",
+      "Open"
+    ],
+    "pinyin": "da kai dakai d k dk da kai dakai d k dk"
+  },
+  {
+    "id": "krita-save",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "保存",
+      "en": "Save"
+    },
+    "description": {
+      "zh": "保存",
+      "en": "Save"
+    },
+    "windows": "Ctrl S",
+    "mac": "Ctrl S",
+    "linux": "Ctrl S",
+    "keywords": [
+      "保存",
+      "Save"
+    ],
+    "pinyin": "bao cun baocun b c bc bao cun baocun b c bc"
+  },
+  {
+    "id": "krita-saveas",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "另存为",
+      "en": "Save As"
+    },
+    "description": {
+      "zh": "另存为",
+      "en": "Save As"
+    },
+    "windows": "Ctrl Shift S",
+    "mac": "Ctrl Shift S",
+    "linux": "Ctrl Shift S",
+    "keywords": [
+      "另存为",
+      "Save As"
+    ],
+    "pinyin": "ling cun wei lingcunwei l c w lcw ling cun wei lingcunwei l c w lcw"
+  },
+  {
+    "id": "krita-saveinc",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "增量保存",
+      "en": "Save Incremental"
+    },
+    "description": {
+      "zh": "增量保存",
+      "en": "Save Incremental"
+    },
+    "windows": "Ctrl Alt S",
+    "mac": "Ctrl Alt S",
+    "linux": "Ctrl Alt S",
+    "keywords": [
+      "增量保存",
+      "Save Incremental"
+    ],
+    "pinyin": "zeng liang bao cun zengliangbaocun z l b c zlbc zeng liang bao cun zengliangbaocun z l b c zlbc"
+  },
+  {
+    "id": "krita-saveincbak",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "增量备份",
+      "en": "Save Incremental Backup"
+    },
+    "description": {
+      "zh": "增量备份",
+      "en": "Save Incremental Backup"
+    },
+    "windows": "F4",
+    "mac": "F4",
+    "linux": "F4",
+    "keywords": [
+      "增量备份",
+      "Save Incremental Backup"
+    ],
+    "pinyin": "zeng liang bei fen zengliangbeifen z l b f zlbf zeng liang bei fen zengliangbeifen z l b f zlbf"
+  },
+  {
+    "id": "krita-close",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "关闭",
+      "en": "Close"
+    },
+    "description": {
+      "zh": "关闭",
+      "en": "Close"
+    },
+    "windows": "Ctrl W",
+    "mac": "Ctrl W",
+    "linux": "Ctrl W",
+    "keywords": [
+      "关闭",
+      "Close"
+    ],
+    "pinyin": "guan bi guanbi g b gb guan bi guanbi g b gb"
+  },
+  {
+    "id": "krita-closeall",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "关闭全部",
+      "en": "Close All"
+    },
+    "description": {
+      "zh": "关闭全部",
+      "en": "Close All"
+    },
+    "windows": "Ctrl Shift W",
+    "mac": "Ctrl Shift W",
+    "linux": "Ctrl Shift W",
+    "keywords": [
+      "关闭全部",
+      "Close All"
+    ],
+    "pinyin": "guan bi quan bu guanbiquanbu g b q b gbqb guan bi quan bu guanbiquanbu g b q b gbqb"
+  },
+  {
+    "id": "krita-quit",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "退出",
+      "en": "Quit"
+    },
+    "description": {
+      "zh": "退出",
+      "en": "Quit"
+    },
+    "windows": "Ctrl Q",
+    "mac": "Ctrl Q",
+    "linux": "Ctrl Q",
+    "keywords": [
+      "退出",
+      "Quit"
+    ],
+    "pinyin": "tui chu tuichu t c tc tui chu tuichu t c tc"
+  },
+  {
+    "id": "krita-undo",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "windows": "Ctrl Z",
+    "mac": "Ctrl Z",
+    "linux": "Ctrl Z",
+    "keywords": [
+      "撤销",
+      "Undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "krita-redo",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "windows": "Ctrl Shift Z",
+    "mac": "Ctrl Shift Z",
+    "linux": "Ctrl Shift Z",
+    "keywords": [
+      "重做",
+      "Redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "krita-cut",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "剪切",
+      "en": "Cut"
+    },
+    "description": {
+      "zh": "剪切",
+      "en": "Cut"
+    },
+    "windows": "Ctrl X",
+    "mac": "Ctrl X",
+    "linux": "Ctrl X",
+    "keywords": [
+      "剪切",
+      "Cut"
+    ],
+    "pinyin": "jian qie jianqie j q jq jian qie jianqie j q jq"
+  },
+  {
+    "id": "krita-copy",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "复制",
+      "en": "Copy"
+    },
+    "description": {
+      "zh": "复制",
+      "en": "Copy"
+    },
+    "windows": "Ctrl C",
+    "mac": "Ctrl C",
+    "linux": "Ctrl C",
+    "keywords": [
+      "复制",
+      "Copy"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "krita-copymerged",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "合并复制",
+      "en": "Copy Merged"
+    },
+    "description": {
+      "zh": "合并复制",
+      "en": "Copy Merged"
+    },
+    "windows": "Ctrl Shift C",
+    "mac": "Ctrl Shift C",
+    "linux": "Ctrl Shift C",
+    "keywords": [
+      "合并复制",
+      "Copy Merged"
+    ],
+    "pinyin": "he bing fu zhi hebingfuzhi h b f z hbfz he bing fu zhi hebingfuzhi h b f z hbfz"
+  },
+  {
+    "id": "krita-paste",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "粘贴",
+      "en": "Paste"
+    },
+    "description": {
+      "zh": "粘贴",
+      "en": "Paste"
+    },
+    "windows": "Ctrl V",
+    "mac": "Ctrl V",
+    "linux": "Ctrl V",
+    "keywords": [
+      "粘贴",
+      "Paste"
+    ],
+    "pinyin": "nian tie niantie n t nt nian tie niantie n t nt"
+  },
+  {
+    "id": "krita-pastenew",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "粘贴为新图像",
+      "en": "Paste into New Image"
+    },
+    "description": {
+      "zh": "粘贴为新图像",
+      "en": "Paste into New Image"
+    },
+    "windows": "Ctrl Shift N",
+    "mac": "Ctrl Shift N",
+    "linux": "Ctrl Shift N",
+    "keywords": [
+      "粘贴为新图像",
+      "Paste into New Image"
+    ],
+    "pinyin": "nian tie wei xin tu xiang niantieweixintuxiang n t w x t x ntwxtx nian tie wei xin tu xiang niantieweixintuxiang n t w x t x ntwxtx"
+  },
+  {
+    "id": "krita-pasteref",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "粘贴为参考图",
+      "en": "Paste as Reference Image"
+    },
+    "description": {
+      "zh": "粘贴为参考图",
+      "en": "Paste as Reference Image"
+    },
+    "windows": "Ctrl Shift R",
+    "mac": "Ctrl Shift R",
+    "linux": "Ctrl Shift R",
+    "keywords": [
+      "粘贴为参考图",
+      "Paste as Reference Image"
+    ],
+    "pinyin": "nian tie wei can kao tu niantieweicankaotu n t w c k t ntwckt nian tie wei can kao tu niantieweicankaotu n t w c k t ntwckt"
+  },
+  {
+    "id": "krita-clear",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "清除",
+      "en": "Clear"
+    },
+    "description": {
+      "zh": "清除",
+      "en": "Clear"
+    },
+    "windows": "Delete",
+    "mac": "Delete",
+    "linux": "Delete",
+    "keywords": [
+      "清除",
+      "Clear"
+    ],
+    "pinyin": "qing chu qingchu q c qc qing chu qingchu q c qc"
+  },
+  {
+    "id": "krita-brush",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "自由画笔工具",
+      "en": "Freehand Brush Tool"
+    },
+    "description": {
+      "zh": "自由画笔工具",
+      "en": "Freehand Brush Tool"
+    },
+    "windows": "B",
+    "mac": "B",
+    "linux": "B",
+    "keywords": [
+      "自由画笔工具",
+      "Freehand Brush Tool"
+    ],
+    "pinyin": "zi you hua bi gong ju ziyouhuabigongju z y h b g j zyhbgj zi you hua bi gong ju ziyouhuabigongju z y h b g j zyhbgj"
+  },
+  {
+    "id": "krita-multibrush",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "多重画笔工具",
+      "en": "Multi-Brush Tool"
+    },
+    "description": {
+      "zh": "多重画笔工具",
+      "en": "Multi-Brush Tool"
+    },
+    "windows": "Q",
+    "mac": "Q",
+    "linux": "Q",
+    "keywords": [
+      "多重画笔工具",
+      "Multi-Brush Tool"
+    ],
+    "pinyin": "duo chong hua bi gong ju duochonghuabigongju d c h b g j dchbgj duo chong hua bi gong ju duochonghuabigongju d c h b g j dchbgj"
+  },
+  {
+    "id": "krita-move",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "移动工具",
+      "en": "Move Tool"
+    },
+    "description": {
+      "zh": "移动工具",
+      "en": "Move Tool"
+    },
+    "windows": "T",
+    "mac": "T",
+    "linux": "T",
+    "keywords": [
+      "移动工具",
+      "Move Tool"
+    ],
+    "pinyin": "yi dong gong ju yidonggongju y d g j ydgj yi dong gong ju yidonggongju y d g j ydgj"
+  },
+  {
+    "id": "krita-crop",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "裁剪工具",
+      "en": "Crop Tool"
+    },
+    "description": {
+      "zh": "裁剪工具",
+      "en": "Crop Tool"
+    },
+    "windows": "C",
+    "mac": "C",
+    "linux": "C",
+    "keywords": [
+      "裁剪工具",
+      "Crop Tool"
+    ],
+    "pinyin": "cai jian gong ju caijiangongju c j g j cjgj cai jian gong ju caijiangongju c j g j cjgj"
+  },
+  {
+    "id": "krita-transform",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "变换工具",
+      "en": "Transform Tool"
+    },
+    "description": {
+      "zh": "变换工具",
+      "en": "Transform Tool"
+    },
+    "windows": "Ctrl T",
+    "mac": "Ctrl T",
+    "linux": "Ctrl T",
+    "keywords": [
+      "变换工具",
+      "Transform Tool"
+    ],
+    "pinyin": "bian huan gong ju bianhuangongju b h g j bhgj bian huan gong ju bianhuangongju b h g j bhgj"
+  },
+  {
+    "id": "krita-gradient",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "渐变工具",
+      "en": "Gradient Tool"
+    },
+    "description": {
+      "zh": "渐变工具",
+      "en": "Gradient Tool"
+    },
+    "windows": "G",
+    "mac": "G",
+    "linux": "G",
+    "keywords": [
+      "渐变工具",
+      "Gradient Tool"
+    ],
+    "pinyin": "jian bian gong ju jianbiangongju j b g j jbgj jian bian gong ju jianbiangongju j b g j jbgj"
+  },
+  {
+    "id": "krita-eraser",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "橡皮模式",
+      "en": "Eraser Mode"
+    },
+    "description": {
+      "zh": "橡皮模式",
+      "en": "Eraser Mode"
+    },
+    "windows": "E",
+    "mac": "E",
+    "linux": "E",
+    "keywords": [
+      "橡皮模式",
+      "Eraser Mode"
+    ],
+    "pinyin": "xiang pi mo shi xiangpimoshi x p m s xpms xiang pi mo shi xiangpimoshi x p m s xpms"
+  },
+  {
+    "id": "krita-colorselect",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "颜色选择工具",
+      "en": "Color Select Tool"
+    },
+    "description": {
+      "zh": "颜色选择工具",
+      "en": "Color Select Tool"
+    },
+    "windows": "P",
+    "mac": "P",
+    "linux": "P",
+    "keywords": [
+      "颜色选择工具",
+      "Color Select Tool"
+    ],
+    "pinyin": "yan se xuan ze gong ju yansexuanzegongju y s x z g j ysxzgj yan se xuan ze gong ju yansexuanzegongju y s x z g j ysxzgj"
+  },
+  {
+    "id": "krita-rectselect",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "矩形选择工具",
+      "en": "Rectangular Select Tool"
+    },
+    "description": {
+      "zh": "矩形选择工具",
+      "en": "Rectangular Select Tool"
+    },
+    "windows": "Ctrl R",
+    "mac": "Ctrl R",
+    "linux": "Ctrl R",
+    "keywords": [
+      "矩形选择工具",
+      "Rectangular Select Tool"
+    ],
+    "pinyin": "ju xing xuan ze gong ju juxingxuanzegongju j x x z g j jxxzgj ju xing xuan ze gong ju juxingxuanzegongju j x x z g j jxxzgj"
+  },
+  {
+    "id": "krita-ellipsesel",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "椭圆选择工具",
+      "en": "Elliptical Select Tool"
+    },
+    "description": {
+      "zh": "椭圆选择工具",
+      "en": "Elliptical Select Tool"
+    },
+    "windows": "J",
+    "mac": "J",
+    "linux": "J",
+    "keywords": [
+      "椭圆选择工具",
+      "Elliptical Select Tool"
+    ],
+    "pinyin": "tuo yuan xuan ze gong ju tuoyuanxuanzegongju t y x z g j tyxzgj tuo yuan xuan ze gong ju tuoyuanxuanzegongju t y x z g j tyxzgj"
+  },
+  {
+    "id": "krita-fill",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "填充工具",
+      "en": "Fill Tool"
+    },
+    "description": {
+      "zh": "填充工具",
+      "en": "Fill Tool"
+    },
+    "windows": "F",
+    "mac": "F",
+    "linux": "F",
+    "keywords": [
+      "填充工具",
+      "Fill Tool"
+    ],
+    "pinyin": "tian chong gong ju tianchonggongju t c g j tcgj tian chong gong ju tianchonggongju t c g j tcgj"
+  },
+  {
+    "id": "krita-mirror",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "水平镜像工具",
+      "en": "Horizontal Mirror Tool"
+    },
+    "description": {
+      "zh": "水平镜像工具",
+      "en": "Horizontal Mirror Tool"
+    },
+    "windows": "M",
+    "mac": "M",
+    "linux": "M",
+    "keywords": [
+      "水平镜像工具",
+      "Horizontal Mirror Tool"
+    ],
+    "pinyin": "shui ping jing xiang gong ju shuipingjingxianggongju s p j x g j spjxgj shui ping jing xiang gong ju shuipingjingxianggongju s p j x g j spjxgj"
+  },
+  {
+    "id": "krita-brushsmall",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "减小笔刷大小",
+      "en": "Decrease Brush Size"
+    },
+    "description": {
+      "zh": "减小笔刷大小",
+      "en": "Decrease Brush Size"
+    },
+    "windows": "[",
+    "mac": "[",
+    "linux": "[",
+    "keywords": [
+      "减小笔刷大小",
+      "Decrease Brush Size"
+    ],
+    "pinyin": "jian xiao bi shua da xiao jianxiaobishuadaxiao j x b s d x jxbsdx jian xiao bi shua da xiao jianxiaobishuadaxiao j x b s d x jxbsdx"
+  },
+  {
+    "id": "krita-brushlarge",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "增大笔刷大小",
+      "en": "Increase Brush Size"
+    },
+    "description": {
+      "zh": "增大笔刷大小",
+      "en": "Increase Brush Size"
+    },
+    "windows": "]",
+    "mac": "]",
+    "linux": "]",
+    "keywords": [
+      "增大笔刷大小",
+      "Increase Brush Size"
+    ],
+    "pinyin": "zeng da bi shua da xiao zengdabishuadaxiao z d b s d x zdbsdx zeng da bi shua da xiao zengdabishuadaxiao z d b s d x zdbsdx"
+  },
+  {
+    "id": "krita-brushopacitydown",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "减小笔刷不透明度",
+      "en": "Decrease Brush Opacity"
+    },
+    "description": {
+      "zh": "减小笔刷不透明度",
+      "en": "Decrease Brush Opacity"
+    },
+    "windows": "I",
+    "mac": "I",
+    "linux": "I",
+    "keywords": [
+      "减小笔刷不透明度",
+      "Decrease Brush Opacity"
+    ],
+    "pinyin": "jian xiao bi shua bu tou ming du jianxiaobishuabutoumingdu j x b s b t m d jxbsbtmd jian xiao bi shua bu tou ming du jianxiaobishuabutoumingdu j x b s b t m d jxbsbtmd"
+  },
+  {
+    "id": "krita-brushopacityup",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "增大笔刷不透明度",
+      "en": "Increase Brush Opacity"
+    },
+    "description": {
+      "zh": "增大笔刷不透明度",
+      "en": "Increase Brush Opacity"
+    },
+    "windows": "O",
+    "mac": "O",
+    "linux": "O",
+    "keywords": [
+      "增大笔刷不透明度",
+      "Increase Brush Opacity"
+    ],
+    "pinyin": "zeng da bi shua bu tou ming du zengdabishuabutoumingdu z d b s b t m d zdbsbtmd zeng da bi shua bu tou ming du zengdabishuabutoumingdu z d b s b t m d zdbsbtmd"
+  },
+  {
+    "id": "krita-newlayer",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "新建 Paint 图层",
+      "en": "New Paint Layer"
+    },
+    "description": {
+      "zh": "新建 Paint 图层",
+      "en": "New Paint Layer"
+    },
+    "windows": "Insert",
+    "mac": "Insert",
+    "linux": "Insert",
+    "keywords": [
+      "新建 Paint 图层",
+      "New Paint Layer"
+    ],
+    "pinyin": "xin jian   p a i n t   tu ceng xinjian paint tuceng x j   p a i n t   t c xj paint tc xin jian   p a i n t   tu ceng xinjian paint tuceng x j   p a i n t   t c xj paint tc"
+  },
+  {
+    "id": "krita-renamelayer",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "重命名图层",
+      "en": "Rename Current Layer"
+    },
+    "description": {
+      "zh": "重命名图层",
+      "en": "Rename Current Layer"
+    },
+    "windows": "F2",
+    "mac": "F2",
+    "linux": "F2",
+    "keywords": [
+      "重命名图层",
+      "Rename Current Layer"
+    ],
+    "pinyin": "zhong ming ming tu ceng zhongmingmingtuceng z m m t c zmmtc zhong ming ming tu ceng zhongmingmingtuceng z m m t c zmmtc"
+  },
+  {
+    "id": "krita-prevlayer",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "上一个图层",
+      "en": "Activate Previous Layer"
+    },
+    "description": {
+      "zh": "上一个图层",
+      "en": "Activate Previous Layer"
+    },
+    "windows": "PageDown",
+    "mac": "PageDown",
+    "linux": "PageDown",
+    "keywords": [
+      "上一个图层",
+      "Activate Previous Layer"
+    ],
+    "pinyin": "shang yi ge tu ceng shangyigetuceng s y g t c sygtc shang yi ge tu ceng shangyigetuceng s y g t c sygtc"
+  },
+  {
+    "id": "krita-nextlayer",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "下一个图层",
+      "en": "Activate Next Layer"
+    },
+    "description": {
+      "zh": "下一个图层",
+      "en": "Activate Next Layer"
+    },
+    "windows": "PageUp",
+    "mac": "PageUp",
+    "linux": "PageUp",
+    "keywords": [
+      "下一个图层",
+      "Activate Next Layer"
+    ],
+    "pinyin": "xia yi ge tu ceng xiayigetuceng x y g t c xygtc xia yi ge tu ceng xiayigetuceng x y g t c xygtc"
+  },
+  {
+    "id": "krita-duplayer",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "复制图层",
+      "en": "Duplicate Layer"
+    },
+    "description": {
+      "zh": "复制图层",
+      "en": "Duplicate Layer"
+    },
+    "windows": "Ctrl J",
+    "mac": "Ctrl J",
+    "linux": "Ctrl J",
+    "keywords": [
+      "复制图层",
+      "Duplicate Layer"
+    ],
+    "pinyin": "fu zhi tu ceng fuzhituceng f z t c fztc fu zhi tu ceng fuzhituceng f z t c fztc"
+  },
+  {
+    "id": "krita-mergedown",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "向下合并",
+      "en": "Merge Down"
+    },
+    "description": {
+      "zh": "向下合并",
+      "en": "Merge Down"
+    },
+    "windows": "Ctrl E",
+    "mac": "Ctrl E",
+    "linux": "Ctrl E",
+    "keywords": [
+      "向下合并",
+      "Merge Down"
+    ],
+    "pinyin": "xiang xia he bing xiangxiahebing x x h b xxhb xiang xia he bing xiangxiahebing x x h b xxhb"
+  },
+  {
+    "id": "krita-flatten",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "拼合图像",
+      "en": "Flatten All"
+    },
+    "description": {
+      "zh": "拼合图像",
+      "en": "Flatten All"
+    },
+    "windows": "Ctrl Shift E",
+    "mac": "Ctrl Shift E",
+    "linux": "Ctrl Shift E",
+    "keywords": [
+      "拼合图像",
+      "Flatten All"
+    ],
+    "pinyin": "pin he tu xiang pinhetuxiang p h t x phtx pin he tu xiang pinhetuxiang p h t x phtx"
+  },
+  {
+    "id": "krita-layergroup",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "新建图层组",
+      "en": "New Layer Group"
+    },
+    "description": {
+      "zh": "新建图层组",
+      "en": "New Layer Group"
+    },
+    "windows": "Ctrl G",
+    "mac": "Ctrl G",
+    "linux": "Ctrl G",
+    "keywords": [
+      "新建图层组",
+      "New Layer Group"
+    ],
+    "pinyin": "xin jian tu ceng zu xinjiantucengzu x j t c z xjtcz xin jian tu ceng zu xinjiantucengzu x j t c z xjtcz"
+  },
+  {
+    "id": "krita-removelayer",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "删除图层",
+      "en": "Remove Layer"
+    },
+    "description": {
+      "zh": "删除图层",
+      "en": "Remove Layer"
+    },
+    "windows": "Shift Delete",
+    "mac": "Shift Delete",
+    "linux": "Shift Delete",
+    "keywords": [
+      "删除图层",
+      "Remove Layer"
+    ],
+    "pinyin": "shan chu tu ceng shanchutuceng s c t c sctc shan chu tu ceng shanchutuceng s c t c sctc"
+  },
+  {
+    "id": "krita-fillfg",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "用前景色填充",
+      "en": "Fill with FG Colour"
+    },
+    "description": {
+      "zh": "用前景色填充",
+      "en": "Fill with FG Colour"
+    },
+    "windows": "Shift Backspace",
+    "mac": "Shift Backspace",
+    "linux": "Shift Backspace",
+    "keywords": [
+      "用前景色填充",
+      "Fill with FG Colour"
+    ],
+    "pinyin": "yong qian jing se tian chong yongqianjingsetianchong y q j s t c yqjstc yong qian jing se tian chong yongqianjingsetianchong y q j s t c yqjstc"
+  },
+  {
+    "id": "krita-fillbg",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "用背景色填充",
+      "en": "Fill with BG Colour"
+    },
+    "description": {
+      "zh": "用背景色填充",
+      "en": "Fill with BG Colour"
+    },
+    "windows": "Backspace",
+    "mac": "Backspace",
+    "linux": "Backspace",
+    "keywords": [
+      "用背景色填充",
+      "Fill with BG Colour"
+    ],
+    "pinyin": "yong bei jing se tian chong yongbeijingsetianchong y b j s t c ybjstc yong bei jing se tian chong yongbeijingsetianchong y b j s t c ybjstc"
+  },
+  {
+    "id": "krita-swapcolor",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "交换前景/背景色",
+      "en": "Switch FG/BG Color"
+    },
+    "description": {
+      "zh": "交换前景/背景色",
+      "en": "Switch FG/BG Color"
+    },
+    "windows": "X",
+    "mac": "X",
+    "linux": "X",
+    "keywords": [
+      "交换前景/背景色",
+      "Switch FG/BG Color"
+    ],
+    "pinyin": "jiao huan qian jing / bei jing se jiaohuanqianjing/beijingse j h q j / b j s jhqj/bjs jiao huan qian jing / bei jing se jiaohuanqianjing/beijingse j h q j / b j s jhqj/bjs"
+  },
+  {
+    "id": "krita-resetcolor",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "重置为黑/白",
+      "en": "Reset Colors to Black/White"
+    },
+    "description": {
+      "zh": "重置为黑/白",
+      "en": "Reset Colors to Black/White"
+    },
+    "windows": "D",
+    "mac": "D",
+    "linux": "D",
+    "keywords": [
+      "重置为黑/白",
+      "Reset Colors to Black/White"
+    ],
+    "pinyin": "zhong zhi wei hei / bai zhongzhiweihei/bai z z w h / b zzwh/b zhong zhi wei hei / bai zhongzhiweihei/bai z z w h / b zzwh/b"
+  },
+  {
+    "id": "krita-darken",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "加深颜色",
+      "en": "Darken Color"
+    },
+    "description": {
+      "zh": "加深颜色",
+      "en": "Darken Color"
+    },
+    "windows": "K",
+    "mac": "K",
+    "linux": "K",
+    "keywords": [
+      "加深颜色",
+      "Darken Color"
+    ],
+    "pinyin": "jia shen yan se jiashenyanse j s y s jsys jia shen yan se jiashenyanse j s y s jsys"
+  },
+  {
+    "id": "krita-lighten",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "减淡颜色",
+      "en": "Lighten Color"
+    },
+    "description": {
+      "zh": "减淡颜色",
+      "en": "Lighten Color"
+    },
+    "windows": "L",
+    "mac": "L",
+    "linux": "L",
+    "keywords": [
+      "减淡颜色",
+      "Lighten Color"
+    ],
+    "pinyin": "jian dan yan se jiandanyanse j d y s jdys jian dan yan se jiandanyanse j d y s jdys"
+  },
+  {
+    "id": "krita-desaturate",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "去色",
+      "en": "Desaturate"
+    },
+    "description": {
+      "zh": "去色",
+      "en": "Desaturate"
+    },
+    "windows": "Ctrl Shift U",
+    "mac": "Ctrl Shift U",
+    "linux": "Ctrl Shift U",
+    "keywords": [
+      "去色",
+      "Desaturate"
+    ],
+    "pinyin": "qu se quse q s qs qu se quse q s qs"
+  },
+  {
+    "id": "krita-showcolor",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "显示常用颜色",
+      "en": "Show Common Color"
+    },
+    "description": {
+      "zh": "显示常用颜色",
+      "en": "Show Common Color"
+    },
+    "windows": "C",
+    "mac": "C",
+    "linux": "C",
+    "keywords": [
+      "显示常用颜色",
+      "Show Common Color"
+    ],
+    "pinyin": "xian shi chang yong yan se xianshichangyongyanse x s c y y s xscyys xian shi chang yong yan se xianshichangyongyanse x s c y y s xscyys"
+  },
+  {
+    "id": "krita-colorhistory",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "显示颜色历史",
+      "en": "Show Color History"
+    },
+    "description": {
+      "zh": "显示颜色历史",
+      "en": "Show Color History"
+    },
+    "windows": "H",
+    "mac": "H",
+    "linux": "H",
+    "keywords": [
+      "显示颜色历史",
+      "Show Color History"
+    ],
+    "pinyin": "xian shi yan se li shi xianshiyanselishi x s y s l s xsysls xian shi yan se li shi xianshiyanselishi x s y s l s xsysls"
+  },
+  {
+    "id": "krita-colorbalance",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "色彩平衡",
+      "en": "Color Balance"
+    },
+    "description": {
+      "zh": "色彩平衡",
+      "en": "Color Balance"
+    },
+    "windows": "Ctrl B",
+    "mac": "Ctrl B",
+    "linux": "Ctrl B",
+    "keywords": [
+      "色彩平衡",
+      "Color Balance"
+    ],
+    "pinyin": "se cai ping heng secaipingheng s c p h scph se cai ping heng secaipingheng s c p h scph"
+  },
+  {
+    "id": "krita-hsv",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "HSV/HSL 调整",
+      "en": "HSV or HSL Adjust"
+    },
+    "description": {
+      "zh": "HSV/HSL 调整",
+      "en": "HSV or HSL Adjust"
+    },
+    "windows": "Ctrl U",
+    "mac": "Ctrl U",
+    "linux": "Ctrl U",
+    "keywords": [
+      "HSV/HSL 调整",
+      "HSV or HSL Adjust"
+    ],
+    "pinyin": "h s v / h s l   tiao zheng hsv/hsl tiaozheng h s v / h s l   t z hsv/hsl tz h s v / h s l   tiao zheng hsv/hsl tiaozheng h s v / h s l   t z hsv/hsl tz"
+  },
+  {
+    "id": "krita-levels",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "色阶",
+      "en": "Levels"
+    },
+    "description": {
+      "zh": "色阶",
+      "en": "Levels"
+    },
+    "windows": "Ctrl L",
+    "mac": "Ctrl L",
+    "linux": "Ctrl L",
+    "keywords": [
+      "色阶",
+      "Levels"
+    ],
+    "pinyin": "se jie sejie s j sj se jie sejie s j sj"
+  },
+  {
+    "id": "krita-selectall",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "全选",
+      "en": "Select All"
+    },
+    "description": {
+      "zh": "全选",
+      "en": "Select All"
+    },
+    "windows": "Ctrl A",
+    "mac": "Ctrl A",
+    "linux": "Ctrl A",
+    "keywords": [
+      "全选",
+      "Select All"
+    ],
+    "pinyin": "quan xuan quanxuan q x qx quan xuan quanxuan q x qx"
+  },
+  {
+    "id": "krita-deselect",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "取消选择",
+      "en": "Deselect"
+    },
+    "description": {
+      "zh": "取消选择",
+      "en": "Deselect"
+    },
+    "windows": "Ctrl Shift A",
+    "mac": "Ctrl Shift A",
+    "linux": "Ctrl Shift A",
+    "keywords": [
+      "取消选择",
+      "Deselect"
+    ],
+    "pinyin": "qu xiao xuan ze quxiaoxuanze q x x z qxxz qu xiao xuan ze quxiaoxuanze q x x z qxxz"
+  },
+  {
+    "id": "krita-reselect",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "重新选择",
+      "en": "Reselect"
+    },
+    "description": {
+      "zh": "重新选择",
+      "en": "Reselect"
+    },
+    "windows": "Ctrl Shift D",
+    "mac": "Ctrl Shift D",
+    "linux": "Ctrl Shift D",
+    "keywords": [
+      "重新选择",
+      "Reselect"
+    ],
+    "pinyin": "chong xin xuan ze chongxinxuanze c x x z cxxz chong xin xuan ze chongxinxuanze c x x z cxxz"
+  },
+  {
+    "id": "krita-invertsel",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "反选",
+      "en": "Invert Selection"
+    },
+    "description": {
+      "zh": "反选",
+      "en": "Invert Selection"
+    },
+    "windows": "Ctrl Shift I",
+    "mac": "Ctrl Shift I",
+    "linux": "Ctrl Shift I",
+    "keywords": [
+      "反选",
+      "Invert Selection"
+    ],
+    "pinyin": "fan xuan fanxuan f x fx fan xuan fanxuan f x fx"
+  },
+  {
+    "id": "krita-showsel",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "显示/隐藏选区",
+      "en": "Show/Hide Selection"
+    },
+    "description": {
+      "zh": "显示/隐藏选区",
+      "en": "Show/Hide Selection"
+    },
+    "windows": "Ctrl H",
+    "mac": "Ctrl H",
+    "linux": "Ctrl H",
+    "keywords": [
+      "显示/隐藏选区",
+      "Show/Hide Selection"
+    ],
+    "pinyin": "xian shi / yin cang xuan qu xianshi/yincangxuanqu x s / y c x q xs/ycxq xian shi / yin cang xuan qu xianshi/yincangxuanqu x s / y c x q xs/ycxq"
+  },
+  {
+    "id": "krita-cutsel",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "剪切选区到新图层",
+      "en": "Cut Selection to New Layer"
+    },
+    "description": {
+      "zh": "剪切选区到新图层",
+      "en": "Cut Selection to New Layer"
+    },
+    "windows": "Ctrl Shift J",
+    "mac": "Ctrl Shift J",
+    "linux": "Ctrl Shift J",
+    "keywords": [
+      "剪切选区到新图层",
+      "Cut Selection to New Layer"
+    ],
+    "pinyin": "jian qie xuan qu dao xin tu ceng jianqiexuanqudaoxintuceng j q x q d x t c jqxqdxtc jian qie xuan qu dao xin tu ceng jianqiexuanqudaoxintuceng j q x q d x t c jqxqdxtc"
+  },
+  {
+    "id": "krita-canvasonly",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "仅显示画布",
+      "en": "Show Canvas Only"
+    },
+    "description": {
+      "zh": "仅显示画布",
+      "en": "Show Canvas Only"
+    },
+    "windows": "Tab",
+    "mac": "Tab",
+    "linux": "Tab",
+    "keywords": [
+      "仅显示画布",
+      "Show Canvas Only"
+    ],
+    "pinyin": "jin xian shi hua bu jinxianshihuabu j x s h b jxshb jin xian shi hua bu jinxianshihuabu j x s h b jxshb"
+  },
+  {
+    "id": "krita-fullscreen",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "全屏模式",
+      "en": "Full-Screen Mode"
+    },
+    "description": {
+      "zh": "全屏模式",
+      "en": "Full-Screen Mode"
+    },
+    "windows": "Ctrl Shift F",
+    "mac": "Ctrl Shift F",
+    "linux": "Ctrl Shift F",
+    "keywords": [
+      "全屏模式",
+      "Full-Screen Mode"
+    ],
+    "pinyin": "quan ping mo shi quanpingmoshi q p m s qpms quan ping mo shi quanpingmoshi q p m s qpms"
+  },
+  {
+    "id": "krita-zoomin",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "放大",
+      "en": "Zoom In"
+    },
+    "description": {
+      "zh": "放大",
+      "en": "Zoom In"
+    },
+    "windows": "Ctrl +",
+    "mac": "Ctrl +",
+    "linux": "Ctrl +",
+    "keywords": [
+      "放大",
+      "Zoom In"
+    ],
+    "pinyin": "fang da fangda f d fd fang da fangda f d fd"
+  },
+  {
+    "id": "krita-zoomout",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "缩小",
+      "en": "Zoom Out"
+    },
+    "description": {
+      "zh": "缩小",
+      "en": "Zoom Out"
+    },
+    "windows": "Ctrl -",
+    "mac": "Ctrl -",
+    "linux": "Ctrl -",
+    "keywords": [
+      "缩小",
+      "Zoom Out"
+    ],
+    "pinyin": "suo xiao suoxiao s x sx suo xiao suoxiao s x sx"
+  },
+  {
+    "id": "krita-zoom100",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "实际大小",
+      "en": "Zoom 1:1"
+    },
+    "description": {
+      "zh": "实际大小",
+      "en": "Zoom 1:1"
+    },
+    "windows": "1",
+    "mac": "1",
+    "linux": "1",
+    "keywords": [
+      "实际大小",
+      "Zoom 1:1"
+    ],
+    "pinyin": "shi ji da xiao shijidaxiao s j d x sjdx shi ji da xiao shijidaxiao s j d x sjdx"
+  },
+  {
+    "id": "krita-zoomfit",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "适应窗口",
+      "en": "Zoom to Fit"
+    },
+    "description": {
+      "zh": "适应窗口",
+      "en": "Zoom to Fit"
+    },
+    "windows": "2",
+    "mac": "2",
+    "linux": "2",
+    "keywords": [
+      "适应窗口",
+      "Zoom to Fit"
+    ],
+    "pinyin": "shi ying chuang kou shiyingchuangkou s y c k syck shi ying chuang kou shiyingchuangkou s y c k syck"
+  },
+  {
+    "id": "krita-zoomfitw",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "适应宽度",
+      "en": "Zoom to Fit Width"
+    },
+    "description": {
+      "zh": "适应宽度",
+      "en": "Zoom to Fit Width"
+    },
+    "windows": "3",
+    "mac": "3",
+    "linux": "3",
+    "keywords": [
+      "适应宽度",
+      "Zoom to Fit Width"
+    ],
+    "pinyin": "shi ying kuan du shiyingkuandu s y k d sykd shi ying kuan du shiyingkuandu s y k d sykd"
+  },
+  {
+    "id": "krita-rotateright",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "向右旋转",
+      "en": "Rotate Right"
+    },
+    "description": {
+      "zh": "向右旋转",
+      "en": "Rotate Right"
+    },
+    "windows": "Ctrl ]",
+    "mac": "Ctrl ]",
+    "linux": "Ctrl ]",
+    "keywords": [
+      "向右旋转",
+      "Rotate Right"
+    ],
+    "pinyin": "xiang you xuan zhuan xiangyouxuanzhuan x y x z xyxz xiang you xuan zhuan xiangyouxuanzhuan x y x z xyxz"
+  },
+  {
+    "id": "krita-rotateleft",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "向左旋转",
+      "en": "Rotate Left"
+    },
+    "description": {
+      "zh": "向左旋转",
+      "en": "Rotate Left"
+    },
+    "windows": "Ctrl [",
+    "mac": "Ctrl [",
+    "linux": "Ctrl [",
+    "keywords": [
+      "向左旋转",
+      "Rotate Left"
+    ],
+    "pinyin": "xiang zuo xuan zhuan xiangzuoxuanzhuan x z x z xzxz xiang zuo xuan zhuan xiangzuoxuanzhuan x z x z xzxz"
+  },
+  {
+    "id": "krita-rotatereset",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "重置旋转",
+      "en": "Rotate Reset"
+    },
+    "description": {
+      "zh": "重置旋转",
+      "en": "Rotate Reset"
+    },
+    "windows": "5",
+    "mac": "5",
+    "linux": "5",
+    "keywords": [
+      "重置旋转",
+      "Rotate Reset"
+    ],
+    "pinyin": "zhong zhi xuan zhuan zhongzhixuanzhuan z z x z zzxz zhong zhi xuan zhuan zhongzhixuanzhuan z z x z zzxz"
+  },
+  {
+    "id": "krita-line",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "画直线",
+      "en": "Draw Straight Line"
+    },
+    "description": {
+      "zh": "按住 L 键并点击鼠标左键画直线",
+      "en": "Hold L and click to draw a straight line"
+    },
+    "windows": "L + 左键",
+    "mac": "L + 左键",
+    "linux": "L + 左键",
+    "keywords": [
+      "直线",
+      "straight line",
+      "画线"
+    ],
+    "pinyin": "hua zhi xian huazhixian h z x hzx zhi xian   hua xian zhixian huaxian z x   h x zx hx"
+  },
+  {
+    "id": "krita-eyedropper",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "吸取颜色（取色器）",
+      "en": "Color Picker (Eyedropper)"
+    },
+    "description": {
+      "zh": "按住 Ctrl 并点击鼠标左键吸取颜色",
+      "en": "Hold Ctrl and click to pick color from canvas"
+    },
+    "windows": "Ctrl + 左键",
+    "mac": "Ctrl + 左键",
+    "linux": "Ctrl + 左键",
+    "keywords": [
+      "取色",
+      "吸色",
+      "eyedropper",
+      "color picker"
+    ],
+    "pinyin": "xi qu yan se （ qu se qi ） xiquyanse（quseqi） x q y s （ q s q ） xqys（qsq） qu se   xi se quse xise q s   x s qs xs"
+  },
+  {
+    "id": "krita-brushsizedrag",
+    "appId": "krita",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "拖动调整笔刷大小",
+      "en": "Drag to Adjust Brush Size"
+    },
+    "description": {
+      "zh": "按住 Shift 并拖动鼠标左键调整笔刷大小",
+      "en": "Hold Shift and drag left mouse button to adjust brush size"
+    },
+    "windows": "Shift + 左键拖动",
+    "mac": "Shift + 左键拖动",
+    "linux": "Shift + 左键拖动",
+    "keywords": [
+      "笔刷大小",
+      "brush size",
+      "拖动调整"
+    ],
+    "pinyin": "tuo dong tiao zheng bi shua da xiao tuodongtiaozhengbishuadaxiao t d t z b s d x tdtzbsdx bi shua da xiao   tuo dong tiao zheng bishuadaxiao tuodongtiaozheng b s d x   t d t z bsdx tdtz"
+  }
+]

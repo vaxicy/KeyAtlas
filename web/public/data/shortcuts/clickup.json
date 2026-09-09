@@ -1,1 +1,731 @@
-[{"id":"clickup-close-task-or-window","appId":"clickup","type":"software","category":"productivity","name":{"en":"Close Task or Window","zh":"关闭任务或窗口"},"description":{"en":"Close the current task or window","zh":"关闭当前任务或窗口"},"windows":"Esc","mac":"Esc","linux":"Esc","keywords":["close","关闭"],"pinyin":"guan bi ren wu huo chuang kou guanbirenwuhuochuangkou g b r w h c k gbrwhck guan bi guanbi g b gb"},{"id":"clickup-command-center","appId":"clickup","type":"software","category":"productivity","name":{"en":"Command Center","zh":"命令中心"},"description":{"en":"Open command center","zh":"打开命令中心"},"windows":"Ctrl+K","mac":"Cmd+K","linux":"Ctrl+K","keywords":["command","命令中心"],"pinyin":"ming ling zhong xin minglingzhongxin m l z x mlzx ming ling zhong xin minglingzhongxin m l z x mlzx"},{"id":"clickup-open-billing","appId":"clickup","type":"software","category":"productivity","name":{"en":"Open Billing","zh":"打开账单"},"description":{"en":"Open the billing page","zh":"打开账单页面"},"windows":"Ctrl+B","mac":"Cmd+B","linux":"Ctrl+B","keywords":["billing","账单"],"pinyin":"da kai zhang dan dakaizhangdan d k z d dkzd zhang dan zhangdan z d zd"},{"id":"clickup-home","appId":"clickup","type":"software","category":"productivity","name":{"en":"Home","zh":"主页"},"description":{"en":"Go to Home","zh":"前往主页"},"windows":"H","mac":"H","linux":"H","keywords":["home","主页"],"pinyin":"zhu ye zhuye z y zy zhu ye zhuye z y zy"},{"id":"clickup-load-notifications","appId":"clickup","type":"software","category":"productivity","name":{"en":"Load Notifications","zh":"加载通知"},"description":{"en":"Load new notifications","zh":"加载新通知"},"windows":"Space","mac":"Space","linux":"Space","keywords":["notifications","通知"],"pinyin":"jia zai tong zhi jiazaitongzhi j z t z jztz tong zhi tongzhi t z tz"},{"id":"clickup-notepad","appId":"clickup","type":"software","category":"productivity","name":{"en":"Notepad","zh":"记事本"},"description":{"en":"Open the notepad","zh":"打开记事本"},"windows":"P","mac":"P","linux":"P","keywords":["notepad","记事本"],"pinyin":"ji shi ben jishiben j s b jsb ji shi ben jishiben j s b jsb"},{"id":"clickup-create-reminder","appId":"clickup","type":"software","category":"productivity","name":{"en":"Create Reminder","zh":"创建提醒"},"description":{"en":"Create a reminder","zh":"创建提醒"},"windows":"R","mac":"R","linux":"R","keywords":["reminder","提醒"],"pinyin":"chuang jian ti xing chuangjiantixing c j t x cjtx ti xing tixing t x tx"},{"id":"clickup-search","appId":"clickup","type":"software","category":"productivity","name":{"en":"Search","zh":"搜索"},"description":{"en":"Open search and command modal","zh":"打开搜索与命令弹窗"},"windows":"S","mac":"S","linux":"S","keywords":["search","搜索"],"pinyin":"sou suo sousuo s s ss sou suo sousuo s s ss"},{"id":"clickup-toggle-sidebar","appId":"clickup","type":"software","category":"productivity","name":{"en":"Toggle Sidebar","zh":"切换侧边栏"},"description":{"en":"Show or hide the sidebar","zh":"显示或隐藏侧边栏"},"windows":"Q","mac":"Q","linux":"Q","keywords":["sidebar","侧边栏"],"pinyin":"qie huan ce bian lan qiehuancebianlan q h c b l qhcbl ce bian lan cebianlan c b l cbl"},{"id":"clickup-create-task","appId":"clickup","type":"software","category":"productivity","name":{"en":"Create Task","zh":"创建任务"},"description":{"en":"Create a new task","zh":"创建新任务"},"windows":"T","mac":"T","linux":"T","keywords":["create task","创建任务"],"pinyin":"chuang jian ren wu chuangjianrenwu c j r w cjrw chuang jian ren wu chuangjianrenwu c j r w cjrw"},{"id":"clickup-mention-a-person","appId":"clickup","type":"software","category":"productivity","name":{"en":"Mention a Person","zh":"提及某人"},"description":{"en":"Mention a person with @","zh":"用 @ 提及某人"},"windows":"@","mac":"@","linux":"@","keywords":["mention","提及","at"],"pinyin":"ti ji mou ren tijimouren t j m r tjmr ti ji tiji t j tj"},{"id":"clickup-mention-a-task","appId":"clickup","type":"software","category":"productivity","name":{"en":"Mention a Task","zh":"提及任务"},"description":{"en":"Mention a task with @@","zh":"用 @@ 提及任务"},"windows":"@@","mac":"@@","linux":"@@","keywords":["mention task","提及任务"],"pinyin":"ti ji ren wu tijirenwu t j r w tjrw ti ji ren wu tijirenwu t j r w tjrw"},{"id":"clickup-mention-a-doc","appId":"clickup","type":"software","category":"productivity","name":{"en":"Mention a Doc","zh":"提及文档"},"description":{"en":"Mention a doc with @@@","zh":"用 @@@ 提及文档"},"windows":"@@@","mac":"@@@","linux":"@@@","keywords":["mention doc","提及文档"],"pinyin":"ti ji wen dang tijiwendang t j w d tjwd ti ji wen dang tijiwendang t j w d tjwd"},{"id":"clickup-insert-arrow","appId":"clickup","type":"software","category":"productivity","name":{"en":"Insert Arrow","zh":"插入箭头"},"description":{"en":"Insert an arrow into text","zh":"在文本中插入箭头"},"windows":"- >","mac":"- >","linux":"- >","keywords":["arrow","箭头"],"pinyin":"cha ru jian tou charujiantou c r j t crjt jian tou jiantou j t jt"},{"id":"clickup-select-all-in-code-block","appId":"clickup","type":"software","category":"productivity","name":{"en":"Select All in Code Block","zh":"全选代码块"},"description":{"en":"Select all characters in a code block","zh":"选择代码块中所有字符"},"windows":"Ctrl+A","mac":"Cmd+A","linux":"Ctrl+A","keywords":["select all","全选","代码"],"pinyin":"quan xuan dai ma kuai quanxuandaimakuai q x d m k qxdmk quan xuan   dai ma quanxuan daima q x   d m qx dm"},{"id":"clickup-edit-last-comment","appId":"clickup","type":"software","category":"productivity","name":{"en":"Edit Last Comment","zh":"编辑上条评论"},"description":{"en":"Edit your most recent comment","zh":"编辑最近一条评论"},"windows":"Up","mac":"Up","linux":"Up","keywords":["edit comment","编辑评论"],"pinyin":"bian ji shang tiao ping lun bianjishangtiaopinglun b j s t p l bjstpl bian ji ping lun bianjipinglun b j p l bjpl"},{"id":"clickup-emoji-menu","appId":"clickup","type":"software","category":"productivity","name":{"en":"Emoji Menu","zh":"表情菜单"},"description":{"en":"Open the emoji menu","zh":"打开表情菜单"},"windows":":","mac":":","linux":":","keywords":["emoji","表情"],"pinyin":"biao qing cai dan biaoqingcaidan b q c d bqcd biao qing biaoqing b q bq"},{"id":"clickup-add-link","appId":"clickup","type":"software","category":"productivity","name":{"en":"Add Link","zh":"添加链接"},"description":{"en":"Highlight text to add a link","zh":"高亮文本以添加链接"},"windows":"Ctrl+K","mac":"Cmd+K","linux":"Ctrl+K","keywords":["link","链接"],"pinyin":"tian jia lian jie tianjialianjie t j l j tjlj lian jie lianjie l j lj"},{"id":"clickup-assign-to-self","appId":"clickup","type":"software","category":"productivity","name":{"en":"Assign to Self","zh":"分配给自己"},"description":{"en":"Assign the task to yourself","zh":"将任务分配给自己"},"windows":"M","mac":"M","linux":"M","keywords":["assign","分配","自己"],"pinyin":"fen pei ji zi ji fenpeijiziji f p j z j fpjzj fen pei   zi ji fenpei ziji f p   z j fp zj"},{"id":"clickup-copy-url-new-task","appId":"clickup","type":"software","category":"productivity","name":{"en":"Copy URL (new task)","zh":"复制 URL（新任务）"},"description":{"en":"Copy URL of new task","zh":"复制新任务的 URL"},"windows":"3","mac":"3","linux":"3","keywords":["copy url","复制链接"],"pinyin":"fu zhi   u r l （ xin ren wu ） fuzhi url（xinrenwu） f z   u r l （ x r w ） fz url（xrw） fu zhi lian jie fuzhilianjie f z l j fzlj"},{"id":"clickup-move-to-tray-new-task","appId":"clickup","type":"software","category":"productivity","name":{"en":"Move to Tray (new task)","zh":"移至托盘（新任务）"},"description":{"en":"Move new task to tray","zh":"将新任务移至托盘"},"windows":"2","mac":"2","linux":"2","keywords":["tray","托盘"],"pinyin":"yi zhi tuo pan （ xin ren wu ） yizhituopan（xinrenwu） y z t p （ x r w ） yztp（xrw） tuo pan tuopan t p tp"},{"id":"clickup-open-new-task","appId":"clickup","type":"software","category":"productivity","name":{"en":"Open (new task)","zh":"打开（新任务）"},"description":{"en":"Open new task","zh":"打开新任务"},"windows":"1","mac":"1","linux":"1","keywords":["open","打开"],"pinyin":"da kai （ xin ren wu ） dakai（xinrenwu） d k （ x r w ） dk（xrw） da kai dakai d k dk"},{"id":"clickup-navigate-next-task","appId":"clickup","type":"software","category":"productivity","name":{"en":"Navigate Next Task","zh":"下一任务"},"description":{"en":"Navigate to next task","zh":"导航到下一个任务"},"windows":"Ctrl+Shift+Right","mac":"Cmd+Shift+Right","linux":"Ctrl+Shift+Right","keywords":["next task","下一任务"],"pinyin":"xia yi ren wu xiayirenwu x y r w xyrw xia yi ren wu xiayirenwu x y r w xyrw"},{"id":"clickup-quick-create-task","appId":"clickup","type":"software","category":"productivity","name":{"en":"Quick Create Task","zh":"快速创建任务"},"description":{"en":"Quick create a new task","zh":"快速创建新任务"},"windows":"Ctrl+E","mac":"Cmd+E","linux":"Ctrl+E","keywords":["quick create","快速创建"],"pinyin":"kuai su chuang jian ren wu kuaisuchuangjianrenwu k s c j r w kscjrw kuai su chuang jian kuaisuchuangjian k s c j kscj"},{"id":"clickup-comment-from-selection","appId":"clickup","type":"software","category":"productivity","name":{"en":"Comment from Selection","zh":"从选区建评论"},"description":{"en":"Create a comment from selected text","zh":"从选中文本创建评论"},"windows":"Ctrl+Shift+M","mac":"Cmd+Shift+M","linux":"Ctrl+Shift+M","keywords":["comment","评论"],"pinyin":"cong xuan qu jian ping lun congxuanqujianpinglun c x q j p l cxqjpl ping lun pinglun p l pl"},{"id":"clickup-task-from-selection","appId":"clickup","type":"software","category":"productivity","name":{"en":"Task from Selection","zh":"从选区建任务"},"description":{"en":"Create a task from selected text","zh":"从选中文本创建任务"},"windows":"Ctrl+Shift+T","mac":"Cmd+Shift+T","linux":"Ctrl+Shift+T","keywords":["task","任务"],"pinyin":"cong xuan qu jian ren wu congxuanqujianrenwu c x q j r w cxqjrw ren wu renwu r w rw"},{"id":"clickup-highlight-block","appId":"clickup","type":"software","category":"productivity","name":{"en":"Highlight Block","zh":"高亮文本块"},"description":{"en":"Highlight a text block","zh":"高亮文本块"},"windows":"Ctrl+Shift+H","mac":"Cmd+Shift+H","linux":"Ctrl+Shift+H","keywords":["highlight","高亮"],"pinyin":"gao liang wen ben kuai gaoliangwenbenkuai g l w b k glwbk gao liang gaoliang g l gl"},{"id":"clickup-duplicate-block","appId":"clickup","type":"software","category":"productivity","name":{"en":"Duplicate Block","zh":"复制文本块"},"description":{"en":"Duplicate a text block","zh":"复制文本块"},"windows":"Ctrl+D","mac":"Cmd+D","linux":"Ctrl+D","keywords":["duplicate","复制"],"pinyin":"fu zhi wen ben kuai fuzhiwenbenkuai f z w b k fzwbk fu zhi fuzhi f z fz"},{"id":"clickup-dashboard-view","appId":"clickup","type":"software","category":"productivity","name":{"en":"Dashboard View","zh":"仪表盘视图"},"description":{"en":"Switch to Dashboard view","zh":"切换到仪表盘视图"},"windows":"D","mac":"D","linux":"D","keywords":["dashboard","仪表盘"],"pinyin":"yi biao pan shi tu yibiaopanshitu y b p s t ybpst yi biao pan yibiaopan y b p ybp"},{"id":"clickup-board-view","appId":"clickup","type":"software","category":"productivity","name":{"en":"Board View","zh":"看板视图"},"description":{"en":"Switch to Board view","zh":"切换到看板视图"},"windows":"B","mac":"B","linux":"B","keywords":["board","看板"],"pinyin":"kan ban shi tu kanbanshitu k b s t kbst kan ban kanban k b kb"},{"id":"clickup-box-view","appId":"clickup","type":"software","category":"productivity","name":{"en":"Box View","zh":"盒子视图"},"description":{"en":"Switch to Box view","zh":"切换到盒子视图"},"windows":"X","mac":"X","linux":"X","keywords":["box","盒子"],"pinyin":"he zi shi tu hezishitu h z s t hzst he zi hezi h z hz"},{"id":"clickup-calendar-view","appId":"clickup","type":"software","category":"productivity","name":{"en":"Calendar View","zh":"日历视图"},"description":{"en":"Switch to Calendar view","zh":"切换到日历视图"},"windows":"C","mac":"C","linux":"C","keywords":["calendar","日历"],"pinyin":"ri li shi tu rilishitu r l s t rlst ri li rili r l rl"},{"id":"clickup-list-view","appId":"clickup","type":"software","category":"productivity","name":{"en":"List View","zh":"列表视图"},"description":{"en":"Switch to List view","zh":"切换到列表视图"},"windows":"L","mac":"L","linux":"L","keywords":["list","列表"],"pinyin":"lie biao shi tu liebiaoshitu l b s t lbst lie biao liebiao l b lb"}]
+[
+  {
+    "id": "clickup-close-task-or-window",
+    "appId": "clickup",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Close Task or Window",
+      "zh": "关闭任务或窗口"
+    },
+    "description": {
+      "en": "Close the current task or window",
+      "zh": "关闭当前任务或窗口"
+    },
+    "windows": "Esc",
+    "mac": "Esc",
+    "linux": "Esc",
+    "keywords": [
+      "close",
+      "关闭"
+    ],
+    "pinyin": "guan bi ren wu huo chuang kou guanbirenwuhuochuangkou g b r w h c k gbrwhck guan bi guanbi g b gb"
+  },
+  {
+    "id": "clickup-command-center",
+    "appId": "clickup",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Command Center",
+      "zh": "命令中心"
+    },
+    "description": {
+      "en": "Open command center",
+      "zh": "打开命令中心"
+    },
+    "windows": "Ctrl+K",
+    "mac": "Cmd+K",
+    "linux": "Ctrl+K",
+    "keywords": [
+      "command",
+      "命令中心"
+    ],
+    "pinyin": "ming ling zhong xin minglingzhongxin m l z x mlzx ming ling zhong xin minglingzhongxin m l z x mlzx"
+  },
+  {
+    "id": "clickup-open-billing",
+    "appId": "clickup",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Open Billing",
+      "zh": "打开账单"
+    },
+    "description": {
+      "en": "Open the billing page",
+      "zh": "打开账单页面"
+    },
+    "windows": "Ctrl+B",
+    "mac": "Cmd+B",
+    "linux": "Ctrl+B",
+    "keywords": [
+      "billing",
+      "账单"
+    ],
+    "pinyin": "da kai zhang dan dakaizhangdan d k z d dkzd zhang dan zhangdan z d zd"
+  },
+  {
+    "id": "clickup-home",
+    "appId": "clickup",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Home",
+      "zh": "主页"
+    },
+    "description": {
+      "en": "Go to Home",
+      "zh": "前往主页"
+    },
+    "windows": "H",
+    "mac": "H",
+    "linux": "H",
+    "keywords": [
+      "home",
+      "主页"
+    ],
+    "pinyin": "zhu ye zhuye z y zy zhu ye zhuye z y zy"
+  },
+  {
+    "id": "clickup-load-notifications",
+    "appId": "clickup",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Load Notifications",
+      "zh": "加载通知"
+    },
+    "description": {
+      "en": "Load new notifications",
+      "zh": "加载新通知"
+    },
+    "windows": "Space",
+    "mac": "Space",
+    "linux": "Space",
+    "keywords": [
+      "notifications",
+      "通知"
+    ],
+    "pinyin": "jia zai tong zhi jiazaitongzhi j z t z jztz tong zhi tongzhi t z tz"
+  },
+  {
+    "id": "clickup-notepad",
+    "appId": "clickup",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Notepad",
+      "zh": "记事本"
+    },
+    "description": {
+      "en": "Open the notepad",
+      "zh": "打开记事本"
+    },
+    "windows": "P",
+    "mac": "P",
+    "linux": "P",
+    "keywords": [
+      "notepad",
+      "记事本"
+    ],
+    "pinyin": "ji shi ben jishiben j s b jsb ji shi ben jishiben j s b jsb"
+  },
+  {
+    "id": "clickup-create-reminder",
+    "appId": "clickup",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Create Reminder",
+      "zh": "创建提醒"
+    },
+    "description": {
+      "en": "Create a reminder",
+      "zh": "创建提醒"
+    },
+    "windows": "R",
+    "mac": "R",
+    "linux": "R",
+    "keywords": [
+      "reminder",
+      "提醒"
+    ],
+    "pinyin": "chuang jian ti xing chuangjiantixing c j t x cjtx ti xing tixing t x tx"
+  },
+  {
+    "id": "clickup-search",
+    "appId": "clickup",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Search",
+      "zh": "搜索"
+    },
+    "description": {
+      "en": "Open search and command modal",
+      "zh": "打开搜索与命令弹窗"
+    },
+    "windows": "S",
+    "mac": "S",
+    "linux": "S",
+    "keywords": [
+      "search",
+      "搜索"
+    ],
+    "pinyin": "sou suo sousuo s s ss sou suo sousuo s s ss"
+  },
+  {
+    "id": "clickup-toggle-sidebar",
+    "appId": "clickup",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Toggle Sidebar",
+      "zh": "切换侧边栏"
+    },
+    "description": {
+      "en": "Show or hide the sidebar",
+      "zh": "显示或隐藏侧边栏"
+    },
+    "windows": "Q",
+    "mac": "Q",
+    "linux": "Q",
+    "keywords": [
+      "sidebar",
+      "侧边栏"
+    ],
+    "pinyin": "qie huan ce bian lan qiehuancebianlan q h c b l qhcbl ce bian lan cebianlan c b l cbl"
+  },
+  {
+    "id": "clickup-create-task",
+    "appId": "clickup",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Create Task",
+      "zh": "创建任务"
+    },
+    "description": {
+      "en": "Create a new task",
+      "zh": "创建新任务"
+    },
+    "windows": "T",
+    "mac": "T",
+    "linux": "T",
+    "keywords": [
+      "create task",
+      "创建任务"
+    ],
+    "pinyin": "chuang jian ren wu chuangjianrenwu c j r w cjrw chuang jian ren wu chuangjianrenwu c j r w cjrw"
+  },
+  {
+    "id": "clickup-mention-a-person",
+    "appId": "clickup",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Mention a Person",
+      "zh": "提及某人"
+    },
+    "description": {
+      "en": "Mention a person with @",
+      "zh": "用 @ 提及某人"
+    },
+    "windows": "@",
+    "mac": "@",
+    "linux": "@",
+    "keywords": [
+      "mention",
+      "提及",
+      "at"
+    ],
+    "pinyin": "ti ji mou ren tijimouren t j m r tjmr ti ji tiji t j tj"
+  },
+  {
+    "id": "clickup-mention-a-task",
+    "appId": "clickup",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Mention a Task",
+      "zh": "提及任务"
+    },
+    "description": {
+      "en": "Mention a task with @@",
+      "zh": "用 @@ 提及任务"
+    },
+    "windows": "@@",
+    "mac": "@@",
+    "linux": "@@",
+    "keywords": [
+      "mention task",
+      "提及任务"
+    ],
+    "pinyin": "ti ji ren wu tijirenwu t j r w tjrw ti ji ren wu tijirenwu t j r w tjrw"
+  },
+  {
+    "id": "clickup-mention-a-doc",
+    "appId": "clickup",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Mention a Doc",
+      "zh": "提及文档"
+    },
+    "description": {
+      "en": "Mention a doc with @@@",
+      "zh": "用 @@@ 提及文档"
+    },
+    "windows": "@@@",
+    "mac": "@@@",
+    "linux": "@@@",
+    "keywords": [
+      "mention doc",
+      "提及文档"
+    ],
+    "pinyin": "ti ji wen dang tijiwendang t j w d tjwd ti ji wen dang tijiwendang t j w d tjwd"
+  },
+  {
+    "id": "clickup-insert-arrow",
+    "appId": "clickup",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Insert Arrow",
+      "zh": "插入箭头"
+    },
+    "description": {
+      "en": "Insert an arrow into text",
+      "zh": "在文本中插入箭头"
+    },
+    "windows": "- >",
+    "mac": "- >",
+    "linux": "- >",
+    "keywords": [
+      "arrow",
+      "箭头"
+    ],
+    "pinyin": "cha ru jian tou charujiantou c r j t crjt jian tou jiantou j t jt"
+  },
+  {
+    "id": "clickup-select-all-in-code-block",
+    "appId": "clickup",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Select All in Code Block",
+      "zh": "全选代码块"
+    },
+    "description": {
+      "en": "Select all characters in a code block",
+      "zh": "选择代码块中所有字符"
+    },
+    "windows": "Ctrl+A",
+    "mac": "Cmd+A",
+    "linux": "Ctrl+A",
+    "keywords": [
+      "select all",
+      "全选",
+      "代码"
+    ],
+    "pinyin": "quan xuan dai ma kuai quanxuandaimakuai q x d m k qxdmk quan xuan   dai ma quanxuan daima q x   d m qx dm"
+  },
+  {
+    "id": "clickup-edit-last-comment",
+    "appId": "clickup",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Edit Last Comment",
+      "zh": "编辑上条评论"
+    },
+    "description": {
+      "en": "Edit your most recent comment",
+      "zh": "编辑最近一条评论"
+    },
+    "windows": "Up",
+    "mac": "Up",
+    "linux": "Up",
+    "keywords": [
+      "edit comment",
+      "编辑评论"
+    ],
+    "pinyin": "bian ji shang tiao ping lun bianjishangtiaopinglun b j s t p l bjstpl bian ji ping lun bianjipinglun b j p l bjpl"
+  },
+  {
+    "id": "clickup-emoji-menu",
+    "appId": "clickup",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Emoji Menu",
+      "zh": "表情菜单"
+    },
+    "description": {
+      "en": "Open the emoji menu",
+      "zh": "打开表情菜单"
+    },
+    "windows": ":",
+    "mac": ":",
+    "linux": ":",
+    "keywords": [
+      "emoji",
+      "表情"
+    ],
+    "pinyin": "biao qing cai dan biaoqingcaidan b q c d bqcd biao qing biaoqing b q bq"
+  },
+  {
+    "id": "clickup-add-link",
+    "appId": "clickup",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Add Link",
+      "zh": "添加链接"
+    },
+    "description": {
+      "en": "Highlight text to add a link",
+      "zh": "高亮文本以添加链接"
+    },
+    "windows": "Ctrl+K",
+    "mac": "Cmd+K",
+    "linux": "Ctrl+K",
+    "keywords": [
+      "link",
+      "链接"
+    ],
+    "pinyin": "tian jia lian jie tianjialianjie t j l j tjlj lian jie lianjie l j lj"
+  },
+  {
+    "id": "clickup-assign-to-self",
+    "appId": "clickup",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Assign to Self",
+      "zh": "分配给自己"
+    },
+    "description": {
+      "en": "Assign the task to yourself",
+      "zh": "将任务分配给自己"
+    },
+    "windows": "M",
+    "mac": "M",
+    "linux": "M",
+    "keywords": [
+      "assign",
+      "分配",
+      "自己"
+    ],
+    "pinyin": "fen pei ji zi ji fenpeijiziji f p j z j fpjzj fen pei   zi ji fenpei ziji f p   z j fp zj"
+  },
+  {
+    "id": "clickup-copy-url-new-task",
+    "appId": "clickup",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Copy URL (new task)",
+      "zh": "复制 URL（新任务）"
+    },
+    "description": {
+      "en": "Copy URL of new task",
+      "zh": "复制新任务的 URL"
+    },
+    "windows": "3",
+    "mac": "3",
+    "linux": "3",
+    "keywords": [
+      "copy url",
+      "复制链接"
+    ],
+    "pinyin": "fu zhi   u r l （ xin ren wu ） fuzhi url（xinrenwu） f z   u r l （ x r w ） fz url（xrw） fu zhi lian jie fuzhilianjie f z l j fzlj"
+  },
+  {
+    "id": "clickup-move-to-tray-new-task",
+    "appId": "clickup",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Move to Tray (new task)",
+      "zh": "移至托盘（新任务）"
+    },
+    "description": {
+      "en": "Move new task to tray",
+      "zh": "将新任务移至托盘"
+    },
+    "windows": "2",
+    "mac": "2",
+    "linux": "2",
+    "keywords": [
+      "tray",
+      "托盘"
+    ],
+    "pinyin": "yi zhi tuo pan （ xin ren wu ） yizhituopan（xinrenwu） y z t p （ x r w ） yztp（xrw） tuo pan tuopan t p tp"
+  },
+  {
+    "id": "clickup-open-new-task",
+    "appId": "clickup",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Open (new task)",
+      "zh": "打开（新任务）"
+    },
+    "description": {
+      "en": "Open new task",
+      "zh": "打开新任务"
+    },
+    "windows": "1",
+    "mac": "1",
+    "linux": "1",
+    "keywords": [
+      "open",
+      "打开"
+    ],
+    "pinyin": "da kai （ xin ren wu ） dakai（xinrenwu） d k （ x r w ） dk（xrw） da kai dakai d k dk"
+  },
+  {
+    "id": "clickup-navigate-next-task",
+    "appId": "clickup",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Navigate Next Task",
+      "zh": "下一任务"
+    },
+    "description": {
+      "en": "Navigate to next task",
+      "zh": "导航到下一个任务"
+    },
+    "windows": "Ctrl+Shift+Right",
+    "mac": "Cmd+Shift+Right",
+    "linux": "Ctrl+Shift+Right",
+    "keywords": [
+      "next task",
+      "下一任务"
+    ],
+    "pinyin": "xia yi ren wu xiayirenwu x y r w xyrw xia yi ren wu xiayirenwu x y r w xyrw"
+  },
+  {
+    "id": "clickup-quick-create-task",
+    "appId": "clickup",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Quick Create Task",
+      "zh": "快速创建任务"
+    },
+    "description": {
+      "en": "Quick create a new task",
+      "zh": "快速创建新任务"
+    },
+    "windows": "Ctrl+E",
+    "mac": "Cmd+E",
+    "linux": "Ctrl+E",
+    "keywords": [
+      "quick create",
+      "快速创建"
+    ],
+    "pinyin": "kuai su chuang jian ren wu kuaisuchuangjianrenwu k s c j r w kscjrw kuai su chuang jian kuaisuchuangjian k s c j kscj"
+  },
+  {
+    "id": "clickup-comment-from-selection",
+    "appId": "clickup",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Comment from Selection",
+      "zh": "从选区建评论"
+    },
+    "description": {
+      "en": "Create a comment from selected text",
+      "zh": "从选中文本创建评论"
+    },
+    "windows": "Ctrl+Shift+M",
+    "mac": "Cmd+Shift+M",
+    "linux": "Ctrl+Shift+M",
+    "keywords": [
+      "comment",
+      "评论"
+    ],
+    "pinyin": "cong xuan qu jian ping lun congxuanqujianpinglun c x q j p l cxqjpl ping lun pinglun p l pl"
+  },
+  {
+    "id": "clickup-task-from-selection",
+    "appId": "clickup",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Task from Selection",
+      "zh": "从选区建任务"
+    },
+    "description": {
+      "en": "Create a task from selected text",
+      "zh": "从选中文本创建任务"
+    },
+    "windows": "Ctrl+Shift+T",
+    "mac": "Cmd+Shift+T",
+    "linux": "Ctrl+Shift+T",
+    "keywords": [
+      "task",
+      "任务"
+    ],
+    "pinyin": "cong xuan qu jian ren wu congxuanqujianrenwu c x q j r w cxqjrw ren wu renwu r w rw"
+  },
+  {
+    "id": "clickup-highlight-block",
+    "appId": "clickup",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Highlight Block",
+      "zh": "高亮文本块"
+    },
+    "description": {
+      "en": "Highlight a text block",
+      "zh": "高亮文本块"
+    },
+    "windows": "Ctrl+Shift+H",
+    "mac": "Cmd+Shift+H",
+    "linux": "Ctrl+Shift+H",
+    "keywords": [
+      "highlight",
+      "高亮"
+    ],
+    "pinyin": "gao liang wen ben kuai gaoliangwenbenkuai g l w b k glwbk gao liang gaoliang g l gl"
+  },
+  {
+    "id": "clickup-duplicate-block",
+    "appId": "clickup",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Duplicate Block",
+      "zh": "复制文本块"
+    },
+    "description": {
+      "en": "Duplicate a text block",
+      "zh": "复制文本块"
+    },
+    "windows": "Ctrl+D",
+    "mac": "Cmd+D",
+    "linux": "Ctrl+D",
+    "keywords": [
+      "duplicate",
+      "复制"
+    ],
+    "pinyin": "fu zhi wen ben kuai fuzhiwenbenkuai f z w b k fzwbk fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "clickup-dashboard-view",
+    "appId": "clickup",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Dashboard View",
+      "zh": "仪表盘视图"
+    },
+    "description": {
+      "en": "Switch to Dashboard view",
+      "zh": "切换到仪表盘视图"
+    },
+    "windows": "D",
+    "mac": "D",
+    "linux": "D",
+    "keywords": [
+      "dashboard",
+      "仪表盘"
+    ],
+    "pinyin": "yi biao pan shi tu yibiaopanshitu y b p s t ybpst yi biao pan yibiaopan y b p ybp"
+  },
+  {
+    "id": "clickup-board-view",
+    "appId": "clickup",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Board View",
+      "zh": "看板视图"
+    },
+    "description": {
+      "en": "Switch to Board view",
+      "zh": "切换到看板视图"
+    },
+    "windows": "B",
+    "mac": "B",
+    "linux": "B",
+    "keywords": [
+      "board",
+      "看板"
+    ],
+    "pinyin": "kan ban shi tu kanbanshitu k b s t kbst kan ban kanban k b kb"
+  },
+  {
+    "id": "clickup-box-view",
+    "appId": "clickup",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Box View",
+      "zh": "盒子视图"
+    },
+    "description": {
+      "en": "Switch to Box view",
+      "zh": "切换到盒子视图"
+    },
+    "windows": "X",
+    "mac": "X",
+    "linux": "X",
+    "keywords": [
+      "box",
+      "盒子"
+    ],
+    "pinyin": "he zi shi tu hezishitu h z s t hzst he zi hezi h z hz"
+  },
+  {
+    "id": "clickup-calendar-view",
+    "appId": "clickup",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Calendar View",
+      "zh": "日历视图"
+    },
+    "description": {
+      "en": "Switch to Calendar view",
+      "zh": "切换到日历视图"
+    },
+    "windows": "C",
+    "mac": "C",
+    "linux": "C",
+    "keywords": [
+      "calendar",
+      "日历"
+    ],
+    "pinyin": "ri li shi tu rilishitu r l s t rlst ri li rili r l rl"
+  },
+  {
+    "id": "clickup-list-view",
+    "appId": "clickup",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "List View",
+      "zh": "列表视图"
+    },
+    "description": {
+      "en": "Switch to List view",
+      "zh": "切换到列表视图"
+    },
+    "windows": "L",
+    "mac": "L",
+    "linux": "L",
+    "keywords": [
+      "list",
+      "列表"
+    ],
+    "pinyin": "lie biao shi tu liebiaoshitu l b s t lbst lie biao liebiao l b lb"
+  }
+]

@@ -1,1 +1,880 @@
-[{"id":"warp-commandpalette","appId":"warp","type":"software","category":"development","name":{"zh":"打开命令面板","en":"Toggle Command Palette"},"description":{"zh":"打开可搜索所有 Warp 命令的面板","en":"Open the searchable command palette"},"windows":"Ctrl + Shift + P","mac":"⌘ P","linux":"Ctrl + Shift + P","keywords":["命令面板","command palette","命令"],"pinyin":"da kai ming ling mian ban dakaiminglingmianban d k m l m b dkmlmb ming ling mian ban   ming ling minglingmianban mingling m l m b   m l mlmb ml"},{"id":"warp-commandsearch","appId":"warp","type":"software","category":"development","name":{"zh":"命令搜索","en":"Command Search"},"description":{"zh":"搜索历史命令与工作流","en":"Search command history and workflows"},"windows":"Ctrl + R","mac":"⌃ R","linux":"Ctrl + R","keywords":["命令搜索","command search","历史","搜索"],"pinyin":"ming ling sou suo minglingsousuo m l s s mlss ming ling sou suo   li shi   sou suo minglingsousuo lishi sousuo m l s s   l s   s s mlss ls ss"},{"id":"warp-generate","appId":"warp","type":"software","category":"development","name":{"zh":"AI 生成命令","en":"Generate (Natural Language)"},"description":{"zh":"用自然语言让 AI 生成命令","en":"Generate a command with natural language AI"},"windows":"Ctrl + `","mac":"⌃ `","linux":"Ctrl + `","keywords":["生成","generate","ai","自然语言"],"pinyin":"a i   sheng cheng ming ling ai shengchengmingling a i   s c m l ai scml sheng cheng   zi ran yu yan shengcheng ziranyuyan s c   z r y y sc zryy"},{"id":"warp-warpdrive","appId":"warp","type":"software","category":"development","name":{"zh":"打开 Warp Drive","en":"Toggle Warp Drive"},"description":{"zh":"打开团队共享的 Warp Drive 知识库","en":"Toggle the shared Warp Drive knowledge base"},"windows":"Ctrl + Shift + \\","mac":"⌘ \\","linux":"Ctrl + Shift + \\","keywords":["warp drive","知识库","共享","notebook"],"pinyin":"da kai   w a r p   d r i v e dakai warp drive d k   w a r p   d r i v e dk warp drive zhi shi ku   gong xiang zhishiku gongxiang z s k   g x zsk gx"},{"id":"warp-focusinput","appId":"warp","type":"software","category":"development","name":{"zh":"聚焦终端输入","en":"Focus Terminal Input"},"description":{"zh":"将光标移回终端输入行","en":"Move focus back to the terminal input"},"windows":"Ctrl + Shift + L","mac":"⌘ L","linux":"Ctrl + Shift + L","keywords":["聚焦","focus","输入","光标"],"pinyin":"ju jiao zhong duan shu ru jujiaozhongduanshuru j j z d s r jjzdsr ju jiao   shu ru   guang biao jujiao shuru guangbiao j j   s r   g b jj sr gb"},{"id":"warp-splitright","appId":"warp","type":"software","category":"development","name":{"zh":"向右分屏","en":"Split Pane Right"},"description":{"zh":"在右侧新建一个分屏面板","en":"Create a new pane to the right"},"windows":"Ctrl + Shift + D","mac":"⌘ D","linux":"Ctrl + Shift + D","keywords":["分屏","split","面板","右侧"],"pinyin":"xiang you fen ping xiangyoufenping x y f p xyfp fen ping   mian ban   you ce fenping mianban youce f p   m b   y c fp mb yc"},{"id":"warp-splitdown","appId":"warp","type":"software","category":"development","name":{"zh":"向下分屏","en":"Split Pane Down"},"description":{"zh":"在下方新建一个分屏面板","en":"Create a new pane below"},"windows":"Ctrl + Shift + E","mac":"⇧ ⌘ D","linux":"Ctrl + Shift + E","keywords":["分屏","split","面板","下方"],"pinyin":"xiang xia fen ping xiangxiafenping x x f p xxfp fen ping   mian ban   xia fang fenping mianban xiafang f p   m b   x f fp mb xf"},{"id":"warp-switchpane-up","appId":"warp","type":"software","category":"development","name":{"zh":"切换到上方面板","en":"Switch Panes Up"},"description":{"zh":"在分屏间向上切换焦点","en":"Move focus to the pane above"},"windows":"Ctrl + Alt + ↑","mac":"⌥ ⌘ ↑","linux":"Ctrl + Alt + ↑","keywords":["切换面板","switch pane","分屏","焦点"],"pinyin":"qie huan dao shang fang mian ban qiehuandaoshangfangmianban q h d s f m b qhdsfmb qie huan mian ban   fen ping   jiao dian qiehuanmianban fenping jiaodian q h m b   f p   j d qhmb fp jd"},{"id":"warp-switchpane-down","appId":"warp","type":"software","category":"development","name":{"zh":"切换到下方面板","en":"Switch Panes Down"},"description":{"zh":"在分屏间向下切换焦点","en":"Move focus to the pane below"},"windows":"Ctrl + Alt + ↓","mac":"⌥ ⌘ ↓","linux":"Ctrl + Alt + ↓","keywords":["切换面板","switch pane","分屏","焦点"],"pinyin":"qie huan dao xia fang mian ban qiehuandaoxiafangmianban q h d x f m b qhdxfmb qie huan mian ban   fen ping   jiao dian qiehuanmianban fenping jiaodian q h m b   f p   j d qhmb fp jd"},{"id":"warp-switchpane-left","appId":"warp","type":"software","category":"development","name":{"zh":"切换到左侧面板","en":"Switch Panes Left"},"description":{"zh":"在分屏间向左切换焦点","en":"Move focus to the pane on the left"},"windows":"Ctrl + Alt + ←","mac":"⌥ ⌘ ←","linux":"Ctrl + Alt + ←","keywords":["切换面板","switch pane","分屏","焦点"],"pinyin":"qie huan dao zuo ce mian ban qiehuandaozuocemianban q h d z c m b qhdzcmb qie huan mian ban   fen ping   jiao dian qiehuanmianban fenping jiaodian q h m b   f p   j d qhmb fp jd"},{"id":"warp-switchpane-right","appId":"warp","type":"software","category":"development","name":{"zh":"切换到右侧面板","en":"Switch Panes Right"},"description":{"zh":"在分屏间向右切换焦点","en":"Move focus to the pane on the right"},"windows":"Ctrl + Alt + →","mac":"⌥ ⌘ →","linux":"Ctrl + Alt + →","keywords":["切换面板","switch pane","分屏","焦点"],"pinyin":"qie huan dao you ce mian ban qiehuandaoyoucemianban q h d y c m b qhdycmb qie huan mian ban   fen ping   jiao dian qiehuanmianban fenping jiaodian q h m b   f p   j d qhmb fp jd"},{"id":"warp-maximizepane","appId":"warp","type":"software","category":"development","name":{"zh":"最大化当前面板","en":"Toggle Maximize Active Pane"},"description":{"zh":"将当前分屏面板最大化 / 还原","en":"Maximize or restore the active pane"},"windows":"Ctrl + Shift + Enter","mac":"⇧ ⌘ Enter","linux":"Ctrl + Shift + Enter","keywords":["最大化","maximize","分屏","面板"],"pinyin":"zui da hua dang qian mian ban zuidahuadangqianmianban z d h d q m b zdhdqmb zui da hua   fen ping   mian ban zuidahua fenping mianban z d h   f p   m b zdh fp mb"},{"id":"warp-newtab","appId":"warp","type":"software","category":"development","name":{"zh":"新建标签页","en":"Open New Tab"},"description":{"zh":"打开一个新的终端标签页","en":"Open a new terminal tab"},"windows":"Ctrl + Shift + T","mac":"⌘ T","linux":"Ctrl + Shift + T","keywords":["新建标签","new tab","标签页"],"pinyin":"xin jian biao qian ye xinjianbiaoqianye x j b q y xjbqy xin jian biao qian   biao qian ye xinjianbiaoqian biaoqianye x j b q   b q y xjbq bqy"},{"id":"warp-reopentab","appId":"warp","type":"software","category":"development","name":{"zh":"重新打开关闭的标签页","en":"Reopen Closed Tab"},"description":{"zh":"恢复最近关闭的标签页","en":"Reopen the most recently closed tab"},"windows":"Ctrl + Alt + T","mac":"⇧ ⌘ T","linux":"Ctrl + Alt + T","keywords":["恢复","reopen","标签页","关闭"],"pinyin":"chong xin da kai guan bi de biao qian ye chongxindakaiguanbidebiaoqianye c x d k g b d b q y cxdkgbdbqy hui fu   biao qian ye   guan bi huifu biaoqianye guanbi h f   b q y   g b hf bqy gb"},{"id":"warp-prevtab","appId":"warp","type":"software","category":"development","name":{"zh":"上一个标签页","en":"Activate Previous Tab"},"description":{"zh":"切换到上一个标签页","en":"Switch to the previous tab"},"windows":"Ctrl + Page Up","mac":"⇧ ⌘ {","linux":"Ctrl + Page Up","keywords":["上一个","previous tab","标签页","切换"],"pinyin":"shang yi ge biao qian ye shangyigebiaoqianye s y g b q y sygbqy shang yi ge   biao qian ye   qie huan shangyige biaoqianye qiehuan s y g   b q y   q h syg bqy qh"},{"id":"warp-nexttab","appId":"warp","type":"software","category":"development","name":{"zh":"下一个标签页","en":"Activate Next Tab"},"description":{"zh":"切换到下一个标签页","en":"Switch to the next tab"},"windows":"Ctrl + Page Down","mac":"⇧ ⌘ }","linux":"Ctrl + Page Down","keywords":["下一个","next tab","标签页","切换"],"pinyin":"xia yi ge biao qian ye xiayigebiaoqianye x y g b q y xygbqy xia yi ge   biao qian ye   qie huan xiayige biaoqianye qiehuan x y g   b q y   q h xyg bqy qh"},{"id":"warp-tab1","appId":"warp","type":"software","category":"development","name":{"zh":"切换到第 1 个标签页","en":"Switch to 1st Tab"},"description":{"zh":"直达第 1 个标签页（2–8 同理，9 为最后一个）","en":"Jump to the 1st tab (2–8 similar, 9 = last)"},"windows":"Ctrl + 1","mac":"⌘ 1","linux":"Ctrl + 1","keywords":["标签页","tab","切换","第1个"],"pinyin":"qie huan dao di   1   ge biao qian ye qiehuandaodi 1 gebiaoqianye q h d d   1   g b q y qhdd 1 gbqy biao qian ye   qie huan   di 1 ge biaoqianye qiehuan di1ge b q y   q h   d 1 g bqy qh d1g"},{"id":"warp-tablast","appId":"warp","type":"software","category":"development","name":{"zh":"切换到最后一个标签页","en":"Switch to Last Tab"},"description":{"zh":"直达最后一个标签页","en":"Jump to the last tab"},"windows":"Ctrl + 9","mac":"⌘ 9","linux":"Ctrl + 9","keywords":["标签页","tab","最后一个","切换"],"pinyin":"qie huan dao zui hou yi ge biao qian ye qiehuandaozuihouyigebiaoqianye q h d z h y g b q y qhdzhygbqy biao qian ye   zui hou yi ge   qie huan biaoqianye zuihouyige qiehuan b q y   z h y g   q h bqy zhyg qh"},{"id":"warp-copy","appId":"warp","type":"software","category":"development","name":{"zh":"复制","en":"Copy"},"description":{"zh":"复制选中的终端文本","en":"Copy the selected terminal text"},"windows":"Ctrl + Shift + C","mac":"⌘ C","linux":"Ctrl + Shift + C","keywords":["复制","copy","剪贴板"],"pinyin":"fu zhi fuzhi f z fz fu zhi   jian tie ban fuzhi jiantieban f z   j t b fz jtb"},{"id":"warp-paste","appId":"warp","type":"software","category":"development","name":{"zh":"粘贴","en":"Paste"},"description":{"zh":"粘贴剪贴板内容到终端","en":"Paste clipboard content into the terminal"},"windows":"Ctrl + Shift + V","mac":"⌘ V","linux":"Ctrl + Shift + V","keywords":["粘贴","paste","剪贴板"],"pinyin":"nian tie niantie n t nt nian tie   jian tie ban niantie jiantieban n t   j t b nt jtb"},{"id":"warp-find","appId":"warp","type":"software","category":"development","name":{"zh":"查找","en":"Find"},"description":{"zh":"在终端输出中查找文本","en":"Find text in the terminal output"},"windows":"Ctrl + Shift + F","mac":"⌘ F","linux":"Ctrl + Shift + F","keywords":["查找","find","搜索"],"pinyin":"cha zhao chazhao c z cz cha zhao   sou suo chazhao sousuo c z   s s cz ss"},{"id":"warp-findnext","appId":"warp","type":"software","category":"development","name":{"zh":"查找下一个","en":"Find Next Occurrence"},"description":{"zh":"跳到下一个匹配项","en":"Jump to the next search match"},"windows":"F3","mac":"⌘ G","linux":"F3","keywords":["查找下一个","find next","搜索"],"pinyin":"cha zhao xia yi ge chazhaoxiayige c z x y g czxyg cha zhao xia yi ge   sou suo chazhaoxiayige sousuo c z x y g   s s czxyg ss"},{"id":"warp-findprev","appId":"warp","type":"software","category":"development","name":{"zh":"查找上一个","en":"Find Previous Occurrence"},"description":{"zh":"跳到上一个匹配项","en":"Jump to the previous search match"},"windows":"Shift + F3","mac":"⇧ ⌘ G","linux":"Shift + F3","keywords":["查找上一个","find previous","搜索"],"pinyin":"cha zhao shang yi ge chazhaoshangyige c z s y g czsyg cha zhao shang yi ge   sou suo chazhaoshangyige sousuo c z s y g   s s czsyg ss"},{"id":"warp-nextblock","appId":"warp","type":"software","category":"development","name":{"zh":"选择下一个命令块","en":"Select Next Block"},"description":{"zh":"选中下一个命令输出块","en":"Select the next command block"},"windows":"Ctrl + ↓","mac":"⌘ ↓","linux":"Ctrl + ↓","keywords":["命令块","block","下一个","选择"],"pinyin":"xuan ze xia yi ge ming ling kuai xuanzexiayigeminglingkuai x z x y g m l k xzxygmlk ming ling kuai   xia yi ge   xuan ze minglingkuai xiayige xuanze m l k   x y g   x z mlk xyg xz"},{"id":"warp-prevblock","appId":"warp","type":"software","category":"development","name":{"zh":"选择上一个命令块","en":"Select Previous Block"},"description":{"zh":"选中上一个命令输出块","en":"Select the previous command block"},"windows":"Ctrl + ↑","mac":"⌘ ↑","linux":"Ctrl + ↑","keywords":["命令块","block","上一个","选择"],"pinyin":"xuan ze shang yi ge ming ling kuai xuanzeshangyigeminglingkuai x z s y g m l k xzsygmlk ming ling kuai   shang yi ge   xuan ze minglingkuai shangyige xuanze m l k   s y g   x z mlk syg xz"},{"id":"warp-clearblocks","appId":"warp","type":"software","category":"development","name":{"zh":"清空所有命令块","en":"Clear Blocks"},"description":{"zh":"清除终端中所有命令块（清屏）","en":"Clear all blocks from the terminal"},"windows":"Ctrl + Shift + K","mac":"⌘ K","linux":"Ctrl + Shift + K","keywords":["清空","clear","命令块","清屏"],"pinyin":"qing kong suo you ming ling kuai qingkongsuoyouminglingkuai q k s y m l k qksymlk qing kong   ming ling kuai   qing ping qingkong minglingkuai qingping q k   m l k   q p qk mlk qp"},{"id":"warp-bookmark","appId":"warp","type":"software","category":"development","name":{"zh":"为命令块添加书签","en":"Bookmark Selected Block"},"description":{"zh":"给选中的命令块加书签以便快速跳转","en":"Bookmark the selected block for quick navigation"},"windows":"Ctrl + Shift + B","mac":"⌘ B","linux":"Ctrl + Shift + B","keywords":["书签","bookmark","命令块","标记"],"pinyin":"wei ming ling kuai tian jia shu qian weiminglingkuaitianjiashuqian w m l k t j s q wmlktjsq shu qian   ming ling kuai   biao ji shuqian minglingkuai biaoji s q   m l k   b j sq mlk bj"},{"id":"warp-copyoutput","appId":"warp","type":"software","category":"development","name":{"zh":"复制命令输出","en":"Copy Command Output"},"description":{"zh":"只复制该命令块的输出结果","en":"Copy only the output of the command block"},"windows":"Ctrl + Shift + Alt + C","mac":"⌥ ⇧ ⌘ C","linux":"Ctrl + Shift + Alt + C","keywords":["复制输出","copy output","结果"],"pinyin":"fu zhi ming ling shu chu fuzhiminglingshuchu f z m l s c fzmlsc fu zhi shu chu   jie guo fuzhishuchu jieguo f z s c   j g fzsc jg"},{"id":"warp-copycommand","appId":"warp","type":"software","category":"development","name":{"zh":"复制命令","en":"Copy Command"},"description":{"zh":"复制该命令块中输入的命令文本","en":"Copy the command text of the block"},"windows":"Ctrl + Shift + C","mac":"⇧ ⌘ C","linux":"Ctrl + Shift + C","keywords":["复制命令","copy command","命令文本"],"pinyin":"fu zhi ming ling fuzhimingling f z m l fzml fu zhi ming ling   ming ling wen ben fuzhimingling minglingwenben f z m l   m l w b fzml mlwb"},{"id":"warp-shareblock","appId":"warp","type":"software","category":"development","name":{"zh":"分享命令块","en":"Share Selected Block"},"description":{"zh":"生成选中命令块的分享链接","en":"Create a shareable link for the selected block"},"windows":"Ctrl + Shift + S","mac":"⇧ ⌘ S","linux":"Ctrl + Shift + S","keywords":["分享","share","命令块","链接"],"pinyin":"fen xiang ming ling kuai fenxiangminglingkuai f x m l k fxmlk fen xiang   ming ling kuai   lian jie fenxiang minglingkuai lianjie f x   m l k   l j fx mlk lj"},{"id":"warp-settings","appId":"warp","type":"software","category":"development","name":{"zh":"打开设置","en":"Open Settings"},"description":{"zh":"打开 Warp 设置界面","en":"Open the Warp settings"},"windows":"Ctrl + ,","mac":"⌘ ,","linux":"Ctrl + ,","keywords":["设置","settings","偏好","配置"],"pinyin":"da kai she zhi dakaishezhi d k s z dksz she zhi   pian hao   pei zhi shezhi pianhao peizhi s z   p h   p z sz ph pz"},{"id":"warp-font-increase","appId":"warp","type":"software","category":"development","name":{"zh":"增大字号","en":"Increase Font Size"},"description":{"zh":"放大终端字体","en":"Increase the terminal font size"},"windows":"Ctrl + =","mac":"⌘ =","linux":"Ctrl + =","keywords":["字号","font","放大","增大"],"pinyin":"zeng da zi hao zengdazihao z d z h zdzh zi hao   fang da   zeng da zihao fangda zengda z h   f d   z d zh fd zd"},{"id":"warp-font-decrease","appId":"warp","type":"software","category":"development","name":{"zh":"减小字号","en":"Decrease Font Size"},"description":{"zh":"缩小终端字体","en":"Decrease the terminal font size"},"windows":"Ctrl + -","mac":"⌘ -","linux":"Ctrl + -","keywords":["字号","font","缩小","减小"],"pinyin":"jian xiao zi hao jianxiaozihao j x z h jxzh zi hao   suo xiao   jian xiao zihao suoxiao jianxiao z h   s x   j x zh sx jx"},{"id":"warp-font-reset","appId":"warp","type":"software","category":"development","name":{"zh":"重置字号","en":"Reset Font Size"},"description":{"zh":"将终端字号恢复为默认值","en":"Reset the font size to default"},"windows":"Ctrl + 0","mac":"⌘ 0","linux":"Ctrl + 0","keywords":["字号","font","重置","默认"],"pinyin":"zhong zhi zi hao zhongzhizihao z z z h zzzh zi hao   zhong zhi   mo ren zihao zhongzhi moren z h   z z   m r zh zz mr"},{"id":"warp-scrolltop","appId":"warp","type":"software","category":"development","name":{"zh":"滚动到顶部","en":"Scroll to Top"},"description":{"zh":"滚动到终端输出的最上方","en":"Scroll to the top of the terminal output"},"windows":"Home","mac":"Home","linux":"Home","keywords":["滚动","scroll","顶部","top"],"pinyin":"gun dong dao ding bu gundongdaodingbu g d d d b gdddb gun dong   ding bu gundong dingbu g d   d b gd db"},{"id":"warp-scrollbottom","appId":"warp","type":"software","category":"development","name":{"zh":"滚动到底部","en":"Scroll to Bottom"},"description":{"zh":"滚动到终端输出的最下方","en":"Scroll to the bottom of the terminal output"},"windows":"End","mac":"End","linux":"End","keywords":["滚动","scroll","底部","bottom"],"pinyin":"gun dong dao di bu gundongdaodibu g d d d b gdddb gun dong   di bu gundong dibu g d   d b gd db"},{"id":"warp-workflows","appId":"warp","type":"software","category":"development","name":{"zh":"打开工作流","en":"Toggle Workflows"},"description":{"zh":"切换 workflows 面板","en":"Toggle the workflows panel"},"windows":"Ctrl + Shift + R","mac":"⌃ ⇧ R","linux":"Ctrl + Shift + R","keywords":["工作流","workflows","面板"],"pinyin":"da kai gong zuo liu dakaigongzuoliu d k g z l dkgzl gong zuo liu   mian ban gongzuoliu mianban g z l   m b gzl mb"}]
+[
+  {
+    "id": "warp-commandpalette",
+    "appId": "warp",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "打开命令面板",
+      "en": "Toggle Command Palette"
+    },
+    "description": {
+      "zh": "打开可搜索所有 Warp 命令的面板",
+      "en": "Open the searchable command palette"
+    },
+    "windows": "Ctrl + Shift + P",
+    "mac": "⌘ P",
+    "linux": "Ctrl + Shift + P",
+    "keywords": [
+      "命令面板",
+      "command palette",
+      "命令"
+    ],
+    "pinyin": "da kai ming ling mian ban dakaiminglingmianban d k m l m b dkmlmb ming ling mian ban   ming ling minglingmianban mingling m l m b   m l mlmb ml"
+  },
+  {
+    "id": "warp-commandsearch",
+    "appId": "warp",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "命令搜索",
+      "en": "Command Search"
+    },
+    "description": {
+      "zh": "搜索历史命令与工作流",
+      "en": "Search command history and workflows"
+    },
+    "windows": "Ctrl + R",
+    "mac": "⌃ R",
+    "linux": "Ctrl + R",
+    "keywords": [
+      "命令搜索",
+      "command search",
+      "历史",
+      "搜索"
+    ],
+    "pinyin": "ming ling sou suo minglingsousuo m l s s mlss ming ling sou suo   li shi   sou suo minglingsousuo lishi sousuo m l s s   l s   s s mlss ls ss"
+  },
+  {
+    "id": "warp-generate",
+    "appId": "warp",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "AI 生成命令",
+      "en": "Generate (Natural Language)"
+    },
+    "description": {
+      "zh": "用自然语言让 AI 生成命令",
+      "en": "Generate a command with natural language AI"
+    },
+    "windows": "Ctrl + `",
+    "mac": "⌃ `",
+    "linux": "Ctrl + `",
+    "keywords": [
+      "生成",
+      "generate",
+      "ai",
+      "自然语言"
+    ],
+    "pinyin": "a i   sheng cheng ming ling ai shengchengmingling a i   s c m l ai scml sheng cheng   zi ran yu yan shengcheng ziranyuyan s c   z r y y sc zryy"
+  },
+  {
+    "id": "warp-warpdrive",
+    "appId": "warp",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "打开 Warp Drive",
+      "en": "Toggle Warp Drive"
+    },
+    "description": {
+      "zh": "打开团队共享的 Warp Drive 知识库",
+      "en": "Toggle the shared Warp Drive knowledge base"
+    },
+    "windows": "Ctrl + Shift + \\",
+    "mac": "⌘ \\",
+    "linux": "Ctrl + Shift + \\",
+    "keywords": [
+      "warp drive",
+      "知识库",
+      "共享",
+      "notebook"
+    ],
+    "pinyin": "da kai   w a r p   d r i v e dakai warp drive d k   w a r p   d r i v e dk warp drive zhi shi ku   gong xiang zhishiku gongxiang z s k   g x zsk gx"
+  },
+  {
+    "id": "warp-focusinput",
+    "appId": "warp",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "聚焦终端输入",
+      "en": "Focus Terminal Input"
+    },
+    "description": {
+      "zh": "将光标移回终端输入行",
+      "en": "Move focus back to the terminal input"
+    },
+    "windows": "Ctrl + Shift + L",
+    "mac": "⌘ L",
+    "linux": "Ctrl + Shift + L",
+    "keywords": [
+      "聚焦",
+      "focus",
+      "输入",
+      "光标"
+    ],
+    "pinyin": "ju jiao zhong duan shu ru jujiaozhongduanshuru j j z d s r jjzdsr ju jiao   shu ru   guang biao jujiao shuru guangbiao j j   s r   g b jj sr gb"
+  },
+  {
+    "id": "warp-splitright",
+    "appId": "warp",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "向右分屏",
+      "en": "Split Pane Right"
+    },
+    "description": {
+      "zh": "在右侧新建一个分屏面板",
+      "en": "Create a new pane to the right"
+    },
+    "windows": "Ctrl + Shift + D",
+    "mac": "⌘ D",
+    "linux": "Ctrl + Shift + D",
+    "keywords": [
+      "分屏",
+      "split",
+      "面板",
+      "右侧"
+    ],
+    "pinyin": "xiang you fen ping xiangyoufenping x y f p xyfp fen ping   mian ban   you ce fenping mianban youce f p   m b   y c fp mb yc"
+  },
+  {
+    "id": "warp-splitdown",
+    "appId": "warp",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "向下分屏",
+      "en": "Split Pane Down"
+    },
+    "description": {
+      "zh": "在下方新建一个分屏面板",
+      "en": "Create a new pane below"
+    },
+    "windows": "Ctrl + Shift + E",
+    "mac": "⇧ ⌘ D",
+    "linux": "Ctrl + Shift + E",
+    "keywords": [
+      "分屏",
+      "split",
+      "面板",
+      "下方"
+    ],
+    "pinyin": "xiang xia fen ping xiangxiafenping x x f p xxfp fen ping   mian ban   xia fang fenping mianban xiafang f p   m b   x f fp mb xf"
+  },
+  {
+    "id": "warp-switchpane-up",
+    "appId": "warp",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "切换到上方面板",
+      "en": "Switch Panes Up"
+    },
+    "description": {
+      "zh": "在分屏间向上切换焦点",
+      "en": "Move focus to the pane above"
+    },
+    "windows": "Ctrl + Alt + ↑",
+    "mac": "⌥ ⌘ ↑",
+    "linux": "Ctrl + Alt + ↑",
+    "keywords": [
+      "切换面板",
+      "switch pane",
+      "分屏",
+      "焦点"
+    ],
+    "pinyin": "qie huan dao shang fang mian ban qiehuandaoshangfangmianban q h d s f m b qhdsfmb qie huan mian ban   fen ping   jiao dian qiehuanmianban fenping jiaodian q h m b   f p   j d qhmb fp jd"
+  },
+  {
+    "id": "warp-switchpane-down",
+    "appId": "warp",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "切换到下方面板",
+      "en": "Switch Panes Down"
+    },
+    "description": {
+      "zh": "在分屏间向下切换焦点",
+      "en": "Move focus to the pane below"
+    },
+    "windows": "Ctrl + Alt + ↓",
+    "mac": "⌥ ⌘ ↓",
+    "linux": "Ctrl + Alt + ↓",
+    "keywords": [
+      "切换面板",
+      "switch pane",
+      "分屏",
+      "焦点"
+    ],
+    "pinyin": "qie huan dao xia fang mian ban qiehuandaoxiafangmianban q h d x f m b qhdxfmb qie huan mian ban   fen ping   jiao dian qiehuanmianban fenping jiaodian q h m b   f p   j d qhmb fp jd"
+  },
+  {
+    "id": "warp-switchpane-left",
+    "appId": "warp",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "切换到左侧面板",
+      "en": "Switch Panes Left"
+    },
+    "description": {
+      "zh": "在分屏间向左切换焦点",
+      "en": "Move focus to the pane on the left"
+    },
+    "windows": "Ctrl + Alt + ←",
+    "mac": "⌥ ⌘ ←",
+    "linux": "Ctrl + Alt + ←",
+    "keywords": [
+      "切换面板",
+      "switch pane",
+      "分屏",
+      "焦点"
+    ],
+    "pinyin": "qie huan dao zuo ce mian ban qiehuandaozuocemianban q h d z c m b qhdzcmb qie huan mian ban   fen ping   jiao dian qiehuanmianban fenping jiaodian q h m b   f p   j d qhmb fp jd"
+  },
+  {
+    "id": "warp-switchpane-right",
+    "appId": "warp",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "切换到右侧面板",
+      "en": "Switch Panes Right"
+    },
+    "description": {
+      "zh": "在分屏间向右切换焦点",
+      "en": "Move focus to the pane on the right"
+    },
+    "windows": "Ctrl + Alt + →",
+    "mac": "⌥ ⌘ →",
+    "linux": "Ctrl + Alt + →",
+    "keywords": [
+      "切换面板",
+      "switch pane",
+      "分屏",
+      "焦点"
+    ],
+    "pinyin": "qie huan dao you ce mian ban qiehuandaoyoucemianban q h d y c m b qhdycmb qie huan mian ban   fen ping   jiao dian qiehuanmianban fenping jiaodian q h m b   f p   j d qhmb fp jd"
+  },
+  {
+    "id": "warp-maximizepane",
+    "appId": "warp",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "最大化当前面板",
+      "en": "Toggle Maximize Active Pane"
+    },
+    "description": {
+      "zh": "将当前分屏面板最大化 / 还原",
+      "en": "Maximize or restore the active pane"
+    },
+    "windows": "Ctrl + Shift + Enter",
+    "mac": "⇧ ⌘ Enter",
+    "linux": "Ctrl + Shift + Enter",
+    "keywords": [
+      "最大化",
+      "maximize",
+      "分屏",
+      "面板"
+    ],
+    "pinyin": "zui da hua dang qian mian ban zuidahuadangqianmianban z d h d q m b zdhdqmb zui da hua   fen ping   mian ban zuidahua fenping mianban z d h   f p   m b zdh fp mb"
+  },
+  {
+    "id": "warp-newtab",
+    "appId": "warp",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "新建标签页",
+      "en": "Open New Tab"
+    },
+    "description": {
+      "zh": "打开一个新的终端标签页",
+      "en": "Open a new terminal tab"
+    },
+    "windows": "Ctrl + Shift + T",
+    "mac": "⌘ T",
+    "linux": "Ctrl + Shift + T",
+    "keywords": [
+      "新建标签",
+      "new tab",
+      "标签页"
+    ],
+    "pinyin": "xin jian biao qian ye xinjianbiaoqianye x j b q y xjbqy xin jian biao qian   biao qian ye xinjianbiaoqian biaoqianye x j b q   b q y xjbq bqy"
+  },
+  {
+    "id": "warp-reopentab",
+    "appId": "warp",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "重新打开关闭的标签页",
+      "en": "Reopen Closed Tab"
+    },
+    "description": {
+      "zh": "恢复最近关闭的标签页",
+      "en": "Reopen the most recently closed tab"
+    },
+    "windows": "Ctrl + Alt + T",
+    "mac": "⇧ ⌘ T",
+    "linux": "Ctrl + Alt + T",
+    "keywords": [
+      "恢复",
+      "reopen",
+      "标签页",
+      "关闭"
+    ],
+    "pinyin": "chong xin da kai guan bi de biao qian ye chongxindakaiguanbidebiaoqianye c x d k g b d b q y cxdkgbdbqy hui fu   biao qian ye   guan bi huifu biaoqianye guanbi h f   b q y   g b hf bqy gb"
+  },
+  {
+    "id": "warp-prevtab",
+    "appId": "warp",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "上一个标签页",
+      "en": "Activate Previous Tab"
+    },
+    "description": {
+      "zh": "切换到上一个标签页",
+      "en": "Switch to the previous tab"
+    },
+    "windows": "Ctrl + Page Up",
+    "mac": "⇧ ⌘ {",
+    "linux": "Ctrl + Page Up",
+    "keywords": [
+      "上一个",
+      "previous tab",
+      "标签页",
+      "切换"
+    ],
+    "pinyin": "shang yi ge biao qian ye shangyigebiaoqianye s y g b q y sygbqy shang yi ge   biao qian ye   qie huan shangyige biaoqianye qiehuan s y g   b q y   q h syg bqy qh"
+  },
+  {
+    "id": "warp-nexttab",
+    "appId": "warp",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "下一个标签页",
+      "en": "Activate Next Tab"
+    },
+    "description": {
+      "zh": "切换到下一个标签页",
+      "en": "Switch to the next tab"
+    },
+    "windows": "Ctrl + Page Down",
+    "mac": "⇧ ⌘ }",
+    "linux": "Ctrl + Page Down",
+    "keywords": [
+      "下一个",
+      "next tab",
+      "标签页",
+      "切换"
+    ],
+    "pinyin": "xia yi ge biao qian ye xiayigebiaoqianye x y g b q y xygbqy xia yi ge   biao qian ye   qie huan xiayige biaoqianye qiehuan x y g   b q y   q h xyg bqy qh"
+  },
+  {
+    "id": "warp-tab1",
+    "appId": "warp",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "切换到第 1 个标签页",
+      "en": "Switch to 1st Tab"
+    },
+    "description": {
+      "zh": "直达第 1 个标签页（2–8 同理，9 为最后一个）",
+      "en": "Jump to the 1st tab (2–8 similar, 9 = last)"
+    },
+    "windows": "Ctrl + 1",
+    "mac": "⌘ 1",
+    "linux": "Ctrl + 1",
+    "keywords": [
+      "标签页",
+      "tab",
+      "切换",
+      "第1个"
+    ],
+    "pinyin": "qie huan dao di   1   ge biao qian ye qiehuandaodi 1 gebiaoqianye q h d d   1   g b q y qhdd 1 gbqy biao qian ye   qie huan   di 1 ge biaoqianye qiehuan di1ge b q y   q h   d 1 g bqy qh d1g"
+  },
+  {
+    "id": "warp-tablast",
+    "appId": "warp",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "切换到最后一个标签页",
+      "en": "Switch to Last Tab"
+    },
+    "description": {
+      "zh": "直达最后一个标签页",
+      "en": "Jump to the last tab"
+    },
+    "windows": "Ctrl + 9",
+    "mac": "⌘ 9",
+    "linux": "Ctrl + 9",
+    "keywords": [
+      "标签页",
+      "tab",
+      "最后一个",
+      "切换"
+    ],
+    "pinyin": "qie huan dao zui hou yi ge biao qian ye qiehuandaozuihouyigebiaoqianye q h d z h y g b q y qhdzhygbqy biao qian ye   zui hou yi ge   qie huan biaoqianye zuihouyige qiehuan b q y   z h y g   q h bqy zhyg qh"
+  },
+  {
+    "id": "warp-copy",
+    "appId": "warp",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "复制",
+      "en": "Copy"
+    },
+    "description": {
+      "zh": "复制选中的终端文本",
+      "en": "Copy the selected terminal text"
+    },
+    "windows": "Ctrl + Shift + C",
+    "mac": "⌘ C",
+    "linux": "Ctrl + Shift + C",
+    "keywords": [
+      "复制",
+      "copy",
+      "剪贴板"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi   jian tie ban fuzhi jiantieban f z   j t b fz jtb"
+  },
+  {
+    "id": "warp-paste",
+    "appId": "warp",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "粘贴",
+      "en": "Paste"
+    },
+    "description": {
+      "zh": "粘贴剪贴板内容到终端",
+      "en": "Paste clipboard content into the terminal"
+    },
+    "windows": "Ctrl + Shift + V",
+    "mac": "⌘ V",
+    "linux": "Ctrl + Shift + V",
+    "keywords": [
+      "粘贴",
+      "paste",
+      "剪贴板"
+    ],
+    "pinyin": "nian tie niantie n t nt nian tie   jian tie ban niantie jiantieban n t   j t b nt jtb"
+  },
+  {
+    "id": "warp-find",
+    "appId": "warp",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "查找",
+      "en": "Find"
+    },
+    "description": {
+      "zh": "在终端输出中查找文本",
+      "en": "Find text in the terminal output"
+    },
+    "windows": "Ctrl + Shift + F",
+    "mac": "⌘ F",
+    "linux": "Ctrl + Shift + F",
+    "keywords": [
+      "查找",
+      "find",
+      "搜索"
+    ],
+    "pinyin": "cha zhao chazhao c z cz cha zhao   sou suo chazhao sousuo c z   s s cz ss"
+  },
+  {
+    "id": "warp-findnext",
+    "appId": "warp",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "查找下一个",
+      "en": "Find Next Occurrence"
+    },
+    "description": {
+      "zh": "跳到下一个匹配项",
+      "en": "Jump to the next search match"
+    },
+    "windows": "F3",
+    "mac": "⌘ G",
+    "linux": "F3",
+    "keywords": [
+      "查找下一个",
+      "find next",
+      "搜索"
+    ],
+    "pinyin": "cha zhao xia yi ge chazhaoxiayige c z x y g czxyg cha zhao xia yi ge   sou suo chazhaoxiayige sousuo c z x y g   s s czxyg ss"
+  },
+  {
+    "id": "warp-findprev",
+    "appId": "warp",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "查找上一个",
+      "en": "Find Previous Occurrence"
+    },
+    "description": {
+      "zh": "跳到上一个匹配项",
+      "en": "Jump to the previous search match"
+    },
+    "windows": "Shift + F3",
+    "mac": "⇧ ⌘ G",
+    "linux": "Shift + F3",
+    "keywords": [
+      "查找上一个",
+      "find previous",
+      "搜索"
+    ],
+    "pinyin": "cha zhao shang yi ge chazhaoshangyige c z s y g czsyg cha zhao shang yi ge   sou suo chazhaoshangyige sousuo c z s y g   s s czsyg ss"
+  },
+  {
+    "id": "warp-nextblock",
+    "appId": "warp",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "选择下一个命令块",
+      "en": "Select Next Block"
+    },
+    "description": {
+      "zh": "选中下一个命令输出块",
+      "en": "Select the next command block"
+    },
+    "windows": "Ctrl + ↓",
+    "mac": "⌘ ↓",
+    "linux": "Ctrl + ↓",
+    "keywords": [
+      "命令块",
+      "block",
+      "下一个",
+      "选择"
+    ],
+    "pinyin": "xuan ze xia yi ge ming ling kuai xuanzexiayigeminglingkuai x z x y g m l k xzxygmlk ming ling kuai   xia yi ge   xuan ze minglingkuai xiayige xuanze m l k   x y g   x z mlk xyg xz"
+  },
+  {
+    "id": "warp-prevblock",
+    "appId": "warp",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "选择上一个命令块",
+      "en": "Select Previous Block"
+    },
+    "description": {
+      "zh": "选中上一个命令输出块",
+      "en": "Select the previous command block"
+    },
+    "windows": "Ctrl + ↑",
+    "mac": "⌘ ↑",
+    "linux": "Ctrl + ↑",
+    "keywords": [
+      "命令块",
+      "block",
+      "上一个",
+      "选择"
+    ],
+    "pinyin": "xuan ze shang yi ge ming ling kuai xuanzeshangyigeminglingkuai x z s y g m l k xzsygmlk ming ling kuai   shang yi ge   xuan ze minglingkuai shangyige xuanze m l k   s y g   x z mlk syg xz"
+  },
+  {
+    "id": "warp-clearblocks",
+    "appId": "warp",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "清空所有命令块",
+      "en": "Clear Blocks"
+    },
+    "description": {
+      "zh": "清除终端中所有命令块（清屏）",
+      "en": "Clear all blocks from the terminal"
+    },
+    "windows": "Ctrl + Shift + K",
+    "mac": "⌘ K",
+    "linux": "Ctrl + Shift + K",
+    "keywords": [
+      "清空",
+      "clear",
+      "命令块",
+      "清屏"
+    ],
+    "pinyin": "qing kong suo you ming ling kuai qingkongsuoyouminglingkuai q k s y m l k qksymlk qing kong   ming ling kuai   qing ping qingkong minglingkuai qingping q k   m l k   q p qk mlk qp"
+  },
+  {
+    "id": "warp-bookmark",
+    "appId": "warp",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "为命令块添加书签",
+      "en": "Bookmark Selected Block"
+    },
+    "description": {
+      "zh": "给选中的命令块加书签以便快速跳转",
+      "en": "Bookmark the selected block for quick navigation"
+    },
+    "windows": "Ctrl + Shift + B",
+    "mac": "⌘ B",
+    "linux": "Ctrl + Shift + B",
+    "keywords": [
+      "书签",
+      "bookmark",
+      "命令块",
+      "标记"
+    ],
+    "pinyin": "wei ming ling kuai tian jia shu qian weiminglingkuaitianjiashuqian w m l k t j s q wmlktjsq shu qian   ming ling kuai   biao ji shuqian minglingkuai biaoji s q   m l k   b j sq mlk bj"
+  },
+  {
+    "id": "warp-copyoutput",
+    "appId": "warp",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "复制命令输出",
+      "en": "Copy Command Output"
+    },
+    "description": {
+      "zh": "只复制该命令块的输出结果",
+      "en": "Copy only the output of the command block"
+    },
+    "windows": "Ctrl + Shift + Alt + C",
+    "mac": "⌥ ⇧ ⌘ C",
+    "linux": "Ctrl + Shift + Alt + C",
+    "keywords": [
+      "复制输出",
+      "copy output",
+      "结果"
+    ],
+    "pinyin": "fu zhi ming ling shu chu fuzhiminglingshuchu f z m l s c fzmlsc fu zhi shu chu   jie guo fuzhishuchu jieguo f z s c   j g fzsc jg"
+  },
+  {
+    "id": "warp-copycommand",
+    "appId": "warp",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "复制命令",
+      "en": "Copy Command"
+    },
+    "description": {
+      "zh": "复制该命令块中输入的命令文本",
+      "en": "Copy the command text of the block"
+    },
+    "windows": "Ctrl + Shift + C",
+    "mac": "⇧ ⌘ C",
+    "linux": "Ctrl + Shift + C",
+    "keywords": [
+      "复制命令",
+      "copy command",
+      "命令文本"
+    ],
+    "pinyin": "fu zhi ming ling fuzhimingling f z m l fzml fu zhi ming ling   ming ling wen ben fuzhimingling minglingwenben f z m l   m l w b fzml mlwb"
+  },
+  {
+    "id": "warp-shareblock",
+    "appId": "warp",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "分享命令块",
+      "en": "Share Selected Block"
+    },
+    "description": {
+      "zh": "生成选中命令块的分享链接",
+      "en": "Create a shareable link for the selected block"
+    },
+    "windows": "Ctrl + Shift + S",
+    "mac": "⇧ ⌘ S",
+    "linux": "Ctrl + Shift + S",
+    "keywords": [
+      "分享",
+      "share",
+      "命令块",
+      "链接"
+    ],
+    "pinyin": "fen xiang ming ling kuai fenxiangminglingkuai f x m l k fxmlk fen xiang   ming ling kuai   lian jie fenxiang minglingkuai lianjie f x   m l k   l j fx mlk lj"
+  },
+  {
+    "id": "warp-settings",
+    "appId": "warp",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "打开设置",
+      "en": "Open Settings"
+    },
+    "description": {
+      "zh": "打开 Warp 设置界面",
+      "en": "Open the Warp settings"
+    },
+    "windows": "Ctrl + ,",
+    "mac": "⌘ ,",
+    "linux": "Ctrl + ,",
+    "keywords": [
+      "设置",
+      "settings",
+      "偏好",
+      "配置"
+    ],
+    "pinyin": "da kai she zhi dakaishezhi d k s z dksz she zhi   pian hao   pei zhi shezhi pianhao peizhi s z   p h   p z sz ph pz"
+  },
+  {
+    "id": "warp-font-increase",
+    "appId": "warp",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "增大字号",
+      "en": "Increase Font Size"
+    },
+    "description": {
+      "zh": "放大终端字体",
+      "en": "Increase the terminal font size"
+    },
+    "windows": "Ctrl + =",
+    "mac": "⌘ =",
+    "linux": "Ctrl + =",
+    "keywords": [
+      "字号",
+      "font",
+      "放大",
+      "增大"
+    ],
+    "pinyin": "zeng da zi hao zengdazihao z d z h zdzh zi hao   fang da   zeng da zihao fangda zengda z h   f d   z d zh fd zd"
+  },
+  {
+    "id": "warp-font-decrease",
+    "appId": "warp",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "减小字号",
+      "en": "Decrease Font Size"
+    },
+    "description": {
+      "zh": "缩小终端字体",
+      "en": "Decrease the terminal font size"
+    },
+    "windows": "Ctrl + -",
+    "mac": "⌘ -",
+    "linux": "Ctrl + -",
+    "keywords": [
+      "字号",
+      "font",
+      "缩小",
+      "减小"
+    ],
+    "pinyin": "jian xiao zi hao jianxiaozihao j x z h jxzh zi hao   suo xiao   jian xiao zihao suoxiao jianxiao z h   s x   j x zh sx jx"
+  },
+  {
+    "id": "warp-font-reset",
+    "appId": "warp",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "重置字号",
+      "en": "Reset Font Size"
+    },
+    "description": {
+      "zh": "将终端字号恢复为默认值",
+      "en": "Reset the font size to default"
+    },
+    "windows": "Ctrl + 0",
+    "mac": "⌘ 0",
+    "linux": "Ctrl + 0",
+    "keywords": [
+      "字号",
+      "font",
+      "重置",
+      "默认"
+    ],
+    "pinyin": "zhong zhi zi hao zhongzhizihao z z z h zzzh zi hao   zhong zhi   mo ren zihao zhongzhi moren z h   z z   m r zh zz mr"
+  },
+  {
+    "id": "warp-scrolltop",
+    "appId": "warp",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "滚动到顶部",
+      "en": "Scroll to Top"
+    },
+    "description": {
+      "zh": "滚动到终端输出的最上方",
+      "en": "Scroll to the top of the terminal output"
+    },
+    "windows": "Home",
+    "mac": "Home",
+    "linux": "Home",
+    "keywords": [
+      "滚动",
+      "scroll",
+      "顶部",
+      "top"
+    ],
+    "pinyin": "gun dong dao ding bu gundongdaodingbu g d d d b gdddb gun dong   ding bu gundong dingbu g d   d b gd db"
+  },
+  {
+    "id": "warp-scrollbottom",
+    "appId": "warp",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "滚动到底部",
+      "en": "Scroll to Bottom"
+    },
+    "description": {
+      "zh": "滚动到终端输出的最下方",
+      "en": "Scroll to the bottom of the terminal output"
+    },
+    "windows": "End",
+    "mac": "End",
+    "linux": "End",
+    "keywords": [
+      "滚动",
+      "scroll",
+      "底部",
+      "bottom"
+    ],
+    "pinyin": "gun dong dao di bu gundongdaodibu g d d d b gdddb gun dong   di bu gundong dibu g d   d b gd db"
+  },
+  {
+    "id": "warp-workflows",
+    "appId": "warp",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "打开工作流",
+      "en": "Toggle Workflows"
+    },
+    "description": {
+      "zh": "切换 workflows 面板",
+      "en": "Toggle the workflows panel"
+    },
+    "windows": "Ctrl + Shift + R",
+    "mac": "⌃ ⇧ R",
+    "linux": "Ctrl + Shift + R",
+    "keywords": [
+      "工作流",
+      "workflows",
+      "面板"
+    ],
+    "pinyin": "da kai gong zuo liu dakaigongzuoliu d k g z l dkgzl gong zuo liu   mian ban gongzuoliu mianban g z l   m b gzl mb"
+  }
+]

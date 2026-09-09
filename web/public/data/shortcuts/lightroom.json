@@ -1,1 +1,1533 @@
-[{"id":"lr-newcatalog","appId":"lightroom","type":"software","category":"design","name":{"zh":"新建目录","en":"New Catalog"},"description":{"zh":"创建新的照片目录","en":"Create a new photo catalog"},"windows":"Ctrl + N","mac":"⌘ N","linux":"—","keywords":["目录","catalog","新建"],"pinyin":"xin jian mu lu xinjianmulu x j m l xjml mu lu   xin jian mulu xinjian m l   x j ml xj"},{"id":"lr-opencatalog","appId":"lightroom","type":"software","category":"design","name":{"zh":"打开目录","en":"Open Catalog"},"description":{"zh":"打开已有目录","en":"Open an existing catalog"},"windows":"Ctrl + O","mac":"⌘ O","linux":"—","keywords":["打开","open","目录"],"pinyin":"da kai mu lu dakaimulu d k m l dkml da kai   mu lu dakai mulu d k   m l dk ml"},{"id":"lr-closecatalog","appId":"lightroom","type":"software","category":"design","name":{"zh":"关闭目录","en":"Close Catalog"},"description":{"zh":"关闭当前目录","en":"Close current catalog"},"windows":"Ctrl + W","mac":"⌘ W","linux":"—","keywords":["关闭","close","目录"],"pinyin":"guan bi mu lu guanbimulu g b m l gbml guan bi   mu lu guanbi mulu g b   m l gb ml"},{"id":"lr-save","appId":"lightroom","type":"software","category":"design","name":{"zh":"保存","en":"Save"},"description":{"zh":"保存更改到目录","en":"Save changes to catalog"},"windows":"Ctrl + S","mac":"⌘ S","linux":"—","keywords":["保存","save"],"pinyin":"bao cun baocun b c bc bao cun baocun b c bc"},{"id":"lr-import","appId":"lightroom","type":"software","category":"design","name":{"zh":"导入照片","en":"Import Photos"},"description":{"zh":"打开导入窗口","en":"Open import dialog"},"windows":"Ctrl + Shift + I","mac":"⌘ ⇧ I","linux":"—","keywords":["导入","import","照片"],"pinyin":"dao ru zhao pian daoruzhaopian d r z p drzp dao ru   zhao pian daoru zhaopian d r   z p dr zp"},{"id":"lr-export","appId":"lightroom","type":"software","category":"design","name":{"zh":"导出照片","en":"Export Photos"},"description":{"zh":"导出选中的照片","en":"Export selected photos"},"windows":"Ctrl + Shift + E","mac":"⌘ ⇧ E","linux":"—","keywords":["导出","export","照片"],"pinyin":"dao chu zhao pian daochuzhaopian d c z p dczp dao chu   zhao pian daochu zhaopian d c   z p dc zp"},{"id":"lr-gridview","appId":"lightroom","type":"software","category":"design","name":{"zh":"网格视图","en":"Grid View (G)"},"description":{"zh":"以缩略图网格浏览（图库模块）","en":"Browse as thumbnail grid (Library)"},"windows":"G","mac":"G","linux":"—","keywords":["网格","grid","图库","library"],"pinyin":"wang ge shi tu wanggeshitu w g s t wgst wang ge   tu ku wangge tuku w g   t k wg tk"},{"id":"lr-loupeview","appId":"lightroom","type":"software","category":"design","name":{"zh":"放大视图","en":"Loupe View (E)"},"description":{"zh":"单张放大查看","en":"View single photo zoomed"},"windows":"E","mac":"E","linux":"—","keywords":["放大","loupe","查看"],"pinyin":"fang da shi tu fangdashitu f d s t fdst fang da   cha kan fangda chakan f d   c k fd ck"},{"id":"lr-compareview","appId":"lightroom","type":"software","category":"design","name":{"zh":"比较视图","en":"Compare View (C)"},"description":{"zh":"并排比较两张照片","en":"Compare two photos side by side"},"windows":"C","mac":"C","linux":"—","keywords":["比较","compare","视图"],"pinyin":"bi jiao shi tu bijiaoshitu b j s t bjst bi jiao   shi tu bijiao shitu b j   s t bj st"},{"id":"lr-surveyview","appId":"lightroom","type":"software","category":"design","name":{"zh":" survey 视图","en":"Survey View (N)"},"description":{"zh":"多张照片同屏查看","en":"View multiple photos together"},"windows":"N","mac":"N","linux":"—","keywords":["survey","多张","视图"],"pinyin":"s u r v e y   shi tu  survey shitu   s u r v e y   s t  survey st duo zhang   shi tu duozhang shitu d z   s t dz st"},{"id":"lr-flagpick","appId":"lightroom","type":"software","category":"design","name":{"zh":"旗标 / 留用","en":"Flag / Pick (P)"},"description":{"zh":"切换留用旗标（P 键循环：无→留用→拒绝）","en":"Toggle pick flag (P cycles: none→pick→reject)"},"windows":"P","mac":"P","linux":"—","keywords":["旗标","flag","留用","pick"],"pinyin":"qi biao   /   liu yong qibiao / liuyong q b   /   l y qb / ly qi biao   liu yong qibiao liuyong q b   l y qb ly"},{"id":"lr-reject","appId":"lightroom","type":"software","category":"design","name":{"zh":"拒绝","en":"Reject (X)"},"description":{"zh":"标记为拒绝","en":"Mark as rejected"},"windows":"X","mac":"X","linux":"—","keywords":["拒绝","reject"],"pinyin":"ju jue jujue j j jj ju jue jujue j j jj"},{"id":"lr-rating0","appId":"lightroom","type":"software","category":"design","name":{"zh":"移除评级","en":"Remove Rating (0)"},"description":{"zh":"清除星级评分","en":"Remove star rating"},"windows":"0","mac":"0","linux":"—","keywords":["移除","remove","评分","rating"],"pinyin":"yi chu ping ji yichupingji y c p j ycpj yi chu   ping fen yichu pingfen y c   p f yc pf"},{"id":"lr-rating1","appId":"lightroom","type":"software","category":"design","name":{"zh":"1 星评分","en":"1-Star Rating (1)"},"description":{"zh":"评一星","en":"Rate 1 star"},"windows":"1","mac":"1","linux":"—","keywords":["评分","rating","1星"],"pinyin":"1   xing ping fen 1 xingpingfen 1   x p f 1 xpf ping fen   1 xing pingfen 1xing p f   1 x pf 1x"},{"id":"lr-rating2","appId":"lightroom","type":"software","category":"design","name":{"zh":"2 星评分","en":"2-Star Rating (2)"},"description":{"zh":"评二星","en":"Rate 2 stars"},"windows":"2","mac":"2","linux":"—","keywords":["评分","rating","2星"],"pinyin":"2   xing ping fen 2 xingpingfen 2   x p f 2 xpf ping fen   2 xing pingfen 2xing p f   2 x pf 2x"},{"id":"lr-rating3","appId":"lightroom","type":"software","category":"design","name":{"zh":"3 星评分","en":"3-Star Rating (3)"},"description":{"zh":"评三星","en":"Rate 3 stars"},"windows":"3","mac":"3","linux":"—","keywords":["评分","rating","3星"],"pinyin":"3   xing ping fen 3 xingpingfen 3   x p f 3 xpf ping fen   3 xing pingfen 3xing p f   3 x pf 3x"},{"id":"lr-rating4","appId":"lightroom","type":"software","category":"design","name":{"zh":"4 星评分","en":"4-Star Rating (4)"},"description":{"zh":"评四星","en":"Rate 4 stars"},"windows":"4","mac":"4","linux":"—","keywords":["评分","rating","4星"],"pinyin":"4   xing ping fen 4 xingpingfen 4   x p f 4 xpf ping fen   4 xing pingfen 4xing p f   4 x pf 4x"},{"id":"lr-rating5","appId":"lightroom","type":"software","category":"design","name":{"zh":"5 星评分","en":"5-Star Rating (5)"},"description":{"zh":"评五星","en":"Rate 5 stars"},"windows":"5","mac":"5","linux":"—","keywords":["评分","rating","5星"],"pinyin":"5   xing ping fen 5 xingpingfen 5   x p f 5 xpf ping fen   5 xing pingfen 5xing p f   5 x pf 5x"},{"id":"lr-increaserating","appId":"lightroom","type":"software","category":"design","name":{"zh":"增加评级","en":"Increase Rating (=)"},"description":{"zh":"提升一级星级","en":"Increase star rating by one"},"windows":"=","mac":"=","linux":"—","keywords":["增加","increase","评级","rating"],"pinyin":"zeng jia ping ji zengjiapingji z j p j zjpj zeng jia   ping ji zengjia pingji z j   p j zj pj"},{"id":"lr-decreaserating","appId":"lightroom","type":"software","category":"design","name":{"zh":"降低评级","en":"Decrease Rating (-)"},"description":{"zh":"降低一级星级","en":"Decrease star rating by one"},"windows":"-","mac":"-","linux":"—","keywords":["降低","decrease","评级","rating"],"pinyin":"jiang di ping ji jiangdipingji j d p j jdpj jiang di   ping ji jiangdi pingji j d   p j jd pj"},{"id":"lr-colorlabel-red","appId":"lightroom","type":"software","category":"design","name":{"zh":"红色标签","en":"Red Color Label (6)"},"description":{"zh":"添加红色颜色标签","en":"Apply red color label"},"windows":"6","mac":"6","linux":"—","keywords":["红色","red","标签","label","色标"],"pinyin":"hong se biao qian hongsebiaoqian h s b q hsbq hong se   biao qian   se biao hongse biaoqian sebiao h s   b q   s b hs bq sb"},{"id":"lr-colorlabel-yellow","appId":"lightroom","type":"software","category":"design","name":{"zh":"黄色标签","en":"Yellow Color Label (7)"},"description":{"zh":"添加黄色颜色标签","en":"Apply yellow color label"},"windows":"7","mac":"7","linux":"—","keywords":["黄色","yellow","标签","label","色标"],"pinyin":"huang se biao qian huangsebiaoqian h s b q hsbq huang se   biao qian   se biao huangse biaoqian sebiao h s   b q   s b hs bq sb"},{"id":"lr-colorlabel-green","appId":"lightroom","type":"software","category":"design","name":{"zh":"绿色标签","en":"Green Color Label (8)"},"description":{"zh":"添加绿色颜色标签","en":"Apply green color label"},"windows":"8","mac":"8","linux":"—","keywords":["绿色","green","标签","label","色标"],"pinyin":"lü se biao qian lüsebiaoqian l s b q lsbq lü se   biao qian   se biao lüse biaoqian sebiao l s   b q   s b ls bq sb"},{"id":"lr-colorlabel-blue","appId":"lightroom","type":"software","category":"design","name":{"zh":"蓝色标签","en":"Blue Color Label (9)"},"description":{"zh":"添加蓝色颜色标签","en":"Apply blue color label"},"windows":"9","mac":"9","linux":"—","keywords":["蓝色","blue","标签","label","色标"],"pinyin":"lan se biao qian lansebiaoqian l s b q lsbq lan se   biao qian   se biao lanse biaoqian sebiao l s   b q   s b ls bq sb"},{"id":"lr-colorlabel-purple","appId":"lightroom","type":"software","category":"design","name":{"zh":"紫色标签","en":"Purple Color Label (0)"},"description":{"zh":"添加紫色颜色标签","en":"Apply purple color label"},"windows":"0 (按两次)","mac":"0 (按两次)","linux":"—","keywords":["紫色","purple","标签","label","色标"],"pinyin":"zi se biao qian zisebiaoqian z s b q zsbq zi se   biao qian   se biao zise biaoqian sebiao z s   b q   s b zs bq sb"},{"id":"lr-rotateleft","appId":"lightroom","type":"software","category":"design","name":{"zh":"向左旋转","en":"Rotate Left ([)"},"description":{"zh":"逆时针旋转 90°","en":"Rotate photo 90° counter-clockwise"},"windows":"[","mac":"[","linux":"—","keywords":["旋转","rotate","左"],"pinyin":"xiang zuo xuan zhuan xiangzuoxuanzhuan x z x z xzxz xuan zhuan   zuo xuanzhuan zuo x z   z xz z"},{"id":"lr-rotateright","appId":"lightroom","type":"software","category":"design","name":{"zh":"向右旋转","en":"Rotate Right (])"},"description":{"zh":"顺时针旋转 90°","en":"Rotate photo 90° clockwise"},"windows":"]","mac":"]","linux":"—","keywords":["旋转","rotate","右"],"pinyin":"xiang you xuan zhuan xiangyouxuanzhuan x y x z xyxz xuan zhuan   you xuanzhuan you x z   y xz y"},{"id":"lr-prevphoto","appId":"lightroom","type":"software","category":"design","name":{"zh":"上一张","en":"Previous Photo (←)"},"description":{"zh":"查看上一张照片","en":"Go to previous photo"},"windows":"Left Arrow","mac":"Left Arrow","linux":"—","keywords":["上一张","previous","上一张照片"],"pinyin":"shang yi zhang shangyizhang s y z syz shang yi zhang   shang yi zhang zhao pian shangyizhang shangyizhangzhaopian s y z   s y z z p syz syzzp"},{"id":"lr-nextphoto","appId":"lightroom","type":"software","category":"design","name":{"zh":"下一张","en":"Next Photo (→)"},"description":{"zh":"查看下一张照片","en":"Go to next photo"},"windows":"Right Arrow","mac":"Right Arrow","linux":"—","keywords":["下一张","next","下一张照片"],"pinyin":"xia yi zhang xiayizhang x y z xyz xia yi zhang   xia yi zhang zhao pian xiayizhang xiayizhangzhaopian x y z   x y z z p xyz xyzzp"},{"id":"lr-gofirst","appId":"lightroom","type":"software","category":"design","name":{"zh":"转到第一张","en":"Go to First Photo (Home)"},"description":{"zh":"跳转到第一张照片","en":"Jump to first photo"},"windows":"Home","mac":"Fn ←","linux":"—","keywords":["第一张","first","home","首页"],"pinyin":"zhuan dao di yi zhang zhuandaodiyizhang z d d y z zddyz di yi zhang   shou ye diyizhang shouye d y z   s y dyz sy"},{"id":"lr-golast","appId":"lightroom","type":"software","category":"design","name":{"zh":"转到最后一张","en":"Go to Last Photo (End)"},"description":{"zh":"跳转到最后一张照片","en":"Jump to last photo"},"windows":"End","mac":"Fn →","linux":"—","keywords":["最后一张","last","end","末尾"],"pinyin":"zhuan dao zui hou yi zhang zhuandaozuihouyizhang z d z h y z zdzhyz zui hou yi zhang   mo wei zuihouyizhang mowei z h y z   m w zhyz mw"},{"id":"lr-zoomin","appId":"lightroom","type":"software","category":"design","name":{"zh":"放大","en":"Zoom In (Ctrl++)"},"description":{"zh":"放大查看照片","en":"Zoom in on photo"},"windows":"Ctrl + =","mac":"⌘ =","linux":"—","keywords":["放大","zoom in","缩放"],"pinyin":"fang da fangda f d fd fang da   suo fang fangda suofang f d   s f fd sf"},{"id":"lr-zoomout","appId":"lightroom","type":"software","category":"design","name":{"zh":"缩小","en":"Zoom Out (Ctrl+-)"},"description":{"zh":"缩小查看照片","en":"Zoom out from photo"},"windows":"Ctrl + -","mac":"⌘ -","linux":"—","keywords":["缩小","zoom out","缩放"],"pinyin":"suo xiao suoxiao s x sx suo xiao   suo fang suoxiao suofang s x   s f sx sf"},{"id":"lr-fitview","appId":"lightroom","type":"software","category":"design","name":{"zh":"适合窗口","en":"Fit to Window (Ctrl+0)"},"description":{"zh":"照片适配窗口大小","en":"Fit photo to window size"},"windows":"Ctrl + 0","mac":"⌘ 0","linux":"—","keywords":["适合","fit","窗口","填充"],"pinyin":"shi he chuang kou shihechuangkou s h c k shck shi he   chuang kou   tian chong shihe chuangkou tianchong s h   c k   t c sh ck tc"},{"id":"lr-fillview","appId":"lightroom","type":"software","category":"design","name":{"zh":"填充视图","en":"Fill View (Ctrl+Alt+0)"},"description":{"zh":"填满整个视图区域","en":"Fill entire view area"},"windows":"Ctrl + Alt + 0","mac":"⌘ ⌥ 0","linux":"—","keywords":["填充","fill","视图"],"pinyin":"tian chong shi tu tianchongshitu t c s t tcst tian chong   shi tu tianchong shitu t c   s t tc st"},{"id":"lr-zoom11","appId":"lightroom","type":"software","category":"design","name":{"zh":"1:1 视图 (100%)","en":"1:1 View 100% (Ctrl+1)"},"description":{"zh":"以 100% 比例查看","en":"View at 100% zoom"},"windows":"Ctrl + 1","mac":"⌘ 1","linux":"—","keywords":["100%","1:1","实际像素","原大"],"pinyin":"1 : 1   shi tu   ( 1 0 0 % ) 1:1 shitu (100%) 1 : 1   s t   ( 1 0 0 % ) 1:1 st (100%) shi ji xiang su   yuan da shijixiangsu yuanda s j x s   y d sjxs yd"},{"id":"lr-library-module","appId":"lightroom","type":"software","category":"design","name":{"zh":"图库模块","en":"Library Module"},"description":{"zh":"进入图库模块","en":"Switch to Library module"},"windows":"Ctrl + Alt + 1","mac":"⌘ ⌥ 1","linux":"—","keywords":["图库","library","模块"],"pinyin":"tu ku mo kuai tukumokuai t k m k tkmk tu ku   mo kuai tuku mokuai t k   m k tk mk"},{"id":"lr-develop-module","appId":"lightroom","type":"software","category":"design","name":{"zh":"修改照片模块","en":"Develop Module (D)"},"description":{"zh":"进入修图模块","en":"Switch to Develop module"},"windows":"D","mac":"D","linux":"—","keywords":["修改","develop","修图","模块"],"pinyin":"xiu gai zhao pian mo kuai xiugaizhaopianmokuai x g z p m k xgzpmk xiu gai   xiu tu   mo kuai xiugai xiutu mokuai x g   x t   m k xg xt mk"},{"id":"lr-map-module","appId":"lightroom","type":"software","category":"design","name":{"zh":"地图模块","en":"Map Module"},"description":{"zh":"进入地图模块","en":"Switch to Map module"},"windows":"Ctrl + Alt + 3","mac":"⌘ ⌥ 3","linux":"—","keywords":["地图","map","模块"],"pinyin":"di tu mo kuai ditumokuai d t m k dtmk di tu   mo kuai ditu mokuai d t   m k dt mk"},{"id":"lr-book-module","appId":"lightroom","type":"software","category":"design","name":{"zh":"画册模块","en":"Book Module"},"description":{"zh":"进入画册模块","en":"Switch to Book module"},"windows":"Ctrl + Alt + 4","mac":"⌘ ⌥ 4","linux":"—","keywords":["画册","book","相册","模块"],"pinyin":"hua ce mo kuai huacemokuai h c m k hcmk hua ce   xiang ce   mo kuai huace xiangce mokuai h c   x c   m k hc xc mk"},{"id":"lr-slideshow-module","appId":"lightroom","type":"software","category":"design","name":{"zh":"幻灯片模块","en":"Slideshow Module"},"description":{"zh":"进入幻灯片模块","en":"Switch to Slideshow module"},"windows":"Ctrl + Alt + 5","mac":"⌘ ⌥ 5","linux":"—","keywords":["幻灯片","slideshow","模块"],"pinyin":"huan deng pian mo kuai huandengpianmokuai h d p m k hdpmk huan deng pian   mo kuai huandengpian mokuai h d p   m k hdp mk"},{"id":"lr-print-module","appId":"lightroom","type":"software","category":"design","name":{"zh":"打印模块","en":"Print Module"},"description":{"zh":"进入打印模块","en":"Switch to Print module"},"windows":"Ctrl + Alt + 6","mac":"⌘ ⌥ 6","linux":"—","keywords":["打印","print","模块"],"pinyin":"da yin mo kuai dayinmokuai d y m k dymk da yin   mo kuai dayin mokuai d y   m k dy mk"},{"id":"lr-web-module","appId":"lightroom","type":"software","category":"design","name":{"zh":" Web 模块","en":"Web Gallery Module"},"description":{"zh":"进入 Web 画廊模块","en":"Switch to Web Gallery module"},"windows":"Ctrl + Alt + 7","mac":"⌘ ⌥ 7","linux":"—","keywords":["Web","网页","画廊","模块"],"pinyin":"w e b   mo kuai  web mokuai   w e b   m k  web mk wang ye   hua lang   mo kuai wangye hualang mokuai w y   h l   m k wy hl mk"},{"id":"lr-crop","appId":"lightroom","type":"software","category":"design","name":{"zh":"裁剪叠加","en":"Crop Overlay (R)"},"description":{"zh":"裁剪和拉直工具","en":"Crop and straighten tool"},"windows":"R","mac":"R","linux":"—","keywords":["裁剪","crop","拉直"],"pinyin":"cai jian die jia caijiandiejia c j d j cjdj cai jian   la zhi caijian lazhi c j   l z cj lz"},{"id":"lr-spotremoval","appId":"lightroom","type":"software","category":"design","name":{"zh":"污点去除","en":"Spot Removal (Q)"},"description":{"zh":"修复污点和瑕疵","en":"Fix spots and blemishes"},"windows":"Q","mac":"Q","linux":"—","keywords":["污点","spot","去除","修复","修补"],"pinyin":"wu dian qu chu wudianquchu w d q c wdqc wu dian   qu chu   xiu fu   xiu bu wudian quchu xiufu xiubu w d   q c   x f   x b wd qc xf xb"},{"id":"lr-adjustmentbrush","appId":"lightroom","type":"software","category":"design","name":{"zh":"调整画笔","en":"Adjustment Brush (K)"},"description":{"zh":"局部调整画笔工具","en":"Local adjustment brush tool"},"windows":"K","mac":"K","linux":"—","keywords":["画笔","brush","调整","局部"],"pinyin":"tiao zheng hua bi tiaozhenghuabi t z h b tzhb hua bi   tiao zheng   ju bu huabi tiaozheng jubu h b   t z   j b hb tz jb"},{"id":"lr-gradientfilter","appId":"lightroom","type":"software","category":"design","name":{"zh":"渐变滤镜","en":"Graduated Filter (M)"},"description":{"zh":"线性渐变局部调整","en":"Linear gradient local adjustment"},"windows":"M","mac":"M","linux":"—","keywords":["渐变","gradient","滤镜","filter"],"pinyin":"jian bian lü jing jianbianlüjing j b l j jblj jian bian   lü jing jianbian lüjing j b   l j jb lj"},{"id":"lr-radialfilter","appId":"lightroom","type":"software","category":"design","name":{"zh":"径向滤镜","en":"Radial Filter (Shift+M)"},"description":{"zh":"椭圆形局部调整","en":"Elliptical local adjustment"},"windows":"Shift + M","mac":"⇧ M","linux":"—","keywords":["径向","radial","滤镜","filter","椭圆"],"pinyin":"jing xiang lü jing jingxianglüjing j x l j jxlj jing xiang   lü jing   tuo yuan jingxiang lüjing tuoyuan j x   l j   t y jx lj ty"},{"id":"lr-autotone","appId":"lightroom","type":"software","category":"design","name":{"zh":"自动色调","en":"Auto Tone (U)"},"description":{"zh":"自动调整曝光/对比度/高光/阴影等","en":"Auto-adjust exposure/contrast/highlights/shadows"},"windows":"U","mac":"U","linux":"—","keywords":["自动","auto","色调","tone"],"pinyin":"zi dong se diao zidongsediao z d s d zdsd zi dong   se diao zidong sediao z d   s d zd sd"},{"id":"lr-autoexposure","appId":"lightroom","type":"software","category":"design","name":{"zh":"自动曝光","en":"Auto Exposure (Shift+U)"},"description":{"zh":"仅自动调整曝光","en":"Auto-adjust exposure only"},"windows":"Shift + U","mac":"⇧ U","linux":"—","keywords":["自动","auto","曝光","exposure"],"pinyin":"zi dong bao guang zidongbaoguang z d b g zdbg zi dong   bao guang zidong baoguang z d   b g zd bg"},{"id":"lr-autowhitebalance","appId":"lightroom","type":"software","category":"design","name":{"zh":"自动白平衡","en":"Auto White Balance (Shift+W)"},"description":{"zh":"自动校正白平衡","en":"Auto-correct white balance"},"windows":"Shift + W","mac":"⇧ W","linux":"—","keywords":["自动","auto","白平衡","white balance"],"pinyin":"zi dong bai ping heng zidongbaipingheng z d b p h zdbph zi dong   bai ping heng zidong baipingheng z d   b p h zd bph"},{"id":"lr-reset","appId":"lightroom","type":"software","category":"design","name":{"zh":"重置设置","en":"Reset Settings (Shift+R)"},"description":{"zh":"重置当前照片所有修改","en":"Reset all adjustments on current photo"},"windows":"Shift + R","mac":"⇧ R","linux":"—","keywords":["重置","reset","还原"],"pinyin":"zhong zhi she zhi zhongzhishezhi z z s z zzsz zhong zhi   huan yuan zhongzhi huanyuan z z   h y zz hy"},{"id":"lr-beforeafter","appId":"lightroom","type":"software","category":"design","name":{"zh":"修改前/后视图","en":"Before/After View (Backslash)"},"description":{"zh":"循环切换修改前后对比模式","en":"Cycle before/after comparison modes"},"windows":"\\","mac":"\\","linux":"—","keywords":["修改前/后","before after","对比","compare"],"pinyin":"xiu gai qian / hou shi tu xiugaiqian/houshitu x g q / h s t xgq/hst xiu gai qian / hou   dui bi xiugaiqian/hou duibi x g q / h   d b xgq/h db"},{"id":"lr-copysettings","appId":"lightroom","type":"software","category":"design","name":{"zh":"复制修改设置","en":"Copy Settings (Ctrl+Shift+C)"},"description":{"zh":"复制当前修图参数","en":"Copy develop settings"},"windows":"Ctrl + Shift + C","mac":"⌘ ⇧ C","linux":"—","keywords":["复制","copy","设置","settings"],"pinyin":"fu zhi xiu gai she zhi fuzhixiugaishezhi f z x g s z fzxgsz fu zhi   she zhi fuzhi shezhi f z   s z fz sz"},{"id":"lr-pastesettings","appId":"lightroom","type":"software","category":"design","name":{"zh":"粘贴修改设置","en":"Paste Settings (Ctrl+Shift+V)"},"description":{"zh":"粘贴修图参数到其他照片","en":"Paste develop settings to other photos"},"windows":"Ctrl + Shift + V","mac":"⌘ ⇧ V","linux":"—","keywords":["粘贴","paste","设置","settings"],"pinyin":"nian tie xiu gai she zhi niantiexiugaishezhi n t x g s z ntxgsz nian tie   she zhi niantie shezhi n t   s z nt sz"},{"id":"lr-pasteall","appId":"lightroom","type":"software","category":"design","name":{"zh":"粘贴到全部","en":"Paste to All (Ctrl+Shift+V then A)"},"description":{"zh":"将设置粘贴到所有选中照片","en":"Paste settings to all selected photos"},"windows":"(粘贴后按 A)","mac":"(粘贴后按 A)","linux":"—","keywords":["粘贴","paste","全部","all"],"pinyin":"nian tie dao quan bu niantiedaoquanbu n t d q b ntdqb nian tie   quan bu niantie quanbu n t   q b nt qb"},{"id":"lr-fullscreen","appId":"lightroom","type":"software","category":"design","name":{"zh":"全屏模式","en":"Full Screen Mode (F)"},"description":{"zh":"切换全屏显示","en":"Toggle full screen display"},"windows":"F","mac":"F","linux":"—","keywords":["全屏","fullscreen","全屏预览"],"pinyin":"quan ping mo shi quanpingmoshi q p m s qpms quan ping   quan ping yu lan quanping quanpingyulan q p   q p y l qp qpyl"},{"id":"lr-dimlights","appId":"lightroom","type":"software","category":"design","name":{"zh":"调暗背景灯","en":"Dim Lights (L)"},"description":{"zh":"循环切换背景明暗级别","en":"Cycle background light levels"},"windows":"L","mac":"L","linux":"—","keywords":["背景","背景灯","调暗","dim lights"],"pinyin":"tiao an bei jing deng tiaoanbeijingdeng t a b j d tabjd bei jing   bei jing deng   tiao an beijing beijingdeng tiaoan b j   b j d   t a bj bjd ta"},{"id":"lr-undo","appId":"lightroom","type":"software","category":"design","name":{"zh":"撤销","en":"Undo (Ctrl+Z)"},"description":{"zh":"撤销上一步操作","en":"Undo last action"},"windows":"Ctrl + Z","mac":"⌘ Z","linux":"—","keywords":["撤销","undo"],"pinyin":"che xiao chexiao c x cx che xiao chexiao c x cx"},{"id":"lr-redo","appId":"lightroom","type":"software","category":"design","name":{"zh":"重做","en":"Redo (Ctrl+Shift+Z)"},"description":{"zh":"重做被撤销的操作","en":"Redo undone action"},"windows":"Ctrl + Shift + Z","mac":"⌘ ⇧ Z","linux":"—","keywords":["重做","redo"],"pinyin":"zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"},{"id":"lr-deletephoto","appId":"lightroom","type":"software","category":"design","name":{"zh":"删除照片","en":"Delete Photo (Backspace)"},"description":{"zh":"删除选中的照片","en":"Delete selected photo(s)"},"windows":"Backspace","mac":"Delete","linux":"—","keywords":["删除","delete","移除"],"pinyin":"shan chu zhao pian shanchuzhaopian s c z p sczp shan chu   yi chu shanchu yichu s c   y c sc yc"},{"id":"lr-find","appId":"lightroom","type":"software","category":"design","name":{"zh":"查找","en":"Find (Ctrl+F)"},"description":{"zh":"在图库中搜索照片","en":"Search photos in Library"},"windows":"Ctrl + F","mac":"⌘ F","linux":"—","keywords":["查找","find","搜索","search"],"pinyin":"cha zhao chazhao c z cz cha zhao   sou suo chazhao sousuo c z   s s cz ss"},{"id":"lr-filterbyflag","appId":"lightroom","type":"software","category":"design","name":{"zh":"按旗标筛选","en":"Filter by Flag (\\)"},"description":{"zh":"按旗标状态筛选照片","en":"Filter photos by flag status"},"windows":"\\","mac":"\\","linux":"—","keywords":["筛选","filter","旗标","flag"],"pinyin":"an qi biao shai xuan anqibiaoshaixuan a q b s x aqbsx shai xuan   qi biao shaixuan qibiao s x   q b sx qb"},{"id":"lr-togglepanel","appId":"lightroom","type":"software","category":"design","name":{"zh":"显示/隐藏面板","en":"Toggle Panel (Tab)"},"description":{"zh":"显示或隐藏右侧面板","en":"Show or hide right panel"},"windows":"Tab","mac":"Tab","linux":"—","keywords":["面板","panel","隐藏","显示"],"pinyin":"xian shi / yin cang mian ban xianshi/yincangmianban x s / y c m b xs/ycmb mian ban   yin cang   xian shi mianban yincang xianshi m b   y c   x s mb yc xs"},{"id":"lr-slideshow-play","appId":"lightroom","type":"software","category":"design","name":{"zh":"播放幻灯片","en":"Play Slideshow (Enter)"},"description":{"zh":"播放幻灯片演示","en":"Play slideshow presentation"},"windows":"Enter","mac":"Return","linux":"—","keywords":["幻灯片","slideshow","播放","play"],"pinyin":"bo fang huan deng pian bofanghuandengpian b f h d p bfhdp huan deng pian   bo fang huandengpian bofang h d p   b f hdp bf"}]
+[
+  {
+    "id": "lr-newcatalog",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "新建目录",
+      "en": "New Catalog"
+    },
+    "description": {
+      "zh": "创建新的照片目录",
+      "en": "Create a new photo catalog"
+    },
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
+    "linux": "—",
+    "keywords": [
+      "目录",
+      "catalog",
+      "新建"
+    ],
+    "pinyin": "xin jian mu lu xinjianmulu x j m l xjml mu lu   xin jian mulu xinjian m l   x j ml xj"
+  },
+  {
+    "id": "lr-opencatalog",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "打开目录",
+      "en": "Open Catalog"
+    },
+    "description": {
+      "zh": "打开已有目录",
+      "en": "Open an existing catalog"
+    },
+    "windows": "Ctrl + O",
+    "mac": "⌘ O",
+    "linux": "—",
+    "keywords": [
+      "打开",
+      "open",
+      "目录"
+    ],
+    "pinyin": "da kai mu lu dakaimulu d k m l dkml da kai   mu lu dakai mulu d k   m l dk ml"
+  },
+  {
+    "id": "lr-closecatalog",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "关闭目录",
+      "en": "Close Catalog"
+    },
+    "description": {
+      "zh": "关闭当前目录",
+      "en": "Close current catalog"
+    },
+    "windows": "Ctrl + W",
+    "mac": "⌘ W",
+    "linux": "—",
+    "keywords": [
+      "关闭",
+      "close",
+      "目录"
+    ],
+    "pinyin": "guan bi mu lu guanbimulu g b m l gbml guan bi   mu lu guanbi mulu g b   m l gb ml"
+  },
+  {
+    "id": "lr-save",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "保存",
+      "en": "Save"
+    },
+    "description": {
+      "zh": "保存更改到目录",
+      "en": "Save changes to catalog"
+    },
+    "windows": "Ctrl + S",
+    "mac": "⌘ S",
+    "linux": "—",
+    "keywords": [
+      "保存",
+      "save"
+    ],
+    "pinyin": "bao cun baocun b c bc bao cun baocun b c bc"
+  },
+  {
+    "id": "lr-import",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "导入照片",
+      "en": "Import Photos"
+    },
+    "description": {
+      "zh": "打开导入窗口",
+      "en": "Open import dialog"
+    },
+    "windows": "Ctrl + Shift + I",
+    "mac": "⌘ ⇧ I",
+    "linux": "—",
+    "keywords": [
+      "导入",
+      "import",
+      "照片"
+    ],
+    "pinyin": "dao ru zhao pian daoruzhaopian d r z p drzp dao ru   zhao pian daoru zhaopian d r   z p dr zp"
+  },
+  {
+    "id": "lr-export",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "导出照片",
+      "en": "Export Photos"
+    },
+    "description": {
+      "zh": "导出选中的照片",
+      "en": "Export selected photos"
+    },
+    "windows": "Ctrl + Shift + E",
+    "mac": "⌘ ⇧ E",
+    "linux": "—",
+    "keywords": [
+      "导出",
+      "export",
+      "照片"
+    ],
+    "pinyin": "dao chu zhao pian daochuzhaopian d c z p dczp dao chu   zhao pian daochu zhaopian d c   z p dc zp"
+  },
+  {
+    "id": "lr-gridview",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "网格视图",
+      "en": "Grid View (G)"
+    },
+    "description": {
+      "zh": "以缩略图网格浏览（图库模块）",
+      "en": "Browse as thumbnail grid (Library)"
+    },
+    "windows": "G",
+    "mac": "G",
+    "linux": "—",
+    "keywords": [
+      "网格",
+      "grid",
+      "图库",
+      "library"
+    ],
+    "pinyin": "wang ge shi tu wanggeshitu w g s t wgst wang ge   tu ku wangge tuku w g   t k wg tk"
+  },
+  {
+    "id": "lr-loupeview",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "放大视图",
+      "en": "Loupe View (E)"
+    },
+    "description": {
+      "zh": "单张放大查看",
+      "en": "View single photo zoomed"
+    },
+    "windows": "E",
+    "mac": "E",
+    "linux": "—",
+    "keywords": [
+      "放大",
+      "loupe",
+      "查看"
+    ],
+    "pinyin": "fang da shi tu fangdashitu f d s t fdst fang da   cha kan fangda chakan f d   c k fd ck"
+  },
+  {
+    "id": "lr-compareview",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "比较视图",
+      "en": "Compare View (C)"
+    },
+    "description": {
+      "zh": "并排比较两张照片",
+      "en": "Compare two photos side by side"
+    },
+    "windows": "C",
+    "mac": "C",
+    "linux": "—",
+    "keywords": [
+      "比较",
+      "compare",
+      "视图"
+    ],
+    "pinyin": "bi jiao shi tu bijiaoshitu b j s t bjst bi jiao   shi tu bijiao shitu b j   s t bj st"
+  },
+  {
+    "id": "lr-surveyview",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": " survey 视图",
+      "en": "Survey View (N)"
+    },
+    "description": {
+      "zh": "多张照片同屏查看",
+      "en": "View multiple photos together"
+    },
+    "windows": "N",
+    "mac": "N",
+    "linux": "—",
+    "keywords": [
+      "survey",
+      "多张",
+      "视图"
+    ],
+    "pinyin": "s u r v e y   shi tu  survey shitu   s u r v e y   s t  survey st duo zhang   shi tu duozhang shitu d z   s t dz st"
+  },
+  {
+    "id": "lr-flagpick",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "旗标 / 留用",
+      "en": "Flag / Pick (P)"
+    },
+    "description": {
+      "zh": "切换留用旗标（P 键循环：无→留用→拒绝）",
+      "en": "Toggle pick flag (P cycles: none→pick→reject)"
+    },
+    "windows": "P",
+    "mac": "P",
+    "linux": "—",
+    "keywords": [
+      "旗标",
+      "flag",
+      "留用",
+      "pick"
+    ],
+    "pinyin": "qi biao   /   liu yong qibiao / liuyong q b   /   l y qb / ly qi biao   liu yong qibiao liuyong q b   l y qb ly"
+  },
+  {
+    "id": "lr-reject",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "拒绝",
+      "en": "Reject (X)"
+    },
+    "description": {
+      "zh": "标记为拒绝",
+      "en": "Mark as rejected"
+    },
+    "windows": "X",
+    "mac": "X",
+    "linux": "—",
+    "keywords": [
+      "拒绝",
+      "reject"
+    ],
+    "pinyin": "ju jue jujue j j jj ju jue jujue j j jj"
+  },
+  {
+    "id": "lr-rating0",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "移除评级",
+      "en": "Remove Rating (0)"
+    },
+    "description": {
+      "zh": "清除星级评分",
+      "en": "Remove star rating"
+    },
+    "windows": "0",
+    "mac": "0",
+    "linux": "—",
+    "keywords": [
+      "移除",
+      "remove",
+      "评分",
+      "rating"
+    ],
+    "pinyin": "yi chu ping ji yichupingji y c p j ycpj yi chu   ping fen yichu pingfen y c   p f yc pf"
+  },
+  {
+    "id": "lr-rating1",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "1 星评分",
+      "en": "1-Star Rating (1)"
+    },
+    "description": {
+      "zh": "评一星",
+      "en": "Rate 1 star"
+    },
+    "windows": "1",
+    "mac": "1",
+    "linux": "—",
+    "keywords": [
+      "评分",
+      "rating",
+      "1星"
+    ],
+    "pinyin": "1   xing ping fen 1 xingpingfen 1   x p f 1 xpf ping fen   1 xing pingfen 1xing p f   1 x pf 1x"
+  },
+  {
+    "id": "lr-rating2",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "2 星评分",
+      "en": "2-Star Rating (2)"
+    },
+    "description": {
+      "zh": "评二星",
+      "en": "Rate 2 stars"
+    },
+    "windows": "2",
+    "mac": "2",
+    "linux": "—",
+    "keywords": [
+      "评分",
+      "rating",
+      "2星"
+    ],
+    "pinyin": "2   xing ping fen 2 xingpingfen 2   x p f 2 xpf ping fen   2 xing pingfen 2xing p f   2 x pf 2x"
+  },
+  {
+    "id": "lr-rating3",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "3 星评分",
+      "en": "3-Star Rating (3)"
+    },
+    "description": {
+      "zh": "评三星",
+      "en": "Rate 3 stars"
+    },
+    "windows": "3",
+    "mac": "3",
+    "linux": "—",
+    "keywords": [
+      "评分",
+      "rating",
+      "3星"
+    ],
+    "pinyin": "3   xing ping fen 3 xingpingfen 3   x p f 3 xpf ping fen   3 xing pingfen 3xing p f   3 x pf 3x"
+  },
+  {
+    "id": "lr-rating4",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "4 星评分",
+      "en": "4-Star Rating (4)"
+    },
+    "description": {
+      "zh": "评四星",
+      "en": "Rate 4 stars"
+    },
+    "windows": "4",
+    "mac": "4",
+    "linux": "—",
+    "keywords": [
+      "评分",
+      "rating",
+      "4星"
+    ],
+    "pinyin": "4   xing ping fen 4 xingpingfen 4   x p f 4 xpf ping fen   4 xing pingfen 4xing p f   4 x pf 4x"
+  },
+  {
+    "id": "lr-rating5",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "5 星评分",
+      "en": "5-Star Rating (5)"
+    },
+    "description": {
+      "zh": "评五星",
+      "en": "Rate 5 stars"
+    },
+    "windows": "5",
+    "mac": "5",
+    "linux": "—",
+    "keywords": [
+      "评分",
+      "rating",
+      "5星"
+    ],
+    "pinyin": "5   xing ping fen 5 xingpingfen 5   x p f 5 xpf ping fen   5 xing pingfen 5xing p f   5 x pf 5x"
+  },
+  {
+    "id": "lr-increaserating",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "增加评级",
+      "en": "Increase Rating (=)"
+    },
+    "description": {
+      "zh": "提升一级星级",
+      "en": "Increase star rating by one"
+    },
+    "windows": "=",
+    "mac": "=",
+    "linux": "—",
+    "keywords": [
+      "增加",
+      "increase",
+      "评级",
+      "rating"
+    ],
+    "pinyin": "zeng jia ping ji zengjiapingji z j p j zjpj zeng jia   ping ji zengjia pingji z j   p j zj pj"
+  },
+  {
+    "id": "lr-decreaserating",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "降低评级",
+      "en": "Decrease Rating (-)"
+    },
+    "description": {
+      "zh": "降低一级星级",
+      "en": "Decrease star rating by one"
+    },
+    "windows": "-",
+    "mac": "-",
+    "linux": "—",
+    "keywords": [
+      "降低",
+      "decrease",
+      "评级",
+      "rating"
+    ],
+    "pinyin": "jiang di ping ji jiangdipingji j d p j jdpj jiang di   ping ji jiangdi pingji j d   p j jd pj"
+  },
+  {
+    "id": "lr-colorlabel-red",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "红色标签",
+      "en": "Red Color Label (6)"
+    },
+    "description": {
+      "zh": "添加红色颜色标签",
+      "en": "Apply red color label"
+    },
+    "windows": "6",
+    "mac": "6",
+    "linux": "—",
+    "keywords": [
+      "红色",
+      "red",
+      "标签",
+      "label",
+      "色标"
+    ],
+    "pinyin": "hong se biao qian hongsebiaoqian h s b q hsbq hong se   biao qian   se biao hongse biaoqian sebiao h s   b q   s b hs bq sb"
+  },
+  {
+    "id": "lr-colorlabel-yellow",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "黄色标签",
+      "en": "Yellow Color Label (7)"
+    },
+    "description": {
+      "zh": "添加黄色颜色标签",
+      "en": "Apply yellow color label"
+    },
+    "windows": "7",
+    "mac": "7",
+    "linux": "—",
+    "keywords": [
+      "黄色",
+      "yellow",
+      "标签",
+      "label",
+      "色标"
+    ],
+    "pinyin": "huang se biao qian huangsebiaoqian h s b q hsbq huang se   biao qian   se biao huangse biaoqian sebiao h s   b q   s b hs bq sb"
+  },
+  {
+    "id": "lr-colorlabel-green",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "绿色标签",
+      "en": "Green Color Label (8)"
+    },
+    "description": {
+      "zh": "添加绿色颜色标签",
+      "en": "Apply green color label"
+    },
+    "windows": "8",
+    "mac": "8",
+    "linux": "—",
+    "keywords": [
+      "绿色",
+      "green",
+      "标签",
+      "label",
+      "色标"
+    ],
+    "pinyin": "lü se biao qian lüsebiaoqian l s b q lsbq lü se   biao qian   se biao lüse biaoqian sebiao l s   b q   s b ls bq sb"
+  },
+  {
+    "id": "lr-colorlabel-blue",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "蓝色标签",
+      "en": "Blue Color Label (9)"
+    },
+    "description": {
+      "zh": "添加蓝色颜色标签",
+      "en": "Apply blue color label"
+    },
+    "windows": "9",
+    "mac": "9",
+    "linux": "—",
+    "keywords": [
+      "蓝色",
+      "blue",
+      "标签",
+      "label",
+      "色标"
+    ],
+    "pinyin": "lan se biao qian lansebiaoqian l s b q lsbq lan se   biao qian   se biao lanse biaoqian sebiao l s   b q   s b ls bq sb"
+  },
+  {
+    "id": "lr-colorlabel-purple",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "紫色标签",
+      "en": "Purple Color Label (0)"
+    },
+    "description": {
+      "zh": "添加紫色颜色标签",
+      "en": "Apply purple color label"
+    },
+    "windows": "0 (按两次)",
+    "mac": "0 (按两次)",
+    "linux": "—",
+    "keywords": [
+      "紫色",
+      "purple",
+      "标签",
+      "label",
+      "色标"
+    ],
+    "pinyin": "zi se biao qian zisebiaoqian z s b q zsbq zi se   biao qian   se biao zise biaoqian sebiao z s   b q   s b zs bq sb"
+  },
+  {
+    "id": "lr-rotateleft",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "向左旋转",
+      "en": "Rotate Left ([)"
+    },
+    "description": {
+      "zh": "逆时针旋转 90°",
+      "en": "Rotate photo 90° counter-clockwise"
+    },
+    "windows": "[",
+    "mac": "[",
+    "linux": "—",
+    "keywords": [
+      "旋转",
+      "rotate",
+      "左"
+    ],
+    "pinyin": "xiang zuo xuan zhuan xiangzuoxuanzhuan x z x z xzxz xuan zhuan   zuo xuanzhuan zuo x z   z xz z"
+  },
+  {
+    "id": "lr-rotateright",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "向右旋转",
+      "en": "Rotate Right (])"
+    },
+    "description": {
+      "zh": "顺时针旋转 90°",
+      "en": "Rotate photo 90° clockwise"
+    },
+    "windows": "]",
+    "mac": "]",
+    "linux": "—",
+    "keywords": [
+      "旋转",
+      "rotate",
+      "右"
+    ],
+    "pinyin": "xiang you xuan zhuan xiangyouxuanzhuan x y x z xyxz xuan zhuan   you xuanzhuan you x z   y xz y"
+  },
+  {
+    "id": "lr-prevphoto",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "上一张",
+      "en": "Previous Photo (←)"
+    },
+    "description": {
+      "zh": "查看上一张照片",
+      "en": "Go to previous photo"
+    },
+    "windows": "Left Arrow",
+    "mac": "Left Arrow",
+    "linux": "—",
+    "keywords": [
+      "上一张",
+      "previous",
+      "上一张照片"
+    ],
+    "pinyin": "shang yi zhang shangyizhang s y z syz shang yi zhang   shang yi zhang zhao pian shangyizhang shangyizhangzhaopian s y z   s y z z p syz syzzp"
+  },
+  {
+    "id": "lr-nextphoto",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "下一张",
+      "en": "Next Photo (→)"
+    },
+    "description": {
+      "zh": "查看下一张照片",
+      "en": "Go to next photo"
+    },
+    "windows": "Right Arrow",
+    "mac": "Right Arrow",
+    "linux": "—",
+    "keywords": [
+      "下一张",
+      "next",
+      "下一张照片"
+    ],
+    "pinyin": "xia yi zhang xiayizhang x y z xyz xia yi zhang   xia yi zhang zhao pian xiayizhang xiayizhangzhaopian x y z   x y z z p xyz xyzzp"
+  },
+  {
+    "id": "lr-gofirst",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "转到第一张",
+      "en": "Go to First Photo (Home)"
+    },
+    "description": {
+      "zh": "跳转到第一张照片",
+      "en": "Jump to first photo"
+    },
+    "windows": "Home",
+    "mac": "Fn ←",
+    "linux": "—",
+    "keywords": [
+      "第一张",
+      "first",
+      "home",
+      "首页"
+    ],
+    "pinyin": "zhuan dao di yi zhang zhuandaodiyizhang z d d y z zddyz di yi zhang   shou ye diyizhang shouye d y z   s y dyz sy"
+  },
+  {
+    "id": "lr-golast",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "转到最后一张",
+      "en": "Go to Last Photo (End)"
+    },
+    "description": {
+      "zh": "跳转到最后一张照片",
+      "en": "Jump to last photo"
+    },
+    "windows": "End",
+    "mac": "Fn →",
+    "linux": "—",
+    "keywords": [
+      "最后一张",
+      "last",
+      "end",
+      "末尾"
+    ],
+    "pinyin": "zhuan dao zui hou yi zhang zhuandaozuihouyizhang z d z h y z zdzhyz zui hou yi zhang   mo wei zuihouyizhang mowei z h y z   m w zhyz mw"
+  },
+  {
+    "id": "lr-zoomin",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "放大",
+      "en": "Zoom In (Ctrl++)"
+    },
+    "description": {
+      "zh": "放大查看照片",
+      "en": "Zoom in on photo"
+    },
+    "windows": "Ctrl + =",
+    "mac": "⌘ =",
+    "linux": "—",
+    "keywords": [
+      "放大",
+      "zoom in",
+      "缩放"
+    ],
+    "pinyin": "fang da fangda f d fd fang da   suo fang fangda suofang f d   s f fd sf"
+  },
+  {
+    "id": "lr-zoomout",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "缩小",
+      "en": "Zoom Out (Ctrl+-)"
+    },
+    "description": {
+      "zh": "缩小查看照片",
+      "en": "Zoom out from photo"
+    },
+    "windows": "Ctrl + -",
+    "mac": "⌘ -",
+    "linux": "—",
+    "keywords": [
+      "缩小",
+      "zoom out",
+      "缩放"
+    ],
+    "pinyin": "suo xiao suoxiao s x sx suo xiao   suo fang suoxiao suofang s x   s f sx sf"
+  },
+  {
+    "id": "lr-fitview",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "适合窗口",
+      "en": "Fit to Window (Ctrl+0)"
+    },
+    "description": {
+      "zh": "照片适配窗口大小",
+      "en": "Fit photo to window size"
+    },
+    "windows": "Ctrl + 0",
+    "mac": "⌘ 0",
+    "linux": "—",
+    "keywords": [
+      "适合",
+      "fit",
+      "窗口",
+      "填充"
+    ],
+    "pinyin": "shi he chuang kou shihechuangkou s h c k shck shi he   chuang kou   tian chong shihe chuangkou tianchong s h   c k   t c sh ck tc"
+  },
+  {
+    "id": "lr-fillview",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "填充视图",
+      "en": "Fill View (Ctrl+Alt+0)"
+    },
+    "description": {
+      "zh": "填满整个视图区域",
+      "en": "Fill entire view area"
+    },
+    "windows": "Ctrl + Alt + 0",
+    "mac": "⌘ ⌥ 0",
+    "linux": "—",
+    "keywords": [
+      "填充",
+      "fill",
+      "视图"
+    ],
+    "pinyin": "tian chong shi tu tianchongshitu t c s t tcst tian chong   shi tu tianchong shitu t c   s t tc st"
+  },
+  {
+    "id": "lr-zoom11",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "1:1 视图 (100%)",
+      "en": "1:1 View 100% (Ctrl+1)"
+    },
+    "description": {
+      "zh": "以 100% 比例查看",
+      "en": "View at 100% zoom"
+    },
+    "windows": "Ctrl + 1",
+    "mac": "⌘ 1",
+    "linux": "—",
+    "keywords": [
+      "100%",
+      "1:1",
+      "实际像素",
+      "原大"
+    ],
+    "pinyin": "1 : 1   shi tu   ( 1 0 0 % ) 1:1 shitu (100%) 1 : 1   s t   ( 1 0 0 % ) 1:1 st (100%) shi ji xiang su   yuan da shijixiangsu yuanda s j x s   y d sjxs yd"
+  },
+  {
+    "id": "lr-library-module",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "图库模块",
+      "en": "Library Module"
+    },
+    "description": {
+      "zh": "进入图库模块",
+      "en": "Switch to Library module"
+    },
+    "windows": "Ctrl + Alt + 1",
+    "mac": "⌘ ⌥ 1",
+    "linux": "—",
+    "keywords": [
+      "图库",
+      "library",
+      "模块"
+    ],
+    "pinyin": "tu ku mo kuai tukumokuai t k m k tkmk tu ku   mo kuai tuku mokuai t k   m k tk mk"
+  },
+  {
+    "id": "lr-develop-module",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "修改照片模块",
+      "en": "Develop Module (D)"
+    },
+    "description": {
+      "zh": "进入修图模块",
+      "en": "Switch to Develop module"
+    },
+    "windows": "D",
+    "mac": "D",
+    "linux": "—",
+    "keywords": [
+      "修改",
+      "develop",
+      "修图",
+      "模块"
+    ],
+    "pinyin": "xiu gai zhao pian mo kuai xiugaizhaopianmokuai x g z p m k xgzpmk xiu gai   xiu tu   mo kuai xiugai xiutu mokuai x g   x t   m k xg xt mk"
+  },
+  {
+    "id": "lr-map-module",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "地图模块",
+      "en": "Map Module"
+    },
+    "description": {
+      "zh": "进入地图模块",
+      "en": "Switch to Map module"
+    },
+    "windows": "Ctrl + Alt + 3",
+    "mac": "⌘ ⌥ 3",
+    "linux": "—",
+    "keywords": [
+      "地图",
+      "map",
+      "模块"
+    ],
+    "pinyin": "di tu mo kuai ditumokuai d t m k dtmk di tu   mo kuai ditu mokuai d t   m k dt mk"
+  },
+  {
+    "id": "lr-book-module",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "画册模块",
+      "en": "Book Module"
+    },
+    "description": {
+      "zh": "进入画册模块",
+      "en": "Switch to Book module"
+    },
+    "windows": "Ctrl + Alt + 4",
+    "mac": "⌘ ⌥ 4",
+    "linux": "—",
+    "keywords": [
+      "画册",
+      "book",
+      "相册",
+      "模块"
+    ],
+    "pinyin": "hua ce mo kuai huacemokuai h c m k hcmk hua ce   xiang ce   mo kuai huace xiangce mokuai h c   x c   m k hc xc mk"
+  },
+  {
+    "id": "lr-slideshow-module",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "幻灯片模块",
+      "en": "Slideshow Module"
+    },
+    "description": {
+      "zh": "进入幻灯片模块",
+      "en": "Switch to Slideshow module"
+    },
+    "windows": "Ctrl + Alt + 5",
+    "mac": "⌘ ⌥ 5",
+    "linux": "—",
+    "keywords": [
+      "幻灯片",
+      "slideshow",
+      "模块"
+    ],
+    "pinyin": "huan deng pian mo kuai huandengpianmokuai h d p m k hdpmk huan deng pian   mo kuai huandengpian mokuai h d p   m k hdp mk"
+  },
+  {
+    "id": "lr-print-module",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "打印模块",
+      "en": "Print Module"
+    },
+    "description": {
+      "zh": "进入打印模块",
+      "en": "Switch to Print module"
+    },
+    "windows": "Ctrl + Alt + 6",
+    "mac": "⌘ ⌥ 6",
+    "linux": "—",
+    "keywords": [
+      "打印",
+      "print",
+      "模块"
+    ],
+    "pinyin": "da yin mo kuai dayinmokuai d y m k dymk da yin   mo kuai dayin mokuai d y   m k dy mk"
+  },
+  {
+    "id": "lr-web-module",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": " Web 模块",
+      "en": "Web Gallery Module"
+    },
+    "description": {
+      "zh": "进入 Web 画廊模块",
+      "en": "Switch to Web Gallery module"
+    },
+    "windows": "Ctrl + Alt + 7",
+    "mac": "⌘ ⌥ 7",
+    "linux": "—",
+    "keywords": [
+      "Web",
+      "网页",
+      "画廊",
+      "模块"
+    ],
+    "pinyin": "w e b   mo kuai  web mokuai   w e b   m k  web mk wang ye   hua lang   mo kuai wangye hualang mokuai w y   h l   m k wy hl mk"
+  },
+  {
+    "id": "lr-crop",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "裁剪叠加",
+      "en": "Crop Overlay (R)"
+    },
+    "description": {
+      "zh": "裁剪和拉直工具",
+      "en": "Crop and straighten tool"
+    },
+    "windows": "R",
+    "mac": "R",
+    "linux": "—",
+    "keywords": [
+      "裁剪",
+      "crop",
+      "拉直"
+    ],
+    "pinyin": "cai jian die jia caijiandiejia c j d j cjdj cai jian   la zhi caijian lazhi c j   l z cj lz"
+  },
+  {
+    "id": "lr-spotremoval",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "污点去除",
+      "en": "Spot Removal (Q)"
+    },
+    "description": {
+      "zh": "修复污点和瑕疵",
+      "en": "Fix spots and blemishes"
+    },
+    "windows": "Q",
+    "mac": "Q",
+    "linux": "—",
+    "keywords": [
+      "污点",
+      "spot",
+      "去除",
+      "修复",
+      "修补"
+    ],
+    "pinyin": "wu dian qu chu wudianquchu w d q c wdqc wu dian   qu chu   xiu fu   xiu bu wudian quchu xiufu xiubu w d   q c   x f   x b wd qc xf xb"
+  },
+  {
+    "id": "lr-adjustmentbrush",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "调整画笔",
+      "en": "Adjustment Brush (K)"
+    },
+    "description": {
+      "zh": "局部调整画笔工具",
+      "en": "Local adjustment brush tool"
+    },
+    "windows": "K",
+    "mac": "K",
+    "linux": "—",
+    "keywords": [
+      "画笔",
+      "brush",
+      "调整",
+      "局部"
+    ],
+    "pinyin": "tiao zheng hua bi tiaozhenghuabi t z h b tzhb hua bi   tiao zheng   ju bu huabi tiaozheng jubu h b   t z   j b hb tz jb"
+  },
+  {
+    "id": "lr-gradientfilter",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "渐变滤镜",
+      "en": "Graduated Filter (M)"
+    },
+    "description": {
+      "zh": "线性渐变局部调整",
+      "en": "Linear gradient local adjustment"
+    },
+    "windows": "M",
+    "mac": "M",
+    "linux": "—",
+    "keywords": [
+      "渐变",
+      "gradient",
+      "滤镜",
+      "filter"
+    ],
+    "pinyin": "jian bian lü jing jianbianlüjing j b l j jblj jian bian   lü jing jianbian lüjing j b   l j jb lj"
+  },
+  {
+    "id": "lr-radialfilter",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "径向滤镜",
+      "en": "Radial Filter (Shift+M)"
+    },
+    "description": {
+      "zh": "椭圆形局部调整",
+      "en": "Elliptical local adjustment"
+    },
+    "windows": "Shift + M",
+    "mac": "⇧ M",
+    "linux": "—",
+    "keywords": [
+      "径向",
+      "radial",
+      "滤镜",
+      "filter",
+      "椭圆"
+    ],
+    "pinyin": "jing xiang lü jing jingxianglüjing j x l j jxlj jing xiang   lü jing   tuo yuan jingxiang lüjing tuoyuan j x   l j   t y jx lj ty"
+  },
+  {
+    "id": "lr-autotone",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "自动色调",
+      "en": "Auto Tone (U)"
+    },
+    "description": {
+      "zh": "自动调整曝光/对比度/高光/阴影等",
+      "en": "Auto-adjust exposure/contrast/highlights/shadows"
+    },
+    "windows": "U",
+    "mac": "U",
+    "linux": "—",
+    "keywords": [
+      "自动",
+      "auto",
+      "色调",
+      "tone"
+    ],
+    "pinyin": "zi dong se diao zidongsediao z d s d zdsd zi dong   se diao zidong sediao z d   s d zd sd"
+  },
+  {
+    "id": "lr-autoexposure",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "自动曝光",
+      "en": "Auto Exposure (Shift+U)"
+    },
+    "description": {
+      "zh": "仅自动调整曝光",
+      "en": "Auto-adjust exposure only"
+    },
+    "windows": "Shift + U",
+    "mac": "⇧ U",
+    "linux": "—",
+    "keywords": [
+      "自动",
+      "auto",
+      "曝光",
+      "exposure"
+    ],
+    "pinyin": "zi dong bao guang zidongbaoguang z d b g zdbg zi dong   bao guang zidong baoguang z d   b g zd bg"
+  },
+  {
+    "id": "lr-autowhitebalance",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "自动白平衡",
+      "en": "Auto White Balance (Shift+W)"
+    },
+    "description": {
+      "zh": "自动校正白平衡",
+      "en": "Auto-correct white balance"
+    },
+    "windows": "Shift + W",
+    "mac": "⇧ W",
+    "linux": "—",
+    "keywords": [
+      "自动",
+      "auto",
+      "白平衡",
+      "white balance"
+    ],
+    "pinyin": "zi dong bai ping heng zidongbaipingheng z d b p h zdbph zi dong   bai ping heng zidong baipingheng z d   b p h zd bph"
+  },
+  {
+    "id": "lr-reset",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "重置设置",
+      "en": "Reset Settings (Shift+R)"
+    },
+    "description": {
+      "zh": "重置当前照片所有修改",
+      "en": "Reset all adjustments on current photo"
+    },
+    "windows": "Shift + R",
+    "mac": "⇧ R",
+    "linux": "—",
+    "keywords": [
+      "重置",
+      "reset",
+      "还原"
+    ],
+    "pinyin": "zhong zhi she zhi zhongzhishezhi z z s z zzsz zhong zhi   huan yuan zhongzhi huanyuan z z   h y zz hy"
+  },
+  {
+    "id": "lr-beforeafter",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "修改前/后视图",
+      "en": "Before/After View (Backslash)"
+    },
+    "description": {
+      "zh": "循环切换修改前后对比模式",
+      "en": "Cycle before/after comparison modes"
+    },
+    "windows": "\\",
+    "mac": "\\",
+    "linux": "—",
+    "keywords": [
+      "修改前/后",
+      "before after",
+      "对比",
+      "compare"
+    ],
+    "pinyin": "xiu gai qian / hou shi tu xiugaiqian/houshitu x g q / h s t xgq/hst xiu gai qian / hou   dui bi xiugaiqian/hou duibi x g q / h   d b xgq/h db"
+  },
+  {
+    "id": "lr-copysettings",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "复制修改设置",
+      "en": "Copy Settings (Ctrl+Shift+C)"
+    },
+    "description": {
+      "zh": "复制当前修图参数",
+      "en": "Copy develop settings"
+    },
+    "windows": "Ctrl + Shift + C",
+    "mac": "⌘ ⇧ C",
+    "linux": "—",
+    "keywords": [
+      "复制",
+      "copy",
+      "设置",
+      "settings"
+    ],
+    "pinyin": "fu zhi xiu gai she zhi fuzhixiugaishezhi f z x g s z fzxgsz fu zhi   she zhi fuzhi shezhi f z   s z fz sz"
+  },
+  {
+    "id": "lr-pastesettings",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "粘贴修改设置",
+      "en": "Paste Settings (Ctrl+Shift+V)"
+    },
+    "description": {
+      "zh": "粘贴修图参数到其他照片",
+      "en": "Paste develop settings to other photos"
+    },
+    "windows": "Ctrl + Shift + V",
+    "mac": "⌘ ⇧ V",
+    "linux": "—",
+    "keywords": [
+      "粘贴",
+      "paste",
+      "设置",
+      "settings"
+    ],
+    "pinyin": "nian tie xiu gai she zhi niantiexiugaishezhi n t x g s z ntxgsz nian tie   she zhi niantie shezhi n t   s z nt sz"
+  },
+  {
+    "id": "lr-pasteall",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "粘贴到全部",
+      "en": "Paste to All (Ctrl+Shift+V then A)"
+    },
+    "description": {
+      "zh": "将设置粘贴到所有选中照片",
+      "en": "Paste settings to all selected photos"
+    },
+    "windows": "(粘贴后按 A)",
+    "mac": "(粘贴后按 A)",
+    "linux": "—",
+    "keywords": [
+      "粘贴",
+      "paste",
+      "全部",
+      "all"
+    ],
+    "pinyin": "nian tie dao quan bu niantiedaoquanbu n t d q b ntdqb nian tie   quan bu niantie quanbu n t   q b nt qb"
+  },
+  {
+    "id": "lr-fullscreen",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "全屏模式",
+      "en": "Full Screen Mode (F)"
+    },
+    "description": {
+      "zh": "切换全屏显示",
+      "en": "Toggle full screen display"
+    },
+    "windows": "F",
+    "mac": "F",
+    "linux": "—",
+    "keywords": [
+      "全屏",
+      "fullscreen",
+      "全屏预览"
+    ],
+    "pinyin": "quan ping mo shi quanpingmoshi q p m s qpms quan ping   quan ping yu lan quanping quanpingyulan q p   q p y l qp qpyl"
+  },
+  {
+    "id": "lr-dimlights",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "调暗背景灯",
+      "en": "Dim Lights (L)"
+    },
+    "description": {
+      "zh": "循环切换背景明暗级别",
+      "en": "Cycle background light levels"
+    },
+    "windows": "L",
+    "mac": "L",
+    "linux": "—",
+    "keywords": [
+      "背景",
+      "背景灯",
+      "调暗",
+      "dim lights"
+    ],
+    "pinyin": "tiao an bei jing deng tiaoanbeijingdeng t a b j d tabjd bei jing   bei jing deng   tiao an beijing beijingdeng tiaoan b j   b j d   t a bj bjd ta"
+  },
+  {
+    "id": "lr-undo",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo (Ctrl+Z)"
+    },
+    "description": {
+      "zh": "撤销上一步操作",
+      "en": "Undo last action"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "—",
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "lr-redo",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "重做",
+      "en": "Redo (Ctrl+Shift+Z)"
+    },
+    "description": {
+      "zh": "重做被撤销的操作",
+      "en": "Redo undone action"
+    },
+    "windows": "Ctrl + Shift + Z",
+    "mac": "⌘ ⇧ Z",
+    "linux": "—",
+    "keywords": [
+      "重做",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "lr-deletephoto",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "删除照片",
+      "en": "Delete Photo (Backspace)"
+    },
+    "description": {
+      "zh": "删除选中的照片",
+      "en": "Delete selected photo(s)"
+    },
+    "windows": "Backspace",
+    "mac": "Delete",
+    "linux": "—",
+    "keywords": [
+      "删除",
+      "delete",
+      "移除"
+    ],
+    "pinyin": "shan chu zhao pian shanchuzhaopian s c z p sczp shan chu   yi chu shanchu yichu s c   y c sc yc"
+  },
+  {
+    "id": "lr-find",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "查找",
+      "en": "Find (Ctrl+F)"
+    },
+    "description": {
+      "zh": "在图库中搜索照片",
+      "en": "Search photos in Library"
+    },
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
+    "linux": "—",
+    "keywords": [
+      "查找",
+      "find",
+      "搜索",
+      "search"
+    ],
+    "pinyin": "cha zhao chazhao c z cz cha zhao   sou suo chazhao sousuo c z   s s cz ss"
+  },
+  {
+    "id": "lr-filterbyflag",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "按旗标筛选",
+      "en": "Filter by Flag (\\)"
+    },
+    "description": {
+      "zh": "按旗标状态筛选照片",
+      "en": "Filter photos by flag status"
+    },
+    "windows": "\\",
+    "mac": "\\",
+    "linux": "—",
+    "keywords": [
+      "筛选",
+      "filter",
+      "旗标",
+      "flag"
+    ],
+    "pinyin": "an qi biao shai xuan anqibiaoshaixuan a q b s x aqbsx shai xuan   qi biao shaixuan qibiao s x   q b sx qb"
+  },
+  {
+    "id": "lr-togglepanel",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "显示/隐藏面板",
+      "en": "Toggle Panel (Tab)"
+    },
+    "description": {
+      "zh": "显示或隐藏右侧面板",
+      "en": "Show or hide right panel"
+    },
+    "windows": "Tab",
+    "mac": "Tab",
+    "linux": "—",
+    "keywords": [
+      "面板",
+      "panel",
+      "隐藏",
+      "显示"
+    ],
+    "pinyin": "xian shi / yin cang mian ban xianshi/yincangmianban x s / y c m b xs/ycmb mian ban   yin cang   xian shi mianban yincang xianshi m b   y c   x s mb yc xs"
+  },
+  {
+    "id": "lr-slideshow-play",
+    "appId": "lightroom",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "播放幻灯片",
+      "en": "Play Slideshow (Enter)"
+    },
+    "description": {
+      "zh": "播放幻灯片演示",
+      "en": "Play slideshow presentation"
+    },
+    "windows": "Enter",
+    "mac": "Return",
+    "linux": "—",
+    "keywords": [
+      "幻灯片",
+      "slideshow",
+      "播放",
+      "play"
+    ],
+    "pinyin": "bo fang huan deng pian bofanghuandengpian b f h d p bfhdp huan deng pian   bo fang huandengpian bofang h d p   b f hdp bf"
+  }
+]

@@ -1,0 +1,548 @@
+[
+  {
+    "id": "aws-s3-ls",
+    "appId": "awscli",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "S3 list",
+      "zh": "S3 列出"
+    },
+    "description": {
+      "en": "List S3 buckets/objects",
+      "zh": "列出 S3 桶/对象"
+    },
+    "windows": "aws s3 ls",
+    "mac": "aws s3 ls",
+    "linux": "aws s3 ls",
+    "keywords": [
+      "s3",
+      "ls",
+      "列出"
+    ],
+    "pinyin": "s 3   lie chu s3 liechu s 3   l c s3 lc lie chu liechu l c lc"
+  },
+  {
+    "id": "aws-s3-cp",
+    "appId": "awscli",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "S3 copy",
+      "zh": "S3 复制"
+    },
+    "description": {
+      "en": "Copy to/from S3",
+      "zh": "复制到/从 S3"
+    },
+    "windows": "aws s3 cp <src> <dst>",
+    "mac": "aws s3 cp <src> <dst>",
+    "linux": "aws s3 cp <src> <dst>",
+    "keywords": [
+      "s3",
+      "cp",
+      "复制"
+    ],
+    "pinyin": "s 3   fu zhi s3 fuzhi s 3   f z s3 fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "aws-s3-sync",
+    "appId": "awscli",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "S3 sync",
+      "zh": "S3 同步"
+    },
+    "description": {
+      "en": "Sync directories with S3",
+      "zh": "同步目录到 S3"
+    },
+    "windows": "aws s3 sync <src> <dst>",
+    "mac": "aws s3 sync <src> <dst>",
+    "linux": "aws s3 sync <src> <dst>",
+    "keywords": [
+      "s3",
+      "sync",
+      "同步"
+    ],
+    "pinyin": "s 3   tong bu s3 tongbu s 3   t b s3 tb tong bu tongbu t b tb"
+  },
+  {
+    "id": "aws-s3-mb",
+    "appId": "awscli",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "S3 make bucket",
+      "zh": "S3 建桶"
+    },
+    "description": {
+      "en": "Create an S3 bucket",
+      "zh": "创建 S3 桶"
+    },
+    "windows": "aws s3 mb s3://<b>",
+    "mac": "aws s3 mb s3://<b>",
+    "linux": "aws s3 mb s3://<b>",
+    "keywords": [
+      "s3",
+      "mb",
+      "建桶"
+    ],
+    "pinyin": "s 3   jian tong s3 jiantong s 3   j t s3 jt jian tong jiantong j t jt"
+  },
+  {
+    "id": "aws-s3-rb",
+    "appId": "awscli",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "S3 remove bucket",
+      "zh": "S3 删桶"
+    },
+    "description": {
+      "en": "Remove an S3 bucket",
+      "zh": "删除 S3 桶"
+    },
+    "windows": "aws s3 rb s3://<b>",
+    "mac": "aws s3 rb s3://<b>",
+    "linux": "aws s3 rb s3://<b>",
+    "keywords": [
+      "s3",
+      "rb",
+      "删桶"
+    ],
+    "pinyin": "s 3   shan tong s3 shantong s 3   s t s3 st shan tong shantong s t st"
+  },
+  {
+    "id": "aws-ec2-describe",
+    "appId": "awscli",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "EC2 describe",
+      "zh": "EC2 描述"
+    },
+    "description": {
+      "en": "Describe EC2 instances",
+      "zh": "描述 EC2 实例"
+    },
+    "windows": "aws ec2 describe-instances",
+    "mac": "aws ec2 describe-instances",
+    "linux": "aws ec2 describe-instances",
+    "keywords": [
+      "ec2",
+      "describe",
+      "实例"
+    ],
+    "pinyin": "e c 2   miao shu ec2 miaoshu e c 2   m s ec2 ms shi li shili s l sl"
+  },
+  {
+    "id": "aws-ec2-run",
+    "appId": "awscli",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "EC2 run",
+      "zh": "EC2 启动"
+    },
+    "description": {
+      "en": "Launch an EC2 instance",
+      "zh": "启动 EC2 实例"
+    },
+    "windows": "aws ec2 run-instances",
+    "mac": "aws ec2 run-instances",
+    "linux": "aws ec2 run-instances",
+    "keywords": [
+      "ec2",
+      "run",
+      "启动"
+    ],
+    "pinyin": "e c 2   qi dong ec2 qidong e c 2   q d ec2 qd qi dong qidong q d qd"
+  },
+  {
+    "id": "aws-ec2-terminate",
+    "appId": "awscli",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "EC2 terminate",
+      "zh": "EC2 终止"
+    },
+    "description": {
+      "en": "Terminate EC2 instances",
+      "zh": "终止 EC2 实例"
+    },
+    "windows": "aws ec2 terminate-instances",
+    "mac": "aws ec2 terminate-instances",
+    "linux": "aws ec2 terminate-instances",
+    "keywords": [
+      "ec2",
+      "terminate",
+      "终止"
+    ],
+    "pinyin": "e c 2   zhong zhi ec2 zhongzhi e c 2   z z ec2 zz zhong zhi zhongzhi z z zz"
+  },
+  {
+    "id": "aws-lambda-invoke",
+    "appId": "awscli",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Lambda invoke",
+      "zh": "Lambda 调用"
+    },
+    "description": {
+      "en": "Invoke a Lambda function",
+      "zh": "调用 Lambda"
+    },
+    "windows": "aws lambda invoke",
+    "mac": "aws lambda invoke",
+    "linux": "aws lambda invoke",
+    "keywords": [
+      "lambda",
+      "invoke",
+      "调用"
+    ],
+    "pinyin": "l a m b d a   diao yong lambda diaoyong l a m b d a   d y lambda dy diao yong diaoyong d y dy"
+  },
+  {
+    "id": "aws-sts-whoami",
+    "appId": "awscli",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Who am I",
+      "zh": "身份查询"
+    },
+    "description": {
+      "en": "Show caller identity",
+      "zh": "显示调用者身份"
+    },
+    "windows": "aws sts get-caller-identity",
+    "mac": "aws sts get-caller-identity",
+    "linux": "aws sts get-caller-identity",
+    "keywords": [
+      "sts",
+      "identity",
+      "身份"
+    ],
+    "pinyin": "shen fen cha xun shenfenchaxun s f c x sfcx shen fen shenfen s f sf"
+  },
+  {
+    "id": "aws-configure",
+    "appId": "awscli",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Configure",
+      "zh": "配置"
+    },
+    "description": {
+      "en": "Configure credentials/profile",
+      "zh": "配置凭证"
+    },
+    "windows": "aws configure",
+    "mac": "aws configure",
+    "linux": "aws configure",
+    "keywords": [
+      "configure",
+      "配置"
+    ],
+    "pinyin": "pei zhi peizhi p z pz pei zhi peizhi p z pz"
+  },
+  {
+    "id": "aws-iam-users",
+    "appId": "awscli",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "IAM users",
+      "zh": "IAM 用户"
+    },
+    "description": {
+      "en": "List IAM users",
+      "zh": "列出 IAM 用户"
+    },
+    "windows": "aws iam list-users",
+    "mac": "aws iam list-users",
+    "linux": "aws iam list-users",
+    "keywords": [
+      "iam",
+      "users",
+      "用户"
+    ],
+    "pinyin": "i a m   yong hu iam yonghu i a m   y h iam yh yong hu yonghu y h yh"
+  },
+  {
+    "id": "aws-cfn-deploy",
+    "appId": "awscli",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "CloudFormation",
+      "zh": "CFN 部署"
+    },
+    "description": {
+      "en": "Deploy a stack",
+      "zh": "部署堆栈"
+    },
+    "windows": "aws cloudformation deploy",
+    "mac": "aws cloudformation deploy",
+    "linux": "aws cloudformation deploy",
+    "keywords": [
+      "cloudformation",
+      "deploy",
+      "堆栈"
+    ],
+    "pinyin": "c f n   bu shu cfn bushu c f n   b s cfn bs dui zhan duizhan d z dz"
+  },
+  {
+    "id": "aws-ecs-clusters",
+    "appId": "awscli",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "ECS clusters",
+      "zh": "ECS 集群"
+    },
+    "description": {
+      "en": "List ECS clusters",
+      "zh": "列出 ECS 集群"
+    },
+    "windows": "aws ecs list-clusters",
+    "mac": "aws ecs list-clusters",
+    "linux": "aws ecs list-clusters",
+    "keywords": [
+      "ecs",
+      "clusters",
+      "集群"
+    ],
+    "pinyin": "e c s   ji qun ecs jiqun e c s   j q ecs jq ji qun jiqun j q jq"
+  },
+  {
+    "id": "aws-ddb-tables",
+    "appId": "awscli",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "DynamoDB tables",
+      "zh": "DDB 表"
+    },
+    "description": {
+      "en": "List DynamoDB tables",
+      "zh": "列出 DynamoDB 表"
+    },
+    "windows": "aws dynamodb list-tables",
+    "mac": "aws dynamodb list-tables",
+    "linux": "aws dynamodb list-tables",
+    "keywords": [
+      "dynamodb",
+      "tables",
+      "表"
+    ],
+    "pinyin": "d d b   biao ddb biao d d b   b ddb b biao biao b b"
+  },
+  {
+    "id": "aws-sqs-send",
+    "appId": "awscli",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "SQS send",
+      "zh": "SQS 发送"
+    },
+    "description": {
+      "en": "Send a message to SQS",
+      "zh": "向 SQS 发消息"
+    },
+    "windows": "aws sqs send-message",
+    "mac": "aws sqs send-message",
+    "linux": "aws sqs send-message",
+    "keywords": [
+      "sqs",
+      "send",
+      "消息"
+    ],
+    "pinyin": "s q s   fa song sqs fasong s q s   f s sqs fs xiao xi xiaoxi x x xx"
+  },
+  {
+    "id": "aws-help",
+    "appId": "awscli",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Help",
+      "zh": "帮助"
+    },
+    "description": {
+      "en": "Show command help",
+      "zh": "显示命令帮助"
+    },
+    "windows": "aws help",
+    "mac": "aws help",
+    "linux": "aws help",
+    "keywords": [
+      "help",
+      "帮助"
+    ],
+    "pinyin": "bang zhu bangzhu b z bz bang zhu bangzhu b z bz"
+  },
+  {
+    "id": "aws-configure-list",
+    "appId": "awscli",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Config list",
+      "zh": "配置列表"
+    },
+    "description": {
+      "en": "List current config",
+      "zh": "列出当前配置"
+    },
+    "windows": "aws configure list",
+    "mac": "aws configure list",
+    "linux": "aws configure list",
+    "keywords": [
+      "configure",
+      "list",
+      "配置"
+    ],
+    "pinyin": "pei zhi lie biao peizhiliebiao p z l b pzlb pei zhi peizhi p z pz"
+  },
+  {
+    "id": "aws-s3api",
+    "appId": "awscli",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "S3 API",
+      "zh": "S3 API"
+    },
+    "description": {
+      "en": "Low-level S3 API calls",
+      "zh": "底层 S3 API"
+    },
+    "windows": "aws s3api <cmd>",
+    "mac": "aws s3api <cmd>",
+    "linux": "aws s3api <cmd>",
+    "keywords": [
+      "s3api",
+      "api"
+    ],
+    "pinyin": "s 3   a p i s3 api s 3   a p i s3 api"
+  },
+  {
+    "id": "aws-ecr-login",
+    "appId": "awscli",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "ECR login",
+      "zh": "ECR 登录"
+    },
+    "description": {
+      "en": "Login to ECR registry",
+      "zh": "登录 ECR 仓库"
+    },
+    "windows": "aws ecr get-login-password",
+    "mac": "aws ecr get-login-password",
+    "linux": "aws ecr get-login-password",
+    "keywords": [
+      "ecr",
+      "login",
+      "登录"
+    ],
+    "pinyin": "e c r   deng lu ecr denglu e c r   d l ecr dl deng lu denglu d l dl"
+  },
+  {
+    "id": "aws-pricing",
+    "appId": "awscli",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Pricing",
+      "zh": "定价"
+    },
+    "description": {
+      "en": "Query service pricing",
+      "zh": "查询定价"
+    },
+    "windows": "aws pricing",
+    "mac": "aws pricing",
+    "linux": "aws pricing",
+    "keywords": [
+      "pricing",
+      "定价"
+    ],
+    "pinyin": "ding jia dingjia d j dj ding jia dingjia d j dj"
+  },
+  {
+    "id": "aws-logs",
+    "appId": "awscli",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "CloudWatch logs",
+      "zh": "日志"
+    },
+    "description": {
+      "en": "CloudWatch Logs commands",
+      "zh": "CloudWatch 日志"
+    },
+    "windows": "aws logs <cmd>",
+    "mac": "aws logs <cmd>",
+    "linux": "aws logs <cmd>",
+    "keywords": [
+      "logs",
+      "cloudwatch",
+      "日志"
+    ],
+    "pinyin": "ri zhi rizhi r z rz ri zhi rizhi r z rz"
+  },
+  {
+    "id": "aws-region",
+    "appId": "awscli",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Set region",
+      "zh": "指定区域"
+    },
+    "description": {
+      "en": "Run in a region",
+      "zh": "指定区域运行"
+    },
+    "windows": "aws --region <reg> <cmd>",
+    "mac": "aws --region <reg> <cmd>",
+    "linux": "aws --region <reg> <cmd>",
+    "keywords": [
+      "region",
+      "区域"
+    ],
+    "pinyin": "zhi ding qu yu zhidingquyu z d q y zdqy qu yu quyu q y qy"
+  },
+  {
+    "id": "aws-version",
+    "appId": "awscli",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Version",
+      "zh": "版本"
+    },
+    "description": {
+      "en": "Show CLI version",
+      "zh": "显示版本"
+    },
+    "windows": "aws --version",
+    "mac": "aws --version",
+    "linux": "aws --version",
+    "keywords": [
+      "version",
+      "版本"
+    ],
+    "pinyin": "ban ben banben b b bb ban ben banben b b bb"
+  }
+]

@@ -1,1 +1,448 @@
-[{"id":"skype-audio-call","appId":"skype","type":"software","category":"productivity","name":{"zh":"发起/接听语音通话","en":"Start / Answer Audio Call"},"description":{"zh":"发起或接听语音通话","en":"Start or answer an audio call"},"windows":"Ctrl + Shift + R","mac":"Cmd + Shift + R","linux":"","keywords":["语音","通话","audio call"],"pinyin":"fa qi / jie ting yu yin tong hua faqi/jietingyuyintonghua f q / j t y y t h fq/jtyyth yu yin   tong hua yuyin tonghua y y   t h yy th"},{"id":"skype-video-call","appId":"skype","type":"software","category":"productivity","name":{"zh":"视频通话/切换视频","en":"Video Call"},"description":{"zh":"发起视频通话或切换视频开关","en":"Start a video call or toggle video"},"windows":"Ctrl + Shift + K","mac":"Cmd + Shift + K","linux":"","keywords":["视频","通话","video call"],"pinyin":"shi pin tong hua / qie huan shi pin shipintonghua/qiehuanshipin s p t h / q h s p spth/qhsp shi pin   tong hua shipin tonghua s p   t h sp th"},{"id":"skype-hangup","appId":"skype","type":"software","category":"productivity","name":{"zh":"挂断","en":"Hang Up"},"description":{"zh":"结束当前通话","en":"End the current call"},"windows":"Ctrl + Shift + H","mac":"Cmd + Shift + H","linux":"","keywords":["挂断","hang up"],"pinyin":"gua duan guaduan g d gd gua duan guaduan g d gd"},{"id":"skype-mute","appId":"skype","type":"software","category":"productivity","name":{"zh":"静音","en":"Toggle Mute"},"description":{"zh":"切换麦克风静音","en":"Toggle microphone mute"},"windows":"Ctrl + Shift + M","mac":"Cmd + Shift + M","linux":"","keywords":["静音","mute"],"pinyin":"jing yin jingyin j y jy jing yin jingyin j y jy"},{"id":"skype-new-chat","appId":"skype","type":"software","category":"productivity","name":{"zh":"新对话","en":"New Conversation"},"description":{"zh":"开始一个新的对话","en":"Start a new conversation"},"windows":"Ctrl + N","mac":"Cmd + N","linux":"","keywords":["新对话","new chat"],"pinyin":"xin dui hua xinduihua x d h xdh xin dui hua xinduihua x d h xdh"},{"id":"skype-new-group","appId":"skype","type":"software","category":"productivity","name":{"zh":"新建群组","en":"New Group"},"description":{"zh":"创建一个新的群组","en":"Create a new group"},"windows":"Ctrl + G","mac":"Cmd + G","linux":"","keywords":["群组","group"],"pinyin":"xin jian qun zu xinjianqunzu x j q z xjqz qun zu qunzu q z qz"},{"id":"skype-hide","appId":"skype","type":"software","category":"productivity","name":{"zh":"隐藏对话","en":"Hide Conversation"},"description":{"zh":"隐藏当前对话窗口","en":"Hide the current conversation"},"windows":"Ctrl + E","mac":"Cmd + E","linux":"","keywords":["隐藏","hide"],"pinyin":"yin cang dui hua yincangduihua y c d h ycdh yin cang yincang y c yc"},{"id":"skype-mark-unread","appId":"skype","type":"software","category":"productivity","name":{"zh":"标为未读","en":"Mark as Unread"},"description":{"zh":"将对话标记为未读","en":"Mark the conversation as unread"},"windows":"Ctrl + Shift + U","mac":"Cmd + Shift + U","linux":"","keywords":["未读","unread"],"pinyin":"biao wei wei du biaoweiweidu b w w d bwwd wei du weidu w d wd"},{"id":"skype-send-file","appId":"skype","type":"software","category":"productivity","name":{"zh":"发送文件","en":"Send File"},"description":{"zh":"向对话发送文件","en":"Send a file in the conversation"},"windows":"Ctrl + Shift + F","mac":"Cmd + Shift + F","linux":"","keywords":["发送文件","send file"],"pinyin":"fa song wen jian fasongwenjian f s w j fswj fa song wen jian fasongwenjian f s w j fswj"},{"id":"skype-recent","appId":"skype","type":"software","category":"productivity","name":{"zh":"最近聊天","en":"Recent Chats"},"description":{"zh":"跳转到最近聊天列表","en":"Go to recent chats"},"windows":"Alt + 1","mac":"Alt + 1","linux":"","keywords":["最近","聊天","recent"],"pinyin":"zui jin liao tian zuijinliaotian z j l t zjlt zui jin   liao tian zuijin liaotian z j   l t zj lt"},{"id":"skype-contacts","appId":"skype","type":"software","category":"productivity","name":{"zh":"联系人","en":"Contacts"},"description":{"zh":"打开联系人列表","en":"Open the contacts list"},"windows":"Ctrl + Shift + C","mac":"Cmd + Shift + C","linux":"","keywords":["联系人","contacts"],"pinyin":"lian xi ren lianxiren l x r lxr lian xi ren lianxiren l x r lxr"},{"id":"skype-search","appId":"skype","type":"software","category":"productivity","name":{"zh":"查找（当前对话）","en":"Find in Conversation"},"description":{"zh":"在当前对话中查找内容","en":"Find content in the current conversation"},"windows":"Ctrl + F","mac":"Cmd + F","linux":"","keywords":["查找","search","find"],"pinyin":"cha zhao （ dang qian dui hua ） chazhao（dangqianduihua） c z （ d q d h ） cz（dqdh） cha zhao chazhao c z cz"},{"id":"skype-people-search","appId":"skype","type":"software","category":"productivity","name":{"zh":"搜索联系人/群组/消息","en":"Search People"},"description":{"zh":"全局搜索联系人、群组和消息","en":"Search people, groups and messages"},"windows":"Ctrl + Alt + S","mac":"Cmd + Alt + S","linux":"","keywords":["搜索","联系人","search"],"pinyin":"sou suo lian xi ren / qun zu / xiao xi sousuolianxiren/qunzu/xiaoxi s s l x r / q z / x x sslxr/qz/xx sou suo   lian xi ren sousuo lianxiren s s   l x r ss lxr"},{"id":"skype-notifications","appId":"skype","type":"software","category":"productivity","name":{"zh":"通知面板","en":"Notification Panel"},"description":{"zh":"打开通知面板","en":"Open the notification panel"},"windows":"Ctrl + Shift + O","mac":"Cmd + Shift + O","linux":"","keywords":["通知","notifications"],"pinyin":"tong zhi mian ban tongzhimianban t z m b tzmb tong zhi tongzhi t z tz"},{"id":"skype-settings","appId":"skype","type":"software","category":"productivity","name":{"zh":"设置","en":"Settings"},"description":{"zh":"打开应用设置","en":"Open app settings"},"windows":"Ctrl + ,","mac":"Cmd + ,","linux":"","keywords":["设置","settings"],"pinyin":"she zhi shezhi s z sz she zhi shezhi s z sz"},{"id":"skype-refresh","appId":"skype","type":"software","category":"productivity","name":{"zh":"刷新","en":"Refresh"},"description":{"zh":"刷新应用","en":"Refresh the app"},"windows":"Ctrl + R","mac":"Cmd + R","linux":"","keywords":["刷新","refresh"],"pinyin":"shua xin shuaxin s x sx shua xin shuaxin s x sx"},{"id":"skype-theme","appId":"skype","type":"software","category":"productivity","name":{"zh":"主题","en":"Themes"},"description":{"zh":"打开主题设置","en":"Open themes settings"},"windows":"Ctrl + T","mac":"Cmd + T","linux":"","keywords":["主题","theme"],"pinyin":"zhu ti zhuti z t zt zhu ti zhuti z t zt"},{"id":"skype-toggle-theme","appId":"skype","type":"software","category":"productivity","name":{"zh":"切换明暗主题","en":"Toggle Light/Dark"},"description":{"zh":"在浅色与深色主题间切换","en":"Toggle between light and dark theme"},"windows":"Ctrl + Shift + T","mac":"Cmd + Shift + T","linux":"","keywords":["主题","明暗","theme toggle"],"pinyin":"qie huan ming an zhu ti qiehuanminganzhuti q h m a z t qhmazt zhu ti   ming an zhuti mingan z t   m a zt ma"},{"id":"skype-gallery","appId":"skype","type":"software","category":"productivity","name":{"zh":"图库","en":"Gallery"},"description":{"zh":"打开图库","en":"Open the gallery"},"windows":"Ctrl + Shift + G","mac":"Cmd + Shift + G","linux":"","keywords":["图库","gallery"],"pinyin":"tu ku tuku t k tk tu ku tuku t k tk"},{"id":"skype-snapshot","appId":"skype","type":"software","category":"productivity","name":{"zh":"截图","en":"Take Snapshot"},"description":{"zh":"对当前对话截图","en":"Take a snapshot of the current conversation"},"windows":"Ctrl + S","mac":"Cmd + S","linux":"","keywords":["截图","snapshot"],"pinyin":"jie tu jietu j t jt jie tu jietu j t jt"}]
+[
+  {
+    "id": "skype-audio-call",
+    "appId": "skype",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "发起/接听语音通话",
+      "en": "Start / Answer Audio Call"
+    },
+    "description": {
+      "zh": "发起或接听语音通话",
+      "en": "Start or answer an audio call"
+    },
+    "windows": "Ctrl + Shift + R",
+    "mac": "Cmd + Shift + R",
+    "linux": "",
+    "keywords": [
+      "语音",
+      "通话",
+      "audio call"
+    ],
+    "pinyin": "fa qi / jie ting yu yin tong hua faqi/jietingyuyintonghua f q / j t y y t h fq/jtyyth yu yin   tong hua yuyin tonghua y y   t h yy th"
+  },
+  {
+    "id": "skype-video-call",
+    "appId": "skype",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "视频通话/切换视频",
+      "en": "Video Call"
+    },
+    "description": {
+      "zh": "发起视频通话或切换视频开关",
+      "en": "Start a video call or toggle video"
+    },
+    "windows": "Ctrl + Shift + K",
+    "mac": "Cmd + Shift + K",
+    "linux": "",
+    "keywords": [
+      "视频",
+      "通话",
+      "video call"
+    ],
+    "pinyin": "shi pin tong hua / qie huan shi pin shipintonghua/qiehuanshipin s p t h / q h s p spth/qhsp shi pin   tong hua shipin tonghua s p   t h sp th"
+  },
+  {
+    "id": "skype-hangup",
+    "appId": "skype",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "挂断",
+      "en": "Hang Up"
+    },
+    "description": {
+      "zh": "结束当前通话",
+      "en": "End the current call"
+    },
+    "windows": "Ctrl + Shift + H",
+    "mac": "Cmd + Shift + H",
+    "linux": "",
+    "keywords": [
+      "挂断",
+      "hang up"
+    ],
+    "pinyin": "gua duan guaduan g d gd gua duan guaduan g d gd"
+  },
+  {
+    "id": "skype-mute",
+    "appId": "skype",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "静音",
+      "en": "Toggle Mute"
+    },
+    "description": {
+      "zh": "切换麦克风静音",
+      "en": "Toggle microphone mute"
+    },
+    "windows": "Ctrl + Shift + M",
+    "mac": "Cmd + Shift + M",
+    "linux": "",
+    "keywords": [
+      "静音",
+      "mute"
+    ],
+    "pinyin": "jing yin jingyin j y jy jing yin jingyin j y jy"
+  },
+  {
+    "id": "skype-new-chat",
+    "appId": "skype",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "新对话",
+      "en": "New Conversation"
+    },
+    "description": {
+      "zh": "开始一个新的对话",
+      "en": "Start a new conversation"
+    },
+    "windows": "Ctrl + N",
+    "mac": "Cmd + N",
+    "linux": "",
+    "keywords": [
+      "新对话",
+      "new chat"
+    ],
+    "pinyin": "xin dui hua xinduihua x d h xdh xin dui hua xinduihua x d h xdh"
+  },
+  {
+    "id": "skype-new-group",
+    "appId": "skype",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "新建群组",
+      "en": "New Group"
+    },
+    "description": {
+      "zh": "创建一个新的群组",
+      "en": "Create a new group"
+    },
+    "windows": "Ctrl + G",
+    "mac": "Cmd + G",
+    "linux": "",
+    "keywords": [
+      "群组",
+      "group"
+    ],
+    "pinyin": "xin jian qun zu xinjianqunzu x j q z xjqz qun zu qunzu q z qz"
+  },
+  {
+    "id": "skype-hide",
+    "appId": "skype",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "隐藏对话",
+      "en": "Hide Conversation"
+    },
+    "description": {
+      "zh": "隐藏当前对话窗口",
+      "en": "Hide the current conversation"
+    },
+    "windows": "Ctrl + E",
+    "mac": "Cmd + E",
+    "linux": "",
+    "keywords": [
+      "隐藏",
+      "hide"
+    ],
+    "pinyin": "yin cang dui hua yincangduihua y c d h ycdh yin cang yincang y c yc"
+  },
+  {
+    "id": "skype-mark-unread",
+    "appId": "skype",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "标为未读",
+      "en": "Mark as Unread"
+    },
+    "description": {
+      "zh": "将对话标记为未读",
+      "en": "Mark the conversation as unread"
+    },
+    "windows": "Ctrl + Shift + U",
+    "mac": "Cmd + Shift + U",
+    "linux": "",
+    "keywords": [
+      "未读",
+      "unread"
+    ],
+    "pinyin": "biao wei wei du biaoweiweidu b w w d bwwd wei du weidu w d wd"
+  },
+  {
+    "id": "skype-send-file",
+    "appId": "skype",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "发送文件",
+      "en": "Send File"
+    },
+    "description": {
+      "zh": "向对话发送文件",
+      "en": "Send a file in the conversation"
+    },
+    "windows": "Ctrl + Shift + F",
+    "mac": "Cmd + Shift + F",
+    "linux": "",
+    "keywords": [
+      "发送文件",
+      "send file"
+    ],
+    "pinyin": "fa song wen jian fasongwenjian f s w j fswj fa song wen jian fasongwenjian f s w j fswj"
+  },
+  {
+    "id": "skype-recent",
+    "appId": "skype",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "最近聊天",
+      "en": "Recent Chats"
+    },
+    "description": {
+      "zh": "跳转到最近聊天列表",
+      "en": "Go to recent chats"
+    },
+    "windows": "Alt + 1",
+    "mac": "Alt + 1",
+    "linux": "",
+    "keywords": [
+      "最近",
+      "聊天",
+      "recent"
+    ],
+    "pinyin": "zui jin liao tian zuijinliaotian z j l t zjlt zui jin   liao tian zuijin liaotian z j   l t zj lt"
+  },
+  {
+    "id": "skype-contacts",
+    "appId": "skype",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "联系人",
+      "en": "Contacts"
+    },
+    "description": {
+      "zh": "打开联系人列表",
+      "en": "Open the contacts list"
+    },
+    "windows": "Ctrl + Shift + C",
+    "mac": "Cmd + Shift + C",
+    "linux": "",
+    "keywords": [
+      "联系人",
+      "contacts"
+    ],
+    "pinyin": "lian xi ren lianxiren l x r lxr lian xi ren lianxiren l x r lxr"
+  },
+  {
+    "id": "skype-search",
+    "appId": "skype",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "查找（当前对话）",
+      "en": "Find in Conversation"
+    },
+    "description": {
+      "zh": "在当前对话中查找内容",
+      "en": "Find content in the current conversation"
+    },
+    "windows": "Ctrl + F",
+    "mac": "Cmd + F",
+    "linux": "",
+    "keywords": [
+      "查找",
+      "search",
+      "find"
+    ],
+    "pinyin": "cha zhao （ dang qian dui hua ） chazhao（dangqianduihua） c z （ d q d h ） cz（dqdh） cha zhao chazhao c z cz"
+  },
+  {
+    "id": "skype-people-search",
+    "appId": "skype",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "搜索联系人/群组/消息",
+      "en": "Search People"
+    },
+    "description": {
+      "zh": "全局搜索联系人、群组和消息",
+      "en": "Search people, groups and messages"
+    },
+    "windows": "Ctrl + Alt + S",
+    "mac": "Cmd + Alt + S",
+    "linux": "",
+    "keywords": [
+      "搜索",
+      "联系人",
+      "search"
+    ],
+    "pinyin": "sou suo lian xi ren / qun zu / xiao xi sousuolianxiren/qunzu/xiaoxi s s l x r / q z / x x sslxr/qz/xx sou suo   lian xi ren sousuo lianxiren s s   l x r ss lxr"
+  },
+  {
+    "id": "skype-notifications",
+    "appId": "skype",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "通知面板",
+      "en": "Notification Panel"
+    },
+    "description": {
+      "zh": "打开通知面板",
+      "en": "Open the notification panel"
+    },
+    "windows": "Ctrl + Shift + O",
+    "mac": "Cmd + Shift + O",
+    "linux": "",
+    "keywords": [
+      "通知",
+      "notifications"
+    ],
+    "pinyin": "tong zhi mian ban tongzhimianban t z m b tzmb tong zhi tongzhi t z tz"
+  },
+  {
+    "id": "skype-settings",
+    "appId": "skype",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "设置",
+      "en": "Settings"
+    },
+    "description": {
+      "zh": "打开应用设置",
+      "en": "Open app settings"
+    },
+    "windows": "Ctrl + ,",
+    "mac": "Cmd + ,",
+    "linux": "",
+    "keywords": [
+      "设置",
+      "settings"
+    ],
+    "pinyin": "she zhi shezhi s z sz she zhi shezhi s z sz"
+  },
+  {
+    "id": "skype-refresh",
+    "appId": "skype",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "刷新",
+      "en": "Refresh"
+    },
+    "description": {
+      "zh": "刷新应用",
+      "en": "Refresh the app"
+    },
+    "windows": "Ctrl + R",
+    "mac": "Cmd + R",
+    "linux": "",
+    "keywords": [
+      "刷新",
+      "refresh"
+    ],
+    "pinyin": "shua xin shuaxin s x sx shua xin shuaxin s x sx"
+  },
+  {
+    "id": "skype-theme",
+    "appId": "skype",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "主题",
+      "en": "Themes"
+    },
+    "description": {
+      "zh": "打开主题设置",
+      "en": "Open themes settings"
+    },
+    "windows": "Ctrl + T",
+    "mac": "Cmd + T",
+    "linux": "",
+    "keywords": [
+      "主题",
+      "theme"
+    ],
+    "pinyin": "zhu ti zhuti z t zt zhu ti zhuti z t zt"
+  },
+  {
+    "id": "skype-toggle-theme",
+    "appId": "skype",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "切换明暗主题",
+      "en": "Toggle Light/Dark"
+    },
+    "description": {
+      "zh": "在浅色与深色主题间切换",
+      "en": "Toggle between light and dark theme"
+    },
+    "windows": "Ctrl + Shift + T",
+    "mac": "Cmd + Shift + T",
+    "linux": "",
+    "keywords": [
+      "主题",
+      "明暗",
+      "theme toggle"
+    ],
+    "pinyin": "qie huan ming an zhu ti qiehuanminganzhuti q h m a z t qhmazt zhu ti   ming an zhuti mingan z t   m a zt ma"
+  },
+  {
+    "id": "skype-gallery",
+    "appId": "skype",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "图库",
+      "en": "Gallery"
+    },
+    "description": {
+      "zh": "打开图库",
+      "en": "Open the gallery"
+    },
+    "windows": "Ctrl + Shift + G",
+    "mac": "Cmd + Shift + G",
+    "linux": "",
+    "keywords": [
+      "图库",
+      "gallery"
+    ],
+    "pinyin": "tu ku tuku t k tk tu ku tuku t k tk"
+  },
+  {
+    "id": "skype-snapshot",
+    "appId": "skype",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "截图",
+      "en": "Take Snapshot"
+    },
+    "description": {
+      "zh": "对当前对话截图",
+      "en": "Take a snapshot of the current conversation"
+    },
+    "windows": "Ctrl + S",
+    "mac": "Cmd + S",
+    "linux": "",
+    "keywords": [
+      "截图",
+      "snapshot"
+    ],
+    "pinyin": "jie tu jietu j t jt jie tu jietu j t jt"
+  }
+]

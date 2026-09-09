@@ -1,0 +1,488 @@
+[
+  {
+    "id": "keep-new",
+    "appId": "googlekeep",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "New note",
+      "zh": "新建笔记"
+    },
+    "description": {
+      "en": "New note",
+      "zh": "新建笔记"
+    },
+    "windows": "n",
+    "mac": "n",
+    "linux": "n",
+    "keywords": [
+      "new",
+      "note",
+      "笔记"
+    ],
+    "pinyin": "xin jian bi ji xinjianbiji x j b j xjbj bi ji biji b j bj"
+  },
+  {
+    "id": "keep-search",
+    "appId": "googlekeep",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Search",
+      "zh": "搜索"
+    },
+    "description": {
+      "en": "Search notes",
+      "zh": "搜索笔记"
+    },
+    "windows": "/",
+    "mac": "/",
+    "linux": "/",
+    "keywords": [
+      "search",
+      "搜索"
+    ],
+    "pinyin": "sou suo sousuo s s ss sou suo sousuo s s ss"
+  },
+  {
+    "id": "keep-archive",
+    "appId": "googlekeep",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Archive",
+      "zh": "归档"
+    },
+    "description": {
+      "en": "Archive note",
+      "zh": "归档笔记"
+    },
+    "windows": "e",
+    "mac": "e",
+    "linux": "e",
+    "keywords": [
+      "archive",
+      "归档"
+    ],
+    "pinyin": "gui dang guidang g d gd gui dang guidang g d gd"
+  },
+  {
+    "id": "keep-delete",
+    "appId": "googlekeep",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Delete",
+      "zh": "删除"
+    },
+    "description": {
+      "en": "Delete note",
+      "zh": "删除笔记"
+    },
+    "windows": "#",
+    "mac": "#",
+    "linux": "#",
+    "keywords": [
+      "delete",
+      "删除"
+    ],
+    "pinyin": "shan chu shanchu s c sc shan chu shanchu s c sc"
+  },
+  {
+    "id": "keep-pin",
+    "appId": "googlekeep",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Pin",
+      "zh": "置顶"
+    },
+    "description": {
+      "en": "Pin note",
+      "zh": "置顶笔记"
+    },
+    "windows": "—",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "pin",
+      "置顶"
+    ],
+    "pinyin": "zhi ding zhiding z d zd zhi ding zhiding z d zd"
+  },
+  {
+    "id": "keep-copy",
+    "appId": "googlekeep",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Copy",
+      "zh": "复制"
+    },
+    "description": {
+      "en": "Copy to Google Doc",
+      "zh": "复制到文档"
+    },
+    "windows": "—",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "copy",
+      "文档"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz wen dang wendang w d wd"
+  },
+  {
+    "id": "keep-undo",
+    "appId": "googlekeep",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Undo",
+      "zh": "撤销"
+    },
+    "description": {
+      "en": "Undo",
+      "zh": "撤销"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "Ctrl + Z",
+    "linux": "Ctrl + Z",
+    "keywords": [
+      "undo",
+      "撤销"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "keep-redo",
+    "appId": "googlekeep",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Redo",
+      "zh": "重做"
+    },
+    "description": {
+      "en": "Redo",
+      "zh": "重做"
+    },
+    "windows": "Ctrl + Y",
+    "mac": "Ctrl + Y",
+    "linux": "Ctrl + Y",
+    "keywords": [
+      "redo",
+      "重做"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "keep-select-all",
+    "appId": "googlekeep",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Select all",
+      "zh": "全选"
+    },
+    "description": {
+      "en": "Select all",
+      "zh": "全选"
+    },
+    "windows": "Ctrl + A",
+    "mac": "Ctrl + A",
+    "linux": "Ctrl + A",
+    "keywords": [
+      "select",
+      "all",
+      "全选"
+    ],
+    "pinyin": "quan xuan quanxuan q x qx quan xuan quanxuan q x qx"
+  },
+  {
+    "id": "keep-bold",
+    "appId": "googlekeep",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Bold",
+      "zh": "加粗"
+    },
+    "description": {
+      "en": "Bold",
+      "zh": "加粗"
+    },
+    "windows": "Ctrl + B",
+    "mac": "Ctrl + B",
+    "linux": "Ctrl + B",
+    "keywords": [
+      "bold",
+      "加粗"
+    ],
+    "pinyin": "jia cu jiacu j c jc jia cu jiacu j c jc"
+  },
+  {
+    "id": "keep-italic",
+    "appId": "googlekeep",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Italic",
+      "zh": "斜体"
+    },
+    "description": {
+      "en": "Italic",
+      "zh": "斜体"
+    },
+    "windows": "Ctrl + I",
+    "mac": "Ctrl + I",
+    "linux": "Ctrl + I",
+    "keywords": [
+      "italic",
+      "斜体"
+    ],
+    "pinyin": "xie ti xieti x t xt xie ti xieti x t xt"
+  },
+  {
+    "id": "keep-print",
+    "appId": "googlekeep",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Print",
+      "zh": "打印"
+    },
+    "description": {
+      "en": "Print note",
+      "zh": "打印笔记"
+    },
+    "windows": "Ctrl + P",
+    "mac": "Ctrl + P",
+    "linux": "Ctrl + P",
+    "keywords": [
+      "print",
+      "打印"
+    ],
+    "pinyin": "da yin dayin d y dy da yin dayin d y dy"
+  },
+  {
+    "id": "keep-help",
+    "appId": "googlekeep",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Help",
+      "zh": "帮助"
+    },
+    "description": {
+      "en": "Shortcuts help",
+      "zh": "快捷键帮助"
+    },
+    "windows": "Ctrl + /",
+    "mac": "Ctrl + /",
+    "linux": "Ctrl + /",
+    "keywords": [
+      "help",
+      "快捷键"
+    ],
+    "pinyin": "bang zhu bangzhu b z bz kuai jie jian kuaijiejian k j j kjj"
+  },
+  {
+    "id": "keep-open",
+    "appId": "googlekeep",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Open note",
+      "zh": "打开"
+    },
+    "description": {
+      "en": "Open selected note",
+      "zh": "打开选中笔记"
+    },
+    "windows": "Enter",
+    "mac": "Enter",
+    "linux": "Enter",
+    "keywords": [
+      "open",
+      "打开"
+    ],
+    "pinyin": "da kai dakai d k dk da kai dakai d k dk"
+  },
+  {
+    "id": "keep-close",
+    "appId": "googlekeep",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Close",
+      "zh": "关闭"
+    },
+    "description": {
+      "en": "Close dialog",
+      "zh": "关闭对话框"
+    },
+    "windows": "Esc",
+    "mac": "Esc",
+    "linux": "Esc",
+    "keywords": [
+      "close",
+      "关闭"
+    ],
+    "pinyin": "guan bi guanbi g b gb guan bi guanbi g b gb"
+  },
+  {
+    "id": "keep-move",
+    "appId": "googlekeep",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Move",
+      "zh": "移动"
+    },
+    "description": {
+      "en": "Move to another",
+      "zh": "移动到"
+    },
+    "windows": "m",
+    "mac": "m",
+    "linux": "m",
+    "keywords": [
+      "move",
+      "移动"
+    ],
+    "pinyin": "yi dong yidong y d yd yi dong yidong y d yd"
+  },
+  {
+    "id": "keep-label",
+    "appId": "googlekeep",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Label",
+      "zh": "标签"
+    },
+    "description": {
+      "en": "Add label",
+      "zh": "添加标签"
+    },
+    "windows": "l",
+    "mac": "l",
+    "linux": "l",
+    "keywords": [
+      "label",
+      "标签"
+    ],
+    "pinyin": "biao qian biaoqian b q bq biao qian biaoqian b q bq"
+  },
+  {
+    "id": "keep-remind",
+    "appId": "googlekeep",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Remind",
+      "zh": "提醒"
+    },
+    "description": {
+      "en": "Add reminder",
+      "zh": "添加提醒"
+    },
+    "windows": "—",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "remind",
+      "提醒"
+    ],
+    "pinyin": "ti xing tixing t x tx ti xing tixing t x tx"
+  },
+  {
+    "id": "keep-color",
+    "appId": "googlekeep",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Color",
+      "zh": "颜色"
+    },
+    "description": {
+      "en": "Change color",
+      "zh": "更改颜色"
+    },
+    "windows": "—",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "color",
+      "颜色"
+    ],
+    "pinyin": "yan se yanse y s ys yan se yanse y s ys"
+  },
+  {
+    "id": "keep-checklist",
+    "appId": "googlekeep",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Checklist",
+      "zh": "清单"
+    },
+    "description": {
+      "en": "Insert checklist",
+      "zh": "插入清单"
+    },
+    "windows": "—",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "checklist",
+      "清单"
+    ],
+    "pinyin": "qing dan qingdan q d qd qing dan qingdan q d qd"
+  },
+  {
+    "id": "keep-image",
+    "appId": "googlekeep",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Image",
+      "zh": "图片"
+    },
+    "description": {
+      "en": "Add image",
+      "zh": "添加图片"
+    },
+    "windows": "—",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "image",
+      "图片"
+    ],
+    "pinyin": "tu pian tupian t p tp tu pian tupian t p tp"
+  },
+  {
+    "id": "keep-next",
+    "appId": "googlekeep",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Next",
+      "zh": "下一个"
+    },
+    "description": {
+      "en": "Next note",
+      "zh": "下一个笔记"
+    },
+    "windows": "↓",
+    "mac": "↓",
+    "linux": "↓",
+    "keywords": [
+      "next",
+      "下一个"
+    ],
+    "pinyin": "xia yi ge xiayige x y g xyg xia yi ge xiayige x y g xyg"
+  }
+]

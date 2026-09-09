@@ -1,1 +1,1366 @@
-[{"id":"gimp-tool-rect","appId":"gimp","type":"software","category":"design","name":{"zh":"矩形选择","en":"Rect Select"},"description":{"zh":"矩形选择","en":"Rect Select"},"windows":"R","mac":"R","linux":"R","keywords":["矩形选择","Rect Select"],"pinyin":"ju xing xuan ze juxingxuanze j x x z jxxz ju xing xuan ze juxingxuanze j x x z jxxz"},{"id":"gimp-tool-ellipse","appId":"gimp","type":"software","category":"design","name":{"zh":"椭圆选择","en":"Ellipse Select"},"description":{"zh":"椭圆选择","en":"Ellipse Select"},"windows":"E","mac":"E","linux":"E","keywords":["椭圆选择","Ellipse Select"],"pinyin":"tuo yuan xuan ze tuoyuanxuanze t y x z tyxz tuo yuan xuan ze tuoyuanxuanze t y x z tyxz"},{"id":"gimp-tool-free","appId":"gimp","type":"software","category":"design","name":{"zh":"自由套索","en":"Free Select"},"description":{"zh":"自由套索","en":"Free Select"},"windows":"F","mac":"F","linux":"F","keywords":["自由套索","Free Select"],"pinyin":"zi you tao suo ziyoutaosuo z y t s zyts zi you tao suo ziyoutaosuo z y t s zyts"},{"id":"gimp-tool-fuzzy","appId":"gimp","type":"software","category":"design","name":{"zh":"模糊选择（魔术棒）","en":"Fuzzy Select"},"description":{"zh":"模糊选择（魔术棒）","en":"Fuzzy Select"},"windows":"Z","mac":"Z","linux":"Z","keywords":["模糊选择（魔术棒）","Fuzzy Select"],"pinyin":"mo hu xuan ze （ mo shu bang ） mohuxuanze（moshubang） m h x z （ m s b ） mhxz（msb） mo hu xuan ze （ mo shu bang ） mohuxuanze（moshubang） m h x z （ m s b ） mhxz（msb）"},{"id":"gimp-tool-color","appId":"gimp","type":"software","category":"design","name":{"zh":"按颜色选择","en":"Select By Color"},"description":{"zh":"按颜色选择","en":"Select By Color"},"windows":"Shift O","mac":"Shift O","linux":"Shift O","keywords":["按颜色选择","Select By Color"],"pinyin":"an yan se xuan ze anyansexuanze a y s x z aysxz an yan se xuan ze anyansexuanze a y s x z aysxz"},{"id":"gimp-tool-scissors","appId":"gimp","type":"software","category":"design","name":{"zh":"剪刀选择","en":"Scissors Select"},"description":{"zh":"剪刀选择","en":"Scissors Select"},"windows":"I","mac":"I","linux":"I","keywords":["剪刀选择","Scissors Select"],"pinyin":"jian dao xuan ze jiandaoxuanze j d x z jdxz jian dao xuan ze jiandaoxuanze j d x z jdxz"},{"id":"gimp-tool-paths","appId":"gimp","type":"software","category":"design","name":{"zh":"路径","en":"Paths"},"description":{"zh":"路径","en":"Paths"},"windows":"B","mac":"B","linux":"B","keywords":["路径","Paths"],"pinyin":"lu jing lujing l j lj lu jing lujing l j lj"},{"id":"gimp-tool-colorpicker","appId":"gimp","type":"software","category":"design","name":{"zh":"吸管","en":"Color Picker"},"description":{"zh":"吸管","en":"Color Picker"},"windows":"O","mac":"O","linux":"O","keywords":["吸管","Color Picker"],"pinyin":"xi guan xiguan x g xg xi guan xiguan x g xg"},{"id":"gimp-tool-move","appId":"gimp","type":"software","category":"design","name":{"zh":"移动","en":"Move"},"description":{"zh":"移动","en":"Move"},"windows":"M","mac":"M","linux":"M","keywords":["移动","Move"],"pinyin":"yi dong yidong y d yd yi dong yidong y d yd"},{"id":"gimp-tool-crop","appId":"gimp","type":"software","category":"design","name":{"zh":"裁剪","en":"Crop"},"description":{"zh":"裁剪","en":"Crop"},"windows":"Shift C","mac":"Shift C","linux":"Shift C","keywords":["裁剪","Crop"],"pinyin":"cai jian caijian c j cj cai jian caijian c j cj"},{"id":"gimp-tool-rotate","appId":"gimp","type":"software","category":"design","name":{"zh":"旋转","en":"Rotate"},"description":{"zh":"旋转","en":"Rotate"},"windows":"Shift R","mac":"Shift R","linux":"Shift R","keywords":["旋转","Rotate"],"pinyin":"xuan zhuan xuanzhuan x z xz xuan zhuan xuanzhuan x z xz"},{"id":"gimp-tool-scale","appId":"gimp","type":"software","category":"design","name":{"zh":"缩放","en":"Scale"},"description":{"zh":"缩放","en":"Scale"},"windows":"Shift T","mac":"Shift T","linux":"Shift T","keywords":["缩放","Scale"],"pinyin":"suo fang suofang s f sf suo fang suofang s f sf"},{"id":"gimp-tool-shear","appId":"gimp","type":"software","category":"design","name":{"zh":"斜切","en":"Shear"},"description":{"zh":"斜切","en":"Shear"},"windows":"Shift S","mac":"Shift S","linux":"Shift S","keywords":["斜切","Shear"],"pinyin":"xie qie xieqie x q xq xie qie xieqie x q xq"},{"id":"gimp-tool-perspective","appId":"gimp","type":"software","category":"design","name":{"zh":"透视","en":"Perspective"},"description":{"zh":"透视","en":"Perspective"},"windows":"Shift P","mac":"Shift P","linux":"Shift P","keywords":["透视","Perspective"],"pinyin":"tou shi toushi t s ts tou shi toushi t s ts"},{"id":"gimp-tool-flip","appId":"gimp","type":"software","category":"design","name":{"zh":"翻转","en":"Flip"},"description":{"zh":"翻转","en":"Flip"},"windows":"Shift F","mac":"Shift F","linux":"Shift F","keywords":["翻转","Flip"],"pinyin":"fan zhuan fanzhuan f z fz fan zhuan fanzhuan f z fz"},{"id":"gimp-tool-text","appId":"gimp","type":"software","category":"design","name":{"zh":"文字","en":"Text"},"description":{"zh":"文字","en":"Text"},"windows":"T","mac":"T","linux":"T","keywords":["文字","Text"],"pinyin":"wen zi wenzi w z wz wen zi wenzi w z wz"},{"id":"gimp-swap-colors","appId":"gimp","type":"software","category":"design","name":{"zh":"交换前景/背景色","en":"Swap Colors"},"description":{"zh":"交换前景/背景色","en":"Swap Colors"},"windows":"X","mac":"X","linux":"X","keywords":["交换前景/背景色","Swap Colors"],"pinyin":"jiao huan qian jing / bei jing se jiaohuanqianjing/beijingse j h q j / b j s jhqj/bjs jiao huan qian jing / bei jing se jiaohuanqianjing/beijingse j h q j / b j s jhqj/bjs"},{"id":"gimp-default-colors","appId":"gimp","type":"software","category":"design","name":{"zh":"重置默认颜色","en":"Default Colors"},"description":{"zh":"重置默认颜色","en":"Default Colors"},"windows":"D","mac":"D","linux":"D","keywords":["重置默认颜色","Default Colors"],"pinyin":"zhong zhi mo ren yan se zhongzhimorenyanse z z m r y s zzmrys zhong zhi mo ren yan se zhongzhimorenyanse z z m r y s zzmrys"},{"id":"gimp-new","appId":"gimp","type":"software","category":"design","name":{"zh":"新建图像","en":"New Image"},"description":{"zh":"新建图像","en":"New Image"},"windows":"Ctrl N","mac":"Ctrl N","linux":"Ctrl N","keywords":["新建图像","New Image"],"pinyin":"xin jian tu xiang xinjiantuxiang x j t x xjtx xin jian tu xiang xinjiantuxiang x j t x xjtx"},{"id":"gimp-open","appId":"gimp","type":"software","category":"design","name":{"zh":"打开图像","en":"Open Image"},"description":{"zh":"打开图像","en":"Open Image"},"windows":"Ctrl O","mac":"Ctrl O","linux":"Ctrl O","keywords":["打开图像","Open Image"],"pinyin":"da kai tu xiang dakaituxiang d k t x dktx da kai tu xiang dakaituxiang d k t x dktx"},{"id":"gimp-open-as-layer","appId":"gimp","type":"software","category":"design","name":{"zh":"作为新图层打开","en":"Open As New Layer"},"description":{"zh":"作为新图层打开","en":"Open As New Layer"},"windows":"Ctrl Alt O","mac":"Ctrl Alt O","linux":"Ctrl Alt O","keywords":["作为新图层打开","Open As New Layer"],"pinyin":"zuo wei xin tu ceng da kai zuoweixintucengdakai z w x t c d k zwxtcdk zuo wei xin tu ceng da kai zuoweixintucengdakai z w x t c d k zwxtcdk"},{"id":"gimp-duplicate","appId":"gimp","type":"software","category":"design","name":{"zh":"复制图像","en":"Duplicate Image"},"description":{"zh":"复制图像","en":"Duplicate Image"},"windows":"Ctrl D","mac":"Ctrl D","linux":"Ctrl D","keywords":["复制图像","Duplicate Image"],"pinyin":"fu zhi tu xiang fuzhituxiang f z t x fztx fu zhi tu xiang fuzhituxiang f z t x fztx"},{"id":"gimp-save","appId":"gimp","type":"software","category":"design","name":{"zh":"保存图像","en":"Save Image"},"description":{"zh":"保存图像","en":"Save Image"},"windows":"Ctrl S","mac":"Ctrl S","linux":"Ctrl S","keywords":["保存图像","Save Image"],"pinyin":"bao cun tu xiang baocuntuxiang b c t x bctx bao cun tu xiang baocuntuxiang b c t x bctx"},{"id":"gimp-save-as","appId":"gimp","type":"software","category":"design","name":{"zh":"另存为","en":"Save As"},"description":{"zh":"另存为","en":"Save As"},"windows":"Shift Ctrl S","mac":"Shift Ctrl S","linux":"Shift Ctrl S","keywords":["另存为","Save As"],"pinyin":"ling cun wei lingcunwei l c w lcw ling cun wei lingcunwei l c w lcw"},{"id":"gimp-export","appId":"gimp","type":"software","category":"design","name":{"zh":"导出","en":"Export"},"description":{"zh":"导出","en":"Export"},"windows":"Ctrl E","mac":"Ctrl E","linux":"Ctrl E","keywords":["导出","Export"],"pinyin":"dao chu daochu d c dc dao chu daochu d c dc"},{"id":"gimp-export-as","appId":"gimp","type":"software","category":"design","name":{"zh":"导出为","en":"Export As"},"description":{"zh":"导出为","en":"Export As"},"windows":"Shift Ctrl E","mac":"Shift Ctrl E","linux":"Shift Ctrl E","keywords":["导出为","Export As"],"pinyin":"dao chu wei daochuwei d c w dcw dao chu wei daochuwei d c w dcw"},{"id":"gimp-quit","appId":"gimp","type":"software","category":"design","name":{"zh":"退出","en":"Quit"},"description":{"zh":"退出","en":"Quit"},"windows":"Ctrl Q","mac":"Ctrl Q","linux":"Ctrl Q","keywords":["退出","Quit"],"pinyin":"tui chu tuichu t c tc tui chu tuichu t c tc"},{"id":"gimp-dlg-layers","appId":"gimp","type":"software","category":"design","name":{"zh":"图层面板","en":"Layers Dialog"},"description":{"zh":"图层面板","en":"Layers Dialog"},"windows":"Ctrl L","mac":"Ctrl L","linux":"Ctrl L","keywords":["图层面板","Layers Dialog"],"pinyin":"tu ceng mian ban tucengmianban t c m b tcmb tu ceng mian ban tucengmianban t c m b tcmb"},{"id":"gimp-dlg-brushes","appId":"gimp","type":"software","category":"design","name":{"zh":"画笔面板","en":"Brushes Dialog"},"description":{"zh":"画笔面板","en":"Brushes Dialog"},"windows":"Shift Ctrl B","mac":"Shift Ctrl B","linux":"Shift Ctrl B","keywords":["画笔面板","Brushes Dialog"],"pinyin":"hua bi mian ban huabimianban h b m b hbmb hua bi mian ban huabimianban h b m b hbmb"},{"id":"gimp-dlg-patterns","appId":"gimp","type":"software","category":"design","name":{"zh":"图案面板","en":"Patterns Dialog"},"description":{"zh":"图案面板","en":"Patterns Dialog"},"windows":"Shift Ctrl P","mac":"Shift Ctrl P","linux":"Shift Ctrl P","keywords":["图案面板","Patterns Dialog"],"pinyin":"tu an mian ban tuanmianban t a m b tamb tu an mian ban tuanmianban t a m b tamb"},{"id":"gimp-dlg-gradients","appId":"gimp","type":"software","category":"design","name":{"zh":"渐变面板","en":"Gradients Dialog"},"description":{"zh":"渐变面板","en":"Gradients Dialog"},"windows":"Ctrl G","mac":"Ctrl G","linux":"Ctrl G","keywords":["渐变面板","Gradients Dialog"],"pinyin":"jian bian mian ban jianbianmianban j b m b jbmb jian bian mian ban jianbianmianban j b m b jbmb"},{"id":"gimp-dlg-toolopts","appId":"gimp","type":"software","category":"design","name":{"zh":"工具选项","en":"Tool Options"},"description":{"zh":"工具选项","en":"Tool Options"},"windows":"Shift Ctrl T","mac":"Shift Ctrl T","linux":"Shift Ctrl T","keywords":["工具选项","Tool Options"],"pinyin":"gong ju xuan xiang gongjuxuanxiang g j x x gjxx gong ju xuan xiang gongjuxuanxiang g j x x gjxx"},{"id":"gimp-dlg-palettes","appId":"gimp","type":"software","category":"design","name":{"zh":"调色板面板","en":"Palettes Dialog"},"description":{"zh":"调色板面板","en":"Palettes Dialog"},"windows":"Ctrl P","mac":"Ctrl P","linux":"Ctrl P","keywords":["调色板面板","Palettes Dialog"],"pinyin":"tiao se ban mian ban tiaosebanmianban t s b m b tsbmb tiao se ban mian ban tiaosebanmianban t s b m b tsbmb"},{"id":"gimp-dlg-info","appId":"gimp","type":"software","category":"design","name":{"zh":"信息窗口","en":"Info Window"},"description":{"zh":"信息窗口","en":"Info Window"},"windows":"Shift Ctrl I","mac":"Shift Ctrl I","linux":"Shift Ctrl I","keywords":["信息窗口","Info Window"],"pinyin":"xin xi chuang kou xinxichuangkou x x c k xxck xin xi chuang kou xinxichuangkou x x c k xxck"},{"id":"gimp-dlg-nav","appId":"gimp","type":"software","category":"design","name":{"zh":"导航窗口","en":"Navigation Window"},"description":{"zh":"导航窗口","en":"Navigation Window"},"windows":"Shift Ctrl N","mac":"Shift Ctrl N","linux":"Shift Ctrl N","keywords":["导航窗口","Navigation Window"],"pinyin":"dao hang chuang kou daohangchuangkou d h c k dhck dao hang chuang kou daohangchuangkou d h c k dhck"},{"id":"gimp-undo","appId":"gimp","type":"software","category":"design","name":{"zh":"撤销","en":"Undo"},"description":{"zh":"撤销","en":"Undo"},"windows":"Ctrl Z","mac":"Ctrl Z","linux":"Ctrl Z","keywords":["撤销","Undo"],"pinyin":"che xiao chexiao c x cx che xiao chexiao c x cx"},{"id":"gimp-redo","appId":"gimp","type":"software","category":"design","name":{"zh":"重做","en":"Redo"},"description":{"zh":"重做","en":"Redo"},"windows":"Ctrl Y","mac":"Ctrl Y","linux":"Ctrl Y","keywords":["重做","Redo"],"pinyin":"zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"},{"id":"gimp-copy","appId":"gimp","type":"software","category":"design","name":{"zh":"复制选区","en":"Copy"},"description":{"zh":"复制选区","en":"Copy"},"windows":"Ctrl C","mac":"Ctrl C","linux":"Ctrl C","keywords":["复制选区","Copy"],"pinyin":"fu zhi xuan qu fuzhixuanqu f z x q fzxq fu zhi xuan qu fuzhixuanqu f z x q fzxq"},{"id":"gimp-cut","appId":"gimp","type":"software","category":"design","name":{"zh":"剪切选区","en":"Cut"},"description":{"zh":"剪切选区","en":"Cut"},"windows":"Ctrl X","mac":"Ctrl X","linux":"Ctrl X","keywords":["剪切选区","Cut"],"pinyin":"jian qie xuan qu jianqiexuanqu j q x q jqxq jian qie xuan qu jianqiexuanqu j q x q jqxq"},{"id":"gimp-paste","appId":"gimp","type":"software","category":"design","name":{"zh":"粘贴","en":"Paste"},"description":{"zh":"粘贴","en":"Paste"},"windows":"Ctrl V","mac":"Ctrl V","linux":"Ctrl V","keywords":["粘贴","Paste"],"pinyin":"nian tie niantie n t nt nian tie niantie n t nt"},{"id":"gimp-clear","appId":"gimp","type":"software","category":"design","name":{"zh":"清除选区","en":"Clear"},"description":{"zh":"清除选区","en":"Clear"},"windows":"Ctrl K","mac":"Ctrl K","linux":"Ctrl K","keywords":["清除选区","Clear"],"pinyin":"qing chu xuan qu qingchuxuanqu q c x q qcxq qing chu xuan qu qingchuxuanqu q c x q qcxq"},{"id":"gimp-layer-above","appId":"gimp","type":"software","category":"design","name":{"zh":"选择上一层","en":"Select Layer Above"},"description":{"zh":"选择上一层","en":"Select Layer Above"},"windows":"PageUp","mac":"PageUp","linux":"PageUp","keywords":["选择上一层","Select Layer Above"],"pinyin":"xuan ze shang yi ceng xuanzeshangyiceng x z s y c xzsyc xuan ze shang yi ceng xuanzeshangyiceng x z s y c xzsyc"},{"id":"gimp-layer-below","appId":"gimp","type":"software","category":"design","name":{"zh":"选择下一层","en":"Select Layer Below"},"description":{"zh":"选择下一层","en":"Select Layer Below"},"windows":"PageDown","mac":"PageDown","linux":"PageDown","keywords":["选择下一层","Select Layer Below"],"pinyin":"xuan ze xia yi ceng xuanzexiayiceng x z x y c xzxyc xuan ze xia yi ceng xuanzexiayiceng x z x y c xzxyc"},{"id":"gimp-layer-first","appId":"gimp","type":"software","category":"design","name":{"zh":"选择最顶层","en":"Select First Layer"},"description":{"zh":"选择最顶层","en":"Select First Layer"},"windows":"Home","mac":"Home","linux":"Home","keywords":["选择最顶层","Select First Layer"],"pinyin":"xuan ze zui ding ceng xuanzezuidingceng x z z d c xzzdc xuan ze zui ding ceng xuanzezuidingceng x z z d c xzzdc"},{"id":"gimp-layer-last","appId":"gimp","type":"software","category":"design","name":{"zh":"选择最底层","en":"Select Last Layer"},"description":{"zh":"选择最底层","en":"Select Last Layer"},"windows":"End","mac":"End","linux":"End","keywords":["选择最底层","Select Last Layer"],"pinyin":"xuan ze zui di ceng xuanzezuidiceng x z z d c xzzdc xuan ze zui di ceng xuanzezuidiceng x z z d c xzzdc"},{"id":"gimp-merge-visible","appId":"gimp","type":"software","category":"design","name":{"zh":"合并可见图层","en":"Merge Visible Layers"},"description":{"zh":"合并可见图层","en":"Merge Visible Layers"},"windows":"Ctrl M","mac":"Ctrl M","linux":"Ctrl M","keywords":["合并可见图层","Merge Visible Layers"],"pinyin":"he bing ke jian tu ceng hebingkejiantuceng h b k j t c hbkjtc he bing ke jian tu ceng hebingkejiantuceng h b k j t c hbkjtc"},{"id":"gimp-anchor","appId":"gimp","type":"software","category":"design","name":{"zh":"锚定图层","en":"Anchor Layer"},"description":{"zh":"锚定图层","en":"Anchor Layer"},"windows":"Ctrl H","mac":"Ctrl H","linux":"Ctrl H","keywords":["锚定图层","Anchor Layer"],"pinyin":"mao ding tu ceng maodingtuceng m d t c mdtc mao ding tu ceng maodingtuceng m d t c mdtc"},{"id":"gimp-sel-toggle","appId":"gimp","type":"software","category":"design","name":{"zh":"切换选区","en":"Toggle Selection"},"description":{"zh":"切换选区","en":"Toggle Selection"},"windows":"Ctrl T","mac":"Ctrl T","linux":"Ctrl T","keywords":["切换选区","Toggle Selection"],"pinyin":"qie huan xuan qu qiehuanxuanqu q h x q qhxq qie huan xuan qu qiehuanxuanqu q h x q qhxq"},{"id":"gimp-sel-all","appId":"gimp","type":"software","category":"design","name":{"zh":"全选","en":"Select All"},"description":{"zh":"全选","en":"Select All"},"windows":"Ctrl A","mac":"Ctrl A","linux":"Ctrl A","keywords":["全选","Select All"],"pinyin":"quan xuan quanxuan q x qx quan xuan quanxuan q x qx"},{"id":"gimp-sel-none","appId":"gimp","type":"software","category":"design","name":{"zh":"取消选择","en":"Select None"},"description":{"zh":"取消选择","en":"Select None"},"windows":"Shift Ctrl A","mac":"Shift Ctrl A","linux":"Shift Ctrl A","keywords":["取消选择","Select None"],"pinyin":"qu xiao xuan ze quxiaoxuanze q x x z qxxz qu xiao xuan ze quxiaoxuanze q x x z qxxz"},{"id":"gimp-sel-invert","appId":"gimp","type":"software","category":"design","name":{"zh":"反选","en":"Invert Selection"},"description":{"zh":"反选","en":"Invert Selection"},"windows":"Ctrl I","mac":"Ctrl I","linux":"Ctrl I","keywords":["反选","Invert Selection"],"pinyin":"fan xuan fanxuan f x fx fan xuan fanxuan f x fx"},{"id":"gimp-sel-float","appId":"gimp","type":"software","category":"design","name":{"zh":"浮动选区","en":"Float Selection"},"description":{"zh":"浮动选区","en":"Float Selection"},"windows":"Shift Ctrl L","mac":"Shift Ctrl L","linux":"Shift Ctrl L","keywords":["浮动选区","Float Selection"],"pinyin":"fu dong xuan qu fudongxuanqu f d x q fdxq fu dong xuan qu fudongxuanqu f d x q fdxq"},{"id":"gimp-path-to-sel","appId":"gimp","type":"software","category":"design","name":{"zh":"路径转选区","en":"Path To Selection"},"description":{"zh":"路径转选区","en":"Path To Selection"},"windows":"Shift V","mac":"Shift V","linux":"Shift V","keywords":["路径转选区","Path To Selection"],"pinyin":"lu jing zhuan xuan qu lujingzhuanxuanqu l j z x q ljzxq lu jing zhuan xuan qu lujingzhuanxuanqu l j z x q ljzxq"},{"id":"gimp-repeat-filter","appId":"gimp","type":"software","category":"design","name":{"zh":"重复上次滤镜","en":"Repeat Last Filter"},"description":{"zh":"重复上次滤镜","en":"Repeat Last Filter"},"windows":"Ctrl F","mac":"Ctrl F","linux":"Ctrl F","keywords":["重复上次滤镜","Repeat Last Filter"],"pinyin":"chong fu shang ci lü jing chongfushangcilüjing c f s c l j cfsclj chong fu shang ci lü jing chongfushangcilüjing c f s c l j cfsclj"},{"id":"gimp-reshow-filter","appId":"gimp","type":"software","category":"design","name":{"zh":"重新显示上次滤镜","en":"Reshow Last Filter"},"description":{"zh":"重新显示上次滤镜","en":"Reshow Last Filter"},"windows":"Shift Ctrl F","mac":"Shift Ctrl F","linux":"Shift Ctrl F","keywords":["重新显示上次滤镜","Reshow Last Filter"],"pinyin":"chong xin xian shi shang ci lü jing chongxinxianshishangcilüjing c x x s s c l j cxxssclj chong xin xian shi shang ci lü jing chongxinxianshishangcilüjing c x x s s c l j cxxssclj"},{"id":"gimp-fullscreen","appId":"gimp","type":"software","category":"design","name":{"zh":"全屏","en":"Toggle Fullscreen"},"description":{"zh":"全屏","en":"Toggle Fullscreen"},"windows":"F11","mac":"F11","linux":"F11","keywords":["全屏","Toggle Fullscreen"],"pinyin":"quan ping quanping q p qp quan ping quanping q p qp"},{"id":"gimp-quickmask","appId":"gimp","type":"software","category":"design","name":{"zh":"切换快速蒙版","en":"Toggle QuickMask"},"description":{"zh":"切换快速蒙版","en":"Toggle QuickMask"},"windows":"Shift Q","mac":"Shift Q","linux":"Shift Q","keywords":["切换快速蒙版","Toggle QuickMask"],"pinyin":"qie huan kuai su meng ban qiehuankuaisumengban q h k s m b qhksmb qie huan kuai su meng ban qiehuankuaisumengban q h k s m b qhksmb"},{"id":"gimp-close-doc","appId":"gimp","type":"software","category":"design","name":{"zh":"关闭文档窗口","en":"Close Document Window"},"description":{"zh":"关闭文档窗口","en":"Close Document Window"},"windows":"Ctrl W","mac":"Ctrl W","linux":"Ctrl W","keywords":["关闭文档窗口","Close Document Window"],"pinyin":"guan bi wen dang chuang kou guanbiwendangchuangkou g b w d c k gbwdck guan bi wen dang chuang kou guanbiwendangchuangkou g b w d c k gbwdck"},{"id":"gimp-zoom-in","appId":"gimp","type":"software","category":"design","name":{"zh":"放大","en":"Zoom In"},"description":{"zh":"放大","en":"Zoom In"},"windows":"+","mac":"+","linux":"+","keywords":["放大","Zoom In"],"pinyin":"fang da fangda f d fd fang da fangda f d fd"},{"id":"gimp-zoom-out","appId":"gimp","type":"software","category":"design","name":{"zh":"缩小","en":"Zoom Out"},"description":{"zh":"缩小","en":"Zoom Out"},"windows":"-","mac":"-","linux":"-","keywords":["缩小","Zoom Out"],"pinyin":"suo xiao suoxiao s x sx suo xiao suoxiao s x sx"},{"id":"gimp-zoom-100","appId":"gimp","type":"software","category":"design","name":{"zh":"实际大小","en":"Zoom 1:1"},"description":{"zh":"实际大小","en":"Zoom 1:1"},"windows":"1","mac":"1","linux":"1","keywords":["实际大小","Zoom 1:1"],"pinyin":"shi ji da xiao shijidaxiao s j d x sjdx shi ji da xiao shijidaxiao s j d x sjdx"},{"id":"gimp-rulers","appId":"gimp","type":"software","category":"design","name":{"zh":"切换标尺","en":"Toggle Rulers"},"description":{"zh":"切换标尺","en":"Toggle Rulers"},"windows":"Shift Ctrl R","mac":"Shift Ctrl R","linux":"Shift Ctrl R","keywords":["切换标尺","Toggle Rulers"],"pinyin":"qie huan biao chi qiehuanbiaochi q h b c qhbc qie huan biao chi qiehuanbiaochi q h b c qhbc"}]
+[
+  {
+    "id": "gimp-tool-rect",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "矩形选择",
+      "en": "Rect Select"
+    },
+    "description": {
+      "zh": "矩形选择",
+      "en": "Rect Select"
+    },
+    "windows": "R",
+    "mac": "R",
+    "linux": "R",
+    "keywords": [
+      "矩形选择",
+      "Rect Select"
+    ],
+    "pinyin": "ju xing xuan ze juxingxuanze j x x z jxxz ju xing xuan ze juxingxuanze j x x z jxxz"
+  },
+  {
+    "id": "gimp-tool-ellipse",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "椭圆选择",
+      "en": "Ellipse Select"
+    },
+    "description": {
+      "zh": "椭圆选择",
+      "en": "Ellipse Select"
+    },
+    "windows": "E",
+    "mac": "E",
+    "linux": "E",
+    "keywords": [
+      "椭圆选择",
+      "Ellipse Select"
+    ],
+    "pinyin": "tuo yuan xuan ze tuoyuanxuanze t y x z tyxz tuo yuan xuan ze tuoyuanxuanze t y x z tyxz"
+  },
+  {
+    "id": "gimp-tool-free",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "自由套索",
+      "en": "Free Select"
+    },
+    "description": {
+      "zh": "自由套索",
+      "en": "Free Select"
+    },
+    "windows": "F",
+    "mac": "F",
+    "linux": "F",
+    "keywords": [
+      "自由套索",
+      "Free Select"
+    ],
+    "pinyin": "zi you tao suo ziyoutaosuo z y t s zyts zi you tao suo ziyoutaosuo z y t s zyts"
+  },
+  {
+    "id": "gimp-tool-fuzzy",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "模糊选择（魔术棒）",
+      "en": "Fuzzy Select"
+    },
+    "description": {
+      "zh": "模糊选择（魔术棒）",
+      "en": "Fuzzy Select"
+    },
+    "windows": "Z",
+    "mac": "Z",
+    "linux": "Z",
+    "keywords": [
+      "模糊选择（魔术棒）",
+      "Fuzzy Select"
+    ],
+    "pinyin": "mo hu xuan ze （ mo shu bang ） mohuxuanze（moshubang） m h x z （ m s b ） mhxz（msb） mo hu xuan ze （ mo shu bang ） mohuxuanze（moshubang） m h x z （ m s b ） mhxz（msb）"
+  },
+  {
+    "id": "gimp-tool-color",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "按颜色选择",
+      "en": "Select By Color"
+    },
+    "description": {
+      "zh": "按颜色选择",
+      "en": "Select By Color"
+    },
+    "windows": "Shift O",
+    "mac": "Shift O",
+    "linux": "Shift O",
+    "keywords": [
+      "按颜色选择",
+      "Select By Color"
+    ],
+    "pinyin": "an yan se xuan ze anyansexuanze a y s x z aysxz an yan se xuan ze anyansexuanze a y s x z aysxz"
+  },
+  {
+    "id": "gimp-tool-scissors",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "剪刀选择",
+      "en": "Scissors Select"
+    },
+    "description": {
+      "zh": "剪刀选择",
+      "en": "Scissors Select"
+    },
+    "windows": "I",
+    "mac": "I",
+    "linux": "I",
+    "keywords": [
+      "剪刀选择",
+      "Scissors Select"
+    ],
+    "pinyin": "jian dao xuan ze jiandaoxuanze j d x z jdxz jian dao xuan ze jiandaoxuanze j d x z jdxz"
+  },
+  {
+    "id": "gimp-tool-paths",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "路径",
+      "en": "Paths"
+    },
+    "description": {
+      "zh": "路径",
+      "en": "Paths"
+    },
+    "windows": "B",
+    "mac": "B",
+    "linux": "B",
+    "keywords": [
+      "路径",
+      "Paths"
+    ],
+    "pinyin": "lu jing lujing l j lj lu jing lujing l j lj"
+  },
+  {
+    "id": "gimp-tool-colorpicker",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "吸管",
+      "en": "Color Picker"
+    },
+    "description": {
+      "zh": "吸管",
+      "en": "Color Picker"
+    },
+    "windows": "O",
+    "mac": "O",
+    "linux": "O",
+    "keywords": [
+      "吸管",
+      "Color Picker"
+    ],
+    "pinyin": "xi guan xiguan x g xg xi guan xiguan x g xg"
+  },
+  {
+    "id": "gimp-tool-move",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "移动",
+      "en": "Move"
+    },
+    "description": {
+      "zh": "移动",
+      "en": "Move"
+    },
+    "windows": "M",
+    "mac": "M",
+    "linux": "M",
+    "keywords": [
+      "移动",
+      "Move"
+    ],
+    "pinyin": "yi dong yidong y d yd yi dong yidong y d yd"
+  },
+  {
+    "id": "gimp-tool-crop",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "裁剪",
+      "en": "Crop"
+    },
+    "description": {
+      "zh": "裁剪",
+      "en": "Crop"
+    },
+    "windows": "Shift C",
+    "mac": "Shift C",
+    "linux": "Shift C",
+    "keywords": [
+      "裁剪",
+      "Crop"
+    ],
+    "pinyin": "cai jian caijian c j cj cai jian caijian c j cj"
+  },
+  {
+    "id": "gimp-tool-rotate",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "旋转",
+      "en": "Rotate"
+    },
+    "description": {
+      "zh": "旋转",
+      "en": "Rotate"
+    },
+    "windows": "Shift R",
+    "mac": "Shift R",
+    "linux": "Shift R",
+    "keywords": [
+      "旋转",
+      "Rotate"
+    ],
+    "pinyin": "xuan zhuan xuanzhuan x z xz xuan zhuan xuanzhuan x z xz"
+  },
+  {
+    "id": "gimp-tool-scale",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "缩放",
+      "en": "Scale"
+    },
+    "description": {
+      "zh": "缩放",
+      "en": "Scale"
+    },
+    "windows": "Shift T",
+    "mac": "Shift T",
+    "linux": "Shift T",
+    "keywords": [
+      "缩放",
+      "Scale"
+    ],
+    "pinyin": "suo fang suofang s f sf suo fang suofang s f sf"
+  },
+  {
+    "id": "gimp-tool-shear",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "斜切",
+      "en": "Shear"
+    },
+    "description": {
+      "zh": "斜切",
+      "en": "Shear"
+    },
+    "windows": "Shift S",
+    "mac": "Shift S",
+    "linux": "Shift S",
+    "keywords": [
+      "斜切",
+      "Shear"
+    ],
+    "pinyin": "xie qie xieqie x q xq xie qie xieqie x q xq"
+  },
+  {
+    "id": "gimp-tool-perspective",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "透视",
+      "en": "Perspective"
+    },
+    "description": {
+      "zh": "透视",
+      "en": "Perspective"
+    },
+    "windows": "Shift P",
+    "mac": "Shift P",
+    "linux": "Shift P",
+    "keywords": [
+      "透视",
+      "Perspective"
+    ],
+    "pinyin": "tou shi toushi t s ts tou shi toushi t s ts"
+  },
+  {
+    "id": "gimp-tool-flip",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "翻转",
+      "en": "Flip"
+    },
+    "description": {
+      "zh": "翻转",
+      "en": "Flip"
+    },
+    "windows": "Shift F",
+    "mac": "Shift F",
+    "linux": "Shift F",
+    "keywords": [
+      "翻转",
+      "Flip"
+    ],
+    "pinyin": "fan zhuan fanzhuan f z fz fan zhuan fanzhuan f z fz"
+  },
+  {
+    "id": "gimp-tool-text",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "文字",
+      "en": "Text"
+    },
+    "description": {
+      "zh": "文字",
+      "en": "Text"
+    },
+    "windows": "T",
+    "mac": "T",
+    "linux": "T",
+    "keywords": [
+      "文字",
+      "Text"
+    ],
+    "pinyin": "wen zi wenzi w z wz wen zi wenzi w z wz"
+  },
+  {
+    "id": "gimp-swap-colors",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "交换前景/背景色",
+      "en": "Swap Colors"
+    },
+    "description": {
+      "zh": "交换前景/背景色",
+      "en": "Swap Colors"
+    },
+    "windows": "X",
+    "mac": "X",
+    "linux": "X",
+    "keywords": [
+      "交换前景/背景色",
+      "Swap Colors"
+    ],
+    "pinyin": "jiao huan qian jing / bei jing se jiaohuanqianjing/beijingse j h q j / b j s jhqj/bjs jiao huan qian jing / bei jing se jiaohuanqianjing/beijingse j h q j / b j s jhqj/bjs"
+  },
+  {
+    "id": "gimp-default-colors",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "重置默认颜色",
+      "en": "Default Colors"
+    },
+    "description": {
+      "zh": "重置默认颜色",
+      "en": "Default Colors"
+    },
+    "windows": "D",
+    "mac": "D",
+    "linux": "D",
+    "keywords": [
+      "重置默认颜色",
+      "Default Colors"
+    ],
+    "pinyin": "zhong zhi mo ren yan se zhongzhimorenyanse z z m r y s zzmrys zhong zhi mo ren yan se zhongzhimorenyanse z z m r y s zzmrys"
+  },
+  {
+    "id": "gimp-new",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "新建图像",
+      "en": "New Image"
+    },
+    "description": {
+      "zh": "新建图像",
+      "en": "New Image"
+    },
+    "windows": "Ctrl N",
+    "mac": "Ctrl N",
+    "linux": "Ctrl N",
+    "keywords": [
+      "新建图像",
+      "New Image"
+    ],
+    "pinyin": "xin jian tu xiang xinjiantuxiang x j t x xjtx xin jian tu xiang xinjiantuxiang x j t x xjtx"
+  },
+  {
+    "id": "gimp-open",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "打开图像",
+      "en": "Open Image"
+    },
+    "description": {
+      "zh": "打开图像",
+      "en": "Open Image"
+    },
+    "windows": "Ctrl O",
+    "mac": "Ctrl O",
+    "linux": "Ctrl O",
+    "keywords": [
+      "打开图像",
+      "Open Image"
+    ],
+    "pinyin": "da kai tu xiang dakaituxiang d k t x dktx da kai tu xiang dakaituxiang d k t x dktx"
+  },
+  {
+    "id": "gimp-open-as-layer",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "作为新图层打开",
+      "en": "Open As New Layer"
+    },
+    "description": {
+      "zh": "作为新图层打开",
+      "en": "Open As New Layer"
+    },
+    "windows": "Ctrl Alt O",
+    "mac": "Ctrl Alt O",
+    "linux": "Ctrl Alt O",
+    "keywords": [
+      "作为新图层打开",
+      "Open As New Layer"
+    ],
+    "pinyin": "zuo wei xin tu ceng da kai zuoweixintucengdakai z w x t c d k zwxtcdk zuo wei xin tu ceng da kai zuoweixintucengdakai z w x t c d k zwxtcdk"
+  },
+  {
+    "id": "gimp-duplicate",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "复制图像",
+      "en": "Duplicate Image"
+    },
+    "description": {
+      "zh": "复制图像",
+      "en": "Duplicate Image"
+    },
+    "windows": "Ctrl D",
+    "mac": "Ctrl D",
+    "linux": "Ctrl D",
+    "keywords": [
+      "复制图像",
+      "Duplicate Image"
+    ],
+    "pinyin": "fu zhi tu xiang fuzhituxiang f z t x fztx fu zhi tu xiang fuzhituxiang f z t x fztx"
+  },
+  {
+    "id": "gimp-save",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "保存图像",
+      "en": "Save Image"
+    },
+    "description": {
+      "zh": "保存图像",
+      "en": "Save Image"
+    },
+    "windows": "Ctrl S",
+    "mac": "Ctrl S",
+    "linux": "Ctrl S",
+    "keywords": [
+      "保存图像",
+      "Save Image"
+    ],
+    "pinyin": "bao cun tu xiang baocuntuxiang b c t x bctx bao cun tu xiang baocuntuxiang b c t x bctx"
+  },
+  {
+    "id": "gimp-save-as",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "另存为",
+      "en": "Save As"
+    },
+    "description": {
+      "zh": "另存为",
+      "en": "Save As"
+    },
+    "windows": "Shift Ctrl S",
+    "mac": "Shift Ctrl S",
+    "linux": "Shift Ctrl S",
+    "keywords": [
+      "另存为",
+      "Save As"
+    ],
+    "pinyin": "ling cun wei lingcunwei l c w lcw ling cun wei lingcunwei l c w lcw"
+  },
+  {
+    "id": "gimp-export",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "导出",
+      "en": "Export"
+    },
+    "description": {
+      "zh": "导出",
+      "en": "Export"
+    },
+    "windows": "Ctrl E",
+    "mac": "Ctrl E",
+    "linux": "Ctrl E",
+    "keywords": [
+      "导出",
+      "Export"
+    ],
+    "pinyin": "dao chu daochu d c dc dao chu daochu d c dc"
+  },
+  {
+    "id": "gimp-export-as",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "导出为",
+      "en": "Export As"
+    },
+    "description": {
+      "zh": "导出为",
+      "en": "Export As"
+    },
+    "windows": "Shift Ctrl E",
+    "mac": "Shift Ctrl E",
+    "linux": "Shift Ctrl E",
+    "keywords": [
+      "导出为",
+      "Export As"
+    ],
+    "pinyin": "dao chu wei daochuwei d c w dcw dao chu wei daochuwei d c w dcw"
+  },
+  {
+    "id": "gimp-quit",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "退出",
+      "en": "Quit"
+    },
+    "description": {
+      "zh": "退出",
+      "en": "Quit"
+    },
+    "windows": "Ctrl Q",
+    "mac": "Ctrl Q",
+    "linux": "Ctrl Q",
+    "keywords": [
+      "退出",
+      "Quit"
+    ],
+    "pinyin": "tui chu tuichu t c tc tui chu tuichu t c tc"
+  },
+  {
+    "id": "gimp-dlg-layers",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "图层面板",
+      "en": "Layers Dialog"
+    },
+    "description": {
+      "zh": "图层面板",
+      "en": "Layers Dialog"
+    },
+    "windows": "Ctrl L",
+    "mac": "Ctrl L",
+    "linux": "Ctrl L",
+    "keywords": [
+      "图层面板",
+      "Layers Dialog"
+    ],
+    "pinyin": "tu ceng mian ban tucengmianban t c m b tcmb tu ceng mian ban tucengmianban t c m b tcmb"
+  },
+  {
+    "id": "gimp-dlg-brushes",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "画笔面板",
+      "en": "Brushes Dialog"
+    },
+    "description": {
+      "zh": "画笔面板",
+      "en": "Brushes Dialog"
+    },
+    "windows": "Shift Ctrl B",
+    "mac": "Shift Ctrl B",
+    "linux": "Shift Ctrl B",
+    "keywords": [
+      "画笔面板",
+      "Brushes Dialog"
+    ],
+    "pinyin": "hua bi mian ban huabimianban h b m b hbmb hua bi mian ban huabimianban h b m b hbmb"
+  },
+  {
+    "id": "gimp-dlg-patterns",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "图案面板",
+      "en": "Patterns Dialog"
+    },
+    "description": {
+      "zh": "图案面板",
+      "en": "Patterns Dialog"
+    },
+    "windows": "Shift Ctrl P",
+    "mac": "Shift Ctrl P",
+    "linux": "Shift Ctrl P",
+    "keywords": [
+      "图案面板",
+      "Patterns Dialog"
+    ],
+    "pinyin": "tu an mian ban tuanmianban t a m b tamb tu an mian ban tuanmianban t a m b tamb"
+  },
+  {
+    "id": "gimp-dlg-gradients",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "渐变面板",
+      "en": "Gradients Dialog"
+    },
+    "description": {
+      "zh": "渐变面板",
+      "en": "Gradients Dialog"
+    },
+    "windows": "Ctrl G",
+    "mac": "Ctrl G",
+    "linux": "Ctrl G",
+    "keywords": [
+      "渐变面板",
+      "Gradients Dialog"
+    ],
+    "pinyin": "jian bian mian ban jianbianmianban j b m b jbmb jian bian mian ban jianbianmianban j b m b jbmb"
+  },
+  {
+    "id": "gimp-dlg-toolopts",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "工具选项",
+      "en": "Tool Options"
+    },
+    "description": {
+      "zh": "工具选项",
+      "en": "Tool Options"
+    },
+    "windows": "Shift Ctrl T",
+    "mac": "Shift Ctrl T",
+    "linux": "Shift Ctrl T",
+    "keywords": [
+      "工具选项",
+      "Tool Options"
+    ],
+    "pinyin": "gong ju xuan xiang gongjuxuanxiang g j x x gjxx gong ju xuan xiang gongjuxuanxiang g j x x gjxx"
+  },
+  {
+    "id": "gimp-dlg-palettes",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "调色板面板",
+      "en": "Palettes Dialog"
+    },
+    "description": {
+      "zh": "调色板面板",
+      "en": "Palettes Dialog"
+    },
+    "windows": "Ctrl P",
+    "mac": "Ctrl P",
+    "linux": "Ctrl P",
+    "keywords": [
+      "调色板面板",
+      "Palettes Dialog"
+    ],
+    "pinyin": "tiao se ban mian ban tiaosebanmianban t s b m b tsbmb tiao se ban mian ban tiaosebanmianban t s b m b tsbmb"
+  },
+  {
+    "id": "gimp-dlg-info",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "信息窗口",
+      "en": "Info Window"
+    },
+    "description": {
+      "zh": "信息窗口",
+      "en": "Info Window"
+    },
+    "windows": "Shift Ctrl I",
+    "mac": "Shift Ctrl I",
+    "linux": "Shift Ctrl I",
+    "keywords": [
+      "信息窗口",
+      "Info Window"
+    ],
+    "pinyin": "xin xi chuang kou xinxichuangkou x x c k xxck xin xi chuang kou xinxichuangkou x x c k xxck"
+  },
+  {
+    "id": "gimp-dlg-nav",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "导航窗口",
+      "en": "Navigation Window"
+    },
+    "description": {
+      "zh": "导航窗口",
+      "en": "Navigation Window"
+    },
+    "windows": "Shift Ctrl N",
+    "mac": "Shift Ctrl N",
+    "linux": "Shift Ctrl N",
+    "keywords": [
+      "导航窗口",
+      "Navigation Window"
+    ],
+    "pinyin": "dao hang chuang kou daohangchuangkou d h c k dhck dao hang chuang kou daohangchuangkou d h c k dhck"
+  },
+  {
+    "id": "gimp-undo",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "windows": "Ctrl Z",
+    "mac": "Ctrl Z",
+    "linux": "Ctrl Z",
+    "keywords": [
+      "撤销",
+      "Undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "gimp-redo",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "windows": "Ctrl Y",
+    "mac": "Ctrl Y",
+    "linux": "Ctrl Y",
+    "keywords": [
+      "重做",
+      "Redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "gimp-copy",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "复制选区",
+      "en": "Copy"
+    },
+    "description": {
+      "zh": "复制选区",
+      "en": "Copy"
+    },
+    "windows": "Ctrl C",
+    "mac": "Ctrl C",
+    "linux": "Ctrl C",
+    "keywords": [
+      "复制选区",
+      "Copy"
+    ],
+    "pinyin": "fu zhi xuan qu fuzhixuanqu f z x q fzxq fu zhi xuan qu fuzhixuanqu f z x q fzxq"
+  },
+  {
+    "id": "gimp-cut",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "剪切选区",
+      "en": "Cut"
+    },
+    "description": {
+      "zh": "剪切选区",
+      "en": "Cut"
+    },
+    "windows": "Ctrl X",
+    "mac": "Ctrl X",
+    "linux": "Ctrl X",
+    "keywords": [
+      "剪切选区",
+      "Cut"
+    ],
+    "pinyin": "jian qie xuan qu jianqiexuanqu j q x q jqxq jian qie xuan qu jianqiexuanqu j q x q jqxq"
+  },
+  {
+    "id": "gimp-paste",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "粘贴",
+      "en": "Paste"
+    },
+    "description": {
+      "zh": "粘贴",
+      "en": "Paste"
+    },
+    "windows": "Ctrl V",
+    "mac": "Ctrl V",
+    "linux": "Ctrl V",
+    "keywords": [
+      "粘贴",
+      "Paste"
+    ],
+    "pinyin": "nian tie niantie n t nt nian tie niantie n t nt"
+  },
+  {
+    "id": "gimp-clear",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "清除选区",
+      "en": "Clear"
+    },
+    "description": {
+      "zh": "清除选区",
+      "en": "Clear"
+    },
+    "windows": "Ctrl K",
+    "mac": "Ctrl K",
+    "linux": "Ctrl K",
+    "keywords": [
+      "清除选区",
+      "Clear"
+    ],
+    "pinyin": "qing chu xuan qu qingchuxuanqu q c x q qcxq qing chu xuan qu qingchuxuanqu q c x q qcxq"
+  },
+  {
+    "id": "gimp-layer-above",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "选择上一层",
+      "en": "Select Layer Above"
+    },
+    "description": {
+      "zh": "选择上一层",
+      "en": "Select Layer Above"
+    },
+    "windows": "PageUp",
+    "mac": "PageUp",
+    "linux": "PageUp",
+    "keywords": [
+      "选择上一层",
+      "Select Layer Above"
+    ],
+    "pinyin": "xuan ze shang yi ceng xuanzeshangyiceng x z s y c xzsyc xuan ze shang yi ceng xuanzeshangyiceng x z s y c xzsyc"
+  },
+  {
+    "id": "gimp-layer-below",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "选择下一层",
+      "en": "Select Layer Below"
+    },
+    "description": {
+      "zh": "选择下一层",
+      "en": "Select Layer Below"
+    },
+    "windows": "PageDown",
+    "mac": "PageDown",
+    "linux": "PageDown",
+    "keywords": [
+      "选择下一层",
+      "Select Layer Below"
+    ],
+    "pinyin": "xuan ze xia yi ceng xuanzexiayiceng x z x y c xzxyc xuan ze xia yi ceng xuanzexiayiceng x z x y c xzxyc"
+  },
+  {
+    "id": "gimp-layer-first",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "选择最顶层",
+      "en": "Select First Layer"
+    },
+    "description": {
+      "zh": "选择最顶层",
+      "en": "Select First Layer"
+    },
+    "windows": "Home",
+    "mac": "Home",
+    "linux": "Home",
+    "keywords": [
+      "选择最顶层",
+      "Select First Layer"
+    ],
+    "pinyin": "xuan ze zui ding ceng xuanzezuidingceng x z z d c xzzdc xuan ze zui ding ceng xuanzezuidingceng x z z d c xzzdc"
+  },
+  {
+    "id": "gimp-layer-last",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "选择最底层",
+      "en": "Select Last Layer"
+    },
+    "description": {
+      "zh": "选择最底层",
+      "en": "Select Last Layer"
+    },
+    "windows": "End",
+    "mac": "End",
+    "linux": "End",
+    "keywords": [
+      "选择最底层",
+      "Select Last Layer"
+    ],
+    "pinyin": "xuan ze zui di ceng xuanzezuidiceng x z z d c xzzdc xuan ze zui di ceng xuanzezuidiceng x z z d c xzzdc"
+  },
+  {
+    "id": "gimp-merge-visible",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "合并可见图层",
+      "en": "Merge Visible Layers"
+    },
+    "description": {
+      "zh": "合并可见图层",
+      "en": "Merge Visible Layers"
+    },
+    "windows": "Ctrl M",
+    "mac": "Ctrl M",
+    "linux": "Ctrl M",
+    "keywords": [
+      "合并可见图层",
+      "Merge Visible Layers"
+    ],
+    "pinyin": "he bing ke jian tu ceng hebingkejiantuceng h b k j t c hbkjtc he bing ke jian tu ceng hebingkejiantuceng h b k j t c hbkjtc"
+  },
+  {
+    "id": "gimp-anchor",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "锚定图层",
+      "en": "Anchor Layer"
+    },
+    "description": {
+      "zh": "锚定图层",
+      "en": "Anchor Layer"
+    },
+    "windows": "Ctrl H",
+    "mac": "Ctrl H",
+    "linux": "Ctrl H",
+    "keywords": [
+      "锚定图层",
+      "Anchor Layer"
+    ],
+    "pinyin": "mao ding tu ceng maodingtuceng m d t c mdtc mao ding tu ceng maodingtuceng m d t c mdtc"
+  },
+  {
+    "id": "gimp-sel-toggle",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "切换选区",
+      "en": "Toggle Selection"
+    },
+    "description": {
+      "zh": "切换选区",
+      "en": "Toggle Selection"
+    },
+    "windows": "Ctrl T",
+    "mac": "Ctrl T",
+    "linux": "Ctrl T",
+    "keywords": [
+      "切换选区",
+      "Toggle Selection"
+    ],
+    "pinyin": "qie huan xuan qu qiehuanxuanqu q h x q qhxq qie huan xuan qu qiehuanxuanqu q h x q qhxq"
+  },
+  {
+    "id": "gimp-sel-all",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "全选",
+      "en": "Select All"
+    },
+    "description": {
+      "zh": "全选",
+      "en": "Select All"
+    },
+    "windows": "Ctrl A",
+    "mac": "Ctrl A",
+    "linux": "Ctrl A",
+    "keywords": [
+      "全选",
+      "Select All"
+    ],
+    "pinyin": "quan xuan quanxuan q x qx quan xuan quanxuan q x qx"
+  },
+  {
+    "id": "gimp-sel-none",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "取消选择",
+      "en": "Select None"
+    },
+    "description": {
+      "zh": "取消选择",
+      "en": "Select None"
+    },
+    "windows": "Shift Ctrl A",
+    "mac": "Shift Ctrl A",
+    "linux": "Shift Ctrl A",
+    "keywords": [
+      "取消选择",
+      "Select None"
+    ],
+    "pinyin": "qu xiao xuan ze quxiaoxuanze q x x z qxxz qu xiao xuan ze quxiaoxuanze q x x z qxxz"
+  },
+  {
+    "id": "gimp-sel-invert",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "反选",
+      "en": "Invert Selection"
+    },
+    "description": {
+      "zh": "反选",
+      "en": "Invert Selection"
+    },
+    "windows": "Ctrl I",
+    "mac": "Ctrl I",
+    "linux": "Ctrl I",
+    "keywords": [
+      "反选",
+      "Invert Selection"
+    ],
+    "pinyin": "fan xuan fanxuan f x fx fan xuan fanxuan f x fx"
+  },
+  {
+    "id": "gimp-sel-float",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "浮动选区",
+      "en": "Float Selection"
+    },
+    "description": {
+      "zh": "浮动选区",
+      "en": "Float Selection"
+    },
+    "windows": "Shift Ctrl L",
+    "mac": "Shift Ctrl L",
+    "linux": "Shift Ctrl L",
+    "keywords": [
+      "浮动选区",
+      "Float Selection"
+    ],
+    "pinyin": "fu dong xuan qu fudongxuanqu f d x q fdxq fu dong xuan qu fudongxuanqu f d x q fdxq"
+  },
+  {
+    "id": "gimp-path-to-sel",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "路径转选区",
+      "en": "Path To Selection"
+    },
+    "description": {
+      "zh": "路径转选区",
+      "en": "Path To Selection"
+    },
+    "windows": "Shift V",
+    "mac": "Shift V",
+    "linux": "Shift V",
+    "keywords": [
+      "路径转选区",
+      "Path To Selection"
+    ],
+    "pinyin": "lu jing zhuan xuan qu lujingzhuanxuanqu l j z x q ljzxq lu jing zhuan xuan qu lujingzhuanxuanqu l j z x q ljzxq"
+  },
+  {
+    "id": "gimp-repeat-filter",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "重复上次滤镜",
+      "en": "Repeat Last Filter"
+    },
+    "description": {
+      "zh": "重复上次滤镜",
+      "en": "Repeat Last Filter"
+    },
+    "windows": "Ctrl F",
+    "mac": "Ctrl F",
+    "linux": "Ctrl F",
+    "keywords": [
+      "重复上次滤镜",
+      "Repeat Last Filter"
+    ],
+    "pinyin": "chong fu shang ci lü jing chongfushangcilüjing c f s c l j cfsclj chong fu shang ci lü jing chongfushangcilüjing c f s c l j cfsclj"
+  },
+  {
+    "id": "gimp-reshow-filter",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "重新显示上次滤镜",
+      "en": "Reshow Last Filter"
+    },
+    "description": {
+      "zh": "重新显示上次滤镜",
+      "en": "Reshow Last Filter"
+    },
+    "windows": "Shift Ctrl F",
+    "mac": "Shift Ctrl F",
+    "linux": "Shift Ctrl F",
+    "keywords": [
+      "重新显示上次滤镜",
+      "Reshow Last Filter"
+    ],
+    "pinyin": "chong xin xian shi shang ci lü jing chongxinxianshishangcilüjing c x x s s c l j cxxssclj chong xin xian shi shang ci lü jing chongxinxianshishangcilüjing c x x s s c l j cxxssclj"
+  },
+  {
+    "id": "gimp-fullscreen",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "全屏",
+      "en": "Toggle Fullscreen"
+    },
+    "description": {
+      "zh": "全屏",
+      "en": "Toggle Fullscreen"
+    },
+    "windows": "F11",
+    "mac": "F11",
+    "linux": "F11",
+    "keywords": [
+      "全屏",
+      "Toggle Fullscreen"
+    ],
+    "pinyin": "quan ping quanping q p qp quan ping quanping q p qp"
+  },
+  {
+    "id": "gimp-quickmask",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "切换快速蒙版",
+      "en": "Toggle QuickMask"
+    },
+    "description": {
+      "zh": "切换快速蒙版",
+      "en": "Toggle QuickMask"
+    },
+    "windows": "Shift Q",
+    "mac": "Shift Q",
+    "linux": "Shift Q",
+    "keywords": [
+      "切换快速蒙版",
+      "Toggle QuickMask"
+    ],
+    "pinyin": "qie huan kuai su meng ban qiehuankuaisumengban q h k s m b qhksmb qie huan kuai su meng ban qiehuankuaisumengban q h k s m b qhksmb"
+  },
+  {
+    "id": "gimp-close-doc",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "关闭文档窗口",
+      "en": "Close Document Window"
+    },
+    "description": {
+      "zh": "关闭文档窗口",
+      "en": "Close Document Window"
+    },
+    "windows": "Ctrl W",
+    "mac": "Ctrl W",
+    "linux": "Ctrl W",
+    "keywords": [
+      "关闭文档窗口",
+      "Close Document Window"
+    ],
+    "pinyin": "guan bi wen dang chuang kou guanbiwendangchuangkou g b w d c k gbwdck guan bi wen dang chuang kou guanbiwendangchuangkou g b w d c k gbwdck"
+  },
+  {
+    "id": "gimp-zoom-in",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "放大",
+      "en": "Zoom In"
+    },
+    "description": {
+      "zh": "放大",
+      "en": "Zoom In"
+    },
+    "windows": "+",
+    "mac": "+",
+    "linux": "+",
+    "keywords": [
+      "放大",
+      "Zoom In"
+    ],
+    "pinyin": "fang da fangda f d fd fang da fangda f d fd"
+  },
+  {
+    "id": "gimp-zoom-out",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "缩小",
+      "en": "Zoom Out"
+    },
+    "description": {
+      "zh": "缩小",
+      "en": "Zoom Out"
+    },
+    "windows": "-",
+    "mac": "-",
+    "linux": "-",
+    "keywords": [
+      "缩小",
+      "Zoom Out"
+    ],
+    "pinyin": "suo xiao suoxiao s x sx suo xiao suoxiao s x sx"
+  },
+  {
+    "id": "gimp-zoom-100",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "实际大小",
+      "en": "Zoom 1:1"
+    },
+    "description": {
+      "zh": "实际大小",
+      "en": "Zoom 1:1"
+    },
+    "windows": "1",
+    "mac": "1",
+    "linux": "1",
+    "keywords": [
+      "实际大小",
+      "Zoom 1:1"
+    ],
+    "pinyin": "shi ji da xiao shijidaxiao s j d x sjdx shi ji da xiao shijidaxiao s j d x sjdx"
+  },
+  {
+    "id": "gimp-rulers",
+    "appId": "gimp",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "切换标尺",
+      "en": "Toggle Rulers"
+    },
+    "description": {
+      "zh": "切换标尺",
+      "en": "Toggle Rulers"
+    },
+    "windows": "Shift Ctrl R",
+    "mac": "Shift Ctrl R",
+    "linux": "Shift Ctrl R",
+    "keywords": [
+      "切换标尺",
+      "Toggle Rulers"
+    ],
+    "pinyin": "qie huan biao chi qiehuanbiaochi q h b c qhbc qie huan biao chi qiehuanbiaochi q h b c qhbc"
+  }
+]

@@ -1,1 +1,293 @@
-[{"id":"whatsapp-new-chat","appId":"whatsapp","type":"software","category":"productivity","name":{"zh":"新聊天","en":"New Chat"},"description":{"zh":"开始一个新的聊天","en":"Start a new chat"},"windows":"Ctrl + N","mac":"Cmd + N","linux":"","keywords":["新聊天","new chat"],"pinyin":"xin liao tian xinliaotian x l t xlt xin liao tian xinliaotian x l t xlt"},{"id":"whatsapp-new-group","appId":"whatsapp","type":"software","category":"productivity","name":{"zh":"新建群组","en":"New Group"},"description":{"zh":"创建一个新的群组","en":"Create a new group"},"windows":"Ctrl + Shift + N","mac":"Cmd + Shift + N","linux":"","keywords":["群组","group"],"pinyin":"xin jian qun zu xinjianqunzu x j q z xjqz qun zu qunzu q z qz"},{"id":"whatsapp-search","appId":"whatsapp","type":"software","category":"productivity","name":{"zh":"搜索聊天","en":"Search Chats"},"description":{"zh":"搜索聊天记录","en":"Search through your chats"},"windows":"Ctrl + F","mac":"Cmd + F","linux":"","keywords":["搜索","search"],"pinyin":"sou suo liao tian sousuoliaotian s s l t sslt sou suo sousuo s s ss"},{"id":"whatsapp-next-chat","appId":"whatsapp","type":"software","category":"productivity","name":{"zh":"下一个聊天","en":"Next Chat"},"description":{"zh":"切换到下一个聊天","en":"Go to the next chat"},"windows":"Ctrl + Tab","mac":"Cmd + Tab","linux":"","keywords":["下一个","next","chat"],"pinyin":"xia yi ge liao tian xiayigeliaotian x y g l t xyglt xia yi ge xiayige x y g xyg"},{"id":"whatsapp-prev-chat","appId":"whatsapp","type":"software","category":"productivity","name":{"zh":"上一个聊天","en":"Previous Chat"},"description":{"zh":"切换到上一个聊天","en":"Go to the previous chat"},"windows":"Ctrl + Shift + Tab","mac":"Cmd + Shift + Tab","linux":"","keywords":["上一个","previous","chat"],"pinyin":"shang yi ge liao tian shangyigeliaotian s y g l t syglt shang yi ge shangyige s y g syg"},{"id":"whatsapp-archive","appId":"whatsapp","type":"software","category":"productivity","name":{"zh":"归档聊天","en":"Archive Chat"},"description":{"zh":"将当前聊天归档","en":"Archive the current chat"},"windows":"Ctrl + Shift + E","mac":"Cmd + Shift + E","linux":"","keywords":["归档","archive"],"pinyin":"gui dang liao tian guidangliaotian g d l t gdlt gui dang guidang g d gd"},{"id":"whatsapp-mute","appId":"whatsapp","type":"software","category":"productivity","name":{"zh":"静音聊天","en":"Mute Chat"},"description":{"zh":"静音或取消静音当前聊天","en":"Mute or unmute the current chat"},"windows":"Ctrl + Shift + M","mac":"Cmd + Shift + M","linux":"","keywords":["静音","mute"],"pinyin":"jing yin liao tian jingyinliaotian j y l t jylt jing yin jingyin j y jy"},{"id":"whatsapp-mark-unread","appId":"whatsapp","type":"software","category":"productivity","name":{"zh":"标为未读","en":"Mark as Unread"},"description":{"zh":"将当前聊天标记为未读","en":"Mark the current chat as unread"},"windows":"Ctrl + Shift + U","mac":"Cmd + Shift + U","linux":"","keywords":["未读","unread"],"pinyin":"biao wei wei du biaoweiweidu b w w d bwwd wei du weidu w d wd"},{"id":"whatsapp-delete-chat","appId":"whatsapp","type":"software","category":"productivity","name":{"zh":"删除聊天","en":"Delete Chat"},"description":{"zh":"删除当前聊天","en":"Delete the current chat"},"windows":"Ctrl + Backspace","mac":"Cmd + Backspace","linux":"","keywords":["删除","delete","chat"],"pinyin":"shan chu liao tian shanchuliaotian s c l t sclt shan chu shanchu s c sc"},{"id":"whatsapp-exit-group","appId":"whatsapp","type":"software","category":"productivity","name":{"zh":"退出群组","en":"Exit Group"},"description":{"zh":"退出当前群组","en":"Exit the current group"},"windows":"Ctrl + Shift + K","mac":"Cmd + Shift + K","linux":"","keywords":["退出","群组","exit","group"],"pinyin":"tui chu qun zu tuichuqunzu t c q z tcqz tui chu   qun zu tuichu qunzu t c   q z tc qz"},{"id":"whatsapp-emoji","appId":"whatsapp","type":"software","category":"productivity","name":{"zh":"打开表情面板","en":"Open Emoji Panel"},"description":{"zh":"打开表情符号选择面板","en":"Open the emoji picker panel"},"windows":"Ctrl + E","mac":"Cmd + E","linux":"","keywords":["表情","emoji"],"pinyin":"da kai biao qing mian ban dakaibiaoqingmianban d k b q m b dkbqmb biao qing biaoqing b q bq"},{"id":"whatsapp-send","appId":"whatsapp","type":"software","category":"productivity","name":{"zh":"发送消息","en":"Send Message"},"description":{"zh":"发送当前输入的消息","en":"Send the message you typed"},"windows":"Enter","mac":"Enter","linux":"","keywords":["发送","send"],"pinyin":"fa song xiao xi fasongxiaoxi f s x x fsxx fa song fasong f s fs"},{"id":"whatsapp-newline","appId":"whatsapp","type":"software","category":"productivity","name":{"zh":"换行","en":"New Line"},"description":{"zh":"在消息中插入换行","en":"Insert a new line in your message"},"windows":"Shift + Enter","mac":"Shift + Enter","linux":"","keywords":["换行","newline"],"pinyin":"huan hang huanhang h h hh huan hang huanhang h h hh"}]
+[
+  {
+    "id": "whatsapp-new-chat",
+    "appId": "whatsapp",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "新聊天",
+      "en": "New Chat"
+    },
+    "description": {
+      "zh": "开始一个新的聊天",
+      "en": "Start a new chat"
+    },
+    "windows": "Ctrl + N",
+    "mac": "Cmd + N",
+    "linux": "",
+    "keywords": [
+      "新聊天",
+      "new chat"
+    ],
+    "pinyin": "xin liao tian xinliaotian x l t xlt xin liao tian xinliaotian x l t xlt"
+  },
+  {
+    "id": "whatsapp-new-group",
+    "appId": "whatsapp",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "新建群组",
+      "en": "New Group"
+    },
+    "description": {
+      "zh": "创建一个新的群组",
+      "en": "Create a new group"
+    },
+    "windows": "Ctrl + Shift + N",
+    "mac": "Cmd + Shift + N",
+    "linux": "",
+    "keywords": [
+      "群组",
+      "group"
+    ],
+    "pinyin": "xin jian qun zu xinjianqunzu x j q z xjqz qun zu qunzu q z qz"
+  },
+  {
+    "id": "whatsapp-search",
+    "appId": "whatsapp",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "搜索聊天",
+      "en": "Search Chats"
+    },
+    "description": {
+      "zh": "搜索聊天记录",
+      "en": "Search through your chats"
+    },
+    "windows": "Ctrl + F",
+    "mac": "Cmd + F",
+    "linux": "",
+    "keywords": [
+      "搜索",
+      "search"
+    ],
+    "pinyin": "sou suo liao tian sousuoliaotian s s l t sslt sou suo sousuo s s ss"
+  },
+  {
+    "id": "whatsapp-next-chat",
+    "appId": "whatsapp",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "下一个聊天",
+      "en": "Next Chat"
+    },
+    "description": {
+      "zh": "切换到下一个聊天",
+      "en": "Go to the next chat"
+    },
+    "windows": "Ctrl + Tab",
+    "mac": "Cmd + Tab",
+    "linux": "",
+    "keywords": [
+      "下一个",
+      "next",
+      "chat"
+    ],
+    "pinyin": "xia yi ge liao tian xiayigeliaotian x y g l t xyglt xia yi ge xiayige x y g xyg"
+  },
+  {
+    "id": "whatsapp-prev-chat",
+    "appId": "whatsapp",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "上一个聊天",
+      "en": "Previous Chat"
+    },
+    "description": {
+      "zh": "切换到上一个聊天",
+      "en": "Go to the previous chat"
+    },
+    "windows": "Ctrl + Shift + Tab",
+    "mac": "Cmd + Shift + Tab",
+    "linux": "",
+    "keywords": [
+      "上一个",
+      "previous",
+      "chat"
+    ],
+    "pinyin": "shang yi ge liao tian shangyigeliaotian s y g l t syglt shang yi ge shangyige s y g syg"
+  },
+  {
+    "id": "whatsapp-archive",
+    "appId": "whatsapp",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "归档聊天",
+      "en": "Archive Chat"
+    },
+    "description": {
+      "zh": "将当前聊天归档",
+      "en": "Archive the current chat"
+    },
+    "windows": "Ctrl + Shift + E",
+    "mac": "Cmd + Shift + E",
+    "linux": "",
+    "keywords": [
+      "归档",
+      "archive"
+    ],
+    "pinyin": "gui dang liao tian guidangliaotian g d l t gdlt gui dang guidang g d gd"
+  },
+  {
+    "id": "whatsapp-mute",
+    "appId": "whatsapp",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "静音聊天",
+      "en": "Mute Chat"
+    },
+    "description": {
+      "zh": "静音或取消静音当前聊天",
+      "en": "Mute or unmute the current chat"
+    },
+    "windows": "Ctrl + Shift + M",
+    "mac": "Cmd + Shift + M",
+    "linux": "",
+    "keywords": [
+      "静音",
+      "mute"
+    ],
+    "pinyin": "jing yin liao tian jingyinliaotian j y l t jylt jing yin jingyin j y jy"
+  },
+  {
+    "id": "whatsapp-mark-unread",
+    "appId": "whatsapp",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "标为未读",
+      "en": "Mark as Unread"
+    },
+    "description": {
+      "zh": "将当前聊天标记为未读",
+      "en": "Mark the current chat as unread"
+    },
+    "windows": "Ctrl + Shift + U",
+    "mac": "Cmd + Shift + U",
+    "linux": "",
+    "keywords": [
+      "未读",
+      "unread"
+    ],
+    "pinyin": "biao wei wei du biaoweiweidu b w w d bwwd wei du weidu w d wd"
+  },
+  {
+    "id": "whatsapp-delete-chat",
+    "appId": "whatsapp",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "删除聊天",
+      "en": "Delete Chat"
+    },
+    "description": {
+      "zh": "删除当前聊天",
+      "en": "Delete the current chat"
+    },
+    "windows": "Ctrl + Backspace",
+    "mac": "Cmd + Backspace",
+    "linux": "",
+    "keywords": [
+      "删除",
+      "delete",
+      "chat"
+    ],
+    "pinyin": "shan chu liao tian shanchuliaotian s c l t sclt shan chu shanchu s c sc"
+  },
+  {
+    "id": "whatsapp-exit-group",
+    "appId": "whatsapp",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "退出群组",
+      "en": "Exit Group"
+    },
+    "description": {
+      "zh": "退出当前群组",
+      "en": "Exit the current group"
+    },
+    "windows": "Ctrl + Shift + K",
+    "mac": "Cmd + Shift + K",
+    "linux": "",
+    "keywords": [
+      "退出",
+      "群组",
+      "exit",
+      "group"
+    ],
+    "pinyin": "tui chu qun zu tuichuqunzu t c q z tcqz tui chu   qun zu tuichu qunzu t c   q z tc qz"
+  },
+  {
+    "id": "whatsapp-emoji",
+    "appId": "whatsapp",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "打开表情面板",
+      "en": "Open Emoji Panel"
+    },
+    "description": {
+      "zh": "打开表情符号选择面板",
+      "en": "Open the emoji picker panel"
+    },
+    "windows": "Ctrl + E",
+    "mac": "Cmd + E",
+    "linux": "",
+    "keywords": [
+      "表情",
+      "emoji"
+    ],
+    "pinyin": "da kai biao qing mian ban dakaibiaoqingmianban d k b q m b dkbqmb biao qing biaoqing b q bq"
+  },
+  {
+    "id": "whatsapp-send",
+    "appId": "whatsapp",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "发送消息",
+      "en": "Send Message"
+    },
+    "description": {
+      "zh": "发送当前输入的消息",
+      "en": "Send the message you typed"
+    },
+    "windows": "Enter",
+    "mac": "Enter",
+    "linux": "",
+    "keywords": [
+      "发送",
+      "send"
+    ],
+    "pinyin": "fa song xiao xi fasongxiaoxi f s x x fsxx fa song fasong f s fs"
+  },
+  {
+    "id": "whatsapp-newline",
+    "appId": "whatsapp",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "换行",
+      "en": "New Line"
+    },
+    "description": {
+      "zh": "在消息中插入换行",
+      "en": "Insert a new line in your message"
+    },
+    "windows": "Shift + Enter",
+    "mac": "Shift + Enter",
+    "linux": "",
+    "keywords": [
+      "换行",
+      "newline"
+    ],
+    "pinyin": "huan hang huanhang h h hh huan hang huanhang h h hh"
+  }
+]

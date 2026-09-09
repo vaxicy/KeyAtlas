@@ -1,1 +1,1294 @@
-[{"id":"sheets-move-cell","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"移动单元格","en":"Move one cell"},"description":{"zh":"用方向键在单元格间移动","en":"Move between cells with arrow keys"},"windows":"↑ ↓ ← →","mac":"↑ ↓ ← →","linux":"↑ ↓ ← →","keywords":["移动","方向","move","arrow"],"pinyin":"yi dong dan yuan ge yidongdanyuange y d d y g yddyg yi dong   fang xiang yidong fangxiang y d   f x yd fx"},{"id":"sheets-jump-edge","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"跳到数据块边缘","en":"Jump to edge of data block"},"description":{"zh":"跳到当前数据区域的边缘单元格","en":"Jump to the edge of the current data region"},"windows":"Ctrl + 方向键","mac":"⌘ 方向键","linux":"Ctrl + 方向键","keywords":["跳转","边缘","jump","edge"],"pinyin":"tiao dao shu ju kuai bian yuan tiaodaoshujukuaibianyuan t d s j k b y tdsjkby tiao zhuan   bian yuan tiaozhuan bianyuan t z   b y tz by"},{"id":"sheets-select-cells","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"选择单元格","en":"Select cells"},"description":{"zh":"按住 Shift 加方向键扩展选区","en":"Extend the selection with Shift+Arrow"},"windows":"Shift + 方向键","mac":"⇧ 方向键","linux":"Shift + 方向键","keywords":["选择","选区","select"],"pinyin":"xuan ze dan yuan ge xuanzedanyuange x z d y g xzdyg xuan ze   xuan qu xuanze xuanqu x z   x q xz xq"},{"id":"sheets-select-edge","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"选到数据块边缘","en":"Select to edge of data block"},"description":{"zh":"从当前单元格选到数据区域边缘","en":"Extend selection to the edge of the data region"},"windows":"Ctrl + Shift + 方向键","mac":"⌘ ⇧ 方向键","linux":"Ctrl + Shift + 方向键","keywords":["选择","选区","select","edge"],"pinyin":"xuan dao shu ju kuai bian yuan xuandaoshujukuaibianyuan x d s j k b y xdsjkby xuan ze   xuan qu xuanze xuanqu x z   x q xz xq"},{"id":"sheets-row-start-end","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"行首 / 行尾","en":"Beginning / end of row"},"description":{"zh":"跳到当前行的开头或结尾","en":"Go to the start or end of the current row"},"windows":"Home / End","mac":"⌘ ← / ⌘ →","linux":"Home / End","keywords":["行首","行尾","home","end","row"],"pinyin":"hang shou   /   hang wei hangshou / hangwei h s   /   h w hs / hw hang shou   hang wei hangshou hangwei h s   h w hs hw"},{"id":"sheets-sheet-home","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"表格开头 / 末尾","en":"Beginning / end of sheet"},"description":{"zh":"跳到整个表格的第一个或最后一个单元格","en":"Go to the first or last cell of the sheet"},"windows":"Ctrl + Home / Ctrl + End","mac":"⌘ Home / ⌘ End","linux":"Ctrl + Home / Ctrl + End","keywords":["表格","开头","末尾","home","end","sheet"],"pinyin":"biao ge kai tou   /   mo wei biaogekaitou / mowei b g k t   /   m w bgkt / mw biao ge   kai tou   mo wei biaoge kaitou mowei b g   k t   m w bg kt mw"},{"id":"sheets-scroll","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"翻页滚动","en":"Scroll one page"},"description":{"zh":"向上或向下滚动一页","en":"Scroll up or down one page"},"windows":"Page Up / Page Down","mac":"Page Up / Page Down","linux":"Page Up / Page Down","keywords":["滚动","翻页","scroll","page"],"pinyin":"fan ye gun dong fanyegundong f y g d fygd gun dong   fan ye gundong fanye g d   f y gd fy"},{"id":"sheets-dropdown","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"打开下拉列表","en":"Open dropdown list in cell"},"description":{"zh":"在含有下拉选项的单元格中打开列表","en":"Open the dropdown list inside a cell"},"windows":"Alt + ↓","mac":"⌥ ↓","linux":"Alt + ↓","keywords":["下拉","列表","dropdown"],"pinyin":"da kai xia la lie biao dakaixialaliebiao d k x l l b dkxllb xia la   lie biao xiala liebiao x l   l b xl lb"},{"id":"sheets-select-all","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"全选表格","en":"Select entire sheet"},"description":{"zh":"选中整个表格（按两次选中全部内容）","en":"Select the whole sheet (twice for all content)"},"windows":"Ctrl + A","mac":"⌘ A","linux":"Ctrl + A","keywords":["全选","select","all"],"pinyin":"quan xuan biao ge quanxuanbiaoge q x b g qxbg quan xuan quanxuan q x qx"},{"id":"sheets-select-row","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"选择整行","en":"Select row"},"description":{"zh":"选中当前单元格所在的整行","en":"Select the entire row of the current cell"},"windows":"Shift + 空格","mac":"⇧ 空格","linux":"Shift + 空格","keywords":["选择行","select","row"],"pinyin":"xuan ze zheng xing xuanzezhengxing x z z x xzzx xuan ze xing xuanzexing x z x xzx"},{"id":"sheets-select-col","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"选择整列","en":"Select column"},"description":{"zh":"选中当前单元格所在的整列","en":"Select the entire column of the current cell"},"windows":"Ctrl + 空格","mac":"⌘ 空格","linux":"Ctrl + 空格","keywords":["选择列","select","column"],"pinyin":"xuan ze zheng lie xuanzezhenglie x z z l xzzl xuan ze lie xuanzelie x z l xzl"},{"id":"sheets-select-data","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"选择数据区域","en":"Select data area"},"description":{"zh":"选中当前所有含数据的区域","en":"Select the current data region"},"windows":"Ctrl + Shift + 空格","mac":"⌘ ⇧ 空格","linux":"Ctrl + Shift + 空格","keywords":["选择","数据","select","data"],"pinyin":"xuan ze shu ju qu yu xuanzeshujuquyu x z s j q y xzsjqy xuan ze   shu ju xuanze shuju x z   s j xz sj"},{"id":"sheets-enter-down","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"确认并下移","en":"Finish entry, move down"},"description":{"zh":"确认输入并移动到下方单元格","en":"Confirm entry and move to the cell below"},"windows":"Enter","mac":"Enter","linux":"Enter","keywords":["确认","输入","enter"],"pinyin":"que ren bing xia yi querenbingxiayi q r b x y qrbxy que ren   shu ru queren shuru q r   s r qr sr"},{"id":"sheets-enter-up","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"确认并上移","en":"Finish entry, move up"},"description":{"zh":"确认输入并移动到上方单元格","en":"Confirm entry and move to the cell above"},"windows":"Shift + Enter","mac":"⇧ Enter","linux":"Shift + Enter","keywords":["确认","输入","enter"],"pinyin":"que ren bing shang yi querenbingshangyi q r b s y qrbsy que ren   shu ru queren shuru q r   s r qr sr"},{"id":"sheets-tab-right","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"确认并右移","en":"Finish entry, move right"},"description":{"zh":"确认输入并移动到右侧单元格","en":"Confirm entry and move to the cell on the right"},"windows":"Tab","mac":"Tab","linux":"Tab","keywords":["确认","tab","right"],"pinyin":"que ren bing you yi querenbingyouyi q r b y y qrbyy que ren queren q r qr"},{"id":"sheets-tab-left","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"确认并左移","en":"Finish entry, move left"},"description":{"zh":"确认输入并移动到左侧单元格","en":"Confirm entry and move to the cell on the left"},"windows":"Shift + Tab","mac":"⇧ Tab","linux":"Shift + Tab","keywords":["确认","tab","left"],"pinyin":"que ren bing zuo yi querenbingzuoyi q r b z y qrbzy que ren queren q r qr"},{"id":"sheets-date","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"插入当前日期","en":"Insert current date"},"description":{"zh":"在单元格中插入今天的日期","en":"Insert today's date into the cell"},"windows":"Ctrl + ;","mac":"⌘ ;","linux":"Ctrl + ;","keywords":["日期","date"],"pinyin":"cha ru dang qian ri qi charudangqianriqi c r d q r q crdqrq ri qi riqi r q rq"},{"id":"sheets-time","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"插入当前时间","en":"Insert current time"},"description":{"zh":"在单元格中插入当前时间","en":"Insert the current time into the cell"},"windows":"Ctrl + Shift + ;","mac":"⌘ ⇧ ;","linux":"Ctrl + Shift + ;","keywords":["时间","time"],"pinyin":"cha ru dang qian shi jian charudangqianshijian c r d q s j crdqsj shi jian shijian s j sj"},{"id":"sheets-datetime","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"插入日期和时间","en":"Insert date & time"},"description":{"zh":"在单元格中插入当前日期和时间","en":"Insert the current date and time into the cell"},"windows":"Ctrl + Alt + Shift + ;","mac":"⌘ ⌥ ⇧ ;","linux":"Ctrl + Alt + Shift + ;","keywords":["日期","时间","datetime"],"pinyin":"cha ru ri qi he shi jian charuriqiheshijian c r r q h s j crrqhsj ri qi   shi jian riqi shijian r q   s j rq sj"},{"id":"sheets-edit-cell","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"编辑单元格内容","en":"Edit cell content"},"description":{"zh":"进入编辑模式修改单元格内容","en":"Enter edit mode to modify the cell"},"windows":"F2","mac":"F2","linux":"F2","keywords":["编辑","edit"],"pinyin":"bian ji dan yuan ge nei rong bianjidanyuangeneirong b j d y g n r bjdygnr bian ji bianji b j bj"},{"id":"sheets-cancel","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"取消输入","en":"Cancel entry"},"description":{"zh":"取消当前输入并退出编辑","en":"Cancel the current entry and exit edit mode"},"windows":"Esc","mac":"Esc","linux":"Esc","keywords":["取消","cancel","esc"],"pinyin":"qu xiao shu ru quxiaoshuru q x s r qxsr qu xiao quxiao q x qx"},{"id":"sheets-bold","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"加粗","en":"Bold"},"description":{"zh":"将选中文字加粗","en":"Make the selection bold"},"windows":"Ctrl + B","mac":"⌘ B","linux":"Ctrl + B","keywords":["加粗","bold"],"pinyin":"jia cu jiacu j c jc jia cu jiacu j c jc"},{"id":"sheets-italic","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"斜体","en":"Italic"},"description":{"zh":"将选中文字设为斜体","en":"Make the selection italic"},"windows":"Ctrl + I","mac":"⌘ I","linux":"Ctrl + I","keywords":["斜体","italic"],"pinyin":"xie ti xieti x t xt xie ti xieti x t xt"},{"id":"sheets-underline","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"下划线","en":"Underline"},"description":{"zh":"为选中文字添加下划线","en":"Underline the selection"},"windows":"Ctrl + U","mac":"⌘ U","linux":"Ctrl + U","keywords":["下划线","underline"],"pinyin":"xia hua xian xiahuaxian x h x xhx xia hua xian xiahuaxian x h x xhx"},{"id":"sheets-strike","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"删除线","en":"Strikethrough"},"description":{"zh":"为选中文字添加删除线","en":"Strikethrough the selection"},"windows":"Alt + Shift + 5","mac":"⌘ ⇧ X","linux":"Alt + Shift + 5","keywords":["删除线","strikethrough"],"pinyin":"shan chu xian shanchuxian s c x scx shan chu xian shanchuxian s c x scx"},{"id":"sheets-border-add","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"添加边框","en":"Add borders"},"description":{"zh":"为选中区域添加外边框","en":"Add borders to the selection"},"windows":"Ctrl + Shift + 7","mac":"⌘ ⇧ 7","linux":"Ctrl + Shift + 7","keywords":["边框","border"],"pinyin":"tian jia bian kuang tianjiabiankuang t j b k tjbk bian kuang biankuang b k bk"},{"id":"sheets-border-remove","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"清除边框","en":"Remove borders"},"description":{"zh":"清除选中区域的边框","en":"Remove borders from the selection"},"windows":"Ctrl + Shift + _","mac":"⌘ ⇧ _","linux":"Ctrl + Shift + _","keywords":["边框","border","remove"],"pinyin":"qing chu bian kuang qingchubiankuang q c b k qcbk bian kuang biankuang b k bk"},{"id":"sheets-num-plain","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"数字格式：常规","en":"Number format: plain"},"description":{"zh":"将数字设为常规格式","en":"Apply the plain number format"},"windows":"Ctrl + Shift + 1","mac":"⌘ ⇧ 1","linux":"Ctrl + Shift + 1","keywords":["数字","格式","number","format"],"pinyin":"shu zi ge shi ： chang gui shuzigeshi：changgui s z g s ： c g szgs：cg shu zi   ge shi shuzi geshi s z   g s sz gs"},{"id":"sheets-num-decimal","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"数字格式：小数","en":"Number format: decimal"},"description":{"zh":"设为保留两位小数的格式","en":"Apply a two-decimal number format"},"windows":"Ctrl + Shift + 2","mac":"⌘ ⇧ 2","linux":"Ctrl + Shift + 2","keywords":["数字","小数","number","decimal"],"pinyin":"shu zi ge shi ： xiao shu shuzigeshi：xiaoshu s z g s ： x s szgs：xs shu zi   xiao shu shuzi xiaoshu s z   x s sz xs"},{"id":"sheets-num-currency","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"数字格式：货币","en":"Number format: currency"},"description":{"zh":"设为货币格式","en":"Apply a currency number format"},"windows":"Ctrl + Shift + 3","mac":"⌘ ⇧ 3","linux":"Ctrl + Shift + 3","keywords":["货币","数字","currency"],"pinyin":"shu zi ge shi ： huo bi shuzigeshi：huobi s z g s ： h b szgs：hb huo bi   shu zi huobi shuzi h b   s z hb sz"},{"id":"sheets-num-percent","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"数字格式：百分比","en":"Number format: percent"},"description":{"zh":"设为百分比格式","en":"Apply a percent number format"},"windows":"Ctrl + Shift + 4","mac":"⌘ ⇧ 4","linux":"Ctrl + Shift + 4","keywords":["百分比","数字","percent"],"pinyin":"shu zi ge shi ： bai fen bi shuzigeshi：baifenbi s z g s ： b f b szgs：bfb bai fen bi   shu zi baifenbi shuzi b f b   s z bfb sz"},{"id":"sheets-num-date","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"数字格式：日期","en":"Number format: date"},"description":{"zh":"设为日期格式","en":"Apply a date number format"},"windows":"Ctrl + Shift + 5","mac":"⌘ ⇧ 5","linux":"Ctrl + Shift + 5","keywords":["日期","数字","date"],"pinyin":"shu zi ge shi ： ri qi shuzigeshi：riqi s z g s ： r q szgs：rq ri qi   shu zi riqi shuzi r q   s z rq sz"},{"id":"sheets-num-time","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"数字格式：时间","en":"Number format: time"},"description":{"zh":"设为时间格式","en":"Apply a time number format"},"windows":"Ctrl + Shift + 6","mac":"⌘ ⇧ 6","linux":"Ctrl + Shift + 6","keywords":["时间","数字","time"],"pinyin":"shu zi ge shi ： shi jian shuzigeshi：shijian s z g s ： s j szgs：sj shi jian   shu zi shijian shuzi s j   s z sj sz"},{"id":"sheets-align-left","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"左对齐","en":"Align left"},"description":{"zh":"将内容左对齐","en":"Align content to the left"},"windows":"Ctrl + Shift + L","mac":"⌘ ⇧ L","linux":"Ctrl + Shift + L","keywords":["对齐","左","align","left"],"pinyin":"zuo dui qi zuoduiqi z d q zdq dui qi   zuo duiqi zuo d q   z dq z"},{"id":"sheets-align-center","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"居中","en":"Align center"},"description":{"zh":"将内容水平居中","en":"Center content horizontally"},"windows":"Ctrl + Shift + E","mac":"⌘ ⇧ E","linux":"Ctrl + Shift + E","keywords":["对齐","居中","align","center"],"pinyin":"ju zhong juzhong j z jz dui qi   ju zhong duiqi juzhong d q   j z dq jz"},{"id":"sheets-align-right","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"右对齐","en":"Align right"},"description":{"zh":"将内容右对齐","en":"Align content to the right"},"windows":"Ctrl + Shift + R","mac":"⌘ ⇧ R","linux":"Ctrl + Shift + R","keywords":["对齐","右","align","right"],"pinyin":"you dui qi youduiqi y d q ydq dui qi   you duiqi you d q   y dq y"},{"id":"sheets-wrap","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"自动换行","en":"Text wrap"},"description":{"zh":"切换单元格文字自动换行","en":"Toggle text wrapping in the cell"},"windows":"Ctrl + Shift + W","mac":"⌘ ⇧ W","linux":"Ctrl + Shift + W","keywords":["换行","wrap"],"pinyin":"zi dong huan hang zidonghuanhang z d h h zdhh huan hang huanhang h h hh"},{"id":"sheets-formula-start","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"输入公式","en":"Start formula"},"description":{"zh":"输入等号开始编写公式","en":"Type = to start writing a formula"},"windows":"=","mac":"=","linux":"=","keywords":["公式","等号","formula"],"pinyin":"shu ru gong shi shurugongshi s r g s srgs gong shi   deng hao gongshi denghao g s   d h gs dh"},{"id":"sheets-insert-fn","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"插入函数","en":"Insert function"},"description":{"zh":"打开函数插入窗口","en":"Open the function insertion dialog"},"windows":"Shift + F3","mac":"⇧ F3","linux":"Shift + F3","keywords":["函数","formula","function"],"pinyin":"cha ru han shu charuhanshu c r h s crhs han shu hanshu h s hs"},{"id":"sheets-autosum","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"自动求和","en":"Autosum"},"description":{"zh":"对选中区域快速求和","en":"Quickly sum the selected range"},"windows":"Alt + Shift + =","mac":"⌥ ⇧ =","linux":"Alt + Shift + =","keywords":["求和","sum"],"pinyin":"zi dong qiu he zidongqiuhe z d q h zdqh qiu he qiuhe q h qh"},{"id":"sheets-show-formulas","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"显示公式","en":"Show all formulas"},"description":{"zh":"切换显示公式本身而非计算结果","en":"Toggle showing formulas instead of results"},"windows":"Ctrl + `","mac":"⌘ `","linux":"Ctrl + `","keywords":["显示","公式","formula"],"pinyin":"xian shi gong shi xianshigongshi x s g s xsgs xian shi   gong shi xianshi gongshi x s   g s xs gs"},{"id":"sheets-lock-ref","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"锁定引用","en":"Lock reference"},"description":{"zh":"在公式中切换绝对/相对引用","en":"Toggle absolute/relative reference in a formula"},"windows":"F4","mac":"F4","linux":"F4","keywords":["锁定","引用","reference","absolute"],"pinyin":"suo ding yin yong suodingyinyong s d y y sdyy suo ding   yin yong suoding yinyong s d   y y sd yy"},{"id":"sheets-array","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"输入数组公式","en":"Enter array formula"},"description":{"zh":"以数组公式方式确认输入","en":"Confirm entry as an array formula"},"windows":"Ctrl + Shift + Enter","mac":"⌘ ⇧ Enter","linux":"Ctrl + Shift + Enter","keywords":["数组","公式","array","formula"],"pinyin":"shu ru shu zu gong shi shurushuzugongshi s r s z g s srszgs shu zu   gong shi shuzu gongshi s z   g s sz gs"},{"id":"sheets-help","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"快捷键列表","en":"Keyboard shortcuts list"},"description":{"zh":"打开所有快捷键的速查列表","en":"Open the full list of keyboard shortcuts"},"windows":"Ctrl / ","mac":"⌘ / ","linux":"Ctrl / ","keywords":["快捷键","帮助","shortcuts","help"],"pinyin":"kuai jie jian lie biao kuaijiejianliebiao k j j l b kjjlb kuai jie jian   bang zhu kuaijiejian bangzhu k j j   b z kjj bz"},{"id":"sheets-undo","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"撤销","en":"Undo"},"description":{"zh":"撤销上一步操作","en":"Undo the last action"},"windows":"Ctrl + Z","mac":"⌘ Z","linux":"Ctrl + Z","keywords":["撤销","undo"],"pinyin":"che xiao chexiao c x cx che xiao chexiao c x cx"},{"id":"sheets-redo","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"重做","en":"Redo"},"description":{"zh":"重做已撤销的操作","en":"Redo the last undone action"},"windows":"Ctrl + Y","mac":"⌘ Y","linux":"Ctrl + Y","keywords":["重做","redo"],"pinyin":"zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"},{"id":"sheets-find","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"查找","en":"Find"},"description":{"zh":"在表格中查找内容","en":"Find content in the sheet"},"windows":"Ctrl + F","mac":"⌘ F","linux":"Ctrl + F","keywords":["查找","find"],"pinyin":"cha zhao chazhao c z cz cha zhao chazhao c z cz"},{"id":"sheets-replace","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"查找和替换","en":"Find and replace"},"description":{"zh":"查找并替换表格中的内容","en":"Find and replace content in the sheet"},"windows":"Ctrl + H","mac":"⌘ ⇧ H","linux":"Ctrl + H","keywords":["替换","find","replace"],"pinyin":"cha zhao he ti huan chazhaohetihuan c z h t h czhth ti huan tihuan t h th"},{"id":"sheets-menu-search","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"搜索菜单","en":"Search the menus"},"description":{"zh":"打开菜单搜索框快速执行命令","en":"Open the menu search box to run commands"},"windows":"Alt / ","mac":"⌥ / ","linux":"Alt / ","keywords":["菜单","搜索","search","menu"],"pinyin":"sou suo cai dan sousuocaidan s s c d sscd cai dan   sou suo caidan sousuo c d   s s cd ss"},{"id":"sheets-history","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"版本历史","en":"Version history"},"description":{"zh":"打开版本历史记录面板","en":"Open the version history panel"},"windows":"Ctrl + Alt + Shift + H","mac":"⌘ ⌥ ⇧ H","linux":"Ctrl + Alt + Shift + H","keywords":["版本","历史","history","version"],"pinyin":"ban ben li shi banbenlishi b b l s bbls ban ben   li shi banben lishi b b   l s bb ls"},{"id":"sheets-spelling","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"拼写检查","en":"Spelling"},"description":{"zh":"打开拼写检查工具","en":"Open the spelling check tool"},"windows":"Ctrl + Alt + X","mac":"⌘ ⌥ X","linux":"Ctrl + Alt + X","keywords":["拼写","检查","spelling"],"pinyin":"pin xie jian cha pinxiejiancha p x j c pxjc pin xie   jian cha pinxie jiancha p x   j c px jc"},{"id":"sheets-chart","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"插入图表","en":"Insert chart"},"description":{"zh":"在当前工作表插入图表","en":"Insert a chart on the current sheet"},"windows":"Alt + F1","mac":"⌥ F1","linux":"Alt + F1","keywords":["图表","chart"],"pinyin":"cha ru tu biao charutubiao c r t b crtb tu biao tubiao t b tb"},{"id":"sheets-chart-new","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"新表插入图表","en":"Chart on new sheet"},"description":{"zh":"在独立工作表插入图表","en":"Insert a chart on a separate sheet"},"windows":"F11","mac":"F11","linux":"F11","keywords":["图表","chart"],"pinyin":"xin biao cha ru tu biao xinbiaocharutubiao x b c r t b xbcrtb tu biao tubiao t b tb"},{"id":"sheets-tools","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"侧边工具面板","en":"Side tools panel"},"description":{"zh":"打开右侧工具面板","en":"Open the side tools panel"},"windows":"Ctrl + Alt + Shift + I","mac":"⌘ ⌥ ⇧ I","linux":"Ctrl + Alt + Shift + I","keywords":["工具","面板","tools","panel"],"pinyin":"ce bian gong ju mian ban cebiangongjumianban c b g j m b cbgjmb gong ju   mian ban gongju mianban g j   m b gj mb"},{"id":"sheets-comment","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"插入评论","en":"Insert comment"},"description":{"zh":"为选中区域添加评论","en":"Add a comment to the selection"},"windows":"Ctrl + Alt + M","mac":"⌘ ⌥ M","linux":"Ctrl + Alt + M","keywords":["评论","comment"],"pinyin":"cha ru ping lun charupinglun c r p l crpl ping lun pinglun p l pl"},{"id":"sheets-note","appId":"googlesheets","type":"software","category":"productivity","name":{"zh":"插入备注","en":"Insert note"},"description":{"zh":"为单元格添加备注","en":"Add a note to the cell"},"windows":"Shift + F2","mac":"⇧ F2","linux":"Shift + F2","keywords":["备注","note"],"pinyin":"cha ru bei zhu charubeizhu c r b z crbz bei zhu beizhu b z bz"}]
+[
+  {
+    "id": "sheets-move-cell",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "移动单元格",
+      "en": "Move one cell"
+    },
+    "description": {
+      "zh": "用方向键在单元格间移动",
+      "en": "Move between cells with arrow keys"
+    },
+    "windows": "↑ ↓ ← →",
+    "mac": "↑ ↓ ← →",
+    "linux": "↑ ↓ ← →",
+    "keywords": [
+      "移动",
+      "方向",
+      "move",
+      "arrow"
+    ],
+    "pinyin": "yi dong dan yuan ge yidongdanyuange y d d y g yddyg yi dong   fang xiang yidong fangxiang y d   f x yd fx"
+  },
+  {
+    "id": "sheets-jump-edge",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "跳到数据块边缘",
+      "en": "Jump to edge of data block"
+    },
+    "description": {
+      "zh": "跳到当前数据区域的边缘单元格",
+      "en": "Jump to the edge of the current data region"
+    },
+    "windows": "Ctrl + 方向键",
+    "mac": "⌘ 方向键",
+    "linux": "Ctrl + 方向键",
+    "keywords": [
+      "跳转",
+      "边缘",
+      "jump",
+      "edge"
+    ],
+    "pinyin": "tiao dao shu ju kuai bian yuan tiaodaoshujukuaibianyuan t d s j k b y tdsjkby tiao zhuan   bian yuan tiaozhuan bianyuan t z   b y tz by"
+  },
+  {
+    "id": "sheets-select-cells",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "选择单元格",
+      "en": "Select cells"
+    },
+    "description": {
+      "zh": "按住 Shift 加方向键扩展选区",
+      "en": "Extend the selection with Shift+Arrow"
+    },
+    "windows": "Shift + 方向键",
+    "mac": "⇧ 方向键",
+    "linux": "Shift + 方向键",
+    "keywords": [
+      "选择",
+      "选区",
+      "select"
+    ],
+    "pinyin": "xuan ze dan yuan ge xuanzedanyuange x z d y g xzdyg xuan ze   xuan qu xuanze xuanqu x z   x q xz xq"
+  },
+  {
+    "id": "sheets-select-edge",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "选到数据块边缘",
+      "en": "Select to edge of data block"
+    },
+    "description": {
+      "zh": "从当前单元格选到数据区域边缘",
+      "en": "Extend selection to the edge of the data region"
+    },
+    "windows": "Ctrl + Shift + 方向键",
+    "mac": "⌘ ⇧ 方向键",
+    "linux": "Ctrl + Shift + 方向键",
+    "keywords": [
+      "选择",
+      "选区",
+      "select",
+      "edge"
+    ],
+    "pinyin": "xuan dao shu ju kuai bian yuan xuandaoshujukuaibianyuan x d s j k b y xdsjkby xuan ze   xuan qu xuanze xuanqu x z   x q xz xq"
+  },
+  {
+    "id": "sheets-row-start-end",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "行首 / 行尾",
+      "en": "Beginning / end of row"
+    },
+    "description": {
+      "zh": "跳到当前行的开头或结尾",
+      "en": "Go to the start or end of the current row"
+    },
+    "windows": "Home / End",
+    "mac": "⌘ ← / ⌘ →",
+    "linux": "Home / End",
+    "keywords": [
+      "行首",
+      "行尾",
+      "home",
+      "end",
+      "row"
+    ],
+    "pinyin": "hang shou   /   hang wei hangshou / hangwei h s   /   h w hs / hw hang shou   hang wei hangshou hangwei h s   h w hs hw"
+  },
+  {
+    "id": "sheets-sheet-home",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "表格开头 / 末尾",
+      "en": "Beginning / end of sheet"
+    },
+    "description": {
+      "zh": "跳到整个表格的第一个或最后一个单元格",
+      "en": "Go to the first or last cell of the sheet"
+    },
+    "windows": "Ctrl + Home / Ctrl + End",
+    "mac": "⌘ Home / ⌘ End",
+    "linux": "Ctrl + Home / Ctrl + End",
+    "keywords": [
+      "表格",
+      "开头",
+      "末尾",
+      "home",
+      "end",
+      "sheet"
+    ],
+    "pinyin": "biao ge kai tou   /   mo wei biaogekaitou / mowei b g k t   /   m w bgkt / mw biao ge   kai tou   mo wei biaoge kaitou mowei b g   k t   m w bg kt mw"
+  },
+  {
+    "id": "sheets-scroll",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "翻页滚动",
+      "en": "Scroll one page"
+    },
+    "description": {
+      "zh": "向上或向下滚动一页",
+      "en": "Scroll up or down one page"
+    },
+    "windows": "Page Up / Page Down",
+    "mac": "Page Up / Page Down",
+    "linux": "Page Up / Page Down",
+    "keywords": [
+      "滚动",
+      "翻页",
+      "scroll",
+      "page"
+    ],
+    "pinyin": "fan ye gun dong fanyegundong f y g d fygd gun dong   fan ye gundong fanye g d   f y gd fy"
+  },
+  {
+    "id": "sheets-dropdown",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "打开下拉列表",
+      "en": "Open dropdown list in cell"
+    },
+    "description": {
+      "zh": "在含有下拉选项的单元格中打开列表",
+      "en": "Open the dropdown list inside a cell"
+    },
+    "windows": "Alt + ↓",
+    "mac": "⌥ ↓",
+    "linux": "Alt + ↓",
+    "keywords": [
+      "下拉",
+      "列表",
+      "dropdown"
+    ],
+    "pinyin": "da kai xia la lie biao dakaixialaliebiao d k x l l b dkxllb xia la   lie biao xiala liebiao x l   l b xl lb"
+  },
+  {
+    "id": "sheets-select-all",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "全选表格",
+      "en": "Select entire sheet"
+    },
+    "description": {
+      "zh": "选中整个表格（按两次选中全部内容）",
+      "en": "Select the whole sheet (twice for all content)"
+    },
+    "windows": "Ctrl + A",
+    "mac": "⌘ A",
+    "linux": "Ctrl + A",
+    "keywords": [
+      "全选",
+      "select",
+      "all"
+    ],
+    "pinyin": "quan xuan biao ge quanxuanbiaoge q x b g qxbg quan xuan quanxuan q x qx"
+  },
+  {
+    "id": "sheets-select-row",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "选择整行",
+      "en": "Select row"
+    },
+    "description": {
+      "zh": "选中当前单元格所在的整行",
+      "en": "Select the entire row of the current cell"
+    },
+    "windows": "Shift + 空格",
+    "mac": "⇧ 空格",
+    "linux": "Shift + 空格",
+    "keywords": [
+      "选择行",
+      "select",
+      "row"
+    ],
+    "pinyin": "xuan ze zheng xing xuanzezhengxing x z z x xzzx xuan ze xing xuanzexing x z x xzx"
+  },
+  {
+    "id": "sheets-select-col",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "选择整列",
+      "en": "Select column"
+    },
+    "description": {
+      "zh": "选中当前单元格所在的整列",
+      "en": "Select the entire column of the current cell"
+    },
+    "windows": "Ctrl + 空格",
+    "mac": "⌘ 空格",
+    "linux": "Ctrl + 空格",
+    "keywords": [
+      "选择列",
+      "select",
+      "column"
+    ],
+    "pinyin": "xuan ze zheng lie xuanzezhenglie x z z l xzzl xuan ze lie xuanzelie x z l xzl"
+  },
+  {
+    "id": "sheets-select-data",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "选择数据区域",
+      "en": "Select data area"
+    },
+    "description": {
+      "zh": "选中当前所有含数据的区域",
+      "en": "Select the current data region"
+    },
+    "windows": "Ctrl + Shift + 空格",
+    "mac": "⌘ ⇧ 空格",
+    "linux": "Ctrl + Shift + 空格",
+    "keywords": [
+      "选择",
+      "数据",
+      "select",
+      "data"
+    ],
+    "pinyin": "xuan ze shu ju qu yu xuanzeshujuquyu x z s j q y xzsjqy xuan ze   shu ju xuanze shuju x z   s j xz sj"
+  },
+  {
+    "id": "sheets-enter-down",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "确认并下移",
+      "en": "Finish entry, move down"
+    },
+    "description": {
+      "zh": "确认输入并移动到下方单元格",
+      "en": "Confirm entry and move to the cell below"
+    },
+    "windows": "Enter",
+    "mac": "Enter",
+    "linux": "Enter",
+    "keywords": [
+      "确认",
+      "输入",
+      "enter"
+    ],
+    "pinyin": "que ren bing xia yi querenbingxiayi q r b x y qrbxy que ren   shu ru queren shuru q r   s r qr sr"
+  },
+  {
+    "id": "sheets-enter-up",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "确认并上移",
+      "en": "Finish entry, move up"
+    },
+    "description": {
+      "zh": "确认输入并移动到上方单元格",
+      "en": "Confirm entry and move to the cell above"
+    },
+    "windows": "Shift + Enter",
+    "mac": "⇧ Enter",
+    "linux": "Shift + Enter",
+    "keywords": [
+      "确认",
+      "输入",
+      "enter"
+    ],
+    "pinyin": "que ren bing shang yi querenbingshangyi q r b s y qrbsy que ren   shu ru queren shuru q r   s r qr sr"
+  },
+  {
+    "id": "sheets-tab-right",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "确认并右移",
+      "en": "Finish entry, move right"
+    },
+    "description": {
+      "zh": "确认输入并移动到右侧单元格",
+      "en": "Confirm entry and move to the cell on the right"
+    },
+    "windows": "Tab",
+    "mac": "Tab",
+    "linux": "Tab",
+    "keywords": [
+      "确认",
+      "tab",
+      "right"
+    ],
+    "pinyin": "que ren bing you yi querenbingyouyi q r b y y qrbyy que ren queren q r qr"
+  },
+  {
+    "id": "sheets-tab-left",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "确认并左移",
+      "en": "Finish entry, move left"
+    },
+    "description": {
+      "zh": "确认输入并移动到左侧单元格",
+      "en": "Confirm entry and move to the cell on the left"
+    },
+    "windows": "Shift + Tab",
+    "mac": "⇧ Tab",
+    "linux": "Shift + Tab",
+    "keywords": [
+      "确认",
+      "tab",
+      "left"
+    ],
+    "pinyin": "que ren bing zuo yi querenbingzuoyi q r b z y qrbzy que ren queren q r qr"
+  },
+  {
+    "id": "sheets-date",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "插入当前日期",
+      "en": "Insert current date"
+    },
+    "description": {
+      "zh": "在单元格中插入今天的日期",
+      "en": "Insert today's date into the cell"
+    },
+    "windows": "Ctrl + ;",
+    "mac": "⌘ ;",
+    "linux": "Ctrl + ;",
+    "keywords": [
+      "日期",
+      "date"
+    ],
+    "pinyin": "cha ru dang qian ri qi charudangqianriqi c r d q r q crdqrq ri qi riqi r q rq"
+  },
+  {
+    "id": "sheets-time",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "插入当前时间",
+      "en": "Insert current time"
+    },
+    "description": {
+      "zh": "在单元格中插入当前时间",
+      "en": "Insert the current time into the cell"
+    },
+    "windows": "Ctrl + Shift + ;",
+    "mac": "⌘ ⇧ ;",
+    "linux": "Ctrl + Shift + ;",
+    "keywords": [
+      "时间",
+      "time"
+    ],
+    "pinyin": "cha ru dang qian shi jian charudangqianshijian c r d q s j crdqsj shi jian shijian s j sj"
+  },
+  {
+    "id": "sheets-datetime",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "插入日期和时间",
+      "en": "Insert date & time"
+    },
+    "description": {
+      "zh": "在单元格中插入当前日期和时间",
+      "en": "Insert the current date and time into the cell"
+    },
+    "windows": "Ctrl + Alt + Shift + ;",
+    "mac": "⌘ ⌥ ⇧ ;",
+    "linux": "Ctrl + Alt + Shift + ;",
+    "keywords": [
+      "日期",
+      "时间",
+      "datetime"
+    ],
+    "pinyin": "cha ru ri qi he shi jian charuriqiheshijian c r r q h s j crrqhsj ri qi   shi jian riqi shijian r q   s j rq sj"
+  },
+  {
+    "id": "sheets-edit-cell",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "编辑单元格内容",
+      "en": "Edit cell content"
+    },
+    "description": {
+      "zh": "进入编辑模式修改单元格内容",
+      "en": "Enter edit mode to modify the cell"
+    },
+    "windows": "F2",
+    "mac": "F2",
+    "linux": "F2",
+    "keywords": [
+      "编辑",
+      "edit"
+    ],
+    "pinyin": "bian ji dan yuan ge nei rong bianjidanyuangeneirong b j d y g n r bjdygnr bian ji bianji b j bj"
+  },
+  {
+    "id": "sheets-cancel",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "取消输入",
+      "en": "Cancel entry"
+    },
+    "description": {
+      "zh": "取消当前输入并退出编辑",
+      "en": "Cancel the current entry and exit edit mode"
+    },
+    "windows": "Esc",
+    "mac": "Esc",
+    "linux": "Esc",
+    "keywords": [
+      "取消",
+      "cancel",
+      "esc"
+    ],
+    "pinyin": "qu xiao shu ru quxiaoshuru q x s r qxsr qu xiao quxiao q x qx"
+  },
+  {
+    "id": "sheets-bold",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "加粗",
+      "en": "Bold"
+    },
+    "description": {
+      "zh": "将选中文字加粗",
+      "en": "Make the selection bold"
+    },
+    "windows": "Ctrl + B",
+    "mac": "⌘ B",
+    "linux": "Ctrl + B",
+    "keywords": [
+      "加粗",
+      "bold"
+    ],
+    "pinyin": "jia cu jiacu j c jc jia cu jiacu j c jc"
+  },
+  {
+    "id": "sheets-italic",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "斜体",
+      "en": "Italic"
+    },
+    "description": {
+      "zh": "将选中文字设为斜体",
+      "en": "Make the selection italic"
+    },
+    "windows": "Ctrl + I",
+    "mac": "⌘ I",
+    "linux": "Ctrl + I",
+    "keywords": [
+      "斜体",
+      "italic"
+    ],
+    "pinyin": "xie ti xieti x t xt xie ti xieti x t xt"
+  },
+  {
+    "id": "sheets-underline",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "下划线",
+      "en": "Underline"
+    },
+    "description": {
+      "zh": "为选中文字添加下划线",
+      "en": "Underline the selection"
+    },
+    "windows": "Ctrl + U",
+    "mac": "⌘ U",
+    "linux": "Ctrl + U",
+    "keywords": [
+      "下划线",
+      "underline"
+    ],
+    "pinyin": "xia hua xian xiahuaxian x h x xhx xia hua xian xiahuaxian x h x xhx"
+  },
+  {
+    "id": "sheets-strike",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "删除线",
+      "en": "Strikethrough"
+    },
+    "description": {
+      "zh": "为选中文字添加删除线",
+      "en": "Strikethrough the selection"
+    },
+    "windows": "Alt + Shift + 5",
+    "mac": "⌘ ⇧ X",
+    "linux": "Alt + Shift + 5",
+    "keywords": [
+      "删除线",
+      "strikethrough"
+    ],
+    "pinyin": "shan chu xian shanchuxian s c x scx shan chu xian shanchuxian s c x scx"
+  },
+  {
+    "id": "sheets-border-add",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "添加边框",
+      "en": "Add borders"
+    },
+    "description": {
+      "zh": "为选中区域添加外边框",
+      "en": "Add borders to the selection"
+    },
+    "windows": "Ctrl + Shift + 7",
+    "mac": "⌘ ⇧ 7",
+    "linux": "Ctrl + Shift + 7",
+    "keywords": [
+      "边框",
+      "border"
+    ],
+    "pinyin": "tian jia bian kuang tianjiabiankuang t j b k tjbk bian kuang biankuang b k bk"
+  },
+  {
+    "id": "sheets-border-remove",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "清除边框",
+      "en": "Remove borders"
+    },
+    "description": {
+      "zh": "清除选中区域的边框",
+      "en": "Remove borders from the selection"
+    },
+    "windows": "Ctrl + Shift + _",
+    "mac": "⌘ ⇧ _",
+    "linux": "Ctrl + Shift + _",
+    "keywords": [
+      "边框",
+      "border",
+      "remove"
+    ],
+    "pinyin": "qing chu bian kuang qingchubiankuang q c b k qcbk bian kuang biankuang b k bk"
+  },
+  {
+    "id": "sheets-num-plain",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "数字格式：常规",
+      "en": "Number format: plain"
+    },
+    "description": {
+      "zh": "将数字设为常规格式",
+      "en": "Apply the plain number format"
+    },
+    "windows": "Ctrl + Shift + 1",
+    "mac": "⌘ ⇧ 1",
+    "linux": "Ctrl + Shift + 1",
+    "keywords": [
+      "数字",
+      "格式",
+      "number",
+      "format"
+    ],
+    "pinyin": "shu zi ge shi ： chang gui shuzigeshi：changgui s z g s ： c g szgs：cg shu zi   ge shi shuzi geshi s z   g s sz gs"
+  },
+  {
+    "id": "sheets-num-decimal",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "数字格式：小数",
+      "en": "Number format: decimal"
+    },
+    "description": {
+      "zh": "设为保留两位小数的格式",
+      "en": "Apply a two-decimal number format"
+    },
+    "windows": "Ctrl + Shift + 2",
+    "mac": "⌘ ⇧ 2",
+    "linux": "Ctrl + Shift + 2",
+    "keywords": [
+      "数字",
+      "小数",
+      "number",
+      "decimal"
+    ],
+    "pinyin": "shu zi ge shi ： xiao shu shuzigeshi：xiaoshu s z g s ： x s szgs：xs shu zi   xiao shu shuzi xiaoshu s z   x s sz xs"
+  },
+  {
+    "id": "sheets-num-currency",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "数字格式：货币",
+      "en": "Number format: currency"
+    },
+    "description": {
+      "zh": "设为货币格式",
+      "en": "Apply a currency number format"
+    },
+    "windows": "Ctrl + Shift + 3",
+    "mac": "⌘ ⇧ 3",
+    "linux": "Ctrl + Shift + 3",
+    "keywords": [
+      "货币",
+      "数字",
+      "currency"
+    ],
+    "pinyin": "shu zi ge shi ： huo bi shuzigeshi：huobi s z g s ： h b szgs：hb huo bi   shu zi huobi shuzi h b   s z hb sz"
+  },
+  {
+    "id": "sheets-num-percent",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "数字格式：百分比",
+      "en": "Number format: percent"
+    },
+    "description": {
+      "zh": "设为百分比格式",
+      "en": "Apply a percent number format"
+    },
+    "windows": "Ctrl + Shift + 4",
+    "mac": "⌘ ⇧ 4",
+    "linux": "Ctrl + Shift + 4",
+    "keywords": [
+      "百分比",
+      "数字",
+      "percent"
+    ],
+    "pinyin": "shu zi ge shi ： bai fen bi shuzigeshi：baifenbi s z g s ： b f b szgs：bfb bai fen bi   shu zi baifenbi shuzi b f b   s z bfb sz"
+  },
+  {
+    "id": "sheets-num-date",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "数字格式：日期",
+      "en": "Number format: date"
+    },
+    "description": {
+      "zh": "设为日期格式",
+      "en": "Apply a date number format"
+    },
+    "windows": "Ctrl + Shift + 5",
+    "mac": "⌘ ⇧ 5",
+    "linux": "Ctrl + Shift + 5",
+    "keywords": [
+      "日期",
+      "数字",
+      "date"
+    ],
+    "pinyin": "shu zi ge shi ： ri qi shuzigeshi：riqi s z g s ： r q szgs：rq ri qi   shu zi riqi shuzi r q   s z rq sz"
+  },
+  {
+    "id": "sheets-num-time",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "数字格式：时间",
+      "en": "Number format: time"
+    },
+    "description": {
+      "zh": "设为时间格式",
+      "en": "Apply a time number format"
+    },
+    "windows": "Ctrl + Shift + 6",
+    "mac": "⌘ ⇧ 6",
+    "linux": "Ctrl + Shift + 6",
+    "keywords": [
+      "时间",
+      "数字",
+      "time"
+    ],
+    "pinyin": "shu zi ge shi ： shi jian shuzigeshi：shijian s z g s ： s j szgs：sj shi jian   shu zi shijian shuzi s j   s z sj sz"
+  },
+  {
+    "id": "sheets-align-left",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "左对齐",
+      "en": "Align left"
+    },
+    "description": {
+      "zh": "将内容左对齐",
+      "en": "Align content to the left"
+    },
+    "windows": "Ctrl + Shift + L",
+    "mac": "⌘ ⇧ L",
+    "linux": "Ctrl + Shift + L",
+    "keywords": [
+      "对齐",
+      "左",
+      "align",
+      "left"
+    ],
+    "pinyin": "zuo dui qi zuoduiqi z d q zdq dui qi   zuo duiqi zuo d q   z dq z"
+  },
+  {
+    "id": "sheets-align-center",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "居中",
+      "en": "Align center"
+    },
+    "description": {
+      "zh": "将内容水平居中",
+      "en": "Center content horizontally"
+    },
+    "windows": "Ctrl + Shift + E",
+    "mac": "⌘ ⇧ E",
+    "linux": "Ctrl + Shift + E",
+    "keywords": [
+      "对齐",
+      "居中",
+      "align",
+      "center"
+    ],
+    "pinyin": "ju zhong juzhong j z jz dui qi   ju zhong duiqi juzhong d q   j z dq jz"
+  },
+  {
+    "id": "sheets-align-right",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "右对齐",
+      "en": "Align right"
+    },
+    "description": {
+      "zh": "将内容右对齐",
+      "en": "Align content to the right"
+    },
+    "windows": "Ctrl + Shift + R",
+    "mac": "⌘ ⇧ R",
+    "linux": "Ctrl + Shift + R",
+    "keywords": [
+      "对齐",
+      "右",
+      "align",
+      "right"
+    ],
+    "pinyin": "you dui qi youduiqi y d q ydq dui qi   you duiqi you d q   y dq y"
+  },
+  {
+    "id": "sheets-wrap",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "自动换行",
+      "en": "Text wrap"
+    },
+    "description": {
+      "zh": "切换单元格文字自动换行",
+      "en": "Toggle text wrapping in the cell"
+    },
+    "windows": "Ctrl + Shift + W",
+    "mac": "⌘ ⇧ W",
+    "linux": "Ctrl + Shift + W",
+    "keywords": [
+      "换行",
+      "wrap"
+    ],
+    "pinyin": "zi dong huan hang zidonghuanhang z d h h zdhh huan hang huanhang h h hh"
+  },
+  {
+    "id": "sheets-formula-start",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "输入公式",
+      "en": "Start formula"
+    },
+    "description": {
+      "zh": "输入等号开始编写公式",
+      "en": "Type = to start writing a formula"
+    },
+    "windows": "=",
+    "mac": "=",
+    "linux": "=",
+    "keywords": [
+      "公式",
+      "等号",
+      "formula"
+    ],
+    "pinyin": "shu ru gong shi shurugongshi s r g s srgs gong shi   deng hao gongshi denghao g s   d h gs dh"
+  },
+  {
+    "id": "sheets-insert-fn",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "插入函数",
+      "en": "Insert function"
+    },
+    "description": {
+      "zh": "打开函数插入窗口",
+      "en": "Open the function insertion dialog"
+    },
+    "windows": "Shift + F3",
+    "mac": "⇧ F3",
+    "linux": "Shift + F3",
+    "keywords": [
+      "函数",
+      "formula",
+      "function"
+    ],
+    "pinyin": "cha ru han shu charuhanshu c r h s crhs han shu hanshu h s hs"
+  },
+  {
+    "id": "sheets-autosum",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "自动求和",
+      "en": "Autosum"
+    },
+    "description": {
+      "zh": "对选中区域快速求和",
+      "en": "Quickly sum the selected range"
+    },
+    "windows": "Alt + Shift + =",
+    "mac": "⌥ ⇧ =",
+    "linux": "Alt + Shift + =",
+    "keywords": [
+      "求和",
+      "sum"
+    ],
+    "pinyin": "zi dong qiu he zidongqiuhe z d q h zdqh qiu he qiuhe q h qh"
+  },
+  {
+    "id": "sheets-show-formulas",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "显示公式",
+      "en": "Show all formulas"
+    },
+    "description": {
+      "zh": "切换显示公式本身而非计算结果",
+      "en": "Toggle showing formulas instead of results"
+    },
+    "windows": "Ctrl + `",
+    "mac": "⌘ `",
+    "linux": "Ctrl + `",
+    "keywords": [
+      "显示",
+      "公式",
+      "formula"
+    ],
+    "pinyin": "xian shi gong shi xianshigongshi x s g s xsgs xian shi   gong shi xianshi gongshi x s   g s xs gs"
+  },
+  {
+    "id": "sheets-lock-ref",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "锁定引用",
+      "en": "Lock reference"
+    },
+    "description": {
+      "zh": "在公式中切换绝对/相对引用",
+      "en": "Toggle absolute/relative reference in a formula"
+    },
+    "windows": "F4",
+    "mac": "F4",
+    "linux": "F4",
+    "keywords": [
+      "锁定",
+      "引用",
+      "reference",
+      "absolute"
+    ],
+    "pinyin": "suo ding yin yong suodingyinyong s d y y sdyy suo ding   yin yong suoding yinyong s d   y y sd yy"
+  },
+  {
+    "id": "sheets-array",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "输入数组公式",
+      "en": "Enter array formula"
+    },
+    "description": {
+      "zh": "以数组公式方式确认输入",
+      "en": "Confirm entry as an array formula"
+    },
+    "windows": "Ctrl + Shift + Enter",
+    "mac": "⌘ ⇧ Enter",
+    "linux": "Ctrl + Shift + Enter",
+    "keywords": [
+      "数组",
+      "公式",
+      "array",
+      "formula"
+    ],
+    "pinyin": "shu ru shu zu gong shi shurushuzugongshi s r s z g s srszgs shu zu   gong shi shuzu gongshi s z   g s sz gs"
+  },
+  {
+    "id": "sheets-help",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "快捷键列表",
+      "en": "Keyboard shortcuts list"
+    },
+    "description": {
+      "zh": "打开所有快捷键的速查列表",
+      "en": "Open the full list of keyboard shortcuts"
+    },
+    "windows": "Ctrl / ",
+    "mac": "⌘ / ",
+    "linux": "Ctrl / ",
+    "keywords": [
+      "快捷键",
+      "帮助",
+      "shortcuts",
+      "help"
+    ],
+    "pinyin": "kuai jie jian lie biao kuaijiejianliebiao k j j l b kjjlb kuai jie jian   bang zhu kuaijiejian bangzhu k j j   b z kjj bz"
+  },
+  {
+    "id": "sheets-undo",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销上一步操作",
+      "en": "Undo the last action"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "Ctrl + Z",
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "sheets-redo",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "重做已撤销的操作",
+      "en": "Redo the last undone action"
+    },
+    "windows": "Ctrl + Y",
+    "mac": "⌘ Y",
+    "linux": "Ctrl + Y",
+    "keywords": [
+      "重做",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "sheets-find",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "查找",
+      "en": "Find"
+    },
+    "description": {
+      "zh": "在表格中查找内容",
+      "en": "Find content in the sheet"
+    },
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
+    "linux": "Ctrl + F",
+    "keywords": [
+      "查找",
+      "find"
+    ],
+    "pinyin": "cha zhao chazhao c z cz cha zhao chazhao c z cz"
+  },
+  {
+    "id": "sheets-replace",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "查找和替换",
+      "en": "Find and replace"
+    },
+    "description": {
+      "zh": "查找并替换表格中的内容",
+      "en": "Find and replace content in the sheet"
+    },
+    "windows": "Ctrl + H",
+    "mac": "⌘ ⇧ H",
+    "linux": "Ctrl + H",
+    "keywords": [
+      "替换",
+      "find",
+      "replace"
+    ],
+    "pinyin": "cha zhao he ti huan chazhaohetihuan c z h t h czhth ti huan tihuan t h th"
+  },
+  {
+    "id": "sheets-menu-search",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "搜索菜单",
+      "en": "Search the menus"
+    },
+    "description": {
+      "zh": "打开菜单搜索框快速执行命令",
+      "en": "Open the menu search box to run commands"
+    },
+    "windows": "Alt / ",
+    "mac": "⌥ / ",
+    "linux": "Alt / ",
+    "keywords": [
+      "菜单",
+      "搜索",
+      "search",
+      "menu"
+    ],
+    "pinyin": "sou suo cai dan sousuocaidan s s c d sscd cai dan   sou suo caidan sousuo c d   s s cd ss"
+  },
+  {
+    "id": "sheets-history",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "版本历史",
+      "en": "Version history"
+    },
+    "description": {
+      "zh": "打开版本历史记录面板",
+      "en": "Open the version history panel"
+    },
+    "windows": "Ctrl + Alt + Shift + H",
+    "mac": "⌘ ⌥ ⇧ H",
+    "linux": "Ctrl + Alt + Shift + H",
+    "keywords": [
+      "版本",
+      "历史",
+      "history",
+      "version"
+    ],
+    "pinyin": "ban ben li shi banbenlishi b b l s bbls ban ben   li shi banben lishi b b   l s bb ls"
+  },
+  {
+    "id": "sheets-spelling",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "拼写检查",
+      "en": "Spelling"
+    },
+    "description": {
+      "zh": "打开拼写检查工具",
+      "en": "Open the spelling check tool"
+    },
+    "windows": "Ctrl + Alt + X",
+    "mac": "⌘ ⌥ X",
+    "linux": "Ctrl + Alt + X",
+    "keywords": [
+      "拼写",
+      "检查",
+      "spelling"
+    ],
+    "pinyin": "pin xie jian cha pinxiejiancha p x j c pxjc pin xie   jian cha pinxie jiancha p x   j c px jc"
+  },
+  {
+    "id": "sheets-chart",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "插入图表",
+      "en": "Insert chart"
+    },
+    "description": {
+      "zh": "在当前工作表插入图表",
+      "en": "Insert a chart on the current sheet"
+    },
+    "windows": "Alt + F1",
+    "mac": "⌥ F1",
+    "linux": "Alt + F1",
+    "keywords": [
+      "图表",
+      "chart"
+    ],
+    "pinyin": "cha ru tu biao charutubiao c r t b crtb tu biao tubiao t b tb"
+  },
+  {
+    "id": "sheets-chart-new",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "新表插入图表",
+      "en": "Chart on new sheet"
+    },
+    "description": {
+      "zh": "在独立工作表插入图表",
+      "en": "Insert a chart on a separate sheet"
+    },
+    "windows": "F11",
+    "mac": "F11",
+    "linux": "F11",
+    "keywords": [
+      "图表",
+      "chart"
+    ],
+    "pinyin": "xin biao cha ru tu biao xinbiaocharutubiao x b c r t b xbcrtb tu biao tubiao t b tb"
+  },
+  {
+    "id": "sheets-tools",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "侧边工具面板",
+      "en": "Side tools panel"
+    },
+    "description": {
+      "zh": "打开右侧工具面板",
+      "en": "Open the side tools panel"
+    },
+    "windows": "Ctrl + Alt + Shift + I",
+    "mac": "⌘ ⌥ ⇧ I",
+    "linux": "Ctrl + Alt + Shift + I",
+    "keywords": [
+      "工具",
+      "面板",
+      "tools",
+      "panel"
+    ],
+    "pinyin": "ce bian gong ju mian ban cebiangongjumianban c b g j m b cbgjmb gong ju   mian ban gongju mianban g j   m b gj mb"
+  },
+  {
+    "id": "sheets-comment",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "插入评论",
+      "en": "Insert comment"
+    },
+    "description": {
+      "zh": "为选中区域添加评论",
+      "en": "Add a comment to the selection"
+    },
+    "windows": "Ctrl + Alt + M",
+    "mac": "⌘ ⌥ M",
+    "linux": "Ctrl + Alt + M",
+    "keywords": [
+      "评论",
+      "comment"
+    ],
+    "pinyin": "cha ru ping lun charupinglun c r p l crpl ping lun pinglun p l pl"
+  },
+  {
+    "id": "sheets-note",
+    "appId": "googlesheets",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "插入备注",
+      "en": "Insert note"
+    },
+    "description": {
+      "zh": "为单元格添加备注",
+      "en": "Add a note to the cell"
+    },
+    "windows": "Shift + F2",
+    "mac": "⇧ F2",
+    "linux": "Shift + F2",
+    "keywords": [
+      "备注",
+      "note"
+    ],
+    "pinyin": "cha ru bei zhu charubeizhu c r b z crbz bei zhu beizhu b z bz"
+  }
+]

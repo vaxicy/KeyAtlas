@@ -1,1 +1,358 @@
-[{"id":"ios-spotlight","appId":"ios","type":"system","category":"system","name":{"zh":"聚焦搜索","en":"Spotlight Search"},"description":{"zh":"打开聚焦搜索","en":"Open Spotlight search"},"windows":"—","mac":"⌘ Space","linux":"—","keywords":["聚焦","spotlight","搜索"],"pinyin":"ju jiao sou suo jujiaosousuo j j s s jjss ju jiao   sou suo jujiao sousuo j j   s s jj ss"},{"id":"ios-app-switch","appId":"ios","type":"system","category":"system","name":{"zh":"应用切换器","en":"App Switcher"},"description":{"zh":"打开多任务切换","en":"Open app switcher"},"windows":"—","mac":"⌘ Tab","linux":"—","keywords":["应用切换","app switcher"],"pinyin":"ying yong qie huan qi yingyongqiehuanqi y y q h q yyqhq ying yong qie huan yingyongqiehuan y y q h yyqh"},{"id":"ios-home","appId":"ios","type":"system","category":"system","name":{"zh":"回到主屏幕","en":"Go to Home"},"description":{"zh":"返回主屏幕","en":"Return to home screen"},"windows":"—","mac":"⌘ H","linux":"—","keywords":["主屏幕","home"],"pinyin":"hui dao zhu ping mu huidaozhupingmu h d z p m hdzpm zhu ping mu zhupingmu z p m zpm"},{"id":"ios-screenshot","appId":"ios","type":"system","category":"system","name":{"zh":"截全屏","en":"Screenshot"},"description":{"zh":"截取整个屏幕","en":"Capture whole screen"},"windows":"—","mac":"⌘ ⇧ 3","linux":"—","keywords":["截图","screenshot"],"pinyin":"jie quan ping jiequanping j q p jqp jie tu jietu j t jt"},{"id":"ios-screenshot-region","appId":"ios","type":"system","category":"system","name":{"zh":"区域截图","en":"Screenshot Region"},"description":{"zh":"截取所选区域","en":"Capture selected region"},"windows":"—","mac":"⌘ ⇧ 4","linux":"—","keywords":["区域截图","screenshot region"],"pinyin":"qu yu jie tu quyujietu q y j t qyjt qu yu jie tu quyujietu q y j t qyjt"},{"id":"ios-emoji","appId":"ios","type":"system","category":"system","name":{"zh":"表情符号面板","en":"Emoji Picker"},"description":{"zh":"打开表情符号选择器","en":"Open emoji picker"},"windows":"—","mac":"⌃ ⌘ Space","linux":"—","keywords":["表情","emoji"],"pinyin":"biao qing fu hao mian ban biaoqingfuhaomianban b q f h m b bqfhmb biao qing biaoqing b q bq"},{"id":"ios-undo","appId":"ios","type":"system","category":"system","name":{"zh":"撤销","en":"Undo"},"description":{"zh":"撤销输入","en":"Undo typing"},"windows":"—","mac":"⌘ Z","linux":"—","keywords":["撤销","undo"],"pinyin":"che xiao chexiao c x cx che xiao chexiao c x cx"},{"id":"ios-redo","appId":"ios","type":"system","category":"system","name":{"zh":"重做","en":"Redo"},"description":{"zh":"重做输入","en":"Redo typing"},"windows":"—","mac":"⌘ ⇧ Z","linux":"—","keywords":["重做","redo"],"pinyin":"zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"},{"id":"ios-copy","appId":"ios","type":"system","category":"system","name":{"zh":"复制","en":"Copy"},"description":{"zh":"复制选中内容","en":"Copy selection"},"windows":"—","mac":"⌘ C","linux":"—","keywords":["复制","copy"],"pinyin":"fu zhi fuzhi f z fz fu zhi fuzhi f z fz"},{"id":"ios-paste","appId":"ios","type":"system","category":"system","name":{"zh":"粘贴","en":"Paste"},"description":{"zh":"粘贴内容","en":"Paste"},"windows":"—","mac":"⌘ V","linux":"—","keywords":["粘贴","paste"],"pinyin":"nian tie niantie n t nt nian tie niantie n t nt"},{"id":"ios-selectall","appId":"ios","type":"system","category":"system","name":{"zh":"全选","en":"Select All"},"description":{"zh":"选中全部文本","en":"Select all text"},"windows":"—","mac":"⌘ A","linux":"—","keywords":["全选","select all"],"pinyin":"quan xuan quanxuan q x qx quan xuan quanxuan q x qx"},{"id":"ios-line-start","appId":"ios","type":"system","category":"system","name":{"zh":"行首/行尾","en":"Line Start / End"},"description":{"zh":"移动光标到行首或行尾","en":"Move cursor to line start/end"},"windows":"—","mac":"⌘ ← / ⌘ →","linux":"—","keywords":["行首","line start"],"pinyin":"hang shou / hang wei hangshou/hangwei h s / h w hs/hw hang shou hangshou h s hs"},{"id":"ios-word-nav","appId":"ios","type":"system","category":"system","name":{"zh":"按词移动","en":"Word Navigation"},"description":{"zh":"按单词左右移动光标","en":"Move cursor by word"},"windows":"—","mac":"⌥ ← / ⌥ →","linux":"—","keywords":["单词","word","navigation"],"pinyin":"an ci yi dong anciyidong a c y d acyd dan ci danci d c dc"},{"id":"ios-doc-nav","appId":"ios","type":"system","category":"system","name":{"zh":"文首/文尾","en":"Doc Start / End"},"description":{"zh":"移动光标到文档开头或结尾","en":"Move to doc start/end"},"windows":"—","mac":"⌘ ↑ / ⌘ ↓","linux":"—","keywords":["文首","doc start"],"pinyin":"wen shou / wen wei wenshou/wenwei w s / w w ws/ww wen shou wenshou w s ws"},{"id":"ios-select","appId":"ios","type":"system","category":"system","name":{"zh":"扩展选择","en":"Extend Selection"},"description":{"zh":"配合方向键扩展选区","en":"Extend selection with arrows"},"windows":"—","mac":"Shift + Arrow","linux":"—","keywords":["选择","select","shift"],"pinyin":"kuo zhan xuan ze kuozhanxuanze k z x z kzxz xuan ze xuanze x z xz"},{"id":"ios-globe","appId":"ios","type":"system","category":"system","name":{"zh":"切换键盘","en":"Switch Keyboard"},"description":{"zh":"地球键切换输入法/表情","en":"Globe key switches input/emoji"},"windows":"—","mac":"Globe (Fn)","linux":"—","keywords":["地球键","globe","keyboard"],"pinyin":"qie huan jian pan qiehuanjianpan q h j p qhjp di qiu jian diqiujian d q j dqj"}]
+[
+  {
+    "id": "ios-spotlight",
+    "appId": "ios",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "聚焦搜索",
+      "en": "Spotlight Search"
+    },
+    "description": {
+      "zh": "打开聚焦搜索",
+      "en": "Open Spotlight search"
+    },
+    "windows": "—",
+    "mac": "⌘ Space",
+    "linux": "—",
+    "keywords": [
+      "聚焦",
+      "spotlight",
+      "搜索"
+    ],
+    "pinyin": "ju jiao sou suo jujiaosousuo j j s s jjss ju jiao   sou suo jujiao sousuo j j   s s jj ss"
+  },
+  {
+    "id": "ios-app-switch",
+    "appId": "ios",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "应用切换器",
+      "en": "App Switcher"
+    },
+    "description": {
+      "zh": "打开多任务切换",
+      "en": "Open app switcher"
+    },
+    "windows": "—",
+    "mac": "⌘ Tab",
+    "linux": "—",
+    "keywords": [
+      "应用切换",
+      "app switcher"
+    ],
+    "pinyin": "ying yong qie huan qi yingyongqiehuanqi y y q h q yyqhq ying yong qie huan yingyongqiehuan y y q h yyqh"
+  },
+  {
+    "id": "ios-home",
+    "appId": "ios",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "回到主屏幕",
+      "en": "Go to Home"
+    },
+    "description": {
+      "zh": "返回主屏幕",
+      "en": "Return to home screen"
+    },
+    "windows": "—",
+    "mac": "⌘ H",
+    "linux": "—",
+    "keywords": [
+      "主屏幕",
+      "home"
+    ],
+    "pinyin": "hui dao zhu ping mu huidaozhupingmu h d z p m hdzpm zhu ping mu zhupingmu z p m zpm"
+  },
+  {
+    "id": "ios-screenshot",
+    "appId": "ios",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "截全屏",
+      "en": "Screenshot"
+    },
+    "description": {
+      "zh": "截取整个屏幕",
+      "en": "Capture whole screen"
+    },
+    "windows": "—",
+    "mac": "⌘ ⇧ 3",
+    "linux": "—",
+    "keywords": [
+      "截图",
+      "screenshot"
+    ],
+    "pinyin": "jie quan ping jiequanping j q p jqp jie tu jietu j t jt"
+  },
+  {
+    "id": "ios-screenshot-region",
+    "appId": "ios",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "区域截图",
+      "en": "Screenshot Region"
+    },
+    "description": {
+      "zh": "截取所选区域",
+      "en": "Capture selected region"
+    },
+    "windows": "—",
+    "mac": "⌘ ⇧ 4",
+    "linux": "—",
+    "keywords": [
+      "区域截图",
+      "screenshot region"
+    ],
+    "pinyin": "qu yu jie tu quyujietu q y j t qyjt qu yu jie tu quyujietu q y j t qyjt"
+  },
+  {
+    "id": "ios-emoji",
+    "appId": "ios",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "表情符号面板",
+      "en": "Emoji Picker"
+    },
+    "description": {
+      "zh": "打开表情符号选择器",
+      "en": "Open emoji picker"
+    },
+    "windows": "—",
+    "mac": "⌃ ⌘ Space",
+    "linux": "—",
+    "keywords": [
+      "表情",
+      "emoji"
+    ],
+    "pinyin": "biao qing fu hao mian ban biaoqingfuhaomianban b q f h m b bqfhmb biao qing biaoqing b q bq"
+  },
+  {
+    "id": "ios-undo",
+    "appId": "ios",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销输入",
+      "en": "Undo typing"
+    },
+    "windows": "—",
+    "mac": "⌘ Z",
+    "linux": "—",
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "ios-redo",
+    "appId": "ios",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "重做输入",
+      "en": "Redo typing"
+    },
+    "windows": "—",
+    "mac": "⌘ ⇧ Z",
+    "linux": "—",
+    "keywords": [
+      "重做",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "ios-copy",
+    "appId": "ios",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "复制",
+      "en": "Copy"
+    },
+    "description": {
+      "zh": "复制选中内容",
+      "en": "Copy selection"
+    },
+    "windows": "—",
+    "mac": "⌘ C",
+    "linux": "—",
+    "keywords": [
+      "复制",
+      "copy"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "ios-paste",
+    "appId": "ios",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "粘贴",
+      "en": "Paste"
+    },
+    "description": {
+      "zh": "粘贴内容",
+      "en": "Paste"
+    },
+    "windows": "—",
+    "mac": "⌘ V",
+    "linux": "—",
+    "keywords": [
+      "粘贴",
+      "paste"
+    ],
+    "pinyin": "nian tie niantie n t nt nian tie niantie n t nt"
+  },
+  {
+    "id": "ios-selectall",
+    "appId": "ios",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "全选",
+      "en": "Select All"
+    },
+    "description": {
+      "zh": "选中全部文本",
+      "en": "Select all text"
+    },
+    "windows": "—",
+    "mac": "⌘ A",
+    "linux": "—",
+    "keywords": [
+      "全选",
+      "select all"
+    ],
+    "pinyin": "quan xuan quanxuan q x qx quan xuan quanxuan q x qx"
+  },
+  {
+    "id": "ios-line-start",
+    "appId": "ios",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "行首/行尾",
+      "en": "Line Start / End"
+    },
+    "description": {
+      "zh": "移动光标到行首或行尾",
+      "en": "Move cursor to line start/end"
+    },
+    "windows": "—",
+    "mac": "⌘ ← / ⌘ →",
+    "linux": "—",
+    "keywords": [
+      "行首",
+      "line start"
+    ],
+    "pinyin": "hang shou / hang wei hangshou/hangwei h s / h w hs/hw hang shou hangshou h s hs"
+  },
+  {
+    "id": "ios-word-nav",
+    "appId": "ios",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "按词移动",
+      "en": "Word Navigation"
+    },
+    "description": {
+      "zh": "按单词左右移动光标",
+      "en": "Move cursor by word"
+    },
+    "windows": "—",
+    "mac": "⌥ ← / ⌥ →",
+    "linux": "—",
+    "keywords": [
+      "单词",
+      "word",
+      "navigation"
+    ],
+    "pinyin": "an ci yi dong anciyidong a c y d acyd dan ci danci d c dc"
+  },
+  {
+    "id": "ios-doc-nav",
+    "appId": "ios",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "文首/文尾",
+      "en": "Doc Start / End"
+    },
+    "description": {
+      "zh": "移动光标到文档开头或结尾",
+      "en": "Move to doc start/end"
+    },
+    "windows": "—",
+    "mac": "⌘ ↑ / ⌘ ↓",
+    "linux": "—",
+    "keywords": [
+      "文首",
+      "doc start"
+    ],
+    "pinyin": "wen shou / wen wei wenshou/wenwei w s / w w ws/ww wen shou wenshou w s ws"
+  },
+  {
+    "id": "ios-select",
+    "appId": "ios",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "扩展选择",
+      "en": "Extend Selection"
+    },
+    "description": {
+      "zh": "配合方向键扩展选区",
+      "en": "Extend selection with arrows"
+    },
+    "windows": "—",
+    "mac": "Shift + Arrow",
+    "linux": "—",
+    "keywords": [
+      "选择",
+      "select",
+      "shift"
+    ],
+    "pinyin": "kuo zhan xuan ze kuozhanxuanze k z x z kzxz xuan ze xuanze x z xz"
+  },
+  {
+    "id": "ios-globe",
+    "appId": "ios",
+    "type": "system",
+    "category": "system",
+    "name": {
+      "zh": "切换键盘",
+      "en": "Switch Keyboard"
+    },
+    "description": {
+      "zh": "地球键切换输入法/表情",
+      "en": "Globe key switches input/emoji"
+    },
+    "windows": "—",
+    "mac": "Globe (Fn)",
+    "linux": "—",
+    "keywords": [
+      "地球键",
+      "globe",
+      "keyboard"
+    ],
+    "pinyin": "qie huan jian pan qiehuanjianpan q h j p qhjp di qiu jian diqiujian d q j dqj"
+  }
+]

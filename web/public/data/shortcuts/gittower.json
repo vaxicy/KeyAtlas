@@ -1,0 +1,535 @@
+[
+  {
+    "id": "gittower-commit",
+    "appId": "gittower",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Commit",
+      "zh": "提交"
+    },
+    "description": {
+      "en": "Commit changes",
+      "zh": "提交更改"
+    },
+    "windows": "Ctrl + Enter",
+    "mac": "⌘ ↩",
+    "linux": "Ctrl + Enter",
+    "keywords": [
+      "commit",
+      "提交"
+    ],
+    "pinyin": "ti jiao tijiao t j tj ti jiao tijiao t j tj"
+  },
+  {
+    "id": "gittower-push",
+    "appId": "gittower",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Push",
+      "zh": "推送"
+    },
+    "description": {
+      "en": "Push to remote",
+      "zh": "推送到远程"
+    },
+    "windows": "Ctrl + Alt + P",
+    "mac": "⌥ ⌘ P",
+    "linux": "Ctrl + Alt + P",
+    "keywords": [
+      "push",
+      "推送"
+    ],
+    "pinyin": "tui song tuisong t s ts tui song tuisong t s ts"
+  },
+  {
+    "id": "gittower-pull",
+    "appId": "gittower",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Pull",
+      "zh": "拉取"
+    },
+    "description": {
+      "en": "Pull from remote",
+      "zh": "从远程拉取"
+    },
+    "windows": "Ctrl + Alt + K",
+    "mac": "⌥ ⌘ K",
+    "linux": "Ctrl + Alt + K",
+    "keywords": [
+      "pull",
+      "拉取"
+    ],
+    "pinyin": "la qu laqu l q lq la qu laqu l q lq"
+  },
+  {
+    "id": "gittower-fetch",
+    "appId": "gittower",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Fetch",
+      "zh": "获取"
+    },
+    "description": {
+      "en": "Fetch from remote",
+      "zh": "从远程获取"
+    },
+    "windows": "Ctrl + Alt + F",
+    "mac": "⌥ ⌘ F",
+    "linux": "Ctrl + Alt + F",
+    "keywords": [
+      "fetch",
+      "获取"
+    ],
+    "pinyin": "huo qu huoqu h q hq huo qu huoqu h q hq"
+  },
+  {
+    "id": "gittower-new-branch",
+    "appId": "gittower",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "New branch",
+      "zh": "新建分支"
+    },
+    "description": {
+      "en": "Create a branch",
+      "zh": "新建分支"
+    },
+    "windows": "Ctrl + Shift + N",
+    "mac": "⇧ ⌘ N",
+    "linux": "Ctrl + Shift + N",
+    "keywords": [
+      "branch",
+      "分支"
+    ],
+    "pinyin": "xin jian fen zhi xinjianfenzhi x j f z xjfz fen zhi fenzhi f z fz"
+  },
+  {
+    "id": "gittower-checkout",
+    "appId": "gittower",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Checkout",
+      "zh": "检出"
+    },
+    "description": {
+      "en": "Checkout a branch",
+      "zh": "检出分支"
+    },
+    "windows": "Ctrl + Alt + C",
+    "mac": "⌥ ⌘ C",
+    "linux": "Ctrl + Alt + C",
+    "keywords": [
+      "checkout",
+      "检出"
+    ],
+    "pinyin": "jian chu jianchu j c jc jian chu jianchu j c jc"
+  },
+  {
+    "id": "gittower-merge",
+    "appId": "gittower",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Merge",
+      "zh": "合并"
+    },
+    "description": {
+      "en": "Merge a branch",
+      "zh": "合并分支"
+    },
+    "windows": "Ctrl + Alt + M",
+    "mac": "⌥ ⌘ M",
+    "linux": "Ctrl + Alt + M",
+    "keywords": [
+      "merge",
+      "合并"
+    ],
+    "pinyin": "he bing hebing h b hb he bing hebing h b hb"
+  },
+  {
+    "id": "gittower-rebase",
+    "appId": "gittower",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Rebase",
+      "zh": "变基"
+    },
+    "description": {
+      "en": "Rebase a branch",
+      "zh": "变基分支"
+    },
+    "windows": "Ctrl + Alt + R",
+    "mac": "⌥ ⌘ R",
+    "linux": "Ctrl + Alt + R",
+    "keywords": [
+      "rebase",
+      "变基"
+    ],
+    "pinyin": "bian ji bianji b j bj bian ji bianji b j bj"
+  },
+  {
+    "id": "gittower-stash",
+    "appId": "gittower",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Stash",
+      "zh": "贮藏"
+    },
+    "description": {
+      "en": "Stash changes",
+      "zh": "贮藏更改"
+    },
+    "windows": "Ctrl + Alt + H",
+    "mac": "⌥ ⌘ H",
+    "linux": "Ctrl + Alt + H",
+    "keywords": [
+      "stash",
+      "贮藏"
+    ],
+    "pinyin": "zhu cang zhucang z c zc zhu cang zhucang z c zc"
+  },
+  {
+    "id": "gittower-stage",
+    "appId": "gittower",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Stage",
+      "zh": "暂存"
+    },
+    "description": {
+      "en": "Stage selection",
+      "zh": "暂存选中"
+    },
+    "windows": "Ctrl + Alt + S",
+    "mac": "⌥ ⌘ S",
+    "linux": "Ctrl + Alt + S",
+    "keywords": [
+      "stage",
+      "暂存"
+    ],
+    "pinyin": "zan cun zancun z c zc zan cun zancun z c zc"
+  },
+  {
+    "id": "gittower-unstage",
+    "appId": "gittower",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Unstage",
+      "zh": "取消暂存"
+    },
+    "description": {
+      "en": "Unstage selection",
+      "zh": "取消暂存"
+    },
+    "windows": "Ctrl + Alt + U",
+    "mac": "⌥ ⌘ U",
+    "linux": "Ctrl + Alt + U",
+    "keywords": [
+      "unstage",
+      "取消暂存"
+    ],
+    "pinyin": "qu xiao zan cun quxiaozancun q x z c qxzc qu xiao zan cun quxiaozancun q x z c qxzc"
+  },
+  {
+    "id": "gittower-refresh",
+    "appId": "gittower",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Refresh",
+      "zh": "刷新"
+    },
+    "description": {
+      "en": "Refresh repository",
+      "zh": "刷新仓库"
+    },
+    "windows": "Ctrl + R",
+    "mac": "⌘ R",
+    "linux": "Ctrl + R",
+    "keywords": [
+      "refresh",
+      "刷新"
+    ],
+    "pinyin": "shua xin shuaxin s x sx shua xin shuaxin s x sx"
+  },
+  {
+    "id": "gittower-find",
+    "appId": "gittower",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Find",
+      "zh": "查找"
+    },
+    "description": {
+      "en": "Find in repository",
+      "zh": "在仓库查找"
+    },
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
+    "linux": "Ctrl + F",
+    "keywords": [
+      "find",
+      "查找"
+    ],
+    "pinyin": "cha zhao chazhao c z cz cha zhao chazhao c z cz"
+  },
+  {
+    "id": "gittower-preferences",
+    "appId": "gittower",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Preferences",
+      "zh": "偏好设置"
+    },
+    "description": {
+      "en": "Open preferences",
+      "zh": "打开偏好设置"
+    },
+    "windows": "Ctrl + ,",
+    "mac": "⌘ ,",
+    "linux": "Ctrl + ,",
+    "keywords": [
+      "preferences",
+      "设置"
+    ],
+    "pinyin": "pian hao she zhi pianhaoshezhi p h s z phsz she zhi shezhi s z sz"
+  },
+  {
+    "id": "gittower-new-repo",
+    "appId": "gittower",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "New repo",
+      "zh": "新建仓库"
+    },
+    "description": {
+      "en": "Create a repository",
+      "zh": "新建仓库"
+    },
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
+    "linux": "Ctrl + N",
+    "keywords": [
+      "new",
+      "repo",
+      "仓库"
+    ],
+    "pinyin": "xin jian cang ku xinjiancangku x j c k xjck cang ku cangku c k ck"
+  },
+  {
+    "id": "gittower-clone",
+    "appId": "gittower",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Clone",
+      "zh": "克隆"
+    },
+    "description": {
+      "en": "Clone a repository",
+      "zh": "克隆仓库"
+    },
+    "windows": "Ctrl + Shift + O",
+    "mac": "⇧ ⌘ O",
+    "linux": "Ctrl + Shift + O",
+    "keywords": [
+      "clone",
+      "克隆"
+    ],
+    "pinyin": "ke long kelong k l kl ke long kelong k l kl"
+  },
+  {
+    "id": "gittower-terminal",
+    "appId": "gittower",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Terminal",
+      "zh": "终端"
+    },
+    "description": {
+      "en": "Open terminal at repo",
+      "zh": "在仓库打开终端"
+    },
+    "windows": "Ctrl + Alt + T",
+    "mac": "⌥ ⌘ T",
+    "linux": "Ctrl + Alt + T",
+    "keywords": [
+      "terminal",
+      "终端"
+    ],
+    "pinyin": "zhong duan zhongduan z d zd zhong duan zhongduan z d zd"
+  },
+  {
+    "id": "gittower-finder",
+    "appId": "gittower",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Show in Finder",
+      "zh": "在文件管理器显示"
+    },
+    "description": {
+      "en": "Reveal in file manager",
+      "zh": "在文件管理器显示"
+    },
+    "windows": "Ctrl + Alt + R",
+    "mac": "⌥ ⌘ R",
+    "linux": "Ctrl + Alt + R",
+    "keywords": [
+      "finder",
+      "reveal",
+      "显示"
+    ],
+    "pinyin": "zai wen jian guan li qi xian shi zaiwenjianguanliqixianshi z w j g l q x s zwjglqxs xian shi xianshi x s xs"
+  },
+  {
+    "id": "gittower-next-file",
+    "appId": "gittower",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Next file",
+      "zh": "下一文件"
+    },
+    "description": {
+      "en": "Next changed file",
+      "zh": "下一改动文件"
+    },
+    "windows": "Ctrl + ]",
+    "mac": "⌘ ]",
+    "linux": "Ctrl + ]",
+    "keywords": [
+      "next",
+      "file",
+      "文件"
+    ],
+    "pinyin": "xia yi wen jian xiayiwenjian x y w j xywj wen jian wenjian w j wj"
+  },
+  {
+    "id": "gittower-prev-file",
+    "appId": "gittower",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Prev file",
+      "zh": "上一文件"
+    },
+    "description": {
+      "en": "Previous changed file",
+      "zh": "上一改动文件"
+    },
+    "windows": "Ctrl + [",
+    "mac": "⌘ [",
+    "linux": "Ctrl + [",
+    "keywords": [
+      "prev",
+      "file",
+      "文件"
+    ],
+    "pinyin": "shang yi wen jian shangyiwenjian s y w j sywj wen jian wenjian w j wj"
+  },
+  {
+    "id": "gittower-resolve",
+    "appId": "gittower",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Resolve conflicts",
+      "zh": "解决冲突"
+    },
+    "description": {
+      "en": "Open conflict resolver",
+      "zh": "打开冲突解决"
+    },
+    "windows": "Ctrl + Alt + E",
+    "mac": "⌥ ⌘ E",
+    "linux": "Ctrl + Alt + E",
+    "keywords": [
+      "resolve",
+      "conflict",
+      "冲突"
+    ],
+    "pinyin": "jie jue chong tu jiejuechongtu j j c t jjct chong tu chongtu c t ct"
+  },
+  {
+    "id": "gittower-blame",
+    "appId": "gittower",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Blame",
+      "zh": "追溯"
+    },
+    "description": {
+      "en": "Show blame view",
+      "zh": "显示追溯"
+    },
+    "windows": "Ctrl + Shift + B",
+    "mac": "⇧ ⌘ B",
+    "linux": "Ctrl + Shift + B",
+    "keywords": [
+      "blame",
+      "追溯"
+    ],
+    "pinyin": "zhui su zhuisu z s zs zhui su zhuisu z s zs"
+  },
+  {
+    "id": "gittower-diff",
+    "appId": "gittower",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Show diff",
+      "zh": "显示差异"
+    },
+    "description": {
+      "en": "Show diff of selection",
+      "zh": "显示选中差异"
+    },
+    "windows": "Space",
+    "mac": "Space",
+    "linux": "Space",
+    "keywords": [
+      "diff",
+      "差异"
+    ],
+    "pinyin": "xian shi cha yi xianshichayi x s c y xscy cha yi chayi c y cy"
+  },
+  {
+    "id": "gittower-new-tag",
+    "appId": "gittower",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "New tag",
+      "zh": "新建标签"
+    },
+    "description": {
+      "en": "Create a tag",
+      "zh": "新建标签"
+    },
+    "windows": "Ctrl + Shift + T",
+    "mac": "⇧ ⌘ T",
+    "linux": "Ctrl + Shift + T",
+    "keywords": [
+      "tag",
+      "标签"
+    ],
+    "pinyin": "xin jian biao qian xinjianbiaoqian x j b q xjbq biao qian biaoqian b q bq"
+  }
+]

@@ -1,1 +1,1551 @@
-[{"id":"inks-selector","appId":"inkscape","type":"software","category":"design","name":{"zh":"选择工具","en":"Selector tool"},"description":{"zh":"选择工具（S）","en":"Selector tool (S)"},"windows":"S","mac":"S","linux":"S","keywords":["选择工具","Selector tool","选择","select"],"pinyin":"xuan ze gong ju xuanzegongju x z g j xzgj xuan ze gong ju   xuan ze xuanzegongju xuanze x z g j   x z xzgj xz"},{"id":"inks-node","appId":"inkscape","type":"software","category":"design","name":{"zh":"节点工具","en":"Node tool"},"description":{"zh":"节点工具（N）","en":"Node tool (N)"},"windows":"N","mac":"N","linux":"N","keywords":["节点工具","Node tool","节点","node","路径"],"pinyin":"jie dian gong ju jiediangongju j d g j jdgj jie dian gong ju   jie dian   lu jing jiediangongju jiedian lujing j d g j   j d   l j jdgj jd lj"},{"id":"inks-shapebuilder","appId":"inkscape","type":"software","category":"design","name":{"zh":"形状生成工具","en":"Shape Builder"},"description":{"zh":"形状生成工具（X）","en":"Shape Builder (X)"},"windows":"X","mac":"X","linux":"X","keywords":["形状生成工具","Shape Builder","形状","shape"],"pinyin":"xing zhuang sheng cheng gong ju xingzhuangshengchenggongju x z s c g j xzscgj xing zhuang sheng cheng gong ju   xing zhuang xingzhuangshengchenggongju xingzhuang x z s c g j   x z xzscgj xz"},{"id":"inks-rect","appId":"inkscape","type":"software","category":"design","name":{"zh":"矩形工具","en":"Rectangle tool"},"description":{"zh":"矩形工具（R）","en":"Rectangle tool (R)"},"windows":"R","mac":"R","linux":"R","keywords":["矩形工具","Rectangle tool","矩形","rectangle"],"pinyin":"ju xing gong ju juxinggongju j x g j jxgj ju xing gong ju   ju xing juxinggongju juxing j x g j   j x jxgj jx"},{"id":"inks-ellipse","appId":"inkscape","type":"software","category":"design","name":{"zh":"椭圆/弧线工具","en":"Ellipse/Arc tool"},"description":{"zh":"椭圆/弧线工具（E）","en":"Ellipse/Arc tool (E)"},"windows":"E","mac":"E","linux":"E","keywords":["椭圆/弧线工具","Ellipse/Arc tool","椭圆","ellipse","arc"],"pinyin":"tuo yuan / hu xian gong ju tuoyuan/huxiangongju t y / h x g j ty/hxgj tuo yuan / hu xian gong ju   tuo yuan tuoyuan/huxiangongju tuoyuan t y / h x g j   t y ty/hxgj ty"},{"id":"inks-star","appId":"inkscape","type":"software","category":"design","name":{"zh":"星形工具","en":"Star tool"},"description":{"zh":"星形工具（*）","en":"Star tool (*)"},"windows":"*","mac":"*","linux":"*","keywords":["星形工具","Star tool","星形","star"],"pinyin":"xing xing gong ju xingxinggongju x x g j xxgj xing xing gong ju   xing xing xingxinggongju xingxing x x g j   x x xxgj xx"},{"id":"inks-box3d","appId":"inkscape","type":"software","category":"design","name":{"zh":"立体框工具","en":"3D Box tool"},"description":{"zh":"立体框工具（Shift+F4）","en":"3D Box tool (Shift+F4)"},"windows":"Shift+F4","mac":"Shift+F4","linux":"Shift+F4","keywords":["立体框工具","3D Box tool","3d","立体"],"pinyin":"li ti kuang gong ju litikuanggongju l t k g j ltkgj li ti kuang gong ju   li ti litikuanggongju liti l t k g j   l t ltkgj lt"},{"id":"inks-spiral","appId":"inkscape","type":"software","category":"design","name":{"zh":"螺旋工具","en":"Spiral tool"},"description":{"zh":"螺旋工具（I）","en":"Spiral tool (I)"},"windows":"I","mac":"I","linux":"I","keywords":["螺旋工具","Spiral tool","螺旋","spiral"],"pinyin":"luo xuan gong ju luoxuangongju l x g j lxgj luo xuan gong ju   luo xuan luoxuangongju luoxuan l x g j   l x lxgj lx"},{"id":"inks-pen","appId":"inkscape","type":"software","category":"design","name":{"zh":"钢笔工具","en":"Pen (Bezier) tool"},"description":{"zh":"钢笔工具（B）","en":"Pen (Bezier) tool (B)"},"windows":"B","mac":"B","linux":"B","keywords":["钢笔工具","Pen (Bezier) tool","钢笔","pen","bezier"],"pinyin":"gang bi gong ju gangbigongju g b g j gbgj gang bi gong ju   gang bi gangbigongju gangbi g b g j   g b gbgj gb"},{"id":"inks-pencil","appId":"inkscape","type":"software","category":"design","name":{"zh":"铅笔工具","en":"Pencil (Freehand) tool"},"description":{"zh":"铅笔工具（P）","en":"Pencil (Freehand) tool (P)"},"windows":"P","mac":"P","linux":"P","keywords":["铅笔工具","Pencil (Freehand) tool","铅笔","pencil","freehand"],"pinyin":"qian bi gong ju qianbigongju q b g j qbgj qian bi gong ju   qian bi qianbigongju qianbi q b g j   q b qbgj qb"},{"id":"inks-calligraphy","appId":"inkscape","type":"software","category":"design","name":{"zh":"书法工具","en":"Calligraphy tool"},"description":{"zh":"书法工具（C）","en":"Calligraphy tool (C)"},"windows":"C","mac":"C","linux":"C","keywords":["书法工具","Calligraphy tool","书法","calligraphy"],"pinyin":"shu fa gong ju shufagongju s f g j sfgj shu fa gong ju   shu fa shufagongju shufa s f g j   s f sfgj sf"},{"id":"inks-text","appId":"inkscape","type":"software","category":"design","name":{"zh":"文字工具","en":"Text tool"},"description":{"zh":"文字工具（T）","en":"Text tool (T)"},"windows":"T","mac":"T","linux":"T","keywords":["文字工具","Text tool","文字","text","字体"],"pinyin":"wen zi gong ju wenzigongju w z g j wzgj wen zi gong ju   wen zi   zi ti wenzigongju wenzi ziti w z g j   w z   z t wzgj wz zt"},{"id":"inks-gradient","appId":"inkscape","type":"software","category":"design","name":{"zh":"渐变工具","en":"Gradient tool"},"description":{"zh":"渐变工具（G）","en":"Gradient tool (G)"},"windows":"G","mac":"G","linux":"G","keywords":["渐变工具","Gradient tool","渐变","gradient"],"pinyin":"jian bian gong ju jianbiangongju j b g j jbgj jian bian gong ju   jian bian jianbiangongju jianbian j b g j   j b jbgj jb"},{"id":"inks-dropper","appId":"inkscape","type":"software","category":"design","name":{"zh":"取色工具","en":"Dropper tool"},"description":{"zh":"取色工具（D）","en":"Dropper tool (D)"},"windows":"D","mac":"D","linux":"D","keywords":["取色工具","Dropper tool","取色","eyedropper","颜色"],"pinyin":"qu se gong ju qusegongju q s g j qsgj qu se gong ju   qu se   yan se qusegongju quse yanse q s g j   q s   y s qsgj qs ys"},{"id":"inks-bucket","appId":"inkscape","type":"software","category":"design","name":{"zh":"油漆桶工具","en":"Paint Bucket tool"},"description":{"zh":"油漆桶工具（U）","en":"Paint Bucket tool (U)"},"windows":"U","mac":"U","linux":"U","keywords":["油漆桶工具","Paint Bucket tool","油漆桶","bucket","填充"],"pinyin":"you qi tong gong ju youqitonggongju y q t g j yqtgj you qi tong gong ju   you qi tong   tian chong youqitonggongju youqitong tianchong y q t g j   y q t   t c yqtgj yqt tc"},{"id":"inks-tweak","appId":"inkscape","type":"software","category":"design","name":{"zh":"调整工具","en":"Tweak tool"},"description":{"zh":"调整工具（W）","en":"Tweak tool (W)"},"windows":"W","mac":"W","linux":"W","keywords":["调整工具","Tweak tool","调整","tweak"],"pinyin":"tiao zheng gong ju tiaozhenggongju t z g j tzgj tiao zheng gong ju   tiao zheng tiaozhenggongju tiaozheng t z g j   t z tzgj tz"},{"id":"inks-spray","appId":"inkscape","type":"software","category":"design","name":{"zh":"喷射工具","en":"Spray tool"},"description":{"zh":"喷射工具（A）","en":"Spray tool (A)"},"windows":"A","mac":"A","linux":"A","keywords":["喷射工具","Spray tool","喷射","spray"],"pinyin":"pen she gong ju penshegongju p s g j psgj pen she gong ju   pen she penshegongju penshe p s g j   p s psgj ps"},{"id":"inks-eraser","appId":"inkscape","type":"software","category":"design","name":{"zh":"橡皮擦工具","en":"Eraser tool"},"description":{"zh":"橡皮擦工具（Shift+E）","en":"Eraser tool (Shift+E)"},"windows":"Shift+E","mac":"Shift+E","linux":"Shift+E","keywords":["橡皮擦工具","Eraser tool","橡皮","eraser"],"pinyin":"xiang pi ca gong ju xiangpicagongju x p c g j xpcgj xiang pi ca gong ju   xiang pi xiangpicagongju xiangpi x p c g j   x p xpcgj xp"},{"id":"inks-connector","appId":"inkscape","type":"software","category":"design","name":{"zh":"连接工具","en":"Connector tool"},"description":{"zh":"连接工具（O）","en":"Connector tool (O)"},"windows":"O","mac":"O","linux":"O","keywords":["连接工具","Connector tool","连接","connector"],"pinyin":"lian jie gong ju lianjiegongju l j g j ljgj lian jie gong ju   lian jie lianjiegongju lianjie l j g j   l j ljgj lj"},{"id":"inks-measure","appId":"inkscape","type":"software","category":"design","name":{"zh":"测量工具","en":"Measure tool"},"description":{"zh":"测量工具（M）","en":"Measure tool (M)"},"windows":"M","mac":"M","linux":"M","keywords":["测量工具","Measure tool","测量","measure"],"pinyin":"ce liang gong ju celianggongju c l g j clgj ce liang gong ju   ce liang celianggongju celiang c l g j   c l clgj cl"},{"id":"inks-zoom","appId":"inkscape","type":"software","category":"design","name":{"zh":"缩放工具","en":"Zoom tool"},"description":{"zh":"缩放工具（Z）","en":"Zoom tool (Z)"},"windows":"Z","mac":"Z","linux":"Z","keywords":["缩放工具","Zoom tool","缩放","zoom"],"pinyin":"suo fang gong ju suofanggongju s f g j sfgj suo fang gong ju   suo fang suofanggongju suofang s f g j   s f sfgj sf"},{"id":"inks-selectall-layer","appId":"inkscape","type":"software","category":"design","name":{"zh":"全选(当前图层)","en":"Select all (current layer)"},"description":{"zh":"全选(当前图层)（Ctrl+A）","en":"Select all (current layer) (Ctrl+A)"},"windows":"Ctrl+A","mac":"Ctrl+A","linux":"Ctrl+A","keywords":["全选(当前图层)","Select all (current layer)","全选","select all"],"pinyin":"quan xuan ( dang qian tu ceng ) quanxuan(dangqiantuceng) q x ( d q t c ) qx(dqtc) quan xuan ( dang qian tu ceng )   quan xuan quanxuan(dangqiantuceng) quanxuan q x ( d q t c )   q x qx(dqtc) qx"},{"id":"inks-selectall-all","appId":"inkscape","type":"software","category":"design","name":{"zh":"全选(所有图层)","en":"Select all (all layers)"},"description":{"zh":"全选(所有图层)（Ctrl+Alt+A）","en":"Select all (all layers) (Ctrl+Alt+A)"},"windows":"Ctrl+Alt+A","mac":"Ctrl+Alt+A","linux":"Ctrl+Alt+A","keywords":["全选(所有图层)","Select all (all layers)","全选","all layers"],"pinyin":"quan xuan ( suo you tu ceng ) quanxuan(suoyoutuceng) q x ( s y t c ) qx(sytc) quan xuan ( suo you tu ceng )   quan xuan quanxuan(suoyoutuceng) quanxuan q x ( s y t c )   q x qx(sytc) qx"},{"id":"inks-deselect","appId":"inkscape","type":"software","category":"design","name":{"zh":"取消选择","en":"Deselect"},"description":{"zh":"取消选择（Esc）","en":"Deselect (Esc)"},"windows":"Esc","mac":"Esc","linux":"Esc","keywords":["取消选择","Deselect","取消","deselect"],"pinyin":"qu xiao xuan ze quxiaoxuanze q x x z qxxz qu xiao xuan ze   qu xiao quxiaoxuanze quxiao q x x z   q x qxxz qx"},{"id":"inks-delete","appId":"inkscape","type":"software","category":"design","name":{"zh":"删除所选","en":"Delete selection"},"description":{"zh":"删除所选（Del）","en":"Delete selection (Del)"},"windows":"Del","mac":"Del","linux":"Del","keywords":["删除所选","Delete selection","删除","delete"],"pinyin":"shan chu suo xuan shanchusuoxuan s c s x scsx shan chu suo xuan   shan chu shanchusuoxuan shanchu s c s x   s c scsx sc"},{"id":"inks-duplicate","appId":"inkscape","type":"software","category":"design","name":{"zh":"原地复制","en":"Duplicate"},"description":{"zh":"原地复制（Ctrl+D）","en":"Duplicate (Ctrl+D)"},"windows":"Ctrl+D","mac":"Ctrl+D","linux":"Ctrl+D","keywords":["原地复制","Duplicate","复制","duplicate"],"pinyin":"yuan di fu zhi yuandifuzhi y d f z ydfz yuan di fu zhi   fu zhi yuandifuzhi fuzhi y d f z   f z ydfz fz"},{"id":"inks-group","appId":"inkscape","type":"software","category":"design","name":{"zh":"编组","en":"Group"},"description":{"zh":"编组（Ctrl+G）","en":"Group (Ctrl+G)"},"windows":"Ctrl+G","mac":"Ctrl+G","linux":"Ctrl+G","keywords":["编组","Group","group"],"pinyin":"bian zu bianzu b z bz bian zu bianzu b z bz"},{"id":"inks-ungroup","appId":"inkscape","type":"software","category":"design","name":{"zh":"取消编组","en":"Ungroup"},"description":{"zh":"取消编组（Ctrl+Shift+G）","en":"Ungroup (Ctrl+Shift+G)"},"windows":"Ctrl+Shift+G","mac":"Ctrl+Shift+G","linux":"Ctrl+Shift+G","keywords":["取消编组","Ungroup","ungroup"],"pinyin":"qu xiao bian zu quxiaobianzu q x b z qxbz qu xiao bian zu quxiaobianzu q x b z qxbz"},{"id":"inks-raise-top","appId":"inkscape","type":"software","category":"design","name":{"zh":"置于顶层","en":"Raise to top"},"description":{"zh":"置于顶层（Home）","en":"Raise to top (Home)"},"windows":"Home","mac":"Home","linux":"Home","keywords":["置于顶层","Raise to top","顶层","top"],"pinyin":"zhi yu ding ceng zhiyudingceng z y d c zydc zhi yu ding ceng   ding ceng zhiyudingceng dingceng z y d c   d c zydc dc"},{"id":"inks-lower-bottom","appId":"inkscape","type":"software","category":"design","name":{"zh":"置于底层","en":"Lower to bottom"},"description":{"zh":"置于底层（End）","en":"Lower to bottom (End)"},"windows":"End","mac":"End","linux":"End","keywords":["置于底层","Lower to bottom","底层","bottom"],"pinyin":"zhi yu di ceng zhiyudiceng z y d c zydc zhi yu di ceng   di ceng zhiyudiceng diceng z y d c   d c zydc dc"},{"id":"inks-raise-step","appId":"inkscape","type":"software","category":"design","name":{"zh":"上移一层","en":"Raise one step"},"description":{"zh":"上移一层（PageUp）","en":"Raise one step (PageUp)"},"windows":"PageUp","mac":"PageUp","linux":"PageUp","keywords":["上移一层","Raise one step","上移","raise"],"pinyin":"shang yi yi ceng shangyiyiceng s y y c syyc shang yi yi ceng   shang yi shangyiyiceng shangyi s y y c   s y syyc sy"},{"id":"inks-lower-step","appId":"inkscape","type":"software","category":"design","name":{"zh":"下移一层","en":"Lower one step"},"description":{"zh":"下移一层（PageDown）","en":"Lower one step (PageDown)"},"windows":"PageDown","mac":"PageDown","linux":"PageDown","keywords":["下移一层","Lower one step","下移","lower"],"pinyin":"xia yi yi ceng xiayiyiceng x y y c xyyc xia yi yi ceng   xia yi xiayiyiceng xiayi x y y c   x y xyyc xy"},{"id":"inks-zoom-in","appId":"inkscape","type":"software","category":"design","name":{"zh":"放大","en":"Zoom in"},"description":{"zh":"放大（=）","en":"Zoom in (=)"},"windows":"=","mac":"=","linux":"=","keywords":["放大","Zoom in","zoom in"],"pinyin":"fang da fangda f d fd fang da fangda f d fd"},{"id":"inks-zoom-out","appId":"inkscape","type":"software","category":"design","name":{"zh":"缩小","en":"Zoom out"},"description":{"zh":"缩小（-）","en":"Zoom out (-)"},"windows":"-","mac":"-","linux":"-","keywords":["缩小","Zoom out","zoom out"],"pinyin":"suo xiao suoxiao s x sx suo xiao suoxiao s x sx"},{"id":"inks-zoom-100","appId":"inkscape","type":"software","category":"design","name":{"zh":"实际大小","en":"Zoom 1:1"},"description":{"zh":"实际大小（1）","en":"Zoom 1:1 (1)"},"windows":"1","mac":"1","linux":"1","keywords":["实际大小","Zoom 1:1","actual size"],"pinyin":"shi ji da xiao shijidaxiao s j d x sjdx shi ji da xiao shijidaxiao s j d x sjdx"},{"id":"inks-zoom-sel","appId":"inkscape","type":"software","category":"design","name":{"zh":"缩放到选区","en":"Zoom to selection"},"description":{"zh":"缩放到选区（3）","en":"Zoom to selection (3)"},"windows":"3","mac":"3","linux":"3","keywords":["缩放到选区","Zoom to selection","选区","selection"],"pinyin":"suo fang dao xuan qu suofangdaoxuanqu s f d x q sfdxq suo fang dao xuan qu   xuan qu suofangdaoxuanqu xuanqu s f d x q   x q sfdxq xq"},{"id":"inks-zoom-page","appId":"inkscape","type":"software","category":"design","name":{"zh":"缩放到页面","en":"Zoom to page"},"description":{"zh":"缩放到页面（5）","en":"Zoom to page (5)"},"windows":"5","mac":"5","linux":"5","keywords":["缩放到页面","Zoom to page","页面","page"],"pinyin":"suo fang dao ye mian suofangdaoyemian s f d y m sfdym suo fang dao ye mian   ye mian suofangdaoyemian yemian s f d y m   y m sfdym ym"},{"id":"inks-zoom-width","appId":"inkscape","type":"software","category":"design","name":{"zh":"缩放到页宽","en":"Zoom to page width"},"description":{"zh":"缩放到页宽（6）","en":"Zoom to page width (6)"},"windows":"6","mac":"6","linux":"6","keywords":["缩放到页宽","Zoom to page width","页宽","width"],"pinyin":"suo fang dao ye kuan suofangdaoyekuan s f d y k sfdyk suo fang dao ye kuan   ye kuan suofangdaoyekuan yekuan s f d y k   y k sfdyk yk"},{"id":"inks-quick-zoom","appId":"inkscape","type":"software","category":"design","name":{"zh":"快速缩放","en":"Quick zoom"},"description":{"zh":"快速缩放（Q）","en":"Quick zoom (Q)"},"windows":"Q","mac":"Q","linux":"Q","keywords":["快速缩放","Quick zoom","快速","quick"],"pinyin":"kuai su suo fang kuaisusuofang k s s f kssf kuai su suo fang   kuai su kuaisusuofang kuaisu k s s f   k s kssf ks"},{"id":"inks-new-layer","appId":"inkscape","type":"software","category":"design","name":{"zh":"新建图层","en":"New layer"},"description":{"zh":"新建图层（Ctrl+Shift+N）","en":"New layer (Ctrl+Shift+N)"},"windows":"Ctrl+Shift+N","mac":"Ctrl+Shift+N","linux":"Ctrl+Shift+N","keywords":["新建图层","New layer","new layer"],"pinyin":"xin jian tu ceng xinjiantuceng x j t c xjtc xin jian tu ceng xinjiantuceng x j t c xjtc"},{"id":"inks-raise-layer","appId":"inkscape","type":"software","category":"design","name":{"zh":"上移图层","en":"Raise layer"},"description":{"zh":"上移图层（Ctrl+Shift+PageUp）","en":"Raise layer (Ctrl+Shift+PageUp)"},"windows":"Ctrl+Shift+PageUp","mac":"Ctrl+Shift+PageUp","linux":"Ctrl+Shift+PageUp","keywords":["上移图层","Raise layer","图层","layer"],"pinyin":"shang yi tu ceng shangyituceng s y t c sytc shang yi tu ceng   tu ceng shangyituceng tuceng s y t c   t c sytc tc"},{"id":"inks-lower-layer","appId":"inkscape","type":"software","category":"design","name":{"zh":"下移图层","en":"Lower layer"},"description":{"zh":"下移图层（Ctrl+Shift+PageDown）","en":"Lower layer (Ctrl+Shift+PageDown)"},"windows":"Ctrl+Shift+PageDown","mac":"Ctrl+Shift+PageDown","linux":"Ctrl+Shift+PageDown","keywords":["下移图层","Lower layer","图层","layer"],"pinyin":"xia yi tu ceng xiayituceng x y t c xytc xia yi tu ceng   tu ceng xiayituceng tuceng x y t c   t c xytc tc"},{"id":"inks-raise-layer-top","appId":"inkscape","type":"software","category":"design","name":{"zh":"图层置顶","en":"Raise layer to top"},"description":{"zh":"图层置顶（Ctrl+Shift+Home）","en":"Raise layer to top (Ctrl+Shift+Home)"},"windows":"Ctrl+Shift+Home","mac":"Ctrl+Shift+Home","linux":"Ctrl+Shift+Home","keywords":["图层置顶","Raise layer to top","图层","layer"],"pinyin":"tu ceng zhi ding tucengzhiding t c z d tczd tu ceng zhi ding   tu ceng tucengzhiding tuceng t c z d   t c tczd tc"},{"id":"inks-lower-layer-bottom","appId":"inkscape","type":"software","category":"design","name":{"zh":"图层置底","en":"Lower layer to bottom"},"description":{"zh":"图层置底（Ctrl+Shift+End）","en":"Lower layer to bottom (Ctrl+Shift+End)"},"windows":"Ctrl+Shift+End","mac":"Ctrl+Shift+End","linux":"Ctrl+Shift+End","keywords":["图层置底","Lower layer to bottom","图层","layer"],"pinyin":"tu ceng zhi di tucengzhidi t c z d tczd tu ceng zhi di   tu ceng tucengzhidi tuceng t c z d   t c tczd tc"},{"id":"inks-undo","appId":"inkscape","type":"software","category":"design","name":{"zh":"撤销","en":"Undo"},"description":{"zh":"撤销（Ctrl+Z）","en":"Undo (Ctrl+Z)"},"windows":"Ctrl+Z","mac":"Ctrl+Z","linux":"Ctrl+Z","keywords":["撤销","Undo","undo"],"pinyin":"che xiao chexiao c x cx che xiao chexiao c x cx"},{"id":"inks-redo","appId":"inkscape","type":"software","category":"design","name":{"zh":"重做","en":"Redo"},"description":{"zh":"重做（Ctrl+Y）","en":"Redo (Ctrl+Y)"},"windows":"Ctrl+Y","mac":"Ctrl+Y","linux":"Ctrl+Y","keywords":["重做","Redo","redo"],"pinyin":"zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"},{"id":"inks-copy","appId":"inkscape","type":"software","category":"design","name":{"zh":"复制","en":"Copy"},"description":{"zh":"复制（Ctrl+C）","en":"Copy (Ctrl+C)"},"windows":"Ctrl+C","mac":"Ctrl+C","linux":"Ctrl+C","keywords":["复制","Copy","copy"],"pinyin":"fu zhi fuzhi f z fz fu zhi fuzhi f z fz"},{"id":"inks-cut","appId":"inkscape","type":"software","category":"design","name":{"zh":"剪切","en":"Cut"},"description":{"zh":"剪切（Ctrl+X）","en":"Cut (Ctrl+X)"},"windows":"Ctrl+X","mac":"Ctrl+X","linux":"Ctrl+X","keywords":["剪切","Cut","cut"],"pinyin":"jian qie jianqie j q jq jian qie jianqie j q jq"},{"id":"inks-paste","appId":"inkscape","type":"software","category":"design","name":{"zh":"粘贴","en":"Paste"},"description":{"zh":"粘贴（Ctrl+V）","en":"Paste (Ctrl+V)"},"windows":"Ctrl+V","mac":"Ctrl+V","linux":"Ctrl+V","keywords":["粘贴","Paste","paste"],"pinyin":"nian tie niantie n t nt nian tie niantie n t nt"},{"id":"inks-paste-in-place","appId":"inkscape","type":"software","category":"design","name":{"zh":"原位粘贴","en":"Paste in place"},"description":{"zh":"原位粘贴（Ctrl+Alt+V）","en":"Paste in place (Ctrl+Alt+V)"},"windows":"Ctrl+Alt+V","mac":"Ctrl+Alt+V","linux":"Ctrl+Alt+V","keywords":["原位粘贴","Paste in place","原位","in place"],"pinyin":"yuan wei nian tie yuanweiniantie y w n t ywnt yuan wei nian tie   yuan wei yuanweiniantie yuanwei y w n t   y w ywnt yw"},{"id":"inks-paste-style","appId":"inkscape","type":"software","category":"design","name":{"zh":"粘贴样式","en":"Paste style"},"description":{"zh":"粘贴样式（Ctrl+Shift+V）","en":"Paste style (Ctrl+Shift+V)"},"windows":"Ctrl+Shift+V","mac":"Ctrl+Shift+V","linux":"Ctrl+Shift+V","keywords":["粘贴样式","Paste style","样式","style"],"pinyin":"nian tie yang shi niantieyangshi n t y s ntys nian tie yang shi   yang shi niantieyangshi yangshi n t y s   y s ntys ys"},{"id":"inks-clone","appId":"inkscape","type":"software","category":"design","name":{"zh":"克隆","en":"Clone"},"description":{"zh":"克隆（Alt+D）","en":"Clone (Alt+D)"},"windows":"Alt+D","mac":"Alt+D","linux":"Alt+D","keywords":["克隆","Clone","clone"],"pinyin":"ke long kelong k l kl ke long kelong k l kl"},{"id":"inks-swap-fill-stroke","appId":"inkscape","type":"software","category":"design","name":{"zh":"交换填充/描边","en":"Swap fill/stroke"},"description":{"zh":"交换填充/描边（Shift+X）","en":"Swap fill/stroke (Shift+X)"},"windows":"Shift+X","mac":"Shift+X","linux":"Shift+X","keywords":["交换填充/描边","Swap fill/stroke","填充","fill","stroke"],"pinyin":"jiao huan tian chong / miao bian jiaohuantianchong/miaobian j h t c / m b jhtc/mb jiao huan tian chong / miao bian   tian chong jiaohuantianchong/miaobian tianchong j h t c / m b   t c jhtc/mb tc"},{"id":"inks-set-clip","appId":"inkscape","type":"software","category":"design","name":{"zh":"建立剪裁","en":"Set clip"},"description":{"zh":"建立剪裁（Ctrl+M）","en":"Set clip (Ctrl+M)"},"windows":"Ctrl+M","mac":"Ctrl+M","linux":"Ctrl+M","keywords":["建立剪裁","Set clip","剪裁","clip"],"pinyin":"jian li jian cai jianlijiancai j l j c jljc jian li jian cai   jian cai jianlijiancai jiancai j l j c   j c jljc jc"},{"id":"inks-release-clip","appId":"inkscape","type":"software","category":"design","name":{"zh":"释放剪裁","en":"Release clip"},"description":{"zh":"释放剪裁（Alt+M）","en":"Release clip (Alt+M)"},"windows":"Alt+M","mac":"Alt+M","linux":"Alt+M","keywords":["释放剪裁","Release clip","剪裁","clip"],"pinyin":"shi fang jian cai shifangjiancai s f j c sfjc shi fang jian cai   jian cai shifangjiancai jiancai s f j c   j c sfjc jc"},{"id":"inks-to-path","appId":"inkscape","type":"software","category":"design","name":{"zh":"转为路径","en":"To path"},"description":{"zh":"转为路径（Ctrl+Shift+C）","en":"To path (Ctrl+Shift+C)"},"windows":"Ctrl+Shift+C","mac":"Ctrl+Shift+C","linux":"Ctrl+Shift+C","keywords":["转为路径","To path","路径","path"],"pinyin":"zhuan wei lu jing zhuanweilujing z w l j zwlj zhuan wei lu jing   lu jing zhuanweilujing lujing z w l j   l j zwlj lj"},{"id":"inks-union","appId":"inkscape","type":"software","category":"design","name":{"zh":"合并(联集)","en":"Union"},"description":{"zh":"合并(联集)（Ctrl++）","en":"Union (Ctrl++)"},"windows":"Ctrl++","mac":"Ctrl++","linux":"Ctrl++","keywords":["合并(联集)","Union","联集","union","boolean"],"pinyin":"he bing ( lian ji ) hebing(lianji) h b ( l j ) hb(lj) he bing ( lian ji )   lian ji hebing(lianji) lianji h b ( l j )   l j hb(lj) lj"},{"id":"inks-difference","appId":"inkscape","type":"software","category":"design","name":{"zh":"差集","en":"Difference"},"description":{"zh":"差集（Ctrl+-）","en":"Difference (Ctrl+-)"},"windows":"Ctrl+-","mac":"Ctrl+-","linux":"Ctrl+-","keywords":["差集","Difference","difference"],"pinyin":"cha ji chaji c j cj cha ji chaji c j cj"},{"id":"inks-intersection","appId":"inkscape","type":"software","category":"design","name":{"zh":"交集","en":"Intersection"},"description":{"zh":"交集（Ctrl+*）","en":"Intersection (Ctrl+*)"},"windows":"Ctrl+*","mac":"Ctrl+*","linux":"Ctrl+*","keywords":["交集","Intersection","intersection"],"pinyin":"jiao ji jiaoji j j jj jiao ji jiaoji j j jj"},{"id":"inks-xor","appId":"inkscape","type":"software","category":"design","name":{"zh":"异或","en":"XOR"},"description":{"zh":"异或（Ctrl+^）","en":"XOR (Ctrl+^)"},"windows":"Ctrl+^","mac":"Ctrl+^","linux":"Ctrl+^","keywords":["异或","XOR","xor"],"pinyin":"yi huo yihuo y h yh yi huo yihuo y h yh"},{"id":"inks-combine","appId":"inkscape","type":"software","category":"design","name":{"zh":"结合","en":"Combine"},"description":{"zh":"结合（Ctrl+K）","en":"Combine (Ctrl+K)"},"windows":"Ctrl+K","mac":"Ctrl+K","linux":"Ctrl+K","keywords":["结合","Combine","combine"],"pinyin":"jie he jiehe j h jh jie he jiehe j h jh"},{"id":"inks-break-apart","appId":"inkscape","type":"software","category":"design","name":{"zh":"打散","en":"Break apart"},"description":{"zh":"打散（Ctrl+Shift+K）","en":"Break apart (Ctrl+Shift+K)"},"windows":"Ctrl+Shift+K","mac":"Ctrl+Shift+K","linux":"Ctrl+Shift+K","keywords":["打散","Break apart","break"],"pinyin":"da san dasan d s ds da san dasan d s ds"},{"id":"inks-simplify","appId":"inkscape","type":"software","category":"design","name":{"zh":"简化","en":"Simplify"},"description":{"zh":"简化（Ctrl+L）","en":"Simplify (Ctrl+L)"},"windows":"Ctrl+L","mac":"Ctrl+L","linux":"Ctrl+L","keywords":["简化","Simplify","simplify"],"pinyin":"jian hua jianhua j h jh jian hua jianhua j h jh"},{"id":"inks-bold","appId":"inkscape","type":"software","category":"design","name":{"zh":"加粗","en":"Bold"},"description":{"zh":"加粗（Ctrl+B）","en":"Bold (Ctrl+B)"},"windows":"Ctrl+B","mac":"Ctrl+B","linux":"Ctrl+B","keywords":["加粗","Bold","bold"],"pinyin":"jia cu jiacu j c jc jia cu jiacu j c jc"},{"id":"inks-italic","appId":"inkscape","type":"software","category":"design","name":{"zh":"斜体","en":"Italic"},"description":{"zh":"斜体（Ctrl+I）","en":"Italic (Ctrl+I)"},"windows":"Ctrl+I","mac":"Ctrl+I","linux":"Ctrl+I","keywords":["斜体","Italic","italic"],"pinyin":"xie ti xieti x t xt xie ti xieti x t xt"}]
+[
+  {
+    "id": "inks-selector",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "选择工具",
+      "en": "Selector tool"
+    },
+    "description": {
+      "zh": "选择工具（S）",
+      "en": "Selector tool (S)"
+    },
+    "windows": "S",
+    "mac": "S",
+    "linux": "S",
+    "keywords": [
+      "选择工具",
+      "Selector tool",
+      "选择",
+      "select"
+    ],
+    "pinyin": "xuan ze gong ju xuanzegongju x z g j xzgj xuan ze gong ju   xuan ze xuanzegongju xuanze x z g j   x z xzgj xz"
+  },
+  {
+    "id": "inks-node",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "节点工具",
+      "en": "Node tool"
+    },
+    "description": {
+      "zh": "节点工具（N）",
+      "en": "Node tool (N)"
+    },
+    "windows": "N",
+    "mac": "N",
+    "linux": "N",
+    "keywords": [
+      "节点工具",
+      "Node tool",
+      "节点",
+      "node",
+      "路径"
+    ],
+    "pinyin": "jie dian gong ju jiediangongju j d g j jdgj jie dian gong ju   jie dian   lu jing jiediangongju jiedian lujing j d g j   j d   l j jdgj jd lj"
+  },
+  {
+    "id": "inks-shapebuilder",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "形状生成工具",
+      "en": "Shape Builder"
+    },
+    "description": {
+      "zh": "形状生成工具（X）",
+      "en": "Shape Builder (X)"
+    },
+    "windows": "X",
+    "mac": "X",
+    "linux": "X",
+    "keywords": [
+      "形状生成工具",
+      "Shape Builder",
+      "形状",
+      "shape"
+    ],
+    "pinyin": "xing zhuang sheng cheng gong ju xingzhuangshengchenggongju x z s c g j xzscgj xing zhuang sheng cheng gong ju   xing zhuang xingzhuangshengchenggongju xingzhuang x z s c g j   x z xzscgj xz"
+  },
+  {
+    "id": "inks-rect",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "矩形工具",
+      "en": "Rectangle tool"
+    },
+    "description": {
+      "zh": "矩形工具（R）",
+      "en": "Rectangle tool (R)"
+    },
+    "windows": "R",
+    "mac": "R",
+    "linux": "R",
+    "keywords": [
+      "矩形工具",
+      "Rectangle tool",
+      "矩形",
+      "rectangle"
+    ],
+    "pinyin": "ju xing gong ju juxinggongju j x g j jxgj ju xing gong ju   ju xing juxinggongju juxing j x g j   j x jxgj jx"
+  },
+  {
+    "id": "inks-ellipse",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "椭圆/弧线工具",
+      "en": "Ellipse/Arc tool"
+    },
+    "description": {
+      "zh": "椭圆/弧线工具（E）",
+      "en": "Ellipse/Arc tool (E)"
+    },
+    "windows": "E",
+    "mac": "E",
+    "linux": "E",
+    "keywords": [
+      "椭圆/弧线工具",
+      "Ellipse/Arc tool",
+      "椭圆",
+      "ellipse",
+      "arc"
+    ],
+    "pinyin": "tuo yuan / hu xian gong ju tuoyuan/huxiangongju t y / h x g j ty/hxgj tuo yuan / hu xian gong ju   tuo yuan tuoyuan/huxiangongju tuoyuan t y / h x g j   t y ty/hxgj ty"
+  },
+  {
+    "id": "inks-star",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "星形工具",
+      "en": "Star tool"
+    },
+    "description": {
+      "zh": "星形工具（*）",
+      "en": "Star tool (*)"
+    },
+    "windows": "*",
+    "mac": "*",
+    "linux": "*",
+    "keywords": [
+      "星形工具",
+      "Star tool",
+      "星形",
+      "star"
+    ],
+    "pinyin": "xing xing gong ju xingxinggongju x x g j xxgj xing xing gong ju   xing xing xingxinggongju xingxing x x g j   x x xxgj xx"
+  },
+  {
+    "id": "inks-box3d",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "立体框工具",
+      "en": "3D Box tool"
+    },
+    "description": {
+      "zh": "立体框工具（Shift+F4）",
+      "en": "3D Box tool (Shift+F4)"
+    },
+    "windows": "Shift+F4",
+    "mac": "Shift+F4",
+    "linux": "Shift+F4",
+    "keywords": [
+      "立体框工具",
+      "3D Box tool",
+      "3d",
+      "立体"
+    ],
+    "pinyin": "li ti kuang gong ju litikuanggongju l t k g j ltkgj li ti kuang gong ju   li ti litikuanggongju liti l t k g j   l t ltkgj lt"
+  },
+  {
+    "id": "inks-spiral",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "螺旋工具",
+      "en": "Spiral tool"
+    },
+    "description": {
+      "zh": "螺旋工具（I）",
+      "en": "Spiral tool (I)"
+    },
+    "windows": "I",
+    "mac": "I",
+    "linux": "I",
+    "keywords": [
+      "螺旋工具",
+      "Spiral tool",
+      "螺旋",
+      "spiral"
+    ],
+    "pinyin": "luo xuan gong ju luoxuangongju l x g j lxgj luo xuan gong ju   luo xuan luoxuangongju luoxuan l x g j   l x lxgj lx"
+  },
+  {
+    "id": "inks-pen",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "钢笔工具",
+      "en": "Pen (Bezier) tool"
+    },
+    "description": {
+      "zh": "钢笔工具（B）",
+      "en": "Pen (Bezier) tool (B)"
+    },
+    "windows": "B",
+    "mac": "B",
+    "linux": "B",
+    "keywords": [
+      "钢笔工具",
+      "Pen (Bezier) tool",
+      "钢笔",
+      "pen",
+      "bezier"
+    ],
+    "pinyin": "gang bi gong ju gangbigongju g b g j gbgj gang bi gong ju   gang bi gangbigongju gangbi g b g j   g b gbgj gb"
+  },
+  {
+    "id": "inks-pencil",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "铅笔工具",
+      "en": "Pencil (Freehand) tool"
+    },
+    "description": {
+      "zh": "铅笔工具（P）",
+      "en": "Pencil (Freehand) tool (P)"
+    },
+    "windows": "P",
+    "mac": "P",
+    "linux": "P",
+    "keywords": [
+      "铅笔工具",
+      "Pencil (Freehand) tool",
+      "铅笔",
+      "pencil",
+      "freehand"
+    ],
+    "pinyin": "qian bi gong ju qianbigongju q b g j qbgj qian bi gong ju   qian bi qianbigongju qianbi q b g j   q b qbgj qb"
+  },
+  {
+    "id": "inks-calligraphy",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "书法工具",
+      "en": "Calligraphy tool"
+    },
+    "description": {
+      "zh": "书法工具（C）",
+      "en": "Calligraphy tool (C)"
+    },
+    "windows": "C",
+    "mac": "C",
+    "linux": "C",
+    "keywords": [
+      "书法工具",
+      "Calligraphy tool",
+      "书法",
+      "calligraphy"
+    ],
+    "pinyin": "shu fa gong ju shufagongju s f g j sfgj shu fa gong ju   shu fa shufagongju shufa s f g j   s f sfgj sf"
+  },
+  {
+    "id": "inks-text",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "文字工具",
+      "en": "Text tool"
+    },
+    "description": {
+      "zh": "文字工具（T）",
+      "en": "Text tool (T)"
+    },
+    "windows": "T",
+    "mac": "T",
+    "linux": "T",
+    "keywords": [
+      "文字工具",
+      "Text tool",
+      "文字",
+      "text",
+      "字体"
+    ],
+    "pinyin": "wen zi gong ju wenzigongju w z g j wzgj wen zi gong ju   wen zi   zi ti wenzigongju wenzi ziti w z g j   w z   z t wzgj wz zt"
+  },
+  {
+    "id": "inks-gradient",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "渐变工具",
+      "en": "Gradient tool"
+    },
+    "description": {
+      "zh": "渐变工具（G）",
+      "en": "Gradient tool (G)"
+    },
+    "windows": "G",
+    "mac": "G",
+    "linux": "G",
+    "keywords": [
+      "渐变工具",
+      "Gradient tool",
+      "渐变",
+      "gradient"
+    ],
+    "pinyin": "jian bian gong ju jianbiangongju j b g j jbgj jian bian gong ju   jian bian jianbiangongju jianbian j b g j   j b jbgj jb"
+  },
+  {
+    "id": "inks-dropper",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "取色工具",
+      "en": "Dropper tool"
+    },
+    "description": {
+      "zh": "取色工具（D）",
+      "en": "Dropper tool (D)"
+    },
+    "windows": "D",
+    "mac": "D",
+    "linux": "D",
+    "keywords": [
+      "取色工具",
+      "Dropper tool",
+      "取色",
+      "eyedropper",
+      "颜色"
+    ],
+    "pinyin": "qu se gong ju qusegongju q s g j qsgj qu se gong ju   qu se   yan se qusegongju quse yanse q s g j   q s   y s qsgj qs ys"
+  },
+  {
+    "id": "inks-bucket",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "油漆桶工具",
+      "en": "Paint Bucket tool"
+    },
+    "description": {
+      "zh": "油漆桶工具（U）",
+      "en": "Paint Bucket tool (U)"
+    },
+    "windows": "U",
+    "mac": "U",
+    "linux": "U",
+    "keywords": [
+      "油漆桶工具",
+      "Paint Bucket tool",
+      "油漆桶",
+      "bucket",
+      "填充"
+    ],
+    "pinyin": "you qi tong gong ju youqitonggongju y q t g j yqtgj you qi tong gong ju   you qi tong   tian chong youqitonggongju youqitong tianchong y q t g j   y q t   t c yqtgj yqt tc"
+  },
+  {
+    "id": "inks-tweak",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "调整工具",
+      "en": "Tweak tool"
+    },
+    "description": {
+      "zh": "调整工具（W）",
+      "en": "Tweak tool (W)"
+    },
+    "windows": "W",
+    "mac": "W",
+    "linux": "W",
+    "keywords": [
+      "调整工具",
+      "Tweak tool",
+      "调整",
+      "tweak"
+    ],
+    "pinyin": "tiao zheng gong ju tiaozhenggongju t z g j tzgj tiao zheng gong ju   tiao zheng tiaozhenggongju tiaozheng t z g j   t z tzgj tz"
+  },
+  {
+    "id": "inks-spray",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "喷射工具",
+      "en": "Spray tool"
+    },
+    "description": {
+      "zh": "喷射工具（A）",
+      "en": "Spray tool (A)"
+    },
+    "windows": "A",
+    "mac": "A",
+    "linux": "A",
+    "keywords": [
+      "喷射工具",
+      "Spray tool",
+      "喷射",
+      "spray"
+    ],
+    "pinyin": "pen she gong ju penshegongju p s g j psgj pen she gong ju   pen she penshegongju penshe p s g j   p s psgj ps"
+  },
+  {
+    "id": "inks-eraser",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "橡皮擦工具",
+      "en": "Eraser tool"
+    },
+    "description": {
+      "zh": "橡皮擦工具（Shift+E）",
+      "en": "Eraser tool (Shift+E)"
+    },
+    "windows": "Shift+E",
+    "mac": "Shift+E",
+    "linux": "Shift+E",
+    "keywords": [
+      "橡皮擦工具",
+      "Eraser tool",
+      "橡皮",
+      "eraser"
+    ],
+    "pinyin": "xiang pi ca gong ju xiangpicagongju x p c g j xpcgj xiang pi ca gong ju   xiang pi xiangpicagongju xiangpi x p c g j   x p xpcgj xp"
+  },
+  {
+    "id": "inks-connector",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "连接工具",
+      "en": "Connector tool"
+    },
+    "description": {
+      "zh": "连接工具（O）",
+      "en": "Connector tool (O)"
+    },
+    "windows": "O",
+    "mac": "O",
+    "linux": "O",
+    "keywords": [
+      "连接工具",
+      "Connector tool",
+      "连接",
+      "connector"
+    ],
+    "pinyin": "lian jie gong ju lianjiegongju l j g j ljgj lian jie gong ju   lian jie lianjiegongju lianjie l j g j   l j ljgj lj"
+  },
+  {
+    "id": "inks-measure",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "测量工具",
+      "en": "Measure tool"
+    },
+    "description": {
+      "zh": "测量工具（M）",
+      "en": "Measure tool (M)"
+    },
+    "windows": "M",
+    "mac": "M",
+    "linux": "M",
+    "keywords": [
+      "测量工具",
+      "Measure tool",
+      "测量",
+      "measure"
+    ],
+    "pinyin": "ce liang gong ju celianggongju c l g j clgj ce liang gong ju   ce liang celianggongju celiang c l g j   c l clgj cl"
+  },
+  {
+    "id": "inks-zoom",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "缩放工具",
+      "en": "Zoom tool"
+    },
+    "description": {
+      "zh": "缩放工具（Z）",
+      "en": "Zoom tool (Z)"
+    },
+    "windows": "Z",
+    "mac": "Z",
+    "linux": "Z",
+    "keywords": [
+      "缩放工具",
+      "Zoom tool",
+      "缩放",
+      "zoom"
+    ],
+    "pinyin": "suo fang gong ju suofanggongju s f g j sfgj suo fang gong ju   suo fang suofanggongju suofang s f g j   s f sfgj sf"
+  },
+  {
+    "id": "inks-selectall-layer",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "全选(当前图层)",
+      "en": "Select all (current layer)"
+    },
+    "description": {
+      "zh": "全选(当前图层)（Ctrl+A）",
+      "en": "Select all (current layer) (Ctrl+A)"
+    },
+    "windows": "Ctrl+A",
+    "mac": "Ctrl+A",
+    "linux": "Ctrl+A",
+    "keywords": [
+      "全选(当前图层)",
+      "Select all (current layer)",
+      "全选",
+      "select all"
+    ],
+    "pinyin": "quan xuan ( dang qian tu ceng ) quanxuan(dangqiantuceng) q x ( d q t c ) qx(dqtc) quan xuan ( dang qian tu ceng )   quan xuan quanxuan(dangqiantuceng) quanxuan q x ( d q t c )   q x qx(dqtc) qx"
+  },
+  {
+    "id": "inks-selectall-all",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "全选(所有图层)",
+      "en": "Select all (all layers)"
+    },
+    "description": {
+      "zh": "全选(所有图层)（Ctrl+Alt+A）",
+      "en": "Select all (all layers) (Ctrl+Alt+A)"
+    },
+    "windows": "Ctrl+Alt+A",
+    "mac": "Ctrl+Alt+A",
+    "linux": "Ctrl+Alt+A",
+    "keywords": [
+      "全选(所有图层)",
+      "Select all (all layers)",
+      "全选",
+      "all layers"
+    ],
+    "pinyin": "quan xuan ( suo you tu ceng ) quanxuan(suoyoutuceng) q x ( s y t c ) qx(sytc) quan xuan ( suo you tu ceng )   quan xuan quanxuan(suoyoutuceng) quanxuan q x ( s y t c )   q x qx(sytc) qx"
+  },
+  {
+    "id": "inks-deselect",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "取消选择",
+      "en": "Deselect"
+    },
+    "description": {
+      "zh": "取消选择（Esc）",
+      "en": "Deselect (Esc)"
+    },
+    "windows": "Esc",
+    "mac": "Esc",
+    "linux": "Esc",
+    "keywords": [
+      "取消选择",
+      "Deselect",
+      "取消",
+      "deselect"
+    ],
+    "pinyin": "qu xiao xuan ze quxiaoxuanze q x x z qxxz qu xiao xuan ze   qu xiao quxiaoxuanze quxiao q x x z   q x qxxz qx"
+  },
+  {
+    "id": "inks-delete",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "删除所选",
+      "en": "Delete selection"
+    },
+    "description": {
+      "zh": "删除所选（Del）",
+      "en": "Delete selection (Del)"
+    },
+    "windows": "Del",
+    "mac": "Del",
+    "linux": "Del",
+    "keywords": [
+      "删除所选",
+      "Delete selection",
+      "删除",
+      "delete"
+    ],
+    "pinyin": "shan chu suo xuan shanchusuoxuan s c s x scsx shan chu suo xuan   shan chu shanchusuoxuan shanchu s c s x   s c scsx sc"
+  },
+  {
+    "id": "inks-duplicate",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "原地复制",
+      "en": "Duplicate"
+    },
+    "description": {
+      "zh": "原地复制（Ctrl+D）",
+      "en": "Duplicate (Ctrl+D)"
+    },
+    "windows": "Ctrl+D",
+    "mac": "Ctrl+D",
+    "linux": "Ctrl+D",
+    "keywords": [
+      "原地复制",
+      "Duplicate",
+      "复制",
+      "duplicate"
+    ],
+    "pinyin": "yuan di fu zhi yuandifuzhi y d f z ydfz yuan di fu zhi   fu zhi yuandifuzhi fuzhi y d f z   f z ydfz fz"
+  },
+  {
+    "id": "inks-group",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "编组",
+      "en": "Group"
+    },
+    "description": {
+      "zh": "编组（Ctrl+G）",
+      "en": "Group (Ctrl+G)"
+    },
+    "windows": "Ctrl+G",
+    "mac": "Ctrl+G",
+    "linux": "Ctrl+G",
+    "keywords": [
+      "编组",
+      "Group",
+      "group"
+    ],
+    "pinyin": "bian zu bianzu b z bz bian zu bianzu b z bz"
+  },
+  {
+    "id": "inks-ungroup",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "取消编组",
+      "en": "Ungroup"
+    },
+    "description": {
+      "zh": "取消编组（Ctrl+Shift+G）",
+      "en": "Ungroup (Ctrl+Shift+G)"
+    },
+    "windows": "Ctrl+Shift+G",
+    "mac": "Ctrl+Shift+G",
+    "linux": "Ctrl+Shift+G",
+    "keywords": [
+      "取消编组",
+      "Ungroup",
+      "ungroup"
+    ],
+    "pinyin": "qu xiao bian zu quxiaobianzu q x b z qxbz qu xiao bian zu quxiaobianzu q x b z qxbz"
+  },
+  {
+    "id": "inks-raise-top",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "置于顶层",
+      "en": "Raise to top"
+    },
+    "description": {
+      "zh": "置于顶层（Home）",
+      "en": "Raise to top (Home)"
+    },
+    "windows": "Home",
+    "mac": "Home",
+    "linux": "Home",
+    "keywords": [
+      "置于顶层",
+      "Raise to top",
+      "顶层",
+      "top"
+    ],
+    "pinyin": "zhi yu ding ceng zhiyudingceng z y d c zydc zhi yu ding ceng   ding ceng zhiyudingceng dingceng z y d c   d c zydc dc"
+  },
+  {
+    "id": "inks-lower-bottom",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "置于底层",
+      "en": "Lower to bottom"
+    },
+    "description": {
+      "zh": "置于底层（End）",
+      "en": "Lower to bottom (End)"
+    },
+    "windows": "End",
+    "mac": "End",
+    "linux": "End",
+    "keywords": [
+      "置于底层",
+      "Lower to bottom",
+      "底层",
+      "bottom"
+    ],
+    "pinyin": "zhi yu di ceng zhiyudiceng z y d c zydc zhi yu di ceng   di ceng zhiyudiceng diceng z y d c   d c zydc dc"
+  },
+  {
+    "id": "inks-raise-step",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "上移一层",
+      "en": "Raise one step"
+    },
+    "description": {
+      "zh": "上移一层（PageUp）",
+      "en": "Raise one step (PageUp)"
+    },
+    "windows": "PageUp",
+    "mac": "PageUp",
+    "linux": "PageUp",
+    "keywords": [
+      "上移一层",
+      "Raise one step",
+      "上移",
+      "raise"
+    ],
+    "pinyin": "shang yi yi ceng shangyiyiceng s y y c syyc shang yi yi ceng   shang yi shangyiyiceng shangyi s y y c   s y syyc sy"
+  },
+  {
+    "id": "inks-lower-step",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "下移一层",
+      "en": "Lower one step"
+    },
+    "description": {
+      "zh": "下移一层（PageDown）",
+      "en": "Lower one step (PageDown)"
+    },
+    "windows": "PageDown",
+    "mac": "PageDown",
+    "linux": "PageDown",
+    "keywords": [
+      "下移一层",
+      "Lower one step",
+      "下移",
+      "lower"
+    ],
+    "pinyin": "xia yi yi ceng xiayiyiceng x y y c xyyc xia yi yi ceng   xia yi xiayiyiceng xiayi x y y c   x y xyyc xy"
+  },
+  {
+    "id": "inks-zoom-in",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "放大",
+      "en": "Zoom in"
+    },
+    "description": {
+      "zh": "放大（=）",
+      "en": "Zoom in (=)"
+    },
+    "windows": "=",
+    "mac": "=",
+    "linux": "=",
+    "keywords": [
+      "放大",
+      "Zoom in",
+      "zoom in"
+    ],
+    "pinyin": "fang da fangda f d fd fang da fangda f d fd"
+  },
+  {
+    "id": "inks-zoom-out",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "缩小",
+      "en": "Zoom out"
+    },
+    "description": {
+      "zh": "缩小（-）",
+      "en": "Zoom out (-)"
+    },
+    "windows": "-",
+    "mac": "-",
+    "linux": "-",
+    "keywords": [
+      "缩小",
+      "Zoom out",
+      "zoom out"
+    ],
+    "pinyin": "suo xiao suoxiao s x sx suo xiao suoxiao s x sx"
+  },
+  {
+    "id": "inks-zoom-100",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "实际大小",
+      "en": "Zoom 1:1"
+    },
+    "description": {
+      "zh": "实际大小（1）",
+      "en": "Zoom 1:1 (1)"
+    },
+    "windows": "1",
+    "mac": "1",
+    "linux": "1",
+    "keywords": [
+      "实际大小",
+      "Zoom 1:1",
+      "actual size"
+    ],
+    "pinyin": "shi ji da xiao shijidaxiao s j d x sjdx shi ji da xiao shijidaxiao s j d x sjdx"
+  },
+  {
+    "id": "inks-zoom-sel",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "缩放到选区",
+      "en": "Zoom to selection"
+    },
+    "description": {
+      "zh": "缩放到选区（3）",
+      "en": "Zoom to selection (3)"
+    },
+    "windows": "3",
+    "mac": "3",
+    "linux": "3",
+    "keywords": [
+      "缩放到选区",
+      "Zoom to selection",
+      "选区",
+      "selection"
+    ],
+    "pinyin": "suo fang dao xuan qu suofangdaoxuanqu s f d x q sfdxq suo fang dao xuan qu   xuan qu suofangdaoxuanqu xuanqu s f d x q   x q sfdxq xq"
+  },
+  {
+    "id": "inks-zoom-page",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "缩放到页面",
+      "en": "Zoom to page"
+    },
+    "description": {
+      "zh": "缩放到页面（5）",
+      "en": "Zoom to page (5)"
+    },
+    "windows": "5",
+    "mac": "5",
+    "linux": "5",
+    "keywords": [
+      "缩放到页面",
+      "Zoom to page",
+      "页面",
+      "page"
+    ],
+    "pinyin": "suo fang dao ye mian suofangdaoyemian s f d y m sfdym suo fang dao ye mian   ye mian suofangdaoyemian yemian s f d y m   y m sfdym ym"
+  },
+  {
+    "id": "inks-zoom-width",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "缩放到页宽",
+      "en": "Zoom to page width"
+    },
+    "description": {
+      "zh": "缩放到页宽（6）",
+      "en": "Zoom to page width (6)"
+    },
+    "windows": "6",
+    "mac": "6",
+    "linux": "6",
+    "keywords": [
+      "缩放到页宽",
+      "Zoom to page width",
+      "页宽",
+      "width"
+    ],
+    "pinyin": "suo fang dao ye kuan suofangdaoyekuan s f d y k sfdyk suo fang dao ye kuan   ye kuan suofangdaoyekuan yekuan s f d y k   y k sfdyk yk"
+  },
+  {
+    "id": "inks-quick-zoom",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "快速缩放",
+      "en": "Quick zoom"
+    },
+    "description": {
+      "zh": "快速缩放（Q）",
+      "en": "Quick zoom (Q)"
+    },
+    "windows": "Q",
+    "mac": "Q",
+    "linux": "Q",
+    "keywords": [
+      "快速缩放",
+      "Quick zoom",
+      "快速",
+      "quick"
+    ],
+    "pinyin": "kuai su suo fang kuaisusuofang k s s f kssf kuai su suo fang   kuai su kuaisusuofang kuaisu k s s f   k s kssf ks"
+  },
+  {
+    "id": "inks-new-layer",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "新建图层",
+      "en": "New layer"
+    },
+    "description": {
+      "zh": "新建图层（Ctrl+Shift+N）",
+      "en": "New layer (Ctrl+Shift+N)"
+    },
+    "windows": "Ctrl+Shift+N",
+    "mac": "Ctrl+Shift+N",
+    "linux": "Ctrl+Shift+N",
+    "keywords": [
+      "新建图层",
+      "New layer",
+      "new layer"
+    ],
+    "pinyin": "xin jian tu ceng xinjiantuceng x j t c xjtc xin jian tu ceng xinjiantuceng x j t c xjtc"
+  },
+  {
+    "id": "inks-raise-layer",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "上移图层",
+      "en": "Raise layer"
+    },
+    "description": {
+      "zh": "上移图层（Ctrl+Shift+PageUp）",
+      "en": "Raise layer (Ctrl+Shift+PageUp)"
+    },
+    "windows": "Ctrl+Shift+PageUp",
+    "mac": "Ctrl+Shift+PageUp",
+    "linux": "Ctrl+Shift+PageUp",
+    "keywords": [
+      "上移图层",
+      "Raise layer",
+      "图层",
+      "layer"
+    ],
+    "pinyin": "shang yi tu ceng shangyituceng s y t c sytc shang yi tu ceng   tu ceng shangyituceng tuceng s y t c   t c sytc tc"
+  },
+  {
+    "id": "inks-lower-layer",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "下移图层",
+      "en": "Lower layer"
+    },
+    "description": {
+      "zh": "下移图层（Ctrl+Shift+PageDown）",
+      "en": "Lower layer (Ctrl+Shift+PageDown)"
+    },
+    "windows": "Ctrl+Shift+PageDown",
+    "mac": "Ctrl+Shift+PageDown",
+    "linux": "Ctrl+Shift+PageDown",
+    "keywords": [
+      "下移图层",
+      "Lower layer",
+      "图层",
+      "layer"
+    ],
+    "pinyin": "xia yi tu ceng xiayituceng x y t c xytc xia yi tu ceng   tu ceng xiayituceng tuceng x y t c   t c xytc tc"
+  },
+  {
+    "id": "inks-raise-layer-top",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "图层置顶",
+      "en": "Raise layer to top"
+    },
+    "description": {
+      "zh": "图层置顶（Ctrl+Shift+Home）",
+      "en": "Raise layer to top (Ctrl+Shift+Home)"
+    },
+    "windows": "Ctrl+Shift+Home",
+    "mac": "Ctrl+Shift+Home",
+    "linux": "Ctrl+Shift+Home",
+    "keywords": [
+      "图层置顶",
+      "Raise layer to top",
+      "图层",
+      "layer"
+    ],
+    "pinyin": "tu ceng zhi ding tucengzhiding t c z d tczd tu ceng zhi ding   tu ceng tucengzhiding tuceng t c z d   t c tczd tc"
+  },
+  {
+    "id": "inks-lower-layer-bottom",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "图层置底",
+      "en": "Lower layer to bottom"
+    },
+    "description": {
+      "zh": "图层置底（Ctrl+Shift+End）",
+      "en": "Lower layer to bottom (Ctrl+Shift+End)"
+    },
+    "windows": "Ctrl+Shift+End",
+    "mac": "Ctrl+Shift+End",
+    "linux": "Ctrl+Shift+End",
+    "keywords": [
+      "图层置底",
+      "Lower layer to bottom",
+      "图层",
+      "layer"
+    ],
+    "pinyin": "tu ceng zhi di tucengzhidi t c z d tczd tu ceng zhi di   tu ceng tucengzhidi tuceng t c z d   t c tczd tc"
+  },
+  {
+    "id": "inks-undo",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销（Ctrl+Z）",
+      "en": "Undo (Ctrl+Z)"
+    },
+    "windows": "Ctrl+Z",
+    "mac": "Ctrl+Z",
+    "linux": "Ctrl+Z",
+    "keywords": [
+      "撤销",
+      "Undo",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "inks-redo",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "重做（Ctrl+Y）",
+      "en": "Redo (Ctrl+Y)"
+    },
+    "windows": "Ctrl+Y",
+    "mac": "Ctrl+Y",
+    "linux": "Ctrl+Y",
+    "keywords": [
+      "重做",
+      "Redo",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "inks-copy",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "复制",
+      "en": "Copy"
+    },
+    "description": {
+      "zh": "复制（Ctrl+C）",
+      "en": "Copy (Ctrl+C)"
+    },
+    "windows": "Ctrl+C",
+    "mac": "Ctrl+C",
+    "linux": "Ctrl+C",
+    "keywords": [
+      "复制",
+      "Copy",
+      "copy"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "inks-cut",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "剪切",
+      "en": "Cut"
+    },
+    "description": {
+      "zh": "剪切（Ctrl+X）",
+      "en": "Cut (Ctrl+X)"
+    },
+    "windows": "Ctrl+X",
+    "mac": "Ctrl+X",
+    "linux": "Ctrl+X",
+    "keywords": [
+      "剪切",
+      "Cut",
+      "cut"
+    ],
+    "pinyin": "jian qie jianqie j q jq jian qie jianqie j q jq"
+  },
+  {
+    "id": "inks-paste",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "粘贴",
+      "en": "Paste"
+    },
+    "description": {
+      "zh": "粘贴（Ctrl+V）",
+      "en": "Paste (Ctrl+V)"
+    },
+    "windows": "Ctrl+V",
+    "mac": "Ctrl+V",
+    "linux": "Ctrl+V",
+    "keywords": [
+      "粘贴",
+      "Paste",
+      "paste"
+    ],
+    "pinyin": "nian tie niantie n t nt nian tie niantie n t nt"
+  },
+  {
+    "id": "inks-paste-in-place",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "原位粘贴",
+      "en": "Paste in place"
+    },
+    "description": {
+      "zh": "原位粘贴（Ctrl+Alt+V）",
+      "en": "Paste in place (Ctrl+Alt+V)"
+    },
+    "windows": "Ctrl+Alt+V",
+    "mac": "Ctrl+Alt+V",
+    "linux": "Ctrl+Alt+V",
+    "keywords": [
+      "原位粘贴",
+      "Paste in place",
+      "原位",
+      "in place"
+    ],
+    "pinyin": "yuan wei nian tie yuanweiniantie y w n t ywnt yuan wei nian tie   yuan wei yuanweiniantie yuanwei y w n t   y w ywnt yw"
+  },
+  {
+    "id": "inks-paste-style",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "粘贴样式",
+      "en": "Paste style"
+    },
+    "description": {
+      "zh": "粘贴样式（Ctrl+Shift+V）",
+      "en": "Paste style (Ctrl+Shift+V)"
+    },
+    "windows": "Ctrl+Shift+V",
+    "mac": "Ctrl+Shift+V",
+    "linux": "Ctrl+Shift+V",
+    "keywords": [
+      "粘贴样式",
+      "Paste style",
+      "样式",
+      "style"
+    ],
+    "pinyin": "nian tie yang shi niantieyangshi n t y s ntys nian tie yang shi   yang shi niantieyangshi yangshi n t y s   y s ntys ys"
+  },
+  {
+    "id": "inks-clone",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "克隆",
+      "en": "Clone"
+    },
+    "description": {
+      "zh": "克隆（Alt+D）",
+      "en": "Clone (Alt+D)"
+    },
+    "windows": "Alt+D",
+    "mac": "Alt+D",
+    "linux": "Alt+D",
+    "keywords": [
+      "克隆",
+      "Clone",
+      "clone"
+    ],
+    "pinyin": "ke long kelong k l kl ke long kelong k l kl"
+  },
+  {
+    "id": "inks-swap-fill-stroke",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "交换填充/描边",
+      "en": "Swap fill/stroke"
+    },
+    "description": {
+      "zh": "交换填充/描边（Shift+X）",
+      "en": "Swap fill/stroke (Shift+X)"
+    },
+    "windows": "Shift+X",
+    "mac": "Shift+X",
+    "linux": "Shift+X",
+    "keywords": [
+      "交换填充/描边",
+      "Swap fill/stroke",
+      "填充",
+      "fill",
+      "stroke"
+    ],
+    "pinyin": "jiao huan tian chong / miao bian jiaohuantianchong/miaobian j h t c / m b jhtc/mb jiao huan tian chong / miao bian   tian chong jiaohuantianchong/miaobian tianchong j h t c / m b   t c jhtc/mb tc"
+  },
+  {
+    "id": "inks-set-clip",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "建立剪裁",
+      "en": "Set clip"
+    },
+    "description": {
+      "zh": "建立剪裁（Ctrl+M）",
+      "en": "Set clip (Ctrl+M)"
+    },
+    "windows": "Ctrl+M",
+    "mac": "Ctrl+M",
+    "linux": "Ctrl+M",
+    "keywords": [
+      "建立剪裁",
+      "Set clip",
+      "剪裁",
+      "clip"
+    ],
+    "pinyin": "jian li jian cai jianlijiancai j l j c jljc jian li jian cai   jian cai jianlijiancai jiancai j l j c   j c jljc jc"
+  },
+  {
+    "id": "inks-release-clip",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "释放剪裁",
+      "en": "Release clip"
+    },
+    "description": {
+      "zh": "释放剪裁（Alt+M）",
+      "en": "Release clip (Alt+M)"
+    },
+    "windows": "Alt+M",
+    "mac": "Alt+M",
+    "linux": "Alt+M",
+    "keywords": [
+      "释放剪裁",
+      "Release clip",
+      "剪裁",
+      "clip"
+    ],
+    "pinyin": "shi fang jian cai shifangjiancai s f j c sfjc shi fang jian cai   jian cai shifangjiancai jiancai s f j c   j c sfjc jc"
+  },
+  {
+    "id": "inks-to-path",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "转为路径",
+      "en": "To path"
+    },
+    "description": {
+      "zh": "转为路径（Ctrl+Shift+C）",
+      "en": "To path (Ctrl+Shift+C)"
+    },
+    "windows": "Ctrl+Shift+C",
+    "mac": "Ctrl+Shift+C",
+    "linux": "Ctrl+Shift+C",
+    "keywords": [
+      "转为路径",
+      "To path",
+      "路径",
+      "path"
+    ],
+    "pinyin": "zhuan wei lu jing zhuanweilujing z w l j zwlj zhuan wei lu jing   lu jing zhuanweilujing lujing z w l j   l j zwlj lj"
+  },
+  {
+    "id": "inks-union",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "合并(联集)",
+      "en": "Union"
+    },
+    "description": {
+      "zh": "合并(联集)（Ctrl++）",
+      "en": "Union (Ctrl++)"
+    },
+    "windows": "Ctrl++",
+    "mac": "Ctrl++",
+    "linux": "Ctrl++",
+    "keywords": [
+      "合并(联集)",
+      "Union",
+      "联集",
+      "union",
+      "boolean"
+    ],
+    "pinyin": "he bing ( lian ji ) hebing(lianji) h b ( l j ) hb(lj) he bing ( lian ji )   lian ji hebing(lianji) lianji h b ( l j )   l j hb(lj) lj"
+  },
+  {
+    "id": "inks-difference",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "差集",
+      "en": "Difference"
+    },
+    "description": {
+      "zh": "差集（Ctrl+-）",
+      "en": "Difference (Ctrl+-)"
+    },
+    "windows": "Ctrl+-",
+    "mac": "Ctrl+-",
+    "linux": "Ctrl+-",
+    "keywords": [
+      "差集",
+      "Difference",
+      "difference"
+    ],
+    "pinyin": "cha ji chaji c j cj cha ji chaji c j cj"
+  },
+  {
+    "id": "inks-intersection",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "交集",
+      "en": "Intersection"
+    },
+    "description": {
+      "zh": "交集（Ctrl+*）",
+      "en": "Intersection (Ctrl+*)"
+    },
+    "windows": "Ctrl+*",
+    "mac": "Ctrl+*",
+    "linux": "Ctrl+*",
+    "keywords": [
+      "交集",
+      "Intersection",
+      "intersection"
+    ],
+    "pinyin": "jiao ji jiaoji j j jj jiao ji jiaoji j j jj"
+  },
+  {
+    "id": "inks-xor",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "异或",
+      "en": "XOR"
+    },
+    "description": {
+      "zh": "异或（Ctrl+^）",
+      "en": "XOR (Ctrl+^)"
+    },
+    "windows": "Ctrl+^",
+    "mac": "Ctrl+^",
+    "linux": "Ctrl+^",
+    "keywords": [
+      "异或",
+      "XOR",
+      "xor"
+    ],
+    "pinyin": "yi huo yihuo y h yh yi huo yihuo y h yh"
+  },
+  {
+    "id": "inks-combine",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "结合",
+      "en": "Combine"
+    },
+    "description": {
+      "zh": "结合（Ctrl+K）",
+      "en": "Combine (Ctrl+K)"
+    },
+    "windows": "Ctrl+K",
+    "mac": "Ctrl+K",
+    "linux": "Ctrl+K",
+    "keywords": [
+      "结合",
+      "Combine",
+      "combine"
+    ],
+    "pinyin": "jie he jiehe j h jh jie he jiehe j h jh"
+  },
+  {
+    "id": "inks-break-apart",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "打散",
+      "en": "Break apart"
+    },
+    "description": {
+      "zh": "打散（Ctrl+Shift+K）",
+      "en": "Break apart (Ctrl+Shift+K)"
+    },
+    "windows": "Ctrl+Shift+K",
+    "mac": "Ctrl+Shift+K",
+    "linux": "Ctrl+Shift+K",
+    "keywords": [
+      "打散",
+      "Break apart",
+      "break"
+    ],
+    "pinyin": "da san dasan d s ds da san dasan d s ds"
+  },
+  {
+    "id": "inks-simplify",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "简化",
+      "en": "Simplify"
+    },
+    "description": {
+      "zh": "简化（Ctrl+L）",
+      "en": "Simplify (Ctrl+L)"
+    },
+    "windows": "Ctrl+L",
+    "mac": "Ctrl+L",
+    "linux": "Ctrl+L",
+    "keywords": [
+      "简化",
+      "Simplify",
+      "simplify"
+    ],
+    "pinyin": "jian hua jianhua j h jh jian hua jianhua j h jh"
+  },
+  {
+    "id": "inks-bold",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "加粗",
+      "en": "Bold"
+    },
+    "description": {
+      "zh": "加粗（Ctrl+B）",
+      "en": "Bold (Ctrl+B)"
+    },
+    "windows": "Ctrl+B",
+    "mac": "Ctrl+B",
+    "linux": "Ctrl+B",
+    "keywords": [
+      "加粗",
+      "Bold",
+      "bold"
+    ],
+    "pinyin": "jia cu jiacu j c jc jia cu jiacu j c jc"
+  },
+  {
+    "id": "inks-italic",
+    "appId": "inkscape",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "斜体",
+      "en": "Italic"
+    },
+    "description": {
+      "zh": "斜体（Ctrl+I）",
+      "en": "Italic (Ctrl+I)"
+    },
+    "windows": "Ctrl+I",
+    "mac": "Ctrl+I",
+    "linux": "Ctrl+I",
+    "keywords": [
+      "斜体",
+      "Italic",
+      "italic"
+    ],
+    "pinyin": "xie ti xieti x t xt xie ti xieti x t xt"
+  }
+]

@@ -1,0 +1,842 @@
+[
+  {
+    "id": "filmora-new",
+    "appId": "filmora",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "New project",
+      "zh": "新建项目"
+    },
+    "description": {
+      "en": "New project",
+      "zh": "新建项目"
+    },
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
+    "linux": "—",
+    "keywords": [
+      "new",
+      "project",
+      "项目"
+    ],
+    "pinyin": "xin jian xiang mu xinjianxiangmu x j x m xjxm xiang mu xiangmu x m xm"
+  },
+  {
+    "id": "filmora-open",
+    "appId": "filmora",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Open",
+      "zh": "打开"
+    },
+    "description": {
+      "en": "Open project",
+      "zh": "打开项目"
+    },
+    "windows": "Ctrl + O",
+    "mac": "⌘ O",
+    "linux": "—",
+    "keywords": [
+      "open",
+      "打开"
+    ],
+    "pinyin": "da kai dakai d k dk da kai dakai d k dk"
+  },
+  {
+    "id": "filmora-save",
+    "appId": "filmora",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Save",
+      "zh": "保存"
+    },
+    "description": {
+      "en": "Save project",
+      "zh": "保存项目"
+    },
+    "windows": "Ctrl + S",
+    "mac": "⌘ S",
+    "linux": "—",
+    "keywords": [
+      "save",
+      "保存"
+    ],
+    "pinyin": "bao cun baocun b c bc bao cun baocun b c bc"
+  },
+  {
+    "id": "filmora-import",
+    "appId": "filmora",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Import",
+      "zh": "导入"
+    },
+    "description": {
+      "en": "Import media",
+      "zh": "导入媒体"
+    },
+    "windows": "Ctrl + I",
+    "mac": "⌘ I",
+    "linux": "—",
+    "keywords": [
+      "import",
+      "导入"
+    ],
+    "pinyin": "dao ru daoru d r dr dao ru daoru d r dr"
+  },
+  {
+    "id": "filmora-export",
+    "appId": "filmora",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Export",
+      "zh": "导出"
+    },
+    "description": {
+      "en": "Export video",
+      "zh": "导出视频"
+    },
+    "windows": "Ctrl + E",
+    "mac": "⌘ E",
+    "linux": "—",
+    "keywords": [
+      "export",
+      "导出"
+    ],
+    "pinyin": "dao chu daochu d c dc dao chu daochu d c dc"
+  },
+  {
+    "id": "filmora-undo",
+    "appId": "filmora",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Undo",
+      "zh": "撤销"
+    },
+    "description": {
+      "en": "Undo",
+      "zh": "撤销"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "—",
+    "keywords": [
+      "undo",
+      "撤销"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "filmora-redo",
+    "appId": "filmora",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Redo",
+      "zh": "重做"
+    },
+    "description": {
+      "en": "Redo",
+      "zh": "重做"
+    },
+    "windows": "Ctrl + Y",
+    "mac": "⇧ ⌘ Z",
+    "linux": "—",
+    "keywords": [
+      "redo",
+      "重做"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "filmora-cut",
+    "appId": "filmora",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Cut",
+      "zh": "剪切"
+    },
+    "description": {
+      "en": "Cut clip",
+      "zh": "剪切片段"
+    },
+    "windows": "Ctrl + X",
+    "mac": "⌘ X",
+    "linux": "—",
+    "keywords": [
+      "cut",
+      "剪切"
+    ],
+    "pinyin": "jian qie jianqie j q jq jian qie jianqie j q jq"
+  },
+  {
+    "id": "filmora-copy",
+    "appId": "filmora",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Copy",
+      "zh": "复制"
+    },
+    "description": {
+      "en": "Copy clip",
+      "zh": "复制片段"
+    },
+    "windows": "Ctrl + C",
+    "mac": "⌘ C",
+    "linux": "—",
+    "keywords": [
+      "copy",
+      "复制"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "filmora-paste",
+    "appId": "filmora",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Paste",
+      "zh": "粘贴"
+    },
+    "description": {
+      "en": "Paste clip",
+      "zh": "粘贴片段"
+    },
+    "windows": "Ctrl + V",
+    "mac": "⌘ V",
+    "linux": "—",
+    "keywords": [
+      "paste",
+      "粘贴"
+    ],
+    "pinyin": "nian tie niantie n t nt nian tie niantie n t nt"
+  },
+  {
+    "id": "filmora-split",
+    "appId": "filmora",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Split",
+      "zh": "分割"
+    },
+    "description": {
+      "en": "Split at playhead",
+      "zh": "播放头分割"
+    },
+    "windows": "Ctrl + B",
+    "mac": "⌘ B",
+    "linux": "—",
+    "keywords": [
+      "split",
+      "分割"
+    ],
+    "pinyin": "fen ge fenge f g fg fen ge fenge f g fg"
+  },
+  {
+    "id": "filmora-delete",
+    "appId": "filmora",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Delete",
+      "zh": "删除"
+    },
+    "description": {
+      "en": "Delete clip",
+      "zh": "删除片段"
+    },
+    "windows": "Delete",
+    "mac": "Delete",
+    "linux": "—",
+    "keywords": [
+      "delete",
+      "删除"
+    ],
+    "pinyin": "shan chu shanchu s c sc shan chu shanchu s c sc"
+  },
+  {
+    "id": "filmora-trim",
+    "appId": "filmora",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Trim",
+      "zh": "修剪"
+    },
+    "description": {
+      "en": "Trim clip",
+      "zh": "修剪片段"
+    },
+    "windows": "Ctrl + T",
+    "mac": "⌘ T",
+    "linux": "—",
+    "keywords": [
+      "trim",
+      "修剪"
+    ],
+    "pinyin": "xiu jian xiujian x j xj xiu jian xiujian x j xj"
+  },
+  {
+    "id": "filmora-zoom-in",
+    "appId": "filmora",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Zoom in",
+      "zh": "放大"
+    },
+    "description": {
+      "en": "Zoom in timeline",
+      "zh": "时间线放大"
+    },
+    "windows": "Ctrl + =",
+    "mac": "⌘ =",
+    "linux": "—",
+    "keywords": [
+      "zoom",
+      "放大"
+    ],
+    "pinyin": "fang da fangda f d fd fang da fangda f d fd"
+  },
+  {
+    "id": "filmora-zoom-out",
+    "appId": "filmora",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Zoom out",
+      "zh": "缩小"
+    },
+    "description": {
+      "en": "Zoom out timeline",
+      "zh": "时间线缩小"
+    },
+    "windows": "Ctrl + -",
+    "mac": "⌘ -",
+    "linux": "—",
+    "keywords": [
+      "zoom",
+      "缩小"
+    ],
+    "pinyin": "suo xiao suoxiao s x sx suo xiao suoxiao s x sx"
+  },
+  {
+    "id": "filmora-play",
+    "appId": "filmora",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Play",
+      "zh": "播放"
+    },
+    "description": {
+      "en": "Play/pause",
+      "zh": "播放/暂停"
+    },
+    "windows": "Space",
+    "mac": "Space",
+    "linux": "—",
+    "keywords": [
+      "play",
+      "播放"
+    ],
+    "pinyin": "bo fang bofang b f bf bo fang bofang b f bf"
+  },
+  {
+    "id": "filmora-pause",
+    "appId": "filmora",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Pause",
+      "zh": "暂停"
+    },
+    "description": {
+      "en": "Pause",
+      "zh": "暂停"
+    },
+    "windows": "Space",
+    "mac": "Space",
+    "linux": "—",
+    "keywords": [
+      "pause",
+      "暂停"
+    ],
+    "pinyin": "zan ting zanting z t zt zan ting zanting z t zt"
+  },
+  {
+    "id": "filmora-prev-frame",
+    "appId": "filmora",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Prev frame",
+      "zh": "上一帧"
+    },
+    "description": {
+      "en": "Previous frame",
+      "zh": "上一帧"
+    },
+    "windows": "←",
+    "mac": "←",
+    "linux": "—",
+    "keywords": [
+      "prev",
+      "frame",
+      "帧"
+    ],
+    "pinyin": "shang yi zhen shangyizhen s y z syz zhen zhen z z"
+  },
+  {
+    "id": "filmora-next-frame",
+    "appId": "filmora",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Next frame",
+      "zh": "下一帧"
+    },
+    "description": {
+      "en": "Next frame",
+      "zh": "下一帧"
+    },
+    "windows": "→",
+    "mac": "→",
+    "linux": "—",
+    "keywords": [
+      "next",
+      "frame",
+      "帧"
+    ],
+    "pinyin": "xia yi zhen xiayizhen x y z xyz zhen zhen z z"
+  },
+  {
+    "id": "filmora-start",
+    "appId": "filmora",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Go start",
+      "zh": "到开头"
+    },
+    "description": {
+      "en": "Jump to start",
+      "zh": "跳到开头"
+    },
+    "windows": "Home",
+    "mac": "Home",
+    "linux": "—",
+    "keywords": [
+      "start",
+      "开头"
+    ],
+    "pinyin": "dao kai tou daokaitou d k t dkt kai tou kaitou k t kt"
+  },
+  {
+    "id": "filmora-end",
+    "appId": "filmora",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Go end",
+      "zh": "到结尾"
+    },
+    "description": {
+      "en": "Jump to end",
+      "zh": "跳到结尾"
+    },
+    "windows": "End",
+    "mac": "End",
+    "linux": "—",
+    "keywords": [
+      "end",
+      "结尾"
+    ],
+    "pinyin": "dao jie wei daojiewei d j w djw jie wei jiewei j w jw"
+  },
+  {
+    "id": "filmora-fullscreen",
+    "appId": "filmora",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Fullscreen",
+      "zh": "全屏"
+    },
+    "description": {
+      "en": "Toggle fullscreen",
+      "zh": "切换全屏"
+    },
+    "windows": "F11",
+    "mac": "⌃ ⌘ F",
+    "linux": "—",
+    "keywords": [
+      "fullscreen",
+      "全屏"
+    ],
+    "pinyin": "quan ping quanping q p qp quan ping quanping q p qp"
+  },
+  {
+    "id": "filmora-title",
+    "appId": "filmora",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Title",
+      "zh": "标题"
+    },
+    "description": {
+      "en": "Add title",
+      "zh": "添加标题"
+    },
+    "windows": "T",
+    "mac": "T",
+    "linux": "—",
+    "keywords": [
+      "title",
+      "标题"
+    ],
+    "pinyin": "biao ti biaoti b t bt biao ti biaoti b t bt"
+  },
+  {
+    "id": "filmora-transitions",
+    "appId": "filmora",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Transitions",
+      "zh": "转场"
+    },
+    "description": {
+      "en": "Open transitions",
+      "zh": "打开转场"
+    },
+    "windows": "Ctrl + Alt + T",
+    "mac": "⌥ ⌘ T",
+    "linux": "—",
+    "keywords": [
+      "transitions",
+      "转场"
+    ],
+    "pinyin": "zhuan chang zhuanchang z c zc zhuan chang zhuanchang z c zc"
+  },
+  {
+    "id": "filmora-effects",
+    "appId": "filmora",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Effects",
+      "zh": "特效"
+    },
+    "description": {
+      "en": "Open effects",
+      "zh": "打开特效"
+    },
+    "windows": "Ctrl + Alt + E",
+    "mac": "⌥ ⌘ E",
+    "linux": "—",
+    "keywords": [
+      "effects",
+      "特效"
+    ],
+    "pinyin": "te xiao texiao t x tx te xiao texiao t x tx"
+  },
+  {
+    "id": "filmora-speed",
+    "appId": "filmora",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Speed",
+      "zh": "速度"
+    },
+    "description": {
+      "en": "Speed control",
+      "zh": "速度控制"
+    },
+    "windows": "Ctrl + Alt + R",
+    "mac": "⌥ ⌘ R",
+    "linux": "—",
+    "keywords": [
+      "speed",
+      "速度"
+    ],
+    "pinyin": "su du sudu s d sd su du sudu s d sd"
+  },
+  {
+    "id": "filmora-reverse",
+    "appId": "filmora",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Reverse",
+      "zh": "倒放"
+    },
+    "description": {
+      "en": "Reverse clip",
+      "zh": "倒放片段"
+    },
+    "windows": "Ctrl + Alt + V",
+    "mac": "⌥ ⌘ V",
+    "linux": "—",
+    "keywords": [
+      "reverse",
+      "倒放"
+    ],
+    "pinyin": "dao fang daofang d f df dao fang daofang d f df"
+  },
+  {
+    "id": "filmora-stabilize",
+    "appId": "filmora",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Stabilize",
+      "zh": "防抖"
+    },
+    "description": {
+      "en": "Video stabilization",
+      "zh": "视频防抖"
+    },
+    "windows": "Ctrl + Alt + S",
+    "mac": "⌥ ⌘ S",
+    "linux": "—",
+    "keywords": [
+      "stabilize",
+      "防抖"
+    ],
+    "pinyin": "fang dou fangdou f d fd fang dou fangdou f d fd"
+  },
+  {
+    "id": "filmora-color",
+    "appId": "filmora",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Color",
+      "zh": "调色"
+    },
+    "description": {
+      "en": "Color panel",
+      "zh": "调色面板"
+    },
+    "windows": "Ctrl + Alt + C",
+    "mac": "⌥ ⌘ C",
+    "linux": "—",
+    "keywords": [
+      "color",
+      "调色"
+    ],
+    "pinyin": "tiao se tiaose t s ts tiao se tiaose t s ts"
+  },
+  {
+    "id": "filmora-record",
+    "appId": "filmora",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Record",
+      "zh": "录制"
+    },
+    "description": {
+      "en": "Screen record",
+      "zh": "屏幕录制"
+    },
+    "windows": "Ctrl + Alt + R? ",
+    "mac": "⌥ ⌘ R? ",
+    "linux": "—",
+    "keywords": [
+      "record",
+      "录制"
+    ],
+    "pinyin": "lu zhi luzhi l z lz lu zhi luzhi l z lz"
+  },
+  {
+    "id": "filmora-group",
+    "appId": "filmora",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Group",
+      "zh": "编组"
+    },
+    "description": {
+      "en": "Group clips",
+      "zh": "编组片段"
+    },
+    "windows": "Ctrl + G",
+    "mac": "⌘ G",
+    "linux": "—",
+    "keywords": [
+      "group",
+      "编组"
+    ],
+    "pinyin": "bian zu bianzu b z bz bian zu bianzu b z bz"
+  },
+  {
+    "id": "filmora-lock",
+    "appId": "filmora",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Lock",
+      "zh": "锁定"
+    },
+    "description": {
+      "en": "Lock track",
+      "zh": "锁定轨道"
+    },
+    "windows": "Ctrl + L",
+    "mac": "⌘ L",
+    "linux": "—",
+    "keywords": [
+      "lock",
+      "锁定"
+    ],
+    "pinyin": "suo ding suoding s d sd suo ding suoding s d sd"
+  },
+  {
+    "id": "filmora-snap",
+    "appId": "filmora",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Snap",
+      "zh": "吸附"
+    },
+    "description": {
+      "en": "Toggle snapping",
+      "zh": "切换吸附"
+    },
+    "windows": "S",
+    "mac": "S",
+    "linux": "—",
+    "keywords": [
+      "snap",
+      "吸附"
+    ],
+    "pinyin": "xi fu xifu x f xf xi fu xifu x f xf"
+  },
+  {
+    "id": "filmora-fit",
+    "appId": "filmora",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Fit",
+      "zh": "适应"
+    },
+    "description": {
+      "en": "Fit to window",
+      "zh": "适应窗口"
+    },
+    "windows": "Shift + 1",
+    "mac": "Shift + 1",
+    "linux": "—",
+    "keywords": [
+      "fit",
+      "适应"
+    ],
+    "pinyin": "shi ying shiying s y sy shi ying shiying s y sy"
+  },
+  {
+    "id": "filmora-render",
+    "appId": "filmora",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Render",
+      "zh": "渲染"
+    },
+    "description": {
+      "en": "Render preview",
+      "zh": "渲染预览"
+    },
+    "windows": "Enter",
+    "mac": "Enter",
+    "linux": "—",
+    "keywords": [
+      "render",
+      "渲染"
+    ],
+    "pinyin": "xuan ran xuanran x r xr xuan ran xuanran x r xr"
+  },
+  {
+    "id": "filmora-split-screen",
+    "appId": "filmora",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Split screen",
+      "zh": "分屏"
+    },
+    "description": {
+      "en": "Split screen",
+      "zh": "分屏"
+    },
+    "windows": "Ctrl + Alt + P",
+    "mac": "⌥ ⌘ P",
+    "linux": "—",
+    "keywords": [
+      "split",
+      "screen",
+      "分屏"
+    ],
+    "pinyin": "fen ping fenping f p fp fen ping fenping f p fp"
+  },
+  {
+    "id": "filmora-audio",
+    "appId": "filmora",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Audio",
+      "zh": "音频"
+    },
+    "description": {
+      "en": "Audio panel",
+      "zh": "音频面板"
+    },
+    "windows": "Ctrl + Alt + A",
+    "mac": "⌥ ⌘ A",
+    "linux": "—",
+    "keywords": [
+      "audio",
+      "音频"
+    ],
+    "pinyin": "yin pin yinpin y p yp yin pin yinpin y p yp"
+  },
+  {
+    "id": "filmora-find",
+    "appId": "filmora",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Find",
+      "zh": "查找"
+    },
+    "description": {
+      "en": "Find media",
+      "zh": "查找媒体"
+    },
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
+    "linux": "—",
+    "keywords": [
+      "find",
+      "查找"
+    ],
+    "pinyin": "cha zhao chazhao c z cz cha zhao chazhao c z cz"
+  }
+]

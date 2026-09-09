@@ -1,1 +1,1792 @@
-[{"id":"slides-prev","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"上一张幻灯片","en":"Previous slide"},"description":{"zh":"切换到上一张幻灯片","en":"Move to the previous slide"},"windows":"Page Up / ↑","mac":"Page Up / ↑","linux":"Page Up / ↑","keywords":["上一张","previous","slide"],"pinyin":"shang yi zhang huan deng pian shangyizhanghuandengpian s y z h d p syzhdp shang yi zhang shangyizhang s y z syz"},{"id":"slides-next","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"下一张幻灯片","en":"Next slide"},"description":{"zh":"切换到下一张幻灯片","en":"Move to the next slide"},"windows":"Page Down / ↓","mac":"Page Down / ↓","linux":"Page Down / ↓","keywords":["下一张","next","slide"],"pinyin":"xia yi zhang huan deng pian xiayizhanghuandengpian x y z h d p xyzhdp xia yi zhang xiayizhang x y z xyz"},{"id":"slides-first","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"第一张幻灯片","en":"First slide"},"description":{"zh":"跳到第一张幻灯片","en":"Move to the first slide"},"windows":"Home","mac":"Home","linux":"Home","keywords":["第一张","first","slide"],"pinyin":"di yi zhang huan deng pian diyizhanghuandengpian d y z h d p dyzhdp di yi zhang diyizhang d y z dyz"},{"id":"slides-last","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"最后一张幻灯片","en":"Last slide"},"description":{"zh":"跳到最后一张幻灯片","en":"Move to the last slide"},"windows":"End","mac":"End","linux":"End","keywords":["最后","last","slide"],"pinyin":"zui hou yi zhang huan deng pian zuihouyizhanghuandengpian z h y z h d p zhyzhdp zui hou zuihou z h zh"},{"id":"slides-move-up","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"上移幻灯片","en":"Move slide up"},"description":{"zh":"在胶片条中上移幻灯片","en":"Move the slide up in the filmstrip"},"windows":"Ctrl + ↑","mac":"⌘ ↑","linux":"Ctrl + ↑","keywords":["移动","上移","move","up"],"pinyin":"shang yi huan deng pian shangyihuandengpian s y h d p syhdp yi dong   shang yi yidong shangyi y d   s y yd sy"},{"id":"slides-move-down","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"下移幻灯片","en":"Move slide down"},"description":{"zh":"在胶片条中下移幻灯片","en":"Move the slide down in the filmstrip"},"windows":"Ctrl + ↓","mac":"⌘ ↓","linux":"Ctrl + ↓","keywords":["移动","下移","move","down"],"pinyin":"xia yi huan deng pian xiayihuandengpian x y h d p xyhdp yi dong   xia yi yidong xiayi y d   x y yd xy"},{"id":"slides-move-begin","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"移到开头","en":"Move to beginning"},"description":{"zh":"将幻灯片移到演示文稿开头","en":"Move the slide to the beginning"},"windows":"Ctrl + Shift + ↑","mac":"⌘ ⇧ ↑","linux":"Ctrl + Shift + ↑","keywords":["移动","开头","beginning"],"pinyin":"yi dao kai tou yidaokaitou y d k t ydkt yi dong   kai tou yidong kaitou y d   k t yd kt"},{"id":"slides-move-end","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"移到末尾","en":"Move to end"},"description":{"zh":"将幻灯片移到演示文稿末尾","en":"Move the slide to the end"},"windows":"Ctrl + Shift + ↓","mac":"⌘ ⇧ ↓","linux":"Ctrl + Shift + ↓","keywords":["移动","末尾","end"],"pinyin":"yi dao mo wei yidaomowei y d m w ydmw yi dong   mo wei yidong mowei y d   m w yd mw"},{"id":"slides-zoom-in","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"放大","en":"Zoom in"},"description":{"zh":"放大画布视图","en":"Zoom in on the canvas"},"windows":"Ctrl + =","mac":"⌘ =","linux":"Ctrl + =","keywords":["放大","zoom","in"],"pinyin":"fang da fangda f d fd fang da fangda f d fd"},{"id":"slides-zoom-out","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"缩小","en":"Zoom out"},"description":{"zh":"缩小画布视图","en":"Zoom out on the canvas"},"windows":"Ctrl + -","mac":"⌘ -","linux":"Ctrl + -","keywords":["缩小","zoom","out"],"pinyin":"suo xiao suoxiao s x sx suo xiao suoxiao s x sx"},{"id":"slides-zoom-100","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"缩放到 100%","en":"Zoom to 100%"},"description":{"zh":"将视图缩放回 100%","en":"Reset zoom to 100%"},"windows":"Ctrl + 0","mac":"⌘ 0","linux":"Ctrl + 0","keywords":["缩放","100","zoom"],"pinyin":"suo fang dao   1 0 0 % suofangdao 100% s f d   1 0 0 % sfd 100% suo fang suofang s f sf"},{"id":"slides-filmstrip","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"聚焦胶片条","en":"Move to filmstrip"},"description":{"zh":"将焦点移到左侧胶片条","en":"Move focus to the filmstrip"},"windows":"Ctrl + Alt + Shift + F","mac":"⌘ ⌥ ⇧ F","linux":"Ctrl + Alt + Shift + F","keywords":["胶片条","filmstrip"],"pinyin":"ju jiao jiao pian tiao jujiaojiaopiantiao j j j p t jjjpt jiao pian tiao jiaopiantiao j p t jpt"},{"id":"slides-canvas","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"聚焦画布","en":"Move to canvas"},"description":{"zh":"将焦点移到中央画布","en":"Move focus to the canvas"},"windows":"Ctrl + Alt + Shift + C","mac":"⌘ ⌥ ⇧ C","linux":"Ctrl + Alt + Shift + C","keywords":["画布","canvas"],"pinyin":"ju jiao hua bu jujiaohuabu j j h b jjhb hua bu huabu h b hb"},{"id":"slides-speaker-notes","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"演讲者备注","en":"Speaker notes panel"},"description":{"zh":"打开演讲者备注面板","en":"Open the speaker notes panel"},"windows":"Ctrl + Alt + Shift + S","mac":"⌘ ⌥ ⇧ S","linux":"Ctrl + Alt + Shift + S","keywords":["备注","speaker","notes"],"pinyin":"yan jiang zhe bei zhu yanjiangzhebeizhu y j z b z yjzbz bei zhu beizhu b z bz"},{"id":"slides-animations","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"动画面板","en":"Animations panel"},"description":{"zh":"打开动画设置面板","en":"Open the animations panel"},"windows":"Ctrl + Alt + Shift + B","mac":"⌘ ⌥ ⇧ B","linux":"Ctrl + Alt + Shift + B","keywords":["动画","animations"],"pinyin":"dong hua mian ban donghuamianban d h m b dhmb dong hua donghua d h dh"},{"id":"slides-revision","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"修订历史","en":"Revision history"},"description":{"zh":"打开修订历史记录","en":"Open the revision history"},"windows":"Ctrl + Alt + Shift + H","mac":"⌘ ⌥ ⇧ H","linux":"Ctrl + Alt + Shift + H","keywords":["历史","修订","revision","history"],"pinyin":"xiu ding li shi xiudinglishi x d l s xdls li shi   xiu ding lishi xiuding l s   x d ls xd"},{"id":"slides-exit","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"退出当前模式","en":"Exit current mode"},"description":{"zh":"退出当前操作模式","en":"Exit the current mode"},"windows":"Esc","mac":"Esc","linux":"Esc","keywords":["退出","esc","exit"],"pinyin":"tui chu dang qian mo shi tuichudangqianmoshi t c d q m s tcdqms tui chu tuichu t c tc"},{"id":"slides-present","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"开始演示","en":"Start presentation"},"description":{"zh":"从头开始播放演示","en":"Start the presentation from the beginning"},"windows":"Ctrl + F5","mac":"⌘ Enter","linux":"Ctrl + F5","keywords":["演示","播放","present"],"pinyin":"kai shi yan shi kaishiyanshi k s y s ksys yan shi   bo fang yanshi bofang y s   b f ys bf"},{"id":"slides-next-present","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"下一张（演示中）","en":"Next slide (presenting)"},"description":{"zh":"演示时切换到下一张","en":"Go to the next slide while presenting"},"windows":"→ / 空格","mac":"→ / 空格","linux":"→ / 空格","keywords":["下一张","next","present"],"pinyin":"xia yi zhang （ yan shi zhong ） xiayizhang（yanshizhong） x y z （ y s z ） xyz（ysz） xia yi zhang xiayizhang x y z xyz"},{"id":"slides-prev-present","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"上一张（演示中）","en":"Previous slide (presenting)"},"description":{"zh":"演示时切换到上一张","en":"Go to the previous slide while presenting"},"windows":"←","mac":"←","linux":"←","keywords":["上一张","previous","present"],"pinyin":"shang yi zhang （ yan shi zhong ） shangyizhang（yanshizhong） s y z （ y s z ） syz（ysz） shang yi zhang shangyizhang s y z syz"},{"id":"slides-goto","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"跳到指定页","en":"Go to slide number"},"description":{"zh":"输入页码后回车跳转到该页","en":"Type a number then Enter to jump to that slide"},"windows":"数字 + Enter","mac":"数字 Enter","linux":"数字 + Enter","keywords":["跳转","页码","goto"],"pinyin":"tiao dao zhi ding ye tiaodaozhidingye t d z d y tdzdy tiao zhuan   ye ma tiaozhuan yema t z   y m tz ym"},{"id":"slides-speaker","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"演讲者视图","en":"Speaker notes (presenting)"},"description":{"zh":"演示中打开演讲者备注","en":"Open speaker notes while presenting"},"windows":"S","mac":"S","linux":"S","keywords":["演讲者","speaker","present"],"pinyin":"yan jiang zhe shi tu yanjiangzheshitu y j z s t yjzst yan jiang zhe yanjiangzhe y j z yjz"},{"id":"slides-audience","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"观众工具","en":"Audience tools"},"description":{"zh":"演示中打开观众互动工具","en":"Open audience tools while presenting"},"windows":"A","mac":"A","linux":"A","keywords":["观众","audience","present"],"pinyin":"guan zhong gong ju guanzhonggongju g z g j gzgj guan zhong guanzhong g z gz"},{"id":"slides-laser","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"激光笔","en":"Laser pointer"},"description":{"zh":"演示中切换激光笔","en":"Toggle the laser pointer while presenting"},"windows":"L","mac":"L","linux":"L","keywords":["激光笔","laser","present"],"pinyin":"ji guang bi jiguangbi j g b jgb ji guang bi jiguangbi j g b jgb"},{"id":"slides-black","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"黑屏","en":"Blank black slide"},"description":{"zh":"演示中显示黑屏暂停","en":"Show a blank black slide while presenting"},"windows":"B / .","mac":"B / .","linux":"B / .","keywords":["黑屏","black","present"],"pinyin":"hei ping heiping h p hp hei ping heiping h p hp"},{"id":"slides-white","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"白屏","en":"Blank white slide"},"description":{"zh":"演示中显示白屏暂停","en":"Show a blank white slide while presenting"},"windows":"W / ,","mac":"W / ,","linux":"W / ,","keywords":["白屏","white","present"],"pinyin":"bai ping baiping b p bp bai ping baiping b p bp"},{"id":"slides-captions","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"实时字幕","en":"Toggle captions"},"description":{"zh":"演示中开关实时字幕（仅英文）","en":"Toggle live captions while presenting (English only)"},"windows":"Ctrl + Shift + C","mac":"⌘ ⇧ C","linux":"Ctrl + Shift + C","keywords":["字幕","captions","present"],"pinyin":"shi shi zi mu shishizimu s s z m sszm zi mu zimu z m zm"},{"id":"slides-fullscreen","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"全屏","en":"Full screen"},"description":{"zh":"切换浏览器全屏","en":"Toggle full-screen mode"},"windows":"F11","mac":"F11","linux":"F11","keywords":["全屏","fullscreen"],"pinyin":"quan ping quanping q p qp quan ping quanping q p qp"},{"id":"slides-new","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"新建幻灯片","en":"New slide"},"description":{"zh":"插入一张新幻灯片","en":"Insert a new slide"},"windows":"Ctrl + M","mac":"⌘ M","linux":"Ctrl + M","keywords":["新建","幻灯片","new","slide"],"pinyin":"xin jian huan deng pian xinjianhuandengpian x j h d p xjhdp xin jian   huan deng pian xinjian huandengpian x j   h d p xj hdp"},{"id":"slides-duplicate","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"复制幻灯片/对象","en":"Duplicate slide or object"},"description":{"zh":"复制选中的幻灯片或对象","en":"Duplicate the selected slide or object"},"windows":"Ctrl + D","mac":"⌘ D","linux":"Ctrl + D","keywords":["复制","duplicate"],"pinyin":"fu zhi huan deng pian / dui xiang fuzhihuandengpian/duixiang f z h d p / d x fzhdp/dx fu zhi fuzhi f z fz"},{"id":"slides-undo","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"撤销","en":"Undo"},"description":{"zh":"撤销上一步操作","en":"Undo the last action"},"windows":"Ctrl + Z","mac":"⌘ Z","linux":"Ctrl + Z","keywords":["撤销","undo"],"pinyin":"che xiao chexiao c x cx che xiao chexiao c x cx"},{"id":"slides-redo","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"重做","en":"Redo"},"description":{"zh":"重做已撤销的操作","en":"Redo the last undone action"},"windows":"Ctrl + Y","mac":"⌘ Y","linux":"Ctrl + Y","keywords":["重做","redo"],"pinyin":"zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"},{"id":"slides-copy","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"复制","en":"Copy"},"description":{"zh":"复制选中内容","en":"Copy the selection"},"windows":"Ctrl + C","mac":"⌘ C","linux":"Ctrl + C","keywords":["复制","copy"],"pinyin":"fu zhi fuzhi f z fz fu zhi fuzhi f z fz"},{"id":"slides-paste","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"粘贴","en":"Paste"},"description":{"zh":"粘贴内容","en":"Paste content"},"windows":"Ctrl + V","mac":"⌘ V","linux":"Ctrl + V","keywords":["粘贴","paste"],"pinyin":"nian tie niantie n t nt nian tie niantie n t nt"},{"id":"slides-cut","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"剪切","en":"Cut"},"description":{"zh":"剪切选中内容","en":"Cut the selection"},"windows":"Ctrl + X","mac":"⌘ X","linux":"Ctrl + X","keywords":["剪切","cut"],"pinyin":"jian qie jianqie j q jq jian qie jianqie j q jq"},{"id":"slides-copy-fmt","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"复制格式","en":"Copy formatting"},"description":{"zh":"复制选中对象的格式","en":"Copy the formatting of the selection"},"windows":"Ctrl + Alt + C","mac":"⌘ ⌥ C","linux":"Ctrl + Alt + C","keywords":["复制格式","format","copy"],"pinyin":"fu zhi ge shi fuzhigeshi f z g s fzgs fu zhi ge shi fuzhigeshi f z g s fzgs"},{"id":"slides-paste-fmt","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"粘贴格式","en":"Paste formatting"},"description":{"zh":"将复制的格式应用到选中对象","en":"Apply copied formatting to the selection"},"windows":"Ctrl + Alt + V","mac":"⌘ ⌥ V","linux":"Ctrl + Alt + V","keywords":["粘贴格式","format","paste"],"pinyin":"nian tie ge shi niantiegeshi n t g s ntgs nian tie ge shi niantiegeshi n t g s ntgs"},{"id":"slides-link","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"插入/编辑链接","en":"Insert or edit link"},"description":{"zh":"为选中内容添加或编辑链接","en":"Insert or edit a link on the selection"},"windows":"Ctrl + K","mac":"⌘ K","linux":"Ctrl + K","keywords":["链接","link"],"pinyin":"cha ru / bian ji lian jie charu/bianjilianjie c r / b j l j cr/bjlj lian jie lianjie l j lj"},{"id":"slides-open-link","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"打开链接","en":"Open link"},"description":{"zh":"打开选中对象上的链接","en":"Open the link on the selected object"},"windows":"Alt + Enter","mac":"⌥ Enter","linux":"Alt + Enter","keywords":["打开","链接","open","link"],"pinyin":"da kai lian jie dakailianjie d k l j dklj da kai   lian jie dakai lianjie d k   l j dk lj"},{"id":"slides-select-all","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"全选","en":"Select all"},"description":{"zh":"选中当前幻灯片所有对象","en":"Select all objects on the slide"},"windows":"Ctrl + A","mac":"⌘ A","linux":"Ctrl + A","keywords":["全选","select","all"],"pinyin":"quan xuan quanxuan q x qx quan xuan quanxuan q x qx"},{"id":"slides-find","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"查找","en":"Find"},"description":{"zh":"在演示文稿中查找内容","en":"Find content in the presentation"},"windows":"Ctrl + F","mac":"⌘ F","linux":"Ctrl + F","keywords":["查找","find"],"pinyin":"cha zhao chazhao c z cz cha zhao chazhao c z cz"},{"id":"slides-replace","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"查找和替换","en":"Find and replace"},"description":{"zh":"查找并替换演示文稿中的内容","en":"Find and replace content in the presentation"},"windows":"Ctrl + H","mac":"⌘ ⇧ H","linux":"Ctrl + H","keywords":["替换","find","replace"],"pinyin":"cha zhao he ti huan chazhaohetihuan c z h t h czhth ti huan tihuan t h th"},{"id":"slides-shortcuts","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"快捷键列表","en":"All keyboard shortcuts"},"description":{"zh":"打开所有快捷键的速查列表","en":"Open the full list of keyboard shortcuts"},"windows":"Ctrl / ","mac":"⌘ / ","linux":"Ctrl / ","keywords":["快捷键","帮助","shortcuts","help"],"pinyin":"kuai jie jian lie biao kuaijiejianliebiao k j j l b kjjlb kuai jie jian   bang zhu kuaijiejian bangzhu k j j   b z kjj bz"},{"id":"slides-alt-text","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"替代文字","en":"Alt text"},"description":{"zh":"为选中对象添加替代文字","en":"Add alt text to the selected object"},"windows":"Ctrl + Alt + Y","mac":"⌘ ⌥ Y","linux":"Ctrl + Alt + Y","keywords":["替代文字","alt","text"],"pinyin":"ti dai wen zi tidaiwenzi t d w z tdwz ti dai wen zi tidaiwenzi t d w z tdwz"},{"id":"slides-comment","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"插入评论","en":"Insert comment"},"description":{"zh":"为选中内容添加评论","en":"Add a comment to the selection"},"windows":"Ctrl + Alt + M","mac":"⌘ ⌥ M","linux":"Ctrl + Alt + M","keywords":["评论","comment"],"pinyin":"cha ru ping lun charupinglun c r p l crpl ping lun pinglun p l pl"},{"id":"slides-comment-thread","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"打开评论讨论","en":"Open comment thread"},"description":{"zh":"打开当前对象的评论讨论串","en":"Open the comment thread for the object"},"windows":"Ctrl + Alt + Shift + A","mac":"⌘ ⌥ ⇧ A","linux":"Ctrl + Alt + Shift + A","keywords":["评论","讨论","comment","thread"],"pinyin":"da kai ping lun tao lun dakaipingluntaolun d k p l t l dkpltl ping lun   tao lun pinglun taolun p l   t l pl tl"},{"id":"slides-reply-comment","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"回复评论","en":"Reply to comment"},"description":{"zh":"回复当前评论","en":"Reply to the current comment"},"windows":"R","mac":"R","linux":"R","keywords":["回复","评论","reply","comment"],"pinyin":"hui fu ping lun huifupinglun h f p l hfpl hui fu   ping lun huifu pinglun h f   p l hf pl"},{"id":"slides-next-comment","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"下一条评论","en":"Next comment"},"description":{"zh":"跳到下一条评论","en":"Move to the next comment"},"windows":"J","mac":"J","linux":"J","keywords":["评论","下一条","comment","next"],"pinyin":"xia yi tiao ping lun xiayitiaopinglun x y t p l xytpl ping lun   xia yi tiao pinglun xiayitiao p l   x y t pl xyt"},{"id":"slides-prev-comment","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"上一条评论","en":"Previous comment"},"description":{"zh":"跳到上一条评论","en":"Move to the previous comment"},"windows":"K","mac":"K","linux":"K","keywords":["评论","上一条","comment","previous"],"pinyin":"shang yi tiao ping lun shangyitiaopinglun s y t p l sytpl ping lun   shang yi tiao pinglun shangyitiao p l   s y t pl syt"},{"id":"slides-resolve-comment","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"解决评论","en":"Resolve comment"},"description":{"zh":"将当前评论标记为已解决","en":"Mark the current comment as resolved"},"windows":"E","mac":"E","linux":"E","keywords":["解决","评论","resolve","comment"],"pinyin":"jie jue ping lun jiejuepinglun j j p l jjpl jie jue   ping lun jiejue pinglun j j   p l jj pl"},{"id":"slides-bold","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"加粗","en":"Bold"},"description":{"zh":"将选中文字加粗","en":"Make the selection bold"},"windows":"Ctrl + B","mac":"⌘ B","linux":"Ctrl + B","keywords":["加粗","bold"],"pinyin":"jia cu jiacu j c jc jia cu jiacu j c jc"},{"id":"slides-italic","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"斜体","en":"Italic"},"description":{"zh":"将选中文字设为斜体","en":"Make the selection italic"},"windows":"Ctrl + I","mac":"⌘ I","linux":"Ctrl + I","keywords":["斜体","italic"],"pinyin":"xie ti xieti x t xt xie ti xieti x t xt"},{"id":"slides-underline","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"下划线","en":"Underline"},"description":{"zh":"为选中文字添加下划线","en":"Underline the selection"},"windows":"Ctrl + U","mac":"⌘ U","linux":"Ctrl + U","keywords":["下划线","underline"],"pinyin":"xia hua xian xiahuaxian x h x xhx xia hua xian xiahuaxian x h x xhx"},{"id":"slides-subscript","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"下标","en":"Subscript"},"description":{"zh":"将选中文字设为下标","en":"Make the selection subscript"},"windows":"Ctrl + ,","mac":"⌘ ,","linux":"Ctrl + ,","keywords":["下标","subscript"],"pinyin":"xia biao xiabiao x b xb xia biao xiabiao x b xb"},{"id":"slides-superscript","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"上标","en":"Superscript"},"description":{"zh":"将选中文字设为上标","en":"Make the selection superscript"},"windows":"Ctrl + .","mac":"⌘ .","linux":"Ctrl + .","keywords":["上标","superscript"],"pinyin":"shang biao shangbiao s b sb shang biao shangbiao s b sb"},{"id":"slides-strike","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"删除线","en":"Strikethrough"},"description":{"zh":"为选中文字添加删除线","en":"Strikethrough the selection"},"windows":"Alt + Shift + 5","mac":"⌘ ⇧ X","linux":"Alt + Shift + 5","keywords":["删除线","strikethrough"],"pinyin":"shan chu xian shanchuxian s c x scx shan chu xian shanchuxian s c x scx"},{"id":"slides-clear-fmt","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"清除格式","en":"Clear formatting"},"description":{"zh":"清除选中文字的格式","en":"Clear formatting from the selection"},"windows":"Ctrl + 空格","mac":"⌘ \\","linux":"Ctrl + 空格","keywords":["清除","格式","clear","format"],"pinyin":"qing chu ge shi qingchugeshi q c g s qcgs qing chu   ge shi qingchu geshi q c   g s qc gs"},{"id":"slides-font-up","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"增大字号","en":"Increase font size"},"description":{"zh":"增大选中文字的字号","en":"Increase the font size of the selection"},"windows":"Ctrl + Shift + >","mac":"⌘ ⇧ >","linux":"Ctrl + Shift + >","keywords":["字号","增大","font","size"],"pinyin":"zeng da zi hao zengdazihao z d z h zdzh zi hao   zeng da zihao zengda z h   z d zh zd"},{"id":"slides-font-down","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"减小字号","en":"Decrease font size"},"description":{"zh":"减小选中文字的字号","en":"Decrease the font size of the selection"},"windows":"Ctrl + Shift + <","mac":"⌘ ⇧ <","linux":"Ctrl + Shift + <","keywords":["字号","减小","font","size"],"pinyin":"jian xiao zi hao jianxiaozihao j x z h jxzh zi hao   jian xiao zihao jianxiao z h   j x zh jx"},{"id":"slides-align-left","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"左对齐","en":"Align left"},"description":{"zh":"将文字左对齐","en":"Align text to the left"},"windows":"Ctrl + Shift + L","mac":"⌘ ⇧ L","linux":"Ctrl + Shift + L","keywords":["对齐","左","align","left"],"pinyin":"zuo dui qi zuoduiqi z d q zdq dui qi   zuo duiqi zuo d q   z dq z"},{"id":"slides-align-center","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"居中对齐","en":"Align center"},"description":{"zh":"将文字水平居中","en":"Center text horizontally"},"windows":"Ctrl + Shift + E","mac":"⌘ ⇧ E","linux":"Ctrl + Shift + E","keywords":["对齐","居中","align","center"],"pinyin":"ju zhong dui qi juzhongduiqi j z d q jzdq dui qi   ju zhong duiqi juzhong d q   j z dq jz"},{"id":"slides-align-right","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"右对齐","en":"Align right"},"description":{"zh":"将文字右对齐","en":"Align text to the right"},"windows":"Ctrl + Shift + R","mac":"⌘ ⇧ R","linux":"Ctrl + Shift + R","keywords":["对齐","右","align","right"],"pinyin":"you dui qi youduiqi y d q ydq dui qi   you duiqi you d q   y dq y"},{"id":"slides-justify","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"两端对齐","en":"Justify"},"description":{"zh":"将文字两端对齐","en":"Justify the text"},"windows":"Ctrl + Shift + J","mac":"⌘ ⇧ J","linux":"Ctrl + Shift + J","keywords":["对齐","两端","justify"],"pinyin":"liang duan dui qi liangduanduiqi l d d q lddq dui qi   liang duan duiqi liangduan d q   l d dq ld"},{"id":"slides-para-down","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"段落下移","en":"Move paragraph down"},"description":{"zh":"将段落向下移动","en":"Move the paragraph down"},"windows":"Alt + Shift + ↓","mac":"⌥ ⇧ ↓","linux":"Alt + Shift + ↓","keywords":["段落","下移","paragraph"],"pinyin":"duan luo xia yi duanluoxiayi d l x y dlxy duan luo   xia yi duanluo xiayi d l   x y dl xy"},{"id":"slides-para-up","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"段落上移","en":"Move paragraph up"},"description":{"zh":"将段落向上移动","en":"Move the paragraph up"},"windows":"Alt + Shift + ↑","mac":"⌥ ⇧ ↑","linux":"Alt + Shift + ↑","keywords":["段落","上移","paragraph"],"pinyin":"duan luo shang yi duanluoshangyi d l s y dlsy duan luo   shang yi duanluo shangyi d l   s y dl sy"},{"id":"slides-indent-up","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"增加缩进","en":"Increase indent"},"description":{"zh":"增加选中段落的缩进","en":"Increase the indent of the selection"},"windows":"Ctrl + ]","mac":"⌘ ]","linux":"Ctrl + ]","keywords":["缩进","indent"],"pinyin":"zeng jia suo jin zengjiasuojin z j s j zjsj suo jin suojin s j sj"},{"id":"slides-indent-down","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"减少缩进","en":"Decrease indent"},"description":{"zh":"减少选中段落的缩进","en":"Decrease the indent of the selection"},"windows":"Ctrl + [","mac":"⌘ [","linux":"Ctrl + [","keywords":["缩进","indent"],"pinyin":"jian shao suo jin jianshaosuojin j s s j jssj suo jin suojin s j sj"},{"id":"slides-bulleted","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"项目符号列表","en":"Bulleted list"},"description":{"zh":"将选中文字设为项目符号列表","en":"Make the selection a bulleted list"},"windows":"Ctrl + Shift + 8","mac":"⌘ ⇧ 8","linux":"Ctrl + Shift + 8","keywords":["列表","项目符号","bullet","list"],"pinyin":"xiang mu fu hao lie biao xiangmufuhaoliebiao x m f h l b xmfhlb lie biao   xiang mu fu hao liebiao xiangmufuhao l b   x m f h lb xmfh"},{"id":"slides-numbered","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"编号列表","en":"Numbered list"},"description":{"zh":"将选中文字设为编号列表","en":"Make the selection a numbered list"},"windows":"Ctrl + Shift + 7","mac":"⌘ ⇧ 7","linux":"Ctrl + Shift + 7","keywords":["列表","编号","number","list"],"pinyin":"bian hao lie biao bianhaoliebiao b h l b bhlb lie biao   bian hao liebiao bianhao l b   b h lb bh"},{"id":"slides-group","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"组合对象","en":"Group objects"},"description":{"zh":"将选中的多个对象组合","en":"Group the selected objects"},"windows":"Ctrl + Alt + G","mac":"⌘ ⌥ G","linux":"Ctrl + Alt + G","keywords":["组合","group"],"pinyin":"zu he dui xiang zuheduixiang z h d x zhdx zu he zuhe z h zh"},{"id":"slides-ungroup","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"取消组合","en":"Ungroup objects"},"description":{"zh":"拆分已组合的对象","en":"Ungroup the selected objects"},"windows":"Ctrl + Alt + Shift + G","mac":"⌘ ⌥ ⇧ G","linux":"Ctrl + Alt + Shift + G","keywords":["取消组合","ungroup"],"pinyin":"qu xiao zu he quxiaozuhe q x z h qxzh qu xiao zu he quxiaozuhe q x z h qxzh"},{"id":"slides-to-back","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"置于底层","en":"Send to back"},"description":{"zh":"将对象移到最底层","en":"Send the object to the back"},"windows":"—","mac":"—","linux":"—","keywords":["层级","底层","back"],"pinyin":"zhi yu di ceng zhiyudiceng z y d c zydc ceng ji   di ceng cengji diceng c j   d c cj dc"},{"id":"slides-to-front","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"置于顶层","en":"Bring to front"},"description":{"zh":"将对象移到最顶层","en":"Bring the object to the front"},"windows":"—","mac":"—","linux":"—","keywords":["层级","顶层","front"],"pinyin":"zhi yu ding ceng zhiyudingceng z y d c zydc ceng ji   ding ceng cengji dingceng c j   d c cj dc"},{"id":"slides-next-shape","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"选择下一个对象","en":"Select next shape"},"description":{"zh":"在对象间切换到下一个","en":"Select the next shape"},"windows":"Tab","mac":"Tab","linux":"Tab","keywords":["选择","对象","next","shape"],"pinyin":"xuan ze xia yi ge dui xiang xuanzexiayigeduixiang x z x y g d x xzxygdx xuan ze   dui xiang xuanze duixiang x z   d x xz dx"},{"id":"slides-prev-shape","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"选择上一个对象","en":"Select previous shape"},"description":{"zh":"在对象间切换到上一个","en":"Select the previous shape"},"windows":"Shift + Tab","mac":"⇧ Tab","linux":"Shift + Tab","keywords":["选择","对象","previous","shape"],"pinyin":"xuan ze shang yi ge dui xiang xuanzeshangyigeduixiang x z s y g d x xzsygdx xuan ze   dui xiang xuanze duixiang x z   d x xz dx"},{"id":"slides-nudge-large","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"大幅移动对象","en":"Nudge by larger step"},"description":{"zh":"按住 Shift 加方向键大步移动对象","en":"Nudge the object by a larger increment"},"windows":"Shift + 方向键","mac":"⇧ 方向键","linux":"Shift + 方向键","keywords":["移动","对象","nudge"],"pinyin":"da fu yi dong dui xiang dafuyidongduixiang d f y d d x dfyddx yi dong   dui xiang yidong duixiang y d   d x yd dx"},{"id":"slides-rotate-ccw-15","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"逆时针旋转 15°","en":"Rotate counterclockwise 15°"},"description":{"zh":"将对象逆时针旋转 15 度","en":"Rotate the object 15° counterclockwise"},"windows":"Alt + ←","mac":"⌥ ←","linux":"Alt + ←","keywords":["旋转","rotate"],"pinyin":"ni shi zhen xuan zhuan   1 5 ° nishizhenxuanzhuan 15° n s z x z   1 5 ° nszxz 15° xuan zhuan xuanzhuan x z xz"},{"id":"slides-rotate-cw-15","appId":"googleslides","type":"software","category":"productivity","name":{"zh":"顺时针旋转 15°","en":"Rotate clockwise 15°"},"description":{"zh":"将对象顺时针旋转 15 度","en":"Rotate the object 15° clockwise"},"windows":"Alt + →","mac":"⌥ →","linux":"Alt + →","keywords":["旋转","rotate"],"pinyin":"shun shi zhen xuan zhuan   1 5 ° shunshizhenxuanzhuan 15° s s z x z   1 5 ° sszxz 15° xuan zhuan xuanzhuan x z xz"}]
+[
+  {
+    "id": "slides-prev",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "上一张幻灯片",
+      "en": "Previous slide"
+    },
+    "description": {
+      "zh": "切换到上一张幻灯片",
+      "en": "Move to the previous slide"
+    },
+    "windows": "Page Up / ↑",
+    "mac": "Page Up / ↑",
+    "linux": "Page Up / ↑",
+    "keywords": [
+      "上一张",
+      "previous",
+      "slide"
+    ],
+    "pinyin": "shang yi zhang huan deng pian shangyizhanghuandengpian s y z h d p syzhdp shang yi zhang shangyizhang s y z syz"
+  },
+  {
+    "id": "slides-next",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "下一张幻灯片",
+      "en": "Next slide"
+    },
+    "description": {
+      "zh": "切换到下一张幻灯片",
+      "en": "Move to the next slide"
+    },
+    "windows": "Page Down / ↓",
+    "mac": "Page Down / ↓",
+    "linux": "Page Down / ↓",
+    "keywords": [
+      "下一张",
+      "next",
+      "slide"
+    ],
+    "pinyin": "xia yi zhang huan deng pian xiayizhanghuandengpian x y z h d p xyzhdp xia yi zhang xiayizhang x y z xyz"
+  },
+  {
+    "id": "slides-first",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "第一张幻灯片",
+      "en": "First slide"
+    },
+    "description": {
+      "zh": "跳到第一张幻灯片",
+      "en": "Move to the first slide"
+    },
+    "windows": "Home",
+    "mac": "Home",
+    "linux": "Home",
+    "keywords": [
+      "第一张",
+      "first",
+      "slide"
+    ],
+    "pinyin": "di yi zhang huan deng pian diyizhanghuandengpian d y z h d p dyzhdp di yi zhang diyizhang d y z dyz"
+  },
+  {
+    "id": "slides-last",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "最后一张幻灯片",
+      "en": "Last slide"
+    },
+    "description": {
+      "zh": "跳到最后一张幻灯片",
+      "en": "Move to the last slide"
+    },
+    "windows": "End",
+    "mac": "End",
+    "linux": "End",
+    "keywords": [
+      "最后",
+      "last",
+      "slide"
+    ],
+    "pinyin": "zui hou yi zhang huan deng pian zuihouyizhanghuandengpian z h y z h d p zhyzhdp zui hou zuihou z h zh"
+  },
+  {
+    "id": "slides-move-up",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "上移幻灯片",
+      "en": "Move slide up"
+    },
+    "description": {
+      "zh": "在胶片条中上移幻灯片",
+      "en": "Move the slide up in the filmstrip"
+    },
+    "windows": "Ctrl + ↑",
+    "mac": "⌘ ↑",
+    "linux": "Ctrl + ↑",
+    "keywords": [
+      "移动",
+      "上移",
+      "move",
+      "up"
+    ],
+    "pinyin": "shang yi huan deng pian shangyihuandengpian s y h d p syhdp yi dong   shang yi yidong shangyi y d   s y yd sy"
+  },
+  {
+    "id": "slides-move-down",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "下移幻灯片",
+      "en": "Move slide down"
+    },
+    "description": {
+      "zh": "在胶片条中下移幻灯片",
+      "en": "Move the slide down in the filmstrip"
+    },
+    "windows": "Ctrl + ↓",
+    "mac": "⌘ ↓",
+    "linux": "Ctrl + ↓",
+    "keywords": [
+      "移动",
+      "下移",
+      "move",
+      "down"
+    ],
+    "pinyin": "xia yi huan deng pian xiayihuandengpian x y h d p xyhdp yi dong   xia yi yidong xiayi y d   x y yd xy"
+  },
+  {
+    "id": "slides-move-begin",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "移到开头",
+      "en": "Move to beginning"
+    },
+    "description": {
+      "zh": "将幻灯片移到演示文稿开头",
+      "en": "Move the slide to the beginning"
+    },
+    "windows": "Ctrl + Shift + ↑",
+    "mac": "⌘ ⇧ ↑",
+    "linux": "Ctrl + Shift + ↑",
+    "keywords": [
+      "移动",
+      "开头",
+      "beginning"
+    ],
+    "pinyin": "yi dao kai tou yidaokaitou y d k t ydkt yi dong   kai tou yidong kaitou y d   k t yd kt"
+  },
+  {
+    "id": "slides-move-end",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "移到末尾",
+      "en": "Move to end"
+    },
+    "description": {
+      "zh": "将幻灯片移到演示文稿末尾",
+      "en": "Move the slide to the end"
+    },
+    "windows": "Ctrl + Shift + ↓",
+    "mac": "⌘ ⇧ ↓",
+    "linux": "Ctrl + Shift + ↓",
+    "keywords": [
+      "移动",
+      "末尾",
+      "end"
+    ],
+    "pinyin": "yi dao mo wei yidaomowei y d m w ydmw yi dong   mo wei yidong mowei y d   m w yd mw"
+  },
+  {
+    "id": "slides-zoom-in",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "放大",
+      "en": "Zoom in"
+    },
+    "description": {
+      "zh": "放大画布视图",
+      "en": "Zoom in on the canvas"
+    },
+    "windows": "Ctrl + =",
+    "mac": "⌘ =",
+    "linux": "Ctrl + =",
+    "keywords": [
+      "放大",
+      "zoom",
+      "in"
+    ],
+    "pinyin": "fang da fangda f d fd fang da fangda f d fd"
+  },
+  {
+    "id": "slides-zoom-out",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "缩小",
+      "en": "Zoom out"
+    },
+    "description": {
+      "zh": "缩小画布视图",
+      "en": "Zoom out on the canvas"
+    },
+    "windows": "Ctrl + -",
+    "mac": "⌘ -",
+    "linux": "Ctrl + -",
+    "keywords": [
+      "缩小",
+      "zoom",
+      "out"
+    ],
+    "pinyin": "suo xiao suoxiao s x sx suo xiao suoxiao s x sx"
+  },
+  {
+    "id": "slides-zoom-100",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "缩放到 100%",
+      "en": "Zoom to 100%"
+    },
+    "description": {
+      "zh": "将视图缩放回 100%",
+      "en": "Reset zoom to 100%"
+    },
+    "windows": "Ctrl + 0",
+    "mac": "⌘ 0",
+    "linux": "Ctrl + 0",
+    "keywords": [
+      "缩放",
+      "100",
+      "zoom"
+    ],
+    "pinyin": "suo fang dao   1 0 0 % suofangdao 100% s f d   1 0 0 % sfd 100% suo fang suofang s f sf"
+  },
+  {
+    "id": "slides-filmstrip",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "聚焦胶片条",
+      "en": "Move to filmstrip"
+    },
+    "description": {
+      "zh": "将焦点移到左侧胶片条",
+      "en": "Move focus to the filmstrip"
+    },
+    "windows": "Ctrl + Alt + Shift + F",
+    "mac": "⌘ ⌥ ⇧ F",
+    "linux": "Ctrl + Alt + Shift + F",
+    "keywords": [
+      "胶片条",
+      "filmstrip"
+    ],
+    "pinyin": "ju jiao jiao pian tiao jujiaojiaopiantiao j j j p t jjjpt jiao pian tiao jiaopiantiao j p t jpt"
+  },
+  {
+    "id": "slides-canvas",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "聚焦画布",
+      "en": "Move to canvas"
+    },
+    "description": {
+      "zh": "将焦点移到中央画布",
+      "en": "Move focus to the canvas"
+    },
+    "windows": "Ctrl + Alt + Shift + C",
+    "mac": "⌘ ⌥ ⇧ C",
+    "linux": "Ctrl + Alt + Shift + C",
+    "keywords": [
+      "画布",
+      "canvas"
+    ],
+    "pinyin": "ju jiao hua bu jujiaohuabu j j h b jjhb hua bu huabu h b hb"
+  },
+  {
+    "id": "slides-speaker-notes",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "演讲者备注",
+      "en": "Speaker notes panel"
+    },
+    "description": {
+      "zh": "打开演讲者备注面板",
+      "en": "Open the speaker notes panel"
+    },
+    "windows": "Ctrl + Alt + Shift + S",
+    "mac": "⌘ ⌥ ⇧ S",
+    "linux": "Ctrl + Alt + Shift + S",
+    "keywords": [
+      "备注",
+      "speaker",
+      "notes"
+    ],
+    "pinyin": "yan jiang zhe bei zhu yanjiangzhebeizhu y j z b z yjzbz bei zhu beizhu b z bz"
+  },
+  {
+    "id": "slides-animations",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "动画面板",
+      "en": "Animations panel"
+    },
+    "description": {
+      "zh": "打开动画设置面板",
+      "en": "Open the animations panel"
+    },
+    "windows": "Ctrl + Alt + Shift + B",
+    "mac": "⌘ ⌥ ⇧ B",
+    "linux": "Ctrl + Alt + Shift + B",
+    "keywords": [
+      "动画",
+      "animations"
+    ],
+    "pinyin": "dong hua mian ban donghuamianban d h m b dhmb dong hua donghua d h dh"
+  },
+  {
+    "id": "slides-revision",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "修订历史",
+      "en": "Revision history"
+    },
+    "description": {
+      "zh": "打开修订历史记录",
+      "en": "Open the revision history"
+    },
+    "windows": "Ctrl + Alt + Shift + H",
+    "mac": "⌘ ⌥ ⇧ H",
+    "linux": "Ctrl + Alt + Shift + H",
+    "keywords": [
+      "历史",
+      "修订",
+      "revision",
+      "history"
+    ],
+    "pinyin": "xiu ding li shi xiudinglishi x d l s xdls li shi   xiu ding lishi xiuding l s   x d ls xd"
+  },
+  {
+    "id": "slides-exit",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "退出当前模式",
+      "en": "Exit current mode"
+    },
+    "description": {
+      "zh": "退出当前操作模式",
+      "en": "Exit the current mode"
+    },
+    "windows": "Esc",
+    "mac": "Esc",
+    "linux": "Esc",
+    "keywords": [
+      "退出",
+      "esc",
+      "exit"
+    ],
+    "pinyin": "tui chu dang qian mo shi tuichudangqianmoshi t c d q m s tcdqms tui chu tuichu t c tc"
+  },
+  {
+    "id": "slides-present",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "开始演示",
+      "en": "Start presentation"
+    },
+    "description": {
+      "zh": "从头开始播放演示",
+      "en": "Start the presentation from the beginning"
+    },
+    "windows": "Ctrl + F5",
+    "mac": "⌘ Enter",
+    "linux": "Ctrl + F5",
+    "keywords": [
+      "演示",
+      "播放",
+      "present"
+    ],
+    "pinyin": "kai shi yan shi kaishiyanshi k s y s ksys yan shi   bo fang yanshi bofang y s   b f ys bf"
+  },
+  {
+    "id": "slides-next-present",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "下一张（演示中）",
+      "en": "Next slide (presenting)"
+    },
+    "description": {
+      "zh": "演示时切换到下一张",
+      "en": "Go to the next slide while presenting"
+    },
+    "windows": "→ / 空格",
+    "mac": "→ / 空格",
+    "linux": "→ / 空格",
+    "keywords": [
+      "下一张",
+      "next",
+      "present"
+    ],
+    "pinyin": "xia yi zhang （ yan shi zhong ） xiayizhang（yanshizhong） x y z （ y s z ） xyz（ysz） xia yi zhang xiayizhang x y z xyz"
+  },
+  {
+    "id": "slides-prev-present",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "上一张（演示中）",
+      "en": "Previous slide (presenting)"
+    },
+    "description": {
+      "zh": "演示时切换到上一张",
+      "en": "Go to the previous slide while presenting"
+    },
+    "windows": "←",
+    "mac": "←",
+    "linux": "←",
+    "keywords": [
+      "上一张",
+      "previous",
+      "present"
+    ],
+    "pinyin": "shang yi zhang （ yan shi zhong ） shangyizhang（yanshizhong） s y z （ y s z ） syz（ysz） shang yi zhang shangyizhang s y z syz"
+  },
+  {
+    "id": "slides-goto",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "跳到指定页",
+      "en": "Go to slide number"
+    },
+    "description": {
+      "zh": "输入页码后回车跳转到该页",
+      "en": "Type a number then Enter to jump to that slide"
+    },
+    "windows": "数字 + Enter",
+    "mac": "数字 Enter",
+    "linux": "数字 + Enter",
+    "keywords": [
+      "跳转",
+      "页码",
+      "goto"
+    ],
+    "pinyin": "tiao dao zhi ding ye tiaodaozhidingye t d z d y tdzdy tiao zhuan   ye ma tiaozhuan yema t z   y m tz ym"
+  },
+  {
+    "id": "slides-speaker",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "演讲者视图",
+      "en": "Speaker notes (presenting)"
+    },
+    "description": {
+      "zh": "演示中打开演讲者备注",
+      "en": "Open speaker notes while presenting"
+    },
+    "windows": "S",
+    "mac": "S",
+    "linux": "S",
+    "keywords": [
+      "演讲者",
+      "speaker",
+      "present"
+    ],
+    "pinyin": "yan jiang zhe shi tu yanjiangzheshitu y j z s t yjzst yan jiang zhe yanjiangzhe y j z yjz"
+  },
+  {
+    "id": "slides-audience",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "观众工具",
+      "en": "Audience tools"
+    },
+    "description": {
+      "zh": "演示中打开观众互动工具",
+      "en": "Open audience tools while presenting"
+    },
+    "windows": "A",
+    "mac": "A",
+    "linux": "A",
+    "keywords": [
+      "观众",
+      "audience",
+      "present"
+    ],
+    "pinyin": "guan zhong gong ju guanzhonggongju g z g j gzgj guan zhong guanzhong g z gz"
+  },
+  {
+    "id": "slides-laser",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "激光笔",
+      "en": "Laser pointer"
+    },
+    "description": {
+      "zh": "演示中切换激光笔",
+      "en": "Toggle the laser pointer while presenting"
+    },
+    "windows": "L",
+    "mac": "L",
+    "linux": "L",
+    "keywords": [
+      "激光笔",
+      "laser",
+      "present"
+    ],
+    "pinyin": "ji guang bi jiguangbi j g b jgb ji guang bi jiguangbi j g b jgb"
+  },
+  {
+    "id": "slides-black",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "黑屏",
+      "en": "Blank black slide"
+    },
+    "description": {
+      "zh": "演示中显示黑屏暂停",
+      "en": "Show a blank black slide while presenting"
+    },
+    "windows": "B / .",
+    "mac": "B / .",
+    "linux": "B / .",
+    "keywords": [
+      "黑屏",
+      "black",
+      "present"
+    ],
+    "pinyin": "hei ping heiping h p hp hei ping heiping h p hp"
+  },
+  {
+    "id": "slides-white",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "白屏",
+      "en": "Blank white slide"
+    },
+    "description": {
+      "zh": "演示中显示白屏暂停",
+      "en": "Show a blank white slide while presenting"
+    },
+    "windows": "W / ,",
+    "mac": "W / ,",
+    "linux": "W / ,",
+    "keywords": [
+      "白屏",
+      "white",
+      "present"
+    ],
+    "pinyin": "bai ping baiping b p bp bai ping baiping b p bp"
+  },
+  {
+    "id": "slides-captions",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "实时字幕",
+      "en": "Toggle captions"
+    },
+    "description": {
+      "zh": "演示中开关实时字幕（仅英文）",
+      "en": "Toggle live captions while presenting (English only)"
+    },
+    "windows": "Ctrl + Shift + C",
+    "mac": "⌘ ⇧ C",
+    "linux": "Ctrl + Shift + C",
+    "keywords": [
+      "字幕",
+      "captions",
+      "present"
+    ],
+    "pinyin": "shi shi zi mu shishizimu s s z m sszm zi mu zimu z m zm"
+  },
+  {
+    "id": "slides-fullscreen",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "全屏",
+      "en": "Full screen"
+    },
+    "description": {
+      "zh": "切换浏览器全屏",
+      "en": "Toggle full-screen mode"
+    },
+    "windows": "F11",
+    "mac": "F11",
+    "linux": "F11",
+    "keywords": [
+      "全屏",
+      "fullscreen"
+    ],
+    "pinyin": "quan ping quanping q p qp quan ping quanping q p qp"
+  },
+  {
+    "id": "slides-new",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "新建幻灯片",
+      "en": "New slide"
+    },
+    "description": {
+      "zh": "插入一张新幻灯片",
+      "en": "Insert a new slide"
+    },
+    "windows": "Ctrl + M",
+    "mac": "⌘ M",
+    "linux": "Ctrl + M",
+    "keywords": [
+      "新建",
+      "幻灯片",
+      "new",
+      "slide"
+    ],
+    "pinyin": "xin jian huan deng pian xinjianhuandengpian x j h d p xjhdp xin jian   huan deng pian xinjian huandengpian x j   h d p xj hdp"
+  },
+  {
+    "id": "slides-duplicate",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "复制幻灯片/对象",
+      "en": "Duplicate slide or object"
+    },
+    "description": {
+      "zh": "复制选中的幻灯片或对象",
+      "en": "Duplicate the selected slide or object"
+    },
+    "windows": "Ctrl + D",
+    "mac": "⌘ D",
+    "linux": "Ctrl + D",
+    "keywords": [
+      "复制",
+      "duplicate"
+    ],
+    "pinyin": "fu zhi huan deng pian / dui xiang fuzhihuandengpian/duixiang f z h d p / d x fzhdp/dx fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "slides-undo",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销上一步操作",
+      "en": "Undo the last action"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "Ctrl + Z",
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "slides-redo",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "重做已撤销的操作",
+      "en": "Redo the last undone action"
+    },
+    "windows": "Ctrl + Y",
+    "mac": "⌘ Y",
+    "linux": "Ctrl + Y",
+    "keywords": [
+      "重做",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "slides-copy",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "复制",
+      "en": "Copy"
+    },
+    "description": {
+      "zh": "复制选中内容",
+      "en": "Copy the selection"
+    },
+    "windows": "Ctrl + C",
+    "mac": "⌘ C",
+    "linux": "Ctrl + C",
+    "keywords": [
+      "复制",
+      "copy"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "slides-paste",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "粘贴",
+      "en": "Paste"
+    },
+    "description": {
+      "zh": "粘贴内容",
+      "en": "Paste content"
+    },
+    "windows": "Ctrl + V",
+    "mac": "⌘ V",
+    "linux": "Ctrl + V",
+    "keywords": [
+      "粘贴",
+      "paste"
+    ],
+    "pinyin": "nian tie niantie n t nt nian tie niantie n t nt"
+  },
+  {
+    "id": "slides-cut",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "剪切",
+      "en": "Cut"
+    },
+    "description": {
+      "zh": "剪切选中内容",
+      "en": "Cut the selection"
+    },
+    "windows": "Ctrl + X",
+    "mac": "⌘ X",
+    "linux": "Ctrl + X",
+    "keywords": [
+      "剪切",
+      "cut"
+    ],
+    "pinyin": "jian qie jianqie j q jq jian qie jianqie j q jq"
+  },
+  {
+    "id": "slides-copy-fmt",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "复制格式",
+      "en": "Copy formatting"
+    },
+    "description": {
+      "zh": "复制选中对象的格式",
+      "en": "Copy the formatting of the selection"
+    },
+    "windows": "Ctrl + Alt + C",
+    "mac": "⌘ ⌥ C",
+    "linux": "Ctrl + Alt + C",
+    "keywords": [
+      "复制格式",
+      "format",
+      "copy"
+    ],
+    "pinyin": "fu zhi ge shi fuzhigeshi f z g s fzgs fu zhi ge shi fuzhigeshi f z g s fzgs"
+  },
+  {
+    "id": "slides-paste-fmt",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "粘贴格式",
+      "en": "Paste formatting"
+    },
+    "description": {
+      "zh": "将复制的格式应用到选中对象",
+      "en": "Apply copied formatting to the selection"
+    },
+    "windows": "Ctrl + Alt + V",
+    "mac": "⌘ ⌥ V",
+    "linux": "Ctrl + Alt + V",
+    "keywords": [
+      "粘贴格式",
+      "format",
+      "paste"
+    ],
+    "pinyin": "nian tie ge shi niantiegeshi n t g s ntgs nian tie ge shi niantiegeshi n t g s ntgs"
+  },
+  {
+    "id": "slides-link",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "插入/编辑链接",
+      "en": "Insert or edit link"
+    },
+    "description": {
+      "zh": "为选中内容添加或编辑链接",
+      "en": "Insert or edit a link on the selection"
+    },
+    "windows": "Ctrl + K",
+    "mac": "⌘ K",
+    "linux": "Ctrl + K",
+    "keywords": [
+      "链接",
+      "link"
+    ],
+    "pinyin": "cha ru / bian ji lian jie charu/bianjilianjie c r / b j l j cr/bjlj lian jie lianjie l j lj"
+  },
+  {
+    "id": "slides-open-link",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "打开链接",
+      "en": "Open link"
+    },
+    "description": {
+      "zh": "打开选中对象上的链接",
+      "en": "Open the link on the selected object"
+    },
+    "windows": "Alt + Enter",
+    "mac": "⌥ Enter",
+    "linux": "Alt + Enter",
+    "keywords": [
+      "打开",
+      "链接",
+      "open",
+      "link"
+    ],
+    "pinyin": "da kai lian jie dakailianjie d k l j dklj da kai   lian jie dakai lianjie d k   l j dk lj"
+  },
+  {
+    "id": "slides-select-all",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "全选",
+      "en": "Select all"
+    },
+    "description": {
+      "zh": "选中当前幻灯片所有对象",
+      "en": "Select all objects on the slide"
+    },
+    "windows": "Ctrl + A",
+    "mac": "⌘ A",
+    "linux": "Ctrl + A",
+    "keywords": [
+      "全选",
+      "select",
+      "all"
+    ],
+    "pinyin": "quan xuan quanxuan q x qx quan xuan quanxuan q x qx"
+  },
+  {
+    "id": "slides-find",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "查找",
+      "en": "Find"
+    },
+    "description": {
+      "zh": "在演示文稿中查找内容",
+      "en": "Find content in the presentation"
+    },
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
+    "linux": "Ctrl + F",
+    "keywords": [
+      "查找",
+      "find"
+    ],
+    "pinyin": "cha zhao chazhao c z cz cha zhao chazhao c z cz"
+  },
+  {
+    "id": "slides-replace",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "查找和替换",
+      "en": "Find and replace"
+    },
+    "description": {
+      "zh": "查找并替换演示文稿中的内容",
+      "en": "Find and replace content in the presentation"
+    },
+    "windows": "Ctrl + H",
+    "mac": "⌘ ⇧ H",
+    "linux": "Ctrl + H",
+    "keywords": [
+      "替换",
+      "find",
+      "replace"
+    ],
+    "pinyin": "cha zhao he ti huan chazhaohetihuan c z h t h czhth ti huan tihuan t h th"
+  },
+  {
+    "id": "slides-shortcuts",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "快捷键列表",
+      "en": "All keyboard shortcuts"
+    },
+    "description": {
+      "zh": "打开所有快捷键的速查列表",
+      "en": "Open the full list of keyboard shortcuts"
+    },
+    "windows": "Ctrl / ",
+    "mac": "⌘ / ",
+    "linux": "Ctrl / ",
+    "keywords": [
+      "快捷键",
+      "帮助",
+      "shortcuts",
+      "help"
+    ],
+    "pinyin": "kuai jie jian lie biao kuaijiejianliebiao k j j l b kjjlb kuai jie jian   bang zhu kuaijiejian bangzhu k j j   b z kjj bz"
+  },
+  {
+    "id": "slides-alt-text",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "替代文字",
+      "en": "Alt text"
+    },
+    "description": {
+      "zh": "为选中对象添加替代文字",
+      "en": "Add alt text to the selected object"
+    },
+    "windows": "Ctrl + Alt + Y",
+    "mac": "⌘ ⌥ Y",
+    "linux": "Ctrl + Alt + Y",
+    "keywords": [
+      "替代文字",
+      "alt",
+      "text"
+    ],
+    "pinyin": "ti dai wen zi tidaiwenzi t d w z tdwz ti dai wen zi tidaiwenzi t d w z tdwz"
+  },
+  {
+    "id": "slides-comment",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "插入评论",
+      "en": "Insert comment"
+    },
+    "description": {
+      "zh": "为选中内容添加评论",
+      "en": "Add a comment to the selection"
+    },
+    "windows": "Ctrl + Alt + M",
+    "mac": "⌘ ⌥ M",
+    "linux": "Ctrl + Alt + M",
+    "keywords": [
+      "评论",
+      "comment"
+    ],
+    "pinyin": "cha ru ping lun charupinglun c r p l crpl ping lun pinglun p l pl"
+  },
+  {
+    "id": "slides-comment-thread",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "打开评论讨论",
+      "en": "Open comment thread"
+    },
+    "description": {
+      "zh": "打开当前对象的评论讨论串",
+      "en": "Open the comment thread for the object"
+    },
+    "windows": "Ctrl + Alt + Shift + A",
+    "mac": "⌘ ⌥ ⇧ A",
+    "linux": "Ctrl + Alt + Shift + A",
+    "keywords": [
+      "评论",
+      "讨论",
+      "comment",
+      "thread"
+    ],
+    "pinyin": "da kai ping lun tao lun dakaipingluntaolun d k p l t l dkpltl ping lun   tao lun pinglun taolun p l   t l pl tl"
+  },
+  {
+    "id": "slides-reply-comment",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "回复评论",
+      "en": "Reply to comment"
+    },
+    "description": {
+      "zh": "回复当前评论",
+      "en": "Reply to the current comment"
+    },
+    "windows": "R",
+    "mac": "R",
+    "linux": "R",
+    "keywords": [
+      "回复",
+      "评论",
+      "reply",
+      "comment"
+    ],
+    "pinyin": "hui fu ping lun huifupinglun h f p l hfpl hui fu   ping lun huifu pinglun h f   p l hf pl"
+  },
+  {
+    "id": "slides-next-comment",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "下一条评论",
+      "en": "Next comment"
+    },
+    "description": {
+      "zh": "跳到下一条评论",
+      "en": "Move to the next comment"
+    },
+    "windows": "J",
+    "mac": "J",
+    "linux": "J",
+    "keywords": [
+      "评论",
+      "下一条",
+      "comment",
+      "next"
+    ],
+    "pinyin": "xia yi tiao ping lun xiayitiaopinglun x y t p l xytpl ping lun   xia yi tiao pinglun xiayitiao p l   x y t pl xyt"
+  },
+  {
+    "id": "slides-prev-comment",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "上一条评论",
+      "en": "Previous comment"
+    },
+    "description": {
+      "zh": "跳到上一条评论",
+      "en": "Move to the previous comment"
+    },
+    "windows": "K",
+    "mac": "K",
+    "linux": "K",
+    "keywords": [
+      "评论",
+      "上一条",
+      "comment",
+      "previous"
+    ],
+    "pinyin": "shang yi tiao ping lun shangyitiaopinglun s y t p l sytpl ping lun   shang yi tiao pinglun shangyitiao p l   s y t pl syt"
+  },
+  {
+    "id": "slides-resolve-comment",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "解决评论",
+      "en": "Resolve comment"
+    },
+    "description": {
+      "zh": "将当前评论标记为已解决",
+      "en": "Mark the current comment as resolved"
+    },
+    "windows": "E",
+    "mac": "E",
+    "linux": "E",
+    "keywords": [
+      "解决",
+      "评论",
+      "resolve",
+      "comment"
+    ],
+    "pinyin": "jie jue ping lun jiejuepinglun j j p l jjpl jie jue   ping lun jiejue pinglun j j   p l jj pl"
+  },
+  {
+    "id": "slides-bold",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "加粗",
+      "en": "Bold"
+    },
+    "description": {
+      "zh": "将选中文字加粗",
+      "en": "Make the selection bold"
+    },
+    "windows": "Ctrl + B",
+    "mac": "⌘ B",
+    "linux": "Ctrl + B",
+    "keywords": [
+      "加粗",
+      "bold"
+    ],
+    "pinyin": "jia cu jiacu j c jc jia cu jiacu j c jc"
+  },
+  {
+    "id": "slides-italic",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "斜体",
+      "en": "Italic"
+    },
+    "description": {
+      "zh": "将选中文字设为斜体",
+      "en": "Make the selection italic"
+    },
+    "windows": "Ctrl + I",
+    "mac": "⌘ I",
+    "linux": "Ctrl + I",
+    "keywords": [
+      "斜体",
+      "italic"
+    ],
+    "pinyin": "xie ti xieti x t xt xie ti xieti x t xt"
+  },
+  {
+    "id": "slides-underline",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "下划线",
+      "en": "Underline"
+    },
+    "description": {
+      "zh": "为选中文字添加下划线",
+      "en": "Underline the selection"
+    },
+    "windows": "Ctrl + U",
+    "mac": "⌘ U",
+    "linux": "Ctrl + U",
+    "keywords": [
+      "下划线",
+      "underline"
+    ],
+    "pinyin": "xia hua xian xiahuaxian x h x xhx xia hua xian xiahuaxian x h x xhx"
+  },
+  {
+    "id": "slides-subscript",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "下标",
+      "en": "Subscript"
+    },
+    "description": {
+      "zh": "将选中文字设为下标",
+      "en": "Make the selection subscript"
+    },
+    "windows": "Ctrl + ,",
+    "mac": "⌘ ,",
+    "linux": "Ctrl + ,",
+    "keywords": [
+      "下标",
+      "subscript"
+    ],
+    "pinyin": "xia biao xiabiao x b xb xia biao xiabiao x b xb"
+  },
+  {
+    "id": "slides-superscript",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "上标",
+      "en": "Superscript"
+    },
+    "description": {
+      "zh": "将选中文字设为上标",
+      "en": "Make the selection superscript"
+    },
+    "windows": "Ctrl + .",
+    "mac": "⌘ .",
+    "linux": "Ctrl + .",
+    "keywords": [
+      "上标",
+      "superscript"
+    ],
+    "pinyin": "shang biao shangbiao s b sb shang biao shangbiao s b sb"
+  },
+  {
+    "id": "slides-strike",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "删除线",
+      "en": "Strikethrough"
+    },
+    "description": {
+      "zh": "为选中文字添加删除线",
+      "en": "Strikethrough the selection"
+    },
+    "windows": "Alt + Shift + 5",
+    "mac": "⌘ ⇧ X",
+    "linux": "Alt + Shift + 5",
+    "keywords": [
+      "删除线",
+      "strikethrough"
+    ],
+    "pinyin": "shan chu xian shanchuxian s c x scx shan chu xian shanchuxian s c x scx"
+  },
+  {
+    "id": "slides-clear-fmt",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "清除格式",
+      "en": "Clear formatting"
+    },
+    "description": {
+      "zh": "清除选中文字的格式",
+      "en": "Clear formatting from the selection"
+    },
+    "windows": "Ctrl + 空格",
+    "mac": "⌘ \\",
+    "linux": "Ctrl + 空格",
+    "keywords": [
+      "清除",
+      "格式",
+      "clear",
+      "format"
+    ],
+    "pinyin": "qing chu ge shi qingchugeshi q c g s qcgs qing chu   ge shi qingchu geshi q c   g s qc gs"
+  },
+  {
+    "id": "slides-font-up",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "增大字号",
+      "en": "Increase font size"
+    },
+    "description": {
+      "zh": "增大选中文字的字号",
+      "en": "Increase the font size of the selection"
+    },
+    "windows": "Ctrl + Shift + >",
+    "mac": "⌘ ⇧ >",
+    "linux": "Ctrl + Shift + >",
+    "keywords": [
+      "字号",
+      "增大",
+      "font",
+      "size"
+    ],
+    "pinyin": "zeng da zi hao zengdazihao z d z h zdzh zi hao   zeng da zihao zengda z h   z d zh zd"
+  },
+  {
+    "id": "slides-font-down",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "减小字号",
+      "en": "Decrease font size"
+    },
+    "description": {
+      "zh": "减小选中文字的字号",
+      "en": "Decrease the font size of the selection"
+    },
+    "windows": "Ctrl + Shift + <",
+    "mac": "⌘ ⇧ <",
+    "linux": "Ctrl + Shift + <",
+    "keywords": [
+      "字号",
+      "减小",
+      "font",
+      "size"
+    ],
+    "pinyin": "jian xiao zi hao jianxiaozihao j x z h jxzh zi hao   jian xiao zihao jianxiao z h   j x zh jx"
+  },
+  {
+    "id": "slides-align-left",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "左对齐",
+      "en": "Align left"
+    },
+    "description": {
+      "zh": "将文字左对齐",
+      "en": "Align text to the left"
+    },
+    "windows": "Ctrl + Shift + L",
+    "mac": "⌘ ⇧ L",
+    "linux": "Ctrl + Shift + L",
+    "keywords": [
+      "对齐",
+      "左",
+      "align",
+      "left"
+    ],
+    "pinyin": "zuo dui qi zuoduiqi z d q zdq dui qi   zuo duiqi zuo d q   z dq z"
+  },
+  {
+    "id": "slides-align-center",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "居中对齐",
+      "en": "Align center"
+    },
+    "description": {
+      "zh": "将文字水平居中",
+      "en": "Center text horizontally"
+    },
+    "windows": "Ctrl + Shift + E",
+    "mac": "⌘ ⇧ E",
+    "linux": "Ctrl + Shift + E",
+    "keywords": [
+      "对齐",
+      "居中",
+      "align",
+      "center"
+    ],
+    "pinyin": "ju zhong dui qi juzhongduiqi j z d q jzdq dui qi   ju zhong duiqi juzhong d q   j z dq jz"
+  },
+  {
+    "id": "slides-align-right",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "右对齐",
+      "en": "Align right"
+    },
+    "description": {
+      "zh": "将文字右对齐",
+      "en": "Align text to the right"
+    },
+    "windows": "Ctrl + Shift + R",
+    "mac": "⌘ ⇧ R",
+    "linux": "Ctrl + Shift + R",
+    "keywords": [
+      "对齐",
+      "右",
+      "align",
+      "right"
+    ],
+    "pinyin": "you dui qi youduiqi y d q ydq dui qi   you duiqi you d q   y dq y"
+  },
+  {
+    "id": "slides-justify",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "两端对齐",
+      "en": "Justify"
+    },
+    "description": {
+      "zh": "将文字两端对齐",
+      "en": "Justify the text"
+    },
+    "windows": "Ctrl + Shift + J",
+    "mac": "⌘ ⇧ J",
+    "linux": "Ctrl + Shift + J",
+    "keywords": [
+      "对齐",
+      "两端",
+      "justify"
+    ],
+    "pinyin": "liang duan dui qi liangduanduiqi l d d q lddq dui qi   liang duan duiqi liangduan d q   l d dq ld"
+  },
+  {
+    "id": "slides-para-down",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "段落下移",
+      "en": "Move paragraph down"
+    },
+    "description": {
+      "zh": "将段落向下移动",
+      "en": "Move the paragraph down"
+    },
+    "windows": "Alt + Shift + ↓",
+    "mac": "⌥ ⇧ ↓",
+    "linux": "Alt + Shift + ↓",
+    "keywords": [
+      "段落",
+      "下移",
+      "paragraph"
+    ],
+    "pinyin": "duan luo xia yi duanluoxiayi d l x y dlxy duan luo   xia yi duanluo xiayi d l   x y dl xy"
+  },
+  {
+    "id": "slides-para-up",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "段落上移",
+      "en": "Move paragraph up"
+    },
+    "description": {
+      "zh": "将段落向上移动",
+      "en": "Move the paragraph up"
+    },
+    "windows": "Alt + Shift + ↑",
+    "mac": "⌥ ⇧ ↑",
+    "linux": "Alt + Shift + ↑",
+    "keywords": [
+      "段落",
+      "上移",
+      "paragraph"
+    ],
+    "pinyin": "duan luo shang yi duanluoshangyi d l s y dlsy duan luo   shang yi duanluo shangyi d l   s y dl sy"
+  },
+  {
+    "id": "slides-indent-up",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "增加缩进",
+      "en": "Increase indent"
+    },
+    "description": {
+      "zh": "增加选中段落的缩进",
+      "en": "Increase the indent of the selection"
+    },
+    "windows": "Ctrl + ]",
+    "mac": "⌘ ]",
+    "linux": "Ctrl + ]",
+    "keywords": [
+      "缩进",
+      "indent"
+    ],
+    "pinyin": "zeng jia suo jin zengjiasuojin z j s j zjsj suo jin suojin s j sj"
+  },
+  {
+    "id": "slides-indent-down",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "减少缩进",
+      "en": "Decrease indent"
+    },
+    "description": {
+      "zh": "减少选中段落的缩进",
+      "en": "Decrease the indent of the selection"
+    },
+    "windows": "Ctrl + [",
+    "mac": "⌘ [",
+    "linux": "Ctrl + [",
+    "keywords": [
+      "缩进",
+      "indent"
+    ],
+    "pinyin": "jian shao suo jin jianshaosuojin j s s j jssj suo jin suojin s j sj"
+  },
+  {
+    "id": "slides-bulleted",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "项目符号列表",
+      "en": "Bulleted list"
+    },
+    "description": {
+      "zh": "将选中文字设为项目符号列表",
+      "en": "Make the selection a bulleted list"
+    },
+    "windows": "Ctrl + Shift + 8",
+    "mac": "⌘ ⇧ 8",
+    "linux": "Ctrl + Shift + 8",
+    "keywords": [
+      "列表",
+      "项目符号",
+      "bullet",
+      "list"
+    ],
+    "pinyin": "xiang mu fu hao lie biao xiangmufuhaoliebiao x m f h l b xmfhlb lie biao   xiang mu fu hao liebiao xiangmufuhao l b   x m f h lb xmfh"
+  },
+  {
+    "id": "slides-numbered",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "编号列表",
+      "en": "Numbered list"
+    },
+    "description": {
+      "zh": "将选中文字设为编号列表",
+      "en": "Make the selection a numbered list"
+    },
+    "windows": "Ctrl + Shift + 7",
+    "mac": "⌘ ⇧ 7",
+    "linux": "Ctrl + Shift + 7",
+    "keywords": [
+      "列表",
+      "编号",
+      "number",
+      "list"
+    ],
+    "pinyin": "bian hao lie biao bianhaoliebiao b h l b bhlb lie biao   bian hao liebiao bianhao l b   b h lb bh"
+  },
+  {
+    "id": "slides-group",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "组合对象",
+      "en": "Group objects"
+    },
+    "description": {
+      "zh": "将选中的多个对象组合",
+      "en": "Group the selected objects"
+    },
+    "windows": "Ctrl + Alt + G",
+    "mac": "⌘ ⌥ G",
+    "linux": "Ctrl + Alt + G",
+    "keywords": [
+      "组合",
+      "group"
+    ],
+    "pinyin": "zu he dui xiang zuheduixiang z h d x zhdx zu he zuhe z h zh"
+  },
+  {
+    "id": "slides-ungroup",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "取消组合",
+      "en": "Ungroup objects"
+    },
+    "description": {
+      "zh": "拆分已组合的对象",
+      "en": "Ungroup the selected objects"
+    },
+    "windows": "Ctrl + Alt + Shift + G",
+    "mac": "⌘ ⌥ ⇧ G",
+    "linux": "Ctrl + Alt + Shift + G",
+    "keywords": [
+      "取消组合",
+      "ungroup"
+    ],
+    "pinyin": "qu xiao zu he quxiaozuhe q x z h qxzh qu xiao zu he quxiaozuhe q x z h qxzh"
+  },
+  {
+    "id": "slides-to-back",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "置于底层",
+      "en": "Send to back"
+    },
+    "description": {
+      "zh": "将对象移到最底层",
+      "en": "Send the object to the back"
+    },
+    "windows": "—",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "层级",
+      "底层",
+      "back"
+    ],
+    "pinyin": "zhi yu di ceng zhiyudiceng z y d c zydc ceng ji   di ceng cengji diceng c j   d c cj dc"
+  },
+  {
+    "id": "slides-to-front",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "置于顶层",
+      "en": "Bring to front"
+    },
+    "description": {
+      "zh": "将对象移到最顶层",
+      "en": "Bring the object to the front"
+    },
+    "windows": "—",
+    "mac": "—",
+    "linux": "—",
+    "keywords": [
+      "层级",
+      "顶层",
+      "front"
+    ],
+    "pinyin": "zhi yu ding ceng zhiyudingceng z y d c zydc ceng ji   ding ceng cengji dingceng c j   d c cj dc"
+  },
+  {
+    "id": "slides-next-shape",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "选择下一个对象",
+      "en": "Select next shape"
+    },
+    "description": {
+      "zh": "在对象间切换到下一个",
+      "en": "Select the next shape"
+    },
+    "windows": "Tab",
+    "mac": "Tab",
+    "linux": "Tab",
+    "keywords": [
+      "选择",
+      "对象",
+      "next",
+      "shape"
+    ],
+    "pinyin": "xuan ze xia yi ge dui xiang xuanzexiayigeduixiang x z x y g d x xzxygdx xuan ze   dui xiang xuanze duixiang x z   d x xz dx"
+  },
+  {
+    "id": "slides-prev-shape",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "选择上一个对象",
+      "en": "Select previous shape"
+    },
+    "description": {
+      "zh": "在对象间切换到上一个",
+      "en": "Select the previous shape"
+    },
+    "windows": "Shift + Tab",
+    "mac": "⇧ Tab",
+    "linux": "Shift + Tab",
+    "keywords": [
+      "选择",
+      "对象",
+      "previous",
+      "shape"
+    ],
+    "pinyin": "xuan ze shang yi ge dui xiang xuanzeshangyigeduixiang x z s y g d x xzsygdx xuan ze   dui xiang xuanze duixiang x z   d x xz dx"
+  },
+  {
+    "id": "slides-nudge-large",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "大幅移动对象",
+      "en": "Nudge by larger step"
+    },
+    "description": {
+      "zh": "按住 Shift 加方向键大步移动对象",
+      "en": "Nudge the object by a larger increment"
+    },
+    "windows": "Shift + 方向键",
+    "mac": "⇧ 方向键",
+    "linux": "Shift + 方向键",
+    "keywords": [
+      "移动",
+      "对象",
+      "nudge"
+    ],
+    "pinyin": "da fu yi dong dui xiang dafuyidongduixiang d f y d d x dfyddx yi dong   dui xiang yidong duixiang y d   d x yd dx"
+  },
+  {
+    "id": "slides-rotate-ccw-15",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "逆时针旋转 15°",
+      "en": "Rotate counterclockwise 15°"
+    },
+    "description": {
+      "zh": "将对象逆时针旋转 15 度",
+      "en": "Rotate the object 15° counterclockwise"
+    },
+    "windows": "Alt + ←",
+    "mac": "⌥ ←",
+    "linux": "Alt + ←",
+    "keywords": [
+      "旋转",
+      "rotate"
+    ],
+    "pinyin": "ni shi zhen xuan zhuan   1 5 ° nishizhenxuanzhuan 15° n s z x z   1 5 ° nszxz 15° xuan zhuan xuanzhuan x z xz"
+  },
+  {
+    "id": "slides-rotate-cw-15",
+    "appId": "googleslides",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "顺时针旋转 15°",
+      "en": "Rotate clockwise 15°"
+    },
+    "description": {
+      "zh": "将对象顺时针旋转 15 度",
+      "en": "Rotate the object 15° clockwise"
+    },
+    "windows": "Alt + →",
+    "mac": "⌥ →",
+    "linux": "Alt + →",
+    "keywords": [
+      "旋转",
+      "rotate"
+    ],
+    "pinyin": "shun shi zhen xuan zhuan   1 5 ° shunshizhenxuanzhuan 15° s s z x z   1 5 ° sszxz 15° xuan zhuan xuanzhuan x z xz"
+  }
+]

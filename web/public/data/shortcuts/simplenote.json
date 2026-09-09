@@ -1,0 +1,289 @@
+[
+  {
+    "id": "simplenote-new",
+    "appId": "simplenote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "New note",
+      "zh": "新建笔记"
+    },
+    "description": {
+      "en": "New note",
+      "zh": "新建笔记"
+    },
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
+    "linux": "Ctrl + N",
+    "keywords": [
+      "new",
+      "note",
+      "笔记"
+    ],
+    "pinyin": "xin jian bi ji xinjianbiji x j b j xjbj bi ji biji b j bj"
+  },
+  {
+    "id": "simplenote-search",
+    "appId": "simplenote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Search",
+      "zh": "搜索"
+    },
+    "description": {
+      "en": "Search notes",
+      "zh": "搜索笔记"
+    },
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
+    "linux": "Ctrl + F",
+    "keywords": [
+      "search",
+      "搜索"
+    ],
+    "pinyin": "sou suo sousuo s s ss sou suo sousuo s s ss"
+  },
+  {
+    "id": "simplenote-edit",
+    "appId": "simplenote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Edit",
+      "zh": "编辑"
+    },
+    "description": {
+      "en": "Edit note",
+      "zh": "编辑笔记"
+    },
+    "windows": "Enter",
+    "mac": "Enter",
+    "linux": "Enter",
+    "keywords": [
+      "edit",
+      "编辑"
+    ],
+    "pinyin": "bian ji bianji b j bj bian ji bianji b j bj"
+  },
+  {
+    "id": "simplenote-tag",
+    "appId": "simplenote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Tag",
+      "zh": "标签"
+    },
+    "description": {
+      "en": "Add tag",
+      "zh": "添加标签"
+    },
+    "windows": "Ctrl + Shift + T",
+    "mac": "⇧ ⌘ T",
+    "linux": "Ctrl + Shift + T",
+    "keywords": [
+      "tag",
+      "标签"
+    ],
+    "pinyin": "biao qian biaoqian b q bq biao qian biaoqian b q bq"
+  },
+  {
+    "id": "simplenote-markdown",
+    "appId": "simplenote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Markdown",
+      "zh": "Markdown"
+    },
+    "description": {
+      "en": "Toggle markdown",
+      "zh": "切换 Markdown"
+    },
+    "windows": "Ctrl + Shift + M",
+    "mac": "⇧ ⌘ M",
+    "linux": "Ctrl + Shift + M",
+    "keywords": [
+      "markdown",
+      "md"
+    ],
+    "pinyin": "m a r k d o w n markdown m a r k d o w n markdown"
+  },
+  {
+    "id": "simplenote-trash",
+    "appId": "simplenote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Trash",
+      "zh": "删除"
+    },
+    "description": {
+      "en": "Move to trash",
+      "zh": "移到废纸篓"
+    },
+    "windows": "Delete",
+    "mac": "⌫",
+    "linux": "Delete",
+    "keywords": [
+      "trash",
+      "删除"
+    ],
+    "pinyin": "shan chu shanchu s c sc shan chu shanchu s c sc"
+  },
+  {
+    "id": "simplenote-restore",
+    "appId": "simplenote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Restore",
+      "zh": "恢复"
+    },
+    "description": {
+      "en": "Restore note",
+      "zh": "恢复笔记"
+    },
+    "windows": "Ctrl + Shift + R",
+    "mac": "⇧ ⌘ R",
+    "linux": "Ctrl + Shift + R",
+    "keywords": [
+      "restore",
+      "恢复"
+    ],
+    "pinyin": "hui fu huifu h f hf hui fu huifu h f hf"
+  },
+  {
+    "id": "simplenote-sync",
+    "appId": "simplenote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Sync",
+      "zh": "同步"
+    },
+    "description": {
+      "en": "Sync now",
+      "zh": "立即同步"
+    },
+    "windows": "Ctrl + S",
+    "mac": "⌘ S",
+    "linux": "Ctrl + S",
+    "keywords": [
+      "sync",
+      "同步"
+    ],
+    "pinyin": "tong bu tongbu t b tb tong bu tongbu t b tb"
+  },
+  {
+    "id": "simplenote-settings",
+    "appId": "simplenote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Settings",
+      "zh": "设置"
+    },
+    "description": {
+      "en": "Settings",
+      "zh": "设置"
+    },
+    "windows": "Ctrl + ,",
+    "mac": "⌘ ,",
+    "linux": "Ctrl + ,",
+    "keywords": [
+      "settings",
+      "设置"
+    ],
+    "pinyin": "she zhi shezhi s z sz she zhi shezhi s z sz"
+  },
+  {
+    "id": "simplenote-sidebar",
+    "appId": "simplenote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Sidebar",
+      "zh": "侧栏"
+    },
+    "description": {
+      "en": "Toggle sidebar",
+      "zh": "切换侧栏"
+    },
+    "windows": "Ctrl + \\",
+    "mac": "⌘ \\",
+    "linux": "Ctrl + \\",
+    "keywords": [
+      "sidebar",
+      "侧栏"
+    ],
+    "pinyin": "ce lan celan c l cl ce lan celan c l cl"
+  },
+  {
+    "id": "simplenote-preview",
+    "appId": "simplenote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Preview",
+      "zh": "预览"
+    },
+    "description": {
+      "en": "Toggle preview",
+      "zh": "切换预览"
+    },
+    "windows": "Ctrl + P",
+    "mac": "⌘ P",
+    "linux": "Ctrl + P",
+    "keywords": [
+      "preview",
+      "预览"
+    ],
+    "pinyin": "yu lan yulan y l yl yu lan yulan y l yl"
+  },
+  {
+    "id": "simplenote-undo",
+    "appId": "simplenote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Undo",
+      "zh": "撤销"
+    },
+    "description": {
+      "en": "Undo",
+      "zh": "撤销"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "Ctrl + Z",
+    "keywords": [
+      "undo",
+      "撤销"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "simplenote-redo",
+    "appId": "simplenote",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Redo",
+      "zh": "重做"
+    },
+    "description": {
+      "en": "Redo",
+      "zh": "重做"
+    },
+    "windows": "Ctrl + Y",
+    "mac": "⇧ ⌘ Z",
+    "linux": "Ctrl + Y",
+    "keywords": [
+      "redo",
+      "重做"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  }
+]

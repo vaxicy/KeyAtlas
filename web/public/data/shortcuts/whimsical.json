@@ -1,1 +1,1401 @@
-[{"id":"whimsical-zoom","appId":"whimsical","type":"software","category":"design","name":{"zh":"缩放","en":"Zoom"},"description":{"zh":"Z+点击/拖拽或 ⌘/Ctrl+滚轮缩放","en":"Zoom with Z+click/drag or ⌘/Ctrl+scroll"},"windows":"Ctrl + Scroll / Z + Click","mac":"⌘Scroll / Z Click","linux":"Ctrl + Scroll / Z + Click","keywords":["缩放","zoom"],"pinyin":"suo fang suofang s f sf suo fang suofang s f sf"},{"id":"whimsical-zoom-in","appId":"whimsical","type":"software","category":"design","name":{"zh":"放大","en":"Zoom In"},"description":{"zh":"放大画布","en":"Zoom in"},"windows":"=","mac":"=","linux":"=","keywords":["放大","zoom"],"pinyin":"fang da fangda f d fd fang da fangda f d fd"},{"id":"whimsical-zoom-out","appId":"whimsical","type":"software","category":"design","name":{"zh":"缩小","en":"Zoom Out"},"description":{"zh":"缩小画布","en":"Zoom out"},"windows":"-","mac":"-","linux":"-","keywords":["缩小","zoom"],"pinyin":"suo xiao suoxiao s x sx suo xiao suoxiao s x sx"},{"id":"whimsical-zoom-100","appId":"whimsical","type":"software","category":"design","name":{"zh":"缩放到 100%","en":"Zoom to 100%"},"description":{"zh":"将画布缩放到 100%","en":"Zoom to 100%"},"windows":"0","mac":"0","linux":"0","keywords":["缩放","100","zoom"],"pinyin":"suo fang dao   1 0 0 % suofangdao 100% s f d   1 0 0 % sfd 100% suo fang suofang s f sf"},{"id":"whimsical-zoom-content","appId":"whimsical","type":"software","category":"design","name":{"zh":"缩放到内容","en":"Zoom to Content"},"description":{"zh":"缩放以适配内容","en":"Zoom to fit content"},"windows":"1","mac":"1","linux":"1","keywords":["缩放","内容","zoom"],"pinyin":"suo fang dao nei rong suofangdaoneirong s f d n r sfdnr suo fang   nei rong suofang neirong s f   n r sf nr"},{"id":"whimsical-zoom-selection","appId":"whimsical","type":"software","category":"design","name":{"zh":"缩放到所选","en":"Zoom to Selection"},"description":{"zh":"缩放以适配所选对象","en":"Zoom to the selection"},"windows":"2","mac":"2","linux":"2","keywords":["缩放","所选","zoom"],"pinyin":"suo fang dao suo xuan suofangdaosuoxuan s f d s x sfdsx suo fang   suo xuan suofang suoxuan s f   s x sf sx"},{"id":"whimsical-pan","appId":"whimsical","type":"software","category":"design","name":{"zh":"平移画布","en":"Pan"},"description":{"zh":"空格+拖拽平移画布","en":"Space+drag to pan"},"windows":"Space + Drag","mac":"Space Drag","linux":"Space + Drag","keywords":["平移","画布","pan"],"pinyin":"ping yi hua bu pingyihuabu p y h b pyhb ping yi   hua bu pingyi huabu p y   h b py hb"},{"id":"whimsical-undo","appId":"whimsical","type":"software","category":"design","name":{"zh":"撤销","en":"Undo"},"description":{"zh":"撤销上一步","en":"Undo the last action"},"windows":"Ctrl + Z","mac":"⌘Z","linux":"Ctrl + Z","keywords":["撤销","undo"],"pinyin":"che xiao chexiao c x cx che xiao chexiao c x cx"},{"id":"whimsical-redo","appId":"whimsical","type":"software","category":"design","name":{"zh":"重做","en":"Redo"},"description":{"zh":"重做被撤销的操作","en":"Redo the undone action"},"windows":"Ctrl + Shift + Z","mac":"⌘⇧Z","linux":"Ctrl + Shift + Z","keywords":["重做","redo"],"pinyin":"zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"},{"id":"whimsical-comment","appId":"whimsical","type":"software","category":"design","name":{"zh":"添加评论","en":"Comment"},"description":{"zh":"添加评论","en":"Add a comment"},"windows":"Ctrl + Alt + M","mac":"⌘⌥M","linux":"Ctrl + Alt + M","keywords":["评论","comment"],"pinyin":"tian jia ping lun tianjiapinglun t j p l tjpl ping lun pinglun p l pl"},{"id":"whimsical-show-hide-comments","appId":"whimsical","type":"software","category":"design","name":{"zh":"显示/隐藏评论","en":"Show/Hide Comments"},"description":{"zh":"切换文件内评论显示","en":"Toggle comments in a file"},"windows":"Shift + Alt + C","mac":"⇧⌥C","linux":"Shift + Alt + C","keywords":["评论","显示","comments"],"pinyin":"xian shi / yin cang ping lun xianshi/yincangpinglun x s / y c p l xs/ycpl ping lun   xian shi pinglun xianshi p l   x s pl xs"},{"id":"whimsical-copy-as-image","appId":"whimsical","type":"software","category":"design","name":{"zh":"复制为图片","en":"Copy as Image"},"description":{"zh":"将所选复制为图片","en":"Copy the selection as an image"},"windows":"Ctrl + Shift + C","mac":"⌘⇧C","linux":"Ctrl + Shift + C","keywords":["复制","图片","image"],"pinyin":"fu zhi wei tu pian fuzhiweitupian f z w t p fzwtp fu zhi   tu pian fuzhi tupian f z   t p fz tp"},{"id":"whimsical-copy-link","appId":"whimsical","type":"software","category":"design","name":{"zh":"复制对象链接","en":"Copy Link to Object"},"description":{"zh":"复制对象链接","en":"Copy a link to the object"},"windows":"Ctrl + Alt + Shift + C","mac":"⌘⌥⇧C","linux":"Ctrl + Alt + Shift + C","keywords":["复制","链接","link"],"pinyin":"fu zhi dui xiang lian jie fuzhiduixianglianjie f z d x l j fzdxlj fu zhi   lian jie fuzhi lianjie f z   l j fz lj"},{"id":"whimsical-multi-select","appId":"whimsical","type":"software","category":"design","name":{"zh":"多选","en":"Multi-select"},"description":{"zh":"Shift+点击多选","en":"Shift+click to select multiple"},"windows":"Shift + Click","mac":"⇧ Click","linux":"Shift + Click","keywords":["多选","选择","multi","select"],"pinyin":"duo xuan duoxuan d x dx duo xuan   xuan ze duoxuan xuanze d x   x z dx xz"},{"id":"whimsical-select-all","appId":"whimsical","type":"software","category":"design","name":{"zh":"全选（排除锁定）","en":"Select All (excl. locked)"},"description":{"zh":"选择所有对象（排除锁定）","en":"Select all excluding locked objects"},"windows":"Ctrl + A","mac":"⌘A","linux":"Ctrl + A","keywords":["全选","select","all"],"pinyin":"quan xuan （ pai chu suo ding ） quanxuan（paichusuoding） q x （ p c s d ） qx（pcsd） quan xuan quanxuan q x qx"},{"id":"whimsical-select-all-locked","appId":"whimsical","type":"software","category":"design","name":{"zh":"全选（含锁定）","en":"Select All (incl. locked)"},"description":{"zh":"选择所有对象（含锁定）","en":"Select all including locked objects"},"windows":"Hold Ctrl + Double A","mac":"Hold ⌘ Double A","linux":"Hold Ctrl + Double A","keywords":["全选","锁定","select"],"pinyin":"quan xuan （ han suo ding ） quanxuan（hansuoding） q x （ h s d ） qx（hsd） quan xuan   suo ding quanxuan suoding q x   s d qx sd"},{"id":"whimsical-deselect","appId":"whimsical","type":"software","category":"design","name":{"zh":"取消选择","en":"Deselect"},"description":{"zh":"取消当前选择","en":"Deselect the current selection"},"windows":"Esc","mac":"Esc","linux":"Esc","keywords":["取消","选择","deselect"],"pinyin":"qu xiao xuan ze quxiaoxuanze q x x z qxxz qu xiao   xuan ze quxiao xuanze q x   x z qx xz"},{"id":"whimsical-deep-select","appId":"whimsical","type":"software","category":"design","name":{"zh":"深层选择","en":"Deep Select"},"description":{"zh":"Ctrl/⌘+点击选择嵌套对象","en":"Ctrl/⌘+click to select nested object"},"windows":"Ctrl + Click","mac":"⌘Click","linux":"Ctrl + Click","keywords":["深层","选择","deep","select"],"pinyin":"shen ceng xuan ze shencengxuanze s c x z scxz shen ceng   xuan ze shenceng xuanze s c   x z sc xz"},{"id":"whimsical-ignore-snap-move","appId":"whimsical","type":"software","category":"design","name":{"zh":"移动时忽略吸附","en":"Ignore Auto-snapping"},"description":{"zh":"移动时忽略自动吸附","en":"Ignore auto-snapping when moving"},"windows":"Ctrl + Drag","mac":"⌘Drag","linux":"Ctrl + Drag","keywords":["吸附","移动","snap"],"pinyin":"yi dong shi hu lüe xi fu yidongshihulüexifu y d s h l x f ydshlxf xi fu   yi dong xifu yidong x f   y d xf yd"},{"id":"whimsical-measure-distance","appId":"whimsical","type":"software","category":"design","name":{"zh":"测量对象间距","en":"Measure Distance"},"description":{"zh":"选中对象后按住 Alt/⌥ 悬停其他对象","en":"Hold Alt/⌥ and hover other objects"},"windows":"Alt + hover","mac":"⌥hover","linux":"Alt + hover","keywords":["测量","间距","measure"],"pinyin":"ce liang dui xiang jian ju celiangduixiangjianju c l d x j j cldxjj ce liang   jian ju celiang jianju c l   j j cl jj"},{"id":"whimsical-copy","appId":"whimsical","type":"software","category":"design","name":{"zh":"复制","en":"Copy"},"description":{"zh":"复制所选","en":"Copy the selection"},"windows":"Ctrl + C","mac":"⌘C","linux":"Ctrl + C","keywords":["复制","copy"],"pinyin":"fu zhi fuzhi f z fz fu zhi fuzhi f z fz"},{"id":"whimsical-paste","appId":"whimsical","type":"software","category":"design","name":{"zh":"粘贴","en":"Paste"},"description":{"zh":"粘贴剪贴板内容","en":"Paste from the clipboard"},"windows":"Ctrl + V","mac":"⌘V","linux":"Ctrl + V","keywords":["粘贴","paste"],"pinyin":"nian tie niantie n t nt nian tie niantie n t nt"},{"id":"whimsical-copy-style","appId":"whimsical","type":"software","category":"design","name":{"zh":"复制样式","en":"Copy Style"},"description":{"zh":"复制对象样式","en":"Copy the object style"},"windows":"Ctrl + Alt + C","mac":"⌘⌥C","linux":"Ctrl + Alt + C","keywords":["复制","样式","style"],"pinyin":"fu zhi yang shi fuzhiyangshi f z y s fzys fu zhi   yang shi fuzhi yangshi f z   y s fz ys"},{"id":"whimsical-duplicate","appId":"whimsical","type":"software","category":"design","name":{"zh":"创建副本","en":"Duplicate"},"description":{"zh":"复制所选对象","en":"Duplicate the selection"},"windows":"Ctrl + D","mac":"⌘D","linux":"Ctrl + D","keywords":["副本","复制","duplicate"],"pinyin":"chuang jian fu ben chuangjianfuben c j f b cjfb fu ben   fu zhi fuben fuzhi f b   f z fb fz"},{"id":"whimsical-edit-text","appId":"whimsical","type":"software","category":"design","name":{"zh":"编辑文本","en":"Edit Text"},"description":{"zh":"进入文本编辑","en":"Edit the text"},"windows":"Enter","mac":"Enter","linux":"Enter","keywords":["编辑","文本","text"],"pinyin":"bian ji wen ben bianjiwenben b j w b bjwb bian ji   wen ben bianji wenben b j   w b bj wb"},{"id":"whimsical-group","appId":"whimsical","type":"software","category":"design","name":{"zh":"编组","en":"Group"},"description":{"zh":"将所选编组","en":"Group the selection"},"windows":"Ctrl + G","mac":"⌘G","linux":"Ctrl + G","keywords":["编组","group"],"pinyin":"bian zu bianzu b z bz bian zu bianzu b z bz"},{"id":"whimsical-ungroup","appId":"whimsical","type":"software","category":"design","name":{"zh":"解组","en":"Ungroup"},"description":{"zh":"解除所选编组","en":"Ungroup the selection"},"windows":"Ctrl + Shift + G","mac":"⌘⇧G","linux":"Ctrl + Shift + G","keywords":["解组","ungroup"],"pinyin":"jie zu jiezu j z jz jie zu jiezu j z jz"},{"id":"whimsical-bring-to-front","appId":"whimsical","type":"software","category":"design","name":{"zh":"置于顶层","en":"Bring to Front"},"description":{"zh":"将所选置于最顶层","en":"Bring the selection to the front"},"windows":"]","mac":"]","linux":"]","keywords":["顶层","bring","front"],"pinyin":"zhi yu ding ceng zhiyudingceng z y d c zydc ding ceng dingceng d c dc"},{"id":"whimsical-bring-forward","appId":"whimsical","type":"software","category":"design","name":{"zh":"上移一层","en":"Bring Forward"},"description":{"zh":"将所选上移一层","en":"Bring the selection forward"},"windows":"Ctrl + ]","mac":"⌘]","linux":"Ctrl + ]","keywords":["上移","图层","bring","forward"],"pinyin":"shang yi yi ceng shangyiyiceng s y y c syyc shang yi   tu ceng shangyi tuceng s y   t c sy tc"},{"id":"whimsical-send-to-back","appId":"whimsical","type":"software","category":"design","name":{"zh":"置于底层","en":"Send to Back"},"description":{"zh":"将所选置于最底层","en":"Send the selection to the back"},"windows":"[","mac":"[","linux":"[","keywords":["底层","send","back"],"pinyin":"zhi yu di ceng zhiyudiceng z y d c zydc di ceng diceng d c dc"},{"id":"whimsical-send-backward","appId":"whimsical","type":"software","category":"design","name":{"zh":"下移一层","en":"Send Backward"},"description":{"zh":"将所选下移一层","en":"Send the selection backward"},"windows":"Ctrl + [","mac":"⌘[","linux":"Ctrl + [","keywords":["下移","图层","send","backward"],"pinyin":"xia yi yi ceng xiayiyiceng x y y c xyyc xia yi   tu ceng xiayi tuceng x y   t c xy tc"},{"id":"whimsical-lock-ratio-resize","appId":"whimsical","type":"software","category":"design","name":{"zh":"锁定比例缩放","en":"Lock Aspect Ratio"},"description":{"zh":"Shift+拖拽锁定宽高比","en":"Shift+drag to keep aspect ratio"},"windows":"Shift + Drag","mac":"⇧ Drag","linux":"Shift + Drag","keywords":["比例","缩放","ratio"],"pinyin":"suo ding bi li suo fang suodingbilisuofang s d b l s f sdblsf bi li   suo fang bili suofang b l   s f bl sf"},{"id":"whimsical-resize-center","appId":"whimsical","type":"software","category":"design","name":{"zh":"从中心缩放","en":"Resize from Center"},"description":{"zh":"Alt/⌥+拖拽从中心缩放","en":"Alt/⌥+drag to resize from center"},"windows":"Alt + Drag","mac":"⌥Drag","linux":"Alt + Drag","keywords":["中心","缩放","resize"],"pinyin":"cong zhong xin suo fang congzhongxinsuofang c z x s f czxsf zhong xin   suo fang zhongxin suofang z x   s f zx sf"},{"id":"whimsical-increase-font","appId":"whimsical","type":"software","category":"design","name":{"zh":"增大字号","en":"Increase Font Size"},"description":{"zh":"增大对象内文字字号","en":"Increase text size in object"},"windows":"Ctrl + Alt + =","mac":"⌘⌥=","linux":"Ctrl + Alt + =","keywords":["字号","增大","font","size"],"pinyin":"zeng da zi hao zengdazihao z d z h zdzh zi hao   zeng da zihao zengda z h   z d zh zd"},{"id":"whimsical-decrease-font","appId":"whimsical","type":"software","category":"design","name":{"zh":"减小字号","en":"Decrease Font Size"},"description":{"zh":"减小对象内文字字号","en":"Decrease text size in object"},"windows":"Ctrl + Alt + -","mac":"⌘⌥-","linux":"Ctrl + Alt + -","keywords":["字号","减小","font","size"],"pinyin":"jian xiao zi hao jianxiaozihao j x z h jxzh zi hao   jian xiao zihao jianxiao z h   j x zh jx"},{"id":"whimsical-animate-connector","appId":"whimsical","type":"software","category":"design","name":{"zh":"动画连线","en":"Animate Connector"},"description":{"zh":"Ctrl/⌘+点击制作动画连线","en":"Ctrl/⌘+click to animate connector"},"windows":"Ctrl + Click","mac":"⌘Click","linux":"Ctrl + Click","keywords":["动画","连线","animate"],"pinyin":"dong hua lian xian donghualianxian d h l x dhlx dong hua   lian xian donghua lianxian d h   l x dh lx"},{"id":"whimsical-rectangle","appId":"whimsical","type":"software","category":"design","name":{"zh":"矩形","en":"Rectangle"},"description":{"zh":"插入矩形","en":"Insert a rectangle"},"windows":"R","mac":"R","linux":"R","keywords":["矩形","rectangle"],"pinyin":"ju xing juxing j x jx ju xing juxing j x jx"},{"id":"whimsical-oval","appId":"whimsical","type":"software","category":"design","name":{"zh":"椭圆","en":"Oval"},"description":{"zh":"插入椭圆/圆形","en":"Insert an oval"},"windows":"O","mac":"O","linux":"O","keywords":["椭圆","圆","oval"],"pinyin":"tuo yuan tuoyuan t y ty tuo yuan   yuan tuoyuan yuan t y   y ty y"},{"id":"whimsical-diamond","appId":"whimsical","type":"software","category":"design","name":{"zh":"菱形","en":"Diamond"},"description":{"zh":"插入菱形","en":"Insert a diamond"},"windows":"D","mac":"D","linux":"D","keywords":["菱形","diamond"],"pinyin":"ling xing lingxing l x lx ling xing lingxing l x lx"},{"id":"whimsical-line","appId":"whimsical","type":"software","category":"design","name":{"zh":"线条","en":"Line"},"description":{"zh":"插入线条","en":"Insert a line"},"windows":"L","mac":"L","linux":"L","keywords":["线","line"],"pinyin":"xian tiao xiantiao x t xt xian xian x x"},{"id":"whimsical-connector","appId":"whimsical","type":"software","category":"design","name":{"zh":"连接器","en":"Connector"},"description":{"zh":"插入连接器","en":"Insert a connector"},"windows":"C","mac":"C","linux":"C","keywords":["连接器","connector"],"pinyin":"lian jie qi lianjieqi l j q ljq lian jie qi lianjieqi l j q ljq"},{"id":"whimsical-text","appId":"whimsical","type":"software","category":"design","name":{"zh":"文本","en":"Text"},"description":{"zh":"插入文本","en":"Insert text"},"windows":"T","mac":"T","linux":"T","keywords":["文本","文字","text"],"pinyin":"wen ben wenben w b wb wen ben   wen zi wenben wenzi w b   w z wb wz"},{"id":"whimsical-link","appId":"whimsical","type":"software","category":"design","name":{"zh":"链接","en":"Link"},"description":{"zh":"插入链接","en":"Insert a link"},"windows":"K","mac":"K","linux":"K","keywords":["链接","link"],"pinyin":"lian jie lianjie l j lj lian jie lianjie l j lj"},{"id":"whimsical-quick-add","appId":"whimsical","type":"software","category":"design","name":{"zh":"快速添加形状","en":"Quick Add"},"description":{"zh":"Alt/⌥+方向键快速添加形状","en":"Alt/⌥+arrow to quick add shape"},"windows":"Alt + Arrow","mac":"⌥Arrow","linux":"Alt + Arrow","keywords":["快速","添加","形状","quick","add"],"pinyin":"kuai su tian jia xing zhuang kuaisutianjiaxingzhuang k s t j x z kstjxz kuai su   tian jia   xing zhuang kuaisu tianjia xingzhuang k s   t j   x z ks tj xz"},{"id":"whimsical-hide-quick-add","appId":"whimsical","type":"software","category":"design","name":{"zh":"隐藏快速添加","en":"Hide Quick Add"},"description":{"zh":"隐藏快速添加按钮","en":"Hide the quick add button"},"windows":"Q","mac":"Q","linux":"Q","keywords":["隐藏","快速","添加","quick","add"],"pinyin":"yin cang kuai su tian jia yincangkuaisutianjia y c k s t j yckstj yin cang   kuai su   tian jia yincang kuaisu tianjia y c   k s   t j yc ks tj"},{"id":"whimsical-lock-object","appId":"whimsical","type":"software","category":"design","name":{"zh":"锁定对象","en":"Lock Object"},"description":{"zh":"锁定/解锁对象","en":"Lock or unlock the object"},"windows":"Ctrl + Shift + L","mac":"⌘⇧L","linux":"Ctrl + Shift + L","keywords":["锁定","对象","lock"],"pinyin":"suo ding dui xiang suodingduixiang s d d x sddx suo ding   dui xiang suoding duixiang s d   d x sd dx"},{"id":"whimsical-add-root","appId":"whimsical","type":"software","category":"design","name":{"zh":"添加根节点","en":"Add Root Node"},"description":{"zh":"在思维导图中添加根节点","en":"Add a root node in mind map"},"windows":"M","mac":"M","linux":"M","keywords":["根节点","思维导图","root"],"pinyin":"tian jia gen jie dian tianjiagenjiedian t j g j d tjgjd gen jie dian   si wei dao tu genjiedian siweidaotu g j d   s w d t gjd swdt"},{"id":"whimsical-add-child","appId":"whimsical","type":"software","category":"design","name":{"zh":"添加子节点","en":"Add Child"},"description":{"zh":"Tab 添加子节点","en":"Tab to add a child node"},"windows":"Tab","mac":"Tab","linux":"Tab","keywords":["子节点","思维导图","child"],"pinyin":"tian jia zi jie dian tianjiazijiedian t j z j d tjzjd zi jie dian   si wei dao tu zijiedian siweidaotu z j d   s w d t zjd swdt"},{"id":"whimsical-add-sibling","appId":"whimsical","type":"software","category":"design","name":{"zh":"添加同级","en":"Add Sibling"},"description":{"zh":"Enter 添加同级节点","en":"Enter to add a sibling node"},"windows":"Enter","mac":"Enter","linux":"Enter","keywords":["同级","思维导图","sibling"],"pinyin":"tian jia tong ji tianjiatongji t j t j tjtj tong ji   si wei dao tu tongji siweidaotu t j   s w d t tj swdt"},{"id":"whimsical-add-parent","appId":"whimsical","type":"software","category":"design","name":{"zh":"添加父节点","en":"Add Parent"},"description":{"zh":"Alt/⌥+Enter 添加父节点","en":"Alt/⌥+Enter to add a parent node"},"windows":"Alt + Enter","mac":"⌥Enter","linux":"Alt + Enter","keywords":["父节点","思维导图","parent"],"pinyin":"tian jia fu jie dian tianjiafujiedian t j f j d tjfjd fu jie dian   si wei dao tu fujiedian siweidaotu f j d   s w d t fjd swdt"},{"id":"whimsical-collapse-expand","appId":"whimsical","type":"software","category":"design","name":{"zh":"折叠/展开节点","en":"Collapse/Expand Node"},"description":{"zh":"Ctrl/⌘+/ 折叠或展开节点","en":"Ctrl/⌘+/ to collapse or expand"},"windows":"Ctrl / ","mac":"⌘ / ","linux":"Ctrl / ","keywords":["折叠","展开","节点","collapse"],"pinyin":"zhe die / zhan kai jie dian zhedie/zhankaijiedian z d / z k j d zd/zkjd zhe die   zhan kai   jie dian zhedie zhankai jiedian z d   z k   j d zd zk jd"},{"id":"whimsical-line-break","appId":"whimsical","type":"software","category":"design","name":{"zh":"软换行","en":"Line Break"},"description":{"zh":"Shift+Enter 软换行","en":"Shift+Enter for a line break"},"windows":"Shift + Enter","mac":"⇧ Enter","linux":"Shift + Enter","keywords":["换行","line","break"],"pinyin":"ruan huan hang ruanhuanhang r h h rhh huan hang huanhang h h hh"},{"id":"whimsical-add-link","appId":"whimsical","type":"software","category":"design","name":{"zh":"添加链接","en":"Add Link"},"description":{"zh":"Ctrl/⌘+Shift+U 添加链接","en":"Ctrl/⌘+Shift+U to add a link"},"windows":"Ctrl + Shift + U","mac":"⌘⇧U","linux":"Ctrl + Shift + U","keywords":["添加","链接","link"],"pinyin":"tian jia lian jie tianjialianjie t j l j tjlj tian jia   lian jie tianjia lianjie t j   l j tj lj"},{"id":"whimsical-add-sticky","appId":"whimsical","type":"software","category":"design","name":{"zh":"添加便利贴","en":"Add Sticky Note"},"description":{"zh":"在所有白板模式中添加便利贴","en":"Add a sticky note in any board mode"},"windows":"N","mac":"N","linux":"N","keywords":["便利贴","sticky"],"pinyin":"tian jia bian li tie tianjiabianlitie t j b l t tjblt bian li tie bianlitie b l t blt"},{"id":"whimsical-duplicate-note","appId":"whimsical","type":"software","category":"design","name":{"zh":"复制便利贴","en":"Duplicate Note"},"description":{"zh":"Alt/⌥+拖拽复制便利贴","en":"Alt/⌥+drag to duplicate a note"},"windows":"Alt + Drag","mac":"⌥Drag","linux":"Alt + Drag","keywords":["复制","便利贴","sticky"],"pinyin":"fu zhi bian li tie fuzhibianlitie f z b l t fzblt fu zhi   bian li tie fuzhi bianlitie f z   b l t fz blt"},{"id":"whimsical-paragraph","appId":"whimsical","type":"software","category":"design","name":{"zh":"段落","en":"Paragraph"},"description":{"zh":"Ctrl/⌘+\\ 切换段落","en":"Ctrl/⌘+\\ to toggle paragraph"},"windows":"Ctrl + \\","mac":"⌘\\","linux":"Ctrl + \\","keywords":["段落","paragraph"],"pinyin":"duan luo duanluo d l dl duan luo duanluo d l dl"},{"id":"whimsical-bulleted-list","appId":"whimsical","type":"software","category":"design","name":{"zh":"项目符号列表","en":"Bulleted List"},"description":{"zh":"* 或 - 然后空格创建项目符号","en":"* or - then space for bulleted list"},"windows":"* or - then Space","mac":"* or - then Space","linux":"* or - then Space","keywords":["列表","项目符号","bullet"],"pinyin":"xiang mu fu hao lie biao xiangmufuhaoliebiao x m f h l b xmfhlb lie biao   xiang mu fu hao liebiao xiangmufuhao l b   x m f h lb xmfh"},{"id":"whimsical-numbered-list","appId":"whimsical","type":"software","category":"design","name":{"zh":"编号列表","en":"Numbered List"},"description":{"zh":"1. 然后空格创建编号列表","en":"1. then space for numbered list"},"windows":"1. then Space","mac":"1. then Space","linux":"1. then Space","keywords":["列表","编号","numbered"],"pinyin":"bian hao lie biao bianhaoliebiao b h l b bhlb lie biao   bian hao liebiao bianhao l b   b h lb bh"},{"id":"whimsical-generate-ai","appId":"whimsical","type":"software","category":"design","name":{"zh":"用 AI 生成","en":"Generate with AI"},"description":{"zh":"Ctrl/⌘+. 用 AI 生成内容","en":"Ctrl/⌘+. to generate with AI"},"windows":"Ctrl + .","mac":"⌘.","linux":"Ctrl + .","keywords":["AI","生成","generate"],"pinyin":"yong   a i   sheng cheng yong ai shengcheng y   a i   s c y ai sc sheng cheng shengcheng s c sc"},{"id":"whimsical-create-after-prompt","appId":"whimsical","type":"software","category":"design","name":{"zh":"输入提示后生成","en":"Create After Prompt"},"description":{"zh":"Ctrl/⌘+Enter 根据提示生成","en":"Ctrl/⌘+Enter to create from prompt"},"windows":"Ctrl + Enter","mac":"⌘Enter","linux":"Ctrl + Enter","keywords":["AI","生成","提示","prompt"],"pinyin":"shu ru ti shi hou sheng cheng shurutishihoushengcheng s r t s h s c srtshsc sheng cheng   ti shi shengcheng tishi s c   t s sc ts"},{"id":"whimsical-example-prompts","appId":"whimsical","type":"software","category":"design","name":{"zh":"查看示例提示","en":"Example Prompts"},"description":{"zh":"按 / 查看示例提示","en":"Press / to see example prompts"},"windows":" / ","mac":" / ","linux":" / ","keywords":["AI","示例","提示","prompt"],"pinyin":"cha kan shi li ti shi chakanshilitishi c k s l t s ckslts shi li   ti shi shili tishi s l   t s sl ts"}]
+[
+  {
+    "id": "whimsical-zoom",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "缩放",
+      "en": "Zoom"
+    },
+    "description": {
+      "zh": "Z+点击/拖拽或 ⌘/Ctrl+滚轮缩放",
+      "en": "Zoom with Z+click/drag or ⌘/Ctrl+scroll"
+    },
+    "windows": "Ctrl + Scroll / Z + Click",
+    "mac": "⌘Scroll / Z Click",
+    "linux": "Ctrl + Scroll / Z + Click",
+    "keywords": [
+      "缩放",
+      "zoom"
+    ],
+    "pinyin": "suo fang suofang s f sf suo fang suofang s f sf"
+  },
+  {
+    "id": "whimsical-zoom-in",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "放大",
+      "en": "Zoom In"
+    },
+    "description": {
+      "zh": "放大画布",
+      "en": "Zoom in"
+    },
+    "windows": "=",
+    "mac": "=",
+    "linux": "=",
+    "keywords": [
+      "放大",
+      "zoom"
+    ],
+    "pinyin": "fang da fangda f d fd fang da fangda f d fd"
+  },
+  {
+    "id": "whimsical-zoom-out",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "缩小",
+      "en": "Zoom Out"
+    },
+    "description": {
+      "zh": "缩小画布",
+      "en": "Zoom out"
+    },
+    "windows": "-",
+    "mac": "-",
+    "linux": "-",
+    "keywords": [
+      "缩小",
+      "zoom"
+    ],
+    "pinyin": "suo xiao suoxiao s x sx suo xiao suoxiao s x sx"
+  },
+  {
+    "id": "whimsical-zoom-100",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "缩放到 100%",
+      "en": "Zoom to 100%"
+    },
+    "description": {
+      "zh": "将画布缩放到 100%",
+      "en": "Zoom to 100%"
+    },
+    "windows": "0",
+    "mac": "0",
+    "linux": "0",
+    "keywords": [
+      "缩放",
+      "100",
+      "zoom"
+    ],
+    "pinyin": "suo fang dao   1 0 0 % suofangdao 100% s f d   1 0 0 % sfd 100% suo fang suofang s f sf"
+  },
+  {
+    "id": "whimsical-zoom-content",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "缩放到内容",
+      "en": "Zoom to Content"
+    },
+    "description": {
+      "zh": "缩放以适配内容",
+      "en": "Zoom to fit content"
+    },
+    "windows": "1",
+    "mac": "1",
+    "linux": "1",
+    "keywords": [
+      "缩放",
+      "内容",
+      "zoom"
+    ],
+    "pinyin": "suo fang dao nei rong suofangdaoneirong s f d n r sfdnr suo fang   nei rong suofang neirong s f   n r sf nr"
+  },
+  {
+    "id": "whimsical-zoom-selection",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "缩放到所选",
+      "en": "Zoom to Selection"
+    },
+    "description": {
+      "zh": "缩放以适配所选对象",
+      "en": "Zoom to the selection"
+    },
+    "windows": "2",
+    "mac": "2",
+    "linux": "2",
+    "keywords": [
+      "缩放",
+      "所选",
+      "zoom"
+    ],
+    "pinyin": "suo fang dao suo xuan suofangdaosuoxuan s f d s x sfdsx suo fang   suo xuan suofang suoxuan s f   s x sf sx"
+  },
+  {
+    "id": "whimsical-pan",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "平移画布",
+      "en": "Pan"
+    },
+    "description": {
+      "zh": "空格+拖拽平移画布",
+      "en": "Space+drag to pan"
+    },
+    "windows": "Space + Drag",
+    "mac": "Space Drag",
+    "linux": "Space + Drag",
+    "keywords": [
+      "平移",
+      "画布",
+      "pan"
+    ],
+    "pinyin": "ping yi hua bu pingyihuabu p y h b pyhb ping yi   hua bu pingyi huabu p y   h b py hb"
+  },
+  {
+    "id": "whimsical-undo",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销上一步",
+      "en": "Undo the last action"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "⌘Z",
+    "linux": "Ctrl + Z",
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "whimsical-redo",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "重做被撤销的操作",
+      "en": "Redo the undone action"
+    },
+    "windows": "Ctrl + Shift + Z",
+    "mac": "⌘⇧Z",
+    "linux": "Ctrl + Shift + Z",
+    "keywords": [
+      "重做",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "whimsical-comment",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "添加评论",
+      "en": "Comment"
+    },
+    "description": {
+      "zh": "添加评论",
+      "en": "Add a comment"
+    },
+    "windows": "Ctrl + Alt + M",
+    "mac": "⌘⌥M",
+    "linux": "Ctrl + Alt + M",
+    "keywords": [
+      "评论",
+      "comment"
+    ],
+    "pinyin": "tian jia ping lun tianjiapinglun t j p l tjpl ping lun pinglun p l pl"
+  },
+  {
+    "id": "whimsical-show-hide-comments",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "显示/隐藏评论",
+      "en": "Show/Hide Comments"
+    },
+    "description": {
+      "zh": "切换文件内评论显示",
+      "en": "Toggle comments in a file"
+    },
+    "windows": "Shift + Alt + C",
+    "mac": "⇧⌥C",
+    "linux": "Shift + Alt + C",
+    "keywords": [
+      "评论",
+      "显示",
+      "comments"
+    ],
+    "pinyin": "xian shi / yin cang ping lun xianshi/yincangpinglun x s / y c p l xs/ycpl ping lun   xian shi pinglun xianshi p l   x s pl xs"
+  },
+  {
+    "id": "whimsical-copy-as-image",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "复制为图片",
+      "en": "Copy as Image"
+    },
+    "description": {
+      "zh": "将所选复制为图片",
+      "en": "Copy the selection as an image"
+    },
+    "windows": "Ctrl + Shift + C",
+    "mac": "⌘⇧C",
+    "linux": "Ctrl + Shift + C",
+    "keywords": [
+      "复制",
+      "图片",
+      "image"
+    ],
+    "pinyin": "fu zhi wei tu pian fuzhiweitupian f z w t p fzwtp fu zhi   tu pian fuzhi tupian f z   t p fz tp"
+  },
+  {
+    "id": "whimsical-copy-link",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "复制对象链接",
+      "en": "Copy Link to Object"
+    },
+    "description": {
+      "zh": "复制对象链接",
+      "en": "Copy a link to the object"
+    },
+    "windows": "Ctrl + Alt + Shift + C",
+    "mac": "⌘⌥⇧C",
+    "linux": "Ctrl + Alt + Shift + C",
+    "keywords": [
+      "复制",
+      "链接",
+      "link"
+    ],
+    "pinyin": "fu zhi dui xiang lian jie fuzhiduixianglianjie f z d x l j fzdxlj fu zhi   lian jie fuzhi lianjie f z   l j fz lj"
+  },
+  {
+    "id": "whimsical-multi-select",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "多选",
+      "en": "Multi-select"
+    },
+    "description": {
+      "zh": "Shift+点击多选",
+      "en": "Shift+click to select multiple"
+    },
+    "windows": "Shift + Click",
+    "mac": "⇧ Click",
+    "linux": "Shift + Click",
+    "keywords": [
+      "多选",
+      "选择",
+      "multi",
+      "select"
+    ],
+    "pinyin": "duo xuan duoxuan d x dx duo xuan   xuan ze duoxuan xuanze d x   x z dx xz"
+  },
+  {
+    "id": "whimsical-select-all",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "全选（排除锁定）",
+      "en": "Select All (excl. locked)"
+    },
+    "description": {
+      "zh": "选择所有对象（排除锁定）",
+      "en": "Select all excluding locked objects"
+    },
+    "windows": "Ctrl + A",
+    "mac": "⌘A",
+    "linux": "Ctrl + A",
+    "keywords": [
+      "全选",
+      "select",
+      "all"
+    ],
+    "pinyin": "quan xuan （ pai chu suo ding ） quanxuan（paichusuoding） q x （ p c s d ） qx（pcsd） quan xuan quanxuan q x qx"
+  },
+  {
+    "id": "whimsical-select-all-locked",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "全选（含锁定）",
+      "en": "Select All (incl. locked)"
+    },
+    "description": {
+      "zh": "选择所有对象（含锁定）",
+      "en": "Select all including locked objects"
+    },
+    "windows": "Hold Ctrl + Double A",
+    "mac": "Hold ⌘ Double A",
+    "linux": "Hold Ctrl + Double A",
+    "keywords": [
+      "全选",
+      "锁定",
+      "select"
+    ],
+    "pinyin": "quan xuan （ han suo ding ） quanxuan（hansuoding） q x （ h s d ） qx（hsd） quan xuan   suo ding quanxuan suoding q x   s d qx sd"
+  },
+  {
+    "id": "whimsical-deselect",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "取消选择",
+      "en": "Deselect"
+    },
+    "description": {
+      "zh": "取消当前选择",
+      "en": "Deselect the current selection"
+    },
+    "windows": "Esc",
+    "mac": "Esc",
+    "linux": "Esc",
+    "keywords": [
+      "取消",
+      "选择",
+      "deselect"
+    ],
+    "pinyin": "qu xiao xuan ze quxiaoxuanze q x x z qxxz qu xiao   xuan ze quxiao xuanze q x   x z qx xz"
+  },
+  {
+    "id": "whimsical-deep-select",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "深层选择",
+      "en": "Deep Select"
+    },
+    "description": {
+      "zh": "Ctrl/⌘+点击选择嵌套对象",
+      "en": "Ctrl/⌘+click to select nested object"
+    },
+    "windows": "Ctrl + Click",
+    "mac": "⌘Click",
+    "linux": "Ctrl + Click",
+    "keywords": [
+      "深层",
+      "选择",
+      "deep",
+      "select"
+    ],
+    "pinyin": "shen ceng xuan ze shencengxuanze s c x z scxz shen ceng   xuan ze shenceng xuanze s c   x z sc xz"
+  },
+  {
+    "id": "whimsical-ignore-snap-move",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "移动时忽略吸附",
+      "en": "Ignore Auto-snapping"
+    },
+    "description": {
+      "zh": "移动时忽略自动吸附",
+      "en": "Ignore auto-snapping when moving"
+    },
+    "windows": "Ctrl + Drag",
+    "mac": "⌘Drag",
+    "linux": "Ctrl + Drag",
+    "keywords": [
+      "吸附",
+      "移动",
+      "snap"
+    ],
+    "pinyin": "yi dong shi hu lüe xi fu yidongshihulüexifu y d s h l x f ydshlxf xi fu   yi dong xifu yidong x f   y d xf yd"
+  },
+  {
+    "id": "whimsical-measure-distance",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "测量对象间距",
+      "en": "Measure Distance"
+    },
+    "description": {
+      "zh": "选中对象后按住 Alt/⌥ 悬停其他对象",
+      "en": "Hold Alt/⌥ and hover other objects"
+    },
+    "windows": "Alt + hover",
+    "mac": "⌥hover",
+    "linux": "Alt + hover",
+    "keywords": [
+      "测量",
+      "间距",
+      "measure"
+    ],
+    "pinyin": "ce liang dui xiang jian ju celiangduixiangjianju c l d x j j cldxjj ce liang   jian ju celiang jianju c l   j j cl jj"
+  },
+  {
+    "id": "whimsical-copy",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "复制",
+      "en": "Copy"
+    },
+    "description": {
+      "zh": "复制所选",
+      "en": "Copy the selection"
+    },
+    "windows": "Ctrl + C",
+    "mac": "⌘C",
+    "linux": "Ctrl + C",
+    "keywords": [
+      "复制",
+      "copy"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "whimsical-paste",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "粘贴",
+      "en": "Paste"
+    },
+    "description": {
+      "zh": "粘贴剪贴板内容",
+      "en": "Paste from the clipboard"
+    },
+    "windows": "Ctrl + V",
+    "mac": "⌘V",
+    "linux": "Ctrl + V",
+    "keywords": [
+      "粘贴",
+      "paste"
+    ],
+    "pinyin": "nian tie niantie n t nt nian tie niantie n t nt"
+  },
+  {
+    "id": "whimsical-copy-style",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "复制样式",
+      "en": "Copy Style"
+    },
+    "description": {
+      "zh": "复制对象样式",
+      "en": "Copy the object style"
+    },
+    "windows": "Ctrl + Alt + C",
+    "mac": "⌘⌥C",
+    "linux": "Ctrl + Alt + C",
+    "keywords": [
+      "复制",
+      "样式",
+      "style"
+    ],
+    "pinyin": "fu zhi yang shi fuzhiyangshi f z y s fzys fu zhi   yang shi fuzhi yangshi f z   y s fz ys"
+  },
+  {
+    "id": "whimsical-duplicate",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "创建副本",
+      "en": "Duplicate"
+    },
+    "description": {
+      "zh": "复制所选对象",
+      "en": "Duplicate the selection"
+    },
+    "windows": "Ctrl + D",
+    "mac": "⌘D",
+    "linux": "Ctrl + D",
+    "keywords": [
+      "副本",
+      "复制",
+      "duplicate"
+    ],
+    "pinyin": "chuang jian fu ben chuangjianfuben c j f b cjfb fu ben   fu zhi fuben fuzhi f b   f z fb fz"
+  },
+  {
+    "id": "whimsical-edit-text",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "编辑文本",
+      "en": "Edit Text"
+    },
+    "description": {
+      "zh": "进入文本编辑",
+      "en": "Edit the text"
+    },
+    "windows": "Enter",
+    "mac": "Enter",
+    "linux": "Enter",
+    "keywords": [
+      "编辑",
+      "文本",
+      "text"
+    ],
+    "pinyin": "bian ji wen ben bianjiwenben b j w b bjwb bian ji   wen ben bianji wenben b j   w b bj wb"
+  },
+  {
+    "id": "whimsical-group",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "编组",
+      "en": "Group"
+    },
+    "description": {
+      "zh": "将所选编组",
+      "en": "Group the selection"
+    },
+    "windows": "Ctrl + G",
+    "mac": "⌘G",
+    "linux": "Ctrl + G",
+    "keywords": [
+      "编组",
+      "group"
+    ],
+    "pinyin": "bian zu bianzu b z bz bian zu bianzu b z bz"
+  },
+  {
+    "id": "whimsical-ungroup",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "解组",
+      "en": "Ungroup"
+    },
+    "description": {
+      "zh": "解除所选编组",
+      "en": "Ungroup the selection"
+    },
+    "windows": "Ctrl + Shift + G",
+    "mac": "⌘⇧G",
+    "linux": "Ctrl + Shift + G",
+    "keywords": [
+      "解组",
+      "ungroup"
+    ],
+    "pinyin": "jie zu jiezu j z jz jie zu jiezu j z jz"
+  },
+  {
+    "id": "whimsical-bring-to-front",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "置于顶层",
+      "en": "Bring to Front"
+    },
+    "description": {
+      "zh": "将所选置于最顶层",
+      "en": "Bring the selection to the front"
+    },
+    "windows": "]",
+    "mac": "]",
+    "linux": "]",
+    "keywords": [
+      "顶层",
+      "bring",
+      "front"
+    ],
+    "pinyin": "zhi yu ding ceng zhiyudingceng z y d c zydc ding ceng dingceng d c dc"
+  },
+  {
+    "id": "whimsical-bring-forward",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "上移一层",
+      "en": "Bring Forward"
+    },
+    "description": {
+      "zh": "将所选上移一层",
+      "en": "Bring the selection forward"
+    },
+    "windows": "Ctrl + ]",
+    "mac": "⌘]",
+    "linux": "Ctrl + ]",
+    "keywords": [
+      "上移",
+      "图层",
+      "bring",
+      "forward"
+    ],
+    "pinyin": "shang yi yi ceng shangyiyiceng s y y c syyc shang yi   tu ceng shangyi tuceng s y   t c sy tc"
+  },
+  {
+    "id": "whimsical-send-to-back",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "置于底层",
+      "en": "Send to Back"
+    },
+    "description": {
+      "zh": "将所选置于最底层",
+      "en": "Send the selection to the back"
+    },
+    "windows": "[",
+    "mac": "[",
+    "linux": "[",
+    "keywords": [
+      "底层",
+      "send",
+      "back"
+    ],
+    "pinyin": "zhi yu di ceng zhiyudiceng z y d c zydc di ceng diceng d c dc"
+  },
+  {
+    "id": "whimsical-send-backward",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "下移一层",
+      "en": "Send Backward"
+    },
+    "description": {
+      "zh": "将所选下移一层",
+      "en": "Send the selection backward"
+    },
+    "windows": "Ctrl + [",
+    "mac": "⌘[",
+    "linux": "Ctrl + [",
+    "keywords": [
+      "下移",
+      "图层",
+      "send",
+      "backward"
+    ],
+    "pinyin": "xia yi yi ceng xiayiyiceng x y y c xyyc xia yi   tu ceng xiayi tuceng x y   t c xy tc"
+  },
+  {
+    "id": "whimsical-lock-ratio-resize",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "锁定比例缩放",
+      "en": "Lock Aspect Ratio"
+    },
+    "description": {
+      "zh": "Shift+拖拽锁定宽高比",
+      "en": "Shift+drag to keep aspect ratio"
+    },
+    "windows": "Shift + Drag",
+    "mac": "⇧ Drag",
+    "linux": "Shift + Drag",
+    "keywords": [
+      "比例",
+      "缩放",
+      "ratio"
+    ],
+    "pinyin": "suo ding bi li suo fang suodingbilisuofang s d b l s f sdblsf bi li   suo fang bili suofang b l   s f bl sf"
+  },
+  {
+    "id": "whimsical-resize-center",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "从中心缩放",
+      "en": "Resize from Center"
+    },
+    "description": {
+      "zh": "Alt/⌥+拖拽从中心缩放",
+      "en": "Alt/⌥+drag to resize from center"
+    },
+    "windows": "Alt + Drag",
+    "mac": "⌥Drag",
+    "linux": "Alt + Drag",
+    "keywords": [
+      "中心",
+      "缩放",
+      "resize"
+    ],
+    "pinyin": "cong zhong xin suo fang congzhongxinsuofang c z x s f czxsf zhong xin   suo fang zhongxin suofang z x   s f zx sf"
+  },
+  {
+    "id": "whimsical-increase-font",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "增大字号",
+      "en": "Increase Font Size"
+    },
+    "description": {
+      "zh": "增大对象内文字字号",
+      "en": "Increase text size in object"
+    },
+    "windows": "Ctrl + Alt + =",
+    "mac": "⌘⌥=",
+    "linux": "Ctrl + Alt + =",
+    "keywords": [
+      "字号",
+      "增大",
+      "font",
+      "size"
+    ],
+    "pinyin": "zeng da zi hao zengdazihao z d z h zdzh zi hao   zeng da zihao zengda z h   z d zh zd"
+  },
+  {
+    "id": "whimsical-decrease-font",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "减小字号",
+      "en": "Decrease Font Size"
+    },
+    "description": {
+      "zh": "减小对象内文字字号",
+      "en": "Decrease text size in object"
+    },
+    "windows": "Ctrl + Alt + -",
+    "mac": "⌘⌥-",
+    "linux": "Ctrl + Alt + -",
+    "keywords": [
+      "字号",
+      "减小",
+      "font",
+      "size"
+    ],
+    "pinyin": "jian xiao zi hao jianxiaozihao j x z h jxzh zi hao   jian xiao zihao jianxiao z h   j x zh jx"
+  },
+  {
+    "id": "whimsical-animate-connector",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "动画连线",
+      "en": "Animate Connector"
+    },
+    "description": {
+      "zh": "Ctrl/⌘+点击制作动画连线",
+      "en": "Ctrl/⌘+click to animate connector"
+    },
+    "windows": "Ctrl + Click",
+    "mac": "⌘Click",
+    "linux": "Ctrl + Click",
+    "keywords": [
+      "动画",
+      "连线",
+      "animate"
+    ],
+    "pinyin": "dong hua lian xian donghualianxian d h l x dhlx dong hua   lian xian donghua lianxian d h   l x dh lx"
+  },
+  {
+    "id": "whimsical-rectangle",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "矩形",
+      "en": "Rectangle"
+    },
+    "description": {
+      "zh": "插入矩形",
+      "en": "Insert a rectangle"
+    },
+    "windows": "R",
+    "mac": "R",
+    "linux": "R",
+    "keywords": [
+      "矩形",
+      "rectangle"
+    ],
+    "pinyin": "ju xing juxing j x jx ju xing juxing j x jx"
+  },
+  {
+    "id": "whimsical-oval",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "椭圆",
+      "en": "Oval"
+    },
+    "description": {
+      "zh": "插入椭圆/圆形",
+      "en": "Insert an oval"
+    },
+    "windows": "O",
+    "mac": "O",
+    "linux": "O",
+    "keywords": [
+      "椭圆",
+      "圆",
+      "oval"
+    ],
+    "pinyin": "tuo yuan tuoyuan t y ty tuo yuan   yuan tuoyuan yuan t y   y ty y"
+  },
+  {
+    "id": "whimsical-diamond",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "菱形",
+      "en": "Diamond"
+    },
+    "description": {
+      "zh": "插入菱形",
+      "en": "Insert a diamond"
+    },
+    "windows": "D",
+    "mac": "D",
+    "linux": "D",
+    "keywords": [
+      "菱形",
+      "diamond"
+    ],
+    "pinyin": "ling xing lingxing l x lx ling xing lingxing l x lx"
+  },
+  {
+    "id": "whimsical-line",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "线条",
+      "en": "Line"
+    },
+    "description": {
+      "zh": "插入线条",
+      "en": "Insert a line"
+    },
+    "windows": "L",
+    "mac": "L",
+    "linux": "L",
+    "keywords": [
+      "线",
+      "line"
+    ],
+    "pinyin": "xian tiao xiantiao x t xt xian xian x x"
+  },
+  {
+    "id": "whimsical-connector",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "连接器",
+      "en": "Connector"
+    },
+    "description": {
+      "zh": "插入连接器",
+      "en": "Insert a connector"
+    },
+    "windows": "C",
+    "mac": "C",
+    "linux": "C",
+    "keywords": [
+      "连接器",
+      "connector"
+    ],
+    "pinyin": "lian jie qi lianjieqi l j q ljq lian jie qi lianjieqi l j q ljq"
+  },
+  {
+    "id": "whimsical-text",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "文本",
+      "en": "Text"
+    },
+    "description": {
+      "zh": "插入文本",
+      "en": "Insert text"
+    },
+    "windows": "T",
+    "mac": "T",
+    "linux": "T",
+    "keywords": [
+      "文本",
+      "文字",
+      "text"
+    ],
+    "pinyin": "wen ben wenben w b wb wen ben   wen zi wenben wenzi w b   w z wb wz"
+  },
+  {
+    "id": "whimsical-link",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "链接",
+      "en": "Link"
+    },
+    "description": {
+      "zh": "插入链接",
+      "en": "Insert a link"
+    },
+    "windows": "K",
+    "mac": "K",
+    "linux": "K",
+    "keywords": [
+      "链接",
+      "link"
+    ],
+    "pinyin": "lian jie lianjie l j lj lian jie lianjie l j lj"
+  },
+  {
+    "id": "whimsical-quick-add",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "快速添加形状",
+      "en": "Quick Add"
+    },
+    "description": {
+      "zh": "Alt/⌥+方向键快速添加形状",
+      "en": "Alt/⌥+arrow to quick add shape"
+    },
+    "windows": "Alt + Arrow",
+    "mac": "⌥Arrow",
+    "linux": "Alt + Arrow",
+    "keywords": [
+      "快速",
+      "添加",
+      "形状",
+      "quick",
+      "add"
+    ],
+    "pinyin": "kuai su tian jia xing zhuang kuaisutianjiaxingzhuang k s t j x z kstjxz kuai su   tian jia   xing zhuang kuaisu tianjia xingzhuang k s   t j   x z ks tj xz"
+  },
+  {
+    "id": "whimsical-hide-quick-add",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "隐藏快速添加",
+      "en": "Hide Quick Add"
+    },
+    "description": {
+      "zh": "隐藏快速添加按钮",
+      "en": "Hide the quick add button"
+    },
+    "windows": "Q",
+    "mac": "Q",
+    "linux": "Q",
+    "keywords": [
+      "隐藏",
+      "快速",
+      "添加",
+      "quick",
+      "add"
+    ],
+    "pinyin": "yin cang kuai su tian jia yincangkuaisutianjia y c k s t j yckstj yin cang   kuai su   tian jia yincang kuaisu tianjia y c   k s   t j yc ks tj"
+  },
+  {
+    "id": "whimsical-lock-object",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "锁定对象",
+      "en": "Lock Object"
+    },
+    "description": {
+      "zh": "锁定/解锁对象",
+      "en": "Lock or unlock the object"
+    },
+    "windows": "Ctrl + Shift + L",
+    "mac": "⌘⇧L",
+    "linux": "Ctrl + Shift + L",
+    "keywords": [
+      "锁定",
+      "对象",
+      "lock"
+    ],
+    "pinyin": "suo ding dui xiang suodingduixiang s d d x sddx suo ding   dui xiang suoding duixiang s d   d x sd dx"
+  },
+  {
+    "id": "whimsical-add-root",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "添加根节点",
+      "en": "Add Root Node"
+    },
+    "description": {
+      "zh": "在思维导图中添加根节点",
+      "en": "Add a root node in mind map"
+    },
+    "windows": "M",
+    "mac": "M",
+    "linux": "M",
+    "keywords": [
+      "根节点",
+      "思维导图",
+      "root"
+    ],
+    "pinyin": "tian jia gen jie dian tianjiagenjiedian t j g j d tjgjd gen jie dian   si wei dao tu genjiedian siweidaotu g j d   s w d t gjd swdt"
+  },
+  {
+    "id": "whimsical-add-child",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "添加子节点",
+      "en": "Add Child"
+    },
+    "description": {
+      "zh": "Tab 添加子节点",
+      "en": "Tab to add a child node"
+    },
+    "windows": "Tab",
+    "mac": "Tab",
+    "linux": "Tab",
+    "keywords": [
+      "子节点",
+      "思维导图",
+      "child"
+    ],
+    "pinyin": "tian jia zi jie dian tianjiazijiedian t j z j d tjzjd zi jie dian   si wei dao tu zijiedian siweidaotu z j d   s w d t zjd swdt"
+  },
+  {
+    "id": "whimsical-add-sibling",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "添加同级",
+      "en": "Add Sibling"
+    },
+    "description": {
+      "zh": "Enter 添加同级节点",
+      "en": "Enter to add a sibling node"
+    },
+    "windows": "Enter",
+    "mac": "Enter",
+    "linux": "Enter",
+    "keywords": [
+      "同级",
+      "思维导图",
+      "sibling"
+    ],
+    "pinyin": "tian jia tong ji tianjiatongji t j t j tjtj tong ji   si wei dao tu tongji siweidaotu t j   s w d t tj swdt"
+  },
+  {
+    "id": "whimsical-add-parent",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "添加父节点",
+      "en": "Add Parent"
+    },
+    "description": {
+      "zh": "Alt/⌥+Enter 添加父节点",
+      "en": "Alt/⌥+Enter to add a parent node"
+    },
+    "windows": "Alt + Enter",
+    "mac": "⌥Enter",
+    "linux": "Alt + Enter",
+    "keywords": [
+      "父节点",
+      "思维导图",
+      "parent"
+    ],
+    "pinyin": "tian jia fu jie dian tianjiafujiedian t j f j d tjfjd fu jie dian   si wei dao tu fujiedian siweidaotu f j d   s w d t fjd swdt"
+  },
+  {
+    "id": "whimsical-collapse-expand",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "折叠/展开节点",
+      "en": "Collapse/Expand Node"
+    },
+    "description": {
+      "zh": "Ctrl/⌘+/ 折叠或展开节点",
+      "en": "Ctrl/⌘+/ to collapse or expand"
+    },
+    "windows": "Ctrl / ",
+    "mac": "⌘ / ",
+    "linux": "Ctrl / ",
+    "keywords": [
+      "折叠",
+      "展开",
+      "节点",
+      "collapse"
+    ],
+    "pinyin": "zhe die / zhan kai jie dian zhedie/zhankaijiedian z d / z k j d zd/zkjd zhe die   zhan kai   jie dian zhedie zhankai jiedian z d   z k   j d zd zk jd"
+  },
+  {
+    "id": "whimsical-line-break",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "软换行",
+      "en": "Line Break"
+    },
+    "description": {
+      "zh": "Shift+Enter 软换行",
+      "en": "Shift+Enter for a line break"
+    },
+    "windows": "Shift + Enter",
+    "mac": "⇧ Enter",
+    "linux": "Shift + Enter",
+    "keywords": [
+      "换行",
+      "line",
+      "break"
+    ],
+    "pinyin": "ruan huan hang ruanhuanhang r h h rhh huan hang huanhang h h hh"
+  },
+  {
+    "id": "whimsical-add-link",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "添加链接",
+      "en": "Add Link"
+    },
+    "description": {
+      "zh": "Ctrl/⌘+Shift+U 添加链接",
+      "en": "Ctrl/⌘+Shift+U to add a link"
+    },
+    "windows": "Ctrl + Shift + U",
+    "mac": "⌘⇧U",
+    "linux": "Ctrl + Shift + U",
+    "keywords": [
+      "添加",
+      "链接",
+      "link"
+    ],
+    "pinyin": "tian jia lian jie tianjialianjie t j l j tjlj tian jia   lian jie tianjia lianjie t j   l j tj lj"
+  },
+  {
+    "id": "whimsical-add-sticky",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "添加便利贴",
+      "en": "Add Sticky Note"
+    },
+    "description": {
+      "zh": "在所有白板模式中添加便利贴",
+      "en": "Add a sticky note in any board mode"
+    },
+    "windows": "N",
+    "mac": "N",
+    "linux": "N",
+    "keywords": [
+      "便利贴",
+      "sticky"
+    ],
+    "pinyin": "tian jia bian li tie tianjiabianlitie t j b l t tjblt bian li tie bianlitie b l t blt"
+  },
+  {
+    "id": "whimsical-duplicate-note",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "复制便利贴",
+      "en": "Duplicate Note"
+    },
+    "description": {
+      "zh": "Alt/⌥+拖拽复制便利贴",
+      "en": "Alt/⌥+drag to duplicate a note"
+    },
+    "windows": "Alt + Drag",
+    "mac": "⌥Drag",
+    "linux": "Alt + Drag",
+    "keywords": [
+      "复制",
+      "便利贴",
+      "sticky"
+    ],
+    "pinyin": "fu zhi bian li tie fuzhibianlitie f z b l t fzblt fu zhi   bian li tie fuzhi bianlitie f z   b l t fz blt"
+  },
+  {
+    "id": "whimsical-paragraph",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "段落",
+      "en": "Paragraph"
+    },
+    "description": {
+      "zh": "Ctrl/⌘+\\ 切换段落",
+      "en": "Ctrl/⌘+\\ to toggle paragraph"
+    },
+    "windows": "Ctrl + \\",
+    "mac": "⌘\\",
+    "linux": "Ctrl + \\",
+    "keywords": [
+      "段落",
+      "paragraph"
+    ],
+    "pinyin": "duan luo duanluo d l dl duan luo duanluo d l dl"
+  },
+  {
+    "id": "whimsical-bulleted-list",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "项目符号列表",
+      "en": "Bulleted List"
+    },
+    "description": {
+      "zh": "* 或 - 然后空格创建项目符号",
+      "en": "* or - then space for bulleted list"
+    },
+    "windows": "* or - then Space",
+    "mac": "* or - then Space",
+    "linux": "* or - then Space",
+    "keywords": [
+      "列表",
+      "项目符号",
+      "bullet"
+    ],
+    "pinyin": "xiang mu fu hao lie biao xiangmufuhaoliebiao x m f h l b xmfhlb lie biao   xiang mu fu hao liebiao xiangmufuhao l b   x m f h lb xmfh"
+  },
+  {
+    "id": "whimsical-numbered-list",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "编号列表",
+      "en": "Numbered List"
+    },
+    "description": {
+      "zh": "1. 然后空格创建编号列表",
+      "en": "1. then space for numbered list"
+    },
+    "windows": "1. then Space",
+    "mac": "1. then Space",
+    "linux": "1. then Space",
+    "keywords": [
+      "列表",
+      "编号",
+      "numbered"
+    ],
+    "pinyin": "bian hao lie biao bianhaoliebiao b h l b bhlb lie biao   bian hao liebiao bianhao l b   b h lb bh"
+  },
+  {
+    "id": "whimsical-generate-ai",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "用 AI 生成",
+      "en": "Generate with AI"
+    },
+    "description": {
+      "zh": "Ctrl/⌘+. 用 AI 生成内容",
+      "en": "Ctrl/⌘+. to generate with AI"
+    },
+    "windows": "Ctrl + .",
+    "mac": "⌘.",
+    "linux": "Ctrl + .",
+    "keywords": [
+      "AI",
+      "生成",
+      "generate"
+    ],
+    "pinyin": "yong   a i   sheng cheng yong ai shengcheng y   a i   s c y ai sc sheng cheng shengcheng s c sc"
+  },
+  {
+    "id": "whimsical-create-after-prompt",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "输入提示后生成",
+      "en": "Create After Prompt"
+    },
+    "description": {
+      "zh": "Ctrl/⌘+Enter 根据提示生成",
+      "en": "Ctrl/⌘+Enter to create from prompt"
+    },
+    "windows": "Ctrl + Enter",
+    "mac": "⌘Enter",
+    "linux": "Ctrl + Enter",
+    "keywords": [
+      "AI",
+      "生成",
+      "提示",
+      "prompt"
+    ],
+    "pinyin": "shu ru ti shi hou sheng cheng shurutishihoushengcheng s r t s h s c srtshsc sheng cheng   ti shi shengcheng tishi s c   t s sc ts"
+  },
+  {
+    "id": "whimsical-example-prompts",
+    "appId": "whimsical",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "查看示例提示",
+      "en": "Example Prompts"
+    },
+    "description": {
+      "zh": "按 / 查看示例提示",
+      "en": "Press / to see example prompts"
+    },
+    "windows": " / ",
+    "mac": " / ",
+    "linux": " / ",
+    "keywords": [
+      "AI",
+      "示例",
+      "提示",
+      "prompt"
+    ],
+    "pinyin": "cha kan shi li ti shi chakanshilitishi c k s l t s ckslts shi li   ti shi shili tishi s l   t s sl ts"
+  }
+]

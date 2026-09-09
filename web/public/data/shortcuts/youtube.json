@@ -1,0 +1,631 @@
+[
+  {
+    "id": "youtube-play",
+    "appId": "youtube",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Play/Pause",
+      "zh": "播放/暂停"
+    },
+    "description": {
+      "en": "Play or pause",
+      "zh": "播放或暂停"
+    },
+    "windows": "K",
+    "mac": "K",
+    "linux": "K",
+    "keywords": [
+      "play",
+      "pause",
+      "播放"
+    ],
+    "pinyin": "bo fang / zan ting bofang/zanting b f / z t bf/zt bo fang bofang b f bf"
+  },
+  {
+    "id": "youtube-space",
+    "appId": "youtube",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Play/Pause",
+      "zh": "播放/暂停"
+    },
+    "description": {
+      "en": "Space toggles",
+      "zh": "空格切换"
+    },
+    "windows": "Space",
+    "mac": "Space",
+    "linux": "Space",
+    "keywords": [
+      "space",
+      "空格"
+    ],
+    "pinyin": "bo fang / zan ting bofang/zanting b f / z t bf/zt kong ge kongge k g kg"
+  },
+  {
+    "id": "youtube-mute",
+    "appId": "youtube",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Mute",
+      "zh": "静音"
+    },
+    "description": {
+      "en": "Mute/unmute",
+      "zh": "静音/取消"
+    },
+    "windows": "M",
+    "mac": "M",
+    "linux": "M",
+    "keywords": [
+      "mute",
+      "静音"
+    ],
+    "pinyin": "jing yin jingyin j y jy jing yin jingyin j y jy"
+  },
+  {
+    "id": "youtube-fullscreen",
+    "appId": "youtube",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Fullscreen",
+      "zh": "全屏"
+    },
+    "description": {
+      "en": "Toggle fullscreen",
+      "zh": "切换全屏"
+    },
+    "windows": "F",
+    "mac": "F",
+    "linux": "F",
+    "keywords": [
+      "fullscreen",
+      "全屏"
+    ],
+    "pinyin": "quan ping quanping q p qp quan ping quanping q p qp"
+  },
+  {
+    "id": "youtube-captions",
+    "appId": "youtube",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Captions",
+      "zh": "字幕"
+    },
+    "description": {
+      "en": "Toggle captions",
+      "zh": "切换字幕"
+    },
+    "windows": "C",
+    "mac": "C",
+    "linux": "C",
+    "keywords": [
+      "captions",
+      "字幕"
+    ],
+    "pinyin": "zi mu zimu z m zm zi mu zimu z m zm"
+  },
+  {
+    "id": "youtube-theater",
+    "appId": "youtube",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Theater",
+      "zh": "剧场模式"
+    },
+    "description": {
+      "en": "Toggle theater",
+      "zh": "切换剧场"
+    },
+    "windows": "T",
+    "mac": "T",
+    "linux": "T",
+    "keywords": [
+      "theater",
+      "剧场"
+    ],
+    "pinyin": "ju chang mo shi juchangmoshi j c m s jcms ju chang juchang j c jc"
+  },
+  {
+    "id": "youtube-mini",
+    "appId": "youtube",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Miniplayer",
+      "zh": "迷你播放器"
+    },
+    "description": {
+      "en": "Toggle miniplayer",
+      "zh": "切换迷你播放器"
+    },
+    "windows": "I",
+    "mac": "I",
+    "linux": "I",
+    "keywords": [
+      "miniplayer",
+      "迷你"
+    ],
+    "pinyin": "mi ni bo fang qi minibofangqi m n b f q mnbfq mi ni mini m n mn"
+  },
+  {
+    "id": "youtube-back",
+    "appId": "youtube",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Back 10s",
+      "zh": "后退10秒"
+    },
+    "description": {
+      "en": "Rewind 10 seconds",
+      "zh": "后退 10 秒"
+    },
+    "windows": "J",
+    "mac": "J",
+    "linux": "J",
+    "keywords": [
+      "back",
+      "rewind",
+      "后退"
+    ],
+    "pinyin": "hou tui 1 0 miao houtui10miao h t 1 0 m ht10m hou tui houtui h t ht"
+  },
+  {
+    "id": "youtube-fwd",
+    "appId": "youtube",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Fwd 10s",
+      "zh": "前进10秒"
+    },
+    "description": {
+      "en": "Forward 10 seconds",
+      "zh": "前进 10 秒"
+    },
+    "windows": "L",
+    "mac": "L",
+    "linux": "L",
+    "keywords": [
+      "fwd",
+      "forward",
+      "前进"
+    ],
+    "pinyin": "qian jin 1 0 miao qianjin10miao q j 1 0 m qj10m qian jin qianjin q j qj"
+  },
+  {
+    "id": "youtube-home",
+    "appId": "youtube",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Start",
+      "zh": "到开头"
+    },
+    "description": {
+      "en": "Go to start",
+      "zh": "到开头"
+    },
+    "windows": "0",
+    "mac": "0",
+    "linux": "0",
+    "keywords": [
+      "start",
+      "开头"
+    ],
+    "pinyin": "dao kai tou daokaitou d k t dkt kai tou kaitou k t kt"
+  },
+  {
+    "id": "youtube-end",
+    "appId": "youtube",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "End",
+      "zh": "到结尾"
+    },
+    "description": {
+      "en": "Go to end",
+      "zh": "到结尾"
+    },
+    "windows": "End",
+    "mac": "End",
+    "linux": "End",
+    "keywords": [
+      "end",
+      "结尾"
+    ],
+    "pinyin": "dao jie wei daojiewei d j w djw jie wei jiewei j w jw"
+  },
+  {
+    "id": "youtube-seek-prev",
+    "appId": "youtube",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Seek back",
+      "zh": "后退5秒"
+    },
+    "description": {
+      "en": "Seek back 5s",
+      "zh": "后退 5 秒"
+    },
+    "windows": "←",
+    "mac": "←",
+    "linux": "←",
+    "keywords": [
+      "seek",
+      "back",
+      "后退"
+    ],
+    "pinyin": "hou tui 5 miao houtui5miao h t 5 m ht5m hou tui houtui h t ht"
+  },
+  {
+    "id": "youtube-seek-next",
+    "appId": "youtube",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Seek fwd",
+      "zh": "前进5秒"
+    },
+    "description": {
+      "en": "Seek fwd 5s",
+      "zh": "前进 5 秒"
+    },
+    "windows": "→",
+    "mac": "→",
+    "linux": "→",
+    "keywords": [
+      "seek",
+      "fwd",
+      "前进"
+    ],
+    "pinyin": "qian jin 5 miao qianjin5miao q j 5 m qj5m qian jin qianjin q j qj"
+  },
+  {
+    "id": "youtube-vol-up",
+    "appId": "youtube",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Volume up",
+      "zh": "音量+"
+    },
+    "description": {
+      "en": "Increase volume",
+      "zh": "增大音量"
+    },
+    "windows": "↑",
+    "mac": "↑",
+    "linux": "↑",
+    "keywords": [
+      "volume",
+      "up",
+      "音量"
+    ],
+    "pinyin": "yin liang + yinliang+ y l + yl+ yin liang yinliang y l yl"
+  },
+  {
+    "id": "youtube-vol-down",
+    "appId": "youtube",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Volume down",
+      "zh": "音量-"
+    },
+    "description": {
+      "en": "Decrease volume",
+      "zh": "减小音量"
+    },
+    "windows": "↓",
+    "mac": "↓",
+    "linux": "↓",
+    "keywords": [
+      "volume",
+      "down",
+      "音量"
+    ],
+    "pinyin": "yin liang - yinliang- y l - yl- yin liang yinliang y l yl"
+  },
+  {
+    "id": "youtube-pct",
+    "appId": "youtube",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Seek %",
+      "zh": "跳转百分比"
+    },
+    "description": {
+      "en": "Seek to percentage",
+      "zh": "跳转到百分比"
+    },
+    "windows": "0-9",
+    "mac": "0-9",
+    "linux": "0-9",
+    "keywords": [
+      "seek",
+      "percent",
+      "百分比"
+    ],
+    "pinyin": "tiao zhuan bai fen bi tiaozhuanbaifenbi t z b f b tzbfb bai fen bi baifenbi b f b bfb"
+  },
+  {
+    "id": "youtube-next",
+    "appId": "youtube",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Next",
+      "zh": "下一个"
+    },
+    "description": {
+      "en": "Next video",
+      "zh": "下一个视频"
+    },
+    "windows": "Shift + N",
+    "mac": "Shift + N",
+    "linux": "Shift + N",
+    "keywords": [
+      "next",
+      "video",
+      "下一个"
+    ],
+    "pinyin": "xia yi ge xiayige x y g xyg xia yi ge xiayige x y g xyg"
+  },
+  {
+    "id": "youtube-prev",
+    "appId": "youtube",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Prev",
+      "zh": "上一个"
+    },
+    "description": {
+      "en": "Previous video",
+      "zh": "上一个视频"
+    },
+    "windows": "Shift + P",
+    "mac": "Shift + P",
+    "linux": "Shift + P",
+    "keywords": [
+      "prev",
+      "video",
+      "上一个"
+    ],
+    "pinyin": "shang yi ge shangyige s y g syg shang yi ge shangyige s y g syg"
+  },
+  {
+    "id": "youtube-search",
+    "appId": "youtube",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Search",
+      "zh": "搜索"
+    },
+    "description": {
+      "en": "Search YouTube",
+      "zh": "搜索"
+    },
+    "windows": "/",
+    "mac": "/",
+    "linux": "/",
+    "keywords": [
+      "search",
+      "搜索"
+    ],
+    "pinyin": "sou suo sousuo s s ss sou suo sousuo s s ss"
+  },
+  {
+    "id": "youtube-help",
+    "appId": "youtube",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Help",
+      "zh": "帮助"
+    },
+    "description": {
+      "en": "Shortcuts help",
+      "zh": "快捷键帮助"
+    },
+    "windows": "?",
+    "mac": "?",
+    "linux": "?",
+    "keywords": [
+      "help",
+      "快捷键"
+    ],
+    "pinyin": "bang zhu bangzhu b z bz kuai jie jian kuaijiejian k j j kjj"
+  },
+  {
+    "id": "youtube-esc",
+    "appId": "youtube",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Exit",
+      "zh": "退出"
+    },
+    "description": {
+      "en": "Exit fullscreen",
+      "zh": "退出全屏"
+    },
+    "windows": "Esc",
+    "mac": "Esc",
+    "linux": "Esc",
+    "keywords": [
+      "exit",
+      "退出"
+    ],
+    "pinyin": "tui chu tuichu t c tc tui chu tuichu t c tc"
+  },
+  {
+    "id": "youtube-up-next",
+    "appId": "youtube",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Up next",
+      "zh": "稍后看"
+    },
+    "description": {
+      "en": "Open up next",
+      "zh": "打开稍后看"
+    },
+    "windows": "U",
+    "mac": "U",
+    "linux": "U",
+    "keywords": [
+      "up",
+      "next",
+      "稍后"
+    ],
+    "pinyin": "shao hou kan shaohoukan s h k shk shao hou shaohou s h sh"
+  },
+  {
+    "id": "youtube-sub-lang",
+    "appId": "youtube",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Caption lang",
+      "zh": "字幕语言"
+    },
+    "description": {
+      "en": "Cycle caption language",
+      "zh": "切换字幕语言"
+    },
+    "windows": "Shift + C",
+    "mac": "Shift + C",
+    "linux": "Shift + C",
+    "keywords": [
+      "caption",
+      "lang",
+      "字幕"
+    ],
+    "pinyin": "zi mu yu yan zimuyuyan z m y y zmyy zi mu zimu z m zm"
+  },
+  {
+    "id": "youtube-cc",
+    "appId": "youtube",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "CC",
+      "zh": "关闭字幕"
+    },
+    "description": {
+      "en": "Toggle CC",
+      "zh": "切换 CC"
+    },
+    "windows": "Shift + T",
+    "mac": "Shift + T",
+    "linux": "Shift + T",
+    "keywords": [
+      "cc",
+      "字幕"
+    ],
+    "pinyin": "guan bi zi mu guanbizimu g b z m gbzm zi mu zimu z m zm"
+  },
+  {
+    "id": "youtube-hd",
+    "appId": "youtube",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "HD",
+      "zh": "高清"
+    },
+    "description": {
+      "en": "Toggle HD",
+      "zh": "切换高清"
+    },
+    "windows": "Shift + H",
+    "mac": "Shift + H",
+    "linux": "Shift + H",
+    "keywords": [
+      "hd",
+      "高清"
+    ],
+    "pinyin": "gao qing gaoqing g q gq gao qing gaoqing g q gq"
+  },
+  {
+    "id": "youtube-360",
+    "appId": "youtube",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "360",
+      "zh": "全景"
+    },
+    "description": {
+      "en": "Toggle 360",
+      "zh": "切换全景"
+    },
+    "windows": "Shift + W",
+    "mac": "Shift + W",
+    "linux": "Shift + W",
+    "keywords": [
+      "360",
+      "全景"
+    ],
+    "pinyin": "quan jing quanjing q j qj quan jing quanjing q j qj"
+  },
+  {
+    "id": "youtube-mute-autoplay",
+    "appId": "youtube",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "Mute autoplay",
+      "zh": "静音自动播放"
+    },
+    "description": {
+      "en": "Toggle muted autoplay",
+      "zh": "切换静音自动播放"
+    },
+    "windows": "Shift + M",
+    "mac": "Shift + M",
+    "linux": "Shift + M",
+    "keywords": [
+      "mute",
+      "autoplay",
+      "自动"
+    ],
+    "pinyin": "jing yin zi dong bo fang jingyinzidongbofang j y z d b f jyzdbf zi dong zidong z d zd"
+  },
+  {
+    "id": "youtube-pip",
+    "appId": "youtube",
+    "type": "software",
+    "category": "video",
+    "name": {
+      "en": "PiP",
+      "zh": "画中画"
+    },
+    "description": {
+      "en": "Picture in picture",
+      "zh": "画中画"
+    },
+    "windows": "Shift + P? ",
+    "mac": "Shift + P? ",
+    "linux": "Shift + P? ",
+    "keywords": [
+      "pip",
+      "画中画"
+    ],
+    "pinyin": "hua zhong hua huazhonghua h z h hzh hua zhong hua huazhonghua h z h hzh"
+  }
+]

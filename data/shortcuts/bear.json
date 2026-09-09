@@ -1,0 +1,730 @@
+[
+  {
+    "id": "bear-new-note",
+    "appId": "bear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "New note",
+      "zh": "新建笔记"
+    },
+    "description": {
+      "en": "New note",
+      "zh": "新建笔记"
+    },
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
+    "linux": "Ctrl + N",
+    "keywords": [
+      "new",
+      "note",
+      "笔记"
+    ],
+    "pinyin": "xin jian bi ji xinjianbiji x j b j xjbj bi ji biji b j bj"
+  },
+  {
+    "id": "bear-new-window",
+    "appId": "bear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "New window",
+      "zh": "新窗口"
+    },
+    "description": {
+      "en": "New note window",
+      "zh": "新窗口笔记"
+    },
+    "windows": "Ctrl + Shift + N",
+    "mac": "⇧ ⌘ N",
+    "linux": "Ctrl + Shift + N",
+    "keywords": [
+      "window",
+      "窗口"
+    ],
+    "pinyin": "xin chuang kou xinchuangkou x c k xck chuang kou chuangkou c k ck"
+  },
+  {
+    "id": "bear-search",
+    "appId": "bear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Search",
+      "zh": "搜索"
+    },
+    "description": {
+      "en": "Search notes",
+      "zh": "搜索笔记"
+    },
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
+    "linux": "Ctrl + F",
+    "keywords": [
+      "search",
+      "搜索"
+    ],
+    "pinyin": "sou suo sousuo s s ss sou suo sousuo s s ss"
+  },
+  {
+    "id": "bear-command",
+    "appId": "bear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Command bar",
+      "zh": "命令栏"
+    },
+    "description": {
+      "en": "Open command bar",
+      "zh": "打开命令栏"
+    },
+    "windows": "Ctrl + /",
+    "mac": "⇧ ⌘ O",
+    "linux": "Ctrl + /",
+    "keywords": [
+      "command",
+      "命令"
+    ],
+    "pinyin": "ming ling lan minglinglan m l l mll ming ling mingling m l ml"
+  },
+  {
+    "id": "bear-link",
+    "appId": "bear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Insert link",
+      "zh": "插入链接"
+    },
+    "description": {
+      "en": "Insert link",
+      "zh": "插入链接"
+    },
+    "windows": "Ctrl + Shift + K",
+    "mac": "⇧ ⌘ K",
+    "linux": "Ctrl + Shift + K",
+    "keywords": [
+      "link",
+      "链接"
+    ],
+    "pinyin": "cha ru lian jie charulianjie c r l j crlj lian jie lianjie l j lj"
+  },
+  {
+    "id": "bear-image",
+    "appId": "bear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Insert image",
+      "zh": "插入图片"
+    },
+    "description": {
+      "en": "Insert image",
+      "zh": "插入图片"
+    },
+    "windows": "Ctrl + Shift + I",
+    "mac": "⇧ ⌘ I",
+    "linux": "Ctrl + Shift + I",
+    "keywords": [
+      "image",
+      "图片"
+    ],
+    "pinyin": "cha ru tu pian charutupian c r t p crtp tu pian tupian t p tp"
+  },
+  {
+    "id": "bear-bold",
+    "appId": "bear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Bold",
+      "zh": "加粗"
+    },
+    "description": {
+      "en": "Bold",
+      "zh": "加粗"
+    },
+    "windows": "Ctrl + B",
+    "mac": "⌘ B",
+    "linux": "Ctrl + B",
+    "keywords": [
+      "bold",
+      "加粗"
+    ],
+    "pinyin": "jia cu jiacu j c jc jia cu jiacu j c jc"
+  },
+  {
+    "id": "bear-italic",
+    "appId": "bear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Italic",
+      "zh": "斜体"
+    },
+    "description": {
+      "en": "Italic",
+      "zh": "斜体"
+    },
+    "windows": "Ctrl + I",
+    "mac": "⌘ I",
+    "linux": "Ctrl + I",
+    "keywords": [
+      "italic",
+      "斜体"
+    ],
+    "pinyin": "xie ti xieti x t xt xie ti xieti x t xt"
+  },
+  {
+    "id": "bear-strike",
+    "appId": "bear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Strikethrough",
+      "zh": "删除线"
+    },
+    "description": {
+      "en": "Strikethrough",
+      "zh": "删除线"
+    },
+    "windows": "Ctrl + T",
+    "mac": "⌘ T",
+    "linux": "Ctrl + T",
+    "keywords": [
+      "strike",
+      "删除线"
+    ],
+    "pinyin": "shan chu xian shanchuxian s c x scx shan chu xian shanchuxian s c x scx"
+  },
+  {
+    "id": "bear-code",
+    "appId": "bear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Code",
+      "zh": "代码"
+    },
+    "description": {
+      "en": "Inline code",
+      "zh": "行内代码"
+    },
+    "windows": "Ctrl + Shift + C",
+    "mac": "⇧ ⌘ C",
+    "linux": "Ctrl + Shift + C",
+    "keywords": [
+      "code",
+      "代码"
+    ],
+    "pinyin": "dai ma daima d m dm dai ma daima d m dm"
+  },
+  {
+    "id": "bear-highlight",
+    "appId": "bear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Highlight",
+      "zh": "高亮"
+    },
+    "description": {
+      "en": "Highlight",
+      "zh": "高亮"
+    },
+    "windows": "Ctrl + Shift + H",
+    "mac": "⇧ ⌘ H",
+    "linux": "Ctrl + Shift + H",
+    "keywords": [
+      "highlight",
+      "高亮"
+    ],
+    "pinyin": "gao liang gaoliang g l gl gao liang gaoliang g l gl"
+  },
+  {
+    "id": "bear-todo",
+    "appId": "bear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "To-do",
+      "zh": "待办"
+    },
+    "description": {
+      "en": "To-do list",
+      "zh": "待办列表"
+    },
+    "windows": "Ctrl + L",
+    "mac": "⌘ L",
+    "linux": "Ctrl + L",
+    "keywords": [
+      "todo",
+      "待办"
+    ],
+    "pinyin": "dai ban daiban d b db dai ban daiban d b db"
+  },
+  {
+    "id": "bear-bullet",
+    "appId": "bear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Bullet list",
+      "zh": "项目符号"
+    },
+    "description": {
+      "en": "Bullet list",
+      "zh": "项目符号"
+    },
+    "windows": "Ctrl + Shift + B",
+    "mac": "⇧ ⌘ B",
+    "linux": "Ctrl + Shift + B",
+    "keywords": [
+      "bullet",
+      "项目"
+    ],
+    "pinyin": "xiang mu fu hao xiangmufuhao x m f h xmfh xiang mu xiangmu x m xm"
+  },
+  {
+    "id": "bear-numbered",
+    "appId": "bear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Numbered list",
+      "zh": "编号列表"
+    },
+    "description": {
+      "en": "Numbered list",
+      "zh": "编号列表"
+    },
+    "windows": "Ctrl + Shift + V",
+    "mac": "⇧ ⌘ V",
+    "linux": "Ctrl + Shift + V",
+    "keywords": [
+      "numbered",
+      "编号"
+    ],
+    "pinyin": "bian hao lie biao bianhaoliebiao b h l b bhlb bian hao bianhao b h bh"
+  },
+  {
+    "id": "bear-h1",
+    "appId": "bear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Heading 1",
+      "zh": "标题1"
+    },
+    "description": {
+      "en": "Heading 1",
+      "zh": "标题1"
+    },
+    "windows": "Ctrl + 1",
+    "mac": "⌘ 1",
+    "linux": "Ctrl + 1",
+    "keywords": [
+      "h1",
+      "标题"
+    ],
+    "pinyin": "biao ti 1 biaoti1 b t 1 bt1 biao ti biaoti b t bt"
+  },
+  {
+    "id": "bear-h2",
+    "appId": "bear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Heading 2",
+      "zh": "标题2"
+    },
+    "description": {
+      "en": "Heading 2",
+      "zh": "标题2"
+    },
+    "windows": "Ctrl + 2",
+    "mac": "⌘ 2",
+    "linux": "Ctrl + 2",
+    "keywords": [
+      "h2",
+      "标题"
+    ],
+    "pinyin": "biao ti 2 biaoti2 b t 2 bt2 biao ti biaoti b t bt"
+  },
+  {
+    "id": "bear-h3",
+    "appId": "bear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Heading 3",
+      "zh": "标题3"
+    },
+    "description": {
+      "en": "Heading 3",
+      "zh": "标题3"
+    },
+    "windows": "Ctrl + 3",
+    "mac": "⌘ 3",
+    "linux": "Ctrl + 3",
+    "keywords": [
+      "h3",
+      "标题"
+    ],
+    "pinyin": "biao ti 3 biaoti3 b t 3 bt3 biao ti biaoti b t bt"
+  },
+  {
+    "id": "bear-quote",
+    "appId": "bear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Quote",
+      "zh": "引用"
+    },
+    "description": {
+      "en": "Blockquote",
+      "zh": "引用"
+    },
+    "windows": "Ctrl + >",
+    "mac": "⌘ >",
+    "linux": "Ctrl + >",
+    "keywords": [
+      "quote",
+      "引用"
+    ],
+    "pinyin": "yin yong yinyong y y yy yin yong yinyong y y yy"
+  },
+  {
+    "id": "bear-divider",
+    "appId": "bear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Divider",
+      "zh": "分隔线"
+    },
+    "description": {
+      "en": "Horizontal rule",
+      "zh": "分隔线"
+    },
+    "windows": "Ctrl + -",
+    "mac": "⌘ -",
+    "linux": "Ctrl + -",
+    "keywords": [
+      "divider",
+      "分隔"
+    ],
+    "pinyin": "fen ge xian fengexian f g x fgx fen ge fenge f g fg"
+  },
+  {
+    "id": "bear-tag",
+    "appId": "bear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Tag",
+      "zh": "标签"
+    },
+    "description": {
+      "en": "Insert #tag",
+      "zh": "插入标签"
+    },
+    "windows": "#",
+    "mac": "#",
+    "linux": "#",
+    "keywords": [
+      "tag",
+      "标签"
+    ],
+    "pinyin": "biao qian biaoqian b q bq biao qian biaoqian b q bq"
+  },
+  {
+    "id": "bear-pin",
+    "appId": "bear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Pin",
+      "zh": "置顶"
+    },
+    "description": {
+      "en": "Pin note",
+      "zh": "置顶笔记"
+    },
+    "windows": "Ctrl + Shift + P",
+    "mac": "⇧ ⌘ P",
+    "linux": "Ctrl + Shift + P",
+    "keywords": [
+      "pin",
+      "置顶"
+    ],
+    "pinyin": "zhi ding zhiding z d zd zhi ding zhiding z d zd"
+  },
+  {
+    "id": "bear-archive",
+    "appId": "bear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Archive",
+      "zh": "归档"
+    },
+    "description": {
+      "en": "Archive note",
+      "zh": "归档笔记"
+    },
+    "windows": "Ctrl + Shift + A",
+    "mac": "⇧ ⌘ A",
+    "linux": "Ctrl + Shift + A",
+    "keywords": [
+      "archive",
+      "归档"
+    ],
+    "pinyin": "gui dang guidang g d gd gui dang guidang g d gd"
+  },
+  {
+    "id": "bear-trash",
+    "appId": "bear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Trash",
+      "zh": "删除"
+    },
+    "description": {
+      "en": "Move to trash",
+      "zh": "移到废纸篓"
+    },
+    "windows": "Delete",
+    "mac": "⌫",
+    "linux": "Delete",
+    "keywords": [
+      "trash",
+      "删除"
+    ],
+    "pinyin": "shan chu shanchu s c sc shan chu shanchu s c sc"
+  },
+  {
+    "id": "bear-undo",
+    "appId": "bear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Undo",
+      "zh": "撤销"
+    },
+    "description": {
+      "en": "Undo",
+      "zh": "撤销"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "Ctrl + Z",
+    "keywords": [
+      "undo",
+      "撤销"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "bear-redo",
+    "appId": "bear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Redo",
+      "zh": "重做"
+    },
+    "description": {
+      "en": "Redo",
+      "zh": "重做"
+    },
+    "windows": "Ctrl + Y",
+    "mac": "⇧ ⌘ Z",
+    "linux": "Ctrl + Y",
+    "keywords": [
+      "redo",
+      "重做"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "bear-sidebar",
+    "appId": "bear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Sidebar",
+      "zh": "侧栏"
+    },
+    "description": {
+      "en": "Toggle sidebar",
+      "zh": "切换侧栏"
+    },
+    "windows": "Ctrl + \\",
+    "mac": "⌘ \\",
+    "linux": "Ctrl + \\",
+    "keywords": [
+      "sidebar",
+      "侧栏"
+    ],
+    "pinyin": "ce lan celan c l cl ce lan celan c l cl"
+  },
+  {
+    "id": "bear-next",
+    "appId": "bear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Next note",
+      "zh": "下一笔记"
+    },
+    "description": {
+      "en": "Next note",
+      "zh": "下一笔记"
+    },
+    "windows": "Ctrl + ]",
+    "mac": "⌘ ]",
+    "linux": "Ctrl + ]",
+    "keywords": [
+      "next",
+      "笔记"
+    ],
+    "pinyin": "xia yi bi ji xiayibiji x y b j xybj bi ji biji b j bj"
+  },
+  {
+    "id": "bear-prev",
+    "appId": "bear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Prev note",
+      "zh": "上一笔记"
+    },
+    "description": {
+      "en": "Previous note",
+      "zh": "上一笔记"
+    },
+    "windows": "Ctrl + [",
+    "mac": "⌘ [",
+    "linux": "Ctrl + [",
+    "keywords": [
+      "prev",
+      "笔记"
+    ],
+    "pinyin": "shang yi bi ji shangyibiji s y b j sybj bi ji biji b j bj"
+  },
+  {
+    "id": "bear-copy-link",
+    "appId": "bear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Copy link",
+      "zh": "复制链接"
+    },
+    "description": {
+      "en": "Copy note link",
+      "zh": "复制笔记链接"
+    },
+    "windows": "Ctrl + Shift + C",
+    "mac": "⇧ ⌘ C",
+    "linux": "Ctrl + Shift + C",
+    "keywords": [
+      "copy",
+      "link",
+      "链接"
+    ],
+    "pinyin": "fu zhi lian jie fuzhilianjie f z l j fzlj lian jie lianjie l j lj"
+  },
+  {
+    "id": "bear-export",
+    "appId": "bear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Export",
+      "zh": "导出"
+    },
+    "description": {
+      "en": "Export note",
+      "zh": "导出笔记"
+    },
+    "windows": "Ctrl + Shift + E",
+    "mac": "⇧ ⌘ E",
+    "linux": "Ctrl + Shift + E",
+    "keywords": [
+      "export",
+      "导出"
+    ],
+    "pinyin": "dao chu daochu d c dc dao chu daochu d c dc"
+  },
+  {
+    "id": "bear-theme",
+    "appId": "bear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Theme",
+      "zh": "主题"
+    },
+    "description": {
+      "en": "Cycle theme",
+      "zh": "切换主题"
+    },
+    "windows": "Ctrl + Shift + L",
+    "mac": "⇧ ⌘ L",
+    "linux": "Ctrl + Shift + L",
+    "keywords": [
+      "theme",
+      "主题"
+    ],
+    "pinyin": "zhu ti zhuti z t zt zhu ti zhuti z t zt"
+  },
+  {
+    "id": "bear-checkbox",
+    "appId": "bear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Toggle checkbox",
+      "zh": "勾选"
+    },
+    "description": {
+      "en": "Toggle checkbox",
+      "zh": "勾选框"
+    },
+    "windows": "Ctrl + Shift + T",
+    "mac": "⇧ ⌘ T",
+    "linux": "Ctrl + Shift + T",
+    "keywords": [
+      "checkbox",
+      "勾选"
+    ],
+    "pinyin": "gou xuan gouxuan g x gx gou xuan gouxuan g x gx"
+  },
+  {
+    "id": "bear-render",
+    "appId": "bear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Render",
+      "zh": "预览"
+    },
+    "description": {
+      "en": "Toggle preview",
+      "zh": "切换预览"
+    },
+    "windows": "Ctrl + E",
+    "mac": "⌘ E",
+    "linux": "Ctrl + E",
+    "keywords": [
+      "preview",
+      "预览"
+    ],
+    "pinyin": "yu lan yulan y l yl yu lan yulan y l yl"
+  }
+]

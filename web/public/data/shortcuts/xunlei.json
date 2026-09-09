@@ -1,1 +1,163 @@
-[{"id":"xunlei-new-task","appId":"xunlei","type":"software","category":"productivity","name":{"zh":"立即下载（新建任务面板）","en":"Download (New Task Panel)"},"description":{"zh":"在普通新建任务面板中确认下载","en":"Confirm download in the standard new-task panel"},"windows":"Enter","mac":"","linux":"","keywords":["新建任务","下载","new task","download"],"pinyin":"li ji xia zai （ xin jian ren wu mian ban ） lijixiazai（xinjianrenwumianban） l j x z （ x j r w m b ） ljxz（xjrwmb） xin jian ren wu   xia zai xinjianrenwu xiazai x j r w   x z xjrw xz"},{"id":"xunlei-new-task-bt","appId":"xunlei","type":"software","category":"productivity","name":{"zh":"立即下载（BT/编辑地址面板）","en":"Download (BT / Edit Address Panel)"},"description":{"zh":"在 BT 任务或编辑地址面板中确认下载","en":"Confirm download in the BT or edit-address panel"},"windows":"Ctrl + Enter","mac":"","linux":"","keywords":["BT","下载","bt","download"],"pinyin":"li ji xia zai （ b t / bian ji di zhi mian ban ） lijixiazai（bt/bianjidizhimianban） l j x z （ b t / b j d z m b ） ljxz（bt/bjdzmb） xia zai xiazai x z xz"},{"id":"xunlei-start","appId":"xunlei","type":"software","category":"productivity","name":{"zh":"开始下载","en":"Start Download"},"description":{"zh":"开始选中任务的下载","en":"Start downloading the selected task"},"windows":"Ctrl + D","mac":"","linux":"","keywords":["开始","下载","start","download"],"pinyin":"kai shi xia zai kaishixiazai k s x z ksxz kai shi   xia zai kaishi xiazai k s   x z ks xz"},{"id":"xunlei-pause","appId":"xunlei","type":"software","category":"productivity","name":{"zh":"暂停下载","en":"Pause Download"},"description":{"zh":"暂停选中任务的下载","en":"Pause the selected downloading task"},"windows":"Ctrl + S","mac":"","linux":"","keywords":["暂停","pause"],"pinyin":"zan ting xia zai zantingxiazai z t x z ztxz zan ting zanting z t zt"},{"id":"xunlei-open-file","appId":"xunlei","type":"software","category":"productivity","name":{"zh":"打开文件","en":"Open File"},"description":{"zh":"打开已完成或垃圾箱中任务的文件","en":"Open the file of a completed or trashed task"},"windows":"Ctrl + Enter","mac":"","linux":"","keywords":["打开文件","open file"],"pinyin":"da kai wen jian dakaiwenjian d k w j dkwj da kai wen jian dakaiwenjian d k w j dkwj"},{"id":"xunlei-open-folder","appId":"xunlei","type":"software","category":"productivity","name":{"zh":"打开文件夹","en":"Open Folder"},"description":{"zh":"打开选中任务所在的文件夹","en":"Open the folder containing the selected task"},"windows":"Ctrl + E","mac":"","linux":"","keywords":["打开文件夹","open folder"],"pinyin":"da kai wen jian jia dakaiwenjianjia d k w j j dkwjj da kai wen jian jia dakaiwenjianjia d k w j j dkwjj"},{"id":"xunlei-restore","appId":"xunlei","type":"software","category":"productivity","name":{"zh":"还原任务","en":"Restore Task"},"description":{"zh":"从垃圾箱还原选中的任务","en":"Restore a selected task from the trash"},"windows":"Ctrl + R","mac":"","linux":"","keywords":["还原","restore","trash"],"pinyin":"huan yuan ren wu huanyuanrenwu h y r w hyrw huan yuan huanyuan h y hy"}]
+[
+  {
+    "id": "xunlei-new-task",
+    "appId": "xunlei",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "立即下载（新建任务面板）",
+      "en": "Download (New Task Panel)"
+    },
+    "description": {
+      "zh": "在普通新建任务面板中确认下载",
+      "en": "Confirm download in the standard new-task panel"
+    },
+    "windows": "Enter",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "新建任务",
+      "下载",
+      "new task",
+      "download"
+    ],
+    "pinyin": "li ji xia zai （ xin jian ren wu mian ban ） lijixiazai（xinjianrenwumianban） l j x z （ x j r w m b ） ljxz（xjrwmb） xin jian ren wu   xia zai xinjianrenwu xiazai x j r w   x z xjrw xz"
+  },
+  {
+    "id": "xunlei-new-task-bt",
+    "appId": "xunlei",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "立即下载（BT/编辑地址面板）",
+      "en": "Download (BT / Edit Address Panel)"
+    },
+    "description": {
+      "zh": "在 BT 任务或编辑地址面板中确认下载",
+      "en": "Confirm download in the BT or edit-address panel"
+    },
+    "windows": "Ctrl + Enter",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "BT",
+      "下载",
+      "bt",
+      "download"
+    ],
+    "pinyin": "li ji xia zai （ b t / bian ji di zhi mian ban ） lijixiazai（bt/bianjidizhimianban） l j x z （ b t / b j d z m b ） ljxz（bt/bjdzmb） xia zai xiazai x z xz"
+  },
+  {
+    "id": "xunlei-start",
+    "appId": "xunlei",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "开始下载",
+      "en": "Start Download"
+    },
+    "description": {
+      "zh": "开始选中任务的下载",
+      "en": "Start downloading the selected task"
+    },
+    "windows": "Ctrl + D",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "开始",
+      "下载",
+      "start",
+      "download"
+    ],
+    "pinyin": "kai shi xia zai kaishixiazai k s x z ksxz kai shi   xia zai kaishi xiazai k s   x z ks xz"
+  },
+  {
+    "id": "xunlei-pause",
+    "appId": "xunlei",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "暂停下载",
+      "en": "Pause Download"
+    },
+    "description": {
+      "zh": "暂停选中任务的下载",
+      "en": "Pause the selected downloading task"
+    },
+    "windows": "Ctrl + S",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "暂停",
+      "pause"
+    ],
+    "pinyin": "zan ting xia zai zantingxiazai z t x z ztxz zan ting zanting z t zt"
+  },
+  {
+    "id": "xunlei-open-file",
+    "appId": "xunlei",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "打开文件",
+      "en": "Open File"
+    },
+    "description": {
+      "zh": "打开已完成或垃圾箱中任务的文件",
+      "en": "Open the file of a completed or trashed task"
+    },
+    "windows": "Ctrl + Enter",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "打开文件",
+      "open file"
+    ],
+    "pinyin": "da kai wen jian dakaiwenjian d k w j dkwj da kai wen jian dakaiwenjian d k w j dkwj"
+  },
+  {
+    "id": "xunlei-open-folder",
+    "appId": "xunlei",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "打开文件夹",
+      "en": "Open Folder"
+    },
+    "description": {
+      "zh": "打开选中任务所在的文件夹",
+      "en": "Open the folder containing the selected task"
+    },
+    "windows": "Ctrl + E",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "打开文件夹",
+      "open folder"
+    ],
+    "pinyin": "da kai wen jian jia dakaiwenjianjia d k w j j dkwjj da kai wen jian jia dakaiwenjianjia d k w j j dkwjj"
+  },
+  {
+    "id": "xunlei-restore",
+    "appId": "xunlei",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "还原任务",
+      "en": "Restore Task"
+    },
+    "description": {
+      "zh": "从垃圾箱还原选中的任务",
+      "en": "Restore a selected task from the trash"
+    },
+    "windows": "Ctrl + R",
+    "mac": "",
+    "linux": "",
+    "keywords": [
+      "还原",
+      "restore",
+      "trash"
+    ],
+    "pinyin": "huan yuan ren wu huanyuanrenwu h y r w hyrw huan yuan huanyuan h y hy"
+  }
+]

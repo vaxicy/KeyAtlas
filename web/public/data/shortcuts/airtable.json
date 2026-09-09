@@ -1,1 +1,765 @@
-[{"id":"airtable-undo","appId":"airtable","type":"software","category":"productivity","name":{"en":"Undo","zh":"撤销"},"description":{"en":"Undo action","zh":"撤销操作"},"windows":"Ctrl+Z","mac":"Cmd+Z","linux":"Ctrl+Z","keywords":["undo","撤销"],"pinyin":"che xiao chexiao c x cx che xiao chexiao c x cx"},{"id":"airtable-redo","appId":"airtable","type":"software","category":"productivity","name":{"en":"Redo","zh":"重做"},"description":{"en":"Redo action","zh":"重做操作"},"windows":"Ctrl+Y","mac":"Cmd+Y","linux":"Ctrl+Y","keywords":["redo","重做"],"pinyin":"zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"},{"id":"airtable-print","appId":"airtable","type":"software","category":"productivity","name":{"en":"Print","zh":"打印"},"description":{"en":"Print current view or record","zh":"打印当前视图或记录"},"windows":"Ctrl+P","mac":"Cmd+P","linux":"Ctrl+P","keywords":["print","打印"],"pinyin":"da yin dayin d y dy da yin dayin d y dy"},{"id":"airtable-open-table-switcher","appId":"airtable","type":"software","category":"productivity","name":{"en":"Open Table Switcher","zh":"打开表切换器"},"description":{"en":"Open table switcher in base","zh":"在 base 中打开表切换器"},"windows":"Ctrl+J","mac":"Cmd+J","linux":"Ctrl+J","keywords":["table","表","切换"],"pinyin":"da kai biao qie huan qi dakaibiaoqiehuanqi d k b q h q dkbqhq biao   qie huan biao qiehuan b   q h b qh"},{"id":"airtable-quick-base-switcher","appId":"airtable","type":"software","category":"productivity","name":{"en":"Quick Base Switcher","zh":"快速 base 切换"},"description":{"en":"Open quick base switcher","zh":"打开快速 base 切换器"},"windows":"Ctrl+K","mac":"Cmd+K","linux":"Ctrl+K","keywords":["base","切换"],"pinyin":"kuai su   b a s e   qie huan kuaisu base qiehuan k s   b a s e   q h ks base qh qie huan qiehuan q h qh"},{"id":"airtable-open-view-switcher","appId":"airtable","type":"software","category":"productivity","name":{"en":"Open View Switcher","zh":"打开视图切换器"},"description":{"en":"Open view switcher in base","zh":"在 base 中打开视图切换器"},"windows":"Ctrl+Shift+K","mac":"Cmd+Shift+K","linux":"Ctrl+Shift+K","keywords":["view","视图","切换"],"pinyin":"da kai shi tu qie huan qi dakaishituqiehuanqi d k s t q h q dkstqhq shi tu   qie huan shitu qiehuan s t   q h st qh"},{"id":"airtable-open-filter-menu","appId":"airtable","type":"software","category":"productivity","name":{"en":"Open Filter Menu","zh":"打开筛选菜单"},"description":{"en":"Open filter menu (Enter = new filter)","zh":"打开筛选菜单（回车=新建筛选）"},"windows":"Ctrl+Shift+F","mac":"Cmd+Shift+F","linux":"Ctrl+Shift+F","keywords":["filter","筛选"],"pinyin":"da kai shai xuan cai dan dakaishaixuancaidan d k s x c d dksxcd shai xuan shaixuan s x sx"},{"id":"airtable-open-group-menu","appId":"airtable","type":"software","category":"productivity","name":{"en":"Open Group Menu","zh":"打开分组菜单"},"description":{"en":"Open grouped records menu","zh":"打开分组记录菜单"},"windows":"Ctrl+Shift+D","mac":"Cmd+Shift+D","linux":"Ctrl+Shift+D","keywords":["group","分组"],"pinyin":"da kai fen zu cai dan dakaifenzucaidan d k f z c d dkfzcd fen zu fenzu f z fz"},{"id":"airtable-open-sort-menu","appId":"airtable","type":"software","category":"productivity","name":{"en":"Open Sort Menu","zh":"打开排序菜单"},"description":{"en":"Open sort menu","zh":"打开排序菜单"},"windows":"Ctrl+Shift+S","mac":"Cmd+Shift+S","linux":"Ctrl+Shift+S","keywords":["sort","排序"],"pinyin":"da kai pai xu cai dan dakaipaixucaidan d k p x c d dkpxcd pai xu paixu p x px"},{"id":"airtable-toggle-extensions","appId":"airtable","type":"software","category":"productivity","name":{"en":"Toggle Extensions","zh":"切换扩展"},"description":{"en":"Toggle extensions","zh":"切换扩展"},"windows":"Ctrl+Shift","mac":"Cmd+Shift","linux":"Ctrl+Shift","keywords":["extensions","扩展"],"pinyin":"qie huan kuo zhan qiehuankuozhan q h k z qhkz kuo zhan kuozhan k z kz"},{"id":"airtable-find","appId":"airtable","type":"software","category":"productivity","name":{"en":"Find","zh":"查找"},"description":{"en":"Open find bar","zh":"打开查找栏"},"windows":"Ctrl+F","mac":"Cmd+F","linux":"Ctrl+F","keywords":["find","查找"],"pinyin":"cha zhao chazhao c z cz cha zhao chazhao c z cz"},{"id":"airtable-set-date-to-now","appId":"airtable","type":"software","category":"productivity","name":{"en":"Set Date to Now","zh":"日期设为现在"},"description":{"en":"Set date/datetime field to now","zh":"将日期字段设为当前时间"},"windows":"Ctrl+;","mac":"Cmd+;","linux":"Ctrl+;","keywords":["date","日期","现在"],"pinyin":"ri qi she wei xian zai riqisheweixianzai r q s w x z rqswxz ri qi   xian zai riqi xianzai r q   x z rq xz"},{"id":"airtable-scroll-up","appId":"airtable","type":"software","category":"productivity","name":{"en":"Scroll Up","zh":"向上滚动"},"description":{"en":"Scroll one screen up","zh":"向上滚动一屏"},"windows":"Fn+Up","mac":"Fn+Up","linux":"Fn+Up","keywords":["scroll","滚动"],"pinyin":"xiang shang gun dong xiangshanggundong x s g d xsgd gun dong gundong g d gd"},{"id":"airtable-scroll-down","appId":"airtable","type":"software","category":"productivity","name":{"en":"Scroll Down","zh":"向下滚动"},"description":{"en":"Scroll one screen down","zh":"向下滚动一屏"},"windows":"Fn+Down","mac":"Fn+Down","linux":"Fn+Down","keywords":["scroll","滚动"],"pinyin":"xiang xia gun dong xiangxiagundong x x g d xxgd gun dong gundong g d gd"},{"id":"airtable-jump-to-edge","appId":"airtable","type":"software","category":"productivity","name":{"en":"Jump to Edge","zh":"跳到边缘"},"description":{"en":"Jump to edge of table","zh":"跳到表格边缘"},"windows":"Ctrl+Left","mac":"Cmd+Left","linux":"Ctrl+Left","keywords":["jump","跳转","边缘"],"pinyin":"tiao dao bian yuan tiaodaobianyuan t d b y tdby tiao zhuan   bian yuan tiaozhuan bianyuan t z   b y tz by"},{"id":"airtable-jump-to-edge-select","appId":"airtable","type":"software","category":"productivity","name":{"en":"Jump to Edge + Select","zh":"跳到边缘并选择"},"description":{"en":"Jump to edge and select cells","zh":"跳到边缘并选择单元格"},"windows":"Ctrl+Shift+Left","mac":"Cmd+Shift+Left","linux":"Ctrl+Shift+Left","keywords":["jump","select","选择"],"pinyin":"tiao dao bian yuan bing xuan ze tiaodaobianyuanbingxuanze t d b y b x z tdbybxz xuan ze xuanze x z xz"},{"id":"airtable-expand-record","appId":"airtable","type":"software","category":"productivity","name":{"en":"Expand Record","zh":"展开记录"},"description":{"en":"Expand active record","zh":"展开活动记录"},"windows":"Space","mac":"Space","linux":"Space","keywords":["expand","展开","记录"],"pinyin":"zhan kai ji lu zhankaijilu z k j l zkjl zhan kai   ji lu zhankai jilu z k   j l zk jl"},{"id":"airtable-expand-cell","appId":"airtable","type":"software","category":"productivity","name":{"en":"Expand Cell","zh":"展开单元格"},"description":{"en":"Expand active cell","zh":"展开活动单元格"},"windows":"Shift+Space","mac":"Shift+Space","linux":"Shift+Space","keywords":["expand","展开","单元格"],"pinyin":"zhan kai dan yuan ge zhankaidanyuange z k d y g zkdyg zhan kai   dan yuan ge zhankai danyuange z k   d y g zk dyg"},{"id":"airtable-select-range","appId":"airtable","type":"software","category":"productivity","name":{"en":"Select Range","zh":"选择范围"},"description":{"en":"Select range of cells","zh":"选择单元格范围"},"windows":"Shift+Left","mac":"Shift+Left","linux":"Shift+Left","keywords":["select","选择"],"pinyin":"xuan ze fan wei xuanzefanwei x z f w xzfw xuan ze xuanze x z xz"},{"id":"airtable-select-non-adjacent","appId":"airtable","type":"software","category":"productivity","name":{"en":"Select Non-adjacent","zh":"选择非相邻"},"description":{"en":"Select non-adjacent fields","zh":"选择非相邻字段"},"windows":"Ctrl+Click","mac":"Cmd+Click","linux":"Ctrl+Click","keywords":["select","选择"],"pinyin":"xuan ze fei xiang lin xuanzefeixianglin x z f x l xzfxl xuan ze xuanze x z xz"},{"id":"airtable-select-all-occurrences","appId":"airtable","type":"software","category":"productivity","name":{"en":"Select All Occurrences","zh":"选择所有出现"},"description":{"en":"Select all occurrences of text","zh":"选择文本所有出现"},"windows":"Ctrl+D","mac":"Cmd+D","linux":"Ctrl+D","keywords":["select all","全选"],"pinyin":"xuan ze suo you chu xian xuanzesuoyouchuxian x z s y c x xzsycx quan xuan quanxuan q x qx"},{"id":"airtable-copy-cell","appId":"airtable","type":"software","category":"productivity","name":{"en":"Copy Cell","zh":"复制单元格"},"description":{"en":"Copy cell or range","zh":"复制单元格或范围"},"windows":"Ctrl+C","mac":"Cmd+C","linux":"Ctrl+C","keywords":["copy","复制"],"pinyin":"fu zhi dan yuan ge fuzhidanyuange f z d y g fzdyg fu zhi fuzhi f z fz"},{"id":"airtable-cut-cell","appId":"airtable","type":"software","category":"productivity","name":{"en":"Cut Cell","zh":"剪切单元格"},"description":{"en":"Cut cell or range","zh":"剪切单元格或范围"},"windows":"Ctrl+X","mac":"Cmd+X","linux":"Ctrl+X","keywords":["cut","剪切"],"pinyin":"jian qie dan yuan ge jianqiedanyuange j q d y g jqdyg jian qie jianqie j q jq"},{"id":"airtable-paste-cell","appId":"airtable","type":"software","category":"productivity","name":{"en":"Paste Cell","zh":"粘贴单元格"},"description":{"en":"Paste cell","zh":"粘贴单元格"},"windows":"Ctrl+V","mac":"Cmd+V","linux":"Ctrl+V","keywords":["paste","粘贴"],"pinyin":"nian tie dan yuan ge niantiedanyuange n t d y g ntdyg nian tie niantie n t nt"},{"id":"airtable-edit-cell","appId":"airtable","type":"software","category":"productivity","name":{"en":"Edit Cell","zh":"编辑单元格"},"description":{"en":"Edit selected cell","zh":"编辑所选单元格"},"windows":"Enter","mac":"Enter","linux":"Enter","keywords":["edit","编辑"],"pinyin":"bian ji dan yuan ge bianjidanyuange b j d y g bjdyg bian ji bianji b j bj"},{"id":"airtable-insert-record-below","appId":"airtable","type":"software","category":"productivity","name":{"en":"Insert Record Below","zh":"下方插入记录"},"description":{"en":"Insert record below","zh":"在下方插入记录"},"windows":"Shift+Enter","mac":"Shift+Enter","linux":"Shift+Enter","keywords":["insert","插入","记录"],"pinyin":"xia fang cha ru ji lu xiafangcharujilu x f c r j l xfcrjl cha ru   ji lu charu jilu c r   j l cr jl"},{"id":"airtable-insert-record-at-end","appId":"airtable","type":"software","category":"productivity","name":{"en":"Insert Record at End","zh":"末尾插入记录"},"description":{"en":"Insert record at end of view","zh":"在视图末尾插入记录"},"windows":"Ctrl+Shift+Enter","mac":"Cmd+Shift+Enter","linux":"Ctrl+Shift+Enter","keywords":["insert","插入","记录"],"pinyin":"mo wei cha ru ji lu moweicharujilu m w c r j l mwcrjl cha ru   ji lu charu jilu c r   j l cr jl"},{"id":"airtable-duplicate-record","appId":"airtable","type":"software","category":"productivity","name":{"en":"Duplicate Record","zh":"复制记录"},"description":{"en":"Duplicate record by dragging","zh":"拖动复制记录"},"windows":"Option+Drag","mac":"Alt+Drag","linux":"Alt+Drag","keywords":["duplicate","复制"],"pinyin":"fu zhi ji lu fuzhijilu f z j l fzjl fu zhi fuzhi f z fz"},{"id":"airtable-move-record-up-down","appId":"airtable","type":"software","category":"productivity","name":{"en":"Move Record Up/Down","zh":"上下移动记录"},"description":{"en":"Manually move records","zh":"手动上下移动记录"},"windows":"Option+Up","mac":"Alt+Up","linux":"Alt+Up","keywords":["move","移动","记录"],"pinyin":"shang xia yi dong ji lu shangxiayidongjilu s x y d j l sxydjl yi dong   ji lu yidong jilu y d   j l yd jl"},{"id":"airtable-gallery-scroll-edge","appId":"airtable","type":"software","category":"productivity","name":{"en":"Gallery Scroll Edge","zh":"画廊滚动边缘"},"description":{"en":"Scroll to edge of gallery","zh":"滚动到画廊边缘"},"windows":"Ctrl+Up","mac":"Cmd+Up","linux":"Ctrl+Up","keywords":["gallery","画廊","滚动"],"pinyin":"hua lang gun dong bian yuan hualanggundongbianyuan h l g d b y hlgdby hua lang   gun dong hualang gundong h l   g d hl gd"},{"id":"airtable-kanban-scroll-edge","appId":"airtable","type":"software","category":"productivity","name":{"en":"Kanban Scroll Edge","zh":"看板滚动边缘"},"description":{"en":"Scroll board to left/right edge","zh":"看板滚动到左/右边缘"},"windows":"Ctrl+Left","mac":"Cmd+Left","linux":"Ctrl+Left","keywords":["kanban","看板","滚动"],"pinyin":"kan ban gun dong bian yuan kanbangundongbianyuan k b g d b y kbgdby kan ban   gun dong kanban gundong k b   g d kb gd"},{"id":"airtable-gantt-delete-records","appId":"airtable","type":"software","category":"productivity","name":{"en":"Gantt Delete Records","zh":"甘特删除记录"},"description":{"en":"Delete selected records (Gantt)","zh":"删除所选记录（甘特图）"},"windows":"Ctrl+Delete","mac":"Cmd+Delete","linux":"Ctrl+Delete","keywords":["gantt","甘特","删除"],"pinyin":"gan te shan chu ji lu ganteshanchujilu g t s c j l gtscjl gan te   shan chu gante shanchu g t   s c gt sc"},{"id":"airtable-prev-next-record","appId":"airtable","type":"software","category":"productivity","name":{"en":"Prev/Next Record","zh":"上/下一条记录"},"description":{"en":"Move to previous/next record","zh":"移动到上/下一条记录"},"windows":"Ctrl+Shift+<","mac":"Cmd+Shift+<","linux":"Ctrl+Shift+<","keywords":["record","记录","导航"],"pinyin":"shang / xia yi tiao ji lu shang/xiayitiaojilu s / x y t j l s/xytjl ji lu   dao hang jilu daohang j l   d h jl dh"},{"id":"airtable-close-expanded-record","appId":"airtable","type":"software","category":"productivity","name":{"en":"Close Expanded Record","zh":"关闭展开记录"},"description":{"en":"Close expanded record","zh":"关闭展开的记录"},"windows":"Esc","mac":"Esc","linux":"Esc","keywords":["close","关闭","记录"],"pinyin":"guan bi zhan kai ji lu guanbizhankaijilu g b z k j l gbzkjl guan bi   ji lu guanbi jilu g b   j l gb jl"}]
+[
+  {
+    "id": "airtable-undo",
+    "appId": "airtable",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Undo",
+      "zh": "撤销"
+    },
+    "description": {
+      "en": "Undo action",
+      "zh": "撤销操作"
+    },
+    "windows": "Ctrl+Z",
+    "mac": "Cmd+Z",
+    "linux": "Ctrl+Z",
+    "keywords": [
+      "undo",
+      "撤销"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "airtable-redo",
+    "appId": "airtable",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Redo",
+      "zh": "重做"
+    },
+    "description": {
+      "en": "Redo action",
+      "zh": "重做操作"
+    },
+    "windows": "Ctrl+Y",
+    "mac": "Cmd+Y",
+    "linux": "Ctrl+Y",
+    "keywords": [
+      "redo",
+      "重做"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "airtable-print",
+    "appId": "airtable",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Print",
+      "zh": "打印"
+    },
+    "description": {
+      "en": "Print current view or record",
+      "zh": "打印当前视图或记录"
+    },
+    "windows": "Ctrl+P",
+    "mac": "Cmd+P",
+    "linux": "Ctrl+P",
+    "keywords": [
+      "print",
+      "打印"
+    ],
+    "pinyin": "da yin dayin d y dy da yin dayin d y dy"
+  },
+  {
+    "id": "airtable-open-table-switcher",
+    "appId": "airtable",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Open Table Switcher",
+      "zh": "打开表切换器"
+    },
+    "description": {
+      "en": "Open table switcher in base",
+      "zh": "在 base 中打开表切换器"
+    },
+    "windows": "Ctrl+J",
+    "mac": "Cmd+J",
+    "linux": "Ctrl+J",
+    "keywords": [
+      "table",
+      "表",
+      "切换"
+    ],
+    "pinyin": "da kai biao qie huan qi dakaibiaoqiehuanqi d k b q h q dkbqhq biao   qie huan biao qiehuan b   q h b qh"
+  },
+  {
+    "id": "airtable-quick-base-switcher",
+    "appId": "airtable",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Quick Base Switcher",
+      "zh": "快速 base 切换"
+    },
+    "description": {
+      "en": "Open quick base switcher",
+      "zh": "打开快速 base 切换器"
+    },
+    "windows": "Ctrl+K",
+    "mac": "Cmd+K",
+    "linux": "Ctrl+K",
+    "keywords": [
+      "base",
+      "切换"
+    ],
+    "pinyin": "kuai su   b a s e   qie huan kuaisu base qiehuan k s   b a s e   q h ks base qh qie huan qiehuan q h qh"
+  },
+  {
+    "id": "airtable-open-view-switcher",
+    "appId": "airtable",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Open View Switcher",
+      "zh": "打开视图切换器"
+    },
+    "description": {
+      "en": "Open view switcher in base",
+      "zh": "在 base 中打开视图切换器"
+    },
+    "windows": "Ctrl+Shift+K",
+    "mac": "Cmd+Shift+K",
+    "linux": "Ctrl+Shift+K",
+    "keywords": [
+      "view",
+      "视图",
+      "切换"
+    ],
+    "pinyin": "da kai shi tu qie huan qi dakaishituqiehuanqi d k s t q h q dkstqhq shi tu   qie huan shitu qiehuan s t   q h st qh"
+  },
+  {
+    "id": "airtable-open-filter-menu",
+    "appId": "airtable",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Open Filter Menu",
+      "zh": "打开筛选菜单"
+    },
+    "description": {
+      "en": "Open filter menu (Enter = new filter)",
+      "zh": "打开筛选菜单（回车=新建筛选）"
+    },
+    "windows": "Ctrl+Shift+F",
+    "mac": "Cmd+Shift+F",
+    "linux": "Ctrl+Shift+F",
+    "keywords": [
+      "filter",
+      "筛选"
+    ],
+    "pinyin": "da kai shai xuan cai dan dakaishaixuancaidan d k s x c d dksxcd shai xuan shaixuan s x sx"
+  },
+  {
+    "id": "airtable-open-group-menu",
+    "appId": "airtable",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Open Group Menu",
+      "zh": "打开分组菜单"
+    },
+    "description": {
+      "en": "Open grouped records menu",
+      "zh": "打开分组记录菜单"
+    },
+    "windows": "Ctrl+Shift+D",
+    "mac": "Cmd+Shift+D",
+    "linux": "Ctrl+Shift+D",
+    "keywords": [
+      "group",
+      "分组"
+    ],
+    "pinyin": "da kai fen zu cai dan dakaifenzucaidan d k f z c d dkfzcd fen zu fenzu f z fz"
+  },
+  {
+    "id": "airtable-open-sort-menu",
+    "appId": "airtable",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Open Sort Menu",
+      "zh": "打开排序菜单"
+    },
+    "description": {
+      "en": "Open sort menu",
+      "zh": "打开排序菜单"
+    },
+    "windows": "Ctrl+Shift+S",
+    "mac": "Cmd+Shift+S",
+    "linux": "Ctrl+Shift+S",
+    "keywords": [
+      "sort",
+      "排序"
+    ],
+    "pinyin": "da kai pai xu cai dan dakaipaixucaidan d k p x c d dkpxcd pai xu paixu p x px"
+  },
+  {
+    "id": "airtable-toggle-extensions",
+    "appId": "airtable",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Toggle Extensions",
+      "zh": "切换扩展"
+    },
+    "description": {
+      "en": "Toggle extensions",
+      "zh": "切换扩展"
+    },
+    "windows": "Ctrl+Shift",
+    "mac": "Cmd+Shift",
+    "linux": "Ctrl+Shift",
+    "keywords": [
+      "extensions",
+      "扩展"
+    ],
+    "pinyin": "qie huan kuo zhan qiehuankuozhan q h k z qhkz kuo zhan kuozhan k z kz"
+  },
+  {
+    "id": "airtable-find",
+    "appId": "airtable",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Find",
+      "zh": "查找"
+    },
+    "description": {
+      "en": "Open find bar",
+      "zh": "打开查找栏"
+    },
+    "windows": "Ctrl+F",
+    "mac": "Cmd+F",
+    "linux": "Ctrl+F",
+    "keywords": [
+      "find",
+      "查找"
+    ],
+    "pinyin": "cha zhao chazhao c z cz cha zhao chazhao c z cz"
+  },
+  {
+    "id": "airtable-set-date-to-now",
+    "appId": "airtable",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Set Date to Now",
+      "zh": "日期设为现在"
+    },
+    "description": {
+      "en": "Set date/datetime field to now",
+      "zh": "将日期字段设为当前时间"
+    },
+    "windows": "Ctrl+;",
+    "mac": "Cmd+;",
+    "linux": "Ctrl+;",
+    "keywords": [
+      "date",
+      "日期",
+      "现在"
+    ],
+    "pinyin": "ri qi she wei xian zai riqisheweixianzai r q s w x z rqswxz ri qi   xian zai riqi xianzai r q   x z rq xz"
+  },
+  {
+    "id": "airtable-scroll-up",
+    "appId": "airtable",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Scroll Up",
+      "zh": "向上滚动"
+    },
+    "description": {
+      "en": "Scroll one screen up",
+      "zh": "向上滚动一屏"
+    },
+    "windows": "Fn+Up",
+    "mac": "Fn+Up",
+    "linux": "Fn+Up",
+    "keywords": [
+      "scroll",
+      "滚动"
+    ],
+    "pinyin": "xiang shang gun dong xiangshanggundong x s g d xsgd gun dong gundong g d gd"
+  },
+  {
+    "id": "airtable-scroll-down",
+    "appId": "airtable",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Scroll Down",
+      "zh": "向下滚动"
+    },
+    "description": {
+      "en": "Scroll one screen down",
+      "zh": "向下滚动一屏"
+    },
+    "windows": "Fn+Down",
+    "mac": "Fn+Down",
+    "linux": "Fn+Down",
+    "keywords": [
+      "scroll",
+      "滚动"
+    ],
+    "pinyin": "xiang xia gun dong xiangxiagundong x x g d xxgd gun dong gundong g d gd"
+  },
+  {
+    "id": "airtable-jump-to-edge",
+    "appId": "airtable",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Jump to Edge",
+      "zh": "跳到边缘"
+    },
+    "description": {
+      "en": "Jump to edge of table",
+      "zh": "跳到表格边缘"
+    },
+    "windows": "Ctrl+Left",
+    "mac": "Cmd+Left",
+    "linux": "Ctrl+Left",
+    "keywords": [
+      "jump",
+      "跳转",
+      "边缘"
+    ],
+    "pinyin": "tiao dao bian yuan tiaodaobianyuan t d b y tdby tiao zhuan   bian yuan tiaozhuan bianyuan t z   b y tz by"
+  },
+  {
+    "id": "airtable-jump-to-edge-select",
+    "appId": "airtable",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Jump to Edge + Select",
+      "zh": "跳到边缘并选择"
+    },
+    "description": {
+      "en": "Jump to edge and select cells",
+      "zh": "跳到边缘并选择单元格"
+    },
+    "windows": "Ctrl+Shift+Left",
+    "mac": "Cmd+Shift+Left",
+    "linux": "Ctrl+Shift+Left",
+    "keywords": [
+      "jump",
+      "select",
+      "选择"
+    ],
+    "pinyin": "tiao dao bian yuan bing xuan ze tiaodaobianyuanbingxuanze t d b y b x z tdbybxz xuan ze xuanze x z xz"
+  },
+  {
+    "id": "airtable-expand-record",
+    "appId": "airtable",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Expand Record",
+      "zh": "展开记录"
+    },
+    "description": {
+      "en": "Expand active record",
+      "zh": "展开活动记录"
+    },
+    "windows": "Space",
+    "mac": "Space",
+    "linux": "Space",
+    "keywords": [
+      "expand",
+      "展开",
+      "记录"
+    ],
+    "pinyin": "zhan kai ji lu zhankaijilu z k j l zkjl zhan kai   ji lu zhankai jilu z k   j l zk jl"
+  },
+  {
+    "id": "airtable-expand-cell",
+    "appId": "airtable",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Expand Cell",
+      "zh": "展开单元格"
+    },
+    "description": {
+      "en": "Expand active cell",
+      "zh": "展开活动单元格"
+    },
+    "windows": "Shift+Space",
+    "mac": "Shift+Space",
+    "linux": "Shift+Space",
+    "keywords": [
+      "expand",
+      "展开",
+      "单元格"
+    ],
+    "pinyin": "zhan kai dan yuan ge zhankaidanyuange z k d y g zkdyg zhan kai   dan yuan ge zhankai danyuange z k   d y g zk dyg"
+  },
+  {
+    "id": "airtable-select-range",
+    "appId": "airtable",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Select Range",
+      "zh": "选择范围"
+    },
+    "description": {
+      "en": "Select range of cells",
+      "zh": "选择单元格范围"
+    },
+    "windows": "Shift+Left",
+    "mac": "Shift+Left",
+    "linux": "Shift+Left",
+    "keywords": [
+      "select",
+      "选择"
+    ],
+    "pinyin": "xuan ze fan wei xuanzefanwei x z f w xzfw xuan ze xuanze x z xz"
+  },
+  {
+    "id": "airtable-select-non-adjacent",
+    "appId": "airtable",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Select Non-adjacent",
+      "zh": "选择非相邻"
+    },
+    "description": {
+      "en": "Select non-adjacent fields",
+      "zh": "选择非相邻字段"
+    },
+    "windows": "Ctrl+Click",
+    "mac": "Cmd+Click",
+    "linux": "Ctrl+Click",
+    "keywords": [
+      "select",
+      "选择"
+    ],
+    "pinyin": "xuan ze fei xiang lin xuanzefeixianglin x z f x l xzfxl xuan ze xuanze x z xz"
+  },
+  {
+    "id": "airtable-select-all-occurrences",
+    "appId": "airtable",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Select All Occurrences",
+      "zh": "选择所有出现"
+    },
+    "description": {
+      "en": "Select all occurrences of text",
+      "zh": "选择文本所有出现"
+    },
+    "windows": "Ctrl+D",
+    "mac": "Cmd+D",
+    "linux": "Ctrl+D",
+    "keywords": [
+      "select all",
+      "全选"
+    ],
+    "pinyin": "xuan ze suo you chu xian xuanzesuoyouchuxian x z s y c x xzsycx quan xuan quanxuan q x qx"
+  },
+  {
+    "id": "airtable-copy-cell",
+    "appId": "airtable",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Copy Cell",
+      "zh": "复制单元格"
+    },
+    "description": {
+      "en": "Copy cell or range",
+      "zh": "复制单元格或范围"
+    },
+    "windows": "Ctrl+C",
+    "mac": "Cmd+C",
+    "linux": "Ctrl+C",
+    "keywords": [
+      "copy",
+      "复制"
+    ],
+    "pinyin": "fu zhi dan yuan ge fuzhidanyuange f z d y g fzdyg fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "airtable-cut-cell",
+    "appId": "airtable",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Cut Cell",
+      "zh": "剪切单元格"
+    },
+    "description": {
+      "en": "Cut cell or range",
+      "zh": "剪切单元格或范围"
+    },
+    "windows": "Ctrl+X",
+    "mac": "Cmd+X",
+    "linux": "Ctrl+X",
+    "keywords": [
+      "cut",
+      "剪切"
+    ],
+    "pinyin": "jian qie dan yuan ge jianqiedanyuange j q d y g jqdyg jian qie jianqie j q jq"
+  },
+  {
+    "id": "airtable-paste-cell",
+    "appId": "airtable",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Paste Cell",
+      "zh": "粘贴单元格"
+    },
+    "description": {
+      "en": "Paste cell",
+      "zh": "粘贴单元格"
+    },
+    "windows": "Ctrl+V",
+    "mac": "Cmd+V",
+    "linux": "Ctrl+V",
+    "keywords": [
+      "paste",
+      "粘贴"
+    ],
+    "pinyin": "nian tie dan yuan ge niantiedanyuange n t d y g ntdyg nian tie niantie n t nt"
+  },
+  {
+    "id": "airtable-edit-cell",
+    "appId": "airtable",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Edit Cell",
+      "zh": "编辑单元格"
+    },
+    "description": {
+      "en": "Edit selected cell",
+      "zh": "编辑所选单元格"
+    },
+    "windows": "Enter",
+    "mac": "Enter",
+    "linux": "Enter",
+    "keywords": [
+      "edit",
+      "编辑"
+    ],
+    "pinyin": "bian ji dan yuan ge bianjidanyuange b j d y g bjdyg bian ji bianji b j bj"
+  },
+  {
+    "id": "airtable-insert-record-below",
+    "appId": "airtable",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Insert Record Below",
+      "zh": "下方插入记录"
+    },
+    "description": {
+      "en": "Insert record below",
+      "zh": "在下方插入记录"
+    },
+    "windows": "Shift+Enter",
+    "mac": "Shift+Enter",
+    "linux": "Shift+Enter",
+    "keywords": [
+      "insert",
+      "插入",
+      "记录"
+    ],
+    "pinyin": "xia fang cha ru ji lu xiafangcharujilu x f c r j l xfcrjl cha ru   ji lu charu jilu c r   j l cr jl"
+  },
+  {
+    "id": "airtable-insert-record-at-end",
+    "appId": "airtable",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Insert Record at End",
+      "zh": "末尾插入记录"
+    },
+    "description": {
+      "en": "Insert record at end of view",
+      "zh": "在视图末尾插入记录"
+    },
+    "windows": "Ctrl+Shift+Enter",
+    "mac": "Cmd+Shift+Enter",
+    "linux": "Ctrl+Shift+Enter",
+    "keywords": [
+      "insert",
+      "插入",
+      "记录"
+    ],
+    "pinyin": "mo wei cha ru ji lu moweicharujilu m w c r j l mwcrjl cha ru   ji lu charu jilu c r   j l cr jl"
+  },
+  {
+    "id": "airtable-duplicate-record",
+    "appId": "airtable",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Duplicate Record",
+      "zh": "复制记录"
+    },
+    "description": {
+      "en": "Duplicate record by dragging",
+      "zh": "拖动复制记录"
+    },
+    "windows": "Option+Drag",
+    "mac": "Alt+Drag",
+    "linux": "Alt+Drag",
+    "keywords": [
+      "duplicate",
+      "复制"
+    ],
+    "pinyin": "fu zhi ji lu fuzhijilu f z j l fzjl fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "airtable-move-record-up-down",
+    "appId": "airtable",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Move Record Up/Down",
+      "zh": "上下移动记录"
+    },
+    "description": {
+      "en": "Manually move records",
+      "zh": "手动上下移动记录"
+    },
+    "windows": "Option+Up",
+    "mac": "Alt+Up",
+    "linux": "Alt+Up",
+    "keywords": [
+      "move",
+      "移动",
+      "记录"
+    ],
+    "pinyin": "shang xia yi dong ji lu shangxiayidongjilu s x y d j l sxydjl yi dong   ji lu yidong jilu y d   j l yd jl"
+  },
+  {
+    "id": "airtable-gallery-scroll-edge",
+    "appId": "airtable",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Gallery Scroll Edge",
+      "zh": "画廊滚动边缘"
+    },
+    "description": {
+      "en": "Scroll to edge of gallery",
+      "zh": "滚动到画廊边缘"
+    },
+    "windows": "Ctrl+Up",
+    "mac": "Cmd+Up",
+    "linux": "Ctrl+Up",
+    "keywords": [
+      "gallery",
+      "画廊",
+      "滚动"
+    ],
+    "pinyin": "hua lang gun dong bian yuan hualanggundongbianyuan h l g d b y hlgdby hua lang   gun dong hualang gundong h l   g d hl gd"
+  },
+  {
+    "id": "airtable-kanban-scroll-edge",
+    "appId": "airtable",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Kanban Scroll Edge",
+      "zh": "看板滚动边缘"
+    },
+    "description": {
+      "en": "Scroll board to left/right edge",
+      "zh": "看板滚动到左/右边缘"
+    },
+    "windows": "Ctrl+Left",
+    "mac": "Cmd+Left",
+    "linux": "Ctrl+Left",
+    "keywords": [
+      "kanban",
+      "看板",
+      "滚动"
+    ],
+    "pinyin": "kan ban gun dong bian yuan kanbangundongbianyuan k b g d b y kbgdby kan ban   gun dong kanban gundong k b   g d kb gd"
+  },
+  {
+    "id": "airtable-gantt-delete-records",
+    "appId": "airtable",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Gantt Delete Records",
+      "zh": "甘特删除记录"
+    },
+    "description": {
+      "en": "Delete selected records (Gantt)",
+      "zh": "删除所选记录（甘特图）"
+    },
+    "windows": "Ctrl+Delete",
+    "mac": "Cmd+Delete",
+    "linux": "Ctrl+Delete",
+    "keywords": [
+      "gantt",
+      "甘特",
+      "删除"
+    ],
+    "pinyin": "gan te shan chu ji lu ganteshanchujilu g t s c j l gtscjl gan te   shan chu gante shanchu g t   s c gt sc"
+  },
+  {
+    "id": "airtable-prev-next-record",
+    "appId": "airtable",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Prev/Next Record",
+      "zh": "上/下一条记录"
+    },
+    "description": {
+      "en": "Move to previous/next record",
+      "zh": "移动到上/下一条记录"
+    },
+    "windows": "Ctrl+Shift+<",
+    "mac": "Cmd+Shift+<",
+    "linux": "Ctrl+Shift+<",
+    "keywords": [
+      "record",
+      "记录",
+      "导航"
+    ],
+    "pinyin": "shang / xia yi tiao ji lu shang/xiayitiaojilu s / x y t j l s/xytjl ji lu   dao hang jilu daohang j l   d h jl dh"
+  },
+  {
+    "id": "airtable-close-expanded-record",
+    "appId": "airtable",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Close Expanded Record",
+      "zh": "关闭展开记录"
+    },
+    "description": {
+      "en": "Close expanded record",
+      "zh": "关闭展开的记录"
+    },
+    "windows": "Esc",
+    "mac": "Esc",
+    "linux": "Esc",
+    "keywords": [
+      "close",
+      "关闭",
+      "记录"
+    ],
+    "pinyin": "guan bi zhan kai ji lu guanbizhankaijilu g b z k j l gbzkjl guan bi   ji lu guanbi jilu g b   j l gb jl"
+  }
+]

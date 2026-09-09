@@ -1,0 +1,401 @@
+[
+  {
+    "id": "tiktok-play",
+    "appId": "tiktok",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "en": "Play/Pause",
+      "zh": "播放/暂停"
+    },
+    "description": {
+      "en": "Play or pause video",
+      "zh": "播放或暂停"
+    },
+    "windows": "Space",
+    "mac": "Space",
+    "linux": "Space",
+    "keywords": [
+      "play",
+      "pause",
+      "播放"
+    ],
+    "pinyin": "bo fang / zan ting bofang/zanting b f / z t bf/zt bo fang bofang b f bf"
+  },
+  {
+    "id": "tiktok-like",
+    "appId": "tiktok",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "en": "Like",
+      "zh": "点赞"
+    },
+    "description": {
+      "en": "Like video",
+      "zh": "点赞视频"
+    },
+    "windows": "L",
+    "mac": "L",
+    "linux": "L",
+    "keywords": [
+      "like",
+      "点赞"
+    ],
+    "pinyin": "dian zan dianzan d z dz dian zan dianzan d z dz"
+  },
+  {
+    "id": "tiktok-follow",
+    "appId": "tiktok",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "en": "Follow",
+      "zh": "关注"
+    },
+    "description": {
+      "en": "Follow creator",
+      "zh": "关注创作者"
+    },
+    "windows": "F",
+    "mac": "F",
+    "linux": "F",
+    "keywords": [
+      "follow",
+      "关注"
+    ],
+    "pinyin": "guan zhu guanzhu g z gz guan zhu guanzhu g z gz"
+  },
+  {
+    "id": "tiktok-search",
+    "appId": "tiktok",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "en": "Search",
+      "zh": "搜索"
+    },
+    "description": {
+      "en": "Search",
+      "zh": "搜索"
+    },
+    "windows": "/",
+    "mac": "/",
+    "linux": "/",
+    "keywords": [
+      "search",
+      "搜索"
+    ],
+    "pinyin": "sou suo sousuo s s ss sou suo sousuo s s ss"
+  },
+  {
+    "id": "tiktok-next",
+    "appId": "tiktok",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "en": "Next",
+      "zh": "下一个"
+    },
+    "description": {
+      "en": "Next video",
+      "zh": "下一个视频"
+    },
+    "windows": "N",
+    "mac": "N",
+    "linux": "N",
+    "keywords": [
+      "next",
+      "video",
+      "下一个"
+    ],
+    "pinyin": "xia yi ge xiayige x y g xyg xia yi ge xiayige x y g xyg"
+  },
+  {
+    "id": "tiktok-prev",
+    "appId": "tiktok",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "en": "Prev",
+      "zh": "上一个"
+    },
+    "description": {
+      "en": "Previous video",
+      "zh": "上一个视频"
+    },
+    "windows": "P",
+    "mac": "P",
+    "linux": "P",
+    "keywords": [
+      "prev",
+      "video",
+      "上一个"
+    ],
+    "pinyin": "shang yi ge shangyige s y g syg shang yi ge shangyige s y g syg"
+  },
+  {
+    "id": "tiktok-mute",
+    "appId": "tiktok",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "en": "Mute",
+      "zh": "静音"
+    },
+    "description": {
+      "en": "Mute",
+      "zh": "静音"
+    },
+    "windows": "M",
+    "mac": "M",
+    "linux": "M",
+    "keywords": [
+      "mute",
+      "静音"
+    ],
+    "pinyin": "jing yin jingyin j y jy jing yin jingyin j y jy"
+  },
+  {
+    "id": "tiktok-fullscreen",
+    "appId": "tiktok",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "en": "Fullscreen",
+      "zh": "全屏"
+    },
+    "description": {
+      "en": "Fullscreen",
+      "zh": "全屏"
+    },
+    "windows": "F",
+    "mac": "F",
+    "linux": "F",
+    "keywords": [
+      "fullscreen",
+      "全屏"
+    ],
+    "pinyin": "quan ping quanping q p qp quan ping quanping q p qp"
+  },
+  {
+    "id": "tiktok-volume",
+    "appId": "tiktok",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "en": "Volume",
+      "zh": "音量"
+    },
+    "description": {
+      "en": "Volume up/down",
+      "zh": "音量加减"
+    },
+    "windows": "↑ ↓",
+    "mac": "↑ ↓",
+    "linux": "↑ ↓",
+    "keywords": [
+      "volume",
+      "音量"
+    ],
+    "pinyin": "yin liang yinliang y l yl yin liang yinliang y l yl"
+  },
+  {
+    "id": "tiktok-comment",
+    "appId": "tiktok",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "en": "Comment",
+      "zh": "评论"
+    },
+    "description": {
+      "en": "Open comments",
+      "zh": "打开评论"
+    },
+    "windows": "C",
+    "mac": "C",
+    "linux": "C",
+    "keywords": [
+      "comment",
+      "评论"
+    ],
+    "pinyin": "ping lun pinglun p l pl ping lun pinglun p l pl"
+  },
+  {
+    "id": "tiktok-share",
+    "appId": "tiktok",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "en": "Share",
+      "zh": "分享"
+    },
+    "description": {
+      "en": "Share video",
+      "zh": "分享视频"
+    },
+    "windows": "S",
+    "mac": "S",
+    "linux": "S",
+    "keywords": [
+      "share",
+      "分享"
+    ],
+    "pinyin": "fen xiang fenxiang f x fx fen xiang fenxiang f x fx"
+  },
+  {
+    "id": "tiktok-profile",
+    "appId": "tiktok",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "en": "Profile",
+      "zh": "个人主页"
+    },
+    "description": {
+      "en": "Open profile",
+      "zh": "打开主页"
+    },
+    "windows": "U",
+    "mac": "U",
+    "linux": "U",
+    "keywords": [
+      "profile",
+      "主页"
+    ],
+    "pinyin": "ge ren zhu ye gerenzhuye g r z y grzy zhu ye zhuye z y zy"
+  },
+  {
+    "id": "tiktok-home",
+    "appId": "tiktok",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "en": "Home",
+      "zh": "首页"
+    },
+    "description": {
+      "en": "Go to home",
+      "zh": "回到首页"
+    },
+    "windows": "H",
+    "mac": "H",
+    "linux": "H",
+    "keywords": [
+      "home",
+      "首页"
+    ],
+    "pinyin": "shou ye shouye s y sy shou ye shouye s y sy"
+  },
+  {
+    "id": "tiktok-inbox",
+    "appId": "tiktok",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "en": "Inbox",
+      "zh": "消息"
+    },
+    "description": {
+      "en": "Open inbox",
+      "zh": "打开消息"
+    },
+    "windows": "I",
+    "mac": "I",
+    "linux": "I",
+    "keywords": [
+      "inbox",
+      "消息"
+    ],
+    "pinyin": "xiao xi xiaoxi x x xx xiao xi xiaoxi x x xx"
+  },
+  {
+    "id": "tiktok-record",
+    "appId": "tiktok",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "en": "Record",
+      "zh": "录制"
+    },
+    "description": {
+      "en": "Record video",
+      "zh": "录制视频"
+    },
+    "windows": "R",
+    "mac": "R",
+    "linux": "R",
+    "keywords": [
+      "record",
+      "录制"
+    ],
+    "pinyin": "lu zhi luzhi l z lz lu zhi luzhi l z lz"
+  },
+  {
+    "id": "tiktok-upload",
+    "appId": "tiktok",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "en": "Upload",
+      "zh": "上传"
+    },
+    "description": {
+      "en": "Upload video",
+      "zh": "上传视频"
+    },
+    "windows": "U? ",
+    "mac": "U? ",
+    "linux": "U? ",
+    "keywords": [
+      "upload",
+      "上传"
+    ],
+    "pinyin": "shang chuan shangchuan s c sc shang chuan shangchuan s c sc"
+  },
+  {
+    "id": "tiktok-live",
+    "appId": "tiktok",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "en": "Live",
+      "zh": "直播"
+    },
+    "description": {
+      "en": "Go to live",
+      "zh": "进入直播"
+    },
+    "windows": "L? ",
+    "mac": "L? ",
+    "linux": "L? ",
+    "keywords": [
+      "live",
+      "直播"
+    ],
+    "pinyin": "zhi bo zhibo z b zb zhi bo zhibo z b zb"
+  },
+  {
+    "id": "tiktok-help",
+    "appId": "tiktok",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "en": "Help",
+      "zh": "帮助"
+    },
+    "description": {
+      "en": "Shortcuts help",
+      "zh": "快捷键帮助"
+    },
+    "windows": "?",
+    "mac": "?",
+    "linux": "?",
+    "keywords": [
+      "help",
+      "快捷键"
+    ],
+    "pinyin": "bang zhu bangzhu b z bz kuai jie jian kuaijiejian k j j kjj"
+  }
+]

@@ -1,1 +1,843 @@
-[{"id":"gitkraken-show-keys","appId":"gitkraken","type":"software","category":"development","name":{"zh":"显示快捷键","en":"Show Shortcuts"},"description":{"zh":"打开快捷键列表","en":"Open shortcuts list"},"windows":"Ctrl + /","mac":"⌘ /","linux":"Ctrl + /","keywords":["快捷键","shortcuts"],"pinyin":"xian shi kuai jie jian xianshikuaijiejian x s k j j xskjj kuai jie jian kuaijiejian k j j kjj"},{"id":"gitkraken-new-branch","appId":"gitkraken","type":"software","category":"development","name":{"zh":"新建分支","en":"Create Branch"},"description":{"zh":"从当前提交新建分支","en":"Create branch"},"windows":"Ctrl + B","mac":"⌘ B","linux":"Ctrl + B","keywords":["分支","branch","新建"],"pinyin":"xin jian fen zhi xinjianfenzhi x j f z xjfz fen zhi   xin jian fenzhi xinjian f z   x j fz xj"},{"id":"gitkraken-fetch","appId":"gitkraken","type":"software","category":"development","name":{"zh":"抓取全部","en":"Fetch All"},"description":{"zh":"从远程抓取所有更新","en":"Fetch all"},"windows":"Ctrl + L","mac":"⌘ L","linux":"Ctrl + L","keywords":["抓取","fetch"],"pinyin":"zhua qu quan bu zhuaququanbu z q q b zqqb zhua qu zhuaqu z q zq"},{"id":"gitkraken-stage-file","appId":"gitkraken","type":"software","category":"development","name":{"zh":"暂存当前文件","en":"Stage File"},"description":{"zh":"暂存（stage）当前文件","en":"Stage current file"},"windows":"S","mac":"S","linux":"S","keywords":["暂存","stage","文件"],"pinyin":"zan cun dang qian wen jian zancundangqianwenjian z c d q w j zcdqwj zan cun   wen jian zancun wenjian z c   w j zc wj"},{"id":"gitkraken-stage-all","appId":"gitkraken","type":"software","category":"development","name":{"zh":"暂存全部","en":"Stage All"},"description":{"zh":"暂存所有改动文件","en":"Stage all files"},"windows":"Ctrl + Shift + S","mac":"⌘ ⇧ S","linux":"Ctrl + Shift + S","keywords":["暂存","stage","全部"],"pinyin":"zan cun quan bu zancunquanbu z c q b zcqb zan cun   quan bu zancun quanbu z c   q b zc qb"},{"id":"gitkraken-unstage-file","appId":"gitkraken","type":"software","category":"development","name":{"zh":"取消暂存","en":"Unstage File"},"description":{"zh":"取消暂存当前文件","en":"Unstage current file"},"windows":"U","mac":"U","linux":"U","keywords":["取消暂存","unstage"],"pinyin":"qu xiao zan cun quxiaozancun q x z c qxzc qu xiao zan cun quxiaozancun q x z c qxzc"},{"id":"gitkraken-unstage-all","appId":"gitkraken","type":"software","category":"development","name":{"zh":"取消暂存全部","en":"Unstage All"},"description":{"zh":"取消暂存所有文件","en":"Unstage all files"},"windows":"Ctrl + Shift + U","mac":"⌘ ⇧ U","linux":"Ctrl + Shift + U","keywords":["取消暂存","unstage","全部"],"pinyin":"qu xiao zan cun quan bu quxiaozancunquanbu q x z c q b qxzcqb qu xiao zan cun   quan bu quxiaozancun quanbu q x z c   q b qxzc qb"},{"id":"gitkraken-commit","appId":"gitkraken","type":"software","category":"development","name":{"zh":"提交","en":"Commit"},"description":{"zh":"用当前消息提交暂存文件","en":"Commit staged files"},"windows":"Ctrl + Enter","mac":"⌘ ↩","linux":"Ctrl + Enter","keywords":["提交","commit"],"pinyin":"ti jiao tijiao t j tj ti jiao tijiao t j tj"},{"id":"gitkraken-stage-commit","appId":"gitkraken","type":"software","category":"development","name":{"zh":"暂存并提交","en":"Stage & Commit"},"description":{"zh":"暂存全部并提交","en":"Stage all and commit"},"windows":"Ctrl + Shift + Enter","mac":"⌘ ⇧ ↩","linux":"Ctrl + Shift + Enter","keywords":["暂存","提交","stage","commit"],"pinyin":"zan cun bing ti jiao zancunbingtijiao z c b t j zcbtj zan cun   ti jiao zancun tijiao z c   t j zc tj"},{"id":"gitkraken-focus-msg","appId":"gitkraken","type":"software","category":"development","name":{"zh":"聚焦提交消息","en":"Focus Commit Box"},"description":{"zh":"聚焦提交消息输入框","en":"Focus commit message"},"windows":"Ctrl + Shift + M","mac":"⌘ ⇧ M","linux":"Ctrl + Shift + M","keywords":["提交","消息","focus"],"pinyin":"ju jiao ti jiao xiao xi jujiaotijiaoxiaoxi j j t j x x jjtjxx ti jiao   xiao xi tijiao xiaoxi t j   x x tj xx"},{"id":"gitkraken-down","appId":"gitkraken","type":"software","category":"development","name":{"zh":"下一项","en":"Select Next"},"description":{"zh":"选中下一项（或 J / ↓）","en":"Select next item"},"windows":"J","mac":"J / ↓","linux":"J","keywords":["下","next","选择"],"pinyin":"xia yi xiang xiayixiang x y x xyx xia   xuan ze xia xuanze x   x z x xz"},{"id":"gitkraken-up","appId":"gitkraken","type":"software","category":"development","name":{"zh":"上一项","en":"Select Previous"},"description":{"zh":"选中上一项（或 K / ↑）","en":"Select previous item"},"windows":"K","mac":"K / ↑","linux":"K","keywords":["上","previous","选择"],"pinyin":"shang yi xiang shangyixiang s y x syx shang   xuan ze shang xuanze s   x z s xz"},{"id":"gitkraken-right","appId":"gitkraken","type":"software","category":"development","name":{"zh":"右侧项","en":"Select Right"},"description":{"zh":"选中右侧项（或 L / →）","en":"Select right item"},"windows":"L","mac":"L / →","linux":"L","keywords":["右","right"],"pinyin":"you ce xiang youcexiang y c x ycx you you y y"},{"id":"gitkraken-left","appId":"gitkraken","type":"software","category":"development","name":{"zh":"左侧项","en":"Select Left"},"description":{"zh":"选中左侧项（或 H / ←）","en":"Select left item"},"windows":"H","mac":"H / ←","linux":"H","keywords":["左","left"],"pinyin":"zuo ce xiang zuocexiang z c x zcx zuo zuo z z"},{"id":"gitkraken-first-commit","appId":"gitkraken","type":"software","category":"development","name":{"zh":"首个提交","en":"First Commit"},"description":{"zh":"跳到提交图首个提交","en":"First commit in graph"},"windows":"Ctrl + Home","mac":"⌘ ↑","linux":"Ctrl + Home","keywords":["首个","first","commit"],"pinyin":"shou ge ti jiao shougetijiao s g t j sgtj shou ge shouge s g sg"},{"id":"gitkraken-last-commit","appId":"gitkraken","type":"software","category":"development","name":{"zh":"末个提交","en":"Last Commit"},"description":{"zh":"跳到提交图末个提交","en":"Last commit in graph"},"windows":"Ctrl + End","mac":"⌘ ↓","linux":"Ctrl + End","keywords":["末个","last","commit"],"pinyin":"mo ge ti jiao mogetijiao m g t j mgtj mo ge moge m g mg"},{"id":"gitkraken-undo","appId":"gitkraken","type":"software","category":"development","name":{"zh":"撤销","en":"Undo"},"description":{"zh":"撤销操作","en":"Undo"},"windows":"Ctrl + Z","mac":"⌘ Z","linux":"Ctrl + Z","keywords":["撤销","undo"],"pinyin":"che xiao chexiao c x cx che xiao chexiao c x cx"},{"id":"gitkraken-redo","appId":"gitkraken","type":"software","category":"development","name":{"zh":"重做","en":"Redo"},"description":{"zh":"重做操作","en":"Redo"},"windows":"Ctrl + Y","mac":"⌘ Y / ⌘ ⇧ Z","linux":"Ctrl + Y","keywords":["重做","redo"],"pinyin":"zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"},{"id":"gitkraken-palette","appId":"gitkraken","type":"software","category":"development","name":{"zh":"命令面板","en":"Command Palette"},"description":{"zh":"打开命令面板","en":"Command palette"},"windows":"Ctrl + P","mac":"⌘ P","linux":"Ctrl + P","keywords":["命令","command","palette"],"pinyin":"ming ling mian ban minglingmianban m l m b mlmb ming ling mingling m l ml"},{"id":"gitkraken-search-commit","appId":"gitkraken","type":"software","category":"development","name":{"zh":"搜索提交","en":"Search Commits"},"description":{"zh":"在提交图中搜索","en":"Search commits"},"windows":"Ctrl + F","mac":"⌘ F","linux":"Ctrl + F","keywords":["搜索","search","commit"],"pinyin":"sou suo ti jiao sousuotijiao s s t j sstj sou suo sousuo s s ss"},{"id":"gitkraken-open-repo","appId":"gitkraken","type":"software","category":"development","name":{"zh":"打开仓库","en":"Open Repo"},"description":{"zh":"通过命令面板打开仓库","en":"Open repo via palette"},"windows":"Ctrl + Shift + O","mac":"⌘ ⇧ O","linux":"Ctrl + Shift + O","keywords":["打开","仓库","repo"],"pinyin":"da kai cang ku dakaicangku d k c k dkck da kai   cang ku dakai cangku d k   c k dk ck"},{"id":"gitkraken-file-history","appId":"gitkraken","type":"software","category":"development","name":{"zh":"文件历史","en":"File History"},"description":{"zh":"搜索文件查看历史与 blame","en":"File history/blame"},"windows":"Ctrl + Shift + H","mac":"⌘ ⇧ H","linux":"Ctrl + Shift + H","keywords":["文件","历史","blame"],"pinyin":"wen jian li shi wenjianlishi w j l s wjls wen jian   li shi wenjian lishi w j   l s wj ls"},{"id":"gitkraken-panel-filter","appId":"gitkraken","type":"software","category":"development","name":{"zh":"左面板筛选","en":"Left Panel Filter"},"description":{"zh":"聚焦左面板过滤栏","en":"Focus left panel filter"},"windows":"Ctrl + Alt + F","mac":"⌘ ⌥ F","linux":"Ctrl + Alt + F","keywords":["筛选","filter","面板"],"pinyin":"zuo mian ban shai xuan zuomianbanshaixuan z m b s x zmbsx shai xuan   mian ban shaixuan mianban s x   m b sx mb"},{"id":"gitkraken-terminal","appId":"gitkraken","type":"software","category":"development","name":{"zh":"打开终端","en":"Open in Terminal"},"description":{"zh":"在终端打开当前仓库","en":"Open repo in terminal"},"windows":"Alt + T","mac":"⌥ T","linux":"Alt + T","keywords":["终端","terminal"],"pinyin":"da kai zhong duan dakaizhongduan d k z d dkzd zhong duan zhongduan z d zd"},{"id":"gitkraken-finder","appId":"gitkraken","type":"software","category":"development","name":{"zh":"文件管理器","en":"Open in File Manager"},"description":{"zh":"在文件管理器打开仓库","en":"Open in file manager"},"windows":"Alt + O","mac":"⌥ O","linux":"Alt + O","keywords":["文件管理器","finder"],"pinyin":"wen jian guan li qi wenjianguanliqi w j g l q wjglq wen jian guan li qi wenjianguanliqi w j g l q wjglq"},{"id":"gitkraken-diff","appId":"gitkraken","type":"software","category":"development","name":{"zh":"Diff 工具","en":"Diff/Merge Tool"},"description":{"zh":"打开 diff 或 merge 工具","en":"Open diff/merge tool"},"windows":"Ctrl + D","mac":"⌘ D","linux":"Ctrl + D","keywords":["diff","merge","工具"],"pinyin":"d i f f   gong ju diff gongju d i f f   g j diff gj gong ju gongju g j gj"},{"id":"gitkraken-close-repo","appId":"gitkraken","type":"software","category":"development","name":{"zh":"关闭仓库","en":"Close Repo"},"description":{"zh":"关闭当前仓库","en":"Close current repo"},"windows":"Ctrl + W","mac":"⌘ W","linux":"Ctrl + W","keywords":["关闭","close","repo"],"pinyin":"guan bi cang ku guanbicangku g b c k gbck guan bi guanbi g b gb"},{"id":"gitkraken-fullscreen","appId":"gitkraken","type":"software","category":"development","name":{"zh":"全屏","en":"Fullscreen"},"description":{"zh":"切换全屏模式","en":"Toggle fullscreen"},"windows":"F11","mac":"⌃ ⌘ F","linux":"F11","keywords":["全屏","fullscreen"],"pinyin":"quan ping quanping q p qp quan ping quanping q p qp"},{"id":"gitkraken-zoom-in","appId":"gitkraken","type":"software","category":"development","name":{"zh":"放大","en":"Zoom In"},"description":{"zh":"放大界面","en":"Zoom in"},"windows":"Ctrl + =","mac":"⌘ =","linux":"Ctrl + =","keywords":["放大","zoom","in"],"pinyin":"fang da fangda f d fd fang da fangda f d fd"},{"id":"gitkraken-zoom-out","appId":"gitkraken","type":"software","category":"development","name":{"zh":"缩小","en":"Zoom Out"},"description":{"zh":"缩小界面","en":"Zoom out"},"windows":"Ctrl + -","mac":"⌘ −","linux":"Ctrl + -","keywords":["缩小","zoom","out"],"pinyin":"suo xiao suoxiao s x sx suo xiao suoxiao s x sx"},{"id":"gitkraken-zoom-reset","appId":"gitkraken","type":"software","category":"development","name":{"zh":"重置缩放","en":"Reset Zoom"},"description":{"zh":"恢复默认缩放","en":"Reset zoom"},"windows":"Ctrl + 0","mac":"⌘ 0","linux":"Ctrl + 0","keywords":["缩放","reset","zoom"],"pinyin":"zhong zhi suo fang zhongzhisuofang z z s f zzsf suo fang suofang s f sf"},{"id":"gitkraken-left-panel","appId":"gitkraken","type":"software","category":"development","name":{"zh":"切换左面板","en":"Toggle Left Panel"},"description":{"zh":"显示 / 隐藏左侧面板","en":"Toggle left panel"},"windows":"Ctrl + J","mac":"⌘ J","linux":"Ctrl + J","keywords":["面板","panel","左"],"pinyin":"qie huan zuo mian ban qiehuanzuomianban q h z m b qhzmb mian ban   zuo mianban zuo m b   z mb z"},{"id":"gitkraken-commit-panel","appId":"gitkraken","type":"software","category":"development","name":{"zh":"提交详情面板","en":"Commit Detail Panel"},"description":{"zh":"切换提交详情面板","en":"Toggle commit detail"},"windows":"Ctrl + K","mac":"⌘ K","linux":"Ctrl + K","keywords":["提交","commit","面板"],"pinyin":"ti jiao xiang qing mian ban tijiaoxiangqingmianban t j x q m b tjxqmb ti jiao   mian ban tijiao mianban t j   m b tj mb"},{"id":"gitkraken-new-tab","appId":"gitkraken","type":"software","category":"development","name":{"zh":"新标签","en":"New Tab"},"description":{"zh":"打开新标签","en":"New tab"},"windows":"Ctrl + T","mac":"⌘ T","linux":"Ctrl + T","keywords":["新","tab","标签"],"pinyin":"xin biao qian xinbiaoqian x b q xbq xin   biao qian xin biaoqian x   b q x bq"},{"id":"gitkraken-num-tab","appId":"gitkraken","type":"software","category":"development","name":{"zh":"跳转标签 1–9","en":"Go to Tab 1–9"},"description":{"zh":"直接跳到指定标签","en":"Jump to tab #"},"windows":"Ctrl + 1–9","mac":"⌘ 1–9","linux":"Ctrl + 1–9","keywords":["跳转","tab","数字"],"pinyin":"tiao zhuan biao qian   1 – 9 tiaozhuanbiaoqian 1–9 t z b q   1 – 9 tzbq 1–9 tiao zhuan   shu zi tiaozhuan shuzi t z   s z tz sz"},{"id":"gitkraken-next-tab","appId":"gitkraken","type":"software","category":"development","name":{"zh":"下一标签","en":"Next Tab"},"description":{"zh":"切换到下一个标签","en":"Next tab"},"windows":"Ctrl + Tab","mac":"⌘ Tab","linux":"Ctrl + Tab","keywords":["下一","next","tab"],"pinyin":"xia yi biao qian xiayibiaoqian x y b q xybq xia yi xiayi x y xy"},{"id":"gitkraken-prev-tab","appId":"gitkraken","type":"software","category":"development","name":{"zh":"上一标签","en":"Previous Tab"},"description":{"zh":"切换到上一个标签","en":"Previous tab"},"windows":"Ctrl + Shift + Tab","mac":"⌘ ⇧ Tab","linux":"Ctrl + Shift + Tab","keywords":["上一","previous","tab"],"pinyin":"shang yi biao qian shangyibiaoqian s y b q sybq shang yi shangyi s y sy"}]
+[
+  {
+    "id": "gitkraken-show-keys",
+    "appId": "gitkraken",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "显示快捷键",
+      "en": "Show Shortcuts"
+    },
+    "description": {
+      "zh": "打开快捷键列表",
+      "en": "Open shortcuts list"
+    },
+    "windows": "Ctrl + /",
+    "mac": "⌘ /",
+    "linux": "Ctrl + /",
+    "keywords": [
+      "快捷键",
+      "shortcuts"
+    ],
+    "pinyin": "xian shi kuai jie jian xianshikuaijiejian x s k j j xskjj kuai jie jian kuaijiejian k j j kjj"
+  },
+  {
+    "id": "gitkraken-new-branch",
+    "appId": "gitkraken",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "新建分支",
+      "en": "Create Branch"
+    },
+    "description": {
+      "zh": "从当前提交新建分支",
+      "en": "Create branch"
+    },
+    "windows": "Ctrl + B",
+    "mac": "⌘ B",
+    "linux": "Ctrl + B",
+    "keywords": [
+      "分支",
+      "branch",
+      "新建"
+    ],
+    "pinyin": "xin jian fen zhi xinjianfenzhi x j f z xjfz fen zhi   xin jian fenzhi xinjian f z   x j fz xj"
+  },
+  {
+    "id": "gitkraken-fetch",
+    "appId": "gitkraken",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "抓取全部",
+      "en": "Fetch All"
+    },
+    "description": {
+      "zh": "从远程抓取所有更新",
+      "en": "Fetch all"
+    },
+    "windows": "Ctrl + L",
+    "mac": "⌘ L",
+    "linux": "Ctrl + L",
+    "keywords": [
+      "抓取",
+      "fetch"
+    ],
+    "pinyin": "zhua qu quan bu zhuaququanbu z q q b zqqb zhua qu zhuaqu z q zq"
+  },
+  {
+    "id": "gitkraken-stage-file",
+    "appId": "gitkraken",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "暂存当前文件",
+      "en": "Stage File"
+    },
+    "description": {
+      "zh": "暂存（stage）当前文件",
+      "en": "Stage current file"
+    },
+    "windows": "S",
+    "mac": "S",
+    "linux": "S",
+    "keywords": [
+      "暂存",
+      "stage",
+      "文件"
+    ],
+    "pinyin": "zan cun dang qian wen jian zancundangqianwenjian z c d q w j zcdqwj zan cun   wen jian zancun wenjian z c   w j zc wj"
+  },
+  {
+    "id": "gitkraken-stage-all",
+    "appId": "gitkraken",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "暂存全部",
+      "en": "Stage All"
+    },
+    "description": {
+      "zh": "暂存所有改动文件",
+      "en": "Stage all files"
+    },
+    "windows": "Ctrl + Shift + S",
+    "mac": "⌘ ⇧ S",
+    "linux": "Ctrl + Shift + S",
+    "keywords": [
+      "暂存",
+      "stage",
+      "全部"
+    ],
+    "pinyin": "zan cun quan bu zancunquanbu z c q b zcqb zan cun   quan bu zancun quanbu z c   q b zc qb"
+  },
+  {
+    "id": "gitkraken-unstage-file",
+    "appId": "gitkraken",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "取消暂存",
+      "en": "Unstage File"
+    },
+    "description": {
+      "zh": "取消暂存当前文件",
+      "en": "Unstage current file"
+    },
+    "windows": "U",
+    "mac": "U",
+    "linux": "U",
+    "keywords": [
+      "取消暂存",
+      "unstage"
+    ],
+    "pinyin": "qu xiao zan cun quxiaozancun q x z c qxzc qu xiao zan cun quxiaozancun q x z c qxzc"
+  },
+  {
+    "id": "gitkraken-unstage-all",
+    "appId": "gitkraken",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "取消暂存全部",
+      "en": "Unstage All"
+    },
+    "description": {
+      "zh": "取消暂存所有文件",
+      "en": "Unstage all files"
+    },
+    "windows": "Ctrl + Shift + U",
+    "mac": "⌘ ⇧ U",
+    "linux": "Ctrl + Shift + U",
+    "keywords": [
+      "取消暂存",
+      "unstage",
+      "全部"
+    ],
+    "pinyin": "qu xiao zan cun quan bu quxiaozancunquanbu q x z c q b qxzcqb qu xiao zan cun   quan bu quxiaozancun quanbu q x z c   q b qxzc qb"
+  },
+  {
+    "id": "gitkraken-commit",
+    "appId": "gitkraken",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "提交",
+      "en": "Commit"
+    },
+    "description": {
+      "zh": "用当前消息提交暂存文件",
+      "en": "Commit staged files"
+    },
+    "windows": "Ctrl + Enter",
+    "mac": "⌘ ↩",
+    "linux": "Ctrl + Enter",
+    "keywords": [
+      "提交",
+      "commit"
+    ],
+    "pinyin": "ti jiao tijiao t j tj ti jiao tijiao t j tj"
+  },
+  {
+    "id": "gitkraken-stage-commit",
+    "appId": "gitkraken",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "暂存并提交",
+      "en": "Stage & Commit"
+    },
+    "description": {
+      "zh": "暂存全部并提交",
+      "en": "Stage all and commit"
+    },
+    "windows": "Ctrl + Shift + Enter",
+    "mac": "⌘ ⇧ ↩",
+    "linux": "Ctrl + Shift + Enter",
+    "keywords": [
+      "暂存",
+      "提交",
+      "stage",
+      "commit"
+    ],
+    "pinyin": "zan cun bing ti jiao zancunbingtijiao z c b t j zcbtj zan cun   ti jiao zancun tijiao z c   t j zc tj"
+  },
+  {
+    "id": "gitkraken-focus-msg",
+    "appId": "gitkraken",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "聚焦提交消息",
+      "en": "Focus Commit Box"
+    },
+    "description": {
+      "zh": "聚焦提交消息输入框",
+      "en": "Focus commit message"
+    },
+    "windows": "Ctrl + Shift + M",
+    "mac": "⌘ ⇧ M",
+    "linux": "Ctrl + Shift + M",
+    "keywords": [
+      "提交",
+      "消息",
+      "focus"
+    ],
+    "pinyin": "ju jiao ti jiao xiao xi jujiaotijiaoxiaoxi j j t j x x jjtjxx ti jiao   xiao xi tijiao xiaoxi t j   x x tj xx"
+  },
+  {
+    "id": "gitkraken-down",
+    "appId": "gitkraken",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "下一项",
+      "en": "Select Next"
+    },
+    "description": {
+      "zh": "选中下一项（或 J / ↓）",
+      "en": "Select next item"
+    },
+    "windows": "J",
+    "mac": "J / ↓",
+    "linux": "J",
+    "keywords": [
+      "下",
+      "next",
+      "选择"
+    ],
+    "pinyin": "xia yi xiang xiayixiang x y x xyx xia   xuan ze xia xuanze x   x z x xz"
+  },
+  {
+    "id": "gitkraken-up",
+    "appId": "gitkraken",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "上一项",
+      "en": "Select Previous"
+    },
+    "description": {
+      "zh": "选中上一项（或 K / ↑）",
+      "en": "Select previous item"
+    },
+    "windows": "K",
+    "mac": "K / ↑",
+    "linux": "K",
+    "keywords": [
+      "上",
+      "previous",
+      "选择"
+    ],
+    "pinyin": "shang yi xiang shangyixiang s y x syx shang   xuan ze shang xuanze s   x z s xz"
+  },
+  {
+    "id": "gitkraken-right",
+    "appId": "gitkraken",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "右侧项",
+      "en": "Select Right"
+    },
+    "description": {
+      "zh": "选中右侧项（或 L / →）",
+      "en": "Select right item"
+    },
+    "windows": "L",
+    "mac": "L / →",
+    "linux": "L",
+    "keywords": [
+      "右",
+      "right"
+    ],
+    "pinyin": "you ce xiang youcexiang y c x ycx you you y y"
+  },
+  {
+    "id": "gitkraken-left",
+    "appId": "gitkraken",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "左侧项",
+      "en": "Select Left"
+    },
+    "description": {
+      "zh": "选中左侧项（或 H / ←）",
+      "en": "Select left item"
+    },
+    "windows": "H",
+    "mac": "H / ←",
+    "linux": "H",
+    "keywords": [
+      "左",
+      "left"
+    ],
+    "pinyin": "zuo ce xiang zuocexiang z c x zcx zuo zuo z z"
+  },
+  {
+    "id": "gitkraken-first-commit",
+    "appId": "gitkraken",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "首个提交",
+      "en": "First Commit"
+    },
+    "description": {
+      "zh": "跳到提交图首个提交",
+      "en": "First commit in graph"
+    },
+    "windows": "Ctrl + Home",
+    "mac": "⌘ ↑",
+    "linux": "Ctrl + Home",
+    "keywords": [
+      "首个",
+      "first",
+      "commit"
+    ],
+    "pinyin": "shou ge ti jiao shougetijiao s g t j sgtj shou ge shouge s g sg"
+  },
+  {
+    "id": "gitkraken-last-commit",
+    "appId": "gitkraken",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "末个提交",
+      "en": "Last Commit"
+    },
+    "description": {
+      "zh": "跳到提交图末个提交",
+      "en": "Last commit in graph"
+    },
+    "windows": "Ctrl + End",
+    "mac": "⌘ ↓",
+    "linux": "Ctrl + End",
+    "keywords": [
+      "末个",
+      "last",
+      "commit"
+    ],
+    "pinyin": "mo ge ti jiao mogetijiao m g t j mgtj mo ge moge m g mg"
+  },
+  {
+    "id": "gitkraken-undo",
+    "appId": "gitkraken",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销操作",
+      "en": "Undo"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "Ctrl + Z",
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "gitkraken-redo",
+    "appId": "gitkraken",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "重做操作",
+      "en": "Redo"
+    },
+    "windows": "Ctrl + Y",
+    "mac": "⌘ Y / ⌘ ⇧ Z",
+    "linux": "Ctrl + Y",
+    "keywords": [
+      "重做",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "gitkraken-palette",
+    "appId": "gitkraken",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "命令面板",
+      "en": "Command Palette"
+    },
+    "description": {
+      "zh": "打开命令面板",
+      "en": "Command palette"
+    },
+    "windows": "Ctrl + P",
+    "mac": "⌘ P",
+    "linux": "Ctrl + P",
+    "keywords": [
+      "命令",
+      "command",
+      "palette"
+    ],
+    "pinyin": "ming ling mian ban minglingmianban m l m b mlmb ming ling mingling m l ml"
+  },
+  {
+    "id": "gitkraken-search-commit",
+    "appId": "gitkraken",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "搜索提交",
+      "en": "Search Commits"
+    },
+    "description": {
+      "zh": "在提交图中搜索",
+      "en": "Search commits"
+    },
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
+    "linux": "Ctrl + F",
+    "keywords": [
+      "搜索",
+      "search",
+      "commit"
+    ],
+    "pinyin": "sou suo ti jiao sousuotijiao s s t j sstj sou suo sousuo s s ss"
+  },
+  {
+    "id": "gitkraken-open-repo",
+    "appId": "gitkraken",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "打开仓库",
+      "en": "Open Repo"
+    },
+    "description": {
+      "zh": "通过命令面板打开仓库",
+      "en": "Open repo via palette"
+    },
+    "windows": "Ctrl + Shift + O",
+    "mac": "⌘ ⇧ O",
+    "linux": "Ctrl + Shift + O",
+    "keywords": [
+      "打开",
+      "仓库",
+      "repo"
+    ],
+    "pinyin": "da kai cang ku dakaicangku d k c k dkck da kai   cang ku dakai cangku d k   c k dk ck"
+  },
+  {
+    "id": "gitkraken-file-history",
+    "appId": "gitkraken",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "文件历史",
+      "en": "File History"
+    },
+    "description": {
+      "zh": "搜索文件查看历史与 blame",
+      "en": "File history/blame"
+    },
+    "windows": "Ctrl + Shift + H",
+    "mac": "⌘ ⇧ H",
+    "linux": "Ctrl + Shift + H",
+    "keywords": [
+      "文件",
+      "历史",
+      "blame"
+    ],
+    "pinyin": "wen jian li shi wenjianlishi w j l s wjls wen jian   li shi wenjian lishi w j   l s wj ls"
+  },
+  {
+    "id": "gitkraken-panel-filter",
+    "appId": "gitkraken",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "左面板筛选",
+      "en": "Left Panel Filter"
+    },
+    "description": {
+      "zh": "聚焦左面板过滤栏",
+      "en": "Focus left panel filter"
+    },
+    "windows": "Ctrl + Alt + F",
+    "mac": "⌘ ⌥ F",
+    "linux": "Ctrl + Alt + F",
+    "keywords": [
+      "筛选",
+      "filter",
+      "面板"
+    ],
+    "pinyin": "zuo mian ban shai xuan zuomianbanshaixuan z m b s x zmbsx shai xuan   mian ban shaixuan mianban s x   m b sx mb"
+  },
+  {
+    "id": "gitkraken-terminal",
+    "appId": "gitkraken",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "打开终端",
+      "en": "Open in Terminal"
+    },
+    "description": {
+      "zh": "在终端打开当前仓库",
+      "en": "Open repo in terminal"
+    },
+    "windows": "Alt + T",
+    "mac": "⌥ T",
+    "linux": "Alt + T",
+    "keywords": [
+      "终端",
+      "terminal"
+    ],
+    "pinyin": "da kai zhong duan dakaizhongduan d k z d dkzd zhong duan zhongduan z d zd"
+  },
+  {
+    "id": "gitkraken-finder",
+    "appId": "gitkraken",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "文件管理器",
+      "en": "Open in File Manager"
+    },
+    "description": {
+      "zh": "在文件管理器打开仓库",
+      "en": "Open in file manager"
+    },
+    "windows": "Alt + O",
+    "mac": "⌥ O",
+    "linux": "Alt + O",
+    "keywords": [
+      "文件管理器",
+      "finder"
+    ],
+    "pinyin": "wen jian guan li qi wenjianguanliqi w j g l q wjglq wen jian guan li qi wenjianguanliqi w j g l q wjglq"
+  },
+  {
+    "id": "gitkraken-diff",
+    "appId": "gitkraken",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "Diff 工具",
+      "en": "Diff/Merge Tool"
+    },
+    "description": {
+      "zh": "打开 diff 或 merge 工具",
+      "en": "Open diff/merge tool"
+    },
+    "windows": "Ctrl + D",
+    "mac": "⌘ D",
+    "linux": "Ctrl + D",
+    "keywords": [
+      "diff",
+      "merge",
+      "工具"
+    ],
+    "pinyin": "d i f f   gong ju diff gongju d i f f   g j diff gj gong ju gongju g j gj"
+  },
+  {
+    "id": "gitkraken-close-repo",
+    "appId": "gitkraken",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "关闭仓库",
+      "en": "Close Repo"
+    },
+    "description": {
+      "zh": "关闭当前仓库",
+      "en": "Close current repo"
+    },
+    "windows": "Ctrl + W",
+    "mac": "⌘ W",
+    "linux": "Ctrl + W",
+    "keywords": [
+      "关闭",
+      "close",
+      "repo"
+    ],
+    "pinyin": "guan bi cang ku guanbicangku g b c k gbck guan bi guanbi g b gb"
+  },
+  {
+    "id": "gitkraken-fullscreen",
+    "appId": "gitkraken",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "全屏",
+      "en": "Fullscreen"
+    },
+    "description": {
+      "zh": "切换全屏模式",
+      "en": "Toggle fullscreen"
+    },
+    "windows": "F11",
+    "mac": "⌃ ⌘ F",
+    "linux": "F11",
+    "keywords": [
+      "全屏",
+      "fullscreen"
+    ],
+    "pinyin": "quan ping quanping q p qp quan ping quanping q p qp"
+  },
+  {
+    "id": "gitkraken-zoom-in",
+    "appId": "gitkraken",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "放大",
+      "en": "Zoom In"
+    },
+    "description": {
+      "zh": "放大界面",
+      "en": "Zoom in"
+    },
+    "windows": "Ctrl + =",
+    "mac": "⌘ =",
+    "linux": "Ctrl + =",
+    "keywords": [
+      "放大",
+      "zoom",
+      "in"
+    ],
+    "pinyin": "fang da fangda f d fd fang da fangda f d fd"
+  },
+  {
+    "id": "gitkraken-zoom-out",
+    "appId": "gitkraken",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "缩小",
+      "en": "Zoom Out"
+    },
+    "description": {
+      "zh": "缩小界面",
+      "en": "Zoom out"
+    },
+    "windows": "Ctrl + -",
+    "mac": "⌘ −",
+    "linux": "Ctrl + -",
+    "keywords": [
+      "缩小",
+      "zoom",
+      "out"
+    ],
+    "pinyin": "suo xiao suoxiao s x sx suo xiao suoxiao s x sx"
+  },
+  {
+    "id": "gitkraken-zoom-reset",
+    "appId": "gitkraken",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "重置缩放",
+      "en": "Reset Zoom"
+    },
+    "description": {
+      "zh": "恢复默认缩放",
+      "en": "Reset zoom"
+    },
+    "windows": "Ctrl + 0",
+    "mac": "⌘ 0",
+    "linux": "Ctrl + 0",
+    "keywords": [
+      "缩放",
+      "reset",
+      "zoom"
+    ],
+    "pinyin": "zhong zhi suo fang zhongzhisuofang z z s f zzsf suo fang suofang s f sf"
+  },
+  {
+    "id": "gitkraken-left-panel",
+    "appId": "gitkraken",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "切换左面板",
+      "en": "Toggle Left Panel"
+    },
+    "description": {
+      "zh": "显示 / 隐藏左侧面板",
+      "en": "Toggle left panel"
+    },
+    "windows": "Ctrl + J",
+    "mac": "⌘ J",
+    "linux": "Ctrl + J",
+    "keywords": [
+      "面板",
+      "panel",
+      "左"
+    ],
+    "pinyin": "qie huan zuo mian ban qiehuanzuomianban q h z m b qhzmb mian ban   zuo mianban zuo m b   z mb z"
+  },
+  {
+    "id": "gitkraken-commit-panel",
+    "appId": "gitkraken",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "提交详情面板",
+      "en": "Commit Detail Panel"
+    },
+    "description": {
+      "zh": "切换提交详情面板",
+      "en": "Toggle commit detail"
+    },
+    "windows": "Ctrl + K",
+    "mac": "⌘ K",
+    "linux": "Ctrl + K",
+    "keywords": [
+      "提交",
+      "commit",
+      "面板"
+    ],
+    "pinyin": "ti jiao xiang qing mian ban tijiaoxiangqingmianban t j x q m b tjxqmb ti jiao   mian ban tijiao mianban t j   m b tj mb"
+  },
+  {
+    "id": "gitkraken-new-tab",
+    "appId": "gitkraken",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "新标签",
+      "en": "New Tab"
+    },
+    "description": {
+      "zh": "打开新标签",
+      "en": "New tab"
+    },
+    "windows": "Ctrl + T",
+    "mac": "⌘ T",
+    "linux": "Ctrl + T",
+    "keywords": [
+      "新",
+      "tab",
+      "标签"
+    ],
+    "pinyin": "xin biao qian xinbiaoqian x b q xbq xin   biao qian xin biaoqian x   b q x bq"
+  },
+  {
+    "id": "gitkraken-num-tab",
+    "appId": "gitkraken",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "跳转标签 1–9",
+      "en": "Go to Tab 1–9"
+    },
+    "description": {
+      "zh": "直接跳到指定标签",
+      "en": "Jump to tab #"
+    },
+    "windows": "Ctrl + 1–9",
+    "mac": "⌘ 1–9",
+    "linux": "Ctrl + 1–9",
+    "keywords": [
+      "跳转",
+      "tab",
+      "数字"
+    ],
+    "pinyin": "tiao zhuan biao qian   1 – 9 tiaozhuanbiaoqian 1–9 t z b q   1 – 9 tzbq 1–9 tiao zhuan   shu zi tiaozhuan shuzi t z   s z tz sz"
+  },
+  {
+    "id": "gitkraken-next-tab",
+    "appId": "gitkraken",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "下一标签",
+      "en": "Next Tab"
+    },
+    "description": {
+      "zh": "切换到下一个标签",
+      "en": "Next tab"
+    },
+    "windows": "Ctrl + Tab",
+    "mac": "⌘ Tab",
+    "linux": "Ctrl + Tab",
+    "keywords": [
+      "下一",
+      "next",
+      "tab"
+    ],
+    "pinyin": "xia yi biao qian xiayibiaoqian x y b q xybq xia yi xiayi x y xy"
+  },
+  {
+    "id": "gitkraken-prev-tab",
+    "appId": "gitkraken",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "上一标签",
+      "en": "Previous Tab"
+    },
+    "description": {
+      "zh": "切换到上一个标签",
+      "en": "Previous tab"
+    },
+    "windows": "Ctrl + Shift + Tab",
+    "mac": "⌘ ⇧ Tab",
+    "linux": "Ctrl + Shift + Tab",
+    "keywords": [
+      "上一",
+      "previous",
+      "tab"
+    ],
+    "pinyin": "shang yi biao qian shangyibiaoqian s y b q sybq shang yi shangyi s y sy"
+  }
+]

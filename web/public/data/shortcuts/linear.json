@@ -1,1 +1,772 @@
-[{"id":"linear-cmd","appId":"linear","type":"software","category":"productivity","name":{"zh":"命令面板 / 搜索","en":"Command Palette / Search"},"description":{"zh":"命令面板 / 搜索","en":"Command Palette / Search"},"windows":"Ctrl K","mac":"⌘ K","linux":"Ctrl K","keywords":["命令面板 / 搜索","Command Palette / Search"],"pinyin":"ming ling mian ban   /   sou suo minglingmianban / sousuo m l m b   /   s s mlmb / ss ming ling mian ban   /   sou suo minglingmianban / sousuo m l m b   /   s s mlmb / ss"},{"id":"linear-newissue","appId":"linear","type":"software","category":"productivity","name":{"zh":"新建事项","en":"Create New Issue"},"description":{"zh":"新建事项","en":"Create New Issue"},"windows":"C","mac":"C","linux":"C","keywords":["新建事项","Create New Issue"],"pinyin":"xin jian shi xiang xinjianshixiang x j s x xjsx xin jian shi xiang xinjianshixiang x j s x xjsx"},{"id":"linear-subissue","appId":"linear","type":"software","category":"productivity","name":{"zh":"新建子事项","en":"Create Sub-Issue"},"description":{"zh":"新建子事项","en":"Create Sub-Issue"},"windows":"Alt C","mac":"⌥ C","linux":"Alt C","keywords":["新建子事项","Create Sub-Issue"],"pinyin":"xin jian zi shi xiang xinjianzishixiang x j z s x xjzsx xin jian zi shi xiang xinjianzishixiang x j z s x xjzsx"},{"id":"linear-inbox","appId":"linear","type":"software","category":"productivity","name":{"zh":"转到收件箱","en":"Go to Inbox"},"description":{"zh":"转到收件箱","en":"Go to Inbox"},"windows":"G I","mac":"G I","linux":"G I","keywords":["转到收件箱","Go to Inbox"],"pinyin":"zhuan dao shou jian xiang zhuandaoshoujianxiang z d s j x zdsjx zhuan dao shou jian xiang zhuandaoshoujianxiang z d s j x zdsjx"},{"id":"linear-myissues","appId":"linear","type":"software","category":"productivity","name":{"zh":"转到我的事项","en":"Go to My Issues"},"description":{"zh":"转到我的事项","en":"Go to My Issues"},"windows":"G M","mac":"G M","linux":"G M","keywords":["转到我的事项","Go to My Issues"],"pinyin":"zhuan dao wo de shi xiang zhuandaowodeshixiang z d w d s x zdwdsx zhuan dao wo de shi xiang zhuandaowodeshixiang z d w d s x zdwdsx"},{"id":"linear-allissues","appId":"linear","type":"software","category":"productivity","name":{"zh":"转到全部事项","en":"Go to All Issues"},"description":{"zh":"转到全部事项","en":"Go to All Issues"},"windows":"G A","mac":"G A","linux":"G A","keywords":["转到全部事项","Go to All Issues"],"pinyin":"zhuan dao quan bu shi xiang zhuandaoquanbushixiang z d q b s x zdqbsx zhuan dao quan bu shi xiang zhuandaoquanbushixiang z d q b s x zdqbsx"},{"id":"linear-backlog","appId":"linear","type":"software","category":"productivity","name":{"zh":"转到待办","en":"Go to Backlog"},"description":{"zh":"转到待办","en":"Go to Backlog"},"windows":"G B","mac":"G B","linux":"G B","keywords":["转到待办","Go to Backlog"],"pinyin":"zhuan dao dai ban zhuandaodaiban z d d b zddb zhuan dao dai ban zhuandaodaiban z d d b zddb"},{"id":"linear-projects","appId":"linear","type":"software","category":"productivity","name":{"zh":"转到项目","en":"Go to Projects"},"description":{"zh":"转到项目","en":"Go to Projects"},"windows":"G P","mac":"G P","linux":"G P","keywords":["转到项目","Go to Projects"],"pinyin":"zhuan dao xiang mu zhuandaoxiangmu z d x m zdxm zhuan dao xiang mu zhuandaoxiangmu z d x m zdxm"},{"id":"linear-roadmap","appId":"linear","type":"software","category":"productivity","name":{"zh":"转到路线图","en":"Go to Roadmap"},"description":{"zh":"转到路线图","en":"Go to Roadmap"},"windows":"G R","mac":"G R","linux":"G R","keywords":["转到路线图","Go to Roadmap"],"pinyin":"zhuan dao lu xian tu zhuandaoluxiantu z d l x t zdlxt zhuan dao lu xian tu zhuandaoluxiantu z d l x t zdlxt"},{"id":"linear-cycles","appId":"linear","type":"software","category":"productivity","name":{"zh":"转到周期","en":"Go to Cycles"},"description":{"zh":"转到周期","en":"Go to Cycles"},"windows":"G C","mac":"G C","linux":"G C","keywords":["转到周期","Go to Cycles"],"pinyin":"zhuan dao zhou qi zhuandaozhouqi z d z q zdzq zhuan dao zhou qi zhuandaozhouqi z d z q zdzq"},{"id":"linear-views","appId":"linear","type":"software","category":"productivity","name":{"zh":"转到视图","en":"Go to Views"},"description":{"zh":"转到视图","en":"Go to Views"},"windows":"G V","mac":"G V","linux":"G V","keywords":["转到视图","Go to Views"],"pinyin":"zhuan dao shi tu zhuandaoshitu z d s t zdst zhuan dao shi tu zhuandaoshitu z d s t zdst"},{"id":"linear-edit","appId":"linear","type":"software","category":"productivity","name":{"zh":"编辑事项标题","en":"Edit Issue Title"},"description":{"zh":"编辑事项标题","en":"Edit Issue Title"},"windows":"E","mac":"E","linux":"E","keywords":["编辑事项标题","Edit Issue Title"],"pinyin":"bian ji shi xiang biao ti bianjishixiangbiaoti b j s x b t bjsxbt bian ji shi xiang biao ti bianjishixiangbiaoti b j s x b t bjsxbt"},{"id":"linear-assign","appId":"linear","type":"software","category":"productivity","name":{"zh":"分配给…","en":"Assign To"},"description":{"zh":"分配给…","en":"Assign To"},"windows":"A","mac":"A","linux":"A","keywords":["分配给…","Assign To"],"pinyin":"fen pei ji … fenpeiji… f p j … fpj… fen pei ji … fenpeiji… f p j … fpj…"},{"id":"linear-priority","appId":"linear","type":"software","category":"productivity","name":{"zh":"设置优先级","en":"Set Priority"},"description":{"zh":"设置优先级","en":"Set Priority"},"windows":"P","mac":"P","linux":"P","keywords":["设置优先级","Set Priority"],"pinyin":"she zhi you xian ji shezhiyouxianji s z y x j szyxj she zhi you xian ji shezhiyouxianji s z y x j szyxj"},{"id":"linear-status","appId":"linear","type":"software","category":"productivity","name":{"zh":"设置状态","en":"Set Status"},"description":{"zh":"设置状态","en":"Set Status"},"windows":"S","mac":"S","linux":"S","keywords":["设置状态","Set Status"],"pinyin":"she zhi zhuang tai shezhizhuangtai s z z t szzt she zhi zhuang tai shezhizhuangtai s z z t szzt"},{"id":"linear-label","appId":"linear","type":"software","category":"productivity","name":{"zh":"添加标签","en":"Add Label"},"description":{"zh":"添加标签","en":"Add Label"},"windows":"L","mac":"L","linux":"L","keywords":["添加标签","Add Label"],"pinyin":"tian jia biao qian tianjiabiaoqian t j b q tjbq tian jia biao qian tianjiabiaoqian t j b q tjbq"},{"id":"linear-due","appId":"linear","type":"software","category":"productivity","name":{"zh":"设置截止日期","en":"Set Due Date"},"description":{"zh":"设置截止日期","en":"Set Due Date"},"windows":"D","mac":"D","linux":"D","keywords":["设置截止日期","Set Due Date"],"pinyin":"she zhi jie zhi ri qi shezhijiezhiriqi s z j z r q szjzrq she zhi jie zhi ri qi shezhijiezhiriqi s z j z r q szjzrq"},{"id":"linear-moveproj","appId":"linear","type":"software","category":"productivity","name":{"zh":"移动到项目","en":"Move to Project"},"description":{"zh":"移动到项目","en":"Move to Project"},"windows":"Shift P","mac":"Shift P","linux":"Shift P","keywords":["移动到项目","Move to Project"],"pinyin":"yi dong dao xiang mu yidongdaoxiangmu y d d x m yddxm yi dong dao xiang mu yidongdaoxiangmu y d d x m yddxm"},{"id":"linear-movecycle","appId":"linear","type":"software","category":"productivity","name":{"zh":"移动到周期","en":"Move to Cycle"},"description":{"zh":"移动到周期","en":"Move to Cycle"},"windows":"Shift C","mac":"Shift C","linux":"Shift C","keywords":["移动到周期","Move to Cycle"],"pinyin":"yi dong dao zhou qi yidongdaozhouqi y d d z q yddzq yi dong dao zhou qi yidongdaozhouqi y d d z q yddzq"},{"id":"linear-fav","appId":"linear","type":"software","category":"productivity","name":{"zh":"添加到收藏","en":"Add to Favorites"},"description":{"zh":"添加到收藏","en":"Add to Favorites"},"windows":"F","mac":"F","linux":"F","keywords":["添加到收藏","Add to Favorites"],"pinyin":"tian jia dao shou cang tianjiadaoshoucang t j d s c tjdsc tian jia dao shou cang tianjiadaoshoucang t j d s c tjdsc"},{"id":"linear-duplicate","appId":"linear","type":"software","category":"productivity","name":{"zh":"复制事项","en":"Duplicate Issue"},"description":{"zh":"复制事项","en":"Duplicate Issue"},"windows":"Ctrl D","mac":"⌘ D","linux":"Ctrl D","keywords":["复制事项","Duplicate Issue"],"pinyin":"fu zhi shi xiang fuzhishixiang f z s x fzsx fu zhi shi xiang fuzhishixiang f z s x fzsx"},{"id":"linear-delete","appId":"linear","type":"software","category":"productivity","name":{"zh":"删除事项","en":"Delete Issue"},"description":{"zh":"删除事项","en":"Delete Issue"},"windows":"Backspace","mac":"⌫","linux":"Backspace","keywords":["删除事项","Delete Issue"],"pinyin":"shan chu shi xiang shanchushixiang s c s x scsx shan chu shi xiang shanchushixiang s c s x scsx"},{"id":"linear-p0","appId":"linear","type":"software","category":"productivity","name":{"zh":"优先级：无","en":"Priority: No Priority"},"description":{"zh":"优先级：无","en":"Priority: No Priority"},"windows":"0","mac":"0","linux":"0","keywords":["优先级：无","Priority: No Priority"],"pinyin":"you xian ji ： wu youxianji：wu y x j ： w yxj：w you xian ji ： wu youxianji：wu y x j ： w yxj：w"},{"id":"linear-p1","appId":"linear","type":"software","category":"productivity","name":{"zh":"优先级：紧急","en":"Priority: Urgent"},"description":{"zh":"优先级：紧急","en":"Priority: Urgent"},"windows":"1","mac":"1","linux":"1","keywords":["优先级：紧急","Priority: Urgent"],"pinyin":"you xian ji ： jin ji youxianji：jinji y x j ： j j yxj：jj you xian ji ： jin ji youxianji：jinji y x j ： j j yxj：jj"},{"id":"linear-p2","appId":"linear","type":"software","category":"productivity","name":{"zh":"优先级：高","en":"Priority: High"},"description":{"zh":"优先级：高","en":"Priority: High"},"windows":"2","mac":"2","linux":"2","keywords":["优先级：高","Priority: High"],"pinyin":"you xian ji ： gao youxianji：gao y x j ： g yxj：g you xian ji ： gao youxianji：gao y x j ： g yxj：g"},{"id":"linear-p3","appId":"linear","type":"software","category":"productivity","name":{"zh":"优先级：中","en":"Priority: Medium"},"description":{"zh":"优先级：中","en":"Priority: Medium"},"windows":"3","mac":"3","linux":"3","keywords":["优先级：中","Priority: Medium"],"pinyin":"you xian ji ： zhong youxianji：zhong y x j ： z yxj：z you xian ji ： zhong youxianji：zhong y x j ： z yxj：z"},{"id":"linear-p4","appId":"linear","type":"software","category":"productivity","name":{"zh":"优先级：低","en":"Priority: Low"},"description":{"zh":"优先级：低","en":"Priority: Low"},"windows":"4","mac":"4","linux":"4","keywords":["优先级：低","Priority: Low"],"pinyin":"you xian ji ： di youxianji：di y x j ： d yxj：d you xian ji ： di youxianji：di y x j ： d yxj：d"},{"id":"linear-togglebar","appId":"linear","type":"software","category":"productivity","name":{"zh":"切换侧边栏","en":"Toggle Sidebar"},"description":{"zh":"切换侧边栏","en":"Toggle Sidebar"},"windows":"Ctrl \\","mac":"⌘ \\","linux":"Ctrl \\","keywords":["切换侧边栏","Toggle Sidebar"],"pinyin":"qie huan ce bian lan qiehuancebianlan q h c b l qhcbl qie huan ce bian lan qiehuancebianlan q h c b l qhcbl"},{"id":"linear-saveclose","appId":"linear","type":"software","category":"productivity","name":{"zh":"保存并关闭（模态框）","en":"Save and Close (in Modals)"},"description":{"zh":"保存并关闭（模态框）","en":"Save and Close (in Modals)"},"windows":"Ctrl Enter","mac":"⌘ Enter","linux":"Ctrl Enter","keywords":["保存并关闭（模态框）","Save and Close (in Modals)"],"pinyin":"bao cun bing guan bi （ mo tai kuang ） baocunbingguanbi（motaikuang） b c b g b （ m t k ） bcbgb（mtk） bao cun bing guan bi （ mo tai kuang ） baocunbingguanbi（motaikuang） b c b g b （ m t k ） bcbgb（mtk）"},{"id":"linear-select","appId":"linear","type":"software","category":"productivity","name":{"zh":"选择事项（列表中）","en":"Select Issue (in List)"},"description":{"zh":"选择事项（列表中）","en":"Select Issue (in List)"},"windows":"X","mac":"X","linux":"X","keywords":["选择事项（列表中）","Select Issue (in List)"],"pinyin":"xuan ze shi xiang （ lie biao zhong ） xuanzeshixiang（liebiaozhong） x z s x （ l b z ） xzsx（lbz） xuan ze shi xiang （ lie biao zhong ） xuanzeshixiang（liebiaozhong） x z s x （ l b z ） xzsx（lbz）"},{"id":"linear-detail","appId":"linear","type":"software","category":"productivity","name":{"zh":"打开事项详情","en":"Open Issue Detail"},"description":{"zh":"打开事项详情","en":"Open Issue Detail"},"windows":"Enter","mac":"Enter","linux":"Enter","keywords":["打开事项详情","Open Issue Detail"],"pinyin":"da kai shi xiang xiang qing dakaishixiangxiangqing d k s x x q dksxxq da kai shi xiang xiang qing dakaishixiangxiangqing d k s x x q dksxxq"},{"id":"linear-focusup","appId":"linear","type":"software","category":"productivity","name":{"zh":"焦点上移","en":"Move Focus Up"},"description":{"zh":"焦点上移","en":"Move Focus Up"},"windows":"K","mac":"K","linux":"K","keywords":["焦点上移","Move Focus Up"],"pinyin":"jiao dian shang yi jiaodianshangyi j d s y jdsy jiao dian shang yi jiaodianshangyi j d s y jdsy"},{"id":"linear-focusdown","appId":"linear","type":"software","category":"productivity","name":{"zh":"焦点下移","en":"Move Focus Down"},"description":{"zh":"焦点下移","en":"Move Focus Down"},"windows":"J","mac":"J","linux":"J","keywords":["焦点下移","Move Focus Down"],"pinyin":"jiao dian xia yi jiaodianxiayi j d x y jdxy jiao dian xia yi jiaodianxiayi j d x y jdxy"},{"id":"linear-board","appId":"linear","type":"software","category":"productivity","name":{"zh":"切换到看板视图","en":"Switch to Board View"},"description":{"zh":"切换到看板视图","en":"Switch to Board View"},"windows":"Ctrl Shift B","mac":"⌘ ⇧ B","linux":"Ctrl Shift B","keywords":["切换到看板视图","Switch to Board View"],"pinyin":"qie huan dao kan ban shi tu qiehuandaokanbanshitu q h d k b s t qhdkbst qie huan dao kan ban shi tu qiehuandaokanbanshitu q h d k b s t qhdkbst"},{"id":"linear-list","appId":"linear","type":"software","category":"productivity","name":{"zh":"切换到列表视图","en":"Switch to List View"},"description":{"zh":"切换到列表视图","en":"Switch to List View"},"windows":"Ctrl Shift L","mac":"⌘ ⇧ L","linux":"Ctrl Shift L","keywords":["切换到列表视图","Switch to List View"],"pinyin":"qie huan dao lie biao shi tu qiehuandaoliebiaoshitu q h d l b s t qhdlbst qie huan dao lie biao shi tu qiehuandaoliebiaoshitu q h d l b s t qhdlbst"}]
+[
+  {
+    "id": "linear-cmd",
+    "appId": "linear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "命令面板 / 搜索",
+      "en": "Command Palette / Search"
+    },
+    "description": {
+      "zh": "命令面板 / 搜索",
+      "en": "Command Palette / Search"
+    },
+    "windows": "Ctrl K",
+    "mac": "⌘ K",
+    "linux": "Ctrl K",
+    "keywords": [
+      "命令面板 / 搜索",
+      "Command Palette / Search"
+    ],
+    "pinyin": "ming ling mian ban   /   sou suo minglingmianban / sousuo m l m b   /   s s mlmb / ss ming ling mian ban   /   sou suo minglingmianban / sousuo m l m b   /   s s mlmb / ss"
+  },
+  {
+    "id": "linear-newissue",
+    "appId": "linear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "新建事项",
+      "en": "Create New Issue"
+    },
+    "description": {
+      "zh": "新建事项",
+      "en": "Create New Issue"
+    },
+    "windows": "C",
+    "mac": "C",
+    "linux": "C",
+    "keywords": [
+      "新建事项",
+      "Create New Issue"
+    ],
+    "pinyin": "xin jian shi xiang xinjianshixiang x j s x xjsx xin jian shi xiang xinjianshixiang x j s x xjsx"
+  },
+  {
+    "id": "linear-subissue",
+    "appId": "linear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "新建子事项",
+      "en": "Create Sub-Issue"
+    },
+    "description": {
+      "zh": "新建子事项",
+      "en": "Create Sub-Issue"
+    },
+    "windows": "Alt C",
+    "mac": "⌥ C",
+    "linux": "Alt C",
+    "keywords": [
+      "新建子事项",
+      "Create Sub-Issue"
+    ],
+    "pinyin": "xin jian zi shi xiang xinjianzishixiang x j z s x xjzsx xin jian zi shi xiang xinjianzishixiang x j z s x xjzsx"
+  },
+  {
+    "id": "linear-inbox",
+    "appId": "linear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "转到收件箱",
+      "en": "Go to Inbox"
+    },
+    "description": {
+      "zh": "转到收件箱",
+      "en": "Go to Inbox"
+    },
+    "windows": "G I",
+    "mac": "G I",
+    "linux": "G I",
+    "keywords": [
+      "转到收件箱",
+      "Go to Inbox"
+    ],
+    "pinyin": "zhuan dao shou jian xiang zhuandaoshoujianxiang z d s j x zdsjx zhuan dao shou jian xiang zhuandaoshoujianxiang z d s j x zdsjx"
+  },
+  {
+    "id": "linear-myissues",
+    "appId": "linear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "转到我的事项",
+      "en": "Go to My Issues"
+    },
+    "description": {
+      "zh": "转到我的事项",
+      "en": "Go to My Issues"
+    },
+    "windows": "G M",
+    "mac": "G M",
+    "linux": "G M",
+    "keywords": [
+      "转到我的事项",
+      "Go to My Issues"
+    ],
+    "pinyin": "zhuan dao wo de shi xiang zhuandaowodeshixiang z d w d s x zdwdsx zhuan dao wo de shi xiang zhuandaowodeshixiang z d w d s x zdwdsx"
+  },
+  {
+    "id": "linear-allissues",
+    "appId": "linear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "转到全部事项",
+      "en": "Go to All Issues"
+    },
+    "description": {
+      "zh": "转到全部事项",
+      "en": "Go to All Issues"
+    },
+    "windows": "G A",
+    "mac": "G A",
+    "linux": "G A",
+    "keywords": [
+      "转到全部事项",
+      "Go to All Issues"
+    ],
+    "pinyin": "zhuan dao quan bu shi xiang zhuandaoquanbushixiang z d q b s x zdqbsx zhuan dao quan bu shi xiang zhuandaoquanbushixiang z d q b s x zdqbsx"
+  },
+  {
+    "id": "linear-backlog",
+    "appId": "linear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "转到待办",
+      "en": "Go to Backlog"
+    },
+    "description": {
+      "zh": "转到待办",
+      "en": "Go to Backlog"
+    },
+    "windows": "G B",
+    "mac": "G B",
+    "linux": "G B",
+    "keywords": [
+      "转到待办",
+      "Go to Backlog"
+    ],
+    "pinyin": "zhuan dao dai ban zhuandaodaiban z d d b zddb zhuan dao dai ban zhuandaodaiban z d d b zddb"
+  },
+  {
+    "id": "linear-projects",
+    "appId": "linear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "转到项目",
+      "en": "Go to Projects"
+    },
+    "description": {
+      "zh": "转到项目",
+      "en": "Go to Projects"
+    },
+    "windows": "G P",
+    "mac": "G P",
+    "linux": "G P",
+    "keywords": [
+      "转到项目",
+      "Go to Projects"
+    ],
+    "pinyin": "zhuan dao xiang mu zhuandaoxiangmu z d x m zdxm zhuan dao xiang mu zhuandaoxiangmu z d x m zdxm"
+  },
+  {
+    "id": "linear-roadmap",
+    "appId": "linear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "转到路线图",
+      "en": "Go to Roadmap"
+    },
+    "description": {
+      "zh": "转到路线图",
+      "en": "Go to Roadmap"
+    },
+    "windows": "G R",
+    "mac": "G R",
+    "linux": "G R",
+    "keywords": [
+      "转到路线图",
+      "Go to Roadmap"
+    ],
+    "pinyin": "zhuan dao lu xian tu zhuandaoluxiantu z d l x t zdlxt zhuan dao lu xian tu zhuandaoluxiantu z d l x t zdlxt"
+  },
+  {
+    "id": "linear-cycles",
+    "appId": "linear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "转到周期",
+      "en": "Go to Cycles"
+    },
+    "description": {
+      "zh": "转到周期",
+      "en": "Go to Cycles"
+    },
+    "windows": "G C",
+    "mac": "G C",
+    "linux": "G C",
+    "keywords": [
+      "转到周期",
+      "Go to Cycles"
+    ],
+    "pinyin": "zhuan dao zhou qi zhuandaozhouqi z d z q zdzq zhuan dao zhou qi zhuandaozhouqi z d z q zdzq"
+  },
+  {
+    "id": "linear-views",
+    "appId": "linear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "转到视图",
+      "en": "Go to Views"
+    },
+    "description": {
+      "zh": "转到视图",
+      "en": "Go to Views"
+    },
+    "windows": "G V",
+    "mac": "G V",
+    "linux": "G V",
+    "keywords": [
+      "转到视图",
+      "Go to Views"
+    ],
+    "pinyin": "zhuan dao shi tu zhuandaoshitu z d s t zdst zhuan dao shi tu zhuandaoshitu z d s t zdst"
+  },
+  {
+    "id": "linear-edit",
+    "appId": "linear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "编辑事项标题",
+      "en": "Edit Issue Title"
+    },
+    "description": {
+      "zh": "编辑事项标题",
+      "en": "Edit Issue Title"
+    },
+    "windows": "E",
+    "mac": "E",
+    "linux": "E",
+    "keywords": [
+      "编辑事项标题",
+      "Edit Issue Title"
+    ],
+    "pinyin": "bian ji shi xiang biao ti bianjishixiangbiaoti b j s x b t bjsxbt bian ji shi xiang biao ti bianjishixiangbiaoti b j s x b t bjsxbt"
+  },
+  {
+    "id": "linear-assign",
+    "appId": "linear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "分配给…",
+      "en": "Assign To"
+    },
+    "description": {
+      "zh": "分配给…",
+      "en": "Assign To"
+    },
+    "windows": "A",
+    "mac": "A",
+    "linux": "A",
+    "keywords": [
+      "分配给…",
+      "Assign To"
+    ],
+    "pinyin": "fen pei ji … fenpeiji… f p j … fpj… fen pei ji … fenpeiji… f p j … fpj…"
+  },
+  {
+    "id": "linear-priority",
+    "appId": "linear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "设置优先级",
+      "en": "Set Priority"
+    },
+    "description": {
+      "zh": "设置优先级",
+      "en": "Set Priority"
+    },
+    "windows": "P",
+    "mac": "P",
+    "linux": "P",
+    "keywords": [
+      "设置优先级",
+      "Set Priority"
+    ],
+    "pinyin": "she zhi you xian ji shezhiyouxianji s z y x j szyxj she zhi you xian ji shezhiyouxianji s z y x j szyxj"
+  },
+  {
+    "id": "linear-status",
+    "appId": "linear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "设置状态",
+      "en": "Set Status"
+    },
+    "description": {
+      "zh": "设置状态",
+      "en": "Set Status"
+    },
+    "windows": "S",
+    "mac": "S",
+    "linux": "S",
+    "keywords": [
+      "设置状态",
+      "Set Status"
+    ],
+    "pinyin": "she zhi zhuang tai shezhizhuangtai s z z t szzt she zhi zhuang tai shezhizhuangtai s z z t szzt"
+  },
+  {
+    "id": "linear-label",
+    "appId": "linear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "添加标签",
+      "en": "Add Label"
+    },
+    "description": {
+      "zh": "添加标签",
+      "en": "Add Label"
+    },
+    "windows": "L",
+    "mac": "L",
+    "linux": "L",
+    "keywords": [
+      "添加标签",
+      "Add Label"
+    ],
+    "pinyin": "tian jia biao qian tianjiabiaoqian t j b q tjbq tian jia biao qian tianjiabiaoqian t j b q tjbq"
+  },
+  {
+    "id": "linear-due",
+    "appId": "linear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "设置截止日期",
+      "en": "Set Due Date"
+    },
+    "description": {
+      "zh": "设置截止日期",
+      "en": "Set Due Date"
+    },
+    "windows": "D",
+    "mac": "D",
+    "linux": "D",
+    "keywords": [
+      "设置截止日期",
+      "Set Due Date"
+    ],
+    "pinyin": "she zhi jie zhi ri qi shezhijiezhiriqi s z j z r q szjzrq she zhi jie zhi ri qi shezhijiezhiriqi s z j z r q szjzrq"
+  },
+  {
+    "id": "linear-moveproj",
+    "appId": "linear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "移动到项目",
+      "en": "Move to Project"
+    },
+    "description": {
+      "zh": "移动到项目",
+      "en": "Move to Project"
+    },
+    "windows": "Shift P",
+    "mac": "Shift P",
+    "linux": "Shift P",
+    "keywords": [
+      "移动到项目",
+      "Move to Project"
+    ],
+    "pinyin": "yi dong dao xiang mu yidongdaoxiangmu y d d x m yddxm yi dong dao xiang mu yidongdaoxiangmu y d d x m yddxm"
+  },
+  {
+    "id": "linear-movecycle",
+    "appId": "linear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "移动到周期",
+      "en": "Move to Cycle"
+    },
+    "description": {
+      "zh": "移动到周期",
+      "en": "Move to Cycle"
+    },
+    "windows": "Shift C",
+    "mac": "Shift C",
+    "linux": "Shift C",
+    "keywords": [
+      "移动到周期",
+      "Move to Cycle"
+    ],
+    "pinyin": "yi dong dao zhou qi yidongdaozhouqi y d d z q yddzq yi dong dao zhou qi yidongdaozhouqi y d d z q yddzq"
+  },
+  {
+    "id": "linear-fav",
+    "appId": "linear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "添加到收藏",
+      "en": "Add to Favorites"
+    },
+    "description": {
+      "zh": "添加到收藏",
+      "en": "Add to Favorites"
+    },
+    "windows": "F",
+    "mac": "F",
+    "linux": "F",
+    "keywords": [
+      "添加到收藏",
+      "Add to Favorites"
+    ],
+    "pinyin": "tian jia dao shou cang tianjiadaoshoucang t j d s c tjdsc tian jia dao shou cang tianjiadaoshoucang t j d s c tjdsc"
+  },
+  {
+    "id": "linear-duplicate",
+    "appId": "linear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "复制事项",
+      "en": "Duplicate Issue"
+    },
+    "description": {
+      "zh": "复制事项",
+      "en": "Duplicate Issue"
+    },
+    "windows": "Ctrl D",
+    "mac": "⌘ D",
+    "linux": "Ctrl D",
+    "keywords": [
+      "复制事项",
+      "Duplicate Issue"
+    ],
+    "pinyin": "fu zhi shi xiang fuzhishixiang f z s x fzsx fu zhi shi xiang fuzhishixiang f z s x fzsx"
+  },
+  {
+    "id": "linear-delete",
+    "appId": "linear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "删除事项",
+      "en": "Delete Issue"
+    },
+    "description": {
+      "zh": "删除事项",
+      "en": "Delete Issue"
+    },
+    "windows": "Backspace",
+    "mac": "⌫",
+    "linux": "Backspace",
+    "keywords": [
+      "删除事项",
+      "Delete Issue"
+    ],
+    "pinyin": "shan chu shi xiang shanchushixiang s c s x scsx shan chu shi xiang shanchushixiang s c s x scsx"
+  },
+  {
+    "id": "linear-p0",
+    "appId": "linear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "优先级：无",
+      "en": "Priority: No Priority"
+    },
+    "description": {
+      "zh": "优先级：无",
+      "en": "Priority: No Priority"
+    },
+    "windows": "0",
+    "mac": "0",
+    "linux": "0",
+    "keywords": [
+      "优先级：无",
+      "Priority: No Priority"
+    ],
+    "pinyin": "you xian ji ： wu youxianji：wu y x j ： w yxj：w you xian ji ： wu youxianji：wu y x j ： w yxj：w"
+  },
+  {
+    "id": "linear-p1",
+    "appId": "linear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "优先级：紧急",
+      "en": "Priority: Urgent"
+    },
+    "description": {
+      "zh": "优先级：紧急",
+      "en": "Priority: Urgent"
+    },
+    "windows": "1",
+    "mac": "1",
+    "linux": "1",
+    "keywords": [
+      "优先级：紧急",
+      "Priority: Urgent"
+    ],
+    "pinyin": "you xian ji ： jin ji youxianji：jinji y x j ： j j yxj：jj you xian ji ： jin ji youxianji：jinji y x j ： j j yxj：jj"
+  },
+  {
+    "id": "linear-p2",
+    "appId": "linear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "优先级：高",
+      "en": "Priority: High"
+    },
+    "description": {
+      "zh": "优先级：高",
+      "en": "Priority: High"
+    },
+    "windows": "2",
+    "mac": "2",
+    "linux": "2",
+    "keywords": [
+      "优先级：高",
+      "Priority: High"
+    ],
+    "pinyin": "you xian ji ： gao youxianji：gao y x j ： g yxj：g you xian ji ： gao youxianji：gao y x j ： g yxj：g"
+  },
+  {
+    "id": "linear-p3",
+    "appId": "linear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "优先级：中",
+      "en": "Priority: Medium"
+    },
+    "description": {
+      "zh": "优先级：中",
+      "en": "Priority: Medium"
+    },
+    "windows": "3",
+    "mac": "3",
+    "linux": "3",
+    "keywords": [
+      "优先级：中",
+      "Priority: Medium"
+    ],
+    "pinyin": "you xian ji ： zhong youxianji：zhong y x j ： z yxj：z you xian ji ： zhong youxianji：zhong y x j ： z yxj：z"
+  },
+  {
+    "id": "linear-p4",
+    "appId": "linear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "优先级：低",
+      "en": "Priority: Low"
+    },
+    "description": {
+      "zh": "优先级：低",
+      "en": "Priority: Low"
+    },
+    "windows": "4",
+    "mac": "4",
+    "linux": "4",
+    "keywords": [
+      "优先级：低",
+      "Priority: Low"
+    ],
+    "pinyin": "you xian ji ： di youxianji：di y x j ： d yxj：d you xian ji ： di youxianji：di y x j ： d yxj：d"
+  },
+  {
+    "id": "linear-togglebar",
+    "appId": "linear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "切换侧边栏",
+      "en": "Toggle Sidebar"
+    },
+    "description": {
+      "zh": "切换侧边栏",
+      "en": "Toggle Sidebar"
+    },
+    "windows": "Ctrl \\",
+    "mac": "⌘ \\",
+    "linux": "Ctrl \\",
+    "keywords": [
+      "切换侧边栏",
+      "Toggle Sidebar"
+    ],
+    "pinyin": "qie huan ce bian lan qiehuancebianlan q h c b l qhcbl qie huan ce bian lan qiehuancebianlan q h c b l qhcbl"
+  },
+  {
+    "id": "linear-saveclose",
+    "appId": "linear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "保存并关闭（模态框）",
+      "en": "Save and Close (in Modals)"
+    },
+    "description": {
+      "zh": "保存并关闭（模态框）",
+      "en": "Save and Close (in Modals)"
+    },
+    "windows": "Ctrl Enter",
+    "mac": "⌘ Enter",
+    "linux": "Ctrl Enter",
+    "keywords": [
+      "保存并关闭（模态框）",
+      "Save and Close (in Modals)"
+    ],
+    "pinyin": "bao cun bing guan bi （ mo tai kuang ） baocunbingguanbi（motaikuang） b c b g b （ m t k ） bcbgb（mtk） bao cun bing guan bi （ mo tai kuang ） baocunbingguanbi（motaikuang） b c b g b （ m t k ） bcbgb（mtk）"
+  },
+  {
+    "id": "linear-select",
+    "appId": "linear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "选择事项（列表中）",
+      "en": "Select Issue (in List)"
+    },
+    "description": {
+      "zh": "选择事项（列表中）",
+      "en": "Select Issue (in List)"
+    },
+    "windows": "X",
+    "mac": "X",
+    "linux": "X",
+    "keywords": [
+      "选择事项（列表中）",
+      "Select Issue (in List)"
+    ],
+    "pinyin": "xuan ze shi xiang （ lie biao zhong ） xuanzeshixiang（liebiaozhong） x z s x （ l b z ） xzsx（lbz） xuan ze shi xiang （ lie biao zhong ） xuanzeshixiang（liebiaozhong） x z s x （ l b z ） xzsx（lbz）"
+  },
+  {
+    "id": "linear-detail",
+    "appId": "linear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "打开事项详情",
+      "en": "Open Issue Detail"
+    },
+    "description": {
+      "zh": "打开事项详情",
+      "en": "Open Issue Detail"
+    },
+    "windows": "Enter",
+    "mac": "Enter",
+    "linux": "Enter",
+    "keywords": [
+      "打开事项详情",
+      "Open Issue Detail"
+    ],
+    "pinyin": "da kai shi xiang xiang qing dakaishixiangxiangqing d k s x x q dksxxq da kai shi xiang xiang qing dakaishixiangxiangqing d k s x x q dksxxq"
+  },
+  {
+    "id": "linear-focusup",
+    "appId": "linear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "焦点上移",
+      "en": "Move Focus Up"
+    },
+    "description": {
+      "zh": "焦点上移",
+      "en": "Move Focus Up"
+    },
+    "windows": "K",
+    "mac": "K",
+    "linux": "K",
+    "keywords": [
+      "焦点上移",
+      "Move Focus Up"
+    ],
+    "pinyin": "jiao dian shang yi jiaodianshangyi j d s y jdsy jiao dian shang yi jiaodianshangyi j d s y jdsy"
+  },
+  {
+    "id": "linear-focusdown",
+    "appId": "linear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "焦点下移",
+      "en": "Move Focus Down"
+    },
+    "description": {
+      "zh": "焦点下移",
+      "en": "Move Focus Down"
+    },
+    "windows": "J",
+    "mac": "J",
+    "linux": "J",
+    "keywords": [
+      "焦点下移",
+      "Move Focus Down"
+    ],
+    "pinyin": "jiao dian xia yi jiaodianxiayi j d x y jdxy jiao dian xia yi jiaodianxiayi j d x y jdxy"
+  },
+  {
+    "id": "linear-board",
+    "appId": "linear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "切换到看板视图",
+      "en": "Switch to Board View"
+    },
+    "description": {
+      "zh": "切换到看板视图",
+      "en": "Switch to Board View"
+    },
+    "windows": "Ctrl Shift B",
+    "mac": "⌘ ⇧ B",
+    "linux": "Ctrl Shift B",
+    "keywords": [
+      "切换到看板视图",
+      "Switch to Board View"
+    ],
+    "pinyin": "qie huan dao kan ban shi tu qiehuandaokanbanshitu q h d k b s t qhdkbst qie huan dao kan ban shi tu qiehuandaokanbanshitu q h d k b s t qhdkbst"
+  },
+  {
+    "id": "linear-list",
+    "appId": "linear",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "zh": "切换到列表视图",
+      "en": "Switch to List View"
+    },
+    "description": {
+      "zh": "切换到列表视图",
+      "en": "Switch to List View"
+    },
+    "windows": "Ctrl Shift L",
+    "mac": "⌘ ⇧ L",
+    "linux": "Ctrl Shift L",
+    "keywords": [
+      "切换到列表视图",
+      "Switch to List View"
+    ],
+    "pinyin": "qie huan dao lie biao shi tu qiehuandaoliebiaoshitu q h d l b s t qhdlbst qie huan dao lie biao shi tu qiehuandaoliebiaoshitu q h d l b s t qhdlbst"
+  }
+]

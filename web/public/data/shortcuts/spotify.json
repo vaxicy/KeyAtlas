@@ -1,1 +1,712 @@
-[{"id":"spot-search","appId":"spotify","type":"software","category":"other","name":{"zh":"打开搜索","en":"Open Search"},"description":{"zh":"打开搜索（⌘ K）","en":"Open Search (⌘ K)"},"windows":"Ctrl + K","mac":"⌘ K","linux":"Ctrl + K","keywords":["打开搜索","Open Search","搜索","search"],"pinyin":"da kai sou suo dakaisousuo d k s s dkss da kai sou suo   sou suo dakaisousuo sousuo d k s s   s s dkss ss"},{"id":"spot-help","appId":"spotify","type":"software","category":"other","name":{"zh":"打开帮助","en":"Open Help"},"description":{"zh":"打开帮助（⌘ /）","en":"Open Help (⌘ /)"},"windows":"Ctrl + /","mac":"⌘ /","linux":"Ctrl + /","keywords":["打开帮助","Open Help"],"pinyin":"da kai bang zhu dakaibangzhu d k b z dkbz da kai bang zhu dakaibangzhu d k b z dkbz"},{"id":"spot-like","appId":"spotify","type":"software","category":"other","name":{"zh":"喜欢/不喜欢歌曲","en":"Like or Dislike song"},"description":{"zh":"喜欢/不喜欢歌曲（⌥ ⇧ B）","en":"Like or Dislike song (⌥ ⇧ B)"},"windows":"Alt + Shift + B","mac":"⌥ ⇧ B","linux":"Alt + Shift + B","keywords":["喜欢/不喜欢歌曲","Like or Dislike song"],"pinyin":"xi huan / bu xi huan ge qu xihuan/buxihuangequ x h / b x h g q xh/bxhgq xi huan / bu xi huan ge qu xihuan/buxihuangequ x h / b x h g q xh/bxhgq"},{"id":"spot-logout","appId":"spotify","type":"software","category":"other","name":{"zh":"退出登录","en":"Log out"},"description":{"zh":"退出登录（⌥ ⇧ F6）","en":"Log out (⌥ ⇧ F6)"},"windows":"Alt + Shift + F6","mac":"⌥ ⇧ F6","linux":"Alt + Shift + F6","keywords":["退出登录","Log out"],"pinyin":"tui chu deng lu tuichudenglu t c d l tcdl tui chu deng lu tuichudenglu t c d l tcdl"},{"id":"spot-selectall","appId":"spotify","type":"software","category":"other","name":{"zh":"全选","en":"Select all"},"description":{"zh":"全选（⌘ A）","en":"Select all (⌘ A)"},"windows":"Ctrl + A","mac":"⌘ A","linux":"Ctrl + A","keywords":["全选","Select all"],"pinyin":"quan xuan quanxuan q x qx quan xuan quanxuan q x qx"},{"id":"spot-filter","appId":"spotify","type":"software","category":"other","name":{"zh":"筛选","en":"Filter"},"description":{"zh":"筛选（⌘ F）","en":"Filter (⌘ F)"},"windows":"Ctrl + F","mac":"⌘ F","linux":"Ctrl + F","keywords":["筛选","Filter"],"pinyin":"shai xuan shaixuan s x sx shai xuan shaixuan s x sx"},{"id":"spot-playpause","appId":"spotify","type":"software","category":"other","name":{"zh":"播放/暂停","en":"Play/Pause"},"description":{"zh":"播放/暂停（Space）","en":"Play/Pause (Space)"},"windows":"Space","mac":"Space","linux":"Space","keywords":["播放/暂停","Play/Pause","播放","play"],"pinyin":"bo fang / zan ting bofang/zanting b f / z t bf/zt bo fang / zan ting   bo fang bofang/zanting bofang b f / z t   b f bf/zt bf"},{"id":"spot-shuffle","appId":"spotify","type":"software","category":"other","name":{"zh":"随机播放","en":"Shuffle"},"description":{"zh":"随机播放（⌥ S）","en":"Shuffle (⌥ S)"},"windows":"Ctrl + S","mac":"⌥ S","linux":"Ctrl + S","keywords":["随机播放","Shuffle"],"pinyin":"sui ji bo fang suijibofang s j b f sjbf sui ji bo fang suijibofang s j b f sjbf"},{"id":"spot-repeat","appId":"spotify","type":"software","category":"other","name":{"zh":"循环播放","en":"Repeat"},"description":{"zh":"循环播放（⌥ R）","en":"Repeat (⌥ R)"},"windows":"Ctrl + R","mac":"⌥ R","linux":"Ctrl + R","keywords":["循环播放","Repeat"],"pinyin":"xun huan bo fang xunhuanbofang x h b f xhbf xun huan bo fang xunhuanbofang x h b f xhbf"},{"id":"spot-library","appId":"spotify","type":"software","category":"other","name":{"zh":"转到资料库","en":"Go to Library"},"description":{"zh":"转到资料库（⌥ ⇧ 0）","en":"Go to Library (⌥ ⇧ 0)"},"windows":"Alt + Shift + 0","mac":"⌥ ⇧ 0","linux":"Alt + Shift + 0","keywords":["转到资料库","Go to Library"],"pinyin":"zhuan dao zi liao ku zhuandaoziliaoku z d z l k zdzlk zhuan dao zi liao ku zhuandaoziliaoku z d z l k zdzlk"},{"id":"spot-playlists","appId":"spotify","type":"software","category":"other","name":{"zh":"转到播放列表","en":"Go to Playlists"},"description":{"zh":"转到播放列表（⌥ ⇧ 1）","en":"Go to Playlists (⌥ ⇧ 1)"},"windows":"Alt + Shift + 1","mac":"⌥ ⇧ 1","linux":"Alt + Shift + 1","keywords":["转到播放列表","Go to Playlists"],"pinyin":"zhuan dao bo fang lie biao zhuandaobofangliebiao z d b f l b zdbflb zhuan dao bo fang lie biao zhuandaobofangliebiao z d b f l b zdbflb"},{"id":"spot-podcasts","appId":"spotify","type":"software","category":"other","name":{"zh":"转到播客","en":"Go to Podcasts"},"description":{"zh":"转到播客（⌥ ⇧ 2）","en":"Go to Podcasts (⌥ ⇧ 2)"},"windows":"Alt + Shift + 2","mac":"⌥ ⇧ 2","linux":"Alt + Shift + 2","keywords":["转到播客","Go to Podcasts"],"pinyin":"zhuan dao bo ke zhuandaoboke z d b k zdbk zhuan dao bo ke zhuandaoboke z d b k zdbk"},{"id":"spot-artists","appId":"spotify","type":"software","category":"other","name":{"zh":"转到艺人","en":"Go to Artists"},"description":{"zh":"转到艺人（⌥ ⇧ 3）","en":"Go to Artists (⌥ ⇧ 3)"},"windows":"Alt + Shift + 3","mac":"⌥ ⇧ 3","linux":"Alt + Shift + 3","keywords":["转到艺人","Go to Artists"],"pinyin":"zhuan dao yi ren zhuandaoyiren z d y r zdyr zhuan dao yi ren zhuandaoyiren z d y r zdyr"},{"id":"spot-albums","appId":"spotify","type":"software","category":"other","name":{"zh":"转到专辑","en":"Go to Albums"},"description":{"zh":"转到专辑（⌥ ⇧ 4）","en":"Go to Albums (⌥ ⇧ 4)"},"windows":"Alt + Shift + 4","mac":"⌥ ⇧ 4","linux":"Alt + Shift + 4","keywords":["转到专辑","Go to Albums"],"pinyin":"zhuan dao zhuan ji zhuandaozhuanji z d z j zdzj zhuan dao zhuan ji zhuandaozhuanji z d z j zdzj"},{"id":"spot-audiobooks","appId":"spotify","type":"software","category":"other","name":{"zh":"转到有声书","en":"Go to Audiobooks"},"description":{"zh":"转到有声书（⌥ ⇧ 5）","en":"Go to Audiobooks (⌥ ⇧ 5)"},"windows":"Alt + Shift + 5","mac":"⌥ ⇧ 5","linux":"Alt + Shift + 5","keywords":["转到有声书","Go to Audiobooks"],"pinyin":"zhuan dao you sheng shu zhuandaoyoushengshu z d y s s zdyss zhuan dao you sheng shu zhuandaoyoushengshu z d y s s zdyss"},{"id":"spot-home","appId":"spotify","type":"software","category":"other","name":{"zh":"转到首页","en":"Go to Home"},"description":{"zh":"转到首页（⌥ ⇧ H）","en":"Go to Home (⌥ ⇧ H)"},"windows":"Alt + Shift + H","mac":"⌥ ⇧ H","linux":"Alt + Shift + H","keywords":["转到首页","Go to Home"],"pinyin":"zhuan dao shou ye zhuandaoshouye z d s y zdsy zhuan dao shou ye zhuandaoshouye z d s y zdsy"},{"id":"spot-prefs","appId":"spotify","type":"software","category":"other","name":{"zh":"打开偏好设置","en":"Go to Preferences"},"description":{"zh":"打开偏好设置（⌘ ,）","en":"Go to Preferences (⌘ ,)"},"windows":"Ctrl + ,","mac":"⌘ ,","linux":"Ctrl + ,","keywords":["打开偏好设置","Go to Preferences"],"pinyin":"da kai pian hao she zhi dakaipianhaoshezhi d k p h s z dkphsz da kai pian hao she zhi dakaipianhaoshezhi d k p h s z dkphsz"},{"id":"spot-gosearch","appId":"spotify","type":"software","category":"other","name":{"zh":"转到搜索","en":"Go to Search"},"description":{"zh":"转到搜索（⌘ ⇧ L）","en":"Go to Search (⌘ ⇧ L)"},"windows":"Ctrl + L","mac":"⌘ ⇧ L","linux":"Ctrl + L","keywords":["转到搜索","Go to Search"],"pinyin":"zhuan dao sou suo zhuandaosousuo z d s s zdss zhuan dao sou suo zhuandaosousuo z d s s zdss"},{"id":"spot-nowplaying","appId":"spotify","type":"software","category":"other","name":{"zh":"转到正在播放","en":"Go to Now Playing"},"description":{"zh":"转到正在播放（⌥ ⇧ J）","en":"Go to Now Playing (⌥ ⇧ J)"},"windows":"Alt + Shift + J","mac":"⌥ ⇧ J","linux":"Alt + Shift + J","keywords":["转到正在播放","Go to Now Playing"],"pinyin":"zhuan dao zheng zai bo fang zhuandaozhengzaibofang z d z z b f zdzzbf zhuan dao zheng zai bo fang zhuandaozhengzaibofang z d z z b f zdzzbf"},{"id":"spot-likedsongs","appId":"spotify","type":"software","category":"other","name":{"zh":"转到喜欢的歌曲","en":"Go to Liked Songs"},"description":{"zh":"转到喜欢的歌曲（⌥ ⇧ S）","en":"Go to Liked Songs (⌥ ⇧ S)"},"windows":"Alt + Shift + S","mac":"⌥ ⇧ S","linux":"Alt + Shift + S","keywords":["转到喜欢的歌曲","Go to Liked Songs"],"pinyin":"zhuan dao xi huan de ge qu zhuandaoxihuandegequ z d x h d g q zdxhdgq zhuan dao xi huan de ge qu zhuandaoxihuandegequ z d x h d g q zdxhdgq"},{"id":"spot-madeifyou","appId":"spotify","type":"software","category":"other","name":{"zh":"转到为你推荐","en":"Go to Made For You"},"description":{"zh":"转到为你推荐（⌥ ⇧ M）","en":"Go to Made For You (⌥ ⇧ M)"},"windows":"Alt + Shift + M","mac":"⌥ ⇧ M","linux":"Alt + Shift + M","keywords":["转到为你推荐","Go to Made For You"],"pinyin":"zhuan dao wei ni tui jian zhuandaoweinituijian z d w n t j zdwntj zhuan dao wei ni tui jian zhuandaoweinituijian z d w n t j zdwntj"},{"id":"spot-newreleases","appId":"spotify","type":"software","category":"other","name":{"zh":"转到新发行","en":"Go to New Releases"},"description":{"zh":"转到新发行（⌥ ⇧ N）","en":"Go to New Releases (⌥ ⇧ N)"},"windows":"Alt + Shift + N","mac":"⌥ ⇧ N","linux":"Alt + Shift + N","keywords":["转到新发行","Go to New Releases"],"pinyin":"zhuan dao xin fa xing zhuandaoxinfaxing z d x f x zdxfx zhuan dao xin fa xing zhuandaoxinfaxing z d x f x zdxfx"},{"id":"spot-charts","appId":"spotify","type":"software","category":"other","name":{"zh":"转到排行榜","en":"Go to Charts"},"description":{"zh":"转到排行榜（⌥ ⇧ C）","en":"Go to Charts (⌥ ⇧ C)"},"windows":"Alt + Shift + C","mac":"⌥ ⇧ C","linux":"Alt + Shift + C","keywords":["转到排行榜","Go to Charts"],"pinyin":"zhuan dao pai xing bang zhuandaopaixingbang z d p x b zdpxb zhuan dao pai xing bang zhuandaopaixingbang z d p x b zdpxb"},{"id":"spot-queue","appId":"spotify","type":"software","category":"other","name":{"zh":"转到播放队列","en":"Go to Queue"},"description":{"zh":"转到播放队列（⌥ ⇧ Q）","en":"Go to Queue (⌥ ⇧ Q)"},"windows":"Alt + Shift + Q","mac":"⌥ ⇧ Q","linux":"Alt + Shift + Q","keywords":["转到播放队列","Go to Queue"],"pinyin":"zhuan dao bo fang dui lie zhuandaobofangduilie z d b f d l zdbfdl zhuan dao bo fang dui lie zhuandaobofangduilie z d b f d l zdbfdl"},{"id":"spot-contextmenu","appId":"spotify","type":"software","category":"other","name":{"zh":"打开右键菜单","en":"Open Context Menu"},"description":{"zh":"打开右键菜单（⌥ J）","en":"Open Context Menu (⌥ J)"},"windows":"Alt + J","mac":"⌥ J","linux":"Alt + J","keywords":["打开右键菜单","Open Context Menu"],"pinyin":"da kai you jian cai dan dakaiyoujiancaidan d k y j c d dkyjcd da kai you jian cai dan dakaiyoujiancaidan d k y j c d dkyjcd"},{"id":"spot-toggle_np","appId":"spotify","type":"software","category":"other","name":{"zh":"切换正在播放侧栏","en":"Toggle Now Playing sidebar"},"description":{"zh":"切换正在播放侧栏（⌥ ⇧ R）","en":"Toggle Now Playing sidebar (⌥ ⇧ R)"},"windows":"Alt + Shift + R","mac":"⌥ ⇧ R","linux":"Alt + Shift + R","keywords":["切换正在播放侧栏","Toggle Now Playing sidebar"],"pinyin":"qie huan zheng zai bo fang ce lan qiehuanzhengzaibofangcelan q h z z b f c l qhzzbfcl qie huan zheng zai bo fang ce lan qiehuanzhengzaibofangcelan q h z z b f c l qhzzbfcl"},{"id":"spot-toggle_lib","appId":"spotify","type":"software","category":"other","name":{"zh":"切换资料库侧栏","en":"Toggle Your Library sidebar"},"description":{"zh":"切换资料库侧栏（⌥ ⇧ L）","en":"Toggle Your Library sidebar (⌥ ⇧ L)"},"windows":"Alt + Shift + L","mac":"⌥ ⇧ L","linux":"Alt + Shift + L","keywords":["切换资料库侧栏","Toggle Your Library sidebar"],"pinyin":"qie huan zi liao ku ce lan qiehuanziliaokucelan q h z l k c l qhzlkcl qie huan zi liao ku ce lan qiehuanziliaokucelan q h z l k c l qhzlkcl"},{"id":"spot-mute","appId":"spotify","type":"software","category":"other","name":{"zh":"静音/取消静音","en":"Mute/Unmute"},"description":{"zh":"静音/取消静音（M）","en":"Mute/Unmute (M)"},"windows":"M","mac":"M","linux":"M","keywords":["静音/取消静音","Mute/Unmute","静音","mute"],"pinyin":"jing yin / qu xiao jing yin jingyin/quxiaojingyin j y / q x j y jy/qxjy jing yin / qu xiao jing yin   jing yin jingyin/quxiaojingyin jingyin j y / q x j y   j y jy/qxjy jy"},{"id":"spot-prev","appId":"spotify","type":"software","category":"other","name":{"zh":"上一首","en":"Previous track"},"description":{"zh":"上一首（↑）","en":"Previous track (↑)"},"windows":"↑","mac":"↑","linux":"↑","keywords":["上一首","Previous track"],"pinyin":"shang yi shou shangyishou s y s sys shang yi shou shangyishou s y s sys"},{"id":"spot-next","appId":"spotify","type":"software","category":"other","name":{"zh":"下一首","en":"Next track"},"description":{"zh":"下一首（↓）","en":"Next track (↓)"},"windows":"↓","mac":"↓","linux":"↓","keywords":["下一首","Next track"],"pinyin":"xia yi shou xiayishou x y s xys xia yi shou xiayishou x y s xys"},{"id":"spot-addlib","appId":"spotify","type":"software","category":"other","name":{"zh":"添加到资料库","en":"Add to Library"},"description":{"zh":"添加到资料库（←）","en":"Add to Library (←)"},"windows":"←","mac":"←","linux":"←","keywords":["添加到资料库","Add to Library"],"pinyin":"tian jia dao zi liao ku tianjiadaoziliaoku t j d z l k tjdzlk tian jia dao zi liao ku tianjiadaoziliaoku t j d z l k tjdzlk"},{"id":"spot-addqueue","appId":"spotify","type":"software","category":"other","name":{"zh":"添加到队列","en":"Add to Queue"},"description":{"zh":"添加到队列（→）","en":"Add to Queue (→)"},"windows":"→","mac":"→","linux":"→","keywords":["添加到队列","Add to Queue"],"pinyin":"tian jia dao dui lie tianjiadaoduilie t j d d l tjddl tian jia dao dui lie tianjiadaoduilie t j d d l tjddl"}]
+[
+  {
+    "id": "spot-search",
+    "appId": "spotify",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "打开搜索",
+      "en": "Open Search"
+    },
+    "description": {
+      "zh": "打开搜索（⌘ K）",
+      "en": "Open Search (⌘ K)"
+    },
+    "windows": "Ctrl + K",
+    "mac": "⌘ K",
+    "linux": "Ctrl + K",
+    "keywords": [
+      "打开搜索",
+      "Open Search",
+      "搜索",
+      "search"
+    ],
+    "pinyin": "da kai sou suo dakaisousuo d k s s dkss da kai sou suo   sou suo dakaisousuo sousuo d k s s   s s dkss ss"
+  },
+  {
+    "id": "spot-help",
+    "appId": "spotify",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "打开帮助",
+      "en": "Open Help"
+    },
+    "description": {
+      "zh": "打开帮助（⌘ /）",
+      "en": "Open Help (⌘ /)"
+    },
+    "windows": "Ctrl + /",
+    "mac": "⌘ /",
+    "linux": "Ctrl + /",
+    "keywords": [
+      "打开帮助",
+      "Open Help"
+    ],
+    "pinyin": "da kai bang zhu dakaibangzhu d k b z dkbz da kai bang zhu dakaibangzhu d k b z dkbz"
+  },
+  {
+    "id": "spot-like",
+    "appId": "spotify",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "喜欢/不喜欢歌曲",
+      "en": "Like or Dislike song"
+    },
+    "description": {
+      "zh": "喜欢/不喜欢歌曲（⌥ ⇧ B）",
+      "en": "Like or Dislike song (⌥ ⇧ B)"
+    },
+    "windows": "Alt + Shift + B",
+    "mac": "⌥ ⇧ B",
+    "linux": "Alt + Shift + B",
+    "keywords": [
+      "喜欢/不喜欢歌曲",
+      "Like or Dislike song"
+    ],
+    "pinyin": "xi huan / bu xi huan ge qu xihuan/buxihuangequ x h / b x h g q xh/bxhgq xi huan / bu xi huan ge qu xihuan/buxihuangequ x h / b x h g q xh/bxhgq"
+  },
+  {
+    "id": "spot-logout",
+    "appId": "spotify",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "退出登录",
+      "en": "Log out"
+    },
+    "description": {
+      "zh": "退出登录（⌥ ⇧ F6）",
+      "en": "Log out (⌥ ⇧ F6)"
+    },
+    "windows": "Alt + Shift + F6",
+    "mac": "⌥ ⇧ F6",
+    "linux": "Alt + Shift + F6",
+    "keywords": [
+      "退出登录",
+      "Log out"
+    ],
+    "pinyin": "tui chu deng lu tuichudenglu t c d l tcdl tui chu deng lu tuichudenglu t c d l tcdl"
+  },
+  {
+    "id": "spot-selectall",
+    "appId": "spotify",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "全选",
+      "en": "Select all"
+    },
+    "description": {
+      "zh": "全选（⌘ A）",
+      "en": "Select all (⌘ A)"
+    },
+    "windows": "Ctrl + A",
+    "mac": "⌘ A",
+    "linux": "Ctrl + A",
+    "keywords": [
+      "全选",
+      "Select all"
+    ],
+    "pinyin": "quan xuan quanxuan q x qx quan xuan quanxuan q x qx"
+  },
+  {
+    "id": "spot-filter",
+    "appId": "spotify",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "筛选",
+      "en": "Filter"
+    },
+    "description": {
+      "zh": "筛选（⌘ F）",
+      "en": "Filter (⌘ F)"
+    },
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
+    "linux": "Ctrl + F",
+    "keywords": [
+      "筛选",
+      "Filter"
+    ],
+    "pinyin": "shai xuan shaixuan s x sx shai xuan shaixuan s x sx"
+  },
+  {
+    "id": "spot-playpause",
+    "appId": "spotify",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "播放/暂停",
+      "en": "Play/Pause"
+    },
+    "description": {
+      "zh": "播放/暂停（Space）",
+      "en": "Play/Pause (Space)"
+    },
+    "windows": "Space",
+    "mac": "Space",
+    "linux": "Space",
+    "keywords": [
+      "播放/暂停",
+      "Play/Pause",
+      "播放",
+      "play"
+    ],
+    "pinyin": "bo fang / zan ting bofang/zanting b f / z t bf/zt bo fang / zan ting   bo fang bofang/zanting bofang b f / z t   b f bf/zt bf"
+  },
+  {
+    "id": "spot-shuffle",
+    "appId": "spotify",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "随机播放",
+      "en": "Shuffle"
+    },
+    "description": {
+      "zh": "随机播放（⌥ S）",
+      "en": "Shuffle (⌥ S)"
+    },
+    "windows": "Ctrl + S",
+    "mac": "⌥ S",
+    "linux": "Ctrl + S",
+    "keywords": [
+      "随机播放",
+      "Shuffle"
+    ],
+    "pinyin": "sui ji bo fang suijibofang s j b f sjbf sui ji bo fang suijibofang s j b f sjbf"
+  },
+  {
+    "id": "spot-repeat",
+    "appId": "spotify",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "循环播放",
+      "en": "Repeat"
+    },
+    "description": {
+      "zh": "循环播放（⌥ R）",
+      "en": "Repeat (⌥ R)"
+    },
+    "windows": "Ctrl + R",
+    "mac": "⌥ R",
+    "linux": "Ctrl + R",
+    "keywords": [
+      "循环播放",
+      "Repeat"
+    ],
+    "pinyin": "xun huan bo fang xunhuanbofang x h b f xhbf xun huan bo fang xunhuanbofang x h b f xhbf"
+  },
+  {
+    "id": "spot-library",
+    "appId": "spotify",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "转到资料库",
+      "en": "Go to Library"
+    },
+    "description": {
+      "zh": "转到资料库（⌥ ⇧ 0）",
+      "en": "Go to Library (⌥ ⇧ 0)"
+    },
+    "windows": "Alt + Shift + 0",
+    "mac": "⌥ ⇧ 0",
+    "linux": "Alt + Shift + 0",
+    "keywords": [
+      "转到资料库",
+      "Go to Library"
+    ],
+    "pinyin": "zhuan dao zi liao ku zhuandaoziliaoku z d z l k zdzlk zhuan dao zi liao ku zhuandaoziliaoku z d z l k zdzlk"
+  },
+  {
+    "id": "spot-playlists",
+    "appId": "spotify",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "转到播放列表",
+      "en": "Go to Playlists"
+    },
+    "description": {
+      "zh": "转到播放列表（⌥ ⇧ 1）",
+      "en": "Go to Playlists (⌥ ⇧ 1)"
+    },
+    "windows": "Alt + Shift + 1",
+    "mac": "⌥ ⇧ 1",
+    "linux": "Alt + Shift + 1",
+    "keywords": [
+      "转到播放列表",
+      "Go to Playlists"
+    ],
+    "pinyin": "zhuan dao bo fang lie biao zhuandaobofangliebiao z d b f l b zdbflb zhuan dao bo fang lie biao zhuandaobofangliebiao z d b f l b zdbflb"
+  },
+  {
+    "id": "spot-podcasts",
+    "appId": "spotify",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "转到播客",
+      "en": "Go to Podcasts"
+    },
+    "description": {
+      "zh": "转到播客（⌥ ⇧ 2）",
+      "en": "Go to Podcasts (⌥ ⇧ 2)"
+    },
+    "windows": "Alt + Shift + 2",
+    "mac": "⌥ ⇧ 2",
+    "linux": "Alt + Shift + 2",
+    "keywords": [
+      "转到播客",
+      "Go to Podcasts"
+    ],
+    "pinyin": "zhuan dao bo ke zhuandaoboke z d b k zdbk zhuan dao bo ke zhuandaoboke z d b k zdbk"
+  },
+  {
+    "id": "spot-artists",
+    "appId": "spotify",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "转到艺人",
+      "en": "Go to Artists"
+    },
+    "description": {
+      "zh": "转到艺人（⌥ ⇧ 3）",
+      "en": "Go to Artists (⌥ ⇧ 3)"
+    },
+    "windows": "Alt + Shift + 3",
+    "mac": "⌥ ⇧ 3",
+    "linux": "Alt + Shift + 3",
+    "keywords": [
+      "转到艺人",
+      "Go to Artists"
+    ],
+    "pinyin": "zhuan dao yi ren zhuandaoyiren z d y r zdyr zhuan dao yi ren zhuandaoyiren z d y r zdyr"
+  },
+  {
+    "id": "spot-albums",
+    "appId": "spotify",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "转到专辑",
+      "en": "Go to Albums"
+    },
+    "description": {
+      "zh": "转到专辑（⌥ ⇧ 4）",
+      "en": "Go to Albums (⌥ ⇧ 4)"
+    },
+    "windows": "Alt + Shift + 4",
+    "mac": "⌥ ⇧ 4",
+    "linux": "Alt + Shift + 4",
+    "keywords": [
+      "转到专辑",
+      "Go to Albums"
+    ],
+    "pinyin": "zhuan dao zhuan ji zhuandaozhuanji z d z j zdzj zhuan dao zhuan ji zhuandaozhuanji z d z j zdzj"
+  },
+  {
+    "id": "spot-audiobooks",
+    "appId": "spotify",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "转到有声书",
+      "en": "Go to Audiobooks"
+    },
+    "description": {
+      "zh": "转到有声书（⌥ ⇧ 5）",
+      "en": "Go to Audiobooks (⌥ ⇧ 5)"
+    },
+    "windows": "Alt + Shift + 5",
+    "mac": "⌥ ⇧ 5",
+    "linux": "Alt + Shift + 5",
+    "keywords": [
+      "转到有声书",
+      "Go to Audiobooks"
+    ],
+    "pinyin": "zhuan dao you sheng shu zhuandaoyoushengshu z d y s s zdyss zhuan dao you sheng shu zhuandaoyoushengshu z d y s s zdyss"
+  },
+  {
+    "id": "spot-home",
+    "appId": "spotify",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "转到首页",
+      "en": "Go to Home"
+    },
+    "description": {
+      "zh": "转到首页（⌥ ⇧ H）",
+      "en": "Go to Home (⌥ ⇧ H)"
+    },
+    "windows": "Alt + Shift + H",
+    "mac": "⌥ ⇧ H",
+    "linux": "Alt + Shift + H",
+    "keywords": [
+      "转到首页",
+      "Go to Home"
+    ],
+    "pinyin": "zhuan dao shou ye zhuandaoshouye z d s y zdsy zhuan dao shou ye zhuandaoshouye z d s y zdsy"
+  },
+  {
+    "id": "spot-prefs",
+    "appId": "spotify",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "打开偏好设置",
+      "en": "Go to Preferences"
+    },
+    "description": {
+      "zh": "打开偏好设置（⌘ ,）",
+      "en": "Go to Preferences (⌘ ,)"
+    },
+    "windows": "Ctrl + ,",
+    "mac": "⌘ ,",
+    "linux": "Ctrl + ,",
+    "keywords": [
+      "打开偏好设置",
+      "Go to Preferences"
+    ],
+    "pinyin": "da kai pian hao she zhi dakaipianhaoshezhi d k p h s z dkphsz da kai pian hao she zhi dakaipianhaoshezhi d k p h s z dkphsz"
+  },
+  {
+    "id": "spot-gosearch",
+    "appId": "spotify",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "转到搜索",
+      "en": "Go to Search"
+    },
+    "description": {
+      "zh": "转到搜索（⌘ ⇧ L）",
+      "en": "Go to Search (⌘ ⇧ L)"
+    },
+    "windows": "Ctrl + L",
+    "mac": "⌘ ⇧ L",
+    "linux": "Ctrl + L",
+    "keywords": [
+      "转到搜索",
+      "Go to Search"
+    ],
+    "pinyin": "zhuan dao sou suo zhuandaosousuo z d s s zdss zhuan dao sou suo zhuandaosousuo z d s s zdss"
+  },
+  {
+    "id": "spot-nowplaying",
+    "appId": "spotify",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "转到正在播放",
+      "en": "Go to Now Playing"
+    },
+    "description": {
+      "zh": "转到正在播放（⌥ ⇧ J）",
+      "en": "Go to Now Playing (⌥ ⇧ J)"
+    },
+    "windows": "Alt + Shift + J",
+    "mac": "⌥ ⇧ J",
+    "linux": "Alt + Shift + J",
+    "keywords": [
+      "转到正在播放",
+      "Go to Now Playing"
+    ],
+    "pinyin": "zhuan dao zheng zai bo fang zhuandaozhengzaibofang z d z z b f zdzzbf zhuan dao zheng zai bo fang zhuandaozhengzaibofang z d z z b f zdzzbf"
+  },
+  {
+    "id": "spot-likedsongs",
+    "appId": "spotify",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "转到喜欢的歌曲",
+      "en": "Go to Liked Songs"
+    },
+    "description": {
+      "zh": "转到喜欢的歌曲（⌥ ⇧ S）",
+      "en": "Go to Liked Songs (⌥ ⇧ S)"
+    },
+    "windows": "Alt + Shift + S",
+    "mac": "⌥ ⇧ S",
+    "linux": "Alt + Shift + S",
+    "keywords": [
+      "转到喜欢的歌曲",
+      "Go to Liked Songs"
+    ],
+    "pinyin": "zhuan dao xi huan de ge qu zhuandaoxihuandegequ z d x h d g q zdxhdgq zhuan dao xi huan de ge qu zhuandaoxihuandegequ z d x h d g q zdxhdgq"
+  },
+  {
+    "id": "spot-madeifyou",
+    "appId": "spotify",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "转到为你推荐",
+      "en": "Go to Made For You"
+    },
+    "description": {
+      "zh": "转到为你推荐（⌥ ⇧ M）",
+      "en": "Go to Made For You (⌥ ⇧ M)"
+    },
+    "windows": "Alt + Shift + M",
+    "mac": "⌥ ⇧ M",
+    "linux": "Alt + Shift + M",
+    "keywords": [
+      "转到为你推荐",
+      "Go to Made For You"
+    ],
+    "pinyin": "zhuan dao wei ni tui jian zhuandaoweinituijian z d w n t j zdwntj zhuan dao wei ni tui jian zhuandaoweinituijian z d w n t j zdwntj"
+  },
+  {
+    "id": "spot-newreleases",
+    "appId": "spotify",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "转到新发行",
+      "en": "Go to New Releases"
+    },
+    "description": {
+      "zh": "转到新发行（⌥ ⇧ N）",
+      "en": "Go to New Releases (⌥ ⇧ N)"
+    },
+    "windows": "Alt + Shift + N",
+    "mac": "⌥ ⇧ N",
+    "linux": "Alt + Shift + N",
+    "keywords": [
+      "转到新发行",
+      "Go to New Releases"
+    ],
+    "pinyin": "zhuan dao xin fa xing zhuandaoxinfaxing z d x f x zdxfx zhuan dao xin fa xing zhuandaoxinfaxing z d x f x zdxfx"
+  },
+  {
+    "id": "spot-charts",
+    "appId": "spotify",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "转到排行榜",
+      "en": "Go to Charts"
+    },
+    "description": {
+      "zh": "转到排行榜（⌥ ⇧ C）",
+      "en": "Go to Charts (⌥ ⇧ C)"
+    },
+    "windows": "Alt + Shift + C",
+    "mac": "⌥ ⇧ C",
+    "linux": "Alt + Shift + C",
+    "keywords": [
+      "转到排行榜",
+      "Go to Charts"
+    ],
+    "pinyin": "zhuan dao pai xing bang zhuandaopaixingbang z d p x b zdpxb zhuan dao pai xing bang zhuandaopaixingbang z d p x b zdpxb"
+  },
+  {
+    "id": "spot-queue",
+    "appId": "spotify",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "转到播放队列",
+      "en": "Go to Queue"
+    },
+    "description": {
+      "zh": "转到播放队列（⌥ ⇧ Q）",
+      "en": "Go to Queue (⌥ ⇧ Q)"
+    },
+    "windows": "Alt + Shift + Q",
+    "mac": "⌥ ⇧ Q",
+    "linux": "Alt + Shift + Q",
+    "keywords": [
+      "转到播放队列",
+      "Go to Queue"
+    ],
+    "pinyin": "zhuan dao bo fang dui lie zhuandaobofangduilie z d b f d l zdbfdl zhuan dao bo fang dui lie zhuandaobofangduilie z d b f d l zdbfdl"
+  },
+  {
+    "id": "spot-contextmenu",
+    "appId": "spotify",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "打开右键菜单",
+      "en": "Open Context Menu"
+    },
+    "description": {
+      "zh": "打开右键菜单（⌥ J）",
+      "en": "Open Context Menu (⌥ J)"
+    },
+    "windows": "Alt + J",
+    "mac": "⌥ J",
+    "linux": "Alt + J",
+    "keywords": [
+      "打开右键菜单",
+      "Open Context Menu"
+    ],
+    "pinyin": "da kai you jian cai dan dakaiyoujiancaidan d k y j c d dkyjcd da kai you jian cai dan dakaiyoujiancaidan d k y j c d dkyjcd"
+  },
+  {
+    "id": "spot-toggle_np",
+    "appId": "spotify",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "切换正在播放侧栏",
+      "en": "Toggle Now Playing sidebar"
+    },
+    "description": {
+      "zh": "切换正在播放侧栏（⌥ ⇧ R）",
+      "en": "Toggle Now Playing sidebar (⌥ ⇧ R)"
+    },
+    "windows": "Alt + Shift + R",
+    "mac": "⌥ ⇧ R",
+    "linux": "Alt + Shift + R",
+    "keywords": [
+      "切换正在播放侧栏",
+      "Toggle Now Playing sidebar"
+    ],
+    "pinyin": "qie huan zheng zai bo fang ce lan qiehuanzhengzaibofangcelan q h z z b f c l qhzzbfcl qie huan zheng zai bo fang ce lan qiehuanzhengzaibofangcelan q h z z b f c l qhzzbfcl"
+  },
+  {
+    "id": "spot-toggle_lib",
+    "appId": "spotify",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "切换资料库侧栏",
+      "en": "Toggle Your Library sidebar"
+    },
+    "description": {
+      "zh": "切换资料库侧栏（⌥ ⇧ L）",
+      "en": "Toggle Your Library sidebar (⌥ ⇧ L)"
+    },
+    "windows": "Alt + Shift + L",
+    "mac": "⌥ ⇧ L",
+    "linux": "Alt + Shift + L",
+    "keywords": [
+      "切换资料库侧栏",
+      "Toggle Your Library sidebar"
+    ],
+    "pinyin": "qie huan zi liao ku ce lan qiehuanziliaokucelan q h z l k c l qhzlkcl qie huan zi liao ku ce lan qiehuanziliaokucelan q h z l k c l qhzlkcl"
+  },
+  {
+    "id": "spot-mute",
+    "appId": "spotify",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "静音/取消静音",
+      "en": "Mute/Unmute"
+    },
+    "description": {
+      "zh": "静音/取消静音（M）",
+      "en": "Mute/Unmute (M)"
+    },
+    "windows": "M",
+    "mac": "M",
+    "linux": "M",
+    "keywords": [
+      "静音/取消静音",
+      "Mute/Unmute",
+      "静音",
+      "mute"
+    ],
+    "pinyin": "jing yin / qu xiao jing yin jingyin/quxiaojingyin j y / q x j y jy/qxjy jing yin / qu xiao jing yin   jing yin jingyin/quxiaojingyin jingyin j y / q x j y   j y jy/qxjy jy"
+  },
+  {
+    "id": "spot-prev",
+    "appId": "spotify",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "上一首",
+      "en": "Previous track"
+    },
+    "description": {
+      "zh": "上一首（↑）",
+      "en": "Previous track (↑)"
+    },
+    "windows": "↑",
+    "mac": "↑",
+    "linux": "↑",
+    "keywords": [
+      "上一首",
+      "Previous track"
+    ],
+    "pinyin": "shang yi shou shangyishou s y s sys shang yi shou shangyishou s y s sys"
+  },
+  {
+    "id": "spot-next",
+    "appId": "spotify",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "下一首",
+      "en": "Next track"
+    },
+    "description": {
+      "zh": "下一首（↓）",
+      "en": "Next track (↓)"
+    },
+    "windows": "↓",
+    "mac": "↓",
+    "linux": "↓",
+    "keywords": [
+      "下一首",
+      "Next track"
+    ],
+    "pinyin": "xia yi shou xiayishou x y s xys xia yi shou xiayishou x y s xys"
+  },
+  {
+    "id": "spot-addlib",
+    "appId": "spotify",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "添加到资料库",
+      "en": "Add to Library"
+    },
+    "description": {
+      "zh": "添加到资料库（←）",
+      "en": "Add to Library (←)"
+    },
+    "windows": "←",
+    "mac": "←",
+    "linux": "←",
+    "keywords": [
+      "添加到资料库",
+      "Add to Library"
+    ],
+    "pinyin": "tian jia dao zi liao ku tianjiadaoziliaoku t j d z l k tjdzlk tian jia dao zi liao ku tianjiadaoziliaoku t j d z l k tjdzlk"
+  },
+  {
+    "id": "spot-addqueue",
+    "appId": "spotify",
+    "type": "software",
+    "category": "other",
+    "name": {
+      "zh": "添加到队列",
+      "en": "Add to Queue"
+    },
+    "description": {
+      "zh": "添加到队列（→）",
+      "en": "Add to Queue (→)"
+    },
+    "windows": "→",
+    "mac": "→",
+    "linux": "→",
+    "keywords": [
+      "添加到队列",
+      "Add to Queue"
+    ],
+    "pinyin": "tian jia dao dui lie tianjiadaoduilie t j d d l tjddl tian jia dao dui lie tianjiadaoduilie t j d d l tjddl"
+  }
+]

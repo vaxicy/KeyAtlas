@@ -1,0 +1,711 @@
+[
+  {
+    "id": "applenotes-new",
+    "appId": "applenotes",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "New note",
+      "zh": "新建备忘录"
+    },
+    "description": {
+      "en": "New note",
+      "zh": "新建备忘录"
+    },
+    "windows": "⌘ N",
+    "mac": "⌘ N",
+    "linux": "—",
+    "keywords": [
+      "new",
+      "note",
+      "备忘录"
+    ],
+    "pinyin": "xin jian bei wang lu xinjianbeiwanglu x j b w l xjbwl bei wang lu beiwanglu b w l bwl"
+  },
+  {
+    "id": "applenotes-new-folder",
+    "appId": "applenotes",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "New folder",
+      "zh": "新建文件夹"
+    },
+    "description": {
+      "en": "New folder",
+      "zh": "新建文件夹"
+    },
+    "windows": "⇧ ⌘ N",
+    "mac": "⇧ ⌘ N",
+    "linux": "—",
+    "keywords": [
+      "folder",
+      "文件夹"
+    ],
+    "pinyin": "xin jian wen jian jia xinjianwenjianjia x j w j j xjwjj wen jian jia wenjianjia w j j wjj"
+  },
+  {
+    "id": "applenotes-new-smart",
+    "appId": "applenotes",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Smart folder",
+      "zh": "智能文件夹"
+    },
+    "description": {
+      "en": "New smart folder",
+      "zh": "新建智能文件夹"
+    },
+    "windows": "⌥ ⌘ N",
+    "mac": "⌥ ⌘ N",
+    "linux": "—",
+    "keywords": [
+      "smart",
+      "folder",
+      "智能"
+    ],
+    "pinyin": "zhi neng wen jian jia zhinengwenjianjia z n w j j znwjj zhi neng zhineng z n zn"
+  },
+  {
+    "id": "applenotes-search",
+    "appId": "applenotes",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Search",
+      "zh": "搜索"
+    },
+    "description": {
+      "en": "Search notes",
+      "zh": "搜索备忘录"
+    },
+    "windows": "⌘ F",
+    "mac": "⌘ F",
+    "linux": "—",
+    "keywords": [
+      "search",
+      "搜索"
+    ],
+    "pinyin": "sou suo sousuo s s ss sou suo sousuo s s ss"
+  },
+  {
+    "id": "applenotes-quick",
+    "appId": "applenotes",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Quick note",
+      "zh": "快速备忘录"
+    },
+    "description": {
+      "en": "Quick note from menu",
+      "zh": "快速备忘录"
+    },
+    "windows": "⌃ ⌘ Q",
+    "mac": "⌃ ⌘ Q",
+    "linux": "—",
+    "keywords": [
+      "quick",
+      "快速"
+    ],
+    "pinyin": "kuai su bei wang lu kuaisubeiwanglu k s b w l ksbwl kuai su kuaisu k s ks"
+  },
+  {
+    "id": "applenotes-bold",
+    "appId": "applenotes",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Bold",
+      "zh": "加粗"
+    },
+    "description": {
+      "en": "Bold",
+      "zh": "加粗"
+    },
+    "windows": "⌘ B",
+    "mac": "⌘ B",
+    "linux": "—",
+    "keywords": [
+      "bold",
+      "加粗"
+    ],
+    "pinyin": "jia cu jiacu j c jc jia cu jiacu j c jc"
+  },
+  {
+    "id": "applenotes-italic",
+    "appId": "applenotes",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Italic",
+      "zh": "斜体"
+    },
+    "description": {
+      "en": "Italic",
+      "zh": "斜体"
+    },
+    "windows": "⌘ I",
+    "mac": "⌘ I",
+    "linux": "—",
+    "keywords": [
+      "italic",
+      "斜体"
+    ],
+    "pinyin": "xie ti xieti x t xt xie ti xieti x t xt"
+  },
+  {
+    "id": "applenotes-underline",
+    "appId": "applenotes",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Underline",
+      "zh": "下划线"
+    },
+    "description": {
+      "en": "Underline",
+      "zh": "下划线"
+    },
+    "windows": "⌘ U",
+    "mac": "⌘ U",
+    "linux": "—",
+    "keywords": [
+      "underline",
+      "下划线"
+    ],
+    "pinyin": "xia hua xian xiahuaxian x h x xhx xia hua xian xiahuaxian x h x xhx"
+  },
+  {
+    "id": "applenotes-strike",
+    "appId": "applenotes",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Strikethrough",
+      "zh": "删除线"
+    },
+    "description": {
+      "en": "Strikethrough",
+      "zh": "删除线"
+    },
+    "windows": "⌘ T",
+    "mac": "⌘ T",
+    "linux": "—",
+    "keywords": [
+      "strike",
+      "删除线"
+    ],
+    "pinyin": "shan chu xian shanchuxian s c x scx shan chu xian shanchuxian s c x scx"
+  },
+  {
+    "id": "applenotes-checklist",
+    "appId": "applenotes",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Checklist",
+      "zh": "清单"
+    },
+    "description": {
+      "en": "Toggle checklist",
+      "zh": "切换清单"
+    },
+    "windows": "⇧ ⌘ L",
+    "mac": "⇧ ⌘ L",
+    "linux": "—",
+    "keywords": [
+      "checklist",
+      "清单"
+    ],
+    "pinyin": "qing dan qingdan q d qd qing dan qingdan q d qd"
+  },
+  {
+    "id": "applenotes-list",
+    "appId": "applenotes",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Bullet list",
+      "zh": "项目符号"
+    },
+    "description": {
+      "en": "Bullet list",
+      "zh": "项目符号"
+    },
+    "windows": "⌥ Tab",
+    "mac": "⌥ Tab",
+    "linux": "—",
+    "keywords": [
+      "bullet",
+      "列表"
+    ],
+    "pinyin": "xiang mu fu hao xiangmufuhao x m f h xmfh lie biao liebiao l b lb"
+  },
+  {
+    "id": "applenotes-indent",
+    "appId": "applenotes",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Indent",
+      "zh": "缩进"
+    },
+    "description": {
+      "en": "Indent",
+      "zh": "缩进"
+    },
+    "windows": "Tab",
+    "mac": "Tab",
+    "linux": "—",
+    "keywords": [
+      "indent",
+      "缩进"
+    ],
+    "pinyin": "suo jin suojin s j sj suo jin suojin s j sj"
+  },
+  {
+    "id": "applenotes-outdent",
+    "appId": "applenotes",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Outdent",
+      "zh": "反缩进"
+    },
+    "description": {
+      "en": "Outdent",
+      "zh": "反缩进"
+    },
+    "windows": "Shift + Tab",
+    "mac": "Shift + Tab",
+    "linux": "—",
+    "keywords": [
+      "outdent",
+      "反缩进"
+    ],
+    "pinyin": "fan suo jin fansuojin f s j fsj fan suo jin fansuojin f s j fsj"
+  },
+  {
+    "id": "applenotes-title",
+    "appId": "applenotes",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Title",
+      "zh": "标题"
+    },
+    "description": {
+      "en": "Title style",
+      "zh": "标题样式"
+    },
+    "windows": "⌥ ⌘ T",
+    "mac": "⌥ ⌘ T",
+    "linux": "—",
+    "keywords": [
+      "title",
+      "标题"
+    ],
+    "pinyin": "biao ti biaoti b t bt biao ti biaoti b t bt"
+  },
+  {
+    "id": "applenotes-lock",
+    "appId": "applenotes",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Lock",
+      "zh": "锁定"
+    },
+    "description": {
+      "en": "Lock note",
+      "zh": "锁定备忘录"
+    },
+    "windows": "⌥ ⌘ L",
+    "mac": "⌥ ⌘ L",
+    "linux": "—",
+    "keywords": [
+      "lock",
+      "锁定"
+    ],
+    "pinyin": "suo ding suoding s d sd suo ding suoding s d sd"
+  },
+  {
+    "id": "applenotes-pin",
+    "appId": "applenotes",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Pin",
+      "zh": "置顶"
+    },
+    "description": {
+      "en": "Pin note",
+      "zh": "置顶备忘录"
+    },
+    "windows": "⌘ ⇧ L? ",
+    "mac": "⌘ ⇧ L? ",
+    "linux": "—",
+    "keywords": [
+      "pin",
+      "置顶"
+    ],
+    "pinyin": "zhi ding zhiding z d zd zhi ding zhiding z d zd"
+  },
+  {
+    "id": "applenotes-attach",
+    "appId": "applenotes",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Attach",
+      "zh": "附件"
+    },
+    "description": {
+      "en": "Insert attachment",
+      "zh": "插入附件"
+    },
+    "windows": "⇧ ⌘ A",
+    "mac": "⇧ ⌘ A",
+    "linux": "—",
+    "keywords": [
+      "attach",
+      "附件"
+    ],
+    "pinyin": "fu jian fujian f j fj fu jian fujian f j fj"
+  },
+  {
+    "id": "applenotes-share",
+    "appId": "applenotes",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Share",
+      "zh": "共享"
+    },
+    "description": {
+      "en": "Share note",
+      "zh": "共享备忘录"
+    },
+    "windows": "⇧ ⌘ F? ",
+    "mac": "⇧ ⌘ F? ",
+    "linux": "—",
+    "keywords": [
+      "share",
+      "共享"
+    ],
+    "pinyin": "gong xiang gongxiang g x gx gong xiang gongxiang g x gx"
+  },
+  {
+    "id": "applenotes-print",
+    "appId": "applenotes",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Print",
+      "zh": "打印"
+    },
+    "description": {
+      "en": "Print note",
+      "zh": "打印备忘录"
+    },
+    "windows": "⌘ P",
+    "mac": "⌘ P",
+    "linux": "—",
+    "keywords": [
+      "print",
+      "打印"
+    ],
+    "pinyin": "da yin dayin d y dy da yin dayin d y dy"
+  },
+  {
+    "id": "applenotes-delete",
+    "appId": "applenotes",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Delete",
+      "zh": "删除"
+    },
+    "description": {
+      "en": "Delete note",
+      "zh": "删除备忘录"
+    },
+    "windows": "⌫",
+    "mac": "⌫",
+    "linux": "—",
+    "keywords": [
+      "delete",
+      "删除"
+    ],
+    "pinyin": "shan chu shanchu s c sc shan chu shanchu s c sc"
+  },
+  {
+    "id": "applenotes-undo",
+    "appId": "applenotes",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Undo",
+      "zh": "撤销"
+    },
+    "description": {
+      "en": "Undo",
+      "zh": "撤销"
+    },
+    "windows": "⌘ Z",
+    "mac": "⌘ Z",
+    "linux": "—",
+    "keywords": [
+      "undo",
+      "撤销"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "applenotes-redo",
+    "appId": "applenotes",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Redo",
+      "zh": "重做"
+    },
+    "description": {
+      "en": "Redo",
+      "zh": "重做"
+    },
+    "windows": "⇧ ⌘ Z",
+    "mac": "⇧ ⌘ Z",
+    "linux": "—",
+    "keywords": [
+      "redo",
+      "重做"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "applenotes-select-all",
+    "appId": "applenotes",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Select all",
+      "zh": "全选"
+    },
+    "description": {
+      "en": "Select all",
+      "zh": "全选"
+    },
+    "windows": "⌘ A",
+    "mac": "⌘ A",
+    "linux": "—",
+    "keywords": [
+      "select",
+      "all",
+      "全选"
+    ],
+    "pinyin": "quan xuan quanxuan q x qx quan xuan quanxuan q x qx"
+  },
+  {
+    "id": "applenotes-copy",
+    "appId": "applenotes",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Copy",
+      "zh": "复制"
+    },
+    "description": {
+      "en": "Copy",
+      "zh": "复制"
+    },
+    "windows": "⌘ C",
+    "mac": "⌘ C",
+    "linux": "—",
+    "keywords": [
+      "copy",
+      "复制"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "applenotes-paste",
+    "appId": "applenotes",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Paste",
+      "zh": "粘贴"
+    },
+    "description": {
+      "en": "Paste",
+      "zh": "粘贴"
+    },
+    "windows": "⌘ V",
+    "mac": "⌘ V",
+    "linux": "—",
+    "keywords": [
+      "paste",
+      "粘贴"
+    ],
+    "pinyin": "nian tie niantie n t nt nian tie niantie n t nt"
+  },
+  {
+    "id": "applenotes-find-next",
+    "appId": "applenotes",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Find next",
+      "zh": "查找下一个"
+    },
+    "description": {
+      "en": "Find next",
+      "zh": "查找下一个"
+    },
+    "windows": "⌘ G",
+    "mac": "⌘ G",
+    "linux": "—",
+    "keywords": [
+      "find",
+      "next",
+      "查找"
+    ],
+    "pinyin": "cha zhao xia yi ge chazhaoxiayige c z x y g czxyg cha zhao chazhao c z cz"
+  },
+  {
+    "id": "applenotes-find-prev",
+    "appId": "applenotes",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Find prev",
+      "zh": "查找上一个"
+    },
+    "description": {
+      "en": "Find previous",
+      "zh": "查找上一个"
+    },
+    "windows": "⇧ ⌘ G",
+    "mac": "⇧ ⌘ G",
+    "linux": "—",
+    "keywords": [
+      "find",
+      "prev",
+      "查找"
+    ],
+    "pinyin": "cha zhao shang yi ge chazhaoshangyige c z s y g czsyg cha zhao chazhao c z cz"
+  },
+  {
+    "id": "applenotes-sidebar",
+    "appId": "applenotes",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Sidebar",
+      "zh": "侧栏"
+    },
+    "description": {
+      "en": "Toggle sidebar",
+      "zh": "切换侧栏"
+    },
+    "windows": "⌘ \\",
+    "mac": "⌘ \\",
+    "linux": "—",
+    "keywords": [
+      "sidebar",
+      "侧栏"
+    ],
+    "pinyin": "ce lan celan c l cl ce lan celan c l cl"
+  },
+  {
+    "id": "applenotes-folders",
+    "appId": "applenotes",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Folders",
+      "zh": "文件夹"
+    },
+    "description": {
+      "en": "Show folders",
+      "zh": "显示文件夹"
+    },
+    "windows": "⌥ ⌘ S",
+    "mac": "⌥ ⌘ S",
+    "linux": "—",
+    "keywords": [
+      "folders",
+      "文件夹"
+    ],
+    "pinyin": "wen jian jia wenjianjia w j j wjj wen jian jia wenjianjia w j j wjj"
+  },
+  {
+    "id": "applenotes-fullscreen",
+    "appId": "applenotes",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Fullscreen",
+      "zh": "全屏"
+    },
+    "description": {
+      "en": "Fullscreen",
+      "zh": "全屏"
+    },
+    "windows": "⌃ ⌘ F",
+    "mac": "⌃ ⌘ F",
+    "linux": "—",
+    "keywords": [
+      "fullscreen",
+      "全屏"
+    ],
+    "pinyin": "quan ping quanping q p qp quan ping quanping q p qp"
+  },
+  {
+    "id": "applenotes-table",
+    "appId": "applenotes",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Table",
+      "zh": "表格"
+    },
+    "description": {
+      "en": "Insert table",
+      "zh": "插入表格"
+    },
+    "windows": "⇧ ⌘ T? ",
+    "mac": "⇧ ⌘ T? ",
+    "linux": "—",
+    "keywords": [
+      "table",
+      "表格"
+    ],
+    "pinyin": "biao ge biaoge b g bg biao ge biaoge b g bg"
+  },
+  {
+    "id": "applenotes-style",
+    "appId": "applenotes",
+    "type": "software",
+    "category": "productivity",
+    "name": {
+      "en": "Style",
+      "zh": "样式"
+    },
+    "description": {
+      "en": "Show style menu",
+      "zh": "显示样式菜单"
+    },
+    "windows": "⌥ ⌘ C",
+    "mac": "⌥ ⌘ C",
+    "linux": "—",
+    "keywords": [
+      "style",
+      "样式"
+    ],
+    "pinyin": "yang shi yangshi y s ys yang shi yangshi y s ys"
+  }
+]

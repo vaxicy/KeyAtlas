@@ -1,0 +1,359 @@
+[
+  {
+    "id": "poe-new-chat",
+    "appId": "poe",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "New chat",
+      "zh": "新对话"
+    },
+    "description": {
+      "en": "New chat",
+      "zh": "新对话"
+    },
+    "windows": "Ctrl + K",
+    "mac": "Ctrl + K",
+    "linux": "Ctrl + K",
+    "keywords": [
+      "new",
+      "chat",
+      "对话"
+    ],
+    "pinyin": "xin dui hua xinduihua x d h xdh dui hua duihua d h dh"
+  },
+  {
+    "id": "poe-send",
+    "appId": "poe",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Send",
+      "zh": "发送"
+    },
+    "description": {
+      "en": "Send message",
+      "zh": "发送消息"
+    },
+    "windows": "Enter",
+    "mac": "Enter",
+    "linux": "Enter",
+    "keywords": [
+      "send",
+      "发送"
+    ],
+    "pinyin": "fa song fasong f s fs fa song fasong f s fs"
+  },
+  {
+    "id": "poe-switch-bot",
+    "appId": "poe",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Switch bot",
+      "zh": "切换机器人"
+    },
+    "description": {
+      "en": "Switch AI bot",
+      "zh": "切换 AI 机器人"
+    },
+    "windows": "Ctrl + J",
+    "mac": "Ctrl + J",
+    "linux": "Ctrl + J",
+    "keywords": [
+      "switch",
+      "bot",
+      "机器人"
+    ],
+    "pinyin": "qie huan ji qi ren qiehuanjiqiren q h j q r qhjqr ji qi ren jiqiren j q r jqr"
+  },
+  {
+    "id": "poe-search",
+    "appId": "poe",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Search",
+      "zh": "搜索"
+    },
+    "description": {
+      "en": "Search chats",
+      "zh": "搜索对话"
+    },
+    "windows": "Ctrl + F",
+    "mac": "Ctrl + F",
+    "linux": "Ctrl + F",
+    "keywords": [
+      "search",
+      "搜索"
+    ],
+    "pinyin": "sou suo sousuo s s ss sou suo sousuo s s ss"
+  },
+  {
+    "id": "poe-next",
+    "appId": "poe",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Next chat",
+      "zh": "下一对话"
+    },
+    "description": {
+      "en": "Next chat",
+      "zh": "下一对话"
+    },
+    "windows": "Ctrl + ]",
+    "mac": "Ctrl + ]",
+    "linux": "Ctrl + ]",
+    "keywords": [
+      "next",
+      "chat",
+      "对话"
+    ],
+    "pinyin": "xia yi dui hua xiayiduihua x y d h xydh dui hua duihua d h dh"
+  },
+  {
+    "id": "poe-prev",
+    "appId": "poe",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Prev chat",
+      "zh": "上一对话"
+    },
+    "description": {
+      "en": "Previous chat",
+      "zh": "上一对话"
+    },
+    "windows": "Ctrl + [",
+    "mac": "Ctrl + [",
+    "linux": "Ctrl + [",
+    "keywords": [
+      "prev",
+      "chat",
+      "对话"
+    ],
+    "pinyin": "shang yi dui hua shangyiduihua s y d h sydh dui hua duihua d h dh"
+  },
+  {
+    "id": "poe-copy",
+    "appId": "poe",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Copy",
+      "zh": "复制"
+    },
+    "description": {
+      "en": "Copy response",
+      "zh": "复制回复"
+    },
+    "windows": "Ctrl + C",
+    "mac": "Ctrl + C",
+    "linux": "Ctrl + C",
+    "keywords": [
+      "copy",
+      "复制"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "poe-settings",
+    "appId": "poe",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Settings",
+      "zh": "设置"
+    },
+    "description": {
+      "en": "Settings",
+      "zh": "设置"
+    },
+    "windows": "Ctrl + ,",
+    "mac": "Ctrl + ,",
+    "linux": "Ctrl + ,",
+    "keywords": [
+      "settings",
+      "设置"
+    ],
+    "pinyin": "she zhi shezhi s z sz she zhi shezhi s z sz"
+  },
+  {
+    "id": "poe-sidebar",
+    "appId": "poe",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Sidebar",
+      "zh": "侧栏"
+    },
+    "description": {
+      "en": "Toggle sidebar",
+      "zh": "切换侧栏"
+    },
+    "windows": "Ctrl + \\",
+    "mac": "Ctrl + \\",
+    "linux": "Ctrl + \\",
+    "keywords": [
+      "sidebar",
+      "侧栏"
+    ],
+    "pinyin": "ce lan celan c l cl ce lan celan c l cl"
+  },
+  {
+    "id": "poe-fullscreen",
+    "appId": "poe",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Fullscreen",
+      "zh": "全屏"
+    },
+    "description": {
+      "en": "Fullscreen",
+      "zh": "全屏"
+    },
+    "windows": "F",
+    "mac": "F",
+    "linux": "F",
+    "keywords": [
+      "fullscreen",
+      "全屏"
+    ],
+    "pinyin": "quan ping quanping q p qp quan ping quanping q p qp"
+  },
+  {
+    "id": "poe-open-bot",
+    "appId": "poe",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Open bot",
+      "zh": "打开机器人"
+    },
+    "description": {
+      "en": "Open bot window",
+      "zh": "打开机器人"
+    },
+    "windows": "Ctrl + B",
+    "mac": "Ctrl + B",
+    "linux": "Ctrl + B",
+    "keywords": [
+      "open",
+      "bot",
+      "机器人"
+    ],
+    "pinyin": "da kai ji qi ren dakaijiqiren d k j q r dkjqr ji qi ren jiqiren j q r jqr"
+  },
+  {
+    "id": "poe-close",
+    "appId": "poe",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Close",
+      "zh": "关闭"
+    },
+    "description": {
+      "en": "Close chat",
+      "zh": "关闭对话"
+    },
+    "windows": "Esc",
+    "mac": "Esc",
+    "linux": "Esc",
+    "keywords": [
+      "close",
+      "关闭"
+    ],
+    "pinyin": "guan bi guanbi g b gb guan bi guanbi g b gb"
+  },
+  {
+    "id": "poe-theme",
+    "appId": "poe",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Theme",
+      "zh": "主题"
+    },
+    "description": {
+      "en": "Toggle theme",
+      "zh": "切换主题"
+    },
+    "windows": "Ctrl + Shift + T",
+    "mac": "Ctrl + Shift + T",
+    "linux": "Ctrl + Shift + T",
+    "keywords": [
+      "theme",
+      "主题"
+    ],
+    "pinyin": "zhu ti zhuti z t zt zhu ti zhuti z t zt"
+  },
+  {
+    "id": "poe-help",
+    "appId": "poe",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Help",
+      "zh": "帮助"
+    },
+    "description": {
+      "en": "Shortcuts help",
+      "zh": "快捷键帮助"
+    },
+    "windows": "Ctrl + /",
+    "mac": "Ctrl + /",
+    "linux": "Ctrl + /",
+    "keywords": [
+      "help",
+      "快捷键"
+    ],
+    "pinyin": "bang zhu bangzhu b z bz kuai jie jian kuaijiejian k j j kjj"
+  },
+  {
+    "id": "poe-undo",
+    "appId": "poe",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Undo",
+      "zh": "撤销"
+    },
+    "description": {
+      "en": "Undo",
+      "zh": "撤销"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "Ctrl + Z",
+    "linux": "Ctrl + Z",
+    "keywords": [
+      "undo",
+      "撤销"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "poe-redo",
+    "appId": "poe",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Redo",
+      "zh": "重做"
+    },
+    "description": {
+      "en": "Redo",
+      "zh": "重做"
+    },
+    "windows": "Ctrl + Y",
+    "mac": "Ctrl + Y",
+    "linux": "Ctrl + Y",
+    "keywords": [
+      "redo",
+      "重做"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  }
+]

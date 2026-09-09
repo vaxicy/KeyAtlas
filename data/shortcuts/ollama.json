@@ -1,0 +1,402 @@
+[
+  {
+    "id": "ollama-run",
+    "appId": "ollama",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Run model",
+      "zh": "运行模型"
+    },
+    "description": {
+      "en": "Run a local model",
+      "zh": "运行本地模型"
+    },
+    "windows": "ollama run <model>",
+    "mac": "ollama run <model>",
+    "linux": "ollama run <model>",
+    "keywords": [
+      "run",
+      "运行",
+      "model"
+    ],
+    "pinyin": "yun xing mo xing yunxingmoxing y x m x yxmx yun xing yunxing y x yx"
+  },
+  {
+    "id": "ollama-pull",
+    "appId": "ollama",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Pull",
+      "zh": "拉取"
+    },
+    "description": {
+      "en": "Pull a model",
+      "zh": "拉取模型"
+    },
+    "windows": "ollama pull <model>",
+    "mac": "ollama pull <model>",
+    "linux": "ollama pull <model>",
+    "keywords": [
+      "pull",
+      "拉取"
+    ],
+    "pinyin": "la qu laqu l q lq la qu laqu l q lq"
+  },
+  {
+    "id": "ollama-push",
+    "appId": "ollama",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Push",
+      "zh": "推送"
+    },
+    "description": {
+      "en": "Push a model",
+      "zh": "推送模型"
+    },
+    "windows": "ollama push <model>",
+    "mac": "ollama push <model>",
+    "linux": "ollama push <model>",
+    "keywords": [
+      "push",
+      "推送"
+    ],
+    "pinyin": "tui song tuisong t s ts tui song tuisong t s ts"
+  },
+  {
+    "id": "ollama-list",
+    "appId": "ollama",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "List",
+      "zh": "列表"
+    },
+    "description": {
+      "en": "List local models",
+      "zh": "列出本地模型"
+    },
+    "windows": "ollama list",
+    "mac": "ollama list",
+    "linux": "ollama list",
+    "keywords": [
+      "list",
+      "列表"
+    ],
+    "pinyin": "lie biao liebiao l b lb lie biao liebiao l b lb"
+  },
+  {
+    "id": "ollama-ps",
+    "appId": "ollama",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Processes",
+      "zh": "进程"
+    },
+    "description": {
+      "en": "Show running models",
+      "zh": "显示运行模型"
+    },
+    "windows": "ollama ps",
+    "mac": "ollama ps",
+    "linux": "ollama ps",
+    "keywords": [
+      "ps",
+      "running",
+      "运行"
+    ],
+    "pinyin": "jin cheng jincheng j c jc yun xing yunxing y x yx"
+  },
+  {
+    "id": "ollama-rm",
+    "appId": "ollama",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Remove",
+      "zh": "删除"
+    },
+    "description": {
+      "en": "Remove a model",
+      "zh": "删除模型"
+    },
+    "windows": "ollama rm <model>",
+    "mac": "ollama rm <model>",
+    "linux": "ollama rm <model>",
+    "keywords": [
+      "rm",
+      "remove",
+      "删除"
+    ],
+    "pinyin": "shan chu shanchu s c sc shan chu shanchu s c sc"
+  },
+  {
+    "id": "ollama-create",
+    "appId": "ollama",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Create",
+      "zh": "创建"
+    },
+    "description": {
+      "en": "Create from Modelfile",
+      "zh": "从 Modelfile 创建"
+    },
+    "windows": "ollama create <n> -f Modelfile",
+    "mac": "ollama create <n> -f Modelfile",
+    "linux": "ollama create <n> -f Modelfile",
+    "keywords": [
+      "create",
+      "创建"
+    ],
+    "pinyin": "chuang jian chuangjian c j cj chuang jian chuangjian c j cj"
+  },
+  {
+    "id": "ollama-show",
+    "appId": "ollama",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Show",
+      "zh": "查看"
+    },
+    "description": {
+      "en": "Show model info",
+      "zh": "显示模型信息"
+    },
+    "windows": "ollama show <model>",
+    "mac": "ollama show <model>",
+    "linux": "ollama show <model>",
+    "keywords": [
+      "show",
+      "查看"
+    ],
+    "pinyin": "cha kan chakan c k ck cha kan chakan c k ck"
+  },
+  {
+    "id": "ollama-stop",
+    "appId": "ollama",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Stop",
+      "zh": "停止"
+    },
+    "description": {
+      "en": "Stop a running model",
+      "zh": "停止运行模型"
+    },
+    "windows": "ollama stop <model>",
+    "mac": "ollama stop <model>",
+    "linux": "ollama stop <model>",
+    "keywords": [
+      "stop",
+      "停止"
+    ],
+    "pinyin": "ting zhi tingzhi t z tz ting zhi tingzhi t z tz"
+  },
+  {
+    "id": "ollama-cp",
+    "appId": "ollama",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Copy",
+      "zh": "复制"
+    },
+    "description": {
+      "en": "Copy a model",
+      "zh": "复制模型"
+    },
+    "windows": "ollama cp <src> <dst>",
+    "mac": "ollama cp <src> <dst>",
+    "linux": "ollama cp <src> <dst>",
+    "keywords": [
+      "cp",
+      "copy",
+      "复制"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "ollama-version",
+    "appId": "ollama",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Version",
+      "zh": "版本"
+    },
+    "description": {
+      "en": "Show version",
+      "zh": "显示版本"
+    },
+    "windows": "ollama --version",
+    "mac": "ollama --version",
+    "linux": "ollama --version",
+    "keywords": [
+      "version",
+      "版本"
+    ],
+    "pinyin": "ban ben banben b b bb ban ben banben b b bb"
+  },
+  {
+    "id": "ollama-help",
+    "appId": "ollama",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Help",
+      "zh": "帮助"
+    },
+    "description": {
+      "en": "Show help",
+      "zh": "显示帮助"
+    },
+    "windows": "ollama --help",
+    "mac": "ollama --help",
+    "linux": "ollama --help",
+    "keywords": [
+      "help",
+      "帮助"
+    ],
+    "pinyin": "bang zhu bangzhu b z bz bang zhu bangzhu b z bz"
+  },
+  {
+    "id": "ollama-serve",
+    "appId": "ollama",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Serve",
+      "zh": "服务"
+    },
+    "description": {
+      "en": "Start Ollama server",
+      "zh": "启动服务"
+    },
+    "windows": "ollama serve",
+    "mac": "ollama serve",
+    "linux": "ollama serve",
+    "keywords": [
+      "serve",
+      "服务"
+    ],
+    "pinyin": "fu wu fuwu f w fw fu wu fuwu f w fw"
+  },
+  {
+    "id": "ollama-import",
+    "appId": "ollama",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Import",
+      "zh": "导入"
+    },
+    "description": {
+      "en": "Import model",
+      "zh": "导入模型"
+    },
+    "windows": "ollama import <path>",
+    "mac": "ollama import <path>",
+    "linux": "ollama import <path>",
+    "keywords": [
+      "import",
+      "导入"
+    ],
+    "pinyin": "dao ru daoru d r dr dao ru daoru d r dr"
+  },
+  {
+    "id": "ollama-login",
+    "appId": "ollama",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Login",
+      "zh": "登录"
+    },
+    "description": {
+      "en": "Login to registry",
+      "zh": "登录仓库"
+    },
+    "windows": "ollama login",
+    "mac": "ollama login",
+    "linux": "ollama login",
+    "keywords": [
+      "login",
+      "登录"
+    ],
+    "pinyin": "deng lu denglu d l dl deng lu denglu d l dl"
+  },
+  {
+    "id": "ollama-logout",
+    "appId": "ollama",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Logout",
+      "zh": "登出"
+    },
+    "description": {
+      "en": "Logout",
+      "zh": "登出"
+    },
+    "windows": "ollama logout",
+    "mac": "ollama logout",
+    "linux": "ollama logout",
+    "keywords": [
+      "logout",
+      "登出"
+    ],
+    "pinyin": "deng chu dengchu d c dc deng chu dengchu d c dc"
+  },
+  {
+    "id": "ollama-tags",
+    "appId": "ollama",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Tags",
+      "zh": "标签"
+    },
+    "description": {
+      "en": "List model tags (alias list)",
+      "zh": "列出标签"
+    },
+    "windows": "ollama list",
+    "mac": "ollama list",
+    "linux": "ollama list",
+    "keywords": [
+      "tags",
+      "标签"
+    ],
+    "pinyin": "biao qian biaoqian b q bq biao qian biaoqian b q bq"
+  },
+  {
+    "id": "ollama-blobs",
+    "appId": "ollama",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "en": "Blobs",
+      "zh": "块"
+    },
+    "description": {
+      "en": "Manage blobs dir",
+      "zh": "管理块目录"
+    },
+    "windows": "ollama blobs",
+    "mac": "ollama blobs",
+    "linux": "ollama blobs",
+    "keywords": [
+      "blobs",
+      "块"
+    ],
+    "pinyin": "kuai kuai k k kuai kuai k k"
+  }
+]

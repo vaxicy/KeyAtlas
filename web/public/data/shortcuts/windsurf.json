@@ -1,1 +1,468 @@
-[{"id":"windsurf-open-cascade","appId":"windsurf","type":"software","category":"ai","name":{"zh":"打开 Cascade 对话","en":"Open Cascade Chat"},"description":{"zh":"打开 Windsurf 的 AI 代理 Cascade","en":"Open the Cascade AI agent chat"},"windows":"Ctrl + L","mac":"⌘ L","linux":"Ctrl + L","keywords":["cascade","代理","对话","ai"],"pinyin":"da kai   c a s c a d e   dui hua dakai cascade duihua d k   c a s c a d e   d h dk cascade dh dai li   dui hua daili duihua d l   d h dl dh"},{"id":"windsurf-inline-edit","appId":"windsurf","type":"software","category":"ai","name":{"zh":"行内 AI 编辑","en":"Inline AI Edit"},"description":{"zh":"用 AI 进行行内编辑","en":"Inline AI edit with Cascade"},"windows":"Ctrl + I","mac":"⌘ I","linux":"Ctrl + I","keywords":["inline","编辑","ai","cascade"],"pinyin":"xing nei   a i   bian ji xingnei ai bianji x n   a i   b j xn ai bj bian ji bianji b j bj"},{"id":"windsurf-cascade-selection","appId":"windsurf","type":"software","category":"ai","name":{"zh":"带选区打开 Cascade","en":"Cascade with Selection"},"description":{"zh":"将选中内容带入 Cascade 对话","en":"Open Cascade with the current selection"},"windows":"Ctrl + Shift + L","mac":"⌘ ⇧ L","linux":"Ctrl + Shift + L","keywords":["cascade","选区","selection"],"pinyin":"dai xuan qu da kai   c a s c a d e daixuanqudakai cascade d x q d k   c a s c a d e dxqdk cascade xuan qu xuanqu x q xq"},{"id":"windsurf-accept-suggestion","appId":"windsurf","type":"software","category":"ai","name":{"zh":"接受建议","en":"Accept Suggestion"},"description":{"zh":"接受 AI 给出的建议","en":"Accept the AI suggestion"},"windows":"Tab","mac":"Tab","linux":"Tab","keywords":["接受","accept","建议","suggestion"],"pinyin":"jie shou jian yi jieshoujianyi j s j y jsjy jie shou   jian yi jieshou jianyi j s   j y js jy"},{"id":"windsurf-reject-suggestion","appId":"windsurf","type":"software","category":"ai","name":{"zh":"拒绝建议","en":"Reject Suggestion"},"description":{"zh":"拒绝 AI 给出的建议","en":"Reject the AI suggestion"},"windows":"Esc","mac":"Esc","linux":"Esc","keywords":["拒绝","reject","建议"],"pinyin":"ju jue jian yi jujuejianyi j j j y jjjy ju jue   jian yi jujue jianyi j j   j y jj jy"},{"id":"windsurf-next-suggestion","appId":"windsurf","type":"software","category":"ai","name":{"zh":"下一个建议","en":"Next Suggestion"},"description":{"zh":"切换到下一个 AI 建议","en":"Cycle to the next suggestion"},"windows":"Alt + ]","mac":"⌥ ]","linux":"Alt + ]","keywords":["下一个","next","建议"],"pinyin":"xia yi ge jian yi xiayigejianyi x y g j y xygjy xia yi ge   jian yi xiayige jianyi x y g   j y xyg jy"},{"id":"windsurf-prev-suggestion","appId":"windsurf","type":"software","category":"ai","name":{"zh":"上一个建议","en":"Previous Suggestion"},"description":{"zh":"切换到上一个 AI 建议","en":"Cycle to the previous suggestion"},"windows":"Alt + [","mac":"⌥ [","linux":"Alt + [","keywords":["上一个","previous","建议"],"pinyin":"shang yi ge jian yi shangyigejianyi s y g j y sygjy shang yi ge   jian yi shangyige jianyi s y g   j y syg jy"},{"id":"windsurf-quick-open","appId":"windsurf","type":"software","category":"ai","name":{"zh":"快速打开文件","en":"Quick Open File"},"description":{"zh":"快速打开文件（VS Code 基础）","en":"Quick open a file (VS Code base)"},"windows":"Ctrl + P","mac":"⌘ P","linux":"Ctrl + P","keywords":["打开","quick open","文件"],"pinyin":"kuai su da kai wen jian kuaisudakaiwenjian k s d k w j ksdkwj da kai   wen jian dakai wenjian d k   w j dk wj"},{"id":"windsurf-command-palette","appId":"windsurf","type":"software","category":"ai","name":{"zh":"命令面板","en":"Command Palette"},"description":{"zh":"打开命令面板","en":"Open the command palette"},"windows":"Ctrl + Shift + P","mac":"⌘ ⇧ P","linux":"Ctrl + Shift + P","keywords":["命令","command","面板","palette"],"pinyin":"ming ling mian ban minglingmianban m l m b mlmb ming ling   mian ban mingling mianban m l   m b ml mb"},{"id":"windsurf-toggle-terminal","appId":"windsurf","type":"software","category":"ai","name":{"zh":"切换终端","en":"Toggle Terminal"},"description":{"zh":"显示或隐藏终端","en":"Toggle the integrated terminal"},"windows":"Ctrl + `","mac":"⌘ `","linux":"Ctrl + `","keywords":["终端","terminal","切换"],"pinyin":"qie huan zhong duan qiehuanzhongduan q h z d qhzd zhong duan   qie huan zhongduan qiehuan z d   q h zd qh"},{"id":"windsurf-toggle-comment","appId":"windsurf","type":"software","category":"ai","name":{"zh":"切换注释","en":"Toggle Comment"},"description":{"zh":"注释或取消注释选中行","en":"Toggle line comment"},"windows":"Ctrl + /","mac":"⌘ /","linux":"Ctrl + /","keywords":["注释","comment","行注释"],"pinyin":"qie huan zhu shi qiehuanzhushi q h z s qhzs zhu shi   xing zhu shi zhushi xingzhushi z s   x z s zs xzs"},{"id":"windsurf-select-next","appId":"windsurf","type":"software","category":"ai","name":{"zh":"选择下一个匹配","en":"Select Next Match"},"description":{"zh":"添加下一个匹配到选择","en":"Add next match to selection"},"windows":"Ctrl + D","mac":"⌘ D","linux":"Ctrl + D","keywords":["选择","select","匹配","match"],"pinyin":"xuan ze xia yi ge pi pei xuanzexiayigepipei x z x y g p p xzxygpp xuan ze   pi pei xuanze pipei x z   p p xz pp"},{"id":"windsurf-move-line","appId":"windsurf","type":"software","category":"ai","name":{"zh":"移动行","en":"Move Line"},"description":{"zh":"上下移动当前行","en":"Move the current line up/down"},"windows":"Alt + ↑ / ↓","mac":"⌥ ↑ / ↓","linux":"Alt + ↑ / ↓","keywords":["移动","move","行","line"],"pinyin":"yi dong xing yidongxing y d x ydx yi dong   xing yidong xing y d   x yd x"},{"id":"windsurf-delete-line","appId":"windsurf","type":"software","category":"ai","name":{"zh":"删除行","en":"Delete Line"},"description":{"zh":"删除当前行","en":"Delete the current line"},"windows":"Ctrl + Shift + K","mac":"⌘ ⇧ K","linux":"Ctrl + Shift + K","keywords":["删除","delete","行","line"],"pinyin":"shan chu xing shanchuxing s c x scx shan chu   xing shanchu xing s c   x sc x"},{"id":"windsurf-toggle-sidebar","appId":"windsurf","type":"software","category":"ai","name":{"zh":"切换侧边栏","en":"Toggle Sidebar"},"description":{"zh":"显示或隐藏侧边栏","en":"Toggle the sidebar"},"windows":"Ctrl + B","mac":"⌘ B","linux":"Ctrl + B","keywords":["侧边栏","sidebar","切换"],"pinyin":"qie huan ce bian lan qiehuancebianlan q h c b l qhcbl ce bian lan   qie huan cebianlan qiehuan c b l   q h cbl qh"},{"id":"windsurf-rename","appId":"windsurf","type":"software","category":"ai","name":{"zh":"重命名符号","en":"Rename Symbol"},"description":{"zh":"重命名当前符号","en":"Rename the current symbol"},"windows":"F2","mac":"F2","linux":"F2","keywords":["重命名","rename","符号","symbol"],"pinyin":"zhong ming ming fu hao zhongmingmingfuhao z m m f h zmmfh zhong ming ming   fu hao zhongmingming fuhao z m m   f h zmm fh"},{"id":"windsurf-go-definition","appId":"windsurf","type":"software","category":"ai","name":{"zh":"跳到定义","en":"Go to Definition"},"description":{"zh":"跳转到符号定义","en":"Go to the symbol definition"},"windows":"F12","mac":"F12","linux":"F12","keywords":["定义","definition","跳转"],"pinyin":"tiao dao ding yi tiaodaodingyi t d d y tddy ding yi   tiao zhuan dingyi tiaozhuan d y   t z dy tz"},{"id":"windsurf-search-all","appId":"windsurf","type":"software","category":"ai","name":{"zh":"全局搜索","en":"Search All Files"},"description":{"zh":"在所有文件中搜索","en":"Search across all files"},"windows":"Ctrl + Shift + F","mac":"⌘ ⇧ F","linux":"Ctrl + Shift + F","keywords":["搜索","search","全局"],"pinyin":"quan ju sou suo quanjusousuo q j s s qjss sou suo   quan ju sousuo quanju s s   q j ss qj"},{"id":"windsurf-undo","appId":"windsurf","type":"software","category":"ai","name":{"zh":"撤销","en":"Undo"},"description":{"zh":"撤销上一步","en":"Undo the last action"},"windows":"Ctrl + Z","mac":"⌘ Z","linux":"Ctrl + Z","keywords":["撤销","undo"],"pinyin":"che xiao chexiao c x cx che xiao chexiao c x cx"},{"id":"windsurf-redo","appId":"windsurf","type":"software","category":"ai","name":{"zh":"重做","en":"Redo"},"description":{"zh":"重做被撤销的操作","en":"Redo the last undone action"},"windows":"Ctrl + Shift + Z","mac":"⌘ ⇧ Z","linux":"Ctrl + Shift + Z","keywords":["重做","redo"],"pinyin":"zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"}]
+[
+  {
+    "id": "windsurf-open-cascade",
+    "appId": "windsurf",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "打开 Cascade 对话",
+      "en": "Open Cascade Chat"
+    },
+    "description": {
+      "zh": "打开 Windsurf 的 AI 代理 Cascade",
+      "en": "Open the Cascade AI agent chat"
+    },
+    "windows": "Ctrl + L",
+    "mac": "⌘ L",
+    "linux": "Ctrl + L",
+    "keywords": [
+      "cascade",
+      "代理",
+      "对话",
+      "ai"
+    ],
+    "pinyin": "da kai   c a s c a d e   dui hua dakai cascade duihua d k   c a s c a d e   d h dk cascade dh dai li   dui hua daili duihua d l   d h dl dh"
+  },
+  {
+    "id": "windsurf-inline-edit",
+    "appId": "windsurf",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "行内 AI 编辑",
+      "en": "Inline AI Edit"
+    },
+    "description": {
+      "zh": "用 AI 进行行内编辑",
+      "en": "Inline AI edit with Cascade"
+    },
+    "windows": "Ctrl + I",
+    "mac": "⌘ I",
+    "linux": "Ctrl + I",
+    "keywords": [
+      "inline",
+      "编辑",
+      "ai",
+      "cascade"
+    ],
+    "pinyin": "xing nei   a i   bian ji xingnei ai bianji x n   a i   b j xn ai bj bian ji bianji b j bj"
+  },
+  {
+    "id": "windsurf-cascade-selection",
+    "appId": "windsurf",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "带选区打开 Cascade",
+      "en": "Cascade with Selection"
+    },
+    "description": {
+      "zh": "将选中内容带入 Cascade 对话",
+      "en": "Open Cascade with the current selection"
+    },
+    "windows": "Ctrl + Shift + L",
+    "mac": "⌘ ⇧ L",
+    "linux": "Ctrl + Shift + L",
+    "keywords": [
+      "cascade",
+      "选区",
+      "selection"
+    ],
+    "pinyin": "dai xuan qu da kai   c a s c a d e daixuanqudakai cascade d x q d k   c a s c a d e dxqdk cascade xuan qu xuanqu x q xq"
+  },
+  {
+    "id": "windsurf-accept-suggestion",
+    "appId": "windsurf",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "接受建议",
+      "en": "Accept Suggestion"
+    },
+    "description": {
+      "zh": "接受 AI 给出的建议",
+      "en": "Accept the AI suggestion"
+    },
+    "windows": "Tab",
+    "mac": "Tab",
+    "linux": "Tab",
+    "keywords": [
+      "接受",
+      "accept",
+      "建议",
+      "suggestion"
+    ],
+    "pinyin": "jie shou jian yi jieshoujianyi j s j y jsjy jie shou   jian yi jieshou jianyi j s   j y js jy"
+  },
+  {
+    "id": "windsurf-reject-suggestion",
+    "appId": "windsurf",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "拒绝建议",
+      "en": "Reject Suggestion"
+    },
+    "description": {
+      "zh": "拒绝 AI 给出的建议",
+      "en": "Reject the AI suggestion"
+    },
+    "windows": "Esc",
+    "mac": "Esc",
+    "linux": "Esc",
+    "keywords": [
+      "拒绝",
+      "reject",
+      "建议"
+    ],
+    "pinyin": "ju jue jian yi jujuejianyi j j j y jjjy ju jue   jian yi jujue jianyi j j   j y jj jy"
+  },
+  {
+    "id": "windsurf-next-suggestion",
+    "appId": "windsurf",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "下一个建议",
+      "en": "Next Suggestion"
+    },
+    "description": {
+      "zh": "切换到下一个 AI 建议",
+      "en": "Cycle to the next suggestion"
+    },
+    "windows": "Alt + ]",
+    "mac": "⌥ ]",
+    "linux": "Alt + ]",
+    "keywords": [
+      "下一个",
+      "next",
+      "建议"
+    ],
+    "pinyin": "xia yi ge jian yi xiayigejianyi x y g j y xygjy xia yi ge   jian yi xiayige jianyi x y g   j y xyg jy"
+  },
+  {
+    "id": "windsurf-prev-suggestion",
+    "appId": "windsurf",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "上一个建议",
+      "en": "Previous Suggestion"
+    },
+    "description": {
+      "zh": "切换到上一个 AI 建议",
+      "en": "Cycle to the previous suggestion"
+    },
+    "windows": "Alt + [",
+    "mac": "⌥ [",
+    "linux": "Alt + [",
+    "keywords": [
+      "上一个",
+      "previous",
+      "建议"
+    ],
+    "pinyin": "shang yi ge jian yi shangyigejianyi s y g j y sygjy shang yi ge   jian yi shangyige jianyi s y g   j y syg jy"
+  },
+  {
+    "id": "windsurf-quick-open",
+    "appId": "windsurf",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "快速打开文件",
+      "en": "Quick Open File"
+    },
+    "description": {
+      "zh": "快速打开文件（VS Code 基础）",
+      "en": "Quick open a file (VS Code base)"
+    },
+    "windows": "Ctrl + P",
+    "mac": "⌘ P",
+    "linux": "Ctrl + P",
+    "keywords": [
+      "打开",
+      "quick open",
+      "文件"
+    ],
+    "pinyin": "kuai su da kai wen jian kuaisudakaiwenjian k s d k w j ksdkwj da kai   wen jian dakai wenjian d k   w j dk wj"
+  },
+  {
+    "id": "windsurf-command-palette",
+    "appId": "windsurf",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "命令面板",
+      "en": "Command Palette"
+    },
+    "description": {
+      "zh": "打开命令面板",
+      "en": "Open the command palette"
+    },
+    "windows": "Ctrl + Shift + P",
+    "mac": "⌘ ⇧ P",
+    "linux": "Ctrl + Shift + P",
+    "keywords": [
+      "命令",
+      "command",
+      "面板",
+      "palette"
+    ],
+    "pinyin": "ming ling mian ban minglingmianban m l m b mlmb ming ling   mian ban mingling mianban m l   m b ml mb"
+  },
+  {
+    "id": "windsurf-toggle-terminal",
+    "appId": "windsurf",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "切换终端",
+      "en": "Toggle Terminal"
+    },
+    "description": {
+      "zh": "显示或隐藏终端",
+      "en": "Toggle the integrated terminal"
+    },
+    "windows": "Ctrl + `",
+    "mac": "⌘ `",
+    "linux": "Ctrl + `",
+    "keywords": [
+      "终端",
+      "terminal",
+      "切换"
+    ],
+    "pinyin": "qie huan zhong duan qiehuanzhongduan q h z d qhzd zhong duan   qie huan zhongduan qiehuan z d   q h zd qh"
+  },
+  {
+    "id": "windsurf-toggle-comment",
+    "appId": "windsurf",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "切换注释",
+      "en": "Toggle Comment"
+    },
+    "description": {
+      "zh": "注释或取消注释选中行",
+      "en": "Toggle line comment"
+    },
+    "windows": "Ctrl + /",
+    "mac": "⌘ /",
+    "linux": "Ctrl + /",
+    "keywords": [
+      "注释",
+      "comment",
+      "行注释"
+    ],
+    "pinyin": "qie huan zhu shi qiehuanzhushi q h z s qhzs zhu shi   xing zhu shi zhushi xingzhushi z s   x z s zs xzs"
+  },
+  {
+    "id": "windsurf-select-next",
+    "appId": "windsurf",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "选择下一个匹配",
+      "en": "Select Next Match"
+    },
+    "description": {
+      "zh": "添加下一个匹配到选择",
+      "en": "Add next match to selection"
+    },
+    "windows": "Ctrl + D",
+    "mac": "⌘ D",
+    "linux": "Ctrl + D",
+    "keywords": [
+      "选择",
+      "select",
+      "匹配",
+      "match"
+    ],
+    "pinyin": "xuan ze xia yi ge pi pei xuanzexiayigepipei x z x y g p p xzxygpp xuan ze   pi pei xuanze pipei x z   p p xz pp"
+  },
+  {
+    "id": "windsurf-move-line",
+    "appId": "windsurf",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "移动行",
+      "en": "Move Line"
+    },
+    "description": {
+      "zh": "上下移动当前行",
+      "en": "Move the current line up/down"
+    },
+    "windows": "Alt + ↑ / ↓",
+    "mac": "⌥ ↑ / ↓",
+    "linux": "Alt + ↑ / ↓",
+    "keywords": [
+      "移动",
+      "move",
+      "行",
+      "line"
+    ],
+    "pinyin": "yi dong xing yidongxing y d x ydx yi dong   xing yidong xing y d   x yd x"
+  },
+  {
+    "id": "windsurf-delete-line",
+    "appId": "windsurf",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "删除行",
+      "en": "Delete Line"
+    },
+    "description": {
+      "zh": "删除当前行",
+      "en": "Delete the current line"
+    },
+    "windows": "Ctrl + Shift + K",
+    "mac": "⌘ ⇧ K",
+    "linux": "Ctrl + Shift + K",
+    "keywords": [
+      "删除",
+      "delete",
+      "行",
+      "line"
+    ],
+    "pinyin": "shan chu xing shanchuxing s c x scx shan chu   xing shanchu xing s c   x sc x"
+  },
+  {
+    "id": "windsurf-toggle-sidebar",
+    "appId": "windsurf",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "切换侧边栏",
+      "en": "Toggle Sidebar"
+    },
+    "description": {
+      "zh": "显示或隐藏侧边栏",
+      "en": "Toggle the sidebar"
+    },
+    "windows": "Ctrl + B",
+    "mac": "⌘ B",
+    "linux": "Ctrl + B",
+    "keywords": [
+      "侧边栏",
+      "sidebar",
+      "切换"
+    ],
+    "pinyin": "qie huan ce bian lan qiehuancebianlan q h c b l qhcbl ce bian lan   qie huan cebianlan qiehuan c b l   q h cbl qh"
+  },
+  {
+    "id": "windsurf-rename",
+    "appId": "windsurf",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "重命名符号",
+      "en": "Rename Symbol"
+    },
+    "description": {
+      "zh": "重命名当前符号",
+      "en": "Rename the current symbol"
+    },
+    "windows": "F2",
+    "mac": "F2",
+    "linux": "F2",
+    "keywords": [
+      "重命名",
+      "rename",
+      "符号",
+      "symbol"
+    ],
+    "pinyin": "zhong ming ming fu hao zhongmingmingfuhao z m m f h zmmfh zhong ming ming   fu hao zhongmingming fuhao z m m   f h zmm fh"
+  },
+  {
+    "id": "windsurf-go-definition",
+    "appId": "windsurf",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "跳到定义",
+      "en": "Go to Definition"
+    },
+    "description": {
+      "zh": "跳转到符号定义",
+      "en": "Go to the symbol definition"
+    },
+    "windows": "F12",
+    "mac": "F12",
+    "linux": "F12",
+    "keywords": [
+      "定义",
+      "definition",
+      "跳转"
+    ],
+    "pinyin": "tiao dao ding yi tiaodaodingyi t d d y tddy ding yi   tiao zhuan dingyi tiaozhuan d y   t z dy tz"
+  },
+  {
+    "id": "windsurf-search-all",
+    "appId": "windsurf",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "全局搜索",
+      "en": "Search All Files"
+    },
+    "description": {
+      "zh": "在所有文件中搜索",
+      "en": "Search across all files"
+    },
+    "windows": "Ctrl + Shift + F",
+    "mac": "⌘ ⇧ F",
+    "linux": "Ctrl + Shift + F",
+    "keywords": [
+      "搜索",
+      "search",
+      "全局"
+    ],
+    "pinyin": "quan ju sou suo quanjusousuo q j s s qjss sou suo   quan ju sousuo quanju s s   q j ss qj"
+  },
+  {
+    "id": "windsurf-undo",
+    "appId": "windsurf",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销上一步",
+      "en": "Undo the last action"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "Ctrl + Z",
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "windsurf-redo",
+    "appId": "windsurf",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "重做被撤销的操作",
+      "en": "Redo the last undone action"
+    },
+    "windows": "Ctrl + Shift + Z",
+    "mac": "⌘ ⇧ Z",
+    "linux": "Ctrl + Shift + Z",
+    "keywords": [
+      "重做",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  }
+]

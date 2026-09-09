@@ -1,1 +1,778 @@
-[{"id":"tableplus-new-conn","appId":"tableplus","type":"software","category":"development","name":{"zh":"新建连接","en":"New Connection"},"description":{"zh":"新建数据库连接","en":"Open a new connection"},"windows":"Ctrl + N","mac":"⌘ N","linux":"Ctrl + N","keywords":["新建","连接","connection"],"pinyin":"xin jian lian jie xinjianlianjie x j l j xjlj xin jian   lian jie xinjian lianjie x j   l j xj lj"},{"id":"tableplus-pref","appId":"tableplus","type":"software","category":"development","name":{"zh":"偏好设置","en":"Preferences"},"description":{"zh":"打开偏好设置","en":"Open preferences"},"windows":"Ctrl + ,","mac":"⌘ ,","linux":"Ctrl + ,","keywords":["偏好","settings","preferences"],"pinyin":"pian hao she zhi pianhaoshezhi p h s z phsz pian hao pianhao p h ph"},{"id":"tableplus-quit","appId":"tableplus","type":"software","category":"development","name":{"zh":"退出应用","en":"Quit"},"description":{"zh":"退出 TablePlus","en":"Quit app"},"windows":"Ctrl + Q","mac":"⌘ Q","linux":"Ctrl + Q","keywords":["退出","quit"],"pinyin":"tui chu ying yong tuichuyingyong t c y y tcyy tui chu tuichu t c tc"},{"id":"tableplus-new-sql","appId":"tableplus","type":"software","category":"development","name":{"zh":"新建 SQL 查看器","en":"New SQL Viewer"},"description":{"zh":"打开新的 SQL 查看器","en":"New SQL viewer"},"windows":"Ctrl + Shift + O","mac":"⌘ ⇧ O","linux":"Ctrl + Shift + O","keywords":["新建","sql","viewer"],"pinyin":"xin jian   s q l   cha kan qi xinjian sql chakanqi x j   s q l   c k q xj sql ckq xin jian xinjian x j xj"},{"id":"tableplus-close-tab","appId":"tableplus","type":"software","category":"development","name":{"zh":"关闭标签","en":"Close Tab"},"description":{"zh":"关闭当前标签","en":"Close tab"},"windows":"Ctrl + W","mac":"⌘ W","linux":"Ctrl + W","keywords":["关闭","close","tab"],"pinyin":"guan bi biao qian guanbibiaoqian g b b q gbbq guan bi guanbi g b gb"},{"id":"tableplus-commit","appId":"tableplus","type":"software","category":"development","name":{"zh":"提交更改","en":"Commit Changes"},"description":{"zh":"提交数据更改","en":"Commit changes"},"windows":"Ctrl + S","mac":"⌘ S","linux":"Ctrl + S","keywords":["提交","commit","保存"],"pinyin":"ti jiao geng gai tijiaogenggai t j g g tjgg ti jiao   bao cun tijiao baocun t j   b c tj bc"},{"id":"tableplus-preview","appId":"tableplus","type":"software","category":"development","name":{"zh":"预览更改","en":"Preview Changes"},"description":{"zh":"预览未提交的更改","en":"Preview changes"},"windows":"Ctrl + Shift + P","mac":"⌘ ⇧ P","linux":"Ctrl + Shift + P","keywords":["预览","preview"],"pinyin":"yu lan geng gai yulangenggai y l g g ylgg yu lan yulan y l yl"},{"id":"tableplus-discard","appId":"tableplus","type":"software","category":"development","name":{"zh":"放弃更改","en":"Discard Changes"},"description":{"zh":"放弃未提交的更改","en":"Discard changes"},"windows":"Ctrl + Shift + Delete","mac":"⌘ ⇧ Delete","linux":"Ctrl + Shift + Delete","keywords":["放弃","discard","回滚"],"pinyin":"fang qi geng gai fangqigenggai f q g g fqgg fang qi   hui gun fangqi huigun f q   h g fq hg"},{"id":"tableplus-new-tab","appId":"tableplus","type":"software","category":"development","name":{"zh":"新建标签","en":"New Tab"},"description":{"zh":"打开新标签","en":"New tab"},"windows":"Ctrl + T","mac":"⌘ T","linux":"Ctrl + T","keywords":["新建","tab"],"pinyin":"xin jian biao qian xinjianbiaoqian x j b q xjbq xin jian xinjian x j xj"},{"id":"tableplus-plugin","appId":"tableplus","type":"software","category":"development","name":{"zh":"插件管理","en":"Plugin Manager"},"description":{"zh":"打开插件管理器","en":"Plugin manager"},"windows":"Ctrl + L","mac":"⌘ L","linux":"Ctrl + L","keywords":["插件","plugin"],"pinyin":"cha jian guan li chajianguanli c j g l cjgl cha jian chajian c j cj"},{"id":"tableplus-reload","appId":"tableplus","type":"software","category":"development","name":{"zh":"重载工作区","en":"Reload Workspace"},"description":{"zh":"重新加载当前工作区","en":"Reload workspace"},"windows":"Ctrl + R","mac":"⌘ R","linux":"Ctrl + R","keywords":["重载","reload"],"pinyin":"zhong zai gong zuo qu zhongzaigongzuoqu z z g z q zzgzq zhong zai zhongzai z z zz"},{"id":"tableplus-left-tab","appId":"tableplus","type":"software","category":"development","name":{"zh":"左移标签","en":"Navigate Left Tab"},"description":{"zh":"切换到左侧标签","en":"Previous tab"},"windows":"Ctrl + [","mac":"⌘ [","linux":"Ctrl + [","keywords":["左","previous","tab"],"pinyin":"zuo yi biao qian zuoyibiaoqian z y b q zybq zuo zuo z z"},{"id":"tableplus-right-tab","appId":"tableplus","type":"software","category":"development","name":{"zh":"右移标签","en":"Navigate Right Tab"},"description":{"zh":"切换到右侧标签","en":"Next tab"},"windows":"Ctrl + ]","mac":"⌘ ]","linux":"Ctrl + ]","keywords":["右","next","tab"],"pinyin":"you yi biao qian youyibiaoqian y y b q yybq you you y y"},{"id":"tableplus-split","appId":"tableplus","type":"software","category":"development","name":{"zh":"水平分屏","en":"Split Pane Horizontally"},"description":{"zh":"水平拆分当前面板","en":"Split pane"},"windows":"Ctrl + Shift + D","mac":"⌘ ⇧ D","linux":"Ctrl + Shift + D","keywords":["分屏","split","面板"],"pinyin":"shui ping fen ping shuipingfenping s p f p spfp fen ping   mian ban fenping mianban f p   m b fp mb"},{"id":"tableplus-num-tab","appId":"tableplus","type":"software","category":"development","name":{"zh":"数字标签跳转","en":"Go to Tab #"},"description":{"zh":"跳转到第 N 个标签","en":"Jump to numbered tab"},"windows":"Ctrl + 1–9","mac":"⌘ 1–9","linux":"Ctrl + 1–9","keywords":["跳转","tab","数字"],"pinyin":"shu zi biao qian tiao zhuan shuzibiaoqiantiaozhuan s z b q t z szbqtz tiao zhuan   shu zi tiaozhuan shuzi t z   s z tz sz"},{"id":"tableplus-switch-db","appId":"tableplus","type":"software","category":"development","name":{"zh":"切换数据库","en":"Switch Database"},"description":{"zh":"切换当前数据库","en":"Switch database"},"windows":"Ctrl + K","mac":"⌘ K","linux":"Ctrl + K","keywords":["切换","数据库","database"],"pinyin":"qie huan shu ju ku qiehuanshujuku q h s j k qhsjk qie huan   shu ju ku qiehuan shujuku q h   s j k qh sjk"},{"id":"tableplus-switch-conn","appId":"tableplus","type":"software","category":"development","name":{"zh":"切换连接","en":"Switch Connection"},"description":{"zh":"切换当前连接","en":"Switch connection"},"windows":"Ctrl + Shift + K","mac":"⌘ ⇧ K","linux":"Ctrl + Shift + K","keywords":["切换","连接","connection"],"pinyin":"qie huan lian jie qiehuanlianjie q h l j qhlj qie huan   lian jie qiehuan lianjie q h   l j qh lj"},{"id":"tableplus-undo","appId":"tableplus","type":"software","category":"development","name":{"zh":"撤销","en":"Undo"},"description":{"zh":"撤销上一步","en":"Undo"},"windows":"Ctrl + Z","mac":"⌘ Z","linux":"Ctrl + Z","keywords":["撤销","undo"],"pinyin":"che xiao chexiao c x cx che xiao chexiao c x cx"},{"id":"tableplus-redo","appId":"tableplus","type":"software","category":"development","name":{"zh":"重做","en":"Redo"},"description":{"zh":"重做操作","en":"Redo"},"windows":"Ctrl + Shift + Z","mac":"⌘ ⇧ Z","linux":"Ctrl + Shift + Z","keywords":["重做","redo"],"pinyin":"zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"},{"id":"tableplus-open-any","appId":"tableplus","type":"software","category":"development","name":{"zh":"打开任意","en":"Open Anything"},"description":{"zh":"快速打开任意对象","en":"Open anything"},"windows":"Ctrl + P","mac":"⌘ P","linux":"Ctrl + P","keywords":["打开","open","搜索"],"pinyin":"da kai ren yi dakairenyi d k r y dkry da kai   sou suo dakai sousuo d k   s s dk ss"},{"id":"tableplus-open-sql","appId":"tableplus","type":"software","category":"development","name":{"zh":"打开 SQL 查询","en":"Open SQL Query"},"description":{"zh":"打开 SQL 查询标签","en":"Open SQL query"},"windows":"Ctrl + E","mac":"⌘ E","linux":"Ctrl + E","keywords":["打开","sql","query"],"pinyin":"da kai   s q l   cha xun dakai sql chaxun d k   s q l   c x dk sql cx da kai dakai d k dk"},{"id":"tableplus-execute","appId":"tableplus","type":"software","category":"development","name":{"zh":"执行 SQL","en":"Execute SQL"},"description":{"zh":"执行当前 SQL","en":"Execute SQL"},"windows":"Ctrl + Enter","mac":"⌘ ↩","linux":"Ctrl + Enter","keywords":["执行","execute","sql"],"pinyin":"zhi xing   s q l zhixing sql z x   s q l zx sql zhi xing zhixing z x zx"},{"id":"tableplus-open-file","appId":"tableplus","type":"software","category":"development","name":{"zh":"打开文件","en":"Open File"},"description":{"zh":"打开 SQL 文件","en":"Open file"},"windows":"Ctrl + O","mac":"⌘ O","linux":"Ctrl + O","keywords":["打开","open","file"],"pinyin":"da kai wen jian dakaiwenjian d k w j dkwj da kai dakai d k dk"},{"id":"tableplus-beautify","appId":"tableplus","type":"software","category":"development","name":{"zh":"美化 SQL","en":"Beautify SQL"},"description":{"zh":"格式化选中 SQL","en":"Beautify SQL"},"windows":"Ctrl + I","mac":"⌘ I","linux":"Ctrl + I","keywords":["美化","beautify","format","sql"],"pinyin":"mei hua   s q l meihua sql m h   s q l mh sql mei hua meihua m h mh"},{"id":"tableplus-uglify","appId":"tableplus","type":"software","category":"development","name":{"zh":"压缩 SQL","en":"Uglify SQL"},"description":{"zh":"压缩选中 SQL","en":"Uglify SQL"},"windows":"Ctrl + Shift + I","mac":"⇧ ⌘ I","linux":"Ctrl + Shift + I","keywords":["压缩","uglify","sql"],"pinyin":"ya suo   s q l yasuo sql y s   s q l ys sql ya suo yasuo y s ys"},{"id":"tableplus-comment","appId":"tableplus","type":"software","category":"development","name":{"zh":"注释 / 取消注释","en":"Comment Lines"},"description":{"zh":"切换行注释","en":"Toggle comment"},"windows":"Ctrl + /","mac":"⌘ /","linux":"Ctrl + /","keywords":["注释","comment"],"pinyin":"zhu shi   /   qu xiao zhu shi zhushi / quxiaozhushi z s   /   q x z s zs / qxzs zhu shi zhushi z s zs"},{"id":"tableplus-multicursor-up","appId":"tableplus","type":"software","category":"development","name":{"zh":"多光标上移","en":"Add Cursor Above"},"description":{"zh":"在当前行上方加光标","en":"Add cursor above"},"windows":"Ctrl + Shift + ↑","mac":"⌃ ⇧ ↑","linux":"Ctrl + Shift + ↑","keywords":["光标","cursor","multi"],"pinyin":"duo guang biao shang yi duoguangbiaoshangyi d g b s y dgbsy guang biao guangbiao g b gb"},{"id":"tableplus-multicursor-down","appId":"tableplus","type":"software","category":"development","name":{"zh":"多光标下移","en":"Add Cursor Below"},"description":{"zh":"在当前行下方加光标","en":"Add cursor below"},"windows":"Ctrl + Shift + ↓","mac":"⌃ ⇧ ↓","linux":"Ctrl + Shift + ↓","keywords":["光标","cursor","multi"],"pinyin":"duo guang biao xia yi duoguangbiaoxiayi d g b x y dgbxy guang biao guangbiao g b gb"},{"id":"tableplus-select-next","appId":"tableplus","type":"software","category":"development","name":{"zh":"选中下一处","en":"Select Next Instance"},"description":{"zh":"选中下一处高亮词","en":"Select next instance"},"windows":"Ctrl + D","mac":"⌘ D","linux":"Ctrl + D","keywords":["选中","select","next"],"pinyin":"xuan zhong xia yi chu xuanzhongxiayichu x z x y c xzxyc xuan zhong xuanzhong x z xz"},{"id":"tableplus-row-detail","appId":"tableplus","type":"software","category":"development","name":{"zh":"行详情","en":"Toggle Row Detail"},"description":{"zh":"选中行时切换详情","en":"Toggle row detail"},"windows":"Space","mac":"Space","linux":"Space","keywords":["行","row","detail"],"pinyin":"xing xiang qing xingxiangqing x x q xxq xing xing x x"},{"id":"tableplus-insert-row","appId":"tableplus","type":"software","category":"development","name":{"zh":"插入行","en":"Insert Row"},"description":{"zh":"在表格数据中插入新行","en":"Insert new row"},"windows":"Ctrl + I","mac":"⌘ I","linux":"Ctrl + I","keywords":["插入","行","row"],"pinyin":"cha ru hang charuhang c r h crh cha ru   xing charu xing c r   x cr x"},{"id":"tableplus-duplicate-row","appId":"tableplus","type":"software","category":"development","name":{"zh":"复制行","en":"Duplicate Row"},"description":{"zh":"复制当前行","en":"Duplicate row"},"windows":"Ctrl + D","mac":"⌘ D","linux":"Ctrl + D","keywords":["复制","行","duplicate","row"],"pinyin":"fu zhi xing fuzhixing f z x fzx fu zhi   xing fuzhi xing f z   x fz x"},{"id":"tableplus-row-filter","appId":"tableplus","type":"software","category":"development","name":{"zh":"行筛选","en":"Row Filter"},"description":{"zh":"打开行筛选","en":"Open row filter"},"windows":"Ctrl + F","mac":"⌘ F","linux":"Ctrl + F","keywords":["筛选","filter","row"],"pinyin":"xing shai xuan xingshaixuan x s x xsx shai xuan shaixuan s x sx"},{"id":"tableplus-col-filter","appId":"tableplus","type":"software","category":"development","name":{"zh":"列筛选","en":"Column Filter"},"description":{"zh":"打开列筛选","en":"Open column filter"},"windows":"Ctrl + Alt + F","mac":"⌘ ⌥ F","linux":"Ctrl + Alt + F","keywords":["筛选","filter","column"],"pinyin":"lie shai xuan lieshaixuan l s x lsx shai xuan shaixuan s x sx"}]
+[
+  {
+    "id": "tableplus-new-conn",
+    "appId": "tableplus",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "新建连接",
+      "en": "New Connection"
+    },
+    "description": {
+      "zh": "新建数据库连接",
+      "en": "Open a new connection"
+    },
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
+    "linux": "Ctrl + N",
+    "keywords": [
+      "新建",
+      "连接",
+      "connection"
+    ],
+    "pinyin": "xin jian lian jie xinjianlianjie x j l j xjlj xin jian   lian jie xinjian lianjie x j   l j xj lj"
+  },
+  {
+    "id": "tableplus-pref",
+    "appId": "tableplus",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "偏好设置",
+      "en": "Preferences"
+    },
+    "description": {
+      "zh": "打开偏好设置",
+      "en": "Open preferences"
+    },
+    "windows": "Ctrl + ,",
+    "mac": "⌘ ,",
+    "linux": "Ctrl + ,",
+    "keywords": [
+      "偏好",
+      "settings",
+      "preferences"
+    ],
+    "pinyin": "pian hao she zhi pianhaoshezhi p h s z phsz pian hao pianhao p h ph"
+  },
+  {
+    "id": "tableplus-quit",
+    "appId": "tableplus",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "退出应用",
+      "en": "Quit"
+    },
+    "description": {
+      "zh": "退出 TablePlus",
+      "en": "Quit app"
+    },
+    "windows": "Ctrl + Q",
+    "mac": "⌘ Q",
+    "linux": "Ctrl + Q",
+    "keywords": [
+      "退出",
+      "quit"
+    ],
+    "pinyin": "tui chu ying yong tuichuyingyong t c y y tcyy tui chu tuichu t c tc"
+  },
+  {
+    "id": "tableplus-new-sql",
+    "appId": "tableplus",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "新建 SQL 查看器",
+      "en": "New SQL Viewer"
+    },
+    "description": {
+      "zh": "打开新的 SQL 查看器",
+      "en": "New SQL viewer"
+    },
+    "windows": "Ctrl + Shift + O",
+    "mac": "⌘ ⇧ O",
+    "linux": "Ctrl + Shift + O",
+    "keywords": [
+      "新建",
+      "sql",
+      "viewer"
+    ],
+    "pinyin": "xin jian   s q l   cha kan qi xinjian sql chakanqi x j   s q l   c k q xj sql ckq xin jian xinjian x j xj"
+  },
+  {
+    "id": "tableplus-close-tab",
+    "appId": "tableplus",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "关闭标签",
+      "en": "Close Tab"
+    },
+    "description": {
+      "zh": "关闭当前标签",
+      "en": "Close tab"
+    },
+    "windows": "Ctrl + W",
+    "mac": "⌘ W",
+    "linux": "Ctrl + W",
+    "keywords": [
+      "关闭",
+      "close",
+      "tab"
+    ],
+    "pinyin": "guan bi biao qian guanbibiaoqian g b b q gbbq guan bi guanbi g b gb"
+  },
+  {
+    "id": "tableplus-commit",
+    "appId": "tableplus",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "提交更改",
+      "en": "Commit Changes"
+    },
+    "description": {
+      "zh": "提交数据更改",
+      "en": "Commit changes"
+    },
+    "windows": "Ctrl + S",
+    "mac": "⌘ S",
+    "linux": "Ctrl + S",
+    "keywords": [
+      "提交",
+      "commit",
+      "保存"
+    ],
+    "pinyin": "ti jiao geng gai tijiaogenggai t j g g tjgg ti jiao   bao cun tijiao baocun t j   b c tj bc"
+  },
+  {
+    "id": "tableplus-preview",
+    "appId": "tableplus",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "预览更改",
+      "en": "Preview Changes"
+    },
+    "description": {
+      "zh": "预览未提交的更改",
+      "en": "Preview changes"
+    },
+    "windows": "Ctrl + Shift + P",
+    "mac": "⌘ ⇧ P",
+    "linux": "Ctrl + Shift + P",
+    "keywords": [
+      "预览",
+      "preview"
+    ],
+    "pinyin": "yu lan geng gai yulangenggai y l g g ylgg yu lan yulan y l yl"
+  },
+  {
+    "id": "tableplus-discard",
+    "appId": "tableplus",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "放弃更改",
+      "en": "Discard Changes"
+    },
+    "description": {
+      "zh": "放弃未提交的更改",
+      "en": "Discard changes"
+    },
+    "windows": "Ctrl + Shift + Delete",
+    "mac": "⌘ ⇧ Delete",
+    "linux": "Ctrl + Shift + Delete",
+    "keywords": [
+      "放弃",
+      "discard",
+      "回滚"
+    ],
+    "pinyin": "fang qi geng gai fangqigenggai f q g g fqgg fang qi   hui gun fangqi huigun f q   h g fq hg"
+  },
+  {
+    "id": "tableplus-new-tab",
+    "appId": "tableplus",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "新建标签",
+      "en": "New Tab"
+    },
+    "description": {
+      "zh": "打开新标签",
+      "en": "New tab"
+    },
+    "windows": "Ctrl + T",
+    "mac": "⌘ T",
+    "linux": "Ctrl + T",
+    "keywords": [
+      "新建",
+      "tab"
+    ],
+    "pinyin": "xin jian biao qian xinjianbiaoqian x j b q xjbq xin jian xinjian x j xj"
+  },
+  {
+    "id": "tableplus-plugin",
+    "appId": "tableplus",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "插件管理",
+      "en": "Plugin Manager"
+    },
+    "description": {
+      "zh": "打开插件管理器",
+      "en": "Plugin manager"
+    },
+    "windows": "Ctrl + L",
+    "mac": "⌘ L",
+    "linux": "Ctrl + L",
+    "keywords": [
+      "插件",
+      "plugin"
+    ],
+    "pinyin": "cha jian guan li chajianguanli c j g l cjgl cha jian chajian c j cj"
+  },
+  {
+    "id": "tableplus-reload",
+    "appId": "tableplus",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "重载工作区",
+      "en": "Reload Workspace"
+    },
+    "description": {
+      "zh": "重新加载当前工作区",
+      "en": "Reload workspace"
+    },
+    "windows": "Ctrl + R",
+    "mac": "⌘ R",
+    "linux": "Ctrl + R",
+    "keywords": [
+      "重载",
+      "reload"
+    ],
+    "pinyin": "zhong zai gong zuo qu zhongzaigongzuoqu z z g z q zzgzq zhong zai zhongzai z z zz"
+  },
+  {
+    "id": "tableplus-left-tab",
+    "appId": "tableplus",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "左移标签",
+      "en": "Navigate Left Tab"
+    },
+    "description": {
+      "zh": "切换到左侧标签",
+      "en": "Previous tab"
+    },
+    "windows": "Ctrl + [",
+    "mac": "⌘ [",
+    "linux": "Ctrl + [",
+    "keywords": [
+      "左",
+      "previous",
+      "tab"
+    ],
+    "pinyin": "zuo yi biao qian zuoyibiaoqian z y b q zybq zuo zuo z z"
+  },
+  {
+    "id": "tableplus-right-tab",
+    "appId": "tableplus",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "右移标签",
+      "en": "Navigate Right Tab"
+    },
+    "description": {
+      "zh": "切换到右侧标签",
+      "en": "Next tab"
+    },
+    "windows": "Ctrl + ]",
+    "mac": "⌘ ]",
+    "linux": "Ctrl + ]",
+    "keywords": [
+      "右",
+      "next",
+      "tab"
+    ],
+    "pinyin": "you yi biao qian youyibiaoqian y y b q yybq you you y y"
+  },
+  {
+    "id": "tableplus-split",
+    "appId": "tableplus",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "水平分屏",
+      "en": "Split Pane Horizontally"
+    },
+    "description": {
+      "zh": "水平拆分当前面板",
+      "en": "Split pane"
+    },
+    "windows": "Ctrl + Shift + D",
+    "mac": "⌘ ⇧ D",
+    "linux": "Ctrl + Shift + D",
+    "keywords": [
+      "分屏",
+      "split",
+      "面板"
+    ],
+    "pinyin": "shui ping fen ping shuipingfenping s p f p spfp fen ping   mian ban fenping mianban f p   m b fp mb"
+  },
+  {
+    "id": "tableplus-num-tab",
+    "appId": "tableplus",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "数字标签跳转",
+      "en": "Go to Tab #"
+    },
+    "description": {
+      "zh": "跳转到第 N 个标签",
+      "en": "Jump to numbered tab"
+    },
+    "windows": "Ctrl + 1–9",
+    "mac": "⌘ 1–9",
+    "linux": "Ctrl + 1–9",
+    "keywords": [
+      "跳转",
+      "tab",
+      "数字"
+    ],
+    "pinyin": "shu zi biao qian tiao zhuan shuzibiaoqiantiaozhuan s z b q t z szbqtz tiao zhuan   shu zi tiaozhuan shuzi t z   s z tz sz"
+  },
+  {
+    "id": "tableplus-switch-db",
+    "appId": "tableplus",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "切换数据库",
+      "en": "Switch Database"
+    },
+    "description": {
+      "zh": "切换当前数据库",
+      "en": "Switch database"
+    },
+    "windows": "Ctrl + K",
+    "mac": "⌘ K",
+    "linux": "Ctrl + K",
+    "keywords": [
+      "切换",
+      "数据库",
+      "database"
+    ],
+    "pinyin": "qie huan shu ju ku qiehuanshujuku q h s j k qhsjk qie huan   shu ju ku qiehuan shujuku q h   s j k qh sjk"
+  },
+  {
+    "id": "tableplus-switch-conn",
+    "appId": "tableplus",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "切换连接",
+      "en": "Switch Connection"
+    },
+    "description": {
+      "zh": "切换当前连接",
+      "en": "Switch connection"
+    },
+    "windows": "Ctrl + Shift + K",
+    "mac": "⌘ ⇧ K",
+    "linux": "Ctrl + Shift + K",
+    "keywords": [
+      "切换",
+      "连接",
+      "connection"
+    ],
+    "pinyin": "qie huan lian jie qiehuanlianjie q h l j qhlj qie huan   lian jie qiehuan lianjie q h   l j qh lj"
+  },
+  {
+    "id": "tableplus-undo",
+    "appId": "tableplus",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销上一步",
+      "en": "Undo"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "Ctrl + Z",
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "tableplus-redo",
+    "appId": "tableplus",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "重做操作",
+      "en": "Redo"
+    },
+    "windows": "Ctrl + Shift + Z",
+    "mac": "⌘ ⇧ Z",
+    "linux": "Ctrl + Shift + Z",
+    "keywords": [
+      "重做",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "tableplus-open-any",
+    "appId": "tableplus",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "打开任意",
+      "en": "Open Anything"
+    },
+    "description": {
+      "zh": "快速打开任意对象",
+      "en": "Open anything"
+    },
+    "windows": "Ctrl + P",
+    "mac": "⌘ P",
+    "linux": "Ctrl + P",
+    "keywords": [
+      "打开",
+      "open",
+      "搜索"
+    ],
+    "pinyin": "da kai ren yi dakairenyi d k r y dkry da kai   sou suo dakai sousuo d k   s s dk ss"
+  },
+  {
+    "id": "tableplus-open-sql",
+    "appId": "tableplus",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "打开 SQL 查询",
+      "en": "Open SQL Query"
+    },
+    "description": {
+      "zh": "打开 SQL 查询标签",
+      "en": "Open SQL query"
+    },
+    "windows": "Ctrl + E",
+    "mac": "⌘ E",
+    "linux": "Ctrl + E",
+    "keywords": [
+      "打开",
+      "sql",
+      "query"
+    ],
+    "pinyin": "da kai   s q l   cha xun dakai sql chaxun d k   s q l   c x dk sql cx da kai dakai d k dk"
+  },
+  {
+    "id": "tableplus-execute",
+    "appId": "tableplus",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "执行 SQL",
+      "en": "Execute SQL"
+    },
+    "description": {
+      "zh": "执行当前 SQL",
+      "en": "Execute SQL"
+    },
+    "windows": "Ctrl + Enter",
+    "mac": "⌘ ↩",
+    "linux": "Ctrl + Enter",
+    "keywords": [
+      "执行",
+      "execute",
+      "sql"
+    ],
+    "pinyin": "zhi xing   s q l zhixing sql z x   s q l zx sql zhi xing zhixing z x zx"
+  },
+  {
+    "id": "tableplus-open-file",
+    "appId": "tableplus",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "打开文件",
+      "en": "Open File"
+    },
+    "description": {
+      "zh": "打开 SQL 文件",
+      "en": "Open file"
+    },
+    "windows": "Ctrl + O",
+    "mac": "⌘ O",
+    "linux": "Ctrl + O",
+    "keywords": [
+      "打开",
+      "open",
+      "file"
+    ],
+    "pinyin": "da kai wen jian dakaiwenjian d k w j dkwj da kai dakai d k dk"
+  },
+  {
+    "id": "tableplus-beautify",
+    "appId": "tableplus",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "美化 SQL",
+      "en": "Beautify SQL"
+    },
+    "description": {
+      "zh": "格式化选中 SQL",
+      "en": "Beautify SQL"
+    },
+    "windows": "Ctrl + I",
+    "mac": "⌘ I",
+    "linux": "Ctrl + I",
+    "keywords": [
+      "美化",
+      "beautify",
+      "format",
+      "sql"
+    ],
+    "pinyin": "mei hua   s q l meihua sql m h   s q l mh sql mei hua meihua m h mh"
+  },
+  {
+    "id": "tableplus-uglify",
+    "appId": "tableplus",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "压缩 SQL",
+      "en": "Uglify SQL"
+    },
+    "description": {
+      "zh": "压缩选中 SQL",
+      "en": "Uglify SQL"
+    },
+    "windows": "Ctrl + Shift + I",
+    "mac": "⇧ ⌘ I",
+    "linux": "Ctrl + Shift + I",
+    "keywords": [
+      "压缩",
+      "uglify",
+      "sql"
+    ],
+    "pinyin": "ya suo   s q l yasuo sql y s   s q l ys sql ya suo yasuo y s ys"
+  },
+  {
+    "id": "tableplus-comment",
+    "appId": "tableplus",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "注释 / 取消注释",
+      "en": "Comment Lines"
+    },
+    "description": {
+      "zh": "切换行注释",
+      "en": "Toggle comment"
+    },
+    "windows": "Ctrl + /",
+    "mac": "⌘ /",
+    "linux": "Ctrl + /",
+    "keywords": [
+      "注释",
+      "comment"
+    ],
+    "pinyin": "zhu shi   /   qu xiao zhu shi zhushi / quxiaozhushi z s   /   q x z s zs / qxzs zhu shi zhushi z s zs"
+  },
+  {
+    "id": "tableplus-multicursor-up",
+    "appId": "tableplus",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "多光标上移",
+      "en": "Add Cursor Above"
+    },
+    "description": {
+      "zh": "在当前行上方加光标",
+      "en": "Add cursor above"
+    },
+    "windows": "Ctrl + Shift + ↑",
+    "mac": "⌃ ⇧ ↑",
+    "linux": "Ctrl + Shift + ↑",
+    "keywords": [
+      "光标",
+      "cursor",
+      "multi"
+    ],
+    "pinyin": "duo guang biao shang yi duoguangbiaoshangyi d g b s y dgbsy guang biao guangbiao g b gb"
+  },
+  {
+    "id": "tableplus-multicursor-down",
+    "appId": "tableplus",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "多光标下移",
+      "en": "Add Cursor Below"
+    },
+    "description": {
+      "zh": "在当前行下方加光标",
+      "en": "Add cursor below"
+    },
+    "windows": "Ctrl + Shift + ↓",
+    "mac": "⌃ ⇧ ↓",
+    "linux": "Ctrl + Shift + ↓",
+    "keywords": [
+      "光标",
+      "cursor",
+      "multi"
+    ],
+    "pinyin": "duo guang biao xia yi duoguangbiaoxiayi d g b x y dgbxy guang biao guangbiao g b gb"
+  },
+  {
+    "id": "tableplus-select-next",
+    "appId": "tableplus",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "选中下一处",
+      "en": "Select Next Instance"
+    },
+    "description": {
+      "zh": "选中下一处高亮词",
+      "en": "Select next instance"
+    },
+    "windows": "Ctrl + D",
+    "mac": "⌘ D",
+    "linux": "Ctrl + D",
+    "keywords": [
+      "选中",
+      "select",
+      "next"
+    ],
+    "pinyin": "xuan zhong xia yi chu xuanzhongxiayichu x z x y c xzxyc xuan zhong xuanzhong x z xz"
+  },
+  {
+    "id": "tableplus-row-detail",
+    "appId": "tableplus",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "行详情",
+      "en": "Toggle Row Detail"
+    },
+    "description": {
+      "zh": "选中行时切换详情",
+      "en": "Toggle row detail"
+    },
+    "windows": "Space",
+    "mac": "Space",
+    "linux": "Space",
+    "keywords": [
+      "行",
+      "row",
+      "detail"
+    ],
+    "pinyin": "xing xiang qing xingxiangqing x x q xxq xing xing x x"
+  },
+  {
+    "id": "tableplus-insert-row",
+    "appId": "tableplus",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "插入行",
+      "en": "Insert Row"
+    },
+    "description": {
+      "zh": "在表格数据中插入新行",
+      "en": "Insert new row"
+    },
+    "windows": "Ctrl + I",
+    "mac": "⌘ I",
+    "linux": "Ctrl + I",
+    "keywords": [
+      "插入",
+      "行",
+      "row"
+    ],
+    "pinyin": "cha ru hang charuhang c r h crh cha ru   xing charu xing c r   x cr x"
+  },
+  {
+    "id": "tableplus-duplicate-row",
+    "appId": "tableplus",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "复制行",
+      "en": "Duplicate Row"
+    },
+    "description": {
+      "zh": "复制当前行",
+      "en": "Duplicate row"
+    },
+    "windows": "Ctrl + D",
+    "mac": "⌘ D",
+    "linux": "Ctrl + D",
+    "keywords": [
+      "复制",
+      "行",
+      "duplicate",
+      "row"
+    ],
+    "pinyin": "fu zhi xing fuzhixing f z x fzx fu zhi   xing fuzhi xing f z   x fz x"
+  },
+  {
+    "id": "tableplus-row-filter",
+    "appId": "tableplus",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "行筛选",
+      "en": "Row Filter"
+    },
+    "description": {
+      "zh": "打开行筛选",
+      "en": "Open row filter"
+    },
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
+    "linux": "Ctrl + F",
+    "keywords": [
+      "筛选",
+      "filter",
+      "row"
+    ],
+    "pinyin": "xing shai xuan xingshaixuan x s x xsx shai xuan shaixuan s x sx"
+  },
+  {
+    "id": "tableplus-col-filter",
+    "appId": "tableplus",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "列筛选",
+      "en": "Column Filter"
+    },
+    "description": {
+      "zh": "打开列筛选",
+      "en": "Open column filter"
+    },
+    "windows": "Ctrl + Alt + F",
+    "mac": "⌘ ⌥ F",
+    "linux": "Ctrl + Alt + F",
+    "keywords": [
+      "筛选",
+      "filter",
+      "column"
+    ],
+    "pinyin": "lie shai xuan lieshaixuan l s x lsx shai xuan shaixuan s x sx"
+  }
+]

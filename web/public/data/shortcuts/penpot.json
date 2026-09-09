@@ -1,1 +1,930 @@
-[{"id":"penpot-copy","appId":"penpot","type":"software","category":"design","name":{"zh":"复制","en":"Copy"},"description":{"zh":"复制选中图形","en":"Copy selection"},"windows":"Ctrl + C","mac":"⌘ C","linux":"Ctrl + C","keywords":["复制","copy"],"pinyin":"fu zhi fuzhi f z fz fu zhi fuzhi f z fz"},{"id":"penpot-paste","appId":"penpot","type":"software","category":"design","name":{"zh":"粘贴","en":"Paste"},"description":{"zh":"粘贴剪贴板内容","en":"Paste from clipboard"},"windows":"Ctrl + V","mac":"⌘ V","linux":"Ctrl + V","keywords":["粘贴","paste"],"pinyin":"nian tie niantie n t nt nian tie niantie n t nt"},{"id":"penpot-paste-replace","appId":"penpot","type":"software","category":"design","name":{"zh":"粘贴并替换","en":"Paste to Replace"},"description":{"zh":"用剪贴板内容替换选中图形","en":"Paste replacing selected shape"},"windows":"Ctrl + Shift + V","mac":"⌘ ⇧ V","linux":"Ctrl + Shift + V","keywords":["粘贴","replace","替换"],"pinyin":"nian tie bing ti huan niantiebingtihuan n t b t h ntbth nian tie   ti huan niantie tihuan n t   t h nt th"},{"id":"penpot-undo","appId":"penpot","type":"software","category":"design","name":{"zh":"撤销","en":"Undo"},"description":{"zh":"撤销上一步操作","en":"Undo"},"windows":"Ctrl + Z","mac":"⌘ Z","linux":"Ctrl + Z","keywords":["撤销","undo"],"pinyin":"che xiao chexiao c x cx che xiao chexiao c x cx"},{"id":"penpot-redo","appId":"penpot","type":"software","category":"design","name":{"zh":"重做","en":"Redo"},"description":{"zh":"重做被撤销的操作","en":"Redo"},"windows":"Ctrl + Shift + Z","mac":"⌘ ⇧ Z","linux":"Ctrl + Shift + Z","keywords":["重做","redo"],"pinyin":"zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"},{"id":"penpot-copy-props","appId":"penpot","type":"software","category":"design","name":{"zh":"复制属性","en":"Copy Properties"},"description":{"zh":"复制选中图形的样式属性","en":"Copy style properties"},"windows":"Ctrl + Alt + C","mac":"⌘ ⌥ C","linux":"Ctrl + Alt + C","keywords":["复制","属性","copy","properties"],"pinyin":"fu zhi shu xing fuzhishuxing f z s x fzsx fu zhi   shu xing fuzhi shuxing f z   s x fz sx"},{"id":"penpot-paste-props","appId":"penpot","type":"software","category":"design","name":{"zh":"粘贴属性","en":"Paste Properties"},"description":{"zh":"将复制的样式应用到选中图形","en":"Apply copied properties"},"windows":"Ctrl + Alt + V","mac":"⌘ ⌥ V","linux":"Ctrl + Alt + V","keywords":["粘贴","属性","paste","properties"],"pinyin":"nian tie shu xing niantieshuxing n t s x ntsx nian tie   shu xing niantie shuxing n t   s x nt sx"},{"id":"penpot-find","appId":"penpot","type":"software","category":"design","name":{"zh":"查找","en":"Find"},"description":{"zh":"在画布中查找","en":"Find on canvas"},"windows":"Ctrl + F","mac":"⌘ F","linux":"Ctrl + F","keywords":["查找","find","搜索"],"pinyin":"cha zhao chazhao c z cz cha zhao   sou suo chazhao sousuo c z   s s cz ss"},{"id":"penpot-find-replace","appId":"penpot","type":"software","category":"design","name":{"zh":"查找替换","en":"Find & Replace"},"description":{"zh":"查找并替换文本","en":"Find and replace text"},"windows":"Ctrl + H","mac":"⌘ H","linux":"Ctrl + H","keywords":["查找","替换","find","replace"],"pinyin":"cha zhao ti huan chazhaotihuan c z t h czth cha zhao   ti huan chazhao tihuan c z   t h cz th"},{"id":"penpot-delete","appId":"penpot","type":"software","category":"design","name":{"zh":"删除","en":"Delete"},"description":{"zh":"删除选中图形","en":"Delete selection"},"windows":"Delete","mac":"⌫","linux":"Delete","keywords":["删除","delete"],"pinyin":"shan chu shanchu s c sc shan chu shanchu s c sc"},{"id":"penpot-select-all","appId":"penpot","type":"software","category":"design","name":{"zh":"全选","en":"Select All"},"description":{"zh":"选中画布全部图形","en":"Select all shapes"},"windows":"Ctrl + A","mac":"⌘ A","linux":"Ctrl + A","keywords":["全选","select all"],"pinyin":"quan xuan quanxuan q x qx quan xuan quanxuan q x qx"},{"id":"penpot-group","appId":"penpot","type":"software","category":"design","name":{"zh":"编组","en":"Group"},"description":{"zh":"将选中图形编组","en":"Group selection"},"windows":"Ctrl + G","mac":"⌘ G","linux":"Ctrl + G","keywords":["编组","group"],"pinyin":"bian zu bianzu b z bz bian zu bianzu b z bz"},{"id":"penpot-ungroup","appId":"penpot","type":"software","category":"design","name":{"zh":"解组","en":"Ungroup"},"description":{"zh":"取消编组","en":"Ungroup"},"windows":"Shift + G","mac":"⇧ G","linux":"Shift + G","keywords":["解组","ungroup"],"pinyin":"jie zu jiezu j z jz jie zu jiezu j z jz"},{"id":"penpot-component","appId":"penpot","type":"software","category":"design","name":{"zh":"创建组件","en":"Create Component"},"description":{"zh":"将选中图形转为组件/变体","en":"Create component or variant"},"windows":"Ctrl + K","mac":"⌘ K","linux":"Ctrl + K","keywords":["组件","component"],"pinyin":"chuang jian zu jian chuangjianzujian c j z j cjzj zu jian zujian z j zj"},{"id":"penpot-detach","appId":"penpot","type":"software","category":"design","name":{"zh":"分离组件","en":"Detach Component"},"description":{"zh":"将实例还原为普通图形","en":"Detach component instance"},"windows":"Ctrl + Shift + K","mac":"⌘ ⇧ K","linux":"Ctrl + Shift + K","keywords":["分离","detach","组件"],"pinyin":"fen li zu jian fenlizujian f l z j flzj fen li   zu jian fenli zujian f l   z j fl zj"},{"id":"penpot-bool-union","appId":"penpot","type":"software","category":"design","name":{"zh":"布尔联合","en":"Boolean Union"},"description":{"zh":"合并多个图形","en":"Union shapes"},"windows":"Ctrl + Alt + U","mac":"⌘ ⌥ U","linux":"Ctrl + Alt + U","keywords":["布尔","union","联合"],"pinyin":"bu er lian he buerlianhe b e l h belh bu er   lian he buer lianhe b e   l h be lh"},{"id":"penpot-bool-diff","appId":"penpot","type":"software","category":"design","name":{"zh":"布尔差集","en":"Boolean Difference"},"description":{"zh":"从底层图形减去顶层","en":"Subtract top from bottom"},"windows":"Ctrl + Alt + D","mac":"⌘ ⌥ D","linux":"Ctrl + Alt + D","keywords":["布尔","difference","差集"],"pinyin":"bu er cha ji buerchaji b e c j becj bu er   cha ji buer chaji b e   c j be cj"},{"id":"penpot-bool-intersect","appId":"penpot","type":"software","category":"design","name":{"zh":"布尔交集","en":"Boolean Intersect"},"description":{"zh":"仅保留重叠区域","en":"Keep overlap only"},"windows":"Ctrl + Alt + I","mac":"⌘ ⌥ I","linux":"Ctrl + Alt + I","keywords":["布尔","intersect","交集"],"pinyin":"bu er jiao ji buerjiaoji b e j j bejj bu er   jiao ji buer jiaoji b e   j j be jj"},{"id":"penpot-mask","appId":"penpot","type":"software","category":"design","name":{"zh":"蒙版","en":"Mask"},"description":{"zh":"用顶层图形遮罩下层","en":"Mask with top shape"},"windows":"Ctrl + M","mac":"⌘ M","linux":"Ctrl + M","keywords":["蒙版","mask"],"pinyin":"meng ban mengban m b mb meng ban mengban m b mb"},{"id":"penpot-front","appId":"penpot","type":"software","category":"design","name":{"zh":"置于顶层","en":"Bring to Front"},"description":{"zh":"将选中图形移到最前","en":"Bring to front"},"windows":"Ctrl + Shift + ↑","mac":"⌘ ⇧ ↑","linux":"Ctrl + Shift + ↑","keywords":["顶层","front","层级"],"pinyin":"zhi yu ding ceng zhiyudingceng z y d c zydc ding ceng   ceng ji dingceng cengji d c   c j dc cj"},{"id":"penpot-back","appId":"penpot","type":"software","category":"design","name":{"zh":"置于底层","en":"Send to Back"},"description":{"zh":"将选中图形移到最后","en":"Send to back"},"windows":"Ctrl + Shift + ↓","mac":"⌘ ⇧ ↓","linux":"Ctrl + Shift + ↓","keywords":["底层","back","层级"],"pinyin":"zhi yu di ceng zhiyudiceng z y d c zydc di ceng   ceng ji diceng cengji d c   c j dc cj"},{"id":"penpot-align-left","appId":"penpot","type":"software","category":"design","name":{"zh":"左对齐","en":"Align Left"},"description":{"zh":"左对齐选中图形","en":"Align left"},"windows":"Alt + A","mac":"⌥ A","linux":"Alt + A","keywords":["对齐","align","left"],"pinyin":"zuo dui qi zuoduiqi z d q zdq dui qi duiqi d q dq"},{"id":"penpot-align-right","appId":"penpot","type":"software","category":"design","name":{"zh":"右对齐","en":"Align Right"},"description":{"zh":"右对齐选中图形","en":"Align right"},"windows":"Alt + D","mac":"⌥ D","linux":"Alt + D","keywords":["对齐","align","right"],"pinyin":"you dui qi youduiqi y d q ydq dui qi duiqi d q dq"},{"id":"penpot-align-top","appId":"penpot","type":"software","category":"design","name":{"zh":"顶对齐","en":"Align Top"},"description":{"zh":"上对齐选中图形","en":"Align top"},"windows":"Alt + W","mac":"⌥ W","linux":"Alt + W","keywords":["对齐","align","top"],"pinyin":"ding dui qi dingduiqi d d q ddq dui qi duiqi d q dq"},{"id":"penpot-align-bottom","appId":"penpot","type":"software","category":"design","name":{"zh":"底对齐","en":"Align Bottom"},"description":{"zh":"下对齐选中图形","en":"Align bottom"},"windows":"Alt + S","mac":"⌥ S","linux":"Alt + S","keywords":["对齐","align","bottom"],"pinyin":"di dui qi diduiqi d d q ddq dui qi duiqi d q dq"},{"id":"penpot-lock","appId":"penpot","type":"software","category":"design","name":{"zh":"锁定选中","en":"Lock Selection"},"description":{"zh":"锁定/解锁选中图形","en":"Lock/unlock selection"},"windows":"Ctrl + Shift + L","mac":"⌘ ⇧ L","linux":"Ctrl + Shift + L","keywords":["锁定","lock"],"pinyin":"suo ding xuan zhong suodingxuanzhong s d x z sdxz suo ding suoding s d sd"},{"id":"penpot-hide","appId":"penpot","type":"software","category":"design","name":{"zh":"显示 / 隐藏","en":"Toggle Visibility"},"description":{"zh":"切换选中图形可见性","en":"Toggle visibility"},"windows":"Ctrl + Shift + H","mac":"⌘ ⇧ H","linux":"Ctrl + Shift + H","keywords":["显示","隐藏","visibility"],"pinyin":"xian shi   /   yin cang xianshi / yincang x s   /   y c xs / yc xian shi   yin cang xianshi yincang x s   y c xs yc"},{"id":"penpot-tool-move","appId":"penpot","type":"software","category":"design","name":{"zh":"移动工具","en":"Move Tool"},"description":{"zh":"切换到移动/选择工具","en":"Select/move tool"},"windows":"V","mac":"V","linux":"V","keywords":["移动","move","工具"],"pinyin":"yi dong gong ju yidonggongju y d g j ydgj yi dong   gong ju yidong gongju y d   g j yd gj"},{"id":"penpot-tool-rect","appId":"penpot","type":"software","category":"design","name":{"zh":"矩形工具","en":"Rectangle"},"description":{"zh":"绘制矩形","en":"Rectangle tool"},"windows":"R","mac":"R","linux":"R","keywords":["矩形","rectangle"],"pinyin":"ju xing gong ju juxinggongju j x g j jxgj ju xing juxing j x jx"},{"id":"penpot-tool-ellipse","appId":"penpot","type":"software","category":"design","name":{"zh":"椭圆工具","en":"Ellipse"},"description":{"zh":"绘制椭圆","en":"Ellipse tool"},"windows":"E","mac":"E","linux":"E","keywords":["椭圆","ellipse","圆"],"pinyin":"tuo yuan gong ju tuoyuangongju t y g j tygj tuo yuan   yuan tuoyuan yuan t y   y ty y"},{"id":"penpot-tool-text","appId":"penpot","type":"software","category":"design","name":{"zh":"文本工具","en":"Text"},"description":{"zh":"添加文本","en":"Text tool"},"windows":"T","mac":"T","linux":"T","keywords":["文本","text"],"pinyin":"wen ben gong ju wenbengongju w b g j wbgj wen ben wenben w b wb"},{"id":"penpot-tool-pen","appId":"penpot","type":"software","category":"design","name":{"zh":"画笔工具","en":"Pen / Path"},"description":{"zh":"绘制路径","en":"Pen/path tool"},"windows":"P","mac":"P","linux":"P","keywords":["画笔","pen","路径","path"],"pinyin":"hua bi gong ju huabigongju h b g j hbgj hua bi   lu jing huabi lujing h b   l j hb lj"},{"id":"penpot-tool-comment","appId":"penpot","type":"software","category":"design","name":{"zh":"评论工具","en":"Comment"},"description":{"zh":"添加评论","en":"Comment tool"},"windows":"C","mac":"C","linux":"C","keywords":["评论","comment"],"pinyin":"ping lun gong ju pinglungongju p l g j plgj ping lun pinglun p l pl"},{"id":"penpot-tool-board","appId":"penpot","type":"software","category":"design","name":{"zh":"画板工具","en":"Board"},"description":{"zh":"新建画板","en":"Board tool"},"windows":"B","mac":"B","linux":"B","keywords":["画板","board","frame"],"pinyin":"hua ban gong ju huabangongju h b g j hbgj hua ban huaban h b hb"},{"id":"penpot-focus","appId":"penpot","type":"software","category":"design","name":{"zh":"焦点模式","en":"Focus Mode"},"description":{"zh":"切换焦点模式","en":"Toggle focus mode"},"windows":"F","mac":"F","linux":"F","keywords":["焦点","focus"],"pinyin":"jiao dian mo shi jiaodianmoshi j d m s jdms jiao dian jiaodian j d jd"},{"id":"penpot-bold","appId":"penpot","type":"software","category":"design","name":{"zh":"加粗","en":"Bold"},"description":{"zh":"文本加粗","en":"Bold text"},"windows":"Ctrl + B","mac":"⌘ B","linux":"Ctrl + B","keywords":["加粗","bold"],"pinyin":"jia cu jiacu j c jc jia cu jiacu j c jc"},{"id":"penpot-italic","appId":"penpot","type":"software","category":"design","name":{"zh":"斜体","en":"Italic"},"description":{"zh":"文本斜体","en":"Italic text"},"windows":"Ctrl + I","mac":"⌘ I","linux":"Ctrl + I","keywords":["斜体","italic"],"pinyin":"xie ti xieti x t xt xie ti xieti x t xt"},{"id":"penpot-zoom-fit","appId":"penpot","type":"software","category":"design","name":{"zh":"适应全部","en":"Zoom to Fit"},"description":{"zh":"缩放以适配全部内容","en":"Zoom to fit all"},"windows":"Shift + 1","mac":"⇧ 1","linux":"Shift + 1","keywords":["缩放","fit","适应"],"pinyin":"shi ying quan bu shiyingquanbu s y q b syqb suo fang   shi ying suofang shiying s f   s y sf sy"},{"id":"penpot-grid","appId":"penpot","type":"software","category":"design","name":{"zh":"显示 / 隐藏网格","en":"Toggle Grid"},"description":{"zh":"切换网格显示","en":"Show/hide grid"},"windows":"Ctrl + '","mac":"⌘ '","linux":"Ctrl + '","keywords":["网格","grid"],"pinyin":"xian shi   /   yin cang wang ge xianshi / yincangwangge x s   /   y c w g xs / ycwg wang ge wangge w g wg"},{"id":"penpot-rulers","appId":"penpot","type":"software","category":"design","name":{"zh":"显示 / 隐藏标尺","en":"Toggle Rulers"},"description":{"zh":"切换标尺显示","en":"Show/hide rulers"},"windows":"Ctrl + Shift + R","mac":"⌘ ⇧ R","linux":"Ctrl + Shift + R","keywords":["标尺","rulers"],"pinyin":"xian shi   /   yin cang biao chi xianshi / yincangbiaochi x s   /   y c b c xs / ycbc biao chi biaochi b c bc"},{"id":"penpot-show-shortcuts","appId":"penpot","type":"software","category":"design","name":{"zh":"显示快捷键","en":"Show Shortcuts"},"description":{"zh":"打开快捷键帮助","en":"Show shortcuts help"},"windows":"?","mac":"?","linux":"?","keywords":["快捷键","shortcuts","帮助"],"pinyin":"xian shi kuai jie jian xianshikuaijiejian x s k j j xskjj kuai jie jian   bang zhu kuaijiejian bangzhu k j j   b z kjj bz"}]
+[
+  {
+    "id": "penpot-copy",
+    "appId": "penpot",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "复制",
+      "en": "Copy"
+    },
+    "description": {
+      "zh": "复制选中图形",
+      "en": "Copy selection"
+    },
+    "windows": "Ctrl + C",
+    "mac": "⌘ C",
+    "linux": "Ctrl + C",
+    "keywords": [
+      "复制",
+      "copy"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "penpot-paste",
+    "appId": "penpot",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "粘贴",
+      "en": "Paste"
+    },
+    "description": {
+      "zh": "粘贴剪贴板内容",
+      "en": "Paste from clipboard"
+    },
+    "windows": "Ctrl + V",
+    "mac": "⌘ V",
+    "linux": "Ctrl + V",
+    "keywords": [
+      "粘贴",
+      "paste"
+    ],
+    "pinyin": "nian tie niantie n t nt nian tie niantie n t nt"
+  },
+  {
+    "id": "penpot-paste-replace",
+    "appId": "penpot",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "粘贴并替换",
+      "en": "Paste to Replace"
+    },
+    "description": {
+      "zh": "用剪贴板内容替换选中图形",
+      "en": "Paste replacing selected shape"
+    },
+    "windows": "Ctrl + Shift + V",
+    "mac": "⌘ ⇧ V",
+    "linux": "Ctrl + Shift + V",
+    "keywords": [
+      "粘贴",
+      "replace",
+      "替换"
+    ],
+    "pinyin": "nian tie bing ti huan niantiebingtihuan n t b t h ntbth nian tie   ti huan niantie tihuan n t   t h nt th"
+  },
+  {
+    "id": "penpot-undo",
+    "appId": "penpot",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销上一步操作",
+      "en": "Undo"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "Ctrl + Z",
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "penpot-redo",
+    "appId": "penpot",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "重做被撤销的操作",
+      "en": "Redo"
+    },
+    "windows": "Ctrl + Shift + Z",
+    "mac": "⌘ ⇧ Z",
+    "linux": "Ctrl + Shift + Z",
+    "keywords": [
+      "重做",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "penpot-copy-props",
+    "appId": "penpot",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "复制属性",
+      "en": "Copy Properties"
+    },
+    "description": {
+      "zh": "复制选中图形的样式属性",
+      "en": "Copy style properties"
+    },
+    "windows": "Ctrl + Alt + C",
+    "mac": "⌘ ⌥ C",
+    "linux": "Ctrl + Alt + C",
+    "keywords": [
+      "复制",
+      "属性",
+      "copy",
+      "properties"
+    ],
+    "pinyin": "fu zhi shu xing fuzhishuxing f z s x fzsx fu zhi   shu xing fuzhi shuxing f z   s x fz sx"
+  },
+  {
+    "id": "penpot-paste-props",
+    "appId": "penpot",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "粘贴属性",
+      "en": "Paste Properties"
+    },
+    "description": {
+      "zh": "将复制的样式应用到选中图形",
+      "en": "Apply copied properties"
+    },
+    "windows": "Ctrl + Alt + V",
+    "mac": "⌘ ⌥ V",
+    "linux": "Ctrl + Alt + V",
+    "keywords": [
+      "粘贴",
+      "属性",
+      "paste",
+      "properties"
+    ],
+    "pinyin": "nian tie shu xing niantieshuxing n t s x ntsx nian tie   shu xing niantie shuxing n t   s x nt sx"
+  },
+  {
+    "id": "penpot-find",
+    "appId": "penpot",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "查找",
+      "en": "Find"
+    },
+    "description": {
+      "zh": "在画布中查找",
+      "en": "Find on canvas"
+    },
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
+    "linux": "Ctrl + F",
+    "keywords": [
+      "查找",
+      "find",
+      "搜索"
+    ],
+    "pinyin": "cha zhao chazhao c z cz cha zhao   sou suo chazhao sousuo c z   s s cz ss"
+  },
+  {
+    "id": "penpot-find-replace",
+    "appId": "penpot",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "查找替换",
+      "en": "Find & Replace"
+    },
+    "description": {
+      "zh": "查找并替换文本",
+      "en": "Find and replace text"
+    },
+    "windows": "Ctrl + H",
+    "mac": "⌘ H",
+    "linux": "Ctrl + H",
+    "keywords": [
+      "查找",
+      "替换",
+      "find",
+      "replace"
+    ],
+    "pinyin": "cha zhao ti huan chazhaotihuan c z t h czth cha zhao   ti huan chazhao tihuan c z   t h cz th"
+  },
+  {
+    "id": "penpot-delete",
+    "appId": "penpot",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "删除",
+      "en": "Delete"
+    },
+    "description": {
+      "zh": "删除选中图形",
+      "en": "Delete selection"
+    },
+    "windows": "Delete",
+    "mac": "⌫",
+    "linux": "Delete",
+    "keywords": [
+      "删除",
+      "delete"
+    ],
+    "pinyin": "shan chu shanchu s c sc shan chu shanchu s c sc"
+  },
+  {
+    "id": "penpot-select-all",
+    "appId": "penpot",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "全选",
+      "en": "Select All"
+    },
+    "description": {
+      "zh": "选中画布全部图形",
+      "en": "Select all shapes"
+    },
+    "windows": "Ctrl + A",
+    "mac": "⌘ A",
+    "linux": "Ctrl + A",
+    "keywords": [
+      "全选",
+      "select all"
+    ],
+    "pinyin": "quan xuan quanxuan q x qx quan xuan quanxuan q x qx"
+  },
+  {
+    "id": "penpot-group",
+    "appId": "penpot",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "编组",
+      "en": "Group"
+    },
+    "description": {
+      "zh": "将选中图形编组",
+      "en": "Group selection"
+    },
+    "windows": "Ctrl + G",
+    "mac": "⌘ G",
+    "linux": "Ctrl + G",
+    "keywords": [
+      "编组",
+      "group"
+    ],
+    "pinyin": "bian zu bianzu b z bz bian zu bianzu b z bz"
+  },
+  {
+    "id": "penpot-ungroup",
+    "appId": "penpot",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "解组",
+      "en": "Ungroup"
+    },
+    "description": {
+      "zh": "取消编组",
+      "en": "Ungroup"
+    },
+    "windows": "Shift + G",
+    "mac": "⇧ G",
+    "linux": "Shift + G",
+    "keywords": [
+      "解组",
+      "ungroup"
+    ],
+    "pinyin": "jie zu jiezu j z jz jie zu jiezu j z jz"
+  },
+  {
+    "id": "penpot-component",
+    "appId": "penpot",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "创建组件",
+      "en": "Create Component"
+    },
+    "description": {
+      "zh": "将选中图形转为组件/变体",
+      "en": "Create component or variant"
+    },
+    "windows": "Ctrl + K",
+    "mac": "⌘ K",
+    "linux": "Ctrl + K",
+    "keywords": [
+      "组件",
+      "component"
+    ],
+    "pinyin": "chuang jian zu jian chuangjianzujian c j z j cjzj zu jian zujian z j zj"
+  },
+  {
+    "id": "penpot-detach",
+    "appId": "penpot",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "分离组件",
+      "en": "Detach Component"
+    },
+    "description": {
+      "zh": "将实例还原为普通图形",
+      "en": "Detach component instance"
+    },
+    "windows": "Ctrl + Shift + K",
+    "mac": "⌘ ⇧ K",
+    "linux": "Ctrl + Shift + K",
+    "keywords": [
+      "分离",
+      "detach",
+      "组件"
+    ],
+    "pinyin": "fen li zu jian fenlizujian f l z j flzj fen li   zu jian fenli zujian f l   z j fl zj"
+  },
+  {
+    "id": "penpot-bool-union",
+    "appId": "penpot",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "布尔联合",
+      "en": "Boolean Union"
+    },
+    "description": {
+      "zh": "合并多个图形",
+      "en": "Union shapes"
+    },
+    "windows": "Ctrl + Alt + U",
+    "mac": "⌘ ⌥ U",
+    "linux": "Ctrl + Alt + U",
+    "keywords": [
+      "布尔",
+      "union",
+      "联合"
+    ],
+    "pinyin": "bu er lian he buerlianhe b e l h belh bu er   lian he buer lianhe b e   l h be lh"
+  },
+  {
+    "id": "penpot-bool-diff",
+    "appId": "penpot",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "布尔差集",
+      "en": "Boolean Difference"
+    },
+    "description": {
+      "zh": "从底层图形减去顶层",
+      "en": "Subtract top from bottom"
+    },
+    "windows": "Ctrl + Alt + D",
+    "mac": "⌘ ⌥ D",
+    "linux": "Ctrl + Alt + D",
+    "keywords": [
+      "布尔",
+      "difference",
+      "差集"
+    ],
+    "pinyin": "bu er cha ji buerchaji b e c j becj bu er   cha ji buer chaji b e   c j be cj"
+  },
+  {
+    "id": "penpot-bool-intersect",
+    "appId": "penpot",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "布尔交集",
+      "en": "Boolean Intersect"
+    },
+    "description": {
+      "zh": "仅保留重叠区域",
+      "en": "Keep overlap only"
+    },
+    "windows": "Ctrl + Alt + I",
+    "mac": "⌘ ⌥ I",
+    "linux": "Ctrl + Alt + I",
+    "keywords": [
+      "布尔",
+      "intersect",
+      "交集"
+    ],
+    "pinyin": "bu er jiao ji buerjiaoji b e j j bejj bu er   jiao ji buer jiaoji b e   j j be jj"
+  },
+  {
+    "id": "penpot-mask",
+    "appId": "penpot",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "蒙版",
+      "en": "Mask"
+    },
+    "description": {
+      "zh": "用顶层图形遮罩下层",
+      "en": "Mask with top shape"
+    },
+    "windows": "Ctrl + M",
+    "mac": "⌘ M",
+    "linux": "Ctrl + M",
+    "keywords": [
+      "蒙版",
+      "mask"
+    ],
+    "pinyin": "meng ban mengban m b mb meng ban mengban m b mb"
+  },
+  {
+    "id": "penpot-front",
+    "appId": "penpot",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "置于顶层",
+      "en": "Bring to Front"
+    },
+    "description": {
+      "zh": "将选中图形移到最前",
+      "en": "Bring to front"
+    },
+    "windows": "Ctrl + Shift + ↑",
+    "mac": "⌘ ⇧ ↑",
+    "linux": "Ctrl + Shift + ↑",
+    "keywords": [
+      "顶层",
+      "front",
+      "层级"
+    ],
+    "pinyin": "zhi yu ding ceng zhiyudingceng z y d c zydc ding ceng   ceng ji dingceng cengji d c   c j dc cj"
+  },
+  {
+    "id": "penpot-back",
+    "appId": "penpot",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "置于底层",
+      "en": "Send to Back"
+    },
+    "description": {
+      "zh": "将选中图形移到最后",
+      "en": "Send to back"
+    },
+    "windows": "Ctrl + Shift + ↓",
+    "mac": "⌘ ⇧ ↓",
+    "linux": "Ctrl + Shift + ↓",
+    "keywords": [
+      "底层",
+      "back",
+      "层级"
+    ],
+    "pinyin": "zhi yu di ceng zhiyudiceng z y d c zydc di ceng   ceng ji diceng cengji d c   c j dc cj"
+  },
+  {
+    "id": "penpot-align-left",
+    "appId": "penpot",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "左对齐",
+      "en": "Align Left"
+    },
+    "description": {
+      "zh": "左对齐选中图形",
+      "en": "Align left"
+    },
+    "windows": "Alt + A",
+    "mac": "⌥ A",
+    "linux": "Alt + A",
+    "keywords": [
+      "对齐",
+      "align",
+      "left"
+    ],
+    "pinyin": "zuo dui qi zuoduiqi z d q zdq dui qi duiqi d q dq"
+  },
+  {
+    "id": "penpot-align-right",
+    "appId": "penpot",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "右对齐",
+      "en": "Align Right"
+    },
+    "description": {
+      "zh": "右对齐选中图形",
+      "en": "Align right"
+    },
+    "windows": "Alt + D",
+    "mac": "⌥ D",
+    "linux": "Alt + D",
+    "keywords": [
+      "对齐",
+      "align",
+      "right"
+    ],
+    "pinyin": "you dui qi youduiqi y d q ydq dui qi duiqi d q dq"
+  },
+  {
+    "id": "penpot-align-top",
+    "appId": "penpot",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "顶对齐",
+      "en": "Align Top"
+    },
+    "description": {
+      "zh": "上对齐选中图形",
+      "en": "Align top"
+    },
+    "windows": "Alt + W",
+    "mac": "⌥ W",
+    "linux": "Alt + W",
+    "keywords": [
+      "对齐",
+      "align",
+      "top"
+    ],
+    "pinyin": "ding dui qi dingduiqi d d q ddq dui qi duiqi d q dq"
+  },
+  {
+    "id": "penpot-align-bottom",
+    "appId": "penpot",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "底对齐",
+      "en": "Align Bottom"
+    },
+    "description": {
+      "zh": "下对齐选中图形",
+      "en": "Align bottom"
+    },
+    "windows": "Alt + S",
+    "mac": "⌥ S",
+    "linux": "Alt + S",
+    "keywords": [
+      "对齐",
+      "align",
+      "bottom"
+    ],
+    "pinyin": "di dui qi diduiqi d d q ddq dui qi duiqi d q dq"
+  },
+  {
+    "id": "penpot-lock",
+    "appId": "penpot",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "锁定选中",
+      "en": "Lock Selection"
+    },
+    "description": {
+      "zh": "锁定/解锁选中图形",
+      "en": "Lock/unlock selection"
+    },
+    "windows": "Ctrl + Shift + L",
+    "mac": "⌘ ⇧ L",
+    "linux": "Ctrl + Shift + L",
+    "keywords": [
+      "锁定",
+      "lock"
+    ],
+    "pinyin": "suo ding xuan zhong suodingxuanzhong s d x z sdxz suo ding suoding s d sd"
+  },
+  {
+    "id": "penpot-hide",
+    "appId": "penpot",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "显示 / 隐藏",
+      "en": "Toggle Visibility"
+    },
+    "description": {
+      "zh": "切换选中图形可见性",
+      "en": "Toggle visibility"
+    },
+    "windows": "Ctrl + Shift + H",
+    "mac": "⌘ ⇧ H",
+    "linux": "Ctrl + Shift + H",
+    "keywords": [
+      "显示",
+      "隐藏",
+      "visibility"
+    ],
+    "pinyin": "xian shi   /   yin cang xianshi / yincang x s   /   y c xs / yc xian shi   yin cang xianshi yincang x s   y c xs yc"
+  },
+  {
+    "id": "penpot-tool-move",
+    "appId": "penpot",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "移动工具",
+      "en": "Move Tool"
+    },
+    "description": {
+      "zh": "切换到移动/选择工具",
+      "en": "Select/move tool"
+    },
+    "windows": "V",
+    "mac": "V",
+    "linux": "V",
+    "keywords": [
+      "移动",
+      "move",
+      "工具"
+    ],
+    "pinyin": "yi dong gong ju yidonggongju y d g j ydgj yi dong   gong ju yidong gongju y d   g j yd gj"
+  },
+  {
+    "id": "penpot-tool-rect",
+    "appId": "penpot",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "矩形工具",
+      "en": "Rectangle"
+    },
+    "description": {
+      "zh": "绘制矩形",
+      "en": "Rectangle tool"
+    },
+    "windows": "R",
+    "mac": "R",
+    "linux": "R",
+    "keywords": [
+      "矩形",
+      "rectangle"
+    ],
+    "pinyin": "ju xing gong ju juxinggongju j x g j jxgj ju xing juxing j x jx"
+  },
+  {
+    "id": "penpot-tool-ellipse",
+    "appId": "penpot",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "椭圆工具",
+      "en": "Ellipse"
+    },
+    "description": {
+      "zh": "绘制椭圆",
+      "en": "Ellipse tool"
+    },
+    "windows": "E",
+    "mac": "E",
+    "linux": "E",
+    "keywords": [
+      "椭圆",
+      "ellipse",
+      "圆"
+    ],
+    "pinyin": "tuo yuan gong ju tuoyuangongju t y g j tygj tuo yuan   yuan tuoyuan yuan t y   y ty y"
+  },
+  {
+    "id": "penpot-tool-text",
+    "appId": "penpot",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "文本工具",
+      "en": "Text"
+    },
+    "description": {
+      "zh": "添加文本",
+      "en": "Text tool"
+    },
+    "windows": "T",
+    "mac": "T",
+    "linux": "T",
+    "keywords": [
+      "文本",
+      "text"
+    ],
+    "pinyin": "wen ben gong ju wenbengongju w b g j wbgj wen ben wenben w b wb"
+  },
+  {
+    "id": "penpot-tool-pen",
+    "appId": "penpot",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "画笔工具",
+      "en": "Pen / Path"
+    },
+    "description": {
+      "zh": "绘制路径",
+      "en": "Pen/path tool"
+    },
+    "windows": "P",
+    "mac": "P",
+    "linux": "P",
+    "keywords": [
+      "画笔",
+      "pen",
+      "路径",
+      "path"
+    ],
+    "pinyin": "hua bi gong ju huabigongju h b g j hbgj hua bi   lu jing huabi lujing h b   l j hb lj"
+  },
+  {
+    "id": "penpot-tool-comment",
+    "appId": "penpot",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "评论工具",
+      "en": "Comment"
+    },
+    "description": {
+      "zh": "添加评论",
+      "en": "Comment tool"
+    },
+    "windows": "C",
+    "mac": "C",
+    "linux": "C",
+    "keywords": [
+      "评论",
+      "comment"
+    ],
+    "pinyin": "ping lun gong ju pinglungongju p l g j plgj ping lun pinglun p l pl"
+  },
+  {
+    "id": "penpot-tool-board",
+    "appId": "penpot",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "画板工具",
+      "en": "Board"
+    },
+    "description": {
+      "zh": "新建画板",
+      "en": "Board tool"
+    },
+    "windows": "B",
+    "mac": "B",
+    "linux": "B",
+    "keywords": [
+      "画板",
+      "board",
+      "frame"
+    ],
+    "pinyin": "hua ban gong ju huabangongju h b g j hbgj hua ban huaban h b hb"
+  },
+  {
+    "id": "penpot-focus",
+    "appId": "penpot",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "焦点模式",
+      "en": "Focus Mode"
+    },
+    "description": {
+      "zh": "切换焦点模式",
+      "en": "Toggle focus mode"
+    },
+    "windows": "F",
+    "mac": "F",
+    "linux": "F",
+    "keywords": [
+      "焦点",
+      "focus"
+    ],
+    "pinyin": "jiao dian mo shi jiaodianmoshi j d m s jdms jiao dian jiaodian j d jd"
+  },
+  {
+    "id": "penpot-bold",
+    "appId": "penpot",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "加粗",
+      "en": "Bold"
+    },
+    "description": {
+      "zh": "文本加粗",
+      "en": "Bold text"
+    },
+    "windows": "Ctrl + B",
+    "mac": "⌘ B",
+    "linux": "Ctrl + B",
+    "keywords": [
+      "加粗",
+      "bold"
+    ],
+    "pinyin": "jia cu jiacu j c jc jia cu jiacu j c jc"
+  },
+  {
+    "id": "penpot-italic",
+    "appId": "penpot",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "斜体",
+      "en": "Italic"
+    },
+    "description": {
+      "zh": "文本斜体",
+      "en": "Italic text"
+    },
+    "windows": "Ctrl + I",
+    "mac": "⌘ I",
+    "linux": "Ctrl + I",
+    "keywords": [
+      "斜体",
+      "italic"
+    ],
+    "pinyin": "xie ti xieti x t xt xie ti xieti x t xt"
+  },
+  {
+    "id": "penpot-zoom-fit",
+    "appId": "penpot",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "适应全部",
+      "en": "Zoom to Fit"
+    },
+    "description": {
+      "zh": "缩放以适配全部内容",
+      "en": "Zoom to fit all"
+    },
+    "windows": "Shift + 1",
+    "mac": "⇧ 1",
+    "linux": "Shift + 1",
+    "keywords": [
+      "缩放",
+      "fit",
+      "适应"
+    ],
+    "pinyin": "shi ying quan bu shiyingquanbu s y q b syqb suo fang   shi ying suofang shiying s f   s y sf sy"
+  },
+  {
+    "id": "penpot-grid",
+    "appId": "penpot",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "显示 / 隐藏网格",
+      "en": "Toggle Grid"
+    },
+    "description": {
+      "zh": "切换网格显示",
+      "en": "Show/hide grid"
+    },
+    "windows": "Ctrl + '",
+    "mac": "⌘ '",
+    "linux": "Ctrl + '",
+    "keywords": [
+      "网格",
+      "grid"
+    ],
+    "pinyin": "xian shi   /   yin cang wang ge xianshi / yincangwangge x s   /   y c w g xs / ycwg wang ge wangge w g wg"
+  },
+  {
+    "id": "penpot-rulers",
+    "appId": "penpot",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "显示 / 隐藏标尺",
+      "en": "Toggle Rulers"
+    },
+    "description": {
+      "zh": "切换标尺显示",
+      "en": "Show/hide rulers"
+    },
+    "windows": "Ctrl + Shift + R",
+    "mac": "⌘ ⇧ R",
+    "linux": "Ctrl + Shift + R",
+    "keywords": [
+      "标尺",
+      "rulers"
+    ],
+    "pinyin": "xian shi   /   yin cang biao chi xianshi / yincangbiaochi x s   /   y c b c xs / ycbc biao chi biaochi b c bc"
+  },
+  {
+    "id": "penpot-show-shortcuts",
+    "appId": "penpot",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "显示快捷键",
+      "en": "Show Shortcuts"
+    },
+    "description": {
+      "zh": "打开快捷键帮助",
+      "en": "Show shortcuts help"
+    },
+    "windows": "?",
+    "mac": "?",
+    "linux": "?",
+    "keywords": [
+      "快捷键",
+      "shortcuts",
+      "帮助"
+    ],
+    "pinyin": "xian shi kuai jie jian xianshikuaijiejian x s k j j xskjj kuai jie jian   bang zhu kuaijiejian bangzhu k j j   b z kjj bz"
+  }
+]

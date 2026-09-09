@@ -1,1 +1,335 @@
-[{"id":"godot-run-project","appId":"godot","type":"software","category":"development","name":{"zh":"运行项目","en":"Run Project"},"description":{"zh":"运行整个项目","en":"Run the whole project"},"windows":"F5","mac":"F5","linux":"F5","keywords":["运行","run","project"],"pinyin":"yun xing xiang mu yunxingxiangmu y x x m yxxm yun xing yunxing y x yx"},{"id":"godot-run-scene","appId":"godot","type":"software","category":"development","name":{"zh":"运行当前场景","en":"Run Current Scene"},"description":{"zh":"仅运行当前编辑场景","en":"Run only the current scene"},"windows":"F6","mac":"F6","linux":"F6","keywords":["运行场景","run scene"],"pinyin":"yun hang dang qian chang jing yunhangdangqianchangjing y h d q c j yhdqcj yun xing chang jing yunxingchangjing y x c j yxcj"},{"id":"godot-play-custom","appId":"godot","type":"software","category":"development","name":{"zh":"运行指定场景","en":"Play Custom Scene"},"description":{"zh":"选择场景运行","en":"Play a chosen scene"},"windows":"F8","mac":"F8","linux":"F8","keywords":["运行","play","scene"],"pinyin":"yun xing zhi ding chang jing yunxingzhidingchangjing y x z d c j yxzdcj yun xing yunxing y x yx"},{"id":"godot-save","appId":"godot","type":"software","category":"development","name":{"zh":"保存","en":"Save"},"description":{"zh":"保存当前资源","en":"Save current resource"},"windows":"Ctrl + S","mac":"⌘ S","linux":"Ctrl + S","keywords":["保存","save"],"pinyin":"bao cun baocun b c bc bao cun baocun b c bc"},{"id":"godot-saveall","appId":"godot","type":"software","category":"development","name":{"zh":"保存全部","en":"Save All"},"description":{"zh":"保存所有已修改资源","en":"Save all modified resources"},"windows":"Ctrl + Shift + S","mac":"⌘ ⇧ S","linux":"Ctrl + Shift + S","keywords":["保存全部","save all"],"pinyin":"bao cun quan bu baocunquanbu b c q b bcqb bao cun quan bu baocunquanbu b c q b bcqb"},{"id":"godot-undo","appId":"godot","type":"software","category":"development","name":{"zh":"撤销","en":"Undo"},"description":{"zh":"撤销","en":"Undo"},"windows":"Ctrl + Z","mac":"⌘ Z","linux":"Ctrl + Z","keywords":["撤销","undo"],"pinyin":"che xiao chexiao c x cx che xiao chexiao c x cx"},{"id":"godot-redo","appId":"godot","type":"software","category":"development","name":{"zh":"重做","en":"Redo"},"description":{"zh":"重做","en":"Redo"},"windows":"Ctrl + Shift + Z","mac":"⌘ ⇧ Z","linux":"Ctrl + Shift + Z","keywords":["重做","redo"],"pinyin":"zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"},{"id":"godot-duplicate","appId":"godot","type":"software","category":"development","name":{"zh":"复制节点","en":"Duplicate"},"description":{"zh":"复制选中节点","en":"Duplicate selected node"},"windows":"Ctrl + D","mac":"⌘ D","linux":"Ctrl + D","keywords":["复制","duplicate","node"],"pinyin":"fu zhi jie dian fuzhijiedian f z j d fzjd fu zhi fuzhi f z fz"},{"id":"godot-search","appId":"godot","type":"software","category":"development","name":{"zh":"搜索","en":"Search"},"description":{"zh":"打开快速搜索","en":"Open quick search"},"windows":"Ctrl + K","mac":"⌘ K","linux":"Ctrl + K","keywords":["搜索","search"],"pinyin":"sou suo sousuo s s ss sou suo sousuo s s ss"},{"id":"godot-group","appId":"godot","type":"software","category":"development","name":{"zh":"编组","en":"Group"},"description":{"zh":"将选中节点编组","en":"Group selected nodes"},"windows":"Ctrl + G","mac":"⌘ G","linux":"Ctrl + G","keywords":["编组","group"],"pinyin":"bian zu bianzu b z bz bian zu bianzu b z bz"},{"id":"godot-ungroup","appId":"godot","type":"software","category":"development","name":{"zh":"解组","en":"Ungroup"},"description":{"zh":"取消节点编组","en":"Ungroup nodes"},"windows":"Ctrl + U","mac":"⌘ U","linux":"Ctrl + U","keywords":["解组","ungroup"],"pinyin":"jie zu jiezu j z jz jie zu jiezu j z jz"},{"id":"godot-toggle-grid","appId":"godot","type":"software","category":"development","name":{"zh":"切换网格","en":"Toggle Grid"},"description":{"zh":"显示/隐藏 2D 网格","en":"Show/hide 2D grid"},"windows":"Ctrl + G","mac":"⌘ G","linux":"Ctrl + G","keywords":["网格","grid"],"pinyin":"qie huan wang ge qiehuanwangge q h w g qhwg wang ge wangge w g wg"},{"id":"godot-zoom-in","appId":"godot","type":"software","category":"development","name":{"zh":"放大","en":"Zoom In"},"description":{"zh":"放大视图","en":"Zoom in viewport"},"windows":"Ctrl + =","mac":"⌘ =","linux":"Ctrl + =","keywords":["放大","zoom in"],"pinyin":"fang da fangda f d fd fang da fangda f d fd"},{"id":"godot-zoom-out","appId":"godot","type":"software","category":"development","name":{"zh":"缩小","en":"Zoom Out"},"description":{"zh":"缩小视图","en":"Zoom out viewport"},"windows":"Ctrl + -","mac":"⌘ -","linux":"Ctrl + -","keywords":["缩小","zoom out"],"pinyin":"suo xiao suoxiao s x sx suo xiao suoxiao s x sx"},{"id":"godot-breakpoint","appId":"godot","type":"software","category":"development","name":{"zh":"切换断点","en":"Toggle Breakpoint"},"description":{"zh":"在脚本中切换断点","en":"Toggle breakpoint in script"},"windows":"F9","mac":"F9","linux":"F9","keywords":["断点","breakpoint"],"pinyin":"qie huan duan dian qiehuanduandian q h d d qhdd duan dian duandian d d dd"}]
+[
+  {
+    "id": "godot-run-project",
+    "appId": "godot",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "运行项目",
+      "en": "Run Project"
+    },
+    "description": {
+      "zh": "运行整个项目",
+      "en": "Run the whole project"
+    },
+    "windows": "F5",
+    "mac": "F5",
+    "linux": "F5",
+    "keywords": [
+      "运行",
+      "run",
+      "project"
+    ],
+    "pinyin": "yun xing xiang mu yunxingxiangmu y x x m yxxm yun xing yunxing y x yx"
+  },
+  {
+    "id": "godot-run-scene",
+    "appId": "godot",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "运行当前场景",
+      "en": "Run Current Scene"
+    },
+    "description": {
+      "zh": "仅运行当前编辑场景",
+      "en": "Run only the current scene"
+    },
+    "windows": "F6",
+    "mac": "F6",
+    "linux": "F6",
+    "keywords": [
+      "运行场景",
+      "run scene"
+    ],
+    "pinyin": "yun hang dang qian chang jing yunhangdangqianchangjing y h d q c j yhdqcj yun xing chang jing yunxingchangjing y x c j yxcj"
+  },
+  {
+    "id": "godot-play-custom",
+    "appId": "godot",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "运行指定场景",
+      "en": "Play Custom Scene"
+    },
+    "description": {
+      "zh": "选择场景运行",
+      "en": "Play a chosen scene"
+    },
+    "windows": "F8",
+    "mac": "F8",
+    "linux": "F8",
+    "keywords": [
+      "运行",
+      "play",
+      "scene"
+    ],
+    "pinyin": "yun xing zhi ding chang jing yunxingzhidingchangjing y x z d c j yxzdcj yun xing yunxing y x yx"
+  },
+  {
+    "id": "godot-save",
+    "appId": "godot",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "保存",
+      "en": "Save"
+    },
+    "description": {
+      "zh": "保存当前资源",
+      "en": "Save current resource"
+    },
+    "windows": "Ctrl + S",
+    "mac": "⌘ S",
+    "linux": "Ctrl + S",
+    "keywords": [
+      "保存",
+      "save"
+    ],
+    "pinyin": "bao cun baocun b c bc bao cun baocun b c bc"
+  },
+  {
+    "id": "godot-saveall",
+    "appId": "godot",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "保存全部",
+      "en": "Save All"
+    },
+    "description": {
+      "zh": "保存所有已修改资源",
+      "en": "Save all modified resources"
+    },
+    "windows": "Ctrl + Shift + S",
+    "mac": "⌘ ⇧ S",
+    "linux": "Ctrl + Shift + S",
+    "keywords": [
+      "保存全部",
+      "save all"
+    ],
+    "pinyin": "bao cun quan bu baocunquanbu b c q b bcqb bao cun quan bu baocunquanbu b c q b bcqb"
+  },
+  {
+    "id": "godot-undo",
+    "appId": "godot",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "Ctrl + Z",
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "godot-redo",
+    "appId": "godot",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "windows": "Ctrl + Shift + Z",
+    "mac": "⌘ ⇧ Z",
+    "linux": "Ctrl + Shift + Z",
+    "keywords": [
+      "重做",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "godot-duplicate",
+    "appId": "godot",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "复制节点",
+      "en": "Duplicate"
+    },
+    "description": {
+      "zh": "复制选中节点",
+      "en": "Duplicate selected node"
+    },
+    "windows": "Ctrl + D",
+    "mac": "⌘ D",
+    "linux": "Ctrl + D",
+    "keywords": [
+      "复制",
+      "duplicate",
+      "node"
+    ],
+    "pinyin": "fu zhi jie dian fuzhijiedian f z j d fzjd fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "godot-search",
+    "appId": "godot",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "搜索",
+      "en": "Search"
+    },
+    "description": {
+      "zh": "打开快速搜索",
+      "en": "Open quick search"
+    },
+    "windows": "Ctrl + K",
+    "mac": "⌘ K",
+    "linux": "Ctrl + K",
+    "keywords": [
+      "搜索",
+      "search"
+    ],
+    "pinyin": "sou suo sousuo s s ss sou suo sousuo s s ss"
+  },
+  {
+    "id": "godot-group",
+    "appId": "godot",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "编组",
+      "en": "Group"
+    },
+    "description": {
+      "zh": "将选中节点编组",
+      "en": "Group selected nodes"
+    },
+    "windows": "Ctrl + G",
+    "mac": "⌘ G",
+    "linux": "Ctrl + G",
+    "keywords": [
+      "编组",
+      "group"
+    ],
+    "pinyin": "bian zu bianzu b z bz bian zu bianzu b z bz"
+  },
+  {
+    "id": "godot-ungroup",
+    "appId": "godot",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "解组",
+      "en": "Ungroup"
+    },
+    "description": {
+      "zh": "取消节点编组",
+      "en": "Ungroup nodes"
+    },
+    "windows": "Ctrl + U",
+    "mac": "⌘ U",
+    "linux": "Ctrl + U",
+    "keywords": [
+      "解组",
+      "ungroup"
+    ],
+    "pinyin": "jie zu jiezu j z jz jie zu jiezu j z jz"
+  },
+  {
+    "id": "godot-toggle-grid",
+    "appId": "godot",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "切换网格",
+      "en": "Toggle Grid"
+    },
+    "description": {
+      "zh": "显示/隐藏 2D 网格",
+      "en": "Show/hide 2D grid"
+    },
+    "windows": "Ctrl + G",
+    "mac": "⌘ G",
+    "linux": "Ctrl + G",
+    "keywords": [
+      "网格",
+      "grid"
+    ],
+    "pinyin": "qie huan wang ge qiehuanwangge q h w g qhwg wang ge wangge w g wg"
+  },
+  {
+    "id": "godot-zoom-in",
+    "appId": "godot",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "放大",
+      "en": "Zoom In"
+    },
+    "description": {
+      "zh": "放大视图",
+      "en": "Zoom in viewport"
+    },
+    "windows": "Ctrl + =",
+    "mac": "⌘ =",
+    "linux": "Ctrl + =",
+    "keywords": [
+      "放大",
+      "zoom in"
+    ],
+    "pinyin": "fang da fangda f d fd fang da fangda f d fd"
+  },
+  {
+    "id": "godot-zoom-out",
+    "appId": "godot",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "缩小",
+      "en": "Zoom Out"
+    },
+    "description": {
+      "zh": "缩小视图",
+      "en": "Zoom out viewport"
+    },
+    "windows": "Ctrl + -",
+    "mac": "⌘ -",
+    "linux": "Ctrl + -",
+    "keywords": [
+      "缩小",
+      "zoom out"
+    ],
+    "pinyin": "suo xiao suoxiao s x sx suo xiao suoxiao s x sx"
+  },
+  {
+    "id": "godot-breakpoint",
+    "appId": "godot",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "切换断点",
+      "en": "Toggle Breakpoint"
+    },
+    "description": {
+      "zh": "在脚本中切换断点",
+      "en": "Toggle breakpoint in script"
+    },
+    "windows": "F9",
+    "mac": "F9",
+    "linux": "F9",
+    "keywords": [
+      "断点",
+      "breakpoint"
+    ],
+    "pinyin": "qie huan duan dian qiehuanduandian q h d d qhdd duan dian duandian d d dd"
+  }
+]

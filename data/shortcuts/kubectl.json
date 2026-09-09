@@ -1,0 +1,671 @@
+[
+  {
+    "id": "kubectl-run",
+    "appId": "kubectl",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Run a pod",
+      "zh": "运行 Pod"
+    },
+    "description": {
+      "en": "Run/start a pod from image",
+      "zh": "从镜像运行 Pod"
+    },
+    "windows": "kubectl run <name> --image=<img>",
+    "mac": "kubectl run <name> --image=<img>",
+    "linux": "kubectl run <name> --image=<img>",
+    "keywords": [
+      "run",
+      "运行",
+      "pod"
+    ],
+    "pinyin": "yun xing   p o d yunxing pod y x   p o d yx pod yun xing yunxing y x yx"
+  },
+  {
+    "id": "kubectl-get-pods",
+    "appId": "kubectl",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Get pods",
+      "zh": "查看 Pod"
+    },
+    "description": {
+      "en": "List pods in namespace",
+      "zh": "列出 Pod"
+    },
+    "windows": "kubectl get pods",
+    "mac": "kubectl get pods",
+    "linux": "kubectl get pods",
+    "keywords": [
+      "get",
+      "pods",
+      "查看"
+    ],
+    "pinyin": "cha kan   p o d chakan pod c k   p o d ck pod cha kan chakan c k ck"
+  },
+  {
+    "id": "kubectl-get-all",
+    "appId": "kubectl",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Get all",
+      "zh": "查看全部"
+    },
+    "description": {
+      "en": "List all resources",
+      "zh": "列出所有资源"
+    },
+    "windows": "kubectl get all",
+    "mac": "kubectl get all",
+    "linux": "kubectl get all",
+    "keywords": [
+      "get",
+      "all",
+      "资源"
+    ],
+    "pinyin": "cha kan quan bu chakanquanbu c k q b ckqb zi yuan ziyuan z y zy"
+  },
+  {
+    "id": "kubectl-describe",
+    "appId": "kubectl",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Describe pod",
+      "zh": "描述 Pod"
+    },
+    "description": {
+      "en": "Show pod details",
+      "zh": "显示 Pod 详情"
+    },
+    "windows": "kubectl describe pod <name>",
+    "mac": "kubectl describe pod <name>",
+    "linux": "kubectl describe pod <name>",
+    "keywords": [
+      "describe",
+      "描述",
+      "pod"
+    ],
+    "pinyin": "miao shu   p o d miaoshu pod m s   p o d ms pod miao shu miaoshu m s ms"
+  },
+  {
+    "id": "kubectl-apply",
+    "appId": "kubectl",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Apply manifest",
+      "zh": "应用配置"
+    },
+    "description": {
+      "en": "Create/update from YAML",
+      "zh": "从 YAML 应用"
+    },
+    "windows": "kubectl apply -f <file>",
+    "mac": "kubectl apply -f <file>",
+    "linux": "kubectl apply -f <file>",
+    "keywords": [
+      "apply",
+      "应用",
+      "yaml"
+    ],
+    "pinyin": "ying yong pei zhi yingyongpeizhi y y p z yypz ying yong yingyong y y yy"
+  },
+  {
+    "id": "kubectl-delete",
+    "appId": "kubectl",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Delete resource",
+      "zh": "删除资源"
+    },
+    "description": {
+      "en": "Delete from manifest",
+      "zh": "从清单删除"
+    },
+    "windows": "kubectl delete -f <file>",
+    "mac": "kubectl delete -f <file>",
+    "linux": "kubectl delete -f <file>",
+    "keywords": [
+      "delete",
+      "删除"
+    ],
+    "pinyin": "shan chu zi yuan shanchuziyuan s c z y sczy shan chu shanchu s c sc"
+  },
+  {
+    "id": "kubectl-logs",
+    "appId": "kubectl",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Logs",
+      "zh": "查看日志"
+    },
+    "description": {
+      "en": "Print pod logs",
+      "zh": "打印 Pod 日志"
+    },
+    "windows": "kubectl logs <pod>",
+    "mac": "kubectl logs <pod>",
+    "linux": "kubectl logs <pod>",
+    "keywords": [
+      "logs",
+      "日志"
+    ],
+    "pinyin": "cha kan ri zhi chakanrizhi c k r z ckrz ri zhi rizhi r z rz"
+  },
+  {
+    "id": "kubectl-exec",
+    "appId": "kubectl",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Exec shell",
+      "zh": "进入容器"
+    },
+    "description": {
+      "en": "Open shell in pod",
+      "zh": "进入 Pod Shell"
+    },
+    "windows": "kubectl exec -it <pod> -- /bin/sh",
+    "mac": "kubectl exec -it <pod> -- /bin/sh",
+    "linux": "kubectl exec -it <pod> -- /bin/sh",
+    "keywords": [
+      "exec",
+      "容器",
+      "shell"
+    ],
+    "pinyin": "jin ru rong qi jinrurongqi j r r q jrrq rong qi rongqi r q rq"
+  },
+  {
+    "id": "kubectl-cluster-info",
+    "appId": "kubectl",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Cluster info",
+      "zh": "集群信息"
+    },
+    "description": {
+      "en": "Show cluster info",
+      "zh": "显示集群信息"
+    },
+    "windows": "kubectl cluster-info",
+    "mac": "kubectl cluster-info",
+    "linux": "kubectl cluster-info",
+    "keywords": [
+      "cluster",
+      "集群",
+      "info"
+    ],
+    "pinyin": "ji qun xin xi jiqunxinxi j q x x jqxx ji qun jiqun j q jq"
+  },
+  {
+    "id": "kubectl-get-ns",
+    "appId": "kubectl",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Get namespaces",
+      "zh": "查看命名空间"
+    },
+    "description": {
+      "en": "List namespaces",
+      "zh": "列出命名空间"
+    },
+    "windows": "kubectl get ns",
+    "mac": "kubectl get ns",
+    "linux": "kubectl get ns",
+    "keywords": [
+      "namespace",
+      "命名空间"
+    ],
+    "pinyin": "cha kan ming ming kong jian chakanmingmingkongjian c k m m k j ckmmkj ming ming kong jian mingmingkongjian m m k j mmkj"
+  },
+  {
+    "id": "kubectl-get-nodes",
+    "appId": "kubectl",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Get nodes",
+      "zh": "查看节点"
+    },
+    "description": {
+      "en": "List cluster nodes",
+      "zh": "列出节点"
+    },
+    "windows": "kubectl get nodes",
+    "mac": "kubectl get nodes",
+    "linux": "kubectl get nodes",
+    "keywords": [
+      "nodes",
+      "节点"
+    ],
+    "pinyin": "cha kan jie dian chakanjiedian c k j d ckjd jie dian jiedian j d jd"
+  },
+  {
+    "id": "kubectl-get-svc",
+    "appId": "kubectl",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Get services",
+      "zh": "查看服务"
+    },
+    "description": {
+      "en": "List services",
+      "zh": "列出服务"
+    },
+    "windows": "kubectl get svc",
+    "mac": "kubectl get svc",
+    "linux": "kubectl get svc",
+    "keywords": [
+      "service",
+      "服务"
+    ],
+    "pinyin": "cha kan fu wu chakanfuwu c k f w ckfw fu wu fuwu f w fw"
+  },
+  {
+    "id": "kubectl-get-deploy",
+    "appId": "kubectl",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Get deployments",
+      "zh": "查看部署"
+    },
+    "description": {
+      "en": "List deployments",
+      "zh": "列出部署"
+    },
+    "windows": "kubectl get deploy",
+    "mac": "kubectl get deploy",
+    "linux": "kubectl get deploy",
+    "keywords": [
+      "deployment",
+      "部署"
+    ],
+    "pinyin": "cha kan bu shu chakanbushu c k b s ckbs bu shu bushu b s bs"
+  },
+  {
+    "id": "kubectl-scale",
+    "appId": "kubectl",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Scale",
+      "zh": "扩缩容"
+    },
+    "description": {
+      "en": "Scale replica count",
+      "zh": "调整副本数"
+    },
+    "windows": "kubectl scale --replicas=3 deploy/<n>",
+    "mac": "kubectl scale --replicas=3 deploy/<n>",
+    "linux": "kubectl scale --replicas=3 deploy/<n>",
+    "keywords": [
+      "scale",
+      "扩缩容"
+    ],
+    "pinyin": "kuo suo rong kuosuorong k s r ksr kuo suo rong kuosuorong k s r ksr"
+  },
+  {
+    "id": "kubectl-rollout-status",
+    "appId": "kubectl",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Rollout status",
+      "zh": "发布状态"
+    },
+    "description": {
+      "en": "Show rollout status",
+      "zh": "显示发布状态"
+    },
+    "windows": "kubectl rollout status deploy/<n>",
+    "mac": "kubectl rollout status deploy/<n>",
+    "linux": "kubectl rollout status deploy/<n>",
+    "keywords": [
+      "rollout",
+      "发布"
+    ],
+    "pinyin": "fa bu zhuang tai fabuzhuangtai f b z t fbzt fa bu fabu f b fb"
+  },
+  {
+    "id": "kubectl-rollout-restart",
+    "appId": "kubectl",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Rollout restart",
+      "zh": "重启发布"
+    },
+    "description": {
+      "en": "Restart a rollout",
+      "zh": "重启发布"
+    },
+    "windows": "kubectl rollout restart deploy/<n>",
+    "mac": "kubectl rollout restart deploy/<n>",
+    "linux": "kubectl rollout restart deploy/<n>",
+    "keywords": [
+      "restart",
+      "重启"
+    ],
+    "pinyin": "chong qi fa bu chongqifabu c q f b cqfb chong qi chongqi c q cq"
+  },
+  {
+    "id": "kubectl-delete-pod",
+    "appId": "kubectl",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Delete pod",
+      "zh": "删除 Pod"
+    },
+    "description": {
+      "en": "Delete a pod",
+      "zh": "删除 Pod"
+    },
+    "windows": "kubectl delete pod <name>",
+    "mac": "kubectl delete pod <name>",
+    "linux": "kubectl delete pod <name>",
+    "keywords": [
+      "delete",
+      "pod"
+    ],
+    "pinyin": "shan chu   p o d shanchu pod s c   p o d sc pod"
+  },
+  {
+    "id": "kubectl-port-forward",
+    "appId": "kubectl",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Port forward",
+      "zh": "端口转发"
+    },
+    "description": {
+      "en": "Forward local port to pod",
+      "zh": "转发端口到 Pod"
+    },
+    "windows": "kubectl port-forward <pod> 8080:80",
+    "mac": "kubectl port-forward <pod> 8080:80",
+    "linux": "kubectl port-forward <pod> 8080:80",
+    "keywords": [
+      "port",
+      "forward",
+      "端口"
+    ],
+    "pinyin": "duan kou zhuan fa duankouzhuanfa d k z f dkzf duan kou duankou d k dk"
+  },
+  {
+    "id": "kubectl-edit",
+    "appId": "kubectl",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Edit",
+      "zh": "编辑资源"
+    },
+    "description": {
+      "en": "Edit resource in editor",
+      "zh": "编辑资源"
+    },
+    "windows": "kubectl edit deploy/<n>",
+    "mac": "kubectl edit deploy/<n>",
+    "linux": "kubectl edit deploy/<n>",
+    "keywords": [
+      "edit",
+      "编辑"
+    ],
+    "pinyin": "bian ji zi yuan bianjiziyuan b j z y bjzy bian ji bianji b j bj"
+  },
+  {
+    "id": "kubectl-top-nodes",
+    "appId": "kubectl",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Top nodes",
+      "zh": "节点资源"
+    },
+    "description": {
+      "en": "Show node resource usage",
+      "zh": "显示节点资源"
+    },
+    "windows": "kubectl top nodes",
+    "mac": "kubectl top nodes",
+    "linux": "kubectl top nodes",
+    "keywords": [
+      "top",
+      "节点",
+      "资源"
+    ],
+    "pinyin": "jie dian zi yuan jiedianziyuan j d z y jdzy jie dian   zi yuan jiedian ziyuan j d   z y jd zy"
+  },
+  {
+    "id": "kubectl-get-ctx",
+    "appId": "kubectl",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "List contexts",
+      "zh": "查看上下文"
+    },
+    "description": {
+      "en": "List kubeconfig contexts",
+      "zh": "列出上下文"
+    },
+    "windows": "kubectl config get-contexts",
+    "mac": "kubectl config get-contexts",
+    "linux": "kubectl config get-contexts",
+    "keywords": [
+      "context",
+      "上下文"
+    ],
+    "pinyin": "cha kan shang xia wen chakanshangxiawen c k s x w cksxw shang xia wen shangxiawen s x w sxw"
+  },
+  {
+    "id": "kubectl-use-ctx",
+    "appId": "kubectl",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Use context",
+      "zh": "切换上下文"
+    },
+    "description": {
+      "en": "Switch active context",
+      "zh": "切换上下文"
+    },
+    "windows": "kubectl config use-context <ctx>",
+    "mac": "kubectl config use-context <ctx>",
+    "linux": "kubectl config use-context <ctx>",
+    "keywords": [
+      "context",
+      "切换"
+    ],
+    "pinyin": "qie huan shang xia wen qiehuanshangxiawen q h s x w qhsxw qie huan qiehuan q h qh"
+  },
+  {
+    "id": "kubectl-get-events",
+    "appId": "kubectl",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Get events",
+      "zh": "查看事件"
+    },
+    "description": {
+      "en": "List cluster events",
+      "zh": "列出事件"
+    },
+    "windows": "kubectl get events",
+    "mac": "kubectl get events",
+    "linux": "kubectl get events",
+    "keywords": [
+      "events",
+      "事件"
+    ],
+    "pinyin": "cha kan shi jian chakanshijian c k s j cksj shi jian shijian s j sj"
+  },
+  {
+    "id": "kubectl-explain",
+    "appId": "kubectl",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Explain",
+      "zh": "解释字段"
+    },
+    "description": {
+      "en": "Explain resource fields",
+      "zh": "解释资源字段"
+    },
+    "windows": "kubectl explain pod",
+    "mac": "kubectl explain pod",
+    "linux": "kubectl explain pod",
+    "keywords": [
+      "explain",
+      "解释"
+    ],
+    "pinyin": "jie shi zi duan jieshiziduan j s z d jszd jie shi jieshi j s js"
+  },
+  {
+    "id": "kubectl-version",
+    "appId": "kubectl",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Version",
+      "zh": "版本"
+    },
+    "description": {
+      "en": "Show client/server version",
+      "zh": "显示版本"
+    },
+    "windows": "kubectl version",
+    "mac": "kubectl version",
+    "linux": "kubectl version",
+    "keywords": [
+      "version",
+      "版本"
+    ],
+    "pinyin": "ban ben banben b b bb ban ben banben b b bb"
+  },
+  {
+    "id": "kubectl-api-resources",
+    "appId": "kubectl",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "API resources",
+      "zh": "API 资源"
+    },
+    "description": {
+      "en": "List API resources",
+      "zh": "列出 API 资源"
+    },
+    "windows": "kubectl api-resources",
+    "mac": "kubectl api-resources",
+    "linux": "kubectl api-resources",
+    "keywords": [
+      "api",
+      "资源"
+    ],
+    "pinyin": "a p i   zi yuan api ziyuan a p i   z y api zy zi yuan ziyuan z y zy"
+  },
+  {
+    "id": "kubectl-dry-run",
+    "appId": "kubectl",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Dry run",
+      "zh": "试运行"
+    },
+    "description": {
+      "en": "Validate without applying",
+      "zh": "试运行不应用"
+    },
+    "windows": "kubectl apply -f <file> --dry-run=client",
+    "mac": "kubectl apply -f <file> --dry-run=client",
+    "linux": "kubectl apply -f <file> --dry-run=client",
+    "keywords": [
+      "dry-run",
+      "试运行"
+    ],
+    "pinyin": "shi yun xing shiyunxing s y x syx shi yun xing shiyunxing s y x syx"
+  },
+  {
+    "id": "kubectl-jsonpath",
+    "appId": "kubectl",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "JSONPath output",
+      "zh": "JSON 提取"
+    },
+    "description": {
+      "en": "Query output via JSONPath",
+      "zh": "用 JSONPath 提取"
+    },
+    "windows": "kubectl get pods -o jsonpath='{.items[0].metadata.name}'",
+    "mac": "kubectl get pods -o jsonpath='{.items[0].metadata.name}'",
+    "linux": "kubectl get pods -o jsonpath='{.items[0].metadata.name}'",
+    "keywords": [
+      "jsonpath",
+      "输出"
+    ],
+    "pinyin": "j s o n   ti qu json tiqu j s o n   t q json tq shu chu shuchu s c sc"
+  },
+  {
+    "id": "kubectl-kubectx",
+    "appId": "kubectl",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Switch context (kubectx)",
+      "zh": "切换上下文工具"
+    },
+    "description": {
+      "en": "kubectx context switcher",
+      "zh": "kubectx 切换工具"
+    },
+    "windows": "kubectx <ctx>",
+    "mac": "kubectx <ctx>",
+    "linux": "kubectx <ctx>",
+    "keywords": [
+      "kubectx",
+      "切换"
+    ],
+    "pinyin": "qie huan shang xia wen gong ju qiehuanshangxiawengongju q h s x w g j qhsxwgj qie huan qiehuan q h qh"
+  },
+  {
+    "id": "kubectl-kubens",
+    "appId": "kubectl",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "en": "Switch namespace (kubens)",
+      "zh": "切换命名空间工具"
+    },
+    "description": {
+      "en": "kubens namespace switcher",
+      "zh": "kubens 切换工具"
+    },
+    "windows": "kubens <ns>",
+    "mac": "kubens <ns>",
+    "linux": "kubens <ns>",
+    "keywords": [
+      "kubens",
+      "namespace"
+    ],
+    "pinyin": "qie huan ming ming kong jian gong ju qiehuanmingmingkongjiangongju q h m m k j g j qhmmkjgj"
+  }
+]

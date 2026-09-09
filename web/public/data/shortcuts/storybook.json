@@ -1,0 +1,333 @@
+[
+  {
+    "id": "storybook-dev",
+    "appId": "storybook",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Run dev",
+      "zh": "运行开发"
+    },
+    "description": {
+      "en": "Start Storybook dev server",
+      "zh": "启动 Storybook 开发服务器"
+    },
+    "windows": "npm run storybook",
+    "mac": "npm run storybook",
+    "linux": "npm run storybook",
+    "keywords": [
+      "dev",
+      "运行"
+    ],
+    "pinyin": "yun xing kai fa yunxingkaifa y x k f yxkf yun xing yunxing y x yx"
+  },
+  {
+    "id": "storybook-build",
+    "appId": "storybook",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Build",
+      "zh": "构建"
+    },
+    "description": {
+      "en": "Build static Storybook",
+      "zh": "构建静态 Storybook"
+    },
+    "windows": "npm run build-storybook",
+    "mac": "npm run build-storybook",
+    "linux": "npm run build-storybook",
+    "keywords": [
+      "build",
+      "构建"
+    ],
+    "pinyin": "gou jian goujian g j gj gou jian goujian g j gj"
+  },
+  {
+    "id": "storybook-search",
+    "appId": "storybook",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Search",
+      "zh": "搜索"
+    },
+    "description": {
+      "en": "Search stories",
+      "zh": "搜索 Story"
+    },
+    "windows": "/",
+    "mac": "/",
+    "linux": "/",
+    "keywords": [
+      "search",
+      "搜索"
+    ],
+    "pinyin": "sou suo sousuo s s ss sou suo sousuo s s ss"
+  },
+  {
+    "id": "storybook-fullscreen",
+    "appId": "storybook",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Fullscreen",
+      "zh": "全屏"
+    },
+    "description": {
+      "en": "Toggle fullscreen canvas",
+      "zh": "切换全屏画布"
+    },
+    "windows": "F",
+    "mac": "F",
+    "linux": "F",
+    "keywords": [
+      "fullscreen",
+      "全屏"
+    ],
+    "pinyin": "quan ping quanping q p qp quan ping quanping q p qp"
+  },
+  {
+    "id": "storybook-canvas",
+    "appId": "storybook",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Canvas",
+      "zh": "画布"
+    },
+    "description": {
+      "en": "Show canvas tab",
+      "zh": "显示画布标签"
+    },
+    "windows": "1",
+    "mac": "1",
+    "linux": "1",
+    "keywords": [
+      "canvas",
+      "画布"
+    ],
+    "pinyin": "hua bu huabu h b hb hua bu huabu h b hb"
+  },
+  {
+    "id": "storybook-docs",
+    "appId": "storybook",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Docs",
+      "zh": "文档"
+    },
+    "description": {
+      "en": "Show docs tab",
+      "zh": "显示文档标签"
+    },
+    "windows": "2",
+    "mac": "2",
+    "linux": "2",
+    "keywords": [
+      "docs",
+      "文档"
+    ],
+    "pinyin": "wen dang wendang w d wd wen dang wendang w d wd"
+  },
+  {
+    "id": "storybook-sidebar",
+    "appId": "storybook",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Sidebar",
+      "zh": "侧栏"
+    },
+    "description": {
+      "en": "Toggle sidebar",
+      "zh": "切换侧栏"
+    },
+    "windows": "S",
+    "mac": "S",
+    "linux": "S",
+    "keywords": [
+      "sidebar",
+      "侧栏"
+    ],
+    "pinyin": "ce lan celan c l cl ce lan celan c l cl"
+  },
+  {
+    "id": "storybook-addons",
+    "appId": "storybook",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Addons",
+      "zh": "插件"
+    },
+    "description": {
+      "en": "Toggle addons panel",
+      "zh": "切换插件面板"
+    },
+    "windows": "A",
+    "mac": "A",
+    "linux": "A",
+    "keywords": [
+      "addons",
+      "插件"
+    ],
+    "pinyin": "cha jian chajian c j cj cha jian chajian c j cj"
+  },
+  {
+    "id": "storybook-controls",
+    "appId": "storybook",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Controls",
+      "zh": "控件"
+    },
+    "description": {
+      "en": "Show controls",
+      "zh": "显示控件"
+    },
+    "windows": "D",
+    "mac": "D",
+    "linux": "D",
+    "keywords": [
+      "controls",
+      "控件"
+    ],
+    "pinyin": "kong jian kongjian k j kj kong jian kongjian k j kj"
+  },
+  {
+    "id": "storybook-a11y",
+    "appId": "storybook",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Accessibility",
+      "zh": "无障碍"
+    },
+    "description": {
+      "en": "Toggle a11y panel",
+      "zh": "切换无障碍面板"
+    },
+    "windows": "X",
+    "mac": "X",
+    "linux": "X",
+    "keywords": [
+      "a11y",
+      "accessibility",
+      "无障碍"
+    ],
+    "pinyin": "wu zhang ai wuzhangai w z a wza wu zhang ai wuzhangai w z a wza"
+  },
+  {
+    "id": "storybook-copy",
+    "appId": "storybook",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Copy",
+      "zh": "复制"
+    },
+    "description": {
+      "en": "Copy story URL",
+      "zh": "复制 Story URL"
+    },
+    "windows": "C",
+    "mac": "C",
+    "linux": "C",
+    "keywords": [
+      "copy",
+      "复制"
+    ],
+    "pinyin": "fu zhi fuzhi f z fz fu zhi fuzhi f z fz"
+  },
+  {
+    "id": "storybook-shortcuts",
+    "appId": "storybook",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Shortcuts",
+      "zh": "快捷键"
+    },
+    "description": {
+      "en": "Show keyboard shortcuts",
+      "zh": "显示快捷键"
+    },
+    "windows": "Shift + ?",
+    "mac": "Shift + ?",
+    "linux": "Shift + ?",
+    "keywords": [
+      "shortcuts",
+      "快捷键"
+    ],
+    "pinyin": "kuai jie jian kuaijiejian k j j kjj kuai jie jian kuaijiejian k j j kjj"
+  },
+  {
+    "id": "storybook-theme",
+    "appId": "storybook",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Theme",
+      "zh": "主题"
+    },
+    "description": {
+      "en": "Toggle theme",
+      "zh": "切换主题"
+    },
+    "windows": "T",
+    "mac": "T",
+    "linux": "T",
+    "keywords": [
+      "theme",
+      "主题"
+    ],
+    "pinyin": "zhu ti zhuti z t zt zhu ti zhuti z t zt"
+  },
+  {
+    "id": "storybook-reload",
+    "appId": "storybook",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Reload",
+      "zh": "重新加载"
+    },
+    "description": {
+      "en": "Reload Storybook",
+      "zh": "重新加载"
+    },
+    "windows": "R",
+    "mac": "R",
+    "linux": "R",
+    "keywords": [
+      "reload",
+      "重新加载"
+    ],
+    "pinyin": "chong xin jia zai chongxinjiazai c x j z cxjz chong xin jia zai chongxinjiazai c x j z cxjz"
+  },
+  {
+    "id": "storybook-tab",
+    "appId": "storybook",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "en": "Next tab",
+      "zh": "下一标签"
+    },
+    "description": {
+      "en": "Switch story tab",
+      "zh": "切换 Story 标签"
+    },
+    "windows": "Tab",
+    "mac": "Tab",
+    "linux": "Tab",
+    "keywords": [
+      "tab",
+      "标签"
+    ],
+    "pinyin": "xia yi biao qian xiayibiaoqian x y b q xybq biao qian biaoqian b q bq"
+  }
+]

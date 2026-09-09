@@ -1,0 +1,11 @@
+[
+  { "id": "system",       "name": { "zh": "系统",   "en": "System" },        "icon": "🖥️" },
+  { "id": "browser",      "name": { "zh": "浏览器", "en": "Browser" },       "icon": "🌐" },
+  { "id": "design",       "name": { "zh": "设计",   "en": "Design" },        "icon": "🎨" },
+  { "id": "development",  "name": { "zh": "开发",   "en": "Development" },   "icon": "💻" },
+  { "id": "productivity", "name": { "zh": "效率",   "en": "Productivity" },  "icon": "📊" },
+  { "id": "video",        "name": { "zh": "视频",   "en": "Video" },         "icon": "🎬" },
+  { "id": "audio",        "name": { "zh": "音频",   "en": "Audio" },         "icon": "🎵" },
+  { "id": "ai",           "name": { "zh": "AI 工具","en": "AI Tools" },      "icon": "🤖" },
+  { "id": "other",        "name": { "zh": "其他",   "en": "Other" },         "icon": "📦" }
+]

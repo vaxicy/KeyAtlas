@@ -1,0 +1,556 @@
+[
+  {
+    "id": "traktor-load-a",
+    "appId": "traktor",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Load deck A",
+      "zh": "装载A盘"
+    },
+    "description": {
+      "en": "Load to deck A",
+      "zh": "装载到 A 盘"
+    },
+    "windows": "Ctrl + F9",
+    "mac": "⌘ F9",
+    "linux": "—",
+    "keywords": [
+      "load",
+      "deck",
+      "A"
+    ],
+    "pinyin": "zhuang zai a pan zhuangzaiapan z z a p zzap"
+  },
+  {
+    "id": "traktor-load-b",
+    "appId": "traktor",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Load deck B",
+      "zh": "装载B盘"
+    },
+    "description": {
+      "en": "Load to deck B",
+      "zh": "装载到 B 盘"
+    },
+    "windows": "Ctrl + F10",
+    "mac": "⌘ F10",
+    "linux": "—",
+    "keywords": [
+      "load",
+      "deck",
+      "B"
+    ],
+    "pinyin": "zhuang zai b pan zhuangzaibpan z z b p zzbp"
+  },
+  {
+    "id": "traktor-play",
+    "appId": "traktor",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Play",
+      "zh": "播放"
+    },
+    "description": {
+      "en": "Play/pause",
+      "zh": "播放/暂停"
+    },
+    "windows": "Space",
+    "mac": "Space",
+    "linux": "—",
+    "keywords": [
+      "play",
+      "播放"
+    ],
+    "pinyin": "bo fang bofang b f bf bo fang bofang b f bf"
+  },
+  {
+    "id": "traktor-cue",
+    "appId": "traktor",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Cue",
+      "zh": "叠加点"
+    },
+    "description": {
+      "en": "Cue",
+      "zh": "叠加点"
+    },
+    "windows": "C",
+    "mac": "C",
+    "linux": "—",
+    "keywords": [
+      "cue",
+      "叠加"
+    ],
+    "pinyin": "die jia dian diejiadian d j d djd die jia diejia d j dj"
+  },
+  {
+    "id": "traktor-hotcue",
+    "appId": "traktor",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Hot cue",
+      "zh": "热键"
+    },
+    "description": {
+      "en": "Hot cue",
+      "zh": "热键"
+    },
+    "windows": "1-4",
+    "mac": "1-4",
+    "linux": "—",
+    "keywords": [
+      "hotcue",
+      "热键"
+    ],
+    "pinyin": "re jian rejian r j rj re jian rejian r j rj"
+  },
+  {
+    "id": "traktor-loop",
+    "appId": "traktor",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Loop",
+      "zh": "循环"
+    },
+    "description": {
+      "en": "Loop control",
+      "zh": "循环控制"
+    },
+    "windows": "L",
+    "mac": "L",
+    "linux": "—",
+    "keywords": [
+      "loop",
+      "循环"
+    ],
+    "pinyin": "xun huan xunhuan x h xh xun huan xunhuan x h xh"
+  },
+  {
+    "id": "traktor-sync",
+    "appId": "traktor",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Sync",
+      "zh": "同步"
+    },
+    "description": {
+      "en": "Sync",
+      "zh": "同步"
+    },
+    "windows": "Shift + Space? ",
+    "mac": "⇧ Space? ",
+    "linux": "—",
+    "keywords": [
+      "sync",
+      "同步"
+    ],
+    "pinyin": "tong bu tongbu t b tb tong bu tongbu t b tb"
+  },
+  {
+    "id": "traktor-tempo",
+    "appId": "traktor",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Tempo",
+      "zh": "速度"
+    },
+    "description": {
+      "en": "Adjust tempo",
+      "zh": "调整速度"
+    },
+    "windows": "← →",
+    "mac": "← →",
+    "linux": "—",
+    "keywords": [
+      "tempo",
+      "速度"
+    ],
+    "pinyin": "su du sudu s d sd su du sudu s d sd"
+  },
+  {
+    "id": "traktor-pitch",
+    "appId": "traktor",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Pitch",
+      "zh": "音高"
+    },
+    "description": {
+      "en": "Adjust pitch",
+      "zh": "调整音高"
+    },
+    "windows": "↑ ↓",
+    "mac": "↑ ↓",
+    "linux": "—",
+    "keywords": [
+      "pitch",
+      "音高"
+    ],
+    "pinyin": "yin gao yingao y g yg yin gao yingao y g yg"
+  },
+  {
+    "id": "traktor-browse",
+    "appId": "traktor",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Browse",
+      "zh": "浏览"
+    },
+    "description": {
+      "en": "Browse tracks",
+      "zh": "浏览音轨"
+    },
+    "windows": "Ctrl + B",
+    "mac": "⌘ B",
+    "linux": "—",
+    "keywords": [
+      "browse",
+      "浏览"
+    ],
+    "pinyin": "liu lan liulan l l ll liu lan liulan l l ll"
+  },
+  {
+    "id": "traktor-search",
+    "appId": "traktor",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Search",
+      "zh": "搜索"
+    },
+    "description": {
+      "en": "Search",
+      "zh": "搜索"
+    },
+    "windows": "Ctrl + F",
+    "mac": "⌘ F",
+    "linux": "—",
+    "keywords": [
+      "search",
+      "搜索"
+    ],
+    "pinyin": "sou suo sousuo s s ss sou suo sousuo s s ss"
+  },
+  {
+    "id": "traktor-playlist",
+    "appId": "traktor",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Playlist",
+      "zh": "播放列表"
+    },
+    "description": {
+      "en": "Open playlist",
+      "zh": "打开播放列表"
+    },
+    "windows": "Tab",
+    "mac": "Tab",
+    "linux": "—",
+    "keywords": [
+      "playlist",
+      "播放列表"
+    ],
+    "pinyin": "bo fang lie biao bofangliebiao b f l b bflb bo fang lie biao bofangliebiao b f l b bflb"
+  },
+  {
+    "id": "traktor-record",
+    "appId": "traktor",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Record",
+      "zh": "录制"
+    },
+    "description": {
+      "en": "Record mix",
+      "zh": "录制混音"
+    },
+    "windows": "Ctrl + R",
+    "mac": "⌘ R",
+    "linux": "—",
+    "keywords": [
+      "record",
+      "录制"
+    ],
+    "pinyin": "lu zhi luzhi l z lz lu zhi luzhi l z lz"
+  },
+  {
+    "id": "traktor-export",
+    "appId": "traktor",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Export",
+      "zh": "导出"
+    },
+    "description": {
+      "en": "Export",
+      "zh": "导出"
+    },
+    "windows": "Ctrl + E",
+    "mac": "⌘ E",
+    "linux": "—",
+    "keywords": [
+      "export",
+      "导出"
+    ],
+    "pinyin": "dao chu daochu d c dc dao chu daochu d c dc"
+  },
+  {
+    "id": "traktor-fullscreen",
+    "appId": "traktor",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Fullscreen",
+      "zh": "全屏"
+    },
+    "description": {
+      "en": "Fullscreen",
+      "zh": "全屏"
+    },
+    "windows": "F11",
+    "mac": "⌃ ⌘ F",
+    "linux": "—",
+    "keywords": [
+      "fullscreen",
+      "全屏"
+    ],
+    "pinyin": "quan ping quanping q p qp quan ping quanping q p qp"
+  },
+  {
+    "id": "traktor-deck-a",
+    "appId": "traktor",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Deck A",
+      "zh": "A盘"
+    },
+    "description": {
+      "en": "Focus deck A",
+      "zh": "聚焦 A 盘"
+    },
+    "windows": "F1",
+    "mac": "F1",
+    "linux": "—",
+    "keywords": [
+      "deck",
+      "A",
+      "盘"
+    ],
+    "pinyin": "a pan apan a p ap pan pan p p"
+  },
+  {
+    "id": "traktor-deck-b",
+    "appId": "traktor",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Deck B",
+      "zh": "B盘"
+    },
+    "description": {
+      "en": "Focus deck B",
+      "zh": "聚焦 B 盘"
+    },
+    "windows": "F2",
+    "mac": "F2",
+    "linux": "—",
+    "keywords": [
+      "deck",
+      "B",
+      "盘"
+    ],
+    "pinyin": "b pan bpan b p bp pan pan p p"
+  },
+  {
+    "id": "traktor-crossfader",
+    "appId": "traktor",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Crossfader",
+      "zh": "交叉推子"
+    },
+    "description": {
+      "en": "Move crossfader",
+      "zh": "移动交叉推子"
+    },
+    "windows": "Ctrl + ← →",
+    "mac": "⌘ ← →",
+    "linux": "—",
+    "keywords": [
+      "crossfader",
+      "推子"
+    ],
+    "pinyin": "jiao cha tui zi jiaochatuizi j c t z jctz tui zi tuizi t z tz"
+  },
+  {
+    "id": "traktor-flux",
+    "appId": "traktor",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Flux",
+      "zh": "磁通"
+    },
+    "description": {
+      "en": "Toggle flux",
+      "zh": "切换磁通"
+    },
+    "windows": "F? ",
+    "mac": "F? ",
+    "linux": "—",
+    "keywords": [
+      "flux",
+      "磁通"
+    ],
+    "pinyin": "ci tong citong c t ct ci tong citong c t ct"
+  },
+  {
+    "id": "traktor-snap",
+    "appId": "traktor",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Snap",
+      "zh": "吸附"
+    },
+    "description": {
+      "en": "Toggle snap",
+      "zh": "切换吸附"
+    },
+    "windows": "Shift + Q? ",
+    "mac": "⇧ Q? ",
+    "linux": "—",
+    "keywords": [
+      "snap",
+      "吸附"
+    ],
+    "pinyin": "xi fu xifu x f xf xi fu xifu x f xf"
+  },
+  {
+    "id": "traktor-quantize",
+    "appId": "traktor",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Quantize",
+      "zh": "量化"
+    },
+    "description": {
+      "en": "Toggle quantize",
+      "zh": "切换量化"
+    },
+    "windows": "Shift + G? ",
+    "mac": "⇧ G? ",
+    "linux": "—",
+    "keywords": [
+      "quantize",
+      "量化"
+    ],
+    "pinyin": "liang hua lianghua l h lh liang hua lianghua l h lh"
+  },
+  {
+    "id": "traktor-undo",
+    "appId": "traktor",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Undo",
+      "zh": "撤销"
+    },
+    "description": {
+      "en": "Undo",
+      "zh": "撤销"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "—",
+    "keywords": [
+      "undo",
+      "撤销"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "traktor-redo",
+    "appId": "traktor",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Redo",
+      "zh": "重做"
+    },
+    "description": {
+      "en": "Redo",
+      "zh": "重做"
+    },
+    "windows": "Ctrl + Y",
+    "mac": "⇧ ⌘ Z",
+    "linux": "—",
+    "keywords": [
+      "redo",
+      "重做"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "traktor-zoom",
+    "appId": "traktor",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Zoom",
+      "zh": "缩放"
+    },
+    "description": {
+      "en": "Zoom UI",
+      "zh": "缩放界面"
+    },
+    "windows": "Ctrl + =",
+    "mac": "⌘ =",
+    "linux": "—",
+    "keywords": [
+      "zoom",
+      "缩放"
+    ],
+    "pinyin": "suo fang suofang s f sf suo fang suofang s f sf"
+  },
+  {
+    "id": "traktor-help",
+    "appId": "traktor",
+    "type": "software",
+    "category": "audio",
+    "name": {
+      "en": "Help",
+      "zh": "帮助"
+    },
+    "description": {
+      "en": "Shortcuts help",
+      "zh": "快捷键帮助"
+    },
+    "windows": "F1",
+    "mac": "F1",
+    "linux": "—",
+    "keywords": [
+      "help",
+      "快捷键"
+    ],
+    "pinyin": "bang zhu bangzhu b z bz kuai jie jian kuaijiejian k j j kjj"
+  }
+]

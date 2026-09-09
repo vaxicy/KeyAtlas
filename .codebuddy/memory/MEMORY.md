@@ -84,13 +84,23 @@
 - 部署：`cd web && npx wrangler pages deploy dist --project-name keyatlas`，免费子域 `keyatlas.pages.dev`（用户决定暂不上自定义域名）。
 - **前端 hover/focus 视觉一律用纯 CSS**（见全局 user rule `hover-use-css-not-js-RULE.md`），禁止用 JS state 切换 inline style。
 
-### 版本号同步规则（2026-07-17 确认）
+### 版本号同步规则（2026-07-17 确认；2026-09-10 更新为 1.1.5）
 - **更新版本号时必须同步修改以下 4 处**，缺一不可：
   1. `manifest.json` → `"version": "x.y.z"`（Chrome 商店识别）
   2. `package.json` → `"version": "x.y.z"`（npm 包版本）
   3. `js/app.js` → `const VERSION = "x.y.z";`（扩展内「关于」弹窗引用此常量显示版本号）
   4. `popup.html` → `<span id="aboutVersion">Version x.y.z</span>`（关于弹窗 fallback 文本，与 app.js VERSION 保持一致）
-- 当前版本：**1.1.0**（2026-07-17 升级，用于首次上架 Chrome 商店）
+- 当前版本：**1.1.5**（2026-09-10 升级，+0.05 小版本，修主题/OS 偏好）
+
+### 打包输出目录约定（2026-09-10 用户指定）
+- **默认输出目录**：`D:\迅雷下载\vibe coding\`（扩展 zip 统一放到这里，不放在仓库根目录）。
+- **文件名**：`KeyAtlas-<version>.zip`（例如 `KeyAtlas-1.1.5.zip`）。
+- 用户要求「以后都要打包在这里」，已写入全局规则，后续打包命令应指向该目录。
+
+### 商店素材数字约定（2026-09-10 用户确认）
+- **截图/promo 中的应用数、快捷键数一律用约数**：应用数 `200+`、快捷键数 `7900+`（实际 228 / 7924）。这样日常加数据不用改图，等超过约数上限时才需要调。
+- 精确数字只出现在数据校验/统计里，商店展示层禁止硬编码精确总数。
+- 素材唯一目录 `store-assets\`（旧的 `KeyAtlas-store-assets\` 已删除）。
 
 ### 自动部署规则
 - **每次代码改动后必须自动 deploy 到 Cloudflare Pages**，否则用户在网页端看不到最新改动。

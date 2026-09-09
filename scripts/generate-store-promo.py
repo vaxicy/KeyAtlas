@@ -205,9 +205,9 @@ def popup_mock(draw, img, x, y, scale=1.0, lang="zh"):
     # category tiles — NO emoji, colored left bar + translated names
     cy0 = tab_y + tab_h + int(14 * scale)
     if lang == "zh":
-        cats = [("设计", "40"), ("开发", "26"), ("效率", "28"), ("视频", "10")]
+        cats = [("设计", "55"), ("开发", "49"), ("效率", "59"), ("视频", "16")]
     else:
-        cats = [("Design", "40"), ("Dev", "26"), ("Productivity", "28"), ("Video", "10")]
+        cats = [("Design", "55"), ("Dev", "49"), ("Productivity", "59"), ("Video", "16")]
     cat_colors = [COLORS["purple"], COLORS["primary"], COLORS["violet"], COLORS["violet"]]
     cw = (pw - int(36 * scale)) // 2
     ch = int(54 * scale)
@@ -253,7 +253,7 @@ def popup_mock(draw, img, x, y, scale=1.0, lang="zh"):
     bb = y + ph - int(36 * scale)
     card(draw, (x + int(14 * scale), bb, x + pw - int(14 * scale), y + ph - int(10 * scale)),
          fill=COLORS["surface"], radius=int(10 * scale), shadow=False)
-    stat = "129 应用 · 离线可用" if lang == "zh" else "Apps · Offline"
+    stat = "200+ 应用 · 离线可用" if lang == "zh" else "200+ Apps · Offline"
     text(draw, (x + pw // 2, bb + int(13 * scale)), stat,
          fill=COLORS["sub"], f=font(max(9, int(10 * scale))), anchor="mm")
 
@@ -269,53 +269,39 @@ def small_promo_bilingual():
     d = ImageDraw.Draw(img)
 
     # ── banner ──
-    gradient_rect(img, d, (10, 8, W - 10, 48), COLORS["grad1"], COLORS["grad2"], radius=12)
-    text(d, (20, 14), "KeyAtlas", fill="white", f=font(16, bold=True))
-    text(d, (20, 33), "快捷键搜索引擎 · Shortcut Search Engine", fill="#e9e7ff", f=font(10))
+    gradient_rect(img, d, (10, 8, W - 10, 52), COLORS["grad1"], COLORS["grad2"], radius=12)
+    text(d, (22, 15), "KeyAtlas", fill="white", f=font(18, bold=True))
+    text(d, (22, 38), "快捷键搜索引擎 · 离线 · 中英双语", fill="#e9e7ff", f=font(10))
 
-    # ── left: 3 feature cards (no icon — centered text only) ──
-    lx = 14
-    lw = 254
-    top = 60
-    mods = [
-        ("即时搜索", "Instant Search"),
-        ("129+ 应用 · 离线可用", "129+ Apps · Offline"),
-        ("中英双语切换", "Bilingual EN / 中文"),
+    # ── left: 3 roomy feature rows (dot + bilingual label) ──
+    lx = 16
+    top = 76
+    rows = [
+        ("即时搜索", "Instant Search", COLORS["primary"]),
+        ("系统偏好 · 深浅主题", "OS prefs · Light/Dark", COLORS["violet"]),
+        ("中英双语切换", "Bilingual EN / 中文", COLORS["purple"]),
     ]
-    mh = 58
-    mgap = 11
-    for i, (cn, en) in enumerate(mods):
-        y0 = top + i * (mh + mgap)
-        y1 = y0 + mh
-        card(d, (lx, y0, lx + lw, y1), radius=13, shadow=False)
-        # text block — horizontally & vertically centered in card
-        cx_card = lx + lw // 2
-        text(d, (cx_card, y0 + mh // 2 - 8), cn, f=font(15, bold=True), anchor="mm")
-        text(d, (cx_card, y0 + mh // 2 + 12), en, fill=COLORS["sub"], f=font(10), anchor="mm")
+    rh, rgap = 52, 16
+    for i, (cn, en, clr) in enumerate(rows):
+        y0 = top + i * (rh + rgap)
+        card(d, (lx, y0, lx + 248, y0 + rh), radius=13, shadow=False)
+        d.rounded_rectangle((lx + 14, y0 + 17, lx + 30, y0 + 33), radius=5, fill=clr)
+        text(d, (lx + 44, y0 + 9), cn, f=font(14, bold=True))
+        text(d, (lx + 44, y0 + 29), en, fill=COLORS["sub"], f=font(10))
 
-    # ── right: dot-list highlights + CTA ──
-    rx = lx + lw + 18
-    rfeatures = [
-        ("模糊匹配", "Fuzzy match", COLORS["primary"]),
-        ("拼音搜索", "Pinyin search", COLORS["violet"]),
-        ("零追踪", "No tracking", COLORS["purple"]),
-    ]
-    rline = 32
-    for i, (cn, en, clr) in enumerate(rfeatures):
-        fy = top + i * rline
-        # colored dot — vertically centered to text line pair
-        d.ellipse((rx + 3, fy + 7, rx + 17, fy + 21), fill=clr)
-        text(d, (rx + 26, fy + 1), cn, f=font(12, bold=True))
-        text(d, (rx + 26, fy + 16), en, fill=COLORS["sub"], f=font(9))
+    # ── right: stats card + CTA ──
+    rx = 282
+    rw = W - rx - 14          # 144
+    card(d, (rx, 76, rx + rw, 180), radius=13, shadow=False)
+    text(d, (rx + rw // 2, 100), "200+", fill=COLORS["primary"], f=font(26, bold=True), anchor="mm")
+    text(d, (rx + rw // 2, 124), "款应用 / Apps", fill=COLORS["sub"], f=font(10), anchor="mm")
+    text(d, (rx + rw // 2, 148), "7900+ 条快捷键", fill=COLORS["text"], f=font(12, bold=True), anchor="mm")
+    text(d, (rx + rw // 2, 164), "离线可用 / Offline", fill=COLORS["sub"], f=font(9), anchor="mm")
 
-    # ── CTA button (bottom-right, aligned below dot-list) ──
-    cta_w, cta_h = 148, 34
-    cta_x = rx
-    cta_y = top + 3 * rline + 14
-    gradient_rect(img, d, (cta_x, cta_y, cta_x + cta_w, cta_y + cta_h),
-                  COLORS["grad1"], COLORS["grad2"], radius=17)
-    text(d, (cta_x + cta_w // 2, cta_y + cta_h // 2), "免费安装 / Install",
-         fill="white", f=font(12, bold=True), anchor="mm")
+    cta_y = 198
+    gradient_rect(img, d, (rx, cta_y, rx + rw, cta_y + 46), COLORS["grad1"], COLORS["grad2"], radius=14)
+    text(d, (rx + rw // 2, cta_y + 17), "免费安装", fill="white", f=font(13, bold=True), anchor="mm")
+    text(d, (rx + rw // 2, cta_y + 33), "Install Free", fill="#e9e7ff", f=font(9), anchor="mm")
 
     img.save(OUT / "promo-small-bilingual-440x280.png")
 
@@ -330,7 +316,7 @@ def large_promo_bilingual():
     # banner (gradient) — title + bilingual subtitle
     gradient_rect(img, d, (32, 20, W - 32, 100), COLORS["grad1"], COLORS["grad2"], radius=16)
     text(d, (60, 32), "KeyAtlas — 快捷键搜索引擎", fill="white", f=font(32, bold=True))
-    text(d, (62, 76), "Shortcut Search Engine · 129 应用 · 5374 快捷键 · 7 分类 · 5 系统 · 离线 · 中英双语",
+    text(d, (62, 76), "Shortcut Search Engine · 200+ 应用 · 7900+ 快捷键 · 9 分类 · 5 系统 · 离线 · 中英双语",
          fill="#e9e7ff", f=font(14))
 
     # Col 1: popup mock (left)
@@ -346,7 +332,7 @@ def large_promo_bilingual():
               470, f=font(14), leading=4)
     paragraph(d, (cx, cy + 104),
               "Type any action or app name — results appear as you type. Fuzzy & pinyin search.",
-              470, f=font(12), fill=COLORS["sub"], leading=3)
+              508, f=font(12), fill=COLORS["sub"], leading=3)
 
     # key demo panel
     dp_y = cy + 152
@@ -357,8 +343,8 @@ def large_promo_bilingual():
 
     # quick stats badges
     bd_y = dp_y + 70
-    badges = [("129 应用", COLORS["primary"]), ("5374 快捷键", COLORS["violet"]),
-              ("7 分类", COLORS["purple"]), ("5 系统", COLORS["accent"]), ("离线", COLORS["primary_strong"])]
+    badges = [("200+ 应用", COLORS["primary"]), ("7900+ 快捷键", COLORS["violet"]),
+              ("9 分类", COLORS["purple"]), ("5 系统", COLORS["accent"]), ("离线", COLORS["primary_strong"])]
     bw = 88
     for i, (label, clr) in enumerate(badges):
         bx = cx + i * (bw + 10)
@@ -373,12 +359,12 @@ def large_promo_bilingual():
     text(d, (rx, 144), "Browse by Category", fill=COLORS["sub"], f=font(12))
 
     categories = [
-        ("设计 Design", "40", COLORS["purple"]),
-        ("开发 Dev", "26", COLORS["primary"]),
-        ("效率 Productivity", "28", COLORS["violet"]),
+        ("设计 Design", "55", COLORS["purple"]),
+        ("开发 Dev", "49", COLORS["primary"]),
+        ("效率 Productivity", "59", COLORS["violet"]),
         ("浏览器 Browser", "8", COLORS["primary_strong"]),
-        ("视频 Video", "10", COLORS["violet"]),
-        ("音频 Audio", "11", COLORS["accent"]),
+        ("视频 Video", "16", COLORS["violet"]),
+        ("音频 Audio", "13", COLORS["accent"]),
     ]
     ew, eh = 140, 58   # FIX v3: slightly wider cards
     gap_x, gap_y = 14, 10
@@ -402,9 +388,9 @@ def large_promo_bilingual():
     text(d, (pro_x + 48, pro_y + 15), "FREE", fill="white", f=font(11, bold=True), anchor="ma")
     text(d, (pro_x + 88, pro_y + 14), "免费使用 / Free", f=font(16, bold=True))
 
-    text(d, (pro_x + 16, pro_y + 48), "零网络依赖 · 零追踪 · 中英双语切换",
+    text(d, (pro_x + 16, pro_y + 48), "零网络依赖 · 系统偏好 · 深浅主题统一",
          fill=COLORS["sub"], f=font(12))
-    text(d, (pro_x + 16, pro_y + 66), "No network · No tracking · Bilingual EN / 中文",
+    text(d, (pro_x + 16, pro_y + 66), "No network · OS prefs · Unified Light/Dark theme",
          fill=COLORS["sub"], f=font(11))
 
     # FIX v3: CTA button — smaller font so text doesn't touch edges

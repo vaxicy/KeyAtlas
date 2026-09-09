@@ -239,9 +239,9 @@ def popup_mock(draw, img, x, y, scale=1.0, lang="zh"):
     # category tiles (2×2) — NO emoji, colored left bar + translated names
     cy0 = tab_y + tab_h + int(14 * scale)
     if lang == "zh":
-        cats = [("设计", "40"), ("开发", "26"), ("效率", "28"), ("视频", "10")]
+        cats = [("设计", "55"), ("开发", "49"), ("效率", "59"), ("视频", "16")]
     else:
-        cats = [("Design", "40"), ("Dev", "26"), ("Productivity", "28"), ("Video", "10")]
+        cats = [("Design", "55"), ("Dev", "49"), ("Productivity", "59"), ("Video", "16")]
     cat_colors = [COLORS["purple"], COLORS["primary"], COLORS["violet"], COLORS["violet"]]
     cw = (pw - int(36 * scale)) // 2
     ch = int(54 * scale)
@@ -288,7 +288,7 @@ def popup_mock(draw, img, x, y, scale=1.0, lang="zh"):
     bb = y + ph - int(36 * scale)   # 2px taller
     card(draw, (x + int(14 * scale), bb, x + pw - int(14 * scale), y + ph - int(10 * scale)),
          fill=COLORS["surface"], radius=int(10 * scale), shadow=False)
-    stat = "129 应用 · 离线可用" if lang == "zh" else "Apps · Shortcuts · Cats · Systems · Offline"
+    stat = "200+ 应用 · 离线可用" if lang == "zh" else "Apps · Shortcuts · Cats · Systems · Offline"
     text(draw, (x + pw // 2, bb + int(13 * scale)), stat,
          fill=COLORS["sub"], f=font(int(10 * scale)), anchor="mm")
 
@@ -297,14 +297,14 @@ def popup_mock(draw, img, x, y, scale=1.0, lang="zh"):
 
 def zh_01_hero():
     img, d = base_bg()
-    hero_banner(img, d, "KeyAtlas — 快捷键搜索引擎", "覆盖 129 款应用与操作系统，5374 条快捷键，即时搜索")
+    hero_banner(img, d, "KeyAtlas — 快捷键搜索引擎", "覆盖 200+ 款应用与操作系统，7900+ 条快捷键，即时搜索")
     popup_mock(d, img, 72, 210, scale=0.95, lang="zh")
 
     rx = 480
     features = [
         ("即时搜索", "输入操作或应用名，结果实时呈现", COLORS["primary"]),
-        ("分类浏览", "设计 / 开发 / 效率 / 视频 / 音频 / 系统", COLORS["violet"]),
-        ("中英双语", "完整支持中文与英文界面切换", COLORS["purple"]),
+        ("系统偏好", "设置 Windows / macOS / Linux 键位优先显示", COLORS["violet"]),
+        ("深浅主题", "浅色 / 深色，扩展端与网页端统一", COLORS["purple"]),
         ("完全离线", "安装后无需联网，零追踪无注册", COLORS["accent"]),
     ]
     for i, (title, desc, clr) in enumerate(features):
@@ -344,32 +344,33 @@ def zh_02_search():
 
 def zh_03_categories():
     img, d = base_bg()
-    hero_banner(img, d, "按分类浏览", "7 大类别，129 款应用一目了然")
+    hero_banner(img, d, "按分类浏览", "9 大类别，200+ 款应用一目了然")
 
     categories = [
-        ("设计", "40", "Photoshop / Figma / Blender / Sketch / Illustrator ...", COLORS["purple"]),
-        ("开发", "26", "VS Code / IntelliJ / Vim / Git / Chrome DevTools ...", COLORS["primary"]),
-        ("效率", "28", "Notion / Slack / Outlook / Todoist / Obsidian ...", COLORS["violet"]),
+        ("设计", "55", "Photoshop / Figma / Blender / Sketch / Illustrator ...", COLORS["purple"]),
+        ("开发", "49", "VS Code / IntelliJ / Vim / Git / Chrome DevTools ...", COLORS["primary"]),
+        ("效率", "59", "Notion / Slack / Outlook / Todoist / Obsidian ...", COLORS["violet"]),
         ("浏览器", "8", "Chrome / Edge / Firefox / Safari / Arc ...", COLORS["primary_strong"]),
-        ("视频", "10", "Premiere / DaVinci / Final Cut / CapCut / Vegas ...", COLORS["violet"]),
-        ("音频", "11", "Audition / Audacity / FL Studio / Logic Pro ...", COLORS["accent"]),
+        ("AI", "20", "ChatGPT / Claude / Midjourney / Copilot ...", COLORS["violet"]),
+        ("视频", "16", "Premiere / DaVinci / Final Cut / CapCut / Vegas ...", COLORS["violet"]),
+        ("音频", "13", "Audition / Audacity / FL Studio / Logic Pro ...", COLORS["accent"]),
         ("系统", "5", "Windows / macOS / Linux / ChromeOS / iOS", COLORS["sub"]),
+        ("其他", "3", "更多应用持续更新中 ...", COLORS["sub"]),
     ]
 
-    cols, card_w, card_h = 2, 550, 130
-    gap_x, gap_y = 20, 16
-    start_x, start_y = 60, 210
+    cols, card_w, card_h = 2, 550, 100
+    gap_x, gap_y = 20, 12
+    start_x, start_y = 60, 200
 
     for i, (name, count, examples, clr) in enumerate(categories):
         col, row = i % cols, i // cols
         cx = start_x + col * (card_w + gap_x)
         cy = start_y + row * (card_h + gap_y)
         card(d, (cx, cy, cx + card_w, cy + card_h), radius=14, shadow=False)
-        # FIX v3: accent bar + 4px more text offset (was 28, now 32)
         d.rounded_rectangle((cx, cy, cx + 8, cy + card_h), radius=3, fill=clr)
-        text(d, (cx + 32, cy + 18), name, f=F["h3"])
-        text(d, (cx + 32, cy + 54), f"{count} 款应用", fill=COLORS["sub"], f=F["body"])
-        paragraph(d, (cx + 32, cy + 82), examples, card_w - 60, f=F["tiny"], fill=COLORS["sub"], leading=3)
+        text(d, (cx + 32, cy + 12), name, f=F["h3"])
+        text(d, (cx + 32, cy + 44), f"{count} 款应用", fill=COLORS["sub"], f=F["body"])
+        paragraph(d, (cx + 32, cy + 70), examples, card_w - 60, f=F["tiny"], fill=COLORS["sub"], leading=3)
 
     img.save(OUT_ZH / "screenshot-03-categories.png")
 
@@ -438,7 +439,7 @@ def zh_05_offline_bilingual():
     text(d, (992, 433), "当前：简体中文", fill=COLORS["sub"], f=font(15), anchor="ma")
 
     card(d, (60, 560, W - 60, 700), fill=COLORS["surface"], radius=14, shadow=False)
-    stats = [("129", "款应用"), ("5374", "条快捷键"), ("7", "大分类"), ("5", "个操作系统"), ("0", "联网依赖")]
+    stats = [("200+", "款应用"), ("7900+", "条快捷键"), ("9", "大分类"), ("5", "个操作系统"), ("0", "联网依赖")]
     for i, (num, label) in enumerate(stats):
         sx_pos = 100 + i * 210
         text(d, (sx_pos, 590), num, f=F["h1"], fill=COLORS["primary"])
@@ -451,14 +452,14 @@ def zh_05_offline_bilingual():
 
 def en_01_hero():
     img, d = base_bg()
-    hero_banner(img, d, "KeyAtlas — Shortcut Search Engine", "129 apps & OS, 5,374 shortcuts, instant search")
+    hero_banner(img, d, "KeyAtlas — Shortcut Search Engine", "200+ apps & OS, 7,900+ shortcuts, instant search")
     popup_mock(d, img, 72, 210, scale=0.95, lang="en")
 
     rx = 480
     features = [
         ("Instant Search", "Type any action or app name, results appear as you type", COLORS["primary"]),
-        ("Browse by Category", "Design / Dev / Productivity / Video / Audio / System", COLORS["violet"]),
-        ("Bilingual UI", "Full EN / 中文 support, one-click switch", COLORS["purple"]),
+        ("OS Preference", "Prioritize Windows / macOS / Linux keys in Settings", COLORS["violet"]),
+        ("Light & Dark Theme", "Unified across extension and web app", COLORS["purple"]),
         ("100% Offline", "No internet needed after install. Zero tracking, no sign-up.", COLORS["accent"]),
     ]
     for i, (title, desc, clr) in enumerate(features):
@@ -498,21 +499,23 @@ def en_02_search():
 
 def en_03_categories():
     img, d = base_bg()
-    hero_banner(img, d, "Browse by Category", "7 categories, 129 apps at a glance")
+    hero_banner(img, d, "Browse by Category", "9 categories, 200+ apps at a glance")
 
     categories = [
-        ("Design", "40", "Photoshop / Figma / Blender / Sketch / Illustrator ...", COLORS["purple"]),
-        ("Dev", "26", "VS Code / IntelliJ / Vim / Git / Chrome DevTools ...", COLORS["primary"]),
-        ("Productivity", "28", "Notion / Slack / Outlook / Todoist / Obsidian ...", COLORS["violet"]),
+        ("Design", "55", "Photoshop / Figma / Blender / Sketch / Illustrator ...", COLORS["purple"]),
+        ("Dev", "49", "VS Code / IntelliJ / Vim / Git / Chrome DevTools ...", COLORS["primary"]),
+        ("Productivity", "59", "Notion / Slack / Outlook / Todoist / Obsidian ...", COLORS["violet"]),
         ("Browser", "8", "Chrome / Edge / Firefox / Safari / Arc ...", COLORS["primary_strong"]),
-        ("Video", "10", "Premiere / DaVinci / Final Cut / CapCut / Vegas ...", COLORS["violet"]),
-        ("Audio", "11", "Audition / Audacity / FL Studio / Logic Pro ...", COLORS["accent"]),
+        ("AI", "20", "ChatGPT / Claude / Midjourney / Copilot ...", COLORS["violet"]),
+        ("Video", "16", "Premiere / DaVinci / Final Cut / CapCut / Vegas ...", COLORS["violet"]),
+        ("Audio", "13", "Audition / Audacity / FL Studio / Logic Pro ...", COLORS["accent"]),
         ("System", "5", "Windows / macOS / Linux / ChromeOS / iOS", COLORS["sub"]),
+        ("Other", "3", "More apps added regularly ...", COLORS["sub"]),
     ]
 
-    cols, card_w, card_h = 2, 550, 130
-    gap_x, gap_y = 20, 16
-    start_x, start_y = 60, 210
+    cols, card_w, card_h = 2, 550, 100
+    gap_x, gap_y = 20, 12
+    start_x, start_y = 60, 200
 
     for i, (name, count, examples, clr) in enumerate(categories):
         col, row = i % cols, i // cols
@@ -520,10 +523,9 @@ def en_03_categories():
         cy = start_y + row * (card_h + gap_y)
         card(d, (cx, cy, cx + card_w, cy + card_h), radius=14, shadow=False)
         d.rounded_rectangle((cx, cy, cx + 8, cy + card_h), radius=3, fill=clr)
-        # FIX v3: +4px more offset
-        text(d, (cx + 32, cy + 18), name, f=F["h3"])
-        text(d, (cx + 32, cy + 54), f"{count} apps", fill=COLORS["sub"], f=F["body"])
-        paragraph(d, (cx + 32, cy + 82), examples, card_w - 60, f=F["tiny"], fill=COLORS["sub"], leading=3)
+        text(d, (cx + 32, cy + 12), name, f=F["h3"])
+        text(d, (cx + 32, cy + 44), f"{count} apps", fill=COLORS["sub"], f=F["body"])
+        paragraph(d, (cx + 32, cy + 70), examples, card_w - 60, f=F["tiny"], fill=COLORS["sub"], leading=3)
 
     img.save(OUT_EN / "screenshot-03-categories.png")
 
@@ -590,7 +592,7 @@ def en_05_offline_bilingual():
     text(d, (997, 433), "Current: English", fill=COLORS["sub"], f=font(15), anchor="ma")   # FIX v3: smaller font
 
     card(d, (60, 560, W - 60, 700), fill=COLORS["surface"], radius=14, shadow=False)
-    stats = [("129", "Apps"), ("5,374", "Shortcuts"), ("7", "Categories"), ("5", "Operating Systems"), ("0", "Network Dep.")]
+    stats = [("200+", "Apps"), ("7,900+", "Shortcuts"), ("9", "Categories"), ("5", "Operating Systems"), ("0", "Network Dep.")]
     for i, (num, label) in enumerate(stats):
         sx_pos = 100 + i * 210
         text(d, (sx_pos, 590), num, f=F["h1"], fill=COLORS["primary"])

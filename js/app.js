@@ -50,6 +50,7 @@
     aboutVersion: document.getElementById("aboutVersion"),
     paypalBtn: document.getElementById("paypalBtn"),
     wechatBtn: document.getElementById("wechatBtn"),
+    feedbackBtn: document.getElementById("feedbackBtn"),
     wechatLightbox: document.getElementById("wechatLightbox"),
     toast: document.getElementById("toast"),
     detailDrawer: document.getElementById("detailDrawer"),
@@ -1205,6 +1206,11 @@
     }
     if (el.paypalBtn) {
       el.paypalBtn.addEventListener("click", () => window.open(PAYPAL_URL, "_blank", "noopener"));
+    }
+    if (el.feedbackBtn) {
+      el.feedbackBtn.addEventListener("click", () => {
+        window.location.href = "mailto:huangzero2004@gmail.com?subject=" + encodeURIComponent("KeyAtlas 反馈");
+      });
     }
     if (el.wechatBtn && el.wechatLightbox) {
       const openWechat = () => {

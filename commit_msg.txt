@@ -1,4 +1,6 @@
-优化图例布局：flex 居中两行并缩小
+设置侧边栏新增「反馈问题」入口
 
-- 图例从 3 列 grid 改为 flex wrap 居中（3+2，第二行自然居中）
-- 缩小：badge 18px、字号 9px、item 内 gap 3px、列距 12px 行距 8px
+- popup.html 设置面板 about 块后新增反馈按钮（data-i18n="feedback"）
+- js/app.js 收集 feedbackBtn 并绑定点击，跳转 mailto:huangzero2004@gmail.com?subject=KeyAtlas 反馈
+- js/i18n.js 新增 feedback 双语文案（en=Report an issue / zh=反馈问题）
+- css 新增 .feedback-link 一行左对齐文字链接样式

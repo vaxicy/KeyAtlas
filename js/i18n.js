@@ -79,7 +79,8 @@ const I18N = {
     copiedOS: "Copied {os} keys",
     showAllPlatforms: "Show all platforms",
     noKey: "No key for this platform",
-    atHint: 'Type @ to jump straight to an app'
+    atHint: 'Type @ to jump straight to an app',
+    feedback: "Report an issue"
   },
   zh: {
     appName: "KeyAtlas",
@@ -156,7 +157,8 @@ const I18N = {
     copiedOS: "已复制 {os} 快捷键",
     showAllPlatforms: "显示全部平台",
     noKey: "该平台无可用快捷键",
-    atHint: "输入 @ 可直接跳到某个软件"
+    atHint: "输入 @ 可直接跳到某个软件",
+    feedback: "反馈问题"
   }
 };
 

@@ -162,5 +162,8 @@
   { "id": "zed",           "name": { "zh": "Zed",           "en": "Zed" },           "category": "development", "icon": "⚡", "type": "software", "file": "zed.json",           "source": "official" },
   { "id": "jira",          "name": { "zh": "Jira",          "en": "Jira" },          "category": "productivity", "icon": "📋", "type": "software", "file": "jira.json",          "source": "official" },
   { "id": "trello",        "name": { "zh": "Trello",        "en": "Trello" },        "category": "productivity", "icon": "📌", "type": "software", "file": "trello.json",        "source": "official" },
-  { "id": "maya",          "name": { "zh": "Maya",          "en": "Maya" },          "category": "design",       "icon": "🎬", "type": "software", "file": "maya.json",          "source": "official" }
+  { "id": "maya",          "name": { "zh": "Maya",          "en": "Maya" },          "category": "design",       "icon": "🎬", "type": "software", "file": "maya.json",          "source": "official" },
+  { "id": "nuke",          "name": { "zh": "Nuke",          "en": "Nuke" },          "category": "design",       "icon": "🎞️", "type": "software", "file": "nuke.json",          "source": "official" },
+  { "id": "codex",         "name": { "zh": "Codex CLI",     "en": "Codex CLI" },     "category": "ai",           "icon": "🤖", "type": "software", "file": "codex.json",         "source": "community" },
+  { "id": "substance",     "name": { "zh": "Substance 3D Designer", "en": "Substance 3D Designer" }, "category": "design", "icon": "🧱", "type": "software", "file": "substance.json",     "source": "official" }
 ]

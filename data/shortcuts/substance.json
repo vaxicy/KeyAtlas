@@ -1,0 +1,516 @@
+[
+  {
+    "id": "substance-new-graph",
+    "appId": "substance",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "新建 Substance 图表",
+      "en": "New Substance Graph"
+    },
+    "description": {
+      "zh": "新建一个 Substance 图表",
+      "en": "Create a new Substance graph"
+    },
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
+    "linux": "Ctrl + N",
+    "keywords": [
+      "新建",
+      "new",
+      "图表",
+      "graph"
+    ],
+    "pinyin": "xin jian   s u b s t a n c e   tu biao xinjian substance tubiao x j   s u b s t a n c e   t b xj substance tb xin jian   tu biao xinjian tubiao x j   t b xj tb"
+  },
+  {
+    "id": "substance-load-package",
+    "appId": "substance",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "加载包",
+      "en": "Load Package"
+    },
+    "description": {
+      "zh": "打开加载包对话框",
+      "en": "Open the load package dialog"
+    },
+    "windows": "Ctrl + O",
+    "mac": "⌘ O",
+    "linux": "Ctrl + O",
+    "keywords": [
+      "加载",
+      "load",
+      "包",
+      "package"
+    ],
+    "pinyin": "jia zai bao jiazaibao j z b jzb jia zai   bao jiazai bao j z   b jz b"
+  },
+  {
+    "id": "substance-close-package",
+    "appId": "substance",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "关闭选中包",
+      "en": "Close Selected Package"
+    },
+    "description": {
+      "zh": "关闭选中的包",
+      "en": "Close the selected package(s)"
+    },
+    "windows": "Ctrl + F4",
+    "mac": "⌘ W",
+    "linux": "Ctrl + F4",
+    "keywords": [
+      "关闭",
+      "close",
+      "包",
+      "package"
+    ],
+    "pinyin": "guan bi xuan zhong bao guanbixuanzhongbao g b x z b gbxzb guan bi   bao guanbi bao g b   b gb b"
+  },
+  {
+    "id": "substance-save",
+    "appId": "substance",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "保存包",
+      "en": "Save Package"
+    },
+    "description": {
+      "zh": "保存当前包",
+      "en": "Save the current package"
+    },
+    "windows": "Ctrl + S",
+    "mac": "⌘ S",
+    "linux": "Ctrl + S",
+    "keywords": [
+      "保存",
+      "save",
+      "包"
+    ],
+    "pinyin": "bao cun bao baocunbao b c b bcb bao cun   bao baocun bao b c   b bc b"
+  },
+  {
+    "id": "substance-undo",
+    "appId": "substance",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "撤销",
+      "en": "Undo"
+    },
+    "description": {
+      "zh": "撤销上一步操作",
+      "en": "Undo the last action"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "⌘ Z",
+    "linux": "Ctrl + Z",
+    "keywords": [
+      "撤销",
+      "undo"
+    ],
+    "pinyin": "che xiao chexiao c x cx che xiao chexiao c x cx"
+  },
+  {
+    "id": "substance-redo",
+    "appId": "substance",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "重做",
+      "en": "Redo"
+    },
+    "description": {
+      "zh": "重做被撤销的操作",
+      "en": "Redo the last undone action"
+    },
+    "windows": "Ctrl + Y",
+    "mac": "⌘ Y",
+    "linux": "Ctrl + Y",
+    "keywords": [
+      "重做",
+      "redo"
+    ],
+    "pinyin": "zhong zuo zhongzuo z z zz zhong zuo zhongzuo z z zz"
+  },
+  {
+    "id": "substance-node-menu",
+    "appId": "substance",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "节点菜单（创建节点）",
+      "en": "Node Menu (Create Node)"
+    },
+    "description": {
+      "zh": "在图表视图按空格打开节点创建菜单",
+      "en": "Press Spacebar in the graph view to open the node creation menu"
+    },
+    "windows": "空格",
+    "mac": "空格",
+    "linux": "空格",
+    "keywords": [
+      "节点",
+      "node",
+      "创建",
+      "菜单"
+    ],
+    "pinyin": "jie dian cai dan （ chuang jian jie dian ） jiediancaidan（chuangjianjiedian） j d c d （ c j j d ） jdcd（cjjd） jie dian   chuang jian   cai dan jiedian chuangjian caidan j d   c j   c d jd cj cd"
+  },
+  {
+    "id": "substance-link-standard",
+    "appId": "substance",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "标准连线模式",
+      "en": "Standard Link Mode"
+    },
+    "description": {
+      "zh": "切换为标准连线模式",
+      "en": "Switch to standard link creation mode"
+    },
+    "windows": "1",
+    "mac": "1",
+    "linux": "1",
+    "keywords": [
+      "连线",
+      "link",
+      "标准",
+      "节点"
+    ],
+    "pinyin": "biao zhun lian xian mo shi biaozhunlianxianmoshi b z l x m s bzlxms lian xian   biao zhun   jie dian lianxian biaozhun jiedian l x   b z   j d lx bz jd"
+  },
+  {
+    "id": "substance-link-material",
+    "appId": "substance",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "材质连线模式",
+      "en": "Material Link Mode"
+    },
+    "description": {
+      "zh": "切换为材质连线模式",
+      "en": "Switch to material link creation mode"
+    },
+    "windows": "2",
+    "mac": "2",
+    "linux": "2",
+    "keywords": [
+      "连线",
+      "link",
+      "材质",
+      "节点"
+    ],
+    "pinyin": "cai zhi lian xian mo shi caizhilianxianmoshi c z l x m s czlxms lian xian   cai zhi   jie dian lianxian caizhi jiedian l x   c z   j d lx cz jd"
+  },
+  {
+    "id": "substance-link-compact",
+    "appId": "substance",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "紧凑材质连线模式",
+      "en": "Compact Material Link Mode"
+    },
+    "description": {
+      "zh": "切换为紧凑材质连线模式",
+      "en": "Switch to compact material link creation mode"
+    },
+    "windows": "3",
+    "mac": "3",
+    "linux": "3",
+    "keywords": [
+      "连线",
+      "link",
+      "紧凑",
+      "材质"
+    ],
+    "pinyin": "jin cou cai zhi lian xian mo shi jincoucaizhilianxianmoshi j c c z l x m s jcczlxms lian xian   jin cou   cai zhi lianxian jincou caizhi l x   j c   c z lx jc cz"
+  },
+  {
+    "id": "substance-duplicate",
+    "appId": "substance",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "复制选区",
+      "en": "Duplicate Selection"
+    },
+    "description": {
+      "zh": "复制选中的节点",
+      "en": "Duplicate the selected node(s)"
+    },
+    "windows": "Ctrl + D",
+    "mac": "⌘ D",
+    "linux": "Ctrl + D",
+    "keywords": [
+      "复制",
+      "duplicate",
+      "节点"
+    ],
+    "pinyin": "fu zhi xuan qu fuzhixuanqu f z x q fzxq fu zhi   jie dian fuzhi jiedian f z   j d fz jd"
+  },
+  {
+    "id": "substance-duplicate-no-links",
+    "appId": "substance",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "复制（保留链接）",
+      "en": "Duplicate Without Links"
+    },
+    "description": {
+      "zh": "复制选区但不复制连线",
+      "en": "Duplicate selection without its links"
+    },
+    "windows": "Ctrl + Shift + D",
+    "mac": "⌘ ⇧ D",
+    "linux": "Ctrl + Shift + D",
+    "keywords": [
+      "复制",
+      "duplicate",
+      "无链接"
+    ],
+    "pinyin": "fu zhi （ bao liu lian jie ） fuzhi（baoliulianjie） f z （ b l l j ） fz（bllj） fu zhi   wu lian jie fuzhi wulianjie f z   w l j fz wlj"
+  },
+  {
+    "id": "substance-delete",
+    "appId": "substance",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "删除选区",
+      "en": "Delete Selection"
+    },
+    "description": {
+      "zh": "删除选中的节点",
+      "en": "Delete the selected node(s)"
+    },
+    "windows": "Delete",
+    "mac": "Delete",
+    "linux": "Delete",
+    "keywords": [
+      "删除",
+      "delete",
+      "节点"
+    ],
+    "pinyin": "shan chu xuan qu shanchuxuanqu s c x q scxq shan chu   jie dian shanchu jiedian s c   j d sc jd"
+  },
+  {
+    "id": "substance-delete-keep-links",
+    "appId": "substance",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "删除并保留链接",
+      "en": "Delete Preserving Links"
+    },
+    "description": {
+      "zh": "删除选区但保留连线",
+      "en": "Delete selection and preserve links"
+    },
+    "windows": "Backspace",
+    "mac": "Backspace",
+    "linux": "Backspace",
+    "keywords": [
+      "删除",
+      "delete",
+      "保留链接"
+    ],
+    "pinyin": "shan chu bing bao liu lian jie shanchubingbaoliulianjie s c b b l l j scbbllj shan chu   bao liu lian jie shanchu baoliulianjie s c   b l l j sc bllj"
+  },
+  {
+    "id": "substance-dock-node",
+    "appId": "substance",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "停靠 / 取消停靠节点",
+      "en": "Dock / Undock Node"
+    },
+    "description": {
+      "zh": "切换节点在视图中的停靠状态",
+      "en": "Dock or undock the node"
+    },
+    "windows": "D",
+    "mac": "D",
+    "linux": "D",
+    "keywords": [
+      "停靠",
+      "dock",
+      "节点"
+    ],
+    "pinyin": "ting kao   /   qu xiao ting kao jie dian tingkao / quxiaotingkaojiedian t k   /   q x t k j d tk / qxtkjd ting kao   jie dian tingkao jiedian t k   j d tk jd"
+  },
+  {
+    "id": "substance-disable-node",
+    "appId": "substance",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "禁用节点",
+      "en": "Disable Node"
+    },
+    "description": {
+      "zh": "禁用 / 启用选中的节点",
+      "en": "Disable/enable the selected node(s)"
+    },
+    "windows": "Shift + D",
+    "mac": "⇧ D",
+    "linux": "Shift + D",
+    "keywords": [
+      "禁用",
+      "disable",
+      "节点"
+    ],
+    "pinyin": "jin yong jie dian jinyongjiedian j y j d jyjd jin yong   jie dian jinyong jiedian j y   j d jy jd"
+  },
+  {
+    "id": "substance-toggle-tiled",
+    "appId": "substance",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "切换平铺显示（2D 视图）",
+      "en": "Toggle Tiled Display (2D View)"
+    },
+    "description": {
+      "zh": "在 2D 视图中切换平铺显示",
+      "en": "Toggle tiled display in the 2D view"
+    },
+    "windows": "空格",
+    "mac": "空格",
+    "linux": "空格",
+    "keywords": [
+      "平铺",
+      "tiled",
+      "2D视图"
+    ],
+    "pinyin": "qie huan ping pu xian shi （ 2 d   shi tu ） qiehuanpingpuxianshi（2d shitu） q h p p x s （ 2 d   s t ） qhppxs（2d st） ping pu   2 d shi tu pingpu 2dshitu p p   2 d s t pp 2dst"
+  },
+  {
+    "id": "substance-zoom",
+    "appId": "substance",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "缩放视图",
+      "en": "Zoom"
+    },
+    "description": {
+      "zh": "滚轮或 Alt+右键拖动缩放（2D/3D/图表视图）",
+      "en": "Mouse wheel or Alt+RMB drag to zoom"
+    },
+    "windows": "滚轮 / Alt + 右键拖动",
+    "mac": "滚轮 / ⌥ + 右键拖动",
+    "linux": "滚轮 / Alt + 右键拖动",
+    "keywords": [
+      "缩放",
+      "zoom",
+      "视图"
+    ],
+    "pinyin": "suo fang shi tu suofangshitu s f s t sfst suo fang   shi tu suofang shitu s f   s t sf st"
+  },
+  {
+    "id": "substance-pan",
+    "appId": "substance",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "平移视图",
+      "en": "Pan"
+    },
+    "description": {
+      "zh": "中键拖动或 Ctrl+右键拖动平移（2D/3D/图表视图）",
+      "en": "MMB drag or Ctrl+RMB drag to pan"
+    },
+    "windows": "中键拖动 / Ctrl + 右键拖动",
+    "mac": "中键拖动 / ⌘ + 右键拖动",
+    "linux": "中键拖动 / Ctrl + 右键拖动",
+    "keywords": [
+      "平移",
+      "pan",
+      "视图"
+    ],
+    "pinyin": "ping yi shi tu pingyishitu p y s t pyst ping yi   shi tu pingyi shitu p y   s t py st"
+  },
+  {
+    "id": "substance-reset-zoom",
+    "appId": "substance",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "重置缩放",
+      "en": "Reset Zoom"
+    },
+    "description": {
+      "zh": "将视图缩放重置为 100%",
+      "en": "Reset zoom to 100%"
+    },
+    "windows": "Z",
+    "mac": "Z",
+    "linux": "Z",
+    "keywords": [
+      "重置",
+      "reset",
+      "缩放",
+      "zoom"
+    ],
+    "pinyin": "zhong zhi suo fang zhongzhisuofang z z s f zzsf zhong zhi   suo fang zhongzhi suofang z z   s f zz sf"
+  },
+  {
+    "id": "substance-fit-view",
+    "appId": "substance",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "适配视图",
+      "en": "Fit in View"
+    },
+    "description": {
+      "zh": "将内容适配到视图（2D/图表视图）",
+      "en": "Frame content to fit the view"
+    },
+    "windows": "F",
+    "mac": "F",
+    "linux": "F",
+    "keywords": [
+      "适配",
+      "fit",
+      "视图",
+      "框显"
+    ],
+    "pinyin": "shi pei shi tu shipeishitu s p s t spst shi pei   shi tu   kuang xian shipei shitu kuangxian s p   s t   k x sp st kx"
+  },
+  {
+    "id": "substance-orbit-3d",
+    "appId": "substance",
+    "type": "software",
+    "category": "design",
+    "name": {
+      "zh": "3D 视图旋转",
+      "en": "Orbit Camera (3D View)"
+    },
+    "description": {
+      "zh": "左键拖动旋转 3D 视图相机",
+      "en": "LMB drag to orbit the 3D view camera"
+    },
+    "windows": "左键拖动",
+    "mac": "左键拖动",
+    "linux": "左键拖动",
+    "keywords": [
+      "旋转",
+      "orbit",
+      "3D视图",
+      "相机"
+    ],
+    "pinyin": "3 d   shi tu xuan zhuan 3d shituxuanzhuan 3 d   s t x z 3d stxz xuan zhuan   3 d shi tu   xiang ji xuanzhuan 3dshitu xiangji x z   3 d s t   x j xz 3dst xj"
+  }
+]

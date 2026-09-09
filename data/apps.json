@@ -159,5 +159,7 @@
   { "id": "warp",         "name": { "zh": "Warp",           "en": "Warp" },           "category": "development", "icon": "🚀", "type": "software", "file": "warp.json",         "source": "official" },
   { "id": "claude",         "name": { "zh": "Claude",         "en": "Claude" },         "category": "ai",          "icon": "🧠", "type": "software", "file": "claude.json",         "source": "community" },
   { "id": "geminicli",     "name": { "zh": "Gemini CLI",     "en": "Gemini CLI" },     "category": "ai",          "icon": "✨", "type": "software", "file": "geminicli.json",     "source": "official" },
-  { "id": "zed",           "name": { "zh": "Zed",           "en": "Zed" },           "category": "development", "icon": "⚡", "type": "software", "file": "zed.json",           "source": "official" }
+  { "id": "zed",           "name": { "zh": "Zed",           "en": "Zed" },           "category": "development", "icon": "⚡", "type": "software", "file": "zed.json",           "source": "official" },
+  { "id": "jira",          "name": { "zh": "Jira",          "en": "Jira" },          "category": "productivity", "icon": "📋", "type": "software", "file": "jira.json",          "source": "official" },
+  { "id": "trello",        "name": { "zh": "Trello",        "en": "Trello" },        "category": "productivity", "icon": "📌", "type": "software", "file": "trello.json",        "source": "official" }
 ]

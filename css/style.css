@@ -820,6 +820,66 @@ html, body {
 }
 [hidden].wechat-lightbox { display: none !important; }
 @keyframes wechat-fade { from { opacity: 0; } to { opacity: 1; } }
+
+/* ---- [hidden] must always win (fix: settings panel could not be closed,
+        because .settings-panel's display:flex overrides the UA [hidden] rule) ---- */
+[hidden] { display: none !important; }
+
+/* ---- Hide ALL native scrollbars (incl. arrow buttons) ---- */
+*::-webkit-scrollbar-button { display: none; width: 0; height: 0; }
+
+.content,
+.settings-body,
+.detail-drawer-panel {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.content::-webkit-scrollbar,
+.settings-body::-webkit-scrollbar,
+.detail-drawer-panel::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+}
+.content::-webkit-scrollbar-button,
+.content::-webkit-scrollbar-track,
+.content::-webkit-scrollbar-thumb,
+.content::-webkit-scrollbar-corner,
+.settings-body::-webkit-scrollbar-button,
+.settings-body::-webkit-scrollbar-track,
+.settings-body::-webkit-scrollbar-thumb,
+.settings-body::-webkit-scrollbar-corner,
+.detail-drawer-panel::-webkit-scrollbar-button,
+.detail-drawer-panel::-webkit-scrollbar-track,
+.detail-drawer-panel::-webkit-scrollbar-thumb,
+.detail-drawer-panel::-webkit-scrollbar-corner {
+  display: none;
+  width: 0;
+  height: 0;
+  background: transparent;
+}
+
+/* ---- JS-driven custom overlay scrollbar (see js/scrollbar.js) ---- */
+.ka-scrollbar-track {
+  position: absolute;
+  top: 4px;
+  right: 2px;
+  bottom: 4px;
+  width: 6px;
+  background: transparent;
+  pointer-events: none;
+  z-index: 60;
+}
+.ka-scrollbar-thumb {
+  position: absolute;
+  left: 0;
+  width: 6px;
+  border-radius: 999px;
+  background: #cbd5e1;
+  pointer-events: auto;
+  cursor: pointer;
+}
+.ka-scrollbar-thumb:hover { background: #94a3b8; }
 .wechat-lightbox-inner {
   display: flex; flex-direction: column; align-items: center; gap: 12px;
   background: #fff; border-radius: 14px; padding: 18px;

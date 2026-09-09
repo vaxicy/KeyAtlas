@@ -142,11 +142,45 @@ body {
     var(--bg-color);
 }
 
-/* ===== Scrollbar ===== */
-::-webkit-scrollbar { width: 6px; height: 6px; }
-::-webkit-scrollbar-track { background: transparent; }
-::-webkit-scrollbar-thumb { background: var(--border-color); border-radius: 10px; }
-::-webkit-scrollbar-thumb:hover { background: var(--sub-color); }
+/* ===== Scrollbar: hide ALL native bars (incl. arrow buttons); a JS-driven
+   page-level bar replaces the main one (see src/scrollbar.ts) ===== */
+* {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+*::-webkit-scrollbar { display: none; width: 0; height: 0; }
+*::-webkit-scrollbar-button,
+*::-webkit-scrollbar-track,
+*::-webkit-scrollbar-thumb,
+*::-webkit-scrollbar-corner {
+  display: none;
+  width: 0;
+  height: 0;
+  background: transparent;
+}
+
+.ka-scrollbar-track {
+  background: transparent;
+  pointer-events: none;
+  z-index: 100;
+}
+.ka-scrollbar-track-page {
+  position: fixed;
+  top: 4px;
+  right: 2px;
+  bottom: 4px;
+  width: 6px;
+}
+.ka-scrollbar-thumb {
+  position: absolute;
+  left: 0;
+  width: 6px;
+  border-radius: 999px;
+  background: var(--border-color);
+  pointer-events: auto;
+  cursor: pointer;
+}
+.ka-scrollbar-thumb:hover { background: var(--sub-color); }
 
 /* ===== Focus ring ===== */
 *:focus-visible {

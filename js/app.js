@@ -939,6 +939,7 @@
       el.detailDrawer.classList.add("open");
       const focusTarget = el.detailPanel.querySelector("button");
       if (focusTarget) focusTarget.focus();
+      if (window.KeyAtlasScrollbars) window.KeyAtlasScrollbars.updateAll();
     });
   }
 
@@ -1106,6 +1107,7 @@
       el.settingsBackdrop.classList.add("show");
       el.settingsPanel.classList.add("open");
       el.closeSettings.focus();
+      if (window.KeyAtlasScrollbars) window.KeyAtlasScrollbars.updateAll();
     });
   }
   function closeSettings() {

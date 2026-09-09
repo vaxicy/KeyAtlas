@@ -1,0 +1,639 @@
+[
+  {
+    "id": "insomnia-doc-settings",
+    "appId": "insomnia",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "文档 / 集合设置",
+      "en": "Document Settings"
+    },
+    "description": {
+      "zh": "打开文档或集合设置",
+      "en": "Show document/collection settings"
+    },
+    "windows": "Ctrl + Shift + ,",
+    "mac": "⇧ ⌘ ,",
+    "linux": "Ctrl + Shift + ,",
+    "keywords": [
+      "设置",
+      "settings",
+      "文档"
+    ],
+    "pinyin": "wen dang   /   ji he she zhi wendang / jiheshezhi w d   /   j h s z wd / jhsz she zhi   wen dang shezhi wendang s z   w d sz wd"
+  },
+  {
+    "id": "insomnia-req-settings",
+    "appId": "insomnia",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "请求设置",
+      "en": "Request Settings"
+    },
+    "description": {
+      "zh": "打开当前请求设置",
+      "en": "Show request settings"
+    },
+    "windows": "Ctrl + Alt + Shift + ,",
+    "mac": "⌥ ⇧ ⌘ ,",
+    "linux": "Ctrl + Alt + Shift + ,",
+    "keywords": [
+      "设置",
+      "settings",
+      "请求"
+    ],
+    "pinyin": "qing qiu she zhi qingqiushezhi q q s z qqsz she zhi   qing qiu shezhi qingqiu s z   q q sz qq"
+  },
+  {
+    "id": "insomnia-show-keys",
+    "appId": "insomnia",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "显示快捷键",
+      "en": "Show Shortcuts"
+    },
+    "description": {
+      "zh": "显示快捷键列表",
+      "en": "Show keyboard shortcuts"
+    },
+    "windows": "Ctrl + Shift + /",
+    "mac": "⌃ ⇧ ⌘ /",
+    "linux": "Ctrl + Shift + /",
+    "keywords": [
+      "快捷键",
+      "shortcuts"
+    ],
+    "pinyin": "xian shi kuai jie jian xianshikuaijiejian x s k j j xskjj kuai jie jian kuaijiejian k j j kjj"
+  },
+  {
+    "id": "insomnia-prefs",
+    "appId": "insomnia",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "应用偏好",
+      "en": "App Preferences"
+    },
+    "description": {
+      "zh": "打开应用偏好",
+      "en": "App preferences"
+    },
+    "windows": "Ctrl + ,",
+    "mac": "⌘ ,",
+    "linux": "Ctrl + ,",
+    "keywords": [
+      "偏好",
+      "preferences"
+    ],
+    "pinyin": "ying yong pian hao yingyongpianhao y y p h yyph pian hao pianhao p h ph"
+  },
+  {
+    "id": "insomnia-quick-search",
+    "appId": "insomnia",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "快速搜索",
+      "en": "Quick Search"
+    },
+    "description": {
+      "zh": "全局快速搜索",
+      "en": "Quick search"
+    },
+    "windows": "Ctrl + P",
+    "mac": "⌘ P",
+    "linux": "Ctrl + P",
+    "keywords": [
+      "搜索",
+      "search"
+    ],
+    "pinyin": "kuai su sou suo kuaisusousuo k s s s ksss sou suo sousuo s s ss"
+  },
+  {
+    "id": "insomnia-reload-plugins",
+    "appId": "insomnia",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "重载插件",
+      "en": "Reload Plugins"
+    },
+    "description": {
+      "zh": "重新加载插件",
+      "en": "Reload plugins"
+    },
+    "windows": "Ctrl + Shift + R",
+    "mac": "⇧ ⌘ R",
+    "linux": "Ctrl + Shift + R",
+    "keywords": [
+      "插件",
+      "plugins",
+      "重载"
+    ],
+    "pinyin": "zhong zai cha jian zhongzaichajian z z c j zzcj cha jian   zhong zai chajian zhongzai c j   z z cj zz"
+  },
+  {
+    "id": "insomnia-autocomplete",
+    "appId": "insomnia",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "显示自动完成",
+      "en": "Show Autocomplete"
+    },
+    "description": {
+      "zh": "在编辑器中触发自动完成",
+      "en": "Show autocomplete"
+    },
+    "windows": "Ctrl + Space",
+    "mac": "⌃ Space",
+    "linux": "Ctrl + Space",
+    "keywords": [
+      "自动完成",
+      "autocomplete"
+    ],
+    "pinyin": "xian shi zi dong wan cheng xianshizidongwancheng x s z d w c xszdwc zi dong wan cheng zidongwancheng z d w c zdwc"
+  },
+  {
+    "id": "insomnia-history",
+    "appId": "insomnia",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "请求历史",
+      "en": "Request History"
+    },
+    "description": {
+      "zh": "打开请求历史",
+      "en": "Request history"
+    },
+    "windows": "Ctrl + Shift + H",
+    "mac": "⇧ ⌘ H",
+    "linux": "Ctrl + Shift + H",
+    "keywords": [
+      "历史",
+      "history"
+    ],
+    "pinyin": "qing qiu li shi qingqiulishi q q l s qqls li shi lishi l s ls"
+  },
+  {
+    "id": "insomnia-filter-sidebar",
+    "appId": "insomnia",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "过滤侧栏",
+      "en": "Filter Sidebar"
+    },
+    "description": {
+      "zh": "聚焦侧栏过滤框",
+      "en": "Filter sidebar"
+    },
+    "windows": "Ctrl + Shift + F",
+    "mac": "⇧ ⌘ F",
+    "linux": "Ctrl + Shift + F",
+    "keywords": [
+      "过滤",
+      "filter",
+      "侧栏"
+    ],
+    "pinyin": "guo lü ce lan guolücelan g l c l glcl guo lü   ce lan guolü celan g l   c l gl cl"
+  },
+  {
+    "id": "insomnia-toggle-sidebar",
+    "appId": "insomnia",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "切换侧栏",
+      "en": "Toggle Sidebar"
+    },
+    "description": {
+      "zh": "显示 / 隐藏侧栏",
+      "en": "Toggle sidebar"
+    },
+    "windows": "Ctrl + \\",
+    "mac": "⌘ \\",
+    "linux": "Ctrl + \\",
+    "keywords": [
+      "侧栏",
+      "sidebar"
+    ],
+    "pinyin": "qie huan ce lan qiehuancelan q h c l qhcl ce lan celan c l cl"
+  },
+  {
+    "id": "insomnia-focus-response",
+    "appId": "insomnia",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "聚焦响应",
+      "en": "Focus Response"
+    },
+    "description": {
+      "zh": "将焦点移到响应区",
+      "en": "Focus response"
+    },
+    "windows": "Ctrl + '",
+    "mac": "⌘ '",
+    "linux": "Ctrl + '",
+    "keywords": [
+      "响应",
+      "response",
+      "焦点"
+    ],
+    "pinyin": "ju jiao xiang ying jujiaoxiangying j j x y jjxy xiang ying   jiao dian xiangying jiaodian x y   j d xy jd"
+  },
+  {
+    "id": "insomnia-send",
+    "appId": "insomnia",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "发送请求",
+      "en": "Send Request"
+    },
+    "description": {
+      "zh": "发送当前请求",
+      "en": "Send request"
+    },
+    "windows": "Ctrl + Enter",
+    "mac": "⌘ ↩",
+    "linux": "Ctrl + Enter",
+    "keywords": [
+      "发送",
+      "send",
+      "请求"
+    ],
+    "pinyin": "fa song qing qiu fasongqingqiu f s q q fsqq fa song   qing qiu fasong qingqiu f s   q q fs qq"
+  },
+  {
+    "id": "insomnia-send-opts",
+    "appId": "insomnia",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "带选项发送",
+      "en": "Send with Options"
+    },
+    "description": {
+      "zh": "打开发送选项并发送",
+      "en": "Send with options"
+    },
+    "windows": "Ctrl + Shift + Enter",
+    "mac": "⇧ ⌘ ↩",
+    "linux": "Ctrl + Shift + Enter",
+    "keywords": [
+      "发送",
+      "send",
+      "选项"
+    ],
+    "pinyin": "dai xuan xiang fa song daixuanxiangfasong d x x f s dxxfs fa song   xuan xiang fasong xuanxiang f s   x x fs xx"
+  },
+  {
+    "id": "insomnia-env-editor",
+    "appId": "insomnia",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "环境编辑器",
+      "en": "Environment Editor"
+    },
+    "description": {
+      "zh": "打开环境变量编辑器",
+      "en": "Environment editor"
+    },
+    "windows": "Ctrl + E",
+    "mac": "⌘ E",
+    "linux": "Ctrl + E",
+    "keywords": [
+      "环境",
+      "environment",
+      "变量"
+    ],
+    "pinyin": "huan jing bian ji qi huanjingbianjiqi h j b j q hjbjq huan jing   bian liang huanjing bianliang h j   b l hj bl"
+  },
+  {
+    "id": "insomnia-switch-env",
+    "appId": "insomnia",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "切换环境",
+      "en": "Switch Environment"
+    },
+    "description": {
+      "zh": "在环境间切换",
+      "en": "Switch environments"
+    },
+    "windows": "Ctrl + Shift + E",
+    "mac": "⇧ ⌘ E",
+    "linux": "Ctrl + Shift + E",
+    "keywords": [
+      "切换",
+      "环境",
+      "environment"
+    ],
+    "pinyin": "qie huan huan jing qiehuanhuanjing q h h j qhhj qie huan   huan jing qiehuan huanjing q h   h j qh hj"
+  },
+  {
+    "id": "insomnia-var-source",
+    "appId": "insomnia",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "变量源与值",
+      "en": "Variable Source & Value"
+    },
+    "description": {
+      "zh": "显示变量来源与取值",
+      "en": "Show variable source and value"
+    },
+    "windows": "Alt + Shift + U",
+    "mac": "⌥ ⇧ U",
+    "linux": "Alt + Shift + U",
+    "keywords": [
+      "变量",
+      "variable",
+      "值"
+    ],
+    "pinyin": "bian liang yuan yu zhi bianliangyuanyuzhi b l y y z blyyz bian liang   zhi bianliang zhi b l   z bl z"
+  },
+  {
+    "id": "insomnia-method",
+    "appId": "insomnia",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "更改 HTTP 方法",
+      "en": "Change HTTP Method"
+    },
+    "description": {
+      "zh": "聚焦并更改请求方法",
+      "en": "Change method"
+    },
+    "windows": "Ctrl + Shift + L",
+    "mac": "⇧ ⌘ L",
+    "linux": "Ctrl + Shift + L",
+    "keywords": [
+      "方法",
+      "method",
+      "http"
+    ],
+    "pinyin": "geng gai   h t t p   fang fa genggai http fangfa g g   h t t p   f f gg http ff fang fa fangfa f f ff"
+  },
+  {
+    "id": "insomnia-focus-url",
+    "appId": "insomnia",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "聚焦 URL",
+      "en": "Focus URL"
+    },
+    "description": {
+      "zh": "将焦点移到 URL 栏",
+      "en": "Focus URL field"
+    },
+    "windows": "Ctrl + L",
+    "mac": "⌘ L",
+    "linux": "Ctrl + L",
+    "keywords": [
+      "url",
+      "焦点",
+      "focus"
+    ],
+    "pinyin": "ju jiao   u r l jujiao url j j   u r l jj url jiao dian jiaodian j d jd"
+  },
+  {
+    "id": "insomnia-generate",
+    "appId": "insomnia",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "生成代码",
+      "en": "Generate Code"
+    },
+    "description": {
+      "zh": "生成客户端代码",
+      "en": "Generate code"
+    },
+    "windows": "Ctrl + Shift + G",
+    "mac": "⇧ ⌘ G",
+    "linux": "Ctrl + Shift + G",
+    "keywords": [
+      "生成",
+      "代码",
+      "generate",
+      "code"
+    ],
+    "pinyin": "sheng cheng dai ma shengchengdaima s c d m scdm sheng cheng   dai ma shengcheng daima s c   d m sc dm"
+  },
+  {
+    "id": "insomnia-beautify",
+    "appId": "insomnia",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "美化代码",
+      "en": "Beautify Code"
+    },
+    "description": {
+      "zh": "格式化活动代码编辑器",
+      "en": "Beautify code"
+    },
+    "windows": "Ctrl + Shift + F",
+    "mac": "⇧ ⌘ F",
+    "linux": "Ctrl + Shift + F",
+    "keywords": [
+      "美化",
+      "beautify",
+      "format"
+    ],
+    "pinyin": "mei hua dai ma meihuadaima m h d m mhdm mei hua meihua m h mh"
+  },
+  {
+    "id": "insomnia-cookies",
+    "appId": "insomnia",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "编辑 Cookie",
+      "en": "Edit Cookies"
+    },
+    "description": {
+      "zh": "打开 Cookie 编辑器",
+      "en": "Edit cookies"
+    },
+    "windows": "Ctrl + K",
+    "mac": "⌘ K",
+    "linux": "Ctrl + K",
+    "keywords": [
+      "cookie",
+      "编辑"
+    ],
+    "pinyin": "bian ji   c o o k i e bianji cookie b j   c o o k i e bj cookie bian ji bianji b j bj"
+  },
+  {
+    "id": "insomnia-new-req",
+    "appId": "insomnia",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "新建请求",
+      "en": "New Request"
+    },
+    "description": {
+      "zh": "创建 HTTP 请求",
+      "en": "Create request"
+    },
+    "windows": "Ctrl + N",
+    "mac": "⌘ N",
+    "linux": "Ctrl + N",
+    "keywords": [
+      "新建",
+      "request",
+      "请求"
+    ],
+    "pinyin": "xin jian qing qiu xinjianqingqiu x j q q xjqq xin jian   qing qiu xinjian qingqiu x j   q q xj qq"
+  },
+  {
+    "id": "insomnia-dupe-req",
+    "appId": "insomnia",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "复制请求",
+      "en": "Duplicate Request"
+    },
+    "description": {
+      "zh": "复制当前请求",
+      "en": "Duplicate request"
+    },
+    "windows": "Ctrl + D",
+    "mac": "⌘ D",
+    "linux": "Ctrl + D",
+    "keywords": [
+      "复制",
+      "duplicate",
+      "请求"
+    ],
+    "pinyin": "fu zhi qing qiu fuzhiqingqiu f z q q fzqq fu zhi   qing qiu fuzhi qingqiu f z   q q fz qq"
+  },
+  {
+    "id": "insomnia-del-req",
+    "appId": "insomnia",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "删除请求",
+      "en": "Delete Request"
+    },
+    "description": {
+      "zh": "删除当前请求",
+      "en": "Delete request"
+    },
+    "windows": "Ctrl + Shift + Backspace",
+    "mac": "⇧ ⌘ ⌫",
+    "linux": "Ctrl + Shift + Backspace",
+    "keywords": [
+      "删除",
+      "delete",
+      "请求"
+    ],
+    "pinyin": "shan chu qing qiu shanchuqingqiu s c q q scqq shan chu   qing qiu shanchu qingqiu s c   q q sc qq"
+  },
+  {
+    "id": "insomnia-new-folder",
+    "appId": "insomnia",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "新建文件夹",
+      "en": "New Folder"
+    },
+    "description": {
+      "zh": "创建文件夹",
+      "en": "Create folder"
+    },
+    "windows": "Ctrl + Shift + N",
+    "mac": "⇧ ⌘ N",
+    "linux": "Ctrl + Shift + N",
+    "keywords": [
+      "新建",
+      "folder",
+      "文件夹"
+    ],
+    "pinyin": "xin jian wen jian jia xinjianwenjianjia x j w j j xjwjj xin jian   wen jian jia xinjian wenjianjia x j   w j j xj wjj"
+  },
+  {
+    "id": "insomnia-pin",
+    "appId": "insomnia",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "固定 / 取消固定",
+      "en": "Pin / Unpin"
+    },
+    "description": {
+      "zh": "固定或取消固定请求",
+      "en": "Pin/unpin request"
+    },
+    "windows": "Ctrl + Shift + P",
+    "mac": "⇧ ⌘ P",
+    "linux": "Ctrl + Shift + P",
+    "keywords": [
+      "固定",
+      "pin"
+    ],
+    "pinyin": "gu ding   /   qu xiao gu ding guding / quxiaoguding g d   /   q x g d gd / qxgd gu ding guding g d gd"
+  },
+  {
+    "id": "insomnia-close-tab",
+    "appId": "insomnia",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "关闭标签",
+      "en": "Close Tab"
+    },
+    "description": {
+      "zh": "关闭当前标签",
+      "en": "Close tab"
+    },
+    "windows": "Ctrl + W",
+    "mac": "⌘ W",
+    "linux": "Ctrl + W",
+    "keywords": [
+      "关闭",
+      "close",
+      "tab"
+    ],
+    "pinyin": "guan bi biao qian guanbibiaoqian g b b q gbbq guan bi guanbi g b gb"
+  },
+  {
+    "id": "insomnia-graphql-filter",
+    "appId": "insomnia",
+    "type": "software",
+    "category": "development",
+    "name": {
+      "zh": "GraphQL 筛选",
+      "en": "GraphQL Explorer Filter"
+    },
+    "description": {
+      "zh": "聚焦 GraphQL 浏览器筛选框",
+      "en": "GraphQL explorer filter"
+    },
+    "windows": "Ctrl + Shift + I",
+    "mac": "⇧ ⌘ I",
+    "linux": "Ctrl + Shift + I",
+    "keywords": [
+      "graphql",
+      "筛选",
+      "filter"
+    ],
+    "pinyin": "g r a p h q l   shai xuan graphql shaixuan g r a p h q l   s x graphql sx shai xuan shaixuan s x sx"
+  }
+]

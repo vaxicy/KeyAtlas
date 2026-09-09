@@ -165,5 +165,8 @@
   { "id": "maya",          "name": { "zh": "Maya",          "en": "Maya" },          "category": "design",       "icon": "🎬", "type": "software", "file": "maya.json",          "source": "official" },
   { "id": "nuke",          "name": { "zh": "Nuke",          "en": "Nuke" },          "category": "design",       "icon": "🎞️", "type": "software", "file": "nuke.json",          "source": "official" },
   { "id": "codex",         "name": { "zh": "Codex CLI",     "en": "Codex CLI" },     "category": "ai",           "icon": "🤖", "type": "software", "file": "codex.json",         "source": "community" },
-  { "id": "substance",     "name": { "zh": "Substance 3D Designer", "en": "Substance 3D Designer" }, "category": "design", "icon": "🧱", "type": "software", "file": "substance.json",     "source": "official" }
+  { "id": "substance",     "name": { "zh": "Substance 3D Designer", "en": "Substance 3D Designer" }, "category": "design", "icon": "🧱", "type": "software", "file": "substance.json",     "source": "official" },
+  { "id": "antigravity",   "name": { "zh": "Antigravity CLI", "en": "Antigravity CLI" }, "category": "ai", "icon": "🛰️", "type": "software", "file": "antigravity.json",   "source": "official" },
+  { "id": "windsurf",      "name": { "zh": "Windsurf",      "en": "Windsurf" },      "category": "ai",           "icon": "🏄", "type": "software", "file": "windsurf.json",      "source": "community" },
+  { "id": "deepseek",      "name": { "zh": "DeepSeek",      "en": "DeepSeek" },      "category": "ai",           "icon": "🐋", "type": "software", "file": "deepseek.json",      "source": "community" }
 ]

@@ -1,0 +1,654 @@
+[
+  {
+    "id": "agy-escape",
+    "appId": "antigravity",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "关闭面板 / 中断 / 清空",
+      "en": "Close Panels / Halt / Clear"
+    },
+    "description": {
+      "zh": "关闭活动面板、中断活动流或清空空提示",
+      "en": "Closes active panels, halts active streams, or clears empty prompts"
+    },
+    "windows": "Esc",
+    "mac": "Esc",
+    "linux": "Esc",
+    "keywords": [
+      "关闭",
+      "escape",
+      "中断",
+      "清空"
+    ],
+    "pinyin": "guan bi mian ban   /   zhong duan   /   qing kong guanbimianban / zhongduan / qingkong g b m b   /   z d   /   q k gbmb / zd / qk guan bi   zhong duan   qing kong guanbi zhongduan qingkong g b   z d   q k gb zd qk"
+  },
+  {
+    "id": "agy-exit-ctrlc",
+    "appId": "antigravity",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "退出会话",
+      "en": "Exit Session"
+    },
+    "description": {
+      "zh": "终止 CLI 会话（代理工作时确认）",
+      "en": "Terminates the CLI session"
+    },
+    "windows": "Ctrl + C",
+    "mac": "Ctrl + C",
+    "linux": "Ctrl + C",
+    "keywords": [
+      "退出",
+      "exit",
+      "终止"
+    ],
+    "pinyin": "tui chu hui hua tuichuhuihua t c h h tchh tui chu   zhong zhi tuichu zhongzhi t c   z z tc zz"
+  },
+  {
+    "id": "agy-exit-ctrld",
+    "appId": "antigravity",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "退出（提示为空时）",
+      "en": "Exit (Empty Prompt)"
+    },
+    "description": {
+      "zh": "仅在提示框为空时退出会话",
+      "en": "Exits when the prompt box is empty"
+    },
+    "windows": "Ctrl + D",
+    "mac": "Ctrl + D",
+    "linux": "Ctrl + D",
+    "keywords": [
+      "退出",
+      "exit",
+      "提示空"
+    ],
+    "pinyin": "tui chu （ ti shi wei kong shi ） tuichu（tishiweikongshi） t c （ t s w k s ） tc（tswks） tui chu   ti shi kong tuichu tishikong t c   t s k tc tsk"
+  },
+  {
+    "id": "agy-clear",
+    "appId": "antigravity",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "清屏",
+      "en": "Clear Screen"
+    },
+    "description": {
+      "zh": "刷新并清空终端缓冲区",
+      "en": "Refreshes and clears the terminal buffer"
+    },
+    "windows": "Ctrl + L",
+    "mac": "Ctrl + L",
+    "linux": "Ctrl + L",
+    "keywords": [
+      "清屏",
+      "clear",
+      "终端"
+    ],
+    "pinyin": "qing ping qingping q p qp qing ping   zhong duan qingping zhongduan q p   z d qp zd"
+  },
+  {
+    "id": "agy-submit",
+    "appId": "antigravity",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "提交提示",
+      "en": "Submit Prompt"
+    },
+    "description": {
+      "zh": "将提示或菜单选项提交给代理",
+      "en": "Submits prompt or menu selection to the agent"
+    },
+    "windows": "Enter",
+    "mac": "Enter",
+    "linux": "Enter",
+    "keywords": [
+      "提交",
+      "submit",
+      "发送",
+      "enter"
+    ],
+    "pinyin": "ti jiao ti shi tijiaotishi t j t s tjts ti jiao   fa song tijiao fasong t j   f s tj fs"
+  },
+  {
+    "id": "agy-newline",
+    "appId": "antigravity",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "换行（不提交）",
+      "en": "Newline"
+    },
+    "description": {
+      "zh": "插入换行而不提交",
+      "en": "Inserts a newline without submitting"
+    },
+    "windows": "Shift + Enter / Ctrl + J",
+    "mac": "Shift + Enter / Ctrl + J",
+    "linux": "Shift + Enter / Ctrl + J",
+    "keywords": [
+      "换行",
+      "newline",
+      "回车"
+    ],
+    "pinyin": "huan hang （ bu ti jiao ） huanhang（butijiao） h h （ b t j ） hh（btj） huan hang   hui che huanhang huiche h h   h c hh hc"
+  },
+  {
+    "id": "agy-paste",
+    "appId": "antigravity",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "粘贴媒体/文本",
+      "en": "Paste"
+    },
+    "description": {
+      "zh": "粘贴图片或剪贴板文本到提示",
+      "en": "Pastes media or clipboard blocks into the prompt"
+    },
+    "windows": "Ctrl + V",
+    "mac": "Ctrl + V",
+    "linux": "Ctrl + V",
+    "keywords": [
+      "粘贴",
+      "paste",
+      "媒体"
+    ],
+    "pinyin": "nian tie mei ti / wen ben niantiemeiti/wenben n t m t / w b ntmt/wb nian tie   mei ti niantie meiti n t   m t nt mt"
+  },
+  {
+    "id": "agy-toggle-trajectory",
+    "appId": "antigravity",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "展开/折叠推理过程",
+      "en": "Toggle Trajectory"
+    },
+    "description": {
+      "zh": "展开或折叠详细工具推理输出",
+      "en": "Expands/collapses detailed tool reasoning output"
+    },
+    "windows": "Ctrl + O",
+    "mac": "Ctrl + O",
+    "linux": "Ctrl + O",
+    "keywords": [
+      "推理",
+      "trajectory",
+      "展开"
+    ],
+    "pinyin": "zhan kai / zhe die tui li guo cheng zhankai/zhedietuiliguocheng z k / z d t l g c zk/zdtlgc tui li   zhan kai tuili zhankai t l   z k tl zk"
+  },
+  {
+    "id": "agy-open-review",
+    "appId": "antigravity",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "打开产物审查面板",
+      "en": "Open Review Panel"
+    },
+    "description": {
+      "zh": "打开 Artifact Review 面板",
+      "en": "Opens the Artifact Review Panel"
+    },
+    "windows": "Ctrl + R",
+    "mac": "Ctrl + R",
+    "linux": "Ctrl + R",
+    "keywords": [
+      "审查",
+      "review",
+      "产物",
+      "artifact"
+    ],
+    "pinyin": "da kai chan wu shen cha mian ban dakaichanwushenchamianban d k c w s c m b dkcwscmb shen cha   chan wu shencha chanwu s c   c w sc cw"
+  },
+  {
+    "id": "agy-external-editor",
+    "appId": "antigravity",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "外部编辑器撰写",
+      "en": "External Editor"
+    },
+    "description": {
+      "zh": "启动默认 $EDITOR 撰写提示",
+      "en": "Launches default $EDITOR to compose prompt"
+    },
+    "windows": "Ctrl + G",
+    "mac": "Ctrl + G",
+    "linux": "Ctrl + G",
+    "keywords": [
+      "编辑器",
+      "editor",
+      "外部"
+    ],
+    "pinyin": "wai bu bian ji qi zhuan xie waibubianjiqizhuanxie w b b j q z x wbbjqzx bian ji qi   wai bu bianjiqi waibu b j q   w b bjq wb"
+  },
+  {
+    "id": "agy-teleport-agent",
+    "appId": "antigravity",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "切换下一个子代理",
+      "en": "Teleport to Next Subagent"
+    },
+    "description": {
+      "zh": "将焦点切到下一个待确认的子代理",
+      "en": "Switches focus to next subagent awaiting confirmation"
+    },
+    "windows": "Alt + J",
+    "mac": "Alt + J",
+    "linux": "Alt + J",
+    "keywords": [
+      "子代理",
+      "subagent",
+      "切换",
+      "teleport"
+    ],
+    "pinyin": "qie huan xia yi ge zi dai li qiehuanxiayigezidaili q h x y g z d l qhxygzdl zi dai li   qie huan zidaili qiehuan z d l   q h zdl qh"
+  },
+  {
+    "id": "agy-fast-approve",
+    "appId": "antigravity",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "快速批准子代理操作",
+      "en": "Fast Approve"
+    },
+    "description": {
+      "zh": "立即批准状态提示中的待定子代理操作",
+      "en": "Instantly approves pending subagent action"
+    },
+    "windows": "Ctrl + K",
+    "mac": "Ctrl + K",
+    "linux": "Ctrl + K",
+    "keywords": [
+      "批准",
+      "approve",
+      "子代理"
+    ],
+    "pinyin": "kuai su pi zhun zi dai li cao zuo kuaisupizhunzidailicaozuo k s p z z d l c z kspzzdlcz pi zhun   zi dai li pizhun zidaili p z   z d l pz zdl"
+  },
+  {
+    "id": "agy-cursor-start",
+    "appId": "antigravity",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "光标到行首",
+      "en": "Cursor to Start"
+    },
+    "description": {
+      "zh": "将光标移到行首",
+      "en": "Moves cursor to beginning of line"
+    },
+    "windows": "Ctrl + A",
+    "mac": "Ctrl + A",
+    "linux": "Ctrl + A",
+    "keywords": [
+      "光标",
+      "cursor",
+      "行首"
+    ],
+    "pinyin": "guang biao dao hang shou guangbiaodaohangshou g b d h s gbdhs guang biao   hang shou guangbiao hangshou g b   h s gb hs"
+  },
+  {
+    "id": "agy-cursor-end",
+    "appId": "antigravity",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "光标到行尾",
+      "en": "Cursor to End"
+    },
+    "description": {
+      "zh": "将光标移到行尾",
+      "en": "Moves cursor to end of line"
+    },
+    "windows": "Ctrl + E",
+    "mac": "Ctrl + E",
+    "linux": "Ctrl + E",
+    "keywords": [
+      "光标",
+      "cursor",
+      "行尾"
+    ],
+    "pinyin": "guang biao dao hang wei guangbiaodaohangwei g b d h w gbdhw guang biao   hang wei guangbiao hangwei g b   h w gb hw"
+  },
+  {
+    "id": "agy-undo-text",
+    "appId": "antigravity",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "撤销文本",
+      "en": "Undo Text"
+    },
+    "description": {
+      "zh": "撤销上一次编辑",
+      "en": "Reverts the last edit"
+    },
+    "windows": "Ctrl + Z",
+    "mac": "Ctrl + Z",
+    "linux": "Ctrl + Z",
+    "keywords": [
+      "撤销",
+      "undo",
+      "文本"
+    ],
+    "pinyin": "che xiao wen ben chexiaowenben c x w b cxwb che xiao   wen ben chexiao wenben c x   w b cx wb"
+  },
+  {
+    "id": "agy-redo-text",
+    "appId": "antigravity",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "重做文本",
+      "en": "Redo Text"
+    },
+    "description": {
+      "zh": "重做被撤销的文本操作",
+      "en": "Redoes the last undone text operation"
+    },
+    "windows": "Ctrl + Shift + Z",
+    "mac": "Ctrl + Shift + Z",
+    "linux": "Ctrl + Shift + Z",
+    "keywords": [
+      "重做",
+      "redo",
+      "文本"
+    ],
+    "pinyin": "zhong zuo wen ben zhongzuowenben z z w b zzwb zhong zuo   wen ben zhongzuo wenben z z   w b zz wb"
+  },
+  {
+    "id": "agy-forward-delete",
+    "appId": "antigravity",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "向前删除",
+      "en": "Forward Delete"
+    },
+    "description": {
+      "zh": "删除光标后的字符（提示非空时）",
+      "en": "Forward delete (when prompt is non-empty)"
+    },
+    "windows": "Ctrl + D",
+    "mac": "Ctrl + D",
+    "linux": "Ctrl + D",
+    "keywords": [
+      "删除",
+      "delete",
+      "前向"
+    ],
+    "pinyin": "xiang qian shan chu xiangqianshanchu x q s c xqsc shan chu   qian xiang shanchu qianxiang s c   q x sc qx"
+  },
+  {
+    "id": "agy-dictation",
+    "appId": "antigravity",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "语音听写",
+      "en": "Voice Dictation"
+    },
+    "description": {
+      "zh": "开始或停止语音听写",
+      "en": "Starts or stops voice dictation"
+    },
+    "windows": "F5",
+    "mac": "F5",
+    "linux": "F5",
+    "keywords": [
+      "语音",
+      "dictation",
+      "听写"
+    ],
+    "pinyin": "yu yin ting xie yuyintingxie y y t x yytx yu yin   ting xie yuyin tingxie y y   t x yy tx"
+  },
+  {
+    "id": "agy-nav-up",
+    "appId": "antigravity",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "上移选择",
+      "en": "Navigate Up"
+    },
+    "description": {
+      "zh": "向上滚动高亮选项",
+      "en": "Scrolls highlighted selection up"
+    },
+    "windows": "↑",
+    "mac": "↑",
+    "linux": "↑",
+    "keywords": [
+      "导航",
+      "navigation",
+      "上"
+    ],
+    "pinyin": "shang yi xuan ze shangyixuanze s y x z syxz dao hang   shang daohang shang d h   s dh s"
+  },
+  {
+    "id": "agy-nav-down",
+    "appId": "antigravity",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "下移选择",
+      "en": "Navigate Down"
+    },
+    "description": {
+      "zh": "向下滚动高亮选项",
+      "en": "Scrolls highlighted selection down"
+    },
+    "windows": "↓",
+    "mac": "↓",
+    "linux": "↓",
+    "keywords": [
+      "导航",
+      "navigation",
+      "下"
+    ],
+    "pinyin": "xia yi xuan ze xiayixuanze x y x z xyxz dao hang   xia daohang xia d h   x dh x"
+  },
+  {
+    "id": "agy-page-up",
+    "appId": "antigravity",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "上翻一页",
+      "en": "Page Up"
+    },
+    "description": {
+      "zh": "向上翻一页视口",
+      "en": "Scrolls viewport up by one page"
+    },
+    "windows": "PgUp / Shift + ↑",
+    "mac": "PgUp / ⇧ ↑",
+    "linux": "PgUp / Shift + ↑",
+    "keywords": [
+      "翻页",
+      "page up",
+      "导航"
+    ],
+    "pinyin": "shang fan yi ye shangfanyiye s f y y sfyy fan ye   dao hang fanye daohang f y   d h fy dh"
+  },
+  {
+    "id": "agy-page-down",
+    "appId": "antigravity",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "下翻一页",
+      "en": "Page Down"
+    },
+    "description": {
+      "zh": "向下翻一页视口",
+      "en": "Scrolls viewport down by one page"
+    },
+    "windows": "PgDn / Shift + ↓",
+    "mac": "PgDn / ⇧ ↓",
+    "linux": "PgDn / Shift + ↓",
+    "keywords": [
+      "翻页",
+      "page down",
+      "导航"
+    ],
+    "pinyin": "xia fan yi ye xiafanyiye x f y y xfyy fan ye   dao hang fanye daohang f y   d h fy dh"
+  },
+  {
+    "id": "agy-nav-left",
+    "appId": "antigravity",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "上一页（多页结构）",
+      "en": "Previous Page"
+    },
+    "description": {
+      "zh": "在多页结构中切换上一页（如会话选择器）",
+      "en": "Swaps to previous page in multipage structures"
+    },
+    "windows": "←",
+    "mac": "←",
+    "linux": "←",
+    "keywords": [
+      "导航",
+      "navigation",
+      "上一页"
+    ],
+    "pinyin": "shang yi ye （ duo ye jie gou ） shangyiye（duoyejiegou） s y y （ d y j g ） syy（dyjg） dao hang   shang yi ye daohang shangyiye d h   s y y dh syy"
+  },
+  {
+    "id": "agy-nav-right",
+    "appId": "antigravity",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "下一页（多页结构）",
+      "en": "Next Page"
+    },
+    "description": {
+      "zh": "在多页结构中切换下一页",
+      "en": "Swaps to next page in multipage structures"
+    },
+    "windows": "→",
+    "mac": "→",
+    "linux": "→",
+    "keywords": [
+      "导航",
+      "navigation",
+      "下一页"
+    ],
+    "pinyin": "xia yi ye （ duo ye jie gou ） xiayiye（duoyejiegou） x y y （ d y j g ） xyy（dyjg） dao hang   xia yi ye daohang xiayiye d h   x y y dh xyy"
+  },
+  {
+    "id": "agy-confirm-tab",
+    "appId": "antigravity",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "确认斜杠命令补全",
+      "en": "Confirm Autofill"
+    },
+    "description": {
+      "zh": "确认高亮的斜杠命令补全项",
+      "en": "Confirms highlighted slash-command autofill"
+    },
+    "windows": "Tab",
+    "mac": "Tab",
+    "linux": "Tab",
+    "keywords": [
+      "补全",
+      "autofill",
+      "tab",
+      "斜杠"
+    ],
+    "pinyin": "que ren xie gang ming ling bu quan querenxiegangminglingbuquan q r x g m l b q qrxgmlbq bu quan   xie gang buquan xiegang b q   x g bq xg"
+  },
+  {
+    "id": "agy-confirm-yes",
+    "appId": "antigravity",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "确认（是）",
+      "en": "Confirm Yes"
+    },
+    "description": {
+      "zh": "授权提议的工具/命令/产物",
+      "en": "Authorizes proposed tool, command, or artifact"
+    },
+    "windows": "Y",
+    "mac": "Y",
+    "linux": "Y",
+    "keywords": [
+      "确认",
+      "confirm",
+      "yes",
+      "授权"
+    ],
+    "pinyin": "que ren （ shi ） queren（shi） q r （ s ） qr（s） que ren   shou quan queren shouquan q r   s q qr sq"
+  },
+  {
+    "id": "agy-confirm-no",
+    "appId": "antigravity",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "拒绝（否）",
+      "en": "Confirm No"
+    },
+    "description": {
+      "zh": "拒绝提议的工具/命令/产物",
+      "en": "Rejects proposed tool, command, or artifact"
+    },
+    "windows": "N",
+    "mac": "N",
+    "linux": "N",
+    "keywords": [
+      "拒绝",
+      "reject",
+      "no",
+      "确认"
+    ],
+    "pinyin": "ju jue （ fou ） jujue（fou） j j （ f ） jj（f） ju jue   que ren jujue queren j j   q r jj qr"
+  },
+  {
+    "id": "agy-approve-all",
+    "appId": "antigravity",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "全部批准产物",
+      "en": "Approve All Artifacts"
+    },
+    "description": {
+      "zh": "在审查面板中一次性批准所有产物",
+      "en": "Approves all artifacts in the Review Panel"
+    },
+    "windows": "A",
+    "mac": "A",
+    "linux": "A",
+    "keywords": [
+      "批准",
+      "approve",
+      "全部",
+      "产物"
+    ],
+    "pinyin": "quan bu pi zhun chan wu quanbupizhunchanwu q b p z c w qbpzcw pi zhun   quan bu   chan wu pizhun quanbu chanwu p z   q b   c w pz qb cw"
+  }
+]

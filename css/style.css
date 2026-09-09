@@ -173,10 +173,10 @@ html, body {
 
 /* ---- Key symbol legend (bottom of search results) ---- */
 .key-legend {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 4px 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  gap: 6px 8px;
   margin-top: 16px;
   padding-bottom: 4px;
   font-size: 10px;

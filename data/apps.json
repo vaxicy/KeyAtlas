@@ -152,5 +152,12 @@
   { "id": "midjourney",      "name": { "zh": "Midjourney",     "en": "Midjourney" },     "category": "ai",            "icon": "🖼️", "type": "software", "popular": true, "file": "midjourney.json", "source": "community" },
   { "id": "clickup",         "name": { "zh": "ClickUp",        "en": "ClickUp" },        "category": "productivity",  "icon": "📋", "type": "software", "file": "clickup.json", "source": "community" },
   { "id": "datagrip",        "name": { "zh": "DataGrip",       "en": "DataGrip" },       "category": "development",   "icon": "🗄️", "type": "software", "file": "datagrip.json", "source": "community" },
-  { "id": "rubymine",        "name": { "zh": "RubyMine",       "en": "RubyMine" },       "category": "development",   "icon": "💎", "type": "software", "file": "rubymine.json", "source": "community" }
+  { "id": "rubymine",        "name": { "zh": "RubyMine",       "en": "RubyMine" },       "category": "development",   "icon": "💎", "type": "software", "file": "rubymine.json", "source": "community" },
+
+  { "id": "githubcopilot", "name": { "zh": "GitHub Copilot", "en": "GitHub Copilot" }, "category": "ai",          "icon": "🤖", "type": "software", "file": "githubcopilot.json", "source": "official" },
+  { "id": "rstudio",      "name": { "zh": "RStudio",        "en": "RStudio" },        "category": "development", "icon": "📊", "type": "software", "file": "rstudio.json",      "source": "official" },
+  { "id": "warp",         "name": { "zh": "Warp",           "en": "Warp" },           "category": "development", "icon": "🚀", "type": "software", "file": "warp.json",         "source": "official" },
+  { "id": "claude",         "name": { "zh": "Claude",         "en": "Claude" },         "category": "ai",          "icon": "🧠", "type": "software", "file": "claude.json",         "source": "community" },
+  { "id": "geminicli",     "name": { "zh": "Gemini CLI",     "en": "Gemini CLI" },     "category": "ai",          "icon": "✨", "type": "software", "file": "geminicli.json",     "source": "official" },
+  { "id": "zed",           "name": { "zh": "Zed",           "en": "Zed" },           "category": "development", "icon": "⚡", "type": "software", "file": "zed.json",           "source": "official" }
 ]

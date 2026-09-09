@@ -1,0 +1,301 @@
+[
+  {
+    "id": "perplexity-focus-search",
+    "appId": "perplexity",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "聚焦搜索框",
+      "en": "Focus Search Box"
+    },
+    "description": {
+      "zh": "将焦点移到搜索框（也可输入 / 打开命令）",
+      "en": "Focus the search box or open command menu"
+    },
+    "windows": "/",
+    "mac": "/",
+    "linux": "/",
+    "keywords": [
+      "搜索",
+      "search",
+      "聚焦",
+      "focus"
+    ],
+    "pinyin": "ju jiao sou suo kuang jujiaosousuokuang j j s s k jjssk sou suo   ju jiao sousuo jujiao s s   j j ss jj"
+  },
+  {
+    "id": "perplexity-submit",
+    "appId": "perplexity",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "提交问题",
+      "en": "Submit Question"
+    },
+    "description": {
+      "zh": "提交当前提问",
+      "en": "Submit the question"
+    },
+    "windows": "Enter",
+    "mac": "Enter",
+    "linux": "Enter",
+    "keywords": [
+      "提交",
+      "submit",
+      "发送",
+      "enter"
+    ],
+    "pinyin": "ti jiao wen ti tijiaowenti t j w t tjwt ti jiao   fa song tijiao fasong t j   f s tj fs"
+  },
+  {
+    "id": "perplexity-newline",
+    "appId": "perplexity",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "换行（不发送）",
+      "en": "New Line"
+    },
+    "description": {
+      "zh": "在输入框中换行",
+      "en": "New line in composer"
+    },
+    "windows": "Shift + Enter",
+    "mac": "Shift + Enter",
+    "linux": "Shift + Enter",
+    "keywords": [
+      "换行",
+      "newline",
+      "回车"
+    ],
+    "pinyin": "huan hang （ bu fa song ） huanhang（bufasong） h h （ b f s ） hh（bfs） huan hang   hui che huanhang huiche h h   h c hh hc"
+  },
+  {
+    "id": "perplexity-stop",
+    "appId": "perplexity",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "停止生成",
+      "en": "Stop Answer"
+    },
+    "description": {
+      "zh": "取消生成或停止回答",
+      "en": "Cancel generation / stop answer"
+    },
+    "windows": "Esc",
+    "mac": "Esc",
+    "linux": "Esc",
+    "keywords": [
+      "停止",
+      "stop",
+      "中断"
+    ],
+    "pinyin": "ting zhi sheng cheng tingzhishengcheng t z s c tzsc ting zhi   zhong duan tingzhi zhongduan t z   z d tz zd"
+  },
+  {
+    "id": "perplexity-new-tab",
+    "appId": "perplexity",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "新建标签（新查询）",
+      "en": "New Tab"
+    },
+    "description": {
+      "zh": "打开新标签进行新查询",
+      "en": "New tab for a fresh query"
+    },
+    "windows": "Ctrl + T",
+    "mac": "⌘ T",
+    "linux": "Ctrl + T",
+    "keywords": [
+      "新标签",
+      "new tab",
+      "查询"
+    ],
+    "pinyin": "xin jian biao qian （ xin cha xun ） xinjianbiaoqian（xinchaxun） x j b q （ x c x ） xjbq（xcx） xin biao qian   cha xun xinbiaoqian chaxun x b q   c x xbq cx"
+  },
+  {
+    "id": "perplexity-close-tab",
+    "appId": "perplexity",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "关闭标签",
+      "en": "Close Tab"
+    },
+    "description": {
+      "zh": "关闭当前标签",
+      "en": "Close current tab"
+    },
+    "windows": "Ctrl + W",
+    "mac": "⌘ W",
+    "linux": "Ctrl + W",
+    "keywords": [
+      "关闭",
+      "close",
+      "标签",
+      "tab"
+    ],
+    "pinyin": "guan bi biao qian guanbibiaoqian g b b q gbbq guan bi   biao qian guanbi biaoqian g b   b q gb bq"
+  },
+  {
+    "id": "perplexity-reopen-tab",
+    "appId": "perplexity",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "重开关闭的标签",
+      "en": "Reopen Tab"
+    },
+    "description": {
+      "zh": "重新打开刚关闭的标签",
+      "en": "Reopen closed tab"
+    },
+    "windows": "Ctrl + Shift + T",
+    "mac": "⌘ ⇧ T",
+    "linux": "Ctrl + Shift + T",
+    "keywords": [
+      "重开",
+      "reopen",
+      "标签"
+    ],
+    "pinyin": "zhong kai guan bi de biao qian zhongkaiguanbidebiaoqian z k g b d b q zkgbdbq zhong kai   biao qian zhongkai biaoqian z k   b q zk bq"
+  },
+  {
+    "id": "perplexity-next-tab",
+    "appId": "perplexity",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "切换下一标签",
+      "en": "Next Tab"
+    },
+    "description": {
+      "zh": "切换到下一个标签",
+      "en": "Switch to next tab"
+    },
+    "windows": "Ctrl + Tab",
+    "mac": "Ctrl + Tab",
+    "linux": "Ctrl + Tab",
+    "keywords": [
+      "切换",
+      "next",
+      "tab"
+    ],
+    "pinyin": "qie huan xia yi biao qian qiehuanxiayibiaoqian q h x y b q qhxybq qie huan qiehuan q h qh"
+  },
+  {
+    "id": "perplexity-jump-tab",
+    "appId": "perplexity",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "跳转到标签 1–8",
+      "en": "Jump to Tab 1–8"
+    },
+    "description": {
+      "zh": "直接跳转到第 1–8 个标签",
+      "en": "Jump to tab 1–8"
+    },
+    "windows": "Ctrl + 1–8",
+    "mac": "⌘ 1–8",
+    "linux": "Ctrl + 1–8",
+    "keywords": [
+      "跳转",
+      "jump",
+      "tab"
+    ],
+    "pinyin": "tiao zhuan dao biao qian   1 – 8 tiaozhuandaobiaoqian 1–8 t z d b q   1 – 8 tzdbq 1–8 tiao zhuan tiaozhuan t z tz"
+  },
+  {
+    "id": "perplexity-history",
+    "appId": "perplexity",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "打开历史",
+      "en": "Open History"
+    },
+    "description": {
+      "zh": "打开研究历史（research recall）",
+      "en": "Open history"
+    },
+    "windows": "Ctrl + H",
+    "mac": "⌘ Y",
+    "linux": "Ctrl + H",
+    "keywords": [
+      "历史",
+      "history"
+    ],
+    "pinyin": "da kai li shi dakailishi d k l s dkls li shi lishi l s ls"
+  },
+  {
+    "id": "perplexity-downloads",
+    "appId": "perplexity",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "打开下载",
+      "en": "Open Downloads"
+    },
+    "description": {
+      "zh": "打开已保存的导出",
+      "en": "Open saved exports"
+    },
+    "windows": "Ctrl + J",
+    "mac": "⌘ ⌥ L",
+    "linux": "Ctrl + J",
+    "keywords": [
+      "下载",
+      "downloads"
+    ],
+    "pinyin": "da kai xia zai dakaixiazai d k x z dkxz xia zai xiazai x z xz"
+  },
+  {
+    "id": "perplexity-back",
+    "appId": "perplexity",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "返回上一页",
+      "en": "Go Back"
+    },
+    "description": {
+      "zh": "返回上一个线程/页面",
+      "en": "Go back to previous thread"
+    },
+    "windows": "Alt + ←",
+    "mac": "⌘ [",
+    "linux": "Alt + ←",
+    "keywords": [
+      "返回",
+      "back",
+      "后退"
+    ],
+    "pinyin": "fan hui shang yi ye fanhuishangyiye f h s y y fhsyy fan hui   hou tui fanhui houtui f h   h t fh ht"
+  },
+  {
+    "id": "perplexity-forward",
+    "appId": "perplexity",
+    "type": "software",
+    "category": "ai",
+    "name": {
+      "zh": "前进",
+      "en": "Go Forward"
+    },
+    "description": {
+      "zh": "前进到下一页",
+      "en": "Go forward"
+    },
+    "windows": "Alt + →",
+    "mac": "⌘ ]",
+    "linux": "Alt + →",
+    "keywords": [
+      "前进",
+      "forward"
+    ],
+    "pinyin": "qian jin qianjin q j qj qian jin qianjin q j qj"
+  }
+]

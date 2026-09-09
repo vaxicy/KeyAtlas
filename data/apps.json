@@ -168,5 +168,15 @@
   { "id": "substance",     "name": { "zh": "Substance 3D Designer", "en": "Substance 3D Designer" }, "category": "design", "icon": "🧱", "type": "software", "file": "substance.json",     "source": "official" },
   { "id": "antigravity",   "name": { "zh": "Antigravity CLI", "en": "Antigravity CLI" }, "category": "ai", "icon": "🛰️", "type": "software", "file": "antigravity.json",   "source": "official" },
   { "id": "windsurf",      "name": { "zh": "Windsurf",      "en": "Windsurf" },      "category": "ai",           "icon": "🏄", "type": "software", "file": "windsurf.json",      "source": "community" },
-  { "id": "deepseek",      "name": { "zh": "DeepSeek",      "en": "DeepSeek" },      "category": "ai",           "icon": "🐋", "type": "software", "file": "deepseek.json",      "source": "community" }
+  { "id": "deepseek",      "name": { "zh": "DeepSeek",      "en": "DeepSeek" },      "category": "ai",           "icon": "🐋", "type": "software", "file": "deepseek.json",      "source": "community" },
+  { "id": "claude-code",   "name": { "zh": "Claude Code",   "en": "Claude Code" },   "category": "ai",           "icon": "⚡", "type": "software", "file": "claude-code.json",   "source": "official" },
+  { "id": "gemini",        "name": { "zh": "Gemini",        "en": "Gemini" },        "category": "ai",           "icon": "🔮", "type": "software", "file": "gemini.json",        "source": "community" },
+  { "id": "grok",          "name": { "zh": "Grok",          "en": "Grok" },          "category": "ai",           "icon": "🐦", "type": "software", "file": "grok.json",          "source": "community" },
+  { "id": "perplexity",    "name": { "zh": "Perplexity",    "en": "Perplexity" },    "category": "ai",           "icon": "🔎", "type": "software", "file": "perplexity.json",    "source": "community" },
+  { "id": "1password",     "name": { "zh": "1Password",     "en": "1Password" },     "category": "productivity", "icon": "🔐", "type": "software", "file": "1password.json",     "source": "official" },
+  { "id": "bitwarden",     "name": { "zh": "Bitwarden",     "en": "Bitwarden" },     "category": "productivity", "icon": "🔒", "type": "software", "file": "bitwarden.json",     "source": "official" },
+  { "id": "things",        "name": { "zh": "Things",        "en": "Things" },        "category": "productivity", "icon": "🗒️", "type": "software", "file": "things.json",        "source": "official" },
+  { "id": "craft",         "name": { "zh": "Craft",         "en": "Craft" },         "category": "productivity", "icon": "📔", "type": "software", "file": "craft.json",         "source": "official" },
+  { "id": "rectangle",     "name": { "zh": "Rectangle",     "en": "Rectangle" },     "category": "productivity", "icon": "🔲", "type": "software", "file": "rectangle.json",     "source": "community" },
+  { "id": "magnet",        "name": { "zh": "Magnet",        "en": "Magnet" },        "category": "productivity", "icon": "🧲", "type": "software", "file": "magnet.json",        "source": "community" }
 ]

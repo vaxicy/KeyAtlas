@@ -480,8 +480,8 @@
         // 若未设 sortKey 且显示名为中文，回退到英文名首字母，避免以汉字作分组标题。
         const sortKey = a.sortKey || a.name.en || name;
         let letter = (sortKey[0] || "#").toUpperCase();
-        // 防御：万一首字符仍是中文（漏设 sortKey 且英文名也是中文），归入 # 组
-        if (/[一-鿿]/.test(letter)) letter = "#";
+        // 非字母开头（数字、符号、中文等）统一归入 # 组
+        if (!/^[A-Za-z]$/.test(letter)) letter = "#";
         if (!groups.has(letter)) groups.set(letter, []);
         groups.get(letter).push(a);
       }

@@ -8,7 +8,7 @@
 
 [English](#) · [中文](#)
 
-[![Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-4285F4?logo=google-chrome&logoColor=fff)](https://chrome.google.com/webstore/detail/keyatlas/bkiplkbfihgaoodnhbpegjanncojhikn)
+[![Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-4285F4?logo=google-chrome&logoColor=fff)](https://chromewebstore.google.com/detail/keyatlas/bkiplkbfihgaoodnhbpegjanncojhikn)
 [![Manifest V3](https://img.shields.io/badge/MV3-FF5722)](#)
 [![License: Non-Commercial](https://img.shields.io/badge/License-Non--Commercial-red)](#)
 
@@ -18,16 +18,16 @@
 
 ## Overview
 
-**KeyAtlas** is a fully offline, lightweight Chrome extension (Manifest V3) that helps you instantly find keyboard shortcuts for your operating system, design tools, development IDEs, office suites, and hundreds more — all without an internet connection or backend server.
+**KeyAtlas** is an offline Chrome extension (Manifest V3) for looking up keyboard shortcuts: system, browsers, design tools, IDEs, office suites and more. Everything ships with the extension, so no internet connection and no backend server are involved.
 
-Bilingual (English / 中文) out of the box. Works on Windows, macOS, and Linux.
+Bilingual (English / 中文). Covers Windows, macOS and Linux.
 
 ---
 
 ## Features
 
-### 🔍 Smart Search
-- Fuzzy, weighted search across **5000+ shortcuts** (153 apps/systems)
+### 🔍 Search
+- Fuzzy, weighted search across **7,900+ shortcuts** (228 apps/systems)
 - Matches by: action name, description, keywords, app name, pinyin, key combo
 - Cross-language synonym expansion (e.g., "复制" finds "Copy", "screenshot" finds "截图")
 - `@appname` syntax to jump directly to an app's shortcuts
@@ -50,13 +50,13 @@ Bilingual (English / 中文) out of the box. Works on Windows, macOS, and Linux.
 - Seamless switch in Settings
 
 ### 🎨 Theme
-- Light / Dark / Follow system theme
-- Smooth transitions, visually consistent across all views
+- Light and dark themes with an OS-preference option
+- The same theme system as the web version, applied to every view
 
 ### 📋 Quick Copy
-- Click any shortcut card to copy the current OS key combo
-- Detail drawer shows Windows, macOS, and Linux side by side
-- One-click copy for any platform
+- Click a shortcut card to copy the combo for your OS
+- The detail drawer lists Windows, macOS and Linux side by side
+- Copy any platform's combo from the drawer
 
 ---
 
@@ -66,15 +66,15 @@ Bilingual (English / 中文) out of the box. Works on Windows, macOS, and Linux.
 |----------|-------|---------|
 | System | 5 | Windows, macOS, Linux, ChromeOS, iOS/iPadOS |
 | Browser | 8 | Chrome, Edge, Firefox, Safari, Brave, Opera, Vivaldi, Arc |
-| Development | 25 | VS Code, IntelliJ IDEA, Vim, Git, Docker, Postman, Android Studio, JetBrains ×7 |
-| Design | 39 | Photoshop, Figma, Illustrator, Blender, Sketch, Canva, DaVinci Resolve, Affinity ×3 |
-| Productivity | 26 | Excel, Word, PowerPoint, Notion, Obsidian, Todoist, Gmail, Google Docs, Slack, Teams, Outlook, 飞书, 钉钉, 企业微信 |
-| Video | 9 | Premiere Pro, After Effects, Final Cut Pro, 剪映, OBS Studio |
-| Audio | 8 | Ableton Live, Logic Pro, FL Studio, Audition, Audacity, GarageBand, Cubase |
-| AI Tools | 2 | ChatGPT, Midjourney |
-| Other | — | MATLAB, 哔哩哔哩, and more |
+| Development | 49 | VS Code, IntelliJ IDEA, Vim, Git, Docker, Postman, Android Studio, JetBrains ×7 |
+| Design | 55 | Photoshop, Figma, Illustrator, Blender, Sketch, Canva, DaVinci Resolve, Affinity ×3 |
+| Productivity | 59 | Excel, Word, PowerPoint, Notion, Obsidian, Todoist, Gmail, Google Docs, Slack, Teams, Outlook, 飞书, 钉钉, 企业微信 |
+| Video | 16 | Premiere Pro, After Effects, Final Cut Pro, 剪映, OBS Studio |
+| Audio | 13 | Ableton Live, Logic Pro, FL Studio, Audition, Audacity, GarageBand, Cubase |
+| AI Tools | 20 | ChatGPT, Midjourney |
+| Other | 3 | MATLAB, 哔哩哔哩, and more |
 
-> **150+ apps, 5000+ shortcuts** — and growing.
+> **228 apps, 7,900+ shortcuts** — and growing.
 
 ---
 
@@ -87,7 +87,7 @@ Shortcut data is sourced from official documentation where available, community 
 ## Install
 
 ### Chrome Web Store
-👉 [**Install from Chrome Web Store**](https://chrome.google.com/webstore/detail/keyatlas/bkiplkbfihgaoodnhbpegjanncojhikn)
+👉 [**Install from Chrome Web Store**](https://chromewebstore.google.com/detail/keyatlas/bkiplkbfihgaoodnhbpegjanncojhikn)
 
 ### Developer Mode (Manual Load)
 1. Clone or download this repository.
@@ -118,9 +118,9 @@ KeyAtlas/
 │   └── background.js          # Service Worker (Omnibox support)
 ├── data/
 │   ├── categories.json        # Category definitions
-│   ├── apps.json              # App registry (150+ entries)
+│   ├── apps.json              # App registry (228 entries)
 │   ├── search.json            # Precompiled search index
-│   └── shortcuts/             # 153 per-app shortcut JSON files
+│   └── shortcuts/             # 228 per-app shortcut JSON files
 ├── _locales/en/               # Chrome Web Store i18n messages
 ├── icons/                     # Extension icons
 ├── scripts/
@@ -219,8 +219,8 @@ For commercial use, please contact the author.
 **vaxicy**
 
 - GitHub: [@vaxicy](https://github.com/vaxicy)
-- Chrome Web Store: [KeyAtlas](https://chrome.google.com/webstore/detail/keyatlas/bkiplkbfihgaoodnhbpegjanncojhikn)
+- Chrome Web Store: [KeyAtlas](https://chromewebstore.google.com/detail/keyatlas/bkiplkbfihgaoodnhbpegjanncojhikn)
 
 ---
 
-*KeyAtlas — Your keyboard shortcut atlas, always at your fingertips.*
+*KeyAtlas — an offline shortcut atlas for 228 apps.*

@@ -47,7 +47,7 @@ Bilingual (English / 中文). Covers Windows, macOS and Linux.
 ### 🌐 Bilingual Interface
 - Full UI in English and 中文
 - Language priority: `?lang=` URL parameter > localStorage > browser language
-- Seamless switch in Settings
+- Switch the language from Settings
 
 ### 🎨 Theme
 - Light and dark themes with an OS-preference option
